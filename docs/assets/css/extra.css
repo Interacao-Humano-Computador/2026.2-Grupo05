@@ -2,8 +2,8 @@
 
 :root {
   --ihc-width: 80rem;
-  --navy: #0a2342;
-  --navy-2: #12355c;
+  --navy: #155e95;
+  --navy-2: #1e75b2;
   --ink: #102033;
   --paper: #f3f6fa;
   --card: #ffffff;
@@ -499,8 +499,8 @@ html {
   margin: 0 -1.2rem 1.6rem;
   padding: 3rem 2rem 2.8rem;
   background:
-    radial-gradient(ellipse 55% 85% at 90% 0%, rgba(26, 166, 214, 0.28), transparent 55%),
-    linear-gradient(160deg, #0a2342 0%, #12355c 100%);
+    radial-gradient(ellipse 55% 85% at 90% 0%, rgba(125, 211, 252, 0.35), transparent 55%),
+    linear-gradient(155deg, #155e95 0%, #1e75b2 50%, #2682bf 100%);
   color: #f3f6fa;
 }
 
