@@ -86,16 +86,29 @@ html {
 }
 
 .md-header__button.md-logo {
-  display: block !important;
-  padding: 0;
-  margin-right: 0.45rem;
-}
-
-.md-header__button.md-logo img,
-.md-header__button.md-logo svg {
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
   width: 2.35rem;
   height: 2.35rem;
+  padding: 0;
+  margin-right: 0.45rem;
+  color: #f3f6fa !important;
   border-radius: 0.4rem;
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.md-header__button.md-logo svg {
+  width: 1.55rem;
+  height: 1.55rem;
+  fill: currentColor;
+  display: block;
+}
+
+.md-header__button.md-logo:hover,
+.md-header__button.md-logo:focus-visible {
+  color: var(--gold) !important;
+  transform: translateY(-1px);
 }
 
 .md-header__title,
@@ -196,8 +209,22 @@ html {
   border-bottom: 3px solid var(--gold);
 }
 
+.md-tabs .md-grid,
 .md-tabs__inner {
   padding: 0 1.3rem;
+}
+
+.md-tabs__list {
+  display: flex;
+  align-items: center;
+  gap: 1.85rem;
+  margin: 0;
+  padding: 0;
+}
+
+.md-tabs__item {
+  height: auto;
+  padding: 0;
 }
 
 .md-tabs__link {
@@ -207,6 +234,7 @@ html {
   opacity: 1;
   margin-top: 0;
   padding: 0.8rem 0 0.7rem;
+  transition: color 0.2s ease, opacity 0.2s ease;
 }
 
 .md-tabs__item--active .md-tabs__link,
