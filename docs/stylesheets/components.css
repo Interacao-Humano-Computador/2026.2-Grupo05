@@ -1,0 +1,160 @@
+/* ==========================================================================
+   Design System - Grupo 05 (IHC 2026.2 - SEMOB-DF)
+   Componentes: Hero Banner, Badges e Cards de Membros
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. HERO BANNER DA PÁGINA INICIAL
+   -------------------------------------------------------------------------- */
+.ihc-hero-banner {
+  background: var(--ihc-gradient-hero);
+  color: #FFFFFF;
+  border-radius: 20px;
+  padding: 40px 32px;
+  margin: 16px 0 32px 0;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.30);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--ihc-card-border);
+}
+
+.ihc-hero-banner::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(217, 119, 6, 0.20) 0%, rgba(13, 80, 148, 0) 70%);
+  pointer-events: none;
+}
+
+[data-md-color-scheme="slate"] .ihc-hero-banner::before {
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, rgba(9, 13, 22, 0) 70%);
+}
+
+.ihc-hero-title {
+  font-size: 2.05rem;
+  font-weight: 800;
+  color: #FFFFFF !important;
+  margin: 0 0 12px 0 !important;
+  letter-spacing: -0.5px;
+  line-height: 1.25;
+}
+
+.ihc-hero-subtitle {
+  font-size: 1.08rem;
+  color: rgba(255, 255, 255, 0.90);
+  max-width: 780px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ihc-badge-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.ihc-pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.14);
+  color: #FFFFFF;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+/* --------------------------------------------------------------------------
+   2. QUADRO DE PARTICIPANTES DO GRUPO (CARDS DE MEMBROS)
+   -------------------------------------------------------------------------- */
+.ihc-team-container {
+  background: var(--ihc-gradient-card);
+  border: 1px solid var(--ihc-card-border);
+  border-radius: 20px;
+  padding: 32px 24px;
+  box-shadow: var(--ihc-card-shadow);
+  margin: 32px 0;
+}
+
+.ihc-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.ihc-member-card {
+  background: var(--md-default-bg-color--light);
+  border: 1px solid var(--ihc-card-border);
+  border-radius: 16px;
+  padding: 20px 14px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ihc-member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--ihc-card-shadow-hover);
+  border-color: var(--md-accent-fg-color);
+}
+
+.ihc-member-avatar {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2.5px solid var(--ihc-card-border);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  transition: transform 0.25s ease, border-color 0.25s ease;
+  margin-bottom: 12px;
+}
+
+.ihc-member-card:hover .ihc-member-avatar {
+  transform: scale(1.06);
+  border-color: var(--md-accent-fg-color);
+}
+
+.ihc-member-name {
+  font-size: 0.90rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+  margin: 0 0 6px 0;
+  line-height: 1.3;
+}
+
+.ihc-member-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.74rem;
+  font-family: var(--md-code-font-family, monospace);
+  color: var(--md-typeset-a-color) !important;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 9999px;
+  background: var(--ihc-badge-bg);
+  transition: background 0.2s ease, transform 0.2s ease;
+  margin-top: 4px;
+}
+
+.ihc-member-github:hover {
+  background: rgba(13, 80, 148, 0.16);
+  transform: scale(1.04);
+}
+
+[data-md-color-scheme="slate"] .ihc-member-github:hover {
+  background: rgba(56, 189, 248, 0.25);
+}

@@ -1,4 +1,4 @@
-﻿# Padrões Visuais e Guia de Cores
+# Padrões Visuais e Guia de Cores
 
 Este documento estabelece as diretrizes de design, paletas de cores (tema claro e tema escuro) e padrões de dimensões e tipografia a serem seguidos nas páginas da documentação em MkDocs.
 
@@ -297,10 +297,13 @@ theme:
     code: Roboto Mono
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/variables.css
+  - stylesheets/navigation.css
+  - stylesheets/components.css
+  - stylesheets/overrides.css
 ```
 
-### Configuração no `docs/stylesheets/extra.css`:
+### Configuração em `docs/stylesheets/variables.css`:
 
 ```css
 /* Tema Claro */

@@ -1,4 +1,4 @@
-﻿site_name: Grupo 05 - SEMOB-DF | IHC 2026.2
+site_name: Grupo 05 - SEMOB-DF | IHC 2026.2
 site_description: Interação Humano Computador - SEMOB-DF
 site_author: Grupo 05 - IHC
 repo_name: Interacao-Humano-Computador/2026.2-Grupo05
@@ -41,7 +41,10 @@ theme:
     code: Roboto Mono
 
 extra_css:
-  - stylesheets/extra.css
+  - stylesheets/variables.css
+  - stylesheets/navigation.css
+  - stylesheets/components.css
+  - stylesheets/overrides.css
 
 extra_javascript:
   - javascripts/extra.js

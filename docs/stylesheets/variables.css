@@ -1,0 +1,102 @@
+/* ==========================================================================
+   Design System - Grupo 05 (IHC 2026.2 - SEMOB-DF)
+   Tokens e Variáveis Globais (Claro e Escuro)
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. TEMA CLARO (Default / Light)
+   -------------------------------------------------------------------------- */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:             #0D5094;
+  --md-primary-fg-color--light:      #1264B4;
+  --md-primary-fg-color--dark:       #08396B;
+  --md-primary-bg-color:             #FFFFFF;
+  --md-primary-bg-color--light:      #F4F8FC;
+
+  --md-accent-fg-color:              #D97706;
+  --md-accent-fg-color--transparent: rgba(217, 119, 6, 0.12);
+  --md-accent-bg-color:              #FFFFFF;
+
+  --md-default-fg-color:             #0F172A;
+  --md-default-fg-color--light:      #475569;
+  --md-default-fg-color--lighter:    #94A3B8;
+  --md-default-fg-color--lightest:   #E2E8F0;
+
+  --md-default-bg-color:             #F5F8FC;
+  --md-default-bg-color--light:      #FFFFFF;
+  --md-default-bg-color--lighter:    #EDF3FA;
+  --md-default-bg-color--lightest:   #E2EBF5;
+
+  --md-code-fg-color:                #0F172A;
+  --md-code-bg-color:                #F1F5F9;
+
+  --md-typeset-a-color:              #0D5094;
+
+  /* Variaveis exclusivas do tema claro */
+  --ihc-topbar-bg:                   #0D5094;
+  --ihc-tabs-bg:                     #093C72;
+  --ihc-topbar-border:               #D97706;
+  --ihc-gradient-hero:               linear-gradient(135deg, #0D5094 0%, #0A3C70 50%, #062344 100%);
+  --ihc-gradient-card:               linear-gradient(145deg, #FFFFFF 0%, #F1F6FC 100%);
+  --ihc-gradient-accent:             linear-gradient(90deg, #0D5094 0%, #D97706 100%);
+  --ihc-card-border:                 rgba(13, 80, 148, 0.12);
+  --ihc-card-shadow:                 0 8px 24px rgba(13, 80, 148, 0.08);
+  --ihc-card-shadow-hover:           0 14px 32px rgba(13, 80, 148, 0.16);
+  --ihc-badge-bg:                    rgba(13, 80, 148, 0.08);
+  --ihc-badge-text:                  #0D5094;
+
+  /* Controles de fonte */
+  --ihc-btn-bg:                      rgba(255, 255, 255, 0.18);
+  --ihc-btn-border:                  rgba(255, 255, 255, 0.35);
+  --ihc-btn-text:                    #FFFFFF;
+  --ihc-btn-hover:                   rgba(255, 255, 255, 0.30);
+}
+
+/* --------------------------------------------------------------------------
+   2. TEMA ESCURO (Slate / Dark) - ALTO CONTRASTE
+   -------------------------------------------------------------------------- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:             #0F172A;
+  --md-primary-fg-color--light:      #38BDF8;
+  --md-primary-fg-color--dark:       #020617;
+  --md-primary-bg-color:             #FFFFFF;
+  --md-primary-bg-color--light:      #CBD5E1;
+
+  --md-accent-fg-color:              #FBBF24;
+  --md-accent-fg-color--transparent: rgba(251, 191, 36, 0.15);
+  --md-accent-bg-color:              #1E293B;
+
+  --md-default-fg-color:             #F8FAFC;
+  --md-default-fg-color--light:      #CBD5E1;
+  --md-default-fg-color--lighter:    #94A3B8;
+  --md-default-fg-color--lightest:   #334155;
+
+  --md-default-bg-color:             #090D16;
+  --md-default-bg-color--light:      #111827;
+  --md-default-bg-color--lighter:    #1F2937;
+  --md-default-bg-color--lightest:   #374151;
+
+  --md-code-fg-color:                #F8FAFC;
+  --md-code-bg-color:                #111827;
+
+  --md-typeset-a-color:              #38BDF8;
+
+  /* Variaveis exclusivas do tema escuro */
+  --ihc-topbar-bg:                   #0F172A;
+  --ihc-tabs-bg:                     #0B1120;
+  --ihc-topbar-border:               #F59E0B;
+  --ihc-gradient-hero:               linear-gradient(135deg, #131F33 0%, #0C1524 60%, #070D18 100%);
+  --ihc-gradient-card:               linear-gradient(145deg, #111827 0%, #0B1120 100%);
+  --ihc-gradient-accent:             linear-gradient(90deg, #38BDF8 0%, #FBBF24 100%);
+  --ihc-card-border:                 rgba(56, 189, 248, 0.22);
+  --ihc-card-shadow:                 0 8px 24px rgba(0, 0, 0, 0.55);
+  --ihc-card-shadow-hover:           0 14px 34px rgba(56, 189, 248, 0.20);
+  --ihc-badge-bg:                    rgba(56, 189, 248, 0.15);
+  --ihc-badge-text:                  #38BDF8;
+
+  /* Controles de fonte no escuro */
+  --ihc-btn-bg:                      rgba(255, 255, 255, 0.12);
+  --ihc-btn-border:                  rgba(255, 255, 255, 0.25);
+  --ihc-btn-text:                    #FFFFFF;
+  --ihc-btn-hover:                   rgba(255, 255, 255, 0.22);
+}
