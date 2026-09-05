@@ -6,6 +6,13 @@ hide:
 
 <section class="splash" markdown>
 
+<div class="splash-grid" markdown>
+
+<div class="splash-media">
+  <img src="assets/logo.png" alt="Logotipo SEMOB-DF" class="splash-logo" />
+  <a class="btn btn-gold splash-btn" href="https://www.semob.df.gov.br/" target="_blank" rel="noopener noreferrer">Ir para o site ↗</a>
+</div>
+
 <div class="splash-copy" markdown>
 
 <p class="eyebrow">FCTE/UnB · 2026/2</p>
@@ -14,29 +21,14 @@ hide:
 
 <p class="lede">Documentação da avaliação e reprojeto do portal da Secretaria de Estado de Transporte e Mobilidade do Distrito Federal.</p>
 
+<div class="splash-quick-nav">
+  <a class="quick-btn" href="planejamento/">Planejamento</a>
+  <a class="quick-btn" href="#equipe">Equipe</a>
+  <a class="quick-btn" href="atas/">Reuniões</a>
 </div>
 
-<div class="splash-options">
-  <a class="option-card" href="planejamento/">
-    <span class="option-tag">Etapas e Métodos</span>
-    <strong>Ver planejamento</strong>
-    <span class="option-desc">Cronograma, ferramentas, processo de design e etapas do projeto.</span>
-    <span class="option-link">Acessar documentação &rarr;</span>
-  </a>
+</div>
 
-  <a class="option-card" href="#equipe">
-    <span class="option-tag">Integrantes</span>
-    <strong>Conhecer equipe</strong>
-    <span class="option-desc">Membros do grupo, perfis acadêmicos, papéis e atribuições.</span>
-    <span class="option-link">Ir para a equipe &rarr;</span>
-  </a>
-
-  <a class="option-card" href="https://www.semob.df.gov.br/" target="_blank" rel="noopener noreferrer">
-    <span class="option-tag">Portal Oficial</span>
-    <strong>Ver o site avaliado</strong>
-    <span class="option-desc">Acesso direto ao portal eletrônico oficial da SEMOB-DF.</span>
-    <span class="option-link">Abrir site oficial ↗</span>
-  </a>
 </div>
 
 </section>
