@@ -1,0 +1,8 @@
+services:
+  docs:
+    image: squidfunk/mkdocs-material
+    container_name: semob_df_docs
+    ports:
+      - "8000:8000"
+    volumes:
+      - .:/docs

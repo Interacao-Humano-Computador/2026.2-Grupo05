@@ -1,0 +1,27 @@
+# Ambientes virtuais Python
+.venv/
+venv/
+ENV/
+env/
+
+# Build do MkDocs
+site/
+
+# Byte-compiled / cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# IDEs e editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
