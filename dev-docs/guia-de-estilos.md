@@ -10,11 +10,11 @@ A identidade visual do projeto adota a identidade oficial da Secretaria de Estad
 
 <div align="center" style="display: flex; justify-content: center; align-items: center; gap: 32px; flex-wrap: wrap; margin: 28px 0;">
   <div style="text-align: center;">
-    <img src="assets/logo.png" alt="Logo Circular SEMOB com Ipê Amarelo" width="150" style="filter: drop-shadow(0 4px 8px rgba(0,0,0,0.15)); border-radius: 50%;" />
+    <img src="../docs/assets/logo.png" alt="Logo Circular SEMOB com Ipê Amarelo" width="150" style="filter: drop-shadow(0 4px 8px rgba(0,0,0,0.15)); border-radius: 50%;" />
     <p><em>Figura 1: Emblema Circular SEMOB com Ipê Amarelo (Logo Principal e Favicon).</em></p>
   </div>
   <div style="text-align: center;">
-    <img src="assets/logo-horizontal.png" alt="Logo Horizontal SEMOB-DF" width="280" style="filter: drop-shadow(0 4px 8px rgba(0,0,0,0.25)); border-radius: 6px; background-color: #000; padding: 10px;" />
+    <img src="../docs/assets/logo-horizontal.png" alt="Logo Horizontal SEMOB-DF" width="280" style="filter: drop-shadow(0 4px 8px rgba(0,0,0,0.25)); border-radius: 6px; background-color: #000; padding: 10px;" />
     <p><em>Figura 2: Versão Horizontal Institucional da SEMOB-DF.</em></p>
   </div>
 </div>
