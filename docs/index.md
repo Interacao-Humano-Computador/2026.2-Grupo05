@@ -10,7 +10,7 @@ hide:
 
 <div class="splash-media">
   <img src="assets/logo.png" alt="Logotipo SEMOB-DF" class="splash-logo" />
-  <a class="btn btn-gold splash-btn" href="https://www.semob.df.gov.br/" target="_blank" rel="noopener noreferrer">Ir para o site ↗</a>
+  <a class="splash-btn" href="https://www.semob.df.gov.br/" target="_blank" rel="noopener noreferrer">Ir para o site ↗</a>
 </div>
 
 <div class="splash-copy" markdown>
