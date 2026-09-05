@@ -19,7 +19,7 @@ hide:
 
 # SEMOB-DF
 
-<p class="lede">Documentação da avaliação e reprojeto do portal da Secretaria de Estado de Transporte e Mobilidade do Distrito Federal.</p>
+<p class="lede"><strong>Grupo 05</strong> apresenta - Documentação da avaliação e reprojeto do portal da Secretaria de Estado de Transporte e Mobilidade do Distrito Federal.</p>
 
 <div class="splash-quick-nav">
   <a class="quick-btn" href="planejamento/">Planejamento</a>
