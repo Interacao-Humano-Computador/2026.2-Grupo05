@@ -1,0 +1,72 @@
+﻿site_name: Grupo 05 - SEMOB-DF | IHC 2026.2
+site_description: Interação Humano Computador - SEMOB-DF
+site_author: Grupo 05 - IHC
+repo_name: Interacao-Humano-Computador/2026.2-Grupo05
+repo_url: https://github.com/Interacao-Humano-Computador/2026.2-Grupo05
+
+theme:
+  name: material
+  language: pt-BR
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+
+  palette:
+    # Paleta Claro (Default)
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-sunny
+        name: Alternar para modo escuro
+
+    # Paleta Escuro (Slate)
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/weather-night
+        name: Alternar para modo claro
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/extra.js
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+
+nav:
+  - Inicial: index.md
+  - Apresentações: apresentacoes.md
+  - Atas: atas.md
+  - Planejamento: planejamento.md
+  - Análise de Requisitos: analise-de-requisitos.md
+  - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento.md
+  - Verificação: verificacao.md
+  - Entrega Final: entrega-final.md

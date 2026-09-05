@@ -1,0 +1,557 @@
+/* ==========================================================================
+   Design System - Grupo 05 (IHC 2026.2 - SEMOB-DF)
+   Estilo Visual com Degradês, Curvas e Contêineres Modernos
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. TEMA CLARO (Default / Light)
+   -------------------------------------------------------------------------- */
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:             #0D5094;
+  --md-primary-fg-color--light:      #1264B4;
+  --md-primary-fg-color--dark:       #08396B;
+  --md-primary-bg-color:             #FFFFFF;
+  --md-primary-bg-color--light:      #F4F8FC;
+
+  --md-accent-fg-color:              #D97706;
+  --md-accent-fg-color--transparent: rgba(217, 119, 6, 0.12);
+  --md-accent-bg-color:              #FFFFFF;
+
+  --md-default-fg-color:             #0F172A;
+  --md-default-fg-color--light:      #475569;
+  --md-default-fg-color--lighter:    #94A3B8;
+  --md-default-fg-color--lightest:   #E2E8F0;
+
+  --md-default-bg-color:             #F5F8FC;
+  --md-default-bg-color--light:      #FFFFFF;
+  --md-default-bg-color--lighter:    #EDF3FA;
+  --md-default-bg-color--lightest:   #E2EBF5;
+
+  --md-code-fg-color:                #0F172A;
+  --md-code-bg-color:                #F1F5F9;
+
+  --md-typeset-a-color:              #0D5094;
+
+  /* Variaveis exclusivas do tema claro */
+  --ihc-topbar-bg:                   #0D5094;
+  --ihc-tabs-bg:                     #093C72;
+  --ihc-topbar-border:               #D97706;
+  --ihc-gradient-hero:               linear-gradient(135deg, #0D5094 0%, #0A3C70 50%, #062344 100%);
+  --ihc-gradient-card:               linear-gradient(145deg, #FFFFFF 0%, #F1F6FC 100%);
+  --ihc-gradient-accent:             linear-gradient(90deg, #0D5094 0%, #D97706 100%);
+  --ihc-card-border:                 rgba(13, 80, 148, 0.12);
+  --ihc-card-shadow:                 0 8px 24px rgba(13, 80, 148, 0.08);
+  --ihc-card-shadow-hover:           0 14px 32px rgba(13, 80, 148, 0.16);
+  --ihc-badge-bg:                    rgba(13, 80, 148, 0.08);
+  --ihc-badge-text:                  #0D5094;
+
+  /* Controles de fonte */
+  --ihc-btn-bg:                      rgba(255, 255, 255, 0.18);
+  --ihc-btn-border:                  rgba(255, 255, 255, 0.35);
+  --ihc-btn-text:                    #FFFFFF;
+  --ihc-btn-hover:                   rgba(255, 255, 255, 0.30);
+}
+
+/* --------------------------------------------------------------------------
+   2. TEMA ESCURO (Slate / Dark) - ALTO CONTRASTE
+   -------------------------------------------------------------------------- */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color:             #0F172A;
+  --md-primary-fg-color--light:      #38BDF8;
+  --md-primary-fg-color--dark:       #020617;
+  --md-primary-bg-color:             #FFFFFF;
+  --md-primary-bg-color--light:      #CBD5E1;
+
+  --md-accent-fg-color:              #FBBF24;
+  --md-accent-fg-color--transparent: rgba(251, 191, 36, 0.15);
+  --md-accent-bg-color:              #1E293B;
+
+  --md-default-fg-color:             #F8FAFC;
+  --md-default-fg-color--light:      #CBD5E1;
+  --md-default-fg-color--lighter:    #94A3B8;
+  --md-default-fg-color--lightest:   #334155;
+
+  --md-default-bg-color:             #090D16;
+  --md-default-bg-color--light:      #111827;
+  --md-default-bg-color--lighter:    #1F2937;
+  --md-default-bg-color--lightest:   #374151;
+
+  --md-code-fg-color:                #F8FAFC;
+  --md-code-bg-color:                #111827;
+
+  --md-typeset-a-color:              #38BDF8;
+
+  /* Variaveis exclusivas do tema escuro */
+  --ihc-topbar-bg:                   #0F172A;
+  --ihc-tabs-bg:                     #0B1120;
+  --ihc-topbar-border:               #F59E0B;
+  --ihc-gradient-hero:               linear-gradient(135deg, #131F33 0%, #0C1524 60%, #070D18 100%);
+  --ihc-gradient-card:               linear-gradient(145deg, #111827 0%, #0B1120 100%);
+  --ihc-gradient-accent:             linear-gradient(90deg, #38BDF8 0%, #FBBF24 100%);
+  --ihc-card-border:                 rgba(56, 189, 248, 0.22);
+  --ihc-card-shadow:                 0 8px 24px rgba(0, 0, 0, 0.55);
+  --ihc-card-shadow-hover:           0 14px 34px rgba(56, 189, 248, 0.20);
+  --ihc-badge-bg:                    rgba(56, 189, 248, 0.15);
+  --ihc-badge-text:                  #38BDF8;
+
+  /* Controles de fonte no escuro */
+  --ihc-btn-bg:                      rgba(255, 255, 255, 0.12);
+  --ihc-btn-border:                  rgba(255, 255, 255, 0.25);
+  --ihc-btn-text:                    #FFFFFF;
+  --ihc-btn-hover:                   rgba(255, 255, 255, 0.22);
+}
+
+/* --------------------------------------------------------------------------
+   3. NAVEGAÇÃO 100% NA TOPBAR (SEM SANDUÍCHE, SEM BARRA LATERAL)
+   -------------------------------------------------------------------------- */
+.md-header__button[for="__drawer"],
+label.md-header__button[for="__drawer"] {
+  display: none !important;
+}
+
+.md-sidebar--primary {
+  display: none !important;
+}
+
+[dir=ltr] .md-sidebar--primary ~ .md-content > .md-content__inner,
+.md-content > .md-content__inner {
+  margin-left: 0 !important;
+}
+
+/* Header principal */
+.md-header {
+  background: var(--ihc-topbar-bg) !important;
+  color: #FFFFFF !important;
+}
+
+/* Aproximação entre a logo do Ipê e o título do site */
+.md-header__button.md-logo {
+  margin-right: 0.25rem !important;
+  padding-right: 0 !important;
+}
+
+.md-header__title {
+  display: flex !important;
+  align-items: center !important;
+  margin-left: 0.35rem !important;
+  padding-left: 0 !important;
+}
+
+.md-header__ellipsis {
+  display: flex !important;
+  align-items: center !important;
+  overflow: visible !important;
+  margin-left: 0 !important;
+  padding-left: 0 !important;
+}
+
+/* Fixar o título do site sempre permanente no cabeçalho */
+.md-header__topic:first-child,
+.md-header__title--active .md-header__topic:first-child {
+  display: flex !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  transform: none !important;
+  position: static !important;
+  font-weight: 700 !important;
+  color: #FFFFFF !important;
+}
+
+.md-header__topic + .md-header__topic,
+.md-header__title--active .md-header__topic + .md-header__topic {
+  display: none !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.md-header__topic span {
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  font-size: 0.92rem !important;
+  white-space: nowrap !important;
+}
+
+/* Topbar fixa de abas */
+.md-tabs,
+.md-tabs[hidden] {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+  background: var(--ihc-tabs-bg) !important;
+  border-bottom: 3px solid var(--ihc-topbar-border) !important;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Compressao inteligente para caber todas as 8 abas perfeitamente */
+.md-tabs .md-grid {
+  max-width: 100% !important;
+  padding: 0 16px !important;
+}
+
+.md-tabs__list {
+  display: flex !important;
+  flex-wrap: nowrap !important;
+  overflow-x: auto !important;
+  white-space: nowrap !important;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  gap: 2px !important;
+}
+
+.md-tabs__list::-webkit-scrollbar {
+  display: none;
+}
+
+.md-tabs__item {
+  height: 2.25rem !important;
+  padding: 0 !important;
+  display: flex !important;
+  align-items: center !important;
+}
+
+.md-tabs__link {
+  font-size: 0.74rem !important;
+  font-weight: 600 !important;
+  letter-spacing: -0.15px !important;
+  padding: 0 7px !important;
+  height: 2.0rem !important;
+  line-height: 2.0rem !important;
+  margin-top: 0.15rem !important;
+  border-radius: 6px 6px 0 0 !important;
+  white-space: nowrap !important;
+  color: #E2E8F0 !important;
+  opacity: 0.85 !important;
+  transform: none !important;
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.md-tabs__link:hover {
+  opacity: 1 !important;
+  color: #FFFFFF !important;
+  background: rgba(255, 255, 255, 0.12) !important;
+}
+
+.md-tabs__item--active .md-tabs__link {
+  opacity: 1 !important;
+  color: #FFFFFF !important;
+  font-weight: 700 !important;
+  background: rgba(255, 255, 255, 0.18) !important;
+  border-radius: 6px !important;
+}
+
+[data-md-color-scheme="slate"] .md-tabs__item--active .md-tabs__link {
+  color: #FBBF24 !important;
+  background: rgba(251, 191, 36, 0.15) !important;
+  border-radius: 6px !important;
+}
+
+.md-tabs__item--active,
+[data-md-color-scheme="slate"] .md-tabs__item--active {
+  border-bottom: none !important;
+}
+
+/* Logo no cabeçalho */
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+  height: 2.3rem;
+  width: auto;
+  border-radius: 50%;
+  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.4));
+}
+
+/* --------------------------------------------------------------------------
+   4. CAMPO DE BUSCA (ALTO CONTRASTE NOS DOIS TEMAS)
+   -------------------------------------------------------------------------- */
+.md-search__form {
+  border-radius: 8px !important;
+  transition: all 0.2s ease !important;
+}
+
+/* Modo Escuro */
+[data-md-color-scheme="slate"] .md-search__form {
+  background-color: rgba(255, 255, 255, 0.12) !important;
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+}
+
+[data-md-color-scheme="slate"] .md-search__form:hover {
+  background-color: rgba(255, 255, 255, 0.18) !important;
+  border-color: #38BDF8 !important;
+}
+
+[data-md-color-scheme="slate"] .md-search__input {
+  color: #FFFFFF !important;
+}
+
+[data-md-color-scheme="slate"] .md-search__input::placeholder {
+  color: #E2E8F0 !important;
+  opacity: 1 !important;
+  font-weight: 500 !important;
+}
+
+[data-md-color-scheme="slate"] .md-search__input + .md-search__icon {
+  color: #FFFFFF !important;
+  opacity: 0.95 !important;
+}
+
+/* Modo Claro */
+[data-md-color-scheme="default"] .md-search__form {
+  background-color: rgba(255, 255, 255, 0.16) !important;
+  border: 1px solid rgba(255, 255, 255, 0.30) !important;
+}
+
+[data-md-color-scheme="default"] .md-search__form:hover {
+  background-color: rgba(255, 255, 255, 0.24) !important;
+}
+
+[data-md-color-scheme="default"] .md-search__input {
+  color: #FFFFFF !important;
+}
+
+[data-md-color-scheme="default"] .md-search__input::placeholder {
+  color: rgba(255, 255, 255, 0.90) !important;
+  opacity: 1 !important;
+}
+
+[data-md-color-scheme="default"] .md-search__input + .md-search__icon {
+  color: #FFFFFF !important;
+}
+
+/* --------------------------------------------------------------------------
+   5. CONTROLES DE TAMANHO DE FONTE NA TOPBAR (ACESSIBILIDADE)
+   -------------------------------------------------------------------------- */
+.ihc-font-controls {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  margin-right: 12px;
+  background: rgba(0, 0, 0, 0.22);
+  padding: 3px;
+  border-radius: 8px;
+  border: 1px solid var(--ihc-btn-border);
+}
+
+.ihc-font-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 26px;
+  min-width: 26px;
+  padding: 0 5px;
+  background: var(--ihc-btn-bg);
+  border: 1px solid var(--ihc-btn-border);
+  color: var(--ihc-btn-text) !important;
+  border-radius: 5px;
+  font-size: 0.74rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  line-height: 1;
+}
+
+.ihc-font-btn:hover:not(:disabled) {
+  background: var(--ihc-btn-hover);
+  transform: translateY(-1px);
+}
+
+.ihc-font-btn:active:not(:disabled) {
+  transform: translateY(1px);
+}
+
+.ihc-font-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.ihc-font-btn.ihc-font-reset {
+  min-width: 42px;
+  font-size: 0.70rem;
+  font-family: var(--md-code-font-family, monospace);
+}
+
+.ihc-font-btn svg {
+  display: block;
+  stroke: currentColor;
+}
+
+/* --------------------------------------------------------------------------
+   6. TIPOGRAFIA: TÍTULOS COM DESTAQUE EM NEGRITO
+   -------------------------------------------------------------------------- */
+.md-typeset h2 {
+  font-weight: 800 !important;
+  letter-spacing: -0.3px;
+  color: var(--md-default-fg-color);
+  margin-top: 1.8em;
+  margin-bottom: 0.8em;
+}
+
+.md-nav--secondary .md-nav__link {
+  font-weight: 700 !important;
+}
+
+/* Hero Banner da Página Inicial */
+.ihc-hero-banner {
+  background: var(--ihc-gradient-hero);
+  color: #FFFFFF;
+  border-radius: 20px;
+  padding: 40px 32px;
+  margin: 16px 0 32px 0;
+  box-shadow: 0 12px 36px rgba(0, 0, 0, 0.30);
+  position: relative;
+  overflow: hidden;
+  border: 1px solid var(--ihc-card-border);
+}
+
+.ihc-hero-banner::before {
+  content: "";
+  position: absolute;
+  top: -50%;
+  right: -20%;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(217, 119, 6, 0.20) 0%, rgba(13, 80, 148, 0) 70%);
+  pointer-events: none;
+}
+
+[data-md-color-scheme="slate"] .ihc-hero-banner::before {
+  background: radial-gradient(circle, rgba(56, 189, 248, 0.15) 0%, rgba(9, 13, 22, 0) 70%);
+}
+
+.ihc-hero-title {
+  font-size: 2.05rem;
+  font-weight: 800;
+  color: #FFFFFF !important;
+  margin: 0 0 12px 0 !important;
+  letter-spacing: -0.5px;
+  line-height: 1.25;
+}
+
+.ihc-hero-subtitle {
+  font-size: 1.08rem;
+  color: rgba(255, 255, 255, 0.90);
+  max-width: 780px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.ihc-badge-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 18px;
+}
+
+.ihc-pill-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  border-radius: 9999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.14);
+  color: #FFFFFF;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(255, 255, 255, 0.22);
+}
+
+/* --------------------------------------------------------------------------
+   7. QUADRO DE PARTICIPANTES DO GRUPO
+   -------------------------------------------------------------------------- */
+.ihc-team-container {
+  background: var(--ihc-gradient-card);
+  border: 1px solid var(--ihc-card-border);
+  border-radius: 20px;
+  padding: 32px 24px;
+  box-shadow: var(--ihc-card-shadow);
+  margin: 32px 0;
+}
+
+.ihc-team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 18px;
+  margin-top: 20px;
+}
+
+.ihc-member-card {
+  background: var(--md-default-bg-color--light);
+  border: 1px solid var(--ihc-card-border);
+  border-radius: 16px;
+  padding: 20px 14px;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ihc-member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--ihc-card-shadow-hover);
+  border-color: var(--md-accent-fg-color);
+}
+
+.ihc-member-avatar {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2.5px solid var(--ihc-card-border);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
+  transition: transform 0.25s ease, border-color 0.25s ease;
+  margin-bottom: 12px;
+}
+
+.ihc-member-card:hover .ihc-member-avatar {
+  transform: scale(1.06);
+  border-color: var(--md-accent-fg-color);
+}
+
+.ihc-member-name {
+  font-size: 0.90rem;
+  font-weight: 700;
+  color: var(--md-default-fg-color);
+  margin: 0 0 6px 0;
+  line-height: 1.3;
+}
+
+.ihc-member-github {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.74rem;
+  font-family: var(--md-code-font-family, monospace);
+  color: var(--md-typeset-a-color) !important;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 9999px;
+  background: var(--ihc-badge-bg);
+  transition: background 0.2s ease, transform 0.2s ease;
+  margin-top: 4px;
+}
+
+.ihc-member-github:hover {
+  background: rgba(13, 80, 148, 0.16);
+  transform: scale(1.04);
+}
+
+[data-md-color-scheme="slate"] .ihc-member-github:hover {
+  background: rgba(56, 189, 248, 0.25);
+}
+
+/* Tabelas arredondadas */
+.md-typeset table:not([class]) {
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.md-typeset table:not([class]) th {
+  background: var(--ihc-topbar-bg);
+  color: #FFFFFF !important;
+  font-weight: 600;
+}
