@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block extrahead %}
+{{ super() }}
+<meta name="theme-color" content="#0A2342">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script>
+(function () {
+  try {
+    var font = localStorage.getItem("ihc-font");
+    if (font) document.documentElement.style.setProperty("--a11y-font-size", font + "%");
+    var hc = localStorage.getItem("ihc-hc");
+    if (hc === "1" || (hc === null && window.matchMedia && window.matchMedia("(prefers-contrast: more)").matches)) {
+      document.documentElement.classList.add("hc");
+    }
+  } catch (e) {}
+})();
+</script>
+{% endblock %}
