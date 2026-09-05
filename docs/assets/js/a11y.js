@@ -43,9 +43,9 @@
     tools.setAttribute("role", "group");
     tools.setAttribute("aria-label", "Acessibilidade");
     tools.innerHTML =
-      '<button type="button" data-font="-" aria-label="Diminuir texto">A−</button>' +
+      '<button type="button" data-hc aria-pressed="false" aria-label="Alto contraste">Contraste</button>' +
       '<button type="button" data-font="+" aria-label="Aumentar texto">A+</button>' +
-      '<button type="button" data-hc aria-pressed="false" aria-label="Alto contraste">Contraste</button>';
+      '<button type="button" data-font="-" aria-label="Diminuir texto">A−</button>';
 
     var source = inner.querySelector(".md-header__source");
     if (source) inner.insertBefore(tools, source);
@@ -95,14 +95,8 @@
     if (!form || form.dataset.ihcScroll) return;
     form.dataset.ihcScroll = "1";
     form.querySelectorAll('label[for^="__palette"]').forEach(function (label) {
-      label.addEventListener("click", function (event) {
-        event.preventDefault();
-        var input = document.getElementById(label.getAttribute("for"));
-        if (!input || input.checked) return;
+      label.addEventListener("click", function () {
         var y = window.scrollY;
-        input.checked = true;
-        input.dispatchEvent(new Event("change", { bubbles: true }));
-        window.scrollTo(0, y);
         requestAnimationFrame(function () {
           window.scrollTo(0, y);
         });

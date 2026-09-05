@@ -1,4 +1,4 @@
-site_name: Grupo 05 - SEMOB-DF
+site_name: Avaliação de IHC - Grupo 05
 site_description: Documentação do projeto de Interação Humano-Computador do Grupo 05, FCTE/UnB, 2026.2.
 site_author: Grupo 05 — IHC 2026.2
 site_url: https://interacao-humano-computador.github.io/2026.2-Grupo05/
@@ -35,13 +35,13 @@ theme:
       primary: custom
       accent: custom
       toggle:
-        icon: material/weather-sunny
+        icon: material/weather-night
         name: Ativar modo escuro
     - scheme: slate
       primary: custom
       accent: custom
       toggle:
-        icon: material/weather-night
+        icon: material/weather-sunny
         name: Ativar modo claro
 
 markdown_extensions:
