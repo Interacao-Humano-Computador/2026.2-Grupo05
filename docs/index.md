@@ -8,66 +8,39 @@ hide:
 
 <div class="splash-copy" markdown>
 
-<p class="eyebrow">IHC · FCTE/UnB · 2026.2</p>
+<p class="eyebrow">FCTE/UnB · 2026/2</p>
 
-# Grupo 05
+# SEMOB-DF
 
-<p class="lede">Documentação do semestre. O grupo avalia e reprojeta o portal da Secretaria de Estado de Transporte e Mobilidade do Distrito Federal (SEMOB-DF).</p>
-
-<p class="actions">
-<a class="btn btn-gold" href="planejamento/">Ver o planejamento</a>
-<a class="btn btn-ghost" href="#equipe">Ver a equipe</a>
-</p>
+<p class="lede">Documentação da avaliação e reprojeto do portal da Secretaria de Estado de Transporte e Mobilidade do Distrito Federal.</p>
 
 </div>
 
-<a class="subject" href="https://www.semob.df.gov.br/" target="_blank" rel="noopener noreferrer">
-  <span class="subject-kicker">Site avaliado</span>
-  <img src="assets/logo.png" class="no-lightbox portal-mark" alt="Logotipo da Secretaria de Estado de Transporte e Mobilidade do Distrito Federal">
-  <strong>Portal da SEMOB-DF</strong>
-  <span class="subject-go">Abrir o site oficial</span>
-</a>
+<div class="splash-options">
+  <a class="option-card" href="planejamento/">
+    <span class="option-tag">Etapas e Métodos</span>
+    <strong>Ver planejamento</strong>
+    <span class="option-desc">Cronograma, ferramentas, processo de design e etapas do projeto.</span>
+    <span class="option-link">Acessar documentação &rarr;</span>
+  </a>
+
+  <a class="option-card" href="#equipe">
+    <span class="option-tag">Integrantes</span>
+    <strong>Conhecer equipe</strong>
+    <span class="option-desc">Membros do grupo, perfis acadêmicos, papéis e atribuições.</span>
+    <span class="option-link">Ir para a equipe &rarr;</span>
+  </a>
+
+  <a class="option-card" href="https://www.semob.df.gov.br/" target="_blank" rel="noopener noreferrer">
+    <span class="option-tag">Portal Oficial</span>
+    <strong>Ver o site avaliado</strong>
+    <span class="option-desc">Acesso direto ao portal eletrônico oficial da SEMOB-DF.</span>
+    <span class="option-link">Abrir site oficial ↗</span>
+  </a>
+</div>
 
 </section>
 
-<nav class="dates" aria-label="Datas da Entrega 1">
-  <div><b>06/09</b><span>Entrega no Aprender e no GitHub Pages</span></div>
-  <div><b>07/09</b><span>Inspeção pelo Grupo +1</span></div>
-  <div><b>08/09</b><span>Apresentação em aula</span></div>
-</nav>
-
-<nav class="map" aria-label="Mapa do site">
-  <a class="tile" href="planejamento/">
-    <span class="tile-num">01</span>
-    <strong>Planejamento</strong>
-    <span>Cronograma, ferramentas, processo de design e sites avaliados.</span>
-  </a>
-  <a class="tile" href="#equipe">
-    <span class="tile-num">02</span>
-    <strong>Equipe</strong>
-    <span>Fotos, nomes e papéis desta etapa.</span>
-  </a>
-  <a class="tile" href="atas/">
-    <span class="tile-num">03</span>
-    <strong>Atas</strong>
-    <span>Reuniões, decisões e gravações.</span>
-  </a>
-  <a class="tile" href="apresentacoes/">
-    <span class="tile-num">04</span>
-    <strong>Apresentações</strong>
-    <span>Vídeos e registros de cada etapa.</span>
-  </a>
-  <a class="tile" href="analise-de-requisitos/">
-    <span class="tile-num">05</span>
-    <strong>Requisitos</strong>
-    <span>Perfil de usuário, personas e análise de tarefas.</span>
-  </a>
-  <a class="tile" href="design-avaliacao-desenvolvimento/">
-    <span class="tile-num">06</span>
-    <strong>Design & Avaliação</strong>
-    <span>Protótipos, princípios, heurísticas e testes.</span>
-  </a>
-</nav>
 
 ## Sobre o Projeto
 
