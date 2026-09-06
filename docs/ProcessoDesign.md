@@ -26,11 +26,17 @@ Para o projeto de avaliação do site da **Semob-DF** (Secretaria de Estado de M
 
 ## 2. Engenharia de Usabilidade de Mayhew
 
-O ciclo de vida proposto por Mayhew (1999) é dividido em três fases principais:
+O ciclo de vida proposto por Mayhew (1999), ilustrado na **Figura 1**, é estruturado de forma iterativa e dividido em três fases principais:
 
 1. **Análise de Requisitos**: nesta fase são definidas as metas de usabilidade do projeto, a partir do levantamento do perfil dos usuários, da análise das tarefas que eles realizam, das possibilidades e limitações da plataforma em que o sistema é utilizado, e dos princípios gerais de design de IHC. O resultado dessa etapa costuma ser registrado em guias de estilo, que servem de referência para as fases seguintes.
 2. **Design, Avaliação e Desenvolvimento**: fase em que se busca chegar a uma solução de interface que atenda às metas de usabilidade definidas anteriormente. O processo é conduzido em níveis crescentes de detalhe, normalmente por meio de protótipos de baixa, média e alta fidelidade, sempre avaliados com usuários antes de avançar para o próximo nível.
 3. **Instalação**: etapa em que o sistema já está em uso real, e são coletadas as opiniões e o comportamento dos usuários ao longo do tempo. Essas informações retroalimentam o processo, servindo tanto para melhorar o sistema atual quanto para orientar o desenvolvimento de versões futuras.
+
+**Figura 1** – Ciclo de vida para a engenharia de usabilidade
+
+![Figura 1 – Ciclo de vida para a engenharia de usabilidade](assets/prints_referencias/processo-design-mayhew.jpeg)
+
+*Fonte: BARBOSA et al. (2021)*
 
 ### 2.1 Por que usar o ciclo de vida de Mayhew?
 
