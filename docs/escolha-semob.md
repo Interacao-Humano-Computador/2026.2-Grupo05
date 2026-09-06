@@ -6,6 +6,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 05/09/2026 | 1.0 | Criação da documentação de escolha e motivação do site selecionado | Carlos Henrique | Igor Dantas |
+| 06/09/2026 | 1.1 | Inserção e referenciação das figuras de evidências heurísticas | Carlos Henrique | Igor Dantas |
 
 ---
 
@@ -59,13 +60,20 @@ A equipe adotou os seguintes critérios objetivos para deliberar sobre o sistema
 ## 4. Problemas de IHC Encontrados no Portal
 
 A decisão de escolha foi respaldada pelos achados de uma inspeção heurística preliminar baseada nas 10 heurísticas de Nielsen (1994) e no Framework DECIDE (Barbosa e Silva, 2010). Abaixo estão sintetizados os principais problemas diagnosticados:
+
 ### 4.1. Barreira Crítica de Navegação na Seção "Serviços Mais Procurados" (P01)
 
 - **Heurística Violada:** _Heurística 5 – Prevenção de Erros_ e _Heurística 9 – Ajuda aos usuários para reconhecer, diagnosticar e recuperar-se de erros_.
 
 - **Severidade:** **4 - Catastrófico** (Bloqueio total / Barreira).
 
-- **Descrição:** Na página inicial, ao tentar acionar os atalhos prioritários como _"Tarifa técnica"_, _"Vai de Graça"_ ou _"Cartões Mobilidade"_, o cidadão é conduzido a rotas com erro fatal de resolução de DNS (`semob.df.gov.br`), resultando na tela crua de indisponibilidade do navegador (`DNS_PROBE_STARTED`). O sistema não trata a exceção e inviabiliza o fluxo direto justamente no componente mais procurado pelo público.
+- **Descrição:** Na página inicial, ao tentar acionar os atalhos prioritários como _"Tarifa técnica"_, _"Vai de Graça"_ ou _"Cartões Mobilidade"_, o cidadão é conduzido a rotas com erro fatal de resolução de DNS (`semob.df.gov.br`), resultando na tela crua de indisponibilidade do navegador (`DNS_PROBE_STARTED`). O sistema não trata a exceção e inviabiliza o fluxo direto justamente no componente mais procurado pelo público, violando a diretriz da Heurística 9 abordada na **Figura 1**.
+
+**Figura 1** - Trecho sobre a Heurística 9 (Ajudar os usuários a reconhecer, diagnosticar e corrigir erros)
+
+![Figura 1 – Trecho sobre a Heurística 9](assets/prints_referencias/heuristica-9.png)
+
+**Fonte:** Maciel et al. (2004, p. 11).
 
 ### 4.2. Baixo Contraste e Ilegibilidade em Elementos-Chave (P02)
 
@@ -73,7 +81,13 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 - **Severidade:** **3 - Grave** (Obstáculo).
 
-- **Descrição:** Títulos institucionais, cabeçalhos e campos de busca utilizam fontes cinza-claras sobre planos de fundo de baixo contraste, violando a razão mínima de 4,5:1 e prejudicando severamente usuários com baixa visão ou em ambientes externos com claridade excessiva.
+- **Descrição:** Títulos institucionais, cabeçalhos e campos de busca utilizam fontes cinza-claras sobre planos de fundo de baixo contraste, violando a razão mínima de 4,5:1 e prejudicando severamente usuários com baixa visão ou em ambientes externos com claridade excessiva, em desacordo com as diretrizes da Heurística 8 ilustradas na **Figura 2**.
+
+**Figura 2** - Trecho sobre a Heurística 8 (Estética e design minimalista)
+
+![Figura 2 – Trecho sobre a Heurística 8](assets/prints_referencias/heuristica-8.png)
+
+**Fonte:** Maciel et al. (2004, p. 10).
 
 ### 4.3. Falha de Carregamento de Banner / Imagem Quebrada (P03)
 
@@ -81,7 +95,13 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 - **Severidade:** **2 - Simples** (Ruído).
 
-- **Descrição:** A área nobre superior da página inicial exibe o ícone de imagem corrompida decorrente de falha de requisição (HTTP 404), sem atributos descritivos de acessibilidade (`alt`) e sem ocultação graciosa do espaço não carregado, transmitindo aspecto de descuido e desatualização técnica.
+- **Descrição:** A área nobre superior da página inicial exibe o ícone de imagem corrompida decorrente de falha de requisição (HTTP 404), sem atributos descritivos de acessibilidade (`alt`) e sem ocultação graciosa do espaço não carregado, transmitindo aspecto de descuido e desatualização técnica, infringindo os preceitos de design minimalista da Heurística 8 destacados na **Figura 3**.
+
+**Figura 3** - Trecho sobre a Heurística 8 (Estética e design minimalista)
+
+![Figura 3 – Trecho sobre a Heurística 8](assets/prints_referencias/heuristica-8.png)
+
+**Fonte:** Maciel et al. (2004, p. 10).
 
 ### 4.4. Redundância de Widgets Flutuantes e Poluição Visual (P04)
 
@@ -89,7 +109,13 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 - **Severidade:** **2 - Simples** (Ruído).
 
-- **Descrição:** Chamadas duplicadas do plugin _VLibras_ na margem lateral direita e componentes flutuantes desalinhados causam ruído cognitivo e risco de obstrução de informações textuais em resoluções menores.
+- **Descrição:** Chamadas duplicadas do plugin _VLibras_ na margem lateral direita e componentes flutuantes desalinhados causam ruído cognitivo e risco de obstrução de informações textuais em resoluções menores, contrariando as orientações da Heurística 8 indicadas na **Figura 4**.
+
+**Figura 4** - Trecho sobre a Heurística 8 (Estética e design minimalista)
+
+![Figura 4 – Trecho sobre a Heurística 8](assets/prints_referencias/heuristica-8.png)
+
+**Fonte:** Maciel et al. (2004, p. 10).
 
 ### 4.5. Quebra Inconsistente de Linha no Menu Principal (P05)
 
@@ -97,7 +123,13 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 - **Severidade:** **2 - Simples** (Ruído).
 
-- **Descrição:** A barra temática horizontal exibe excesso de itens sem tratamento responsivo, isolando o último elemento (_"STIP Transparente"_) em uma segunda linha com ampla área ociosa, distorcendo a hierarquia e a percepção de agrupamento da arquitetura da informação.
+- **Descrição:** A barra temática horizontal exibe excesso de itens sem tratamento responsivo, isolando o último elemento (_"STIP Transparente"_) em uma segunda linha com ampla área ociosa, distorcendo a hierarquia e a percepção de agrupamento da arquitetura da informação, violando o princípio da Heurística 4 apresentado na **Figura 5**.
+
+**Figura 5** - Trecho sobre a Heurística 4 (Consistência e padrões)
+
+![Figura 5 – Trecho sobre a Heurística 4](assets/prints_referencias/heuristica-4.png)
+
+**Fonte:** Maciel et al. (2004, p. 9).
 
 ## 5. Declaração sobre o Uso de IA Generativa
 
