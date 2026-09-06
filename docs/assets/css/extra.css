@@ -945,11 +945,11 @@ html {
 
 .md-typeset table:not([class]) th,
 .md-typeset table:not([class]) td {
-  padding: 0.5rem 0.55rem;
+  padding: 0.6rem 0.65rem;
   white-space: normal !important;
   overflow-wrap: anywhere;
   word-break: break-word;
-  vertical-align: top;
+  vertical-align: middle;
   box-sizing: border-box;
 }
 
@@ -962,6 +962,23 @@ html {
 .md-typeset table:not([class]) td {
   border-top: 1px solid var(--line);
 }
+
+.md-typeset table:not([class]) td:has(img) {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+.md-typeset table:not([class]) td img {
+  max-width: 95px;
+  max-height: 55px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 0 auto;
+}
+
 
 .hm-l,
 .hm-p,

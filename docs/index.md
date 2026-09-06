@@ -22,9 +22,9 @@ hide:
 <p class="lede"><strong>Grupo 05</strong> apresenta - Documentação da avaliação e reprojeto do portal da Secretaria de Estado de Transporte e Mobilidade do Distrito Federal.</p>
 
 <div class="splash-quick-nav">
-  <a class="quick-btn" href="planejamento/">Planejamento</a>
+  <a class="quick-btn" href="cronograma/">Planejamento</a>
   <a class="quick-btn" href="#equipe">Equipe</a>
-  <a class="quick-btn" href="atas/">Reuniões</a>
+  <a class="quick-btn" href="ata1/">Atas</a>
 </div>
 
 </div>

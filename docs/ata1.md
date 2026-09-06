@@ -13,13 +13,13 @@ Data: 03/09/2026 Horário: 09h00 às 09h50 Local: Presencial (Sala de aula)
 
 ## 1. Participantes presentes:
 
-- ✅ [Arthur Mariani de Andrade da Cruz]()
-- ✅ [Carlos Henrique dos Santos Costa Filho]()
-- ✅ [Gabriel Melo Rodrigues Cardone]()
-- ✅ [Igor Dantas Araújo]()
-- ✅ [Lucas Araújo Lima]()
-- ✅ [Rodrigo Carvalho Barbosa]()
-- ✅ [Tomás Garcia Rocho]()
+- [Arthur Mariani de Andrade da Cruz]()
+- [Carlos Henrique dos Santos Costa Filho]()
+- [Gabriel Melo Rodrigues Cardone]()
+- [Igor Dantas Araújo]()
+- [Lucas Araújo Lima]()
+- [Rodrigo Carvalho Barbosa]()
+- [Tomás Garcia Rocho]()
 
 ## 2. Discussão:
 
@@ -55,7 +55,7 @@ Data: 03/09/2026 Horário: 09h00 às 09h50 Local: Presencial (Sala de aula)
 
 ## 4. Link da gravação:
 
-> ℹ️ **Informação:** A primeira reunião foi realizada presencialmente em sala de aula, no horário disponibilizado pelo professor, por isso, não há gravação.
+> **Informação:** A primeira reunião foi realizada presencialmente em sala de aula, no horário disponibilizado pelo professor, por isso, não há gravação.
 
 ## 5. Próxima Reunião 06/09/2026
 

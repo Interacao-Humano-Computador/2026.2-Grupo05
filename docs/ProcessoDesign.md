@@ -32,16 +32,13 @@ O ciclo de vida proposto por Mayhew (1999) é dividido em três fases principais
 2. **Design, Avaliação e Desenvolvimento**: fase em que se busca chegar a uma solução de interface que atenda às metas de usabilidade definidas anteriormente. O processo é conduzido em níveis crescentes de detalhe, normalmente por meio de protótipos de baixa, média e alta fidelidade, sempre avaliados com usuários antes de avançar para o próximo nível.
 3. **Instalação**: etapa em que o sistema já está em uso real, e são coletadas as opiniões e o comportamento dos usuários ao longo do tempo. Essas informações retroalimentam o processo, servindo tanto para melhorar o sistema atual quanto para orientar o desenvolvimento de versões futuras.
 
-![Figura 1 – Ciclo de vida para a engenharia de usabilidade](ProcessoDesign_Figura1.png)
-
-*Figura 1 – Ciclo de vida para a engenharia de usabilidade (BARBOSA et al., 2021)*
 ### 2.1 Por que usar o ciclo de vida de Mayhew?
 
 O grupo escolheu o ciclo de Mayhew principalmente pelo fato de suas etapas serem bem definidas, detalhadas e sequenciais, o que reduz a subjetividade na condução do projeto quando comparado a processos mais livres, como o Ciclo de Vida em Estrela. Essa característica é especialmente vantajosa para a equipe, já que a maioria dos integrantes não possui grande experiência prévia em projetos de IHC, e um processo mais estruturado passo a passo diminui o risco de erros de condução e facilita o acompanhamento do progresso do trabalho ao longo do semestre.
 
-### 2.2 Aplicando a Usabilidade de Mayhew na avaliação do site da Semob-DF
+### 2.2 Aplicando a Usabilidade de Mayhew na avaliação do site da SEMOB-DF
 
-Como o site da Semob-DF já está em produção e em uso pela população, a avaliação do grupo não parte do zero: ela se inicia, na prática, a partir da fase de **Instalação** do ciclo de Mayhew, momento em que são identificados os problemas de interação e as oportunidades de melhoria na interface já existente.
+Como o site da SEMOB-DF já está em produção e em uso pela população, a avaliação do grupo não parte do zero: ela se inicia, na prática, a partir da fase de **Instalação** do ciclo de Mayhew, momento em que são identificados os problemas de interação e as oportunidades de melhoria na interface já existente.
 
 A partir dos problemas encontrados nessa análise inicial, o grupo retorna à primeira fase do ciclo, a **Análise de Requisitos**, para levantar o perfil dos usuários do site, as tarefas que eles precisam realizar (como consultar linhas de ônibus, horários, tarifas ou solicitar serviços de mobilidade) e as limitações da plataforma atual. Concluída essa etapa, o processo segue normalmente pela fase de **Design, Avaliação e Desenvolvimento**, na qual serão propostas e avaliadas as melhorias de interface sugeridas pelo grupo, por meio de protótipos em diferentes níveis de fidelidade.
 
