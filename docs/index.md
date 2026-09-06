@@ -44,49 +44,49 @@ Ressalta-se que este projeto possui **finalidade estritamente acadêmica**, dese
 
 ## Equipe
 
-<div class="team" markdown>
+<div class="team">
 
-<div class="member" markdown>
-[![Foto de Arthur Mariani](https://github.com/arthur-mariani.png){ .team-photo }](https://github.com/arthur-mariani)
-[Arthur Mariani](https://github.com/arthur-mariani)
-<span class="handle">@arthur-mariani</span>
-</div>
+<a class="member" href="https://github.com/arthur-mariani" target="_blank" rel="noopener noreferrer">
+  <img src="https://github.com/arthur-mariani.png" alt="Foto de Arthur Mariani" class="team-photo" />
+  <span class="member-name">Arthur Mariani</span>
+  <span class="handle">@arthur-mariani</span>
+</a>
 
-<div class="member" markdown>
-[![Foto de Carlos Costa](https://github.com/carloshfgit.png){ .team-photo }](https://github.com/carloshfgit)
-[Carlos Costa](https://github.com/carloshfgit)
-<span class="handle">@carloshfgit</span>
-</div>
+<a class="member" href="https://github.com/carloshfgit" target="_blank" rel="noopener noreferrer">
+  <img src="https://github.com/carloshfgit.png" alt="Foto de Carlos Costa" class="team-photo" />
+  <span class="member-name">Carlos Costa</span>
+  <span class="handle">@carloshfgit</span>
+</a>
 
-<div class="member" markdown>
-[![Foto de Gabriel Cardone](https://github.com/gabriellcardone-06.png){ .team-photo }](https://github.com/gabriellcardone-06)
-[Gabriel Cardone](https://github.com/gabriellcardone-06)
-<span class="handle">@gabriellcardone-06</span>
-</div>
+<a class="member" href="https://github.com/gabriellcardone-06" target="_blank" rel="noopener noreferrer">
+  <img src="https://github.com/gabriellcardone-06.png" alt="Foto de Gabriel Cardone" class="team-photo" />
+  <span class="member-name">Gabriel Cardone</span>
+  <span class="handle">@gabriellcardone-06</span>
+</a>
 
-<div class="member" markdown>
-[![Foto de Igor Dantas Araújo](https://github.com/IgorDARAUJO.png){ .team-photo }](https://github.com/IgorDARAUJO)
-[Igor Dantas Araújo](https://github.com/IgorDARAUJO)
-<span class="handle">@IgorDARAUJO</span>
-</div>
+<a class="member" href="https://github.com/IgorDARAUJO" target="_blank" rel="noopener noreferrer">
+  <img src="https://github.com/IgorDARAUJO.png" alt="Foto de Igor Dantas Araújo" class="team-photo" />
+  <span class="member-name">Igor Dantas Araújo</span>
+  <span class="handle">@IgorDARAUJO</span>
+</a>
 
-<div class="member" markdown>
-[![Foto de Lucas Araújo](https://github.com/Lucasaraujoszz.png){ .team-photo }](https://github.com/Lucasaraujoszz)
-[Lucas Araújo](https://github.com/Lucasaraujoszz)
-<span class="handle">@Lucasaraujoszz</span>
-</div>
+<a class="member" href="https://github.com/Lucasaraujoszz" target="_blank" rel="noopener noreferrer">
+  <img src="https://github.com/Lucasaraujoszz.png" alt="Foto de Lucas Araújo" class="team-photo" />
+  <span class="member-name">Lucas Araújo</span>
+  <span class="handle">@Lucasaraujoszz</span>
+</a>
 
-<div class="member" markdown>
-[![Foto de Rodrigo Barbosa](https://github.com/RodrigoCBarbosa.png){ .team-photo }](https://github.com/RodrigoCBarbosa)
-[Rodrigo Barbosa](https://github.com/RodrigoCBarbosa)
-<span class="handle">@RodrigoCBarbosa</span>
-</div>
+<a class="member" href="https://github.com/RodrigoCBarbosa" target="_blank" rel="noopener noreferrer">
+  <img src="https://github.com/RodrigoCBarbosa.png" alt="Foto de Rodrigo Barbosa" class="team-photo" />
+  <span class="member-name">Rodrigo Barbosa</span>
+  <span class="handle">@RodrigoCBarbosa</span>
+</a>
 
-<div class="member" markdown>
-[![Foto de Tomas Garcia Rocho](https://github.com/TomasRocho.png){ .team-photo }](https://github.com/TomasRocho)
-[Tomas Garcia Rocho](https://github.com/TomasRocho)
-<span class="handle">@TomasRocho</span>
-</div>
+<a class="member" href="https://github.com/TomasRocho" target="_blank" rel="noopener noreferrer">
+  <img src="https://github.com/TomasRocho.png" alt="Foto de Tomas Garcia Rocho" class="team-photo" />
+  <span class="member-name">Tomas Garcia Rocho</span>
+  <span class="handle">@TomasRocho</span>
+</a>
 
 </div>
 
