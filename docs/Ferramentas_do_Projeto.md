@@ -29,6 +29,7 @@ A escolha dessas plataformas levou em consideração a acessibilidade, a eficiê
 | **When2meet** | ![When2meet](assets/images/when2meet.png){ width="90" } | Utilizado para cruzar e mapear a disponibilidade de horários de todos os integrantes da equipe e geração do *heatmap* (mapa de calor) visual para facilitar a identificação rápida dos melhores momentos para o agendamento de reuniões. |
 | **Google Gemini** | ![Google Gemini](assets/images/Google_Gemini_icon_2025.svg){ width="45" } | Empregado como assistente de inteligência artificial para apoio na revisão sintática e textual, padronização da formatação em Markdown e auxílio na estruturação e estilização de código front-end para o MkDocs. |
 | **123APPS** | ![123APPS](assets/images/123APPS.png) | Plataforma utilizada para a gravação de tela e áudio durante as apresentações assíncronas dos artefatos produzidos pela equipe, garantindo o registro em vídeo exigido pela disciplina. |
+| **CapCut** | ![CapCut](assets/images/capcut.png) | Escolhido para a edição rápida e eficiente dos vídeos gravados. Permite realizar cortes, ajustes de áudio e a renderização final do material audiovisual antes do upload na plataforma de hospedagem. |
 
 *Fonte: Autores. Logomarcas de propriedade de suas respectivas empresas institucionais.*
 
