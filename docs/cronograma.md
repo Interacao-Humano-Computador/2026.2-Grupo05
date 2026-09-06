@@ -9,7 +9,17 @@
 ---
 
 ## 1. Descrição
-O cronograma visa à organização e distribuição de todas as tarefas que deverão ser realizadas pelos integrantes da equipe no decorrer da disciplina de Interação Humano-Computador. As atividades foram classificadas de acordo com as etapas do projeto aplicadas à avaliação do site Semob-DF. Os cronogramas executados sofrerão atualizações contínuas ao longo do semestre para refletir o andamento real do desenvolvimento em comparação ao planejamento inicial.
+O cronograma visa à organização e distribuição de todas as tarefas que deverão ser realizadas pelos integrantes da equipe no decorrer da disciplina de Interação Humano-Computador. As atividades foram classificadas de acordo com as etapas do projeto aplicadas à avaliação do site Semob-DF. O SWEBOK versão 4.0 destaca que estimar cronogramas é um processo iterativo e altamente dependente de fatores humanos e ambientais dinâmicos, conforme evidenciado nas figuras 1 e 2. Por isso, como orienta o SWEBOK, nosso planejamento buscou prever as dependências das tarefas e foi estruturado para permitir que os cronogramas executados possam sofrer atualizações contínuas ao longo do semestre para refletir o andamento real do desenvolvimento em comparação ao planejamento inicial. (IEEE COMPUTER SOCIETY, 2024, p. 9-8)
+
+![Trecho do SWEBOK sobre Planejamento de Projetos](docs/assets/images/swebok-1.png)
+<div align="center">
+**Figura 1** - Trecho do SWEBOK abordando estimativas de projetos. **Fonte:** SWEBOK v4.0 (2024, p. 9-8).
+</div>
+
+![Trecho do SWEBOK sobre Projetos Adaptativos](docs/assets/images/swebok-2.png)
+<div align="center">
+**Figura 2** - Trecho do SWEBOK abordando o ciclo de vida adaptativo. **Fonte:** SWEBOK v4.0 (2024, p. 9-9).
+</div>
 
 ## 2. Cronograma Geral Planejado
 Na Tabela 1, tem-se a visão macro do planejamento do projeto, englobando todas as entregas exigidas pelo plano de ensino da disciplina, com as respectivas datas limite, períodos de revisão por pares e margens para ajustes pós-feedback.
@@ -62,8 +72,8 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Processo de Design** | Justificativa do ciclo de vida e fundamentação teórica. | Tomas | Rodrigo | 05/09/2026 | 06/09/2026 |
 | **Ferramentas & Heatmap** | Descrição do ferramental e montagem da tabela de horários. | Gabriel | Tomas | 05/09/2026 | 06/09/2026 |
 | **Cronograma Planejado** | Elaboração da tabela geral de prazos e etapas. | Igor | Gabriel | 05/09/2026 | 06/09/2026 |
-| **Git Pages & Equipe** | Estruturação da Home, navegação e acessibilidade. | Arthur | Carlos | 04/09/2026 | 05/09/2026 |
-| **Cronograma Executado** | Registro da primeira reunião, execução e IA. | Lucas | Arthur | 05/09/2026 | 06/09/2026 |
+| **Git Pages & Equipe** | Estruturação da Home, navegação e acessibilidade. | Arthur | Carlos | 04/09/2026 | 06/09/2026 |
+| **Cronograma Executado e ata** | Registro da primeira reunião, execução e IA. | Lucas | Arthur | 05/09/2026 | 06/09/2026 |
 | **Gravação do Vídeo** | Gravação e submissão do vídeo de apresentação. | Todos os integrantes | N/A | 06/09/2026 | 06/09/2026 |
 
 *Fonte: Elaborado pelos autores (2026).*
@@ -188,3 +198,4 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 ## 12. Referências Bibliográficas
 
 -   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+-   IEEE COMPUTER SOCIETY. Software Engineering Management. In: WASHIZAKI, Hironori (Ed.). *Guide to the Software Engineering Body of Knowledge (SWEBOK)*. Versão 4.0. Los Alamitos: IEEE Computer Society, 2024. Cap. 9, sec. 2 (Software Project Planning), subseção 2.3.
