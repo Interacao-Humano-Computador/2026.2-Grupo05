@@ -84,7 +84,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Cenários** | Elaboração dos cenários de uso principais do Semob-DF. | A definir | A definir | 07/09/2026 | 27/09/2026 |
 | **Análise de Tarefas (HTA)** | Construção do diagrama, legenda e tabela HTA. | A definir | A definir | 07/09/2026 | 27/09/2026 |
 | **Análise de Tarefas (GOMS)** | Construção dos modelos (KLM ou CMN-GOMS). | A definir | A definir | 07/09/2026 | 27/09/2026 |
-| **Gravação e Integração** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 26/09/2026 | 27/09/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 26/09/2026 | 27/09/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 28/09/2026 | 02/10/2026 |
 
 *Fonte: Elaborado pelos autores (2026).*
@@ -101,7 +101,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Características da Plataforma** | Restrições tecnológicas e especificações do Semob-DF. | A definir | A definir | 28/09/2026 | 06/10/2026 |
 | **Guia de Estilo (Introdução)** | Organização, público-alvo e elementos de interface/cores. | A definir | A definir | 28/09/2026 | 06/10/2026 |
 | **Guia de Estilo (Interação)** | Estilos de interação, aceleradores e vocabulário/padrões. | A definir | A definir | 28/09/2026 | 06/10/2026 |
-| **Gravação e Integração** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 05/10/2026 | 06/10/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 05/10/2026 | 06/10/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 07/10/2026 | 12/10/2026 |
 
 *Fonte: Elaborado pelos autores (2026).*
@@ -118,7 +118,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Avaliação de Tarefas** | Planejamento usando o Framework DECIDE (Análise de Tarefas). | A definir | A definir | 07/10/2026 | 13/10/2026 |
 | **Relato de Tarefas** | Planejamento da estrutura do relato de resultados das tarefas. | A definir | A definir | 07/10/2026 | 13/10/2026 |
 | **Teste Piloto** | Definição, data de execução e documentação do teste piloto. | A definir | A definir | 07/10/2026 | 13/10/2026 |
-| **Gravação e Integração** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 12/10/2026 | 13/10/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 12/10/2026 | 13/10/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 14/10/2026 | 19/10/2026 |
 
 *Fonte: Elaborado pelos autores (2026).*
@@ -135,7 +135,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Planej. Relato (Prot. Papel)** | Estruturação de como os dados do protótipo de papel serão relatados. | A definir | A definir | 14/10/2026 | 25/10/2026 |
 | **Confecção Protótipo (Fluxo 1)** | Desenho das telas principais de busca e navegação do Semob. | A definir | A definir | 14/10/2026 | 25/10/2026 |
 | **Confecção Protótipo (Fluxo 2)** | Desenho das telas de horários, tarifas e informações de linhas. | A definir | A definir | 14/10/2026 | 25/10/2026 |
-| **Gravação e Integração** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 24/10/2026 | 25/10/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 24/10/2026 | 25/10/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 26/10/2026 | 31/10/2026 |
 
 *Fonte: Elaborado pelos autores (2026).*
@@ -152,7 +152,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Planej. Alta Fidelidade (Prática)**| Recrutamento, teste piloto e questões éticas da alta fidelidade. | A definir | A definir | 26/10/2026 | 03/11/2026 |
 | **Planej. Relato (Alta Fidelidade)** | Estruturação do documento final de resultados. | A definir | A definir | 26/10/2026 | 03/11/2026 |
 | **Início do Design (Figma)** | Estruturação básica de componentes e grid para alta fidelidade. | A definir | A definir | 26/10/2026 | 03/11/2026 |
-| **Gravação e Integração** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 02/11/2026 | 03/11/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 02/11/2026 | 03/11/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 04/11/2026 | 09/11/2026 |
 
 *Fonte: Elaborado pelos autores (2026).*
@@ -169,7 +169,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Relato: Consolidação de Dados** | Transcrição e análise dos problemas apontados pelos usuários. | A definir | A definir | 04/11/2026 | 15/11/2026 |
 | **Relato: Correções e Ajustes** | Documentação das soluções de design baseadas no feedback. | A definir | A definir | 04/11/2026 | 15/11/2026 |
 | **Conclusão do Relato** | Revisão final dos objetivos alcançados vs. planejados. | A definir | A definir | 04/11/2026 | 15/11/2026 |
-| **Gravação e Integração** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 14/11/2026 | 15/11/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 14/11/2026 | 15/11/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 16/11/2026 | 21/11/2026 |
 
 *Fonte: Elaborado pelos autores (2026).*
@@ -186,7 +186,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Inspeção Entrega 6** | Verificação dos Relatos e Planejamento da Alta Fidelidade. | A definir | A definir | 16/11/2026 | 24/11/2026 |
 | **Inspeção Entrega 7** | Verificação final do Protótipo de Alta Fidelidade e links. | A definir | A definir | 16/11/2026 | 24/11/2026 |
 | **Consolidação de Ajustes** | Aplicação de correções apontadas durante as inspeções cruzadas. | A definir | A definir | 16/11/2026 | 24/11/2026 |
-| **Gravação e Integração** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 23/11/2026 | 24/11/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 23/11/2026 | 24/11/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 25/11/2026 | 29/11/2026 |
 
 *Fonte: Elaborado pelos autores (2026).*
