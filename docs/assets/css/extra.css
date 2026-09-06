@@ -144,17 +144,17 @@ html {
   order: 3;
 }
 
-.md-search {
+.md-header__option[data-md-component="palette"] {
   order: 10;
   flex: 0 0 auto;
 }
 
-.md-header__option[data-md-component="palette"] {
+.a11y-tools {
   order: 20;
   flex: 0 0 auto;
 }
 
-.a11y-tools {
+.md-search {
   order: 30;
   flex: 0 0 auto;
 }
@@ -181,6 +181,9 @@ html {
 
 .md-search {
   z-index: 4;
+  margin-left: 0.65rem;
+  padding-left: 0.75rem;
+  border-left: 1px solid rgba(243, 246, 250, 0.22);
 }
 
 .md-search__output {
@@ -387,12 +390,12 @@ html {
 }
 
 .md-header__option[data-md-component="palette"] {
-  order: 20;
+  order: 10;
   display: flex;
   align-items: center;
   margin-left: 0.55rem;
-  padding-left: 0.75rem;
-  border-left: 1px solid rgba(243, 246, 250, 0.22);
+  padding-left: 0;
+  border-left: none;
 }
 
 .md-header__option label.md-header__button {
@@ -467,7 +470,7 @@ html {
 }
 
 .a11y-tools {
-  order: 30;
+  order: 20;
   display: inline-flex;
   align-items: center;
   gap: 0.35rem;
@@ -504,6 +507,8 @@ html {
   width: calc(100% + 2.4rem);
   margin: 0 -1.2rem 1.6rem;
   padding: 3rem 2rem 2.8rem;
+  border-top: 5px solid var(--gold);
+  border-bottom: 5px solid var(--gold);
   background:
     radial-gradient(ellipse 55% 85% at 90% 0%, rgba(125, 211, 252, 0.35), transparent 55%),
     linear-gradient(155deg, #155e95 0%, #1e75b2 50%, #2682bf 100%);
@@ -1378,7 +1383,7 @@ html.hc :focus-visible {
     padding: 2.4rem 1.2rem 2rem;
   }
 
-  .md-header__option[data-md-component="palette"] {
+  .md-search {
     border-left: none;
     padding-left: 0;
     margin-left: 0.2rem;
