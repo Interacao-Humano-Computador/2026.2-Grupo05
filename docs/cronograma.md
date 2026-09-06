@@ -13,12 +13,12 @@
 ## 1. Descrição
 O cronograma visa à organização e distribuição de todas as tarefas que deverão ser realizadas pelos integrantes da equipe no decorrer da disciplina de Interação Humano-Computador. As atividades foram classificadas de acordo com as etapas do projeto aplicadas à avaliação do site Semob-DF. O SWEBOK versão 4.0 destaca que estimar cronogramas é um processo iterativo e altamente dependente de fatores humanos e ambientais dinâmicos, conforme evidenciado nas figuras 1 e 2. Por isso, como orienta o SWEBOK, nosso planejamento buscou prever as dependências das tarefas e foi estruturado para permitir que os cronogramas executados possam sofrer atualizações contínuas ao longo do semestre para refletir o andamento real do desenvolvimento em comparação ao planejamento inicial. (IEEE COMPUTER SOCIETY, 2024, p. 9-8)
 
-![Trecho do SWEBOK sobre Planejamento de Projetos](docs/assets/images/swebok-1.png)
+![Trecho do SWEBOK sobre Planejamento de Projetos](docs/assets/prints_referencias/swebok-1.png)
 <div align="center">
 **Figura 1** - Trecho do SWEBOK abordando estimativas de projetos. **Fonte:** SWEBOK v4.0 (2024, p. 9-8).
 </div>
 
-![Trecho do SWEBOK sobre Projetos Adaptativos](docs/assets/images/swebok-2.png)
+![Trecho do SWEBOK sobre Projetos Adaptativos](docs/assets/prints_referencias/swebok-2.png)
 <div align="center">
 **Figura 2** - Trecho do SWEBOK abordando o ciclo de vida adaptativo. **Fonte:** SWEBOK v4.0 (2024, p. 9-9).
 </div>
