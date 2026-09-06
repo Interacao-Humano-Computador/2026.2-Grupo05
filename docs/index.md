@@ -97,10 +97,5 @@ Ressalta-se que este projeto possui **finalidade estritamente acadêmica**, dese
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | --- | --- | --- |
-| `1.0` | 05/09/2026 | Estruturação e publicação inicial da documentação | [Carlos Costa](https://github.com/carloshfgit) | Grupo 05 |
-
-## Referências
-
-[1] DISTRITO FEDERAL. Secretaria de Estado de Transporte e Mobilidade do Distrito Federal. Disponível em: https://www.semob.df.gov.br/. Acesso em: 4 set. 2026.
-
-[2] SALES, André Barros de. Plano de Ensino FIHC 022026 — Turma 01. Brasília: FCTE/UnB, 2026.
+| `1.0` | 05/09/2026 | Estruturação e publicação inicial da documentação | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
+| `1.1` | 06/09/2026 | Refinando elementos visuais e de acessibilidade | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
