@@ -1,4 +1,4 @@
-site_name: Avaliação de IHC
+site_name: Projeto da disciplina de IHC
 site_description: Documentação do projeto de Interação Humano-Computador do Grupo 05, FCTE/UnB, 2026.2.
 site_author: Grupo 05 — IHC 2026.2
 site_url: https://interacao-humano-computador.github.io/2026.2-Grupo05/
@@ -91,10 +91,24 @@ extra:
 
 nav:
   - Inicial: index.md
+
   - Apresentações: apresentacoes.md
-  - Atas: atas.md
-  - Planejamento: planejamento.md
+
+  - Atas:
+    - Ata de reunião 1: ata1.md
+
+  - Planejamento:
+    - Cronograma: cronograma.md
+    - Ferramentas: Ferramentas_do_Projeto.md
+    - Mapa de disponibilidade: HeatMap_do_Grupo.md
+    - Sites avaliados: selecao_v2.md
+    - Site escolhido: escolha-semob.md
+    - Processo de design: ProcessoDesign.md
+
   - Análise de Requisitos: analise-de-requisitos.md
+
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento.md
+
   - Verificação: verificacao.md
+
   - Entrega Final: entrega-final.md
