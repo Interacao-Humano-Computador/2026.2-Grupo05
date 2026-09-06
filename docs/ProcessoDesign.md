@@ -32,9 +32,6 @@ O ciclo de vida proposto por Mayhew (1999) é dividido em três fases principais
 2. **Design, Avaliação e Desenvolvimento**: fase em que se busca chegar a uma solução de interface que atenda às metas de usabilidade definidas anteriormente. O processo é conduzido em níveis crescentes de detalhe, normalmente por meio de protótipos de baixa, média e alta fidelidade, sempre avaliados com usuários antes de avançar para o próximo nível.
 3. **Instalação**: etapa em que o sistema já está em uso real, e são coletadas as opiniões e o comportamento dos usuários ao longo do tempo. Essas informações retroalimentam o processo, servindo tanto para melhorar o sistema atual quanto para orientar o desenvolvimento de versões futuras.
 
-![Figura 1 – Ciclo de vida para a engenharia de usabilidade](ProcessoDesign_Figura1.png)
-
-*Figura 1 – Ciclo de vida para a engenharia de usabilidade (BARBOSA et al., 2021)*
 ### 2.1 Por que usar o ciclo de vida de Mayhew?
 
 O grupo escolheu o ciclo de Mayhew principalmente pelo fato de suas etapas serem bem definidas, detalhadas e sequenciais, o que reduz a subjetividade na condução do projeto quando comparado a processos mais livres, como o Ciclo de Vida em Estrela. Essa característica é especialmente vantajosa para a equipe, já que a maioria dos integrantes não possui grande experiência prévia em projetos de IHC, e um processo mais estruturado passo a passo diminui o risco de erros de condução e facilita o acompanhamento do progresso do trabalho ao longo do semestre.
