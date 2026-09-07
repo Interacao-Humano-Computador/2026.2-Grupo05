@@ -30,6 +30,7 @@ A escolha dessas plataformas levou em consideração a acessibilidade, a eficiê
 | **Google Gemini** | ![Google Gemini](assets/images/Google_Gemini_icon_2025.svg){ width="45" } | Empregado como assistente de inteligência artificial para apoio na revisão sintática e textual, padronização da formatação em Markdown e auxílio na estruturação e estilização de código front-end para o MkDocs. |
 | **123APPS** | ![123APPS](assets/images/123APPS.png) | Plataforma utilizada para a gravação de tela e áudio durante as apresentações assíncronas dos artefatos produzidos pela equipe, garantindo o registro em vídeo exigido pela disciplina. |
 | **CapCut** | ![CapCut](assets/images/CapCut.png) | Escolhido para a edição rápida e eficiente dos vídeos gravados. Permite realizar cortes, ajustes de áudio e a renderização final do material audiovisual antes do upload na plataforma de hospedagem. |
+| **VS Code** | ![VS Code](assets/images/Vscode.png) | Ambiente de Desenvolvimento Integrado (IDE) principal adotado pela equipe. Escolhido por sua leveza, integração nativa com o Git e vasta gama de extensões, facilitando a edição dos arquivos Markdown, a manutenção da estrutura do MkDocs e o gerenciamento do repositório. |
 
 *Fonte: Autores. Logomarcas de propriedade de suas respectivas empresas institucionais.*
 
