@@ -7,21 +7,12 @@
 | 05/09/2026 | 1.0 | Elaboração e estruturação da página de Cronogramas e Fundamentação Teórica. | Igor Dantas | Gabriel Melo |
 | 06/09/2026 | 1.1 | Adição da atividade de revisão e ajustes nos artefatos pós-feedback dos monitores/professor em todas as tabelas de cronograma. | Carlos | Igor Dantas |
 | 06/09/2026 | 1.2 | Remoção de tags de citação textual nas tabelas do cronograma. | Carlos | Igor Dantas |
+| 17/09/2026 | 1.3 | Correção das imagens e cronogramas | Igor | Gabriel |
 
 ---
 
 ## 1. Descrição
 O cronograma visa à organização e distribuição de todas as tarefas que deverão ser realizadas pelos integrantes da equipe no decorrer da disciplina de Interação Humano-Computador. As atividades foram classificadas de acordo com as etapas do projeto aplicadas à avaliação do site Semob-DF. O SWEBOK versão 4.0 destaca que estimar cronogramas é um processo iterativo e altamente dependente de fatores humanos e ambientais dinâmicos, conforme evidenciado nas figuras 1 e 2. Por isso, como orienta o SWEBOK, nosso planejamento buscou prever as dependências das tarefas e foi estruturado para permitir que os cronogramas executados possam sofrer atualizações contínuas ao longo do semestre para refletir o andamento real do desenvolvimento em comparação ao planejamento inicial. (IEEE COMPUTER SOCIETY, 2024, p. 9-8)
-
-![Trecho do SWEBOK sobre Planejamento de Projetos](assets/prints_referencias/swebok-1.png)
-<div align="center">
-**Figura 1** - Trecho do SWEBOK abordando estimativas de projetos. **Fonte:** SWEBOK v4.0 (2024, p. 9-8).
-</div>
-
-![Trecho do SWEBOK sobre Projetos Adaptativos](assets/prints_referencias/swebok-2.png)
-<div align="center">
-**Figura 2** - Trecho do SWEBOK abordando o ciclo de vida adaptativo. **Fonte:** SWEBOK v4.0 (2024, p. 9-9).
-</div>
 
 ## 2. Cronograma Geral Planejado
 Na Tabela 1, tem-se a visão macro do planejamento do projeto, englobando todas as entregas exigidas pelo plano de ensino da disciplina, com as respectivas datas limite, períodos de revisão por pares e margens para ajustes pós-feedback.
@@ -30,17 +21,17 @@ Na Tabela 1, tem-se a visão macro do planejamento do projeto, englobando todas 
 
 | Etapa | Artefatos e Atividades | Início | Fim (Entrega) | Período de Revisão | Gravação da Apresentação | Ajustes Pós-Feedback | Autor(es) | Revisor(es) |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **1** | Planejamento, Equipe, Lista de Sites, Ferramentas, Processo de Design e Cronogramas | 20/08 | 06/09 | 05/09 | 06/09 | 07/09 a 10/09 | Todos | Todos |
-| **2** | Perfil do Usuário, Aspectos Éticos e Análise de Tarefas | 07/09 | 27/09 | 25/09 | 26/09 a 27/09 | 28/09 a 02/10 | A definir | A definir |
-| **3** | Princípios Gerais de Projeto, Metas de Usabilidade e Guia de Estilo | 28/09 | 06/10 | 04/10 | 05/10 a 06/10 | 07/10 a 12/10 | A definir | A definir |
-| **4** | Planejamento da Avaliação do Storyboard e da Análise de Tarefas | 07/10 | 13/10 | 11/10 | 12/10 a 13/10 | 14/10 a 19/10 | A definir | A definir |
-| **5** | Relatos (Storyboard/Tarefas) e Planej. Avaliação do Protótipo de Papel | 14/10 | 25/10 | 23/10 | 24/10 a 25/10 | 26/10 a 31/10 | A definir | A definir |
-| **6** | Relato (Prot. Papel) e Planej. Avaliação do Protótipo de Alta Fidelidade | 26/10 | 03/11 | 01/11 | 02/11 a 03/11 | 04/11 a 09/11 | A definir | A definir |
-| **7** | Relato dos Resultados do Protótipo de Alta Fidelidade | 04/11 | 15/11 | 13/11 | 14/11 a 15/11 | 16/11 a 21/11 | A definir | A definir |
-| **8** | Verificação dos Artefatos | 16/11 | 24/11 | 22/11 | 23/11 a 24/11 | 25/11 a 29/11 | A definir | A definir |
-| **Final** | Apresentação do Projeto Final (Seminário) | 25/11 | 30/11 | 29/11 | Ao vivo | N/A | Todos | Todos |
+| **1** | Planejamento, Equipe, Lista de Sites, Ferramentas, Processo de Design e Cronogramas | 20/08 | 06/09 | 05/09 | 06/09 | 07/09 a 10/09 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
+| **2** | Perfil do Usuário, Aspectos Éticos e Análise de Tarefas | 07/09 | 27/09 | 25/09 | 26/09 a 27/09 | 28/09 a 02/10 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
+| **3** | Princípios Gerais de Projeto, Metas de Usabilidade e Guia de Estilo | 28/09 | 06/10 | 04/10 | 05/10 a 06/10 | 07/10 a 12/10 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
+| **4** | Planejamento da Avaliação do Storyboard e da Análise de Tarefas | 07/10 | 13/10 | 11/10 | 12/10 a 13/10 | 14/10 a 19/10 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
+| **5** | Relatos (Storyboard/Tarefas) e Planej. Avaliação do Protótipo de Papel | 14/10 | 25/10 | 23/10 | 24/10 a 25/10 | 26/10 a 31/10 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
+| **6** | Relato (Prot. Papel) e Planej. Avaliação do Protótipo de Alta Fidelidade | 26/10 | 03/11 | 01/11 | 02/11 a 03/11 | 04/11 a 09/11 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
+| **7** | Relato dos Resultados do Protótipo de Alta Fidelidade | 04/11 | 15/11 | 13/11 | 14/11 a 15/11 | 16/11 a 21/11 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
+| **8** | Verificação dos Artefatos | 16/11 | 24/11 | 22/11 | 23/11 a 24/11 | 25/11 a 29/11 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
+| **Final** | Apresentação do Projeto Final (Seminário) | 25/11 | 30/11 | 29/11 | Ao vivo | N/A | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Igor Dantas Araújo.*
 
 ## 3. Entrega 1 - Planejamento do Projeto
 
@@ -61,7 +52,7 @@ Na Tabela 2, encontra-se o cronograma planejado especificamente para as atividad
 | **Gravação do Vídeo** | Gravação do vídeo de apresentação da Entrega 1. | Todos os integrantes | N/A | 06/09/2026 | 06/09/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Todos os integrantes | Todos os integrantes | 07/09/2026 | 10/09/2026 |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Igor Dantas Araújo.*
 
 ### 3.2. Executado
 Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentando as datas em que as atividades foram efetivamente iniciadas e concluídas na prática.
@@ -80,7 +71,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Gravação do Vídeo** | Gravação e submissão do vídeo de apresentação. | Todos os integrantes | N/A | 06/09/2026 | 06/09/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Todos os integrantes | Todos os integrantes | 07/09/2026 | 10/09/2026 |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Igor Dantas Araújo.*
 
 ### 4. Entrega 2 - Perfil do Usuário e Análise de Tarefas
 
@@ -88,16 +79,16 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 | Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Perfil do Usuário** | Definição dos atributos demográficos, atitudes e experiência. | A definir | A definir | 07/09/2026 | 27/09/2026 |
-| **Aspectos Éticos** | Elaboração do TCLE e definição dos 4 princípios éticos. | A definir | A definir | 07/09/2026 | 27/09/2026 |
-| **Técnicas de Elicitação** | Planejamento das entrevistas, questionários e grupos de foco. | A definir | A definir | 07/09/2026 | 27/09/2026 |
-| **Cenários** | Elaboração dos cenários de uso principais do Semob-DF. | A definir | A definir | 07/09/2026 | 27/09/2026 |
-| **Análise de Tarefas (HTA)** | Construção do diagrama, legenda e tabela HTA. | A definir | A definir | 07/09/2026 | 27/09/2026 |
-| **Análise de Tarefas (GOMS)** | Construção dos modelos (KLM ou CMN-GOMS). | A definir | A definir | 07/09/2026 | 27/09/2026 |
-| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 26/09/2026 | 27/09/2026 |
-| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 28/09/2026 | 02/10/2026 |
+| **Perfil do Usuário** | Definição dos atributos demográficos, atitudes e experiência. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Aspectos Éticos** | Elaboração do TCLE e definição dos 4 princípios éticos. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Técnicas de Elicitação** | Planejamento das entrevistas e brainstorming | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Cenários** | Elaboração dos cenários de uso principais do Semob-DF. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Análise de Tarefas (HTA)** | Construção do diagrama, legenda e tabela HTA. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Análise de Tarefas (GOMS)** | Construção dos modelos (KLM ou CMN-GOMS). | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 26/09/2026 | 27/09/2026 |
+| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 28/09/2026 | 02/10/2026 |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Igor Dantas Araújo.*
 
 ### 5. Entrega 3 - Princípios, Metas e Guia de Estilo
 
@@ -114,7 +105,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 05/10/2026 | 06/10/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 07/10/2026 | 12/10/2026 |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Igor Dantas Araújo.*
 
 ### 6. Entrega 4 - Planejamento da Avaliação
 
@@ -131,7 +122,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 12/10/2026 | 13/10/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 14/10/2026 | 19/10/2026 |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Igor Dantas Araújo.*
 
 ### 7. Entrega 5 - Relatos e Planej. Protótipo de Papel
 
@@ -148,7 +139,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 24/10/2026 | 25/10/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 26/10/2026 | 31/10/2026 |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Igor Dantas Araújo.*
 
 ### 8. Entrega 6 - Relato Prot. Papel e Planej. Alta Fidelidade
 
@@ -165,7 +156,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 02/11/2026 | 03/11/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 04/11/2026 | 09/11/2026 |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Igor Dantas Araújo.*
 
 ### 9. Entrega 7 - Relato da Avaliação do Protótipo de Alta Fidelidade
 
@@ -182,7 +173,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 14/11/2026 | 15/11/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 16/11/2026 | 21/11/2026 |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Igor Dantas Araújo.*
 
 ### 10. Entrega 8 - Verificação dos Artefatos
 
@@ -199,7 +190,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 23/11/2026 | 24/11/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 25/11/2026 | 29/11/2026 |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Igor Dantas Araújo.*
 
 
 ## 11. Declaração sobre o Uso de IA Generativa
@@ -210,3 +201,14 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 
 -   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
 -   IEEE COMPUTER SOCIETY. Software Engineering Management. In: WASHIZAKI, Hironori (Ed.). *Guide to the Software Engineering Body of Knowledge (SWEBOK)*. Versão 4.0. Los Alamitos: IEEE Computer Society, 2024. Cap. 9, sec. 2 (Software Project Planning), subseção 2.3.
+
+## 13. Imagens de Referência
+![Trecho do SWEBOK sobre Planejamento de Projetos](assets/prints_referencias/swebok-1.png)
+<div align="center">
+**Figura 1** - Trecho do SWEBOK abordando estimativas de projetos. **Fonte:** SWEBOK v4.0 (2024, p. 9-8).
+</div>
+
+![Trecho do SWEBOK sobre Projetos Adaptativos](assets/prints_referencias/swebok-2.png)
+<div align="center">
+**Figura 2** - Trecho do SWEBOK abordando o ciclo de vida adaptativo. **Fonte:** SWEBOK v4.0 (2024, p. 9-9).
+</div>
