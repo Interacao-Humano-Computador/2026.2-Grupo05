@@ -5,6 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 05/09/2026 | 1.0 | Tabela de ferramentas utilizadas no projeto. | Gabriel Melo | Tomas Garcia |
+| 19/09/2026 | 2.0 | Acrescimo de novas ferramentas que serão utilizadas durante o desenvolvimento do projeto | Gabriel Melo | Igor Dantas |
 
 ---
 
@@ -31,8 +32,9 @@ A escolha dessas plataformas levou em consideração a acessibilidade, a eficiê
 | **123APPS** | ![123APPS](assets/images/123APPS.png) | Plataforma utilizada para a gravação de tela e áudio durante as apresentações assíncronas dos artefatos produzidos pela equipe, garantindo o registro em vídeo exigido pela disciplina. |
 | **CapCut** | ![CapCut](assets/images/CapCut.png) | Escolhido para a edição rápida e eficiente dos vídeos gravados. Permite realizar cortes, ajustes de áudio e a renderização final do material audiovisual antes do upload na plataforma de hospedagem. |
 | **VS Code** | ![VS Code](assets/images/Vscode.jpg) | Ambiente de Desenvolvimento Integrado (IDE) principal adotado pela equipe. Escolhido por sua leveza, integração nativa com o Git e vasta gama de extensões, facilitando a edição dos arquivos Markdown, a manutenção da estrutura do MkDocs e o gerenciamento do repositório. |
+| **Figma** | ![Figma](assets/images/Figma.png) | Ambiente de prototipação de baixa fidelidade adotado pela equipe para planejamento de correções de defeitos encontrados nos sites. |
 
-*Fonte: Autores. Logomarcas de propriedade de suas respectivas empresas institucionais.*
+*Fonte: Gabriel Melo. Logomarcas de propriedade de suas respectivas empresas institucionais.*
 
 
 
