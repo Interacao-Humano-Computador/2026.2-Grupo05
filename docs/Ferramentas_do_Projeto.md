@@ -6,6 +6,7 @@
 | :---: | :---: | :--- | :--- | :--- |
 | 05/09/2026 | 1.0 | Tabela de ferramentas utilizadas no projeto. | Gabriel Melo | Tomas Garcia |
 | 19/09/2026 | 2.0 | Acrescimo de novas ferramentas que serão utilizadas durante o desenvolvimento do projeto | Gabriel Melo | Igor Dantas |
+| 20/092026 | 2.1 | Acrescimo de etapas onde serão utilizadas as ferramentas | Gabriel Melo | Arthur Mariani |
 
 ---
 
@@ -18,21 +19,21 @@ A escolha dessas plataformas levou em consideração a acessibilidade, a eficiê
 
 **Tabela 1** - Ferramentas utilizadas no projeto
 
-| Ferramenta | Logo | Motivação da Escolha |
-| :--- | :---: | :--- |
-| **Microsoft Teams** | ![Teams](assets/images/teams.png){ width="45" } | Utilizado para a comunicação formal, realização das reuniões de alinhamento da equipe e gravação de encontros importantes ou sessões de avaliação que exigem registro em vídeo e áudio. |
-| **LaTeX / Overleaf** | ![Overleaf](assets/images/overleaf.png){ width="45" } | Adotado para a criação e formatação do documento final e relatórios acadêmicos do projeto. Garante uma padronização rigorosa, versionamento de texto e alta qualidade tipográfica de forma colaborativa na nuvem. |
-| **GitHub** | ![GitHub](assets/images/github.png){ width="45" } | Plataforma essencial para o versionamento, hospedagem dos artefatos do projeto (Wiki) e controle colaborativo do repositório. Permite rastrear as entregas, gerenciar *issues* e integrar a documentação. |
-| **Google Docs** | ![Google Docs](assets/images/google-docs.png){ width="45" } | Utilizado para a edição rápida, simultânea e colaborativa de rascunhos, roteiros e textos preliminares antes da revisão final e transferência para a documentação oficial ou repositório. |
-| **MkDocs** | ![MkDocs](assets/images/mkdocs.png){ width="52" } | Escolhido para a geração da página de documentação estática do projeto. Ele transforma nossos arquivos Markdown em um site estruturado, limpo e de fácil navegação, integrando-se perfeitamente ao GitHub Pages. |
-| **YouTube** | ![YouTube](assets/images/youtube.png){ width="45" } | Plataforma de hospedagem utilizada para o upload e compartilhamento dos vídeos produzidos ao longo do projeto, como registros de testes de usabilidade, simulações ou apresentações das entregas. |
-| **WhatsApp** | ![WhatsApp](assets/images/whatsapp.png){ width="45" } | Ferramenta de comunicação diária. É fundamental para a troca rápida de mensagens, avisos cotidianos, lembretes de prazos e resolução de impedimentos urgentes entre os membros do grupo. |
-| **When2meet** | ![When2meet](assets/images/when2meet.png){ width="90" } | Utilizado para cruzar e mapear a disponibilidade de horários de todos os integrantes da equipe e geração do *heatmap* (mapa de calor) visual para facilitar a identificação rápida dos melhores momentos para o agendamento de reuniões. |
-| **Google Gemini** | ![Google Gemini](assets/images/Google_Gemini_icon_2025.svg){ width="45" } | Empregado como assistente de inteligência artificial para apoio na revisão sintática e textual, padronização da formatação em Markdown e auxílio na estruturação e estilização de código front-end para o MkDocs. |
-| **123APPS** | ![123APPS](assets/images/123APPS.png) | Plataforma utilizada para a gravação de tela e áudio durante as apresentações assíncronas dos artefatos produzidos pela equipe, garantindo o registro em vídeo exigido pela disciplina. |
-| **CapCut** | ![CapCut](assets/images/CapCut.png) | Escolhido para a edição rápida e eficiente dos vídeos gravados. Permite realizar cortes, ajustes de áudio e a renderização final do material audiovisual antes do upload na plataforma de hospedagem. |
-| **VS Code** | ![VS Code](assets/images/Vscode.jpg) | Ambiente de Desenvolvimento Integrado (IDE) principal adotado pela equipe. Escolhido por sua leveza, integração nativa com o Git e vasta gama de extensões, facilitando a edição dos arquivos Markdown, a manutenção da estrutura do MkDocs e o gerenciamento do repositório. |
-| **Figma** | ![Figma](assets/images/Figma.png) | Ambiente de prototipação de baixa fidelidade adotado pela equipe para planejamento de correções de defeitos encontrados nos sites. |
+| Ferramenta | Logo | Motivação da Escolha | Etapa(s) Utilizada |
+| :--- | :---: | :--- | :--- |
+| **Microsoft Teams** | ![Teams](assets/images/teams.png){ width="45" } | Utilizado para a comunicação formal, realização das reuniões de alinhamento da equipe e gravação de encontros importantes ou sessões de avaliação que exigem registro em vídeo e áudio. | Todas as etapas. |
+| **LaTeX / Overleaf** | ![Overleaf](assets/images/overleaf.png){ width="45" } | Adotado para a criação e formatação do documento final e relatórios acadêmicos do projeto. Garante uma padronização rigorosa, versionamento de texto e alta qualidade tipográfica de forma colaborativa na nuvem. | Todas as etapas. |
+| **GitHub** | ![GitHub](assets/images/github.png){ width="45" } | Plataforma essencial para o versionamento, hospedagem dos artefatos do projeto (Wiki) e controle colaborativo do repositório. Permite rastrear as entregas, gerenciar *issues* e integrar a documentação. | Todas as etapas. |
+| **Google Docs** | ![Google Docs](assets/images/google-docs.png){ width="45" } | Utilizado para a edição rápida, simultânea e colaborativa de rascunhos, roteiros e textos preliminares antes da revisão final e transferência para a documentação oficial ou repositório. | Etapas de 1 a 8. |
+| **MkDocs** | ![MkDocs](assets/images/mkdocs.png){ width="52" } | Escolhido para a geração da página de documentação estática do projeto. Ele transforma nossos arquivos Markdown em um site estruturado, limpo e de fácil navegação, integrando-se perfeitamente ao GitHub Pages. | Etapas de 1 a 8. |
+| **YouTube** | ![YouTube](assets/images/youtube.png){ width="45" } | Plataforma de hospedagem utilizada para o upload e compartilhamento dos vídeos produzidos ao longo do projeto, como registros de testes de usabilidade, simulações ou apresentações das entregas. | Etapas de 1 a 8. |
+| **WhatsApp** | ![WhatsApp](assets/images/whatsapp.png){ width="45" } | Ferramenta de comunicação diária. É fundamental para a troca rápida de mensagens, avisos cotidianos, lembretes de prazos e resolução de impedimentos urgentes entre os membros do grupo. | Etapas de 1 a 8. |
+| **When2meet** | ![When2meet](assets/images/when2meet.png){ width="90" } | Utilizado para cruzar e mapear a disponibilidade de horários de todos os integrantes da equipe e geração do *heatmap* (mapa de calor) visual para facilitar a identificação rápida dos melhores momentos para o agendamento de reuniões. | Etapa 1. |
+| **Google Gemini** | ![Google Gemini](assets/images/Google_Gemini_icon_2025.svg){ width="45" } | Empregado como assistente de inteligência artificial para apoio na revisão sintática e textual, padronização da formatação em Markdown e auxílio na estruturação e estilização de código front-end para o MkDocs. Além disso, será utilizado para geração de imagens de personas. | Etapas de 1 a 8. |
+| **123APPS** | ![123APPS](assets/images/123APPS.png) | Plataforma utilizada para a gravação de tela e áudio durante as apresentações assíncronas dos artefatos produzidos pela equipe, garantindo o registro em vídeo exigido pela disciplina. | Etapas de 1 a 8. |
+| **CapCut** | ![CapCut](assets/images/CapCut.png) | Escolhido para a edição rápida e eficiente dos vídeos gravados. Permite realizar cortes, ajustes de áudio e a renderização final do material audiovisual antes do upload na plataforma de hospedagem. | Etapas de 1 a 8. |
+| **VS Code** | ![VS Code](assets/images/Vscode.jpg) | Ambiente de Desenvolvimento Integrado (IDE) principal adotado pela equipe. Escolhido por sua leveza, integração nativa com o Git e vasta gama de extensões, facilitando a edição dos arquivos Markdown, a manutenção da estrutura do MkDocs e o gerenciamento do repositório. | Etapas de 1 a 8. |
+| **Figma** | ![Figma](assets/images/Figma.png) | Ambiente de prototipação de baixa fidelidade adotado pela equipe para planejamento de correções de defeitos encontrados nos sites. | Etapas 6 e 7. |
 
 *Fonte: Gabriel Melo. Logomarcas de propriedade de suas respectivas empresas institucionais.*
 
