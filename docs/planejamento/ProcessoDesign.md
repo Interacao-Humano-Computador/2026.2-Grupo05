@@ -34,7 +34,7 @@ O ciclo de vida proposto por Mayhew (1999), ilustrado na **Figura 1**, é estrut
 
 **Figura 1** – Ciclo de vida para a engenharia de usabilidade
 
-![Figura 1 – Ciclo de vida para a engenharia de usabilidade](assets/prints_referencias/processo-design-mayhew.jpeg)
+![Figura 1 – Ciclo de vida para a engenharia de usabilidade](../assets/prints_referencias/processo-design-mayhew.jpeg)
 
 *Fonte: BARBOSA et al. (2021)*
 

@@ -33,7 +33,7 @@ Data: 07/09/2026 Horário: 20h00 às 20h30 Local: Online via Microsoft Teams
 
 **Figura 1** - Itens da lista de verificação de Planejamento Geral do Projeto
 
-![Figura 1 – Itens de Planejamento Geral](assets/prints_referencias/inspecao-etapa1-planejamento.png)
+![Figura 1 – Itens de Planejamento Geral](../assets/prints_referencias/inspecao-etapa1-planejamento.png)
 
 **Fonte:** SALES (2026, p. 8).
 
@@ -41,13 +41,13 @@ Data: 07/09/2026 Horário: 20h00 às 20h30 Local: Online via Microsoft Teams
 
 **Figura 2** - Itens da lista de verificação de Desenvolvimento do Projeto (Parte 1)
 
-![Figura 2 – Itens de Desenvolvimento do Projeto (Parte 1)](assets/prints_referencias/inspecao-etapa1-desenvolvimento-1.png)
+![Figura 2 – Itens de Desenvolvimento do Projeto (Parte 1)](../assets/prints_referencias/inspecao-etapa1-desenvolvimento-1.png)
 
 **Fonte:** SALES (2026, p. 8).
 
 **Figura 3** - Itens da lista de verificação de Desenvolvimento do Projeto (Parte 2)
 
-![Figura 3 – Itens de Desenvolvimento do Projeto (Parte 2)](assets/prints_referencias/inspecao-etapa1-desenvolvimento-2.png)
+![Figura 3 – Itens de Desenvolvimento do Projeto (Parte 2)](../assets/prints_referencias/inspecao-etapa1-desenvolvimento-2.png)
 
 **Fonte:** SALES (2026, p. 9).
 
@@ -55,7 +55,7 @@ Data: 07/09/2026 Horário: 20h00 às 20h30 Local: Online via Microsoft Teams
 
 **Figura 4** - Itens da lista de verificação de Conteúdo da Disciplina
 
-![Figura 4 – Itens de Conteúdo da Disciplina](assets/prints_referencias/inspecao-etapa1-conteudo.png)
+![Figura 4 – Itens de Conteúdo da Disciplina](../assets/prints_referencias/inspecao-etapa1-conteudo.png)
 
 **Fonte:** SALES (2026, p. 9).
 
