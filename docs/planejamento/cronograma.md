@@ -203,12 +203,12 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 -   IEEE COMPUTER SOCIETY. Software Engineering Management. In: WASHIZAKI, Hironori (Ed.). *Guide to the Software Engineering Body of Knowledge (SWEBOK)*. Versão 4.0. Los Alamitos: IEEE Computer Society, 2024. Cap. 9, sec. 2 (Software Project Planning), subseção 2.3.
 
 ## 13. Imagens de Referência
-![Trecho do SWEBOK sobre Planejamento de Projetos](assets/prints_referencias/swebok-1.png)
+![Trecho do SWEBOK sobre Planejamento de Projetos](../assets/prints_referencias/swebok-1.png)
 <div align="center">
 **Figura 1** - Trecho do SWEBOK abordando estimativas de projetos. **Fonte:** SWEBOK v4.0 (2024, p. 9-8).
 </div>
 
-![Trecho do SWEBOK sobre Projetos Adaptativos](assets/prints_referencias/swebok-2.png)
+![Trecho do SWEBOK sobre Projetos Adaptativos](../assets/prints_referencias/swebok-2.png)
 <div align="center">
 **Figura 2** - Trecho do SWEBOK abordando o ciclo de vida adaptativo. **Fonte:** SWEBOK v4.0 (2024, p. 9-9).
 </div>

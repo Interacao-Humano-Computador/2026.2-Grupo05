@@ -17,7 +17,7 @@ A **Figura 1** apresenta o *heatmap* (mapa de calor) gerado, indicando os perío
 
 **Figura 1** - Mapa de calor (Heatmap) da disponibilidade da equipe
 
-![Heatmap de Disponibilidade](assets/images/heatmap.png)
+![Heatmap de Disponibilidade](../assets/images/heatmap.png)
 
 *Fonte: Autores. Gráfico gerado por meio da ferramenta When2meet.*
 
