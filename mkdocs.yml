@@ -89,6 +89,9 @@ extra:
       link: https://github.com/Interacao-Humano-Computador/2026.2-Grupo05
       name: Repositório do grupo no GitHub
 
+not_in_nav: |
+  contribuicoes/index.md
+
 nav:
   - Inicial: index.md
 
@@ -97,8 +100,6 @@ nav:
   - Atas:
     - Ata de reunião 1: atas/ata1.md
     - Ata de reunião 2: atas/ata2.md
-
-  - Contribuições: contribuicoes/index.md
 
   - Planejamento:
     - Cronograma: planejamento/cronograma.md
