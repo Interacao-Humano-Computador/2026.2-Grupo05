@@ -109,7 +109,9 @@ nav:
     - Site escolhido: planejamento/escolha-semob.md
     - Processo de design: planejamento/ProcessoDesign.md
 
-  - Análise de Requisitos: analise-de-requisitos/index.md
+  - Análise de Requisitos:
+    - analise-de-requisitos/index.md
+    - Entrevistas: analise-de-requisitos/entrevistas.md
 
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 

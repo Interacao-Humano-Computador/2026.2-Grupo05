@@ -1,5 +1,14 @@
 # Contribuições da Equipe
 
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :--- | :--- |
+| 17/09/2026 | 1.0 | Criação e estruturação da página consolidada de contribuições da equipe. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 21/09/2026 | 1.1 | Inclusão do artefato de Entrevistas e da gravação do Treinamento 01 nas contribuições da Etapa 2 e no painel consolidado por integrante. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+
+---
+
 ## 1. Introdução
 
 A presente página tem a finalidade de consolidar e dar total transparência a todas as contribuições individuais e coletivas realizadas pelos membros do **Grupo 05** ao longo do ciclo de vida da disciplina de Interação Humano-Computador. 
@@ -68,6 +77,7 @@ A **Tabela 3** elenca as atividades e artefatos previstos para a segunda entrega
 | :--- | :--- | :--- | :--- | :---: | :---: |
 | Perfil do Usuário | Levantamento de atributos demográficos, experiências e competências tecnológicas | Arthur Mariani | Rodrigo Carvalho | — | <span class="pill pill-wait">Em andamento</span> |
 | Aspectos Éticos e TCLE | Elaboração do Termo de Consentimento Livre e Esclarecido e dos 4 princípios éticos | Carlos Henrique | Tomas Garcia | — | <span class="pill pill-wait">Em andamento</span> |
+| [Entrevistas e Treinamento](../analise-de-requisitos/entrevistas.md) | Organização das gravações de entrevistas e condução do treinamento prático simulado para motoristas de ônibus | Carlos Henrique | Rodrigo Carvalho | [Treinamento 01](https://youtu.be/HDwjpSOLzwo) | <span class="pill pill-wait">Em andamento</span> |
 | Técnicas de Elicitação | Planejamento e aplicação de questionários, entrevistas e observação | Gabriel Melo | Arthur Mariani | — | <span class="pill pill-wait">Em andamento</span> |
 | Cenários de Uso | Elaboração de cenários contextuais e narrativos de utilização do portal SEMOB-DF | Igor Dantas | Lucas Araújo | — | <span class="pill pill-wait">Em andamento</span> |
 | Análise de Tarefas (HTA) | Diagramas e tabelas da Análise Hierárquica de Tarefas para as principais funcionalidades | Lucas Araújo | Carlos Henrique | — | <span class="pill pill-wait">Em andamento</span> |
@@ -221,11 +231,11 @@ A **Tabela 11** sintetiza de forma unificada as participações e contribuiçõe
 | Integrante | Artefato(s) como Autor | Artefato(s) como Revisor | Gravações e Apresentações |
 | :--- | :--- | :--- | :--- |
 | **Arthur Mariani**<br>[@arthur-mariani](https://github.com/arthur-mariani) | • [Git Pages & Equipe](../index.md) *(v1.0)* | • [Ata de Reunião 01](../atas/ata1.md)<br>• [Git Pages & Equipe](../index.md) *(v1.2)* | • [Apresentação 1](https://youtu.be/BhAlLermHBs) (Apresentador)<br>• [Reunião 02](https://www.youtube.com/watch?v=I8lpMLe0A3o) (Participante) |
-| **Carlos Henrique Costa**<br>[@carloshfgit](https://github.com/carloshfgit) | • [Site Selecionado: SEMOB-DF](../planejamento/escolha-semob.md)<br>• [Apresentações (Documento)](../apresentacoes/index.md)<br>• [Contribuições da Equipe](index.md)<br>• [Git Pages & Equipe](../index.md) *(v1.1 e v1.2)* | • [Git Pages & Equipe](../index.md) *(v1.0)*<br>• [Sites Avaliados e Descartados](../planejamento/selecao_v2.md) | • [Apresentação 1](https://youtu.be/BhAlLermHBs) (Apresentador)<br>• [Reunião 02](https://www.youtube.com/watch?v=I8lpMLe0A3o) (Participante) |
+| **Carlos Henrique Costa**<br>[@carloshfgit](https://github.com/carloshfgit) | • [Site Selecionado: SEMOB-DF](../planejamento/escolha-semob.md)<br>• [Apresentações (Documento)](../apresentacoes/index.md)<br>• [Contribuições da Equipe](index.md)<br>• [Git Pages & Equipe](../index.md) *(v1.1 e v1.2)*<br>• [Entrevistas e Treinamento](../analise-de-requisitos/entrevistas.md) | • [Git Pages & Equipe](../index.md) *(v1.0)*<br>• [Sites Avaliados e Descartados](../planejamento/selecao_v2.md) | • [Apresentação 1](https://youtu.be/BhAlLermHBs) (Apresentador)<br>• [Reunião 02](https://www.youtube.com/watch?v=I8lpMLe0A3o) (Participante)<br>• [Treinamento de Entrevista 01](https://youtu.be/HDwjpSOLzwo) (Entrevistador) |
 | **Gabriel Melo Cardone**<br>[@gabriellcardone-06](https://github.com/gabriellcardone-06) | • [Ferramentas do Projeto](../planejamento/Ferramentas_do_Projeto.md)<br>• [Mapa de Disponibilidade](../planejamento/HeatMap_do_Grupo.md) | • [Cronograma](../planejamento/cronograma.md) *(v1.0)*<br>• [Ata de Reunião 02 (Inspeção)](../atas/ata2.md) | • [Apresentação 1](https://youtu.be/BhAlLermHBs) (Apresentador)<br>• [Reunião 02](https://www.youtube.com/watch?v=I8lpMLe0A3o) (Participante) |
 | **Igor Dantas Araújo**<br>[@IgorDARAUJO](https://github.com/IgorDARAUJO) | • [Cronograma](../planejamento/cronograma.md) *(v1.0)* | • [Site Selecionado: SEMOB-DF](../planejamento/escolha-semob.md)<br>• [Cronograma](../planejamento/cronograma.md) *(v1.1/v1.2)* | • [Apresentação 1](https://youtu.be/BhAlLermHBs) (Apresentador)<br>• [Reunião 02](https://www.youtube.com/watch?v=I8lpMLe0A3o) (Participante) |
 | **Lucas Araújo Lima**<br>[@Lucasaraujoszz](https://github.com/Lucasaraujoszz) | • [Ata de Reunião 01](../atas/ata1.md)<br>• [Ata de Reunião 02 (Inspeção)](../atas/ata2.md) | • [Apresentações](../apresentacoes/index.md) | • [Apresentação 1](https://youtu.be/BhAlLermHBs) (Apresentador)<br>• [Reunião 02](https://www.youtube.com/watch?v=I8lpMLe0A3o) (Participante) |
-| **Rodrigo Carvalho Barbosa**<br>[@RodrigoCBarbosa](https://github.com/RodrigoCBarbosa) | • [Sites Avaliados e Descartados](../planejamento/selecao_v2.md) | • [Processo de Design](../planejamento/ProcessoDesign.md)<br>• [Git Pages & Equipe](../index.md) *(v1.1)* | • [Apresentação 1](https://youtu.be/BhAlLermHBs) (Apresentador)<br>• [Reunião 02](https://www.youtube.com/watch?v=I8lpMLe0A3o) (Participante) |
+| **Rodrigo Carvalho Barbosa**<br>[@RodrigoCBarbosa](https://github.com/RodrigoCBarbosa) | • [Sites Avaliados e Descartados](../planejamento/selecao_v2.md) | • [Processo de Design](../planejamento/ProcessoDesign.md)<br>• [Git Pages & Equipe](../index.md) *(v1.1)*<br>• [Entrevistas e Treinamento](../analise-de-requisitos/entrevistas.md) | • [Apresentação 1](https://youtu.be/BhAlLermHBs) (Apresentador)<br>• [Reunião 02](https://www.youtube.com/watch?v=I8lpMLe0A3o) (Participante)<br>• [Treinamento de Entrevista 01](https://youtu.be/HDwjpSOLzwo) (Participante) |
 | **Tomás Garcia Rocho**<br>[@TomasRocho](https://github.com/TomasRocho) | • [Processo de Design](../planejamento/ProcessoDesign.md) | • [Ferramentas do Projeto](../planejamento/Ferramentas_do_Projeto.md)<br>• [Mapa de Disponibilidade](../planejamento/HeatMap_do_Grupo.md) | • [Apresentação 1](https://youtu.be/BhAlLermHBs) (Apresentador)<br>• [Reunião 02](https://www.youtube.com/watch?v=I8lpMLe0A3o) (Participante) |
 
 *Fonte: Elaborado pelos autores (2026).*
