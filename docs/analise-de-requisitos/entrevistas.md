@@ -5,6 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 21/09/2026 | 1.0 | Criação do documento de organização das gravações de entrevistas e treinamentos, adicionando o Treinamento de Entrevista voltado aos motoristas de ônibus. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| 22/09/2026 | 1.1 | Adição das gravações das entrevistas oficiais (Motorista de Ônibus e Desenvolvedores) e do Treinamento de Entrevista 02 (Perfil Técnico). | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
 
 ---
 
@@ -38,16 +39,17 @@ Na Tabela 1, encontram-se listadas as gravações de treinamento realizadas pelo
 
 | ID | Tópico / Perfil Simulado | Data da Gravação | Integrantes Responsáveis | Link da Gravação |
 | :---: | :--- | :---: | :--- | :---: |
-| **TRE-01** | Treinamento de Entrevista - Motoristas de Ônibus (SEMOB-DF) | 21/09/2026 | [Carlos Henrique](https://github.com/carloshfgit) e [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Vídeo no YouTube](https://youtu.be/HDwjpSOLzwo) |
+| **TRE-01** | Treinamento de Entrevista - Motoristas de Ônibus (SEMOB-DF) | 21/09/2026 | [Carlos Costa](https://github.com/carloshfgit) e [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Vídeo no YouTube](https://youtu.be/HDwjpSOLzwo) |
+| **TRE-02** | Treinamento de Entrevista - Perfil de Usuário Técnico (SEMOB-DF) | 22/09/2026 | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Carlos Costa](https://github.com/carloshfgit) | [Vídeo no YouTube](https://youtu.be/6aKtlpjuPuc) |
 
 <div align="center">
-<p><em>Fonte: Carlos Costa (2026).</em></p>
+<p><em>Fonte: Carlos Costa e Rodrigo Carvalho (2026).</em></p>
 </div>
 
 ### 3.1. Treinamento 01: Motoristas de Ônibus (SEMOB-DF)
 
 * **Tema:** Treinamento prático de entrevista voltado ao perfil de condutores de transporte público coletivo do DF.
-* **Integrantes Responsáveis:** [Carlos Henrique](https://github.com/carloshfgit) e [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)
+* **Integrantes Responsáveis:** [Carlos Costa](https://github.com/carloshfgit) e [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)
 * **Data de Gravação:** 21/09/2026
 * **Objetivo:** Simular a aplicação do roteiro de perguntas exploratórias com foco na rotina operacional dos motoristas, incluindo consulta e acompanhamento de itinerários, pontualidade, comunicação com a SEMOB-DF e percepção das ferramentas digitais disponíveis.
 * **Link de Acesso Direto:** [https://youtu.be/HDwjpSOLzwo](https://youtu.be/HDwjpSOLzwo)
@@ -63,30 +65,89 @@ Abaixo, no Vídeo 1, é possível assistir à gravação completa da simulação
 <p><em>Fonte: Carlos Costa e Rodrigo Carvalho (2026).</em></p>
 </div>
 
+### 3.2. Treinamento 02: Perfil de Usuário Técnico (SEMOB-DF)
+
+* **Tema:** Treinamento prático de entrevista voltado ao perfil técnico e de sustentação dos sistemas (SEMOB-DF).
+* **Integrantes Responsáveis:** [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Carlos Costa](https://github.com/carloshfgit)
+* **Data de Gravação:** 22/09/2026
+* **Objetivo:** Simulação de entrevista realizada por integrantes da equipe para testar e calibrar as perguntas do roteiro técnico sobre arquitetura de dados, consumo de serviços públicos e manutenção de interfaces no portal SEMOB-DF.
+* **Link de Acesso Direto:** [https://youtu.be/6aKtlpjuPuc](https://youtu.be/6aKtlpjuPuc)
+
+Abaixo, no Vídeo 2, é possível assistir à gravação completa da simulação de treinamento:
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/6aKtlpjuPuc" title="Treinamento de Entrevista - Perfil de Usuário Técnico (SEMOB-DF)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%; border-radius: 8px;"></iframe>
+</div>
+
+<div align="center">
+<p><strong>Vídeo 2</strong> — Treinamento de Entrevista: Perfil de Usuário Técnico (SEMOB-DF).</p>
+<p><em>Fonte: Rodrigo Carvalho e Carlos Costa (2026).</em></p>
+</div>
+
 ---
 
 ## 4. Gravações das Entrevistas com Usuários
 
-Nesta seção serão documentadas as entrevistas oficiais realizadas com passageiros, estudantes, trabalhadores e operadores do sistema de transporte público do DF. Cada sessão conterá a identificação do participante (anonimizado por código ou nome fictício), data de realização, duração, roteiro utilizado e link para a íntegra da gravação.
+Nesta seção são documentadas as entrevistas oficiais realizadas com usuários e partes interessadas (*stakeholders*) do sistema de transporte público e dos canais do SEMOB-DF. Cada sessão contém a identificação do participante e respectivo papel, data de realização, responsáveis pela condução e registro em vídeo, link de acesso direto e reprodução integrada.
 
-Na Tabela 2, apresenta-se o quadro consolidado das entrevistas oficiais com usuários.
+Na Tabela 2, apresenta-se o quadro consolidado das entrevistas oficiais com usuários e partes interessadas.
 
 <div align="center">
 <p><strong>Tabela 2</strong> — Registro das Entrevistas Realizadas com Usuários e Stakeholders</p>
 </div>
 
-| ID | Perfil do Usuário / Papel | Data de Realização | Entrevistador(es) | Link da Gravação | Status |
+| ID | Perfil do Usuário / Papel | Data de Realização | Condução e Filmagem | Link da Gravação | Status |
 | :---: | :--- | :---: | :--- | :---: | :---: |
-| **ENT-01** | Motorista de Ônibus / Operador de Transporte | *A definir* | [Carlos Costa](https://github.com/carloshfgit) | *Pendente* | Em planejamento |
-| **ENT-02** | Técnico / Servidor da SEMOB-DF | *A definir* | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | *Pendente* | Em planejamento |
-| **ENT-03** | Passageiro Frequente / Usuário de Transporte Coletivo | *A definir* | Integrantes do Grupo 05 | *Pendente* | Em planejamento |
-| **ENT-04** | Estudante / Beneficiário do Passe Livre Estudantil | *A definir* | Integrantes do Grupo 05 | *Pendente* | Em planejamento |
+| **ENT-01** | Potencial Usuário do SEMOB-DF (Motorista de Ônibus) | 22/09/2026 | [Carlos Costa](https://github.com/carloshfgit) (Condução)<br>[Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) (Filmagem) | [Vídeo no YouTube](https://youtu.be/ZykGMpaCt30) | <span class="pill pill-ok">Concluída</span> |
+| **ENT-02** | Desenvolvedores (SEMOB-DF) | 22/09/2026 | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) (Condução)<br>[Carlos Costa](https://github.com/carloshfgit) (Filmagem) | [Vídeo no YouTube](https://youtu.be/f5bk6RBZwDE) | <span class="pill pill-ok">Concluída</span> |
+| **ENT-03** | Passageiro Frequente / Usuário de Transporte Coletivo | *A definir* | Integrantes do Grupo 05 | *Pendente* | <span class="pill pill-wait">Em planejamento</span> |
+| **ENT-04** | Estudante / Beneficiário do Passe Livre Estudantil | *A definir* | Integrantes do Grupo 05 | *Pendente* | <span class="pill pill-wait">Em planejamento</span> |
 
 <div align="center">
-<p><em>Fonte: Carlos Costa (2026).</em></p>
+<p><em>Fonte: Carlos Costa e Rodrigo Carvalho (2026).</em></p>
 </div>
 
-> Os vídeos das entrevistas oficiais serão incorporados nesta página conforme forem gravados e aprovados pelos participantes no decorrer da Etapa 2 de Análise de Requisitos.
+### 4.1. Entrevista 01: Potencial Usuário do SEMOB-DF (Motorista de Ônibus)
+
+* **Título:** Entrevista com potencial usuário do SEMOB-DF (Motorista de Ônibus)
+* **Perfil do Participante:** Condutor profissional do transporte coletivo do Distrito Federal (potencial usuário das informações de itinerário e serviços do órgão).
+* **Entrevistador (Condução):** [Carlos Costa](https://github.com/carloshfgit)
+* **Filmagem e Suporte Técnico:** [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)
+* **Data da Realização:** 22/09/2026
+* **Objetivo:** Compreender a experiência prática de quem opera o sistema no dia a dia, investigando rotinas de verificação de itinerários, pontualidade, canais de comunicação com o órgão gestor e as principais necessidades e gargalos informacionais encontrados nas soluções digitais.
+* **Link de Acesso Direto:** [https://youtu.be/ZykGMpaCt30](https://youtu.be/ZykGMpaCt30)
+
+Abaixo, no Vídeo 3, é possível assistir à gravação na íntegra da entrevista:
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ZykGMpaCt30" title="Entrevista com potencial usuário do SEMOB-DF (Motorista de Ônibus)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%; border-radius: 8px;"></iframe>
+</div>
+
+<div align="center">
+<p><strong>Vídeo 3</strong> — Entrevista com potencial usuário do SEMOB-DF (Motorista de Ônibus).</p>
+<p><em>Fonte: Carlos Costa e Rodrigo Carvalho (2026).</em></p>
+</div>
+
+### 4.2. Entrevista 02: Desenvolvedores (SEMOB-DF)
+
+* **Título:** Entrevista com Desenvolvedores (SEMOB-DF)
+* **Perfil dos Participantes:** Desenvolvedores e integrantes técnicos do ecossistema de dados e plataformas do SEMOB-DF.
+* **Entrevistador (Condução):** [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)
+* **Filmagem e Suporte Técnico:** [Carlos Costa](https://github.com/carloshfgit)
+* **Data da Realização:** 22/09/2026
+* **Objetivo:** Investigar a visão técnica de desenvolvimento, sustentação e fornecimento de dados de mobilidade urbana, identificando desafios de integração tecnológica, consumo de APIs, estrutura das informações públicas e oportunidades de evolução na interface e experiência do usuário.
+* **Link de Acesso Direto:** [https://youtu.be/f5bk6RBZwDE](https://youtu.be/f5bk6RBZwDE)
+
+Abaixo, no Vídeo 4, é possível assistir à gravação na íntegra da entrevista:
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/f5bk6RBZwDE" title="Entrevista com Desenvolvedores (SEMOB-DF)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%; border-radius: 8px;"></iframe>
+</div>
+
+<div align="center">
+<p><strong>Vídeo 4</strong> — Entrevista com Desenvolvedores (SEMOB-DF).</p>
+<p><em>Fonte: Rodrigo Carvalho e Carlos Costa (2026).</em></p>
+</div>
 
 ---
 
