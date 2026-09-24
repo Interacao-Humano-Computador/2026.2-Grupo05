@@ -5,6 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 05/09/2026 | 1.0 | Seleção do sistema para avaliação. | Rodrigo Carvalho | Carlos Henrique |
+| 24/09/2026 | 1.1 | Revisão e organização do artefato pós feedback. | Rodrigo Carvalho |
 
 ---
 
@@ -16,15 +17,15 @@ Para dar início à etapa de definição do escopo do projeto, a equipe realizou
 
 | Integrante | Site Avaliado |
 | :--- | :--- |
-| Arthur | Prefeitura de Angical Bahia |
-| Carlos | SEMOB |
-| Gabriel | INSS |
-| Igor | Plataforma LATTES |
-| Lucas | INSS |
-| Rodrigo | DETRAN-DF |
-| Tomas | Portal da prefeitura de São Paulo |
+| Arthur | [Prefeitura de Angical Bahia](https://drive.google.com/file/d/1Q8NzRfhBQEKxviJP-siXsMfAFa-nr0tg/view?usp=sharing) |
+| Carlos | [SEMOB](https://drive.google.com/file/d/1Q6WfvwByV6bU7NOs1YOPrESTYKDEU2fU/view?usp=sharing) |
+| Gabriel | [INSS](https://drive.google.com/file/d/1QlRK9tjW1Q9tNaUcOlHpUOcq0X3EJuN7/view?usp=sharing) |
+| Igor | [Plataforma LATTES](https://drive.google.com/file/d/1Ut57WMn6_axKPHMMZeVEr76Z8lPbaft1/view?usp=sharing) |
+| Lucas | [INSS]() |
+| Rodrigo | [DETRAN-DF](https://drive.google.com/file/d/1YG6ldLw2E6B_lF-nGIggoGN5ECo1q3Jl/view?usp=sharing) |
+| Tomas | [Portal da prefeitura de São Paulo](https://drive.google.com/file/d/1QuMdRt0pVmz5fkSOoiT7PnKzfvHFfUtU/view?usp=sharing) |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborada por Rodrigo Barbosa (2026).*
 
 ## 2. Seleção por eliminação
 
@@ -50,7 +51,7 @@ A Tabela 2 sumariza a avaliação comparativa de cada portal inspecionado a part
 | **IPTU São Paulo**   | Baixo (4 erros pontuais, texto)            | Inviável (Contribuintes/proprietários em SP)       | Médio (Exige "Senha Web")                    | Médio (Emissão de guias)                     | Baixo (Longe da realidade do grupo)          | Descartado (C2 inviável)     |
 | **Pref. Angical-BA** | Baixo (Apenas 2 problemas estéticos)       | Inviável (Cidadãos no interior da Bahia)           | Alto (Totalmente aberto)                     | Baixo (Busca simples)                        | Baixo (Longe da realidade, falta material)   | Descartado (C1/C2 inviáveis) |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborada por Rodrigo Barbosa (2026).*
 
 ## 3. Conclusão
 
