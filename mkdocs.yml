@@ -115,6 +115,8 @@ nav:
 
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 
-  - Verificação: verificacao/index.md
+  - Verificação: 
+    - Verificação da entrega 1: verificacao/verif1.md
+    - Verificação da entrega 2: verificacao/verif2.md
 
   - Entrega Final: entrega-final/index.md
