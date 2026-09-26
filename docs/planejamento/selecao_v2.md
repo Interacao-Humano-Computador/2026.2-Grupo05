@@ -5,7 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 05/09/2026 | 1.0 | Seleção do sistema para avaliação. | Rodrigo Carvalho | Carlos Henrique |
-| 24/09/2026 | 1.1 | Revisão e organização do artefato pós feedback. | Rodrigo Carvalho |
+| 24/09/2026 | 1.1 | Revisão e organização do artefato pós feedback. | Rodrigo Carvalho | Arthur Mariani |
 
 ---
 
