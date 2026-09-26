@@ -46,6 +46,8 @@ O usuário primário do site da Semob é um(a) jovem adulto(a) de 18 a 39 anos, 
 | Conhecimento institucional | Baixo: conhece bem o próprio trajeto e os horários de que precisa, mas não distingue claramente os papéis da Semob (regulação e planejamento), do BRB Mobilidade (emissão de cartões e cadastro do Passe Livre), do Metrô-DF e das empresas operadoras de ônibus |
 | Idiomas e Jargôes | Certo grau de desconhecimento de termos técnicos como **"Integração tarifária"**, **"Linha circular"**, **"Validador"** |
 
+*Fonte: Gabriel Melo.*
+
 Foram utilizadas as seguintes fontes de dados:
 * PDAD 2021.
 * Relatório de Ouvidoria — 1º Trimestre de 2026 (Parte Geral).
@@ -55,9 +57,11 @@ Foram utilizadas as seguintes fontes de dados:
 
 ### 4.1 Persona 1 (primária) — Larissa Ferreira Lima
 
-![Foto da persona Larissa Ferreira Lima](./imagens/larissa-ferreira-lima.jpg)
+**Autor: Gabrie Melo**
 
-*Figura 1 — Larissa Ferreira Lima, a "Lari" (imagem ilustrativa).*
+![Foto da persona Larissa Ferreira Lima](../assets/images/larissa-ferreira-lima.jpeg)
+
+*Figura 1 — Larissa Ferreira Lima, a "Lari" (imagem ilustrativa, gerada por IA Gemini).*
 
 > **"Eu só preciso saber que ônibus pegar, que horas ele passa e se ainda dá tempo. Não quero ficar caçando isso em vários sites."**
 
@@ -80,6 +84,8 @@ Foram utilizadas as seguintes fontes de dados:
 | **Dispositivos** | Smartphone Android intermediário, com plano de dados limitado; notebook antigo compartilhado em casa |
 | **Como chega ao site** | Quase sempre pelo celular, via busca no Google ou link recebido no WhatsApp e no Instagram |
 | **Personalidade** | Organizada, prática e independente. Impaciente com burocracia, mas cautelosa para não perder benefícios |
+
+*Fonte: Gabriel Melo.*
 
 #### 2. Status
 
@@ -134,6 +140,8 @@ Por que ela é a persona primária:
 | Registrar reclamação, sugestão ou pedido de nova linha ou abrigo | Eventual (poucas vezes por ano) | Média | 5 a 10 min |
 | Consultar direitos e regras (ex.: desembarque fora do ponto à noite, gratuidades) | Eventual | Média | 2 a 3 min |
 
+*Fonte: Gabriel Melo.*
+
 > Os passos detalhados de cada tarefa devem ser descritos nos **cenários**.
 
 **Contexto da rotina (dia útil):**
@@ -145,6 +153,8 @@ Por que ela é a persona primária:
 | 17h–19h | Vai até a universidade (cerca de 45 min) e faz um lanche rápido |
 | 19h–22h30 | Aulas |
 | 22h30–~23h45 | Volta para Ceilândia (ônibus e/ou metrô, conforme o horário) |
+
+*Fonte: Gabriel Melo.*
 
 #### 6. Relacionamentos
 
@@ -160,6 +170,8 @@ Por que ela é a persona primária:
 | **Metrô-DF e empresas de ônibus** | Operam o serviço que ela usa todos os dias | Geram os dados de linhas, horários e desvios |
 | **Ouvidoria do GDF (162 / ouv.df.gov.br) e Semob** | Canais formais de reclamação, sugestão e pedido de nova linha | Precisam ser fáceis de achar e permitir acompanhar o pedido |
 
+*Fonte: Gabriel Melo.*
+
 #### 7. Requisitos
 
 | Necessidade | Em suas palavras |
@@ -174,6 +186,8 @@ Por que ela é a persona primária:
 | Informações de segurança e direitos | *"Depois das 22h eu queria lembrar que posso descer fora do ponto e saber como pedir isso ao motorista."* |
 | Clareza sobre os benefícios | *"Quero entender como o passe estudantil e o vale-transporte funcionam juntos, pra ninguém me cobrar depois."* |
 | Confiança na informação | *"Tem que ser coisa oficial e atualizada. Se tiver a data da última atualização, melhor ainda."* |
+
+*Fonte: Gabriel Melo.*
 
 #### 8. Expectativas
 
@@ -202,9 +216,11 @@ Por que ela é a persona primária:
 
 ### 4.2 Persona 2 (primária) — João Pedro Carvalho
 
-![Foto da persona João Pedro Carvalho](./imagens/joao-pedro-carvalho.jpg)
+**Autor: Igor Dantas Araújo**
 
-*Figura 2 — João Pedro Carvalho (imagem gerada com inteligência artificial no artefato original).*
+![Foto da persona João Pedro Carvalho](../assets/images/joao-pedro-carvalho.jpeg)
+
+*Figura 2 — João Pedro Carvalho (imagem ilustrativa, gerada por IA Gemini).*
 
 > **"Meu objetivo ao buscar informação é economizar tempo para ter a rota mais eficiente."**
 
@@ -227,6 +243,8 @@ Por que ela é a persona primária:
 | **Dispositivos** | Smartphone Android; usuário de tecnologia há cerca de 14 anos (perfil tecnológico alto); fluente em português e inglês |
 | **Como chega ao app/site** | Não especificado no artefato original; hoje usa principalmente o Google Maps (pela precisão do rastreamento em tempo real) e, eventualmente, o Moovit |
 | **Personalidade** | Prático, direto e autodidata ("aprende fuçando"); recusa tutoriais longos e manuais; incomoda-se com propagandas intrusivas, cobranças por recursos básicos e cadastros complexos |
+
+*Fonte: Igor Dantas Araújo.*
 
 #### 2. Status
 
@@ -277,6 +295,8 @@ Por que ele é a persona primária:
 | Consultar rotas alternativas em dias atípicos | Ocasional | Secundária | Não especificado no artefato original |
 | Recarregar o cartão de transporte | Não especificado no artefato original | Secundária | Não especificado no artefato original |
 
+*Fonte: Igor Dantas Araújo.*
+
 > A gravidade dos erros do sistema sobre a vida de João é alta: quando os horários informados falham ou os veículos não aparecem no mapa, ele perde o transporte, acumula atrasos frequentes nas aulas da UnB e tem sua motivação para os estudos significativamente abalada. Os passos detalhados dessa tarefa crítica estão descritos no **Cenário 2**.
 
 **Contexto da rotina (conhecido pelo Cenário de Problema):**
@@ -288,6 +308,8 @@ Por que ele é a persona primária:
 | ~6h48–8h00 (variável) | Aguarda e utiliza o transporte coletivo até o Campus UnB Gama |
 | 8h00 | Início da primeira aula do dia |
 
+*Fonte: Igor Dantas Araújo.*
+
 #### 6. Relacionamentos
 
 | Quem | Relação com João Pedro | Por que importa para o projeto |
@@ -298,6 +320,8 @@ Por que ele é a persona primária:
 | **Motoristas e cobradores** | Contato direto durante o embarque no transporte coletivo | Canal presencial de informação quando o app falha (como no Cenário 2, em que um outro passageiro faz esse papel) |
 | **Equipe de suporte do sistema de transporte** | Contato eventual em caso de dúvidas ou falhas | Stakeholder responsável por investigar e corrigir erros como o "conflito de dados" relatado no Cenário 2 |
 | **Outros passageiros do ponto de ônibus** | Contato eventual, geralmente em situações de dúvida ou atraso | Fonte informal e imediata de confirmação quando o app não é confiável |
+
+*Fonte: Igor Dantas Araújo.*
 
 #### 7. Requisitos
 
@@ -334,6 +358,8 @@ Por que ele é a persona primária:
 
 ### 5.1 Cenário 1 — Última viagem para casa: horário, aviso de mudança e desembarque à noite
 
+**Autor: Gabrie Melo**
+
 - **Persona:** Larissa Ferreira Lima (persona primária)
 - **Tipo:** Cenário de problema — situação atual, com o site como ele é hoje
 - **Tarefas da persona cobertas:** consultar linhas e horários; conferir a última viagem à noite; verificar avisos de mudanças; consultar direitos e regras
@@ -355,6 +381,8 @@ Por que ele é a persona primária:
 | **Larissa Ferreira Lima** | Ator principal (usuária) | Mulher, 23 anos, volta sozinha à noite. Conhece bem o trajeto e chama a parada de "ponto". Usa o celular com uma mão. Confia que o site oficial avisa mudanças. Está cansada, com pouca bateria e pouco dado |
 | **Passageiros do grupo de WhatsApp da linha** | Atores secundários (fonte informal) | Usuários frequentes da mesma linha, que compartilham avisos rápidos entre si. Um deles avisa da mudança de plataforma |
 | **Motorista do último direto** | Ator secundário | Decide onde parar o ônibus e conhece a regra de desembarque à noite |
+
+*Fonte: Gabriel Melo.*
 
 **Elementos do ambiente com que os atores interagem:** site da Semob (página inicial e FAQ), DF no Ponto, navegador do celular, validador do ônibus e grupo de WhatsApp.
 
@@ -433,9 +461,13 @@ Por que ele é a persona primária:
 | O FAQ é único, longo e usa vocabulário diferente do dela ("parada" no lugar de "ponto"), misturando assuntos que não interessam ao passageiro **[1]** | Passos 4 e 5 | Linguagem simples; Informações de segurança e direitos |
 | Uso com sinal fraco, pouca bateria e uma mão: cada tela extra custa tempo e dados | Passos 1 a 5 | Site leve e fácil de usar com uma mão |
 
+*Fonte: Gabriel Melo.*
+
 ---
 
 ### 5.2 Cenário 2 — Atraso na viagem matutina para a universidade por conflito de horários no aplicativo
+
+**Autor: Igor Dantas Araújo**
 
 - **Persona:** João Pedro Carvalho (persona primária)
 - **Tipo:** Cenário de problema — situação atual do usuário antes da intervenção do novo sistema
@@ -458,6 +490,8 @@ Por que ele é a persona primária:
 | **João Pedro Carvalho** | Ator principal (usuário) | Homem, 19 anos, estudante de Engenharia, perfil tecnológico alto, usuário de Android. Planeja a saída de casa com base no horário informado pelo app e confia nessa previsão |
 | **Passageiros da parada de ônibus** | Atores secundários (fonte de confirmação informal) | Aguardam no mesmo ponto; um deles já presenciou a passagem adiantada do ônibus e serve de fonte de informação quando o app falha |
 | **Motorista do transporte coletivo** | Ator secundário | Conduz o veículo que passa fora do horário cadastrado no sistema |
+
+*Fonte: Igor Dantas Araújo.*
 
 **Elementos do ambiente com que o ator interage:** aplicativo de mapas e transporte (tela de horários e tela de rastreamento em tempo real), ponto de ônibus e os demais passageiros presentes.
 
@@ -522,3 +556,4 @@ Por que ele é a persona primária:
 | Ausência de rota ou linha alternativa direta indicada pelo app quando a linha planejada falha | Passo 5 | Consulta de rotas alternativas em dias atípicos |
 | O impacto da falha é alto: perda da primeira aula e queda de motivação, evidenciando o custo real de uma informação pouco confiável | Passo 5 | Garantir que o ônibus passe no horário informado pelo aplicativo |
 
+*Fonte: Igor Dantas Araújo.*
