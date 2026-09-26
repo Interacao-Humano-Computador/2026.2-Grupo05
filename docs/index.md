@@ -45,6 +45,8 @@ Ressalta-se que este projeto possui **finalidade estritamente acadêmica**, dese
 
 ## Equipe
 
+A Figura 1 apresenta os integrantes do Grupo 05.
+
 <div class="team">
 
 <a class="member" href="https://github.com/arthur-mariani" target="_blank" rel="noopener noreferrer">
