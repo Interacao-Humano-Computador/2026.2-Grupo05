@@ -84,6 +84,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Aspectos Éticos** | Elaboração do TCLE e definição dos 4 princípios éticos. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
 | **Entrevistas** | Planejamento e execução das entrevistas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
 | **Brainstorming** | Planejamento e execução do brainstorming | Lucas, Arthur | Carlos, Rodrigo, Igor, Gabriel | 07/09/2026 | 27/09/2026 |
+| **Análise de documentos** | Analisar informações de documentos para consolidar o perfil de usuário | Igor, Gabriel, Lucas, Arthur, Tomas | Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
 | **Cenários** | Elaboração dos cenários de uso principais do Semob-DF. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
 | **Análise de Tarefas (HTA)** | Construção do diagrama, legenda e tabela HTA. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
 | **Análise de Tarefas (CTT)** | Construção do diagrama CTT. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
