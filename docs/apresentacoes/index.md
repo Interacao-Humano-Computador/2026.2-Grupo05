@@ -11,7 +11,7 @@
 
 ## 1. Introdução
 
-Esta página tem como objetivo reunir os registros em vídeo e materiais de todas as apresentações realizadas pelo grupo ao longo das etapas da disciplina de Interação Humano-Computador. A divisão segue o planejamento estabelecido no [Cronograma](cronograma.md), contendo as datas previstas de gravação/entrega, os temas abordados e os respectivos links de acesso às gravações.
+Esta página tem como objetivo reunir os registros em vídeo e materiais de todas as apresentações realizadas pelo grupo ao longo das etapas da disciplina de Interação Humano-Computador. A divisão segue o planejamento estabelecido no [Cronograma](../planejamento/cronograma.md), contendo as datas previstas de gravação/entrega, os temas abordados e os respectivos links de acesso às gravações.
 
 ---
 

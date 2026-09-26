@@ -89,27 +89,32 @@ extra:
       link: https://github.com/Interacao-Humano-Computador/2026.2-Grupo05
       name: Repositório do grupo no GitHub
 
+not_in_nav: |
+  contribuicoes/index.md
+
 nav:
   - Inicial: index.md
 
-  - Apresentações: apresentacoes.md
+  - Apresentações: apresentacoes/index.md
 
   - Atas:
-    - Ata de reunião 1: ata1.md
-    - Ata de reunião 2: ata2.md
+    - Ata de reunião 1: atas/ata1.md
+    - Ata de reunião 2: atas/ata2.md
 
   - Planejamento:
-    - Cronograma: cronograma.md
-    - Ferramentas: Ferramentas_do_Projeto.md
-    - Mapa de disponibilidade: HeatMap_do_Grupo.md
-    - Sites avaliados: selecao_v2.md
-    - Site escolhido: escolha-semob.md
-    - Processo de design: ProcessoDesign.md
+    - Cronograma: planejamento/cronograma.md
+    - Ferramentas: planejamento/Ferramentas_do_Projeto.md
+    - Mapa de disponibilidade: planejamento/HeatMap_do_Grupo.md
+    - Sites avaliados: planejamento/selecao_v2.md
+    - Site escolhido: planejamento/escolha-semob.md
+    - Processo de design: planejamento/ProcessoDesign.md
 
-  - Análise de Requisitos: analise-de-requisitos.md
+  - Análise de Requisitos:
+    - analise-de-requisitos/index.md
+    - Entrevistas: analise-de-requisitos/entrevistas.md
 
-  - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento.md
+  - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 
-  - Verificação: verificacao.md
+  - Verificação: verificacao/index.md
 
-  - Entrega Final: entrega-final.md
+  - Entrega Final: entrega-final/index.md

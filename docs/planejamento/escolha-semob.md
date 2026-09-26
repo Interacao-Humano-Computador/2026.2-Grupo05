@@ -71,7 +71,7 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 **Figura 1** - Trecho sobre a Heurística 9 (Ajudar os usuários a reconhecer, diagnosticar e corrigir erros)
 
-![Figura 1 – Trecho sobre a Heurística 9](assets/prints_referencias/heuristica-9.png)
+![Figura 1 – Trecho sobre a Heurística 9](../assets/prints_referencias/heuristica-9.png)
 
 **Fonte:** Maciel et al. (2004, p. 11).
 
@@ -85,7 +85,7 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 **Figura 2** - Trecho sobre a Heurística 8 (Estética e design minimalista)
 
-![Figura 2 – Trecho sobre a Heurística 8](assets/prints_referencias/heuristica-8.png)
+![Figura 2 – Trecho sobre a Heurística 8](../assets/prints_referencias/heuristica-8.png)
 
 **Fonte:** Maciel et al. (2004, p. 10).
 
@@ -99,7 +99,7 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 **Figura 3** - Trecho sobre a Heurística 8 (Estética e design minimalista)
 
-![Figura 3 – Trecho sobre a Heurística 8](assets/prints_referencias/heuristica-8.png)
+![Figura 3 – Trecho sobre a Heurística 8](../assets/prints_referencias/heuristica-8.png)
 
 **Fonte:** Maciel et al. (2004, p. 10).
 
@@ -113,7 +113,7 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 **Figura 4** - Trecho sobre a Heurística 8 (Estética e design minimalista)
 
-![Figura 4 – Trecho sobre a Heurística 8](assets/prints_referencias/heuristica-8.png)
+![Figura 4 – Trecho sobre a Heurística 8](../assets/prints_referencias/heuristica-8.png)
 
 **Fonte:** Maciel et al. (2004, p. 10).
 
@@ -127,7 +127,7 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 **Figura 5** - Trecho sobre a Heurística 4 (Consistência e padrões)
 
-![Figura 5 – Trecho sobre a Heurística 4](assets/prints_referencias/heuristica-4.png)
+![Figura 5 – Trecho sobre a Heurística 4](../assets/prints_referencias/heuristica-4.png)
 
 **Fonte:** Maciel et al. (2004, p. 9).
 
