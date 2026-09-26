@@ -8,6 +8,7 @@
 | 06/09/2026 | 1.1 | Adição da atividade de revisão e ajustes nos artefatos pós-feedback dos monitores/professor em todas as tabelas de cronograma. | Carlos | Igor Dantas |
 | 06/09/2026 | 1.2 | Remoção de tags de citação textual nas tabelas do cronograma. | Carlos | Igor Dantas |
 | 17/09/2026 | 1.3 | Correção das imagens e cronogramas | Igor | Gabriel |
+| 26/09/2026 | 1.4 | Correção das atribuições de tarefas | Igor | Arthur |
 
 ---
 
@@ -49,8 +50,8 @@ Na Tabela 2, encontra-se o cronograma planejado especificamente para as atividad
 | **Cronograma Planejado** | Montar a tabela com as datas de todas as 8 entregas (início, fim, revisão). | Igor | Gabriel | 04/09/2026 | 05/09/2026 |
 | **Git Pages & Equipe** | Configurar repositório, contraste e criar página "Home" com fotos/nomes. | Arthur | Carlos | 04/09/2026 | 05/09/2026 |
 | **Cronograma Executado e ata** | Montar ata da reunião, tabela de execução e Declaração de IA. | Lucas | Arthur | 04/09/2026 | 05/09/2026 |
-| **Gravação do Vídeo** | Gravação do vídeo de apresentação da Entrega 1. | Todos os integrantes | N/A | 06/09/2026 | 06/09/2026 |
-| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Todos os integrantes | Todos os integrantes | 07/09/2026 | 10/09/2026 |
+| **Gravação do Vídeo** | Gravação do vídeo de apresentação da Entrega 1. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | N/A | 06/09/2026 | 06/09/2026 |
+| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 10/09/2026 |
 
 *Fonte: Igor Dantas Araújo.*
 
@@ -68,8 +69,8 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Cronograma Planejado** | Elaboração da tabela geral de prazos e etapas. | Igor | Gabriel | 05/09/2026 | 06/09/2026 |
 | **Git Pages & Equipe** | Estruturação da Home, navegação e acessibilidade. | Arthur | Carlos | 04/09/2026 | 06/09/2026 |
 | **Cronograma Executado e ata** | Registro da primeira reunião, execução e IA. | Lucas | Arthur | 05/09/2026 | 06/09/2026 |
-| **Gravação do Vídeo** | Gravação e submissão do vídeo de apresentação. | Todos os integrantes | N/A | 06/09/2026 | 06/09/2026 |
-| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Todos os integrantes | Todos os integrantes | 07/09/2026 | 10/09/2026 |
+| **Gravação do Vídeo** | Gravação e submissão do vídeo de apresentação. | Lucas, Arthur, Tomas | N/A | 06/09/2026 | 06/09/2026 |
+| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Lucas, Arthur, Tomas | Lucas, Arthur, Tomas | 07/09/2026 | 10/09/2026 |
 
 *Fonte: Igor Dantas Araújo.*
 
@@ -84,7 +85,7 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 | **Técnicas de Elicitação** | Planejamento das entrevistas e brainstorming | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
 | **Cenários** | Elaboração dos cenários de uso principais do Semob-DF. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
 | **Análise de Tarefas (HTA)** | Construção do diagrama, legenda e tabela HTA. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
-| **Análise de Tarefas (GOMS)** | Construção dos modelos (KLM ou CMN-GOMS). | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Análise de Tarefas (CTT)** | Construção do diagrama CTT. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
 | **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 26/09/2026 | 27/09/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 28/09/2026 | 02/10/2026 |
 
@@ -96,14 +97,14 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 | Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Princípios Gerais (Parte 1)** | Definição de visibilidade, controle, consistência e padronização. | A definir | A definir | 28/09/2026 | 06/10/2026 |
-| **Princípios Gerais (Parte 2)** | Prevenção de erros, flexibilidade e estética minimalista. | A definir | A definir | 28/09/2026 | 06/10/2026 |
-| **Metas de Usabilidade** | Seleção e justificativa das metas de usabilidade do projeto. | A definir | A definir | 28/09/2026 | 06/10/2026 |
-| **Características da Plataforma** | Restrições tecnológicas e especificações do Semob-DF. | A definir | A definir | 28/09/2026 | 06/10/2026 |
-| **Guia de Estilo (Introdução)** | Organização, público-alvo e elementos de interface/cores. | A definir | A definir | 28/09/2026 | 06/10/2026 |
-| **Guia de Estilo (Interação)** | Estilos de interação, aceleradores e vocabulário/padrões. | A definir | A definir | 28/09/2026 | 06/10/2026 |
-| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 05/10/2026 | 06/10/2026 |
-| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 07/10/2026 | 12/10/2026 |
+| **Princípios Gerais (Parte 1)** | Definição de visibilidade, controle, consistência e padronização. | Carlos, Rodrigo, Igor, Gabriel | Lucas, Arthur, Tomas | 28/09/2026 | 06/10/2026 |
+| **Princípios Gerais (Parte 2)** | Prevenção de erros, flexibilidade e estética minimalista. | Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel | 28/09/2026 | 06/10/2026 |
+| **Metas de Usabilidade** | Seleção e justificativa das metas de usabilidade do projeto. | Carlos, Rodrigo, Igor, Gabriel | Carlos, Rodrigo, Igor, Gabriel | 28/09/2026 | 06/10/2026 |
+| **Características da Plataforma** | Restrições tecnológicas e especificações do Semob-DF. | Lucas, Arthur, Tomas | Lucas, Arthur, Tomas | 28/09/2026 | 06/10/2026 |
+| **Guia de Estilo (Introdução)** | Organização, público-alvo e elementos de interface/cores. | Carlos, Rodrigo, Igor, Gabriel | Lucas, Arthur, Tomas | 28/09/2026 | 06/10/2026 |
+| **Guia de Estilo (Interação)** | Estilos de interação, aceleradores e vocabulário/padrões. | Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel | 28/09/2026 | 06/10/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 05/10/2026 | 06/10/2026 |
+| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/10/2026 | 12/10/2026 |
 
 *Fonte: Igor Dantas Araújo.*
 
@@ -113,14 +114,14 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 | Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Avaliação do Storyboard** | Planejamento usando o Framework DECIDE (objetivos e método). | A definir | A definir | 07/10/2026 | 13/10/2026 |
-| **Questões Práticas/Éticas** | Definição de recrutamento, prazos, orçamento e ética (Storyboard). | A definir | A definir | 07/10/2026 | 13/10/2026 |
-| **Relato do Storyboard** | Planejamento da estrutura do relato de resultados. | A definir | A definir | 07/10/2026 | 13/10/2026 |
-| **Avaliação de Tarefas** | Planejamento usando o Framework DECIDE (Análise de Tarefas). | A definir | A definir | 07/10/2026 | 13/10/2026 |
-| **Relato de Tarefas** | Planejamento da estrutura do relato de resultados das tarefas. | A definir | A definir | 07/10/2026 | 13/10/2026 |
-| **Teste Piloto** | Definição, data de execução e documentação do teste piloto. | A definir | A definir | 07/10/2026 | 13/10/2026 |
-| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 12/10/2026 | 13/10/2026 |
-| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 14/10/2026 | 19/10/2026 |
+| **Avaliação do Storyboard** | Planejamento usando o Framework DECIDE (objetivos e método). | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/10/2026 | 13/10/2026 |
+| **Questões Práticas/Éticas** | Definição de recrutamento, prazos, orçamento e ética (Storyboard). | Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel | 07/10/2026 | 13/10/2026 |
+| **Relato do Storyboard** | Planejamento da estrutura do relato de resultados. | Carlos, Rodrigo, Igor, Gabriel | Lucas, Arthur, Tomas | 07/10/2026 | 13/10/2026 |
+| **Avaliação de Tarefas** | Planejamento usando o Framework DECIDE (Análise de Tarefas). | Carlos, Rodrigo, Igor, Gabriel | Lucas, Arthur, Tomas | 07/10/2026 | 13/10/2026 |
+| **Relato de Tarefas** | Planejamento da estrutura do relato de resultados das tarefas. | Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel | 07/10/2026 | 13/10/2026 |
+| **Teste Piloto** | Definição, data de execução e documentação do teste piloto. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/10/2026 | 13/10/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 12/10/2026 | 13/10/2026 |
+| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 14/10/2026 | 19/10/2026 |
 
 *Fonte: Igor Dantas Araújo.*
 
@@ -130,14 +131,14 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 | Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Relato: Storyboard** | Execução e documentação dos resultados do Storyboard. | A definir | A definir | 14/10/2026 | 25/10/2026 |
-| **Relato: Análise de Tarefas** | Execução e documentação dos resultados da Análise de Tarefas. | A definir | A definir | 14/10/2026 | 25/10/2026 |
-| **Planej. Prot. de Papel (DECIDE)** | Objetivos, métodos e questões práticas da avaliação. | A definir | A definir | 14/10/2026 | 25/10/2026 |
-| **Planej. Relato (Prot. Papel)** | Estruturação de como os dados do protótipo de papel serão relatados. | A definir | A definir | 14/10/2026 | 25/10/2026 |
-| **Confecção Protótipo (Fluxo 1)** | Desenho das telas principais de busca e navegação do Semob. | A definir | A definir | 14/10/2026 | 25/10/2026 |
-| **Confecção Protótipo (Fluxo 2)** | Desenho das telas de horários, tarifas e informações de linhas. | A definir | A definir | 14/10/2026 | 25/10/2026 |
-| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 24/10/2026 | 25/10/2026 |
-| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 26/10/2026 | 31/10/2026 |
+| **Relato: Storyboard** | Execução e documentação dos resultados do Storyboard. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 14/10/2026 | 25/10/2026 |
+| **Relato: Análise de Tarefas** | Execução e documentação dos resultados da Análise de Tarefas. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 14/10/2026 | 25/10/2026 |
+| **Planej. Prot. de Papel (DECIDE)** | Objetivos, métodos e questões práticas da avaliação. | Carlos, Rodrigo, Igor, Gabriel | Lucas, Arthur, Tomas | 14/10/2026 | 25/10/2026 |
+| **Planej. Relato (Prot. Papel)** | Estruturação de como os dados do protótipo de papel serão relatados. | Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel | 14/10/2026 | 25/10/2026 |
+| **Confecção Protótipo (Fluxo 1)** | Desenho das telas principais de busca e navegação do Semob. | Carlos, Rodrigo, Igor, Gabriel | Lucas, Arthur, Tomas | 14/10/2026 | 25/10/2026 |
+| **Confecção Protótipo (Fluxo 2)** | Desenho das telas de horários, tarifas e informações de linhas. | Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel | 14/10/2026 | 25/10/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 24/10/2026 | 25/10/2026 |
+| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 26/10/2026 | 31/10/2026 |
 
 *Fonte: Igor Dantas Araújo.*
 
@@ -147,14 +148,14 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 | Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Relato: Prot. Papel (Dados)** | Consolidação das entrevistas e problemas encontrados. | A definir | A definir | 26/10/2026 | 03/11/2026 |
-| **Relato: Prot. Papel (Correções)** | Proposição de soluções para os problemas documentados. | A definir | A definir | 26/10/2026 | 03/11/2026 |
-| **Planej. Alta Fidelidade (DECIDE)**| Objetivos e métodos para a avaliação de alta fidelidade. | A definir | A definir | 26/10/2026 | 03/11/2026 |
-| **Planej. Alta Fidelidade (Prática)**| Recrutamento, teste piloto e questões éticas da alta fidelidade. | A definir | A definir | 26/10/2026 | 03/11/2026 |
-| **Planej. Relato (Alta Fidelidade)** | Estruturação do documento final de resultados. | A definir | A definir | 26/10/2026 | 03/11/2026 |
-| **Início do Design (Figma)** | Estruturação básica de componentes e grid para alta fidelidade. | A definir | A definir | 26/10/2026 | 03/11/2026 |
-| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 02/11/2026 | 03/11/2026 |
-| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 04/11/2026 | 09/11/2026 |
+| **Relato: Prot. Papel (Dados)** | Consolidação das entrevistas e problemas encontrados. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 26/10/2026 | 03/11/2026 |
+| **Relato: Prot. Papel (Correções)** | Proposição de soluções para os problemas documentados. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 26/10/2026 | 03/11/2026 |
+| **Planej. Alta Fidelidade (DECIDE)**| Objetivos e métodos para a avaliação de alta fidelidade. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 26/10/2026 | 03/11/2026 |
+| **Planej. Alta Fidelidade (Prática)**| Recrutamento, teste piloto e questões éticas da alta fidelidade. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 26/10/2026 | 03/11/2026 |
+| **Planej. Relato (Alta Fidelidade)** | Estruturação do documento final de resultados. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 26/10/2026 | 03/11/2026 |
+| **Início do Design (Figma)** | Estruturação básica de componentes e grid para alta fidelidade. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 26/10/2026 | 03/11/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 02/11/2026 | 03/11/2026 |
+| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 04/11/2026 | 09/11/2026 |
 
 *Fonte: Igor Dantas Araújo.*
 
@@ -164,14 +165,14 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 | Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Design Alta Fidelidade (Fluxo 1)** | Finalização de telas interativas de busca e mapas no Figma. | A definir | A definir | 04/11/2026 | 15/11/2026 |
-| **Design Alta Fidelidade (Fluxo 2)** | Finalização de telas interativas de tarifas e horários no Figma. | A definir | A definir | 04/11/2026 | 15/11/2026 |
-| **Execução de Entrevistas** | Condução e gravação das avaliações com usuários reais. | A definir | A definir | 04/11/2026 | 15/11/2026 |
-| **Relato: Consolidação de Dados** | Transcrição e análise dos problemas apontados pelos usuários. | A definir | A definir | 04/11/2026 | 15/11/2026 |
-| **Relato: Correções e Ajustes** | Documentação das soluções de design baseadas no feedback. | A definir | A definir | 04/11/2026 | 15/11/2026 |
-| **Conclusão do Relato** | Revisão final dos objetivos alcançados vs. planejados. | A definir | A definir | 04/11/2026 | 15/11/2026 |
-| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 14/11/2026 | 15/11/2026 |
-| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 16/11/2026 | 21/11/2026 |
+| **Design Alta Fidelidade (Fluxo 1)** | Finalização de telas interativas de busca e mapas no Figma. | Carlos, Rodrigo, Igor, Gabriel | Lucas, Arthur, Tomas | 04/11/2026 | 15/11/2026 |
+| **Design Alta Fidelidade (Fluxo 2)** | Finalização de telas interativas de tarifas e horários no Figma. | Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel | 04/11/2026 | 15/11/2026 |
+| **Execução de Entrevistas** | Condução e gravação das avaliações com usuários reais. | Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel | 04/11/2026 | 15/11/2026 |
+| **Relato: Consolidação de Dados** | Transcrição e análise dos problemas apontados pelos usuários. | Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel | 04/11/2026 | 15/11/2026 |
+| **Relato: Correções e Ajustes** | Documentação das soluções de design baseadas no feedback. | Carlos, Rodrigo, Igor, Gabriel | Lucas, Arthur, Tomas | 04/11/2026 | 15/11/2026 |
+| **Conclusão do Relato** | Revisão final dos objetivos alcançados vs. planejados. | Carlos, Rodrigo, Igor, Gabriel | Lucas, Arthur, Tomas | 04/11/2026 | 15/11/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 14/11/2026 | 15/11/2026 |
+| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 16/11/2026 | 21/11/2026 |
 
 *Fonte: Igor Dantas Araújo.*
 
@@ -181,14 +182,14 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 | Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **Inspeção Entregas 1 e 2** | Verificação de conformidade dos artefatos de Planej. e Perfil. | A definir | A definir | 16/11/2026 | 24/11/2026 |
-| **Inspeção Entregas 3 e 4** | Verificação dos Princípios Gerais e Planejamentos de Avaliação. | A definir | A definir | 16/11/2026 | 24/11/2026 |
-| **Inspeção Entrega 5** | Verificação dos Relatos e Planejamento do Prot. de Papel. | A definir | A definir | 16/11/2026 | 24/11/2026 |
-| **Inspeção Entrega 6** | Verificação dos Relatos e Planejamento da Alta Fidelidade. | A definir | A definir | 16/11/2026 | 24/11/2026 |
-| **Inspeção Entrega 7** | Verificação final do Protótipo de Alta Fidelidade e links. | A definir | A definir | 16/11/2026 | 24/11/2026 |
-| **Consolidação de Ajustes** | Aplicação de correções apontadas durante as inspeções cruzadas. | A definir | A definir | 16/11/2026 | 24/11/2026 |
-| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | A definir | A definir | 23/11/2026 | 24/11/2026 |
-| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | A definir | A definir | 25/11/2026 | 29/11/2026 |
+| **Inspeção Entregas 1 e 2** | Verificação de conformidade dos artefatos de Planej. e Perfil. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 16/11/2026 | 24/11/2026 |
+| **Inspeção Entregas 3 e 4** | Verificação dos Princípios Gerais e Planejamentos de Avaliação. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 16/11/2026 | 24/11/2026 |
+| **Inspeção Entrega 5** | Verificação dos Relatos e Planejamento do Prot. de Papel. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 16/11/2026 | 24/11/2026 |
+| **Inspeção Entrega 6** | Verificação dos Relatos e Planejamento da Alta Fidelidade. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 16/11/2026 | 24/11/2026 |
+| **Inspeção Entrega 7** | Verificação final do Protótipo de Alta Fidelidade e links. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 16/11/2026 | 24/11/2026 |
+| **Consolidação de Ajustes** | Aplicação de correções apontadas durante as inspeções cruzadas. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 16/11/2026 | 24/11/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 23/11/2026 | 24/11/2026 |
+| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 25/11/2026 | 29/11/2026 |
 
 *Fonte: Igor Dantas Araújo.*
 
