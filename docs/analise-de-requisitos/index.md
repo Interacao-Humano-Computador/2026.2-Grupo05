@@ -30,4 +30,7 @@ Abaixo estão dispostos os artefatos desenvolvidos no âmbito da Análise de Req
 ## 3. Referências Bibliográficas
 
 - BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.
+
+## 4. Bibliografia de Apoio
+
 - SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

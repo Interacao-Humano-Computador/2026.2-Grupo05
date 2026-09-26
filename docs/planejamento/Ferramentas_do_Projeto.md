@@ -47,4 +47,7 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 ## 3. Referências Bibliográficas
 
 -   BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.
+
+## 4. Bibliografia de Apoio
+
 -   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

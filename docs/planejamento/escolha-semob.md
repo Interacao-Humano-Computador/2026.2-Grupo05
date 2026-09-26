@@ -147,4 +147,6 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 
 - DISTRITO FEDERAL. Secretaria de Estado de Transporte e Mobilidade. **Portal Institucional da SEMOB-DF**. Disponível em: [https://www.semob.df.gov.br/](https://www.semob.df.gov.br/). Acesso em: 02 set. 2026.
 
+## 7. Bibliografia de Apoio
+
 - SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

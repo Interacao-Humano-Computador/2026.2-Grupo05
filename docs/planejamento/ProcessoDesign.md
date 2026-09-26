@@ -60,5 +60,7 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 
 - MAYHEW, D. J. **The Usability Engineering Lifecycle: a practitioner's handbook for user interface design**. San Francisco: Morgan Kaufmann, 1999.
 
+## 5. Bibliografia de Apoio
+
 - SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
 

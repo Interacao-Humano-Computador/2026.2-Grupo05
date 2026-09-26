@@ -213,10 +213,13 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 
 ## 12. Referências Bibliográficas
 
--   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
 -   IEEE COMPUTER SOCIETY. Software Engineering Management. In: WASHIZAKI, Hironori (Ed.). *Guide to the Software Engineering Body of Knowledge (SWEBOK)*. Versão 4.0. Los Alamitos: IEEE Computer Society, 2024. Cap. 9, sec. 2 (Software Project Planning), subseção 2.3.
 
-## 13. Imagens de Referência
+## 13. Bibliografia de Apoio
+
+-   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+
+## 14. Imagens de Referência
 ![Trecho do SWEBOK sobre Planejamento de Projetos](../assets/prints_referencias/swebok-1.png)
 <div align="center">
 **Figura 1** - Trecho do SWEBOK abordando estimativas de projetos. **Fonte:** SWEBOK v4.0 (2024, p. 9-8).
