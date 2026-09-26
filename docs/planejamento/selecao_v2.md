@@ -15,15 +15,15 @@ Para dar início à etapa de definição do escopo do projeto, a equipe realizou
 
 **Tabela 1 – Relação de integrantes e sites avaliados**
 
-| Integrante | Site Avaliado |
-| :--- | :--- |
-| Arthur | [Prefeitura de Angical Bahia](https://drive.google.com/file/d/1Q8NzRfhBQEKxviJP-siXsMfAFa-nr0tg/view?usp=sharing) |
-| Carlos | [SEMOB](https://drive.google.com/file/d/1Q6WfvwByV6bU7NOs1YOPrESTYKDEU2fU/view?usp=sharing) |
-| Gabriel | [INSS](https://drive.google.com/file/d/1QlRK9tjW1Q9tNaUcOlHpUOcq0X3EJuN7/view?usp=sharing) |
-| Igor | [Plataforma LATTES](https://drive.google.com/file/d/1Ut57WMn6_axKPHMMZeVEr76Z8lPbaft1/view?usp=sharing) |
-| Lucas | [INSS]() |
-| Rodrigo | [DETRAN-DF](https://drive.google.com/file/d/1YG6ldLw2E6B_lF-nGIggoGN5ECo1q3Jl/view?usp=sharing) |
-| Tomas | [Portal da prefeitura de São Paulo](https://drive.google.com/file/d/1QuMdRt0pVmz5fkSOoiT7PnKzfvHFfUtU/view?usp=sharing) |
+| Integrante | Site Avaliado | Link da avaliação |
+| :--- | :--- | :--- |
+| Arthur | Prefeitura de Angical Bahia | [Acessar avaliação](https://drive.google.com/file/d/1Q8NzRfhBQEKxviJP-siXsMfAFa-nr0tg/view?usp=sharing) |
+| Carlos | SEMOB-DF | [Acessar avaliação](https://drive.google.com/file/d/1Q6WfvwByV6bU7NOs1YOPrESTYKDEU2fU/view?usp=sharing) |
+| Gabriel | INSS | [Acessar avaliação](https://drive.google.com/file/d/1QlRK9tjW1Q9tNaUcOlHpUOcq0X3EJuN7/view?usp=sharing) |
+| Igor | Plataforma Lattes | [Acessar avaliação](https://drive.google.com/file/d/1Ut57WMn6_axKPHMMZeVEr76Z8lPbaft1/view?usp=sharing) |
+| Lucas | INSS | — |
+| Rodrigo | DETRAN-DF | [Acessar avaliação](https://drive.google.com/file/d/1YG6ldLw2E6B_lF-nGIggoGN5ECo1q3Jl/view?usp=sharing) |
+| Tomas | Portal da Prefeitura de São Paulo | [Acessar avaliação](https://drive.google.com/file/d/1QuMdRt0pVmz5fkSOoiT7PnKzfvHFfUtU/view?usp=sharing) |
 
 *Fonte: Elaborada por Rodrigo Barbosa (2026).*
 
