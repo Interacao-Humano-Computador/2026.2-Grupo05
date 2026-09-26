@@ -246,7 +246,7 @@ A **Tabela 11** sintetiza de forma unificada as participações e contribuiçõe
 
 ## 5. Declaração sobre o Uso de IA Generativa
 
-Em cumprimento às normas de conduta acadêmica da Sociedade Brasileira de Computação (SBC) e às diretrizes do Plano de Ensino da disciplina de Interação Humano-Computador (SALES, 2026), declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas unicamente para apoio na padronização estrutural das tabelas Markdown, verificação de consistência de links cruzados e refinamento formal do texto. Todas as autorias, revisões, deliberações e conteúdos técnicos refletem o trabalho empírico e acadêmico exclusivo dos integrantes do Grupo 05.
+Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
 
 ---
 

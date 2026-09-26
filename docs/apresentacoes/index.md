@@ -106,6 +106,10 @@ Na Tabela 1, é apresentada a visão geral de todas as apresentações planejada
 
 ---
 
-## 4. Referências Bibliográficas
+## 4. Declaração sobre o Uso de IA Generativa
+
+Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+
+## 5. Referências Bibliográficas
 
 -   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
