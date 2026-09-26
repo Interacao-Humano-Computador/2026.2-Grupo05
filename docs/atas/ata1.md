@@ -4,10 +4,10 @@ Data: 03/09/2026 Horário: 09h00 às 09h50 Local: Presencial (Sala de aula)
 
 ## Histórico de Versão e Contribuição
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :---: | :---: | :---: |
-| `1.0` | 03/09/2026 | Criação da ata da Reunião 01. | Lucas Araújo Lima | Arthur Mariani |
-| `1.1` | 04/09/2026 | Atualização da data da próxima reunião. | Lucas Araújo Lima | Arthur Mariani |
+| 03/09/2026 | `1.0` | Criação da ata da Reunião 01. | Lucas Araújo Lima | Arthur Mariani |
+| 04/09/2026 | `1.1` | Atualização da data da próxima reunião. | Lucas Araújo Lima | Arthur Mariani |
 
 ---
 

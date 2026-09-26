@@ -4,9 +4,9 @@ Data: 07/09/2026 Horário: 20h00 às 20h30 Local: Online via Microsoft Teams
 
 ## Histórico de Versão e Contribuição
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| `1.0` | 07/09/2026 | Criação da ata da Reunião 02 (Inspeção da Entrega 1 do Grupo 06). | Lucas Araújo Lima | Arthur Mariani |
+| 07/09/2026 | `1.0` | Criação da ata da Reunião 02 (Inspeção da Entrega 1 do Grupo 06). | Lucas Araújo Lima | Arthur Mariani |
 
 ---
 
