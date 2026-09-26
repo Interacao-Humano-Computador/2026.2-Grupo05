@@ -218,7 +218,7 @@ Por que ela é a persona primária:
 
 **Autor: Igor Dantas Araújo**
 
-![Foto da persona João Pedro Carvalho](../assets/images/joao-pedro-carvalho.jpeg)
+![Foto da persona João Pedro Carvalho](../assets/images/joao-pedro-carvalho.jpg)
 
 *Figura 2 — João Pedro Carvalho (imagem ilustrativa, gerada por IA Gemini).*
 
