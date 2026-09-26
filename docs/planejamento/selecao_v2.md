@@ -15,15 +15,15 @@ Para dar início à etapa de definição do escopo do projeto, a equipe realizou
 
 **Tabela 1 – Relação de integrantes e sites avaliados**
 
-| Integrante | Site Avaliado |
-| :--- | :--- |
-| Arthur | [Prefeitura de Angical Bahia](https://drive.google.com/file/d/1Q8NzRfhBQEKxviJP-siXsMfAFa-nr0tg/view?usp=sharing) |
-| Carlos | [SEMOB](https://drive.google.com/file/d/1Q6WfvwByV6bU7NOs1YOPrESTYKDEU2fU/view?usp=sharing) |
-| Gabriel | [INSS](https://drive.google.com/file/d/1QlRK9tjW1Q9tNaUcOlHpUOcq0X3EJuN7/view?usp=sharing) |
-| Igor | [Plataforma LATTES](https://drive.google.com/file/d/1Ut57WMn6_axKPHMMZeVEr76Z8lPbaft1/view?usp=sharing) |
-| Lucas | [INSS]() |
-| Rodrigo | [DETRAN-DF](https://drive.google.com/file/d/1YG6ldLw2E6B_lF-nGIggoGN5ECo1q3Jl/view?usp=sharing) |
-| Tomas | [Portal da prefeitura de São Paulo](https://drive.google.com/file/d/1QuMdRt0pVmz5fkSOoiT7PnKzfvHFfUtU/view?usp=sharing) |
+| Integrante | Site Avaliado | Link da avaliação |
+| :--- | :--- | :--- |
+| Arthur | Prefeitura de Angical Bahia | [Acessar avaliação](https://drive.google.com/file/d/1Q8NzRfhBQEKxviJP-siXsMfAFa-nr0tg/view?usp=sharing) |
+| Carlos | SEMOB-DF | [Acessar avaliação](https://drive.google.com/file/d/1Q6WfvwByV6bU7NOs1YOPrESTYKDEU2fU/view?usp=sharing) |
+| Gabriel | INSS | [Acessar avaliação](https://drive.google.com/file/d/1QlRK9tjW1Q9tNaUcOlHpUOcq0X3EJuN7/view?usp=sharing) |
+| Igor | Plataforma Lattes | [Acessar avaliação](https://drive.google.com/file/d/1Ut57WMn6_axKPHMMZeVEr76Z8lPbaft1/view?usp=sharing) |
+| Lucas | INSS | — |
+| Rodrigo | DETRAN-DF | [Acessar avaliação](https://drive.google.com/file/d/1YG6ldLw2E6B_lF-nGIggoGN5ECo1q3Jl/view?usp=sharing) |
+| Tomas | Portal da Prefeitura de São Paulo | [Acessar avaliação](https://drive.google.com/file/d/1QuMdRt0pVmz5fkSOoiT7PnKzfvHFfUtU/view?usp=sharing) |
 
 *Fonte: Elaborada por Rodrigo Barbosa (2026).*
 
@@ -59,8 +59,8 @@ Em síntese, se concluiu que o portal da SEMOB-DF foi selecionado por ser o úni
 
 ## 4. Declaração sobre o Uso de IA Generativa
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, levantamento empírico de dados, capturas de tela e análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
 
-## 5. Referências Bibliográficas
+## 5. Bibliografia de Apoio
 
 -   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

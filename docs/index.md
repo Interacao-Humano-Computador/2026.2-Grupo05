@@ -45,6 +45,8 @@ Ressalta-se que este projeto possui **finalidade estritamente acadêmica**, dese
 
 ## Equipe
 
+A Figura 1 apresenta os integrantes do Grupo 05.
+
 <div class="team">
 
 <a class="member" href="https://github.com/arthur-mariani" target="_blank" rel="noopener noreferrer">
@@ -96,8 +98,8 @@ Ressalta-se que este projeto possui **finalidade estritamente acadêmica**, dese
 
 ## Histórico de versão
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | --- | --- | --- |
-| `1.0` | 05/09/2026 | Estruturação e publicação inicial da documentação | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
-| `1.1` | 06/09/2026 | Refinando elementos visuais e de acessibilidade | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-| `1.2` | 17/09/2026 | Adição do atalho de acesso rápido para a página de Contribuições | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 05/09/2026 | `1.0` | Estruturação e publicação inicial da documentação | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
+| 06/09/2026 | `1.1` | Refinando elementos visuais e de acessibilidade | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| 17/09/2026 | `1.2` | Adição do atalho de acesso rápido para a página de Contribuições | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |

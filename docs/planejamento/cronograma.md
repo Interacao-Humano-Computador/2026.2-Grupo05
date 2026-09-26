@@ -76,6 +76,8 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 ### 4. Entrega 2 - Perfil do Usuário e Análise de Tarefas
 
+A Tabela 4 apresenta o cronograma planejado da Entrega 2, com as atividades, responsáveis e prazos previstos.
+
 **Tabela 4** - Cronograma Planejado: Entrega 2
 
 | Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
@@ -95,6 +97,8 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 ### 5. Entrega 3 - Princípios, Metas e Guia de Estilo
 
+A Tabela 5 apresenta o cronograma planejado da Entrega 3, com as atividades, responsáveis e prazos previstos.
+
 **Tabela 5** - Cronograma Planejado: Entrega 3
 
 | Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
@@ -111,6 +115,8 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 *Fonte: Igor Dantas Araújo.*
 
 ### 6. Entrega 4 - Planejamento da Avaliação
+
+A Tabela 6 apresenta o cronograma planejado da Entrega 4, com as atividades, responsáveis e prazos previstos.
 
 **Tabela 6** - Cronograma Planejado: Entrega 4
 
@@ -129,6 +135,8 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 ### 7. Entrega 5 - Relatos e Planej. Protótipo de Papel
 
+A Tabela 7 apresenta o cronograma planejado da Entrega 5, com as atividades, responsáveis e prazos previstos.
+
 **Tabela 7** - Cronograma Planejado: Entrega 5
 
 | Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
@@ -145,6 +153,8 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 *Fonte: Igor Dantas Araújo.*
 
 ### 8. Entrega 6 - Relato Prot. Papel e Planej. Alta Fidelidade
+
+A Tabela 8 apresenta o cronograma planejado da Entrega 6, com as atividades, responsáveis e prazos previstos.
 
 **Tabela 8** - Cronograma Planejado: Entrega 6
 
@@ -163,6 +173,8 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 ### 9. Entrega 7 - Relato da Avaliação do Protótipo de Alta Fidelidade
 
+A Tabela 9 apresenta o cronograma planejado da Entrega 7, com as atividades, responsáveis e prazos previstos.
+
 **Tabela 9** - Cronograma Planejado: Entrega 7
 
 | Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
@@ -179,6 +191,8 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 *Fonte: Igor Dantas Araújo.*
 
 ### 10. Entrega 8 - Verificação dos Artefatos
+
+A Tabela 10 apresenta o cronograma planejado da Entrega 8, com as atividades, responsáveis e prazos previstos.
 
 **Tabela 10** - Cronograma Planejado: Entrega 8
 
@@ -198,14 +212,17 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 ## 11. Declaração sobre o Uso de IA Generativa
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, levantamento empírico de dados, capturas de tela e análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
 
 ## 12. Referências Bibliográficas
 
--   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
 -   IEEE COMPUTER SOCIETY. Software Engineering Management. In: WASHIZAKI, Hironori (Ed.). *Guide to the Software Engineering Body of Knowledge (SWEBOK)*. Versão 4.0. Los Alamitos: IEEE Computer Society, 2024. Cap. 9, sec. 2 (Software Project Planning), subseção 2.3.
 
-## 13. Imagens de Referência
+## 13. Bibliografia de Apoio
+
+-   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+
+## 14. Imagens de Referência
 ![Trecho do SWEBOK sobre Planejamento de Projetos](../assets/prints_referencias/swebok-1.png)
 <div align="center">
 **Figura 1** - Trecho do SWEBOK abordando estimativas de projetos. **Fonte:** SWEBOK v4.0 (2024, p. 9-8).
