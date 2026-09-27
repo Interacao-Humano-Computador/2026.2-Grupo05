@@ -5,6 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 26/09/2026 | 1.0 | Criação do documento de organização dos aspectos éticos que foram utilizados no site do **SEMOB-DF**. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
+| 27/09/2026 | 1.1 | Adição da preview do documento | [Arthur Mariani](https://github.com/arthur-mariani) | |
 
 ---
 
@@ -41,7 +42,12 @@ Com base nas diretrizes de pesquisas em IHC descritas por Barbosa et al. (2021, 
 
 O documento a seguir foi elaborado com base na estrutura de modelo de TCLE apresentada no Exemplo 7.1 (presente na imagem 8) do livro de Barbosa et al. (2021, p. 128–129), adaptado especificamente para as atividades de análise de requisitos e validação do sistema da SEMOB-DF. O texto de embasamento teórico para o TCLE está presente na imagem 7.
 
-[Clique aqui para ler o documento](../assets/PDFs/TCLE_Pesquisa_Transporte.pdf)
+<div align="center">
+  <iframe src="../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+</div>
+
+*Caso o documento não carregue, [clique aqui para baixar o TCLE](../assets/PDFs/TCLE_Pesquisa_Transporte.pdf).*
+
 **Elaborado por:** [Igor Dantas](https://github.com/IgorDARAUJO)
 
 ---
