@@ -18,7 +18,7 @@ Na Tabela 1, apresenta-se o quadro consolidado com todas as análises realizadas
 | ID | Tarefa Analisada | Data de Realização | Responsáveis (Elaboração) | Status HTA | Status CTT |
 | :---: | :--- | :---: | :--- | :---: | :---: |
 | **TAR-01** | Alerta inteligente de saída | 23/09/2026 | [Igor Dantas](https://github.com/IgorDARAUJO) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> |
-| **TAR-02** | [Descreva a Tarefa 2 - Ex: Verificar Itinerário de Ônibus] | 24/09/2026 | [Gabriel Melo](https://github.com/gabriellcardone-06) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> |
+| **TAR-02** | Pré-agendamento no Programa DF Acessível | 24/09/2026 | [Gabriel Melo](https://github.com/gabriellcardone-06) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> |
 
 <div align="center">
 <p><em>Fonte: Igor Dantas (2026).</em></p>
@@ -66,38 +66,42 @@ Abaixo, no Documento 2, encontra-se a modelagem das relações temporais e lógi
 
 ---
 
-## 2. TAR-02: [Nome da Tarefa ou Perfil do Participante 2]
+## 2. TAR-02: Pré-agendamento no Programa DF Acessível
 
-* **Título da Tarefa:** [Nome completo da tarefa analisada]
-* **Perfil do Participante:** [Descreva brevemente o perfil]
-* **Responsáveis pela Elaboração:** [Nome do Autor](https://github.com/link)
-* **Data da Realização:** DD/MM/AAAA
-* **Objetivo da Tarefa:** [Descreva o objetivo].
+* **Título da Tarefa:** Pré-agendamento no Programa DF Acessível.
+* **Perfil do Participante:** Usuário primário que necessite de auxílio transporte.
+* **Responsáveis pela Elaboração:** [Gabriel Melo](https://github.com/gabriellcardone-06)
+* **Data da Realização:** 25/09/2026
+* **Objetivo da Tarefa:** Realizar o pré-agendamento no Programa DF Acessível a partir do site da SEMOB-DF, escolhendo o local e o dia do atendimento.
 
 ### 2.1. Análise Hierárquica de Tarefas (HTA)
 
+Abaixo, no Documento 1, é possível visualizar o diagrama e a tabela correspondente à Análise Hierárquica de Tarefas (HTA) para o fluxo do participante.
+
 <div align="center">
-  <iframe src="../../assets/caminho-para-sua-pasta/arquivo-hta-2.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+  <iframe src="../assets/PDFs/Gabriel_Artefato_HTA.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
 </div>
 
-*Caso o documento não carregue, [clique aqui para baixar o PDF do HTA](/assets/caminho-para-sua-pasta/arquivo-hta-2.pdf).*
+*Caso o documento não carregue, [clique aqui para baixar o PDF do HTA](../assets/PDFs/Gabriel_Artefato_HTA.pdf).*
 
 <div align="center">
-<p><strong>Documento 3</strong> — Diagrama HTA: [Nome da Tarefa 2].</p>
-<p><em>Fonte: Autores (2026).</em></p>
+<p><strong>Documento 3</strong> — Diagrama HTA: Pré-agendamento no Programa DF Acessível.</p>
+<p><em>Fonte: Gabriel Melo (2026).</em></p>
 </div>
 
 ### 2.2. ConcurTaskTrees (CTT)
 
+Abaixo, no Documento 2, encontra-se a modelagem das relações temporais e lógicas desta mesma tarefa utilizando a notação CTT.
+
 <div align="center">
-  <iframe src="../../assets/caminho-para-sua-pasta/arquivo-ctt-2.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+  <iframe src="../assets/PDFs/Gabriel_Artefato_CTT.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
 </div>
 
-*Caso o documento não carregue, [clique aqui para baixar o PDF do CTT](/assets/caminho-para-sua-pasta/arquivo-ctt-2.pdf).*
+*Caso o documento não carregue, [clique aqui para baixar o PDF do CTT](../assets/PDFs/Gabriel_Artefato_CTT.pdf).*
 
 <div align="center">
-<p><strong>Documento 4</strong> — Diagrama CTT: [Nome da Tarefa 2].</p>
-<p><em>Fonte: Autores (2026).</em></p>
+<p><strong>Documento 4</strong> — Diagrama CTT: Pré-agendamento no Programa DF Acessível.</p>
+<p><em>Fonte: Gabriel Melo (2026).</em></p>
 </div>
 
 ---

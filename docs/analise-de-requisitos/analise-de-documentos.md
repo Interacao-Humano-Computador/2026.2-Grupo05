@@ -16,16 +16,24 @@ Uma das técnicas de coleta de dados que foi utilizada para traçar os perfis de
 
 **Autor:** Gabriel Melo.
 
-<iframe src="../assets/PDFs/analise-documentos-PDAD2021.pdf" width="100%" height="600px"></iframe>
+<div align="center">
+  <iframe src="../../assets/PDFs/analise-de-documentos-PDAD2021.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+</div>
 
-### 2.2 Relatório de Ouvidoria — 1º Trimestre de 2026 (Parte Geral)
+*Caso o documento não carregue, [clique aqui para baixar o PDF](../assets/PDFs/analise-de-documentos-PDAD2021.pdf).*
+
+### 2.2 Relatório de Ouvidoria — 1º Trimestre de 2026 (Parte Geral) 
 
 **Autor:** Igor Dantas Araújo.
 
-<iframe src="../assets/PDFs/analise-documentos-relatorio-ouvidoria.pdf" width="100%" height="600px"></iframe>
+<div align="center">
+  <iframe src="../../assets/PDFs/analise-de-documentos-relatorio-ouvidoria.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+</div>
+
+*Caso o documento não carregue, [clique aqui para baixar o PDF](../assets/PDFs/analise-de-documentos-relatorio-ouvidoria.pdf).*
 
 ### 2.3 Fontes
 
-1. IPEDF CODEPLAN. *Como Anda Brasília: Um recorte a partir dos dados da Pesquisa Distrital por Amostra de Domicílios – PDAD 2021*. Relatório, DEPAT, junho de 2023. Disponível em [Link](<https://www.ipe.df.gov.br/wp-content/uploads/2021/12/Relatorio-COMO-ANDA-BRASILIA-Um-recorte-a-partir-dos-dados-da-Pesquisa-Distrital-por-Amostra-de-Domicilios-PDAD-2021.pdf>). Acesso em: 26 set. 2026.
+1. IPEDF CODEPLAN. *Como Anda Brasília: Um recorte a partir dos dados da Pesquisa Distrital por Amostra de Domicílios – PDAD 2021*. Relatório, DEPAT, junho de 2023. [Disponível aqui](<https://www.ipe.df.gov.br/wp-content/uploads/2021/12/Relatorio-COMO-ANDA-BRASILIA-Um-recorte-a-partir-dos-dados-da-Pesquisa-Distrital-por-Amostra-de-Domicilios-PDAD-2021.pdf>). Acesso em: 26 set. 2026.
 
 2. SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE DO DISTRITO FEDERAL (SEMOB/DF) — Ouvidoria-Geral. [Relatório de Ouvidoria — 1º Trimestre de 2026](../assets/PDFs/relatorio-1trimestre2026-semobdf.pdf). Dados extraídos do Sistema Participa DF (canais Internet e Central Telefônica 162). Acesso em: 24 set. 2026
