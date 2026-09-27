@@ -100,7 +100,7 @@ A concepção deste perfil apoia-se estritamente nas diretrizes metodológicas d
 
 ### 4.2 Metodologia e Aspectos Éticos
 
-A coleta de dados empíricos foi conduzida por meio de **entrevista semiestruturada presencial individual**, seguindo o [Roteiro de Entrevista](../assets/PDFs/Roteiro_Entrevista_Motoristas.pdf) e as práticas de escuta ativa e postura neutra consolidadas no [Treinamento TRE-01](entrevistas.md#31-treinamento-01-motoristas-de-onibus-semob-df). A condução e a sistematização dos resultados seguiram os critérios de conformidade da [Lista de Verificação de Perfil de Usuário](../assets/PDFs/lista_verif_perfil_user_individual.pdf).
+A coleta de dados empíricos foi conduzida por meio de **entrevista semiestruturada presencial individual**, seguindo o [Roteiro de Entrevista](../assets/PDFs/Roteiro_Entrevista_Motoristas.pdf) e as práticas de escuta ativa e postura neutra consolidadas no [Treinamento TRE-01](entrevistas.md#31-treinamento-01-motoristas-de-onibus-semob-df).
 
 #### Dados da Sessão de Coleta:
 * **Técnica Empregada:** Entrevista semiestruturada presencial.
