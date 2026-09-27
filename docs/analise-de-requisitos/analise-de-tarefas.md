@@ -7,7 +7,7 @@
 | 26/09/2026 | 1.0 | Criação do documento e preenchimento parcial da página | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
 
 ## Introdução
-Neste documento estão registradas as análises de tarefas produzidas pelos participantes do projeto. Para cada tarefa avaliada, foram aplicadas duas técnicas complementares: a **Análise Hierárquica de Tarefas (HTA - *Hierarchical Task Analysis*)**, que detalha a decomposição dos objetivos em suboperações, e o **ConcurTaskTrees (CTT)**, que modela graficamente as relações temporais e lógicas entre as tarefas.
+Neste documento estão registradas as análises de tarefas produzidas pelos participantes do projeto. Para cada tarefa avaliada, foram aplicadas duas técnicas complementares: a **Análise Hierárquica de Tarefas (HTA - *Hierarchical Task Analysis*)**, que detalha a decomposição dos objetivos em suboperações, e o **ConcurTaskTrees (CTT)**, que modela graficamente as relações temporais e lógicas entre as tarefas. O texto de fundamentação teórica para Análise de Tarefas, descrito por Barbosa et al. (2021, p. 163–164), está presente nas imagens 1 e 2.
 
 Na Tabela 1, apresenta-se o quadro consolidado com todas as análises realizadas, seus respectivos responsáveis e status.
 
@@ -109,3 +109,10 @@ Abaixo, no Documento 2, encontra-se a modelagem das relações temporais e lógi
 ## Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+
+## Fotos de Referência
+![Imagem 1](../assets/prints_referencias/print-analisetarefas1.png)
+*Imagem 1 - Barbosa et al., 2021, Seção 8.4, p. 163*
+
+![Imagem 1](../assets/prints_referencias/print-analisetarefas2.png)
+*Imagem 1 - Barbosa et al., 2021, Seção 8.4, p. 164*

@@ -10,7 +10,7 @@
 
 # Aspectos Éticos e Termo de Consentimento Livre e Esclarecido (TCLE)
 
-Nesta seção, apresentam-se as diretrizes éticas que norteiam a coleta de dados e as pesquisas de campo do projeto de Interação Humano-Computador (IHC) para o sistema de mobilidade do Distrito Federal (SEMOB-DF / BRB Mobilidade), bem como o modelo de Termo de Consentimento Livre e Esclarecido (TCLE) elaborado para as atividades de investigação com participantes.
+Nesta seção, apresentam-se as diretrizes éticas que norteiam a coleta de dados e as pesquisas de campo do projeto de Interação Humano-Computador (IHC) para o sistema de mobilidade do Distrito Federal (SEMOB-DF / BRB Mobilidade), bem como o modelo de Termo de Consentimento Livre e Esclarecido (TCLE) elaborado para as atividades de investigação com participantes. A explicação para o levantamento de aspectos éticos está evidenciada na imagem 3 (Barbosa et al., 2021, Seção 7.4, p. 126).
 
 ---
 
@@ -27,7 +27,7 @@ As práticas adotadas neste projeto seguem as orientações éticas consolidadas
 
 ### Diretrizes de IHC Aplicadas na Coleta de Dados
 
-Com base nas diretrizes de pesquisas em IHC descritas por Barbosa et al. (2021, p. 127–128), a condução das atividades com usuários neste projeto obedece aos seguintes compromissos:
+Com base nas diretrizes de pesquisas em IHC descritas por Barbosa et al. (2021, p. 127–128) - presentes nas imagens 4, 5 e 6 -  a condução das atividades com usuários neste projeto obedece aos seguintes compromissos:
 
 * **Esclarecimento Prévio:** O pesquisador explica claramente os objetivos da investigação, o tempo de duração estimado, os métodos de coleta de dados e como as informações serão utilizadas.
 * **Privacidade e Confidencialidade:** Os dados brutos coletados (áudios, transcrições e anotações) são de acesso exclusivo da equipe de projeto.
@@ -39,7 +39,7 @@ Com base nas diretrizes de pesquisas em IHC descritas por Barbosa et al. (2021, 
 
 ## 2. Termo de Consentimento Livre e Esclarecido (TCLE)
 
-O documento a seguir foi elaborado com base na estrutura de modelo de TCLE apresentada no Exemplo 7.1 do livro de Barbosa et al. (2021, p. 128–129), adaptado especificamente para as atividades de análise de requisitos e validação do sistema da SEMOB-DF.
+O documento a seguir foi elaborado com base na estrutura de modelo de TCLE apresentada no Exemplo 7.1 (presente na imagem 8) do livro de Barbosa et al. (2021, p. 128–129), adaptado especificamente para as atividades de análise de requisitos e validação do sistema da SEMOB-DF. O texto de embasamento teórico para o TCLE está presente na imagem 7.
 
 [Clique aqui para ler o documento](../assets/PDFs/TCLE_Pesquisa_Transporte.pdf)
 **Elaborado por:** [Igor Dantas](https://github.com/IgorDARAUJO)
@@ -59,3 +59,21 @@ O documento a seguir foi elaborado com base na estrutura de modelo de TCLE apres
 
 ![Imagem 2](../assets/prints_referencias/print-principios2.png)
 *Imagem 2 - Barbosa et al., 2021, Seção 7.4, p. 127*
+
+![Imagem 3](../assets/prints_referencias/print-principios3.png)
+*Imagem 3 - Barbosa et al., 2021, Seção 7.4, p. 126*
+
+![Imagem 4](../assets/prints_referencias/print-principios4.png)
+*Imagem 4 - Barbosa et al., 2021, Seção 7.4, p. 127*
+
+![Imagem 5](../assets/prints_referencias/print-principios5.png)
+*Imagem 5 - Barbosa et al., 2021, Seção 7.4, p. 127*
+
+![Imagem 6](../assets/prints_referencias/print-principios6.png)
+*Imagem 6 - Barbosa et al., 2021, Seção 7.4, p. 128*
+
+![Imagem 7](../assets/prints_referencias/print-principios7.png)
+*Imagem 7 - Barbosa et al., 2021, Seção 7.4, p. 127*
+
+![Imagem 8](../assets/prints_referencias/print-principios8.png)
+*Imagem 8 - Barbosa et al., 2021, Seção 7.4, p. 128*

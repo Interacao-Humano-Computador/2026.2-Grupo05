@@ -356,6 +356,11 @@ Por que ele é a persona primária:
 
 ## 5. Cenários
 
+Conforme presente na imagem 1, um cenário é basicamente uma história sobre pessoas realizando uma
+atividade (Rosson e Carroll, 2002). É uma narrativa, textual ou pictórica, concreta, rica em detalhes
+contextuais, de uma situação de uso da aplicação, envolvendo usuários, processos e dados reais ou
+potenciais. (Barbosa et al., 2021, Seção 8.3, p. 158)
+
 ### 5.1 Cenário 1 — Última viagem para casa: horário, aviso de mudança e desembarque à noite
 
 **Autor: Gabrie Melo**
@@ -557,3 +562,10 @@ Por que ele é a persona primária:
 | O impacto da falha é alto: perda da primeira aula e queda de motivação, evidenciando o custo real de uma informação pouco confiável | Passo 5 | Garantir que o ônibus passe no horário informado pelo aplicativo |
 
 *Fonte: Igor Dantas Araújo.*
+
+## 6. Referências Bibliográficas
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+
+## 7. Fotos de Referência
+![Imagem 1](../assets/prints_referencias/print-cenarios1.png)
+*Imagem 1 - Barbosa et al., 2021, Seção 8.3, p. 158*
