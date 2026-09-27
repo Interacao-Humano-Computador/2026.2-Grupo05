@@ -111,7 +111,10 @@ nav:
 
   - Análise de Requisitos:
     - analise-de-requisitos/index.md
+    - Aspectos éticos: analise-de-requisitos/aspectos-eticos.md
     - Entrevistas: analise-de-requisitos/entrevistas.md
+    - Perfil de Usuário Primário: analise-de-requisitos/perfil-usuario-usuario-primario.md
+    - Análise de tarefas: analise-de-requisitos/analise-de-tarefas.md
 
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 

@@ -54,8 +54,8 @@ O documento a seguir foi elaborado com base na estrutura de modelo de TCLE apres
 
 ## 4. Fotos de referência
 
-![Imagem 1](/docs/assets/prints_referencias/print-principios1.png)
+![Imagem 1](../assets/prints_referencias/print-principios1.png)
 *Imagem 1 - Barbosa et al., 2021, Seção 7.4, p. 126*
 
-![Imagem 2](/docs/assets/prints_referencias/print-principios2.png)
+![Imagem 2](../assets/prints_referencias/print-principios2.png)
 *Imagem 2 - Barbosa et al., 2021, Seção 7.4, p. 127*
