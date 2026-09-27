@@ -92,6 +92,8 @@ Abaixo, no Vídeo 2, é possível assistir à gravação completa da simulação
 * **Data de Gravação:** 22/09/2026
 * **Objetivo:** Fixar e estabelecer o passo a passo de como abordar o usuário e conduzir a entrevista.
 * **Link de Acesso Direto:** [https://youtu.be/WfPfcbEU0Qk?is=3-T2oRf7tF9OrvM0](https://youtu.be/WfPfcbEU0Qk?is=3-T2oRf7tF9OrvM0)
+* **Roteiro de entrevista:**[Clique aqui para ler o roteiro](/docs/assets/PDFs/Igor_Roteiro_entrevista_up.pdf)
+**Elaborado por:** [Igor Dantas](https://github.com/IgorDARAUJO)
 
 Abaixo, no Vídeo 3, é possível assistir à gravação completa da simulação de treinamento:
 
