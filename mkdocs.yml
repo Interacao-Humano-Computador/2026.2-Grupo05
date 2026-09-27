@@ -115,7 +115,10 @@ nav:
     - Entrevistas: analise-de-requisitos/entrevistas.md
     - Brainstorming: analise-de-requisitos/brainstorm.md
     - Análise de documentos: analise-de-requisitos/analise-de-documentos.md
-    - Perfis de usuário: analise-de-requisitos/perfis-de-usuario.md
+    - Perfis de usuário:
+      - Visão Geral: analise-de-requisitos/perfis-de-usuario/index.md
+      - Passageiro (Primário): analise-de-requisitos/perfis-de-usuario/perfil-primario.md
+      - Motorista de Ônibus (Terciário): analise-de-requisitos/perfis-de-usuario/perfil-motorista.md
     - Personas: analise-de-requisitos/personas.md
     - Cenários: analise-de-requisitos/cenarios.md
     - Análise de tarefas: analise-de-requisitos/analise-de-tarefas.md

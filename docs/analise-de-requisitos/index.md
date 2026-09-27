@@ -23,7 +23,7 @@ Abaixo estão dispostos os artefatos desenvolvidos no âmbito da Análise de Req
 * **[Entrevistas e Treinamentos](entrevistas.md):** Organização e registros audiovisuais das sessões de treinamento (pilotagem) e entrevistas qualitativas com usuários, operadores e partes interessadas do sistema de transporte público.
 * **[Brainstorming](brainstorm.md):** Página destinada ao registro das ideias levantadas pela equipe para identificar necessidades, oportunidades e possibilidades de solução.
 * **[Análise de Documentos](analise-de-documentos.md):** Levantamento de informações sobre o público-alvo a partir de documentos e relatórios relacionados à mobilidade no Distrito Federal.
-* **[Perfis de Usuário](perfis-de-usuario.md):** Caracterização demográfica, comportamental, tecnológica e de domínio dos perfis de usuário primário (passageiros) e terciário (motoristas de ônibus) do portal da SEMOB-DF.
+* **[Perfis de Usuário](perfis-de-usuario/index.md):** Caracterização demográfica, comportamental, tecnológica e de domínio dos perfis de usuário primário (passageiros) e terciário (motoristas de ônibus) do portal da SEMOB-DF.
 * **[Personas](personas.md):** Representações detalhadas de usuários primários, com objetivos, habilidades, tarefas, relacionamentos, requisitos e expectativas.
 * **[Cenários](cenarios.md):** Narrativas de uso que descrevem contextos, objetivos, ações, eventos e problemas enfrentados pelos usuários no transporte público.
 * **[Análise de Tarefas](analise-de-tarefas.md):** Decomposição das tarefas selecionadas por meio de Análise Hierárquica de Tarefas (HTA) e ConcurTaskTrees (CTT).
