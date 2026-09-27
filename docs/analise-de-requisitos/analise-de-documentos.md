@@ -27,10 +27,10 @@ Uma das técnicas de coleta de dados que foi utilizada para traçar os perfis de
 **Autor:** Igor Dantas Araújo.
 
 <div align="center">
-  <iframe src="../../assets/PDFs/analise-de-documentos-relatorio-ouvidoria.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+  <iframe src="../../assets/PDFs/analise-documentos-relatorio-ouvidoria.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
 </div>
 
-*Caso o documento não carregue, [clique aqui para baixar o PDF](../assets/PDFs/analise-de-documentos-relatorio-ouvidoria.pdf).*
+*Caso o documento não carregue, [clique aqui para baixar o PDF](../assets/PDFs/analise-documentos-relatorio-ouvidoria.pdf).*
 
 ### 2.3 Fontes
 
