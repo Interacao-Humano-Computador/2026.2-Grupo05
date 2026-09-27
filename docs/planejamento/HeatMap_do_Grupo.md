@@ -19,7 +19,7 @@ A **Figura 1** apresenta o *heatmap* (mapa de calor) gerado, indicando os perío
 
 ![Heatmap de Disponibilidade](../assets/images/heatmap.png)
 
-*Fonte: Autores. Gráfico gerado por meio da ferramenta When2meet.*
+*Fonte: Gráfico gerado por meio da ferramenta When2meet.*
 
 
 ## 2. Declaração sobre o Uso de IA Generativa

@@ -111,7 +111,14 @@ nav:
 
   - Análise de Requisitos:
     - analise-de-requisitos/index.md
+    - Aspectos éticos: analise-de-requisitos/aspectos-eticos.md
     - Entrevistas: analise-de-requisitos/entrevistas.md
+    - Brainstorming: analise-de-requisitos/brainstorm.md
+    - Análise de documentos: analise-de-requisitos/analise-de-documentos.md
+    - Perfis de usuário: analise-de-requisitos/perfis-de-usuario.md
+    - Personas: analise-de-requisitos/personas.md
+    - Cenários: analise-de-requisitos/cenarios.md
+    - Análise de tarefas: analise-de-requisitos/analise-de-tarefas.md
 
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 

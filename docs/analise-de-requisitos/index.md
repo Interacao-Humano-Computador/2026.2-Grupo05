@@ -5,8 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :--- :--- | :--- | :--- | :--- |
 | 21/09/2026 | 1.0 | Estruturação inicial da página de introdução à Análise de Requisitos e mapeamento de artefatos. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
-
----
+| 27/09/2026 | 1.1 | Estruturação final da página de introdução. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
 
 ## 1. Visão Geral
 
@@ -20,10 +19,14 @@ Nesta fase, a equipe desenvolve atividades de elicitação e modelagem de usuár
 
 Abaixo estão dispostos os artefatos desenvolvidos no âmbito da Análise de Requisitos:
 
+* **[Aspectos Éticos](aspectos-eticos.md):** Diretrizes éticas da pesquisa e Termo de Consentimento Livre e Esclarecido (TCLE) aplicado à coleta de dados.
 * **[Entrevistas e Treinamentos](entrevistas.md):** Organização e registros audiovisuais das sessões de treinamento (pilotagem) e entrevistas qualitativas com usuários, operadores e partes interessadas do sistema de transporte público.
-* **Perfil do Usuário:** *(Em elaboração)* Caracterização demográfica, comportamental e técnica dos públicos do portal da SEMOB-DF.
-* **Aspectos Éticos:** *(Em elaboração)* Termos de Consentimento Livre e Esclarecido (TCLE) e diretrizes éticas que regem a pesquisa.
-* **Análise de Tarefas:** *(Em elaboração)* Decomposição sistemática das tarefas realizadas pelos usuários por meio de métodos como HTA (Hierarchical Task Analysis) e GOMS.
+* **[Brainstorming](brainstorm.md):** Página destinada ao registro das ideias levantadas pela equipe para identificar necessidades, oportunidades e possibilidades de solução.
+* **[Análise de Documentos](analise-de-documentos.md):** Levantamento de informações sobre o público-alvo a partir de documentos e relatórios relacionados à mobilidade no Distrito Federal.
+* **[Perfis de Usuário](perfis-de-usuario.md):** Caracterização demográfica, comportamental, tecnológica e de domínio do usuário primário do portal da SEMOB-DF.
+* **[Personas](personas.md):** Representações detalhadas de usuários primários, com objetivos, habilidades, tarefas, relacionamentos, requisitos e expectativas.
+* **[Cenários](cenarios.md):** Narrativas de uso que descrevem contextos, objetivos, ações, eventos e problemas enfrentados pelos usuários no transporte público.
+* **[Análise de Tarefas](analise-de-tarefas.md):** Decomposição das tarefas selecionadas por meio de Análise Hierárquica de Tarefas (HTA) e ConcurTaskTrees (CTT).
 
 ---
 
