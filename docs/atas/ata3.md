@@ -40,7 +40,7 @@
 
 ## 3. Decisões:
 
-- **Divisão das Atividades de Elicitação:** As responsabilidades para elaboração e execução das técnicas de elicitação e investigação foram formalizadas seguindo majoritariamente a dinâmica de duplas executoras (2 membros) com 1 revisor designado por tarefa. A única exceção é a atividade de entrevista do integrante Tomás Garcia, que será executada individualmente e contará também com 1 revisor.
+- **Divisão das Atividades de Elicitação e Análise:** As responsabilidades para elaboração e execução das técnicas de elicitação e análise de tarefas foram formalizadas seguindo majoritariamente a dinâmica de duplas executoras (2 membros) com 1 revisor designado por tarefa. A única exceção é a atividade de entrevista do integrante Tomás Garcia, que será executada individualmente e contará também com 1 revisor.
 - Na **Tabela 1**, encontram-se descritas as frentes de trabalho, as atribuições de execução e os respectivos revisores acordados.
 
 **Tabela 1** - Atividades e divisão de tarefas para a Entrega 2
@@ -53,7 +53,7 @@
 | **Brainstorming** | Planejamento, facilitação e sintetização dos resultados da dinâmica de brainstorming de requisitos. | Arthur Mariani e Lucas Araújo | Carlos Henrique |
 | **Análise de Documento** | Execução da técnica de análise de documentos para levantamento de requisitos. | Carlos Henrique e Rodrigo Carvalho | Tomás Garcia |
 | **Análise de Documento** | Execução da técnica de análise de documentos para levantamento de requisitos. | Igor Dantas e Gabriel Cardone | Lucas Araújo |
-| **Análise de Documento** | Execução da técnica de análise de documentos para levantamento de requisitos. | Arthur Mariani e Lucas Araújo | Igor Dantas |
+| **Análise de Tarefas** | Execução da técnica de análise e modelagem de tarefas para representação dos fluxos de interação. | Arthur Mariani e Lucas Araújo | Igor Dantas |
 
 *Fonte: Lucas Araújo Lima (2026).*
 
