@@ -63,7 +63,7 @@
 
 ## 5. Próxima Reunião:
 
-A próxima reunião da equipe foi agendada para o dia **26/09/2026**, às **20h00**, online via **Microsoft Teams**, voltada ao alinhamento final e gravação da apresentação da Entrega 2.
+A próxima reunião da equipe foi agendada para o dia **28/09/2026**, às **20h00**, online via **Microsoft Teams**, voltada ao alinhamento final e gravação da apresentação da Entrega 2.
 
 ## 6. Declaração sobre o Uso de IA Generativa
 
