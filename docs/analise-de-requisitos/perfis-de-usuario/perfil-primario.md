@@ -1,32 +1,27 @@
-# Perfil de Usuário - Usuário Primário
+# Perfil de Usuário: Passageiro (Usuário Primário)
 
 ## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 26/09/2026 | 1.0 | Criação do documento de organização dos perfis de usuário identificados no site **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
+| 27/09/2026 | 1.1 | Modularização do perfil de usuário primário em documento dedicado. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
 
 ---
 
-## 1. Introdução
+## 1. Caracterização Geral
 
-O perfil de usuário é uma descrição detalhada das características dos usuários-alvo de um sistema. Em um projeto de Interação Humano-Computador (IHC), compreender quem são as pessoas que interagem ou interagirão com o produto é o primeiro passo para o desenvolvimento de uma interface que possua alta qualidade de uso e proporcione uma boa experiência.
+O usuário primário do site da Semob é um(a) jovem adulto(a) de 18 a 39 anos, com leve predominância feminina e de pessoas autodeclaradas negras, que mora em uma Região Administrativa de renda média-baixa ou baixa (grupos que reúnem hoje mais da metade da população do DF) e não tem carro no domicílio. Estuda, trabalha ou concilia as duas coisas, e depende do ônibus — e, em algumas regiões, também do metrô — para deslocamentos diários que costumam levar mais de 15 minutos. 
 
-A construção desse perfil busca levantar dados diversificados sobre o público, tais como:
-* **Dados demográficos:** faixa etária, gênero, escolaridade e ocupação.
-* **Relação com a tecnologia:** nível de experiência e facilidade com dispositivos e sistemas computacionais (alfabetismo computacional).
-* **Conhecimento do domínio:** o quanto os usuários conhecem sobre o assunto e as tarefas que o sistema se propõe a apoiar.
-* **Atitudes, expectativas e motivações:** o que esperam do sistema, quais são seus objetivos primários e secundários, e como costumam reagir à adoção de novas tecnologias.
-
-Este documento tem como objetivo principal definir os perfis de usuário do site SEMOB-DF, a partir da realização das metodologias de entrevista, brainstorming e análise de documentos.
+É um usuário de tecnologia altamente conectado: quase certamente tem smartphone próprio e acessa a internet todos os dias pelo aparelho, em um estado que lidera os indicadores de conectividade do país. Ainda assim, seu domínio é o transporte no dia a dia, não a estrutura institucional por trás dele: conhece de cor seu trajeto, mas não separa claramente Semob, BRB Mobilidade, Metrô-DF e as empresas operadoras. É provável que utilize algum benefício (Passe Livre Estudantil e/ou Vale-Transporte), o que o torna um usuário ativo e recorrente das tarefas cadastrais do site, além das consultas cotidianas de linhas e horários.
 
 ---
 
-## 2. Perfil de usuário primário
+## 2. Dados Demográficos, Relação com Tecnologia e Conhecimento do Domínio
 
-O usuário primário do site da Semob é um(a) jovem adulto(a) de 18 a 39 anos, com leve predominância feminina e de pessoas autodeclaradas negras, que mora em uma Região Administrativa de renda média-baixa ou baixa (grupos que reúnem hoje mais da metade da população do DF) e não tem carro no domicílio. Estuda, trabalha ou concilia as duas coisas, e depende do ônibus — e, em algumas regiões, também do metrô — para deslocamentos diários que costumam levar mais de 15 minutos. É um usuário de tecnologia altamente conectado: quase certamente tem smartphone próprio e acessa a internet todos os dias pelo aparelho, em um estado que lidera os indicadores de conectividade do país. Ainda assim, seu domínio é o transporte no dia a dia, não a estrutura institucional por trás dele: conhece de cor seu trajeto, mas não separa claramente Semob, BRB Mobilidade, Metrô-DF e as empresas operadoras. É provável que utilize algum benefício (Passe Livre Estudantil e/ou Vale-Transporte), o que o torna um usuário ativo e recorrente das tarefas cadastrais do site, além das consultas cotidianas de linhas e horários.
-
-## 3. Dados Demográficos do Perfil, Relação com tecnologia e conhecmento e domínio
+<div align="center">
+<p><strong>Tabela 1</strong> — Dados Demográficos, Relação com Tecnologia e Conhecimento de Domínio do Usuário Primário</p>
+</div>
 
 | Característica | Faixa/categoria predominante no perfil primário |
 |---|---|
@@ -44,14 +39,25 @@ O usuário primário do site da Semob é um(a) jovem adulto(a) de 18 a 39 anos, 
 | Letramento digital, por escolaridade | Varia com a instrução: 99,7% de quem tem ensino superior usa internet, caindo para 86,2% entre quem não tem instrução formal |
 | Frequência de uso do transporte coletivo | Diária ou quase diária, muitas vezes combinando dois modos ou duas linhas com integração (Inferência a partir do padrão diário de deslocamento para trabalho/estudo) |
 | Conhecimento institucional | Baixo: conhece bem o próprio trajeto e os horários de que precisa, mas não distingue claramente os papéis da Semob (regulação e planejamento), do BRB Mobilidade (emissão de cartões e cadastro do Passe Livre), do Metrô-DF e das empresas operadoras de ônibus |
-| Idiomas e Jargôes | Certo grau de desconhecimento de termos técnicos como **"Integração tarifária"**, **"Linha circular"**, **"Validador"** |
+| Idiomas e Jargões | Certo grau de desconhecimento de termos técnicos como **"Integração tarifária"**, **"Linha circular"**, **"Validador"** |
 
-*Fonte: Gabriel Melo.*
+<div align="center">
+<p><em>Fonte: Gabriel Melo (2026).</em></p>
+</div>
 
-Foram utilizadas as seguintes fontes de dados:
-* PDAD 2021.
-* Relatório de Ouvidoria — 1º Trimestre de 2026 (Parte Geral).
-* Entrevista com usuários.
+---
+
+## 3. Fontes de Dados Utilizadas
+
+Para a elaboração deste perfil, foram articuladas as seguintes fontes de dados:
+* **Pesquisa Distrital por Amostra de Domicílios (PDAD 2021):** Dados sobre renda, posse de automóveis, uso de transporte coletivo e distribuição demográfica no Distrito Federal.
+* **Relatório de Ouvidoria — 1º Trimestre de 2026 (Parte Geral):** Manifestações, dúvidas e demandas mais recorrentes dos usuários do sistema.
+* **Entrevistas Qualitativas com Usuários:** Elicitação direta de experiências de uso (consulte a seção de [Entrevistas](../entrevistas.md)).
+
+---
 
 ## 4. Referências Bibliográficas
+
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* COMPANHIA DE PLANEJAMENTO DO DISTRITO FEDERAL (CODEPLAN). **Pesquisa Distrital por Amostra de Domicílios — PDAD 2021**. Brasília: Codeplan, 2021.
+* SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE DO DISTRITO FEDERAL (SEMOB-DF). **Relatório de Ouvidoria — 1º Trimestre de 2026 (Parte Geral)**. Brasília: SEMOB-DF, 2026.

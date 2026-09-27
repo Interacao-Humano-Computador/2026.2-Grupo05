@@ -115,10 +115,22 @@ nav:
     - Entrevistas: analise-de-requisitos/entrevistas.md
     - Brainstorming: analise-de-requisitos/brainstorm.md
     - Análise de documentos: analise-de-requisitos/analise-de-documentos.md
-    - Perfis de usuário: analise-de-requisitos/perfis-de-usuario.md
-    - Personas: analise-de-requisitos/personas.md
-    - Cenários: analise-de-requisitos/cenarios.md
-    - Análise de tarefas: analise-de-requisitos/analise-de-tarefas.md
+    - Perfis de usuário:
+      - Visão Geral: analise-de-requisitos/perfis-de-usuario/index.md
+      - Passageiro (Primário): analise-de-requisitos/perfis-de-usuario/perfil-primario.md
+      - Motorista de Ônibus (Terciário): analise-de-requisitos/perfis-de-usuario/perfil-motorista.md
+    - Personas:
+      - Visão Geral: analise-de-requisitos/personas/index.md
+      - Larissa Ferreira Lima (Primária): analise-de-requisitos/personas/larissa-ferreira-lima.md
+      - João Pedro Carvalho (Primária): analise-de-requisitos/personas/joao-pedro-carvalho.md
+    - Cenários:
+      - Visão Geral: analise-de-requisitos/cenarios/index.md
+      - Cenário 1 (Última Viagem Noturna): analise-de-requisitos/cenarios/cenario-1-ultima-viagem.md
+      - Cenário 2 (Atraso e Conflito no App): analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md
+    - Análise de tarefas:
+      - Visão Geral: analise-de-requisitos/analise-de-tarefas/index.md
+      - TAR-01 (Alerta Inteligente de Saída): analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md
+      - TAR-02 (Pré-agendamento DF Acessível): analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md
 
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 
