@@ -41,7 +41,7 @@ Com base nas diretrizes de pesquisas em IHC descritas por Barbosa et al. (2021, 
 
 O documento a seguir foi elaborado com base na estrutura de modelo de TCLE apresentada no Exemplo 7.1 do livro de Barbosa et al. (2021, p. 128–129), adaptado especificamente para as atividades de análise de requisitos e validação do sistema da SEMOB-DF.
 
-[Clique aqui para ler o documento](/docs/assets/PDFs/TCLE_Pesquisa_Transporte.pdf)
+[Clique aqui para ler o documento](../assets/PDFs/TCLE_Pesquisa_Transporte.pdf)
 **Elaborado por:** [Igor Dantas](https://github.com/IgorDARAUJO)
 
 ---
