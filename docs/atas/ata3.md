@@ -9,9 +9,9 @@
 
 ## Histórico de Versão e Contribuição
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
 | :---: | :---: | :--- | :--- | :--- | :---: |
-| `1.0` | 17/09/2026 | Criação da ata da Reunião 03 (Definição de escopo da Entrega 2, elicitação e análise de tarefas). | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
+| 17/09/2026 | `1.0` | Criação da ata da Reunião 03 (Definição de escopo da Entrega 2, elicitação e análise de tarefas). | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
 
 ---
 

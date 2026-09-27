@@ -9,11 +9,11 @@
 
 ## Histórico de Versão e Contribuição
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
 | :---: | :---: | :--- | :--- | :--- | :---: |
-| `1.0` | 03/09/2026 | Criação da ata da Reunião 01. | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
-| `1.1` | 04/09/2026 | Atualização da data da próxima reunião. | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
-| `1.2` | 26/09/2026 | Ajustes técnicos na ata: padronização estrutural do cabeçalho, correção de links dos participantes, especificação nominal da fonte e alinhamento do uso de IA (Google Gemini). | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
+| 03/09/2026 | `1.0` | Criação da ata da Reunião 01. | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
+| 04/09/2026 | `1.1` | Atualização da data da próxima reunião. | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
+| 26/09/2026 | `1.2` | Ajustes técnicos na ata: padronização estrutural do cabeçalho, correção de links dos participantes, especificação nominal da fonte e alinhamento do uso de IA (Google Gemini). | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
 
 ---
 

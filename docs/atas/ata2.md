@@ -9,10 +9,10 @@
 
 ## Histórico de Versão e Contribuição
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
 | :---: | :---: | :--- | :--- | :--- | :---: |
-| `1.0` | 07/09/2026 | Criação da ata da Reunião 02 (Inspeção da Entrega 1 do Grupo 06). | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
-| `1.1` | 26/09/2026 | Ajustes técnicos na ata: padronização do cabeçalho com identificação de inspeção, links dos participantes, especificação nominal de fonte, reposicionamento das imagens de referência, retificação do parecer da inspeção com apontamento de não conformidade no Item 22 e alinhamento da declaração de uso de IA. | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
+| 07/09/2026 | `1.0` | Criação da ata da Reunião 02 (Inspeção da Entrega 1 do Grupo 06). | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
+| 26/09/2026 | `1.1` | Ajustes técnicos na ata: padronização do cabeçalho com identificação de inspeção, links dos participantes, especificação nominal de fonte, reposicionamento das imagens de referência, retificação do parecer da inspeção com apontamento de não conformidade no Item 22 e alinhamento da declaração de uso de IA. | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
 
 ---
 
