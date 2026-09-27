@@ -16,7 +16,7 @@ Neste conjunto de documentos estão registradas as análises de tarefas produzid
 
 ### 1.1 Análise Hierárquica de Tarefas (HTA)
 
-Desenvolvida originalmente por Annett e Duncan (1967), a HTA busca identificar os objetivos de alto nível dos usuários e decompor sistematicamente esses objetivos em subobjetivos e operações (ações físicas ou cognitivas elementares). Além da hierarquia, a técnica define **planos** de execução (sequenciais, condicionais, cíclicos ou concorrentes) e critérios objetivos de sucesso e parada baseados na regra $p \times c$ (probabilidade de erro multiplicada pelo custo do erro).
+Desenvolvida originalmente por Annett e Duncan (1967), a HTA busca identificar os objetivos de alto nível dos usuários e decompor sistematicamente esses objetivos em subobjetivos e operações (ações físicas ou cognitivas elementares). Além da hierarquia, a técnica define **planos** de execução (sequenciais, condicionais, cíclicos ou concorrentes) e critérios objetivos de sucesso e parada baseados na regra *p* × *c* (probabilidade de erro multiplicada pelo custo do erro).
 
 ### 1.2 ConcurTaskTrees (CTT)
 

@@ -62,7 +62,7 @@ A **Análise Hierárquica de Tarefas (HTA – *Hierarchical Task Analysis*)**, d
 
 ### 3.1 Princípios de Decomposição e Critérios Técnicos de Parada (Barbosa e Silva, 2010, pp. 195–196)
 1. **Mutuamente Exclusivos e Exaustivos:** Em cada ramificação da hierarquia, os subobjetivos formulados cobrem integralmente o escopo do objetivo superior sem apresentar redundâncias ou sobreposições funcionais entre si (Barbosa e Silva, 2010, p. 196).
-2. **Critério $p \times c$ de Annett e Duncan (1967):** A decomposição das tarefas foi interrompida formalmente quando o produto da probabilidade de erro ($p$) pelo custo/severidade da falha ($c$) atinge um limiar aceitável, ou quando a causa-raiz de um problema foi isolada, permitindo propor uma recomendação direta de design de IHC (Barbosa e Silva, 2010, p. 195).
+2. **Critério *p* × *c* de Annett e Duncan (1967):** A decomposição das tarefas foi interrompida formalmente quando o produto da probabilidade de erro (*p*) pelo custo/severidade da falha (*c*) atinge um limiar aceitável, ou quando a causa-raiz de um problema foi isolada, permitindo propor uma recomendação direta de design de IHC (Barbosa e Silva, 2010, p. 195).
 3. **Estrutura das Operações na Base (Tupla Operacional):** O nível folha de cada ramo é alcançado por operações definidas por:
    - **Input (Entrada):** Estados do ambiente ou gatilhos contextuais que ativam o objetivo;
    - **Ação (Action):** Atividades e transformações realizadas para atingi-lo;
@@ -292,18 +292,21 @@ Na notação CTT, cada nó da árvore é formalmente classificado em uma de quat
 ```
 
 ### 4.2 Notação dos Operadores Temporais e Controle de Fluxo (Barbosa e Silva, 2010, pp. 203–204)
+
 As relações temporais entre tarefas irmãs do mesmo nível hierárquico são governadas pelos operadores canônicos:
-- **`T1 >> T2` (Ativação Sequencial Simples):** $T_2$ só pode ser iniciada após a conclusão obrigatória de $T_1$.
-- **`T1 [ ] >> T2` (Ativação com Passagem de Informação):** $T_2$ só inicia após $T_1$, consumindo os dados gerados por $T_1$.
+
+- **`T1 >> T2` (Ativação Sequencial Simples):** *T*<sub>2</sub> só pode ser iniciada após a conclusão obrigatória de *T*<sub>1</sub>.
+- **`T1 [ ] >> T2` (Ativação com Passagem de Informação):** *T*<sub>2</sub> só inicia após *T*<sub>1</sub>, consumindo os dados gerados por *T*<sub>1</sub>.
 - **`T1 [] T2` (Escolha / Alternância):** Ambas estão habilitadas; o início de uma desabilita e cancela a outra.
 - **`T1 ||| T2` (Concorrência Simples):** Executadas em qualquer ordem ou ao mesmo tempo, sem troca de dados.
 - **`T1 | [ ] | T2` (Concorrência Comunicante):** Executadas ao mesmo tempo ou em qualquer ordem, trocando dados continuamente.
 - **`T1 |=| T2` (Tarefas Independentes):** Iniciadas em qualquer ordem, mas a iniciada deve terminar antes que a outra comece.
-- **`T1 [> T2` (Desativação / Cancelamento):** $T_1$ é definitivamente interrompida e abortada pela ativação de $T_2$.
-- **`T1 |> T2` (Suspensão e Retomada):** $T_1$ é suspensa temporariamente por $T_2$, sendo retomada de onde parou após o término de $T_2$.
+- **`T1 [> T2` (Desativação / Cancelamento):** *T*<sub>1</sub> é definitivamente interrompida e abortada pela ativação de *T*<sub>2</sub>.
+- **`T1 |> T2` (Suspensão e Retomada):** *T*<sub>1</sub> é suspensa temporariamente por *T*<sub>2</sub>, sendo retomada de onde parou após o término de *T*<sub>2</sub>.
 
 ### 4.3 Semântica Hierárquica de Realização e Limitações da Notação (Barbosa e Silva, 2010, pp. 203, 205)
-- **Regra de Realização:** Uma tarefa pai ($T_1$) só é considerada concluída se todas as suas tarefas filhas ($T_2, T_3, \dots$) forem concluídas segundo as regras de seus operadores temporais (Barbosa e Silva, 2010, p. 203).
+
+- **Regra de Realização:** Uma tarefa pai (*T*<sub>1</sub>) só é considerada concluída se todas as suas tarefas filhas (*T*<sub>2</sub>, *T*<sub>3</sub>, ...) forem concluídas segundo as regras de seus operadores temporais (Barbosa e Silva, 2010, p. 203).
 - **Tratamento de Erros:** Conforme advertem Barbosa e Silva (2010, p. 205), o CTT não possui operadores nativos específicos para mecanismos complexos de prevenção e recuperação de erros da interface. Para mitigar essa limitação inerente da notação, o modelo CTT aqui apresentado incorpora explicitamente tarefas interativas de validação de dados e alternativas de cancelamento e contestação.
 
 ---
