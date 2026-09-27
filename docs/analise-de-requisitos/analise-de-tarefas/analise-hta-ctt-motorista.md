@@ -34,7 +34,7 @@ Conforme enfatizam Barbosa e Silva (2010, p. 191), a análise de tarefas deve in
 Para o motorista Valdir Soares, o objetivo primário não é "clicar em botões em uma tela", mas sim:
 1. **Obter previsibilidade temporal e operacional** da sua jornada de direção ("mais os horários mesmo");
 2. **Prevenir atritos interpessoais e desgastes com passageiros** na catraca decorrentes de desinformação pública;
-3. **Executar a viagem com segurança viária e regularidade**, sem incorrer em advertências ou multas da SEMOB ("só o ouro").
+3. **Executar a viagem com segurança viária e regularidade**, sem incorrer em advertências ou multas da SEMOB.
 
 ### 1.2 Finalidade e Nível de Abstração no Ciclo de Design (Barbosa e Silva, 2010, p. 191)
 Em IHC, a análise de tarefas pode ser empregada em três atividades fundamentais: (1) análise da situação atual de trabalho; (2) (re)design de um sistema computacional; e (3) avaliação de uma intervenção ou novo sistema.
@@ -126,7 +126,7 @@ graph TD
     T2 --> T23
     
     T31["3.1 Comparar horários oficiais com a ordem da empresa"]
-    T32["3.2 Confirmar conformidade ('só o ouro')"]
+    T32["3.2 Confirmar conformidade"]
     T33["3.3 Reportar descompasso à fiscalização"]
     T3 --> T31
     T3 --> T32
@@ -159,7 +159,7 @@ graph TD
 | **2.3 Visualizar tabela de saídas e pontos** | - | Linha selecionada pelo usuário. | Percorrer a lista de partidas do terminal de origem e paradas-chave. | Horários de saída do turno destacados visualmente na tela. | Tabelas governamentais em formato PDF estático de difícil leitura em celular. | Desempenho baseado em regras (tentativa frustrada de dar zoom em tabela PDF). | Renderização responsiva em cards verticais com alto contraste e fontes legíveis. |
 | **3. Confirmar regularidade e sincronia operacional** | 3.1 > (3.2 ou 3.3) | Grade horária carregada em tela. | Comparar os horários com a ordem da garagem; validar ou reportar erro. | Viagem iniciada com segurança ou chamado aberto para correção. | Desalinhamento entre o que a SEMOB publica e o que a garagem determinou. | Desempenho baseado em conhecimento (insegurança sobre qual horário cumprir). | Inclusão de selo visual explícito de sincronização de dados entre SEMOB e empresa. |
 | **3.1 Comparar horários oficiais com a garagem** | - | Tabela oficial visível na tela e folha da empresa em mãos. | Confrontar horário de início e fim da viagem planejada. | Confirmação de que os horários são idênticos ou divergentes. | Divergência de minutos que pode gerar multas por parte dos fiscais. | Desempenho baseado em regras (presumir que 5 minutos de diferença são irrelevantes). | Alerta visual em cor contrastante se houver divergência entre sistemas. |
-| **3.2 Confirmar conformidade ("só o ouro")** | - | Horários 100% coincidentes. | Tocar no botão de confirmação e guardar o aparelho. | Mensagem de sucesso: "Viagem confirmada conforme OS oficial". | Nulo (estado ótimo de trabalho). | Não se aplica (sucesso). | Botão amplo de fechamento com confirmação tátil/sonora imediata. |
+| **3.2 Confirmar conformidade"** | - | Horários 100% coincidentes. | Tocar no botão de confirmação e guardar o aparelho. | Mensagem de sucesso: "Viagem confirmada conforme OS oficial". | Nulo (estado ótimo de trabalho). | Não se aplica (sucesso). | Botão amplo de fechamento com confirmação tátil/sonora imediata. |
 | **3.3 Reportar descompasso à fiscalização** | - | Horários divergentes entre site público e ordem da empresa. | Acionar botão "Reportar Divergência" ou procurar despachante. | Registro de chamado emitido e protocolo gerado para resguardo legal. | Motorista não tem canal rápido para contestar erros da SEMOB antes de rodar. | Desempenho baseado em conhecimento (falta de protocolo formal de resguardo). | Botão de "Alerta de Divergência" com emissão instantânea de comprovante digital. |
 
 <div align="center">
@@ -497,7 +497,7 @@ A integração sistemática entre este artefato e os documentos anteriores do pr
 | ([valdir-soares.md])|       | ([cenarios-motorista])|       |   (HTA e CTT)      |
 +--------------------+        +---------------------+        +--------------------+
  - "Mais os horários"          - C2: Consulta no SGO          - TAR-03 (Escala e Tabela)
- - "Só o ouro" (tranquilo)     - C3: Alerta na BR-020         - TAR-04 (Alerta e Desvio)
+ - Previsibilidade             - C3: Alerta na BR-020         - TAR-04 (Alerta e Desvio)
  - Smartphone 4G exclusivo     - C1: Conflito na Catraca      - HTA: Falhas de Reason
  - Evitar atritos e multas     - C4: Dúvida na W3 Sul         - CTT: Interação [I] e [S]
 ```
