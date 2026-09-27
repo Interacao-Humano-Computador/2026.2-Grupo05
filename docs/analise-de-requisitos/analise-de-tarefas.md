@@ -79,7 +79,7 @@ Abaixo, no Documento 2, encontra-se a modelagem das relações temporais e lógi
 Abaixo, no Documento 1, é possível visualizar o diagrama e a tabela correspondente à Análise Hierárquica de Tarefas (HTA) para o fluxo do participante.
 
 <div align="center">
-  <iframe src="../assets/PDFs/Gabriel_Artefato_HTA.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+  <iframe src="../../assets/PDFs/Gabriel_Artefato_HTA.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
 </div>
 
 *Caso o documento não carregue, [clique aqui para baixar o PDF do HTA](../assets/PDFs/Gabriel_Artefato_HTA.pdf).*
@@ -94,7 +94,7 @@ Abaixo, no Documento 1, é possível visualizar o diagrama e a tabela correspond
 Abaixo, no Documento 2, encontra-se a modelagem das relações temporais e lógicas desta mesma tarefa utilizando a notação CTT.
 
 <div align="center">
-  <iframe src="../assets/PDFs/Gabriel_Artefato_CTT.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
+  <iframe src="../../assets/PDFs/Gabriel_Artefato_CTT.pdf" width="100%" height="600px" style="border: 1px solid #ccc; border-radius: 8px;"></iframe>
 </div>
 
 *Caso o documento não carregue, [clique aqui para baixar o PDF do CTT](../assets/PDFs/Gabriel_Artefato_CTT.pdf).*
