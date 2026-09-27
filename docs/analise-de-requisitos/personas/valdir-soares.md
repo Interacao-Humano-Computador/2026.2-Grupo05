@@ -5,7 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 26/09/2026 | 1.0 | Concepção e modelagem da Persona fundamentada na pesquisa empírica de campo com motorista (`MOT-01`) e estruturada conforme a metodologia *Goal-Directed Design* da literatura clássica de IHC (Cooper et al., 2007; Barbosa e Silva, 2010). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 27/09/2026 | 1.1 | Integração formal ao elenco de personas do projeto com referências hipertextuais relativas e padronização visual. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| 27/09/2026 | 1.1 | Integração formal ao elenco de personas do projeto com referências hipertextuais relativas e padronização visual. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 ---
 

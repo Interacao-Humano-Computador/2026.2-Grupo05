@@ -4,8 +4,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista (MOT-01) na Garagem Piracicabana (SGO). | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-| 27/09/2026 | 1.1 | Modularização em artefato próprio e refinamento textual em formato discursivo contínuo. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| 26/09/2026 | 1.0 | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista (MOT-01) na Garagem Piracicabana (SGO). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 27/09/2026 | 1.1 | Modularização em artefato próprio e refinamento textual em formato discursivo contínuo. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 ---
 

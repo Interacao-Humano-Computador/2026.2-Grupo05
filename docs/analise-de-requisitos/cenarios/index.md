@@ -6,7 +6,7 @@
 | :---: | :---: | :--- | :--- | :--- |
 | 26/09/2026 | 1.0 | Criação do documento de cenários de uso identificados para o ecossistema do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
 | 27/09/2026 | 1.1 | Modularização em artefatos dedicados por cenário e visão geral teórica. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 27/09/2026 | 1.2 | Inclusão dos cenários de uso da persona Valdir Soares (motorista de ônibus do STPC/DF) e fundamentação em Goal-Directed Design. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
+| 27/09/2026 | 1.2 | Inclusão dos cenários de uso da persona Valdir Soares (motorista de ônibus do STPC/DF) e fundamentação em Goal-Directed Design. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
 
 ---
 
