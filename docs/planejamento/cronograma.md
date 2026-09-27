@@ -74,8 +74,9 @@ Na Tabela 3, registra-se o cronograma executado da primeira entrega, documentand
 
 *Fonte: Igor Dantas Araújo.*
 
-### 4. Entrega 2 - Perfil do Usuário e Análise de Tarefas
+## 4. Entrega 2 - Perfil do Usuário e Análise de Tarefas
 
+### 4.1: Cronograma planejado
 A Tabela 4 apresenta o cronograma planejado da Entrega 2, com as atividades, responsáveis e prazos previstos.
 
 **Tabela 4** - Cronograma Planejado: Entrega 2
@@ -88,6 +89,27 @@ A Tabela 4 apresenta o cronograma planejado da Entrega 2, com as atividades, res
 | **Brainstorming** | Planejamento e execução do brainstorming | Lucas, Arthur | Carlos, Rodrigo, Igor, Gabriel | 07/09/2026 | 27/09/2026 |
 | **Análise de documentos** | Analisar informações de documentos para consolidar o perfil de usuário | Igor, Gabriel, Lucas, Arthur, Tomas | Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
 | **Cenários** | Elaboração dos cenários de uso principais do Semob-DF. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Análise de Tarefas (HTA)** | Construção do diagrama, legenda e tabela HTA. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Análise de Tarefas (CTT)** | Construção do diagrama CTT. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 26/09/2026 | 27/09/2026 |
+| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 28/09/2026 | 02/10/2026 |
+
+*Fonte: Igor Dantas Araújo.*
+
+### 4.2: Cronograma executado
+A Tabela 11 apresenta o cronograma executado da Entrega 2, com as atividades, responsáveis e prazos previstos.
+
+**Tabela 11** - Cronograma executado: Entrega 2
+
+| Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Perfil do Usuário Primário** | Definição dos atributos demográficos, atitudes e experiência. | Igor, Gabriel, Lucas, Arthur | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Perfis de Usuário Secundário e Terciário** | Definição dos atributos demográficos, atitudes e experiência. | Carlos, Rodrigo, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Aspectos Éticos** | Elaboração do TCLE e definição dos 4 princípios éticos. | Igor | Gabriel | 07/09/2026 | 27/09/2026 |
+| **Entrevistas** | Planejamento e execução das entrevistas | Carlos, Rodrigo, Igor, Gabriel | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Brainstorming** | Planejamento e execução do brainstorming | Lucas, Arthur | Carlos, Rodrigo, Igor, Gabriel | 07/09/2026 | 27/09/2026 |
+| **Análise de documentos** | Analisar informações de documentos para consolidar o perfil de usuário | Igor, Gabriel, Lucas, Arthur, Tomas | Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
+| **Cenários** | Elaboração dos cenários de uso principais. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
 | **Análise de Tarefas (HTA)** | Construção do diagrama, legenda e tabela HTA. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
 | **Análise de Tarefas (CTT)** | Construção do diagrama CTT. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/09/2026 | 27/09/2026 |
 | **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 26/09/2026 | 27/09/2026 |
