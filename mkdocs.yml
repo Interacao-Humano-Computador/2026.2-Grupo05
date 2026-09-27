@@ -133,6 +133,7 @@ nav:
       - Visão Geral: analise-de-requisitos/analise-de-tarefas/index.md
       - TAR-01 (Alerta Inteligente de Saída): analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md
       - TAR-02 (Pré-agendamento DF Acessível): analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md
+      - TAR-03 e TAR-04 (Motorista - HTA e CTT): analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md
 
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 
