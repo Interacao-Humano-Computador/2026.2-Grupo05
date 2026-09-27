@@ -8,7 +8,7 @@
 
 ## 1. Introdução
 
-Uma das técnicas de coleta de dados que foi utilizada para traçar os perfis de usuários  é a **Análise de Documentos**. A análise de documentos consiste na inspeção cuidadosa de artefatos, registros e materiais já existentes relacionados ao ambiente. Nesta página, documentamos como a técnica de Análise de Documentos foi aplicada no projeto do e detalhamos quais fontes de informação foram selecionadas, o processo de inspeção realizado e, principalmente, quais características do nosso público-alvo puderam ser extraídas para compor os perfis de usuário.
+Uma das técnicas de coleta de dados que foi utilizada para traçar os perfis de usuários  é a **Análise de Documentos**. A análise de documentos consiste na inspeção cuidadosa de artefatos, registros e materiais já existentes relacionados ao ambiente. Nesta página, documentamos como a técnica de Análise de Documentos foi aplicada no projeto do e detalhamos quais fontes de informação foram selecionadas, o processo de inspeção realizado e, principalmente, quais características do nosso público-alvo puderam ser extraídas para compor os perfis de usuário. 
 
 ## 2. Usuário Primário
 
