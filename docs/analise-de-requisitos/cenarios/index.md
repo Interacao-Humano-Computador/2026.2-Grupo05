@@ -46,6 +46,7 @@ Os cenários desenvolvidos pela equipe concentram-se no diagnóstico das tarefas
 | :--- | :--- | :---: | :--- | :---: |
 | **Cenário 1 — Última viagem para casa** | [Larissa Ferreira Lima](../personas/larissa-ferreira-lima.md) | Cenário de Problema | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Cenário](cenario-1-ultima-viagem.md) |
 | **Cenário 2 — Atraso na viagem matutina por conflito no app** | [João Pedro Carvalho](../personas/joao-pedro-carvalho.md) | Cenário de Problema | [Igor Dantas](https://github.com/IgorDARAUJO) | [Acessar Cenário](cenario-2-viagem-matutina.md) |
+| **Cenário 3 — Rota para um endereço novo e desvio não avisado** | [Heitor Santos Júnior](../personas/heitor-santos-junior.md) | Cenário de Problema | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Cenário](cenario-3-endereco-novo.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>

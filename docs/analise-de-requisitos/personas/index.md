@@ -46,6 +46,7 @@ O elenco de personas desenvolvido pela equipe para orientar as soluções de IHC
 | :--- | :--- | :--- | :--- | :---: |
 | **Larissa Ferreira Lima ("Lari")** | Persona Primária | Estudante universitária e trabalhadora que depende diariamente de integração (ônibus e metrô) | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Persona](larissa-ferreira-lima.md) |
 | **João Pedro Carvalho** | Persona Primária | Estudante de Engenharia na UnB com perfil tecnológico alto e foco em rota rápida e previsibilidade | [Igor Dantas](https://github.com/IgorDARAUJO) | [Acessar Persona](joao-pedro-carvalho.md) |
+| **Heitor Santos Júnior** | Persona Primária | Técnico de manutenção predial de Planaltina, com letramento digital intermediário, que depende do ônibus para trabalhar e se deslocar entre endereços do Plano Piloto | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Persona](heitor-santos-junior.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>
