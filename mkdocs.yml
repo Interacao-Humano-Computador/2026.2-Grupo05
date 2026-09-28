@@ -124,10 +124,24 @@ nav:
       - Visão Geral: analise-de-requisitos/personas/index.md
       - Larissa Ferreira Lima (Primária): analise-de-requisitos/personas/larissa-ferreira-lima.md
       - João Pedro Carvalho (Primária): analise-de-requisitos/personas/joao-pedro-carvalho.md
+<<<<<<< HEAD
+=======
+      - Marcos Paulo Vieira (Primária): analise-de-requisitos/personas/marcos-paulo-vieira.md
+      - Maria Eduarda Santos (Primária): analise-de-requisitos/personas/maria-eduarda-santos.md
+      - Valdir Soares (Stakeholder): analise-de-requisitos/personas/valdir-soares.md
+      - Heitor Santos Júnior (Primária): analise-de-requisitos/personas/heitor-santos-junior.md
+>>>>>>> c183c8884c2df506a2270ece507919e3c8ec42c5
     - Cenários:
       - Visão Geral: analise-de-requisitos/cenarios/index.md
       - Cenário 1 (Última Viagem Noturna): analise-de-requisitos/cenarios/cenario-1-ultima-viagem.md
       - Cenário 2 (Atraso e Conflito no App): analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md
+<<<<<<< HEAD
+=======
+      - Cenário 3 (Deslocamento com Busca por Destino): analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md
+      - Cenário 4 (Crédito de Vale-Transporte): analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md
+      - Cenários 5 (Motorista): analise-de-requisitos/cenarios/cenarios-motorista.md
+      - Cenário 9 (Endereço Novo e Desvio): analise-de-requisitos/cenarios/cenario-9-endereco-novo.md
+>>>>>>> c183c8884c2df506a2270ece507919e3c8ec42c5
     - Análise de tarefas:
       - Visão Geral: analise-de-requisitos/analise-de-tarefas/index.md
       - TAR-01 (Alerta Inteligente de Saída): analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md

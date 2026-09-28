@@ -52,6 +52,7 @@ O elenco de personas desenvolvido pela equipe para orientar as soluções de IHC
 | **Marcos Paulo Vieira ("Marquinhos")** | Persona Primária | Trabalhador do setor de logística (Usuário Padrão/Cotidiano), foco estrito em tarefas móveis e busca por Origem/Destino | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Acessar Persona](marcos-paulo-vieira.md) |
 | **Maria Eduarda Santos ("Duda")** | Persona Primária | Trabalhadora que utiliza Vale-Transporte e precisa resolver falhas de crédito e cartão sob pressão de horário | Equipe Grupo 05 | [Acessar Persona](maria-eduarda-santos.md) |
 | **Valdir Soares ("Seu Valdir")** | Persona Atendida (*Served*) / Primária Operacional | Motorista profissional de ônibus urbano do STPC/DF (Viação Piracicabana, Bacia 1) | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Persona](valdir-soares.md) |
+| **Heitor Santos Júnior** | Persona Primária | Técnico de manutenção predial de Planaltina, com letramento digital intermediário, que depende do ônibus para trabalhar e se deslocar entre endereços do Plano Piloto | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Persona](heitor-santos-junior.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>
