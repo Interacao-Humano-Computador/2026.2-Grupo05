@@ -4,7 +4,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração da Análise de Tarefas (HTA e GOMS) para a consulta de ônibus em tempo real no DF no Ponto. | [Nome do autor] | [Nome do revisor] |
+| 27/09/2026 | 1.0 | Elaboração da Análise de Tarefas (HTA e GOMS) para a consulta de ônibus em tempo real no DF no Ponto. | Rodrigo Barbos | A definir |
 
 
 ---
@@ -12,9 +12,9 @@
 ## 1. Caracterização da Tarefa
 
 * **Título da Tarefa:** Consulta de ônibus em tempo real no DF no Ponto
-* **Perfil do Participante:** Usuário primário / Passageiro do transporte coletivo do DF ([Persona](../personas/nome-da-persona.md))
-* **Responsáveis pela Elaboração:** [Nome do autor]
-* **Data da Realização:** [DD/MM/AAAA]
+* **Perfil do Participante:** Usuário primário / Passageiro do transporte coletivo do DF ([Persona](../personas/mariana-borges-almeida.md))
+* **Responsáveis pela Elaboração:** Rodrigo Barbosa
+* **Data da Realização:** [27/09/2026]
 * **Sistema analisado:** Aplicativo DF no Ponto, da Secretaria de Transporte e Mobilidade do DF (Semob-DF), lançado em julho de 2025.
 * **Objetivo da Tarefa (estado final):** O passageiro sabe quando o ônibus chega ao ponto de parada e, com base nisso, definiu o que fazer (ir ao ponto, esperar ou buscar alternativa).
 * **Objetivo de experiência (hipótese):** Não se sentir perdido ou sem informação enquanto espera o ônibus.
@@ -236,9 +236,6 @@ O livro apresenta o KLM (Tabela 6.4 e Exemplo 6.6) para estimar tempos, mas seus
 ## 4. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 6, seção 6.4, p. 191–203.
-* ANNETT, John; DUNCAN, Keith D. **Task analysis and training design**. *Journal of Occupational Psychology*, v. 41, n. 4, p. 211–221, 1967.
-* CARD, Stuart K.; MORAN, Thomas P.; NEWELL, Allen. **The Psychology of Human-Computer Interaction**. Hillsdale: Lawrence Erlbaum Associates, 1983.
 * SECRETARIA DE TRANSPORTE E MOBILIDADE DO DISTRITO FEDERAL (Semob-DF). **Portal institucional**. Disponível em: <https://www.semob.df.gov.br/>. Acesso em: 27 set. 2026.
 * SOU BRASÍLIA. **DF no Ponto: veja o horário do ônibus em tempo real no app da Semob**. Disponível em: <https://soubrasilia.com/df-no-ponto-app-semob-onibus-tempo-real-como-usar/>. Acesso em: 27 set. 2026.
 
-> **Nota:** Annett (2003), Diaper (2003), John (2003), Kieras (2003) e Reason (1990) são citados a partir do capítulo de Barbosa et al. (2021). Complete as referências completas com a lista bibliográfica do próprio livro.
