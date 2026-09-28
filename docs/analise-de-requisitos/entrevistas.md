@@ -123,6 +123,7 @@ Na Tabela 2, apresenta-se o quadro consolidado das entrevistas oficiais com usu�
 | **ENT-02** | Desenvolvedores (SEMOB-DF) | 22/09/2026 | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) (Condução)<br>[Carlos Costa](https://github.com/carloshfgit) (Filmagem) | [Vídeo no YouTube](https://youtu.be/f5bk6RBZwDE) | <span class="pill pill-ok">Concluída</span> |
 | **ENT-03** | Passageiro Frequente / Usuário de Transporte Coletivo | 22/09/2026 | [Igor Dantas](https://github.com/IgorDARAUJO) | [Vídeo no YouTube](https://youtu.be/rVJJVXuH7Ls?is=yosN9EwOtUcPWe-l) | <span class="pill pill-wait">Concluída</span> |
 | **ENT-04** | Estudante / Beneficiário do Passe Livre Estudantil | 23/09/2026 | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Vídeo no YouTube](https://youtu.be/JpNoOG-T318?is=osM9685boVFR8fkd) | <span class="pill pill-wait">Concluída</span> |
+| **ENT-05** | Passageiro Frequente / Usuário de Transporte Coletivo | 27/09/2026 | [Tomás Rocho](https://github.com/TomasRocho) | [Vídeo no YouTube](https://youtu.be/B-Jq3hXK2C0) | <span class="pill pill-ok">Concluída</span> |
 
 <div align="center">
 <p><em>Fonte: Carlos Costa, Rodrigo Carvalho e Igor Dantas (2026).</em></p>
@@ -210,6 +211,27 @@ Abaixo, no Vídeo 7, é possível assistir à gravação na íntegra da entrevis
 <div align="center">
 <p><strong>Vídeo 7</strong> — Entrevista com Usuário Primário (SEMOB-DF).</p>
 <p><em>Fonte: Igor Dantas (2026).</em></p>
+</div>
+
+### 4.5. Entrevista 05: Usuário Primário (SEMOB-DF)
+
+* **Título:** Entrevista com usuário primário (SEMOB-DF)
+* **Perfil do Participante:** Passageiro frequente e usuário de transporte público e das plataformas do SEMOB-DF.
+* **Entrevistador (Condução):** [Tomás Rocho](https://github.com/TomasRocho)
+* **Filmagem e Suporte Técnico:** [Tomás Rocho](https://github.com/TomasRocho)
+* **Data da Realização:** 27/09/2026
+* **Objetivo:** Coletar dados demográficos e informações do usuário acerca da sua experiência com transporte público e plataformas digitais de mobilidade como o SEMOB-DF.
+* **Link de Acesso Direto:** [https://youtu.be/B-Jq3hXK2C0](https://youtu.be/B-Jq3hXK2C0)
+
+Abaixo, no Vídeo 8, é possível assistir à gravação na íntegra da entrevista:
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/B-Jq3hXK2C0" title="Entrevista com Usuário Primário (SEMOB-DF)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%; border-radius: 8px;"></iframe>
+</div>
+
+<div align="center">
+<p><strong>Vídeo 8</strong> — Entrevista com Usuário Primário (SEMOB-DF).</p>
+<p><em>Fonte: Tomás Rocho (2026).</em></p>
 </div>
 ---
 
