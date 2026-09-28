@@ -71,7 +71,7 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 **Figura 1** - Trecho sobre a Heurística 9 (Ajudar os usuários a reconhecer, diagnosticar e corrigir erros)
 
-![Figura 1 – Trecho sobre a Heurística 9](assets/prints_referencias/heuristica-9.png)
+![Figura 1 – Trecho sobre a Heurística 9](../assets/prints_referencias/heuristica-9.png)
 
 **Fonte:** Maciel et al. (2004, p. 11).
 
@@ -85,7 +85,7 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 **Figura 2** - Trecho sobre a Heurística 8 (Estética e design minimalista)
 
-![Figura 2 – Trecho sobre a Heurística 8](assets/prints_referencias/heuristica-8.png)
+![Figura 2 – Trecho sobre a Heurística 8](../assets/prints_referencias/heuristica-8.png)
 
 **Fonte:** Maciel et al. (2004, p. 10).
 
@@ -99,7 +99,7 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 **Figura 3** - Trecho sobre a Heurística 8 (Estética e design minimalista)
 
-![Figura 3 – Trecho sobre a Heurística 8](assets/prints_referencias/heuristica-8.png)
+![Figura 3 – Trecho sobre a Heurística 8](../assets/prints_referencias/heuristica-8.png)
 
 **Fonte:** Maciel et al. (2004, p. 10).
 
@@ -113,7 +113,7 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 **Figura 4** - Trecho sobre a Heurística 8 (Estética e design minimalista)
 
-![Figura 4 – Trecho sobre a Heurística 8](assets/prints_referencias/heuristica-8.png)
+![Figura 4 – Trecho sobre a Heurística 8](../assets/prints_referencias/heuristica-8.png)
 
 **Fonte:** Maciel et al. (2004, p. 10).
 
@@ -127,13 +127,13 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 **Figura 5** - Trecho sobre a Heurística 4 (Consistência e padrões)
 
-![Figura 5 – Trecho sobre a Heurística 4](assets/prints_referencias/heuristica-4.png)
+![Figura 5 – Trecho sobre a Heurística 4](../assets/prints_referencias/heuristica-4.png)
 
 **Fonte:** Maciel et al. (2004, p. 9).
 
 ## 5. Declaração sobre o Uso de IA Generativa
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, levantamento empírico de dados, capturas de tela e análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
 
 ## 6. Referências Bibliográficas
 
@@ -146,5 +146,7 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 - NIELSEN, J. **Usability Engineering**. San Francisco: Morgan Kaufmann, 1994.
 
 - DISTRITO FEDERAL. Secretaria de Estado de Transporte e Mobilidade. **Portal Institucional da SEMOB-DF**. Disponível em: [https://www.semob.df.gov.br/](https://www.semob.df.gov.br/). Acesso em: 02 set. 2026.
+
+## 7. Bibliografia de Apoio
 
 - SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

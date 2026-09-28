@@ -262,6 +262,43 @@ html {
   padding: 0.36rem 0;
 }
 
+/* Indentação e guia visual para submenus aninhados (nível 2) na barra lateral */
+.md-sidebar--primary nav.md-nav[data-md-level="2"] {
+  margin-left: 0.6rem;
+  padding-left: 0.8rem;
+  border-left: 2px solid #cbd5e1;
+  margin-top: 0.2rem;
+  margin-bottom: 0.65rem;
+}
+
+.md-sidebar--primary nav.md-nav[data-md-level="2"] .md-nav__link {
+  font-size: 0.88rem;
+  color: #4b5d73;
+  padding: 0.22rem 0;
+}
+
+.md-sidebar--primary nav.md-nav[data-md-level="2"] .md-nav__link:hover {
+  color: var(--navy);
+}
+
+.md-sidebar--primary nav.md-nav[data-md-level="2"] .md-nav__link--active {
+  color: var(--navy);
+  font-weight: 600;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--primary nav.md-nav[data-md-level="2"] {
+  border-left-color: #334155;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--primary nav.md-nav[data-md-level="2"] .md-nav__link {
+  color: #94a3b8;
+}
+
+[data-md-color-scheme="slate"] .md-sidebar--primary nav.md-nav[data-md-level="2"] .md-nav__link:hover,
+[data-md-color-scheme="slate"] .md-sidebar--primary nav.md-nav[data-md-level="2"] .md-nav__link--active {
+  color: #38bdf8;
+}
+
 .md-main__inner.md-grid {
   display: flex;
   align-items: flex-start;

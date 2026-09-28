@@ -89,27 +89,68 @@ extra:
       link: https://github.com/Interacao-Humano-Computador/2026.2-Grupo05
       name: Repositório do grupo no GitHub
 
+not_in_nav: |
+  contribuicoes/index.md
+
 nav:
   - Inicial: index.md
 
-  - Apresentações: apresentacoes.md
+  - Apresentações: apresentacoes/index.md
 
   - Atas:
-    - Ata de reunião 1: ata1.md
-    - Ata de reunião 2: ata2.md
+    - Ata de reunião 1: atas/ata1.md
+    - Ata de reunião 2 (Inspeção): atas/ata2.md
+    - Ata de reunião 3: atas/ata3.md
 
   - Planejamento:
-    - Cronograma: cronograma.md
-    - Ferramentas: Ferramentas_do_Projeto.md
-    - Mapa de disponibilidade: HeatMap_do_Grupo.md
-    - Sites avaliados: selecao_v2.md
-    - Site escolhido: escolha-semob.md
-    - Processo de design: ProcessoDesign.md
+    - Cronograma: planejamento/cronograma.md
+    - Ferramentas: planejamento/Ferramentas_do_Projeto.md
+    - Mapa de disponibilidade: planejamento/HeatMap_do_Grupo.md
+    - Sites avaliados: planejamento/selecao_v2.md
+    - Site escolhido: planejamento/escolha-semob.md
+    - Processo de design: planejamento/ProcessoDesign.md
 
-  - Análise de Requisitos: analise-de-requisitos.md
+  - Análise de Requisitos:
+    - analise-de-requisitos/index.md
+    - Aspectos éticos: analise-de-requisitos/aspectos-eticos.md
+    - Entrevistas: analise-de-requisitos/entrevistas.md
+    - Brainstorming: analise-de-requisitos/brainstorm.md
+    - Análise de documentos: analise-de-requisitos/analise-de-documentos.md
+    - Perfis de usuário:
+      - Visão Geral: analise-de-requisitos/perfis-de-usuario/index.md
+      - Passageiro (Primário): analise-de-requisitos/perfis-de-usuario/perfil-primario.md
+      - Desenvolvedor / Técnico (Secundário): analise-de-requisitos/perfis-de-usuario/perfil-secundario.md
+      - Motorista de Ônibus (Terciário): analise-de-requisitos/perfis-de-usuario/perfil-motorista.md
+    - Personas:
+      - Visão Geral: analise-de-requisitos/personas/index.md
+      - Larissa Ferreira Lima (Primária): analise-de-requisitos/personas/larissa-ferreira-lima.md
+      - João Pedro Carvalho (Primária): analise-de-requisitos/personas/joao-pedro-carvalho.md
+      - Marcos Paulo Vieira (Primária): analise-de-requisitos/personas/marcos-paulo-vieira.md
+      - Maria Eduarda Santos (Primária): analise-de-requisitos/personas/maria-eduarda-santos.md
+      - Valdir Soares (Stakeholder): analise-de-requisitos/personas/valdir-soares.md
+      - Heitor Santos Júnior (Primária): analise-de-requisitos/personas/heitor-santos-junior.md
+      - Mariana Borges Almeida (Primária): analise-de-requisitos/personas/mariana-borges-almeida.md
+    - Cenários:
+      - Visão Geral: analise-de-requisitos/cenarios/index.md
+      - Cenário 1 (Última Viagem Noturna): analise-de-requisitos/cenarios/cenario-1-ultima-viagem.md
+      - Cenário 2 (Atraso e Conflito no App): analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md
+      - Cenário 3 (Deslocamento com Busca por Destino): analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md
+      - Cenário 4 (Crédito de Vale-Transporte): analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md
+      - Cenários do Motorista (Valdir Soares): analise-de-requisitos/cenarios/cenarios-motorista.md
+      - Cenário 9 (Endereço Novo e Desvio): analise-de-requisitos/cenarios/cenario-9-endereco-novo.md
+      - Cenário 10 (Viagem Ideal sob Chuva): analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md
+    - Análise de tarefas:
+      - Visão Geral: analise-de-requisitos/analise-de-tarefas/index.md
+      - TAR-01 (Alerta Inteligente de Saída): analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md
+      - TAR-02 (Pré-agendamento DF Acessível): analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md
+      - TAR-03 (Origem/Destino e Tempo Real): analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md
+      - TAR-04 e TAR-05 (Motorista - HTA e CTT): analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md
+      - TAR-06 (Consulta DF no Ponto): analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md
 
-  - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento.md
+  - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 
-  - Verificação: verificacao.md
+  - Verificação: 
+    - Verificação da entrega 1: verificacao/verif1.md
+    - Verificação da entrega 2: verificacao/verif2.md
 
-  - Entrega Final: entrega-final.md
+  - Entrega Final: entrega-final/index.md

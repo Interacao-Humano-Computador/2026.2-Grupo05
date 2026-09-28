@@ -22,9 +22,10 @@ hide:
 <p class="lede"><strong>Grupo 05</strong> apresenta - Documentação da avaliação e reprojeto do portal da Secretaria de Estado de Transporte e Mobilidade do Distrito Federal.</p>
 
 <div class="splash-quick-nav">
-  <a class="quick-btn" href="cronograma/">Planejamento</a>
+  <a class="quick-btn" href="planejamento/cronograma/">Planejamento</a>
   <a class="quick-btn" href="#equipe">Equipe</a>
-  <a class="quick-btn" href="ata1/">Atas</a>
+  <a class="quick-btn" href="atas/ata1/">Atas</a>
+  <a class="quick-btn" href="contribuicoes/">Contribuições</a>
 </div>
 
 </div>
@@ -43,6 +44,8 @@ A motivação central deste projeto consiste na **avaliação de Interação Hum
 Ressalta-se que este projeto possui **finalidade estritamente acadêmica**, desenvolvido como atividade pedagógica da disciplina de Interação Humano-Computador da Faculdade de Ciências e Tecnologias em Engenharia da Universidade de Brasília (FCTE/UnB), sem qualquer vínculo administrativo ou institucional direto com a administração pública do Distrito Federal.
 
 ## Equipe
+
+A Figura 1 apresenta os integrantes do Grupo 05.
 
 <div class="team">
 
@@ -95,7 +98,8 @@ Ressalta-se que este projeto possui **finalidade estritamente acadêmica**, dese
 
 ## Histórico de versão
 
-| Versão | Data | Descrição | Autor(es) | Revisor(es) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | --- | --- | --- |
-| `1.0` | 05/09/2026 | Estruturação e publicação inicial da documentação | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
-| `1.1` | 06/09/2026 | Refinando elementos visuais e de acessibilidade | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 05/09/2026 | `1.0` | Estruturação e publicação inicial da documentação | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
+| 06/09/2026 | `1.1` | Refinando elementos visuais e de acessibilidade | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| 17/09/2026 | `1.2` | Adição do atalho de acesso rápido para a página de Contribuições | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |

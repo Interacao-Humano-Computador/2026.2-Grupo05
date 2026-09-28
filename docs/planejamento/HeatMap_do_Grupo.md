@@ -17,15 +17,15 @@ A **Figura 1** apresenta o *heatmap* (mapa de calor) gerado, indicando os perío
 
 **Figura 1** - Mapa de calor (Heatmap) da disponibilidade da equipe
 
-![Heatmap de Disponibilidade](assets/images/heatmap.png)
+![Heatmap de Disponibilidade](../assets/images/heatmap.png)
 
-*Fonte: Autores. Gráfico gerado por meio da ferramenta When2meet.*
+*Fonte: Gráfico gerado por meio da ferramenta When2meet.*
 
 
 ## 2. Declaração sobre o Uso de IA Generativa
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, levantamento empírico de dados, capturas de tela e análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
 
-## 3. Referências Bibliográficas
+## 3. Bibliografia de Apoio
 
 -   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
