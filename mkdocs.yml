@@ -132,7 +132,7 @@ nav:
       - Cenário 1 (Última Viagem Noturna): analise-de-requisitos/cenarios/cenario-1-ultima-viagem.md
       - Cenário 2 (Atraso e Conflito no App): analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md
       - Cenário 3 (Deslocamento com Busca por Destino): analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md
-      - Cenário 4 (Crédito de Vale-Transporte): analise-de-requisitos/cenarios/cenario-8-credito-vale-transporte.md
+      - Cenário 4 (Crédito de Vale-Transporte): analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md
       - Cenários 5 (Motorista): analise-de-requisitos/cenarios/cenarios-motorista.md
     - Análise de tarefas:
       - Visão Geral: analise-de-requisitos/analise-de-tarefas/index.md

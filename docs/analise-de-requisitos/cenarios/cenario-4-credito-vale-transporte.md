@@ -1,4 +1,4 @@
-# Cenário 8: Crédito de Vale-Transporte Não Disponível no Cartão Antes do Trabalho
+# Cenário 4: Crédito de Vale-Transporte Não Disponível no Cartão Antes do Trabalho
 
 ## Histórico de Versão e Contribuição
 
@@ -33,7 +33,7 @@
 ## 3. Atores Envolvidos
 
 <div align="center">
-<p><strong>Tabela 1</strong>: Atores do Cenário 8</p>
+<p><strong>Tabela 1</strong>: Atores do Cenário 4</p>
 </div>
 
 | Ator | Papel no Cenário | Características Relevantes |
@@ -111,7 +111,7 @@
 ## 6. Problemas Revelados e Requisitos Elicitados
 
 <div align="center">
-<p><strong>Tabela 2</strong>: Problemas Identificados no Cenário 8 e Requisitos de IHC Correspondentes</p>
+<p><strong>Tabela 2</strong>: Problemas Identificados no Cenário 4 e Requisitos de IHC Correspondentes</p>
 </div>
 
 | Problema Identificado no Cenário | Causa no Design Atual | Requisito de IHC Proposto |
