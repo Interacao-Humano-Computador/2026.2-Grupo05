@@ -6,6 +6,7 @@
 | :---: | :---: | :--- | :--- | :--- |
 | 26/09/2026 | 1.0 | Criação do documento e preenchimento das análises de tarefas HTA e CTT. | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) |
 | 27/09/2026 | 1.1 | Modularização em artefatos dedicados por tarefa e estruturação da visão geral teórica. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
+| 27/09/2026 | 1.2 | Inclusão das tarefas operacionais TAR-03 e TAR-04 da persona Valdir Soares (motorista de ônibus) com HTA e CTT completos. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
 
 ---
 
@@ -15,7 +16,7 @@ Neste conjunto de documentos estão registradas as análises de tarefas produzid
 
 ### 1.1 Análise Hierárquica de Tarefas (HTA)
 
-Desenvolvida originalmente por Annett e Duncan (1967), a HTA busca identificar os objetivos de alto nível dos usuários e decompor sistematicamente esses objetivos em subobjetivos e operações (ações físicas ou cognitivas elementares). Além da hierarquia, a técnica define **planos** de execução (sequenciais, condicionais, cíclicos ou concorrentes) e critérios objetivos de sucesso e parada baseados na regra $p \times c$ (probabilidade de erro multiplicada pelo custo do erro).
+Desenvolvida originalmente por Annett e Duncan (1967), a HTA busca identificar os objetivos de alto nível dos usuários e decompor sistematicamente esses objetivos em subobjetivos e operações (ações físicas ou cognitivas elementares). Além da hierarquia, a técnica define **planos** de execução (sequenciais, condicionais, cíclicos ou concorrentes) e critérios objetivos de sucesso e parada baseados na regra *p* × *c* (probabilidade de erro multiplicada pelo custo do erro).
 
 ### 1.2 ConcurTaskTrees (CTT)
 
@@ -39,9 +40,11 @@ Na Tabela 1, apresenta-se o quadro consolidado com todas as análises realizadas
 | :---: | :--- | :---: | :--- | :---: | :---: | :---: |
 | **TAR-01** | Alerta inteligente de saída | 23/09/2026 | [Igor Dantas](https://github.com/IgorDARAUJO) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](tar-01-alerta-saida.md) |
 | **TAR-02** | Pré-agendamento no Programa DF Acessível | 24/09/2026 | [Gabriel Melo](https://github.com/gabriellcardone-06) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](tar-02-df-acessivel.md) |
+| **TAR-03** | Consultar escala de trabalho e horários homologados | 26/09/2026 | [Carlos Costa](https://github.com/carloshfgit) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](analise-hta-ctt-motorista.md#32-hta-tar-03-consultar-escala-de-trabalho-e-horarios-homologados-da-linha) |
+| **TAR-04** | Receber e processar alerta operacional de trânsito | 26/09/2026 | [Carlos Costa](https://github.com/carloshfgit) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](analise-hta-ctt-motorista.md#33-hta-tar-04-receber-e-processar-alerta-operacional-emergencial-de-transito) |
 
 <div align="center">
-<p><em>Fonte: Igor Dantas e Gabriel Melo (2026).</em></p>
+<p><em>Fonte: Autores (2026).</em></p>
 </div>
 
 ---

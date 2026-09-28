@@ -5,7 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 26/09/2026 | 1.0 | Criação do documento de organização dos perfis de usuário identificados no site **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 27/09/2026 | 1.1 | Adição do perfil de usuário dos Motoristas de Ônibus do STPC/DF (stakeholder/usuário terciário). | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| 27/09/2026 | 1.1 | Adição do perfil de usuário dos Motoristas de Ônibus do STPC/DF (stakeholder/usuário terciário). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
 | 27/09/2026 | 1.2 | Reestruturação da seção em artefatos dedicados por perfil com página de visão geral. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
 
 ---
