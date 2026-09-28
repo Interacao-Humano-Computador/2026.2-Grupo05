@@ -118,23 +118,26 @@ nav:
     - Análise de documentos: analise-de-requisitos/analise-de-documentos.md
     - Perfis de usuário:
       - Visão Geral: analise-de-requisitos/perfis-de-usuario/index.md
-      - Passageiro (Primário): analise-de-requisitos/perfis-de-usuario/perfil-primario.md
+      - Passageiro do STPC/DF (Primário): analise-de-requisitos/perfis-de-usuario/perfil-primario.md
       - Motorista de Ônibus (Terciário): analise-de-requisitos/perfis-de-usuario/perfil-motorista.md
     - Personas:
       - Visão Geral: analise-de-requisitos/personas/index.md
       - Larissa Ferreira Lima (Primária): analise-de-requisitos/personas/larissa-ferreira-lima.md
       - João Pedro Carvalho (Primária): analise-de-requisitos/personas/joao-pedro-carvalho.md
+      - Marcos Paulo Vieira (Primária): analise-de-requisitos/personas/marcos-paulo-vieira.md
       - Valdir Soares (Atendida / Motorista): analise-de-requisitos/personas/valdir-soares.md
     - Cenários:
       - Visão Geral: analise-de-requisitos/cenarios/index.md
       - Cenário 1 (Última Viagem Noturna): analise-de-requisitos/cenarios/cenario-1-ultima-viagem.md
       - Cenário 2 (Atraso e Conflito no App): analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md
+      - Cenário 3 (Deslocamento com Busca por Destino): analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md
       - Cenários do Motorista (Valdir Soares): analise-de-requisitos/cenarios/cenarios-motorista.md
     - Análise de tarefas:
       - Visão Geral: analise-de-requisitos/analise-de-tarefas/index.md
       - TAR-01 (Alerta Inteligente de Saída): analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md
       - TAR-02 (Pré-agendamento DF Acessível): analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md
-      - TAR-03 e TAR-04 (Motorista - HTA e CTT): analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md
+      - TAR-03 (Origem/Destino e Tempo Real): analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md
+      - TAR-04 e TAR-05 (Motorista - HTA e CTT): analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md
 
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 
