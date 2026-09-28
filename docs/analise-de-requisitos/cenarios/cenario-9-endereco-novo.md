@@ -1,10 +1,10 @@
-# Cenário 3: Rota para um endereço novo durante o expediente e desvio de itinerário não avisado
+# Cenário 9: Rota para um endereço novo durante o expediente e desvio de itinerário não avisado
 
 ## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração detalhada do Cenário 3 (Heitor Santos Júnior). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| 27/09/2026 | 1.0 | Elaboração detalhada do Cenário 9 (Heitor Santos Júnior). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
 
 ---
 

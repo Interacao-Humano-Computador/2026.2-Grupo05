@@ -4,8 +4,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista (MOT-01) na Garagem Piracicabana (SGO). | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-| 27/09/2026 | 1.1 | Modularização em artefato próprio e refinamento textual em formato discursivo contínuo. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| 26/09/2026 | 1.0 | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista (MOT-01) na Garagem Piracicabana (SGO). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 27/09/2026 | 1.1 | Modularização em artefato próprio e refinamento textual em formato discursivo contínuo. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 ---
 
@@ -13,7 +13,7 @@
 
 O presente documento consolida a identificação e caracterização do **Perfil de Usuário** referente aos motoristas de transporte público coletivo urbano que atuam no Distrito Federal, no âmbito da análise e avaliação de **Interação Humano-Computador (IHC)** do **Portal da Secretaria de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)** (`www.semob.df.gov.br`).
 
-A concepção deste perfil apoia-se estritamente nas diretrizes metodológicas do Capítulo 5 (*Identificação de Necessidades dos Usuários e Requisitos de IHC*) da obra de **Barbosa e Silva (2010)**, bem como na literatura clássica de classificação de partes interessadas de **Eason (1987)**. O objetivo é mapear as características demográficas, habilidades tecnológicas, rotina de trabalho, conhecimento do domínio e necessidades latentes desse grupo profissional, fornecendo subsídios empíricos sólidos para as etapas subsequentes do projeto (tais como Personas, Cenários e Análise de Tarefas).
+A concepção deste perfil apoia-se estritamente nas diretrizes metodológicas do Capítulo 5 (*Identificação de Necessidades dos Usuários e Requisitos de IHC*) da obra de **Barbosa e Silva (2010)**, bem como na literatura clássica de classificação de partes interessadas de **Eason (1987)**. O objetivo é mapear as características demográficas, habilidades tecnológicas, rotina de trabalho, conhecimento do domínio e necessidades latentes desse grupo profissional, fornecendo subsídios empíricos sólidos para as etapas subsequentes do projeto — em especial a modelagem da [Persona: Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md), Cenários e Análise de Tarefas.
 
 ---
 

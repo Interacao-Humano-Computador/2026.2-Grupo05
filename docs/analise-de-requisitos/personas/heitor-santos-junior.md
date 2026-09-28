@@ -101,7 +101,7 @@ Por que ele é a persona primária:
 
 *Fonte: Tomás Rocho.*
 
-> Os passos detalhados das tarefas estão descritos nos **[Cenários](../cenarios/index.md)** (em especial o **[Cenário 3](../cenarios/cenario-3-endereco-novo.md)**).
+> Os passos detalhados das tarefas estão descritos nos **[Cenários](../cenarios/index.md)** (em especial o **[Cenário 9](../cenarios/cenario-9-endereco-novo.md)**).
 
 **Contexto da rotina (dia útil):**
 
