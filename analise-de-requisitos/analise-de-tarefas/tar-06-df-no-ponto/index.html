@@ -1,0 +1,3146 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto de Interação Humano-Computador do Grupo 05, FCTE/UnB, 2026.2.">
+      
+      
+        <meta name="author" content="Grupo 05 — IHC 2026.2">
+      
+      
+        <link rel="canonical" href="https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto/">
+      
+      
+        <link rel="prev" href="../analise-hta-ctt-motorista/">
+      
+      
+        <link rel="next" href="../../../design-avaliacao-desenvolvimento/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>TAR-06 (Consulta DF no Ponto) - Projeto da Disciplina de IHC - Grupo 05</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit:300,300i,400,400i,700,700i%7CIBM+Plex+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Outfit";--md-code-font:"IBM Plex Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+<meta name="theme-color" content="#0A2342">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script>
+(function () {
+  try {
+    var font = localStorage.getItem("ihc-font");
+    if (font) document.documentElement.style.setProperty("--a11y-font-size", font + "%");
+    var hc = localStorage.getItem("ihc-hc");
+    if (hc === "1" || (hc === null && window.matchMedia && window.matchMedia("(prefers-contrast: more)").matches)) {
+      document.documentElement.classList.add("hc");
+    }
+  } catch (e) {}
+})();
+</script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tar-06-consulta-de-onibus-em-tempo-real-no-df-no-ponto" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Projeto da Disciplina de IHC - Grupo 05" class="md-header__button md-logo" aria-label="Projeto da Disciplina de IHC - Grupo 05" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Projeto da Disciplina de IHC - Grupo 05
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TAR-06 (Consulta DF no Ponto)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Ativar modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Ativar modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Ativar modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Ativar modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo05" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026.2-Grupo05
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Inicial
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../apresentacoes/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Apresentações
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../atas/ata1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Atas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planejamento/cronograma/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Análise de Requisitos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../design-avaliacao-desenvolvimento/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Design, Avaliação e Desenvolvimento
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../verificacao/verif1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../entrega-final/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Entrega Final
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Projeto da Disciplina de IHC - Grupo 05" class="md-nav__button md-logo" aria-label="Projeto da Disciplina de IHC - Grupo 05" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+
+    </a>
+    Projeto da Disciplina de IHC - Grupo 05
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo05" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026.2-Grupo05
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../apresentacoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Apresentações
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata de reunião 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata de reunião 2 (Inspeção)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata de reunião 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/Ferramentas_do_Projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/HeatMap_do_Grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapa de disponibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/selecao_v2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sites avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/escolha-semob/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site escolhido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ProcessoDesign/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processo de design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Requisitos
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Requisitos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aspectos-eticos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aspectos éticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrevistas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrevistas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../brainstorm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de documentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../perfis-de-usuario/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfis de usuário
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_6" id="__nav_5_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Perfis de usuário
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfis-de-usuario/perfil-primario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passageiro (Primário)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfis-de-usuario/perfil-secundario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Desenvolvedor / Técnico (Secundário)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfis-de-usuario/perfil-motorista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Motorista de Ônibus (Terciário)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../personas/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personas
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_7" id="__nav_5_7_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Personas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/larissa-ferreira-lima/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Larissa Ferreira Lima (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/joao-pedro-carvalho/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    João Pedro Carvalho (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/marcos-paulo-vieira/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marcos Paulo Vieira (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/maria-eduarda-santos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maria Eduarda Santos (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/valdir-soares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valdir Soares (Stakeholder)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/heitor-santos-junior/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Heitor Santos Júnior (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/mariana-borges-almeida/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mariana Borges Almeida (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../cenarios/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_8" id="__nav_5_8_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cenários
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-1-ultima-viagem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 1 (Última Viagem Noturna)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-2-viagem-matutina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 2 (Atraso e Conflito no App)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-3-planejamento-origem-destino/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 3 (Deslocamento com Busca por Destino)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-4-credito-vale-transporte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 4 (Crédito de Vale-Transporte)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenarios-motorista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários do Motorista (Valdir Soares)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-9-endereco-novo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 9 (Endereço Novo e Desvio)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-10-viagem-ideal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 10 (Viagem Ideal sob Chuva)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_9" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de tarefas
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_9" id="__nav_5_9_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de tarefas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tar-01-alerta-saida/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-01 (Alerta Inteligente de Saída)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tar-02-df-acessivel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-02 (Pré-agendamento DF Acessível)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tar-03-planejamento-rota/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-03 (Origem/Destino e Tempo Real)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analise-hta-ctt-motorista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-04 e TAR-05 (Motorista - HTA e CTT)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-06 (Consulta DF no Ponto)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-06 (Consulta DF no Ponto)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao-e-contribuicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versão e Contribuição
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-caracterizacao-da-tarefa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Caracterização da Tarefa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-analise-hierarquica-de-tarefas-hta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Análise Hierárquica de Tarefas (HTA)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Análise Hierárquica de Tarefas (HTA)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-diagrama-hierarquico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Diagrama hierárquico
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-tabela-de-objetivos-operacoes-problemas-e-recomendacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Tabela de objetivos, operações, problemas e recomendações
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-criterio-de-parada-da-decomposicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Critério de parada da decomposição
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-hipoteses-sobre-erros-classificacao-de-reason-1990" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Hipóteses sobre erros (classificação de Reason, 1990)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-situacao-dos-passos-da-hta-diaper-2003-apud-barbosa-et-al-2021-p-195196" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Situação dos passos da HTA (Diaper, 2003, apud Barbosa et al., 2021, p. 195–196)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-goms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. GOMS
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. GOMS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-modelo-cmn-goms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Modelo CMN-GOMS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-leitura-do-modelo-analise-qualitativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Leitura do modelo (análise qualitativa)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-sobre-o-klm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Sobre o KLM
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design, Avaliação e Desenvolvimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verificação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/verif1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação da entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/verif2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação da entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega Final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao-e-contribuicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versão e Contribuição
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-caracterizacao-da-tarefa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Caracterização da Tarefa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-analise-hierarquica-de-tarefas-hta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Análise Hierárquica de Tarefas (HTA)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Análise Hierárquica de Tarefas (HTA)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-diagrama-hierarquico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Diagrama hierárquico
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-tabela-de-objetivos-operacoes-problemas-e-recomendacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Tabela de objetivos, operações, problemas e recomendações
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-criterio-de-parada-da-decomposicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Critério de parada da decomposição
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-hipoteses-sobre-erros-classificacao-de-reason-1990" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Hipóteses sobre erros (classificação de Reason, 1990)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-situacao-dos-passos-da-hta-diaper-2003-apud-barbosa-et-al-2021-p-195196" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Situação dos passos da HTA (Diaper, 2003, apud Barbosa et al., 2021, p. 195–196)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-goms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. GOMS
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. GOMS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-modelo-cmn-goms" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Modelo CMN-GOMS
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-leitura-do-modelo-analise-qualitativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Leitura do modelo (análise qualitativa)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#33-sobre-o-klm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.3 Sobre o KLM
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="tar-06-consulta-de-onibus-em-tempo-real-no-df-no-ponto">TAR-06: Consulta de ônibus em tempo real no DF no Ponto<a class="headerlink" href="#tar-06-consulta-de-onibus-em-tempo-real-no-df-no-ponto" title="Ligação permanente para esta seção">&para;</a></h1>
+<h2 id="historico-de-versao-e-contribuicao">Histórico de Versão e Contribuição<a class="headerlink" href="#historico-de-versao-e-contribuicao" title="Ligação permanente para esta seção">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: left;">Autor(es)</th>
+<th style="text-align: left;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">27/09/2026</td>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: left;">Elaboração da Análise de Tarefas (HTA e GOMS) para a consulta de ônibus em tempo real no DF no Ponto.</td>
+<td style="text-align: left;"><a href="https://github.com/RodrigoCBarbosa">Rodrigo Barbosa</a></td>
+<td style="text-align: left;">A definir</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="1-caracterizacao-da-tarefa">1. Caracterização da Tarefa<a class="headerlink" href="#1-caracterizacao-da-tarefa" title="Ligação permanente para esta seção">&para;</a></h2>
+<ul>
+<li><strong>Título da Tarefa:</strong> Consulta de ônibus em tempo real no DF no Ponto</li>
+<li><strong>Perfil do Participante:</strong> Usuário primário / Passageiro do transporte coletivo do DF (<a href="../../personas/mariana-borges-almeida/">Persona</a>)</li>
+<li><strong>Responsáveis pela Elaboração:</strong> Rodrigo Barbosa</li>
+<li><strong>Data da Realização:</strong> [27/09/2026]</li>
+<li><strong>Sistema analisado:</strong> Aplicativo DF no Ponto, da Secretaria de Transporte e Mobilidade do DF (Semob-DF), lançado em julho de 2025.</li>
+<li><strong>Objetivo da Tarefa (estado final):</strong> O passageiro sabe quando o ônibus chega ao ponto de parada e, com base nisso, definiu o que fazer (ir ao ponto, esperar ou buscar alternativa).</li>
+<li><strong>Objetivo de experiência (hipótese):</strong> Não se sentir perdido ou sem informação enquanto espera o ônibus.</li>
+<li><strong>Escopo:</strong> A tarefa não inclui a recarga do Cartão Mobilidade, que é feita pelos canais do BRB Mobilidade e não pelo DF no Ponto.</li>
+<li><strong>Fontes de dados:</strong> documentação pública da Semob-DF e matéria jornalística sobre o aplicativo (ver Referências). Não houve observação nem entrevista com usuários.</li>
+</ul>
+<blockquote>
+<p><strong>Limitação declarada.</strong> Conforme Barbosa et al. (2021, p. 191–192), os dados de uma análise de tarefas são sempre uma simulação das tarefas reais, e a observação do desempenho é um insumo importante, complementado por entrevistas, questionários e sistemas existentes. Esta análise foi feita a partir de documentação, portanto os passos de interface, os problemas e as recomendações abaixo são <strong>hipóteses a validar</strong> com usuários e com o aplicativo aberto.</p>
+</blockquote>
+<hr />
+<h2 id="2-analise-hierarquica-de-tarefas-hta">2. Análise Hierárquica de Tarefas (HTA)<a class="headerlink" href="#2-analise-hierarquica-de-tarefas-hta" title="Ligação permanente para esta seção">&para;</a></h2>
+<p>Segundo Barbosa et al. (2021, p. 192–193), a HTA parte dos <strong>objetivos</strong> das pessoas (estados finais) e os decompõe em subobjetivos. Os subobjetivos e a relação entre eles formam um <strong>plano</strong>, e no nível mais baixo cada subobjetivo é alcançado por uma <strong>operação</strong>. Os planos usam a notação da Figura 6.1 do livro:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Notação</th>
+<th style="text-align: left;">Relação entre os subobjetivos</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><code>1&gt;2</code></td>
+<td style="text-align: left;">sequencial (um objetivo deve ser atingido antes do próximo)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1/2</code></td>
+<td style="text-align: left;">seleção (qual objetivo será atingido depende das circunstâncias)</td>
+</tr>
+<tr>
+<td style="text-align: center;"><code>1+2</code></td>
+<td style="text-align: left;">paralelo (mais de um objetivo atingido ao mesmo tempo)</td>
+</tr>
+</tbody>
+</table>
+<p>Nos rótulos abaixo, os números do plano se referem aos subobjetivos do próprio objetivo (por exemplo, o plano <code>1&gt;2</code> do objetivo 1 trata de 1.1 e 1.2), como na Figura 6.2 do livro. Itens marcados com <strong>(operação)</strong> estão no nível mais baixo da hierarquia.</p>
+<h3 id="21-diagrama-hierarquico">2.1 Diagrama hierárquico<a class="headerlink" href="#21-diagrama-hierarquico" title="Ligação permanente para esta seção">&para;</a></h3>
+<pre class="mermaid"><code>graph TD
+    T0["0. Saber quando o ônibus chega ao ponto&lt;br/&gt;&lt;i&gt;Plano 0: 1 &gt; 2 &gt; 3 &gt; 4 &gt; 5&lt;/i&gt;"]
+
+    %% Nível 1
+    T1["1. Abrir o aplicativo&lt;br/&gt;&lt;i&gt;Plano 1: 1.1 &gt; 1.2&lt;/i&gt;"]
+    T2["2. Encontrar a linha ou o ponto de parada&lt;br/&gt;&lt;i&gt;Plano 2: 2.1 &gt; 2.2&lt;/i&gt;"]
+    T3["3. Interpretar a informação de chegada&lt;br/&gt;&lt;i&gt;Plano 3: 3.1 &gt; 3.2&lt;/i&gt;"]
+    T4["4. Decidir o que fazer&lt;br/&gt;&lt;i&gt;Plano 4: 4.1 / 4.2 / 4.3&lt;/i&gt;"]
+    T5["5. Facilitar as próximas consultas&lt;br/&gt;&lt;i&gt;Plano 5: 5.1 + 5.2&lt;/i&gt;"]
+
+    T0 --&gt; T1
+    T0 --&gt; T2
+    T0 --&gt; T3
+    T0 --&gt; T4
+    T0 --&gt; T5
+
+    %% Subníveis da Tarefa 1
+    T11["1.1 Tocar no ícone do DF no Ponto"]
+    T12["1.2 Permitir o acesso à localização"]
+    T1 --&gt; T11
+    T1 --&gt; T12
+
+    %% Subníveis da Tarefa 2
+    T21["2.1 Informar o que buscar&lt;br/&gt;&lt;i&gt;Plano 2.1: 2.1.1 / 2.1.2&lt;/i&gt;"]
+    T22["2.2 Selecionar o resultado na lista"]
+    T2 --&gt; T21
+    T2 --&gt; T22
+
+    T211["2.1.1 Buscar pelo número ou nome da linha"]
+    T212["2.1.2 Buscar por ponto de referência"]
+    T21 --&gt; T211
+    T21 --&gt; T212
+
+    %% Subníveis da Tarefa 3
+    T31["3.1 Obter previsão e posição&lt;br/&gt;&lt;i&gt;Plano 3.1: 3.1.1 + 3.1.2&lt;/i&gt;"]
+    T32["3.2 Avaliar se a informação é confiável"]
+    T3 --&gt; T31
+    T3 --&gt; T32
+
+    T311["3.1.1 Ler o tempo previsto"]
+    T312["3.1.2 Ver a posição do ônibus no mapa"]
+    T31 --&gt; T311
+    T31 --&gt; T312
+
+    %% Subníveis da Tarefa 4
+    T41["4.1 Ir ao ponto agora"]
+    T42["4.2 Esperar e consultar de novo"]
+    T43["4.3 Buscar alternativa"]
+    T4 --&gt; T41
+    T4 --&gt; T42
+    T4 --&gt; T43
+
+    %% Subníveis da Tarefa 5
+    T51["5.1 Favoritar a linha"]
+    T52["5.2 Ativar notificações de atraso ou alteração"]
+    T5 --&gt; T51
+    T5 --&gt; T52</code></pre>
+<h3 id="22-tabela-de-objetivos-operacoes-problemas-e-recomendacoes">2.2 Tabela de objetivos, operações, problemas e recomendações<a class="headerlink" href="#22-tabela-de-objetivos-operacoes-problemas-e-recomendacoes" title="Ligação permanente para esta seção">&para;</a></h3>
+<p>Formato da Tabela 6.3 do livro: cada objetivo tem <em>input</em> (circunstâncias que o ativam), <em>feedback</em> (condição que indica o atingimento), <em>plano</em>, e, quando houver, <em>problema</em> e <em>recomendação</em>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">objetivos / operações</th>
+<th style="text-align: left;">problemas e recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>0. Saber quando o ônibus chega ao ponto</strong> 1&gt;2&gt;3&gt;4&gt;5</td>
+<td style="text-align: left;"><em>input</em>: necessidade de saber quando o ônibus chega; smartphone com o aplicativo e conexão de dados<br><em>feedback</em>: o passageiro sabe se vai ao ponto, espera ou busca alternativa<br><em>plano</em>: abrir o aplicativo <strong>e depois</strong> encontrar a linha ou o ponto, <strong>e depois</strong> interpretar a informação, <strong>e depois</strong> decidir o que fazer. O objetivo 5 é feito apenas por quem usa a linha com frequência (regra de seleção)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>1. Abrir o aplicativo</strong> 1&gt;2</td>
+<td style="text-align: left;"><em>input</em>: passageiro com o aplicativo instalado<br><em>feedback</em>: tela inicial do aplicativo exibida<br><em>plano</em>: tocar no ícone <strong>e depois</strong> permitir a localização (só se o aplicativo solicitar, no primeiro uso)</td>
+</tr>
+<tr>
+<td style="text-align: left;">1.1 Tocar no ícone do DF no Ponto</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">1.2 Permitir o acesso à localização</td>
+<td style="text-align: left;"><em>problema (hipótese)</em>: o usuário nega a permissão e deixa de receber sugestões de pontos próximos<br><em>recomendação</em>: explicar, no momento do pedido, para que a localização é usada</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2. Encontrar a linha ou o ponto de parada</strong> 1&gt;2</td>
+<td style="text-align: left;"><em>input</em>: linha ou local de interesse do passageiro<br><em>feedback</em>: linha ou ponto de parada selecionado<br><em>plano</em>: informar o que buscar <strong>e depois</strong> selecionar o resultado</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2.1 Informar o que buscar</strong> 1/2</td>
+<td style="text-align: left;"><em>plano</em>: buscar pelo número ou nome da linha <strong>ou</strong> buscar por ponto de referência. Se o usuário sabe a linha, usa 2.1.1. Senão, usa 2.1.2</td>
+</tr>
+<tr>
+<td style="text-align: left;">2.1.1 Buscar pelo número ou nome da linha</td>
+<td style="text-align: left;"><em>problema (hipótese)</em>: exige que o usuário lembre o número ou o nome da linha<br><em>recomendação</em>: oferecer atalho para linhas usadas antes</td>
+</tr>
+<tr>
+<td style="text-align: left;">2.1.2 Buscar por ponto de referência</td>
+<td style="text-align: left;"><em>observação</em>: a busca aceita locais como shopping, hospital e escola, o que atende quem não sabe o nome da parada nem o número da linha<br><em>recomendação</em>: manter esse caminho tão visível quanto a busca por linha</td>
+</tr>
+<tr>
+<td style="text-align: left;">2.2 Selecionar o resultado na lista</td>
+<td style="text-align: left;"><em>problema (hipótese)</em>: vários pontos de parada ou linhas próximos podem gerar seleção errada</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3. Interpretar a informação de chegada</strong> 1&gt;2</td>
+<td style="text-align: left;"><em>input</em>: linha ou ponto selecionado<br><em>feedback</em>: o passageiro formou uma expectativa confiável do horário de chegada<br><em>plano</em>: obter previsão e posição <strong>e depois</strong> avaliar a confiabilidade</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3.1 Obter previsão e posição</strong> 1+2</td>
+<td style="text-align: left;"><em>plano</em>: ler o tempo previsto <strong>e</strong> ver a posição no mapa</td>
+</tr>
+<tr>
+<td style="text-align: left;">3.1.1 Ler o tempo previsto</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">3.1.2 Ver a posição do ônibus no mapa</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">3.2 Avaliar se a informação é confiável</td>
+<td style="text-align: left;"><em>problema</em>: a posição em tempo real depende do rastreador do veículo e da comunicação de dados, então pode ficar defasada por alguns minutos se o equipamento falhar ou o ônibus passar por área sem cobertura<br><em>recomendação (hipótese)</em>: indicar a hora da última atualização da posição</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>4. Decidir o que fazer</strong> 1/2/3</td>
+<td style="text-align: left;"><em>input</em>: previsão e posição avaliadas<br><em>feedback</em>: ação escolhida<br><em>plano</em>: ir ao ponto <strong>ou</strong> esperar e consultar de novo <strong>ou</strong> buscar alternativa, conforme o tempo disponível e a confiança na informação</td>
+</tr>
+<tr>
+<td style="text-align: left;">4.1 Ir ao ponto agora</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">4.2 Esperar e consultar de novo</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">4.3 Buscar alternativa</td>
+<td style="text-align: left;"><em>problema (hipótese)</em>: se a informação estava defasada e não foi percebida, o passageiro decide com base em dado errado</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>5. Facilitar as próximas consultas</strong> 1+2</td>
+<td style="text-align: left;"><em>input</em>: uso frequente da mesma linha<br><em>feedback</em>: linha salva e alertas ativos<br><em>plano</em>: favoritar a linha <strong>e</strong> ativar as notificações (o aplicativo permite receber aviso de atraso ou alteração)</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.1 Favoritar a linha</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">5.2 Ativar notificações de atraso ou alteração</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="23-criterio-de-parada-da-decomposicao">2.3 Critério de parada da decomposição<a class="headerlink" href="#23-criterio-de-parada-da-decomposicao" title="Ligação permanente para esta seção">&para;</a></h3>
+<p>Conforme o livro (p. 195), a decomposição termina quando se têm as informações necessárias para os objetivos da análise, e um critério é o <strong>p × c</strong>: parar quando o produto da probabilidade de falha (<em>p</em>) pelo custo da falha (<em>c</em>) é julgado aceitável.</p>
+<ul>
+<li><strong>Objetivo 3.2 (avaliar a confiabilidade)</strong> foi tratado como operação separada porque o custo da falha é alto (perder o ônibus ou esperar sem necessidade) e a defasagem da posição torna a falha plausível.</li>
+<li><strong>Objetivos 1, 4 e 5</strong> não foram decompostos além das operações, pois a falha nesses pontos tem custo baixo e é facilmente corrigida pelo usuário.</li>
+<li><strong>Objetivo 2</strong> foi decomposto em dois níveis porque envolve uma escolha entre duas estratégias (linha ou ponto de referência), o que gera o plano de seleção <code>1/2</code>.</li>
+</ul>
+<h3 id="24-hipoteses-sobre-erros-classificacao-de-reason-1990">2.4 Hipóteses sobre erros (classificação de Reason, 1990)<a class="headerlink" href="#24-hipoteses-sobre-erros-classificacao-de-reason-1990" title="Ligação permanente para esta seção">&para;</a></h3>
+<p>Na etapa 7 da HTA (p. 196), o livro sugere classificar erros como baseados em habilidades, regras ou conhecimento:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Operação</th>
+<th style="text-align: left;">Tipo de erro</th>
+<th style="text-align: left;">Hipótese</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">2.2</td>
+<td style="text-align: left;">Habilidades</td>
+<td style="text-align: left;">Toque impreciso ao selecionar um item em uma lista com opções próximas.</td>
+</tr>
+<tr>
+<td style="text-align: left;">3.2</td>
+<td style="text-align: left;">Regras</td>
+<td style="text-align: left;">Classificação equivocada da situação: tratar uma posição defasada como se fosse atual e aplicar a regra "se o ônibus está perto, vou ao ponto".</td>
+</tr>
+<tr>
+<td style="text-align: left;">2.1</td>
+<td style="text-align: left;">Conhecimento</td>
+<td style="text-align: left;">Usuário novo que não sabe que a busca por ponto de referência existe e desiste ao não lembrar o número da linha.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="25-situacao-dos-passos-da-hta-diaper-2003-apud-barbosa-et-al-2021-p-195196">2.5 Situação dos passos da HTA (Diaper, 2003, apud Barbosa et al., 2021, p. 195–196)<a class="headerlink" href="#25-situacao-dos-passos-da-hta-diaper-2003-apud-barbosa-et-al-2021-p-195196" title="Ligação permanente para esta seção">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Passo</th>
+<th style="text-align: left;">Situação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1. Decidir os objetivos da análise</td>
+<td style="text-align: left;">Feito: avaliar um sistema existente (DF no Ponto) e propor melhorias.</td>
+</tr>
+<tr>
+<td style="text-align: left;">2. Consenso sobre objetivos e medidas de sucesso</td>
+<td style="text-align: left;">Parcial. Evidência de sucesso: o passageiro consegue informar quando o ônibus chega. Consequência da falha: perder o ônibus ou esperar sem necessidade. <strong>Consenso com as partes interessadas pendente.</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">3. Fontes de informação e aquisição de dados</td>
+<td style="text-align: left;">Parcial: apenas documentação pública. <strong>Observação e entrevistas pendentes.</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">4. Esboçar diagrama e tabela</td>
+<td style="text-align: left;">Feito (seções 2.1 e 2.2).</td>
+</tr>
+<tr>
+<td style="text-align: left;">5. Verificar a validade com as partes interessadas</td>
+<td style="text-align: left;"><strong>Pendente.</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">6. Identificar operações significativas (p × c)</td>
+<td style="text-align: left;">Feito (seção 2.3).</td>
+</tr>
+<tr>
+<td style="text-align: left;">7. Gerar hipóteses sobre aprendizado e desempenho</td>
+<td style="text-align: left;">Feito como hipóteses (seção 2.4), <strong>sem teste</strong>.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="3-goms">3. GOMS<a class="headerlink" href="#3-goms" title="Ligação permanente para esta seção">&para;</a></h2>
+<p>Segundo Barbosa et al. (2021, p. 196–198), o GOMS descreve a tarefa e o conhecimento do usuário em termos de <strong>objetivos</strong> (<em>goals</em>), <strong>operadores</strong> (<em>operators</em>), <strong>métodos</strong> (<em>methods</em>) e <strong>regras de seleção</strong> (<em>selection rules</em>). Ele se aplica principalmente a usuários que <strong>já dominam</strong> a tarefa, e costuma ser usado depois de uma análise básica de tarefas, que aqui é a HTA da seção 2.</p>
+<p>Adotou-se o <strong>CMN-GOMS</strong>, cuja notação é de pseudocódigo com hierarquia estrita de objetivos, operadores em ordem sequencial e métodos com condicionais. Como nos Exemplos 6.7 e 6.8 do livro, <strong>algarismos indicam sequência e letras indicam alternativas</strong>. O nível de detalhe é o do Exemplo 6.8 (modelo detalhado), e só foram incluídas as tarefas mentais relacionadas ao design do sistema.</p>
+<blockquote>
+<p><strong>Perfil assumido para o GOMS:</strong> passageiro que já conhece o aplicativo e sabe usá-lo. Para um usuário novato, que ainda está descobrindo o que fazer, o GOMS não é a técnica indicada.</p>
+</blockquote>
+<h3 id="31-modelo-cmn-goms">3.1 Modelo CMN-GOMS<a class="headerlink" href="#31-modelo-cmn-goms" title="Ligação permanente para esta seção">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>GOAL 0: saber quando o ônibus chega ao ponto
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  GOAL 1: abrir o aplicativo
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>    OP. 1.1: localizar o ícone do DF no Ponto
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>    OP. 1.2: tocar no ícone
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a>  GOAL 2: encontrar a linha ou o ponto de parada
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>    METHOD 2.A: buscar pelo número ou nome da linha
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>    (SEL. RULE: o usuário sabe o número ou o nome da linha)
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>      OP. 2.A.1: tocar no campo de busca
+<a id="__codelineno-0-10" name="__codelineno-0-10" href="#__codelineno-0-10"></a>      OP. 2.A.2: digitar o número ou o nome da linha
+<a id="__codelineno-0-11" name="__codelineno-0-11" href="#__codelineno-0-11"></a>      OP. 2.A.3: verificar os resultados da busca
+<a id="__codelineno-0-12" name="__codelineno-0-12" href="#__codelineno-0-12"></a>      OP. 2.A.4: tocar na linha desejada
+<a id="__codelineno-0-13" name="__codelineno-0-13" href="#__codelineno-0-13"></a>    METHOD 2.B: buscar por ponto de referência
+<a id="__codelineno-0-14" name="__codelineno-0-14" href="#__codelineno-0-14"></a>    (SEL. RULE: o usuário não sabe a linha, mas conhece um local próximo, como shopping, hospital ou escola)
+<a id="__codelineno-0-15" name="__codelineno-0-15" href="#__codelineno-0-15"></a>      OP. 2.B.1: tocar no campo de busca
+<a id="__codelineno-0-16" name="__codelineno-0-16" href="#__codelineno-0-16"></a>      OP. 2.B.2: digitar o nome do local de referência
+<a id="__codelineno-0-17" name="__codelineno-0-17" href="#__codelineno-0-17"></a>      OP. 2.B.3: verificar os resultados da busca
+<a id="__codelineno-0-18" name="__codelineno-0-18" href="#__codelineno-0-18"></a>      OP. 2.B.4: tocar no ponto de parada próximo
+<a id="__codelineno-0-19" name="__codelineno-0-19" href="#__codelineno-0-19"></a>      OP. 2.B.5: tocar na linha desejada
+<a id="__codelineno-0-20" name="__codelineno-0-20" href="#__codelineno-0-20"></a>
+<a id="__codelineno-0-21" name="__codelineno-0-21" href="#__codelineno-0-21"></a>  GOAL 3: interpretar a informação de chegada
+<a id="__codelineno-0-22" name="__codelineno-0-22" href="#__codelineno-0-22"></a>    OP. 3.1: ler o tempo previsto
+<a id="__codelineno-0-23" name="__codelineno-0-23" href="#__codelineno-0-23"></a>    OP. 3.2: localizar o ônibus no mapa
+<a id="__codelineno-0-24" name="__codelineno-0-24" href="#__codelineno-0-24"></a>    METHOD 3.A: aceitar a informação
+<a id="__codelineno-0-25" name="__codelineno-0-25" href="#__codelineno-0-25"></a>    (SEL. RULE: a posição no mapa é coerente com o tempo previsto)
+<a id="__codelineno-0-26" name="__codelineno-0-26" href="#__codelineno-0-26"></a>      OP. 3.A.1: considerar o tempo previsto como válido
+<a id="__codelineno-0-27" name="__codelineno-0-27" href="#__codelineno-0-27"></a>    METHOD 3.B: verificar a informação
+<a id="__codelineno-0-28" name="__codelineno-0-28" href="#__codelineno-0-28"></a>    (SEL. RULE: a posição parece parada ou não é coerente com o tempo previsto)
+<a id="__codelineno-0-29" name="__codelineno-0-29" href="#__codelineno-0-29"></a>      OP. 3.B.1: consultar novamente a linha ou o ponto
+<a id="__codelineno-0-30" name="__codelineno-0-30" href="#__codelineno-0-30"></a>      OP. 3.B.2: comparar com o horário previsto da linha
+<a id="__codelineno-0-31" name="__codelineno-0-31" href="#__codelineno-0-31"></a>
+<a id="__codelineno-0-32" name="__codelineno-0-32" href="#__codelineno-0-32"></a>  GOAL 4: decidir o que fazer
+<a id="__codelineno-0-33" name="__codelineno-0-33" href="#__codelineno-0-33"></a>    METHOD 4.A: ir ao ponto agora
+<a id="__codelineno-0-34" name="__codelineno-0-34" href="#__codelineno-0-34"></a>    (SEL. RULE: o ônibus chega em tempo compatível com o deslocamento até o ponto)
+<a id="__codelineno-0-35" name="__codelineno-0-35" href="#__codelineno-0-35"></a>      OP. 4.A.1: sair em direção ao ponto de parada
+<a id="__codelineno-0-36" name="__codelineno-0-36" href="#__codelineno-0-36"></a>    METHOD 4.B: esperar e consultar de novo
+<a id="__codelineno-0-37" name="__codelineno-0-37" href="#__codelineno-0-37"></a>    (SEL. RULE: o usuário já está no ponto e o tempo previsto é compatível com o tempo disponível)
+<a id="__codelineno-0-38" name="__codelineno-0-38" href="#__codelineno-0-38"></a>      OP. 4.B.1: aguardar
+<a id="__codelineno-0-39" name="__codelineno-0-39" href="#__codelineno-0-39"></a>      OP. 4.B.2: voltar à tela da linha e verificar a posição do ônibus
+<a id="__codelineno-0-40" name="__codelineno-0-40" href="#__codelineno-0-40"></a>    METHOD 4.C: buscar alternativa
+<a id="__codelineno-0-41" name="__codelineno-0-41" href="#__codelineno-0-41"></a>    (SEL. RULE: o tempo previsto é maior que o tempo disponível ou a informação não é confiável)
+<a id="__codelineno-0-42" name="__codelineno-0-42" href="#__codelineno-0-42"></a>      OP. 4.C.1: escolher outra linha ou outro modo de transporte
+<a id="__codelineno-0-43" name="__codelineno-0-43" href="#__codelineno-0-43"></a>
+<a id="__codelineno-0-44" name="__codelineno-0-44" href="#__codelineno-0-44"></a>  GOAL 5: facilitar as próximas consultas
+<a id="__codelineno-0-45" name="__codelineno-0-45" href="#__codelineno-0-45"></a>  (usuário que usa a mesma linha com frequência)
+<a id="__codelineno-0-46" name="__codelineno-0-46" href="#__codelineno-0-46"></a>    OP. 5.1: tocar em favoritar a linha
+<a id="__codelineno-0-47" name="__codelineno-0-47" href="#__codelineno-0-47"></a>    OP. 5.2: ativar as notificações de atraso ou alteração
+</code></pre></div>
+<h3 id="32-leitura-do-modelo-analise-qualitativa">3.2 Leitura do modelo (análise qualitativa)<a class="headerlink" href="#32-leitura-do-modelo-analise-qualitativa" title="Ligação permanente para esta seção">&para;</a></h3>
+<p>Conforme o livro (p. 197, 201), o GOMS qualitativo ajuda a perceber métodos semelhantes, métodos atipicamente curtos ou longos e pontos onde faltam métodos ou <em>feedback</em>:</p>
+<ol>
+<li><strong>Métodos 2.A e 2.B têm as mesmas operações de interação e diferem só no conhecimento exigido</strong> (lembrar a linha ou lembrar um local de referência). O método 2.B tem uma operação a mais (2.B.4), mas dispensa uma memória difícil. Isso sugere manter os dois igualmente acessíveis.</li>
+<li><strong>O objetivo 3 é o ponto crítico.</strong> O método 3.B só existe porque a posição pode ficar defasada, e nada no fluxo ajuda o usuário a decidir entre 3.A e 3.B. Um indicador de "última atualização" daria <em>feedback</em> para essa regra de seleção.</li>
+<li><strong>Consistência com o objetivo 5:</strong> favoritar a linha (5.1) reduz a necessidade do método 2.A, pois o usuário deixa de precisar lembrar e digitar o número da linha.</li>
+</ol>
+<h3 id="33-sobre-o-klm">3.3 Sobre o KLM<a class="headerlink" href="#33-sobre-o-klm" title="Ligação permanente para esta seção">&para;</a></h3>
+<p>O livro apresenta o KLM (Tabela 6.4 e Exemplo 6.6) para estimar tempos, mas seus operadores e durações foram definidos para teclado e mouse. Como o DF no Ponto é usado em tela de toque, a estimativa de tempo não foi feita aqui, para não aplicar valores fora do contexto da tabela.</p>
+<hr />
+<h2 id="4-referencias-bibliograficas">4. Referências Bibliográficas<a class="headerlink" href="#4-referencias-bibliograficas" title="Ligação permanente para esta seção">&para;</a></h2>
+<ul>
+<li>BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. <strong>Interação Humano-Computador e Experiência do Usuário</strong>. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 6, seção 6.4, p. 191–203.</li>
+<li>SECRETARIA DE TRANSPORTE E MOBILIDADE DO DISTRITO FEDERAL (Semob-DF). <strong>Portal institucional</strong>. Disponível em: <a href="https://www.semob.df.gov.br/">https://www.semob.df.gov.br/</a>. Acesso em: 27 set. 2026.</li>
+<li>SOU BRASÍLIA. <strong>DF no Ponto: veja o horário do ônibus em tempo real no app da Semob</strong>. Disponível em: <a href="https://soubrasilia.com/df-no-ponto-app-semob-onibus-tempo-real-como-usar/">https://soubrasilia.com/df-no-ponto-app-semob-onibus-tempo-real-como-usar/</a>. Acesso em: 27 set. 2026.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../analise-hta-ctt-motorista/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: TAR-04 e TAR-05 (Motorista - HTA e CTT)">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                TAR-04 e TAR-05 (Motorista - HTA e CTT)
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../../design-avaliacao-desenvolvimento/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Design, Avaliação e Desenvolvimento">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Design, Avaliação e Desenvolvimento
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Grupo 05 · Interação Humano-Computador · FCTE/UnB · 2026.2
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo05" target="_blank" rel="noopener" title="Repositório do grupo no GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.code.copy", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/a11y.js"></script>
+      
+    
+  </body>
+</html>
