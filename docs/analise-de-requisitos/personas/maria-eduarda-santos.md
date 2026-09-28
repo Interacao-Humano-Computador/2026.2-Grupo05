@@ -110,7 +110,7 @@
 <p><em>Fonte: Arthur Mariani.</em></p>
 </div>
 
-> Os passos detalhados da falha de crédito estão descritos no **[Cenário 8](../cenarios/cenario-8-credito-vale-transporte.md)**.
+> Os passos detalhados da falha de crédito estão descritos no **[Cenário 8](../cenarios/cenario-3-credito-vale-transporte.md)**.
 
 **Contexto da rotina (dia útil):**
 
