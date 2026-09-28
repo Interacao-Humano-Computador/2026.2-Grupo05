@@ -7,6 +7,7 @@
 | 26/09/2026 | 1.0 | Criação do documento de organização dos perfis de usuário identificados no site **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
 | 27/09/2026 | 1.1 | Adição do perfil de usuário dos Motoristas de Ônibus do STPC/DF (stakeholder/usuário terciário). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
 | 27/09/2026 | 1.2 | Reestruturação da seção em artefatos dedicados por perfil com página de visão geral. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
+| 28/09/2026 | 1.3 | Inclusão do perfil de usuário secundário (Desenvolvedor/Técnico). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
 
 ---
 
@@ -53,6 +54,7 @@ A equipe de projeto mapeou e detalhou os perfis de usuário em artefatos indepen
 | Perfil | Categoria de Stakeholder | Metodologia Principal | Responsável | Documento Completo |
 | :--- | :--- | :--- | :--- | :---: |
 | **Passageiro do STPC/DF** | Usuário Primário | Análise Documental (PDAD/Ouvidoria) e Entrevista | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Perfil](perfil-primario.md) |
+| **Desenvolvedor / Técnico** | Usuário Secundário | Questionário e Perfil Técnico | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Perfil](perfil-secundario.md) |
 | **Motorista de Ônibus** | Usuário/Stakeholder Terciário | Entrevista Semiestruturada Empírica na Garagem | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Perfil](perfil-motorista.md) |
 
 <div align="center">

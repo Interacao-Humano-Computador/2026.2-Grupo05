@@ -7,6 +7,7 @@
 | 26/09/2026 | 1.0 | Criação do documento e preenchimento das análises de tarefas HTA e CTT. | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) |
 | 27/09/2026 | 1.1 | Modularização em artefatos dedicados por tarefa e estruturação da visão geral teórica. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
 | 27/09/2026 | 1.2 | Inclusão das tarefas operacionais TAR-03 e TAR-04 da persona Valdir Soares (motorista de ônibus) com HTA e CTT completos. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
+| 28/09/2026 | 1.3 | Inclusão da tarefa TAR-06 (Consulta em tempo real no DF no Ponto com HTA e GOMS). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
 
 ---
 
@@ -43,6 +44,7 @@ Na Tabela 1, apresenta-se o quadro consolidado com todas as análises realizadas
 | **TAR-03** | Planejamento de Rota por Origem/Destino e Rastreamento em Tempo Real | 27/09/2026 | [Lucas Araújo](https://github.com/Lucasaraujoszz) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](tar-03-planejamento-rota.md) |
 | **TAR-04** | Consultar escala de trabalho e horários homologados (Motorista) | 26/09/2026 | [Carlos Costa](https://github.com/carloshfgit) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | — | [Acessar Análise](analise-hta-ctt-motorista.md#32-hta-tar-03-consultar-escala-de-trabalho-e-horarios-homologados-da-linha) |
 | **TAR-05** | Receber e processar alerta operacional de trânsito (Motorista) | 26/09/2026 | [Carlos Costa](https://github.com/carloshfgit) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | — | [Acessar Análise](analise-hta-ctt-motorista.md#33-hta-tar-04-receber-e-processar-alerta-operacional-emergencial-de-transito) |
+| **TAR-06** | Consulta de ônibus em tempo real no DF no Ponto | 27/09/2026 | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | <span class="pill pill-ok">Concluído</span> | — | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](tar-06-df-no-ponto.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>

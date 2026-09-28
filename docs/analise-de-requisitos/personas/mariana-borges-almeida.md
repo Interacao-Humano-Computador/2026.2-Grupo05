@@ -4,7 +4,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração detalhada da persona Mariana Borges Almeida a partir do Cenário 3 e padronização com a estrutura dos documentos de persona. | [Rodrigo Barbosa]((https://github.com/RodrigoCBarbosa)) | A definir |
+| 27/09/2026 | 1.0 | Elaboração detalhada da persona Mariana Borges Almeida a partir do Cenário 10 e padronização com a estrutura dos documentos de persona. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | A definir |
 
 ---
 
@@ -160,7 +160,7 @@ Por que ela é persona primária:
 
 ### Onde essas expectativas colidem com a realidade
 
-Não há colisão no Cenário 3, que é um **cenário ideal**: todas as expectativas de Mariana são atendidas, e o ônibus chega conforme previsto pelo sistema. O contraste com a realidade aparece apenas na figura de Júnior, que, sem o portal, espera na chuva por 15 minutos.
+Não há colisão no Cenário 10, que é um **cenário ideal**: todas as expectativas de Mariana são atendidas, e o ônibus chega conforme previsto pelo sistema. O contraste com a realidade aparece apenas na figura de Júnior, que, sem o portal, espera na chuva por 15 minutos.
 
 ---
 
