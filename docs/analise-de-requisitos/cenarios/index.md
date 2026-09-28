@@ -8,6 +8,7 @@
 | 27/09/2026 | 1.1 | Modularização em artefatos dedicados por cenário e visão geral teórica. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) |
 | 27/09/2026 | 1.2 | Inclusão dos cenários de uso da persona Valdir Soares (motorista de ônibus do STPC/DF) e fundamentação em Goal-Directed Design. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
 | 27/09/2026 | 1.3 | Inclusão do cenário de problema de crédito de Vale-Transporte não disponível no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 28/09/2026 | 1.4 | Inclusão do Cenário 9 (Heitor) e Cenário 10 (Mariana Borges). | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
 
 ---
 
@@ -55,6 +56,7 @@ Os cenários desenvolvidos pela equipe concentram-se no diagnóstico das tarefas
 | **Cenário 7 — Resolução cooperativa de dúvida de passageiro** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Mediação Social | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenarios-motorista.md#5-cenario-4-resolucao-cooperativa-de-duvida-de-passageiro-sem-constrangimento) |
 | **Cenário 8 — Crédito de Vale-Transporte não disponível no cartão** | [Maria Eduarda Santos ("Duda")](../personas/maria-eduarda-santos.md) | Cenário de Problema | Equipe Grupo 05 | [Acessar Cenário](cenario-4-credito-vale-transporte.md) |
 | **Cenário 9 — Rota para um endereço novo e desvio não avisado** | [Heitor Santos Júnior](../personas/heitor-santos-junior.md) | Cenário de Problema | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Cenário](cenario-9-endereco-novo.md) |
+| **Cenário 10 — Viagem ideal sob chuva** | [Mariana Borges Almeida](../personas/mariana-borges-almeida.md) | Cenário Ideal (Projetado) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Cenário](cenario-10-viagem-ideal.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>

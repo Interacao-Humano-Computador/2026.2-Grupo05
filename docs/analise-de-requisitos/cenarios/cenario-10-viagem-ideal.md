@@ -1,10 +1,10 @@
-# Cenário 3: Viagem ideal sobre chuva
+# Cenário 10: Viagem Ideal sob Chuva (Previsibilidade e Monitoramento em Tempo Real)
 
 ## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração cenário 3 e padronização | [Rodrigo Barbosa]((https://github.com/RodrigoCBarbosa)) | [?] |
+| 27/09/2026 | 1.0 | Elaboração do cenário ideal de monitoramento e previsão de chegada sob chuva. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | A definir |
 
 ---
 

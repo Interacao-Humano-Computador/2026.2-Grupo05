@@ -8,6 +8,7 @@
 | 27/09/2026 | 1.1 | Modularização em artefatos dedicados por persona com página de visão geral. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) |
 | 27/09/2026 | 1.2 | Inclusão formal da persona Valdir Soares ("Seu Valdir") representando os motoristas do STPC/DF (Persona Atendida). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
 | 27/09/2026 | 1.3 | Inclusão da persona primária Maria Eduarda Santos, com foco em falhas de Vale-Transporte e cartão. | Equipe Grupo 05 | — |
+| 28/09/2026 | 1.4 | Inclusão das personas Heitor Santos Júnior e Mariana Borges Almeida. | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
 
 ---
 
@@ -53,6 +54,7 @@ O elenco de personas desenvolvido pela equipe para orientar as soluções de IHC
 | **Maria Eduarda Santos ("Duda")** | Persona Primária | Trabalhadora que utiliza Vale-Transporte e precisa resolver falhas de crédito e cartão sob pressão de horário | Equipe Grupo 05 | [Acessar Persona](maria-eduarda-santos.md) |
 | **Valdir Soares ("Seu Valdir")** | Persona Atendida (*Served*) / Primária Operacional | Motorista profissional de ônibus urbano do STPC/DF (Viação Piracicabana, Bacia 1) | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Persona](valdir-soares.md) |
 | **Heitor Santos Júnior** | Persona Primária | Técnico de manutenção predial de Planaltina, com letramento digital intermediário, que depende do ônibus para trabalhar e se deslocar entre endereços do Plano Piloto | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Persona](heitor-santos-junior.md) |
+| **Mariana Borges Almeida** | Persona Primária | Analista administrativa com rotina organizada, foco em previsão precisa e monitoramento de chegada em tempo real sob chuva | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Persona](mariana-borges-almeida.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>
