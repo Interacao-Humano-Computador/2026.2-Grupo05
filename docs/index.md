@@ -1,4 +1,4 @@
----
+pip install -r requirements.txt---
 hide:
   - navigation
   - toc
