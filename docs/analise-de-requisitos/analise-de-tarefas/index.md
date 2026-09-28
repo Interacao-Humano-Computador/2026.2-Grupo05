@@ -16,7 +16,7 @@ Neste conjunto de documentos estão registradas as análises de tarefas produzid
 
 ### 1.1 Análise Hierárquica de Tarefas (HTA)
 
-Desenvolvida originalmente por Annett e Duncan (1967), a HTA busca identificar os objetivos de alto nível dos usuários e decompor sistematicamente esses objetivos em subobjetivos e operações (ações físicas ou cognitivas elementares). Além da hierarquia, a técnica define **planos** de execução (sequenciais, condicionais, cíclicos ou concorrentes) e critérios objetivos de sucesso e parada baseados na regra *p* × *c* (probabilidade de erro multiplicada pelo custo do erro).
+Desenvolvida originalmente por Annett e Duncan (1967), a HTA busca identificar os objetivos de alto nível dos usuários e decompor sistematicamente esses objetivos em subobjetivos e operações (ações físicas ou cognitivas elementares). Além da hierarquia, a técnica define **planos** de execução (sequenciais, condicionais, cíclicos ou concorrentes) e critérios objetivos de sucesso e parada baseados na regra *p × c* (probabilidade de erro multiplicada pelo custo do erro).
 
 ### 1.2 ConcurTaskTrees (CTT)
 
@@ -36,12 +36,13 @@ Na Tabela 1, apresenta-se o quadro consolidado com todas as análises realizadas
 <p><strong>Tabela 1</strong> — Registro das Análises de Tarefas (HTA e CTT)</p>
 </div>
 
-| ID | Tarefa Analisada | Data de Realização | Responsáveis (Elaboração) | Status HTA | Status CTT | Documento Completo |
-| :---: | :--- | :---: | :--- | :---: | :---: | :---: |
-| **TAR-01** | Alerta inteligente de saída | 23/09/2026 | [Igor Dantas](https://github.com/IgorDARAUJO) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](tar-01-alerta-saida.md) |
-| **TAR-02** | Pré-agendamento no Programa DF Acessível | 24/09/2026 | [Gabriel Melo](https://github.com/gabriellcardone-06) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](tar-02-df-acessivel.md) |
-| **TAR-03** | Consultar escala de trabalho e horários homologados | 26/09/2026 | [Carlos Costa](https://github.com/carloshfgit) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](analise-hta-ctt-motorista.md#32-hta-tar-03-consultar-escala-de-trabalho-e-horarios-homologados-da-linha) |
-| **TAR-04** | Receber e processar alerta operacional de trânsito | 26/09/2026 | [Carlos Costa](https://github.com/carloshfgit) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](analise-hta-ctt-motorista.md#33-hta-tar-04-receber-e-processar-alerta-operacional-emergencial-de-transito) |
+| ID | Tarefa Analisada | Data de Realização | Responsáveis (Elaboração) | Status HTA | Status CTT | Status GOMS/KLM | Documento Completo |
+| :---: | :--- | :---: | :--- | :---: | :---: | :---: | :---: |
+| **TAR-01** | Alerta inteligente de saída | 23/09/2026 | [Igor Dantas](https://github.com/IgorDARAUJO) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | — | [Acessar Análise](tar-01-alerta-saida.md) |
+| **TAR-02** | Pré-agendamento no Programa DF Acessível | 24/09/2026 | [Gabriel Melo](https://github.com/gabriellcardone-06) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | — | [Acessar Análise](tar-02-df-acessivel.md) |
+| **TAR-03** | Planejamento de Rota por Origem/Destino e Rastreamento em Tempo Real | 27/09/2026 | [Lucas Araújo](https://github.com/Lucasaraujoszz) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](tar-03-planejamento-rota.md) |
+| **TAR-04** | Consultar escala de trabalho e horários homologados (Motorista) | 26/09/2026 | [Carlos Costa](https://github.com/carloshfgit) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | — | [Acessar Análise](analise-hta-ctt-motorista.md#32-hta-tar-03-consultar-escala-de-trabalho-e-horarios-homologados-da-linha) |
+| **TAR-05** | Receber e processar alerta operacional de trânsito (Motorista) | 26/09/2026 | [Carlos Costa](https://github.com/carloshfgit) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | — | [Acessar Análise](analise-hta-ctt-motorista.md#33-hta-tar-04-receber-e-processar-alerta-operacional-emergencial-de-transito) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>
