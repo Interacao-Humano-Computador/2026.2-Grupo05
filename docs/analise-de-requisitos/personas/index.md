@@ -7,6 +7,7 @@
 | 26/09/2026 | 1.0 | Criação do documento com elenco de personas identificadas para o ecossistema do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
 | 27/09/2026 | 1.1 | Modularização em artefatos dedicados por persona com página de visão geral. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) |
 | 27/09/2026 | 1.2 | Inclusão formal da persona Valdir Soares ("Seu Valdir") representando os motoristas do STPC/DF (Persona Atendida). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
+| 27/09/2026 | 1.3 | Inclusão da persona primária Maria Eduarda Santos, com foco em falhas de Vale-Transporte e cartão. | Equipe Grupo 05 | — |
 
 ---
 
@@ -49,6 +50,7 @@ O elenco de personas desenvolvido pela equipe para orientar as soluções de IHC
 | **Larissa Ferreira Lima ("Lari")** | Persona Primária | Estudante universitária e trabalhadora que depende diariamente de integração (ônibus e metrô) | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Persona](larissa-ferreira-lima.md) |
 | **João Pedro Carvalho** | Persona Primária | Estudante de Engenharia na UnB com perfil tecnológico alto e foco em rota rápida e previsibilidade | [Igor Dantas](https://github.com/IgorDARAUJO) | [Acessar Persona](joao-pedro-carvalho.md) |
 | **Marcos Paulo Vieira ("Marquinhos")** | Persona Primária | Trabalhador do setor de logística (Usuário Padrão/Cotidiano), foco estrito em tarefas móveis e busca por Origem/Destino | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Acessar Persona](marcos-paulo-vieira.md) |
+| **Maria Eduarda Santos ("Duda")** | Persona Primária | Trabalhadora que utiliza Vale-Transporte e precisa resolver falhas de crédito e cartão sob pressão de horário | Equipe Grupo 05 | [Acessar Persona](maria-eduarda-santos.md) |
 | **Valdir Soares ("Seu Valdir")** | Persona Atendida (*Served*) / Primária Operacional | Motorista profissional de ônibus urbano do STPC/DF (Viação Piracicabana, Bacia 1) | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Persona](valdir-soares.md) |
 
 <div align="center">
@@ -56,12 +58,15 @@ O elenco de personas desenvolvido pela equipe para orientar as soluções de IHC
 </div>
 
 ### 3.1 Articulação do Elenco de Personas (Barbosa e Silva, 2010, pp. 179–180)
-O elenco de personas deste projeto reúne **três personas primárias complementares**, respeitando o limite recomendado pela literatura (*Courage & Baxter, 2005*):
+O elenco de personas deste projeto reúne **quatro personas primárias complementares**:
 1. **Larissa:** Representa as dores de integração intermodal, horários noturnos e barreiras informacionais de benefícios.
 2. **João Pedro:** Representa o jovem universitário tecnológico com alta expectativa de integração e alertas preditivos.
 3. **Marcos Paulo:** Representa o trabalhador cotidiano padrão, cujo foco é a resolução utilitária rápida em celular (planejamento direto de trajeto ponto a ponto sem conhecimento prévio do código da linha e rastreamento em tempo real).
+4. **Maria Eduarda:** Representa a trabalhadora que depende do Vale-Transporte e precisa resolver falhas de crédito e cartão sem comprometer a pontualidade ou o orçamento.
 
 Esse conjunto consolida os requisitos centrais do STPC/DF, servindo de base direta para os **Cenários de Uso** e a **Análise de Tarefas**.
+
+**Maria Eduarda** aprofunda uma situação prioritária do elenco: a indisponibilidade de créditos de Vale-Transporte no cartão. Ela orienta requisitos para a comunicação entre empresa, passageira e serviços de atendimento.
 
 ---
 

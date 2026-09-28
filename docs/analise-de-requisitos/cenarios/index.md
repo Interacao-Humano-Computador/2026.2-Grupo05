@@ -7,6 +7,7 @@
 | 26/09/2026 | 1.0 | Criação do documento de cenários de uso identificados para o ecossistema do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
 | 27/09/2026 | 1.1 | Modularização em artefatos dedicados por cenário e visão geral teórica. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) |
 | 27/09/2026 | 1.2 | Inclusão dos cenários de uso da persona Valdir Soares (motorista de ônibus do STPC/DF) e fundamentação em Goal-Directed Design. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
+| 27/09/2026 | 1.3 | Inclusão do cenário de problema de crédito de Vale-Transporte não disponível no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
 
 ---
 
@@ -52,6 +53,7 @@ Os cenários desenvolvidos pela equipe concentram-se no diagnóstico das tarefas
 | **Cenário 5 — Consulta ágil da escala diária no smartphone** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Caminho Crítico (Projetado) | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenarios-motorista.md#3-cenario-2-consulta-agil-da-escala-diaria-e-tabela-homologada-no-smartphone) |
 | **Cenário 6 — Alerta emergencial de desvio na faixa exclusiva** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Contingência | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenarios-motorista.md#4-cenario-3-intercorrencia-viaria-e-alerta-emergencial-de-desvio-na-faixa-exclusiva) |
 | **Cenário 7 — Resolução cooperativa de dúvida de passageiro** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Mediação Social | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenarios-motorista.md#5-cenario-4-resolucao-cooperativa-de-duvida-de-passageiro-sem-constrangimento) |
+| **Cenário 8 — Crédito de Vale-Transporte não disponível no cartão** | [Maria Eduarda Santos ("Duda")](../personas/maria-eduarda-santos.md) | Cenário de Problema | Equipe Grupo 05 | [Acessar Cenário](cenario-4-credito-vale-transporte.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>
