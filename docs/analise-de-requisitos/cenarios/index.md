@@ -53,7 +53,7 @@ Os cenários desenvolvidos pela equipe concentram-se no diagnóstico das tarefas
 | **Cenário 5 — Consulta ágil da escala diária no smartphone** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Caminho Crítico (Projetado) | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenarios-motorista.md#3-cenario-2-consulta-agil-da-escala-diaria-e-tabela-homologada-no-smartphone) |
 | **Cenário 6 — Alerta emergencial de desvio na faixa exclusiva** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Contingência | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenarios-motorista.md#4-cenario-3-intercorrencia-viaria-e-alerta-emergencial-de-desvio-na-faixa-exclusiva) |
 | **Cenário 7 — Resolução cooperativa de dúvida de passageiro** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Mediação Social | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenarios-motorista.md#5-cenario-4-resolucao-cooperativa-de-duvida-de-passageiro-sem-constrangimento) |
-| **Cenário 8 — Crédito de Vale-Transporte não disponível no cartão** | [Maria Eduarda Santos ("Duda")](../personas/maria-eduarda-santos.md) | Cenário de Problema | Equipe Grupo 05 | [Acessar Cenário](cenario-8-credito-vale-transporte.md) |
+| **Cenário 8 — Crédito de Vale-Transporte não disponível no cartão** | [Maria Eduarda Santos ("Duda")](../personas/maria-eduarda-santos.md) | Cenário de Problema | Equipe Grupo 05 | [Acessar Cenário](cenario-4-credito-vale-transporte.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>
