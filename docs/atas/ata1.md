@@ -1,25 +1,31 @@
 # Ata de reunião Interação Humano-Computador - Grupo 05
 
-Data: 03/09/2026 Horário: 09h00 às 09h50 Local: Presencial (Sala de aula)
+- **Data:** 03/09/2026
+- **Horário:** 09h00 às 09h50
+- **Local:** Presencial (Sala de aula - FCTE/UnB)
+- **Objetivo da Reunião:** Definição do escopo do projeto, seleção do portal SEMOB-DF, divisão de responsabilidades e ferramental para a Entrega 1.
+- **Redator da Ata:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)
+- **Ausentes:** Nenhum
 
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :---: | :---: | :---: |
-| 03/09/2026 | `1.0` | Criação da ata da Reunião 01. | Lucas Araújo Lima | Arthur Mariani |
-| 04/09/2026 | `1.1` | Atualização da data da próxima reunião. | Lucas Araújo Lima | Arthur Mariani |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
+| :---: | :---: | :--- | :--- | :--- | :---: |
+| 03/09/2026 | `1.0` | Criação da ata da Reunião 01. | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
+| 04/09/2026 | `1.1` | Atualização da data da próxima reunião. | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
+| 26/09/2026 | `1.2` | Ajustes técnicos na ata: padronização estrutural do cabeçalho, correção de links dos participantes, especificação nominal da fonte e alinhamento do uso de IA (Google Gemini). | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
 
 ---
 
 ## 1. Participantes presentes:
 
-- [Arthur Mariani de Andrade da Cruz]()
-- [Carlos Henrique dos Santos Costa Filho]()
-- [Gabriel Melo Rodrigues Cardone]()
-- [Igor Dantas Araújo]()
-- [Lucas Araújo Lima]()
-- [Rodrigo Carvalho Barbosa]()
-- [Tomás Garcia Rocho]()
+- [Arthur Mariani de Andrade da Cruz](https://github.com/arthur-mariani)
+- [Carlos Henrique dos Santos Costa Filho](https://github.com/carloshfgit)
+- [Gabriel Melo Rodrigues Cardone](https://github.com/gabriellcardone-06)
+- [Igor Dantas Araújo](https://github.com/IgorDARAUJO)
+- [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)
+- [Rodrigo Carvalho Barbosa](https://github.com/RodrigoCBarbosa)
+- [Tomás Garcia Rocho](https://github.com/TomasRocho)
 
 ## 2. Discussão:
 
@@ -51,7 +57,7 @@ Data: 03/09/2026 Horário: 09h00 às 09h50 Local: Presencial (Sala de aula)
 | **Git Pages & Equipe**    | Estruturação da Home, navegação e acessibilidade.            | Arthur    | Carlos      |
 | **Cronograma Executado**  | Registro da primeira reunião e execução.                     | Lucas     | Arthur      |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Igor Dantas Araújo (2026).*
 
 ## 4. Link da gravação:
 
