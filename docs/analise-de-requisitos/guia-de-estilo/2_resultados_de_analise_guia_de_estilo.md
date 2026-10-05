@@ -1,8 +1,16 @@
 # Resultados de análise
 
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :--- | :--- |
+| 05/10/2026 | 1.0 | Criação do documento de resultados de análise. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
+
+**Autor do Artefato: Igor Dantas.**
+
 ## 1. Introdução
 
-Esta seção reúne os resultados da análise realizada com os usuários e sobre o contexto de uso do SEMOB-DF. De acordo com a estrutura comum de guias de estilo (Marcus, 1991; Mayhew, 1999), ela contém a **descrição do ambiente de trabalho do usuário**. Mayhew (1999) sugere ainda que o guia inclua os produtos do levantamento de dados e da análise das necessidades dos usuários, registrando o *design rationale*, isto é, mantendo o rastreamento entre uma decisão de design e os elementos de discussão que culminaram naquela decisão (Barbosa et al., 2021). Por isso, ao final desta seção, as decisões do guia são relacionadas aos resultados da análise.
+Esta seção reúne os resultados da análise realizada com os usuários e sobre o contexto de uso do SEMOB-DF. De acordo com a estrutura comum de guias de estilo (presente na imagem 1, referente ao livro-texto da disciplina), ela contém a **descrição do ambiente de trabalho do usuário**. Mayhew (1999) sugere ainda que o guia inclua os produtos do levantamento de dados e da análise das necessidades dos usuários, registrando o *design rationale*, isto é, mantendo o rastreamento entre uma decisão de design e os elementos de discussão que culminaram naquela decisão, conforme evidenciado na imagem 2 (Barbosa et al., 2021). Por isso, ao final desta seção, as decisões do guia são relacionadas aos resultados da análise.
 
 ---
 
@@ -116,36 +124,12 @@ A tabela 4 relaciona os achados da análise às decisões do guia, preservando o
 
 ## Referências
 
-ANNETT, John; DUNCAN, Keith D. **Task analysis and training design**. *Journal of Occupational Psychology*, v. 41, n. 4, p. 211–221, 1967.
-
 BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário.** Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 8 (Organização do Espaço de Problema, pp. 147–167) e Capítulo 10, seção 10.5 (Guias de Estilo), p. 257–259.
-
-BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 5: Identificação de Necessidades dos Usuários e Requisitos de IHC (pp. 134–158).
-
-BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 7 de abril de 2016**. Dispõe sobre as normas aplicáveis a pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-
-COMPANHIA DE PLANEJAMENTO DO DISTRITO FEDERAL (CODEPLAN) / IPEDF. **Como Anda Brasília: um recorte a partir dos dados da Pesquisa Distrital por Amostra de Domicílios – PDAD 2021**. Brasília: Codeplan, 2023.
-
-COOPER, Alan. **The Inmates Are Running the Asylum**. Indianapolis: Sams Publishing, 1999.
-
-COOPER, Alan; REIMANN, Robert; CRONIN, Dave. **About Face 3: The Essentials of Interaction Design**. Indianapolis: Wiley Publishing, 2007. ISBN 978-0-470-08411-3.
-
-EASON, Ken. **Information Technology and Organisational Change**. London: Taylor & Francis, 1987.
-
-MARCUS, A. **Graphic design for electronic documents and user interfaces.** New York: ACM, 1991.
-
-MAYHEW, D. J. **The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design.** 1. ed. Morgan Kaufmann, 1999.
-
-PATERNÒ, Fabio. **Model-Based Design and Evaluation of Interactive Applications**. London: Springer-Verlag, 1999.
-
-SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE DO DISTRITO FEDERAL (SEMOB-DF) — Ouvidoria-Geral. **Relatório de Ouvidoria — 1º Trimestre de 2026 (Parte Geral)**. Brasília: SEMOB-DF, 2026.
-
-GRUPO 05 — Interação Humano-Computador, FCTE/UnB, 2026.2. **Site de documentação do projeto SEMOB-DF.** Disponível em: <https://interacao-humano-computador.github.io/2026.2-Grupo05/>. Acesso em: 05 out. 2026.
 
 ## Fotos de referência
 
-> Inserir aqui a foto (print) do trecho que apresenta a estrutura do guia de estilo, destacando o item 2 (Resultados de análise).
+![Imagem 1](/docs/assets/prints_referencias/print-guiadeestilo.png)
+*Imagem 1 - Estrutura do guia de estilo — Barbosa et al. (2021), p. 258*
 
-![Estrutura do guia de estilo — Barbosa et al. (2021), p. 258](ref_guia_estilo_p258.png)
-
-**Autor:** Equipe Grupo 05 — Interação Humano-Computador (2026.2)
+![Imagem 2](/docs/assets/prints_referencias/print-guiadeestilo-designrationale.png)
+*Imagem 2 - Design Ractionale — Barbosa et al. (2021), p. 242*
