@@ -43,7 +43,7 @@ Escala de gravidade usada: **Alta** (impede ou atrapalha muito a tarefa), **Méd
 | P7 | Os recursos de acessibilidade ficam sempre visíveis: tamanho da fonte (Aa), alto contraste, VLibras e o link "Pular para o conteúdo principal". | Recursos disponíveis à vista, sem precisar ser lembrados. |
 | P8 | Na página da Ouvidoria, o menu lateral lista todas as opções da seção (imagem 09). | O usuário vê o conjunto de ações possíveis naquele contexto. |
 
-![Cabeçalho e menu](../../assets/images/01-cabecalho-menu.png)
+![Cabeçalho e menu](../../assets/prints_referencias/01-cabecalho-menu.png)
 *Imagem 01: busca visível com instrução, setas indicando submenus e controles de acessibilidade na barra superior.*
 
 ---
@@ -74,10 +74,11 @@ Escala de gravidade usada: **Alta** (impede ou atrapalha muito a tarefa), **Méd
 
 **Recomendação:** corrigir os endereços das imagens (ver C3 no documento de Consistência). Definir também uma **cor de fundo de reserva** (`background-color`) escura para seções com texto branco sobre imagem, para que o texto continue legível se a imagem falhar.
 
-![Banner quebrado](../../assets/imagens/02-banner-quebrado-acesso-rapido.png)
+![Banner quebrado](../../assets/prints_referencias/02-banner-quebrado-acesso-rapido.png)
+
 *Imagem 02: no topo, ícone de imagem quebrada no lugar do banner. Abaixo, o "Acesso Rápido" em forma de lista simples.*
 
-![Seção PPP invisível](../../assets/imagens/04-secao-ppp-invisivel.png)
+![Seção PPP invisível](../../assets/prints_referencias/04-secao-ppp-invisivel.png)
 *Imagem 04: título e botões brancos sobre fundo cinza-claro, praticamente ilegíveis.*
 
 ---
@@ -131,7 +132,7 @@ A sigla **STIP** é um caso ilustrativo. Ela só é explicada no cartão "Servi�
 
 **Recomendação:** acompanhar cada logotipo de uma frase de ação, como "Acompanhe seu processo (SICOPWEB)" ou "Pesquise leis e normas do DF (SINJ-DF)". Trocar "clique aqui" por textos que descrevam o destino, como "Conheça as melhorias do Participa DF".
 
-![Cartões e sistemas](imagens/06-cartoes-ouvidoria-diario.png)
+![Cartões e sistemas](../../assets/prints_referencias/06-cartoes-ouvidoria-diario.png)
 *Imagem 06: botão "Consultar" sem objeto; logotipos DFLEGIS, SINJ-DF e e-Protocolo sem dizer o que fazem. À direita, o calendário do DODF com o dia atual destacado (ponto positivo P6).*
 
 ---
@@ -165,10 +166,10 @@ A trilha de navegação existe (ponto positivo P4), mas falha no conteúdo:
 
 **Recomendação:** renomear a pasta "Modulo 15 Botoes" para um nome voltado ao cidadão, como "Serviços". Destacar com cor ou negrito o item ativo no menu principal e no menu lateral. Usar o mesmo nome da página na trilha, no título e no menu.
 
-![Trilha de navegação com nome interno](imagens/08-breadcrumb-precos.png)
+![Trilha de navegação com nome interno](../../assets/prints_referencias/08-breadcrumb-precos.png)
 *Imagem 08: a trilha de navegação exibe "Modulo 15 Botoes", nome interno do gerenciador de conteúdo.*
 
-![Página da Ouvidoria](imagens/09-pagina-ouvidoria.png)
+![Página da Ouvidoria](../../assets/prints_referencias/09-pagina-ouvidoria.png)
 *Imagem 09: nenhum item do menu principal ou do menu lateral está destacado como atual. Trilha, título e menu lateral usam três nomes diferentes. No texto, links do tipo "clique aqui".*
 
 ---
@@ -219,3 +220,9 @@ O site da SEMOB tem boa **infraestrutura** de visibilidade: busca sempre à vist
 - NORMAN, D. A. *The Design of Everyday Things*. Basic Books, 1988.
 - SHNEIDERMAN, B. *Designing the User Interface*. 3. ed. Addison-Wesley, 1998.
 - TOGNAZZINI, B. *First Principles of Interaction Design (Revised & Expanded)*. AskTog, 2014.
+
+### Imagens das Refereências
+
+<img src="../../assets/prints_referencias/referencia-visibiliade-reconhecimento-244.png" alt="Referência página 244" width="500">
+
+<img src="../../assets/prints_referencias/referencia-visibiliade-reconhecimento-245.png" alt="Referência página 245" width="500">
