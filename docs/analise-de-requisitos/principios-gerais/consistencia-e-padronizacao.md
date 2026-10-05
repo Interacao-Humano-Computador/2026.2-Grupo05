@@ -17,6 +17,7 @@
 **Data da inspeção:** 05/10/2026, em navegador desktop (Google Chrome)
 
 **Autor do artefato:** [Igor Dantas](https://github.com/IgorDARAUJO)
+
 ---
 
 ## 1. O princípio segundo o livro
@@ -38,7 +39,7 @@ O capítulo 10 reúne as recomendações de Norman (1988), Tognazzini (2014), Ni
 
 - Inspeção da página inicial e das páginas internas *Preços das Passagens* e *Ouvidoria*.
 - Levantamento de todos os links da página inicial a partir do código HTML: rótulo, destino e se o link abre ou não em nova aba.
-- Capturas de tela, salvas na pasta `imagens/`.
+- Capturas de tela para mostrar onde estão os erros.
 - Teste de resolução DNS dos dois endereços do site, `www.semob.df.gov.br` e `semob.df.gov.br`, usando o DNS público 8.8.8.8.
 
 Escala de gravidade usada: **Alta** (impede ou atrapalha muito a tarefa), **Média** (confunde ou atrasa) e **Baixa** (problema cosmético).
