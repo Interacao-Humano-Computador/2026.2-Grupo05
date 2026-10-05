@@ -149,6 +149,7 @@ nav:
       - TAR-03 (Origem/Destino e Tempo Real): analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md
       - TAR-04 e TAR-05 (Motorista - HTA e CTT): analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md
       - TAR-06 (Consulta DF no Ponto): analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md
+      - TAR-07 (Crédito de Vale-Transporte): analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md
 
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 

@@ -343,10 +343,11 @@ As relações temporais entre tarefas irmãs do mesmo nível hierárquico são g
 
 ```mermaid
 graph TD
-    classDef abstract fill:#4A90E2,stroke:#1D5FAD,stroke-width:2px,color:#fff;
-    classDef user fill:#F5A623,stroke:#C67D0A,stroke-width:2px,color:#fff;
-    classDef interactive fill:#7ED321,stroke:#4E930E,stroke-width:2px,color:#fff;
-    classDef system fill:#BD10E0,stroke:#84079E,stroke-width:2px,color:#fff;
+    classDef abstract fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    classDef user fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    classDef interactive fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    classDef system fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    linkStyle default stroke:#000000,stroke-width:1.5px;
 
     A0["[A] Consultar Escala e Horários"]:::abstract
     
@@ -420,10 +421,11 @@ graph TD
 
 ```mermaid
 graph TD
-    classDef abstract fill:#4A90E2,stroke:#1D5FAD,stroke-width:2px,color:#fff;
-    classDef user fill:#F5A623,stroke:#C67D0A,stroke-width:2px,color:#fff;
-    classDef interactive fill:#7ED321,stroke:#4E930E,stroke-width:2px,color:#fff;
-    classDef system fill:#BD10E0,stroke:#84079E,stroke-width:2px,color:#fff;
+    classDef abstract fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    classDef user fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    classDef interactive fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    classDef system fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    linkStyle default stroke:#000000,stroke-width:1.5px;
 
     B0["[A] Processar Alerta Operacional"]:::abstract
     

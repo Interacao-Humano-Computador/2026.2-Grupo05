@@ -45,6 +45,7 @@ Na Tabela 1, apresenta-se o quadro consolidado com todas as análises realizadas
 | **TAR-04** | Consultar escala de trabalho e horários homologados (Motorista) | 26/09/2026 | [Carlos Costa](https://github.com/carloshfgit) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | — | [Acessar Análise](analise-hta-ctt-motorista.md#32-hta-tar-03-consultar-escala-de-trabalho-e-horarios-homologados-da-linha) |
 | **TAR-05** | Receber e processar alerta operacional de trânsito (Motorista) | 26/09/2026 | [Carlos Costa](https://github.com/carloshfgit) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | — | [Acessar Análise](analise-hta-ctt-motorista.md#33-hta-tar-04-receber-e-processar-alerta-operacional-emergencial-de-transito) |
 | **TAR-06** | Consulta de ônibus em tempo real no DF no Ponto | 27/09/2026 | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | <span class="pill pill-ok">Concluído</span> | — | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](tar-06-df-no-ponto.md) |
+| **TAR-07** | Resolver indisponibilidade de crédito de Vale-Transporte | 05/10/2026 | [Arthur Mariani](https://github.com/arthur-mariani) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | — | [Acessar Análise](tar-07-credito-vale-transporte.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>
