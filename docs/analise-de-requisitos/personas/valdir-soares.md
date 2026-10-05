@@ -186,7 +186,7 @@ O maior momento de tensão no dia de Seu Valdir acontece quando ocorrem desencon
 
 No final da tarde, ao estacionar o ônibus na plataforma do terminal para o intervalo regulamentar de descanso, Valdir bebe uma água, senta no banco e pega o celular. Ele gostaria que qualquer aviso sobre bloqueio de vias, obras no Eixo Monumental ou liberação da faixa exclusiva do BRT chegasse de forma mastigada, com mapas visuais claros e avisos em poucas linhas, para que ele e seus colegas pudessem antecipar os desvios sem depender apenas de recados boca a boca no balcão da garagem. Cumprida a última viagem sem incidentes e com a tabela conferida, Seu Valdir entrega o veículo na garagem, assina o fechamento e volta para casa satisfeito por ter garantido mais um dia de trabalho pacífico e seguro para sua família.
 
-> **Rastreabilidade e Dinâmica de Uso:** As histórias detalhadas de uso que retratam a rotina, os desafios no trânsito e a validação das metas de Valdir Soares estão documentadas na seção de **[Cenários de Uso do Motorista](../cenarios/cenarios-motorista.md)**.
+> **Rastreabilidade e Dinâmica de Uso:** As histórias detalhadas de uso que retratam a rotina, os desafios no trânsito e a validação das metas de Valdir Soares estão documentadas nos **[Cenários de Uso](../cenarios/index.md)**, com destaque para o **[Cenário 8 — Conflito na catraca por divergência de horários](../cenarios/cenario-8-conflito-catraca.md)**.
 
 ---
 

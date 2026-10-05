@@ -13,7 +13,7 @@
 
 A **Análise de Tarefas** é uma das atividades basilares da disciplina de **Interação Humano-Computador (IHC)** e da Engenharia de Requisitos. Seu propósito fundamental é investigar, estruturar e explicitar como as pessoas realizam seu trabalho cotidiano para atingir seus objetivos, analisando o papel mediador exercido ou a ser exercido pelos sistemas computacionais (Barbosa e Silva, 2010, pp. 191–192).
 
-O presente documento apresenta a modelagem de tarefas centrada no trabalho dos motoristas de transporte público coletivo do Distrito Federal (STPC/DF), contextualizada na relação operacional com a **Secretaria de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)**. A análise tem como protagonista o perfil empírico levantado junto ao participante **`MOT-01`** ([Perfil de Usuário: Motoristas de Ônibus](../perfis-de-usuario/perfil-motorista.md)), consubstanciado na persona **[Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md)** e nos [Cenários de Uso do Motorista](../cenarios/cenarios-motorista.md).
+O presente documento apresenta a modelagem de tarefas centrada no trabalho dos motoristas de transporte público coletivo do Distrito Federal (STPC/DF), contextualizada na relação operacional com a **Secretaria de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)**. A análise tem como protagonista o perfil empírico levantado junto ao participante **`MOT-01`** ([Perfil de Usuário: Motoristas de Ônibus](../perfis-de-usuario/perfil-motorista.md)), consubstanciado na persona **[Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md)** e nos [Cenários de Uso](../cenarios/index.md).
 
 ```
                     PARADIGMA DA ANÁLISE DE TAREFAS EM IHC
@@ -50,9 +50,9 @@ Este artefato atua de maneira articulada em dois níveis de abstração correspo
 A partir das dores e necessidades levantadas na pesquisa empírica, foram selecionadas duas tarefas críticas da jornada de trabalho do motorista para a análise formal:
 
 1. **TAR-03: Consultar Escala de Trabalho e Horários Homologados da Linha**  
-   *Contexto:* Realizada no início de cada turno de trabalho na garagem da concessionária (Setor de Garagens Oficiais - SGO), fora da condução do veículo. Envolve a identificação da tabela de saída/retorno, itinerário escalado e checagem de sincronia com a SEMOB (correspondente ao Cenário 2 de [Cenários de Uso do Motorista](../cenarios/cenarios-motorista.md#3-cenario-2-consulta-agil-da-escala-diaria-e-tabela-homologada-no-smartphone)).
+   *Contexto:* Realizada no início de cada turno de trabalho na garagem da concessionária (Setor de Garagens Oficiais - SGO), fora da condução do veículo. Envolve a identificação da tabela de saída/retorno, itinerário escalado e checagem de sincronia com a SEMOB (correspondente ao [Cenário 5 — Consulta ágil da escala diária](../cenarios/cenario-5-consulta-escala.md)).
 2. **TAR-04: Receber e Processar Alerta Operacional Emergencial de Trânsito / Faixa Exclusiva**  
-   *Contexto:* Realizada antes da partida ou durante pausas em terminais rodoviários em momentos de intercorrência viária (bloqueios, desvios ou liberação de faixas exclusivas), exigindo assimilação rápida de rotas alternativas sem risco de autuação nos radares de trânsito (correspondente ao Cenário 3 de [Cenários de Uso do Motorista](../cenarios/cenarios-motorista.md#4-cenario-3-intercorrencia-viaria-e-alerta-emergencial-de-desvio-na-faixa-exclusiva)).
+   *Contexto:* Realizada antes da partida ou durante pausas em terminais rodoviários em momentos de intercorrência viária (bloqueios, desvios ou liberação de faixas exclusivas), exigindo assimilação rápida de rotas alternativas sem risco de autuação nos radares de trânsito (correspondente ao [Cenário 6 — Alerta emergencial de desvio](../cenarios/cenario-6-alerta-desvio.md)).
 
 ---
 
@@ -343,10 +343,11 @@ As relações temporais entre tarefas irmãs do mesmo nível hierárquico são g
 
 ```mermaid
 graph TD
-    classDef abstract fill:#4A90E2,stroke:#1D5FAD,stroke-width:2px,color:#fff;
-    classDef user fill:#F5A623,stroke:#C67D0A,stroke-width:2px,color:#fff;
-    classDef interactive fill:#7ED321,stroke:#4E930E,stroke-width:2px,color:#fff;
-    classDef system fill:#BD10E0,stroke:#84079E,stroke-width:2px,color:#fff;
+    classDef abstract fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    classDef user fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    classDef interactive fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    classDef system fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    linkStyle default stroke:#000000,stroke-width:1.5px;
 
     A0["[A] Consultar Escala e Horários"]:::abstract
     
@@ -420,10 +421,11 @@ graph TD
 
 ```mermaid
 graph TD
-    classDef abstract fill:#4A90E2,stroke:#1D5FAD,stroke-width:2px,color:#fff;
-    classDef user fill:#F5A623,stroke:#C67D0A,stroke-width:2px,color:#fff;
-    classDef interactive fill:#7ED321,stroke:#4E930E,stroke-width:2px,color:#fff;
-    classDef system fill:#BD10E0,stroke:#84079E,stroke-width:2px,color:#fff;
+    classDef abstract fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    classDef user fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    classDef interactive fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    classDef system fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
+    linkStyle default stroke:#000000,stroke-width:1.5px;
 
     B0["[A] Processar Alerta Operacional"]:::abstract
     

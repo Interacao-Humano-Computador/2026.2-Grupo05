@@ -95,7 +95,9 @@ not_in_nav: |
 nav:
   - Inicial: index.md
 
-  - Apresentações: apresentacoes/index.md
+  - Gravações:
+    - Apresentações: apresentacoes/index.md
+    - Inspeções: inspecoes/index.md
 
   - Atas:
     - Ata de reunião 1: atas/ata1.md
@@ -136,7 +138,10 @@ nav:
       - Cenário 2 (Atraso e Conflito no App): analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md
       - Cenário 3 (Deslocamento com Busca por Destino): analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md
       - Cenário 4 (Crédito de Vale-Transporte): analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md
-      - Cenários do Motorista (Valdir Soares): analise-de-requisitos/cenarios/cenarios-motorista.md
+      - Cenário 5 (Consulta da Escala): analise-de-requisitos/cenarios/cenario-5-consulta-escala.md
+      - Cenário 6 (Alerta de Desvio): analise-de-requisitos/cenarios/cenario-6-alerta-desvio.md
+      - Cenário 7 (Dúvida de Passageiro): analise-de-requisitos/cenarios/cenario-7-duvida-passageiro.md
+      - Cenário 8 (Conflito na Catraca): analise-de-requisitos/cenarios/cenario-8-conflito-catraca.md
       - Cenário 9 (Endereço Novo e Desvio): analise-de-requisitos/cenarios/cenario-9-endereco-novo.md
       - Cenário 10 (Viagem Ideal sob Chuva): analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md
     - Análise de tarefas:
@@ -146,6 +151,7 @@ nav:
       - TAR-03 (Origem/Destino e Tempo Real): analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md
       - TAR-04 e TAR-05 (Motorista - HTA e CTT): analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md
       - TAR-06 (Consulta DF no Ponto): analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md
+      - TAR-07 (Crédito de Vale-Transporte): analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md
 
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 
