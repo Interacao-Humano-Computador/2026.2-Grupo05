@@ -1,34 +1,30 @@
-# Visibilidade e Reconhecimento no site da SEMOB-DF
+# Visibilidade e Reconhecimento
 
-**Site analisado:** <https://www.semob.df.gov.br/> (Secretaria de Estado de Transporte e Mobilidade do Distrito Federal)
-**Princípio:** 10.2.7 Visibilidade e Reconhecimento
-**Referência:** Barbosa, S. D. J. et al. (2021). *Interação Humano-Computador e Experiência do Usuário*, Cap. 10: Princípios e Diretrizes para o Design de IHC, pp. 244–245.
-**Data da inspeção:** 05/10/2026, em navegador desktop (Microsoft Edge, janela de 1366 px de largura)
+## Histórico de Versão e Contribuição
 
----
+| Data | Versão | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :--- | :--- |
+| 05/10/2026 | 1.0 |Análise de visibilidade e reconhecimento no site do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
 
-## 1. O princípio segundo o livro
+## 1.Introdução
 
-O capítulo 10 apresenta a visibilidade e o reconhecimento a partir de Norman (1988), Nielsen (1994), Shneiderman (1998), Tognazzini (2014) e Cooper (1999). As ideias usadas como critério nesta análise são:
+As ideias usadas como critério nesta análise são:
 
-1. **Tornar as coisas visíveis e reduzir os golfos de execução e de avaliação** (Norman). Antes da ação, o usuário precisa ver **o que é possível fazer e como**. Depois da ação, precisa ver **o estado do sistema**, de forma consistente com o seu modelo mental.
+1. **Tornar as coisas visíveis e reduzir os golfos de execução e de avaliação**. Antes da ação, o usuário precisa ver **o que é possível fazer e como**. Depois da ação, precisa ver **o estado do sistema**, de forma consistente com o seu modelo mental.
 2. **Não oferecer opções indisponíveis ou sem sentido** no momento da interação.
-3. **Reconhecer em vez de lembrar.** *"O usuário não deve ter de se lembrar para que serve um elemento de interface cujo símbolo não é reconhecido diretamente"*, nem guardar informações de uma parte do sistema para usar em outra. O motivo é o limite da memória de curto prazo.
+3. **Reconhecer em vez de lembrar.** O usuário não deve ter de se lembrar para que serve um elemento de interface cujo símbolo não é reconhecido diretamente, nem guardar informações de uma parte do sistema para usar em outra. O motivo é o limite da memória de curto prazo.
 4. **Instruções visíveis** ou facilmente acessíveis sempre que necessário.
 5. **Estado do sistema perceptível num relance**, sem que o usuário precise procurá-lo. Segundo Cooper, a indicação de status pode ser sutil, como o ícone da caixa de entrada que aparece vazio, meio cheio ou lotado.
 6. **Feedback adequado e no tempo certo.** Pode ser sutil para ações frequentes e deve ser destacado para ações raras ou de grande consequência.
-7. **Mostrar o caminho percorrido.** *"O usuário não deve ser responsável por elaborar um mapa mental do que fez até o momento"*. Sinalizações claras orientam a navegação para que o usuário saiba sempre onde está (Tognazzini).
+7. **Mostrar o caminho percorrido.** O usuário não deve ser responsável por elaborar um mapa mental do que fez até o momento. Sinalizações claras orientam a navegação para que o usuário saiba sempre onde está.
 
 ---
 
 ## 2. Como a inspeção foi feita
 
 - Inspeção da página inicial e das páginas internas *Preços das Passagens* e *Ouvidoria*.
-- Capturas de tela da página inteira, salvas na pasta `imagens/`.
-- Leitura do código HTML para conferir destinos de links, textos alternativos de imagens e comportamento de abertura (mesma aba ou nova aba).
+- Capturas de tela da página inteira.
 - Teste de acesso aos links que apontam para `semob.df.gov.br`, sem "www".
-
-**Limitação:** não foram medidos tempos de resposta. Por isso, as recomendações de tempo de Tognazzini citadas no livro (50 ms, 0,5–2 s, mais de 10 s) não foram avaliadas.
 
 Escala de gravidade usada: **Alta** (impede ou atrapalha muito a tarefa), **Média** (confunde ou atrasa) e **Baixa** (problema cosmético).
 
@@ -47,7 +43,7 @@ Escala de gravidade usada: **Alta** (impede ou atrapalha muito a tarefa), **Méd
 | P7 | Os recursos de acessibilidade ficam sempre visíveis: tamanho da fonte (Aa), alto contraste, VLibras e o link "Pular para o conteúdo principal". | Recursos disponíveis à vista, sem precisar ser lembrados. |
 | P8 | Na página da Ouvidoria, o menu lateral lista todas as opções da seção (imagem 09). | O usuário vê o conjunto de ações possíveis naquele contexto. |
 
-![Cabeçalho e menu](imagens/01-cabecalho-menu.png)
+![Cabeçalho e menu](../../assets/images/01-cabecalho-menu.png)
 *Imagem 01: busca visível com instrução, setas indicando submenus e controles de acessibilidade na barra superior.*
 
 ---
@@ -78,10 +74,10 @@ Escala de gravidade usada: **Alta** (impede ou atrapalha muito a tarefa), **Méd
 
 **Recomendação:** corrigir os endereços das imagens (ver C3 no documento de Consistência). Definir também uma **cor de fundo de reserva** (`background-color`) escura para seções com texto branco sobre imagem, para que o texto continue legível se a imagem falhar.
 
-![Banner quebrado](imagens/02-banner-quebrado-acesso-rapido.png)
+![Banner quebrado](../../assets/imagens/02-banner-quebrado-acesso-rapido.png)
 *Imagem 02: no topo, ícone de imagem quebrada no lugar do banner. Abaixo, o "Acesso Rápido" em forma de lista simples.*
 
-![Seção PPP invisível](imagens/04-secao-ppp-invisivel.png)
+![Seção PPP invisível](../../assets/imagens/04-secao-ppp-invisivel.png)
 *Imagem 04: título e botões brancos sobre fundo cinza-claro, praticamente ilegíveis.*
 
 ---
