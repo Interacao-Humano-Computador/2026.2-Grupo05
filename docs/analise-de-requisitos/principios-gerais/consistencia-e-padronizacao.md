@@ -9,10 +9,15 @@
 # Consistência e Padronização no site da SEMOB-DF
 
 **Site analisado:** <https://www.semob.df.gov.br/> (Secretaria de Estado de Transporte e Mobilidade do Distrito Federal)
+
 **Princípio:** 10.2.4 Consistência e Padronização
+
 **Referência:** Barbosa, S. D. J. et al. (2021). *Interação Humano-Computador e Experiência do Usuário*, Cap. 10: Princípios e Diretrizes para o Design de IHC, pp. 241–242.
+
 **Data da inspeção:** 05/10/2026, em navegador desktop (Google Chrome)
+
 **Autor do artefato:** [Igor Dantas](https://github.com/IgorDARAUJO)
+
 ---
 
 ## 1. O princípio segundo o livro
@@ -34,7 +39,7 @@ O capítulo 10 reúne as recomendações de Norman (1988), Tognazzini (2014), Ni
 
 - Inspeção da página inicial e das páginas internas *Preços das Passagens* e *Ouvidoria*.
 - Levantamento de todos os links da página inicial a partir do código HTML: rótulo, destino e se o link abre ou não em nova aba.
-- Capturas de tela, salvas na pasta `imagens/`.
+- Capturas de tela para mostrar onde estão os erros.
 - Teste de resolução DNS dos dois endereços do site, `www.semob.df.gov.br` e `semob.df.gov.br`, usando o DNS público 8.8.8.8.
 
 Escala de gravidade usada: **Alta** (impede ou atrapalha muito a tarefa), **Média** (confunde ou atrasa) e **Baixa** (problema cosmético).
@@ -277,7 +282,7 @@ A **estrutura geral** do site da SEMOB é consistente, porque segue o padrão vi
 ### Imagens de Referências
 
 - ![imagem 1](../../assets/prints_referencias/print-consistencia-e-padronizacao-1.png)
-*Imagem 01: Referência teórica ().*
+*Imagem 01: Referência teórica do livro-texto.*
 
 - ![imagem 2](../../assets/prints_referencias/print-consistencia-e-padronizacao-2.png)
-*Imagem 02: Referência teórica ().*
+*Imagem 02: Referência teórica do livro-texto.*
