@@ -95,7 +95,9 @@ not_in_nav: |
 nav:
   - Inicial: index.md
 
-  - Apresentações: apresentacoes/index.md
+  - Gravações:
+    - Apresentações: apresentacoes/index.md
+    - Inspeções: inspecoes/index.md
 
   - Atas:
     - Ata de reunião 1: atas/ata1.md
