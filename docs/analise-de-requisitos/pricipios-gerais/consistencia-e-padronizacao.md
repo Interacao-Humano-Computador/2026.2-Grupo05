@@ -1,15 +1,23 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) |
+| :---: | :---: | :--- | :--- | :--- |
+| 05/10/2026 | 1.0 | Criação do documento de consistência e padronização do **SEMOB-DF**. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
+
+---
+
 # Consistência e Padronização no site da SEMOB-DF
 
 **Site analisado:** <https://www.semob.df.gov.br/> (Secretaria de Estado de Transporte e Mobilidade do Distrito Federal)
 **Princípio:** 10.2.4 Consistência e Padronização
 **Referência:** Barbosa, S. D. J. et al. (2021). *Interação Humano-Computador e Experiência do Usuário*, Cap. 10: Princípios e Diretrizes para o Design de IHC, pp. 241–242.
 **Data da inspeção:** 05/10/2026, em navegador desktop (Microsoft Edge, janela de 1366 px de largura)
-
+**Autor do artefato:** [Igor Dantas](https://github.com/IgorDARAUJO)
 ---
 
 ## 1. O princípio segundo o livro
 
-O capítulo 10 reúne as recomendações de Norman (1988), Tognazzini (2014), Nielsen (1994) e Shneiderman (1998) sobre consistência. As ideias usadas como critério nesta análise são:
+O capítulo 10 reúne as recomendações de Norman (1988), Tognazzini (2014), Nielsen (1994) e Shneiderman (1998) sobre consistência, cuja referência está evidenciada nas imagens 1 e 2. As ideias usadas como critério nesta análise são:
 
 1. **Consistência com o modelo conceitual.** Tudo no produto deve estar de acordo com o modelo conceitual do sistema e exemplificá-lo: a interface, a documentação e a imagem do sistema (Norman).
 2. **Consistência com as expectativas do usuário.** É a mais importante. Quando não há como corresponder a elas, deve-se ao menos padronizar (Norman, Tognazzini).
@@ -35,24 +43,32 @@ Escala de gravidade usada: **Alta** (impede ou atrapalha muito a tarefa), **Méd
 
 ## 3. Pontos positivos
 
+A seguir, na tabela 1, estão presentes os pontos positivos observados.
+
+**Tabela 1** - Pontos positivos
+
 | # | Observação | Relação com o princípio |
 |---|---|---|
 | P1 | O site usa o mesmo tema visual dos demais sites de secretarias do GDF: barra superior do governo, cabeçalho, menu, rodapé, botão de VLibras e controles de acessibilidade. | Segue as **convenções da plataforma**: quem já usou o site de outra secretaria do GDF reconhece a estrutura. |
 | P2 | Cabeçalho, menu principal e rodapé são idênticos em todas as páginas visitadas. | Padronização do layout. |
-| P3 | As páginas internas seguem o mesmo modelo: trilha de navegação (*breadcrumb*), data de publicação e de atualização, título e conteúdo (imagens 08 e 09). | Padronização do layout dos "diálogos". |
+| P3 | As páginas internas seguem o mesmo modelo: trilha de navegação (*breadcrumb*), data de publicação e de atualização, título e conteúdo. | Padronização do layout dos "diálogos". |
 | P4 | No menu principal, todos os itens com submenu têm a seta `⌄`. *Concessão da Rodoviária*, que é um link direto, não tem a seta. | Aparências diferentes para comportamentos diferentes, como recomenda Tognazzini. |
-| P5 | Os cartões de *Serviços Mais Procurados* seguem um padrão único: ícone de linha azul à esquerda e rótulo à direita (imagem 03). | Padronização visual dentro de um mesmo bloco. |
+| P5 | Os cartões de *Serviços Mais Procurados* seguem um padrão único: ícone de linha azul à esquerda e rótulo à direita. | Padronização visual dentro de um mesmo bloco. |
 
-![Cabeçalho e menu principal](imagens/01-cabecalho-menu.png)
-*Imagem 01: barra do GDF, cabeçalho e menu principal, padrão comum aos sites das secretarias.*
+A seguir, na imagem 3, é possível visualizar a barra superior e o menu inicial do site
+![Cabeçalho e menu principal](../../assets/prints_referencias/print-consistencia-e-padronizacao-menu.png)
+*Imagem 03: barra do GDF, cabeçalho e menu principal, padrão comum aos sites das secretarias.*
 
 ---
 
 ## 4. Problemas encontrados
 
 ### Resumo
+A tabela 2 a seguir apresenta a síntese dos problemas de consistência e padronização encontrados no site:
 
-| # | Problema | Diretriz violada (Cap. 10) | Gravidade |
+**Tabela 2** - síntese dos problemas encontrados
+
+| # | Problema | Diretriz violada | Gravidade |
 |---|---|---|---|
 | C1 | O mesmo rótulo leva a destinos diferentes ("Ouvidoria", "Governança") | Ações semelhantes devem funcionar da mesma forma (exemplo do botão *Fechar*) | **Alta** |
 | C2 | Nomes diferentes para a mesma coisa (LAI/SIC, FAQ, Bilhetagem etc.) | Uma palavra para cada coisa (exemplo *Salvar* × *Gravar*) | **Alta** |
@@ -67,7 +83,9 @@ Escala de gravidade usada: **Alta** (impede ou atrapalha muito a tarefa), **Méd
 
 ### C1. O mesmo rótulo leva a destinos diferentes (gravidade alta)
 
-O rótulo **"Ouvidoria"** aparece **cinco vezes** na página inicial, com destinos diferentes:
+O rótulo **"Ouvidoria"** aparece **cinco vezes** na página inicial, com destinos diferentes. A tabela 3 a seguir indica os locais onde esses rótulos foram encontrados e para onde eles levam.
+
+**Tabela 3** - Links "Ouvidoria" na página inicial
 
 | Onde aparece | Para onde leva | Abre em |
 |---|---|---|
@@ -83,17 +101,22 @@ O mesmo ocorre com **"Governança"**: no menu principal, o item leva a `/governa
 
 **Recomendação:** definir **um único destino** para "Ouvidoria", de preferência a página interna `/ouvidoria`, que já explica o serviço e aponta para o Participa DF. Quando o destino for de fato outro, usar outro rótulo, por exemplo "Registrar manifestação no Participa DF". Corrigir o link "Governança" do rodapé.
 
-![Rodapé com dois links "Ouvidoria"](imagens/07-rodape.png)
-*Imagem 07: no rodapé, "Ouvidoria" aparece em duas colunas, e cada link leva a um destino diferente.*
+A seguir, na imagem 4, é possível visualizar o rodapé da página inicial com dois rótulos "Ouvidoria"
+![Rodapé com dois links "Ouvidoria"](../../assets/prints_referencias/print-consistencia-e-padronizacao-rodape.png)
+*Imagem 04: no rodapé, "Ouvidoria" aparece em duas colunas, e cada link leva a um destino diferente.*
 
 ---
 
 ### C2. Nomes diferentes para a mesma coisa (gravidade alta)
 
+A tabela 4 a seguir apresenta alguns termos encontrados no site que parecem ou deveriam ser a mesma coisa.
+
+**Tabela 4** - Nomes diferentes para a mesma coisa
+
 | Conceito | Nomes encontrados no site |
 |---|---|
 | **Acesso à informação (LAI/SIC)** | "Acesso à Informação" (barra GDF, cartão e rodapé), "LAI / SIC" (menu Ouvidoria), "LAI" (título da seção), "Saiba mais sobre a LAI", "Informação ao Cidadão – SIC" (botão) e "Serviço de Informação ao Cidadão - SIC" (menu lateral da Ouvidoria). São **pelo menos seis nomes, que levam a quatro destinos diferentes**. |
-| **Perguntas frequentes** | "FAQ - SEMOB" (menu) e "Perguntas Frequentes" (seção LAI), que levam à **mesma página**. |
+| **Perguntas frequentes** | "FAQ - SEMOB" (menu) e "Perguntas Frequentes" (seção LAI), que levam à **mesma página**, sendo que na segunda opção a página sequer carrega. |
 | **Bilhete/cartão do transporte** | Rótulo "Cartões Mobilidade / Pontos de Recarga"; texto alternativo do ícone: "Bilhetagem"; endereço: `/bilhete-unico`. |
 | **Bicicletas** | Rótulo "Mobilidade Ativa"; texto alternativo do ícone: "Ciclomobilidade"; endereço: `/bicicletas-compartilhadas`. |
 | **Página da Ouvidoria** | Na trilha de navegação: "Sobre a Ouvidoria"; no título: "Ouvidoria"; no menu lateral: "A Ouvidoria da SEMOB" (imagem 09). |
@@ -106,8 +129,11 @@ O mesmo ocorre com **"Governança"**: no menu principal, o item leva a `/governa
 
 **Recomendação:** criar um **vocabulário controlado**, isto é, uma lista de termos oficiais do site. Exemplo: "Acesso à Informação (LAI)" para o tema e "Pedir informação (SIC)" para a ação. Aplicar esse vocabulário em menus, botões, títulos, trilhas de navegação e textos alternativos de imagens.
 
-![Botões da seção LAI e Transparência](imagens/05-botoes-lai-transparencia.png)
-*Imagem 05: "Perguntas Frequentes" (que no menu se chama "FAQ - SEMOB") e "Informação ao Cidadão – SIC" (que no menu se chama "LAI / SIC").*
+A seguir, as imagens 5 e 6 mostram os botões de "FAQ-SEMOB" (menu ouvidoria) e "Perguntas Frequentes" (seção LAI) que levam ao mesmo endereço.
+- ![Botões da seção LAI e Transparência](../../assets/prints_referencias/print-consistencia-e-padronizacao-LAI.png)
+*Imagem 05: "Perguntas Frequentes" (que no menu se chama "FAQ - SEMOB").*
+- ![Botões da seção LAI e Transparência](../../assets/prints_referencias/print-consistencia-e-padronizacao-faq-semob.png)
+*Imagem 06: "FAQ - SEMOB".*
 
 ---
 
@@ -127,12 +153,17 @@ Os mesmos conteúdos acessados pelo menu, com "www", funcionam. Por exemplo, `ww
 
 **Recomendação:** padronizar todos os links como **relativos** (`/precos-das-passagens`) ou com o domínio canônico `www`. Configurar também o DNS para que `semob.df.gov.br` redirecione para `www.semob.df.gov.br`.
 
-![Serviços mais procurados](imagens/03-servicos-mais-procurados.png)
-*Imagem 03: cartões visualmente padronizados (ponto positivo P5). Mesmo assim, 10 dos 12 apontam para o endereço sem "www", que não abre.*
+A seguir, na imagem 7, é possível visualizar a seção de "serviços mais procurados".
+- ![Serviços mais procurados](../../assets/prints_referencias/print-consistencia-e-padronizacao-servicos-mais-procurados.png)
+*Imagem 07: cartões visualmente padronizados (ponto positivo P5). Mesmo assim, 10 dos 12 apontam para o endereço sem "www", que não abre.*
 
 ---
 
 ### C4. Rótulos que não correspondem ao destino (gravidade média)
+
+A tabela 5 a seguir apresenta os resultados dos rótulos que não correspondem aos seus respectivos destinos.
+
+**Tabela 5** - Rótulos que não correspondem ao destino
 
 | Rótulo | Destino real | Observação |
 |---|---|---|
@@ -144,9 +175,15 @@ Os mesmos conteúdos acessados pelo menu, com "www", funcionam. Por exemplo, `ww
 
 **Recomendação:** criar uma página própria para "Gratuidades" e outra para "Vai de Graça". Renomear o menu "Ouvidoria" para "Atendimento e Serviços" e deixar a Ouvidoria como um item dentro dele.
 
+A seguir, na imagem 8, é possível visualizar a página de cálculo da tarifa técnica, resultado de clicar no botão "gratuidades"
+- ![Tarifa técnica](../../assets/prints_referencias/print-consistencia-e-padronizacao-tarifa-tecnica.png)
+*Imagem 08: página de cálculo da tarifa técnica.*
 ---
 
 ### C5. Links abrem ora na mesma aba, ora em nova aba (gravidade média)
+A seguir, na tabela 6, estão descritos os links de problemas encontrados.
+
+**Tabela 6** - Links abrem ora na mesma aba, ora em nova aba
 
 | Situação | Comportamento |
 |---|---|
@@ -164,16 +201,18 @@ Os mesmos conteúdos acessados pelo menu, com "www", funcionam. Por exemplo, `ww
 
 ### C6. Seis estilos visuais para o mesmo tipo de elemento (gravidade média)
 
-Na página inicial, o mesmo tipo de elemento (um link que leva a outra página) aparece com pelo menos seis aparências:
+Na página inicial, o mesmo tipo de elemento (um link que leva a outra página) aparece com pelo menos seis aparências, listados na tabela 7:
 
-| Bloco | Estilo | Imagem |
-|---|---|---|
-| Acesso Rápido | Lista de texto simples, sem sublinhado nem ícone | 02 |
-| Serviços Mais Procurados | Cartão com ícone e rótulo | 03 |
-| Parceria Público Privada – PPP | Botão com contorno branco e texto branco | 04 |
-| LAI e Transparência | Botão em formato de pílula, com contorno e texto verdes | 05 |
-| Ouvidoria, Acesso à informação, SICOPWEB | Botão cinza-escuro preenchido, com texto branco | 06 |
-| DFLEGIS, Carta de Serviços, SINJ-DF, Protocolo | Logotipo sem botão e sem rótulo em texto | 06 |
+**Tabela 7** - stilos visuais para o mesmo tipo de elemento
+
+| Bloco | Estilo |
+|---|---|
+| Acesso Rápido | Lista de texto simples, sem sublinhado nem ícone |
+| Serviços Mais Procurados | Cartão com ícone e rótulo |
+| Parceria Público Privada – PPP | Botão com contorno branco e texto branco |
+| LAI e Transparência | Botão em formato de pílula, com contorno e texto verdes |
+| Ouvidoria, Acesso à informação, SICOPWEB | Botão cinza-escuro preenchido, com texto branco |
+| DFLEGIS, Carta de Serviços, SINJ-DF, Protocolo | Logotipo sem botão e sem rótulo em texto |
 
 No cabeçalho há ainda um sétimo estilo: o botão "Fale com a Secretaria", cinza, com ícone de balão.
 
@@ -181,11 +220,12 @@ No cabeçalho há ainda um sétimo estilo: o botão "Fale com a Secretaria", cin
 
 **Recomendação:** definir no **guia de estilo** do site (Seção 10.5 do livro) dois ou três componentes de navegação, por exemplo um cartão de serviço, um botão primário e um link de texto, e usar só esses em toda a página.
 
-![Seção Acesso Rápido como lista simples](imagens/02-banner-quebrado-acesso-rapido.png)
-*Imagem 02: o "Acesso Rápido" é uma lista de texto simples, sem nenhuma pista visual de que os itens são links. Os outros blocos usam cartões e botões.*
+A seguir, nas imagens 9 e 10 é posível visualizar as seções onde aparecem "acesso rápido" e os logotipos sem botão.
+![Seção Acesso Rápido como lista simples](../../assets/prints_referencias/print-consistencia-e-padronizacao-acesso-rapido.png)
+*Imagem 09: o "Acesso Rápido" é uma lista de texto simples, sem nenhuma pista visual de que os itens são links. Os outros blocos usam cartões e botões.*
 
-![Cartões e logotipos](imagens/06-cartoes-ouvidoria-diario.png)
-*Imagem 06: botões cinza preenchidos ao lado de logotipos que funcionam como links sem rótulo de ação.*
+![Cartões e logotipos](../../assets/prints_referencias/print-consistencia-e-padronizacao-logotipos.png)
+*Imagem 10: botões cinza preenchidos ao lado de logotipos que funcionam como links sem rótulo de ação.*
 
 ---
 
@@ -198,8 +238,9 @@ No cabeçalho há ainda um sétimo estilo: o botão "Fale com a Secretaria", cin
 
 **Recomendação:** usar a cor de link **apenas** em links. Dar à busca do DODF um rótulo explícito, como "Buscar no Diário Oficial do DF", e um botão próprio.
 
-![Página Preços das Passagens](imagens/08-breadcrumb-precos.png)
-*Imagem 08: os valores das passagens estão na cor dos links, mas não são clicáveis.*
+A imagem 11 a seguir mostra a página "Preços das passagens"
+- ![Página Preços das Passagens](../../assets/prints_referencias/print-consistencia-e-padronizacao-precos.png)
+*Imagem 11: os valores das passagens estão na cor dos links, mas não são clicáveis.*
 
 ---
 
@@ -232,8 +273,11 @@ A **estrutura geral** do site da SEMOB é consistente, porque segue o padrão vi
 ### Referências
 
 - BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.4.
-- COOPER, A. *The Inmates Are Running the Asylum*. Sams, 1999.
-- NIELSEN, J. *Usability Engineering*. Morgan Kaufmann, 1994.
-- NORMAN, D. A. *The Design of Everyday Things*. Basic Books, 1988.
-- SHNEIDERMAN, B. *Designing the User Interface*. 3. ed. Addison-Wesley, 1998.
-- TOGNAZZINI, B. *First Principles of Interaction Design (Revised & Expanded)*. AskTog, 2014.
+
+### Imagens de Referências
+
+- ![imagem 1](../../assets/prints_referencias/print-consistencia-e-padronizacao-1.png)
+*Imagem 01: Referência teórica ().*
+
+- ![imagem 2](../../assets/prints_referencias/print-consistencia-e-padronizacao-2.png)
+*Imagem 02: Referência teórica ().*
