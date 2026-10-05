@@ -128,8 +128,8 @@ BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; B
 
 ## Fotos de referência
 
-![Imagem 1](/docs/assets/prints_referencias/print-guiadeestilo.png)
+![Imagem 1](../../assets/prints_referencias/print-guiadeestilo.png)
 *Imagem 1 - Estrutura do guia de estilo — Barbosa et al. (2021), p. 258*
 
-![Imagem 2](/docs/assets/prints_referencias/print-guiadeestilo-designrationale.png)
+![Imagem 2](../../assets/prints_referencias/print-guiadeestilo-designrationale.png)
 *Imagem 2 - Design Ractionale — Barbosa et al. (2021), p. 242*
