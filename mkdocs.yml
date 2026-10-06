@@ -166,6 +166,7 @@ nav:
       - Elementos de ação: analise-de-requisitos/guia-de-estilo/elementos-de-acao.md
       - Vocabulário e padrões: analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md
     - Princípios gerais:
+      - Correspondência com as expectativas dos usuários: analise-de-requisitos/principios-gerais/correspondencia-com-as-expectativas-dos-usuarios.md
       - Simplicidade nas estruturas das tarefas: analise-de-requisitos/principios-gerais/simplicidade-nas-estruturas-das-tarefas.md
       - Equilíbrio entre controle e liberdade: analise-de-requisitos/principios-gerais/equilibrio-controle-liberdade.md
       - Consistência e padronização: analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md
