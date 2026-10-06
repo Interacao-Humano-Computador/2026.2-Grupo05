@@ -3,6 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 05/10/2026 | 1.0 | Criação do documento de análise de simplicidade nas estruturas das tarefas no site da **SEMOB-DF**. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 06/10/2026 | 1.1 | Correção da URL do DF no Ponto (ST3) e refinamento técnico da análise de DNS/HTTP com evidência de erro em ST4, conforme revisão de PR #42. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
 
 ---
 
@@ -22,7 +23,7 @@
 
 ## 1. O princípio segundo o livro
 
-O capítulo 10 reúne as recomendações consagradas do design de interação, apoiando-se fortemente nos preceitos de Norman (1988) sobre a psicologia cotidiana da interação humano-computador, cujas referências teóricas estão evidenciadas nas Imagens 01 e 02 ao final deste documento.
+O capítulo 10 reúne as recomendações consagradas do design de interação, apoiando-se fortemente nos preceitos de Norman (1988) sobre a psicologia cotidiana da interação humano-computador, cujas referências teóricas estão evidenciadas nas Imagens 07 e 08 ao final deste documento.
 
 Norman (1988) preconiza que os designers devem **simplificar a estrutura das tarefas**, reduzindo a quantidade de planejamento prévio e de resolução de problemas que elas impõem ao usuário. Os seres humanos possuem limitações biológicas estritas em relação à memória de trabalho (memória de curto prazo), sendo capazes de reter apenas uma quantidade reduzida de itens simultâneos. Quando um sistema exige que o cidadão memorize rotas, códigos, tarifas ou instruções entre telas consecutivas, a sobrecarga cognitiva compromete a usabilidade e induz o usuário ao erro.
 
@@ -120,7 +121,7 @@ Ao clicar no cartão *"Cartões Mobilidade / Pontos de Recarga"*, o usuário é 
 
 ### ST3. Ruptura de contexto na consulta de itinerários no DF no Ponto (Gravidade Média)
 
-Ao tentar consultar linhas e horários a partir do portal, o usuário é transferido para o domínio externo do aplicativo *DF no Ponto* (`dfnoponto.semob.df.gov.br`). Apesar do aplicativo oferecer recursos de busca e visualização geográfica, essa transferência ocorre de modo abrupto, quebrando o modelo mental da navegação no portal da Secretaria.
+Ao tentar consultar linhas e horários a partir do portal, o usuário é direcionado para o site externo do aplicativo *DF no Ponto* (<https://dfnoponto.com.br/>). Apesar do aplicativo oferecer recursos de busca e visualização geográfica, essa transferência ocorre de modo abrupto, quebrando o modelo mental da navegação no portal da Secretaria.
 
 **Por que é um problema:** O princípio de simplicidade na tarefa dita que a tecnologia deve atuar agregando valor de modo fluido. Quando o cidadão precisa transitar entre interfaces com arquiteturas de informação completamente distintas para saber o horário de um ônibus e os valores de integração, ele é forçado a reaprender padrões de interação e perde o suporte unificado da tarefa de planejar sua viagem.
 
@@ -128,13 +129,16 @@ Ao tentar consultar linhas e horários a partir do portal, o usuário é transfe
 
 ---
 
-### ST4. Interrupção involuntária de tarefas por falha de DNS (Gravidade Alta)
+### ST4. Interrupção involuntária de tarefas por falha de resolução de domínio (Gravidade Alta)
 
-Na página inicial, diversos links essenciais dos cartões de serviços (como *Pontos de Parada* e *Terminais de Ônibus*) utilizam URLs absolutas direcionadas a `semob.df.gov.br` (sem o prefixo `www`). Como esse domínio não resolve via DNS, o navegador aborta o carregamento com a mensagem de erro `ERR_NAME_NOT_RESOLVED`.
+Na página inicial do portal da SEMOB-DF, atalhos do bloco de serviços (como *Pontos de Parada*, apontando para `https://semob.df.gov.br/pontos-de-parada`, e *Terminais de Ônibus*) utilizam URLs absolutas direcionadas ao domínio ápice `semob.df.gov.br` (sem o prefixo `www`). Em verificação realizada em 05/10/2026 via navegador Google Chrome Desktop, constatou-se que o domínio `semob.df.gov.br` não possui registro de endereço DNS (registro A) configurado, resultando na falha `ERR_NAME_NOT_RESOLVED` e no bloqueio imediato do carregamento da página (Imagem 06).
 
-**Por que é um problema:** O usuário inicia uma tarefa simples e tem o processo completamente rompido por falha de infraestrutura. Não há caminho alternativo fornecido pela aplicação, forçando o cidadão a abandonar a tarefa ou tentar adivinhar a correção da URL na barra de endereços do navegador.
+![Erro de resolução de domínio ERR_NAME_NOT_RESOLVED](../../assets/prints_referencias/print-simplicidade-erro-dns.png)
+*Imagem 06: Falha de carregamento no navegador Chrome ao acessar link com domínio ápice semob.df.gov.br (ERR_NAME_NOT_RESOLVED).*
 
-**Recomendação:** Corrigir todas as URLs no CMS para links relativos (e.g., `/pontos-de-parada`) e configurar o redirecionamento no servidor DNS para que requisições ao domínio raiz sejam automaticamente direcionadas ao subdomínio canônico `www`.
+**Por que é um problema:** Norman (1988) salienta que a interface não deve impor ao usuário a resolução de quebra-cabeças técnicos ou frustrar a execução de sua tarefa básica. O usuário clica em um serviço essencial e tem o fluxo completamente rompido por uma falha de apontamento na camada de infraestrutura. Como a interface não fornece alternativa ou mensagem de contorno, o cidadão é impedido de concluir a tarefa, a menos que deduza por conta própria a necessidade de acrescentar manualmente o prefixo `www.` na barra de endereços. A classificação é mantida como **Alta**, pois a falha inviabiliza a conclusão da tarefa pelo caminho disponibilizado pela interface.
+
+**Recomendação:** Corrigir os links cadastrados no CMS para caminhos relativos (e.g., `/pontos-de-parada`). Na infraestrutura, configurar os registros DNS de `semob.df.gov.br` para que o domínio ápice seja resolvido e configurar, no servidor web ou proxy, um redirecionamento HTTP (código 301) para `https://www.semob.df.gov.br/`, preservando o caminho e os parâmetros da URL.
 
 ---
 
@@ -143,7 +147,7 @@ Na página inicial, diversos links essenciais dos cartões de serviços (como *P
 1. **Assistente de Busca de Linhas:** Adicionar preenchimento automático inteligente com filtro por número da linha e nome de itinerário na busca principal.
 2. **Guias Práticos e Passo a Passo:** Transformar páginas estáticas de benefícios e cartões em fluxos com etapas bem definidas (documentos, formulário e pontos de atendimento).
 3. **Mapeamento de Postos de Recarga:** Integrar mapa interativo dos pontos de recarga com geolocalização e filtros por Região Administrativa.
-4. **Saneamento Imediato de URLs:** Garantir integridade de todos os links dos blocos de acesso rápido da página inicial.
+4. **Saneamento de URLs e Infraestrutura Web:** Converter links do CMS para caminhos relativos e configurar resolução DNS e redirecionamento HTTP no domínio ápice.
 
 ---
 
@@ -172,7 +176,7 @@ Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação
 Abaixo encontram-se os recortes comprobatórios extraídos diretamente da obra de referência da disciplina (Barbosa et al., 2021, p. 239):
 
 ![Referência Teórica 01 - Simplicidade nas Estruturas das Tarefas](../../assets/prints_referencias/referencia-simplicidade-tarefas-1.png)
-*Imagem 01: Trecho do livro-texto destacando a definição de Simplicidade nas Estruturas das Tarefas segundo Norman (1988).*
+*Imagem 07: Trecho do livro-texto destacando a definição de Simplicidade nas Estruturas das Tarefas segundo Norman (1988).*
 
 ![Referência Teórica 02 - Abordagens Tecnológicas e Automação](../../assets/prints_referencias/referencia-simplicidade-tarefas-2.png)
-*Imagem 02: Trecho do livro-texto detalhando as quatro abordagens tecnológicas para simplificar tarefas e o alerta sobre os perigos da automação excessiva.*
+*Imagem 08: Trecho do livro-texto detalhando as quatro abordagens tecnológicas para simplificar tarefas e o alerta sobre os perigos da automação excessiva.*

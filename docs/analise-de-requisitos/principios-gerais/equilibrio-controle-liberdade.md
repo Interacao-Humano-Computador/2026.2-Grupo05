@@ -3,6 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 05/10/2026 | 1.0 | Criação do documento de análise de equilíbrio entre controle e liberdade do usuário no site da **SEMOB-DF**. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 06/10/2026 | 1.1 | Ajuste das evidências de breadcrumb (CL2) e refinamento da análise de retorno do DF no Ponto com reclassificação para gravidade média (CL3), conforme revisão de PR #42. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
 
 ---
 
@@ -22,7 +23,7 @@
 
 ## 1. O princípio segundo o livro
 
-O capítulo 10 consolida a visão de autores seminais de IHC — como Norman (1988), Nielsen (1994), Tognazzini (2014), Shneiderman (1998) e Cooper (1999) — acerca da soberania do usuário e da autonomia da interação, com recortes comprobatórios extraídos nas Imagens 01, 02 e 03.
+O capítulo 10 consolida a visão de autores seminais de IHC — como Norman (1988), Nielsen (1994), Tognazzini (2014), Shneiderman (1998) e Cooper (1999) — acerca da soberania do usuário e da autonomia da interação, com recortes comprobatórios extraídos nas Imagens 08, 09 e 10.
 
 Tognazzini (2014) postula que a interface, o ambiente de trabalho e o computador pertencem ao usuário. Deixar o usuário "no comando" confere-lhe rápida curva de aprendizado, sensação de domínio e segurança cognitiva. Contudo, os autores salientam a necessidade crítica de estabelecer um **equilíbrio delicado**: interfaces destituídas de limites ou restrições provocam angústia e sensação de desorientação diante de uma sobrecarga de opções.
 
@@ -85,7 +86,7 @@ A Tabela 02 resume os problemas de equilíbrio entre controle e liberdade levant
 |---|---|---|---|
 | CL1 | Campo de pesquisa não oferece botão de limpeza rápida ("X") | Reversibilidade de ações e facilidade para desfazer digitação | **Média** |
 | CL2 | Breadcrumb exibe rota técnica quebrada (*Modulo 15 Botoes*) que desorienta o retorno | Caminho claro de saída e integridade da navegação hierárquica | **Alta** |
-| CL3 | Transição para aplicações externas (*DF no Ponto* e *Ouvidoria*) sem rota de retorno | Saídas de emergência e preservação do contexto do usuário | **Alta** |
+| CL3 | Baixa visibilidade do caminho de retorno ao portal da SEMOB no DF no Ponto | Saídas de emergência e preservação do contexto do usuário | **Média** |
 | CL4 | Ausência de filtros e controle de refinamento na listagem de resultados da busca | Controle local da interação e liberdade de filtragem | **Média** |
 | CL5 | Inexistência de botão flutuante "Voltar ao Topo" em páginas com rolagem extensa | Controle ergonômico da navegação vertical | **Baixa** |
 
@@ -103,11 +104,11 @@ Ao interagir com o campo de busca *"Digite aqui o que você procura"* no cabeça
 
 ### CL2. Trilha de navegação intermediária corrompida com nó técnico (Gravidade Alta)
 
-Nas páginas de serviços internos (como *Preços das Passagens* e *Bilhetagem*), a trilha de navegação (*breadcrumb*) exibe o seguinte encadeamento:  
-`Secretaria de Estado... > Modulo 15 Botoes > Preços das Passagens` (Imagem 05).
+Na página de Bilhetagem, a trilha de navegação (*breadcrumb*) apresenta o seguinte encadeamento:  
+`Secretaria de Estado... > Modulo 15 Botoes > Bilhetagem` (Imagem 05).
 
-![Breadcrumb com Modulo 15 Botoes](../../assets/prints_referencias/print-controle-breadcrumb.png)
-*Imagem 05: Trilha de navegação exibindo o elemento interno do CMS "Modulo 15 Botoes".*
+![Breadcrumb da página de Bilhetagem com a categoria Modulo 15 Botoes](../../assets/prints_referencias/print-simplicidade-bilhetagem.png)
+*Imagem 05: Trilha de navegação da página de Bilhetagem exibindo a categoria técnica “Modulo 15 Botoes”.*
 
 Ao clicar sobre o item intermediário `Modulo 15 Botoes` buscando subir um nível hierárquico na navegação, o usuário é direcionado inadvertidamente para a tela de *Bilhete Único* ou cai em uma página genérica.
 
@@ -117,18 +118,23 @@ Ao clicar sobre o item intermediário `Modulo 15 Botoes` buscando subir um níve
 
 ---
 
-### CL3. Confinamento em subsistemas externos sem rota visível de regresso (Gravidade Alta)
+### CL3. Baixa visibilidade do caminho de retorno ao portal da SEMOB (Gravidade Média)
 
-Ao acionar links para serviços de alta demanda, como a consulta interativa no *DF no Ponto* ou o canal de manifestação no *Participa DF*, o portal transfere o usuário para domínios externos (`dfnoponto.semob.df.gov.br` e `participa.df.gov.br`), conforme exposto na Imagem 06.
+Ao acionar o atalho da página inicial da SEMOB para o serviço de consulta interativa de linhas, o portal direciona o usuário para o site externo do *DF no Ponto* (<https://dfnoponto.com.br/>), conforme apresentado na Imagem 06.
 
-![Aplicação externa DF no Ponto](../../assets/prints_referencias/print-controle-df-no-ponto.png)
-*Imagem 06: Tela externa do DF no Ponto desprovida de qualquer link de retorno ao portal principal da SEMOB-DF.*
+![Área superior da aplicação externa DF no Ponto](../../assets/prints_referencias/print-controle-df-no-ponto.png)
+*Imagem 06: Área superior da página do DF no Ponto desprovida de atalho ou barra no cabeçalho para retorno ao portal da SEMOB-DF.*
 
-**Por que é um problema:** As páginas de destino não fornecem nenhum elemento de cabeçalho ou link contextual para *"Retornar ao Portal da SEMOB-DF"*. Se o link for aberto na mesma aba, o usuário é apartado da estrutura institucional do órgão e sua única rota de fuga passa a ser o botão retroceder do navegador. Se aberto em nova aba sem ícone indicativo, há quebra da convenção de navegação da janela.
+Embora a página conte com um link direcionado à SEMOB-DF em seu rodapé (Imagem 07), esse mecanismo de regresso possui baixíssima visibilidade imediata, demandando uma rolagem vertical extensa até o final da página para que possa ser localizado.
 
-**Recomendação:** Em links para subsistemas e serviços externos:
-1. Sinalizar explicitamente no rótulo visual que se trata de link externo;
-2. Disponibilizar, nas aplicações satélites sob gestão da Secretaria, uma barra de integração superior com botão evidente de regresso ao portal institucional.
+![Rodapé da aplicação externa DF no Ponto](../../assets/prints_referencias/print-controle-df-no-ponto-rodape.png)
+*Imagem 07: Rodapé do DF no Ponto apresentando o link "Secretaria de Transporte e Mobilidade - SEMOB".*
+
+**Por que é um problema:** As diretrizes de Nielsen (1994) e Tognazzini (2014) para saídas de emergência e autonomia do usuário preconizam que saídas e rotas de retorno devem estar prontamente visíveis e demandar esforço mínimo de localização. Ao transferir o cidadão para um domínio externo sem um ponto de retorno visível no cabeçalho ou na área primária de visualização, a interface impõe atrito de navegação e sensação de perda de contexto institucional, compelindo o usuário a recorrer ao botão de retroceder do navegador ou a inspecionar exaustivamente o rodapé. A gravidade é classificada como **Média**, pois causa atrito considerável para desfazer passos sem impossibilitar o retorno.
+
+**Recomendação:**
+1. Tornar o link de retorno à SEMOB mais visível, incluindo-o também no cabeçalho do DF no Ponto (e.g., através de barra de governo ou botão de atalho institucional);
+2. Sinalizar previamente no portal institucional da SEMOB quando um atalho direcionar para outro site ou sistema externo.
 
 ---
 
@@ -156,7 +162,7 @@ Páginas com tabelas densas ou extensos informativos (como a página de contatos
 
 1. **Botão de Limpeza em Campos de Entrada:** Implementar controle de reset instantâneo em todos os formulários e campos de busca.
 2. **Correção de Categorias nos Breadcrumbs:** Eliminar rotulagens técnicas do CMS (`Modulo 15 Botoes`) e garantir caminhos ascendentes íntegros.
-3. **Mecanismo de Saída em Aplicações Satélites:** Assegurar que serviços vinculados (como o *DF no Ponto*) possuam caminho de volta claro ao portal da SEMOB.
+3. **Visibilidade do Retorno em Aplicações Satélites:** Disponibilizar no cabeçalho do *DF no Ponto* atalho explícito e visível de retorno à SEMOB, sinalizando links externos na origem.
 4. **Painel de Filtros e Refinamento de Resultados:** Permitir ao usuário parametrizar ordenação e categoria nos resultados de buscas.
 5. **Comando de Retorno ao Topo:** Inserir botão de retorno ágil ao cabeçalho em páginas longas.
 
@@ -164,7 +170,7 @@ Páginas com tabelas densas ou extensos informativos (como a página de contatos
 
 ## 6. Conclusão
 
-O portal da SEMOB-DF proporciona uma boa base estrutural de liberdade ao disponibilizar um menu institucional abrangente e controles rápidos de acessibilidade em todas as suas páginas. No entanto, o equilíbrio é comprometido quando o cidadão necessita transitar entre páginas e serviços: trilhas de navegação corrompidas e a ausência de elos de retorno nas ferramentas externas colocam o usuário em verdadeiros becos sem saída, ferindo as clássicas heurísticas de saídas de emergência preconizadas por Nielsen e a autonomia defendida por Tognazzini e Cooper. A aplicação das melhorias recomendadas garantirá que o usuário explore o portal com confiança e soberania sobre seus fluxos de interação.
+O portal da SEMOB-DF proporciona uma boa base estrutural de liberdade ao disponibilizar um menu institucional abrangente e controles rápidos de acessibilidade em todas as suas páginas. No entanto, o equilíbrio é comprometido quando o cidadão necessita transitar entre páginas e serviços: trilhas de navegação corrompidas e a baixa visibilidade de rotas de retorno nas ferramentas externas impõem atrito e desorientação, demandando atenção às clássicas diretrizes de saídas de emergência preconizadas por Nielsen e à autonomia defendida por Tognazzini e Cooper. A aplicação das melhorias recomendadas garantirá que o usuário explore o portal com confiança e soberania sobre seus fluxos de interação.
 
 ---
 
@@ -191,10 +197,10 @@ Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação
 Abaixo encontram-se os recortes comprobatórios extraídos diretamente da obra de referência da disciplina (Barbosa et al., 2021, pp. 239–241):
 
 ![Referência Teórica 01 - Controle do Usuário e Restrições](../../assets/prints_referencias/referencia-controle-liberdade-1.png)
-*Imagem 01: Trecho do livro-texto abordando a relevância de manter o usuário no comando e o poder das restrições (Norman; Tognazzini).*
+*Imagem 08: Trecho do livro-texto abordando a relevância de manter o usuário no comando e o poder das restrições (Norman; Tognazzini).*
 
 ![Referência Teórica 02 - Saídas de Emergência e Ações Reversíveis](../../assets/prints_referencias/referencia-controle-liberdade-2.png)
-*Imagem 02: Trecho do livro-texto destacando saídas de emergência e o impacto da reversibilidade de ações na redução da ansiedade (Nielsen; Tognazzini).*
+*Imagem 09: Trecho do livro-texto destacando saídas de emergência e o impacto da reversibilidade de ações na redução da ansiedade (Nielsen; Tognazzini).*
 
 ![Referência Teórica 03 - Diálogos de Confirmação e Valores Padrão](../../assets/prints_referencias/referencia-controle-liberdade-3.png)
-*Imagem 03: Trecho do livro-texto evidenciando a ponderação de diálogos de confirmação e a seleção de valores padrão eficientes (Cooper).*
+*Imagem 10: Trecho do livro-texto evidenciando a ponderação de diálogos de confirmação e a seleção de valores padrão eficientes (Cooper).*
