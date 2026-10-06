@@ -160,6 +160,11 @@ nav:
     - Guia de estilo:
       - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
       - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
+    - Princípios gerais:
+      - Consistência e padronização: analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md
+      - Visibilidade e reconhecimento: analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md
+
+  - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 
   - Verificação: 
     - Verificação da entrega 1: verificacao/verif1.md
