@@ -162,6 +162,7 @@ nav:
       - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
     - Princípios gerais:
       - Consistência e padronização: analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md
+      - Promoção da eficiência do usuário: analise-de-requisitos/principios-gerais/promocao-da-eficiencia-do-usuario.md
       - Visibilidade e reconhecimento: analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md
 
   - Verificação: 
