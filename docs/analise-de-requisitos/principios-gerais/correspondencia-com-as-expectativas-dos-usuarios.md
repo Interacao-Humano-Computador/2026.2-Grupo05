@@ -6,7 +6,7 @@
 | :---: | :---: | :--- | :--- | :--- |
 | 06/10/2026 | 1.0 | Criação da análise de correspondência com as expectativas dos usuários do portal **SEMOB-DF** para a Entrega 3, com fundamentação e evidências da inspeção. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
 | 06/10/2026 | 1.1 | Redução de sobreposições com outros princípios e ampliação da inspeção para preparação documental, cópias de processos e etapas de atendimento. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
-| 06/10/2026 | 1.2 | Destaque dos trechos da referência teórica utilizados na análise e ajuste da declaração de apoio por IA generativa. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
+| 06/10/2026 | 1.2 | Destaque dos trechos da referência teórica utilizados na análise. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
 
 ---
 
@@ -227,7 +227,7 @@ Esse recorte complementa as análises de rótulos, padronização e visibilidade
 
 ## 7. Declaração sobre o Uso de IA Generativa
 
-Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação (SBC) e as diretrizes do Plano de Ensino da disciplina, declara-se que um assistente de inteligência artificial generativa foi utilizado no apoio ao refinamento textual e à formatação Markdown deste documento. A condução analítica da inspeção, a identificação dos problemas de usabilidade e as proposições de redesign permaneceram sob autoria e responsabilidade dos integrantes do grupo.
+Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação (SBC) e as diretrizes do Plano de Ensino da disciplina, declara-se que o assistente de inteligência artificial generativa *Gemini* foi utilizado no apoio ao refinamento textual e formatação Markdown deste documento. A condução analítica da inspeção, a identificação dos problemas de usabilidade e as proposições de redesign permaneceram sob autoria e responsabilidade dos integrantes do grupo.
 
 ---
 
