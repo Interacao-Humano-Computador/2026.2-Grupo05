@@ -156,7 +156,10 @@ nav:
       - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
       - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
 
-  - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
+  - Design, Avaliação e Desenvolvimento:
+    - Guia de estilo:
+      - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
+      - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
 
   - Verificação: 
     - Verificação da entrega 1: verificacao/verif1.md
