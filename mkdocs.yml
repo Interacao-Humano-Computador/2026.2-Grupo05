@@ -103,6 +103,7 @@ nav:
     - Ata de reunião 1: atas/ata1.md
     - Ata de reunião 2 (Inspeção): atas/ata2.md
     - Ata de reunião 3: atas/ata3.md
+    - Ata de reunião 4 (Inspeção): atas/ata4.md
 
   - Planejamento:
     - Cronograma: planejamento/cronograma.md
@@ -157,6 +158,26 @@ nav:
       - Projeto para Erros: analise-de-requisitos/principios-gerais/projeto-para-erros.md
 
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
+    - Guia de estilo:
+      - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
+      - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
+      - Elementos de ação: analise-de-requisitos/guia-de-estilo/elementos-de-acao.md
+      - Vocabulário e padrões: analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md
+
+  - Design, Avaliação e Desenvolvimento:
+    - Guia de estilo:
+      - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
+      - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
+      - Elementos de ação: analise-de-requisitos/guia-de-estilo/elementos-de-acao.md
+      - Vocabulário e padrões: analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md
+    - Princípios gerais:
+      - Correspondência com as expectativas dos usuários: analise-de-requisitos/principios-gerais/correspondencia-com-as-expectativas-dos-usuarios.md
+      - Simplicidade nas estruturas das tarefas: analise-de-requisitos/principios-gerais/simplicidade-nas-estruturas-das-tarefas.md
+      - Equilíbrio entre controle e liberdade: analise-de-requisitos/principios-gerais/equilibrio-controle-liberdade.md
+      - Consistência e padronização: analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md
+      - Promoção da eficiência do usuário: analise-de-requisitos/principios-gerais/promocao-da-eficiencia-do-usuario.md
+      - Visibilidade e reconhecimento: analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md
+      - Conteúdo relevante e expressão adequada: analise-de-requisitos/principios-gerais/conteudo-relevante-e-expressao-adequada.md
 
   - Verificação: 
     - Verificação da entrega 1: verificacao/verif1.md
