@@ -103,6 +103,7 @@ nav:
     - Ata de reunião 1: atas/ata1.md
     - Ata de reunião 2 (Inspeção): atas/ata2.md
     - Ata de reunião 3: atas/ata3.md
+    - Ata de reunião 4 (Inspeção): atas/ata4.md
 
   - Planejamento:
     - Cronograma: planejamento/cronograma.md
@@ -170,6 +171,7 @@ nav:
       - Consistência e padronização: analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md
       - Promoção da eficiência do usuário: analise-de-requisitos/principios-gerais/promocao-da-eficiencia-do-usuario.md
       - Visibilidade e reconhecimento: analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md
+      - Conteúdo relevante e expressão adequada: analise-de-requisitos/principios-gerais/conteudo-relevante-e-expressao-adequada.md
 
   - Verificação: 
     - Verificação da entrega 1: verificacao/verif1.md

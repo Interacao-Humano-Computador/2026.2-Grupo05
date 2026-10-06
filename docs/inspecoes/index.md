@@ -6,6 +6,7 @@
 | :---: | :---: | :--- | :--- | :--- |
 | 05/10/2026 | 1.0 | Criação da página para centralizar as gravações das inspeções realizadas pelo grupo. | [Arthur Mariani](https://github.com/arthur-mariani) | A definir |
 | 05/10/2026 | 1.1 | Padronização das nove etapas de inspeção, com espaços para as gravações da inspeção do próprio grupo e do grupo alternado. | [Arthur Mariani](https://github.com/arthur-mariani) | A definir |
+| 06/10/2026 | 1.2 | Inclusão dos links e vídeos embarcados da autoinspeção do Grupo 05 e da inspeção do Grupo 03 (Entrega 2). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 ---
 
@@ -42,12 +43,33 @@ Cada etapa possui dois espaços de gravação: a inspeção recebida pelo **Grup
 ## 3. Inspeção da Entrega 2 — Perfil do Usuário e Análise de Tarefas
 
 * **Período de referência:** 26/09/2026 a 27/09/2026.
-* **Grupo alternado:** Grupo -1.
+* **Grupo alternado:** Grupo -1 (Grupo 03).
 
 | Vídeo | Registro | Link |
 | :---: | :--- | :--- |
-| 1 | Inspeção do próprio Grupo 05 | *Pendente* |
-| 2 | Inspeção do Grupo -1 | *Pendente* |
+| 1 | Autoinspeção do próprio Grupo 05 | [Assistir à gravação](https://www.youtube.com/watch?v=xcDPa3tNT-A) |
+| 2 | Inspeção do Grupo -1 (Grupo 03) | [Assistir à gravação](https://www.youtube.com/watch?v=fL6La7j0urA) |
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/xcDPa3tNT-A" title="Autoinspeção da Entrega 2 do Grupo 05" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div align="center">
+<p><strong>Vídeo 1</strong> — Gravação da reunião de autoinspeção da Entrega 2 do Grupo 05.</p>
+<p><em>Fonte: Grupo 05 (2026).</em></p>
+</div>
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/fL6La7j0urA" title="Inspeção da Entrega 2 do Grupo 03" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div align="center">
+<p><strong>Vídeo 2</strong> — Gravação da reunião de inspeção da Entrega 2 do Grupo 03 (Grupo -1).</p>
+<p><em>Fonte: Grupo 05 (2026).</em></p>
+</div>
+
+* **Registro da inspeção:** [Ata de reunião 4](../atas/ata4.md).
+* **Resultado registrado:** autoinspeção do Grupo 05 e inspeção do Grupo 03 concluídas. O parecer e as evidências estão na Ata 4.
 
 ---
 
