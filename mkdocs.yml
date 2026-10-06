@@ -152,11 +152,17 @@ nav:
       - TAR-04 e TAR-05 (Motorista - HTA e CTT): analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md
       - TAR-06 (Consulta DF no Ponto): analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md
       - TAR-07 (Crédito de Vale-Transporte): analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md
+    - Guia de estilo:
+      - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
+      - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
+
+  - Design, Avaliação e Desenvolvimento:
+    - Guia de estilo:
+      - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
+      - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
     - Princípios gerais:
       - Consistência e padronização: analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md
       - Visibilidade e reconhecimento: analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md
-
-  - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 
   - Verificação: 
     - Verificação da entrega 1: verificacao/verif1.md
