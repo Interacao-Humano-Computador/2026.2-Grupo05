@@ -2,7 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 05/10/2026 | 1.0 | Criação do documento de análise de equilíbrio entre controle e liberdade do usuário no site da **SEMOB-DF**. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
+| 05/10/2026 | 1.0 | Criação do documento de análise de equilíbrio entre controle e liberdade do usuário no site da **SEMOB-DF**. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
 
 ---
 
@@ -170,7 +170,7 @@ O portal da SEMOB-DF proporciona uma boa base estrutural de liberdade ao disponi
 
 ## Declaração sobre o Uso de IA Generativa
 
-Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação (SBC) e as diretrizes do Plano de Ensino da disciplina, declara-se que o assistente de inteligência artificial generativa foi utilizado no apoio à formulação da lista de trechos do livro-texto para extração automatizada de evidências via `HPExtrator` e no refinamento textual e formatação Markdown deste documento. A condução analítica da inspeção, a identificação dos problemas de usabilidade e as proposições de redesign permaneceram sob autoria e responsabilidade dos integrantes do grupo.
+Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação (SBC) e as diretrizes do Plano de Ensino da disciplina, declara-se que o assistente de inteligência artificial generativa *Gemini* foi utilizado no apoio ao refinamento textual e formatação Markdown deste documento. A condução analítica da inspeção, a identificação dos problemas de usabilidade e as proposições de redesign permaneceram sob autoria e responsabilidade dos integrantes do grupo.
 
 ---
 
@@ -188,7 +188,7 @@ Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação
 
 ## Imagens de Referências
 
-Abaixo encontram-se os recortes comprobatórios extraídos diretamente da obra de referência da disciplina (Barbosa et al., 2021, pp. 239–241) pelo extrator inteligente `HPExtrator`:
+Abaixo encontram-se os recortes comprobatórios extraídos diretamente da obra de referência da disciplina (Barbosa et al., 2021, pp. 239–241):
 
 ![Referência Teórica 01 - Controle do Usuário e Restrições](../../assets/prints_referencias/referencia-controle-liberdade-1.png)
 *Imagem 01: Trecho do livro-texto abordando a relevância de manter o usuário no comando e o poder das restrições (Norman; Tognazzini).*

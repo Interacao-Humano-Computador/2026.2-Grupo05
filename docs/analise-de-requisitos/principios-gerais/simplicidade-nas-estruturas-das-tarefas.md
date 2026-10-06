@@ -2,7 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 05/10/2026 | 1.0 | Criação do documento de análise de simplicidade nas estruturas das tarefas no site da **SEMOB-DF**. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) |
+| 05/10/2026 | 1.0 | Criação do documento de análise de simplicidade nas estruturas das tarefas no site da **SEMOB-DF**. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
 
 ---
 
@@ -155,7 +155,7 @@ O portal da SEMOB-DF apresenta algumas iniciativas louváveis para encurtar cami
 
 ## Declaração sobre o Uso de IA Generativa
 
-Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação (SBC) e as diretrizes do Plano de Ensino da disciplina, declara-se que o assistente de inteligência artificial generativa foi utilizado como apoio na estruturação da lista de trechos literais do livro-texto processados pelo extrator automatizado `HPExtrator`, bem como na organização e revisão estilística do documento em Markdown. Todas as inspeções analíticas no portal da SEMOB-DF, a classificação de problemas e a emissão de recomendações técnicas foram fundamentadas na teoria de IHC sob responsabilidade dos autores.
+Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação (SBC) e as diretrizes do Plano de Ensino da disciplina, declara-se que o assistente de inteligência artificial generativa *Gemini* foi utilizado como apoio na organização e revisão estilística do documento em Markdown. Todas as inspeções analíticas no portal da SEMOB-DF, a classificação de problemas e a emissão de recomendações técnicas foram fundamentadas na teoria de IHC sob responsabilidade dos autores.
 
 ---
 
@@ -169,7 +169,7 @@ Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação
 
 ## Imagens de Referências
 
-Abaixo encontram-se os recortes comprobatórios extraídos diretamente da obra de referência da disciplina (Barbosa et al., 2021, p. 239) por meio do extrator inteligente `HPExtrator`:
+Abaixo encontram-se os recortes comprobatórios extraídos diretamente da obra de referência da disciplina (Barbosa et al., 2021, p. 239):
 
 ![Referência Teórica 01 - Simplicidade nas Estruturas das Tarefas](../../assets/prints_referencias/referencia-simplicidade-tarefas-1.png)
 *Imagem 01: Trecho do livro-texto destacando a definição de Simplicidade nas Estruturas das Tarefas segundo Norman (1988).*
