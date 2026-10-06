@@ -161,6 +161,8 @@ nav:
       - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
       - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
     - Princípios gerais:
+      - Simplicidade nas estruturas das tarefas: analise-de-requisitos/principios-gerais/simplicidade-nas-estruturas-das-tarefas.md
+      - Equilíbrio entre controle e liberdade: analise-de-requisitos/principios-gerais/equilibrio-controle-liberdade.md
       - Consistência e padronização: analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md
       - Visibilidade e reconhecimento: analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md
 
