@@ -53,7 +53,7 @@ Na Tabela 1, apresenta-se o quadro consolidado com todas as análises realizadas
 
 ---
 
-## 3. Fotos de Referência Teórica
+## 3. Fotos de Referência
 
 ![Imagem 1](../../assets/prints_referencias/print-analisetarefas1.png)
 <div align="center">

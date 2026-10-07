@@ -1,3 +1,5 @@
+# Consistência e Padronização no site da SEMOB-DF
+
 ## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
@@ -5,8 +7,6 @@
 | 05/10/2026 | 1.0 | Criação do documento de consistência e padronização do **SEMOB-DF**. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
 
 ---
-
-# Consistência e Padronização no site da SEMOB-DF
 
 **Site analisado:** <https://www.semob.df.gov.br/> (Secretaria de Estado de Transporte e Mobilidade do Distrito Federal)
 
@@ -275,14 +275,14 @@ A **estrutura geral** do site da SEMOB é consistente, porque segue o padrão vi
 
 ---
 
-### Referências
-
-- BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.4.
-
-### Imagens de Referências
+## Fotos de Referência
 
 - ![imagem 1](../../assets/prints_referencias/print-consistencia-e-padronizacao-1.png)
 *Imagem 01: Referência teórica do livro-texto.*
 
 - ![imagem 2](../../assets/prints_referencias/print-consistencia-e-padronizacao-2.png)
 *Imagem 02: Referência teórica do livro-texto.*
+
+## Referências Bibliográficas
+
+- BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.4.

@@ -4,8 +4,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 05/10/2026 | 1.0 | Criação da página para centralizar as gravações das inspeções realizadas pelo grupo. | [Arthur Mariani](https://github.com/arthur-mariani) | A definir |
-| 05/10/2026 | 1.1 | Padronização das nove etapas de inspeção, com espaços para as gravações da inspeção do próprio grupo e do grupo alternado. | [Arthur Mariani](https://github.com/arthur-mariani) | A definir |
+| 05/10/2026 | 1.0 | Criação da página para centralizar as gravações das inspeções realizadas pelo grupo. | [Arthur Mariani](https://github.com/arthur-mariani) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
+| 05/10/2026 | 1.1 | Padronização das nove etapas de inspeção, com espaços para as gravações da inspeção do próprio grupo e do grupo alternado. | [Arthur Mariani](https://github.com/arthur-mariani) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
 | 06/10/2026 | 1.2 | Inclusão dos links e vídeos embarcados da autoinspeção do Grupo 05 e da inspeção do Grupo 03 (Entrega 2). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 ---

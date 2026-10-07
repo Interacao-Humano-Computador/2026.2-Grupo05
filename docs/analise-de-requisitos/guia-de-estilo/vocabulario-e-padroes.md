@@ -210,12 +210,12 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 
 ---
 
-## Referências bibliográficas
-
-BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário.** Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 10, p. 237-259.
-
-## Foto do texto da referência
+## Fotos de Referência
 
 ![Vocabulário e padrões — Barbosa et al. (2021), p. 258](../../assets/prints_referencias/print-guia-de-estilo-vocabularios.png){ width="500" }
 
 *Imagem 1 - Vocabulários e Padrões. Fonte: Barbosa et al. (2021), p. 258.*
+
+## Referências Bibliográficas
+
+BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário.** Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 10, p. 237-259.

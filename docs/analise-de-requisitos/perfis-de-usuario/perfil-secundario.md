@@ -4,7 +4,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista e padronização de artefato | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | A definir |
+| 27/09/2026 | 1.0 | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista e padronização de artefato | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 ---
 

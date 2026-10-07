@@ -6,7 +6,7 @@
 | :---: | :---: | :--- | :--- | :--- |
 | 05/10/2026 | 1.0 |Análise de visibilidade e reconhecimento no site do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
 
-## 1.Introdução
+## 1. Introdução
 
 As ideias usadas como critério nesta análise são:
 
@@ -212,7 +212,13 @@ O site da SEMOB tem boa **infraestrutura** de visibilidade: busca sempre à vist
 
 ---
 
-### Referências
+## Fotos de Referência
+
+<img src="../../assets/prints_referencias/referencia-visibiliade-reconhecimento-244.png" alt="Referência página 244" width="500">
+
+<img src="../../assets/prints_referencias/referencia-visibiliade-reconhecimento-245.png" alt="Referência página 245" width="500">
+
+## Referências Bibliográficas
 
 - BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.7.
 - COOPER, A. *The Inmates Are Running the Asylum*. Sams, 1999.
@@ -220,10 +226,3 @@ O site da SEMOB tem boa **infraestrutura** de visibilidade: busca sempre à vist
 - NORMAN, D. A. *The Design of Everyday Things*. Basic Books, 1988.
 - SHNEIDERMAN, B. *Designing the User Interface*. 3. ed. Addison-Wesley, 1998.
 - TOGNAZZINI, B. *First Principles of Interaction Design (Revised & Expanded)*. AskTog, 2014.
-
-### Imagens das Referências
-
-![Referência página 244](../../assets/prints_referencias/referencia-visibiliade-reconhecimento-244.png){ width="500" }
-
-![Referência página 245](../../assets/prints_referencias/referencia-visibiliade-reconhecimento-245.png){ width="500" }
-
