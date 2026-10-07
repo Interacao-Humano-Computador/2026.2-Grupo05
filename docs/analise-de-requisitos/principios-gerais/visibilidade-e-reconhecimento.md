@@ -221,8 +221,9 @@ O site da SEMOB tem boa **infraestrutura** de visibilidade: busca sempre à vist
 - SHNEIDERMAN, B. *Designing the User Interface*. 3. ed. Addison-Wesley, 1998.
 - TOGNAZZINI, B. *First Principles of Interaction Design (Revised & Expanded)*. AskTog, 2014.
 
-### Imagens das Refereências
+### Imagens das Referências
 
-<img src="../../assets/prints_referencias/referencia-visibiliade-reconhecimento-244.png" alt="Referência página 244" width="500">
+![Referência página 244](../../assets/prints_referencias/referencia-visibiliade-reconhecimento-244.png){ width="500" }
 
-<img src="../../assets/prints_referencias/referencia-visibiliade-reconhecimento-245.png" alt="Referência página 245" width="500">
+![Referência página 245](../../assets/prints_referencias/referencia-visibiliade-reconhecimento-245.png){ width="500" }
+
