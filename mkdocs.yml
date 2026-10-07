@@ -95,12 +95,15 @@ not_in_nav: |
 nav:
   - Inicial: index.md
 
-  - Apresentações: apresentacoes/index.md
+  - Gravações:
+    - Apresentações: apresentacoes/index.md
+    - Inspeções: inspecoes/index.md
 
   - Atas:
     - Ata de reunião 1: atas/ata1.md
     - Ata de reunião 2 (Inspeção): atas/ata2.md
     - Ata de reunião 3: atas/ata3.md
+    - Ata de reunião 4 (Inspeção): atas/ata4.md
 
   - Planejamento:
     - Cronograma: planejamento/cronograma.md
@@ -136,7 +139,10 @@ nav:
       - Cenário 2 (Atraso e Conflito no App): analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md
       - Cenário 3 (Deslocamento com Busca por Destino): analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md
       - Cenário 4 (Crédito de Vale-Transporte): analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md
-      - Cenários do Motorista (Valdir Soares): analise-de-requisitos/cenarios/cenarios-motorista.md
+      - Cenário 5 (Consulta da Escala): analise-de-requisitos/cenarios/cenario-5-consulta-escala.md
+      - Cenário 6 (Alerta de Desvio): analise-de-requisitos/cenarios/cenario-6-alerta-desvio.md
+      - Cenário 7 (Dúvida de Passageiro): analise-de-requisitos/cenarios/cenario-7-duvida-passageiro.md
+      - Cenário 8 (Conflito na Catraca): analise-de-requisitos/cenarios/cenario-8-conflito-catraca.md
       - Cenário 9 (Endereço Novo e Desvio): analise-de-requisitos/cenarios/cenario-9-endereco-novo.md
       - Cenário 10 (Viagem Ideal sob Chuva): analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md
     - Análise de tarefas:
@@ -146,11 +152,37 @@ nav:
       - TAR-03 (Origem/Destino e Tempo Real): analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md
       - TAR-04 e TAR-05 (Motorista - HTA e CTT): analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md
       - TAR-06 (Consulta DF no Ponto): analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md
+      - TAR-07 (Crédito de Vale-Transporte): analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md
+    - Guia de estilo:
+      - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
+      - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
+      - Elementos de interface: analise-de-requisitos/guia-de-estilo/elementos-de-interface.md
+      - Elementos de interação: analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md
+      - Elementos de ação: analise-de-requisitos/guia-de-estilo/elementos-de-acao.md
+      - Vocabulário e padrões: analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md
+    - Princípios gerais:
+      - Metas de usabilidade: analise-de-requisitos/principios-gerais/metas-de-usabilidade.md
+      - Correspondência com as expectativas dos usuários: analise-de-requisitos/principios-gerais/correspondencia-com-as-expectativas-dos-usuarios.md
+      - Simplicidade nas estruturas das tarefas: analise-de-requisitos/principios-gerais/simplicidade-nas-estruturas-das-tarefas.md
+      - Equilíbrio entre controle e liberdade: analise-de-requisitos/principios-gerais/equilibrio-controle-liberdade.md
+      - Consistência e padronização: analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md
+      - Promoção da eficiência do usuário: analise-de-requisitos/principios-gerais/promocao-da-eficiencia-do-usuario.md
+      - Antecipação das necessidades do usuário: analise-de-requisitos/principios-gerais/antecipacao.md
+      - Visibilidade e reconhecimento: analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md
+      - Conteúdo relevante e expressão adequada: analise-de-requisitos/principios-gerais/conteudo-relevante-e-expressao-adequada.md
+      - Projeto para Erros: analise-de-requisitos/principios-gerais/projeto-para-erros.md
+    - Guia de estilo:
+      - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
+      - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
+      - Elementos de interação: analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md
+      - Elementos de ação: analise-de-requisitos/guia-de-estilo/elementos-de-acao.md
+      - Vocabulário e padrões: analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md
 
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 
   - Verificação: 
     - Verificação da entrega 1: verificacao/verif1.md
     - Verificação da entrega 2: verificacao/verif2.md
+    - Verificação da entrega 3: verificacao/verif3.md
 
   - Entrega Final: entrega-final/index.md
