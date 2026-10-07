@@ -4,7 +4,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 06/10/2026 | 1.0 | Elaboração dos itens da lista de verificação para os princípios de Simplicidade nas Estruturas das Tarefas e Equilíbrio entre Controle e Liberdade do Usuário, com links para as referências visuais no padrão ABNT. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 06/10/2026 | 1.0 | Elaboração dos itens da lista de verificação para os princípios de Simplicidade nas Estruturas das Tarefas e Equilíbrio entre Controle e Liberdade do Usuário, com links para as referências visuais no padrão ABNT. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthurmariani01) |
+
 
 ---
 
@@ -12,7 +13,7 @@
 
 Esta lista de verificação compõe os instrumentos de inspeção e avaliação da **Entrega 3 (Princípios Gerais do Projeto, Metas de Usabilidade e Guia de Estilo)**, em conformidade com as diretrizes do Plano de Ensino da disciplina (SALES, 2026, pp. 11–12) e com a literatura seminal de Interação Humano-Computador (BARBOSA et al., 2021).
 
-O presente documento abrange 5 itens de verificação especializados, elaborados a partir dos tópicos de **Simplicidade nas Estruturas das Tarefas** (Seção 10.2.2) e **Equilíbrio entre Controle e Liberdade do Usuário** (Seção 10.2.3), com recortes bibliográficos extraídos via ferramenta [HPExtrator](https://github.com/Heitorovski01/HPExtrator).
+O presente documento abrange os itens de verificação elaborados pelos membros da equipe, contemplando **Princípios Gerais do Projeto de IHC** (Simplicidade, Controle e Liberdade, Conteúdo, Legibilidade, Prevenção de Erros) e o **Guia de Estilo** (Escopo, Registro, Elementos de Interface e Padrões de Interação).
 
 Para cada pergunta, o avaliador deve assinalar uma das opções:
 - **Conforme (Sim):** O artefato ou sistema atende integralmente ao critério estabelecido na literatura;
@@ -26,7 +27,7 @@ Para cada pergunta, o avaliador deve assinalar uma das opções:
 A Tabela 01 sintetiza as questões formuladas, os princípios de IHC contemplados, a autoria responsável e os links diretos para as respectivas figuras de referência bibliográfica.
 
 <div align="center">
-<p><strong>Tabela 01</strong> — Itens de verificação de IHC para Princípios Gerais (Etapa 3)</p>
+<p><strong>Tabela 01</strong> — Itens de verificação de IHC para Princípios Gerais e Guia de Estilo (Etapa 3)</p>
 </div>
 
 | Nº | Pergunta de verificação | Princípio de IHC | Conforme | Não conforme | Não se aplica | Autor |
@@ -36,16 +37,26 @@ A Tabela 01 sintetiza as questões formuladas, os princípios de IHC contemplado
 | 3 | O sistema oferece flexibilidade de percurso sem confinar o usuário a um fluxo de interação rígido e unidirecional, disponibilizando um caminho preferencial claro, mas viabilizando percursos alternativos? ([Figura 3](#figura-3)) | Controle e Liberdade | ☐ | ☐ | ☐ | [Carlos Costa](https://github.com/carloshfgit) |
 | 4 | O sistema disponibiliza saídas de emergência claramente marcadas, visíveis e de fácil acionamento, permitindo que o usuário abandone estados indesejados rapidamente e sem diálogos burocráticos? ([Figura 4](#figura-4)) | Controle e Liberdade | ☐ | ☐ | ☐ | [Carlos Costa](https://github.com/carloshfgit) |
 | 5 | O sistema assegura a reversibilidade de ações (como desfazer/refazer digitação ou limpar entradas de dados), reduzindo o medo do erro e evitando o uso excessivo de diálogos bloqueantes de confirmação? ([Figura 5](#figura-5)) | Controle e Liberdade | ☐ | ☐ | ☐ | [Carlos Costa](https://github.com/carloshfgit) |
+| 6 | Os princípios e as diretrizes selecionados foram contextualizados de acordo com o domínio da SEMOB-DF, os perfis de usuário e as atividades realizadas por esses usuários? | Contextualização de Diretrizes | ☐ | ☐ | ☐ | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 7 | Para cada problema identificado, o artefato apresenta a evidência encontrada, o princípio violado, a recomendação de correção e as possíveis consequências caso o problema permaneça? | Avaliação e Diagnóstico | ☐ | ☐ | ☐ | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 8 | As recomendações propostas explicam como o princípio analisado deverá aparecer concretamente no redesign ou no protótipo da SEMOB-DF? | Manifestação em Design | ☐ | ☐ | ☐ | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 9 | Os textos, instruções, mensagens, links e botões seguem as máximas de qualidade, quantidade, relevância e clareza, evitando informações desnecessárias, ambiguidades e termos pouco compreensíveis? | Conteúdo e Redação | ☐ | ☐ | ☐ | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 10 | As decisões de apresentação garantem legibilidade, com contraste adequado, tamanho de fonte suficiente, destaque para dados importantes e pistas adicionais quando cores são usadas para transmitir informação? | Apresentação e Legibilidade | ☐ | ☐ | ☐ | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 11 | O projeto prevê prevenção e recuperação de erros, com operações reversíveis e mensagens que indiquem claramente o problema, suas consequências e uma possível solução? | Prevenção e Recuperação de Erros | ☐ | ☐ | ☐ | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 12 | O Guia de Estilo declara claramente seu escopo, indicando se foi elaborado para uma plataforma, organização, família de produtos ou especificamente para o redesign da SEMOB-DF? | Guia de Estilo - Escopo | ☐ | ☐ | ☐ | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 13 | O Guia de Estilo registra as decisões de design de forma fácil de consultar, reutilizar, atualizar e comunicar entre as equipes de design e desenvolvimento? | Guia de Estilo - Reutilização e Registro | ☐ | ☐ | ☐ | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 14 | O Guia de Estilo define orientações para layout e grid, tipografia, ícones e símbolos, cores, visualização de informações e componentes de interface? | Guia de Estilo - Elementos de Interface | ☐ | ☐ | ☐ | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| 15 | O Guia de Estilo apresenta padrões para estilos de interação, ações, preenchimento de campos, terminologia, tipos de tela e sequências de diálogo, relacionando essas decisões aos resultados da análise dos usuários? | Guia de Estilo - Padrões de Interação | ☐ | ☐ | ☐ | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
 
 <div align="center">
-<p><em>Fonte: Carlos Costa (2026), adaptado de Barbosa et al. (2021, pp. 239–241).</em></p>
+<p><em>Fonte: Carlos Costa e Lucas Araújo (2026), adaptado de Barbosa et al. (2021).</em></p>
 </div>
 
 ---
 
 ## 3. Imagens de Referência
 
-Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina (BARBOSA et al., 2021), grifadas e geradas por meio do HPExtrator para fundamentar cada item de verificação.
+Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina (BARBOSA et al., 2021) para fundamentar os itens de verificação correspondentes.
 
 ---
 
