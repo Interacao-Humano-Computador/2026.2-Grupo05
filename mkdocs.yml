@@ -153,13 +153,8 @@ nav:
       - TAR-04 e TAR-05 (Motorista - HTA e CTT): analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md
       - TAR-06 (Consulta DF no Ponto): analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md
       - TAR-07 (Crédito de Vale-Transporte): analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md
-    - Metas de usabilidade: analise-de-requisitos/metas-de-usabilidade.md
-    - Guia de estilo:
-      - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
-      - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
-      - Elementos de ação: analise-de-requisitos/guia-de-estilo/elementos-de-acao.md
-      - Vocabulário e padrões: analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md
     - Princípios gerais:
+      - Metas de usabilidade: analise-de-requisitos/principios-gerais/metas-de-usabilidade.md
       - Correspondência com as expectativas dos usuários: analise-de-requisitos/principios-gerais/correspondencia-com-as-expectativas-dos-usuarios.md
       - Simplicidade nas estruturas das tarefas: analise-de-requisitos/principios-gerais/simplicidade-nas-estruturas-das-tarefas.md
       - Equilíbrio entre controle e liberdade: analise-de-requisitos/principios-gerais/equilibrio-controle-liberdade.md
@@ -169,6 +164,12 @@ nav:
       - Visibilidade e reconhecimento: analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md
       - Conteúdo relevante e expressão adequada: analise-de-requisitos/principios-gerais/conteudo-relevante-e-expressao-adequada.md
       - Projeto para Erros: analise-de-requisitos/principios-gerais/projeto-para-erros.md
+    - Guia de estilo:
+      - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
+      - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
+      - Elementos de interação: analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md
+      - Elementos de ação: analise-de-requisitos/guia-de-estilo/elementos-de-acao.md
+      - Vocabulário e padrões: analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md
 
   - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
 
