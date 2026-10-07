@@ -60,12 +60,12 @@ O livro orienta estabelecer faixas **inaceitáveis**, **aceitáveis** e **ideais
 
 A aplicação dos fatores apresentados no livro ao caso da SEMOB-DF considerou os seguintes artefatos:
 
-- os [Perfis de Usuário](perfis-de-usuario/index.md), que caracterizam passageiros, profissionais técnicos e motoristas, bem como seus contextos de acesso e conhecimento do domínio;
-- as [Personas](personas/index.md), que registram objetivos, habilidades, tarefas, necessidades e expectativas;
-- os [Cenários](cenarios/index.md), que descrevem situações de uso, problemas e consequências enfrentadas pelos usuários;
-- as [Análises de Tarefas](analise-de-tarefas/index.md), que decompõem os objetivos e os fluxos de interação investigados;
-- o [Brainstorming de Necessidades e Desejos](brainstorm.md), que registra as prioridades manifestadas pelos participantes;
-- as inspeções dos [Princípios Gerais](principios-gerais/correspondencia-com-as-expectativas-dos-usuarios.md), que relacionam problemas do portal às diretrizes de design de IHC.
+- os [Perfis de Usuário](../perfis-de-usuario/index.md), que caracterizam passageiros, profissionais técnicos e motoristas, bem como seus contextos de acesso e conhecimento do domínio;
+- as [Personas](../personas/index.md), que registram objetivos, habilidades, tarefas, necessidades e expectativas;
+- os [Cenários](../cenarios/index.md), que descrevem situações de uso, problemas e consequências enfrentadas pelos usuários;
+- as [Análises de Tarefas](../analise-de-tarefas/index.md), que decompõem os objetivos e os fluxos de interação investigados;
+- o [Brainstorming de Necessidades e Desejos](../brainstorm.md), que registra as prioridades manifestadas pelos participantes;
+- as inspeções dos [Princípios Gerais](correspondencia-com-as-expectativas-dos-usuarios.md), que relacionam problemas do portal às diretrizes de design de IHC.
 
 A fundamentação dos fatores permanece a apresentada pelo livro. As relações estabelecidas a seguir com linhas, horários, itinerários, benefícios e atendimento correspondem à aplicação analítica realizada pela equipe para o domínio da SEMOB-DF.
 
@@ -180,11 +180,11 @@ As metas poderão orientar a avaliação das tarefas já modeladas no projeto:
 
 | Tarefa documentada | Metas diretamente relacionadas |
 | --- | --- |
-| [TAR-01 - Alerta inteligente de saída](analise-de-tarefas/tar-01-alerta-saida.md) | Eficácia, eficiência, segurança e satisfação. |
-| [TAR-02 - Pré-agendamento no Programa DF Acessível](analise-de-tarefas/tar-02-df-acessivel.md) | Eficácia, facilidade de aprendizado, segurança e satisfação. |
-| [TAR-03 - Planejamento de rota por origem e destino](analise-de-tarefas/tar-03-planejamento-rota.md) | Eficácia, eficiência, facilidade de aprendizado e satisfação. |
-| [TAR-06 - Consulta de ônibus em tempo real](analise-de-tarefas/tar-06-df-no-ponto.md) | Eficácia, eficiência, facilidade de recordação e satisfação. |
-| [TAR-07 - Resolver indisponibilidade de crédito de Vale-Transporte](analise-de-tarefas/tar-07-credito-vale-transporte.md) | Eficácia, facilidade de aprendizado, segurança e satisfação. |
+| [TAR-01 - Alerta inteligente de saída](../analise-de-tarefas/tar-01-alerta-saida.md) | Eficácia, eficiência, segurança e satisfação. |
+| [TAR-02 - Pré-agendamento no Programa DF Acessível](../analise-de-tarefas/tar-02-df-acessivel.md) | Eficácia, facilidade de aprendizado, segurança e satisfação. |
+| [TAR-03 - Planejamento de rota por origem e destino](../analise-de-tarefas/tar-03-planejamento-rota.md) | Eficácia, eficiência, facilidade de aprendizado e satisfação. |
+| [TAR-06 - Consulta de ônibus em tempo real](../analise-de-tarefas/tar-06-df-no-ponto.md) | Eficácia, eficiência, facilidade de recordação e satisfação. |
+| [TAR-07 - Resolver indisponibilidade de crédito de Vale-Transporte](../analise-de-tarefas/tar-07-credito-vale-transporte.md) | Eficácia, facilidade de aprendizado, segurança e satisfação. |
 
 Essa relação orienta quais fatores observar em cada tarefa, mas não substitui a preparação da avaliação com representantes dos usuários.
 
@@ -214,19 +214,19 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 
 ## 9. Fotos de Referência
 
-![Fatores de usabilidade apresentados no livro](../assets/prints_referencias/referencia-metas-usabilidade-fatores.png){ width="700" }
+![Fatores de usabilidade apresentados no livro](../../assets/prints_referencias/referencia-metas-usabilidade-fatores.png){ width="700" }
 
 *Imagem 1 - Eficácia, eficiência, satisfação e fatores de usabilidade apresentados por Nielsen. Fonte: Barbosa e Silva (2010), p. 29.*
 
-![Fundamentação para definição das metas de usabilidade](../assets/prints_referencias/referencia-metas-usabilidade-fundamentacao.png){ width="700" }
+![Fundamentação para definição das metas de usabilidade](../../assets/prints_referencias/referencia-metas-usabilidade-fundamentacao.png){ width="700" }
 
 *Imagem 2 - Contexto da Engenharia de Usabilidade de Nielsen e início da definição das metas de usabilidade. Fonte: Barbosa e Silva (2010), p. 105.*
 
-![Definição, indicadores e faixas das metas de usabilidade](../assets/prints_referencias/referencia-metas-usabilidade-definicao.png){ width="700" }
+![Definição, indicadores e faixas das metas de usabilidade](../../assets/prints_referencias/referencia-metas-usabilidade-definicao.png){ width="700" }
 
 *Imagem 3 - Continuação da definição, Exemplo 4.1 e Figura 4.6 sobre indicadores e faixas. Fonte: Barbosa e Silva (2010), p. 106.*
 
-![Indicadores e atividades do teste de usabilidade](../assets/prints_referencias/referencia-metas-usabilidade-avaliacao.png){ width="700" }
+![Indicadores e atividades do teste de usabilidade](../../assets/prints_referencias/referencia-metas-usabilidade-avaliacao.png){ width="700" }
 
 *Imagem 4 - Atividades do teste de usabilidade e dados mensuráveis para avaliar metas. Fonte: Barbosa e Silva (2010), p. 342.*
 
