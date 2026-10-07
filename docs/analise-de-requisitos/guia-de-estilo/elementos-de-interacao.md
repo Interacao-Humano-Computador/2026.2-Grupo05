@@ -9,7 +9,7 @@
 
 ## 1. Introdução
 
-Esta seção detalha os elementos de interação do Guia de Estilo para o portal da SEMOB-DF. Conforme estruturado por Mayhew (1999) e Marcus (1991) (citados por Barbosa et al., 2021, p. 258), os elementos de interação englobam os estilos de interação, a justificativa para a seleção de um estilo e a definição de aceleradores (teclas de atalho), visando garantir uma comunicação eficiente e consistente entre o sistema e o usuário.
+Esta seção detalha os elementos de interação do Guia de Estilo para o portal da SEMOB-DF. Conforme estruturado por Mayhew (1999) e Marcus (1991) (citados por Barbosa et al., 2021, p. 258, imagem 1), os elementos de interação englobam os estilos de interação, a justificativa para a seleção de um estilo e a definição de aceleradores (teclas de atalho), visando garantir uma comunicação eficiente e consistente entre o sistema e o usuário.
 
 ## 2. Estilo de Interação
 
