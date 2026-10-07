@@ -1,0 +1,4150 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto de Interação Humano-Computador do Grupo 05, FCTE/UnB, 2026.2.">
+      
+      
+        <meta name="author" content="Grupo 05 — IHC 2026.2">
+      
+      
+        <link rel="canonical" href="https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte/">
+      
+      
+        <link rel="prev" href="../tar-06-df-no-ponto/">
+      
+      
+        <link rel="next" href="../../guia-de-estilo/introducao/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>TAR-07 (Crédito de Vale-Transporte) - Projeto da Disciplina de IHC - Grupo 05</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit:300,300i,400,400i,700,700i%7CIBM+Plex+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Outfit";--md-code-font:"IBM Plex Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+<meta name="theme-color" content="#0A2342">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script>
+(function () {
+  try {
+    var font = localStorage.getItem("ihc-font");
+    if (font) document.documentElement.style.setProperty("--a11y-font-size", font + "%");
+    var hc = localStorage.getItem("ihc-hc");
+    if (hc === "1" || (hc === null && window.matchMedia && window.matchMedia("(prefers-contrast: more)").matches)) {
+      document.documentElement.classList.add("hc");
+    }
+  } catch (e) {}
+})();
+</script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#tar-07-resolver-indisponibilidade-de-credito-de-vale-transporte" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Projeto da Disciplina de IHC - Grupo 05" class="md-header__button md-logo" aria-label="Projeto da Disciplina de IHC - Grupo 05" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Projeto da Disciplina de IHC - Grupo 05
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              TAR-07 (Crédito de Vale-Transporte)
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Ativar modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Ativar modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Ativar modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Ativar modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo05" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026.2-Grupo05
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Inicial
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../apresentacoes/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Gravações
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../atas/ata1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Atas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planejamento/cronograma/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Análise de Requisitos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../design-avaliacao-desenvolvimento/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Design, Avaliação e Desenvolvimento
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../verificacao/verif1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../entrega-final/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Entrega Final
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Projeto da Disciplina de IHC - Grupo 05" class="md-nav__button md-logo" aria-label="Projeto da Disciplina de IHC - Grupo 05" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+
+    </a>
+    Projeto da Disciplina de IHC - Grupo 05
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo05" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026.2-Grupo05
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../apresentacoes/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gravações
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gravações
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspeções
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata de reunião 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata de reunião 2 (Inspeção)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata de reunião 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata de reunião 4 (Inspeção)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/Ferramentas_do_Projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/HeatMap_do_Grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapa de disponibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/selecao_v2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sites avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/escolha-semob/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site escolhido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ProcessoDesign/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processo de design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Requisitos
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Requisitos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aspectos-eticos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aspectos éticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrevistas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrevistas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../brainstorm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de documentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../perfis-de-usuario/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfis de usuário
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_6" id="__nav_5_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Perfis de usuário
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfis-de-usuario/perfil-primario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passageiro (Primário)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfis-de-usuario/perfil-secundario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Desenvolvedor / Técnico (Secundário)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfis-de-usuario/perfil-motorista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Motorista de Ônibus (Terciário)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../personas/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personas
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_7" id="__nav_5_7_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Personas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/larissa-ferreira-lima/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Larissa Ferreira Lima (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/joao-pedro-carvalho/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    João Pedro Carvalho (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/marcos-paulo-vieira/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marcos Paulo Vieira (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/maria-eduarda-santos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maria Eduarda Santos (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/valdir-soares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valdir Soares (Stakeholder)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/heitor-santos-junior/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Heitor Santos Júnior (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/mariana-borges-almeida/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mariana Borges Almeida (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../cenarios/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_8" id="__nav_5_8_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cenários
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-1-ultima-viagem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 1 (Última Viagem Noturna)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-2-viagem-matutina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 2 (Atraso e Conflito no App)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-3-planejamento-origem-destino/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 3 (Deslocamento com Busca por Destino)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-4-credito-vale-transporte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 4 (Crédito de Vale-Transporte)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-5-consulta-escala/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 5 (Consulta da Escala)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-6-alerta-desvio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 6 (Alerta de Desvio)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-7-duvida-passageiro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 7 (Dúvida de Passageiro)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-8-conflito-catraca/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 8 (Conflito na Catraca)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-9-endereco-novo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 9 (Endereço Novo e Desvio)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-10-viagem-ideal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 10 (Viagem Ideal sob Chuva)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_9" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de tarefas
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_9" id="__nav_5_9_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_9_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de tarefas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tar-01-alerta-saida/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-01 (Alerta Inteligente de Saída)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tar-02-df-acessivel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-02 (Pré-agendamento DF Acessível)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tar-03-planejamento-rota/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-03 (Origem/Destino e Tempo Real)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../analise-hta-ctt-motorista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-04 e TAR-05 (Motorista - HTA e CTT)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tar-06-df-no-ponto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-06 (Consulta DF no Ponto)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-07 (Crédito de Vale-Transporte)
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-07 (Crédito de Vale-Transporte)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao-e-contribuicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versão e Contribuição
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-caracterizacao-da-tarefa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Caracterização da Tarefa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-analise-hierarquica-de-tarefas-hta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Análise Hierárquica de Tarefas (HTA)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Análise Hierárquica de Tarefas (HTA)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-diagrama-hierarquico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Diagrama hierárquico
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-tabela-de-objetivos-operacoes-problemas-e-recomendacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Tabela de objetivos, operações, problemas e recomendações
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-criterio-de-parada-da-decomposicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Critério de parada da decomposição
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-hipoteses-sobre-erros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Hipóteses sobre erros
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-situacao-dos-passos-da-hta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Situação dos passos da HTA
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-concurtasktrees-ctt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. ConcurTaskTrees (CTT)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. ConcurTaskTrees (CTT)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-estrutura-formal-e-relacoes-temporais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Estrutura formal e relações temporais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-diagrama-ctt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Diagrama CTT
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_10" id="__nav_5_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de estilo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guia de estilo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/resultados-de-analise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resultados de análise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/elementos-de-interface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementos de interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/elementos-de-interacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementos de interação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/elementos-de-acao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementos de ação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/vocabulario-e-padroes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vocabulário e padrões
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_11" id="__nav_5_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Princípios gerais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Princípios gerais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principios-gerais/metas-de-usabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metas de usabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principios-gerais/correspondencia-com-as-expectativas-dos-usuarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Correspondência com as expectativas dos usuários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principios-gerais/simplicidade-nas-estruturas-das-tarefas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Simplicidade nas estruturas das tarefas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principios-gerais/equilibrio-controle-liberdade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equilíbrio entre controle e liberdade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principios-gerais/consistencia-e-padronizacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Consistência e padronização
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principios-gerais/promocao-da-eficiencia-do-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Promoção da eficiência do usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principios-gerais/antecipacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antecipação das necessidades do usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principios-gerais/visibilidade-e-reconhecimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visibilidade e reconhecimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principios-gerais/conteudo-relevante-e-expressao-adequada/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conteúdo relevante e expressão adequada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../principios-gerais/projeto-para-erros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projeto para Erros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_12" id="__nav_5_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de estilo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guia de estilo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/resultados-de-analise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resultados de análise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/elementos-de-interacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementos de interação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/elementos-de-acao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementos de ação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/vocabulario-e-padroes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vocabulário e padrões
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design, Avaliação e Desenvolvimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verificação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/verif1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação da entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/verif2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação da entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/verif3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação da entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega Final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao-e-contribuicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versão e Contribuição
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-caracterizacao-da-tarefa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Caracterização da Tarefa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-analise-hierarquica-de-tarefas-hta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Análise Hierárquica de Tarefas (HTA)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Análise Hierárquica de Tarefas (HTA)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#21-diagrama-hierarquico" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.1 Diagrama hierárquico
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#22-tabela-de-objetivos-operacoes-problemas-e-recomendacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.2 Tabela de objetivos, operações, problemas e recomendações
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#23-criterio-de-parada-da-decomposicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.3 Critério de parada da decomposição
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#24-hipoteses-sobre-erros" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.4 Hipóteses sobre erros
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#25-situacao-dos-passos-da-hta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2.5 Situação dos passos da HTA
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-concurtasktrees-ctt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. ConcurTaskTrees (CTT)
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. ConcurTaskTrees (CTT)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#31-estrutura-formal-e-relacoes-temporais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.1 Estrutura formal e relações temporais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#32-diagrama-ctt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3.2 Diagrama CTT
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="tar-07-resolver-indisponibilidade-de-credito-de-vale-transporte">TAR-07: Resolver indisponibilidade de crédito de Vale-Transporte<a class="headerlink" href="#tar-07-resolver-indisponibilidade-de-credito-de-vale-transporte" title="Ligação permanente para esta seção">&para;</a></h1>
+<h2 id="historico-de-versao-e-contribuicao">Histórico de Versão e Contribuição<a class="headerlink" href="#historico-de-versao-e-contribuicao" title="Ligação permanente para esta seção">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: left;">Autor(es)</th>
+<th style="text-align: left;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">05/10/2026</td>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: left;">Elaboração da análise de tarefas (HTA e CTT) para o problema de crédito de Vale-Transporte não disponível no cartão.</td>
+<td style="text-align: left;"><a href="https://github.com/arthur-mariani">Arthur Mariani</a></td>
+<td style="text-align: left;"><a href="https://github.com/carloshfgit">Carlos Costa</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="1-caracterizacao-da-tarefa">1. Caracterização da Tarefa<a class="headerlink" href="#1-caracterizacao-da-tarefa" title="Ligação permanente para esta seção">&para;</a></h2>
+<ul>
+<li><strong>Título da Tarefa:</strong> Resolver a indisponibilidade de crédito de Vale-Transporte no cartão.</li>
+<li><strong>Perfil do Participante:</strong> Usuária primária / passageira trabalhadora (<a href="../../personas/maria-eduarda-santos/">Maria Eduarda Santos</a>).</li>
+<li><strong>Cenário de origem:</strong> <a href="../../cenarios/cenario-4-credito-vale-transporte/">Cenário 4 — Crédito de Vale-Transporte não disponível no cartão</a>.</li>
+<li><strong>Responsável pela Elaboração:</strong> <a href="https://github.com/arthur-mariani">Arthur Mariani</a>.</li>
+<li><strong>Data da Realização:</strong> 05/10/2026.</li>
+<li><strong>Sistema e serviços analisados:</strong> portal da SEMOB-DF, canais do BRB Mobilidade e comunicação com o RH do empregador.</li>
+<li><strong>Objetivo da tarefa (estado final):</strong> Maria Eduarda sabe se o crédito foi enviado, processado e disponibilizado no cartão; conhece o responsável e o próximo passo para poder utilizá-lo, sem comprometer o deslocamento ao trabalho.</li>
+<li><strong>Objetivo de experiência:</strong> não se sentir culpada, perdida ou constrangida ao receber a mensagem de saldo insuficiente.</li>
+<li><strong>Escopo:</strong> a análise cobre a busca e a compreensão da orientação para resolver o problema. Não pressupõe acesso da SEMOB ou do BRB aos dados do empregador, nem afirma qual é o procedimento operacional correto para todos os cartões.</li>
+</ul>
+<blockquote>
+<p><strong>Limitação declarada.</strong> Conforme Barbosa et al. (2021, p. 191–196), a análise de tarefas é uma simulação do trabalho real e deve ser validada com as partes interessadas. Esta análise parte do cenário de problema e de documentação pública; portanto, os passos, problemas e recomendações são <strong>hipóteses a validar</strong> com usuárias, RH, SEMOB-DF e BRB Mobilidade.</p>
+</blockquote>
+<hr />
+<h2 id="2-analise-hierarquica-de-tarefas-hta">2. Análise Hierárquica de Tarefas (HTA)<a class="headerlink" href="#2-analise-hierarquica-de-tarefas-hta" title="Ligação permanente para esta seção">&para;</a></h2>
+<p>Segundo Barbosa et al. (2021, p. 192–195), a HTA começa pelos objetivos das pessoas e os decompõe em subobjetivos. Os planos registram a relação entre subobjetivos: <code>1&gt;2</code> indica sequência, <code>1/2</code> indica seleção conforme a circunstância e <code>1+2</code> indica atividades paralelas. No nível mais baixo, os subobjetivos são operações.</p>
+<h3 id="21-diagrama-hierarquico">2.1 Diagrama hierárquico<a class="headerlink" href="#21-diagrama-hierarquico" title="Ligação permanente para esta seção">&para;</a></h3>
+<pre class="mermaid"><code>flowchart TB
+    classDef mono fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000,font-size:12px;
+    linkStyle default stroke:#000000,stroke-width:1.5px;
+
+    T0["0. Obter orientação&lt;br/&gt;para usar o crédito&lt;br/&gt;&lt;i&gt;Plano: 1 &gt; 2 &gt; 3 &gt; 4 &gt; 5&lt;/i&gt;"]:::mono
+
+    T1["1. Identificar crédito&lt;br/&gt;indisponível&lt;br/&gt;&lt;i&gt;Plano: 1.1 &gt; 1.2&lt;/i&gt;"]:::mono
+    T2["2. Buscar orientação&lt;br/&gt;oficial&lt;br/&gt;&lt;i&gt;Plano: 2.1 &gt; 2.2&lt;/i&gt;"]:::mono
+    T3["3. Entender situação&lt;br/&gt;e responsável&lt;br/&gt;&lt;i&gt;Plano: 3.1 + 3.2 + 3.3&lt;/i&gt;"]:::mono
+    T4["4. Decidir ação&lt;br/&gt;imediata&lt;br/&gt;&lt;i&gt;Plano: 4.1 / 4.2&lt;/i&gt;"]:::mono
+    T5["5. Realizar ação&lt;br/&gt;indicada&lt;br/&gt;&lt;i&gt;Plano: 5.1 / 5.2 / 5.3&lt;/i&gt;"]:::mono
+
+    T0 --&gt; T1
+    T0 --&gt; T2
+    T0 --&gt; T3
+    T0 --&gt; T4
+    T0 --&gt; T5
+
+    T11["1.1 Aproximar&lt;br/&gt;cartão"]:::mono
+    T12["1.2 Reconhecer&lt;br/&gt;saldo insuficiente"]:::mono
+    T1 --&gt; T11
+    T1 --&gt; T12
+
+    T21["2.1 Informar&lt;br/&gt;a dúvida"]:::mono
+    T22["2.2 Abrir&lt;br/&gt;orientação"]:::mono
+    T2 --&gt; T21
+    T2 --&gt; T22
+
+    T31["3.1 Verificar envio&lt;br/&gt;pelo empregador"]:::mono
+    T32["3.2 Verificar estado&lt;br/&gt;no cartão"]:::mono
+    T33["3.3 Identificar canal&lt;br/&gt;e procedimento"]:::mono
+    T3 --&gt; T31
+    T3 --&gt; T32
+    T3 --&gt; T33
+
+    T41["4.1 Embarcar com&lt;br/&gt;alternativa"]:::mono
+    T42["4.2 Adiar ou alterar&lt;br/&gt;deslocamento"]:::mono
+    T4 --&gt; T41
+    T4 --&gt; T42
+
+    T51["5.1 Atualizar ou&lt;br/&gt;validar cartão"]:::mono
+    T52["5.2 Solicitar&lt;br/&gt;correção"]:::mono
+    T53["5.3 Registrar&lt;br/&gt;atendimento"]:::mono
+    T5 --&gt; T51
+    T5 --&gt; T52
+    T5 --&gt; T53</code></pre>
+<h3 id="22-tabela-de-objetivos-operacoes-problemas-e-recomendacoes">2.2 Tabela de objetivos, operações, problemas e recomendações<a class="headerlink" href="#22-tabela-de-objetivos-operacoes-problemas-e-recomendacoes" title="Ligação permanente para esta seção">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Objetivos / operações</th>
+<th style="text-align: left;">Problemas e recomendações</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>0. Obter orientação para usar o crédito de Vale-Transporte</strong> <code>1&gt;2&gt;3&gt;4&gt;5</code></td>
+<td style="text-align: left;"><em>Input:</em> mensagem de saldo insuficiente, cartão e necessidade de deslocamento.<br><em>Feedback:</em> a usuária entende o estado do crédito, o responsável e o próximo passo.<br><em>Plano:</em> identificar o problema, buscar orientação, compreender a situação, decidir como se deslocar e executar a ação indicada.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>1. Identificar a indisponibilidade do crédito</strong> <code>1&gt;2</code></td>
+<td style="text-align: left;"><em>Input:</em> tentativa de embarque.<br><em>Feedback:</em> a usuária reconhece que o cartão não foi aceito.<br><em>Plano:</em> aproximar o cartão e interpretar a resposta do validador.</td>
+</tr>
+<tr>
+<td style="text-align: left;">1.1 Aproximar o cartão do validador</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">1.2 Reconhecer a mensagem de saldo insuficiente</td>
+<td style="text-align: left;"><em>Problema (hipótese):</em> a mensagem não distingue saldo inexistente, crédito em processamento ou cartão que exige atualização.<br><em>Recomendação:</em> apresentar estado compreensível e próximo passo, sem atribuir culpa à usuária.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>2. Buscar orientação oficial</strong> <code>1&gt;2</code></td>
+<td style="text-align: left;"><em>Input:</em> dúvida sobre a causa e a solução.<br><em>Feedback:</em> uma orientação acessível está aberta.<br><em>Plano:</em> formular a dúvida e abrir o conteúdo encontrado.</td>
+</tr>
+<tr>
+<td style="text-align: left;">2.1 Informar a dúvida em busca ou canal de atendimento</td>
+<td style="text-align: left;"><em>Problema (hipótese):</em> termos cotidianos como “crédito não caiu” podem não corresponder ao vocabulário institucional.<br><em>Recomendação:</em> aceitar linguagem natural e oferecer atalhos para “crédito enviado, mas não disponível”.</td>
+</tr>
+<tr>
+<td style="text-align: left;">2.2 Abrir a orientação encontrada</td>
+<td style="text-align: left;"><em>Problema (hipótese):</em> o fluxo pode dispersar a usuária entre SEMOB, BRB Mobilidade e empregador.<br><em>Recomendação:</em> preservar o contexto do atendimento e explicar o papel de cada instituição.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>3. Entender a situação e o responsável</strong> <code>1+2+3</code></td>
+<td style="text-align: left;"><em>Input:</em> orientação aberta e, quando disponível, confirmação do RH.<br><em>Feedback:</em> estado do crédito, responsável e ação necessária conhecidos.<br><em>Plano:</em> conferir, em paralelo conceitual, envio pelo empregador, disponibilidade no cartão e canal de resolução.</td>
+</tr>
+<tr>
+<td style="text-align: left;">3.1 Verificar se o empregador enviou o crédito</td>
+<td style="text-align: left;"><em>Problema (hipótese):</em> a confirmação de envio é interpretada como disponibilidade imediata.<br><em>Recomendação:</em> separar visualmente os estados “enviado”, “processado”, “disponível” e “pendente de atualização”.</td>
+</tr>
+<tr>
+<td style="text-align: left;">3.2 Verificar o estado do crédito no cartão</td>
+<td style="text-align: left;"><em>Problema (hipótese):</em> a usuária não sabe se o cartão precisa de atualização nem onde fazê-la.<br><em>Recomendação:</em> informar, quando aplicável, ação, local, horário e requisitos; se os dados não estiverem disponíveis, indicar o canal que os confirma.</td>
+</tr>
+<tr>
+<td style="text-align: left;">3.3 Identificar canal e procedimento adequados</td>
+<td style="text-align: left;"><em>Problema (hipótese):</em> responsabilidades distribuídas criam encaminhamentos genéricos.<br><em>Recomendação:</em> apresentar uma decisão orientada por estado, não apenas uma lista de instituições.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>4. Decidir a ação imediata</strong> <code>1/2</code></td>
+<td style="text-align: left;"><em>Input:</em> horário de trabalho, recursos financeiros e orientação disponível.<br><em>Feedback:</em> alternativa de deslocamento escolhida.<br><em>Plano:</em> embarcar com alternativa disponível <strong>ou</strong> adiar/alterar o deslocamento, conforme o tempo e os recursos.</td>
+</tr>
+<tr>
+<td style="text-align: left;">4.1 Embarcar com alternativa disponível</td>
+<td style="text-align: left;"><em>Problema (hipótese):</em> pagar em dinheiro pode comprometer a alimentação ou integração da viagem.<br><em>Recomendação:</em> informar alternativas de atendimento compatíveis com rota e horário, para reduzir a recorrência do custo.</td>
+</tr>
+<tr>
+<td style="text-align: left;">4.2 Adiar ou alterar o deslocamento</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>5. Executar o próximo passo indicado</strong> <code>1/2/3</code></td>
+<td style="text-align: left;"><em>Input:</em> procedimento e responsável identificados.<br><em>Feedback:</em> cartão atualizado, solicitação registrada ou atendimento iniciado.<br><em>Plano:</em> atualizar/validar cartão, solicitar correção ou registrar atendimento, conforme a causa identificada.</td>
+</tr>
+<tr>
+<td style="text-align: left;">5.1 Atualizar ou validar o cartão</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">5.2 Solicitar correção ao responsável</td>
+<td style="text-align: left;"></td>
+</tr>
+<tr>
+<td style="text-align: left;">5.3 Registrar atendimento ou reclamação</td>
+<td style="text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h3 id="23-criterio-de-parada-da-decomposicao">2.3 Critério de parada da decomposição<a class="headerlink" href="#23-criterio-de-parada-da-decomposicao" title="Ligação permanente para esta seção">&para;</a></h3>
+<p>Conforme Barbosa et al. (2021, p. 195), a decomposição termina quando já há informações suficientes para a análise, podendo-se aplicar o critério <strong>p × c</strong>: o produto da probabilidade de falha pelo custo da falha deve ser aceitável.</p>
+<ul>
+<li>O objetivo <strong>3</strong> foi decomposto porque há alta probabilidade de confusão entre envio, processamento e disponibilidade, e o custo pode ser atraso e perda de recursos financeiros.</li>
+<li>O objetivo <strong>4</strong> permanece em operações porque a escolha de meio de pagamento ou de deslocamento é externa ao serviço de orientação e depende de recursos pessoais da usuária.</li>
+<li>O objetivo <strong>5</strong> não é decomposto além das operações: os procedimentos concretos variam por cartão, serviço e confirmação das partes interessadas, devendo ser observados antes de detalhamento adicional.</li>
+</ul>
+<h3 id="24-hipoteses-sobre-erros">2.4 Hipóteses sobre erros<a class="headerlink" href="#24-hipoteses-sobre-erros" title="Ligação permanente para esta seção">&para;</a></h3>
+<p>Na etapa 7 da HTA, o livro sugere examinar hipóteses sobre desempenho baseado em habilidades, regras e conhecimento (Reason, 1990, apud Barbosa et al., 2021, p. 196).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Operação</th>
+<th style="text-align: left;">Tipo de erro</th>
+<th style="text-align: left;">Hipótese</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">2.1</td>
+<td style="text-align: left;">Conhecimento</td>
+<td style="text-align: left;">A usuária não conhece a expressão institucional utilizada para localizar a orientação.</td>
+</tr>
+<tr>
+<td style="text-align: left;">3.1</td>
+<td style="text-align: left;">Regras</td>
+<td style="text-align: left;">A usuária aplica a regra “o RH enviou, então o cartão já funciona” a uma situação em que o crédito ainda não está disponível.</td>
+</tr>
+<tr>
+<td style="text-align: left;">3.3</td>
+<td style="text-align: left;">Conhecimento</td>
+<td style="text-align: left;">A usuária atribui a resolução à instituição errada por não conhecer a divisão de responsabilidades.</td>
+</tr>
+<tr>
+<td style="text-align: left;">4.1</td>
+<td style="text-align: left;">Regras</td>
+<td style="text-align: left;">Sob pressão de tempo, a usuária utiliza recursos reservados para outra necessidade sem saber se existe solução mais apropriada.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="25-situacao-dos-passos-da-hta">2.5 Situação dos passos da HTA<a class="headerlink" href="#25-situacao-dos-passos-da-hta" title="Ligação permanente para esta seção">&para;</a></h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Passo</th>
+<th style="text-align: left;">Situação</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1. Decidir os objetivos da análise</td>
+<td style="text-align: left;">Feito: analisar a orientação para resolver crédito indisponível.</td>
+</tr>
+<tr>
+<td style="text-align: left;">2. Consenso sobre objetivos e medidas de sucesso</td>
+<td style="text-align: left;">Parcial. Sucesso: a usuária identifica o estado, o responsável e o próximo passo. Consequência da falha: atraso, gasto imprevisto e repetição do problema. <strong>Validação com partes interessadas pendente.</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">3. Fontes de informação e aquisição de dados</td>
+<td style="text-align: left;">Parcial: cenário de problema e documentação. <strong>Observação e entrevistas específicas pendentes.</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">4. Esboçar diagrama e tabela</td>
+<td style="text-align: left;">Feito (seções 2.1 e 2.2).</td>
+</tr>
+<tr>
+<td style="text-align: left;">5. Verificar a validade da decomposição</td>
+<td style="text-align: left;"><strong>Pendente.</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">6. Identificar operações significativas (p × c)</td>
+<td style="text-align: left;">Feito (seção 2.3).</td>
+</tr>
+<tr>
+<td style="text-align: left;">7. Gerar hipóteses sobre aprendizado e desempenho</td>
+<td style="text-align: left;">Feito como hipóteses (seção 2.4), <strong>sem teste empírico</strong>.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="3-concurtasktrees-ctt">3. ConcurTaskTrees (CTT)<a class="headerlink" href="#3-concurtasktrees-ctt" title="Ligação permanente para esta seção">&para;</a></h2>
+<p>O CTT representa tarefas de usuário, sistema, interação e tarefas abstratas, além das relações temporais entre elas (Barbosa et al., 2021, p. 203–205). A modelagem abaixo descreve a solução de interação desejada: um orientador integrado que explicita o estado do crédito e encaminha a usuária sem exigir que ela deduza responsabilidades entre instituições.</p>
+<h3 id="31-estrutura-formal-e-relacoes-temporais">3.1 Estrutura formal e relações temporais<a class="headerlink" href="#31-estrutura-formal-e-relacoes-temporais" title="Ligação permanente para esta seção">&para;</a></h3>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>[A] Obter orientação para usar o crédito de Vale-Transporte
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a> |
+<a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a> |-- [I] Informar problema de crédito [ ] &gt;&gt;
+<a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a> |-- [S] Identificar estados disponíveis [ ] &gt;&gt;
+<a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a> |-- [I] Explicar situação e próximo passo [ ] &gt;&gt;
+<a id="__codelineno-0-6" name="__codelineno-0-6" href="#__codelineno-0-6"></a> \-- [A] Tomar providência
+<a id="__codelineno-0-7" name="__codelineno-0-7" href="#__codelineno-0-7"></a>      |-- [U] Decidir como realizar o deslocamento []
+<a id="__codelineno-0-8" name="__codelineno-0-8" href="#__codelineno-0-8"></a>      |-- [I] Consultar instrução para atualizar ou validar cartão []
+<a id="__codelineno-0-9" name="__codelineno-0-9" href="#__codelineno-0-9"></a>      \-- [I] Acionar canal responsável []
+</code></pre></div>
+<ul>
+<li><strong><code>[ ] &gt;&gt;</code> — ativação com passagem de informação:</strong> a descrição do problema é usada pelo sistema para identificar estados e elaborar a orientação.</li>
+<li><strong><code>[]</code> — escolha:</strong> após compreender a situação, a usuária seleciona a providência compatível com seu contexto; o sistema não deve impor uma instituição sem evidência suficiente.</li>
+</ul>
+<h3 id="32-diagrama-ctt">3.2 Diagrama CTT<a class="headerlink" href="#32-diagrama-ctt" title="Ligação permanente para esta seção">&para;</a></h3>
+<pre class="mermaid"><code>flowchart TB
+    classDef mono fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000,font-size:12px;
+    linkStyle default stroke:#000000,stroke-width:1.5px;
+
+    A0["[A] Obter orientação&lt;br/&gt;para usar o crédito"]:::mono
+    I1["[I] Informar problema&lt;br/&gt;de crédito"]:::mono
+    S2["[S] Identificar estados&lt;br/&gt;disponíveis"]:::mono
+    I3["[I] Explicar situação&lt;br/&gt;e próximo passo"]:::mono
+    A4["[A] Tomar&lt;br/&gt;providência"]:::mono
+    U41["[U] Decidir como&lt;br/&gt;realizar deslocamento"]:::mono
+    I42["[I] Consultar instrução&lt;br/&gt;do cartão"]:::mono
+    I43["[I] Acionar canal&lt;br/&gt;responsável"]:::mono
+
+    A0 --&gt; I1
+    A0 --&gt; S2
+    A0 --&gt; I3
+    A0 --&gt; A4
+    A4 --&gt; U41
+    A4 --&gt; I42
+    A4 --&gt; I43</code></pre>
+<blockquote>
+<p><strong>Limite do CTT.</strong> A notação representa tarefas e relações temporais; problemas de prevenção e recuperação de erro permanecem registrados na HTA, porque o CTT não possui elementos próprios para esse tratamento (Barbosa et al., 2021, p. 205).</p>
+</blockquote>
+<hr />
+<h2 id="4-referencias-bibliograficas">4. Referências Bibliográficas<a class="headerlink" href="#4-referencias-bibliograficas" title="Ligação permanente para esta seção">&para;</a></h2>
+<ul>
+<li>BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. <strong>Interação Humano-Computador</strong>. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6, Seção 6.4: Análise de Tarefas, pp. 191–205.</li>
+<li>PATERNÒ, Fabio. <strong>Model-Based Design and Evaluation of Interactive Applications</strong>. London: Springer-Verlag, 2000.</li>
+<li>REASON, James. <strong>Human Error</strong>. Cambridge: Cambridge University Press, 1990.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../tar-06-df-no-ponto/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: TAR-06 (Consulta DF no Ponto)">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                TAR-06 (Consulta DF no Ponto)
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../../guia-de-estilo/introducao/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Introdução">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Introdução
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Grupo 05 · Interação Humano-Computador · FCTE/UnB · 2026.2
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo05" target="_blank" rel="noopener" title="Repositório do grupo no GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.code.copy", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/a11y.js"></script>
+      
+    
+  </body>
+</html>

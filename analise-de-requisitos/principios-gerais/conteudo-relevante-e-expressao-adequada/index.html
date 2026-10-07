@@ -1,0 +1,4436 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Documentação do projeto de Interação Humano-Computador do Grupo 05, FCTE/UnB, 2026.2.">
+      
+      
+        <meta name="author" content="Grupo 05 — IHC 2026.2">
+      
+      
+        <link rel="canonical" href="https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/principios-gerais/conteudo-relevante-e-expressao-adequada/">
+      
+      
+        <link rel="prev" href="../visibilidade-e-reconhecimento/">
+      
+      
+        <link rel="next" href="../projeto-para-erros/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Conteúdo relevante e expressão adequada - Projeto da Disciplina de IHC - Grupo 05</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit:300,300i,400,400i,700,700i%7CIBM+Plex+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Outfit";--md-code-font:"IBM Plex Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/css/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+
+<meta name="theme-color" content="#0A2342">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script>
+(function () {
+  try {
+    var font = localStorage.getItem("ihc-font");
+    if (font) document.documentElement.style.setProperty("--a11y-font-size", font + "%");
+    var hc = localStorage.getItem("ihc-hc");
+    if (hc === "1" || (hc === null && window.matchMedia && window.matchMedia("(prefers-contrast: more)").matches)) {
+      document.documentElement.classList.add("hc");
+    }
+  } catch (e) {}
+})();
+</script>
+
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#conteudo-relevante-e-expressao-adequada-no-site-da-semob-df" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Projeto da Disciplina de IHC - Grupo 05" class="md-header__button md-logo" aria-label="Projeto da Disciplina de IHC - Grupo 05" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Projeto da Disciplina de IHC - Grupo 05
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Conteúdo relevante e expressão adequada
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Ativar modo escuro"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Ativar modo escuro" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="custom" data-md-color-accent="custom"  aria-label="Ativar modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Ativar modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo05" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026.2-Grupo05
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  
+    
+  
+  Inicial
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../apresentacoes/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Gravações
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../atas/ata1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Atas
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../planejamento/cronograma/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Planejamento
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Análise de Requisitos
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../design-avaliacao-desenvolvimento/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Design, Avaliação e Desenvolvimento
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../verificacao/verif1/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  Verificação
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../entrega-final/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  Entrega Final
+
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Projeto da Disciplina de IHC - Grupo 05" class="md-nav__button md-logo" aria-label="Projeto da Disciplina de IHC - Grupo 05" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"/></svg>
+
+    </a>
+    Projeto da Disciplina de IHC - Grupo 05
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo05" title="Ir para repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    2026.2-Grupo05
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicial
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../apresentacoes/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gravações
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gravações
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../inspecoes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inspeções
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Atas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Atas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata de reunião 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata de reunião 2 (Inspeção)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata de reunião 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../atas/ata4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ata de reunião 4 (Inspeção)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planejamento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Planejamento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/cronograma/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cronograma
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/Ferramentas_do_Projeto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ferramentas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/HeatMap_do_Grupo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapa de disponibilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/selecao_v2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sites avaliados
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/escolha-semob/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Site escolhido
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../planejamento/ProcessoDesign/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Processo de design
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+        
+        
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de Requisitos
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de Requisitos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../aspectos-eticos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aspectos éticos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../entrevistas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrevistas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../brainstorm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Brainstorming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-documentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de documentos
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../perfis-de-usuario/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Perfis de usuário
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_6" id="__nav_5_6_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Perfis de usuário
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfis-de-usuario/perfil-primario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Passageiro (Primário)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfis-de-usuario/perfil-secundario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Desenvolvedor / Técnico (Secundário)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../perfis-de-usuario/perfil-motorista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Motorista de Ônibus (Terciário)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../personas/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Personas
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_7" id="__nav_5_7_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Personas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/larissa-ferreira-lima/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Larissa Ferreira Lima (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/joao-pedro-carvalho/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    João Pedro Carvalho (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/marcos-paulo-vieira/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marcos Paulo Vieira (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/maria-eduarda-santos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maria Eduarda Santos (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/valdir-soares/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Valdir Soares (Stakeholder)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/heitor-santos-junior/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Heitor Santos Júnior (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../personas/mariana-borges-almeida/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mariana Borges Almeida (Primária)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../cenarios/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenários
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_8" id="__nav_5_8_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Cenários
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-1-ultima-viagem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 1 (Última Viagem Noturna)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-2-viagem-matutina/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 2 (Atraso e Conflito no App)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-3-planejamento-origem-destino/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 3 (Deslocamento com Busca por Destino)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-4-credito-vale-transporte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 4 (Crédito de Vale-Transporte)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-5-consulta-escala/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 5 (Consulta da Escala)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-6-alerta-desvio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 6 (Alerta de Desvio)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-7-duvida-passageiro/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 7 (Dúvida de Passageiro)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-8-conflito-catraca/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 8 (Conflito na Catraca)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-9-endereco-novo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 9 (Endereço Novo e Desvio)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../cenarios/cenario-10-viagem-ideal/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Cenário 10 (Viagem Ideal sob Chuva)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_9" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../analise-de-tarefas/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Análise de tarefas
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_9" id="__nav_5_9_label" tabindex="">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Análise de tarefas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-tarefas/tar-01-alerta-saida/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-01 (Alerta Inteligente de Saída)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-tarefas/tar-02-df-acessivel/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-02 (Pré-agendamento DF Acessível)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-tarefas/tar-03-planejamento-rota/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-03 (Origem/Destino e Tempo Real)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-tarefas/analise-hta-ctt-motorista/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-04 e TAR-05 (Motorista - HTA e CTT)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-tarefas/tar-06-df-no-ponto/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-06 (Consulta DF no Ponto)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analise-de-tarefas/tar-07-credito-vale-transporte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    TAR-07 (Crédito de Vale-Transporte)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_10" id="__nav_5_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de estilo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guia de estilo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/resultados-de-analise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resultados de análise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/elementos-de-interface/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementos de interface
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/elementos-de-interacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementos de interação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/elementos-de-acao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementos de ação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/vocabulario-e-padroes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vocabulário e padrões
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_11" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_5_11" id="__nav_5_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Princípios gerais
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_11_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_5_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Princípios gerais
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../metas-de-usabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Metas de usabilidade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../correspondencia-com-as-expectativas-dos-usuarios/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Correspondência com as expectativas dos usuários
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../simplicidade-nas-estruturas-das-tarefas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Simplicidade nas estruturas das tarefas
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../equilibrio-controle-liberdade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equilíbrio entre controle e liberdade
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../consistencia-e-padronizacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Consistência e padronização
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../promocao-da-eficiencia-do-usuario/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Promoção da eficiência do usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../antecipacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Antecipação das necessidades do usuário
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../visibilidade-e-reconhecimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Visibilidade e reconhecimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conteúdo relevante e expressão adequada
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conteúdo relevante e expressão adequada
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao-e-contribuicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versão e Contribuição
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-o-principio-segundo-o-livro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. O princípio segundo o livro
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. O princípio segundo o livro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-a-interacao-como-conversa-cooperativa-maximas-de-grice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. A interação como conversa cooperativa (Máximas de Grice)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-projeto-estetico-e-minimalista" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Projeto estético e minimalista
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-redacao-em-interfaces-graficas-economia-cognitiva-e-legibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Redação em interfaces gráficas, economia cognitiva e legibilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-principios-de-design-visual-e-organizacao-espacial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Princípios de design visual e organização espacial
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-como-a-inspecao-foi-realizada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Como a inspeção foi realizada
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-pontos-positivos-observados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Pontos positivos observados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-problemas-encontrados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Problemas encontrados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Problemas encontrados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resumo-das-violacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resumo das violações
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cr1-redacao-administrativa-densa-e-juridica-gravidade-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CR1. Redação administrativa densa e jurídica (Gravidade Média)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cr2-siglas-hermeticas-e-nomes-de-sistemas-sem-significado-imediato-gravidade-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CR2. Siglas herméticas e nomes de sistemas sem significado imediato (Gravidade Média)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cr3-ausencia-de-destaque-tipografico-nos-valores-das-passagens-gravidade-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CR3. Ausência de destaque tipográfico nos valores das passagens (Gravidade Média)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cr4-baixo-contraste-e-legibilidade-comprometida-na-secao-ppp-gravidade-alta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CR4. Baixo contraste e legibilidade comprometida na seção PPP (Gravidade Alta)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cr5-rotulos-genericos-em-links-e-chamadas-para-acao-gravidade-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CR5. Rótulos genéricos em links e chamadas para ação (Gravidade Média)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-sintese-das-recomendacoes-para-o-projeto-do-grupo-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Síntese das recomendações para o projeto do Grupo 05
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Conclusão
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-declaracao-sobre-o-uso-de-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Declaração sobre o Uso de IA Generativa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-fotos-de-referencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Fotos de Referência
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../projeto-para-erros/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Projeto para Erros
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+          
+          
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_12" id="__nav_5_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de estilo
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Guia de estilo
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/introducao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Introdução
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/resultados-de-analise/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Resultados de análise
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/elementos-de-interacao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementos de interação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/elementos-de-acao/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elementos de ação
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../guia-de-estilo/vocabulario-e-padroes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vocabulário e padrões
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../design-avaliacao-desenvolvimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Design, Avaliação e Desenvolvimento
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Verificação
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/verif1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação da entrega 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/verif2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação da entrega 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../verificacao/verif3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Verificação da entrega 3
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../entrega-final/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entrega Final
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao-e-contribuicao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Histórico de Versão e Contribuição
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#1-o-principio-segundo-o-livro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. O princípio segundo o livro
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. O princípio segundo o livro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#11-a-interacao-como-conversa-cooperativa-maximas-de-grice" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.1. A interação como conversa cooperativa (Máximas de Grice)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#12-projeto-estetico-e-minimalista" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.2. Projeto estético e minimalista
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#13-redacao-em-interfaces-graficas-economia-cognitiva-e-legibilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.3. Redação em interfaces gráficas, economia cognitiva e legibilidade
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#14-principios-de-design-visual-e-organizacao-espacial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1.4. Princípios de design visual e organização espacial
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-como-a-inspecao-foi-realizada" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Como a inspeção foi realizada
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-pontos-positivos-observados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Pontos positivos observados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-problemas-encontrados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Problemas encontrados
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="4. Problemas encontrados">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#resumo-das-violacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Resumo das violações
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cr1-redacao-administrativa-densa-e-juridica-gravidade-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CR1. Redação administrativa densa e jurídica (Gravidade Média)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cr2-siglas-hermeticas-e-nomes-de-sistemas-sem-significado-imediato-gravidade-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CR2. Siglas herméticas e nomes de sistemas sem significado imediato (Gravidade Média)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cr3-ausencia-de-destaque-tipografico-nos-valores-das-passagens-gravidade-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CR3. Ausência de destaque tipográfico nos valores das passagens (Gravidade Média)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cr4-baixo-contraste-e-legibilidade-comprometida-na-secao-ppp-gravidade-alta" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CR4. Baixo contraste e legibilidade comprometida na seção PPP (Gravidade Alta)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cr5-rotulos-genericos-em-links-e-chamadas-para-acao-gravidade-media" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CR5. Rótulos genéricos em links e chamadas para ação (Gravidade Média)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-sintese-das-recomendacoes-para-o-projeto-do-grupo-05" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Síntese das recomendações para o projeto do Grupo 05
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-conclusao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Conclusão
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-declaracao-sobre-o-uso-de-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Declaração sobre o Uso de IA Generativa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-fotos-de-referencia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Fotos de Referência
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-referencias-bibliograficas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Referências Bibliográficas
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="conteudo-relevante-e-expressao-adequada-no-site-da-semob-df">Conteúdo Relevante e Expressão Adequada no site da SEMOB-DF<a class="headerlink" href="#conteudo-relevante-e-expressao-adequada-no-site-da-semob-df" title="Ligação permanente para esta seção">&para;</a></h1>
+<h2 id="historico-de-versao-e-contribuicao">Histórico de Versão e Contribuição<a class="headerlink" href="#historico-de-versao-e-contribuicao" title="Ligação permanente para esta seção">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Data</th>
+<th style="text-align: center;">Versão</th>
+<th style="text-align: left;">Descrição</th>
+<th style="text-align: left;">Autor(es)</th>
+<th style="text-align: left;">Revisor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">05/10/2026</td>
+<td style="text-align: center;">1.0</td>
+<td style="text-align: left;">Criação da análise de conteúdo relevante e expressão adequada do portal <strong>SEMOB-DF</strong> para a Entrega 3.</td>
+<td style="text-align: left;"><a href="https://github.com/Lucasaraujoszz">Lucas Araújo</a></td>
+<td style="text-align: left;"><a href="https://github.com/RodrigoCBarbosa">Rodrigo Barbosa</a></td>
+</tr>
+<tr>
+<td style="text-align: center;">05/10/2026</td>
+<td style="text-align: center;">1.1</td>
+<td style="text-align: left;">Inclusão de imagens dos trechos de referência das páginas 246–247 do livro-texto e atualização da numeração das imagens.</td>
+<td style="text-align: left;"><a href="https://github.com/Lucasaraujoszz">Lucas Araújo</a></td>
+<td style="text-align: left;"><a href="https://github.com/RodrigoCBarbosa">Rodrigo Barbosa</a></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Site analisado:</strong> <a href="https://www.semob.df.gov.br/">https://www.semob.df.gov.br/</a> (Secretaria de Estado de Transporte e Mobilidade do Distrito Federal)</p>
+<p><strong>Princípio:</strong> 10.2.8 Conteúdo Relevante e Expressão Adequada</p>
+<p><strong>Referência teórica:</strong> Barbosa, S. D. J. et al. (2021). <em>Interação Humano-Computador e Experiência do Usuário</em>, Cap. 10: Princípios e Diretrizes para o Design de IHC, pp. 246–247.</p>
+<p><strong>Contexto:</strong> Grupo 05, Interação Humano-Computador, UnB/FCTE, Professor André Barros de Sales, Semestre 2026.2. Artefato correspondente ao tópico 7 do item 12 do checklist da Entrega 3.</p>
+<p><strong>Data da inspeção:</strong> 05/10/2026, em navegador desktop (Google Chrome)</p>
+<p><strong>Autor do artefato:</strong> <a href="https://github.com/Lucasaraujoszz">Lucas Araújo</a></p>
+<hr />
+<h2 id="1-o-principio-segundo-o-livro">1. O princípio segundo o livro<a class="headerlink" href="#1-o-principio-segundo-o-livro" title="Ligação permanente para esta seção">&para;</a></h2>
+<p>O princípio de <strong>Conteúdo Relevante e Expressão Adequada</strong> orienta o sistema a oferecer as informações necessárias à tarefa e apresentá-las de forma clara e respeitosa (Barbosa et al., 2021, Seção 10.2.8). Além de encontrar uma informação correta, o usuário precisa entender o que ela significa e como pode ajudá-lo. Textos difíceis, siglas sem explicação e elementos pouco legíveis podem atrapalhar esse processo.</p>
+<p>No portal da SEMOB-DF, esse princípio se aplica à redação sobre serviços e normas e à apresentação de tarifas, itinerários, horários e canais de atendimento.</p>
+<p>A análise se apoia nas recomendações apresentadas por Barbosa et al. (2021, pp. 246–247). As imagens 01 a 06 mostram os trechos do livro que fundamentam os quatro tópicos a seguir:</p>
+<h3 id="11-a-interacao-como-conversa-cooperativa-maximas-de-grice">1.1. A interação como conversa cooperativa (Máximas de Grice)<a class="headerlink" href="#11-a-interacao-como-conversa-cooperativa-maximas-de-grice" title="Ligação permanente para esta seção">&para;</a></h3>
+<p>Segundo Reeves e Nass (1996 apud Barbosa et al., 2021), as pessoas atribuem comportamentos e expectativas sociais humanas à sua interação com mídias e computadores. A comunicação da interface deve, por isso, ajudar o usuário e respeitar sua atenção. Barbosa et al. (2021) relacionam essa ideia às quatro máximas conversacionais de Grice (1975):</p>
+<ol>
+<li><strong>Máxima da Qualidade:</strong> não dizer nada que se saiba não ser verdadeiro ou para o qual não haja evidências que sustentem a informação (não mentir ou especular). No portal da SEMOB-DF, valores tarifários, regras de integração e tabelas de horários devem estar de acordo com as informações oficiais, com indicação da data de atualização.</li>
+<li><strong>Máxima da Quantidade:</strong> a contribuição de uma fala ou diálogo deve ser tão informativa quanto o necessário para os objetivos da tarefa corrente, e não mais do que isso. Os autores de IHC resumem esse princípio no lema <em>"menos é mais"</em>, voltado à simplicidade da interface.</li>
+<li><strong>Máxima da Relação (ou Relevância):</strong> tudo o que for exibido ou solicitado deve manter estreita relação com os tópicos da conversa e com o objetivo central do usuário. Por exemplo, quem busca saber o preço de uma passagem precisa ver o valor aplicável ao seu itinerário de imediato, em vez de ser obrigado a ler contratos de concessão ou fórmulas de reajuste técnico.</li>
+<li><strong>Máxima de Modo (ou Clareza):</strong> evitar textos longos sem necessidade e expressões ambíguas. As informações devem seguir uma ordem lógica, com termos conhecidos pelo público e explicações para siglas ou palavras técnicas.</li>
+</ol>
+<p>A imagem 01, reunida na seção de Fotos de Referência, apresenta as máximas de Grice e sua relação com a interação entre pessoas e computadores.</p>
+<h3 id="12-projeto-estetico-e-minimalista">1.2. Projeto estético e minimalista<a class="headerlink" href="#12-projeto-estetico-e-minimalista" title="Ligação permanente para esta seção">&para;</a></h3>
+<p>Relacionado à máxima da quantidade, o <strong>projeto estético e minimalista</strong> de Nielsen (1994c apud Barbosa et al., 2021) recomenda evitar informações irrelevantes ou raramente necessárias nos diálogos da interface. O livro explica essa recomendação da seguinte forma:</p>
+<blockquote>
+<p><em>"Cada unidade extra de informação em um diálogo compete com as unidades relevantes de informação e reduz sua visibilidade relativa."</em> (Nielsen, 1994c apud Barbosa et al., 2021, p. 246)</p>
+</blockquote>
+<p>Contudo, Nielsen (1994b apud Barbosa et al., 2021) adverte que o minimalismo não deve significar sonegação de informação: quando o sistema esconde detalhes essenciais, ele obscurece seu próprio comportamento e prejudica a confiança do cidadão. Uma boa interface deve proporcionar uma interação respeitosa, generosa e prestativa, organizando a informação em camadas progressivas.</p>
+<p>Na imagem 02, reunida na seção de Fotos de Referência, o livro relaciona o minimalismo à necessidade de manter as informações essenciais disponíveis.</p>
+<h3 id="13-redacao-em-interfaces-graficas-economia-cognitiva-e-legibilidade">1.3. Redação em interfaces gráficas, economia cognitiva e legibilidade<a class="headerlink" href="#13-redacao-em-interfaces-graficas-economia-cognitiva-e-legibilidade" title="Ligação permanente para esta seção">&para;</a></h3>
+<p>Tognazzini (2014 apud Barbosa et al., 2021) enfatiza o cuidado com a redação em interfaces:</p>
+<ul>
+<li><strong>Instruções e mensagens de ajuda:</strong> Devem ser concisas, informativas e focadas na resolução de problemas concretos.</li>
+<li><strong>Rótulos de menus e botões:</strong> Devem ser unívocos, descritivos e livres de ambiguidade.</li>
+<li><strong>Economia cognitiva:</strong> Usar palavras diferentes para a mesma ação pode dificultar a leitura. Manter verbos familiares, como em "Consultar linhas", "Consultar horários" e "Consultar tarifas", ajuda o usuário a reconhecer as opções mais rapidamente.</li>
+<li><strong>Legibilidade e Contraste:</strong> Textos devem oferecer alto contraste perceptivo, favorecendo caracteres escuros sobre fundos brancos ou claros e <strong>evitando fundos cinza</strong> (Tognazzini, 2014). Os tamanhos de fonte devem ser confortáveis para telas de desktop e mobile, permitindo ampliação por tecnologia assistiva.</li>
+<li><strong>Destaque a dados reais:</strong> Informações concretas e dados numéricos (como preços de passagens e números de linhas) devem receber destaque visual e tipográfico maior do que rótulos e instruções contextuais.</li>
+<li><strong>Uso não exclusivo da cor:</strong> Tognazzini (2014 apud Barbosa et al., 2021) recomenda que a cor seja acompanhada de outras pistas, como ícones, textos ou diferenças em tons de cinza. O livro menciona que o daltonismo afeta cerca de 10% da população masculina, o que reforça a necessidade de apresentar a informação de mais de uma forma.</li>
+</ul>
+<p>A imagem 03, reunida na seção de Fotos de Referência, apresenta as orientações sobre redação e escolha de palavras nos menus.</p>
+<p>As recomendações sobre contraste, tamanho de fonte e destaque dos dados aparecem na imagem 04, reunida na seção de Fotos de Referência.</p>
+<p>A imagem 05, reunida na seção de Fotos de Referência, mostra a importância de acompanhar as cores com outras pistas de informação.</p>
+<h3 id="14-principios-de-design-visual-e-organizacao-espacial">1.4. Princípios de design visual e organização espacial<a class="headerlink" href="#14-principios-de-design-visual-e-organizacao-espacial" title="Ligação permanente para esta seção">&para;</a></h3>
+<p>Mullet e Sano (1995 apud Barbosa et al., 2021) organizam os princípios do design visual em seis dimensões interligadas:</p>
+<ol>
+<li><em>Elegância e simplicidade;</em></li>
+<li><em>Escala, contraste e proporção;</em></li>
+<li><em>Organização e estrutura visual;</em></li>
+<li><em>Módulo e programa;</em></li>
+<li><em>Imagem e representação;</em></li>
+<li><em>Estilo.</em></li>
+</ol>
+<p>O respeito a esses princípios evita que a atenção do usuário seja dispersa por ruídos gráficos. O uso criterioso de <strong>grids de alinhamento</strong> e do <strong>espaço em branco</strong> organiza os blocos visuais e conduz os olhos do usuário de acordo com o fluxo natural de leitura.</p>
+<p>A imagem 06, reunida na seção de Fotos de Referência, apresenta os princípios de design visual e as orientações sobre alinhamento e espaço.</p>
+<hr />
+<h2 id="2-como-a-inspecao-foi-realizada">2. Como a inspeção foi realizada<a class="headerlink" href="#2-como-a-inspecao-foi-realizada" title="Ligação permanente para esta seção">&para;</a></h2>
+<p>A avaliação foi conduzida por meio de <strong>inspeção semiótica e documental</strong> nas seções do portal da SEMOB-DF mais frequentadas por passageiros e cidadãos, cruzando os elementos da interface com os critérios de Barbosa et al. (2021, Seção 10.2.8).</p>
+<p><strong>Tabela 1</strong> — Escopo e áreas inspecionadas no portal</p>
+<table>
+<thead>
+<tr>
+<th>Área analisada</th>
+<th>Endereço / Referência</th>
+<th>Foco da inspeção sob o Princípio 7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Página inicial</strong></td>
+<td><a href="https://www.semob.df.gov.br/">https://www.semob.df.gov.br/</a></td>
+<td>Cabeçalho, clareza dos menus, contraste de seções (banner e PPP) e links de acesso rápido.</td>
+</tr>
+<tr>
+<td><strong>Tarifas e Preços</strong></td>
+<td><a href="https://www.semob.df.gov.br/precos-das-passagens">/precos-das-passagens</a> e <a href="https://www.semob.df.gov.br/calculo-da-tarifa-tecnica-2">/calculo-da-tarifa-tecnica-2</a></td>
+<td>Destaque tipográfico dos valores reais, clareza das categorias e densidade do texto explicativo.</td>
+</tr>
+<tr>
+<td><strong>Canais de atendimento</strong></td>
+<td><a href="https://www.semob.df.gov.br/ouvidoria">/ouvidoria</a></td>
+<td>Objetividade das instruções, textos de links e botões de ação do cidadão.</td>
+</tr>
+<tr>
+<td><strong>DF no Ponto</strong></td>
+<td><a href="https://dfnoponto.com.br/">https://dfnoponto.com.br/</a></td>
+<td>Clareza na descrição das ferramentas e alinhamento do vocabulário à rotina do passageiro.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Escala de gravidade adotada:</strong>
+- <strong>Alta:</strong> O problema de expressão ou conteúdo compromete criticamente a legibilidade ou impede o usuário de completar sua tarefa com autonomia;
+- <strong>Média:</strong> O problema confunde o usuário, impõe sobrecarga cognitiva, exige decifração de jargão ou atrasa a navegação;
+- <strong>Baixa:</strong> Problema cosmético ou secundário de apresentação que não chega a comprometer a conclusão da tarefa.</p>
+<hr />
+<h2 id="3-pontos-positivos-observados">3. Pontos positivos observados<a class="headerlink" href="#3-pontos-positivos-observados" title="Ligação permanente para esta seção">&para;</a></h2>
+<p>A inspeção identificou pontos positivos no portal que dialogam diretamente com as recomendações de Conteúdo Relevante e Expressão Adequada, sintetizados na Tabela 2.</p>
+<p><strong>Tabela 2</strong> — Pontos positivos encontrados no portal da SEMOB-DF</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th>Observação no Portal</th>
+<th>Relação com o princípio (Barbosa et al., 2021)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>P1</strong></td>
+<td>Presença do controle de acessibilidade <strong>Aa</strong> no cabeçalho fixo.</td>
+<td>Contribui para a flexibilidade tipográfica e legibilidade recomendada por Tognazzini, permitindo que usuários com baixa visão ajustem a escala de leitura.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>P2</strong></td>
+<td>Campo de busca principal com texto de instrução explícito: <em>"Digite aqui o que você procura"</em>.</td>
+<td>Atende à Máxima de Modo (Grice) e à recomendação de Tognazzini de instruir o usuário de forma concisa sobre como agir.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>P3</strong></td>
+<td>Página de preços das passagens estruturada por categorias de deslocamento (Circular interna, Alimentadora e Troncal).</td>
+<td>Conteúdo enxuto e relevante para o passageiro leigo, respeitando as Máximas da Quantidade e Relevância ao separar os tipos de viagem.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>P4</strong></td>
+<td>Ouvidoria explicita os tipos de manifestação (Reclamação, Sugestão, Elogio, Denúncia e Informação).</td>
+<td>Linguagem cidadã orientada à intenção do usuário, tornando clara a finalidade de cada canal de atendimento.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>P5</strong></td>
+<td>Seção de Tarifa Técnica estruturada em formato de perguntas e respostas frequentes.</td>
+<td>Organização lógica do conteúdo complexo em blocos temáticos, auxiliando a escaneabilidade do texto.</td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>P6</strong></td>
+<td>Apresentação do serviço DF no Ponto correlacionando ferramentas às necessidades de mobilidade (busca por linha, horário e parada).</td>
+<td>Vocabulário orientado à ação prática do usuário, alinhando a descrição ao objetivo de mobilidade do cidadão.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="4-problemas-encontrados">4. Problemas encontrados<a class="headerlink" href="#4-problemas-encontrados" title="Ligação permanente para esta seção">&para;</a></h2>
+<h3 id="resumo-das-violacoes">Resumo das violações<a class="headerlink" href="#resumo-das-violacoes" title="Ligação permanente para esta seção">&para;</a></h3>
+<p>A Tabela 3 consolida as falhas de conteúdo e expressão identificadas durante a inspeção do portal.</p>
+<p><strong>Tabela 3</strong> — Síntese dos problemas encontrados</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">ID</th>
+<th>Problema Identificado</th>
+<th>Diretriz Violada (Barbosa et al., 2021)</th>
+<th style="text-align: center;">Gravidade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;"><strong>CR1</strong></td>
+<td>Redação administrativa excessivamente densa e prolixa na explicação de tarifas técnicas.</td>
+<td>Máxima de Modo e Quantidade (Grice); Minimalismo Estético (Nielsen).</td>
+<td style="text-align: center;"><strong>Média</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CR2</strong></td>
+<td>Siglas governamentais e marcas de sistemas utilizadas sem contexto ou expansão.</td>
+<td>Máxima de Modo (Grice); Clareza de Rótulos e Economia Cognitiva (Tognazzini).</td>
+<td style="text-align: center;"><strong>Média</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CR3</strong></td>
+<td>Ausência de destaque tipográfico hierárquico nos valores das tarifas de passagens.</td>
+<td>Destaque de Dados Reais (Tognazzini); Escala e Contraste (Mullet e Sano).</td>
+<td style="text-align: center;"><strong>Média</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CR4</strong></td>
+<td>Baixo contraste crítico e legibilidade prejudicada no bloco de Parcerias Público-Privadas (PPP).</td>
+<td>Contraste e Legibilidade (Tognazzini); Contraste e Proporção (Mullet e Sano).</td>
+<td style="text-align: center;"><strong>Alta</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;"><strong>CR5</strong></td>
+<td>Links e botões com rótulos genéricos dependentes do texto ao redor (<em>"clique aqui"</em>, <em>"Consultar"</em>).</td>
+<td>Máxima de Modo (Grice); Rótulos Unívocos e Informativos (Tognazzini).</td>
+<td style="text-align: center;"><strong>Média</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h3 id="cr1-redacao-administrativa-densa-e-juridica-gravidade-media">CR1. Redação administrativa densa e jurídica (Gravidade Média)<a class="headerlink" href="#cr1-redacao-administrativa-densa-e-juridica-gravidade-media" title="Ligação permanente para esta seção">&para;</a></h3>
+<p><strong>Descrição:</strong> Na página de <a href="https://www.semob.df.gov.br/calculo-da-tarifa-tecnica-2">Cálculo da Tarifa Técnica</a>, a explicação dos custos operacionais do transporte é apresentada em parágrafos longos repletos de vocabulário contratual especializado (<em>"equilíbrio econômico-financeiro"</em>, <em>"metodologia paramétrica de remuneração"</em>, <em>"revisão ordinária e extraordinária"</em>). Embora a explicação detalhada seja fundamental para a transparência pública, ela é exposta em bloco único sem um sumário em linguagem simples para o passageiro comum.</p>
+<p><strong>Por que é um problema:</strong> Viola a <strong>Máxima de Modo</strong> (clareza e concisão) e a <strong>Máxima da Quantidade</strong> (Grice). O excesso de jargões técnicos afasta o usuário primário (o passageiro), que apenas deseja compreender a diferença entre a tarifa pública paga na catraca e o custo técnico remunerado às empresas de ônibus. Conforme Nielsen (1994c), o excesso de informação compete diretamente com a atenção dispensada aos dados fundamentais.</p>
+<p><strong>Recomendação:</strong> Implementar uma abordagem em camadas: introduzir o tópico com um infográfico ou resumo em linguagem cidadã direta (<em>"Como o valor da sua passagem é calculado"</em>), reservando os detalhamentos matemáticos e os anexos dos editais para seções expansíveis ou abas secundárias destinadas a pesquisadores e órgãos de controle.</p>
+<p><img alt="Página de cálculo da tarifa técnica com blocos densos" src="../../../assets/prints_referencias/print-consistencia-e-padronizacao-tarifa-tecnica.png" />
+<em>Imagem 07 — Estrutura de tópicos da Tarifa Técnica com seções extensas e termos técnicos.</em></p>
+<hr />
+<h3 id="cr2-siglas-hermeticas-e-nomes-de-sistemas-sem-significado-imediato-gravidade-media">CR2. Siglas herméticas e nomes de sistemas sem significado imediato (Gravidade Média)<a class="headerlink" href="#cr2-siglas-hermeticas-e-nomes-de-sistemas-sem-significado-imediato-gravidade-media" title="Ligação permanente para esta seção">&para;</a></h3>
+<p><strong>Descrição:</strong> O menu principal e os blocos de navegação da página inicial apresentam siglas governamentais sem nenhuma indicação do que significam ou de qual tarefa o usuário pode realizar. Exemplos identificados:
+- <em>"Dados STPC"</em> e <em>"PDTU"</em> no menu superior;
+- <em>"Resoluções – CTPC"</em> e <em>"Atas – CTPC"</em>;
+- Botões e logotipos identificados apenas como <em>"DFLEGIS"</em>, <em>"SICOPWEB"</em> e <em>"SINJ-DF"</em>.</p>
+<p><strong>Tabela 4</strong> — Tratamento recomendado para siglas e jargões institucionais</p>
+<table>
+<thead>
+<tr>
+<th>Sigla / Rótulo Atual</th>
+<th>Significado Técnico</th>
+<th>Expressão Recomendada no Redesign (Linguagem Cidadã)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>STPC</strong></td>
+<td>Sistema de Transporte Público Coletivo</td>
+<td><strong>Dados do Transporte Coletivo (STPC)</strong></td>
+</tr>
+<tr>
+<td><strong>CTPC</strong></td>
+<td>Conselho de Transporte Público Coletivo</td>
+<td><strong>Conselho de Transporte (CTPC): Atas e Resoluções</strong></td>
+</tr>
+<tr>
+<td><strong>PDTU</strong></td>
+<td>Plano Diretor de Transporte Urbano</td>
+<td><strong>Plano Diretor de Mobilidade (PDTU)</strong></td>
+</tr>
+<tr>
+<td><strong>DFLEGIS</strong></td>
+<td>Base de Legislação do Distrito Federal</td>
+<td><strong>Consultar Legislação do DF (DFLEGIS)</strong></td>
+</tr>
+<tr>
+<td><strong>SINJ-DF</strong></td>
+<td>Sistema Integrado de Normas Jurídicas do DF</td>
+<td><strong>Normas Jurídicas do DF (SINJ-DF)</strong></td>
+</tr>
+<tr>
+<td><strong>SICOPWEB</strong></td>
+<td>Sistema de Controle de Processos</td>
+<td><strong>Acompanhar Processos (SICOPWEB)</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Por que é um problema:</strong> Contraria frontalmente a <strong>Máxima de Modo</strong> (Grice) e a diretriz de <strong>rótulos unívocos e economia cognitiva</strong> de Tognazzini (2014). O cidadão é obrigado a adivinhar a estrutura burocrática do Estado para saber onde clicar. A ausência de contexto textual claro obriga o usuário a despender esforço cognitivo em tentativas e erros.</p>
+<p><strong>Recomendação:</strong> Adotar como padrão de microcopy a fórmula: <strong>[Ação em Linguagem Cidadã] + (Sigla Oficial)</strong>. Menus e botões devem explicitar a finalidade da ferramenta antes da sigla institucional.</p>
+<p><img alt="Menu e cabeçalho com siglas institucionais" src="../../../assets/prints_referencias/01-cabecalho-menu.png" />
+<em>Imagem 08 — Cabeçalho e menu da SEMOB-DF com siglas (Dados STPC, PDTU) sem explicação para o usuário.</em></p>
+<hr />
+<h3 id="cr3-ausencia-de-destaque-tipografico-nos-valores-das-passagens-gravidade-media">CR3. Ausência de destaque tipográfico nos valores das passagens (Gravidade Média)<a class="headerlink" href="#cr3-ausencia-de-destaque-tipografico-nos-valores-das-passagens-gravidade-media" title="Ligação permanente para esta seção">&para;</a></h3>
+<p><strong>Descrição:</strong> Na página <a href="https://www.semob.df.gov.br/precos-das-passagens">Preços das Passagens</a>, cada categoria de itinerário e o seu respectivo preço monetário (ex.: <em>"Circular interna – R$ 2,70"</em>, <em>"Linhas de ligação – R$ 3,80"</em>, <em>"Linhas troncais e metrô – R$ 5,50"</em>) são exibidos em linhas de texto corrido simples, com o mesmo peso tipográfico e mesma cor de fonte dos rótulos descritivos.</p>
+<p><strong>Por que é um problema:</strong> Tognazzini (2014) afirma enfaticamente que dados reais e numéricos essenciais para a tomada de decisão do usuário devem receber <strong>destaque tipográfico superior</strong> aos rótulos e instruções contextuais. Além disso, segundo Mullet e Sano (1995), a ausência de contraste de escala e proporção retarda o escaneamento visual da página: quem está na parada de ônibus precisa identificar o valor monetário instantaneamente, sem ler cada frase na íntegra.</p>
+<p><strong>Recomendação:</strong> Reorganizar a apresentação das tarifas em cartões (<em>cards</em>) destacados ou tabela limpa, aplicando tipografia robusta (tamanho maior e peso <em>bold</em>) sobre os valores monetários (<code>R$ 2,70</code>, <code>R$ 5,50</code>), acompanhados de ícones visuais representativos de cada modalidade de linha.</p>
+<p><img alt="Página de Preços das Passagens" src="../../../assets/prints_referencias/08-breadcrumb-precos.png" />
+<em>Imagem 09 — Valores monetários das tarifas sem diferenciação de peso ou destaque visual em relação aos nomes das linhas.</em></p>
+<hr />
+<h3 id="cr4-baixo-contraste-e-legibilidade-comprometida-na-secao-ppp-gravidade-alta">CR4. Baixo contraste e legibilidade comprometida na seção PPP (Gravidade Alta)<a class="headerlink" href="#cr4-baixo-contraste-e-legibilidade-comprometida-na-secao-ppp-gravidade-alta" title="Ligação permanente para esta seção">&para;</a></h3>
+<p><strong>Descrição:</strong> No bloco dedicado a <em>Parcerias Público Privadas – PPP</em> na página inicial, os textos explicativos e os botões com borda fina encontram-se em branco aplicados sobre um plano de fundo excessivamente claro. Em condições reais de luminosidade ou caso a imagem de fundo falhe em carregar, o conteúdo torna-se praticamente ilegível.</p>
+<p><strong>Por que é um problema:</strong> Viola a diretriz de <strong>contraste visual e legibilidade</strong> de Tognazzini (2014) e os princípios de contraste e visibilidade de Mullet e Sano (1995). Uma mensagem perde completamente a relevância se sua expressão material não puder ser decodificada pelo olho humano. Usuários em trânsito, expostos à luz solar direta sobre telas de smartphones, não conseguem ler as opções desse bloco.</p>
+<p><strong>Recomendação:</strong> Garantir conformidade com as diretrizes WCAG 2.1 nível AA (taxa de contraste mínima de 4.5:1 para texto normal e 3:1 para textos grandes e componentes de interface). Estabelecer uma camada de fundo sólida de reserva (<em>fallback</em>) em tom escuro para assegurar a legibilidade mesmo na eventual falha de carregamento de imagens.</p>
+<p><img alt="Seção PPP com contraste prejudicado" src="../../../assets/prints_referencias/04-secao-ppp-invisivel.png" />
+<em>Imagem 10 — Texto e elementos de contorno brancos sobre fundo claro na seção PPP, inviabilizando a leitura confortável.</em></p>
+<hr />
+<h3 id="cr5-rotulos-genericos-em-links-e-chamadas-para-acao-gravidade-media">CR5. Rótulos genéricos em links e chamadas para ação (Gravidade Média)<a class="headerlink" href="#cr5-rotulos-genericos-em-links-e-chamadas-para-acao-gravidade-media" title="Ligação permanente para esta seção">&para;</a></h3>
+<p><strong>Descrição:</strong> Na página de <a href="https://www.semob.df.gov.br/ouvidoria">Ouvidoria</a>, encontram-se hiperlinks com rótulos vagos e descontextualizados, tais como <em>"Clique aqui e confira!"</em> e <em>"clique aqui"</em>. Da mesma forma, nos cartões de serviços da Home, botões apresentam apenas a palavra genérica <em>"Consultar"</em>.</p>
+<p><strong>Tabela 5</strong> — Propostas de reescrita para rótulos genéricos</p>
+<table>
+<thead>
+<tr>
+<th>Rótulo Atual</th>
+<th>Contexto da Página</th>
+<th>Redação Recomendada no Redesign</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><em>"Clique aqui e confira!"</em></td>
+<td>Ouvidoria / Sistema Participa DF</td>
+<td><strong>Acessar o portal Participa DF</strong></td>
+</tr>
+<tr>
+<td><em>"clique aqui"</em></td>
+<td>Registro de Manifestação</td>
+<td><strong>Registrar solicitação na Ouvidoria</strong></td>
+</tr>
+<tr>
+<td><em>"Consultar"</em></td>
+<td>Bloco SICOPWEB</td>
+<td><strong>Consultar andamento de processo</strong></td>
+</tr>
+<tr>
+<td><em>"Clique aqui"</em></td>
+<td>Legislação e Portarias</td>
+<td><strong>Visualizar portarias do transporte</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Por que é um problema:</strong> Rótulos como <em>"clique aqui"</em> violam a <strong>Máxima de Modo</strong> (clareza) e as diretrizes de redação de Tognazzini (2014), que determinam que os rótulos de botões e links devem ser compreensíveis por si mesmos e informar exatamente o destino ou a consequência da ação. Além disso, tecnologias assistivas (leitores de tela para pessoas com deficiência visual) que listam apenas os links da página deixam o usuário desorientado diante de uma sequência de links indistintos rotulados como "clique aqui".</p>
+<p><strong>Recomendação:</strong> Redigir links com verbo de ação associado ao objeto específico (<em>"Ver tarifas"</em>, <em>"Registrar reclamação"</em>, <em>"Acessar o Participa DF"</em>), abolindo instruções mecânicas sobre o dispositivo de entrada (como "clique" ou "toque").</p>
+<p><img alt="Página da Ouvidoria com links genéricos" src="../../../assets/prints_referencias/09-pagina-ouvidoria.png" />
+<em>Imagem 11 — Links de texto "Clique aqui e confira!" na Ouvidoria, desprovidos de significado autônomo.</em></p>
+<hr />
+<h2 id="5-sintese-das-recomendacoes-para-o-projeto-do-grupo-05">5. Síntese das recomendações para o projeto do Grupo 05<a class="headerlink" href="#5-sintese-das-recomendacoes-para-o-projeto-do-grupo-05" title="Ligação permanente para esta seção">&para;</a></h2>
+<p>A partir dos pontos positivos e das violações identificadas no portal da SEMOB-DF, a Tabela 6 estabelece as diretrizes que a equipe do Grupo 05 deve incorporar obrigatoriamente no <a href="../../guia-de-estilo/introducao/">Guia de Estilo</a> e na futura prototipação do sistema.</p>
+<p><strong>Tabela 6</strong> — Diretrizes de Conteúdo Relevante e Expressão Adequada para o redesign</p>
+<table>
+<thead>
+<tr>
+<th>Dimensão de IHC</th>
+<th>Diretriz para o Projeto do Grupo 05</th>
+<th>Aplicação Concreta no Redesign</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Linguagem Cidadã (<em>Plain Language</em>)</strong></td>
+<td>Substituir o jargão burocrático e jurídico por linguagem orientada aos objetivos do usuário comum (CR1).</td>
+<td>Resumos objetivos no topo de páginas de normas e serviços; termos em linguagem simples com detalhamentos secundários opcionais.</td>
+</tr>
+<tr>
+<td><strong>Vocabulário e Siglas</strong></td>
+<td>Não utilizar siglas isoladas em menus e botões sem explicar seu significado (CR2).</td>
+<td>Padrão unificado: nome do serviço por extenso acompanhado da sigla entre parênteses em menus e títulos.</td>
+</tr>
+<tr>
+<td><strong>Hierarquia Tipográfica</strong></td>
+<td>Conceder destaque visual evidente para dados numéricos importantes (CR3).</td>
+<td>Valores de passagens (<code>R$ 5,50</code>), tempos de espera e números de linhas formatados com maior escala de fonte e peso tipográfico.</td>
+</tr>
+<tr>
+<td><strong>Contraste e Legibilidade</strong></td>
+<td>Garantir contraste seguro (mínimo de 4.5:1) em qualquer cenário de iluminação (CR4).</td>
+<td>Textos escuros sobre fundos neutros claros; proibição de fundos cinza degradantes e uso de cor de reserva sólida sob imagens.</td>
+</tr>
+<tr>
+<td><strong>Microcopy de Ações</strong></td>
+<td>Utilizar rótulos informativos que contenham verbo e objeto da ação (CR5).</td>
+<td>Substituição de rótulos genéricos como "Clique aqui"; botões descritivos como <em>"Consultar horários"</em>, <em>"Recarregar cartão"</em>.</td>
+</tr>
+<tr>
+<td><strong>Acessibilidade Cromática</strong></td>
+<td>Jamais transmitir estados ou alertas apenas por meio de cores.</td>
+<td>Indicadores de status de ônibus (ex.: adiantado/atrasado) devem combinar cores com ícones claros e rótulos em texto.</td>
+</tr>
+<tr>
+<td><strong>Escaneabilidade e Grids</strong></td>
+<td>Estruturar telas com alinhamento em grid e áreas de respiro visual.</td>
+<td>Organização de horários e itinerários em blocos limpos, facilitando a leitura rápida em telas de celulares na rua.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="6-conclusao">6. Conclusão<a class="headerlink" href="#6-conclusao" title="Ligação permanente para esta seção">&para;</a></h2>
+<p>O portal da SEMOB-DF reúne informações importantes para a população e oferece recursos de busca e acessibilidade. Nas páginas analisadas, porém, a forma de apresentar o conteúdo pode dificultar a consulta: há textos administrativos extensos, siglas pouco explicadas, valores de tarifas sem destaque e links com rótulos genéricos. O contraste da seção PPP também prejudica a leitura no registro apresentado.</p>
+<p>As recomendações de Barbosa et al. (2021) ajudam a orientar essas melhorias: selecionar o conteúdo de acordo com a tarefa, escrever com clareza, destacar os dados importantes e cuidar da legibilidade. O Grupo 05 pode incorporar essas orientações ao Guia de Estilo e ao protótipo de redesign, buscando facilitar tarefas como consultar uma tarifa, encontrar uma linha e acessar um canal de atendimento.</p>
+<hr />
+<h2 id="7-declaracao-sobre-o-uso-de-ia-generativa">7. Declaração sobre o Uso de IA Generativa<a class="headerlink" href="#7-declaracao-sobre-o-uso-de-ia-generativa" title="Ligação permanente para esta seção">&para;</a></h2>
+<p>Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as tomadas de decisão e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.</p>
+<hr />
+<h2 id="8-fotos-de-referencia">8. Fotos de Referência<a class="headerlink" href="#8-fotos-de-referencia" title="Ligação permanente para esta seção">&para;</a></h2>
+<p><img alt="Reeves e Nass e as quatro máximas conversacionais de Grice — Barbosa et al. (2021), p. 246" src="../../../assets/prints_referencias/referencia-conteudo-relevante-246-grice.png" /></p>
+<p><em>Imagem 01 — Reeves e Nass e as quatro máximas conversacionais de Grice. Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).</em></p>
+<p><img alt="Projeto estético e minimalista e interação respeitosa, generosa e prestativa — Barbosa et al. (2021), p. 246" src="../../../assets/prints_referencias/referencia-conteudo-relevante-246-nielsen.png" /></p>
+<p><em>Imagem 02 — Projeto estético e minimalista e interação respeitosa, generosa e prestativa. Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).</em></p>
+<p><img alt="Redação de instruções, rótulos e economia cognitiva — Barbosa et al. (2021), p. 246" src="../../../assets/prints_referencias/referencia-conteudo-relevante-246-redacao.png" /></p>
+<p><em>Imagem 03 — Redação de instruções, rótulos e economia cognitiva. Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).</em></p>
+<p><img alt="Contraste, tamanho de fonte e destaque dos dados numéricos — Barbosa et al. (2021), p. 246" src="../../../assets/prints_referencias/referencia-conteudo-relevante-246-legibilidade.png" /></p>
+<p><em>Imagem 04 — Contraste, tamanho de fonte e destaque dos dados numéricos. Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).</em></p>
+<p><img alt="Uso de cores com dicas secundárias de informação — Barbosa et al. (2021), p. 246" src="../../../assets/prints_referencias/referencia-conteudo-relevante-246-cores.png" /></p>
+<p><em>Imagem 05 — Uso de cores com dicas secundárias de informação. Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).</em></p>
+<p><img alt="Princípios de design visual, grids e espaço para orientar a leitura — Barbosa et al. (2021), p. 247" src="../../../assets/prints_referencias/referencia-conteudo-relevante-247-design-visual.png" /></p>
+<p><em>Imagem 06 — Princípios de design visual, grids e espaço para orientar a leitura. Fonte: Barbosa et al. (2021, p. 247, subseção 10.2.8).</em></p>
+<h2 id="9-referencias-bibliograficas">9. Referências Bibliográficas<a class="headerlink" href="#9-referencias-bibliograficas" title="Ligação permanente para esta seção">&para;</a></h2>
+<ul>
+<li>BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. <strong>Interação Humano-Computador e Experiência do Usuário</strong>. Rio de Janeiro: Autopublicação, 2021. Capítulo 10: Princípios e Diretrizes para o Design de IHC, Subseção 10.2.8: Conteúdo Relevante e Expressão Adequada, pp. 246–247.</li>
+<li>DISTRITO FEDERAL. Secretaria de Estado de Transporte e Mobilidade. <strong>Portal da SEMOB-DF</strong>. Brasília, DF: SEMOB-DF, 2026. Disponível em: <a href="https://www.semob.df.gov.br/">https://www.semob.df.gov.br/</a>. Acesso em: 05 out. 2026.</li>
+<li>DISTRITO FEDERAL. Secretaria de Estado de Transporte e Mobilidade. <strong>Preços das Passagens</strong>. Brasília, DF: SEMOB-DF, 2026. Disponível em: <a href="https://www.semob.df.gov.br/precos-das-passagens">https://www.semob.df.gov.br/precos-das-passagens</a>. Acesso em: 05 out. 2026.</li>
+<li>DISTRITO FEDERAL. Secretaria de Estado de Transporte e Mobilidade. <strong>Cálculo da Tarifa Técnica</strong>. Brasília, DF: SEMOB-DF, 2026. Disponível em: <a href="https://www.semob.df.gov.br/calculo-da-tarifa-tecnica-2">https://www.semob.df.gov.br/calculo-da-tarifa-tecnica-2</a>. Acesso em: 05 out. 2026.</li>
+<li>DISTRITO FEDERAL. Secretaria de Estado de Transporte e Mobilidade. <strong>Ouvidoria da SEMOB-DF</strong>. Brasília, DF: SEMOB-DF, 2026. Disponível em: <a href="https://www.semob.df.gov.br/ouvidoria">https://www.semob.df.gov.br/ouvidoria</a>. Acesso em: 05 out. 2026.</li>
+<li>GRICE, H. Paul. <strong>Logic and Conversation</strong>. In: Syntax and Semantics, volume 3: Speech Acts, pp. 41–58. Academic Press, 1975.</li>
+<li>MULLET, Kevin; SANO, Darrell. <strong>Designing Visual Interfaces: Communication Oriented Techniques</strong>. Englewood Cliffs: Prentice-Hall, 1995.</li>
+<li>NIELSEN, Jakob. <strong>Usability Engineering</strong>. San Francisco: Morgan Kaufmann Publishers, 1994c.</li>
+<li>REEVES, Byron; NASS, Clifford. <strong>The Media Equation: How People Treat Computers, Television, and New Media Like Real People and Places</strong>. Stanford: Cambridge University Press, 1996.</li>
+<li>TOGNAZZINI, Bruce. <strong>First Principles of Interaction Design (Revised &amp; Expanded)</strong>. AskTog, 2014. Disponível em: <a href="https://asktog.com/atc/principles-of-interaction-design/">https://asktog.com/atc/principles-of-interaction-design/</a>. Acesso em: 05 out. 2026.</li>
+</ul>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+      <nav class="md-footer__inner md-grid" aria-label="Rodapé" >
+        
+          
+          <a href="../visibilidade-e-reconhecimento/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Visibilidade e reconhecimento">
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+            </div>
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              <div class="md-ellipsis">
+                Visibilidade e reconhecimento
+              </div>
+            </div>
+          </a>
+        
+        
+          
+          <a href="../projeto-para-erros/" class="md-footer__link md-footer__link--next" aria-label="Próximo: Projeto para Erros">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              <div class="md-ellipsis">
+                Projeto para Erros
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Grupo 05 · Interação Humano-Computador · FCTE/UnB · 2026.2
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://github.com/Interacao-Humano-Computador/2026.2-Grupo05" target="_blank" rel="noopener" title="Repositório do grupo no GitHub" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M173.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6m-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3m44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9M252.8 8C114.1 8 8 113.3 8 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C436.2 457.8 504 362.9 504 252 504 113.3 391.5 8 252.8 8M105.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1m-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7m32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1m-11.4-14.7c-1.6 1-1.6 3.6 0 5.9s4.3 3.3 5.6 2.3c1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../..", "features": ["navigation.tracking", "navigation.tabs", "navigation.tabs.sticky", "navigation.sections", "navigation.indexes", "navigation.top", "navigation.footer", "search.suggest", "search.highlight", "content.code.copy", "toc.follow"], "search": "../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../../assets/js/a11y.js"></script>
+      
+    
+  </body>
+</html>
