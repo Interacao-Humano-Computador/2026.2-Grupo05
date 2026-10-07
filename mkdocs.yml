@@ -156,6 +156,8 @@ nav:
     - Guia de estilo:
       - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
       - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
+      - Elementos de interface: analise-de-requisitos/guia-de-estilo/elementos-de-interface.md
+      - Elementos de interação: analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md
       - Elementos de ação: analise-de-requisitos/guia-de-estilo/elementos-de-acao.md
       - Vocabulário e padrões: analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md
     - Princípios gerais:
