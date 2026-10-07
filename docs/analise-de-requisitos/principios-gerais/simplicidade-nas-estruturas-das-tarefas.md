@@ -1,3 +1,5 @@
+# Simplicidade nas Estruturas das Tarefas no site da SEMOB-DF
+
 ## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
@@ -6,8 +8,6 @@
 | 06/10/2026 | 1.1 | Correção da URL do DF no Ponto (ST3) e refinamento técnico da análise de DNS/HTTP com evidência de erro em ST4, conforme revisão de PR #42. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
 
 ---
-
-# Simplicidade nas Estruturas das Tarefas no site da SEMOB-DF
 
 **Site analisado:** <https://www.semob.df.gov.br/> (Secretaria de Estado de Transporte e Mobilidade do Distrito Federal)
 
@@ -163,15 +163,7 @@ Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação
 
 ---
 
-## Referências Bibliográficas
-
-- BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10: Princípios e Diretrizes para o Design de IHC, p. 239.
-- NORMAN, Donald A. *The Design of Everyday Things*. Nova York: Basic Books, 1988.
-- SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Faculdade UnB Gama, Universidade de Brasília, 2026.
-
----
-
-## Imagens de Referências
+## Fotos de Referência
 
 Abaixo encontram-se os recortes comprobatórios extraídos diretamente da obra de referência da disciplina (Barbosa et al., 2021, p. 239):
 
@@ -180,3 +172,9 @@ Abaixo encontram-se os recortes comprobatórios extraídos diretamente da obra d
 
 ![Referência Teórica 02 - Abordagens Tecnológicas e Automação](../../assets/prints_referencias/referencia-simplicidade-tarefas-2.png)
 *Imagem 08: Trecho do livro-texto detalhando as quatro abordagens tecnológicas para simplificar tarefas e o alerta sobre os perigos da automação excessiva.*
+
+## Referências Bibliográficas
+
+- BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10: Princípios e Diretrizes para o Design de IHC, p. 239.
+- NORMAN, Donald A. *The Design of Everyday Things*. Nova York: Basic Books, 1988.
+- SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Faculdade UnB Gama, Universidade de Brasília, 2026.

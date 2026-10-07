@@ -121,8 +121,8 @@ Na Tabela 2, apresenta-se o quadro consolidado das entrevistas oficiais com usu�
 | :---: | :--- | :---: | :--- | :---: | :---: |
 | **ENT-01** | Potencial Usuário do SEMOB-DF (Motorista de Ônibus) | 22/09/2026 | [Carlos Costa](https://github.com/carloshfgit) (Condução)<br>[Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) (Filmagem) | [Vídeo no YouTube](https://youtu.be/ZykGMpaCt30) | <span class="pill pill-ok">Concluída</span> |
 | **ENT-02** | Desenvolvedores (SEMOB-DF) | 22/09/2026 | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) (Condução)<br>[Carlos Costa](https://github.com/carloshfgit) (Filmagem) | [Vídeo no YouTube](https://youtu.be/f5bk6RBZwDE) | <span class="pill pill-ok">Concluída</span> |
-| **ENT-03** | Passageiro Frequente / Usuário de Transporte Coletivo | 22/09/2026 | [Igor Dantas](https://github.com/IgorDARAUJO) | [Vídeo no YouTube](https://youtu.be/rVJJVXuH7Ls?is=yosN9EwOtUcPWe-l) | <span class="pill pill-wait">Concluída</span> |
-| **ENT-04** | Estudante / Beneficiário do Passe Livre Estudantil | 23/09/2026 | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Vídeo no YouTube](https://youtu.be/JpNoOG-T318?is=osM9685boVFR8fkd) | <span class="pill pill-wait">Concluída</span> |
+| **ENT-03** | Passageiro Frequente / Usuário de Transporte Coletivo | 22/09/2026 | [Igor Dantas](https://github.com/IgorDARAUJO) | [Vídeo no YouTube](https://youtu.be/rVJJVXuH7Ls?is=yosN9EwOtUcPWe-l) | <span class="pill pill-ok">Concluída</span> |
+| **ENT-04** | Estudante / Beneficiário do Passe Livre Estudantil | 23/09/2026 | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Vídeo no YouTube](https://youtu.be/JpNoOG-T318?is=osM9685boVFR8fkd) | <span class="pill pill-ok">Concluída</span> |
 | **ENT-05** | Passageiro Frequente / Usuário de Transporte Coletivo | 27/09/2026 | [Tomás Rocho](https://github.com/TomasRocho) | [Vídeo no YouTube](https://youtu.be/B-Jq3hXK2C0) | <span class="pill pill-ok">Concluída</span> |
 
 <div align="center">

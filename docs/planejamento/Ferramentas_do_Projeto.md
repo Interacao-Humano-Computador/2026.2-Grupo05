@@ -6,7 +6,7 @@
 | :---: | :---: | :--- | :--- | :--- |
 | 05/09/2026 | 1.0 | Tabela de ferramentas utilizadas no projeto. | Gabriel Melo | Tomas Garcia |
 | 19/09/2026 | 2.0 | Acrescimo de novas ferramentas que serão utilizadas durante o desenvolvimento do projeto | Gabriel Melo | Igor Dantas |
-| 20/092026 | 2.1 | Acrescimo de etapas onde serão utilizadas as ferramentas | Gabriel Melo | Arthur Mariani |
+| 20/09/2026 | 2.1 | Acrescimo de etapas onde serão utilizadas as ferramentas | Gabriel Melo | Arthur Mariani |
 
 ---
 

@@ -45,13 +45,7 @@ Uma lista de documentos, por exemplo, deve permitir que cada público identifiqu
 
 O livro usa a compra em uma loja como exemplo de sequência familiar: procurar, escolher e identificar-se para finalizar a compra. Exigir identificação antes de conhecer os produtos pode contrariar essa sequência. No portal de transporte, o mesmo raciocínio orienta a consulta pública de serviços antes de etapas que eventualmente exijam cadastro.
 
-A imagem 01 apresenta a discussão de Norman e o início desse exemplo.
-
-![Mapeamentos naturais e exemplo de sequência familiar no comércio eletrônico](../../assets/prints_referencias/referencia-correspondencia-expectativas-1.png)
-
-*Imagem 01 — Mapeamentos entre intenções, ações, efeitos e estados percebidos.*
-
-*Fonte: Barbosa et al. (2021, p. 238, subseção 10.2.1).*
+A imagem 01, reunida na seção de Fotos de Referência, apresenta a discussão de Norman e o início desse exemplo.
 
 ### 1.2. Sequências familiares, ordem lógica e fechamento
 
@@ -67,13 +61,7 @@ Barbosa et al. (2021, p. 239) ressaltam que a interface deve empregar palavras, 
 
 Tognazzini (2014 apud Barbosa et al., 2021, p. 239) recomenda empregar **metáforas com cuidado** para comunicar o modelo conceitual. Uma representação familiar ajuda a compreender o sistema, mas suas propriedades não precisam coincidir integralmente com as do objeto físico. No portal, ícones de cartão e ônibus podem apoiar o reconhecimento; eles devem acompanhar rótulos e destinos coerentes, sem sugerir que selecionar uma imagem já realiza uma recarga ou uma consulta.
 
-A imagem 02 apresenta a continuidade do exemplo, a organização das ações, o feedback, a linguagem e as metáforas.
-
-![Sequências de ações, fechamento, linguagem familiar e metáforas](../../assets/prints_referencias/referencia-correspondencia-expectativas-2.png)
-
-*Imagem 02 — Sequências familiares e recomendações de Shneiderman, Nielsen e Tognazzini.*
-
-*Fonte: Barbosa et al. (2021, p. 239, subseção 10.2.1).*
+A imagem 02, reunida na seção de Fotos de Referência, apresenta a continuidade do exemplo, a organização das ações, o feedback, a linguagem e as metáforas.
 
 ---
 
@@ -231,7 +219,21 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 
 ---
 
-## 8. Referências Bibliográficas
+## 8. Fotos de Referência
+
+![Mapeamentos naturais e exemplo de sequência familiar no comércio eletrônico](../../assets/prints_referencias/referencia-correspondencia-expectativas-1.png)
+
+*Imagem 01 — Mapeamentos entre intenções, ações, efeitos e estados percebidos.*
+
+*Fonte: Barbosa et al. (2021, p. 238, subseção 10.2.1).*
+
+![Sequências de ações, fechamento, linguagem familiar e metáforas](../../assets/prints_referencias/referencia-correspondencia-expectativas-2.png)
+
+*Imagem 02 — Sequências familiares e recomendações de Shneiderman, Nielsen e Tognazzini.*
+
+*Fonte: Barbosa et al. (2021, p. 239, subseção 10.2.1).*
+
+## 9. Referências Bibliográficas
 
 - BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Autopublicação, 2021. Capítulo 10, subseção 10.2.1: Correspondência com as Expectativas dos Usuários, pp. 238–239. Fonte consultada das contribuições de Norman (1988), Shneiderman (1998), Nielsen (1994c) e Tognazzini (2014).
 - UNIVERSIDADE DE BRASÍLIA. **Plano de Ensino de Interação Humano-Computador — 2026.2, Turma 01, versão 1**. Professor André Barros de Sales. 2026. Uso de IA Generativa, p. 3; Apresentação 3, itens 11–12, p. 11. [Documento utilizado](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

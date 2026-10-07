@@ -1,10 +1,10 @@
-# Lista de Verificação - Entrega 3 (Princípios Gerais de IHC)
+# Lista de Verificação - Entrega 3 (Princípios Gerais de IHC, Metas de Usabilidade e Guia de Estilo)
 
 ## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 06/10/2026 | 1.0 | Elaboração dos itens da lista de verificação para os Princípios Gerais de IHC e Guia de Estilo, com fundamentações teóricas e links para as referências visuais no padrão ABNT. | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO) e [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) e [Carlos Costa](https://github.com/carloshfgit) |
+| 06/10/2026 | 1.0 | Elaboração dos itens da lista de verificação para os Princípios Gerais de IHC, as Metas de Usabilidade e o Guia de Estilo, com fundamentações teóricas e links para as referências visuais no padrão ABNT. | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) e [Carlos Costa](https://github.com/carloshfgit) |
 
 
 ---
@@ -78,7 +78,7 @@ A Tabela 01 sintetiza as questões formuladas, os princípios de IHC contemplado
 
 ---
 
-## 3. Imagens de Referência
+## 3. Fotos de Referência
 
 Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina (BARBOSA et al., 2021) para fundamentar os itens de verificação correspondentes.
 

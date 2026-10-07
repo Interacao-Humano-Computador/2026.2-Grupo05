@@ -4,7 +4,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Lista de verificação referente à entrega 1 | Arthur Mariani |  |
+| 26/09/2026 | 1.0 | Lista de verificação referente à entrega 1 | Arthur Mariani | [Carlos Costa](https://github.com/carloshfgit) |
 
 ---
 

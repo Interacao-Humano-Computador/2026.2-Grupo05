@@ -218,11 +218,7 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 
 ---
 
-## Referências bibliográficas
-
-- BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.5, p. 242-243.
-
-## Imagens de referência
+## Fotos de Referência
 
 ![Início da seção 10.2.5 - Promoção da eficiência do usuário](../../assets/prints_referencias/referencia-eficiencia-usuario-1.png){ width="700" }
 
@@ -231,3 +227,7 @@ Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da d
 ![Continuação da seção 10.2.5 - Atalhos, aceleradores e valores padrão](../../assets/prints_referencias/referencia-eficiencia-usuario-2.png){ width="700" }
 
 *Imagem 2 - Continuação da seção 10.2.5. Fonte: Barbosa et al. (2021), p. 243.*
+
+## Referências Bibliográficas
+
+- BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.5, p. 242-243.

@@ -6,8 +6,6 @@
 | :---: | :---: | :--- | :--- | :--- |
 | 05/10/2026 | 1.0 | Criação do documento de guia de estilo. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
 
-## **Autor do Artefato: Gabriel Melo.**
-
 ## 1. Introdução
 
 Este documento reúne os princípios, as diretrizes e as principais decisões de design de interface adotadas no projeto. Segundo Barbosa et al. (2021), é comum, principalmente em projetos grandes, reunir essas decisões em um documento intitulado guia de estilo, que funciona como um registro do que foi decidido, de modo que essas decisões não se percam e sejam efetivamente incorporadas ao produto final. O guia também serve de ferramenta de comunicação entre os membros da equipe de design e a equipe de desenvolvimento, e permite que as decisões sejam facilmente consultadas e reutilizadas em discussões sobre extensões ou versões futuras do produto.
@@ -83,7 +81,17 @@ Um guia de estilo é um documento vivo e precisa ser atualizado à medida que o 
 
 ---
 
-## Referência bibliográfica da fonte
+## Fotos de Referência
+
+<img src="../../assets/prints_referencias/guia-estilo-introducao-1.png" alt="Estrutura do guia de estilo — Barbosa et al. (2021), p. 257" width="500">
+
+BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. Interação Humano-Computador e Experiência do Usuário. 1. ed. Rio de Janeiro: Autopublicação, 2021. p. 257
+
+<img src="../../assets/prints_referencias/guia-estilo-introducao-2.png" alt="Estrutura do guia de estilo — Barbosa et al. (2021), p. 258" width="500">
+
+BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. Interação Humano-Computador e Experiência do Usuário. 1. ed. Rio de Janeiro: Autopublicação, 2021. p. 258
+
+## Referências Bibliográficas
 
 BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário.** Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 10 (Princípios e Diretrizes para o Design de IHC), seção 10.5 (Guias de Estilo), p. 257–259.
 
@@ -91,13 +99,3 @@ Obras citadas pela fonte:
 
 - MARCUS, A. **Graphic design for electronic documents and user interfaces.** New York: ACM, 1991.
 - MAYHEW, D. J. **The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design.** 1. ed. Morgan Kaufmann, 1999.
-
-## Foto do texto da referência
-
-<img src="../assets/prints_referencias/guia-estilo-introducao-1.png" alt="Estrutura do guia de estilo — Barbosa et al. (2021), p. 257" width="500">
-
-BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. Interação Humano-Computador e Experiência do Usuário. 1. ed. Rio de Janeiro: Autopublicação, 2021. p. 257
-
-<img src="../assets/prints_referencias/guia-estilo-introducao-2.png" alt="Estrutura do guia de estilo — Barbosa et al. (2021), p. 258" width="500">
-
-BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. Interação Humano-Computador e Experiência do Usuário. 1. ed. Rio de Janeiro: Autopublicação, 2021. p. 258

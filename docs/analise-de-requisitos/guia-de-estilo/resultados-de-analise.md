@@ -14,7 +14,7 @@ Esta seção reúne os resultados da análise realizada com os usuários e sobre
 
 ---
 
-## 2 Descrição do ambiente de trabalho do usuário
+## 2. Descrição do ambiente de trabalho do usuário
 
 ### 2.1 Perfil dos usuários
 
@@ -100,7 +100,7 @@ A tabela 3 a seguir contém os métodos utilizados pelo grupo na etapa de levant
 
 ---
 
-## 3 Implicações para o guia de estilo
+## 3. Implicações para o guia de estilo
 
 A tabela 4 relaciona os achados da análise às decisões do guia, preservando o rastreamento do *design rationale* (Mayhew, 1999).
 
@@ -122,14 +122,14 @@ A tabela 4 relaciona os achados da análise às decisões do guia, preservando o
 
 ---
 
-## Referências
-
-BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário.** Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 8 (Organização do Espaço de Problema, pp. 147–167) e Capítulo 10, seção 10.5 (Guias de Estilo), p. 257–259.
-
-## Fotos de referência
+## Fotos de Referência
 
 ![Imagem 1](../../assets/prints_referencias/print-guiadeestilo.png)
 *Imagem 1 - Estrutura do guia de estilo — Barbosa et al. (2021), p. 258*
 
 ![Imagem 2](../../assets/prints_referencias/print-guiadeestilo-designrationale.png)
 *Imagem 2 - Design Ractionale — Barbosa et al. (2021), p. 242*
+
+## Referências Bibliográficas
+
+BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário.** Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 8 (Organização do Espaço de Problema, pp. 147–167) e Capítulo 10, seção 10.5 (Guias de Estilo), p. 257–259.

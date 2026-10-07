@@ -40,13 +40,7 @@ Segundo Reeves e Nass (1996 apud Barbosa et al., 2021), as pessoas atribuem comp
 3. **Máxima da Relação (ou Relevância):** tudo o que for exibido ou solicitado deve manter estreita relação com os tópicos da conversa e com o objetivo central do usuário. Por exemplo, quem busca saber o preço de uma passagem precisa ver o valor aplicável ao seu itinerário de imediato, em vez de ser obrigado a ler contratos de concessão ou fórmulas de reajuste técnico.
 4. **Máxima de Modo (ou Clareza):** evitar textos longos sem necessidade e expressões ambíguas. As informações devem seguir uma ordem lógica, com termos conhecidos pelo público e explicações para siglas ou palavras técnicas.
 
-A imagem 01 apresenta as máximas de Grice e sua relação com a interação entre pessoas e computadores.
-
-![Reeves e Nass e as quatro máximas conversacionais de Grice — Barbosa et al. (2021), p. 246](../../assets/prints_referencias/referencia-conteudo-relevante-246-grice.png)
-
-*Imagem 01 — Reeves e Nass e as quatro máximas conversacionais de Grice.*
-
-*Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).*
+A imagem 01, reunida na seção de Fotos de Referência, apresenta as máximas de Grice e sua relação com a interação entre pessoas e computadores.
 
 ### 1.2. Projeto estético e minimalista
 
@@ -56,13 +50,7 @@ Relacionado à máxima da quantidade, o **projeto estético e minimalista** de N
 
 Contudo, Nielsen (1994b apud Barbosa et al., 2021) adverte que o minimalismo não deve significar sonegação de informação: quando o sistema esconde detalhes essenciais, ele obscurece seu próprio comportamento e prejudica a confiança do cidadão. Uma boa interface deve proporcionar uma interação respeitosa, generosa e prestativa, organizando a informação em camadas progressivas.
 
-Na imagem 02, o livro relaciona o minimalismo à necessidade de manter as informações essenciais disponíveis.
-
-![Projeto estético e minimalista e interação respeitosa, generosa e prestativa — Barbosa et al. (2021), p. 246](../../assets/prints_referencias/referencia-conteudo-relevante-246-nielsen.png)
-
-*Imagem 02 — Projeto estético e minimalista e interação respeitosa, generosa e prestativa.*
-
-*Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).*
+Na imagem 02, reunida na seção de Fotos de Referência, o livro relaciona o minimalismo à necessidade de manter as informações essenciais disponíveis.
 
 ### 1.3. Redação em interfaces gráficas, economia cognitiva e legibilidade
 
@@ -75,29 +63,11 @@ Tognazzini (2014 apud Barbosa et al., 2021) enfatiza o cuidado com a redação e
 - **Destaque a dados reais:** Informações concretas e dados numéricos (como preços de passagens e números de linhas) devem receber destaque visual e tipográfico maior do que rótulos e instruções contextuais.
 - **Uso não exclusivo da cor:** Tognazzini (2014 apud Barbosa et al., 2021) recomenda que a cor seja acompanhada de outras pistas, como ícones, textos ou diferenças em tons de cinza. O livro menciona que o daltonismo afeta cerca de 10% da população masculina, o que reforça a necessidade de apresentar a informação de mais de uma forma.
 
-A imagem 03 reúne as orientações sobre redação e escolha de palavras nos menus.
+A imagem 03, reunida na seção de Fotos de Referência, apresenta as orientações sobre redação e escolha de palavras nos menus.
 
-![Redação de instruções, rótulos e economia cognitiva — Barbosa et al. (2021), p. 246](../../assets/prints_referencias/referencia-conteudo-relevante-246-redacao.png)
+As recomendações sobre contraste, tamanho de fonte e destaque dos dados aparecem na imagem 04, reunida na seção de Fotos de Referência.
 
-*Imagem 03 — Redação de instruções, rótulos e economia cognitiva.*
-
-*Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).*
-
-As recomendações sobre contraste, tamanho de fonte e destaque dos dados aparecem na imagem 04.
-
-![Contraste, tamanho de fonte e destaque dos dados numéricos — Barbosa et al. (2021), p. 246](../../assets/prints_referencias/referencia-conteudo-relevante-246-legibilidade.png)
-
-*Imagem 04 — Contraste, tamanho de fonte e destaque dos dados numéricos.*
-
-*Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).*
-
-A imagem 05 mostra a importância de acompanhar as cores com outras pistas de informação.
-
-![Uso de cores com dicas secundárias de informação — Barbosa et al. (2021), p. 246](../../assets/prints_referencias/referencia-conteudo-relevante-246-cores.png)
-
-*Imagem 05 — Uso de cores com dicas secundárias de informação.*
-
-*Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).*
+A imagem 05, reunida na seção de Fotos de Referência, mostra a importância de acompanhar as cores com outras pistas de informação.
 
 ### 1.4. Princípios de design visual e organização espacial
 
@@ -112,13 +82,7 @@ Mullet e Sano (1995 apud Barbosa et al., 2021) organizam os princípios do desig
 
 O respeito a esses princípios evita que a atenção do usuário seja dispersa por ruídos gráficos. O uso criterioso de **grids de alinhamento** e do **espaço em branco** organiza os blocos visuais e conduz os olhos do usuário de acordo com o fluxo natural de leitura.
 
-A imagem 06 apresenta os princípios de design visual e as orientações sobre alinhamento e espaço.
-
-![Princípios de design visual, grids e espaço para orientar a leitura — Barbosa et al. (2021), p. 247](../../assets/prints_referencias/referencia-conteudo-relevante-247-design-visual.png)
-
-*Imagem 06 — Princípios de design visual, grids e espaço para orientar a leitura.*
-
-*Fonte: Barbosa et al. (2021, p. 247, subseção 10.2.8).*
+A imagem 06, reunida na seção de Fotos de Referência, apresenta os princípios de design visual e as orientações sobre alinhamento e espaço.
 
 ---
 
@@ -291,13 +255,39 @@ As recomendações de Barbosa et al. (2021) ajudam a orientar essas melhorias: s
 
 ---
 
-## 8. Declaração sobre o Uso de IA Generativa
+## 7. Declaração sobre o Uso de IA Generativa
 
 Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as tomadas de decisão e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
 
 ---
 
-## 7. Referências Bibliográficas
+## 8. Fotos de Referência
+
+![Reeves e Nass e as quatro máximas conversacionais de Grice — Barbosa et al. (2021), p. 246](../../assets/prints_referencias/referencia-conteudo-relevante-246-grice.png)
+
+*Imagem 01 — Reeves e Nass e as quatro máximas conversacionais de Grice. Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).*
+
+![Projeto estético e minimalista e interação respeitosa, generosa e prestativa — Barbosa et al. (2021), p. 246](../../assets/prints_referencias/referencia-conteudo-relevante-246-nielsen.png)
+
+*Imagem 02 — Projeto estético e minimalista e interação respeitosa, generosa e prestativa. Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).*
+
+![Redação de instruções, rótulos e economia cognitiva — Barbosa et al. (2021), p. 246](../../assets/prints_referencias/referencia-conteudo-relevante-246-redacao.png)
+
+*Imagem 03 — Redação de instruções, rótulos e economia cognitiva. Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).*
+
+![Contraste, tamanho de fonte e destaque dos dados numéricos — Barbosa et al. (2021), p. 246](../../assets/prints_referencias/referencia-conteudo-relevante-246-legibilidade.png)
+
+*Imagem 04 — Contraste, tamanho de fonte e destaque dos dados numéricos. Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).*
+
+![Uso de cores com dicas secundárias de informação — Barbosa et al. (2021), p. 246](../../assets/prints_referencias/referencia-conteudo-relevante-246-cores.png)
+
+*Imagem 05 — Uso de cores com dicas secundárias de informação. Fonte: Barbosa et al. (2021, p. 246, subseção 10.2.8).*
+
+![Princípios de design visual, grids e espaço para orientar a leitura — Barbosa et al. (2021), p. 247](../../assets/prints_referencias/referencia-conteudo-relevante-247-design-visual.png)
+
+*Imagem 06 — Princípios de design visual, grids e espaço para orientar a leitura. Fonte: Barbosa et al. (2021, p. 247, subseção 10.2.8).*
+
+## 9. Referências Bibliográficas
 
 - BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. Capítulo 10: Princípios e Diretrizes para o Design de IHC, Subseção 10.2.8: Conteúdo Relevante e Expressão Adequada, pp. 246–247.
 - DISTRITO FEDERAL. Secretaria de Estado de Transporte e Mobilidade. **Portal da SEMOB-DF**. Brasília, DF: SEMOB-DF, 2026. Disponível em: <https://www.semob.df.gov.br/>. Acesso em: 05 out. 2026.
