@@ -4,7 +4,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 06/10/2026 | 1.0 | Elaboração dos itens da lista de verificação para os Princípios Gerais de IHC e Guia de Estilo, com fundamentações teóricas e links para as referências visuais no padrão ABNT. | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO) e [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthurmariani01) e [Carlos Costa](https://github.com/carloshfgit) |
+| 06/10/2026 | 1.0 | Elaboração dos itens da lista de verificação para os Princípios Gerais de IHC e Guia de Estilo, com fundamentações teóricas e links para as referências visuais no padrão ABNT. | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO) e [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) e [Carlos Costa](https://github.com/carloshfgit) |
 
 
 ---
@@ -13,7 +13,7 @@
 
 Esta lista de verificação compõe os instrumentos de inspeção e avaliação da **Entrega 3 (Princípios Gerais do Projeto, Metas de Usabilidade e Guia de Estilo)**, em conformidade com as diretrizes do Plano de Ensino da disciplina (SALES, 2026, pp. 11–12) e com a literatura seminal de Interação Humano-Computador (BARBOSA et al., 2021).
 
-O presente documento abrange os itens de verificação elaborados pelos membros da equipe, contemplando **Princípios Gerais do Projeto de IHC** (Simplicidade, Controle e Liberdade, Conteúdo, Legibilidade, Prevenção de Erros) e o **Guia de Estilo** (Escopo, Registro, Elementos de Interface e Padrões de Interação).
+O presente documento abrange os itens de verificação elaborados pelos membros da equipe, contemplando **Princípios Gerais do Projeto de IHC** (Simplicidade, Controle e Liberdade, Conteúdo, Legibilidade, Prevenção de Erros), o **Guia de Estilo** (Escopo, Registro, Elementos de Interface e Padrões de Interação) e as **Metas de Usabilidade** (Priorização, Indicadores, Faixas de Valores e Avaliação).
 
 Para cada pergunta, o avaliador deve assinalar uma das opções:
 - **Conforme (Sim):** O artefato ou sistema atende integralmente ao critério estabelecido na literatura;
@@ -27,7 +27,7 @@ Para cada pergunta, o avaliador deve assinalar uma das opções:
 A Tabela 01 sintetiza as questões formuladas, os princípios de IHC contemplados, a autoria responsável e os links diretos para as respectivas figuras de referência bibliográfica.
 
 <div align="center">
-<p><strong>Tabela 01</strong> — Itens de verificação de IHC para Princípios Gerais e Guia de Estilo (Etapa 3)</p>
+<p><strong>Tabela 01</strong> — Itens de verificação de IHC para Princípios Gerais, Guia de Estilo e Metas de Usabilidade (Etapa 3)</p>
 </div>
 
 | Nº | Pergunta de verificação | Princípio de IHC | Conforme | Não conforme | Não se aplica | Autor |
@@ -66,9 +66,14 @@ A Tabela 01 sintetiza as questões formuladas, os princípios de IHC contemplado
 | 32 | Estilos de interação: O documento descreve e padroniza os estilos de interação adotados no sistema (ex.: menus, preenchimento de formulários, manipulação direta) de acordo com as atividades dos usuários? | Guia de Estilo - Estilos de Interação | ☐ | ☐ | ☐ | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
 | 33 | Seleção de um estilo: O guia apresenta critérios ou orientações claras para ajudar os designers a escolherem o estilo de interação mais apropriado para cada tarefa específica ou contexto de uso? | Guia de Estilo - Seleção de Estilos | ☐ | ☐ | ☐ | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
 | 34 | Aceleradores (teclas de atalho): Estão previstos e documentados atalhos de teclado e outros aceleradores para flexibilizar a interação e torná-la mais eficiente para usuários frequentes ou experientes? | Guia de Estilo - Aceleradores e Atalhos | ☐ | ☐ | ☐ | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| 35 | O documento informa quais fatores de usabilidade serão priorizados, como eficácia, eficiência, facilidade de aprendizado, facilidade de recordação, segurança e satisfação, e explica a razão dessa seleção com base nas necessidades dos usuários e no contexto de uso da SEMOB-DF? | Metas de Usabilidade - Priorização | ☐ | ☐ | ☐ | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 36 | Cada meta possui pelo menos um indicador claramente definido, isto é, uma medida que permita verificar seu atendimento, como quantidade de usuários que concluem a tarefa, quantidade de abandonos, tempo necessário para conclusão ou número de erros cometidos? | Metas de Usabilidade - Indicadores | ☐ | ☐ | ☐ | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 37 | Para cada indicador, o documento prevê três faixas de resultado, inaceitável, aceitável e ideal, e informa que esses valores devem considerar o desempenho atual dos usuários, ou seja, os resultados obtidos no sistema antes do redesign? | Metas de Usabilidade - Faixas de Valores | ☐ | ☐ | ☐ | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 38 | O planejamento da avaliação informa quais tarefas serão executadas, quais características os participantes devem possuir, como as interações serão observadas e registradas e se será realizado um teste-piloto, isto é, uma execução prévia antes das sessões definitivas? | Metas de Usabilidade - Planejamento da Avaliação | ☐ | ☐ | ☐ | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 39 | O documento explica como os resultados dos testes serão comparados com as metas estabelecidas, considerando medidas como quantidade de participantes que alcançaram o resultado esperado, tempo médio, porcentagens, erros, consultas à ajuda e satisfação dos usuários? | Metas de Usabilidade - Verificação dos Resultados | ☐ | ☐ | ☐ | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 <div align="center">
-<p><em>Fonte: Carlos Costa, Lucas Araújo, Gabriel Melo, Igor Dantas e Rodrigo Carvalho (2026), adaptado de Barbosa et al. (2021).</em></p>
+<p><em>Fonte: Carlos Costa, Lucas Araújo, Gabriel Melo, Igor Dantas, Rodrigo Carvalho e Arthur Mariani (2026), adaptado de Barbosa e Silva (2010) e Barbosa et al. (2021).</em></p>
 </div>
 
 ---
@@ -147,6 +152,7 @@ Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação
 
 ## 5. Referências Bibliográficas
 
+- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier, 2010.
 - BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Cap. 10: Princípios e Diretrizes para o Design de IHC, pp. 239–241.
 - COOPER, Alan. **The Inmates Are Running the Asylum**. Indianapolis: Sams Publishing, 1999.
 - NIELSEN, Jakob. **Heuristic Evaluation**. In: NIELSEN, J.; MACK, R. L. (eds.). *Usability Inspection Methods*. Nova York: John Wiley & Sons, 1994.
