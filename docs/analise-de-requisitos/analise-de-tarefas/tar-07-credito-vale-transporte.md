@@ -4,7 +4,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 05/10/2026 | 1.0 | Elaboração da análise de tarefas (HTA e CTT) para o problema de crédito de Vale-Transporte não disponível no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | A definir |
+| 05/10/2026 | 1.0 | Elaboração da análise de tarefas (HTA e CTT) para o problema de crédito de Vale-Transporte não disponível no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
 
 ---
 

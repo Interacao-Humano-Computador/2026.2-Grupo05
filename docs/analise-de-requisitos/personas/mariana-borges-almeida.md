@@ -4,7 +4,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração detalhada da persona Mariana Borges Almeida a partir do Cenário 10 e padronização com a estrutura dos documentos de persona. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | A definir |
+| 27/09/2026 | 1.0 | Elaboração detalhada da persona Mariana Borges Almeida a partir do Cenário 10 e padronização com a estrutura dos documentos de persona. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
 
 ---
 

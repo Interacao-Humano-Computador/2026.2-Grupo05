@@ -4,7 +4,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração do cenário ideal de monitoramento e previsão de chegada sob chuva. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | A definir |
+| 27/09/2026 | 1.0 | Elaboração do cenário ideal de monitoramento e previsão de chegada sob chuva. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
 
 ---
 
