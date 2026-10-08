@@ -8,7 +8,11 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este cenário ideal descreve Mariana Borges Almeida planejando sua saída de casa em um dia chuvoso com apoio de informações confiáveis e monitoramento do ônibus em tempo real. A situação representa a experiência desejada e ajuda a explicitar requisitos de previsibilidade, atualização e confiança que devem orientar o projeto da solução.
+
+## 2. Caracterização Geral
 
 **Autor:** Rodrigo Barbosa
 
@@ -19,7 +23,7 @@
 
 ---
 
-## 2. Ambiente ou Contexto
+## 3. Ambiente ou Contexto
 
 - **Quando e onde:** 07:00 da manhã, em casa (tomando café da manhã e se preparando para sair). Está chovendo forte.
 - **Situação de deslocamento:** Deslocamento para o trabalho. A parada de ônibus perto de casa não possui uma boa cobertura contra a chuva.
@@ -29,7 +33,7 @@
 
 ---
 
-## 3. Atores
+## 4. Atores
 
 A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis contribuem para a situação ideal descrita.
 
@@ -47,7 +51,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 ---
 
-## 4. Objetivos
+## 5. Objetivos
 
 - **Objetivo principal:** Pegar o ônibus para o trabalho sem se molhar e sem esperar muito tempo na parada.
 - **Subobjetivos:**
@@ -57,7 +61,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 ---
 
-## 5. Planejamento, Ações, Eventos e Avaliação
+## 6. Planejamento, Ações, Eventos e Avaliação
 
 **Plano geral de Mariana:** Consultar o portal da SEMOB durante o café da manhã, acessar a sua linha diária, monitorar o tempo de chegada e sair de casa apenas no momento estritamente necessário para não se molhar na parada.
 
@@ -91,7 +95,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 ---
 
-## 6. Requisitos Elicitados
+## 7. Requisitos Elicitados
 
 A Tabela 2 relaciona os requisitos evidenciados durante o cenário aos momentos em que aparecem e às necessidades já identificadas para a persona.
 
@@ -111,6 +115,6 @@ A Tabela 2 relaciona os requisitos evidenciados durante o cenário aos momentos 
 
 ---
 
-## 7. Referências Bibliográficas
+## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. Interação Humano-Computador e Experiência do Usuário. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

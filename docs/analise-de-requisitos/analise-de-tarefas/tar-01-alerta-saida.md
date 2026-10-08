@@ -9,7 +9,11 @@
 
 ---
 
-## 1. Caracterização da Tarefa
+## 1. Introdução
+
+Este documento analisa a tarefa de configurar e receber um alerta inteligente sobre o momento adequado para sair de casa. A modelagem utiliza HTA e CTT para decompor objetivos, ações e relações temporais, permitindo compreender como o acompanhamento do ônibus e o tempo de caminhada podem apoiar o passageiro e reduzir atrasos ou perdas do transporte.
+
+## 2. Caracterização da Tarefa
 
 * **Título da Tarefa:** Alerta inteligente de saída
 * **Perfil do Participante:** Usuário primário / Passageiro Frequente ([João Pedro Carvalho](../personas/joao-pedro-carvalho.md))
@@ -19,7 +23,7 @@
 
 ---
 
-## 2. Análise Hierárquica de Tarefas (HTA)
+## 3. Análise Hierárquica de Tarefas (HTA)
 
 Abaixo, no Documento 1, é possível visualizar o diagrama e a tabela correspondente à Análise Hierárquica de Tarefas (HTA) para o fluxo do participante.
 
@@ -36,7 +40,7 @@ Abaixo, no Documento 1, é possível visualizar o diagrama e a tabela correspond
 
 ---
 
-## 3. ConcurTaskTrees (CTT)
+## 4. ConcurTaskTrees (CTT)
 
 Abaixo, no Documento 2, encontra-se a modelagem das relações temporais e lógicas desta mesma tarefa utilizando a notação CTT.
 
@@ -53,7 +57,7 @@ Abaixo, no Documento 2, encontra-se a modelagem das relações temporais e lógi
 
 ---
 
-## 4. Referências Bibliográficas
+## 5. Referências Bibliográficas
 
 * ANNETT, John; DUNCAN, Keith D. **Task analysis and training design**. *Journal of Occupational Psychology*, v. 41, n. 4, p. 211–221, 1967.
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

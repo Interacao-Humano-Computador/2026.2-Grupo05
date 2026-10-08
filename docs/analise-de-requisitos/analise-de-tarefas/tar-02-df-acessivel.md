@@ -9,7 +9,11 @@
 
 ---
 
-## 1. Caracterização da Tarefa
+## 1. Introdução
+
+Este documento analisa a tarefa de realizar o pré-agendamento de atendimento no Programa DF Acessível pelo site da SEMOB-DF. A modelagem utiliza HTA e CTT para decompor os objetivos, as ações e as relações temporais envolvidas na escolha do local e da data, contribuindo para identificar necessidades de clareza, acessibilidade e continuidade do fluxo.
+
+## 2. Caracterização da Tarefa
 
 * **Título da Tarefa:** Pré-agendamento no Programa DF Acessível.
 * **Perfil do Participante:** Usuário primário que necessite de auxílio transporte.
@@ -19,7 +23,7 @@
 
 ---
 
-## 2. Análise Hierárquica de Tarefas (HTA)
+## 3. Análise Hierárquica de Tarefas (HTA)
 
 Abaixo, no Documento 1, é possível visualizar o diagrama e a tabela correspondente à Análise Hierárquica de Tarefas (HTA) para o fluxo do participante.
 
@@ -36,7 +40,7 @@ Abaixo, no Documento 1, é possível visualizar o diagrama e a tabela correspond
 
 ---
 
-## 3. ConcurTaskTrees (CTT)
+## 4. ConcurTaskTrees (CTT)
 
 Abaixo, no Documento 2, encontra-se a modelagem das relações temporais e lógicas desta mesma tarefa utilizando a notação CTT.
 
@@ -53,7 +57,7 @@ Abaixo, no Documento 2, encontra-se a modelagem das relações temporais e lógi
 
 ---
 
-## 4. Referências Bibliográficas
+## 5. Referências Bibliográficas
 
 * ANNETT, John; DUNCAN, Keith D. **Task analysis and training design**. *Journal of Occupational Psychology*, v. 41, n. 4, p. 211–221, 1967.
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

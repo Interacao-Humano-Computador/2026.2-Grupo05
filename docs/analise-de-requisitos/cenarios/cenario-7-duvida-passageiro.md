@@ -9,17 +9,21 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este cenário de mediação social acompanha Valdir Soares na resolução de uma dúvida apresentada por uma passageira durante o serviço. A situação evidencia a necessidade de fornecer informações confiáveis e acessíveis tanto ao motorista quanto ao público, orientando requisitos que favoreçam cooperação, comunicação respeitosa e redução de constrangimentos.
+
+## 2. Caracterização Geral
 
 - **Persona:** [Valdir Soares](../personas/valdir-soares.md), motorista de ônibus.
 - **Tipo:** Cenário de interação social e mediação.
 - **Resumo:** Valdir orienta uma passageira idosa sobre a alteração de uma parada, sem atrasar a operação e sem gerar constrangimento.
 
-## 2. Ambiente ou Contexto
+## 3. Ambiente ou Contexto
 
 Ponto da W3 Sul, Quadra 508 Sul, às 18h15, com calçadas movimentadas e trânsito moderado. Valdir tem o smartphone no painel; Dona Maria usa um celular simples.
 
-## 3. Atores
+## 4. Atores
 
 A Tabela 1 identifica os participantes do cenário e esclarece o papel de cada um na resolução cooperativa da dúvida apresentada.
 
@@ -30,30 +34,30 @@ A Tabela 1 identifica os participantes do cenário e esclarece o papel de cada u
 | Valdir Soares | Ator principal, motorista de ônibus. |
 | Dona Maria | Passageira idosa, 62 anos, moradora da Candangolândia. |
 
-## 4. Objetivos
+## 5. Objetivos
 
 - Esclarecer o atendimento à nova parada provisória sem atrasar a saída.
 - Ser prestativo, acolhedor e transmitir segurança à passageira.
 
-## 5. Planejamento, Ações, Eventos e Avaliação
+## 6. Planejamento, Ações, Eventos e Avaliação
 
 Valdir quer orientar Dona Maria com rapidez e exatidão. Ao embarcar na 508 Sul, ela pergunta se o ônibus ainda passa perto do hospital na 716 Sul, pois ouvira que a parada mudou e teme se perder. Valdir explica que a parada foi alterada por obra, mas existe ponto provisório a cinquenta metros, em frente à passarela iluminada, e promete avisá-la. A informação foi previamente consultada em um comunicado simples da SEMOB, com paradas afetadas e referências reais.
 
-## 6. Problemas Revelados pelo Cenário
+## 7. Problemas Revelados pelo Cenário
 
 - Coordenadas técnicas e códigos de postes não são compreensíveis para a população ou para operadores.
 - A resposta precisa ser exata mesmo sob pressão de tempo no embarque.
 
-## 7. Resultados e Desfecho
+## 8. Resultados e Desfecho
 
 Dona Maria desce com segurança no ponto provisório. A informação clara reforça Valdir como agente facilitador e melhora a experiência cidadã.
 
-## 8. Requisitos e Diretrizes de IHC Derivados
+## 9. Requisitos e Diretrizes de IHC Derivados
 
 1. Priorizar hospitais, passarelas, comércios e outros pontos de referência reais.
 2. Usar linguagem cidadã, acolhedora e fácil de memorizar para repasse verbal.
 
-## 9. Referências Bibliográficas
+## 10. Referências Bibliográficas
 
 - BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.
 - NORMAN, Donald A. *Emotional Design*. New York: Basic Books, 2004.

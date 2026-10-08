@@ -8,7 +8,11 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este documento apresenta Maria Eduarda Santos, persona que representa trabalhadoras jovens que dependem do ônibus e do Vale-Transporte para realizar seus deslocamentos cotidianos. Sua caracterização reúne necessidades relacionadas a horários, integração, disponibilidade de crédito e canais de atendimento, orientando cenários, análises de tarefas e decisões de design do projeto.
+
+## 2. Caracterização Geral
 
 **Autor: Arthur Mariani**
 
@@ -25,7 +29,7 @@
 
 ---
 
-## 2. Identidade
+## 3. Identidade
 
 A Tabela 1 reúne os dados de identidade de Maria Eduarda e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
 
@@ -53,7 +57,7 @@ A Tabela 1 reúne os dados de identidade de Maria Eduarda e contextualiza as car
 
 ---
 
-## 3. Status no Projeto
+## 4. Status no Projeto
 
 **Persona Primária (*Primary Persona*).**
 
@@ -66,7 +70,7 @@ A Tabela 1 reúne os dados de identidade de Maria Eduarda e contextualiza as car
 
 ---
 
-## 4. Objetivos
+## 5. Objetivos
 
 ### Objetivos de vida e de trabalho (além do site)
 
@@ -87,7 +91,7 @@ A Tabela 1 reúne os dados de identidade de Maria Eduarda e contextualiza as car
 
 ---
 
-## 5. Habilidades
+## 6. Habilidades
 
 - **Educação e formação:** ensino médio completo; experiência em atendimento ao público e rotinas de caixa.
 - **Competências profissionais:** atendimento a clientes, operação de caixa, organização de pequenas rotinas e comunicação direta.
@@ -97,7 +101,7 @@ A Tabela 1 reúne os dados de identidade de Maria Eduarda e contextualiza as car
 
 ---
 
-## 6. Tarefas
+## 7. Tarefas
 
 A Tabela 2 apresenta as tarefas mais frequentes de Maria Eduarda, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
 
@@ -141,7 +145,7 @@ A Tabela 3 organiza a rotina diária de Maria Eduarda para evidenciar os momento
 
 ---
 
-## 7. Relacionamentos
+## 8. Relacionamentos
 
 A Tabela 4 identifica as pessoas e instituições com as quais Maria Eduarda se relaciona e explica como essas relações interferem na resolução de problemas de transporte.
 
@@ -164,7 +168,7 @@ A Tabela 4 identifica as pessoas e instituições com as quais Maria Eduarda se 
 
 ---
 
-## 8. Requisitos
+## 9. Requisitos
 
 A Tabela 5 sintetiza as necessidades de Maria Eduarda em requisitos que devem orientar as decisões de projeto da interface.
 
@@ -188,7 +192,7 @@ A Tabela 5 sintetiza as necessidades de Maria Eduarda em requisitos que devem or
 
 ---
 
-## 9. Expectativas
+## 10. Expectativas
 
 ### Como ela acredita que o serviço funciona
 
@@ -213,7 +217,7 @@ A Tabela 5 sintetiza as necessidades de Maria Eduarda em requisitos que devem or
 
 ---
 
-## 10. Referências Bibliográficas
+## 11. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6: Organização do Espaço de Problema: Personas (pp. 176 a 183).
 * COOPER, Alan; REIMANN, Robert; CRONIN, Dave. **About Face 3: The Essentials of Interaction Design**. Indianapolis: Wiley Publishing, Inc., 2007. Chapter 5: *Modeling Users: Personas and Goals*.

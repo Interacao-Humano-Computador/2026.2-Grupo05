@@ -9,7 +9,11 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este documento apresenta João Pedro Carvalho, persona que representa estudantes com elevada familiaridade tecnológica e dependência cotidiana do transporte público para chegar à universidade. Sua caracterização permite compreender como informações imprecisas de horários e rastreamento afetam sua rotina, orientando cenários, requisitos e decisões de design do projeto.
+
+## 2. Caracterização Geral
 
 **Autor: Igor Dantas Araújo**
 
@@ -23,7 +27,7 @@
 
 ---
 
-## 2. Identidade
+## 3. Identidade
 
 A Tabela 1 reúne os dados de identidade de João Pedro e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
 
@@ -49,7 +53,7 @@ A Tabela 1 reúne os dados de identidade de João Pedro e contextualiza as carac
 
 ---
 
-## 3. Status
+## 4. Status
 
 **Persona primária.**
 
@@ -62,7 +66,7 @@ Por que ele é a persona primária:
 
 ---
 
-## 4. Objetivos
+## 5. Objetivos
 
 ### Objetivos de vida e de estudo (além do app)
 
@@ -86,7 +90,7 @@ Por que ele é a persona primária:
 
 ---
 
-## 5. Habilidades
+## 6. Habilidades
 
 - **Educação e formação:** ensino médio completo; cursando Engenharia no Campus da UnB Gama.
 - **Competências profissionais:** não especificado no artefato original (persona ainda concentrada nos estudos, sem histórico profissional detalhado).
@@ -96,7 +100,7 @@ Por que ele é a persona primária:
 
 ---
 
-## 6. Tarefas
+## 7. Tarefas
 
 A Tabela 2 apresenta as tarefas mais frequentes de João Pedro, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
 
@@ -129,7 +133,7 @@ A Tabela 3 organiza a rotina de João Pedro para evidenciar os momentos em que i
 
 ---
 
-## 7. Relacionamentos
+## 8. Relacionamentos
 
 A Tabela 4 identifica as pessoas e instituições com as quais João Pedro se relaciona e explica a relevância dessas relações para o projeto.
 
@@ -148,7 +152,7 @@ A Tabela 4 identifica as pessoas e instituições com as quais João Pedro se re
 
 ---
 
-## 8. Requisitos
+## 9. Requisitos
 
 A Tabela 5 sintetiza as necessidades de João Pedro em requisitos que devem orientar as decisões de projeto da interface.
 
@@ -165,7 +169,7 @@ A Tabela 5 sintetiza as necessidades de João Pedro em requisitos que devem orie
 
 ---
 
-## 9. Expectativas
+## 10. Expectativas
 
 ### Como ele acredita que o serviço funciona
 
@@ -187,6 +191,6 @@ A Tabela 5 sintetiza as necessidades de João Pedro em requisitos que devem orie
 
 ---
 
-## 10. Referências Bibliográficas
+## 11. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

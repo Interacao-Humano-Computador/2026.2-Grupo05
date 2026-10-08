@@ -8,7 +8,11 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este documento apresenta Heitor Santos Júnior, persona que representa trabalhadores que dependem do transporte público para cumprir deslocamentos longos e compromissos profissionais em diferentes regiões do Distrito Federal. Sua caracterização reúne aspectos pessoais, tecnológicos e de domínio relevantes para orientar a identificação de necessidades, a elaboração de cenários e as decisões de design do projeto.
+
+## 2. Caracterização Geral
 
 **Autor: Tomás Rocho**
 
@@ -22,7 +26,7 @@
 
 ---
 
-## 2. Identidade
+## 3. Identidade
 
 A Tabela 1 reúne os dados de identidade de Heitor e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
 
@@ -48,7 +52,7 @@ A Tabela 1 reúne os dados de identidade de Heitor e contextualiza as caracterí
 
 ---
 
-## 3. Status
+## 4. Status
 
 **Persona primária.**
 
@@ -62,7 +66,7 @@ Por que ele é a persona primária:
 
 ---
 
-## 4. Objetivos
+## 5. Objetivos
 
 ### Objetivos de vida e de trabalho (além do site)
 
@@ -82,7 +86,7 @@ Por que ele é a persona primária:
 
 ---
 
-## 5. Habilidades
+## 6. Habilidades
 
 - **Educação e formação:** ensino médio completo em escola pública; curso técnico de Eletricista Predial (SENAI); NR-10 (segurança em instalações elétricas).
 - **Competências profissionais:** manutenção elétrica e hidráulica de prédios, leitura de ordens de serviço, organização da própria agenda de atendimentos e bom relacionamento com síndicos e porteiros.
@@ -92,7 +96,7 @@ Por que ele é a persona primária:
 
 ---
 
-## 6. Tarefas
+## 7. Tarefas
 
 A Tabela 2 apresenta as tarefas mais frequentes de Heitor, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
 
@@ -129,7 +133,7 @@ A Tabela 3 organiza a rotina diária de Heitor para evidenciar os momentos em qu
 
 ---
 
-## 7. Relacionamentos
+## 8. Relacionamentos
 
 A Tabela 4 identifica as pessoas com quem Heitor se relaciona e explica como essas relações interferem em suas decisões e necessidades de deslocamento.
 
@@ -150,7 +154,7 @@ A Tabela 4 identifica as pessoas com quem Heitor se relaciona e explica como ess
 
 ---
 
-## 8. Requisitos
+## 9. Requisitos
 
 A Tabela 5 sintetiza as necessidades de Heitor em requisitos que devem orientar as decisões de projeto da interface.
 
@@ -171,7 +175,7 @@ A Tabela 5 sintetiza as necessidades de Heitor em requisitos que devem orientar 
 
 ---
 
-## 9. Expectativas
+## 10. Expectativas
 
 ### Como ele acredita que o serviço funciona
 
@@ -196,7 +200,7 @@ A Tabela 5 sintetiza as necessidades de Heitor em requisitos que devem orientar 
 
 ---
 
-## 10. Referências Bibliográficas
+## 11. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * COMPANHIA DE PLANEJAMENTO DO DISTRITO FEDERAL (CODEPLAN). **Pesquisa Distrital por Amostra de Domicílios — PDAD 2021**. Brasília: Codeplan, 2021.

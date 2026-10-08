@@ -9,17 +9,21 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este cenário de problema descreve um conflito entre Valdir Soares e passageiros causado pela divergência entre os horários divulgados publicamente e a operação real do serviço. A situação permite compreender como inconsistências de informação afetam a confiança e a relação entre os atores, fundamentando requisitos de sincronização, transparência e respaldo ao motorista.
+
+## 2. Caracterização Geral
 
 - **Persona:** [Valdir Soares](../personas/valdir-soares.md), motorista rodoviário e persona atendida.
 - **Tipo:** Cenário de problema / contexto atual.
 - **Resumo:** a tabela pública informa uma saída às 06h55, enquanto a ordem de serviço da garagem determina a chegada às 07h15; a divergência expõe Valdir a cobranças dos passageiros.
 
-## 2. Ambiente ou Contexto
+## 3. Ambiente ou Contexto
 
 Plataforma B da Rodoviária do Plano Piloto, em uma manhã chuvosa de pico (07h10), com plataforma cheia, motores e passageiros impacientes. Valdir está na cabine; os passageiros usam smartphones na fila.
 
-## 3. Atores
+## 4. Atores
 
 A Tabela 1 identifica os participantes do cenário e esclarece o papel de cada um no conflito causado pela divergência de horários.
 
@@ -31,31 +35,31 @@ A Tabela 1 identifica os participantes do cenário e esclarece o papel de cada u
 | Passageiros | Usuários do portal que cobram o horário publicado. |
 | Despachante da garagem | Fonte da ordem operacional. |
 
-## 4. Objetivos
+## 5. Objetivos
 
 - Concluir o embarque no horário e iniciar a viagem sem advertências.
 - Sentir-se respaldado profissionalmente e evitar atritos interpessoais.
 
-## 5. Planejamento, Ações, Eventos e Avaliação
+## 6. Planejamento, Ações, Eventos e Avaliação
 
 Valdir planeja encostar às 07h15, conforme a escala impressa e o aplicativo da concessionária. Chega às 07h12, mas passageiros mostram no celular o horário de 06h55 publicado no portal, vaiam e acusam o motorista de negligência. Ele apresenta a folha de bordo e explica que não houve aviso de alteração. Mesmo mantendo postura respeitosa e liberando o embarque, a tensão persiste durante o trajeto e prejudica seu bem-estar e sua atenção na condução.
 
-## 6. Problemas Revelados pelo Cenário
+## 7. Problemas Revelados pelo Cenário
 
 - Atualização pública da tabela sem sincronização prévia com a concessionária.
 - Motorista torna-se alvo do descompasso entre canais institucionais.
 - Falha em preservar a dignidade do trabalhador e evitar conflitos.
 
-## 7. Resultados e Desfecho
+## 8. Resultados e Desfecho
 
 Valdir conclui a viagem com desgaste emocional e dez minutos de atraso acumulado. No terminal, descobre que outros motoristas passaram pelo mesmo constrangimento e teme uma reclamação formal.
 
-## 8. Requisitos e Diretrizes de IHC Derivados
+## 9. Requisitos e Diretrizes de IHC Derivados
 
 1. Sincronizar alterações de grade horária com as garagens antes da publicação.
 2. Exibir data e hora da atualização e avisos de transição operacional.
 
-## 9. Referências Bibliográficas
+## 10. Referências Bibliográficas
 
 - BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.
 - COOPER, Alan; REIMANN, Robert; CRONIN, Dave. *About Face 3*. Indianapolis: Wiley Publishing, 2007.

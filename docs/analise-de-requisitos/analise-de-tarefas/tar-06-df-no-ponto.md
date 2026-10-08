@@ -9,7 +9,11 @@
 
 ---
 
-## 1. Caracterização da Tarefa
+## 1. Introdução
+
+Este documento analisa a tarefa de consultar, no aplicativo DF no Ponto, quando um ônibus chegará à parada. A HTA organiza objetivos, operações, problemas e hipóteses de erro, enquanto o modelo GOMS descreve estratégias possíveis de consulta; como a análise se baseia em documentação, seus resultados permanecem como hipóteses a validar com usuários e com o sistema em uso.
+
+## 2. Caracterização da Tarefa
 
 * **Título da Tarefa:** Consulta de ônibus em tempo real no DF no Ponto
 * **Perfil do Participante:** Usuário primário / Passageiro do transporte coletivo do DF ([Persona](../personas/mariana-borges-almeida.md))
@@ -25,7 +29,7 @@
 
 ---
 
-## 2. Análise Hierárquica de Tarefas (HTA)
+## 3. Análise Hierárquica de Tarefas (HTA)
 
 Segundo Barbosa et al. (2021, p. 192–193), a HTA parte dos **objetivos** das pessoas (estados finais) e os decompõe em subobjetivos. Os subobjetivos e a relação entre eles formam um **plano**, e no nível mais baixo cada subobjetivo é alcançado por uma **operação**. Os planos usam a notação da Figura 6.1 do livro:
 
@@ -41,7 +45,7 @@ A Tabela 1 apresenta os símbolos utilizados nos planos e esclarece a relação 
 
 Nos rótulos abaixo, os números do plano se referem aos subobjetivos do próprio objetivo (por exemplo, o plano `1>2` do objetivo 1 trata de 1.1 e 1.2), como na Figura 6.2 do livro. Itens marcados com **(operação)** estão no nível mais baixo da hierarquia.
 
-### 2.1 Diagrama hierárquico
+### 3.1 Diagrama hierárquico
 
 ```mermaid
 graph TD
@@ -103,7 +107,7 @@ graph TD
     T5 --> T52
 ```
 
-### 2.2 Tabela de objetivos, operações, problemas e recomendações
+### 3.2 Tabela de objetivos, operações, problemas e recomendações
 
 A Tabela 2 segue o formato da Tabela 6.3 do livro: cada objetivo tem *input* (circunstâncias que o ativam), *feedback* (condição que indica o atingimento), *plano* e, quando houver, *problema* e *recomendação*. Essa organização permite relacionar a decomposição da tarefa às oportunidades de melhoria.
 
@@ -133,7 +137,7 @@ A Tabela 2 segue o formato da Tabela 6.3 do livro: cada objetivo tem *input* (ci
 | 5.1 Favoritar a linha | |
 | 5.2 Ativar notificações de atraso ou alteração | |
 
-### 2.3 Critério de parada da decomposição
+### 3.3 Critério de parada da decomposição
 
 Conforme o livro (p. 195), a decomposição termina quando se têm as informações necessárias para os objetivos da análise, e um critério é o **p × c**: parar quando o produto da probabilidade de falha (*p*) pelo custo da falha (*c*) é julgado aceitável.
 
@@ -141,7 +145,7 @@ Conforme o livro (p. 195), a decomposição termina quando se têm as informaç�
 * **Objetivos 1, 4 e 5** não foram decompostos além das operações, pois a falha nesses pontos tem custo baixo e é facilmente corrigida pelo usuário.
 * **Objetivo 2** foi decomposto em dois níveis porque envolve uma escolha entre duas estratégias (linha ou ponto de referência), o que gera o plano de seleção `1/2`.
 
-### 2.4 Hipóteses sobre erros (classificação de Reason, 1990)
+### 3.4 Hipóteses sobre erros (classificação de Reason, 1990)
 
 Na etapa 7 da HTA (p. 196), o livro sugere classificar erros como baseados em habilidades, regras ou conhecimento:
 
@@ -155,7 +159,7 @@ A Tabela 3 aplica essa classificação às operações com maior possibilidade d
 | 3.2 | Regras | Classificação equivocada da situação: tratar uma posição defasada como se fosse atual e aplicar a regra "se o ônibus está perto, vou ao ponto". |
 | 2.1 | Conhecimento | Usuário novo que não sabe que a busca por ponto de referência existe e desiste ao não lembrar o número da linha. |
 
-### 2.5 Situação dos passos da HTA (Diaper, 2003, apud Barbosa et al., 2021, p. 195–196)
+### 3.5 Situação dos passos da HTA (Diaper, 2003, apud Barbosa et al., 2021, p. 195–196)
 
 A Tabela 4 registra o andamento metodológico da análise e torna explícitas as etapas concluídas, parciais e ainda pendentes de validação.
 
@@ -166,22 +170,22 @@ A Tabela 4 registra o andamento metodológico da análise e torna explícitas as
 | 1. Decidir os objetivos da análise | Feito: avaliar um sistema existente (DF no Ponto) e propor melhorias. |
 | 2. Consenso sobre objetivos e medidas de sucesso | Parcial. Evidência de sucesso: o passageiro consegue informar quando o ônibus chega. Consequência da falha: perder o ônibus ou esperar sem necessidade. **Consenso com as partes interessadas pendente.** |
 | 3. Fontes de informação e aquisição de dados | Parcial: apenas documentação pública. **Observação e entrevistas pendentes.** |
-| 4. Esboçar diagrama e tabela | Feito (seções 2.1 e 2.2). |
+| 4. Esboçar diagrama e tabela | Feito (seções 3.1 e 3.2). |
 | 5. Verificar a validade com as partes interessadas | **Pendente.** |
-| 6. Identificar operações significativas (p × c) | Feito (seção 2.3). |
-| 7. Gerar hipóteses sobre aprendizado e desempenho | Feito como hipóteses (seção 2.4), **sem teste**. |
+| 6. Identificar operações significativas (p × c) | Feito (seção 3.3). |
+| 7. Gerar hipóteses sobre aprendizado e desempenho | Feito como hipóteses (seção 3.4), **sem teste**. |
 
 ---
 
-## 3. GOMS
+## 4. GOMS
 
-Segundo Barbosa et al. (2021, p. 196–198), o GOMS descreve a tarefa e o conhecimento do usuário em termos de **objetivos** (*goals*), **operadores** (*operators*), **métodos** (*methods*) e **regras de seleção** (*selection rules*). Ele se aplica principalmente a usuários que **já dominam** a tarefa, e costuma ser usado depois de uma análise básica de tarefas, que aqui é a HTA da seção 2.
+Segundo Barbosa et al. (2021, p. 196–198), o GOMS descreve a tarefa e o conhecimento do usuário em termos de **objetivos** (*goals*), **operadores** (*operators*), **métodos** (*methods*) e **regras de seleção** (*selection rules*). Ele se aplica principalmente a usuários que **já dominam** a tarefa, e costuma ser usado depois de uma análise básica de tarefas, que aqui é a HTA da seção 3.
 
 Adotou-se o **CMN-GOMS**, cuja notação é de pseudocódigo com hierarquia estrita de objetivos, operadores em ordem sequencial e métodos com condicionais. Como nos Exemplos 6.7 e 6.8 do livro, **algarismos indicam sequência e letras indicam alternativas**. O nível de detalhe é o do Exemplo 6.8 (modelo detalhado), e só foram incluídas as tarefas mentais relacionadas ao design do sistema.
 
 > **Perfil assumido para o GOMS:** passageiro que já conhece o aplicativo e sabe usá-lo. Para um usuário novato, que ainda está descobrindo o que fazer, o GOMS não é a técnica indicada.
 
-### 3.1 Modelo CMN-GOMS
+### 4.1 Modelo CMN-GOMS
 
 ```
 GOAL 0: saber quando o ônibus chega ao ponto
@@ -233,7 +237,7 @@ GOAL 0: saber quando o ônibus chega ao ponto
     OP. 5.2: ativar as notificações de atraso ou alteração
 ```
 
-### 3.2 Leitura do modelo (análise qualitativa)
+### 4.2 Leitura do modelo (análise qualitativa)
 
 Conforme o livro (p. 197, 201), o GOMS qualitativo ajuda a perceber métodos semelhantes, métodos atipicamente curtos ou longos e pontos onde faltam métodos ou *feedback*:
 
@@ -241,13 +245,13 @@ Conforme o livro (p. 197, 201), o GOMS qualitativo ajuda a perceber métodos sem
 2. **O objetivo 3 é o ponto crítico.** O método 3.B só existe porque a posição pode ficar defasada, e nada no fluxo ajuda o usuário a decidir entre 3.A e 3.B. Um indicador de "última atualização" daria *feedback* para essa regra de seleção.
 3. **Consistência com o objetivo 5:** favoritar a linha (5.1) reduz a necessidade do método 2.A, pois o usuário deixa de precisar lembrar e digitar o número da linha.
 
-### 3.3 Sobre o KLM
+### 4.3 Sobre o KLM
 
 O livro apresenta o KLM (Tabela 6.4 e Exemplo 6.6) para estimar tempos, mas seus operadores e durações foram definidos para teclado e mouse. Como o DF no Ponto é usado em tela de toque, a estimativa de tempo não foi feita aqui, para não aplicar valores fora do contexto da tabela.
 
 ---
 
-## 4. Referências Bibliográficas
+## 5. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 6, seção 6.4, p. 191–203.
 * SECRETARIA DE TRANSPORTE E MOBILIDADE DO DISTRITO FEDERAL (Semob-DF). **Portal institucional**. Disponível em: <https://www.semob.df.gov.br/>. Acesso em: 27 set. 2026.

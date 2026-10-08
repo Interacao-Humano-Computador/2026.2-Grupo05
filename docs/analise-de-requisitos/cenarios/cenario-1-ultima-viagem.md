@@ -9,7 +9,11 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este cenário de problema descreve a tentativa de Larissa Ferreira Lima de confirmar a última viagem para casa durante o período noturno. A situação foi modelada para evidenciar como informações fragmentadas ou desatualizadas sobre horários, plataformas e direitos dos passageiros podem comprometer seu deslocamento e sua segurança, contribuindo para a identificação de requisitos de IHC.
+
+## 2. Caracterização Geral
 
 **Autor: Gabriel Melo**
 
@@ -21,7 +25,7 @@
 
 ---
 
-## 2. Ambiente ou Contexto
+## 3. Ambiente ou Contexto
 
 - **Quando e onde:** quinta-feira, fim de setembro, 22h36, em um ponto de ônibus em frente à universidade, no Plano Piloto. É noite, o ponto está quase vazio e Larissa está cansada depois de um dia inteiro de trabalho e aula.
 - **Situação de deslocamento:** ela precisa pegar um ônibus até a Rodoviária e, de lá, o último ônibus direto da noite para Ceilândia (saída programada às 23h10). Se perder, terá de fazer conexões e esperar em terminais à noite, chegando muito mais tarde. No dia seguinte, precisa sair de casa às 6h30.
@@ -31,7 +35,7 @@
 
 ---
 
-## 3. Atores
+## 4. Atores
 
 A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis influenciam o desenvolvimento da situação descrita.
 
@@ -49,7 +53,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 ---
 
-## 4. Objetivos
+## 5. Objetivos
 
 - **Objetivo principal:** chegar em casa em segurança, pegando o último ônibus direto para Ceilândia.
 - **Subobjetivos:**
@@ -60,7 +64,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 ---
 
-## 5. Planejamento, Ações, Eventos e Avaliação
+## 6. Planejamento, Ações, Eventos e Avaliação
 
 **Como ler cada passo:** Planejamento = o que Larissa pensa em fazer (atividade mental); Ação = o que ela faz de forma observável; Evento = o que acontece em resposta (site, sistema, ambiente ou outras pessoas) — os marcados como **[oculto]** acontecem sem que ela saiba, mas afetam a história; Avaliação = como ela interpreta o que viu (atividade mental). Os eventos assinalados com **[1]** e **[2]** são baseados no FAQ e na página inicial da Semob, observados em 24/09/2026; os demais são hipotéticos.
 
@@ -118,7 +122,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 ---
 
-## 6. Problemas Revelados pelo Cenário
+## 7. Problemas Revelados pelo Cenário
 
 A Tabela 2 relaciona os problemas evidenciados durante o cenário aos momentos em que ocorrem e aos requisitos já identificados para a persona.
 
@@ -136,7 +140,7 @@ A Tabela 2 relaciona os problemas evidenciados durante o cenário aos momentos e
 
 ---
 
-## 7. Referências Bibliográficas
+## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * ROSSON, Mary Beth; CARROLL, John M. **Usability Engineering: Scenario-Based Development of Human-Computer Interaction**. San Francisco: Morgan Kaufmann, 2002.

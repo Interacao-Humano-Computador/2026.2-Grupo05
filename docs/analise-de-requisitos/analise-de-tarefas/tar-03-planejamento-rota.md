@@ -8,7 +8,11 @@
 
 ---
 
-## 1. Caracterização da Tarefa
+## 1. Introdução
+
+Este documento analisa a tarefa de planejar um deslocamento por origem e destino e acompanhar o ônibus em tempo real. A combinação de HTA, CTT e GOMS/KLM permite examinar a decomposição dos objetivos, as relações temporais e o esforço previsto nos fluxos atual e projetado, apoiando recomendações de design voltadas à eficiência e à redução de erros.
+
+## 2. Caracterização da Tarefa
 
 * **Identificador da Tarefa:** `TAR-03`
 * **Título:** Planejamento de Deslocamento por Origem/Destino e Rastreamento de Veículo em Tempo Real
@@ -19,11 +23,11 @@
 
 ---
 
-## 2. Análise Hierárquica de Tarefas (HTA)
+## 3. Análise Hierárquica de Tarefas (HTA)
 
 A **Análise Hierárquica de Tarefas (HTA - *Hierarchical Task Analysis*)** foi desenvolvida na década de 1960 por Annett e Duncan (1967) e consolidada em IHC para desdobrar tarefas complexas em objetivos, subobjetivos e operações atômicas, mapeando falhas de desempenho e riscos operacionais (Barbosa e Silva, 2010, pp. 192–196).
 
-### 2.1 Diagrama HTA
+### 3.1 Diagrama HTA
 
 ```mermaid
 flowchart TD
@@ -61,7 +65,7 @@ flowchart TD
     G4 --> G41
 ```
 
-### 2.2 Tabela HTA (com Problemas e Recomendações de IHC)
+### 3.2 Tabela HTA (com Problemas e Recomendações de IHC)
 
 Conforme Barbosa & Silva (2010, p. 193), cada operação é especificada pela tupla ⟨Input, Ação, Feedback⟩. O critério de parada adotado é o **p × c** (probabilidade de erro multiplicada pelo custo do erro).
 
@@ -91,18 +95,18 @@ A Tabela 1 apresenta a decomposição hierárquica da tarefa e relaciona seus ob
 
 ---
 
-## 3. ConcurTaskTrees (CTT)
+## 4. ConcurTaskTrees (CTT)
 
 O modelo **ConcurTaskTrees (CTT)**, proposto por Fabio Paternò (1999, 2000), descreve graficamente as tarefas com foco na concorrência, suporte computacional e dinâmica de interação (Barbosa e Silva, 2010, pp. 203–205).
 
-### 3.1 Classificação dos Nós no CTT
+### 4.1 Classificação dos Nós no CTT
 
 * **Tarefa Abstrata (Nuvem):** Tarefas compostas que englobam subníveis hierárquicos.
 * **Tarefa do Usuário (Figura Humana):** Atividades estritamente cognitivas ou do mundo real (ex.: decidir rota, caminhar até a parada).
 * **Tarefa Interativa (Usuário com Sistema):** Ações de entrada e diálogo bilateral com a interface (ex.: digitar destino, tocar em card).
 * **Tarefa do Sistema (Computador):** Processamentos autônomos internos do software (ex.: calcular rotas, consultar API do GPS).
 
-### 3.2 Estrutura Formal e Operadores Lógicos CTT
+### 4.2 Estrutura Formal e Operadores Lógicos CTT
 
 ```mermaid
 graph TD
@@ -147,11 +151,11 @@ graph TD
 
 ---
 
-## 4. Análise Preditiva de Desempenho com GOMS / KLM (*Card, Moran & Newell, 1983*)
+## 5. Análise Preditiva de Desempenho com GOMS / KLM (*Card, Moran & Newell, 1983*)
 
 O **Keystroke-Level Model (KLM)** é uma técnica analítica da família GOMS que prevê o tempo de execução de uma tarefa rotineira realizada por um usuário competente sem erros (Barbosa & Silva, 2010, pp. 198–200; Kieras, 1993).
 
-### 4.1 Operadores Padrão Adotados e Tempos de Referência
+### 5.1 Operadores Padrão Adotados e Tempos de Referência
 
 * **K (Pressionar Tecla / Toque no Teclado Virtual Móvel):** 0,20 s (usuário mediano em smartphone).
 * **P (Apontar com o Dedo / Toque em Elemento da Tela):** 1,10 s (equivalente funcional ao apontamento de Fitts).
@@ -162,7 +166,7 @@ O **Keystroke-Level Model (KLM)** é uma técnica analítica da família GOMS qu
 
 ---
 
-### 4.2 Comparação Paramétrica de Métodos
+### 5.2 Comparação Paramétrica de Métodos
 
 #### Método 1: Fluxo Atual (Consulta Indireta com Redirecionamento e Busca Cega)
 No modelo atual, o usuário abre o portal, fecha modais de propaganda, descobre que precisa do código da linha, pesquisa externamente e navega por tabelas pesadas.
@@ -224,12 +228,12 @@ A Tabela 3 estima o tempo do fluxo reprojetado, permitindo compará-lo ao métod
 <p><em>Fonte: Lucas Araújo Lima (2026), baseado em Card et al. (1983) e Kieras (1993).</em></p>
 </div>
 
-### 4.3 Conclusão da Análise KLM
+### 5.3 Conclusão da Análise KLM
 O fluxo reprojetado reduz o tempo preditivo de execução da tarefa de **17,80 s para 9,70 s** (um ganho de eficiência de **45,5%**), além de eliminar **4 operadores mentais de dúvida (M)** causados pela desorientação do código da linha e pelo modal indesejado, comprovando um salto substancial na **facilidade de aprendizado e eficiência de uso** (*Nielsen, 1993; Barbosa & Silva, 2010*).
 
 ---
 
-## 5. Referências Bibliográficas
+## 6. Referências Bibliográficas
 
 * ANNETT, John; DUNCAN, Keith D. **Task analysis and training design**. *Journal of Occupational Psychology*, v. 41, n. 4, p. 211–221, 1967.
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6: Organização do Espaço de Problema — Análise de Tarefas (pp. 191–205).
