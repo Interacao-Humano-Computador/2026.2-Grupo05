@@ -39,6 +39,7 @@ A Tabela 1 reúne os dados demográficos, tecnológicos e de domínio utilizados
 | Tempo típico de deslocamento | Trajetos longos: 74% a 76% dos moradores dos grupos 2, 3 e 4 levam mais de 15 minutos para chegar ao trabalho |
 | Acesso à internet no domicílio | Quase universal: 98% dos domicílios do DF tinham internet em 2024, a maior proporção do país |
 | Letramento digital, por escolaridade | Varia com a instrução: 99,7% de quem tem ensino superior usa internet, caindo para 86,2% entre quem não tem instrução formal |
+| Atitude diante da tecnologia | **Pragmática, com tendência tecnófila:** utiliza o smartphone e serviços digitais de forma recorrente quando eles ajudam a resolver necessidades concretas de deslocamento. Essa classificação é uma inferência do conjunto de dados e deve ser validada diretamente com usuários. |
 | Frequência de uso do transporte coletivo | Diária ou quase diária, muitas vezes combinando dois modos ou duas linhas com integração (Inferência a partir do padrão diário de deslocamento para trabalho/estudo) |
 | Conhecimento institucional | Baixo: conhece bem o próprio trajeto e os horários de que precisa, mas não distingue claramente os papéis da Semob (regulação e planejamento), do BRB Mobilidade (emissão de cartões e cadastro do Passe Livre), do Metrô-DF e das empresas operadoras de ônibus |
 | Idiomas e Jargões | Certo grau de desconhecimento de termos técnicos como **"Integração tarifária"**, **"Linha circular"**, **"Validador"** |
@@ -49,7 +50,35 @@ A Tabela 1 reúne os dados demográficos, tecnológicos e de domínio utilizados
 
 ---
 
-## 3. Fontes de Dados Utilizadas
+## 3. Atitudes diante da Tecnologia
+
+O passageiro primário apresenta uma atitude **pragmática, com tendência tecnófila**, pois utiliza intensamente o smartphone e a internet para apoiar atividades cotidianas e tende a adotar recursos digitais que reduzam incertezas no deslocamento. Essa disposição não significa domínio uniforme: diferenças de escolaridade, letramento digital e qualidade de acesso podem aumentar a dificuldade diante de interfaces complexas, jargões institucionais, cadastros extensos ou informações pouco confiáveis.
+
+Portanto, o perfil não é caracterizado como tecnófobo, mas sua aceitação depende de utilidade percebida, simplicidade e confiança. Como os dados disponíveis não incluem uma pergunta direta sobre tecnofilia ou tecnofobia, essa classificação deve ser tratada como **inferência a validar em novas entrevistas ou avaliações com usuários**.
+
+---
+
+## 4. Tarefas Primárias e Secundárias
+
+As tarefas foram organizadas conforme sua relação com os objetivos cotidianos do passageiro e com a frequência observada nos artefatos do projeto.
+
+### 4.1 Tarefas Primárias
+
+1. Planejar o deslocamento informando origem e destino.
+2. Consultar linhas, itinerários e horários, inclusive a última viagem disponível.
+3. Acompanhar a aproximação e a posição do ônibus em tempo real.
+4. Verificar alertas de atraso, desvio, interrupção ou mudança de plataforma.
+
+### 4.2 Tarefas Secundárias
+
+1. Consultar tarifas, regras de integração e direitos dos passageiros.
+2. Obter orientação sobre cartões, Passe Livre Estudantil e Vale-Transporte.
+3. Localizar canais e unidades de atendimento adequados para cada necessidade.
+4. Registrar reclamações ou comunicar divergências nas informações do serviço.
+
+---
+
+## 5. Fontes de Dados Utilizadas
 
 Para a elaboração deste perfil, foram articuladas as seguintes fontes de dados:
 * **Pesquisa Distrital por Amostra de Domicílios (PDAD 2021):** Dados sobre renda, posse de automóveis, uso de transporte coletivo e distribuição demográfica no Distrito Federal.
@@ -58,7 +87,7 @@ Para a elaboração deste perfil, foram articuladas as seguintes fontes de dados
 
 ---
 
-## 4. Referências Bibliográficas
+## 6. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * COMPANHIA DE PLANEJAMENTO DO DISTRITO FEDERAL (CODEPLAN). **Pesquisa Distrital por Amostra de Domicílios — PDAD 2021**. Brasília: Codeplan, 2021.

@@ -69,7 +69,7 @@ O motorista é falante nativo de Português do Brasil e compartilha amplamente o
 Além dessa expressão, reconhece e utiliza com frequência outros termos operacionais essenciais, como *"tabela"* (cumprimento dos horários programados de saída e percurso), *"balcão"* (espaço físico de divulgação de avisos e escalas na garagem), *"soltura"* (momento de liberação dos ônibus da garagem para o início da operação) e *"fiscalização"*. Como diretriz de design para IHC, qualquer canal ou interface voltada a esse público deve dispensar jargões acadêmicos ou excesso de siglas burocráticas governamentais, priorizando uma linguagem direta, concisa e familiar ao trabalhador rodoviário.
 
 ### 4.4 Experiência Tecnológica, Infraestrutura e Aprendizado
-No âmbito de infraestrutura e hardware, o participante utiliza única e exclusivamente o seu **smartphone pessoal** fora dos momentos de condução do veículo (*"Só o celular mesmo"*), não fazendo uso rotineiro de computadores de mesa (*desktops*), notebooks ou tablets. Sua conectividade é mantida de forma ininterrupta por meio de **dados móveis próprios (4G/5G)**, sem dependência de redes Wi-Fi públicas de garagens ou terminais. No cotidiano digital, seus hábitos concentram-se no uso prioritário do **WhatsApp** (tanto para contatos interpessoais quanto para grupos operacionais) e do aplicativo oficial da Viação Piracicabana (voltado à consulta corporativa de escalas e dados funcionais). Perante novas tecnologias, expressou postura pragmática, confiante e sem aversão prévia, afirmando que *"é fácil usar"* quando surge uma nova aplicação. Quanto ao estilo de suporte e aprendizado, revelou clara preferência multimodal:
+No âmbito de infraestrutura e hardware, o participante utiliza única e exclusivamente o seu **smartphone pessoal** fora dos momentos de condução do veículo (*"Só o celular mesmo"*), não fazendo uso rotineiro de computadores de mesa (*desktops*), notebooks ou tablets. Sua conectividade é mantida de forma ininterrupta por meio de **dados móveis próprios (4G/5G)**, sem dependência de redes Wi-Fi públicas de garagens ou terminais. No cotidiano digital, seus hábitos concentram-se no uso prioritário do **WhatsApp** (tanto para contatos interpessoais quanto para grupos operacionais) e do aplicativo oficial da Viação Piracicabana (voltado à consulta corporativa de escalas e dados funcionais). Perante novas tecnologias, expressou postura pragmática, confiante e sem aversão prévia, afirmando que *"é fácil usar"* quando surge uma nova aplicação. Assim, sua atitude é classificada como **receptiva e pragmática, sem evidência de tecnofobia**, mas os dados não são suficientes para caracterizá-lo como tecnófilo. Quanto ao estilo de suporte e aprendizado, revelou clara preferência multimodal:
 > *"Prefiro os dois, visual e manual escrito."*  
 Essa constatação indica que o condutor assimila melhor novos recursos por meio de orientações visuais objetivas (telas e ícones claros) combinadas a instruções textuais breves de rápida consulta.
 
@@ -78,10 +78,26 @@ O motorista demonstra conhecimento preciso acerca do papel institucional da SEMO
 > *"É fiscalizar né, os horários, a manutenção dos ônibus se tá em dia."*  
 Em relação a sistemas análogos e fontes atuais de informação, o participante relatou que não acessa o portal web oficial do órgão. Em contrapartida, todas as suas dúvidas operacionais, alterações de itinerário e avisos institucionais são sanadas diretamente pelo aplicativo interno da empresa ou pelas informações afixadas no balcão da garagem.
 
-### 4.6 Objetivos, Tarefas e Gravidade dos Erros
+### 4.6 Objetivos, Tarefas Primárias e Secundárias e Gravidade dos Erros
 A principal meta do participante em relação aos dados do sistema é a previsibilidade temporal, isto é, ter acesso imediato, claro e confiável à programação das viagens (*"Mais os horários mesmo"*). Entre suas tarefas de maior frequência diária, destaca-se a conferência pontual das saídas e chegadas da tabela horária para assegurar a regularidade da linha. Ao avaliar as consequências de divergências ou falhas informacionais, o entrevistado foi enfático ao alertar que erros no sistema geram impactos altamente negativos no ambiente real:
 > *"Com certeza teria muitos impactos negativos."*  
 No nível operacional, inconsistências provocam atrasos em cascata na tabela do dia, perda de viagens regulamentadas e multas contratuais para a empresa concessionária. Já no nível humano, expõem o motorista a hostilidades, constrangimentos e cobranças diretas na catraca por passageiros insatisfeitos com atrasos ou mudanças não informadas, gerando sobrecarga emocional, estresse severo e potenciais riscos à segurança viária.
+
+Como o motorista é um usuário terciário do portal, as tarefas a seguir pertencem principalmente ao domínio profissional e a um possível canal móvel operacional, não ao uso atual e direto do site institucional.
+
+#### Tarefas Primárias
+
+1. Consultar a escala diária, a linha designada e a tabela de horários homologada.
+2. Conferir o itinerário e cumprir os horários e pontos de controle da operação.
+3. Receber e interpretar alertas oficiais sobre bloqueios, desvios e mudanças viárias.
+4. Conduzir o veículo com segurança conforme as orientações operacionais vigentes.
+
+#### Tarefas Secundárias
+
+1. Comparar as informações públicas da SEMOB-DF com as ordens e escalas da concessionária.
+2. Comunicar aos passageiros alterações de rota, paradas afetadas e previsões disponíveis.
+3. Reportar divergências de horários, itinerários ou orientações à fiscalização ou ao despacho.
+4. Consultar comunicados, normas e canais de contato relacionados à operação.
 
 ---
 
@@ -101,10 +117,12 @@ A Tabela 1 consolida as principais características do perfil de motorista e rel
 | **Experiência na Ocupação** | 16 anos (11 anos na Piracicabana) | Alto domínio prático das rotas da Bacia 1 e da dinâmica do trânsito do DF. |
 | **Dispositivo de Acesso** | Exclusivamente Smartphone | Conexão 4G/5G móvel; ausência de acesso por computadores no cotidiano. |
 | **Apps de Maior Frequência** | WhatsApp e App da Concessionária | Familiaridade com interfaces conversacionais e dashboards corporativos de rotas. |
-| **Atitude com Tecnologia** | Positiva / Confiante | *"É fácil usar"*, receptividade sem atrito cognitivo aparente. |
+| **Atitude com Tecnologia** | Receptiva e pragmática, sem evidência de tecnofobia | *"É fácil usar"*. Os dados indicam confiança e abertura, mas não permitem classificá-lo como tecnófilo. |
 | **Preferência de Treinamento** | Multimodal (Visual + Escrito curto) | Guias visuais passo a passo integrados a resumos impressos/digitais. |
 | **Papel Percebido da SEMOB** | Fiscalizador de Horários e Frota | Relação regulatória que impacta sua jornada de trabalho. |
 | **Meta Principal com o Sistema** | Consulta Rápida de Horários | *"Mais os horários mesmo"*, busca de previsibilidade temporal. |
+| **Tarefas Primárias** | Consultar escala, linha, horários e itinerário; interpretar alertas; cumprir a operação com segurança | Atividades centrais da rotina profissional e de um possível canal móvel operacional. |
+| **Tarefas Secundárias** | Comparar fontes, comunicar alterações, reportar divergências e consultar comunicados | Atividades de apoio à operação e à comunicação com passageiros e instituições. |
 | **Impacto de Falhas na Informação**| Severo / Crítico | Descompasso em escalas, multas, desgaste interpessoal com passageiros do sistema. |
 
 <div align="center">
