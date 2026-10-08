@@ -21,6 +21,10 @@ Sala de descanso da Garagem da Piracicabana, no SGO, às 05h05, sob luz fluoresc
 
 ## 3. Atores
 
+A Tabela 1 identifica os participantes do cenário e esclarece o papel de cada um na consulta da escala diária de trabalho.
+
+**Tabela 1** — Atores envolvidos no Cenário 5
+
 | Ator | Papel |
 | :--- | :--- |
 | Valdir Soares | Ator principal; consulta a escala e compartilha o resumo com o cobrador. |

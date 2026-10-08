@@ -21,6 +21,10 @@ Plataforma B da Rodoviária do Plano Piloto, em uma manhã chuvosa de pico (07h1
 
 ## 3. Atores
 
+A Tabela 1 identifica os participantes do cenário e esclarece o papel de cada um no conflito causado pela divergência de horários.
+
+**Tabela 1** — Atores envolvidos no Cenário 8
+
 | Ator | Papel |
 | :--- | :--- |
 | Valdir Soares | Ator principal, motorista da linha Planaltina–Plano Piloto. |

@@ -32,6 +32,10 @@
 
 ## 3. Atores
 
+A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis influenciam o desenvolvimento da situação descrita.
+
+**Tabela 1** — Atores envolvidos no Cenário 9
+
 | Ator | Papel no cenário | Características pessoais relevantes |
 |---|---|---|
 | **Heitor Santos Júnior** | Ator principal (usuário) | Homem, 36 anos, técnico de manutenção predial. Letramento digital intermediário; conhece bem a linha de Planaltina, mas pouco as linhas internas do Plano Piloto. Tem dificuldade com letras pequenas e menus com muitas opções. Está com pressa e com medo de levar bronca |
@@ -116,6 +120,10 @@
 ---
 
 ## 6. Problemas Revelados pelo Cenário
+
+A Tabela 2 relaciona os problemas evidenciados durante o cenário aos momentos em que ocorrem e aos requisitos já identificados para a persona.
+
+**Tabela 2** — Problemas revelados pelo Cenário 9
 
 | Problema revelado | Onde aparece | Requisito da persona relacionado |
 |---|---|---|

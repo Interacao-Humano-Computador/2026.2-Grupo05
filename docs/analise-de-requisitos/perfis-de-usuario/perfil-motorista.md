@@ -87,6 +87,8 @@ No nível operacional, inconsistências provocam atrasos em cascata na tabela do
 
 ## 5. Matriz-Resumo do Perfil de Usuário Terciário
 
+A Tabela 1 consolida as principais características do perfil de motorista e relaciona cada atributo às evidências obtidas com o participante `MOT-01`.
+
 <div align="center">
 <p><strong>Tabela 1</strong> — Matriz-Resumo do Perfil de Usuário Terciário (Motoristas de Ônibus do STPC/DF)</p>
 </div>

@@ -24,6 +24,10 @@
 
 ## 2. Identidade
 
+A Tabela 1 reúne os dados de identidade de Mariana e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
+
+**Tabela 1** — Identidade e características pessoais de Mariana Borges Almeida
+
 | Campo | Descrição |
 |---|---|
 | **Nome** | Mariana Borges Almeida |
@@ -94,6 +98,10 @@ Por que ela é persona primária:
 
 ## 6. Tarefas
 
+A Tabela 2 apresenta as tarefas mais frequentes de Mariana, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
+
+**Tabela 2** — Tarefas realizadas por Mariana Borges Almeida
+
 | Tarefa | Frequência | Importância | Duração |
 |---|---|---|---|
 | Consultar linhas e horários | Diária | Crítica | 2 a 3 minutos, em duas consultas (durante o café e pouco antes de sair) |
@@ -104,6 +112,10 @@ Por que ela é persona primária:
 > Em dias de chuva forte, a importância dessas tarefas aumenta: uma informação imprecisa a leva a esperar exposta no ponto ou a perder o ônibus. Os passos detalhados dessa tarefa estão descritos nos **Cenários** (em especial o **Cenário 3**).
 
 **Contexto da rotina (conhecido pelo Cenário 3 — cenário ideal):**
+
+A Tabela 3 organiza a rotina de Mariana para evidenciar os momentos em que informações precisas sobre o transporte são especialmente importantes, sobretudo em dias de chuva.
+
+**Tabela 3** — Rotina de Mariana Borges Almeida
 
 | Horário | Atividade |
 |---|---|
@@ -119,6 +131,10 @@ Por que ela é persona primária:
 
 ## 7. Relacionamentos
 
+A Tabela 4 identifica as pessoas e instituições com as quais Mariana se relaciona e explica a relevância dessas relações para suas decisões de deslocamento.
+
+**Tabela 4** — Relacionamentos relevantes de Mariana Borges Almeida
+
 | Quem | Relação com Mariana | Por que importa para o projeto |
 |---|---|---|
 | **Júnior (vizinho)** | Morador da mesma rua; encontra-se com ela no ponto de ônibus | Funciona como contraste: não utiliza o Portal da SEMOB, sai de casa "às cegas" e fica frustrado esperando na chuva, evidenciando o valor do portal para quem o usa |
@@ -131,6 +147,10 @@ Por que ela é persona primária:
 ---
 
 ## 8. Requisitos
+
+A Tabela 5 sintetiza as necessidades de Mariana em requisitos que devem orientar as decisões de projeto da interface.
+
+**Tabela 5** — Necessidades e requisitos de Mariana Borges Almeida
 
 | Necessidade | Em suas palavras |
 |---|---|

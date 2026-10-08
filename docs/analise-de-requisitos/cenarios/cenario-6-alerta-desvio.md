@@ -21,6 +21,10 @@ Terminal Rodoviário de Sobradinho II, quarta-feira às 16h40, com calor de 30°
 
 ## 3. Atores
 
+A Tabela 1 identifica os participantes do cenário e esclarece o papel de cada um diante do alerta emergencial de desvio.
+
+**Tabela 1** — Atores envolvidos no Cenário 6
+
 | Ator | Papel |
 | :--- | :--- |
 | Valdir Soares | Ator principal, motorista profissional. |

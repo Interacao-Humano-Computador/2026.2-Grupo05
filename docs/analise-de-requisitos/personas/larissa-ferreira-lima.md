@@ -25,6 +25,10 @@
 
 ## 2. Identidade
 
+A Tabela 1 reúne os dados de identidade de Larissa e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
+
+**Tabela 1** — Identidade e características pessoais de Larissa Ferreira Lima
+
 | Campo | Descrição |
 |---|---|
 | **Nome** | Larissa Ferreira Lima ("Lari") |
@@ -92,6 +96,10 @@ Por que ela é a persona primária:
 
 ## 6. Tarefas
 
+A Tabela 2 apresenta as tarefas mais frequentes de Larissa, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
+
+**Tabela 2** — Tarefas realizadas por Larissa Ferreira Lima
+
 | Tarefa | Frequência | Importância | Duração |
 |---|---|---|---|
 | Consultar linhas, horários e itinerários (ida, volta e alternativas) | Diária | Crítica | 1 a 3 min |
@@ -110,6 +118,10 @@ Por que ela é a persona primária:
 
 **Contexto da rotina (dia útil):**
 
+A Tabela 3 organiza a rotina diária de Larissa para evidenciar os momentos em que informações de transporte afetam seus deslocamentos entre trabalho, estudo e residência.
+
+**Tabela 3** — Rotina diária de Larissa Ferreira Lima
+
 | Horário | Atividade |
 |---|---|
 | ~6h30 | Sai de casa; metrô e ônibus até o Plano Piloto (cerca de 1h15) |
@@ -123,6 +135,10 @@ Por que ela é a persona primária:
 ---
 
 ## 7. Relacionamentos
+
+A Tabela 4 identifica as pessoas e instituições com as quais Larissa se relaciona e explica como essas relações interferem em suas decisões de deslocamento.
+
+**Tabela 4** — Relacionamentos relevantes de Larissa Ferreira Lima
 
 | Quem | Relação com a Lari | Por que importa para o projeto |
 |---|---|---|
@@ -141,6 +157,10 @@ Por que ela é a persona primária:
 ---
 
 ## 8. Requisitos
+
+A Tabela 5 sintetiza as necessidades de Larissa em requisitos que devem orientar as decisões de projeto da interface.
+
+**Tabela 5** — Necessidades e requisitos de Larissa Ferreira Lima
 
 | Necessidade | Em suas palavras |
 |---|---|

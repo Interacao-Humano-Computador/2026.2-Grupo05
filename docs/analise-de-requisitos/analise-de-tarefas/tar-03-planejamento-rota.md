@@ -65,6 +65,8 @@ flowchart TD
 
 Conforme Barbosa & Silva (2010, p. 193), cada operação é especificada pela tupla ⟨Input, Ação, Feedback⟩. O critério de parada adotado é o **p × c** (probabilidade de erro multiplicada pelo custo do erro).
 
+A Tabela 1 apresenta a decomposição hierárquica da tarefa e relaciona seus objetivos aos problemas do sistema atual e às recomendações de design propostas.
+
 <div align="center">
 <p><strong>Tabela 1</strong> — Tabela da Análise Hierárquica de Tarefas (HTA) da TAR-03</p>
 </div>
@@ -165,6 +167,8 @@ O **Keystroke-Level Model (KLM)** é uma técnica analítica da família GOMS qu
 #### Método 1: Fluxo Atual (Consulta Indireta com Redirecionamento e Busca Cega)
 No modelo atual, o usuário abre o portal, fecha modais de propaganda, descobre que precisa do código da linha, pesquisa externamente e navega por tabelas pesadas.
 
+A Tabela 2 estima, por meio do KLM, o tempo necessário para executar esse fluxo atual e evidencia o custo das etapas de navegação e espera.
+
 <div align="center">
 <p><strong>Tabela 2</strong> — Predição de Tempo KLM para o Método Atual</p>
 </div>
@@ -196,6 +200,8 @@ No modelo atual, o usuário abre o portal, fecha modais de propaganda, descobre 
 
 #### Método 2: Fluxo Projetado (Busca Direta por Origem/Destino e Rastreamento Integrado)
 No modelo reprojetado, o campo de destino está disponível imediatamente no topo da página inicial com preenchimento preditivo e geolocalização automática.
+
+A Tabela 3 estima o tempo do fluxo reprojetado, permitindo compará-lo ao método atual e avaliar o ganho de eficiência previsto.
 
 <div align="center">
 <p><strong>Tabela 3</strong> — Predição de Tempo KLM para o Método Reprojetado</p>

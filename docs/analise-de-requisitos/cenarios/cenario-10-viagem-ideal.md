@@ -31,6 +31,10 @@
 
 ## 3. Atores
 
+A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis contribuem para a situação ideal descrita.
+
+**Tabela 1** — Atores envolvidos no Cenário 10
+
 | Ator | Papel no cenário | Características pessoais relevantes |
 |---|---|---|
 | **Mariana** | Ator principal (usuária) | Trabalhadora, faz o trajeto diariamente. Quer sair de casa no tempo exato para evitar se molhar, visto que a sua parada de ônibus não tem boa cobertura. |
@@ -88,6 +92,10 @@
 ---
 
 ## 6. Requisitos Elicitados
+
+A Tabela 2 relaciona os requisitos evidenciados durante o cenário aos momentos em que aparecem e às necessidades já identificadas para a persona.
+
+**Tabela 2** — Requisitos elicitados no Cenário 10
 
 | Requisito | Onde aparece | Requisito da persona relacionado |
 |---|---|---|

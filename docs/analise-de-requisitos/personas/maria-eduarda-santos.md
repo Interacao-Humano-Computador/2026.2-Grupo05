@@ -27,6 +27,10 @@
 
 ## 2. Identidade
 
+A Tabela 1 reúne os dados de identidade de Maria Eduarda e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
+
+**Tabela 1** — Identidade e características pessoais de Maria Eduarda Santos
+
 | Campo | Descrição |
 |---|---|
 | **Nome Completo** | Maria Eduarda Santos ("Duda") |
@@ -95,6 +99,10 @@
 
 ## 6. Tarefas
 
+A Tabela 2 apresenta as tarefas mais frequentes de Maria Eduarda, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
+
+**Tabela 2** — Tarefas realizadas por Maria Eduarda Santos
+
 | Tarefa | Frequência | Importância | Duração |
 |---|---|---|---|
 | Consultar linhas, horários e itinerários entre casa e trabalho | Diária | Crítica | 1 a 3 min |
@@ -114,6 +122,10 @@
 
 **Contexto da rotina (dia útil):**
 
+A Tabela 3 organiza a rotina diária de Maria Eduarda para evidenciar os momentos em que horários, linhas e a disponibilidade do Vale-Transporte afetam seu deslocamento.
+
+**Tabela 3** — Rotina diária de Maria Eduarda Santos
+
 | Horário | Atividade |
 |---|---|
 | ~6h40 | Consulta o celular e se prepara para sair de casa |
@@ -130,6 +142,10 @@
 ---
 
 ## 7. Relacionamentos
+
+A Tabela 4 identifica as pessoas e instituições com as quais Maria Eduarda se relaciona e explica como essas relações interferem na resolução de problemas de transporte.
+
+**Tabela 4** — Relacionamentos relevantes de Maria Eduarda Santos
 
 | Quem | Relação com a Duda | Por que importa para o projeto |
 |---|---|---|
@@ -149,6 +165,10 @@
 ---
 
 ## 8. Requisitos
+
+A Tabela 5 sintetiza as necessidades de Maria Eduarda em requisitos que devem orientar as decisões de projeto da interface.
+
+**Tabela 5** — Necessidades e requisitos de Maria Eduarda Santos
 
 | Necessidade | Em suas palavras |
 |---|---|

@@ -33,6 +33,10 @@
 
 ## 3. Atores
 
+A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis influenciam o desenvolvimento da situação descrita.
+
+**Tabela 1** — Atores envolvidos no Cenário 1
+
 | Ator | Papel no cenário | Características pessoais relevantes |
 |---|---|---|
 | **Larissa Ferreira Lima** | Ator principal (usuária) | Mulher, 23 anos, volta sozinha à noite. Conhece bem o trajeto e chama a parada de "ponto". Usa o celular com uma mão. Confia que o site oficial avisa mudanças. Está cansada, com pouca bateria e pouco dado |
@@ -115,6 +119,10 @@
 ---
 
 ## 6. Problemas Revelados pelo Cenário
+
+A Tabela 2 relaciona os problemas evidenciados durante o cenário aos momentos em que ocorrem e aos requisitos já identificados para a persona.
+
+**Tabela 2** — Problemas revelados pelo Cenário 1
 
 | Problema revelado | Onde aparece | Requisito da persona relacionado |
 |---|---|---|

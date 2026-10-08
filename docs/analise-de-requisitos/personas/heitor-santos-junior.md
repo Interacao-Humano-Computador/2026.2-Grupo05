@@ -24,6 +24,10 @@
 
 ## 2. Identidade
 
+A Tabela 1 reúne os dados de identidade de Heitor e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
+
+**Tabela 1** — Identidade e características pessoais de Heitor Santos Júnior
+
 | Campo | Descrição |
 |---|---|
 | **Nome** | Heitor Santos Júnior |
@@ -90,6 +94,10 @@ Por que ele é a persona primária:
 
 ## 6. Tarefas
 
+A Tabela 2 apresenta as tarefas mais frequentes de Heitor, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
+
+**Tabela 2** — Tarefas realizadas por Heitor Santos Júnior
+
 | Tarefa | Frequência | Importância | Duração |
 |---|---|---|---|
 | Conferir o horário da primeira viagem da manhã em Planaltina | Diária | Crítica | 1 a 2 min |
@@ -105,6 +113,10 @@ Por que ele é a persona primária:
 
 **Contexto da rotina (dia útil):**
 
+A Tabela 3 organiza a rotina diária de Heitor para evidenciar os momentos em que informações de transporte podem afetar seus deslocamentos e compromissos.
+
+**Tabela 3** — Rotina diária de Heitor Santos Júnior
+
 | Horário | Atividade |
 |---|---|
 | ~4h40 | Acorda e confere no celular se o ônibus está saindo normalmente |
@@ -118,6 +130,10 @@ Por que ele é a persona primária:
 ---
 
 ## 7. Relacionamentos
+
+A Tabela 4 identifica as pessoas com quem Heitor se relaciona e explica como essas relações interferem em suas decisões e necessidades de deslocamento.
+
+**Tabela 4** — Relacionamentos relevantes de Heitor Santos Júnior
 
 | Quem | Relação com Heitor | Por que importa para o projeto |
 |---|---|---|
@@ -135,6 +151,10 @@ Por que ele é a persona primária:
 ---
 
 ## 8. Requisitos
+
+A Tabela 5 sintetiza as necessidades de Heitor em requisitos que devem orientar as decisões de projeto da interface.
+
+**Tabela 5** — Necessidades e requisitos de Heitor Santos Júnior
 
 | Necessidade | Em suas palavras |
 |---|---|

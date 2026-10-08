@@ -27,6 +27,8 @@
 
 ## 2. Identidade
 
+A Tabela 1 reúne os atributos pessoais de Marcos Paulo que contextualizam suas necessidades de mobilidade e sua relação com a tecnologia.
+
 <div align="center">
 <p><strong>Tabela 1</strong> — Identidade e Atributos Pessoais da Persona</p>
 </div>
@@ -99,6 +101,8 @@ Conforme os fundamentos de Donald Norman (2003) e Alan Cooper (1999, 2007) discu
 ---
 
 ## 6. Tarefas da Persona
+
+A Tabela 2 apresenta as tarefas recorrentes de Marcos Paulo e evidencia sua frequência, criticidade e contexto de execução para orientar as decisões de projeto.
 
 <div align="center">
 <p><strong>Tabela 2</strong> — Matriz de Tarefas do Passageiro Cotidiano</p>

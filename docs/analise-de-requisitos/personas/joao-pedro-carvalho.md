@@ -25,6 +25,10 @@
 
 ## 2. Identidade
 
+A Tabela 1 reúne os dados de identidade de João Pedro e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
+
+**Tabela 1** — Identidade e características pessoais de João Pedro Carvalho
+
 | Campo | Descrição |
 |---|---|
 | **Nome** | João Pedro Carvalho |
@@ -94,6 +98,10 @@ Por que ele é a persona primária:
 
 ## 6. Tarefas
 
+A Tabela 2 apresenta as tarefas mais frequentes de João Pedro, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
+
+**Tabela 2** — Tarefas realizadas por João Pedro Carvalho
+
 | Tarefa | Frequência | Importância | Duração |
 |---|---|---|---|
 | Consultar horários de ônibus e acompanhar o deslocamento da linha em tempo real | Diária | Crítica | Não especificado no artefato original |
@@ -105,6 +113,10 @@ Por que ele é a persona primária:
 > A gravidade dos erros do sistema sobre a vida de João é alta: quando os horários informados falham ou os veículos não aparecem no mapa, ele perde o transporte, acumula atrasos frequentes nas aulas da UnB e tem sua motivação para os estudos significativamente abalada. Os passos detalhados dessa tarefa crítica estão descritos nos **[Cenários](../cenarios/index.md)** (em especial o **[Cenário 2](../cenarios/cenario-2-viagem-matutina.md)**).
 
 **Contexto da rotina (conhecido pelo Cenário de Problema):**
+
+A Tabela 3 organiza a rotina de João Pedro para evidenciar os momentos em que informações de transporte podem afetar seus deslocamentos e compromissos acadêmicos.
+
+**Tabela 3** — Rotina de João Pedro Carvalho
 
 | Horário | Atividade |
 |---|---|
@@ -118,6 +130,10 @@ Por que ele é a persona primária:
 ---
 
 ## 7. Relacionamentos
+
+A Tabela 4 identifica as pessoas e instituições com as quais João Pedro se relaciona e explica a relevância dessas relações para o projeto.
+
+**Tabela 4** — Relacionamentos relevantes de João Pedro Carvalho
 
 | Quem | Relação com João Pedro | Por que importa para o projeto |
 |---|---|---|
@@ -133,6 +149,10 @@ Por que ele é a persona primária:
 ---
 
 ## 8. Requisitos
+
+A Tabela 5 sintetiza as necessidades de João Pedro em requisitos que devem orientar as decisões de projeto da interface.
+
+**Tabela 5** — Necessidades e requisitos de João Pedro Carvalho
 
 | Necessidade | Em suas palavras |
 |---|---|

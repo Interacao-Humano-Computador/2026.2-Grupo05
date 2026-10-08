@@ -32,6 +32,8 @@
 
 ## 3. Atores Envolvidos
 
+A Tabela 1 identifica os participantes do cenário e esclarece como seus papéis influenciam a busca de Maria Eduarda por uma solução para o crédito indisponível.
+
 <div align="center">
 <p><strong>Tabela 1</strong>: Atores do Cenário 4</p>
 </div>
@@ -109,6 +111,8 @@
 ---
 
 ## 6. Problemas Revelados e Requisitos Elicitados
+
+A Tabela 2 relaciona os problemas evidenciados no cenário às causas observadas no design atual e aos requisitos de IHC propostos.
 
 <div align="center">
 <p><strong>Tabela 2</strong>: Problemas Identificados no Cenário 4 e Requisitos de IHC Correspondentes</p>

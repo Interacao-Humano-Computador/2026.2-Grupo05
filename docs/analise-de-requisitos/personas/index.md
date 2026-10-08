@@ -40,7 +40,7 @@ As personas deste projeto foram concebidas a partir da articulação dos dados o
 
 ## 3. Elenco de Personas Mapeadas
 
-O elenco de personas desenvolvido pela equipe para orientar as soluções de IHC do portal da SEMOB-DF está detalhado nos artefatos individuais a seguir:
+A Tabela 1 apresenta o elenco de personas desenvolvido pela equipe para orientar as soluções de IHC do portal da SEMOB-DF e direciona para os respectivos artefatos individuais.
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Elenco de Personas Mapeadas no Projeto</p>

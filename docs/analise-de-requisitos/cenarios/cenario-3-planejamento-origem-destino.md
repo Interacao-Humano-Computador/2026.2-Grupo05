@@ -32,6 +32,8 @@
 
 ## 3. Atores Envolvidos
 
+A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis influenciam o planejamento do deslocamento.
+
 <div align="center">
 <p><strong>Tabela 1</strong> — Atores do Cenário 3</p>
 </div>
@@ -94,6 +96,8 @@
 ---
 
 ## 6. Problemas Revelados e Requisitos Elicitados
+
+A Tabela 2 relaciona os problemas evidenciados no cenário às causas observadas no design atual e aos requisitos de IHC propostos.
 
 <div align="center">
 <p><strong>Tabela 2</strong> — Problemas Identificados no Cenário 3 e Requisitos de IHC Correspondentes</p>

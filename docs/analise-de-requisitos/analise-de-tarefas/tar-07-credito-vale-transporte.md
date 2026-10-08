@@ -81,6 +81,10 @@ flowchart TB
 
 ### 2.2 Tabela de objetivos, operações, problemas e recomendações
 
+A Tabela 1 relaciona a decomposição da tarefa aos problemas identificados e às recomendações de design propostas para orientar a usuária diante do crédito indisponível.
+
+**Tabela 1** — Objetivos, operações, problemas e recomendações da HTA
+
 | Objetivos / operações | Problemas e recomendações |
 | :--- | :--- |
 | **0. Obter orientação para usar o crédito de Vale-Transporte** `1>2>3>4>5` | *Input:* mensagem de saldo insuficiente, cartão e necessidade de deslocamento.<br>*Feedback:* a usuária entende o estado do crédito, o responsável e o próximo passo.<br>*Plano:* identificar o problema, buscar orientação, compreender a situação, decidir como se deslocar e executar a ação indicada. |
@@ -114,6 +118,10 @@ Conforme Barbosa et al. (2021, p. 195), a decomposição termina quando já há 
 
 Na etapa 7 da HTA, o livro sugere examinar hipóteses sobre desempenho baseado em habilidades, regras e conhecimento (Reason, 1990, apud Barbosa et al., 2021, p. 196).
 
+A Tabela 2 aplica essa classificação às operações com maior possibilidade de falha e registra as hipóteses que deverão ser verificadas posteriormente.
+
+**Tabela 2** — Hipóteses de erro nas operações analisadas
+
 | Operação | Tipo de erro | Hipótese |
 | :--- | :--- | :--- |
 | 2.1 | Conhecimento | A usuária não conhece a expressão institucional utilizada para localizar a orientação. |
@@ -122,6 +130,10 @@ Na etapa 7 da HTA, o livro sugere examinar hipóteses sobre desempenho baseado e
 | 4.1 | Regras | Sob pressão de tempo, a usuária utiliza recursos reservados para outra necessidade sem saber se existe solução mais apropriada. |
 
 ### 2.5 Situação dos passos da HTA
+
+A Tabela 3 registra o andamento metodológico da análise e torna explícitas as etapas concluídas, parciais e ainda pendentes de validação.
+
+**Tabela 3** — Situação dos passos metodológicos da HTA
 
 | Passo | Situação |
 | :--- | :--- |

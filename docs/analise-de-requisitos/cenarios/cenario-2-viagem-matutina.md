@@ -33,6 +33,10 @@
 
 ## 3. Atores
 
+A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis influenciam o desenvolvimento da situação descrita.
+
+**Tabela 1** — Atores envolvidos no Cenário 2
+
 | Ator | Papel no cenário | Características pessoais relevantes |
 |---|---|---|
 | **João Pedro Carvalho** | Ator principal (usuário) | Homem, 19 anos, estudante de Engenharia, perfil tecnológico alto, usuário de Android. Planeja a saída de casa com base no horário informado pelo app e confia nessa previsão |
@@ -101,6 +105,10 @@
 ---
 
 ## 6. Problemas Revelados pelo Cenário
+
+A Tabela 2 relaciona os problemas evidenciados durante o cenário aos momentos em que ocorrem e aos requisitos já identificados para a persona.
+
+**Tabela 2** — Problemas revelados pelo Cenário 2
 
 | Problema revelado | Onde aparece | Requisito da persona relacionado |
 |---|---|---|

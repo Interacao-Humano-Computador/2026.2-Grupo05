@@ -29,6 +29,10 @@
 
 Segundo Barbosa et al. (2021, p. 192–193), a HTA parte dos **objetivos** das pessoas (estados finais) e os decompõe em subobjetivos. Os subobjetivos e a relação entre eles formam um **plano**, e no nível mais baixo cada subobjetivo é alcançado por uma **operação**. Os planos usam a notação da Figura 6.1 do livro:
 
+A Tabela 1 apresenta os símbolos utilizados nos planos e esclarece a relação representada por cada um deles.
+
+**Tabela 1** — Notação utilizada nos planos da HTA
+
 | Notação | Relação entre os subobjetivos |
 | :---: | :--- |
 | `1>2` | sequencial (um objetivo deve ser atingido antes do próximo) |
@@ -101,7 +105,9 @@ graph TD
 
 ### 2.2 Tabela de objetivos, operações, problemas e recomendações
 
-Formato da Tabela 6.3 do livro: cada objetivo tem *input* (circunstâncias que o ativam), *feedback* (condição que indica o atingimento), *plano*, e, quando houver, *problema* e *recomendação*.
+A Tabela 2 segue o formato da Tabela 6.3 do livro: cada objetivo tem *input* (circunstâncias que o ativam), *feedback* (condição que indica o atingimento), *plano* e, quando houver, *problema* e *recomendação*. Essa organização permite relacionar a decomposição da tarefa às oportunidades de melhoria.
+
+**Tabela 2** — Objetivos, operações, problemas e recomendações da HTA
 
 | objetivos / operações | problemas e recomendações |
 | :--- | :--- |
@@ -139,6 +145,10 @@ Conforme o livro (p. 195), a decomposição termina quando se têm as informaç�
 
 Na etapa 7 da HTA (p. 196), o livro sugere classificar erros como baseados em habilidades, regras ou conhecimento:
 
+A Tabela 3 aplica essa classificação às operações com maior possibilidade de falha e registra as hipóteses que deverão ser verificadas posteriormente.
+
+**Tabela 3** — Hipóteses de erro nas operações analisadas
+
 | Operação | Tipo de erro | Hipótese |
 | :--- | :--- | :--- |
 | 2.2 | Habilidades | Toque impreciso ao selecionar um item em uma lista com opções próximas. |
@@ -146,6 +156,10 @@ Na etapa 7 da HTA (p. 196), o livro sugere classificar erros como baseados em ha
 | 2.1 | Conhecimento | Usuário novo que não sabe que a busca por ponto de referência existe e desiste ao não lembrar o número da linha. |
 
 ### 2.5 Situação dos passos da HTA (Diaper, 2003, apud Barbosa et al., 2021, p. 195–196)
+
+A Tabela 4 registra o andamento metodológico da análise e torna explícitas as etapas concluídas, parciais e ainda pendentes de validação.
+
+**Tabela 4** — Situação dos passos metodológicos da HTA
 
 | Passo | Situação |
 | :--- | :--- |

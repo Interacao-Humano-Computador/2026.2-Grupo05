@@ -18,6 +18,8 @@ Na sua rotina, o Desenvolvedor/Técnico passa cerca de 80% do seu tempo a utiliz
 
 ## 2. Dados Demográficos, Relação com Tecnologia e Conhecimento do Domínio
 
+A Tabela 1 reúne as características demográficas, profissionais e tecnológicas utilizadas para caracterizar o perfil secundário e fundamentar suas necessidades de interação.
+
 <div align="center">
 <p><strong>Tabela 1</strong> — Dados Demográficos, Relação com Tecnologia e Conhecimento de Domínio do Utilizador Desenvolvedor/Técnico</p>
 </div>

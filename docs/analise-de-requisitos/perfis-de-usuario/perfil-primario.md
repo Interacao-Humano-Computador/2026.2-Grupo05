@@ -19,6 +19,8 @@ O usuário primário do site da Semob é um(a) jovem adulto(a) de 18 a 39 anos, 
 
 ## 2. Dados Demográficos, Relação com Tecnologia e Conhecimento do Domínio
 
+A Tabela 1 reúne os dados demográficos, tecnológicos e de domínio utilizados para caracterizar o perfil primário e fundamentar suas necessidades de interação.
+
 <div align="center">
 <p><strong>Tabela 1</strong> — Dados Demográficos, Relação com Tecnologia e Conhecimento de Domínio do Usuário Primário</p>
 </div>

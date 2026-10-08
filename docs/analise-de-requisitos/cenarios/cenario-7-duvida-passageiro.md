@@ -21,6 +21,10 @@ Ponto da W3 Sul, Quadra 508 Sul, às 18h15, com calçadas movimentadas e trânsi
 
 ## 3. Atores
 
+A Tabela 1 identifica os participantes do cenário e esclarece o papel de cada um na resolução cooperativa da dúvida apresentada.
+
+**Tabela 1** — Atores envolvidos no Cenário 7
+
 | Ator | Papel |
 | :--- | :--- |
 | Valdir Soares | Ator principal, motorista de ônibus. |
