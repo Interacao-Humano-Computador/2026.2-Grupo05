@@ -107,6 +107,12 @@ graph TD
     T5 --> T52
 ```
 
+<div align="center">
+<p><strong>Figura 1</strong> — Diagrama HTA da consulta de ônibus em tempo real no DF no Ponto.</p>
+<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as setas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência, “/” indica seleção conforme as circunstâncias e “+” indica execução paralela.</em></p>
+<p><em>Fonte: Rodrigo Barbosa (2026).</em></p>
+</div>
+
 ### 3.2 Tabela de objetivos, operações, problemas e recomendações
 
 A Tabela 2 segue o formato da Tabela 6.3 do livro: cada objetivo tem *input* (circunstâncias que o ativam), *feedback* (condição que indica o atingimento), *plano* e, quando houver, *problema* e *recomendação*. Essa organização permite relacionar a decomposição da tarefa às oportunidades de melhoria.

@@ -83,6 +83,12 @@ flowchart TB
     T5 --> T53
 ```
 
+<div align="center">
+<p><strong>Figura 1</strong> — Diagrama HTA da busca por orientação sobre crédito de Vale-Transporte indisponível.</p>
+<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as setas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência, “/” indica seleção conforme as circunstâncias e “+” indica execução paralela.</em></p>
+<p><em>Fonte: Arthur Mariani (2026).</em></p>
+</div>
+
 ### 3.2 Tabela de objetivos, operações, problemas e recomendações
 
 A Tabela 1 relaciona a decomposição da tarefa aos problemas identificados e às recomendações de design propostas para orientar a usuária diante do crédito indisponível.
@@ -196,6 +202,12 @@ flowchart TB
     A4 --> I42
     A4 --> I43
 ```
+
+<div align="center">
+<p><strong>Figura 2</strong> — Diagrama CTT da orientação e da tomada de providência diante do crédito indisponível.</p>
+<p><em>Legenda: [A] = tarefa abstrata; [U] = tarefa do usuário; [I] = tarefa interativa; [S] = tarefa do sistema. As setas representam a decomposição hierárquica; as relações temporais aplicáveis estão descritas na seção 4.1.</em></p>
+<p><em>Fonte: Arthur Mariani (2026).</em></p>
+</div>
 
 > **Limite do CTT.** A notação representa tarefas e relações temporais; problemas de prevenção e recuperação de erro permanecem registrados na HTA, porque o CTT não possui elementos próprios para esse tratamento (Barbosa et al., 2021, p. 205).
 

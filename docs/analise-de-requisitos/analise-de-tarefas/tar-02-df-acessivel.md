@@ -35,6 +35,7 @@ Abaixo, no Documento 1, é possível visualizar o diagrama e a tabela correspond
 
 <div align="center">
 <p><strong>Documento 1</strong> — Diagrama HTA: Pré-agendamento no Programa DF Acessível.</p>
+<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as linhas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência e “/” indica seleção conforme as circunstâncias. Os nós sublinhados representam operações.</em></p>
 <p><em>Fonte: Gabriel Melo (2026).</em></p>
 </div>
 
@@ -52,6 +53,7 @@ Abaixo, no Documento 2, encontra-se a modelagem das relações temporais e lógi
 
 <div align="center">
 <p><strong>Documento 2</strong> — Diagrama CTT: Pré-agendamento no Programa DF Acessível.</p>
+<p><em>Legenda: nuvem = tarefa abstrata; pessoa = tarefa do usuário; monitor = tarefa do sistema; pessoa com monitor = tarefa interativa. Os operadores temporais representam sequência, passagem de informação, escolha, concorrência, independência, desativação e suspensão.</em></p>
 <p><em>Fonte: Gabriel Melo (2026).</em></p>
 </div>
 

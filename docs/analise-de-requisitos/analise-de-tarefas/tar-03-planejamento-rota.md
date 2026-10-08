@@ -65,6 +65,12 @@ flowchart TD
     G4 --> G41
 ```
 
+<div align="center">
+<p><strong>Figura 1</strong> — Diagrama HTA do planejamento de rota por origem e destino com monitoramento em tempo real.</p>
+<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as setas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência, “/” indica seleção e “+” indica execução paralela.</em></p>
+<p><em>Fonte: Arthur Mariani e Lucas Araújo (2026).</em></p>
+</div>
+
 ### 3.2 Tabela HTA (com Problemas e Recomendações de IHC)
 
 Conforme Barbosa & Silva (2010, p. 193), cada operação é especificada pela tupla ⟨Input, Ação, Feedback⟩. O critério de parada adotado é o **p × c** (probabilidade de erro multiplicada pelo custo do erro).
@@ -141,6 +147,12 @@ graph TD
     T3 --> T33
     T3 --> T34
 ```
+
+<div align="center">
+<p><strong>Figura 2</strong> — Diagrama CTT do planejamento de rota e do monitoramento da chegada do ônibus.</p>
+<p><em>Legenda: [Abstrata] = composição de tarefas; [Usuário] = tarefa realizada pela pessoa fora do sistema; [Interativa] = interação entre usuário e sistema; [Sistema] = processamento automático. As setas representam a decomposição hierárquica.</em></p>
+<p><em>Fonte: Arthur Mariani e Lucas Araújo (2026).</em></p>
+</div>
 
 #### Relações Temporais Formais da Tarefa:
 1. `Definir Trajeto []>> Selecionar Itinerário`: Ativação sequencial com passagem de informação (as opções de rota dependem das coordenadas de origem e destino fornecidas).

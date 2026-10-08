@@ -135,6 +135,7 @@ graph TD
 
 <div align="center">
 <p><strong>Figura 1</strong> — Diagrama HTA: Consultar Escala de Trabalho e Horários Homologados (TAR-03).</p>
+<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as setas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência e “/” indica seleção conforme as circunstâncias.</em></p>
 <p><em>Fonte: Carlos Costa (2026).</em></p>
 </div>
 
@@ -241,6 +242,7 @@ graph TD
 
 <div align="center">
 <p><strong>Figura 2</strong> — Diagrama HTA: Receber e Processar Alerta Operacional Emergencial de Trânsito (TAR-04).</p>
+<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as setas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência, “/” indica seleção conforme as circunstâncias e “+” indica execução paralela.</em></p>
 <p><em>Fonte: Carlos Costa (2026).</em></p>
 </div>
 
@@ -387,7 +389,8 @@ graph TD
 
 <div align="center">
 <p><strong>Figura 3</strong> — Diagrama CTT: Consultar Escala de Trabalho e Horários Homologados (TAR-03).</p>
-<p><em>Legenda: Azul [A] = Abstrata; Amarelo [U] = Usuário; Verde [I] = Interativa; Roxo [S] = Sistema. Fonte: Carlos Costa (2026).</em></p>
+<p><em>Legenda: [A] = tarefa abstrata; [U] = tarefa do usuário; [I] = tarefa interativa; [S] = tarefa do sistema. As setas representam a decomposição hierárquica.</em></p>
+<p><em>Fonte: Carlos Costa (2026).</em></p>
 </div>
 
 ---
@@ -468,7 +471,8 @@ graph TD
 
 <div align="center">
 <p><strong>Figura 4</strong> — Diagrama CTT: Receber e Processar Alerta Operacional Emergencial de Trânsito (TAR-04).</p>
-<p><em>Legenda: Azul [A] = Abstrata; Amarelo [U] = Usuário; Verde [I] = Interativa; Roxo [S] = Sistema. Fonte: Carlos Costa (2026).</em></p>
+<p><em>Legenda: [A] = tarefa abstrata; [U] = tarefa do usuário; [I] = tarefa interativa; [S] = tarefa do sistema. As setas representam a decomposição hierárquica.</em></p>
+<p><em>Fonte: Carlos Costa (2026).</em></p>
 </div>
 
 ---
