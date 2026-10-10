@@ -135,6 +135,7 @@ graph TD
 
 <div align="center">
 <p><strong>Figura 1</strong> — Diagrama HTA: Consultar Escala de Trabalho e Horários Homologados (TAR-03).</p>
+<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as setas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência e “/” indica seleção conforme as circunstâncias.</em></p>
 <p><em>Fonte: Carlos Costa (2026).</em></p>
 </div>
 
@@ -142,6 +143,8 @@ graph TD
 
 #### 3.2.2 Tabela Descritiva de Decomposição (HTA 1)
 *(Seguindo a estrutura canônica da Tabela 6.3 de Barbosa e Silva, 2010, pp. 194–195)*
+
+A Tabela 1 detalha a decomposição da tarefa de consulta da escala, relacionando objetivos, condições de execução, problemas diagnosticados e recomendações de design.
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Tabela Descritiva HTA: TAR-03 (Consultar Escala de Trabalho e Horários)</p>
@@ -239,12 +242,15 @@ graph TD
 
 <div align="center">
 <p><strong>Figura 2</strong> — Diagrama HTA: Receber e Processar Alerta Operacional Emergencial de Trânsito (TAR-04).</p>
+<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as setas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência, “/” indica seleção conforme as circunstâncias e “+” indica execução paralela.</em></p>
 <p><em>Fonte: Carlos Costa (2026).</em></p>
 </div>
 
 ---
 
 #### 3.3.2 Tabela Descritiva de Decomposição (HTA 2)
+
+A Tabela 2 detalha a decomposição do processamento de alertas de trânsito e evidencia os problemas, riscos de erro e recomendações associados a cada subobjetivo.
 
 <div align="center">
 <p><strong>Tabela 2</strong> — Tabela Descritiva HTA: TAR-04 (Receber e Processar Alerta de Trânsito)</p>
@@ -383,7 +389,8 @@ graph TD
 
 <div align="center">
 <p><strong>Figura 3</strong> — Diagrama CTT: Consultar Escala de Trabalho e Horários Homologados (TAR-03).</p>
-<p><em>Legenda: Azul [A] = Abstrata; Amarelo [U] = Usuário; Verde [I] = Interativa; Roxo [S] = Sistema. Fonte: Carlos Costa (2026).</em></p>
+<p><em>Legenda: [A] = tarefa abstrata; [U] = tarefa do usuário; [I] = tarefa interativa; [S] = tarefa do sistema. As setas representam a decomposição hierárquica.</em></p>
+<p><em>Fonte: Carlos Costa (2026).</em></p>
 </div>
 
 ---
@@ -464,7 +471,8 @@ graph TD
 
 <div align="center">
 <p><strong>Figura 4</strong> — Diagrama CTT: Receber e Processar Alerta Operacional Emergencial de Trânsito (TAR-04).</p>
-<p><em>Legenda: Azul [A] = Abstrata; Amarelo [U] = Usuário; Verde [I] = Interativa; Roxo [S] = Sistema. Fonte: Carlos Costa (2026).</em></p>
+<p><em>Legenda: [A] = tarefa abstrata; [U] = tarefa do usuário; [I] = tarefa interativa; [S] = tarefa do sistema. As setas representam a decomposição hierárquica.</em></p>
+<p><em>Fonte: Carlos Costa (2026).</em></p>
 </div>
 
 ---
@@ -472,6 +480,8 @@ graph TD
 ## 5. Comparação e Síntese Metodológica entre HTA e CTT
 
 A literatura de IHC (Barbosa e Silva, 2010, pp. 191–205) demonstra que as abordagens HTA e CTT não são excludentes, mas profundamente complementares no processo de engenharia de usabilidade:
+
+A Tabela 3 compara as contribuições de cada abordagem e explicita como ambas se articulam na análise das tarefas do motorista.
 
 <div align="center">
 <p><strong>Tabela 3</strong> — Quadro Comparativo entre HTA e CTT no Contexto do Motorista</p>

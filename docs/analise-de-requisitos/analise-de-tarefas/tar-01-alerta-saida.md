@@ -9,7 +9,11 @@
 
 ---
 
-## 1. Caracterização da Tarefa
+## 1. Introdução
+
+Este documento analisa a tarefa de configurar e receber um alerta inteligente sobre o momento adequado para sair de casa. A modelagem utiliza HTA e CTT para decompor objetivos, ações e relações temporais, permitindo compreender como o acompanhamento do ônibus e o tempo de caminhada podem apoiar o passageiro e reduzir atrasos ou perdas do transporte.
+
+## 2. Caracterização da Tarefa
 
 * **Título da Tarefa:** Alerta inteligente de saída
 * **Perfil do Participante:** Usuário primário / Passageiro Frequente ([João Pedro Carvalho](../personas/joao-pedro-carvalho.md))
@@ -19,7 +23,7 @@
 
 ---
 
-## 2. Análise Hierárquica de Tarefas (HTA)
+## 3. Análise Hierárquica de Tarefas (HTA)
 
 Abaixo, no Documento 1, é possível visualizar o diagrama e a tabela correspondente à Análise Hierárquica de Tarefas (HTA) para o fluxo do participante.
 
@@ -31,12 +35,13 @@ Abaixo, no Documento 1, é possível visualizar o diagrama e a tabela correspond
 
 <div align="center">
 <p><strong>Documento 1</strong> — Diagrama HTA: Alerta Inteligente de Saída.</p>
+<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as linhas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência, “/” indica seleção conforme as circunstâncias e “+” indica execução paralela. Os nós do último nível representam operações.</em></p>
 <p><em>Fonte: Igor Dantas (2026).</em></p>
 </div>
 
 ---
 
-## 3. ConcurTaskTrees (CTT)
+## 4. ConcurTaskTrees (CTT)
 
 Abaixo, no Documento 2, encontra-se a modelagem das relações temporais e lógicas desta mesma tarefa utilizando a notação CTT.
 
@@ -48,12 +53,13 @@ Abaixo, no Documento 2, encontra-se a modelagem das relações temporais e lógi
 
 <div align="center">
 <p><strong>Documento 2</strong> — Diagrama CTT: Alerta Inteligente de Saída.</p>
+<p><em>Legenda: nuvem = tarefa abstrata; pessoa = tarefa do usuário; monitor = tarefa do sistema; pessoa com monitor = tarefa interativa. Os operadores temporais representam sequência, passagem de informação, escolha, concorrência, independência, desativação e suspensão.</em></p>
 <p><em>Fonte: Igor Dantas (2026).</em></p>
 </div>
 
 ---
 
-## 4. Referências Bibliográficas
+## 5. Referências Bibliográficas
 
 * ANNETT, John; DUNCAN, Keith D. **Task analysis and training design**. *Journal of Occupational Psychology*, v. 41, n. 4, p. 211–221, 1967.
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

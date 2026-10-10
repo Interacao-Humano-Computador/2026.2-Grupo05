@@ -8,7 +8,11 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este cenário de problema representa Marcos Paulo Vieira tentando planejar um deslocamento urgente sem conhecer previamente o código da linha de ônibus. A narrativa evidencia as barreiras provocadas pela ausência de busca por origem e destino, pelos redirecionamentos e pelas falhas de carregamento no celular, apoiando a definição de requisitos para uma experiência mais direta e eficiente.
+
+## 2. Caracterização Geral
 
 **Autor: Lucas Araújo Lima**
 
@@ -20,7 +24,7 @@
 
 ---
 
-## 2. Ambiente e Contexto
+## 3. Ambiente e Contexto
 
 * **Momento Temporal e Espacial:** Terça-feira, 06h45, horário de pico matutino, sob chuva leve e vento, em uma parada de ônibus na 1ª Avenida Sul de Samambaia (DF).
 * **Pressão Temporal e Psicológica:** Marcos precisa obrigatoriamente bater o ponto biométrico na distribuidora do SIA até as 08h00. Qualquer atraso superior a 10 minutos desconta horas e gera notificação disciplinar da chefia.
@@ -30,7 +34,9 @@
 
 ---
 
-## 3. Atores Envolvidos
+## 4. Atores Envolvidos
+
+A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis influenciam o planejamento do deslocamento.
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Atores do Cenário 3</p>
@@ -48,7 +54,7 @@
 
 ---
 
-## 4. Objetivos
+## 5. Objetivos
 
 * **Objetivo Geral:** Chegar ao trabalho no SIA Trecho 3 antes das 08h00, utilizando a melhor opção de transporte coletivo disponível no momento.
 * **Subobjetivos Operacionais:**
@@ -59,7 +65,7 @@
 
 ---
 
-## 5. Ciclo Reflexivo: Planejamento, Ações, Eventos e Avaliação (*Norman, 1986; Carroll, 2000*)
+## 6. Ciclo Reflexivo: Planejamento, Ações, Eventos e Avaliação (*Norman, 1986; Carroll, 2000*)
 
 ### Passo 1 — Tentativa de Busca por Destino na Home (06h46)
 * **Planejamento:** *"O ônibus das 06h40 não passou. Deixa eu entrar no site da SEMOB pra ver qual outro ônibus me deixa no SIA agora."*
@@ -93,7 +99,9 @@
 
 ---
 
-## 6. Problemas Revelados e Requisitos Elicitados
+## 7. Problemas Revelados e Requisitos Elicitados
+
+A Tabela 2 relaciona os problemas evidenciados no cenário às causas observadas no design atual e aos requisitos de IHC propostos.
 
 <div align="center">
 <p><strong>Tabela 2</strong> — Problemas Identificados no Cenário 3 e Requisitos de IHC Correspondentes</p>
@@ -112,7 +120,7 @@
 
 ---
 
-## 7. Referências Bibliográficas
+## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6: Organização do Espaço de Problema — Cenários (pp. 183–191).
 * CARROLL, John M. **Making Use: Scenario-Based Design of Human-Computer Interactions**. Cambridge: MIT Press, 2000.

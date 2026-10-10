@@ -8,7 +8,11 @@
 
 ---
 
-## 1. Caracterização da Tarefa
+## 1. Introdução
+
+Este documento analisa a tarefa de obter orientação para resolver a indisponibilidade de crédito de Vale-Transporte no cartão. A modelagem combina HTA e CTT para representar objetivos, operações, problemas e relações temporais entre a passageira, os canais institucionais e o empregador; os resultados são tratados como hipóteses que ainda exigem validação com as partes interessadas.
+
+## 2. Caracterização da Tarefa
 
 * **Título da Tarefa:** Resolver a indisponibilidade de crédito de Vale-Transporte no cartão.
 * **Perfil do Participante:** Usuária primária / passageira trabalhadora ([Maria Eduarda Santos](../personas/maria-eduarda-santos.md)).
@@ -24,11 +28,11 @@
 
 ---
 
-## 2. Análise Hierárquica de Tarefas (HTA)
+## 3. Análise Hierárquica de Tarefas (HTA)
 
 Segundo Barbosa et al. (2021, p. 192–195), a HTA começa pelos objetivos das pessoas e os decompõe em subobjetivos. Os planos registram a relação entre subobjetivos: `1>2` indica sequência, `1/2` indica seleção conforme a circunstância e `1+2` indica atividades paralelas. No nível mais baixo, os subobjetivos são operações.
 
-### 2.1 Diagrama hierárquico
+### 3.1 Diagrama hierárquico
 
 ```mermaid
 flowchart TB
@@ -79,7 +83,17 @@ flowchart TB
     T5 --> T53
 ```
 
-### 2.2 Tabela de objetivos, operações, problemas e recomendações
+<div align="center">
+<p><strong>Figura 1</strong> — Diagrama HTA da busca por orientação sobre crédito de Vale-Transporte indisponível.</p>
+<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as setas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência, “/” indica seleção conforme as circunstâncias e “+” indica execução paralela.</em></p>
+<p><em>Fonte: Arthur Mariani (2026).</em></p>
+</div>
+
+### 3.2 Tabela de objetivos, operações, problemas e recomendações
+
+A Tabela 1 relaciona a decomposição da tarefa aos problemas identificados e às recomendações de design propostas para orientar a usuária diante do crédito indisponível.
+
+**Tabela 1** — Objetivos, operações, problemas e recomendações da HTA
 
 | Objetivos / operações | Problemas e recomendações |
 | :--- | :--- |
@@ -102,7 +116,7 @@ flowchart TB
 | 5.2 Solicitar correção ao responsável | |
 | 5.3 Registrar atendimento ou reclamação | |
 
-### 2.3 Critério de parada da decomposição
+### 3.3 Critério de parada da decomposição
 
 Conforme Barbosa et al. (2021, p. 195), a decomposição termina quando já há informações suficientes para a análise, podendo-se aplicar o critério **p × c**: o produto da probabilidade de falha pelo custo da falha deve ser aceitável.
 
@@ -110,9 +124,13 @@ Conforme Barbosa et al. (2021, p. 195), a decomposição termina quando já há 
 * O objetivo **4** permanece em operações porque a escolha de meio de pagamento ou de deslocamento é externa ao serviço de orientação e depende de recursos pessoais da usuária.
 * O objetivo **5** não é decomposto além das operações: os procedimentos concretos variam por cartão, serviço e confirmação das partes interessadas, devendo ser observados antes de detalhamento adicional.
 
-### 2.4 Hipóteses sobre erros
+### 3.4 Hipóteses sobre erros
 
 Na etapa 7 da HTA, o livro sugere examinar hipóteses sobre desempenho baseado em habilidades, regras e conhecimento (Reason, 1990, apud Barbosa et al., 2021, p. 196).
+
+A Tabela 2 aplica essa classificação às operações com maior possibilidade de falha e registra as hipóteses que deverão ser verificadas posteriormente.
+
+**Tabela 2** — Hipóteses de erro nas operações analisadas
 
 | Operação | Tipo de erro | Hipótese |
 | :--- | :--- | :--- |
@@ -121,25 +139,29 @@ Na etapa 7 da HTA, o livro sugere examinar hipóteses sobre desempenho baseado e
 | 3.3 | Conhecimento | A usuária atribui a resolução à instituição errada por não conhecer a divisão de responsabilidades. |
 | 4.1 | Regras | Sob pressão de tempo, a usuária utiliza recursos reservados para outra necessidade sem saber se existe solução mais apropriada. |
 
-### 2.5 Situação dos passos da HTA
+### 3.5 Situação dos passos da HTA
+
+A Tabela 3 registra o andamento metodológico da análise e torna explícitas as etapas concluídas, parciais e ainda pendentes de validação.
+
+**Tabela 3** — Situação dos passos metodológicos da HTA
 
 | Passo | Situação |
 | :--- | :--- |
 | 1. Decidir os objetivos da análise | Feito: analisar a orientação para resolver crédito indisponível. |
 | 2. Consenso sobre objetivos e medidas de sucesso | Parcial. Sucesso: a usuária identifica o estado, o responsável e o próximo passo. Consequência da falha: atraso, gasto imprevisto e repetição do problema. **Validação com partes interessadas pendente.** |
 | 3. Fontes de informação e aquisição de dados | Parcial: cenário de problema e documentação. **Observação e entrevistas específicas pendentes.** |
-| 4. Esboçar diagrama e tabela | Feito (seções 2.1 e 2.2). |
+| 4. Esboçar diagrama e tabela | Feito (seções 3.1 e 3.2). |
 | 5. Verificar a validade da decomposição | **Pendente.** |
-| 6. Identificar operações significativas (p × c) | Feito (seção 2.3). |
-| 7. Gerar hipóteses sobre aprendizado e desempenho | Feito como hipóteses (seção 2.4), **sem teste empírico**. |
+| 6. Identificar operações significativas (p × c) | Feito (seção 3.3). |
+| 7. Gerar hipóteses sobre aprendizado e desempenho | Feito como hipóteses (seção 3.4), **sem teste empírico**. |
 
 ---
 
-## 3. ConcurTaskTrees (CTT)
+## 4. ConcurTaskTrees (CTT)
 
 O CTT representa tarefas de usuário, sistema, interação e tarefas abstratas, além das relações temporais entre elas (Barbosa et al., 2021, p. 203–205). A modelagem abaixo descreve a solução de interação desejada: um orientador integrado que explicita o estado do crédito e encaminha a usuária sem exigir que ela deduza responsabilidades entre instituições.
 
-### 3.1 Estrutura formal e relações temporais
+### 4.1 Estrutura formal e relações temporais
 
 ```text
 [A] Obter orientação para usar o crédito de Vale-Transporte
@@ -156,7 +178,7 @@ O CTT representa tarefas de usuário, sistema, interação e tarefas abstratas, 
 * **`[ ] >>` — ativação com passagem de informação:** a descrição do problema é usada pelo sistema para identificar estados e elaborar a orientação.
 * **`[]` — escolha:** após compreender a situação, a usuária seleciona a providência compatível com seu contexto; o sistema não deve impor uma instituição sem evidência suficiente.
 
-### 3.2 Diagrama CTT
+### 4.2 Diagrama CTT
 
 ```mermaid
 flowchart TB
@@ -181,11 +203,17 @@ flowchart TB
     A4 --> I43
 ```
 
+<div align="center">
+<p><strong>Figura 2</strong> — Diagrama CTT da orientação e da tomada de providência diante do crédito indisponível.</p>
+<p><em>Legenda: [A] = tarefa abstrata; [U] = tarefa do usuário; [I] = tarefa interativa; [S] = tarefa do sistema. As setas representam a decomposição hierárquica; as relações temporais aplicáveis estão descritas na seção 4.1.</em></p>
+<p><em>Fonte: Arthur Mariani (2026).</em></p>
+</div>
+
 > **Limite do CTT.** A notação representa tarefas e relações temporais; problemas de prevenção e recuperação de erro permanecem registrados na HTA, porque o CTT não possui elementos próprios para esse tratamento (Barbosa et al., 2021, p. 205).
 
 ---
 
-## 4. Referências Bibliográficas
+## 5. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6, Seção 6.4: Análise de Tarefas, pp. 191–205.
 * PATERNÒ, Fabio. **Model-Based Design and Evaluation of Interactive Applications**. London: Springer-Verlag, 2000.

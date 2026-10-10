@@ -45,7 +45,7 @@ Atores que raramente operam a interface web de forma direta, mas são diretament
 
 ## 3. Artefatos de Perfis Mapeados
 
-A equipe de projeto mapeou e detalhou os perfis de usuário em artefatos independentes, acessíveis a seguir:
+A Tabela 1 apresenta os perfis de usuário mapeados pela equipe, suas categorias e metodologias, além de direcionar para os respectivos artefatos individuais.
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Perfis de Usuário Mapeados no Projeto</p>

@@ -8,7 +8,11 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este documento apresenta Mariana Borges Almeida, persona que representa trabalhadoras que dependem do transporte público e precisam de informações confiáveis para ajustar o momento de sair de casa. Sua caracterização evidencia a importância do monitoramento em tempo real, sobretudo em condições climáticas adversas, orientando cenários, requisitos e decisões de design do projeto.
+
+## 2. Caracterização Geral
 
 **Autor:** Rodrigo Barbosa
 
@@ -22,7 +26,11 @@
 
 ---
 
-## 2. Identidade
+## 3. Identidade
+
+A Tabela 1 reúne os dados de identidade de Mariana e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
+
+**Tabela 1** — Identidade e características pessoais de Mariana Borges Almeida
 
 | Campo | Descrição |
 |---|---|
@@ -44,7 +52,7 @@
 
 ---
 
-## 3. Status
+## 4. Status
 
 **Persona primária.**
 
@@ -57,7 +65,7 @@ Por que ela é persona primária:
 
 ---
 
-## 4. Objetivos
+## 5. Objetivos
 
 ### Objetivos de vida (além do app)
 
@@ -82,7 +90,7 @@ Por que ela é persona primária:
 
 ---
 
-## 5. Habilidades
+## 6. Habilidades
 
 - **Educação e formação:** ensino superior completo em Administração.
 - **Competências profissionais:** atuação em rotinas administrativas, com boa organização de tempo e atenção a prazos e horários.
@@ -92,7 +100,11 @@ Por que ela é persona primária:
 
 ---
 
-## 6. Tarefas
+## 7. Tarefas
+
+A Tabela 2 apresenta as tarefas mais frequentes de Mariana, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
+
+**Tabela 2** — Tarefas realizadas por Mariana Borges Almeida
 
 | Tarefa | Frequência | Importância | Duração |
 |---|---|---|---|
@@ -104,6 +116,10 @@ Por que ela é persona primária:
 > Em dias de chuva forte, a importância dessas tarefas aumenta: uma informação imprecisa a leva a esperar exposta no ponto ou a perder o ônibus. Os passos detalhados dessa tarefa estão descritos nos **Cenários** (em especial o **Cenário 3**).
 
 **Contexto da rotina (conhecido pelo Cenário 3 — cenário ideal):**
+
+A Tabela 3 organiza a rotina de Mariana para evidenciar os momentos em que informações precisas sobre o transporte são especialmente importantes, sobretudo em dias de chuva.
+
+**Tabela 3** — Rotina de Mariana Borges Almeida
 
 | Horário | Atividade |
 |---|---|
@@ -117,7 +133,11 @@ Por que ela é persona primária:
 
 ---
 
-## 7. Relacionamentos
+## 8. Relacionamentos
+
+A Tabela 4 identifica as pessoas e instituições com as quais Mariana se relaciona e explica a relevância dessas relações para suas decisões de deslocamento.
+
+**Tabela 4** — Relacionamentos relevantes de Mariana Borges Almeida
 
 | Quem | Relação com Mariana | Por que importa para o projeto |
 |---|---|---|
@@ -130,7 +150,11 @@ Por que ela é persona primária:
 
 ---
 
-## 8. Requisitos
+## 9. Requisitos
+
+A Tabela 5 sintetiza as necessidades de Mariana em requisitos que devem orientar as decisões de projeto da interface.
+
+**Tabela 5** — Necessidades e requisitos de Mariana Borges Almeida
 
 | Necessidade | Em suas palavras |
 |---|---|
@@ -143,7 +167,7 @@ Por que ela é persona primária:
 
 ---
 
-## 9. Expectativas
+## 10. Expectativas
 
 ### Como ela acredita que o serviço funciona
 
@@ -164,6 +188,6 @@ Não há colisão no Cenário 10, que é um **cenário ideal**: todas as expecta
 
 ---
 
-## 10. Referências Bibliográficas
+## 11. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

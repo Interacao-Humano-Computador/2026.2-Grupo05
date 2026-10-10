@@ -39,7 +39,7 @@ Conforme Barbosa et al. (2021), um cenário bem estruturado deve explicitar:
 
 ## 2. Registro dos Cenários Mapeados
 
-Os cenários desenvolvidos pela equipe concentram-se no diagnóstico das tarefas críticas das personas do projeto (tanto primárias quanto atendidas/operacionais), estando documentados individualmente nos links a seguir:
+A Tabela 1 apresenta os cenários desenvolvidos pela equipe para diagnosticar tarefas críticas das personas primárias e atendidas ou operacionais, além de direcionar para os respectivos artefatos individuais.
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Cenários de Uso Mapeados no Projeto</p>

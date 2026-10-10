@@ -18,6 +18,8 @@ Na sua rotina, o Desenvolvedor/Técnico passa cerca de 80% do seu tempo a utiliz
 
 ## 2. Dados Demográficos, Relação com Tecnologia e Conhecimento do Domínio
 
+A Tabela 1 reúne as características demográficas, profissionais e tecnológicas utilizadas para caracterizar o perfil secundário e fundamentar suas necessidades de interação.
+
 <div align="center">
 <p><strong>Tabela 1</strong> — Dados Demográficos, Relação com Tecnologia e Conhecimento de Domínio do Utilizador Desenvolvedor/Técnico</p>
 </div>
@@ -30,6 +32,7 @@ Na sua rotina, o Desenvolvedor/Técnico passa cerca de 80% do seu tempo a utiliz
 | Tempo na área | 1 a 5 anos. (Entrevistados possuem 1 ano e 5 anos de experiência). |
 | Frequência de uso de tecnologia | Constante (várias vezes ao dia, nota 5). |
 | Experiência com tecnologia | Alta (faz tudo sem ajuda, nota 5). |
+| Atitude diante da tecnologia | **Tecnófila:** demonstra interesse, confiança e facilidade na adoção de novas tecnologias, utilizando-as continuamente no trabalho. |
 | Estilo de aprendizagem | Prático (com aceitação visual e auditiva). |
 | Uso de ferramentas Semob | Cerca de 80% do tempo. |
 | Opinião sobre o sistema atual | Baixa satisfação (2), utilidade intermédia (3) e altamente ineficiente (1). |
@@ -42,13 +45,40 @@ Na sua rotina, o Desenvolvedor/Técnico passa cerca de 80% do seu tempo a utiliz
 
 ---
 
-## 3. Fontes de Dados Utilizadas
+## 3. Atitudes diante da Tecnologia
+
+O desenvolvedor/técnico apresenta atitude **tecnófila**, sustentada pelo uso constante de tecnologia, pela alta autonomia declarada e pela ausência de dificuldades relevantes ao lidar com novas ferramentas. A tecnologia não é apenas um meio ocasional, mas parte central de sua atividade profissional e de sua busca por eficiência.
+
+Apesar dessa familiaridade, a baixa satisfação registrada com o sistema atual indica que experiência técnica elevada não elimina problemas de usabilidade. O perfil tende a aceitar novas soluções, mas espera ferramentas eficientes, estáveis e compatíveis com fluxos profissionais complexos.
+
+---
+
+## 4. Tarefas Primárias e Secundárias
+
+As tarefas foram separadas de acordo com sua centralidade no desenvolvimento, na validação e na publicação dos sistemas e informações da SEMOB-DF.
+
+### 4.1 Tarefas Primárias
+
+1. Desenvolver e manter sistemas e funcionalidades utilizados pela SEMOB-DF.
+2. Executar testes funcionais, validações e testes de segurança.
+3. Atualizar e publicar informações por meio dos sistemas internos e do portal de dados abertos.
+
+### 4.2 Tarefas Secundárias
+
+1. Conversar com clientes e demais partes interessadas para compreender necessidades.
+2. Criar protótipos para apoiar a comunicação e a validação das soluções.
+3. Organizar painéis, ferramentas e informações simultâneas durante o trabalho.
+4. Buscar melhorias de eficiência nos processos e nas ferramentas utilizadas.
+
+---
+
+## 5. Fontes de Dados Utilizadas
 
 Para a elaboração deste perfil, foram articuladas as seguintes fontes de dados:
 * **Entrevistas Qualitativas com Utilizadores:** Dados recolhidos de dois utilizadores (A e B) pertencentes ao perfil de Desenvolvedor/Técnico em [entrevista](https://youtu.be/f5bk6RBZwDE).
 
 ---
 
-## 4. Referências Bibliográficas
+## 6. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 5: Identificação de Necessidades dos Usuários e Requisitos de IHC (pp. 134–158).

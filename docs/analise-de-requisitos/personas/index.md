@@ -36,11 +36,27 @@ As personas deste projeto foram concebidas a partir da articulação dos dados o
 2. **[Perfis de Usuário](../perfis-de-usuario/index.md):** Caracterização do usuário primário (passageiro frequente do STPC/DF) e do usuário terciário (motorista de transporte público coletivo).
 3. **[Entrevistas e Pesquisas Empíricas](../entrevistas.md):** Relatos diretos sobre rotinas de deslocamento, fricções de uso com canais digitais e expectativas de atendimento.
 
+### 2.1 Justificativa da Quantidade de Personas
+
+A quantidade de personas foi definida pela necessidade de representar padrões comportamentais, objetivos, contextos de uso e tarefas relevantes que não poderiam ser reunidos em um único arquétipo sem produzir um “usuário elástico”. Com base nos dados disponíveis, foram mantidas **sete personas**: seis associadas ao público passageiro e uma vinculada à perspectiva operacional dos motoristas.
+
+Cada persona foi preservada no elenco por acrescentar uma perspectiva específica:
+
+1. **Larissa Ferreira Lima:** integração entre modos de transporte, deslocamento noturno, última viagem e segurança.
+2. **João Pedro Carvalho:** alta familiaridade tecnológica, rotina universitária e expectativa de alertas preditivos.
+3. **Marcos Paulo Vieira:** planejamento por origem e destino sem conhecimento prévio do código da linha.
+4. **Maria Eduarda Santos:** uso de Vale-Transporte e resolução de falhas de crédito sob pressão de horário e orçamento.
+5. **Heitor Santos Júnior:** letramento digital intermediário, deslocamento para endereços desconhecidos e necessidade de avisos sobre desvios.
+6. **Mariana Borges Almeida:** previsibilidade, monitoramento em tempo real e tomada de decisão em condições de chuva.
+7. **Valdir Soares:** perspectiva do motorista como persona atendida pelo portal e como possível usuário de um canal móvel operacional.
+
+O critério de parada adotado foi a **cobertura sem redundância significativa**: uma nova persona só deve ser acrescentada se representar comportamentos, objetivos ou necessidades ainda não contemplados pelo elenco. Como parte das personas foi construída a partir da articulação de documentos, perfis, entrevistas e cenários, essa quantidade deve ser revisada após novas coletas e validações com as partes interessadas; portanto, não constitui um número universal ou definitivo.
+
 ---
 
 ## 3. Elenco de Personas Mapeadas
 
-O elenco de personas desenvolvido pela equipe para orientar as soluções de IHC do portal da SEMOB-DF está detalhado nos artefatos individuais a seguir:
+A Tabela 1 apresenta o elenco de personas desenvolvido pela equipe para orientar as soluções de IHC do portal da SEMOB-DF e direciona para os respectivos artefatos individuais.
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Elenco de Personas Mapeadas no Projeto</p>
@@ -61,15 +77,9 @@ O elenco de personas desenvolvido pela equipe para orientar as soluções de IHC
 </div>
 
 ### 3.1 Articulação do Elenco de Personas (Barbosa e Silva, 2010, pp. 179–180)
-O elenco de personas deste projeto reúne **quatro personas primárias complementares**:
-1. **Larissa:** Representa as dores de integração intermodal, horários noturnos e barreiras informacionais de benefícios.
-2. **João Pedro:** Representa o jovem universitário tecnológico com alta expectativa de integração e alertas preditivos.
-3. **Marcos Paulo:** Representa o trabalhador cotidiano padrão, cujo foco é a resolução utilitária rápida em celular (planejamento direto de trajeto ponto a ponto sem conhecimento prévio do código da linha e rastreamento em tempo real).
-4. **Maria Eduarda:** Representa a trabalhadora que depende do Vale-Transporte e precisa resolver falhas de crédito e cartão sem comprometer a pontualidade ou o orçamento.
+O elenco reúne **seis personas associadas ao perfil passageiro** e **uma persona atendida com perspectiva operacional**. As personas passageiras compartilham a dependência do transporte coletivo, mas diferem quanto ao domínio tecnológico, ao contexto de deslocamento, aos benefícios utilizados, às condições ambientais e às informações necessárias para tomar decisões. Valdir amplia o espaço de problema ao representar quem não utiliza regularmente o portal, mas sofre diretamente os efeitos de informações públicas incorretas ou desatualizadas.
 
-Esse conjunto consolida os requisitos centrais do STPC/DF, servindo de base direta para os **Cenários de Uso** e a **Análise de Tarefas**.
-
-**Maria Eduarda** aprofunda uma situação prioritária do elenco: a indisponibilidade de créditos de Vale-Transporte no cartão. Ela orienta requisitos para a comunicação entre empresa, passageira e serviços de atendimento.
+As sete perspectivas articulam consultas de linhas e horários, planejamento por origem e destino, rastreamento em tempo real, integração, Vale-Transporte, comunicação de desvios, segurança noturna e consistência entre a informação pública e a operação. Dessa forma, o elenco fornece cobertura aos principais cenários e análises de tarefas documentados no projeto sem depender de uma única persona excessivamente abrangente.
 
 ---
 

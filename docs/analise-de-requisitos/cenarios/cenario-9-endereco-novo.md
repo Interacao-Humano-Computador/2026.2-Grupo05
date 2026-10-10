@@ -8,7 +8,11 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este cenário de problema acompanha Heitor Santos Júnior em um deslocamento para um endereço desconhecido durante o expediente, agravado por um desvio de itinerário não comunicado de forma contextual. A situação evidencia dificuldades de busca, atualização e integração entre canais oficiais, contribuindo para requisitos de orientação por destino, alertas associados às linhas e atendimento acessível pelo celular.
+
+## 2. Caracterização Geral
 
 **Autor: Tomás Rocho**
 
@@ -20,7 +24,7 @@
 
 ---
 
-## 2. Ambiente ou Contexto
+## 3. Ambiente ou Contexto
 
 - **Quando e onde:** quarta-feira, fim de setembro, entre 10h20 e 11h50. Heitor está na calçada de um prédio comercial da Asa Sul, ao lado da caixa de ferramentas, sob sol forte.
 - **Situação de deslocamento:** o supervisor pediu que ele chegue até as 11h à 708 Norte para consertar um disjuntor que deixou um bloco sem energia. É a primeira vez que ele vai a esse endereço.
@@ -30,7 +34,11 @@
 
 ---
 
-## 3. Atores
+## 4. Atores
+
+A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis influenciam o desenvolvimento da situação descrita.
+
+**Tabela 1** — Atores envolvidos no Cenário 9
 
 | Ator | Papel no cenário | Características pessoais relevantes |
 |---|---|---|
@@ -45,7 +53,7 @@
 
 ---
 
-## 4. Objetivos
+## 5. Objetivos
 
 - **Objetivo principal:** chegar até as 11h ao prédio da 708 Norte para fazer o atendimento urgente.
 - **Subobjetivos:**
@@ -57,7 +65,7 @@
 
 ---
 
-## 5. Planejamento, Ações, Eventos e Avaliação
+## 6. Planejamento, Ações, Eventos e Avaliação
 
 **Como ler cada passo:** Planejamento = o que Heitor pensa em fazer (atividade mental); Ação = o que ele faz de forma observável; Evento = o que acontece em resposta (site, sistema, ambiente ou outras pessoas) — os marcados como **[oculto]** acontecem sem que ele saiba, mas afetam a história; Avaliação = como ele interpreta o que viu (atividade mental).
 
@@ -115,7 +123,11 @@
 
 ---
 
-## 6. Problemas Revelados pelo Cenário
+## 7. Problemas Revelados pelo Cenário
+
+A Tabela 2 relaciona os problemas evidenciados durante o cenário aos momentos em que ocorrem e aos requisitos já identificados para a persona.
+
+**Tabela 2** — Problemas revelados pelo Cenário 9
 
 | Problema revelado | Onde aparece | Requisito da persona relacionado |
 |---|---|---|
@@ -131,7 +143,7 @@
 
 ---
 
-## 7. Referências Bibliográficas
+## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * ROSSON, Mary Beth; CARROLL, John M. **Usability Engineering: Scenario-Based Development of Human-Computer Interaction**. San Francisco: Morgan Kaufmann, 2002.

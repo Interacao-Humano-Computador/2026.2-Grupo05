@@ -8,7 +8,11 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este documento apresenta Marcos Paulo Vieira, persona que representa passageiros cotidianos que dependem do transporte coletivo para trabalhar e utilizam exclusivamente o smartphone para planejar seus deslocamentos. Sua caracterização evidencia necessidades de rapidez, simplicidade e informação em tempo real, apoiando a elaboração de cenários, análises de tarefas e decisões de design do projeto.
+
+## 2. Caracterização Geral
 
 **Autor: Lucas Araújo Lima**
 
@@ -25,7 +29,9 @@
 
 ---
 
-## 2. Identidade
+## 3. Identidade
+
+A Tabela 1 reúne os atributos pessoais de Marcos Paulo que contextualizam suas necessidades de mobilidade e sua relação com a tecnologia.
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Identidade e Atributos Pessoais da Persona</p>
@@ -54,7 +60,7 @@
 
 ---
 
-## 3. Status no Projeto
+## 4. Status no Projeto
 
 **Persona Primária (*Primary Persona*).**
 
@@ -65,21 +71,21 @@
 
 ---
 
-## 4. Objetivos da Persona
+## 5. Objetivos da Persona
 
 Conforme os fundamentos de Donald Norman (2003) e Alan Cooper (1999, 2007) discutidos em Barbosa & Silva (2010, pp. 180–183):
 
-### 4.1 Objetivos de Vida (*Life Goals* - Nível Reflexivo)
+### 5.1 Objetivos de Vida (*Life Goals* - Nível Reflexivo)
 * Garantir a estabilidade financeira de sua família e prover educação e qualidade de vida para seu filho.
 * Crescer profissionalmente para o cargo de encarregado de logística na empresa.
 * Reduzir o tempo e o cansaço do trânsito para passar mais tempo com sua esposa e filho no período da noite.
 
-### 4.2 Objetivos Pessoais (*Personal Goals* - Nível Visceral / Humano)
+### 5.2 Objetivos Pessoais (*Personal Goals* - Nível Visceral / Humano)
 * **Não se sentir perdido nem desinformado** diante de imprevistos na linha.
 * **Não cometer erros de trajeto** que causem atraso no trabalho e advertências de ponto.
 * **Manter o controle e a tranquilidade** em paradas com sensação de insegurança.
 
-### 4.3 Objetivos Práticos / Ao Usar o Sistema (*End Goals* - Nível Comportamental)
+### 5.3 Objetivos Práticos / Ao Usar o Sistema (*End Goals* - Nível Comportamental)
 * **Planejar deslocamentos informando apenas Origem e Destino:** Descobrir qual ônibus pegar sem precisar saber o código numérico da linha.
 * **Verificar a localização em tempo real do ônibus:** Saber exatamente onde o veículo está e quantos minutos faltam para passar na parada de Samambaia.
 * **Identificar alterações e desvios operacionais:** Ficar ciente de obras ou mudanças de itinerário que afetem o SIA antes de embarcar.
@@ -89,7 +95,7 @@ Conforme os fundamentos de Donald Norman (2003) e Alan Cooper (1999, 2007) discu
 
 ---
 
-## 5. Habilidades e Limitações de Contexto
+## 6. Habilidades e Limitações de Contexto
 
 * **Letramento e Linguagem:** Compreende termos diretos do dia a dia ("parada", "ônibus", "tarifa", "tempo de espera"). Rejeita termos técnicos e institucionais que desconhece ("bacia operacional", "ordem de serviço", "tarifa de remuneração", "STPC").
 * **Competências Tecnológicas:** Usuário fluente de smartphone para tarefas práticas cotidianas (WhatsApp, YouTube, Nubank, Instagram, Google Maps e Waze para quando anda de carona). Consegue navegar com facilidade quando a interface oferece campos de busca preditivos e mapas interativos limpos.
@@ -98,7 +104,9 @@ Conforme os fundamentos de Donald Norman (2003) e Alan Cooper (1999, 2007) discu
 
 ---
 
-## 6. Tarefas da Persona
+## 7. Tarefas da Persona
+
+A Tabela 2 apresenta as tarefas recorrentes de Marcos Paulo e evidencia sua frequência, criticidade e contexto de execução para orientar as decisões de projeto.
 
 <div align="center">
 <p><strong>Tabela 2</strong> — Matriz de Tarefas do Passageiro Cotidiano</p>
@@ -117,7 +125,7 @@ Conforme os fundamentos de Donald Norman (2003) e Alan Cooper (1999, 2007) discu
 
 ---
 
-## 7. Relacionamentos
+## 8. Relacionamentos
 
 * **Colegas de Trabalho do SIA:** Trocam informações operacionais em grupos de WhatsApp sobre manifestações, paralisações e desvios de trânsito na Estrutural.
 * **Encarregado da Distribuidora:** Exige pontualidade rigorosa na abertura do armazém às 08h00.
@@ -125,7 +133,7 @@ Conforme os fundamentos de Donald Norman (2003) e Alan Cooper (1999, 2007) discu
 
 ---
 
-## 8. Requisitos e Citações em Primeira Pessoa (*Quotes*)
+## 9. Requisitos e Citações em Primeira Pessoa (*Quotes*)
 
 > *"Quando eu tô no ponto de ônibus com a bolsa na mão, eu não tenho tempo de ficar procurando em menu de portal governamental. Eu só preciso de um campo pra dizer 'quero ir pro SIA Trecho 3' e ver na hora qual ônibus tá vindo."*
 
@@ -139,7 +147,7 @@ Conforme os fundamentos de Donald Norman (2003) e Alan Cooper (1999, 2007) discu
 
 ---
 
-## 9. Expectativas sobre o Sistema
+## 10. Expectativas sobre o Sistema
 
 * **Simplicidade Imediata:** O sistema deve reconhecer nomes de empresas, shoppings e bairros do DF sem exigir códigos técnicos.
 * **Previsibilidade e Confiança:** Se o portal indica que o ônibus vai passar em 7 minutos, a informação deve corresponder com precisão à realidade da via.
@@ -147,7 +155,7 @@ Conforme os fundamentos de Donald Norman (2003) e Alan Cooper (1999, 2007) discu
 
 ---
 
-## 10. Referências Bibliográficas
+## 11. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6: Organização do Espaço de Problema — Personas (pp. 176–183).
 * COOPER, Alan; REIMANN, Robert; CRONIN, David. **About Face 3: The Essentials of Interaction Design**. Indianapolis: Wiley, 2007.
