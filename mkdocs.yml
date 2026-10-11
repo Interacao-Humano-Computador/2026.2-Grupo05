@@ -178,7 +178,11 @@ nav:
       - Elementos de ação: analise-de-requisitos/guia-de-estilo/elementos-de-acao.md
       - Vocabulário e padrões: analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md
 
-  - Design, Avaliação e Desenvolvimento: design-avaliacao-desenvolvimento/index.md
+  - Design, Avaliação e Desenvolvimento:
+    - design-avaliacao-desenvolvimento/index.md
+    - Nível 1:
+      - StoryBoards: design-avaliacao-desenvolvimento/nivel1/storyboards.md
+      - Planejamento e protocolo do Teste Piloto: design-avaliacao-desenvolvimento/nivel1/planejamento-e-protocolo-do-teste-piloto.md
 
   - Verificação: 
     - Verificação da entrega 1: verificacao/verif1.md
