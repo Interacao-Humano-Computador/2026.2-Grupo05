@@ -5,6 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 05/10/2026 | 1.0 | Criação do documento de resultados de análise. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
+| 11/10/2026 | 1.1 | Atualização do perfil da persona Larissa Ferreira Lima na tabela de personas e da referência ao cenário de mudanças de itinerário (Cenário 1 → Cenário 9). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
 
 **Autor do Artefato: Igor Dantas.**
 
@@ -29,7 +30,7 @@ Esta seção reúne os resultados da análise realizada com os usuários e sobre
 
 | Persona | Papel | Perfil representado | Artefato |
 |---|---|---|---|
-| Larissa Ferreira Lima ("Lari") | Persona primária | Estudante universitária e trabalhadora que depende diariamente da integração ônibus + metrô | [Persona completa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/larissa-ferreira-lima/) |
+| Larissa Ferreira Lima ("Lari") | Persona primária | Estudante universitária e trabalhadora com deficiência temporária de mobilidade, que depende do transporte adaptado do Programa DF Acessível | [Persona completa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/larissa-ferreira-lima/) |
 | João Pedro Carvalho | Persona primária | Estudante de Engenharia na UnB, perfil tecnológico alto, foco em rota rápida e previsibilidade | [Persona completa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/) |
 | Marcos Paulo Vieira ("Marquinhos") | Persona primária | Trabalhador do setor de logística; foco em tarefas móveis e busca rápida por origem/destino, sem conhecer o código da linha | [Persona completa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/marcos-paulo-vieira/) |
 | Maria Eduarda Santos ("Duda") | Persona primária | Trabalhadora usuária de Vale-Transporte que precisa resolver falhas de crédito/cartão sob pressão de horário | [Persona completa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/maria-eduarda-santos/) |
@@ -113,7 +114,7 @@ A tabela 4 relaciona os achados da análise às decisões do guia, preservando o
 | Baixo conhecimento institucional (usuários não distinguem Semob, BRB Mobilidade, Metrô-DF e operadoras) e desconhecimento de jargões técnicos ("integração tarifária", "linha circular", "validador") | Linguagem simples e orientada por tarefa do cotidiano do passageiro, evitando nomenclatura institucional no menu principal | 4 e 6 |
 | Consulta de linha/horário é a tarefa diária e crítica (TAR-01, TAR-03, TAR-06) | Priorizar localização do ônibus em tempo real e horários das linhas favoritas já na tela inicial, com busca por origem/destino sem exigir o código da linha | 4 – Elementos de interação |
 | Falhas de atualização em tempo real e divergência entre horário programado e horário real (Cenário 2) | Indicar claramente o nível de confiança/atualização da informação exibida (ex.: "atualizado há X min") em vez de estados de erro silenciosos | 4 e 6 |
-| Mudanças de itinerário (obras, desvios) nem sempre chegam ao usuário antes de ele chegar à parada (Cenário 1) | Mecanismo de aviso proativo de mudanças, com destaque visual na tela inicial/linha afetada | 4 – Elementos de interação |
+| Mudanças de itinerário (obras, desvios) nem sempre chegam ao usuário antes de ele chegar à parada (Cenário 9) | Mecanismo de aviso proativo de mudanças, com destaque visual na tela inicial/linha afetada | 4 – Elementos de interação |
 | Conectividade instável dentro do metrô e em estações subterrâneas; franquia de dados limitada | Interface leve, com carregamento rápido e funcionamento degradado gracioso sob conexão ruim | 3 e 4 |
 | Tarefas cadastrais sensíveis (Passe Livre, Vale-Transporte) hoje distribuídas entre Semob, BRB Mobilidade e Ouvidoria, em sites e fluxos distintos | Centralizar o caminho de cada serviço a partir do portal, com indicação clara de para onde o usuário será direcionado e por quê | 4 e 6 |
 | Motorista (usuário terciário) nunca acessa o portal, mas é diretamente afetado por divergências de informação | Garantir sincronização entre as informações publicadas no portal e os dados repassados às concessionárias, como requisito não funcional do sistema | 6 – Conteúdo e linguagem |

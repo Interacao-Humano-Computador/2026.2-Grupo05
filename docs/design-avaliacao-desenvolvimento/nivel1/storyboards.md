@@ -3,6 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração do uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 11/10/2026 | `1.0` | Criação e estruturação do documento de Storyboards e adição do Storyboard 01 (Alerta Inteligente de Saída). | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - usado para formatação Markdown da página |
+| 11/10/2026 | `1.1` | Adição do Storyboard 02 (Pré-agendamento no Programa DF Acessível) e atualização do link do Cenário 1. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para tratamento da imagem e formatação Markdown da seção |
 
 ---
 
@@ -39,7 +40,7 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 | # | Autor | Título do Storyboard | Persona Associada | Cenário de Uso | Tarefa Vinculada (HTA / CTT) |
 | :---: | :--- | :--- | :--- | :--- | :---: |
 | **01** | **Igor Dantas Araújo** | *Alerta inteligente de saída de casa* | [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/) | [Cenário 2](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-2-viagem-matutina/) | [TAR-01 (Alerta de Saída)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/) |
-| **02** | **Gabriel Cardone** | *Pré-agendamento no Programa DF Acessível* | [Larissa Ferreira Lima](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/larissa-ferreira-lima/) | [Cenário 1](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-1-ultima-viagem/) | [TAR-02 (DF Acessível)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel/) |
+| **02** | **Gabriel Cardone** | *Pré-agendamento no Programa DF Acessível* | [Larissa Ferreira Lima](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/larissa-ferreira-lima/) | [Cenário 1](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel/) | [TAR-02 (DF Acessível)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel/) |
 | **03** | **Lucas Araújo** | *Planejamento de Rota por Origem/Destino* | [Marcos Paulo Vieira](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/marcos-paulo-vieira/) | [Cenário 3](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino/) | [TAR-03 (Origem/Destino)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/) |
 | **04** | **Carlos Costa** | *Consulta de escala e alertas operacionais* | [Valdir Soares](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/valdir-soares/) | [Cenário 5](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-5-consulta-escala/) / [Cenário 6](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-6-alerta-desvio/) | [TAR-04/TAR-05 (Motorista)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista/) |
 | **05** | **Tomas Garcia Rocho** | *Consulta de rotas e desvios para novos endereços* | [Heitor Santos Júnior](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/heitor-santos-junior/) | [Cenário 9](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-9-endereco-novo/) | [TAR-03 (Pesquisa de Rota)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/) |
@@ -95,11 +96,36 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 ### 3.2. Storyboard 02: Pré-agendamento no Programa DF Acessível
 
 * **Autor:** [Gabriel Cardone](https://github.com/gabriellcardone-06)
-* **Persona Retratada:** [Larissa Ferreira Lima](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/larissa-ferreira-lima/)
-* **Cenário de Uso:** [Cenário 1 — Solicitação de Transporte Especializado](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-1-ultima-viagem/)
-* **Tarefa Ancorada:** [TAR-02 — Pré-agendamento DF Acessível](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel/)
+* **Persona Retratada:** [Larissa Ferreira Lima](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/larissa-ferreira-lima/) (Estudante e assistente administrativa, 23 anos, com deficiência temporária de mobilidade)
+* **Cenário de Uso:** [Cenário 1 — Pré-agendamento no Programa DF Acessível](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel/)
+* **Tarefa Ancorada:** [TAR-02 — Pré-agendamento no Programa DF Acessível](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel/)
+* **Tempo para confecção:** ~9 minutos.
 
-*(Esta seção será preenchida com a ilustração e descrição detalhada do Storyboard 02 elaborado pelo integrante Gabriel Cardone).*
+#### **Ilustração do Storyboard 02**
+
+<div align="center">
+  <img src="../../../assets/storyboards/Storyboard-2-Gabriel.jpeg" alt="Storyboard 02 - Pré-agendamento no Programa DF Acessível" width="100%">
+  <p><strong>Figura 2</strong> — Storyboard 02: Pré-agendamento no Programa DF Acessível</p>
+  <p><em>Fonte: Elaborado por Gabriel Cardone (2026).</em></p>
+</div>
+
+#### **Tabela de Verificação do Storyboard 02**
+
+<div align="center">
+<p><strong>Tabela 3</strong> — Verificação de Conformidade do Storyboard 02</p>
+</div>
+
+| Categoria / Critério | Atendimento no Storyboard 02 | Situação |
+| :--- | :--- | :---: |
+| **1. Personas e Atores** | Apresenta a personagem **Larissa Ferreira Lima** em traço simples, usando cadeira de rodas. | **Conforme** |
+| **2. Contexto e Ambiente** | Situa a ação no quarto de Larissa, em casa, onde ela resolve o agendamento pelo celular. | **Conforme** |
+| **3. Tarefa Retratada** | Ilustra a execução completa da **TAR-02** (acesso ao site, escolha do posto e escolha do dia). | **Conforme** |
+| **4. Papel do Sistema** | Exibe o atalho "Agendar DF Acessível" no site da Semob-DF e o envio do comprovante por e-mail e WhatsApp. | **Conforme** |
+| **5. Estrutura Narrativa** | Possui fluxo claro com Início (Q1), Meio (Q2–Q4) e Fim (Q5). | **Conforme** |
+
+<div align="center">
+<p><em>Fonte: Gabriel Cardone (2026).</em></p>
+</div>
 
 ---
 

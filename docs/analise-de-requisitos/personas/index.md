@@ -9,6 +9,7 @@
 | 27/09/2026 | 1.2 | Inclusão formal da persona Valdir Soares ("Seu Valdir") representando os motoristas do STPC/DF (Persona Atendida). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
 | 27/09/2026 | 1.3 | Inclusão da persona primária Maria Eduarda Santos, com foco em falhas de Vale-Transporte e cartão. | Equipe Grupo 05 | [Carlos Costa](https://github.com/carloshfgit) |
 | 28/09/2026 | 1.4 | Inclusão das personas Heitor Santos Júnior e Mariana Borges Almeida. | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
+| 11/10/2026 | 1.5 | Reformulação da persona Larissa Ferreira Lima para usuária com mobilidade reduzida temporária (Programa DF Acessível). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
 
 ---
 
@@ -42,7 +43,7 @@ A quantidade de personas foi definida pela necessidade de representar padrões c
 
 Cada persona foi preservada no elenco por acrescentar uma perspectiva específica:
 
-1. **Larissa Ferreira Lima:** integração entre modos de transporte, deslocamento noturno, última viagem e segurança.
+1. **Larissa Ferreira Lima:** mobilidade reduzida temporária, necessidade de transporte adaptado porta a porta e uso do Programa DF Acessível.
 2. **João Pedro Carvalho:** alta familiaridade tecnológica, rotina universitária e expectativa de alertas preditivos.
 3. **Marcos Paulo Vieira:** planejamento por origem e destino sem conhecimento prévio do código da linha.
 4. **Maria Eduarda Santos:** uso de Vale-Transporte e resolução de falhas de crédito sob pressão de horário e orçamento.
@@ -64,7 +65,7 @@ A Tabela 1 apresenta o elenco de personas desenvolvido pela equipe para orientar
 
 | Persona | Papel no Projeto | Perfil Representado | Autor da Elaboração | Artefato Completo |
 | :--- | :--- | :--- | :--- | :---: |
-| **Larissa Ferreira Lima ("Lari")** | Persona Primária | Estudante universitária e trabalhadora que depende diariamente de integração (ônibus e metrô) | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Persona](larissa-ferreira-lima.md) |
+| **Larissa Ferreira Lima ("Lari")** | Persona Primária | Estudante universitária e trabalhadora com deficiência temporária de mobilidade, que depende do transporte adaptado do Programa DF Acessível | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Persona](larissa-ferreira-lima.md) |
 | **João Pedro Carvalho** | Persona Primária | Estudante de Engenharia na UnB com perfil tecnológico alto e foco em rota rápida e previsibilidade | [Igor Dantas](https://github.com/IgorDARAUJO) | [Acessar Persona](joao-pedro-carvalho.md) |
 | **Marcos Paulo Vieira ("Marquinhos")** | Persona Primária | Trabalhador do setor de logística (Usuário Padrão/Cotidiano), foco estrito em tarefas móveis e busca por Origem/Destino | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Acessar Persona](marcos-paulo-vieira.md) |
 | **Maria Eduarda Santos ("Duda")** | Persona Primária | Trabalhadora que utiliza Vale-Transporte e precisa resolver falhas de crédito e cartão sob pressão de horário | Equipe Grupo 05 | [Acessar Persona](maria-eduarda-santos.md) |
