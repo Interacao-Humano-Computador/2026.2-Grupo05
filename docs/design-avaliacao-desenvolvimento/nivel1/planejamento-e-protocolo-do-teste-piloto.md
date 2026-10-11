@@ -33,15 +33,21 @@ Como o teste piloto tem como foco ensaiar o *procedimento* de avaliação, um ú
 Segundo Barbosa et al. (2021), o teste-piloto faz parte da subetapa de **Preparação** da avaliação (Capítulo 11, Seção 11.7.2), que antecede a Coleta de Dados. Para os autores, concluído o planejamento da avaliação, é fundamental que o avaliador execute essa simulação prática:
 
 > *"Concluído todo o planejamento da avaliação, é muito importante que o avaliador realize um teste-piloto. O objetivo desse teste é avaliar o próprio planejamento, e analisar se a avaliação, tal como planejada, produz os dados necessários para responder a questões e objetivos do estudo. O avaliador deve conduzir o teste-piloto como se fosse uma sessão normal de avaliação. Dessa forma, ele tem oportunidade de verificar se a linguagem nas explicações e nos materiais fornecidos é clara e objetiva, e se esses materiais contêm informações adequadas e suficientes para orientar o participante durante a avaliação."*  
-> — **BARBOSA et al. (2021, Cap. 11, Seção 11.7.2, p. 258–261)**.
+> — **BARBOSA et al. (2021, Cap. 11, Seção 11.7.2, p. 260)**.
 
 ### 2.2 Finalidade e Importância para o Projeto
 A partir dessa orientação teórica, a equipe definiu as seguintes finalidades operacionais para o piloto:
+
 * **Validar a clareza do roteiro:** Conferir se as instruções, a ordem das etapas e as perguntas do Framework DECIDE são claras e não induzem respostas.
+
 * **Aferir o tempo da sessão:** Verificar se a duração prevista é realista e não causa fadiga.
+
 * **Testar a captura de mídia:** Garantir que áudio, vídeo e compartilhamento de tela são salvos corretamente.
+
 * **Testar equipamentos e plataformas:** Validar o uso do Microsoft Teams e ferramentas de gravação de reserva.
+
 * **Ensaiar o protocolo ético:** Treinar a apresentação do Termo de Consentimento Livre e Esclarecido (TCLE) e o pedido de autorização de gravação.
+
 * **Treinar a postura do avaliador:** Garantir condução neutra, cordial e sem interferências indevidas.
 
 ---
@@ -108,16 +114,16 @@ Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis defini
 
 | Passo | Atividade | Responsável | Tempo Est. | O que Verificar (Calibração) |
 | :---: | :--- | :--- | :---: | :--- |
-| **0** | **Preparação:** Abrir reunião no Teams, testar áudio/vídeo, carregar Storyboard, diagramas, TCLE e roteiro. | Avaliador e Equipe | 15 min antes | Todos os arquivos abrem corretamente? O compartilhamento funciona? |
-| **1** | **Boas-vindas:** Apresentar-se, explicar o objetivo e reforçar que a avaliação é sobre o **artefato**, não a pessoa. | Avaliador | 3 min | O texto de abertura é claro e acolhedor? |
-| **2** | **TCLE e Consentimento:** Ler o termo, confirmar o aceite verbal para gravação e **iniciar a gravação**. | Avaliador | 4 min | A leitura do TCLE é fluida? O consentimento ficou registrado na gravação? |
-| **3** | **Perfil do Participante:** Perguntas breves de caracterização (idade, rotina de transporte, uso de apps). | Avaliador | 3 min | As perguntas são suficientes e não invasivas? |
-| **4** | **Contextualização:** Apresentar a persona João Pedro Carvalho e o resumo do Cenário 2. | Avaliador | 3 min | O contexto do problema foi compreendido sem necessidade de explicações extras? |
-| **5** | **Exibição do Storyboard 01:** Apresentar os quadros em sequência, permitindo a leitura individual. | Avaliador | 5 min | Os desenhos e textos estão legíveis na tela compartilhada? |
-| **6** | **Avaliação do Storyboard:** Aplicar perguntas sobre clareza, verossimilhança, reações e engajamento. | Avaliador / Anotador | 8 min | Alguma pergunta pareceu confusa ou induziu a resposta? |
-| **7** | **Validação da Análise de Tarefas:** Exibir diagramas HTA/CTT e perguntar sobre a coerência do fluxo. | Avaliador / Anotador | 8 min | Os diagramas de tarefas são compreensíveis para o participante? |
-| **8** | **Encerramento:** Abrir espaço para comentários finais, agradecer e **encerrar a gravação**. | Avaliador | 2 min | A gravação foi salva corretamente? Qual foi o tempo total da sessão? |
-| **9** | **Debriefing Interno:** Preencher a Ficha de Calibração com a equipe e listar ajustes do roteiro. | Todos | 15 min pós | Quais pontos do roteiro precisam de reformulação? |
+| **0** | **Preparação:** Abrir reunião no Teams, testar áudio/vídeo, carregar Storyboard, diagramas, TCLE e roteiro. | Gabriel e Igor | 15 min antes | Todos os arquivos abrem corretamente? O compartilhamento funciona? |
+| **1** | **Boas-vindas:** Apresentar-se, explicar o objetivo e reforçar que a avaliação é sobre o **artefato**, não a pessoa. | Gabriel | 3 min | O texto de abertura é claro e acolhedor? |
+| **2** | **TCLE e Consentimento:** Ler o termo, confirmar o aceite verbal para gravação e **iniciar a gravação**. | Gabriel e Igor | 4 min | A leitura do TCLE é fluida? O consentimento ficou registrado na gravação? |
+| **3** | **Perfil do Participante:** Perguntas breves de caracterização (idade, rotina de transporte, uso de apps). | Gabriel | 3 min | As perguntas são suficientes e não invasivas? |
+| **4** | **Contextualização:** Apresentar a persona João Pedro Carvalho e o resumo do Cenário 2. | Gabriel | 3 min | O contexto do problema foi compreendido sem necessidade de explicações extras? |
+| **5** | **Exibição do Storyboard 01:** Apresentar os quadros em sequência, permitindo a leitura individual. | Gabriel | 5 min | Os desenhos e textos estão legíveis na tela compartilhada? |
+| **6** | **Avaliação do Storyboard:** Aplicar perguntas sobre clareza, verossimilhança, reações e engajamento. | Gabriel, Lucas, Tomás, Arthur, Rodgigo  | 8 min | Alguma pergunta pareceu confusa ou induziu a resposta? |
+| **7** | **Validação da Análise de Tarefas:** Exibir diagramas HTA/CTT e perguntar sobre a coerência do fluxo. | Gabriel, Lucas, Tomás, Arthur, Rodgigo | 8 min | Os diagramas de tarefas são compreensíveis para o participante? |
+| **8** | **Encerramento:** Abrir espaço para comentários finais, agradecer e **encerrar a gravação**. | Gabriel e Igor | 2 min | A gravação foi salva corretamente? Qual foi o tempo total da sessão? |
+| **9** | **Debriefing Interno:** Preencher a Ficha de Calibração com a equipe e listar ajustes do roteiro. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos | 15 min pós | Quais pontos do roteiro precisam de reformulação? |
 
 <div align="center">
 <p><em>Fonte: Igor Dantas Araújo (2026). Tempo total estimado da sessão simulada: ~36 minutos.</em></p>
@@ -195,12 +201,12 @@ Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis defini
 
 | Período | Atividade | Responsável |
 | :---: | :--- | :--- |
-| 10/10 a 17/10 | Elaboração do roteiro, TCLE, ficha de calibração e estrutura do piloto. | Igor Dantas Araújo |
-| **17/10** | **Execução interna do teste piloto no Teams** e preenchimento da Ficha. | Igor Dantas Araújo e Equipe |
-| 17/10 a 20/10 | Refinamento do roteiro final com base nos ajustes da calibração. | Igor Dantas Araújo |
+| 10/10 a 17/10 | Elaboração do roteiro, TCLE, ficha de calibração e estrutura do piloto. | Igor Dantas |
+| **17/10** | **Execução interna do teste piloto no Teams** e preenchimento da Ficha. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
+| 17/10 a 20/10 | Refinamento do roteiro final com base nos ajustes da calibração. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
 | 21/10 | Revisão por pares deste documento. | Gabriel Cardone |
-| 26/10 | Fechamento da página e verificação final no MkDocs/GitHub Pages. | Todos |
-| 27/10 (23:59) | Entrega oficial da Etapa 5. | Equipe Grupo 05 |
+| 26/10 | Fechamento da página e verificação final no MkDocs/GitHub Pages. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
+| 27/10 (23:59) | Entrega oficial da Etapa 5. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
 
 <div align="center">
 <p><em>Fonte: Igor Dantas Araújo (2026).</em></p>
@@ -223,22 +229,16 @@ Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis defini
 
 ---
 
-## 8. Localização das Referências no Livro
+## 8. Imagem das Referências no Livro
 
 Conforme as diretrizes da disciplina, a fundamentação conceitual sobre o teste piloto encontra-se localizada no livro-texto oficial:
 
-* **Obra:** BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021.
-* **Localização Exata:** **Parte IV, Capítulo 11 — Planejamento da Avaliação de IHC, Seção 11.7 (*Como Avaliar?*), Subseção 11.7.2 (*Preparação — Teste-Piloto*), páginas 258–261**, no parágrafo referente à condução da sessão simulada pós-planejamento.
+![Imagem 1](../../assets/prints_referencias/print-teoria-teste-piloto.png)
+*Imagem 1 - Barbosa et al., 2021, Seção 11.7.2, p. 260*
 
 ---
 
-## 9. Declaração sobre o Uso de IA Generativa
-
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas como apoio para estruturação de tabelas em Markdown e revisão gramatical. As definições conceituais, metodológicas, agendamentos logísticos e a revisão final permanecem sob total responsabilidade do autor e do revisor.
-
----
-
-## 10. Referências Bibliográficas
+## 9. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Planejamento da Avaliação de IHC, Seção 11.7.2, p. 258–261).
 * BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Regulamenta as pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
@@ -248,4 +248,3 @@ Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferra
 ---
 **Autor:** [Igor Dantas Araújo](https://github.com/IgorDARAUJO)  
 **Revisor:** [Gabriel Cardone](https://github.com/gabriellcardone-06)
-```
