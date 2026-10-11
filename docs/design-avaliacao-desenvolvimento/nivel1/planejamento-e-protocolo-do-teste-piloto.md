@@ -23,14 +23,14 @@ Este documento integra a **Etapa 4** do projeto de avaliação e reprojeto do po
 Como o teste piloto tem como foco ensaiar o *procedimento* de avaliação, um único storyboard e a análise de tarefas correspondente (modelos HTA e CTT da TAR-01) são suficientes para exercitar todo o roteiro.
 
 > ⚠️ **CONFORMIDADE COM O ITEM 12 DO CHECKLIST DA ETAPA 4**  
-> Os resultados obtidos no teste piloto servem **exclusivamente para calibração** do roteiro, do tempo e dos recursos tecnológicos. Eles **não serão computados nem contabilizados** nos resultados das avaliações finais do Storyboard nem da Análise de Tarefas. A declaração formal encontra-se na [Seção 6](#6-declaracao-de-conformidade-com-o-item-12-resultado-do-teste-piloto).
+> Os resultados obtidos no teste piloto servem **exclusivamente para calibração** do roteiro, do tempo e dos recursos tecnológicos. Eles **não serão computados nem contabilizados** nos resultados das avaliações finais do Storyboard nem da Análise de Tarefas. A declaração formal encontra-se na [Seção 6](#6-declaracao-de-conformidade-com-o-item-12-do-checklist).
 
 ---
 
 ## 2. Fundamentação Teórica: Conceito, Importância e Condução
 
 ### 2.1 Conceito do Teste Piloto em IHC
-Segundo Barbosa et al. (2021), o teste-piloto faz parte da subetapa de **Preparação** da avaliação (Capítulo 11, Seção 11.7.2), que antecede a Coleta de Dados. Para os autores, concluído o planejamento da avaliação, é fundamental que o avaliador execute essa simulação prática:
+Segundo Barbosa et al. (2021), no trecho que pode ser visto na [imagem 1](#8-imagem-da-referencia-no-livro), o teste-piloto faz parte da subetapa de **Preparação** da avaliação (Capítulo 11, Seção 11.7.2), que antecede a Coleta de Dados. Para os autores, concluído o planejamento da avaliação, é fundamental que o avaliador execute essa simulação prática:
 
 > *"Concluído todo o planejamento da avaliação, é muito importante que o avaliador realize um teste-piloto. O objetivo desse teste é avaliar o próprio planejamento, e analisar se a avaliação, tal como planejada, produz os dados necessários para responder a questões e objetivos do estudo. O avaliador deve conduzir o teste-piloto como se fosse uma sessão normal de avaliação. Dessa forma, ele tem oportunidade de verificar se a linguagem nas explicações e nos materiais fornecidos é clara e objetiva, e se esses materiais contêm informações adequadas e suficientes para orientar o participante durante a avaliação."*  
 > — **BARBOSA et al. (2021, Cap. 11, Seção 11.7.2, p. 260)**.
@@ -229,7 +229,7 @@ Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis defini
 
 ---
 
-## 8. Imagem das Referências no Livro
+## 8. Imagem da Referência no Livro
 
 Conforme as diretrizes da disciplina, a fundamentação conceitual sobre o teste piloto encontra-se localizada no livro-texto oficial:
 
