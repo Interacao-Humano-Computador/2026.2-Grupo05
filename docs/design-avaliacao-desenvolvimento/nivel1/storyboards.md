@@ -62,6 +62,7 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 * **Persona Retratada:** [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/) (Estudante da UnB Gama, 19 anos)
 * **Cenário de Uso:** [Cenário 2 — Atraso por Conflito de Horários no App](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-2-viagem-matutina/)
 * **Tarefa Ancorada:** [TAR-01 — Configurar e utilizar o alerta inteligente de saída de casa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/)
+* **Tempo para confecção:** ~10 minutos.
 
 #### **Ilustração do Storyboard 01**
 
