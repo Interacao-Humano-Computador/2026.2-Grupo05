@@ -6,6 +6,7 @@
 | :---: | :---: | :--- | :--- | :--- |
 | 24/09/2026 | 1.0 | Elaboração da Análise de Tarefas (HTA e CTT) para o Pré-agendamento no Programa DF Acessível. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
 | 27/09/2026 | 1.1 | Modularização em documento dedicado e padronização com a nova arquitetura. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
+| 11/10/2026 | 1.2 | Atualização da persona de referência dos PDFs de HTA e CTT para Larissa Ferreira Lima. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
 
 ---
 
@@ -17,6 +18,7 @@ Este documento analisa a tarefa de realizar o pré-agendamento de atendimento no
 
 * **Título da Tarefa:** Pré-agendamento no Programa DF Acessível.
 * **Perfil do Participante:** Usuário primário que necessite de auxílio transporte.
+* **Persona de Referência:** [Larissa Ferreira Lima](../personas/larissa-ferreira-lima.md) (23 anos, com deficiência temporária de mobilidade, usuária de cadeira de rodas).
 * **Responsáveis pela Elaboração:** [Gabriel Melo](https://github.com/gabriellcardone-06)
 * **Data da Realização:** 25/09/2026
 * **Objetivo da Tarefa:** Realizar o pré-agendamento no Programa DF Acessível a partir do site da SEMOB-DF, escolhendo o local e o dia do atendimento.

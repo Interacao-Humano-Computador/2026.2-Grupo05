@@ -6,12 +6,13 @@
 | :---: | :---: | :--- | :--- | :--- |
 | 26/09/2026 | 1.0 | Elaboração detalhada da persona primária Larissa Ferreira Lima. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
 | 27/09/2026 | 1.1 | Modularização em documento dedicado e padronização com a nova estrutura. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
+| 11/10/2026 | 2.0 | Reformulação da persona: Larissa passa a ter mobilidade reduzida temporária e a depender do Programa DF Acessível (TAR-02). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
 
 ---
 
 ## 1. Introdução
 
-Este documento apresenta Larissa Ferreira Lima, persona que representa estudantes e trabalhadoras que utilizam o transporte público diariamente e consultam informações de mobilidade em intervalos curtos pelo celular. Sua caracterização apoia a compreensão de necessidades relacionadas a linhas, horários, segurança e atendimento, orientando cenários, requisitos e decisões de design do projeto.
+Este documento apresenta Larissa Ferreira Lima, persona que representa estudantes e trabalhadoras que, por uma condição de saúde **temporária**, ficam com mobilidade severamente reduzida e passam a depender de transporte adaptado porta a porta. Larissa é uma usuária que, até pouco tempo atrás, usava ônibus e metrô todos os dias e conhecia bem o sistema; hoje precisa do Programa DF Acessível e enfrenta o site da Semob como alguém que está, pela primeira vez, no papel de pessoa com deficiência. Sua caracterização apoia a compreensão de necessidades relacionadas a acessibilidade, clareza do caminho até o serviço, prazos e confiança na informação, orientando cenários, requisitos e decisões de design do projeto.
 
 ## 2. Caracterização Geral
 
@@ -19,17 +20,17 @@ Este documento apresenta Larissa Ferreira Lima, persona que representa estudante
 
 ![Foto da persona Larissa Ferreira Lima](../../assets/images/larissa-ferreira-lima.jpeg)
 
-*Figura 1 — Larissa Ferreira Lima, a "Lari" (imagem ilustrativa, gerada por IA Gemini).*
+*Figura 1 — Larissa Ferreira Lima, a "Lari", em cadeira de rodas, com a perna esquerda imobilizada (imagem ilustrativa, gerada por IA).*
 
-> **"Eu só preciso saber que ônibus pegar, que horas ele passa e se ainda dá tempo. Não quero ficar caçando isso em vários sites."**
+> **"Eu sei me virar sozinha, mas agora eu não consigo nem chegar na fisioterapia. Só preciso descobrir onde marcar o transporte e se eu tenho direito."**
 
-**Resumo:** estudante e trabalhadora que depende do transporte público todos os dias. Usa o site da Semob em janelas curtas, pelo celular, para tirar dúvidas práticas sobre linhas, tarifas, cartões e atendimento.
+**Resumo:** estudante e trabalhadora que, há poucas semanas, quebrou o tornozelo e a tíbia esquerda e ficará cerca de quatro a cinco meses sem poder apoiar o pé no chão. Usa cadeira de rodas e precisa de transporte adaptado para a fisioterapia e para as consultas. Procura o Programa DF Acessível pelo celular, à noite, em casa, e tenta descobrir como fazer o pré-agendamento a partir do site da Semob.
 
 ---
 
 ## 3. Identidade
 
-A Tabela 1 reúne os dados de identidade de Larissa e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
+A Tabela 1 reúne os dados de identidade de Larissa e contextualiza as características pessoais e de saúde que influenciam sua relação com o transporte e com a tecnologia.
 
 **Tabela 1** — Identidade e características pessoais de Larissa Ferreira Lima
 
@@ -41,13 +42,14 @@ A Tabela 1 reúne os dados de identidade de Larissa e contextualiza as caracter�
 | **Família** | Solteira, sem filhos. Mora com a mãe, Sônia (49, auxiliar de serviços gerais), e o irmão mais novo, Pedro (15, estudante do ensino médio em escola pública) |
 | **Moradia** | Ceilândia (RA IX), Distrito Federal |
 | **Escolaridade** | Ensino médio em escola pública. Cursa o 5º semestre de Administração (noturno) em universidade pública no Plano Piloto; formatura prevista para 2028 |
-| **Ocupação** | Assistente administrativa (CLT) em empresa privada no Setor Comercial Sul, das 8h às 17h |
+| **Ocupação** | Assistente administrativa (CLT) em empresa privada no Setor Comercial Sul. Durante a recuperação, a empresa autorizou o trabalho remoto |
 | **Renda** | Cerca de R$ 2.400/mês; renda familiar per capita em torno de R$ 1.400 |
-| **Deslocamento** | Cerca de 3 horas por dia, combinando metrô e ônibus com integração |
-| **Cartões de transporte** | +Estudante (Passe Livre Estudantil) e +Vale-Transporte |
-| **Dispositivos** | Smartphone Android intermediário, com plano de dados limitado; notebook antigo compartilhado em casa |
-| **Como chega ao site** | Quase sempre pelo celular, via busca no Google ou link recebido no WhatsApp e no Instagram |
-| **Personalidade** | Organizada, prática e independente. Impaciente com burocracia, mas cautelosa para não perder benefícios |
+| **Condição de saúde** | **Deficiência temporária.** Fratura no tornozelo e na tíbia esquerda após queda em escada molhada na universidade (início de setembro de 2026), com cirurgia logo em seguida. Sem apoiar o pé por cerca de 12 semanas, depois muletas e fisioterapia; alta prevista para fevereiro de 2027 |
+| **Mobilidade atual** | Usa cadeira de rodas (comprada usada, com ajuda de familiares) e, em trechos curtos, muletas. Ônibus e metrô comuns deixaram de ser opção viável: escadas, lacunas entre veículo e plataforma, plataformas elevatórias nem sempre disponíveis e lotação |
+| **Cartões de transporte** | +Estudante (Passe Livre Estudantil) e +Vale-Transporte, hoje pouco usados |
+| **Dispositivos** | Smartphone Android intermediário, com plano de dados limitado; notebook antigo compartilhado em casa (quase sempre ocupado pelo irmão) |
+| **Como chega ao site** | Quase sempre pelo celular, via busca no Google ou link recebido no WhatsApp |
+| **Personalidade** | Organizada, prática e independente. Impaciente com burocracia, mas cautelosa para não perder prazos e benefícios. Incomoda-se em depender dos outros |
 
 *Fonte: Gabriel Melo.*
 
@@ -59,11 +61,11 @@ A Tabela 1 reúne os dados de identidade de Larissa e contextualiza as caracter�
 
 Por que ela é a persona primária:
 
-- **É o perfil mais frequente e mais dependente do sistema.** Usa ônibus e metrô todos os dias e não tem alternativa de carro ou moto. Os estudantes têm peso enorme: o Passe Livre Estudantil somou 60,2 milhões de acessos em 2025.
-- **Suas necessidades coincidem com o núcleo do site:** linhas e horários, tarifas e integração, cartões e benefícios, avisos de mudanças e canais de atendimento.
-- **Reúne os dois perfis mais típicos (estudante e trabalhadora).** Projetar para ela também atende quem só estuda, quem só trabalha e boa parte dos usuários ocasionais.
-- **Reflete um padrão observado no DF:** nas faixas de renda mais baixas, o ônibus é o meio predominante entre as mulheres.
-- **Deve orientar as decisões de projeto.** Prioridade de conteúdo, menu, linguagem e design para celular são pensados primeiro para ela; os perfis secundários entram como adaptações.
+- **Representa o usuário que mais depende do serviço quando ele falha.** O Programa DF Acessível atende pessoas com deficiência ou patologia que causa redução severa de mobilidade, **temporária ou permanente** (Resolução TCB nº 33/2021). Larissa mostra que a deficiência pode atingir qualquer usuária do sistema, inclusive quem era autônoma e tinha alta familiaridade digital.
+- **Concentra o fluxo de maior risco da Análise de Tarefas.** A TAR-02 mostra que a operação mais crítica (trocar de portal sem aviso para chegar ao agendamento) pode levar à desistência, deixando a pessoa sem transporte para um compromisso de saúde.
+- **Soma as barreiras do site às barreiras físicas.** Ela precisa agendar com antecedência mínima de 30 dias, em janelas curtas, na cama ou na cadeira, com uma mão ocupada, e não pode "dar uma passada no posto" para tirar dúvidas.
+- **Reflete uma condição que não é rara nem permanente.** Fraturas, cirurgias e lesões atingem pessoas de todas as idades; projetar para Larissa também atende quem tem deficiência permanente, acompanhantes e familiares que agendam em nome de outra pessoa.
+- **Deve orientar as decisões de projeto.** Acessibilidade (eMAG/WCAG), clareza do caminho até o serviço, linguagem simples e prazos explícitos são pensados primeiro para ela; os perfis secundários entram como adaptações.
 
 ---
 
@@ -71,68 +73,65 @@ Por que ela é a persona primária:
 
 ### Objetivos de vida e de trabalho (além do site)
 
-- Concluir a graduação e ser efetivada ou promovida na área administrativa, sem largar o emprego.
-- Ajudar nas contas de casa e formar uma reserva para, no futuro, morar mais perto do trabalho.
-- Reduzir o tempo e o desgaste do deslocamento para ter mais horas de descanso, estudo e convívio com a família.
-- Chegar no horário ao trabalho e à aula, sem estresse (atrasos pesam na avaliação profissional e na frequência da faculdade).
-- Voltar para casa com segurança à noite.
-- Manter em dia os benefícios (Passe Livre Estudantil e Vale-Transporte), sem bloqueios surpresa.
+- Recuperar-se totalmente e voltar a andar sem dor, cumprindo a fisioterapia sem faltar a nenhuma sessão.
+- Concluir a graduação e manter o emprego, sem perder o semestre nem a efetivação na área administrativa.
+- Reduzir a dependência da mãe, que precisa trabalhar, e dos gastos com aplicativo de corrida, que não cabem no orçamento da família.
+- Chegar às consultas e sessões no horário, com segurança, sem passar por escadas, calçadas quebradas e ônibus sem acessibilidade.
+- Manter o ritmo de estudo e trabalho durante a recuperação.
 
 ### Objetivos ao usar o site
 
-- Descobrir rapidamente qual linha pegar, em que horário e por qual trajeto, incluindo a última viagem da noite.
-- Entender quanto vai pagar e como funciona a integração entre ônibus e metrô.
-- Resolver questões de cartão e benefícios com poucos passos, ou saber exatamente a quem recorrer.
-- Registrar reclamações e sugestões e sentir que foi ouvida.
-- Ficar sabendo de mudanças (desvios, obras, novas linhas) que afetem o trajeto dela.
+- Descobrir **onde** e **como** pré-agendar o Programa DF Acessível, sem passar por vários sites.
+- Saber se uma deficiência **temporária** dá direito ao programa e **quais documentos** levar.
+- Escolher o posto de atendimento e o dia com o menor esforço, sabendo antes se o local é acessível e se há vagas.
+- Receber a confirmação (comprovante) na hora, para não ficar em dúvida se deu certo.
+- Entender os prazos: o agendamento das viagens exige antecedência mínima de 30 dias, e cada semana de atraso é uma semana de fisioterapia sem transporte.
 
 ---
 
 ## 6. Habilidades
 
 - **Educação e formação:** ensino médio em escola pública; graduação em Administração em andamento; curso de Excel intermediário.
-- **Competências profissionais:** rotinas administrativas (planilhas, arquivo, agenda), atendimento a clientes e fornecedores, comunicação escrita objetiva e boa gestão do tempo para conciliar trabalho, aula e deslocamento.
-- **Competências digitais:** nativa digital. Usa com desenvoltura WhatsApp, redes sociais, apps de banco, Pix e aplicativos de mapas, e já usou serviços do gov.br. Preenche formulários e anexa documentos pelo celular quando o passo a passo é claro, mas perde a paciência com PDFs longos, links quebrados e páginas que não cabem na tela.
-- **Conhecimento do domínio (transporte):** especialista no uso, leiga na instituição. Conhece de cor as linhas que usa, os terminais, os horários de pico e as paradas mais seguras. Não domina termos como STPC/DF, bacia, tarifa técnica ou JARI, nem a diferença de papéis entre Semob, BRB Mobilidade, Metrô-DF e empresas de ônibus.
-- **Limitações e contexto de uso:** acessa em janelas de 2 a 5 minutos, em pé, com uma mão, com sol na tela e internet instável; tem franquia de dados limitada; lê "na diagonal".
+- **Competências profissionais:** rotinas administrativas (planilhas, arquivo, agenda), atendimento a clientes e fornecedores, comunicação escrita objetiva e boa gestão do tempo.
+- **Competências digitais:** nativa digital. Usa com desenvoltura WhatsApp, redes sociais, apps de banco, Pix e aplicativos de mapas, e já usou serviços do gov.br. Preenche formulários e anexa documentos pelo celular quando o passo a passo é claro, mas perde a paciência com PDFs longos, links quebrados e trocas de site sem aviso.
+- **Conhecimento do domínio (transporte):** especialista no uso do transporte comum, **leiga em transporte adaptado**. Nunca precisou do DF Acessível e não sabe quem o gerencia (Semob, TCB ou Secretaria da Pessoa com Deficiência) nem a diferença entre pré-agendamento e agendamento.
+- **Limitações e contexto de uso:** acessa à noite, em casa, com a perna elevada, em sessões de 5 a 15 minutos; usa o celular com uma das mãos; toques precisos em itens pequenos (como os dias de um calendário) ficam mais difíceis quando está deitada ou cansada; tem franquia de dados limitada; está em dor e sob o efeito de medicação em parte do dia, o que reduz a paciência e a atenção.
 
 ---
 
 ## 7. Tarefas
 
-A Tabela 2 apresenta as tarefas mais frequentes de Larissa, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
+A Tabela 2 apresenta as tarefas mais frequentes de Larissa durante a recuperação, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
 
 **Tabela 2** — Tarefas realizadas por Larissa Ferreira Lima
 
 | Tarefa | Frequência | Importância | Duração |
 |---|---|---|---|
-| Consultar linhas, horários e itinerários (ida, volta e alternativas) | Diária | Crítica | 1 a 3 min |
-| Conferir o horário da última viagem à noite | Dias de aula (4 a 5 vezes por semana) | Crítica | 1 a 2 min |
-| Verificar avisos de mudanças (desvios, obras, greves, novas linhas) | Semanal ou quando percebe atraso | Alta | 2 a 5 min |
-| Entender tarifa e integração ônibus ↔ metrô | Ocasional (ao mudar de rota ou ver cobrança estranha) | Alta | 3 a 10 min |
-| Conferir saldo e créditos dos cartões (Vale-Transporte e acessos do Passe Livre) e o que fazer quando não atualizam | Semanal | Alta | 1 a 3 min |
-| Resolver problema no cartão (bloqueio, perda, 2ª via, cobrança indevida) | Eventual (2 a 3 vezes por ano) | Crítica quando ocorre | 15 a 30 min |
-| Cuidar do cadastro do Passe Livre Estudantil (dela e do irmão): solicitar, atualizar dados, informar troca de instituição | Semestral ou anual | Alta | 10 a 20 min, mais a espera da análise |
-| Registrar reclamação, sugestão ou pedido de nova linha ou abrigo | Eventual (poucas vezes por ano) | Média | 5 a 10 min |
-| Consultar direitos e regras (ex.: desembarque fora do ponto à noite, gratuidades) | Eventual | Média | 2 a 3 min |
+| **Realizar o pré-agendamento no Programa DF Acessível pelo site da Semob, escolhendo local e dia do atendimento (TAR-02)** | Uma vez (e novamente se houver prorrogação do tratamento) | Crítica | 10 a 30 min, mais a espera da análise |
+| Conferir a confirmação do pré-agendamento e os documentos exigidos | Eventual (algumas vezes até a data do atendimento) | Alta | 2 a 5 min |
+| Agendar e conferir as viagens regulares (fisioterapia e consultas) | Semanal ou mensal | Crítica | 5 a 10 min |
+| Consultar regras do programa (quem tem direito, acompanhante, cadeira de rodas, limite de viagens por semana) | Eventual | Alta | 3 a 10 min |
+| Combinar com a mãe quem a acompanha em cada compromisso | Semanal | Alta | 2 a 5 min |
+| Cuidar do Passe Livre Estudantil (dela e do irmão): atualizar dados e informar troca de instituição | Semestral ou anual | Média | 10 a 20 min |
+| Registrar reclamação ou sugestão sobre o atendimento ou o transporte | Eventual (poucas vezes por ano) | Média | 5 a 10 min |
 
 *Fonte: Gabriel Melo.*
 
-> Os passos detalhados de cada tarefa estão descritos nos **[Cenários](../cenarios/index.md)** (em especial o **[Cenário 1](../cenarios/cenario-1-ultima-viagem.md)**).
+> Os passos detalhados da tarefa principal estão descritos na **[TAR-02: Pré-agendamento no Programa DF Acessível](../analise-de-tarefas/tar-02-df-acessivel.md)** e no **[Cenário 1](../cenarios/cenario-1-pre-agendamento-df-acessivel.md)**. Os demais cenários estão reunidos na **[visão geral de Cenários](../cenarios/index.md)**.
 
-**Contexto da rotina (dia útil):**
+**Contexto da rotina (dia útil durante a recuperação):**
 
-A Tabela 3 organiza a rotina diária de Larissa para evidenciar os momentos em que informações de transporte afetam seus deslocamentos entre trabalho, estudo e residência.
+A Tabela 3 organiza a rotina diária de Larissa para evidenciar os momentos em que ela precisa de transporte adaptado e aqueles em que consegue resolver questões do programa pelo celular.
 
 **Tabela 3** — Rotina diária de Larissa Ferreira Lima
 
 | Horário | Atividade |
 |---|---|
-| ~6h30 | Sai de casa; metrô e ônibus até o Plano Piloto (cerca de 1h15) |
-| 8h–17h | Trabalho no Setor Comercial Sul |
-| 17h–19h | Vai até a universidade (cerca de 45 min) e faz um lanche rápido |
-| 19h–22h30 | Aulas |
-| 22h30–~23h45 | Volta para Ceilândia (ônibus e/ou metrô, conforme o horário) |
+| ~7h30 | Acorda, higiene e café com ajuda da mãe antes de ela sair para o trabalho |
+| 9h–17h | Trabalho remoto (assistente administrativa), com a perna elevada |
+| 14h–15h | Fisioterapia em casa (exercícios orientados) ou, às segundas, quartas e sextas, deslocamento até a clínica de reabilitação |
+| 19h–22h30 | Aulas acompanhadas de forma remota, quando disponível |
+| 21h–23h | Janela em que mais usa o celular para resolver pendências, como o agendamento do transporte |
 
 *Fonte: Gabriel Melo.*
 
@@ -146,15 +145,16 @@ A Tabela 4 identifica as pessoas e instituições com as quais Larissa se relaci
 
 | Quem | Relação com a Lari | Por que importa para o projeto |
 |---|---|---|
-| **Mãe (Sônia) e irmão (Pedro)** | Convivência diária. A Lari ajuda o Pedro com o cartão estudantil e responde às dúvidas de horário da mãe | Usuários indiretos: a informação precisa ser compreensível por quem tem menos familiaridade digital |
-| **Chefe e equipe de trabalho** | Cobram pontualidade; colegas trocam dicas de rota | Atrasos causados por informação errada ou ausente têm custo profissional |
-| **RH da empresa** | Credita o Vale-Transporte e é comunicado sobre gratuidades do funcionário | Stakeholder que precisa de regras claras e atualizadas |
-| **Colegas de turma e secretaria do curso** | Trocam dicas de linhas; a secretaria emite a declaração escolar exigida no cadastro do Passe Livre Estudantil | A lista de documentos e prazos do cadastro precisa estar clara |
-| **Grupos de WhatsApp de passageiros** | Fonte informal e rápida de avisos (atrasos, desvios, lotação) | Se o site não avisa a tempo, o grupo vira a fonte principal |
-| **Motoristas e fiscais** | Contato presencial para dúvidas na hora do embarque | Canal informal de atendimento; reflete a qualidade da informação oficial |
-| **BRB Mobilidade** | Emite cartões, recebe recargas e cadastra o Passe Livre Estudantil; tem app e central de atendimento | Stakeholder crítico: várias tarefas dela terminam no ambiente do BRB, não no da Semob |
-| **Metrô-DF e empresas de ônibus** | Operam o serviço que ela usa todos os dias | Geram os dados de linhas, horários e desvios |
-| **Ouvidoria do GDF (162 / ouv.df.gov.br) e Semob** | Canais formais de reclamação, sugestão e pedido de nova linha | Precisam ser fáceis de achar e permitir acompanhar o pedido |
+| **Mãe (Sônia)** | Convivência diária; é a acompanhante natural nos deslocamentos, mas precisa trabalhar | Acompanhante em potencial; a disponibilidade dela condiciona o dia escolhido para o atendimento |
+| **Irmão (Pedro)** | Convivência diária; ajuda com o notebook e com tarefas de casa | Usuário indireto: o site precisa ser compreensível por quem tem pouca familiaridade institucional |
+| **Fisioterapeuta e ortopedista** | Definem a frequência das sessões e emitem o laudo que comprova a condição | O laudo é peça central do cadastro; o horário da fisioterapia define o dia do atendimento |
+| **Chefe, equipe e RH** | Cobram prazos e autorizaram o trabalho remoto durante a recuperação | O cuidado com a saúde precisa ser compatível com o emprego |
+| **Colegas de turma e secretaria do curso** | Trocam anotações e ajudam com a documentação da faculdade | A informação sobre o programa também circula informalmente entre eles |
+| **Secretaria da Pessoa com Deficiência (SEPD)** | Responsável pelo cadastro da pessoa com deficiência (CadPcD) | Stakeholder crítico: o cadastro é pré-requisito para solicitar viagens |
+| **TCB (Transporte Coletivo de Brasília)** | Gerencia e opera o Programa DF Acessível | Stakeholder crítico: define regras de uso e a resposta ao agendamento |
+| **Semob** | Planeja e regula o sistema; seu site é o ponto de partida da busca | O site deveria guiá-la até o serviço, mas leva a outros portais |
+| **Portais Participa DF, Na Hora e Agenda DF** | Caminho para chegar ao pré-agendamento | Troca de domínio sem aviso e identidade visual diferente geram desconfiança |
+| **Grupos de WhatsApp de pessoas em reabilitação** | Fonte informal de dicas sobre transporte e direitos | Se o site não explica, o grupo vira a fonte principal |
 
 *Fonte: Gabriel Melo.*
 
@@ -168,15 +168,16 @@ A Tabela 5 sintetiza as necessidades de Larissa em requisitos que devem orientar
 
 | Necessidade | Em suas palavras |
 |---|---|
-| Informação rápida de linhas e horários, no celular | *"Antes de sair de casa eu só quero saber: qual ônibus, que horas passa e se ainda tem o último."* |
-| Um caminho claro para cada serviço | *"O cartão é no BRB, o horário é em outro site, a reclamação é em outro… Eu já perdi um tempão só descobrindo pra onde ir."* |
-| Linguagem simples | *"Fala comigo como gente: eu posso ou não posso? O que eu levo e quanto tempo demora?"* |
-| Site leve e fácil de usar com uma mão | *"Eu abro no celular, em pé no ônibus, com uma mão só. Se pesar ou travar, eu desisto."* |
-| Resolver online, sem ir a um posto | *"Não dá pra faltar no serviço pra ir num posto. Se dá pra resolver pela internet, quero fazer pela internet."* |
-| Acompanhar pedidos e reclamações | *"Mandei uma reclamação e nunca soube se alguém leu. Queria um número de protocolo e ver o andamento."* |
-| Avisos de mudanças antes de chegar à parada | *"Se mudou o itinerário, eu quero saber antes de chegar na parada, não depois."* |
-| Informações de segurança e direitos | *"Depois das 22h eu queria lembrar que posso descer fora do ponto e saber como pedir isso ao motorista."* |
-| Clareza sobre os benefícios | *"Quero entender como o passe estudantil e o vale-transporte funcionam juntos, pra ninguém me cobrar depois."* |
+| Um caminho direto até o DF Acessível | *"Pensei que ia achar 'agendar transporte' no site da Semob. Fui parar no 'Participe', achei que era ouvidoria e quase desisti."* |
+| Aviso antes de trocar de site | *"Do nada abriu outro site, com outra cara. Eu não sabia se ainda estava no lugar certo."* |
+| Linguagem simples e explicação do serviço | *"Pré-agendamento, agendamento… qual é a diferença? E quais documentos eu levo? Fala comigo como gente."* |
+| Saber se tem direito (deficiência temporária) | *"Eu não sou cadeirante pra sempre. Será que eu entro no programa? Isso tinha que estar escrito logo no começo."* |
+| Informações do local de atendimento | *"Antes de escolher o posto, eu preciso ver o endereço, se tem rampa e qual é a próxima data com vaga."* |
+| Calendário fácil de usar e com texto, não só cor | *"O calendário é pequeno e eu erro o toque. E eu não sei dizer pela cor quais dias estão livres."* |
+| Tempo para decidir sem perder a sessão | *"Fui olhar a agenda da fisioterapia e, quando voltei, a sessão tinha caído e eu tive que começar tudo de novo."* |
+| Confirmação imediata e por escrito | *"Depois de tudo isso, quero um comprovante no e-mail ou no WhatsApp pra ter certeza de que deu certo."* |
+| Site leve, acessível e de uso com uma mão | *"Eu abro no celular, deitada, com uma mão só. Se pesar, travar ou pedir muito toque, eu desisto."* |
+| Resolver tudo online | *"Não tenho como ir a um posto só pra perguntar. Se dá pra resolver pela internet, quero resolver pela internet."* |
 | Confiança na informação | *"Tem que ser coisa oficial e atualizada. Se tiver a data da última atualização, melhor ainda."* |
 
 *Fonte: Gabriel Melo.*
@@ -187,26 +188,29 @@ A Tabela 5 sintetiza as necessidades de Larissa em requisitos que devem orientar
 
 ### Como ela acredita que o serviço funciona
 
-- Acredita que "o site do transporte" é um balcão virtual único, onde se resolve tudo: horários, cartão, recarga, Passe Livre e reclamação. Não distingue Semob, BRB Mobilidade, Metrô-DF e empresas de ônibus; para ela é "o ônibus" e "o cartão".
-- Espera pesquisar como no Google Maps: digitar origem e destino (ou o número da linha) e receber opções e horários, de preferência em tempo real.
-- Espera fluxos parecidos com app de banco e gov.br: login simples, status do pedido e notificação por e-mail ou WhatsApp.
-- Espera respostas objetivas, com passo a passo, lista de documentos e prazos, sem precisar ler leis e portarias.
+- Acredita que o site da Semob, por ser o do "transporte do DF", tem um atalho para o transporte adaptado e para o agendamento, como um balcão virtual único.
+- Espera encontrar o serviço pelas palavras que usa ("transporte para cadeirante", "agendar DF Acessível") e não pelo nome de órgãos.
+- Espera fluxos parecidos com app de banco e gov.br: passos curtos, status do pedido e comprovante por e-mail ou WhatsApp.
+- Espera respostas objetivas, com passo a passo, lista de documentos e prazos, sem precisar ler resoluções.
+- Não sabe que, para solicitar as viagens, precisa antes ter o cadastro aprovado (CadPcD) e que o pedido é feito com antecedência mínima de 30 dias.
 
 ### Como ela organiza as informações no seu dia a dia
 
-- Por **trajeto** ("casa → trabalho → faculdade → casa") e por **lugares de referência** (Ceilândia, Rodoviária, Setor Comercial Sul, universidade).
-- Por **número da linha** e por **horário** (pico da manhã, última viagem da noite).
-- Por **situação de vida** ("sou estudante", "tenho vale-transporte", "perdi meu cartão"), e não por tipo de cartão, concessionária, bacia ou tarifa técnica.
+- Por **compromisso** ("fisioterapia segunda, quarta e sexta; consulta quinzenal") e por **lugares de referência** (casa, clínica de reabilitação, hospital, universidade).
+- Por **agenda**: o dia do atendimento só pode ser escolhido depois de conferir a agenda dela e a da mãe, que a acompanha.
+- Por **situação de vida** ("quebrei a perna", "preciso de transporte adaptado"), e não por órgão responsável (Semob, TCB, SEPD, Na Hora).
 
-### Onde essas expectativas colidem com o site hoje (observado em 24/09/2026)
+### Onde essas expectativas colidem com o site hoje (observado em 25/09/2026, na Análise de Tarefas TAR-02)
 
-- **Lugar único × serviços distribuídos.** A Semob planeja e regula o sistema, mas o cadastro do Passe Livre Estudantil, a emissão de cartões e a recarga ficam com o BRB Mobilidade; linhas e horários ficam no DF no Ponto; reclamações vão para a Ouvidoria do GDF.
-- **Vocabulário do cidadão × vocabulário institucional.** O menu principal usa termos como Institucional, Governança, Legislação, Dados STPC e PDTU. Os serviços do dia a dia aparecem em blocos da página inicial, ao lado de conteúdos de transparência e parcerias público-privadas.
-- **Resposta imediata × análise com prazo.** Ela espera resposta na hora para o Passe Livre; a 1ª via do cartão estudantil pode levar até 20 dias úteis.
-- **"Um botão para resolver" × caminho em várias etapas.** Quando a integração falha, o caminho passa por levar o cartão a um posto do BRB para leitura e, se houver cobrança indevida, abrir uma manifestação na Ouvidoria.
+- **Lugar único × serviços distribuídos.** O caminho passa por quatro endereços diferentes (semob.df.gov.br → participa.df.gov.br → nahora.df.gov.br → agenda.df.gov.br) para concluir uma única tarefa.
+- **Vocabulário do cidadão × vocabulário institucional.** Para chegar ao agendamento é preciso abrir "Acesso à Informação" e clicar em "Faça aqui o seu pedido – Participe", rótulos que sugerem pedido de informação ou ouvidoria.
+- **Decisão informada × informação tardia.** A disponibilidade de vagas só é conhecida depois de escolher o local; o calendário não mostra endereço, recursos de acessibilidade nem a próxima data de cada posto.
+- **Sessão sem aviso.** A sessão pode expirar por inatividade e obrigar a refazer o caminho desde o início.
+- **Direito × desinformação.** O site não deixa claro, logo no início, que a deficiência temporária também dá direito ao programa.
 
 ---
 
 ## 11. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* DISTRITO FEDERAL. Transporte Coletivo de Brasília (TCB). **Resolução nº 33, de 9 de novembro de 2021**. Regulamenta o Programa DF Acessível. Disponível em: [SINJ-DF](https://www.sinj.df.gov.br/sinj/Norma/087e8a61f20547eaa289deb4ef136839/Resolu_o_33_09_11_2021.html). Acesso em: 11 out. 2026.
