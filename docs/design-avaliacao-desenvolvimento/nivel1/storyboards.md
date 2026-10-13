@@ -4,6 +4,7 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 11/10/2026 | `1.0` | Criação e estruturação do documento de Storyboards e adição do Storyboard 01 (Alerta Inteligente de Saída). | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - usado para formatação Markdown da página |
 | 11/10/2026 | `1.1` | Adição do Storyboard 02 (Pré-agendamento no Programa DF Acessível) e atualização do link do Cenário 1. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para tratamento da imagem e formatação Markdown da seção |
+| 12/10/2026 | `1.2` | Adição do Storyboard 05 (Consulta de Rotas e Desvios para Novos Endereços): roteiro dos quadros, ilustração e tabela de verificação. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para formatação Markdown da seção |
 
 ---
 
@@ -158,7 +159,51 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 * **Cenário de Uso:** [Cenário 9 — Navegação para Endereço Novo com Desvio](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-9-endereco-novo/)
 * **Tarefa Ancorada:** [TAR-03 — Pesquisa e Seleção de Itinerário](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/)
 
-*(Esta seção será preenchida com a ilustração e descrição detalhada do Storyboard 05 elaborado pelo integrante Tomas Garcia Rocho).*
+#### **Roteiro dos Quadros do Storyboard 05**
+
+O storyboard mostra a situação do Cenário 9 com a solução proposta: Heitor encontra a rota a partir do destino e é avisado do desvio antes de ir até o ponto errado.
+
+<div align="center">
+<p><strong>Tabela 4</strong> — Roteiro quadro a quadro do Storyboard 05</p>
+</div>
+
+| Quadro | O que é mostrado | Papel do sistema |
+| :---: | :--- | :--- |
+| **Q1** | Heitor recebe na recepção uma ordem de serviço de manutenção predial no edifício da 708 Norte, endereço que não conhece. | Gatilho da necessidade. |
+| **Q2** | Ele abre o site pelo celular e digita "708 Norte" no campo de busca. O site mostra uma lista de endereços parecidos para ele escolher. | Busca por destino, sem precisar saber o nome ou o número da linha. |
+| **Q3** | A tela **Melhor rota encontrada** mostra a **linha 102**, sentido 708 Norte, um aviso em destaque de **desvio pela L2** e um esquema do trajeto desviado. | Aviso de desvio associado à linha que o usuário vai pegar. |
+| **Q4** | Heitor embarca no ponto correto, na linha 102, que segue com o desvio pela L2. | Rota e parada atualizadas de acordo com o desvio. |
+| **Q5** | Ele chega ao edifício da 708 Norte, onde a equipe já trabalha, a tempo de realizar o serviço. | Tarefa concluída sem atraso. |
+
+<div align="center">
+<p><em>Fonte: Tomás Rocho (2026), com base no Cenário 9.</em></p>
+</div>
+
+#### **Ilustração do Storyboard 05**
+
+<div align="center">
+  <img src="../../../assets/storyboards/Storyboard-5-Tomas.jpg" alt="Storyboard 05 - Consulta de Rotas e Desvios para Novos Endereços" width="100%">
+  <p><strong>Figura 5</strong> — Storyboard 05: Consulta de rotas e desvios para novos endereços</p>
+  <p><em>Fonte: Elaborado por Tomás Rocho (2026).</em></p>
+</div>
+
+#### **Tabela de Verificação do Storyboard 05**
+
+<div align="center">
+<p><strong>Tabela 5</strong> — Verificação de Conformidade do Storyboard 05</p>
+</div>
+
+| Categoria / Critério | Atendimento no Storyboard 05 | Situação |
+| :--- | :--- | :---: |
+| **1. Personas e Atores** | Apresenta o personagem **Heitor Santos Júnior**, em traço simples, como trabalhador de manutenção predial, com mochila e o celular como ferramenta. | **Conforme** |
+| **2. Contexto e Ambiente** | Transita da recepção onde recebe a ordem de serviço (Q1) e consulta o celular (Q2–Q3) para o ponto de ônibus (Q4) e a entrada do edifício da 708 Norte (Q5). | **Conforme** |
+| **3. Tarefa Retratada** | Ilustra a **TAR-03** (pesquisa e seleção de itinerário) aplicada a um endereço novo, como no Cenário 9. | **Conforme** |
+| **4. Papel do Sistema** | Exibe a busca por destino com sugestões (Q2) e a melhor rota com o aviso de desvio associado à linha (Q3). | **Conforme** |
+| **5. Estrutura Narrativa** | Possui fluxo claro com Início (Q1), Meio (Q2–Q4) e Fim (Q5), com legenda em cada quadro. | **Conforme** |
+
+<div align="center">
+<p><em>Fonte: Tomás Rocho (2026).</em></p>
+</div>
 
 ---
 
