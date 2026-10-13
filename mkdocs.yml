@@ -133,6 +133,7 @@ nav:
       - Valdir Soares (Stakeholder): analise-de-requisitos/personas/valdir-soares.md
       - Heitor Santos Júnior (Primária): analise-de-requisitos/personas/heitor-santos-junior.md
       - Mariana Borges Almeida (Primária): analise-de-requisitos/personas/mariana-borges-almeida.md
+      - Cláudia Regina Santos (Primária): analise-de-requisitos/personas/claudia-regina-santos.md
     - Cenários:
       - Visão Geral: analise-de-requisitos/cenarios/index.md
       - Cenário 1 (Pré-agendamento DF Acessível): analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel.md
@@ -145,6 +146,7 @@ nav:
       - Cenário 8 (Conflito na Catraca): analise-de-requisitos/cenarios/cenario-8-conflito-catraca.md
       - Cenário 9 (Endereço Novo e Desvio): analise-de-requisitos/cenarios/cenario-9-endereco-novo.md
       - Cenário 10 (Viagem Ideal sob Chuva): analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md
+      - Cenário 11 (Reclamação sobre Ônibus): analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md
     - Análise de tarefas:
       - Visão Geral: analise-de-requisitos/analise-de-tarefas/index.md
       - TAR-01 (Alerta Inteligente de Saída): analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md
@@ -153,6 +155,7 @@ nav:
       - TAR-04 e TAR-05 (Motorista - HTA e CTT): analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md
       - TAR-06 (Consulta DF no Ponto): analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md
       - TAR-07 (Crédito de Vale-Transporte): analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md
+      - TAR-08 (Reclamação sobre Ônibus): analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md
     - Guia de estilo:
       - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
       - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
