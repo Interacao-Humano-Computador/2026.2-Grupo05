@@ -205,8 +205,8 @@ Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis defini
 | **17/10** | **Execução interna do teste piloto no Teams** e preenchimento da Ficha. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
 | 17/10 a 20/10 | Refinamento do roteiro final com base nos ajustes da calibração. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
 | 21/10 | Revisão por pares deste documento. | Gabriel Cardone |
-| 26/10 | Fechamento da página e verificação final no MkDocs/GitHub Pages. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
-| 27/10 (23:59) | Entrega oficial da Etapa 5. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
+| 24/10 | Fechamento da página e verificação final no MkDocs/GitHub Pages. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
+| 25/10 (23:59) | Entrega oficial da Etapa 5. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
 
 <div align="center">
 <p><em>Fonte: Igor Dantas Araújo (2026).</em></p>
