@@ -197,7 +197,7 @@ Conforme preceitua a Seção 11.7.5 do livro-texto (Barbosa et al., 2021, p. 279
 
 Em estrita consonância com os critérios avaliativos do Plano de Ensino da disciplina (Itens 11, 12 e 13):
 
-1. **Execução Prévia do Teste Piloto (Item 11 e 12):** Antes de iniciar as sessões com usuários externos, o protocolo de entrevista de tarefas passará por um ensaio geral interno (teste piloto) coordenado por Igor Dantas, com data fixada no cronograma. Os dados do teste piloto **não serão incorporados aos resultados da avaliação** ([planejamento-e-protocolo-do-teste-piloto.md](file:///home/carloshf/grupo-05-ihc/2026.2-Grupo05/docs/design-avaliacao-desenvolvimento/nivel1/planejamento-e-protocolo-do-teste-piloto.md)), servindo exclusivamente para verificar a clareza da linguagem e o tempo de sessão.
+1. **Execução Prévia do Teste Piloto (Item 11 e 12):** Antes de iniciar as sessões com usuários externos, o protocolo de entrevista de tarefas passará por um ensaio geral interno (teste piloto) coordenado por Igor Dantas, com data fixada no cronograma. Os dados do teste piloto **não serão incorporados aos resultados da avaliação** ([planejamento-e-protocolo-do-teste-piloto.md](planejamento-e-protocolo-do-teste-piloto.md)), servindo exclusivamente para verificar a clareza da linguagem e o tempo de sessão.
 2. **Postura e Guia do Avaliador (Item 13):** Durante as sessões, o avaliador seguirá o protocolo padronizado:
    * Evitar emitir opiniões pessoais ou defender os modelos desenvolvidos;
    * Dar tempo ao participante para ler e expressar seu raciocínio;
@@ -208,7 +208,7 @@ Em estrita consonância com os critérios avaliativos do Plano de Ensino da disc
 
 ## 5. Fotos de Referência
 
-Nesta seção reúnem-se os recortes comprobatórios extraídos diretamente do livro-texto oficial *Interação Humano-Computador e Experiência do Usuário* (Barbosa et al., 2021), a partir do arquivo [`cap-decide-ihc.pdf`](file:///home/carloshf/grupo-05-ihc/cap-decide-ihc.pdf):
+Nesta seção reúnem-se os recortes comprobatórios extraídos diretamente do livro-texto oficial *Interação Humano-Computador e Experiência do Usuário* (Barbosa et al., 2021).
 
 <div id="imagem-1">
 <img src="../../assets/prints_referencias/referencia-decide-visao-geral.png" alt="Framework DECIDE Visão Geral" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />

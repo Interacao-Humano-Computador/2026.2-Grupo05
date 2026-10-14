@@ -4,6 +4,7 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 11/10/2026 | `1.0` | Criação e estruturação do documento de Storyboards e adição do Storyboard 01 (Alerta Inteligente de Saída). | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - usado para formatação Markdown da página |
 | 11/10/2026 | `1.1` | Adição do Storyboard 02 (Pré-agendamento no Programa DF Acessível) e atualização do link do Cenário 1. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para tratamento da imagem e formatação Markdown da seção |
+| 13/10/2026 | `1.2` | Adição do Storyboard 04 (Consulta de Escala de Trabalho e Alertas Operacionais) elaborado por Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não utilizada (elaboração autoral manual do integrante) |
 
 ---
 
@@ -143,11 +144,44 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 ### 3.4. Storyboard 04: Consulta de Escala e Alertas Operacionais
 
 * **Autor:** [Carlos Costa](https://github.com/carloshfgit)
-* **Persona Retratada:** [Valdir Soares](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/valdir-soares/)
-* **Cenário de Uso:** [Cenário 5 — Consulta de Escala de Trabalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-5-consulta-escala/)
+* **Persona Retratada:** [Valdir Soares](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/valdir-soares/) (Motorista Profissional de Ônibus Urbano, 48 anos)
+* **Cenário de Uso:** [Cenário 5 — Consulta de Escala de Trabalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-5-consulta-escala/) e [Cenário 6 — Alerta Emergencial de Desvio](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-6-alerta-desvio/)
 * **Tarefa Ancorada:** [TAR-04/TAR-05 — Análise de Tarefas do Motorista](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista/)
+* **Tempo para confecção:** ~10 minutos.
 
-*(Esta seção será preenchida com a ilustração e descrição detalhada do Storyboard 04 elaborado pelo integrante Carlos Costa).*
+#### **Ilustração do Storyboard 04**
+
+<div align="center">
+  <img src="../../../assets/storyboards/Storyboard-4-Carlos.png" alt="Storyboard 04 - Consulta de Escala e Alertas Operacionais" width="100%">
+  <p><strong>Figura 4</strong> — Storyboard 04: Consulta de escala e alertas operacionais</p>
+  <p><em>Fonte: Elaborado por Carlos Costa (2026).</em></p>
+</div>
+
+#### **Descrição Narrativa dos Quadros do Storyboard 04**
+
+* **Quadro 1 (Início — Contexto e Necessidade):** Às 5h da manhã, na garagem da empresa concessionária antes de assumir o veículo, Valdir Soares precisa conferir sua escala de trabalho oficial do dia.
+* **Quadro 2 (Ação — Consulta no Aplicativo Móvel):** Valdir pega seu smartphone, abre o aplicativo da SEMOB e digita a linha escalada (`0.509`) no campo de consulta.
+* **Quadro 3 (Feedback — Confirmação e Segurança Operacional):** O aplicativo da SEMOB confirma a grade horária homologada (`5:00`, `6:00`, `7:00`). Valdir comemora aliviado ao verificar que as informações estão sincronizadas com a garagem: *"Tabela certa!"*.
+* **Quadro 4 (Contingência — Notificação Proativa de Alertas e Bloqueios):** Durante sua rotina, o aplicativo emite alertas operacionais em tempo real sobre bloqueios viários e contingências na estrada (`SEMOB: Bloqueio!`).
+* **Quadro 5 (Fim — Condução Segura e Desfecho Positivo):** Munido de informações confiáveis e avisos tempestivos, Valdir segue sua viagem tranquilo, sem surpresas desagradáveis ou atritos operacionais, comemorando com um gesto positivo.
+
+#### **Tabela de Verificação do Storyboard 04**
+
+<div align="center">
+<p><strong>Tabela 5</strong> — Verificação de Conformidade do Storyboard 04</p>
+</div>
+
+| Categoria / Critério | Atendimento no Storyboard 04 | Situação |
+| :--- | :--- | :---: |
+| **1. Personas e Atores** | Apresenta a persona **Valdir Soares ("Seu Valdir")**, motorista rodoviário de 48 anos, em traço simples e expressivo. | **Conforme** |
+| **2. Contexto e Ambiente** | Situa a narrativa na garagem nas primeiras horas da manhã (5h) e durante a condução no itinerário da linha. | **Conforme** |
+| **3. Tarefa Retratada** | Retrata a execução completa da consulta de escala homologada e recepção de alertas operacionais viários (**TAR-04/TAR-05**). | **Conforme** |
+| **4. Papel do Sistema** | Demonstra o aplicativo da SEMOB permitindo consulta da linha 0.509, exibindo grade de horários e alertando sobre bloqueios. | **Conforme** |
+| **5. Estrutura Narrativa** | Apresenta estrutura clássica com Início contextual (Q1), Ação e Feedback (Q2–Q4) e Desfecho positivo (Q5). | **Conforme** |
+
+<div align="center">
+<p><em>Fonte: Carlos Costa (2026).</em></p>
+</div>
 
 ---
 
