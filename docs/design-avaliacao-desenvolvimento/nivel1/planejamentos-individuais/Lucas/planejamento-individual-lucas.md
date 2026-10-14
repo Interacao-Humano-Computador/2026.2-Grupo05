@@ -26,8 +26,8 @@ A Tabela 1 detalha o escopo de atuação de Lucas Araújo na Etapa 4, articuland
 
 | Dimensão de Entrega | Artefato Sob Responsabilidade | Vínculo no Projeto | Revisor por Pares |
 | :--- | :--- | :--- | :--- |
-| **Storyboard Individual** | **Storyboard 03:** *Planejamento de Rota por Origem/Destino e Rastreamento de Ônibus em Tempo Real*. | [TAR-03](../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)<br>[Cenário 3](../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)<br>[Persona Marcos Paulo Vieira](../../analise-de-requisitos/personas/marcos-paulo-vieira.md) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| **Artefato Metodológico Central** | **Questões Práticas e Éticas da Avaliação:** Estruturação de recrutamento, perfil, infraestrutura, custos e minuta completa do TCLE. | [Perfil Primário](../../analise-de-requisitos/perfis-de-usuario/perfil-primario.md)<br>Checklist Itens 5 e 6 | [Arthur Mariani](https://github.com/arthur-mariani) |
+| **Storyboard Individual** | **Storyboard 03:** *Planejamento de Rota por Origem/Destino e Rastreamento de Ônibus em Tempo Real*. | [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)<br>[Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)<br>[Persona Marcos Paulo Vieira](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| **Artefato Metodológico Central** | **Questões Práticas e Éticas da Avaliação:** Estruturação de recrutamento, perfil, infraestrutura, custos e minuta completa do TCLE. | [Perfil Primário](../../../../analise-de-requisitos/perfis-de-usuario/perfil-primario.md)<br>Checklist Itens 5 e 6 | [Arthur Mariani](https://github.com/arthur-mariani) |
 | **Fundamentação Teórica** | Seção teórica sobre *Aspectos Éticos em Pesquisas com Usuários e TCLE* (Barbosa et al., 2021). | Cap. 5 (pp. 138–142)<br>Prints das páginas do livro | [Arthur Mariani](https://github.com/arthur-mariani) |
 | **Revisão por Pares (Inspeção Cruzada)** | Inspeção do **Storyboard 04** e do documento de **Planejamento da Avaliação da Análise de Tarefas via DECIDE**. | Artefatos de [Carlos Costa](https://github.com/carloshfgit)<br>Checklist Itens 2, 3 e 4 | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
 | **Comunicação e Disseminação** | Participação na gravação em vídeo da apresentação da Etapa 4. | Apresentação em vídeo (YouTube Não Listado) | Equipe Grupo 05 |
@@ -47,7 +47,7 @@ A Tabela 1 detalha o escopo de atuação de Lucas Araújo na Etapa 4, articuland
   2. Inclusão de balões de fala, pensamentos e expressões faciais da persona;
   3. Redação de legenda narrativa abaixo de cada quadro descrevendo a correspondência com as operações da TAR-03;
   4. Digitalização em alta resolução e arquivamento em `docs/assets/storyboards/Storyboard-3-Lucas.jpg`;
-  5. Integração na página unificada [Storyboards](storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real), acompanhado da respectiva tabela de verificação.
+  5. Integração na página unificada [Storyboards](../../storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real), acompanhado da respectiva tabela de verificação.
 
 ### 3.2. Artefato de Questões Práticas e Éticas da Avaliação
 * **Objetivo:** Estabelecer o protocolo prático, logístico e ético que orientará todas as sessões de avaliação formativa com usuários da Etapa 5.

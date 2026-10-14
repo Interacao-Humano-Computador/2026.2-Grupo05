@@ -10,6 +10,7 @@
 | 27/09/2026 | 1.3 | Inclusão da persona primária Maria Eduarda Santos, com foco em falhas de Vale-Transporte e cartão. | Equipe Grupo 05 | [Carlos Costa](https://github.com/carloshfgit) |
 | 28/09/2026 | 1.4 | Inclusão das personas Heitor Santos Júnior e Mariana Borges Almeida. | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
 | 11/10/2026 | 1.5 | Reformulação da persona Larissa Ferreira Lima para usuária com mobilidade reduzida temporária (Programa DF Acessível). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
+| 13/10/2026 | 1.6 | Inclusão da persona primária Cláudia Regina Santos. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 ---
 
@@ -39,7 +40,7 @@ As personas deste projeto foram concebidas a partir da articulação dos dados o
 
 ### 2.1 Justificativa da Quantidade de Personas
 
-A quantidade de personas foi definida pela necessidade de representar padrões comportamentais, objetivos, contextos de uso e tarefas relevantes que não poderiam ser reunidos em um único arquétipo sem produzir um “usuário elástico”. Com base nos dados disponíveis, foram mantidas **sete personas**: seis associadas ao público passageiro e uma vinculada à perspectiva operacional dos motoristas.
+A quantidade de personas foi definida pela necessidade de representar padrões comportamentais, objetivos, contextos de uso e tarefas relevantes que não poderiam ser reunidos em um único arquétipo sem produzir um “usuário elástico”. Com base nos dados disponíveis, foram mantidas **oito personas**: sete associadas ao público passageiro e uma vinculada à perspectiva operacional dos motoristas.
 
 Cada persona foi preservada no elenco por acrescentar uma perspectiva específica:
 
@@ -50,6 +51,7 @@ Cada persona foi preservada no elenco por acrescentar uma perspectiva específic
 5. **Heitor Santos Júnior:** letramento digital intermediário, deslocamento para endereços desconhecidos e necessidade de avisos sobre desvios.
 6. **Mariana Borges Almeida:** previsibilidade, monitoramento em tempo real e tomada de decisão em condições de chuva.
 7. **Valdir Soares:** perspectiva do motorista como persona atendida pelo portal e como possível usuário de um canal móvel operacional.
+8. **Cláudia Regina Santos:** técnica de enfermagem em regime de plantão, foco em registro e acompanhamento de reclamações na Ouvidoria após problemas com linhas e horários.
 
 O critério de parada adotado foi a **cobertura sem redundância significativa**: uma nova persona só deve ser acrescentada se representar comportamentos, objetivos ou necessidades ainda não contemplados pelo elenco. Como parte das personas foi construída a partir da articulação de documentos, perfis, entrevistas e cenários, essa quantidade deve ser revisada após novas coletas e validações com as partes interessadas; portanto, não constitui um número universal ou definitivo.
 
@@ -72,6 +74,7 @@ A Tabela 1 apresenta o elenco de personas desenvolvido pela equipe para orientar
 | **Valdir Soares ("Seu Valdir")** | Persona Atendida (*Served*) / Primária Operacional | Motorista profissional de ônibus urbano do STPC/DF (Viação Piracicabana, Bacia 1) | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Persona](valdir-soares.md) |
 | **Heitor Santos Júnior** | Persona Primária | Técnico de manutenção predial de Planaltina, com letramento digital intermediário, que depende do ônibus para trabalhar e se deslocar entre endereços do Plano Piloto | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Persona](heitor-santos-junior.md) |
 | **Mariana Borges Almeida** | Persona Primária | Analista administrativa com rotina organizada, foco em previsão precisa e monitoramento de chegada em tempo real sob chuva | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Persona](mariana-borges-almeida.md) |
+| **Cláudia Regina Santos** | Persona Primária | Técnica de enfermagem em regime de plantão, foco em registro e acompanhamento de reclamações na Ouvidoria | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Persona](claudia-regina-santos.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>

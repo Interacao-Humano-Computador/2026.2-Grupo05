@@ -25,7 +25,7 @@ Este documento estabelece as diretrizes que serão adotadas por todos os avaliad
 ## 2. Recrutamento e Amostragem de Participantes (Questões Práticas)
 
 ### 2.1. Perfil dos Participantes Recrutados
-O recrutamento dos participantes é rigorosamente ancorado no [Perfil de Usuário Primário (Passageiro Cotidiano)](../../analise-de-requisitos/perfis-de-usuario/perfil-primario.md) e representado pela persona primária [Marcos Paulo Vieira](../../analise-de-requisitos/personas/marcos-paulo-vieira.md), além de contemplar os demais perfis mapeados pelo grupo (estudantes, passageiros com mobilidade reduzida e motoristas).
+O recrutamento dos participantes é rigorosamente ancorado no [Perfil de Usuário Primário (Passageiro Cotidiano)](../../../../analise-de-requisitos/perfis-de-usuario/perfil-primario.md) e representado pela persona primária [Marcos Paulo Vieira](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md), além de contemplar os demais perfis mapeados pelo grupo (estudantes, passageiros com mobilidade reduzida e motoristas).
 
 A Tabela 1 sintetiza os critérios de elegibilidade para o recrutamento dos participantes:
 
@@ -140,13 +140,13 @@ Sendo assim, o início da gravação no Microsoft Teams só poderá ser acionado
 Conforme estabelecido pelo critério de validação da disciplina (**Item 14 do Checklist**), as Figuras 1 e 2 comprovam as páginas da obra de referência de IHC onde estão fundamentados os aspectos éticos e a elaboração do termo de consentimento:
 
 <div align="center">
-  <img src="../../../assets/prints_referencias/print-teoria-aspectos-eticos-tcle.png" alt="Print da página 139 do livro de IHC sobre Aspectos Éticos e Princípios da Resolução 196/96" width="90%">
+  <img src="../../../../assets/prints_referencias/print-teoria-aspectos-eticos-tcle.png" alt="Print da página 139 do livro de IHC sobre Aspectos Éticos e Princípios da Resolução 196/96" width="90%">
   <p><strong>Figura 1</strong> — Princípios Éticos em Pesquisas Envolvendo Pessoas (Autonomia, Beneficência, Não-maleficência e Justiça)</p>
   <p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 5, p. 139).</em></p>
 </div>
 
 <div align="center">
-  <img src="../../../assets/prints_referencias/print-teoria-tcle-modelo.png" alt="Print da página 141 do livro de IHC com o Exemplo 5.1 de Termo de Consentimento" width="90%">
+  <img src="../../../../assets/prints_referencias/print-teoria-tcle-modelo.png" alt="Print da página 141 do livro de IHC com o Exemplo 5.1 de Termo de Consentimento" width="90%">
   <p><strong>Figura 2</strong> — Exemplo de Estrutura do Termo de Consentimento Livre e Esclarecido (TCLE) em IHC</p>
   <p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 5, p. 141).</em></p>
 </div>
