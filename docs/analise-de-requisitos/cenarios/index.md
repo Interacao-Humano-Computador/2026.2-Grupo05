@@ -10,6 +10,7 @@
 | 27/09/2026 | 1.3 | Inclusão do cenário de problema de crédito de Vale-Transporte não disponível no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
 | 28/09/2026 | 1.4 | Inclusão do Cenário 9 (Heitor) e Cenário 10 (Mariana Borges). | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
 | 11/10/2026 | 1.5 | Reescrita do Cenário 1 para a nova versão da persona Larissa (pré-agendamento no Programa DF Acessível, TAR-02). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
+| 13/10/2026 | 1.6 | Inclusão do Cenário 11 (Cláudia Regina Santos). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 ---
 
@@ -58,6 +59,7 @@ A Tabela 1 apresenta os cenários desenvolvidos pela equipe para diagnosticar ta
 | **Cenário 8 — Conflito na catraca por divergência de horários** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Problema | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenario-8-conflito-catraca.md) |
 | **Cenário 9 — Rota para um endereço novo e desvio não avisado** | [Heitor Santos Júnior](../personas/heitor-santos-junior.md) | Cenário de Problema | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Cenário](cenario-9-endereco-novo.md) |
 | **Cenário 10 — Viagem ideal sob chuva** | [Mariana Borges Almeida](../personas/mariana-borges-almeida.md) | Cenário Ideal (Projetado) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Cenário](cenario-10-viagem-ideal.md) |
+| **Cenário 11 — Reclamação sobre ônibus que passou direto** | [Cláudia Regina Santos](../personas/claudia-regina-santos.md) | Cenário de Problema | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Cenário](cenario-11-reclamacao-onibus.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>
