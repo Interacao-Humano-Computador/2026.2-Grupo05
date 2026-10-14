@@ -67,9 +67,8 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 * **Tempo para confecção:** ~10 minutos.
 
 #### **Ilustração do Storyboard 01**
-
+![Storyboard 01 - Alerta Inteligente de Saída de Casa](../../assets/storyboards/Storyboard-1-Igor-notes.jpg){ width="100%" }
 <div align="center">
-  <img src="../../../assets/storyboards/Storyboard-1-Igor-notes.jpg" alt="Storyboard 01 - Alerta Inteligente de Saída de Casa" width="100%">
   <p><strong>Figura 1</strong> — Storyboard 01: Alerta inteligente de saída de casa</p>
   <p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
 </div>
@@ -214,7 +213,31 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 * **Cenário de Uso:** [Cenário 4 — Resolução de Falha de Crédito de Vale-Transporte](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte/)
 * **Tarefa Ancorada:** [TAR-07 — Consulta e Regularização de Crédito](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte/)
 
-*(Esta seção será preenchida com a ilustração e descrição detalhada do Storyboard 07 elaborado pelo integrante Arthur Mariani).*
+#### **Ilustração do Storyboard 07**
+
+<div align="center">
+  <img src="../../../assets/storyboards/Storyboard-7-Arthur.png" alt="Storyboard 07 - Regularização de Crédito de Vale-Transporte" width="100%">
+  <p><strong>Figura 7</strong> — Storyboard 07: Regularização de Crédito de Vale-Transporte</p>
+  <p><em>Fonte: Elaborado por Arthur Mariani (2026).</em></p>
+</div>
+
+#### **Tabela de Verificação do Storyboard 07**
+
+<div align="center">
+<p><strong>Tabela 8</strong> — Verificação de Conformidade do Storyboard 07</p>
+</div>
+
+| Categoria / Critério | Atendimento no Storyboard 07 | Situação |
+| :--- | :--- | :---: |
+| **1. Personas e Atores** | Apresenta a personagem **Maria Eduarda Santos** em traço simples durante a busca pela regularização do Vale-Transporte. | **Conforme** |
+| **2. Contexto e Ambiente** | Situa a ação em Samambaia Sul, às 07h08, durante o deslocamento da personagem e a tentativa de utilizar o Vale-Transporte no ônibus. | **Conforme** |
+| **3. Tarefa Retratada** | Representa a **TAR-07**, desde a identificação do crédito indisponível até a compreensão da situação, do responsável e do próximo passo necessário. | **Conforme** |
+| **4. Papel do Sistema** | Exibe informações sobre o estado do crédito, o encaminhamento ao BRB Mobilidade, os locais mais próximos e os horários disponíveis. | **Conforme** |
+| **5. Estrutura Narrativa** | Possui fluxo claro com início (Q1–Q2), desenvolvimento da orientação (Q3–Q7) e desfecho positivo (Q8). | **Conforme** |
+
+<div align="center">
+<p><em>Fonte: Arthur Mariani (2026).</em></p>
+</div>
 
 ---
 
