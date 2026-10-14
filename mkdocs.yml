@@ -188,6 +188,7 @@ nav:
     - Nível 1:
       - StoryBoards: design-avaliacao-desenvolvimento/nivel1/storyboards.md
       - Planejamento e protocolo do Teste Piloto: design-avaliacao-desenvolvimento/nivel1/planejamento-e-protocolo-do-teste-piloto.md
+      - Cronograma e logística das sessões de avaliação: design-avaliacao-desenvolvimento/nivel1/cronograma-e-logistica-das-sessoes.md
       - Planejamentos individuais:
         - Arthur:
           - Planejamento do Relato da Análise de Tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md
@@ -202,6 +203,9 @@ nav:
         - Rodrigo:
           - Planejamento da avaliação do Storyboard e da Análise de tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md
           - Planejamento do relato dos resultados da avaliação: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md
+        - Tomás:
+          - Planejamento da avaliação do Storyboard e da Análise de tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md
+          - Planejamento do relato dos resultados da avaliação: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md
 
   - Verificação: 
     - Verificação da entrega 1: verificacao/verif1.md
