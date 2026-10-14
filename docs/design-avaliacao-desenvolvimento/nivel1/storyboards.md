@@ -66,9 +66,8 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 * **Tempo para confecção:** ~10 minutos.
 
 #### **Ilustração do Storyboard 01**
-
+![Storyboard 01 - Alerta Inteligente de Saída de Casa](../../assets/storyboards/Storyboard-1-Igor-notes.jpg){ width="100%" }
 <div align="center">
-  <img src="../../../assets/storyboards/Storyboard-1-Igor-notes.jpg" alt="Storyboard 01 - Alerta Inteligente de Saída de Casa" width="100%">
   <p><strong>Figura 1</strong> — Storyboard 01: Alerta inteligente de saída de casa</p>
   <p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
 </div>
