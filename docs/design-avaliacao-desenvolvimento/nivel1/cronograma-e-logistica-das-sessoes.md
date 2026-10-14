@@ -16,7 +16,7 @@ O documento define **quando**, **onde**, **com quem** e **sobre o quê** cada se
 
 ## 1. Introdução
 
-As avaliações da Etapa 5 serão **entrevistas semiestruturadas orientadas a tarefas**. Nelas, o participante conhece um storyboard e os modelos de tarefa (HTA e CTT) correspondentes e comenta se a história e os passos representam a sua realidade. O procedimento de cada sessão segue o roteiro ensaiado no [Planejamento e Protocolo do Teste Piloto](../../planejamento-e-protocolo-do-teste-piloto.md).
+As avaliações da Etapa 5 serão **entrevistas semiestruturadas orientadas a tarefas**. Nelas, o participante conhece um storyboard e os modelos de tarefa (HTA e CTT) correspondentes e comenta se a história e os passos representam a sua realidade. O procedimento de cada sessão segue o roteiro ensaiado no [Planejamento e Protocolo do Teste Piloto](planejamento-e-protocolo-do-teste-piloto.md).
 
 Como o grupo produziu **7 storyboards**, cada um ligado a uma tarefa da Análise de Tarefas, o cronograma prevê **7 sessões**, uma por storyboard. Cada sessão tem um participante convidado com o perfil da persona retratada, e a agenda inclui um horário de reserva.
 
@@ -68,10 +68,10 @@ Esses aspectos são aplicados nas Seções 3 a 7.
 | # | Premissa | Justificativa |
 | :---: | :--- | :--- |
 | **1** | As sessões só começam **depois do teste piloto (17/10)**. | O piloto calibra o roteiro, o tempo e a gravação. Os ajustes são consolidados até 18/10, e as sessões começam em 19/10. |
-| **2** | Todas as sessões terminam **até 22/10**, com reserva em 23/10. | A entrega da Etapa 5 é em 25/10, e a revisão por pares é em 23/10 (ver o [Cronograma](../../../../planejamento/cronograma.md)). Assim sobram dois dias para consolidar os dados. |
+| **2** | Todas as sessões terminam **até 22/10**, com reserva em 23/10. | A entrega da Etapa 5 é em 25/10, e a revisão por pares é em 23/10 (ver o [Cronograma](../../planejamento/cronograma.md)). Assim sobram dois dias para consolidar os dados. |
 | **3** | **Uma sessão por storyboard**, com um participante do perfil da persona retratada. | Cada storyboard está ligado a uma tarefa e a um perfil de usuário. Avaliá-lo com alguém desse perfil dá mais validade às respostas. |
 | **4** | Cada sessão tem **duração prevista de 45 min**, em uma janela de 60 min. | O roteiro do piloto estima cerca de 36 min. Os 15 min restantes servem para atrasos, conexão e anotações finais. |
-| **5** | Os horários seguem o **[HeatMap de disponibilidade](../../../../planejamento/HeatMap_do_Grupo.md)** da equipe. | As noites de dias úteis, a partir das 19h30, têm boa disponibilidade da equipe e também dos participantes que trabalham ou estudam durante o dia. |
+| **5** | Os horários seguem o **[HeatMap de disponibilidade](../../planejamento/HeatMap_do_Grupo.md)** da equipe. | As noites de dias úteis, a partir das 19h30, têm boa disponibilidade da equipe e também dos participantes que trabalham ou estudam durante o dia. |
 | **6** | **O autor do storyboard não conduz a própria sessão.** A condução fica com o revisor por pares do autor, e o autor atua como observador. | Evita que o condutor defenda o próprio artefato ou induza respostas, como orienta o roteiro do piloto (Seção 4.3). |
 
 <div align="center">
@@ -90,13 +90,13 @@ A Tabela 2 apresenta a agenda das sessões. Os participantes são identificados 
 
 | Sessão | Data e horário | Local / ambiente virtual | Avaliador (condução) | Observador / anotador | Participante convidado (perfil) | Storyboard avaliado | Tarefa avaliada (HTA/CTT) |
 | :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **S1** | 19/10/2026 (seg), 19:30–20:30 | Microsoft Teams (link enviado no convite) | Gabriel Cardone | Igor Dantas Araújo | **P01**: estudante universitário que usa ônibus todos os dias para ir à faculdade (perfil de João Pedro Carvalho) | Storyboard 01: Alerta inteligente de saída | [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md) |
-| **S2** | 19/10/2026 (seg), 20:45–21:45 | Microsoft Teams | Igor Dantas Araújo | Gabriel Cardone | **P02**: pessoa com mobilidade reduzida (temporária ou permanente) que usa ou já precisou de transporte adaptado (perfil de Larissa Ferreira Lima) | Storyboard 02: Pré-agendamento no DF Acessível | [TAR-02](../../../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md) |
-| **S3** | 20/10/2026 (ter), 19:30–20:30 | Microsoft Teams | Arthur Mariani | Lucas Araújo | **P03**: trabalhador que usa ônibus diariamente e planeja os trajetos só pelo celular (perfil de Marcos Paulo Vieira) | Storyboard 03: Planejamento de rota por origem/destino | [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md) |
-| **S4** | 20/10/2026 (ter), 20:45–21:45 | Microsoft Teams, ou chamada de vídeo pelo celular se o participante preferir | Lucas Araújo | Carlos Costa | **P04**: motorista de ônibus do STPC/DF (perfil de Valdir Soares) | Storyboard 04: Consulta de escala e alertas operacionais | [TAR-04/TAR-05](../../../../analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md) |
-| **S5** | 21/10/2026 (qua), 19:30–20:30 | Microsoft Teams | Rodrigo Carvalho | Tomás Rocho | **P05**: trabalhador que se desloca de ônibus para endereços diferentes durante o expediente, como técnico de manutenção ou prestador de serviço (perfil de Heitor Santos Júnior) | Storyboard 05: Consulta de rotas e desvios para novos endereços | [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md) e [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-endereco-novo.md) |
-| **S6** | 21/10/2026 (qua), 20:45–21:45 | Microsoft Teams | Tomás Rocho | Rodrigo Carvalho | **P06**: passageira ou passageiro que acompanha o ônibus em tempo real pelo DF no Ponto (perfil de Mariana Borges Almeida) | Storyboard 06: Rastreamento em tempo real no DF no Ponto | [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md) |
-| **S7** | 22/10/2026 (qui), 20:00–21:00 | Microsoft Teams | Carlos Costa | Arthur Mariani | **P07**: trabalhador com carteira assinada que usa Vale-Transporte no cartão (perfil de Maria Eduarda Santos) | Storyboard 07: Regularização de crédito de Vale-Transporte | [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md) |
+| **S1** | 19/10/2026 (seg), 19:30–20:30 | Microsoft Teams (link enviado no convite) | Gabriel Cardone | Igor Dantas Araújo | **P01**: estudante universitário que usa ônibus todos os dias para ir à faculdade (perfil de João Pedro Carvalho) | Storyboard 01: Alerta inteligente de saída | [TAR-01](../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md) |
+| **S2** | 19/10/2026 (seg), 20:45–21:45 | Microsoft Teams | Igor Dantas Araújo | Gabriel Cardone | **P02**: pessoa com mobilidade reduzida (temporária ou permanente) que usa ou já precisou de transporte adaptado (perfil de Larissa Ferreira Lima) | Storyboard 02: Pré-agendamento no DF Acessível | [TAR-02](../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md) |
+| **S3** | 20/10/2026 (ter), 19:30–20:30 | Microsoft Teams | Arthur Mariani | Lucas Araújo | **P03**: trabalhador que usa ônibus diariamente e planeja os trajetos só pelo celular (perfil de Marcos Paulo Vieira) | Storyboard 03: Planejamento de rota por origem/destino | [TAR-03](../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md) |
+| **S4** | 20/10/2026 (ter), 20:45–21:45 | Microsoft Teams, ou chamada de vídeo pelo celular se o participante preferir | Lucas Araújo | Carlos Costa | **P04**: motorista de ônibus do STPC/DF (perfil de Valdir Soares) | Storyboard 04: Consulta de escala e alertas operacionais | [TAR-04/TAR-05](../../analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md) |
+| **S5** | 21/10/2026 (qua), 19:30–20:30 | Microsoft Teams | Rodrigo Carvalho | Tomás Rocho | **P05**: trabalhador que se desloca de ônibus para endereços diferentes durante o expediente, como técnico de manutenção ou prestador de serviço (perfil de Heitor Santos Júnior) | Storyboard 05: Consulta de rotas e desvios para novos endereços | [TAR-03](../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md) e [Cenário 9](../../analise-de-requisitos/cenarios/cenario-9-endereco-novo.md) |
+| **S6** | 21/10/2026 (qua), 20:45–21:45 | Microsoft Teams | Tomás Rocho | Rodrigo Carvalho | **P06**: passageira ou passageiro que acompanha o ônibus em tempo real pelo DF no Ponto (perfil de Mariana Borges Almeida) | Storyboard 06: Rastreamento em tempo real no DF no Ponto | [TAR-06](../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md) |
+| **S7** | 22/10/2026 (qui), 20:00–21:00 | Microsoft Teams | Carlos Costa | Arthur Mariani | **P07**: trabalhador com carteira assinada que usa Vale-Transporte no cartão (perfil de Maria Eduarda Santos) | Storyboard 07: Regularização de crédito de Vale-Transporte | [TAR-07](../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md) |
 | **Reserva** | 23/10/2026 (sex), 20:00–21:00 | Microsoft Teams | Conforme a sessão remarcada | Conforme a sessão remarcada | Participante de uma sessão que não ocorreu ou precisou ser interrompida | Conforme a sessão remarcada | Conforme a sessão remarcada |
 
 <div align="center">
@@ -142,7 +142,7 @@ Os critérios de seleção, a quantidade de participantes e o TCLE são definido
 | Estudante universitário | P01 | Colegas da FCTE/UnB Gama, por WhatsApp | Igor Dantas Araújo |
 | Pessoa com mobilidade reduzida | P02 | Rede de contatos da equipe (familiares e conhecidos) | Gabriel Cardone |
 | Trabalhador que planeja trajetos pelo celular | P03 | Rede de contatos da equipe | Lucas Araújo |
-| Motorista do STPC/DF | P04 | Novo convite ao motorista entrevistado na Etapa 2 ([Entrevistas](../../../../analise-de-requisitos/entrevistas.md)) ou a outro motorista indicado por ele | Carlos Costa |
+| Motorista do STPC/DF | P04 | Novo convite ao motorista entrevistado na Etapa 2 ([Entrevistas](../../analise-de-requisitos/entrevistas.md)) ou a outro motorista indicado por ele | Carlos Costa |
 | Trabalhador que se desloca para endereços variados | P05 | Rede de contatos da equipe (técnicos, prestadores de serviço) | Tomás Rocho |
 | Usuário do DF no Ponto | P06 | Passageiros entrevistados na Etapa 2 ou rede de contatos | Rodrigo Carvalho |
 | Trabalhador com Vale-Transporte | P07 | Rede de contatos da equipe | Arthur Mariani |
@@ -173,7 +173,7 @@ Os critérios de seleção, a quantidade de participantes e o TCLE são definido
 | **Plataforma alternativa** | Google Meet, se o Teams falhar ou o participante não conseguir entrar. | Avaliador (condução) |
 | **Gravação de reserva** | OBS Studio ou 123APPS no computador do observador (captura local de tela e áudio). | Observador |
 | **Materiais exibidos** | Storyboard da sessão, resumo do cenário e da persona, diagramas HTA e CTT da tarefa. | Avaliador (condução) |
-| **Termo de consentimento** | [TCLE Pesquisa Transporte](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf), enviado com antecedência e lido no início da sessão. | Avaliador (condução) |
+| **Termo de consentimento** | [TCLE Pesquisa Transporte](../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf), enviado com antecedência e lido no início da sessão. | Avaliador (condução) |
 | **Ficha de anotação** | Roteiro de observação do avaliador, com espaço para tempos, dúvidas e comentários do participante. | Observador |
 | **Armazenamento** | Pasta compartilhada da equipe, com acesso restrito aos integrantes. Os arquivos são nomeados pelo código da sessão (ex.: `S5-P05-gravacao.mp4`). | Observador |
 | **Custo** | R\$ 0,00 (plataformas gratuitas ou institucionais e equipamentos próprios). | Equipe |
@@ -273,7 +273,7 @@ Os critérios de seleção, a quantidade de participantes e o TCLE são definido
 
 Conforme as diretrizes da disciplina, a fundamentação sobre o planejamento e a condução de entrevistas encontra-se no livro de referência:
 
-![Imagem 1](../../../../assets/prints_referencias/print-teoria-entrevistas.png)
+![Imagem 1](../../assets/prints_referencias/print-teoria-entrevistas.png)
 *Imagem 1 - Preece, Rogers e Sharp, 2005, Cap. 13, Seção 13.2.4, p. 416*
 
 ---

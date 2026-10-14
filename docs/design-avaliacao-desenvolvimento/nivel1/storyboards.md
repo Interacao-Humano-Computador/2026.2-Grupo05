@@ -172,8 +172,8 @@ O storyboard mostra a situação do Cenário 9 com a solução proposta: Heitor 
 | **Q1** | Heitor recebe na recepção uma ordem de serviço de manutenção predial no edifício da 708 Norte, endereço que não conhece. | Gatilho da necessidade. |
 | **Q2** | Ele abre o site pelo celular e digita "708 Norte" no campo de busca. O site mostra uma lista de endereços parecidos para ele escolher. | Busca por destino, sem precisar saber o nome ou o número da linha. |
 | **Q3** | A tela **Melhor rota encontrada** mostra a **linha 102**, sentido 708 Norte, um aviso em destaque de **desvio pela L2** e um esquema do trajeto desviado. | Aviso de desvio associado à linha que o usuário vai pegar. |
-| **Q4** | Heitor embarca no ponto correto, na linha 102, que segue com o desvio pela L2. | Rota e parada atualizadas de acordo com o desvio. |
-| **Q5** | Ele chega ao edifício da 708 Norte, onde a equipe já trabalha, a tempo de realizar o serviço. | Tarefa concluída sem atraso. |
+| **Q4** | Heitor vai ao ponto correto e faz sinal para o ônibus da linha 102, que segue com o desvio pela L2. | Rota e parada atualizadas de acordo com o desvio. |
+| **Q5** | Ele chega à entrada do edifício da 708 Norte a tempo de realizar o serviço. | Tarefa concluída sem atraso. |
 
 <div align="center">
 <p><em>Fonte: Tomás Rocho (2026), com base no Cenário 9.</em></p>
@@ -195,11 +195,11 @@ O storyboard mostra a situação do Cenário 9 com a solução proposta: Heitor 
 
 | Categoria / Critério | Atendimento no Storyboard 05 | Situação |
 | :--- | :--- | :---: |
-| **1. Personas e Atores** | Apresenta o personagem **Heitor Santos Júnior**, em traço simples, como trabalhador de manutenção predial, com mochila e o celular como ferramenta. | **Conforme** |
+| **1. Personas e Atores** | Apresenta o personagem **Heitor Santos Júnior**, em traço simples e desenhado à mão, como trabalhador de manutenção predial que usa o celular para chegar ao destino. | **Conforme** |
 | **2. Contexto e Ambiente** | Transita da recepção onde recebe a ordem de serviço (Q1) e consulta o celular (Q2–Q3) para o ponto de ônibus (Q4) e a entrada do edifício da 708 Norte (Q5). | **Conforme** |
 | **3. Tarefa Retratada** | Ilustra a **TAR-03** (pesquisa e seleção de itinerário) aplicada a um endereço novo, como no Cenário 9. | **Conforme** |
 | **4. Papel do Sistema** | Exibe a busca por destino com sugestões (Q2) e a melhor rota com o aviso de desvio associado à linha (Q3). | **Conforme** |
-| **5. Estrutura Narrativa** | Possui fluxo claro com Início (Q1), Meio (Q2–Q4) e Fim (Q5), com legenda em cada quadro. | **Conforme** |
+| **5. Estrutura Narrativa** | Possui fluxo claro com Início (Q1), Meio (Q2–Q4) e Fim (Q5), com legenda manuscrita em cada quadro. | **Conforme** |
 
 <div align="center">
 <p><em>Fonte: Tomás Rocho (2026).</em></p>
