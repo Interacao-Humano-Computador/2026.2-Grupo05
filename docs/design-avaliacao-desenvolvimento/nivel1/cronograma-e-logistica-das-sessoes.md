@@ -2,7 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração do uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 12/10/2026 | `1.0` | Elaboração do Cronograma e Logística das Sessões de Avaliação da Etapa 4 (agenda das sessões, plataformas, papéis, recrutamento previsto, logística e fundamentação teórica). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
+| 12/10/2026 | `1.0` | Elaboração do Cronograma e Logística das Sessões de Avaliação da Etapa 4 (agenda das sessões, plataformas, papéis, recrutamento previsto, logística e fundamentação teórica). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini - usado para estruturação do texto e formatação Markdown da página |
 
 ---
 
