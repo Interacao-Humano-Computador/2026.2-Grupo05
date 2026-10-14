@@ -225,42 +225,42 @@ O relato conclusivo deverá apresentar a interpretação das recorrências, os p
 ### 9.1 Consolidação e estrutura do relato
 
 <figure id="figura-1" markdown="span">
-  ![Trechos grifados sobre consolidação, limitações e estrutura do relato dos resultados](../../assets/prints_referencias/referencia-planejamento-relato-tarefas-1.png)
+  ![Trechos grifados sobre consolidação, limitações e estrutura do relato dos resultados](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-1.png)
   <figcaption>Imagem 1 - Consolidação, limites de interpretação e estrutura do relato. Fonte: Barbosa et al. (2021, Seção 11.7.5, p. 279).</figcaption>
 </figure>
 
 ### 9.2 Fatores e escala de severidade
 
 <figure id="figura-2" markdown="span">
-  ![Trechos grifados sobre frequência, impacto, persistência e escala de severidade](../../assets/prints_referencias/referencia-planejamento-relato-tarefas-2.png)
+  ![Trechos grifados sobre frequência, impacto, persistência e escala de severidade](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-2.png)
   <figcaption>Imagem 2 - Fatores e escala de severidade, incluindo o uso do grau zero na consolidação. Fonte: Barbosa et al. (2021, Seção 12.1.1, p. 284).</figcaption>
 </figure>
 
 ### 9.3 Métricas e registros da observação
 
 <figure id="figura-3" markdown="span">
-  ![Trechos grifados sobre métricas, anotações e formas de sumarização](../../assets/prints_referencias/referencia-planejamento-relato-tarefas-3.png)
+  ![Trechos grifados sobre métricas, anotações e formas de sumarização](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-3.png)
   <figcaption>Imagem 3 - Dados coletados por tarefa e formas de sumarização. Fonte: Barbosa et al. (2021, Seção 12.2.1, p. 302).</figcaption>
 </figure>
 
 ### 9.4 Estrutura do registro dos problemas
 
 <figure id="figura-4" markdown="span">
-  ![Trechos grifados sobre categorização e campos do relato de problemas](../../assets/prints_referencias/referencia-planejamento-relato-tarefas-4.png)
+  ![Trechos grifados sobre categorização e campos do relato de problemas](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-4.png)
   <figcaption>Imagem 4 - Categorização e campos do relato dos problemas. Fonte: Barbosa et al. (2021, Seção 12.2.1, p. 303).</figcaption>
 </figure>
 
 ### 9.5 Atividades de registro e priorização
 
 <figure id="figura-5" markdown="span">
-  ![Trechos grifados sobre listagem, priorização e relato dos problemas](../../assets/prints_referencias/referencia-planejamento-relato-tarefas-5.png)
+  ![Trechos grifados sobre listagem, priorização e relato dos problemas](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-5.png)
   <figcaption>Imagem 5 - Listagem, priorização e relato dos problemas. Fonte: Barbosa et al. (2021, Seção 12.2.3, p. 317).</figcaption>
 </figure>
 
 ### 9.6 Aspectos observados e critério de prioridade
 
 <figure id="figura-6" markdown="span">
-  ![Trechos grifados sobre aspectos observados e priorização por gravidade e frequência](../../assets/prints_referencias/referencia-planejamento-relato-tarefas-6.png)
+  ![Trechos grifados sobre aspectos observados e priorização por gravidade e frequência](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-6.png)
   <figcaption>Imagem 6 - Aspectos observados e priorização por gravidade e frequência. Fonte: Barbosa et al. (2021, Seção 12.2.3, p. 318).</figcaption>
 </figure>
 

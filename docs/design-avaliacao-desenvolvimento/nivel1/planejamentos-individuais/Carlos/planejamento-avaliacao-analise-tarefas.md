@@ -197,7 +197,7 @@ Conforme preceitua a Seção 11.7.5 do livro-texto (Barbosa et al., 2021, p. 279
 
 Em estrita consonância com os critérios avaliativos do Plano de Ensino da disciplina (Itens 11, 12 e 13):
 
-1. **Execução Prévia do Teste Piloto (Item 11 e 12):** Antes de iniciar as sessões com usuários externos, o protocolo de entrevista de tarefas passará por um ensaio geral interno (teste piloto) coordenado por Igor Dantas, com data fixada no cronograma. Os dados do teste piloto **não serão incorporados aos resultados da avaliação** ([planejamento-e-protocolo-do-teste-piloto.md](planejamento-e-protocolo-do-teste-piloto.md)), servindo exclusivamente para verificar a clareza da linguagem e o tempo de sessão.
+1. **Execução Prévia do Teste Piloto (Item 11 e 12):** Antes de iniciar as sessões com usuários externos, o protocolo de entrevista de tarefas passará por um ensaio geral interno (teste piloto) coordenado por Igor Dantas, com data fixada no cronograma. Os dados do teste piloto **não serão incorporados aos resultados da avaliação** ([planejamento-e-protocolo-do-teste-piloto.md](../../planejamento-e-protocolo-do-teste-piloto.md)), servindo exclusivamente para verificar a clareza da linguagem e o tempo de sessão.
 2. **Postura e Guia do Avaliador (Item 13):** Durante as sessões, o avaliador seguirá o protocolo padronizado:
    * Evitar emitir opiniões pessoais ou defender os modelos desenvolvidos;
    * Dar tempo ao participante para ler e expressar seu raciocínio;
@@ -211,49 +211,49 @@ Em estrita consonância com os critérios avaliativos do Plano de Ensino da disc
 Nesta seção reúnem-se os recortes comprobatórios extraídos diretamente do livro-texto oficial *Interação Humano-Computador e Experiência do Usuário* (Barbosa et al., 2021).
 
 <div id="imagem-1">
-<img src="../../assets/prints_referencias/referencia-decide-visao-geral.png" alt="Framework DECIDE Visão Geral" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
+<img src="../../../../../assets/prints_referencias/referencia-decide-visao-geral.png" alt="Framework DECIDE Visão Geral" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
 <p><em>Imagem 1 — Framework DECIDE (Barbosa et al., 2021, Seção 11.8, p. 279–280).</em></p>
 </div>
 
 <br>
 
 <div id="imagem-2">
-<img src="../../assets/prints_referencias/referencia-decide-determinar-objetivos.png" alt="Determinação dos Objetivos em IHC" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
+<img src="../../../../../assets/prints_referencias/referencia-decide-determinar-objetivos.png" alt="Determinação dos Objetivos em IHC" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
 <p><em>Imagem 2 — Determinação dos Objetivos e Aspectos Avaliados em IHC (Barbosa et al., 2021, Seções 11.2 e 11.8, p. 264, 280).</em></p>
 </div>
 
 <br>
 
 <div id="imagem-3">
-<img src="../../assets/prints_referencias/referencia-decide-explorar-perguntas.png" alt="Exploração de Perguntas em IHC" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
+<img src="../../../../../assets/prints_referencias/referencia-decide-explorar-perguntas.png" alt="Exploração de Perguntas em IHC" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
 <p><em>Imagem 3 — Exploração de Perguntas Investigativas em IHC (Barbosa et al., 2021, Tabela 11.1 e Seção 11.8, p. 267, 280).</em></p>
 </div>
 
 <br>
 
 <div id="imagem-4">
-<img src="../../assets/prints_referencias/referencia-decide-escolher-metodos.png" alt="Escolha dos Métodos de Avaliação" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
+<img src="../../../../../assets/prints_referencias/referencia-decide-escolher-metodos.png" alt="Escolha dos Métodos de Avaliação" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
 <p><em>Imagem 4 — Escolha dos Métodos de Avaliação (Barbosa et al., 2021, Seção 11.8, p. 280).</em></p>
 </div>
 
 <br>
 
 <div id="imagem-5">
-<img src="../../assets/prints_referencias/referencia-decide-questoes-praticas.png" alt="Questões Práticas da Avaliação" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
+<img src="../../../../../assets/prints_referencias/referencia-decide-questoes-praticas.png" alt="Questões Práticas da Avaliação" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
 <p><em>Imagem 5 — Administração de Questões Práticas (Barbosa et al., 2021, Seção 11.8, p. 280).</em></p>
 </div>
 
 <br>
 
 <div id="imagem-6">
-<img src="../../assets/prints_referencias/referencia-decide-questoes-eticas.png" alt="Questões Éticas na Avaliação" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
+<img src="../../../../../assets/prints_referencias/referencia-decide-questoes-eticas.png" alt="Questões Éticas na Avaliação" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
 <p><em>Imagem 6 — Decisões Éticas na Avaliação com Usuários (Barbosa et al., 2021, Seção 11.8, p. 280).</em></p>
 </div>
 
 <br>
 
 <div id="imagem-7">
-<img src="../../assets/prints_referencias/referencia-decide-avaliar-interpretar-apresentar.png" alt="Avaliação dos Dados e Relato" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
+<img src="../../../../../assets/prints_referencias/referencia-decide-avaliar-interpretar-apresentar.png" alt="Avaliação dos Dados e Relato" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
 <p><em>Imagem 7 — Avaliação, Interpretação de Dados e Estrutura do Relato de Resultados (Barbosa et al., 2021, Seções 11.7.5 e 11.8, p. 279–280).</em></p>
 </div>
 

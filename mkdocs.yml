@@ -187,10 +187,12 @@ nav:
     - design-avaliacao-desenvolvimento/index.md
     - Nível 1:
       - StoryBoards: design-avaliacao-desenvolvimento/nivel1/storyboards.md
-      - Planejamento da Avaliação da Análise de Tarefas: design-avaliacao-desenvolvimento/nivel1/planejamento-avaliacao-analise-tarefas.md
-      - Planejamento do Relato da Análise de Tarefas: design-avaliacao-desenvolvimento/nivel1/planejamento-relato-analise-tarefas.md
       - Planejamento e protocolo do Teste Piloto: design-avaliacao-desenvolvimento/nivel1/planejamento-e-protocolo-do-teste-piloto.md
       - Planejamentos individuais:
+        - Arthur:
+          - Planejamento do Relato da Análise de Tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md
+        - Carlos:
+          - Planejamento da Avaliação da Análise de Tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/planejamento-avaliacao-analise-tarefas.md
         - Igor: 
           - Planejamento da avaliação do Storyboard e da Análise de tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md
           - Planejamento do relato dos resultados da avaliação: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md
