@@ -4,6 +4,9 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 11/10/2026 | `1.0` | Criação e estruturação do documento de Storyboards e adição do Storyboard 01 (Alerta Inteligente de Saída). | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - usado para formatação Markdown da página |
 | 11/10/2026 | `1.1` | Adição do Storyboard 02 (Pré-agendamento no Programa DF Acessível) e atualização do link do Cenário 1. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para tratamento da imagem e formatação Markdown da seção |
+| 12/10/2026 | `1.2` | Adição do Storyboard 05 (Consulta de Rotas e Desvios para Novos Endereços): roteiro dos quadros, ilustração e tabela de verificação. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para formatação Markdown da seção |
+| 13/10/2026 | `1.3` | Adição do Storyboard 03 (Planejamento de Rota por Origem/Destino e Rastreamento), descrição narrativa acessível e tabela de conformidade. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini - utilizado apenas para formatação em Markdown |
+| 13/10/2026 | `1.4` | Adição do Storyboard 04 (Consulta de Escala de Trabalho e Alertas Operacionais) elaborado por Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não utilizada (elaboração autoral manual do integrante) |
 
 ---
 
@@ -44,7 +47,7 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 | **03** | **Lucas Araújo** | *Planejamento de Rota por Origem/Destino* | [Marcos Paulo Vieira](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/marcos-paulo-vieira/) | [Cenário 3](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino/) | [TAR-03 (Origem/Destino)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/) |
 | **04** | **Carlos Costa** | *Consulta de escala e alertas operacionais* | [Valdir Soares](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/valdir-soares/) | [Cenário 5](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-5-consulta-escala/) / [Cenário 6](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-6-alerta-desvio/) | [TAR-04/TAR-05 (Motorista)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista/) |
 | **05** | **Tomas Garcia Rocho** | *Consulta de rotas e desvios para novos endereços* | [Heitor Santos Júnior](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/heitor-santos-junior/) | [Cenário 9](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-9-endereco-novo/) | [TAR-03 (Pesquisa de Rota)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/) |
-| **06** | **Rodrigo Barbosa** | *Rastreamento de ônibus sob chuva no DF no Ponto* | [Mariana Borges Almeida](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/mariana-borges-almeida/) | [Cenário 10](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-10-viagem-ideal/) | [TAR-06 (DF no Ponto)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto/) |
+| **06** | **Rodrigo Barbosa** | *Reclamação sobre ônibus a partir do site da Semob* | [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) | [Cenário 11](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus/) | [TAR-08 (Reclamação sobre Ônibus)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/) |
 | **07** | **Arthur Mariani** | *Regularização de crédito de Vale-Transporte* | [Maria Eduarda Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/maria-eduarda-santos/) | [Cenário 4](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte/) | [TAR-07 (Vale-Transporte)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte/) |
 
 <div align="center">
@@ -128,25 +131,92 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 
 ---
 
-### 3.3. Storyboard 03: Planejamento de Rota por Origem e Destino
+### 3.3. Storyboard 03: Planejamento de Rota por Origem e Destino com Monitoramento em Tempo Real
 
 * **Autor:** [Lucas Araújo](https://github.com/Lucasaraujoszz)
-* **Persona Retratada:** [Marcos Paulo Vieira](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/marcos-paulo-vieira/)
+* **Persona Retratada:** [Marcos Paulo Vieira](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/marcos-paulo-vieira/) (Assistente de logística e estoque, 31 anos, morador de Samambaia Sul)
 * **Cenário de Uso:** [Cenário 3 — Deslocamento com Busca por Destino](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino/)
-* **Tarefa Ancorada:** [TAR-03 — Planejamento de Rota por Origem/Destino](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/)
+* **Tarefa Ancorada:** [TAR-03 — Planejamento de Rota por Origem/Destino e Rastreamento](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/)
+* **Tempo para confecção:** ~15 minutos.
 
-*(Esta seção será preenchida com a ilustração e descrição detalhada do Storyboard 03 elaborado pelo integrante Lucas Araújo).*
+#### **Ilustração do Storyboard 03**
+
+<div align="center">
+  <img src="../../../assets/storyboards/Storyboard-3-Lucas.jpg" alt="Storyboard 03 - Planejamento de Rota por Origem/Destino e Rastreamento" width="100%">
+  <p><strong>Figura 3</strong> — Storyboard 03: Planejamento de rota por Origem/Destino e rastreamento em tempo real</p>
+  <p><em>Fonte: Elaborado por Lucas Araújo (2026).</em></p>
+</div>
+
+#### **Descrição Narrativa dos Quadros (Acessibilidade e Rastreamento)**
+
+1. **Quadro 1 (Contexto e Problema):** Na parada de ônibus de Samambaia Sul, sob chuva, Marcos percebe que sua linha habitual atrasou e precisa encontrar com urgência uma rota alternativa para não se atrasar no trabalho no SIA (evitando punição de ponto).
+2. **Quadro 2 (Acesso ao Novo Portal):** Marcos acessa o portal da SEMOB-DF pelo navegador do smartphone e encontra de imediato a funcionalidade de planejamento de rotas na página inicial, com a mensagem proativa: *"Para onde você vai hoje?"*, comemorando o fato de poder resolver a demanda sem precisar baixar aplicativo sob a chuva.
+3. **Quadro 3 (Definição dos Parâmetros):** O sistema preenche automaticamente sua localização atual via GPS (*Samambaia Sul*) e, ao digitar *"SIA"*, a ferramenta sugere instantaneamente o destino *"SIA Trecho 3"*, permitindo acionar o botão *"Encontrar rotas"* (Subtarefas 1.1 e 1.2 da TAR-03).
+4. **Quadro 4 (Comparação e Seleção de Itinerário):** O portal exibe os cartões com as linhas disponíveis, tempo previsto e tarifa (ex.: *Linha 0.818 - Semiexpressa em 6 min por R$ 5,50* vs. *Linha 0.394 em 18 min por R$ 6,00*). Marcos seleciona a melhor alternativa para sua necessidade de horário (Subtarefas 2.1 e 2.2 da TAR-03).
+5. **Quadro 5 (Rastreamento Georreferenciado):** Marcos visualiza o ônibus se aproximando no mapa em tempo real e confere o tempo estimado de chegada (*ETA: 3 min*), preparando seu cartão de embarque com tranquilidade e previsibilidade (Subtarefas 3.1 e 3.2 da TAR-03).
+6. **Quadro 6 (Desfecho e Sucesso):** O ônibus chega pontualmente à parada e Marcos realiza o embarque sem estresse, garantindo a chegada no trabalho no SIA com pontualidade e segurança.
+
+#### **Tabela de Verificação do Storyboard 03**
+
+<div align="center">
+<p><strong>Tabela 4</strong> — Verificação de Conformidade do Storyboard 03</p>
+</div>
+
+| Categoria / Critério | Atendimento no Storyboard 03 | Situação |
+| :--- | :--- | :---: |
+| **1. Personas e Atores** | Apresenta a persona primária **Marcos Paulo Vieira** no ponto de ônibus com sua mochila. | **Conforme** |
+| **2. Contexto e Ambiente** | Retrata fielmente a parada de Samambaia Sul sob chuva, a urgência de horário e o uso do celular em pé. | **Conforme** |
+| **3. Tarefa Retratada** | Ilustra a execução completa da **TAR-03** (informar origem/destino, selecionar linha, acompanhar no mapa e embarcar). | **Conforme** |
+| **4. Papel do Sistema** | Demonstra a busca direta sem exigência de código da linha, sem redirecionamento para app e mapa em tempo real. | **Conforme** |
+| **5. Estrutura Narrativa** | Apresenta sequência com início (Q1), meio e interação (Q2 a Q5) e desfecho bem-sucedido (Q6). | **Conforme** |
+
+<div align="center">
+<p><em>Fonte: Elaborado por Lucas Araújo (2026).</em></p>
+</div>
 
 ---
 
 ### 3.4. Storyboard 04: Consulta de Escala e Alertas Operacionais
 
 * **Autor:** [Carlos Costa](https://github.com/carloshfgit)
-* **Persona Retratada:** [Valdir Soares](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/valdir-soares/)
-* **Cenário de Uso:** [Cenário 5 — Consulta de Escala de Trabalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-5-consulta-escala/)
+* **Persona Retratada:** [Valdir Soares](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/valdir-soares/) (Motorista Profissional de Ônibus Urbano, 48 anos)
+* **Cenário de Uso:** [Cenário 5 — Consulta de Escala de Trabalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-5-consulta-escala/) e [Cenário 6 — Alerta Emergencial de Desvio](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-6-alerta-desvio/)
 * **Tarefa Ancorada:** [TAR-04/TAR-05 — Análise de Tarefas do Motorista](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista/)
+* **Tempo para confecção:** ~10 minutos.
 
-*(Esta seção será preenchida com a ilustração e descrição detalhada do Storyboard 04 elaborado pelo integrante Carlos Costa).*
+#### **Ilustração do Storyboard 04**
+
+<div align="center">
+  <img src="../../../assets/storyboards/Storyboard-4-Carlos.png" alt="Storyboard 04 - Consulta de Escala e Alertas Operacionais" width="100%">
+  <p><strong>Figura 4</strong> — Storyboard 04: Consulta de escala e alertas operacionais</p>
+  <p><em>Fonte: Elaborado por Carlos Costa (2026).</em></p>
+</div>
+
+#### **Descrição Narrativa dos Quadros do Storyboard 04**
+
+* **Quadro 1 (Início — Contexto e Necessidade):** Às 5h da manhã, na garagem da empresa concessionária antes de assumir o veículo, Valdir Soares precisa conferir sua escala de trabalho oficial do dia.
+* **Quadro 2 (Ação — Consulta no Aplicativo Móvel):** Valdir pega seu smartphone, abre o aplicativo da SEMOB e digita a linha escalada (`0.509`) no campo de consulta.
+* **Quadro 3 (Feedback — Confirmação e Segurança Operacional):** O aplicativo da SEMOB confirma a grade horária homologada (`5:00`, `6:00`, `7:00`). Valdir comemora aliviado ao verificar que as informações estão sincronizadas com a garagem: *"Tabela certa!"*.
+* **Quadro 4 (Contingência — Notificação Proativa de Alertas e Bloqueios):** Durante sua rotina, o aplicativo emite alertas operacionais em tempo real sobre bloqueios viários e contingências na estrada (`SEMOB: Bloqueio!`).
+* **Quadro 5 (Fim — Condução Segura e Desfecho Positivo):** Munido de informações confiáveis e avisos tempestivos, Valdir segue sua viagem tranquilo, sem surpresas desagradáveis ou atritos operacionais, comemorando com um gesto positivo.
+
+#### **Tabela de Verificação do Storyboard 04**
+
+<div align="center">
+<p><strong>Tabela 5</strong> — Verificação de Conformidade do Storyboard 04</p>
+</div>
+
+| Categoria / Critério | Atendimento no Storyboard 04 | Situação |
+| :--- | :--- | :---: |
+| **1. Personas e Atores** | Apresenta a persona **Valdir Soares ("Seu Valdir")**, motorista rodoviário de 48 anos, em traço simples e expressivo. | **Conforme** |
+| **2. Contexto e Ambiente** | Situa a narrativa na garagem nas primeiras horas da manhã (5h) e durante a condução no itinerário da linha. | **Conforme** |
+| **3. Tarefa Retratada** | Retrata a execução completa da consulta de escala homologada e recepção de alertas operacionais viários (**TAR-04/TAR-05**). | **Conforme** |
+| **4. Papel do Sistema** | Demonstra o aplicativo da SEMOB permitindo consulta da linha 0.509, exibindo grade de horários e alertando sobre bloqueios. | **Conforme** |
+| **5. Estrutura Narrativa** | Apresenta estrutura clássica com Início contextual (Q1), Ação e Feedback (Q2–Q4) e Desfecho positivo (Q5). | **Conforme** |
+
+<div align="center">
+<p><em>Fonte: Carlos Costa (2026).</em></p>
+</div>
 
 ---
 
@@ -157,18 +227,98 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 * **Cenário de Uso:** [Cenário 9 — Navegação para Endereço Novo com Desvio](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-9-endereco-novo/)
 * **Tarefa Ancorada:** [TAR-03 — Pesquisa e Seleção de Itinerário](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/)
 
-*(Esta seção será preenchida com a ilustração e descrição detalhada do Storyboard 05 elaborado pelo integrante Tomas Garcia Rocho).*
+#### **Roteiro dos Quadros do Storyboard 05**
+
+O storyboard mostra a situação do Cenário 9 com a solução proposta: Heitor encontra a rota a partir do destino e é avisado do desvio antes de ir até o ponto errado.
+
+<div align="center">
+<p><strong>Tabela 4</strong> — Roteiro quadro a quadro do Storyboard 05</p>
+</div>
+
+| Quadro | O que é mostrado | Papel do sistema |
+| :---: | :--- | :--- |
+| **Q1** | Heitor recebe na recepção uma ordem de serviço de manutenção predial no edifício da 708 Norte, endereço que não conhece. | Gatilho da necessidade. |
+| **Q2** | Ele abre o site pelo celular e digita "708 Norte" no campo de busca. O site mostra uma lista de endereços parecidos para ele escolher. | Busca por destino, sem precisar saber o nome ou o número da linha. |
+| **Q3** | A tela **Melhor rota encontrada** mostra a **linha 102**, sentido 708 Norte, um aviso em destaque de **desvio pela L2** e um esquema do trajeto desviado. | Aviso de desvio associado à linha que o usuário vai pegar. |
+| **Q4** | Heitor vai ao ponto correto e faz sinal para o ônibus da linha 102, que segue com o desvio pela L2. | Rota e parada atualizadas de acordo com o desvio. |
+| **Q5** | Ele chega à entrada do edifício da 708 Norte a tempo de realizar o serviço. | Tarefa concluída sem atraso. |
+
+<div align="center">
+<p><em>Fonte: Tomás Rocho (2026), com base no Cenário 9.</em></p>
+</div>
+
+#### **Ilustração do Storyboard 05**
+
+<div align="center">
+  <img src="../../../assets/storyboards/Storyboard-5-Tomas.jpg" alt="Storyboard 05 - Consulta de Rotas e Desvios para Novos Endereços" width="100%">
+  <p><strong>Figura 5</strong> — Storyboard 05: Consulta de rotas e desvios para novos endereços</p>
+  <p><em>Fonte: Elaborado por Tomás Rocho (2026).</em></p>
+</div>
+
+#### **Tabela de Verificação do Storyboard 05**
+
+<div align="center">
+<p><strong>Tabela 5</strong> — Verificação de Conformidade do Storyboard 05</p>
+</div>
+
+| Categoria / Critério | Atendimento no Storyboard 05 | Situação |
+| :--- | :--- | :---: |
+| **1. Personas e Atores** | Apresenta o personagem **Heitor Santos Júnior**, em traço simples e desenhado à mão, como trabalhador de manutenção predial que usa o celular para chegar ao destino. | **Conforme** |
+| **2. Contexto e Ambiente** | Transita da recepção onde recebe a ordem de serviço (Q1) e consulta o celular (Q2–Q3) para o ponto de ônibus (Q4) e a entrada do edifício da 708 Norte (Q5). | **Conforme** |
+| **3. Tarefa Retratada** | Ilustra a **TAR-03** (pesquisa e seleção de itinerário) aplicada a um endereço novo, como no Cenário 9. | **Conforme** |
+| **4. Papel do Sistema** | Exibe a busca por destino com sugestões (Q2) e a melhor rota com o aviso de desvio associado à linha (Q3). | **Conforme** |
+| **5. Estrutura Narrativa** | Possui fluxo claro com Início (Q1), Meio (Q2–Q4) e Fim (Q5), com legenda manuscrita em cada quadro. | **Conforme** |
+
+<div align="center">
+<p><em>Fonte: Tomás Rocho (2026).</em></p>
+</div>
 
 ---
 
-### 3.6. Storyboard 06: Rastreamento em Tempo Real no DF no Ponto
+### 3.6. Storyboard 06: Reclamação sobre Ônibus a partir do Site da Semob
 
 * **Autor:** [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa)
-* **Persona Retratada:** [Mariana Borges Almeida](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/mariana-borges-almeida/)
-* **Cenário de Uso:** [Cenário 10 — Viagem sob Chuva e Monitoramento em Tempo Real](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-10-viagem-ideal/)
-* **Tarefa Ancorada:** [TAR-06 — Consulta de Ônibus no DF no Ponto](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto/)
+* **Persona Retratada:** [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) (Técnica de enfermagem, 46 anos, moradora de Ceilândia Norte)
+* **Cenário de Uso:** [Cenário 11 — Reclamação sobre Ônibus que Passou Direto](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus/)
+* **Tarefa Ancorada:** [TAR-08 — Registro de Reclamação sobre Ônibus a partir do Site da Semob](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/)
+* **Tempo para confecção:** ~10 minutos.
 
-*(Esta seção será preenchida com a ilustração e descrição detalhada do Storyboard 06 elaborado pelo integrante Rodrigo Barbosa).*
+O Storyboard 06 retrata o **fluxo atual** da tarefa: Cláudia tenta reclamar de um ônibus que passou direto pela parada, mas encontra as barreiras identificadas na TAR-08 e **desiste antes de registrar a reclamação**. O desfecho evidencia o principal gargalo da tarefa: a mudança do site da Semob para o Participa-DF e a exigência de login, que fazem a usuária abandonar o objetivo. As telas são representadas como esboços, e não como capturas do site, preservando o caráter de planejamento do storyboard.
+
+#### **Ilustração do Storyboard 06**
+
+![Storyboard 06 - Reclamação sobre ônibus a partir do site da Semob](../../assets/storyboards/Storyboard-6-Rodrigo.png){ width="100%" }
+<div align="center">
+  <p><strong>Figura 6</strong> — Storyboard 06: Reclamação sobre ônibus a partir do site da Semob</p>
+  <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
+</div>
+
+#### **Descrição Narrativa dos Quadros do Storyboard 06**
+
+* **Quadro 1 (Início — O Ocorrido):** De madrugada, na parada de ônibus, Cláudia perde o ônibus da sua linha, que passa direto sem parar.
+* **Quadro 2 (Consequência — Atraso no Plantão):** Por causa do ônibus perdido, Cláudia chega atrasada ao trabalho no hospital e decide que vai reclamar.
+* **Quadro 3 (Ação — Procura do Canal):** Mais tarde, já em casa, Cláudia abre o site da Semob no celular para descobrir onde pode registrar sua reclamação.
+* **Quadro 4 (Descoberta — Ouvidoria):** Depois de procurar pelo site, Cláudia encontra o símbolo da Ouvidoria no celular e toca nele.
+* **Quadro 5 (Ruptura — Mudança de Site):** Cláudia é levada para outro site, o Participa-DF, e se pergunta por que saiu do site da Semob.
+* **Quadro 6 (Fim — Desistência):** O novo site exige que ela faça login novamente. Cláudia reclama do esforço extra e desiste de registrar a reclamação.
+
+#### **Tabela de Verificação do Storyboard 06**
+
+<div align="center">
+<p><strong>Tabela 7</strong> — Verificação de Conformidade do Storyboard 06</p>
+</div>
+
+| Categoria / Critério | Atendimento no Storyboard 06 | Situação |
+| :--- | :--- | :---: |
+| **1. Personas e Atores** | Apresenta a persona **Cláudia Regina Santos**, técnica de enfermagem de 46 anos, em traço simples. | **Conforme** |
+| **2. Contexto e Ambiente** | Transita da parada de ônibus, de madrugada, para o hospital e, depois, para a casa de Cláudia, onde ela tenta reclamar pelo celular. | **Conforme** |
+| **3. Tarefa Retratada** | Retrata a tentativa de execução da **TAR-08** até o ponto de abandono: encontrar o canal no site da Semob (objetivo 2) e acessar o Participa-DF (objetivo 3). | **Conforme** |
+| **4. Papel do Sistema** | Mostra o site da Semob, o acesso pela Ouvidoria, o redirecionamento ao Participa-DF e a exigência de login como barreiras à tarefa. | **Conforme** |
+| **5. Estrutura Narrativa** | Possui fluxo claro com Início (Q1–Q2), Meio (Q3–Q5) e Fim com desfecho negativo (Q6). | **Conforme** |
+
+<div align="center">
+<p><em>Fonte: Rodrigo Barbosa (2026).</em></p>
+</div>
 
 ---
 
