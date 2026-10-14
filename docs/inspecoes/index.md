@@ -98,12 +98,21 @@ Cada etapa possui dois espaços de gravação: a inspeção recebida pelo **Grup
 ## 5. Inspeção da Entrega 4 — Planejamento da Avaliação
 
 * **Período de referência:** 12/10/2026 a 13/10/2026.
-* **Grupo alternado:** Grupo -1.
+* **Grupo alternado:** Grupo -1 (Grupo 03).
 
 | Vídeo | Registro | Link |
 | :---: | :--- | :--- |
 | 1 | Inspeção do próprio Grupo 05 | *Pendente* |
-| 2 | Inspeção do Grupo -1 | *Pendente* |
+| 2 | Inspeção do Grupo -1 (Grupo 03) | [Assistir à gravação](https://youtu.be/aP8W4A7xLIM) |
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aP8W4A7xLIM" title="Inspeção da Entrega 4 do Grupo 03" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div align="center">
+<p><strong>Vídeo 2</strong> — Gravação da reunião de inspeção da Entrega 3 do Grupo 06 (Grupo +1).</p>
+<p><em>Fonte: Grupo 05 (2026).</em></p>
+</div>
 
 ---
 
