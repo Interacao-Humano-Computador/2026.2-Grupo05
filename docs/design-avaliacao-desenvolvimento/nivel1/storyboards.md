@@ -178,6 +178,7 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 * **Persona Retratada:** [Maria Eduarda Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/maria-eduarda-santos/)
 * **Cenário de Uso:** [Cenário 4 — Resolução de Falha de Crédito de Vale-Transporte](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte/)
 * **Tarefa Ancorada:** [TAR-07 — Consulta e Regularização de Crédito](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte/)
+* **Tempo para confecção:** ~9 minutos.
 
 #### **Ilustração do Storyboard 07**
 
