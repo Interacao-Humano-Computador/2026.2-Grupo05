@@ -46,7 +46,7 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 | **03** | **Lucas Araújo** | *Planejamento de Rota por Origem/Destino* | [Marcos Paulo Vieira](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/marcos-paulo-vieira/) | [Cenário 3](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino/) | [TAR-03 (Origem/Destino)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/) |
 | **04** | **Carlos Costa** | *Consulta de escala e alertas operacionais* | [Valdir Soares](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/valdir-soares/) | [Cenário 5](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-5-consulta-escala/) / [Cenário 6](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-6-alerta-desvio/) | [TAR-04/TAR-05 (Motorista)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista/) |
 | **05** | **Tomas Garcia Rocho** | *Consulta de rotas e desvios para novos endereços* | [Heitor Santos Júnior](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/heitor-santos-junior/) | [Cenário 9](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-9-endereco-novo/) | [TAR-03 (Pesquisa de Rota)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/) |
-| **06** | **Rodrigo Barbosa** | *Rastreamento de ônibus sob chuva no DF no Ponto* | [Mariana Borges Almeida](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/mariana-borges-almeida/) | [Cenário 10](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-10-viagem-ideal/) | [TAR-06 (DF no Ponto)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto/) |
+| **06** | **Rodrigo Barbosa** | *Reclamação sobre ônibus a partir do site da Semob* | [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) | [Cenário 11](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus/) | [TAR-08 (Reclamação sobre Ônibus)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/) |
 | **07** | **Arthur Mariani** | *Regularização de crédito de Vale-Transporte* | [Maria Eduarda Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/maria-eduarda-santos/) | [Cenário 4](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte/) | [TAR-07 (Vale-Transporte)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte/) |
 
 <div align="center">
@@ -240,14 +240,50 @@ O storyboard mostra a situação do Cenário 9 com a solução proposta: Heitor 
 
 ---
 
-### 3.6. Storyboard 06: Rastreamento em Tempo Real no DF no Ponto
+### 3.6. Storyboard 06: Reclamação sobre Ônibus a partir do Site da Semob
 
 * **Autor:** [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa)
-* **Persona Retratada:** [Mariana Borges Almeida](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/mariana-borges-almeida/)
-* **Cenário de Uso:** [Cenário 10 — Viagem sob Chuva e Monitoramento em Tempo Real](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-10-viagem-ideal/)
-* **Tarefa Ancorada:** [TAR-06 — Consulta de Ônibus no DF no Ponto](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto/)
+* **Persona Retratada:** [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) (Técnica de enfermagem, 46 anos, moradora de Ceilândia Norte)
+* **Cenário de Uso:** [Cenário 11 — Reclamação sobre Ônibus que Passou Direto](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus/)
+* **Tarefa Ancorada:** [TAR-08 — Registro de Reclamação sobre Ônibus a partir do Site da Semob](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/)
+* **Tempo para confecção:** ~10 minutos.
 
-*(Esta seção será preenchida com a ilustração e descrição detalhada do Storyboard 06 elaborado pelo integrante Rodrigo Barbosa).*
+O Storyboard 06 retrata o **fluxo atual** da tarefa: Cláudia tenta reclamar de um ônibus que passou direto pela parada, mas encontra as barreiras identificadas na TAR-08 e **desiste antes de registrar a reclamação**. O desfecho evidencia o principal gargalo da tarefa: a mudança do site da Semob para o Participa-DF e a exigência de login, que fazem a usuária abandonar o objetivo. As telas são representadas como esboços, e não como capturas do site, preservando o caráter de planejamento do storyboard.
+
+#### **Ilustração do Storyboard 06**
+
+![Storyboard 06 - Reclamação sobre ônibus a partir do site da Semob](../../assets/storyboards/Storyboard-6-Rodrigo.png){ width="100%" }
+<div align="center">
+  <p><strong>Figura 6</strong> — Storyboard 06: Reclamação sobre ônibus a partir do site da Semob</p>
+  <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
+</div>
+
+#### **Descrição Narrativa dos Quadros do Storyboard 06**
+
+* **Quadro 1 (Início — O Ocorrido):** De madrugada, na parada de ônibus, Cláudia perde o ônibus da sua linha, que passa direto sem parar.
+* **Quadro 2 (Consequência — Atraso no Plantão):** Por causa do ônibus perdido, Cláudia chega atrasada ao trabalho no hospital e decide que vai reclamar.
+* **Quadro 3 (Ação — Procura do Canal):** Mais tarde, já em casa, Cláudia abre o site da Semob no celular para descobrir onde pode registrar sua reclamação.
+* **Quadro 4 (Descoberta — Ouvidoria):** Depois de procurar pelo site, Cláudia encontra o símbolo da Ouvidoria no celular e toca nele.
+* **Quadro 5 (Ruptura — Mudança de Site):** Cláudia é levada para outro site, o Participa-DF, e se pergunta por que saiu do site da Semob.
+* **Quadro 6 (Fim — Desistência):** O novo site exige que ela faça login novamente. Cláudia reclama do esforço extra e desiste de registrar a reclamação.
+
+#### **Tabela de Verificação do Storyboard 06**
+
+<div align="center">
+<p><strong>Tabela 7</strong> — Verificação de Conformidade do Storyboard 06</p>
+</div>
+
+| Categoria / Critério | Atendimento no Storyboard 06 | Situação |
+| :--- | :--- | :---: |
+| **1. Personas e Atores** | Apresenta a persona **Cláudia Regina Santos**, técnica de enfermagem de 46 anos, em traço simples. | **Conforme** |
+| **2. Contexto e Ambiente** | Transita da parada de ônibus, de madrugada, para o hospital e, depois, para a casa de Cláudia, onde ela tenta reclamar pelo celular. | **Conforme** |
+| **3. Tarefa Retratada** | Retrata a tentativa de execução da **TAR-08** até o ponto de abandono: encontrar o canal no site da Semob (objetivo 2) e acessar o Participa-DF (objetivo 3). | **Conforme** |
+| **4. Papel do Sistema** | Mostra o site da Semob, o acesso pela Ouvidoria, o redirecionamento ao Participa-DF e a exigência de login como barreiras à tarefa. | **Conforme** |
+| **5. Estrutura Narrativa** | Possui fluxo claro com Início (Q1–Q2), Meio (Q3–Q5) e Fim com desfecho negativo (Q6). | **Conforme** |
+
+<div align="center">
+<p><em>Fonte: Rodrigo Barbosa (2026).</em></p>
+</div>
 
 ---
 
