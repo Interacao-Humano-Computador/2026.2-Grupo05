@@ -27,7 +27,7 @@ Na Tabela 1, é apresentada a visão geral de todas as apresentações planejada
 | **1** | Planejamento, Equipe, Lista de Sites, Ferramentas, Processo de Design e Cronogramas | 06/09/2026 | [Vídeo da Apresentação 1](https://youtu.be/BhAlLermHBs) |
 | **2** | Perfil do Usuário, Aspectos Éticos e Análise de Tarefas | 26/09/2026 a 27/09/2026 | [Vídeo da Apresentação 2](https://youtu.be/yKAAOLNhg4o) |
 | **3** | Princípios Gerais de Projeto, Metas de Usabilidade e Guia de Estilo | 05/10/2026 a 06/10/2026 | [Vídeo da Apresentação 3](https://youtu.be/Mce8ORCaBGQ) |
-| **4** | Planejamento da Avaliação do Storyboard e da Análise de Tarefas | 12/10/2026 a 13/10/2026 | *Pendente* |
+| **4** | Planejamento da Avaliação do Storyboard e da Análise de Tarefas | 12/10/2026 a 13/10/2026 | *Gravado (Vídeo gravado em 13/10)* |
 | **5** | Relatos (Storyboard/Tarefas) e Planej. Avaliação do Protótipo de Papel | 24/10/2026 a 25/10/2026 | *Pendente* |
 | **6** | Relato (Prot. Papel) e Planej. Avaliação do Protótipo de Alta Fidelidade | 02/11/2026 a 03/11/2026 | *Pendente* |
 | **7** | Relato dos Resultados do Protótipo de Alta Fidelidade | 14/11/2026 a 15/11/2026 | *Pendente* |
@@ -74,9 +74,9 @@ Na Tabela 1, é apresentada a visão geral de todas as apresentações planejada
 ---
 
 ### 3.4. Apresentação da Entrega 4: Planejamento da Avaliação
-* **Data da Apresentação/Gravação:** 12/10/2026 a 13/10/2026
+* **Data da Apresentação/Gravação:** 12/10/2026 a 13/10/2026 (Gravado em 13/10/2026)
 * **Conteúdo:** Apresentação do planejamento da avaliação do Storyboard e da Análise de Tarefas pelo framework DECIDE, roteiros de teste piloto e métodos de coleta de dados.
-* **Link do Vídeo:** *Pendente*
+* **Link do Vídeo:** *Vídeo gravado pela equipe em 13/10/2026 — Link em fase de upload no YouTube.*
 
 ---
 

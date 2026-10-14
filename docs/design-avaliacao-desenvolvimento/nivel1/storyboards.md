@@ -4,6 +4,7 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 11/10/2026 | `1.0` | Criação e estruturação do documento de Storyboards e adição do Storyboard 01 (Alerta Inteligente de Saída). | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - usado para formatação Markdown da página |
 | 11/10/2026 | `1.1` | Adição do Storyboard 02 (Pré-agendamento no Programa DF Acessível) e atualização do link do Cenário 1. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para tratamento da imagem e formatação Markdown da seção |
+| 13/10/2026 | `1.2` | Adição do Storyboard 03 (Planejamento de Rota por Origem/Destino e Rastreamento), descrição narrativa acessível e tabela de conformidade. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini - utilizado apenas para formatação em Markdown |
 
 ---
 
@@ -129,14 +130,48 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 
 ---
 
-### 3.3. Storyboard 03: Planejamento de Rota por Origem e Destino
+### 3.3. Storyboard 03: Planejamento de Rota por Origem e Destino com Monitoramento em Tempo Real
 
 * **Autor:** [Lucas Araújo](https://github.com/Lucasaraujoszz)
-* **Persona Retratada:** [Marcos Paulo Vieira](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/marcos-paulo-vieira/)
+* **Persona Retratada:** [Marcos Paulo Vieira](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/marcos-paulo-vieira/) (Assistente de logística e estoque, 31 anos, morador de Samambaia Sul)
 * **Cenário de Uso:** [Cenário 3 — Deslocamento com Busca por Destino](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino/)
-* **Tarefa Ancorada:** [TAR-03 — Planejamento de Rota por Origem/Destino](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/)
+* **Tarefa Ancorada:** [TAR-03 — Planejamento de Rota por Origem/Destino e Rastreamento](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/)
+* **Tempo para confecção:** ~15 minutos.
 
-*(Esta seção será preenchida com a ilustração e descrição detalhada do Storyboard 03 elaborado pelo integrante Lucas Araújo).*
+#### **Ilustração do Storyboard 03**
+
+<div align="center">
+  <img src="../../../assets/storyboards/Storyboard-3-Lucas.jpg" alt="Storyboard 03 - Planejamento de Rota por Origem/Destino e Rastreamento" width="100%">
+  <p><strong>Figura 3</strong> — Storyboard 03: Planejamento de rota por Origem/Destino e rastreamento em tempo real</p>
+  <p><em>Fonte: Elaborado por Lucas Araújo (2026).</em></p>
+</div>
+
+#### **Descrição Narrativa dos Quadros (Acessibilidade e Rastreamento)**
+
+1. **Quadro 1 (Contexto e Problema):** Na parada de ônibus de Samambaia Sul, sob chuva, Marcos percebe que sua linha habitual atrasou e precisa encontrar com urgência uma rota alternativa para não se atrasar no trabalho no SIA (evitando punição de ponto).
+2. **Quadro 2 (Acesso ao Novo Portal):** Marcos acessa o portal da SEMOB-DF pelo navegador do smartphone e encontra de imediato a funcionalidade de planejamento de rotas na página inicial, com a mensagem proativa: *"Para onde você vai hoje?"*, comemorando o fato de poder resolver a demanda sem precisar baixar aplicativo sob a chuva.
+3. **Quadro 3 (Definição dos Parâmetros):** O sistema preenche automaticamente sua localização atual via GPS (*Samambaia Sul*) e, ao digitar *"SIA"*, a ferramenta sugere instantaneamente o destino *"SIA Trecho 3"*, permitindo acionar o botão *"Encontrar rotas"* (Subtarefas 1.1 e 1.2 da TAR-03).
+4. **Quadro 4 (Comparação e Seleção de Itinerário):** O portal exibe os cartões com as linhas disponíveis, tempo previsto e tarifa (ex.: *Linha 0.818 - Semiexpressa em 6 min por R$ 5,50* vs. *Linha 0.394 em 18 min por R$ 6,00*). Marcos seleciona a melhor alternativa para sua necessidade de horário (Subtarefas 2.1 e 2.2 da TAR-03).
+5. **Quadro 5 (Rastreamento Georreferenciado):** Marcos visualiza o ônibus se aproximando no mapa em tempo real e confere o tempo estimado de chegada (*ETA: 3 min*), preparando seu cartão de embarque com tranquilidade e previsibilidade (Subtarefas 3.1 e 3.2 da TAR-03).
+6. **Quadro 6 (Desfecho e Sucesso):** O ônibus chega pontualmente à parada e Marcos realiza o embarque sem estresse, garantindo a chegada no trabalho no SIA com pontualidade e segurança.
+
+#### **Tabela de Verificação do Storyboard 03**
+
+<div align="center">
+<p><strong>Tabela 4</strong> — Verificação de Conformidade do Storyboard 03</p>
+</div>
+
+| Categoria / Critério | Atendimento no Storyboard 03 | Situação |
+| :--- | :--- | :---: |
+| **1. Personas e Atores** | Apresenta a persona primária **Marcos Paulo Vieira** no ponto de ônibus com sua mochila. | **Conforme** |
+| **2. Contexto e Ambiente** | Retrata fielmente a parada de Samambaia Sul sob chuva, a urgência de horário e o uso do celular em pé. | **Conforme** |
+| **3. Tarefa Retratada** | Ilustra a execução completa da **TAR-03** (informar origem/destino, selecionar linha, acompanhar no mapa e embarcar). | **Conforme** |
+| **4. Papel do Sistema** | Demonstra a busca direta sem exigência de código da linha, sem redirecionamento para app e mapa em tempo real. | **Conforme** |
+| **5. Estrutura Narrativa** | Apresenta sequência com início (Q1), meio e interação (Q2 a Q5) e desfecho bem-sucedido (Q6). | **Conforme** |
+
+<div align="center">
+<p><em>Fonte: Elaborado por Lucas Araújo (2026).</em></p>
+</div>
 
 ---
 
