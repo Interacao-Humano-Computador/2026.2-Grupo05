@@ -9,6 +9,8 @@
 | 27/09/2026 | 1.2 | Inclusão dos cenários de uso da persona Valdir Soares (motorista de ônibus do STPC/DF) e fundamentação em Goal-Directed Design. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
 | 27/09/2026 | 1.3 | Inclusão do cenário de problema de crédito de Vale-Transporte não disponível no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
 | 28/09/2026 | 1.4 | Inclusão do Cenário 9 (Heitor) e Cenário 10 (Mariana Borges). | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
+| 11/10/2026 | 1.5 | Reescrita do Cenário 1 para a nova versão da persona Larissa (pré-agendamento no Programa DF Acessível, TAR-02). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
+| 13/10/2026 | 1.6 | Inclusão do Cenário 11 (Cláudia Regina Santos). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 ---
 
@@ -39,7 +41,7 @@ Conforme Barbosa et al. (2021), um cenário bem estruturado deve explicitar:
 
 ## 2. Registro dos Cenários Mapeados
 
-Os cenários desenvolvidos pela equipe concentram-se no diagnóstico das tarefas críticas das personas do projeto (tanto primárias quanto atendidas/operacionais), estando documentados individualmente nos links a seguir:
+A Tabela 1 apresenta os cenários desenvolvidos pela equipe para diagnosticar tarefas críticas das personas primárias e atendidas ou operacionais, além de direcionar para os respectivos artefatos individuais.
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Cenários de Uso Mapeados no Projeto</p>
@@ -47,7 +49,7 @@ Os cenários desenvolvidos pela equipe concentram-se no diagnóstico das tarefas
 
 | Cenário | Persona Associada | Tipo de Cenário | Autor da Elaboração | Artefato Completo |
 | :--- | :--- | :---: | :--- | :---: |
-| **Cenário 1 — Última viagem para casa** | [Larissa Ferreira Lima](../personas/larissa-ferreira-lima.md) | Cenário de Problema | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Cenário](cenario-1-ultima-viagem.md) |
+| **Cenário 1 — Pré-agendamento no Programa DF Acessível** | [Larissa Ferreira Lima](../personas/larissa-ferreira-lima.md) | Cenário de Problema | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Cenário](cenario-1-pre-agendamento-df-acessivel.md) |
 | **Cenário 2 — Atraso na viagem matutina por conflito no app** | [João Pedro Carvalho](../personas/joao-pedro-carvalho.md) | Cenário de Problema | [Igor Dantas](https://github.com/IgorDARAUJO) | [Acessar Cenário](cenario-2-viagem-matutina.md) |
 | **Cenário 3 — Deslocamento urgente com busca por destino** | [Marcos Paulo Vieira](../personas/marcos-paulo-vieira.md) | Cenário de Problema | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Acessar Cenário](cenario-3-planejamento-origem-destino.md) |
 | **Cenário 4 — Crédito de Vale-Transporte não disponível no cartão** | [Maria Eduarda Santos ("Duda")](../personas/maria-eduarda-santos.md) | Cenário de Problema | Equipe Grupo 05 | [Acessar Cenário](cenario-4-credito-vale-transporte.md) |
@@ -57,6 +59,7 @@ Os cenários desenvolvidos pela equipe concentram-se no diagnóstico das tarefas
 | **Cenário 8 — Conflito na catraca por divergência de horários** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Problema | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenario-8-conflito-catraca.md) |
 | **Cenário 9 — Rota para um endereço novo e desvio não avisado** | [Heitor Santos Júnior](../personas/heitor-santos-junior.md) | Cenário de Problema | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Cenário](cenario-9-endereco-novo.md) |
 | **Cenário 10 — Viagem ideal sob chuva** | [Mariana Borges Almeida](../personas/mariana-borges-almeida.md) | Cenário Ideal (Projetado) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Cenário](cenario-10-viagem-ideal.md) |
+| **Cenário 11 — Reclamação sobre ônibus que passou direto** | [Cláudia Regina Santos](../personas/claudia-regina-santos.md) | Cenário de Problema | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Cenário](cenario-11-reclamacao-onibus.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>

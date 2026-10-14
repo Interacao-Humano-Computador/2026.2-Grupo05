@@ -117,7 +117,7 @@ A Tabela 11 apresenta o cronograma executado da Entrega 2, com as atividades, re
 
 *Fonte: Igor Dantas Araújo.*
 
-### 5. Entrega 3 - Princípios, Metas e Guia de Estilo
+## 5. Entrega 3 - Princípios, Metas e Guia de Estilo
 
 A Tabela 5 apresenta o cronograma planejado da Entrega 3, com as atividades, responsáveis e prazos previstos.
 
@@ -136,8 +136,8 @@ A Tabela 5 apresenta o cronograma planejado da Entrega 3, com as atividades, res
 
 *Fonte: Igor Dantas Araújo.*
 
-### 6. Entrega 4 - Planejamento da Avaliação
-
+## 6. Entrega 4 - Planejamento da Avaliação
+### 6.1.: Cronograma planejado
 A Tabela 6 apresenta o cronograma planejado da Entrega 4, com as atividades, responsáveis e prazos previstos.
 
 **Tabela 6** - Cronograma Planejado: Entrega 4
@@ -149,7 +149,27 @@ A Tabela 6 apresenta o cronograma planejado da Entrega 4, com as atividades, res
 | **Relato do Storyboard** | Planejamento da estrutura do relato de resultados. | Carlos, Rodrigo, Igor, Gabriel | Lucas, Arthur, Tomas | 07/10/2026 | 13/10/2026 |
 | **Avaliação de Tarefas** | Planejamento usando o Framework DECIDE (Análise de Tarefas). | Carlos, Rodrigo, Igor, Gabriel | Lucas, Arthur, Tomas | 07/10/2026 | 13/10/2026 |
 | **Relato de Tarefas** | Planejamento da estrutura do relato de resultados das tarefas. | Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel | 07/10/2026 | 13/10/2026 |
-| **Teste Piloto** | Definição, data de execução e documentação do teste piloto. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/10/2026 | 13/10/2026 |
+| **Planejamento do Teste Piloto** | Definição, data de execução e documentação do teste piloto. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/10/2026 | 13/10/2026 |
+| **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 12/10/2026 | 13/10/2026 |
+| **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 14/10/2026 | 19/10/2026 |
+
+*Fonte: Igor Dantas Araújo.*
+
+### 6.2: Cronograma executado
+A Tabela 13 apresenta o cronograma executado da Entrega 4, com as atividades, responsáveis e prazos previstos.
+
+**Tabela 13** - Cronograma executado: Entrega 4
+
+| Atividade | Descrição da Tarefa | Autor(es) | Revisor(es) | Data de Início | Data de Fim |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **Confecção dos Storyboards** | Desenho dos Storyboards atrelados às tarefas. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 07/10/2026 | 13/10/2026 |
+| **Planejamento da Avaliação do Storyboard** | Planejamento usando o Framework DECIDE (objetivos e método). | Gabriel | Igor | 07/10/2026 | 13/10/2026 |
+| **Questões Práticas/Éticas** | Definição de recrutamento, prazos, orçamento e ética (Storyboard). | Lucas | Arthur | 07/10/2026 | 13/10/2026 |
+| **Planejamento do Relato dos resultados do Storyboard** | Planejamento da estrutura do relato de resultados. | Rodrigo | Tomas | 07/10/2026 | 13/10/2026 |
+| **Planejamento da Avaliação de Tarefas** | Planejamento usando o Framework DECIDE (Análise de Tarefas). | Carlos | Lucas | 07/10/2026 | 13/10/2026 |
+| **Planejamento do Relato de Tarefas** | Planejamento da estrutura do relato de resultados das tarefas. | Arthur | Carlos | 07/10/2026 | 13/10/2026 |
+| **Planejamento do Teste Piloto** | Definição, data de execução e documentação do teste piloto. | Igor | Gabriel | 07/10/2026 | 13/10/2026 |
+| **Planejamento do cronograma e logística das sessões de avaliação** | agenda com datas, horários, plataformas e recrutamento previstos | Tomás | Rodrigo | 07/10/2026 | 13/10/2026 |
 | **Gravação e Apresentação** | Estruturação da página no Git Pages e gravação do vídeo. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 12/10/2026 | 13/10/2026 |
 | **Revisão e Ajustes Pós-Feedback** | Período de revisão/ajustes nos artefatos devidos às considerações dos monitores/professor. | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | 14/10/2026 | 19/10/2026 |
 

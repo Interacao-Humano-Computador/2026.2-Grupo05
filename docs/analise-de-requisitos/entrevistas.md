@@ -235,47 +235,7 @@ Abaixo, no Vídeo 8, é possível assistir à gravação na íntegra da entrevis
 </div>
 ---
 
-## 5. Entrevistas de Validação dos Artefatos
-
-Nesta seção são documentadas as entrevistas realizadas com os usuários para a validação dos artefatos produzidos no projeto, especificamente: **Personas, Cenários e Tarefas**. O objetivo destas sessões é garantir que os modelos elaborados reflitam com precisão a realidade, as necessidades, os comportamentos e os fluxos de ações do público-alvo do sistema do SEMOB-DF.
-
-Na Tabela 3, apresenta-se o quadro consolidado das entrevistas de validação realizadas.
-
-<div align="center">
-<p><strong>Tabela 3</strong> — Registro das Entrevistas de Validação de Artefatos</p>
-</div>
-
-| ID | Perfil do Usuário / Artefato Validado | Data de Realização | Condução e Filmagem | Link da Gravação | Status |
-| :---: | :--- | :---: | :--- | :---: | :---: |
-| **VAL-01** | Usuário primário / Passageiro Frequente | 24/09/2026 | [Igor Dantas](https://github.com/IgorDARAUJO) | [Vídeo no YouTube](https://youtu.be/4DqmkwuUDXQ?is=4VA_-ykTdegsdS10) | <span class="pill pill-ok">Concluída</span> |
-| **VAL-02** | [Perfil do Usuário 2 - Ex: Motorista] | DD/MM/AAAA | [Nome](https://github.com/github) | [Vídeo no YouTube](https://youtu.be/SEU_LINK) | <span class="pill pill-wait">Agendada</span> |
-
-<div align="center">
-<p><em>Fonte: Igor Dantas (2026).</em></p>
-</div>
-
-### 5.1. Validação 01: Usuário Primário
-
-* **Título:** Entrevista de Validação de Artefatos - Usuário primário
-* **Perfil do Participante:** Usuário diário do transporte coletivo e dos sistemas digitais de mobilidade como o SEMOB-DF.
-* **Entrevistador (Condução):** [Igor Dantas](https://github.com/IgorDARAUJO)
-* **Filmagem e Suporte Técnico:** [Igor Dantas](https://github.com/IgorDARAUJO)
-* **Data da Realização:** 24/09/2026
-* **Objetivo:** Validar os artefatos de Personas, Cenários e Tarefas elaborados para o projeto, confirmando junto ao usuário se os dados demográficos, dores, expectativas e os fluxos de execução de tarefas condizem com a sua realidade no contexto do SEMOB-DF.
-* **Link de Acesso Direto:** [https://youtu.be/4DqmkwuUDXQ?is=4VA_-ykTdegsdS10](https://youtu.be/4DqmkwuUDXQ?is=4VA_-ykTdegsdS10)
-
-Abaixo, no Vídeo 8, é possível assistir à gravação na íntegra da entrevista de validação:
-
-<div align="center">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4DqmkwuUDXQ?is=4VA_-ykTdegsdS10" title="Entrevista de Validação - Usuário primário" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen style="max-width: 100%; border-radius: 8px;"></iframe>
-</div>
-
-<div align="center">
-<p><strong>Vídeo 8</strong> — Entrevista de Validação de Artefatos com Usuário primário.</p>
-<p><em>Fonte: Igor Dantas (2026).</em></p>
-</div>
-
-## 6. Referências Bibliográficas
+## 5. Referências Bibliográficas
 
 - BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.
 - BRASIL. Ministério da Saúde. Conselho Nacional de Saúde. *Resolução nº 510, de 7 de abril de 2016*. Dispõe sobre as normas aplicáveis a pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.

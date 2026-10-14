@@ -9,7 +9,11 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este cenário de problema acompanha João Pedro Carvalho em uma viagem matutina para a universidade, afetada pela divergência entre o horário informado pelo aplicativo e a passagem real do ônibus. A situação permite examinar os impactos de dados imprecisos sobre a tomada de decisão do passageiro e fundamenta requisitos relacionados a confiabilidade, atualização e transparência das informações.
+
+## 2. Caracterização Geral
 
 **Autor: Igor Dantas Araújo**
 
@@ -21,7 +25,7 @@
 
 ---
 
-## 2. Ambiente ou Contexto
+## 3. Ambiente ou Contexto
 
 - **Quando e onde:** manhã de terça-feira, por volta das 06:30–08:00. Residência de João Pedro em Samambaia Norte e, em seguida, o ponto de ônibus do bairro.
 - **Situação de deslocamento:** ele precisa chegar pontualmente à primeira aula de Engenharia, às 08:00, no Campus UnB Gama.
@@ -31,7 +35,11 @@
 
 ---
 
-## 3. Atores
+## 4. Atores
+
+A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis influenciam o desenvolvimento da situação descrita.
+
+**Tabela 1** — Atores envolvidos no Cenário 2
 
 | Ator | Papel no cenário | Características pessoais relevantes |
 |---|---|---|
@@ -45,7 +53,7 @@
 
 ---
 
-## 4. Objetivos
+## 5. Objetivos
 
 - **Objetivo principal:** chegar pontualmente à primeira aula, às 08:00, no Campus UnB Gama.
 - **Subobjetivos:**
@@ -56,7 +64,7 @@
 
 ---
 
-## 5. Planejamento, Ações, Eventos e Avaliação
+## 6. Planejamento, Ações, Eventos e Avaliação
 
 **Como ler cada passo:** Planejamento = o que João Pedro pensa em fazer (atividade mental); Ação = o que ele faz de forma observável; Evento = o que acontece em resposta (aplicativo, sistema, ambiente ou outras pessoas) — os marcados como **[oculto]** acontecem sem que ele saiba, mas afetam a história; Avaliação = como ele interpreta o que viu (atividade mental).
 
@@ -100,7 +108,11 @@
 
 ---
 
-## 6. Problemas Revelados pelo Cenário
+## 7. Problemas Revelados pelo Cenário
+
+A Tabela 2 relaciona os problemas evidenciados durante o cenário aos momentos em que ocorrem e aos requisitos já identificados para a persona.
+
+**Tabela 2** — Problemas revelados pelo Cenário 2
 
 | Problema revelado | Onde aparece | Requisito da persona relacionado |
 |---|---|---|
@@ -114,7 +126,7 @@
 
 ---
 
-## 7. Referências Bibliográficas
+## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * ROSSON, Mary Beth; CARROLL, John M. **Usability Engineering: Scenario-Based Development of Human-Computer Interaction**. San Francisco: Morgan Kaufmann, 2002.

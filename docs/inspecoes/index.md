@@ -7,6 +7,7 @@
 | 05/10/2026 | 1.0 | Criação da página para centralizar as gravações das inspeções realizadas pelo grupo. | [Arthur Mariani](https://github.com/arthur-mariani) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
 | 05/10/2026 | 1.1 | Padronização das nove etapas de inspeção, com espaços para as gravações da inspeção do próprio grupo e do grupo alternado. | [Arthur Mariani](https://github.com/arthur-mariani) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
 | 06/10/2026 | 1.2 | Inclusão dos links e vídeos embarcados da autoinspeção do Grupo 05 e da inspeção do Grupo 03 (Entrega 2). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 10/10/2026 | 1.3 | Inclusão do link e do vídeo embarcado da inspeção do Grupo 06 (Grupo +1) na Entrega 3. | [Arthur Mariani](https://github.com/arthur-mariani) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
 
 ---
 
@@ -76,12 +77,21 @@ Cada etapa possui dois espaços de gravação: a inspeção recebida pelo **Grup
 ## 4. Inspeção da Entrega 3 — Princípios Gerais, Metas e Guia de Estilo
 
 * **Período de referência:** 05/10/2026 a 06/10/2026.
-* **Grupo alternado:** Grupo +1.
+* **Grupo alternado:** Grupo +1 (Grupo 06).
 
 | Vídeo | Registro | Link |
 | :---: | :--- | :--- |
 | 1 | Inspeção do próprio Grupo 05 | *Pendente* |
-| 2 | Inspeção do Grupo +1 | *Pendente* |
+| 2 | Inspeção do Grupo +1 (Grupo 06) | [Assistir à gravação](https://youtu.be/OwEfaXah5HY) |
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/OwEfaXah5HY" title="Inspeção da Entrega 3 do Grupo 06" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div align="center">
+<p><strong>Vídeo 2</strong> — Gravação da reunião de inspeção da Entrega 3 do Grupo 06 (Grupo +1).</p>
+<p><em>Fonte: Grupo 05 (2026).</em></p>
+</div>
 
 ---
 

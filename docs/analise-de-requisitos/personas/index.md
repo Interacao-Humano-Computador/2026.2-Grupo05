@@ -9,6 +9,8 @@
 | 27/09/2026 | 1.2 | Inclusão formal da persona Valdir Soares ("Seu Valdir") representando os motoristas do STPC/DF (Persona Atendida). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
 | 27/09/2026 | 1.3 | Inclusão da persona primária Maria Eduarda Santos, com foco em falhas de Vale-Transporte e cartão. | Equipe Grupo 05 | [Carlos Costa](https://github.com/carloshfgit) |
 | 28/09/2026 | 1.4 | Inclusão das personas Heitor Santos Júnior e Mariana Borges Almeida. | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
+| 11/10/2026 | 1.5 | Reformulação da persona Larissa Ferreira Lima para usuária com mobilidade reduzida temporária (Programa DF Acessível). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
+| 13/10/2026 | 1.6 | Inclusão da persona primária Cláudia Regina Santos. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 ---
 
@@ -36,11 +38,28 @@ As personas deste projeto foram concebidas a partir da articulação dos dados o
 2. **[Perfis de Usuário](../perfis-de-usuario/index.md):** Caracterização do usuário primário (passageiro frequente do STPC/DF) e do usuário terciário (motorista de transporte público coletivo).
 3. **[Entrevistas e Pesquisas Empíricas](../entrevistas.md):** Relatos diretos sobre rotinas de deslocamento, fricções de uso com canais digitais e expectativas de atendimento.
 
+### 2.1 Justificativa da Quantidade de Personas
+
+A quantidade de personas foi definida pela necessidade de representar padrões comportamentais, objetivos, contextos de uso e tarefas relevantes que não poderiam ser reunidos em um único arquétipo sem produzir um “usuário elástico”. Com base nos dados disponíveis, foram mantidas **oito personas**: sete associadas ao público passageiro e uma vinculada à perspectiva operacional dos motoristas.
+
+Cada persona foi preservada no elenco por acrescentar uma perspectiva específica:
+
+1. **Larissa Ferreira Lima:** mobilidade reduzida temporária, necessidade de transporte adaptado porta a porta e uso do Programa DF Acessível.
+2. **João Pedro Carvalho:** alta familiaridade tecnológica, rotina universitária e expectativa de alertas preditivos.
+3. **Marcos Paulo Vieira:** planejamento por origem e destino sem conhecimento prévio do código da linha.
+4. **Maria Eduarda Santos:** uso de Vale-Transporte e resolução de falhas de crédito sob pressão de horário e orçamento.
+5. **Heitor Santos Júnior:** letramento digital intermediário, deslocamento para endereços desconhecidos e necessidade de avisos sobre desvios.
+6. **Mariana Borges Almeida:** previsibilidade, monitoramento em tempo real e tomada de decisão em condições de chuva.
+7. **Valdir Soares:** perspectiva do motorista como persona atendida pelo portal e como possível usuário de um canal móvel operacional.
+8. **Cláudia Regina Santos:** técnica de enfermagem em regime de plantão, foco em registro e acompanhamento de reclamações na Ouvidoria após problemas com linhas e horários.
+
+O critério de parada adotado foi a **cobertura sem redundância significativa**: uma nova persona só deve ser acrescentada se representar comportamentos, objetivos ou necessidades ainda não contemplados pelo elenco. Como parte das personas foi construída a partir da articulação de documentos, perfis, entrevistas e cenários, essa quantidade deve ser revisada após novas coletas e validações com as partes interessadas; portanto, não constitui um número universal ou definitivo.
+
 ---
 
 ## 3. Elenco de Personas Mapeadas
 
-O elenco de personas desenvolvido pela equipe para orientar as soluções de IHC do portal da SEMOB-DF está detalhado nos artefatos individuais a seguir:
+A Tabela 1 apresenta o elenco de personas desenvolvido pela equipe para orientar as soluções de IHC do portal da SEMOB-DF e direciona para os respectivos artefatos individuais.
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Elenco de Personas Mapeadas no Projeto</p>
@@ -48,28 +67,23 @@ O elenco de personas desenvolvido pela equipe para orientar as soluções de IHC
 
 | Persona | Papel no Projeto | Perfil Representado | Autor da Elaboração | Artefato Completo |
 | :--- | :--- | :--- | :--- | :---: |
-| **Larissa Ferreira Lima ("Lari")** | Persona Primária | Estudante universitária e trabalhadora que depende diariamente de integração (ônibus e metrô) | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Persona](larissa-ferreira-lima.md) |
+| **Larissa Ferreira Lima ("Lari")** | Persona Primária | Estudante universitária e trabalhadora com deficiência temporária de mobilidade, que depende do transporte adaptado do Programa DF Acessível | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Persona](larissa-ferreira-lima.md) |
 | **João Pedro Carvalho** | Persona Primária | Estudante de Engenharia na UnB com perfil tecnológico alto e foco em rota rápida e previsibilidade | [Igor Dantas](https://github.com/IgorDARAUJO) | [Acessar Persona](joao-pedro-carvalho.md) |
 | **Marcos Paulo Vieira ("Marquinhos")** | Persona Primária | Trabalhador do setor de logística (Usuário Padrão/Cotidiano), foco estrito em tarefas móveis e busca por Origem/Destino | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Acessar Persona](marcos-paulo-vieira.md) |
 | **Maria Eduarda Santos ("Duda")** | Persona Primária | Trabalhadora que utiliza Vale-Transporte e precisa resolver falhas de crédito e cartão sob pressão de horário | Equipe Grupo 05 | [Acessar Persona](maria-eduarda-santos.md) |
 | **Valdir Soares ("Seu Valdir")** | Persona Atendida (*Served*) / Primária Operacional | Motorista profissional de ônibus urbano do STPC/DF (Viação Piracicabana, Bacia 1) | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Persona](valdir-soares.md) |
 | **Heitor Santos Júnior** | Persona Primária | Técnico de manutenção predial de Planaltina, com letramento digital intermediário, que depende do ônibus para trabalhar e se deslocar entre endereços do Plano Piloto | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Persona](heitor-santos-junior.md) |
 | **Mariana Borges Almeida** | Persona Primária | Analista administrativa com rotina organizada, foco em previsão precisa e monitoramento de chegada em tempo real sob chuva | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Persona](mariana-borges-almeida.md) |
+| **Cláudia Regina Santos** | Persona Primária | Técnica de enfermagem em regime de plantão, foco em registro e acompanhamento de reclamações na Ouvidoria | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Persona](claudia-regina-santos.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>
 </div>
 
 ### 3.1 Articulação do Elenco de Personas (Barbosa e Silva, 2010, pp. 179–180)
-O elenco de personas deste projeto reúne **quatro personas primárias complementares**:
-1. **Larissa:** Representa as dores de integração intermodal, horários noturnos e barreiras informacionais de benefícios.
-2. **João Pedro:** Representa o jovem universitário tecnológico com alta expectativa de integração e alertas preditivos.
-3. **Marcos Paulo:** Representa o trabalhador cotidiano padrão, cujo foco é a resolução utilitária rápida em celular (planejamento direto de trajeto ponto a ponto sem conhecimento prévio do código da linha e rastreamento em tempo real).
-4. **Maria Eduarda:** Representa a trabalhadora que depende do Vale-Transporte e precisa resolver falhas de crédito e cartão sem comprometer a pontualidade ou o orçamento.
+O elenco reúne **seis personas associadas ao perfil passageiro** e **uma persona atendida com perspectiva operacional**. As personas passageiras compartilham a dependência do transporte coletivo, mas diferem quanto ao domínio tecnológico, ao contexto de deslocamento, aos benefícios utilizados, às condições ambientais e às informações necessárias para tomar decisões. Valdir amplia o espaço de problema ao representar quem não utiliza regularmente o portal, mas sofre diretamente os efeitos de informações públicas incorretas ou desatualizadas.
 
-Esse conjunto consolida os requisitos centrais do STPC/DF, servindo de base direta para os **Cenários de Uso** e a **Análise de Tarefas**.
-
-**Maria Eduarda** aprofunda uma situação prioritária do elenco: a indisponibilidade de créditos de Vale-Transporte no cartão. Ela orienta requisitos para a comunicação entre empresa, passageira e serviços de atendimento.
+As sete perspectivas articulam consultas de linhas e horários, planejamento por origem e destino, rastreamento em tempo real, integração, Vale-Transporte, comunicação de desvios, segurança noturna e consistência entre a informação pública e a operação. Dessa forma, o elenco fornece cobertura aos principais cenários e análises de tarefas documentados no projeto sem depender de uma única persona excessivamente abrangente.
 
 ---
 

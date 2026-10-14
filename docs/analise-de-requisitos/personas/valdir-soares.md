@@ -117,6 +117,8 @@ Em consonância com o Passo 5 de Cooper et al., o perfil do motorista foi verifi
 
 ### 3.1 Quadro de Síntese da Identidade (Cooper et al., 2007, pp. 100, 103)
 
+O quadro a seguir sintetiza a identidade de Valdir e reúne os atributos necessários para compreender seu contexto profissional e tecnológico.
+
 | Atributo | Caracterização da Persona |
 | :--- | :--- |
 | **Nome Fictício** | Valdir Soares (conhecido pelos colegas e despachantes como "Seu Valdir") |

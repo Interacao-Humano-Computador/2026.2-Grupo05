@@ -8,7 +8,11 @@
 
 ---
 
-## 1. Caracterização Geral
+## 1. Introdução
+
+Este cenário de problema descreve Maria Eduarda Santos diante da indisponibilidade do crédito de Vale-Transporte pouco antes de ir ao trabalho. A situação foi modelada para revelar dificuldades de compreensão e encaminhamento entre empregador, SEMOB-DF e BRB Mobilidade, contribuindo para requisitos de orientação clara, definição de responsabilidades e apoio à resolução do problema.
+
+## 2. Caracterização Geral
 
 **Autor: Arthur Mariani**
 
@@ -20,7 +24,7 @@
 
 ---
 
-## 2. Ambiente e Contexto
+## 3. Ambiente e Contexto
 
 * **Momento Temporal e Espacial:** Segunda-feira, início de outubro, 07h08, em uma parada de ônibus em Samambaia Sul. Maria Eduarda inicia o trajeto até o supermercado onde trabalha, no Plano Piloto.
 * **Pressão Temporal e Financeira:** O turno começa às 09h00. Ela precisa utilizar duas linhas de ônibus com integração e não pode perder a conexão. O dinheiro disponível fora do cartão está reservado para a alimentação do dia.
@@ -30,7 +34,9 @@
 
 ---
 
-## 3. Atores Envolvidos
+## 4. Atores Envolvidos
+
+A Tabela 1 identifica os participantes do cenário e esclarece como seus papéis influenciam a busca de Maria Eduarda por uma solução para o crédito indisponível.
 
 <div align="center">
 <p><strong>Tabela 1</strong>: Atores do Cenário 4</p>
@@ -49,7 +55,7 @@
 
 ---
 
-## 4. Objetivos
+## 5. Objetivos
 
 * **Objetivo Geral:** Chegar ao trabalho no horário sem arcar indevidamente com o custo da passagem que deveria estar coberto pelo Vale-Transporte.
 * **Subobjetivos Operacionais:**
@@ -61,7 +67,7 @@
 
 ---
 
-## 5. Ciclo Reflexivo: Planejamento, Ações, Eventos e Avaliação
+## 6. Ciclo Reflexivo: Planejamento, Ações, Eventos e Avaliação
 
 ### Passo 1: Tentativa de embarque com o cartão (07h08)
 
@@ -108,7 +114,9 @@
 
 ---
 
-## 6. Problemas Revelados e Requisitos Elicitados
+## 7. Problemas Revelados e Requisitos Elicitados
+
+A Tabela 2 relaciona os problemas evidenciados no cenário às causas observadas no design atual e aos requisitos de IHC propostos.
 
 <div align="center">
 <p><strong>Tabela 2</strong>: Problemas Identificados no Cenário 4 e Requisitos de IHC Correspondentes</p>
@@ -128,7 +136,7 @@
 
 ---
 
-## 7. Referências Bibliográficas
+## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6: Organização do Espaço de Problema: Cenários (pp. 183 a 191).
 * CARROLL, John M. **Making Use: Scenario-Based Design of Human-Computer Interactions**. Cambridge: MIT Press, 2000.
