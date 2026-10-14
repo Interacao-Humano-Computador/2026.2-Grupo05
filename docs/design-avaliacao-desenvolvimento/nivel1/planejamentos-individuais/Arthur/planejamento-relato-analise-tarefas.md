@@ -1,96 +1,88 @@
-# Planejamento do Relato dos Resultados da Análise de Tarefas
+# Planejamento do Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-07)
 
 ## Histórico de Versão
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração do uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 12/10/2026 | `1.0` | Elaboração do planejamento do relato, do roteiro de observação, das métricas e dos critérios de priorização dos problemas da Análise de Tarefas. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Gemini - apoio na estruturação do documento, e formatação do mkdocs. |
+| 12/10/2026 | `1.0` | Elaboração do planejamento do relato dos resultados da Análise de Tarefas. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - apoio na estruturação do documento e na formatação do MkDocs. |
+
 
 ---
 
 ## 1. Introdução
 
-Este documento define antecipadamente como serão registrados, consolidados, interpretados e apresentados os resultados da avaliação das Análises de Tarefas do portal da SEMOB-DF. O planejamento contempla a estrutura do futuro relatório, o roteiro de observação do avaliador, as métricas de desempenho, o registro dos problemas e os critérios de priorização das correções.
+Este documento define como serão registrados, interpretados e apresentados os resultados da avaliação do [Storyboard 07](../../storyboards.md) e da [TAR-07 - Resolver indisponibilidade de crédito de Vale-Transporte](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md). Os dois artefatos representam a situação descrita no [Cenário 04 - Crédito de Vale-Transporte não disponível no cartão antes do trabalho](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md).
 
-O artefato não apresenta resultados da avaliação. As tabelas foram preparadas como modelos e somente serão preenchidas depois das sessões definitivas. Os dados do teste-piloto também não serão incorporados ao relato final, pois possuem finalidade exclusiva de calibração do procedimento.
+O documento complementa o [Planejamento da Avaliação do Storyboard e da Análise de Tarefas (TAR-07)](arthur-planejamento-avaliacao.md). O planejamento da avaliação define objetivos, perguntas, participante, método e protocolo; este planejamento do relato define a estrutura na qual os dados obtidos serão organizados e convertidos em conclusões e recomendações de reprojeto.
 
-As orientações de Barbosa et al. (2021) tratam do relato de avaliações de IHC e dos métodos de observação, teste de usabilidade, avaliação heurística e prototipação em papel. Como a obra não define um artefato denominado "Planejamento do Relato dos Resultados da Análise de Tarefas", este documento aplica essas orientações à avaliação das tarefas modeladas em HTA e CTT. Essa adaptação preserva os dados, as formas de consolidação e os critérios de priorização descritos no livro.
+As tabelas apresentadas são modelos e permanecerão sem resultados até a realização da sessão definitiva. Os dados produzidos durante o teste-piloto serão utilizados somente para calibrar o procedimento e não serão incluídos no relato final.
 
 ---
 
 ## 2. Fundamentação Teórica
 
-### 2.1 Consolidação e relato dos resultados
-
-Barbosa et al. (2021, Seção 11.7.5, p. 279) orientam que os resultados individuais sejam consolidados e analisados em conjunto. Nessa atividade, os avaliadores procuram recorrências que permitam distinguir resultados representativos do grupo de ocorrências particulares de um participante. A obra também alerta que os resultados normalmente indicam tendências de problemas, e não a certeza de que eles ocorrerão em qualquer situação de uso. Do mesmo modo, a ausência de problemas encontrados não comprova que a solução possua alta qualidade de uso.
-
-Segundo os autores, o relato consolidado costuma incluir:
+Barbosa et al. (2021, Seção 11.7.5, p. 279) orientam que, depois da interpretação individual, os resultados sejam consolidados de acordo com as questões que motivaram o estudo. O relato normalmente inclui:
 
 1. objetivos e escopo da avaliação;
 2. método empregado;
 3. número e perfil dos participantes e avaliadores;
-4. sumário dos dados coletados, incluindo tabelas e gráficos;
+4. sumário dos dados coletados;
 5. interpretação e análise dos dados;
 6. lista dos problemas encontrados;
 7. planejamento para o reprojeto.
 
-Os trechos correspondentes estão destacados na [Imagem 1](#figura-1).
+Os autores também alertam que os resultados de uma avaliação indicam tendências dentro do escopo estudado. Eles não garantem que um problema ocorrerá em todas as situações, assim como a ausência de problemas encontrados não comprova que o artefato tenha alta qualidade de uso.
 
-### 2.2 Registro da observação e métricas
+Na mesma obra, o relato de problemas inclui o local da ocorrência, a descrição e justificativa, os fatores prejudicados e as sugestões de solução (Barbosa et al., 2021, Seção 12.2.1, p. 303). Neste documento, essa orientação é adaptada ao método de investigação por entrevista semiestruturada. Como a participante examinará artefatos não interativos, não serão produzidas métricas artificiais de sucesso, erros, cliques, uso de ajuda ou tempo de execução.
 
-Na avaliação por observação, Barbosa et al. (2021, Seção 12.2.1, p. 302) indicam que, para cada tarefa realizada por cada participante, podem ser registrados o grau de sucesso, o total de erros, os tipos de erro, o tempo necessário, as consultas à ajuda e a satisfação. Também podem ser coletados anotações do avaliador, vídeos de interação, registros das ações e áudio com os comentários dos participantes.
-
-Os dados devem ser reunidos, contabilizados e sumarizados. Quando forem adequados aos objetivos e à quantidade de dados disponível, podem ser empregados tabelas, gráficos, médias, porcentagens e outros indicadores relevantes. As métricas utilizadas neste planejamento são apresentadas na [Imagem 3](#figura-3).
-
-### 2.3 Registro e consolidação dos problemas
-
-Barbosa et al. (2021, Seção 12.2.1, p. 303) recomendam categorizar os problemas observados entre os participantes, descrevendo cada categoria, o local de ocorrência e o impacto imediato na usabilidade. Sempre que os dados permitirem, o avaliador deve registrar hipóteses sobre as possíveis causas e sugerir melhorias.
-
-Para cada problema, o relato deve informar o local em que ocorreu, a descrição e justificativa, os fatores de usabilidade prejudicados e as sugestões de solução. Esses elementos estão destacados na [Imagem 4](#figura-4).
-
-### 2.4 Severidade e priorização
-
-Para apoiar a análise de custo e benefício das correções, Barbosa et al. (2021, Seção 12.1.1, p. 284) apresentam três fatores para o julgamento da severidade:
-
-- **frequência:** indica se o problema é comum ou raro;
-- **impacto:** indica se será fácil ou difícil para os usuários superarem o problema;
-- **persistência:** indica se o problema ocorre uma única vez ou prejudica repetidamente a interação.
-
-A obra apresenta a seguinte escala:
-
-| Severidade | Classificação | Orientação para correção |
-| :---: | :--- | :--- |
-| **0** | Não é considerado um problema | Utilizada durante a consolidação quando um avaliador discorda que o item constitua um problema. |
-| **1** | Problema cosmético | Não precisa ser corrigido, a menos que haja tempo disponível no cronograma. |
-| **2** | Problema pequeno | A correção pode receber baixa prioridade. |
-| **3** | Problema grande | É importante corrigi-lo e sua correção deve receber alta prioridade. |
-| **4** | Problema catastrófico | É extremamente importante corrigi-lo antes da disponibilização do produto. |
-
-Conforme ilustrado na [Imagem 2](#figura-2), o grau zero auxilia a revisão entre avaliadores. Depois da discussão, a equipe deve entrar em acordo sobre a severidade final e decidir quais problemas e sugestões integrarão o relatório consolidado.
-
-Na prototipação em papel, os avaliadores são orientados a listar os problemas, priorizar a correção daqueles que permaneceram sem solução e sugerir correções, como mostra a [Imagem 5](#figura-5). A prioridade considera a gravidade do prejuízo à interação e a frequência de ocorrência, conforme a [Imagem 6](#figura-6). Este planejamento adota a mesma orientação qualitativa, sem criar uma fórmula numérica não definida pelo livro.
+Como a avaliação prevê uma participante, não haverá análise interparticipante nem cálculo de frequência, média ou porcentagem. As conclusões serão apresentadas como indícios qualitativos para revisão do Storyboard 07 e da TAR-07.
 
 ---
 
-## 3. Estrutura Planejada do Relatório Final
+## 3. Objetivos do Relato dos Resultados
 
-O futuro relato dos resultados da avaliação da Análise de Tarefas será organizado conforme a Tabela 1.
+### 3.1 Storyboard 07
+
+1. registrar como a participante compreendeu a narrativa, o contexto e o problema de crédito indisponível;
+2. sintetizar evidências sobre verossimilhança, estados do crédito, divisão de responsabilidades e próximo passo;
+3. identificar quadros, textos, informações ou reações da personagem que precisam ser ajustados;
+4. propor alterações rastreáveis para uma nova versão do storyboard.
+
+### 3.2 TAR-07
+
+1. registrar a validação do objetivo, da decomposição e dos planos da HTA;
+2. documentar passos ausentes, desnecessários ou fora de ordem;
+3. analisar as hipóteses sobre vocabulário, estados do crédito, responsáveis e decisão sob pressão de tempo;
+4. registrar a compreensão das tarefas e relações representadas na CTT;
+5. propor correções para a HTA e a CTT sem transformar opiniões individuais em procedimentos institucionais confirmados.
+
+### 3.3 Objetivos comuns
+
+1. responder às perguntas `QS01` a `QS08` e `QT01` a `QT10` do planejamento da avaliação;
+2. distinguir evidência coletada, interpretação do avaliador e recomendação de reprojeto;
+3. apresentar as limitações da avaliação e as perguntas que permanecerem inconclusivas;
+4. preservar a rastreabilidade entre pergunta, resposta, problema identificado e alteração proposta.
+
+---
+
+## 4. Estrutura Planejada do Relato Final
 
 <div align="center">
-<p><strong>Tabela 1</strong> - Estrutura do relatório final</p>
+<p><strong>Tabela 1</strong> - Estrutura do futuro relato dos resultados</p>
 </div>
 
 | Seção | Conteúdo previsto |
 | :--- | :--- |
-| **Identificação da avaliação** | Data, horário, modalidade, avaliadores, participante e artefatos avaliados. |
-| **Objetivos e escopo** | Objetivos da avaliação e delimitação das tarefas, operações, planos HTA e relações CTT avaliadas. |
-| **Método** | Descrição de como as tarefas foram apresentadas, observadas e registradas. |
-| **Participantes e avaliadores** | Quantidade e perfis das pessoas que participaram das sessões e da equipe avaliadora. |
-| **Sumário dos dados** | Tabelas e, quando adequados, gráficos, médias, porcentagens ou outros indicadores relacionados às tarefas. |
-| **Interpretação** | Análise conjunta dos dados quantitativos, qualitativos e das recorrências entre participantes. |
-| **Problemas encontrados** | Lista consolidada, com localização, descrição, justificativa, impacto, severidade e sugestão. |
-| **Planejamento do reprojeto** | Correções recomendadas e indicação dos elementos da tarefa ou da solução que precisam ser revistos. |
-| **Limitações** | Restrições do estudo e questões que não puderam ser respondidas. |
+| **Identificação da avaliação** | Data, horário, modalidade, duração, avaliador, participante e artefatos avaliados. |
+| **Objetivos e escopo** | Objetivos do Storyboard 07 e da TAR-07, questões avaliadas e limites do estudo. |
+| **Método executado** | Entrevista semiestruturada, materiais apresentados, ordem das etapas e alterações em relação ao planejamento. |
+| **Perfil da participante e do avaliador** | Características relevantes, quantidade de participantes e papéis assumidos na sessão. |
+| **Resultados do Storyboard 07** | Respostas `QS01` a `QS08`, evidências, interpretação e classificação do artefato. |
+| **Resultados da TAR-07** | Respostas `QT01` a `QT10`, evidências relativas à HTA e à CTT, interpretação e classificação dos modelos. |
+| **Problemas e oportunidades de melhoria** | Registro consolidado com artefato, localização, evidência, impacto, prioridade e recomendação. |
+| **Planejamento do reprojeto** | Alterações propostas para o storyboard, a HTA e a CTT, com responsáveis e situação. |
+| **Limitações e questões inconclusivas** | Restrições decorrentes do método, da amostra e das informações institucionais não verificadas. |
+| **Conclusão** | Síntese das perguntas respondidas, principais achados e próximos passos. |
 
 <div align="center">
 <p><em>Fonte: Arthur Mariani (2026), adaptado de Barbosa et al. (2021, Seção 11.7.5, p. 279).</em></p>
@@ -98,175 +90,232 @@ O futuro relato dos resultados da avaliação da Análise de Tarefas será organ
 
 ---
 
-## 4. Roteiro de Observação do Avaliador
+## 5. Registro da Sessão
 
-Durante cada sessão, o avaliador deverá observar a realização das tarefas e registrar os dados previstos na Tabela 2. O roteiro deriva dos dados de observação descritos por Barbosa et al. (2021, pp. 302 e 318).
+### 5.1 Identificação
 
 <div align="center">
-<p><strong>Tabela 2</strong> - Roteiro de observação por tarefa</p>
+<p><strong>Tabela 2</strong> - Identificação da sessão definitiva</p>
 </div>
 
-| Item observado | Registro previsto |
+| Campo | Registro |
 | :--- | :--- |
-| **Tarefa** | Identificação da tarefa e da operação ou etapa analisada. |
-| **Grau de sucesso** | Registro do grau em que o participante conseguiu realizar a tarefa. |
-| **Erros** | Total de erros e identificação dos tipos de erro observados. |
-| **Tempo** | Tempo necessário para concluir ou interromper a tarefa, quando essa medida for aplicável. |
-| **Uso de ajuda** | Quantidade de consultas ou solicitações de ajuda, quando houver mecanismo de ajuda disponível. |
-| **Percurso** | Ações realizadas e eventuais desvios em relação ao caminho previsto na análise da tarefa. |
-| **Comentários** | Falas e opiniões relevantes manifestadas pelo participante. |
-| **Satisfação** | Opinião ou medida de satisfação definida no instrumento da avaliação. |
-| **Evidências complementares** | Anotações, áudio, vídeo ou registros das ações disponíveis para apoiar a interpretação. |
+| **Data e horário** | A preencher |
+| **Modalidade e plataforma** | A preencher |
+| **Duração efetiva** | A preencher |
+| **Avaliador** | Arthur Mariani |
+| **Participante** | P01 |
+| **Perfil da participante** | A preencher apenas com características relevantes e não identificáveis |
+| **Artefatos apresentados** | Storyboard 07, HTA e CTT da TAR-07 |
+| **Forma de registro autorizada** | Anotações / áudio / compartilhamento de tela, conforme consentimento |
+| **Intercorrências ou desvios do protocolo** | A preencher |
 
 <div align="center">
-<p><em>Fonte: Arthur Mariani (2026), adaptado de Barbosa et al. (2021, Seção 12.2.1, p. 302; Seção 12.2.3, p. 318).</em></p>
+<p><em>Fonte: Arthur Mariani (2026).</em></p>
 </div>
 
-As medidas de tempo, uso de ajuda e satisfação serão utilizadas apenas quando forem compatíveis com o método definido no planejamento da avaliação. Quando não forem aplicáveis à forma de apresentação da HTA ou da CTT, o avaliador deverá registrar **Não se aplica**, sem atribuir valores artificiais.
+### 5.2 Materiais que Sustentarão o Relato
 
-### 4.1 Ficha de registro da sessão
+O relato poderá utilizar somente os dados cuja coleta tiver sido informada e autorizada:
 
-<div align="center">
-<p><strong>Tabela 3</strong> - Ficha de registro da sessão</p>
-</div>
+* anotações realizadas durante a entrevista;
+* resumo ou transcrição seletiva das respostas;
+* gravação de áudio ou tela, quando expressamente autorizada;
+* pedidos de esclarecimento e reformulações necessárias;
+* observações sobre a compreensão dos artefatos;
+* comentários finais e sugestões espontâneas da participante.
 
-| Participante | Tarefa ou operação | Grau de sucesso | Tempo | Erros | Ajuda | Ações e desvios observados | Comentários e satisfação | Evidência |
-| :--- | :--- | :--- | :---: | :---: | :---: | :--- | :--- | :--- |
-| A preencher | A preencher | A preencher | A preencher | A preencher | A preencher | A preencher | A preencher | A preencher |
-
-<div align="center">
-<p><em>Fonte: Arthur Mariani (2026), adaptado de Barbosa et al. (2021, Seção 12.2.1, p. 302).</em></p>
-</div>
+Nenhum dado do teste-piloto será incluído. Informações pessoais, número de cartão, saldo, empregador ou outros dados desnecessários não serão registrados no relato.
 
 ---
 
-## 5. Métricas e Forma de Sumarização
+## 6. Planejamento do Relato dos Resultados do Storyboard 07
 
-As métricas previstas para o relato estão apresentadas na Tabela 4. Sua utilização dependerá dos objetivos, do método e da quantidade de dados coletados.
+As respostas serão registradas sem alterar o sentido da fala da participante. Trechos literais curtos poderão ser utilizados quando forem relevantes e não permitirem identificação. Cada conclusão deverá indicar a evidência que a sustenta.
 
 <div align="center">
-<p><strong>Tabela 4</strong> - Métricas planejadas</p>
+<p><strong>Tabela 3</strong> - Consolidação planejada das respostas sobre o Storyboard 07</p>
 </div>
 
-| Métrica | Forma planejada de registro e apresentação |
+| ID | Foco | Síntese da resposta | Evidência relevante | Classificação | Ajuste necessário |
+| :---: | :--- | :--- | :--- | :---: | :--- |
+| **QS01** | Clareza narrativa | A preencher | A preencher | A preencher | A preencher |
+| **QS02** | Contexto | A preencher | A preencher | A preencher | A preencher |
+| **QS03** | Verossimilhança | A preencher | A preencher | A preencher | A preencher |
+| **QS04** | Estado do crédito | A preencher | A preencher | A preencher | A preencher |
+| **QS05** | Responsabilidades | A preencher | A preencher | A preencher | A preencher |
+| **QS06** | Próximo passo | A preencher | A preencher | A preencher | A preencher |
+| **QS07** | Reação da personagem | A preencher | A preencher | A preencher | A preencher |
+| **QS08** | Melhoria | A preencher | A preencher | A preencher | A preencher |
+
+<div align="center">
+<p><em>Fonte: Arthur Mariani (2026).</em></p>
+</div>
+
+Para `QS01`, `QS02`, `QS04`, `QS05` e `QS06`, serão utilizadas as classificações **Compreendido**, **Parcialmente compreendido**, **Não compreendido** ou **Inconclusivo**. Para as demais perguntas, o relato apresentará a resposta e sua justificativa sem converter preferência ou experiência individual em aprovação obrigatória do artefato.
+
+O resultado dessa seção deverá responder, no mínimo:
+
+* a história foi compreendida sem explicação substantiva do avaliador?
+* o contexto de pressão temporal e financeira foi reconhecido?
+* a diferença entre envio e disponibilidade do crédito permaneceu ambígua?
+* os papéis das instituições e o próximo passo ficaram claros?
+* quais alterações foram sugeridas para os quadros, textos ou sequência narrativa?
+
+---
+
+## 7. Planejamento do Relato dos Resultados da TAR-07
+
+Os resultados da HTA e da CTT serão apresentados separadamente quando a evidência disser respeito a apenas um dos modelos. Uma opinião sobre o procedimento institucional será registrada como hipótese e dependerá de verificação em fonte oficial ou com a parte responsável.
+
+<div align="center">
+<p><strong>Tabela 4</strong> - Consolidação planejada das respostas sobre a TAR-07</p>
+</div>
+
+| ID | Foco | Modelo relacionado | Síntese da resposta | Evidência relevante | Classificação | Ajuste necessário |
+| :---: | :--- | :---: | :--- | :--- | :---: | :--- |
+| **QT01** | Objetivo da tarefa | HTA | A preencher | A preencher | A preencher | A preencher |
+| **QT02** | Sequência da tarefa | HTA | A preencher | A preencher | A preencher | A preencher |
+| **QT03** | Busca e vocabulário | HTA | A preencher | A preencher | A preencher | A preencher |
+| **QT04** | Estados do crédito | HTA | A preencher | A preencher | A preencher | A preencher |
+| **QT05** | Responsável e procedimento | HTA | A preencher | A preencher | A preencher | A preencher |
+| **QT06** | Decisão imediata | HTA | A preencher | A preencher | A preencher | A preencher |
+| **QT07** | Providência seguinte | HTA | A preencher | A preencher | A preencher | A preencher |
+| **QT08** | Passagem de informação | CTT | A preencher | A preencher | A preencher | A preencher |
+| **QT09** | Completude | HTA e CTT | A preencher | A preencher | A preencher | A preencher |
+| **QT10** | Complexidade | HTA e CTT | A preencher | A preencher | A preencher | A preencher |
+
+<div align="center">
+<p><em>Fonte: Arthur Mariani (2026).</em></p>
+</div>
+
+As classificações previstas são:
+
+| Classificação | Aplicação no relato |
 | :--- | :--- |
-| **Grau de sucesso** | Resultado registrado por participante e tarefa, seguido de consolidação quando os dados permitirem. |
-| **Erros** | Total de erros e quantidade de ocorrências de cada tipo. |
-| **Tempo** | Tempo individual e, quando pertinente, média e dispersão dos tempos observados. |
-| **Uso de ajuda** | Número de consultas ou solicitações de ajuda por participante e tarefa. |
-| **Satisfação** | Opiniões ou medidas registradas pelo instrumento da avaliação. |
-| **Desvios do percurso previsto** | Quantidade e descrição dos desvios entre a execução observada e o caminho representado na tarefa. |
-| **Recorrência de problemas** | Número de participantes ou tarefas em que o mesmo problema foi observado. |
-| **Evidências qualitativas** | Síntese das anotações, comentários, áudios, vídeos e registros associados a cada problema. |
+| **Confirmado** | A participante considera o elemento compatível com sua experiência ou expectativa e justifica a resposta. |
+| **Revisar** | Há evidência de ausência, excesso, ordem inadequada, ambiguidade ou dificuldade de compreensão. |
+| **Inconclusivo** | A resposta não fornece dados suficientes ou depende de informação institucional ainda não verificada. |
 
-<div align="center">
-<p><em>Fonte: Arthur Mariani (2026), adaptado de Barbosa et al. (2021, Seção 11.7.5, p. 279; Seção 12.2.1, pp. 302-303).</em></p>
-</div>
+O resultado dessa seção deverá indicar:
 
-O relatório deverá relacionar os dados quantitativos às evidências qualitativas. Um número de erros ou um tempo elevado, isoladamente, não explica a origem de um problema. Por isso, as medições serão interpretadas em conjunto com as ações, os comentários e as anotações da sessão.
-
----
-
-## 6. Consolidação dos Problemas
-
-Depois da interpretação individual, os avaliadores deverão reunir seus registros, procurar recorrências e consolidar ocorrências equivalentes. Problemas idênticos, casos particulares de um problema mais amplo ou partes de uma mesma dificuldade deverão ser reunidos antes da atribuição da severidade final.
-
-<div align="center">
-<p><strong>Tabela 5</strong> - Registro consolidado dos problemas</p>
-</div>
-
-| ID | Tarefa | Local ou operação | Descrição e justificativa | Evidência | Fator prejudicado | Frequência | Impacto | Persistência | Severidade | Sugestão de correção |
-| :---: | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :---: | :--- |
-| PROB-01 | A preencher | A preencher | A preencher | A preencher | A preencher | A preencher | A preencher | A preencher | A preencher | A preencher |
-
-<div align="center">
-<p><em>Fonte: Arthur Mariani (2026), adaptado de Barbosa et al. (2021, Seção 12.1.1, pp. 284-285; Seção 12.2.1, p. 303).</em></p>
-</div>
+* se o objetivo da tarefa representa o que a participante tentaria alcançar;
+* quais objetivos, operações ou planos da HTA foram confirmados ou precisam de revisão;
+* quais termos a participante utilizaria para buscar orientação;
+* como ela diferencia os estados do crédito e decide qual responsável procurar;
+* se as alternativas de deslocamento e providência são suficientes;
+* se a passagem de informação e as escolhas representadas na CTT são coerentes;
+* quais tarefas de usuário, sistema, interação ou apoio externo estão ausentes.
 
 ---
 
-## 7. Procedimento de Priorização
+## 8. Interpretação e Rastreabilidade
 
-A equipe seguirá o procedimento abaixo:
+O avaliador deverá seguir estas etapas:
 
-1. reunir os registros individuais dos avaliadores;
-2. identificar recorrências e consolidar ocorrências equivalentes;
-3. discutir se cada item constitui de fato um problema;
-4. atribuir severidade **0** quando, durante a consolidação, o item não for considerado um problema;
-5. para os problemas aceitos, analisar frequência, impacto e persistência;
-6. atribuir severidade de **1** a **4** por consenso;
-7. priorizar os problemas não resolvidos considerando sua gravidade e frequência;
-8. registrar as sugestões de correção que integrarão o futuro planejamento de reprojeto.
+1. revisar as anotações e, quando autorizada, a gravação;
+2. produzir uma síntese fiel para cada pergunta;
+3. separar fala da participante, observação do avaliador e interpretação;
+4. aplicar a classificação correspondente sem completar lacunas por suposição;
+5. relacionar cada problema à pergunta e ao elemento do artefato em que se manifesta;
+6. registrar informações institucionais não confirmadas como hipóteses pendentes;
+7. elaborar recomendações proporcionais à evidência disponível;
+8. responder aos objetivos da avaliação ou justificar por que permaneceram inconclusivos.
 
-Não será calculada uma pontuação pela multiplicação ou soma dos fatores. O livro apresenta esses fatores como fundamentos para o julgamento e para o consenso entre avaliadores, e não como uma fórmula numérica.
+<div align="center">
+<p><strong>Tabela 5</strong> - Matriz de rastreabilidade dos resultados</p>
+</div>
+
+| Objetivo da avaliação | Pergunta relacionada | Evidência | Conclusão | Artefato afetado | Ação decorrente |
+| :--- | :---: | :--- | :--- | :--- | :--- |
+| A preencher | QS ou QT | A preencher | A preencher | Storyboard / HTA / CTT | Manter / revisar / verificar |
+
+<div align="center">
+<p><em>Fonte: Arthur Mariani (2026).</em></p>
+</div>
 
 ---
 
-## 8. Modelo do Sumário dos Resultados
+## 9. Registro dos Problemas e Oportunidades de Melhoria
+
+Cada ocorrência será registrada uma única vez, mesmo quando estiver associada a mais de uma pergunta. O registro deverá permitir que outra pessoa compreenda a evidência e localize o ponto a ser revisado.
 
 <div align="center">
-<p><strong>Tabela 6</strong> - Sumário planejado por tarefa</p>
+<p><strong>Tabela 6</strong> - Registro consolidado de problemas e oportunidades</p>
 </div>
 
-| Tarefa | Participantes | Resultados de sucesso | Erros observados | Tempo e ajuda, se aplicáveis | Problemas recorrentes | Síntese das opiniões |
-| :--- | :---: | :--- | :--- | :--- | :--- | :--- |
-| TAR-01 a TAR-07 | A preencher | A preencher | A preencher | A preencher | A preencher | A preencher |
+| ID | Artefato e localização | Pergunta de origem | Descrição e evidência | Impacto na compreensão | Prioridade | Recomendação | Verificação adicional |
+| :---: | :--- | :---: | :--- | :--- | :---: | :--- | :--- |
+| **PROB-01** | A preencher | QS ou QT | A preencher | A preencher | A preencher | A preencher | A preencher |
 
 <div align="center">
-<p><em>Fonte: Arthur Mariani (2026), adaptado de Barbosa et al. (2021, Seção 11.7.5, p. 279; Seção 12.2.1, pp. 302-303).</em></p>
+<p><em>Fonte: Arthur Mariani (2026), adaptado de Barbosa et al. (2021, Seção 12.2.1, p. 303).</em></p>
 </div>
 
-O relato conclusivo deverá apresentar a interpretação das recorrências, os principais problemas ordenados por severidade, as sugestões de correção, os elementos que precisam ser reprojetados e as limitações da avaliação. As conclusões deverão permanecer restritas ao escopo, aos participantes e às condições efetivamente avaliadas.
+### 9.1 Critérios de Prioridade
+
+| Prioridade | Critério para este estudo |
+| :---: | :--- |
+| **Urgente** | O problema pode levar à compreensão incorreta do estado do crédito, ao encaminhamento para o responsável errado ou a uma decisão com prejuízo financeiro ou de deslocamento. |
+| **Alta** | O problema impede ou compromete a compreensão do objetivo, da sequência principal ou do próximo passo. |
+| **Média** | O núcleo é compreendido, mas existe ambiguidade, lacuna ou esforço desnecessário que deve ser corrigido. |
+| **Baixa** | Ajuste editorial ou visual que melhora clareza e consistência sem alterar o entendimento central. |
+
+A prioridade representa a urgência de revisão dentro deste estudo. Ela não será apresentada como medida estatística nem como severidade universal, pois a avaliação contará com uma participante e não observará o uso de um sistema funcional.
 
 ---
 
-## 9. Fotos de Referência
+## 10. Planejamento do Reprojeto
 
-### 9.1 Consolidação e estrutura do relato
+<div align="center">
+<p><strong>Tabela 7</strong> - Plano de ações decorrentes da avaliação</p>
+</div>
+
+| ID do problema | Artefato | Alteração proposta | Evidência que justifica | Responsável | Prioridade | Situação |
+| :---: | :--- | :--- | :--- | :--- | :---: | :---: |
+| PROB-XX | Storyboard 07 / HTA / CTT | A preencher | A preencher | A definir | A preencher | Planejada |
+
+<div align="center">
+<p><em>Fonte: Arthur Mariani (2026).</em></p>
+</div>
+
+As alterações deverão ser aplicadas conforme a prioridade e registradas no histórico de versão do artefato correspondente. Correções que dependam de procedimento do empregador, da SEMOB-DF ou do BRB Mobilidade somente serão realizadas depois da verificação da informação em fonte adequada.
+
+---
+
+## 11. Limitações do Relato
+
+O relato deverá declarar explicitamente:
+
+* a participação de apenas uma pessoa e a impossibilidade de generalização estatística;
+* o caráter formativo e exploratório da avaliação;
+* a influência do ambiente remoto e da qualidade do compartilhamento de tela;
+* a diferença entre avaliar a compreensão dos artefatos e comprovar o procedimento institucional real;
+* eventuais perguntas não respondidas ou dados considerados inconclusivos;
+* qualquer desvio ocorrido em relação ao planejamento da avaliação.
+
+O relato não poderá afirmar que o Storyboard 07 ou a TAR-07 foram validados para toda a população. A formulação adequada será que a sessão forneceu indícios favoráveis ou evidências de aspectos que precisam ser revisados no escopo avaliado.
+
+---
+
+## 12. Fotos de Referência
+
+### 12.1 Consolidação e estrutura do relato
 
 <figure id="figura-1" markdown="span">
-  ![Trechos grifados sobre consolidação, limitações e estrutura do relato dos resultados](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-1.png)
+  ![Trechos destacados sobre consolidação, limitações e estrutura do relato dos resultados](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-1.png)
   <figcaption>Imagem 1 - Consolidação, limites de interpretação e estrutura do relato. Fonte: Barbosa et al. (2021, Seção 11.7.5, p. 279).</figcaption>
 </figure>
 
-### 9.2 Fatores e escala de severidade
+### 12.2 Estrutura do registro dos problemas
 
 <figure id="figura-2" markdown="span">
-  ![Trechos grifados sobre frequência, impacto, persistência e escala de severidade](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-2.png)
-  <figcaption>Imagem 2 - Fatores e escala de severidade, incluindo o uso do grau zero na consolidação. Fonte: Barbosa et al. (2021, Seção 12.1.1, p. 284).</figcaption>
-</figure>
-
-### 9.3 Métricas e registros da observação
-
-<figure id="figura-3" markdown="span">
-  ![Trechos grifados sobre métricas, anotações e formas de sumarização](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-3.png)
-  <figcaption>Imagem 3 - Dados coletados por tarefa e formas de sumarização. Fonte: Barbosa et al. (2021, Seção 12.2.1, p. 302).</figcaption>
-</figure>
-
-### 9.4 Estrutura do registro dos problemas
-
-<figure id="figura-4" markdown="span">
-  ![Trechos grifados sobre categorização e campos do relato de problemas](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-4.png)
-  <figcaption>Imagem 4 - Categorização e campos do relato dos problemas. Fonte: Barbosa et al. (2021, Seção 12.2.1, p. 303).</figcaption>
-</figure>
-
-### 9.5 Atividades de registro e priorização
-
-<figure id="figura-5" markdown="span">
-  ![Trechos grifados sobre listagem, priorização e relato dos problemas](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-5.png)
-  <figcaption>Imagem 5 - Listagem, priorização e relato dos problemas. Fonte: Barbosa et al. (2021, Seção 12.2.3, p. 317).</figcaption>
-</figure>
-
-### 9.6 Aspectos observados e critério de prioridade
-
-<figure id="figura-6" markdown="span">
-  ![Trechos grifados sobre aspectos observados e priorização por gravidade e frequência](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-6.png)
-  <figcaption>Imagem 6 - Aspectos observados e priorização por gravidade e frequência. Fonte: Barbosa et al. (2021, Seção 12.2.3, p. 318).</figcaption>
+  ![Trechos destacados sobre categorização e campos do relato de problemas](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-4.png)
+  <figcaption>Imagem 2 - Categorização e campos do relato dos problemas. Fonte: Barbosa et al. (2021, Seção 12.2.1, p. 303).</figcaption>
 </figure>
 
 ---
 
-## 10. Referências Bibliográficas
+## 13. Referências Bibliográficas
 
-BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Seção 11.7.5, p. 279; Seção 12.2.1, p. 303.
