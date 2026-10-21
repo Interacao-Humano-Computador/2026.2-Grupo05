@@ -3,6 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração do uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 11/10/2026 | `1.0` | Elaboração do Planejamento e Protocolo do Teste Piloto da Etapa 4 (definição, roteiro, ficha de calibração e cronograma). | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - utilizado para formatação MarkDown da página |
+| 20/10/2026 | `1.1` | Revisão do Planejamento e Protocolo do Teste Piloto da Etapa 4 (definição, roteiro, ficha de calibração e cronograma). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani)
 
 ---
 
@@ -79,7 +80,7 @@ Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis defini
 | :--- | :--- | :--- |
 | **Avaliador (Condução)** | Gabriel Cardone | Conduz a sessão, lê o roteiro, apresenta o TCLE, compartilha o material e aplica as perguntas. |
 | **Participante Simulado** | Carlos Henrique | Simula o perfil do usuário primário e responde de forma verossímil. |
-| **Observador / Anotador** | Lucas, Tomás, Arthur, Rodgigo | Registra dúvidas, hesitações, tempos por bloco e falhas de clareza sem interromper a sessão. |
+| **Observador / Anotador** | Lucas, Tomás, Arthur, Rodrigo | Registra dúvidas, hesitações, tempos por bloco e falhas de clareza sem interromper a sessão. |
 | **Responsável pela Gravação** | Igor Dantas | Controla o início/fim da gravação no Teams e monitora o software de reserva. |
 
 <div align="center">
@@ -120,10 +121,10 @@ Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis defini
 | **3** | **Perfil do Participante:** Perguntas breves de caracterização (idade, rotina de transporte, uso de apps). | Gabriel | 3 min | As perguntas são suficientes e não invasivas? |
 | **4** | **Contextualização:** Apresentar a persona João Pedro Carvalho e o resumo do Cenário 2. | Gabriel | 3 min | O contexto do problema foi compreendido sem necessidade de explicações extras? |
 | **5** | **Exibição do Storyboard 01:** Apresentar os quadros em sequência, permitindo a leitura individual. | Gabriel | 5 min | Os desenhos e textos estão legíveis na tela compartilhada? |
-| **6** | **Avaliação do Storyboard:** Aplicar perguntas sobre clareza, verossimilhança, reações e engajamento. | Gabriel, Lucas, Tomás, Arthur, Rodgigo  | 8 min | Alguma pergunta pareceu confusa ou induziu a resposta? |
-| **7** | **Validação da Análise de Tarefas:** Exibir diagramas HTA/CTT e perguntar sobre a coerência do fluxo. | Gabriel, Lucas, Tomás, Arthur, Rodgigo | 8 min | Os diagramas de tarefas são compreensíveis para o participante? |
+| **6** | **Avaliação do Storyboard:** Aplicar perguntas sobre clareza, verossimilhança, reações e engajamento. | Gabriel, Lucas, Tomás, Arthur, Rodrigo  | 8 min | Alguma pergunta pareceu confusa ou induziu a resposta? |
+| **7** | **Validação da Análise de Tarefas:** Exibir diagramas HTA/CTT e perguntar sobre a coerência do fluxo. | Gabriel, Lucas, Tomás, Arthur, Rodrigo | 8 min | Os diagramas de tarefas são compreensíveis para o participante? |
 | **8** | **Encerramento:** Abrir espaço para comentários finais, agradecer e **encerrar a gravação**. | Gabriel e Igor | 2 min | A gravação foi salva corretamente? Qual foi o tempo total da sessão? |
-| **9** | **Debriefing Interno:** Preencher a Ficha de Calibração com a equipe e listar ajustes do roteiro. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos | 15 min pós | Quais pontos do roteiro precisam de reformulação? |
+| **9** | **Debriefing Interno:** Preencher a Ficha de Calibração com a equipe e listar ajustes do roteiro. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodrigo, Carlos | 15 min pós | Quais pontos do roteiro precisam de reformulação? |
 
 <div align="center">
 <p><em>Fonte: Igor Dantas Araújo (2026). Tempo total estimado da sessão simulada: ~36 minutos.</em></p>
@@ -202,11 +203,11 @@ Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis defini
 | Período | Atividade | Responsável |
 | :---: | :--- | :--- |
 | 10/10 a 17/10 | Elaboração do roteiro, TCLE, ficha de calibração e estrutura do piloto. | Igor Dantas |
-| **17/10** | **Execução interna do teste piloto no Teams** e preenchimento da Ficha. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
-| 17/10 a 20/10 | Refinamento do roteiro final com base nos ajustes da calibração. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
+| **17/10** | **Execução interna do teste piloto no Teams** e preenchimento da Ficha. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodrigo, Carlos |
+| 17/10 a 20/10 | Refinamento do roteiro final com base nos ajustes da calibração. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodrigo, Carlos |
 | 21/10 | Revisão por pares deste documento. | Gabriel Cardone |
-| 24/10 | Fechamento da página e verificação final no MkDocs/GitHub Pages. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
-| 25/10 (23:59) | Entrega oficial da Etapa 5. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodgigo, Carlos |
+| 24/10 | Fechamento da página e verificação final no MkDocs/GitHub Pages. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodrigo, Carlos |
+| 25/10 (23:59) | Entrega oficial da Etapa 5. | Gabriel, Igor,  Lucas, Tomás, Arthur, Rodrigo, Carlos |
 
 <div align="center">
 <p><em>Fonte: Igor Dantas Araújo (2026).</em></p>
