@@ -287,7 +287,7 @@ O Storyboard 06 retrata o **fluxo atual** da tarefa: Cláudia tenta reclamar de 
 
 #### **Ilustração do Storyboard 06**
 
-![Storyboard 06 - Reclamação sobre ônibus a partir do site da Semob](../../assets/storyboards/Storyboard-6-Rodrigo.png){ width="100%" }
+![Storyboard 06 - Reclamação sobre ônibus a partir do site da Semob](../../assets/storyboards/Storyboard-6-Rodrigo.jpeg){ width="100%" }
 <div align="center">
   <p><strong>Figura 6</strong> — Storyboard 06: Reclamação sobre ônibus a partir do site da Semob</p>
   <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
