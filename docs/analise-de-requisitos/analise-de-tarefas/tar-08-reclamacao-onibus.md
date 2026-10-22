@@ -5,6 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 13/10/2026 | 1.0 | Elaboração da Análise de Tarefas (HTA e GOMS) para o registro de reclamação sobre ônibus, partindo do site da Semob-DF, e proposta de melhoria. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 22/10/2026 | 1.1 | Substituição dos diagramas HTA (Figuras 1 e 2) por imagens no padrão do livro e alinhamento do diagrama, da tabela e das hipóteses de erro com o GOMS. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | |
 
 ---
 
@@ -36,77 +37,13 @@ Segundo Barbosa et al. (2021, p. 192–193), a HTA parte dos **objetivos** das p
 
 *Fonte: Adaptado de Barbosa et al. (2021).*
 
-Nos rótulos abaixo, os números do plano se referem aos subobjetivos do próprio objetivo, como na Figura 6.2 do livro.
+Nos rótulos abaixo, os números do plano se referem aos subobjetivos do próprio objetivo, como na Figura 6.2 do livro. No diagrama, as caixas sublinhadas são **operações** e as demais são **objetivos**.
+
+A HTA foi construída a partir do modelo GOMS da seção 3. Como a HTA exige numeração hierárquica, os métodos alternativos do GOMS viraram subobjetivos ligados por um plano de seleção: os métodos 2.A e 2.B correspondem a 2.2.1 e 2.2.2 (agrupados em 2.2, "Localizar a Ouvidoria"), e a operação 2.2 do GOMS corresponde a 2.3; os métodos 3.A e 3.B correspondem a 3.1 e 3.2; e, como o objetivo 4 tem um único método (4.A), suas operações aparecem diretamente como 4.1 a 4.5.
 
 ### 2.1 Diagrama hierárquico
 
-```mermaid
-graph TD
-    T0["0. Registrar reclamação sobre um ônibus<br/><i>Plano 0: 1 > 2 > 3 > 4 > 5</i>"]
-
-    %% Nível 1
-    T1["1. Reunir as informações do ocorrido<br/><i>Plano 1: 1.1 + 1.2 + 1.3</i>"]
-    T2["2. Encontrar o canal de reclamação no site da Semob<br/><i>Plano 2: 2.1 > 2.2 > 2.3</i>"]
-    T3["3. Acessar o Participa-DF<br/><i>Plano 3: 3.1 / 3.2</i>"]
-    T4["4. Registrar a manifestação<br/><i>Plano 4: 4.1 > 4.2 > 4.3 > 4.4 > 4.5</i>"]
-    T5["5. Guardar e acompanhar o protocolo<br/><i>Plano 5: 5.1 > 5.2</i>"]
-
-    T0 --> T1
-    T0 --> T2
-    T0 --> T3
-    T0 --> T4
-    T0 --> T5
-
-    %% Subníveis da Tarefa 1
-    T11["1.1 Identificar a linha e o número do ônibus"]
-    T12["1.2 Registrar data e horário"]
-    T13["1.3 Registrar o local ou a parada"]
-    T1 --> T11
-    T1 --> T12
-    T1 --> T13
-
-    %% Subníveis da Tarefa 2
-    T21["2.1 Acessar semob.df.gov.br"]
-    T22["2.2 Localizar a área de Ouvidoria<br/><i>Plano 2.2: 2.2.1 / 2.2.2</i>"]
-    T23["2.3 Seguir o link para o Participa-DF"]
-    T2 --> T21
-    T2 --> T22
-    T2 --> T23
-
-    T221["2.2.1 Navegar pelo menu"]
-    T222["2.2.2 Usar a busca do site"]
-    T22 --> T221
-    T22 --> T222
-
-    %% Subníveis da Tarefa 3
-    T31["3.1 Entrar com conta existente"]
-    T32["3.2 Criar conta<br/><i>Plano 3.2: 3.2.1 > 3.2.2</i>"]
-    T3 --> T31
-    T3 --> T32
-
-    T321["3.2.1 Preencher dados pessoais"]
-    T322["3.2.2 Confirmar o cadastro"]
-    T32 --> T321
-    T32 --> T322
-
-    %% Subníveis da Tarefa 4
-    T41["4.1 Escolher o tipo Reclamação"]
-    T42["4.2 Indicar órgão e assunto"]
-    T43["4.3 Descrever o ocorrido"]
-    T44["4.4 Anexar arquivo (opcional)"]
-    T45["4.5 Revisar e enviar"]
-    T4 --> T41
-    T4 --> T42
-    T4 --> T43
-    T4 --> T44
-    T4 --> T45
-
-    %% Subníveis da Tarefa 5
-    T51["5.1 Anotar o número do protocolo"]
-    T52["5.2 Consultar o andamento depois"]
-    T5 --> T51
-    T5 --> T52
-```
+![Diagrama HTA do registro de reclamação sobre ônibus](../../assets/images/hta_reclamacao_onibus.png)
 
 *Figura 1 — Diagrama HTA do registro de reclamação sobre ônibus.*
 *Fonte: [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (2026).*
@@ -118,30 +55,39 @@ Formato da Tabela 6.3 do livro: cada objetivo tem *input* (circunstâncias que o
 | objetivos / operações | problemas e recomendações |
 | :--- | :--- |
 | **0. Registrar reclamação sobre um ônibus** 1>2>3>4>5 | *input*: passageiro passou por um problema com um ônibus; tem acesso a computador ou celular com internet<br>*feedback*: protocolo da reclamação obtido<br>*plano*: reunir as informações **e depois** encontrar o canal **e depois** acessar o Participa-DF **e depois** registrar a manifestação **e depois** guardar o protocolo |
-| **1. Reunir as informações do ocorrido** 1+2+3 | *input*: ocorrido recente<br>*feedback*: linha, número do ônibus, data, horário e local conhecidos<br>*plano*: as três informações podem ser reunidas em qualquer ordem<br>*problema (hipótese)*: o site não informa **antes** quais dados serão necessários. O usuário só descobre isso no objetivo 4, quando o ocorrido já passou e ele não anotou o número do ônibus<br>*recomendação*: exibir, na entrada do serviço, um checklist do que ter em mãos |
-| 1.1 Identificar a linha e o número do ônibus | *problema (hipótese)*: o número do veículo (prefixo) é a informação mais difícil de lembrar depois |
-| 1.2 Registrar data e horário | |
-| 1.3 Registrar o local ou a parada | |
-| **2. Encontrar o canal de reclamação no site da Semob** 1>2>3 | *input*: passageiro sabe que a Semob é responsável pelo transporte coletivo<br>*feedback*: página do Participa-DF aberta<br>*plano*: acessar o site **e depois** localizar a Ouvidoria **e depois** seguir o link |
-| 2.1 Acessar semob.df.gov.br | |
-| **2.2 Localizar a área de Ouvidoria** 1/2 | *plano*: navegar pelo menu **ou** usar a busca. Se o usuário reconhece o termo "Ouvidoria", usa 2.2.1. Senão, tenta 2.2.2<br>*problema (hipótese)*: "Ouvidoria" é um termo institucional; o usuário pensa em "reclamar", "fale conosco" ou "denunciar ônibus". Isso dificulta o **reconhecimento** e aumenta o golfo de execução<br>*recomendação*: oferecer um acesso direto na página inicial com o vocabulário do usuário, como "Reclamar de um ônibus" |
-| 2.2.1 Navegar pelo menu | |
-| 2.2.2 Usar a busca do site | |
-| 2.3 Seguir o link para o Participa-DF | *problema (hipótese)*: o usuário sai do site da Semob para outra plataforma, com outro visual e outro login, sem aviso claro. Pode achar que está no lugar errado (falha de **consistência** e de **visibilidade do estado do sistema**)<br>*recomendação*: avisar antes do redirecionamento que a reclamação é feita no Participa-DF e por quê |
-| **3. Acessar o Participa-DF** 1/2 | *input*: página do Participa-DF aberta<br>*feedback*: usuário autenticado<br>*plano*: entrar com conta existente **ou** criar conta, dependendo de o usuário já ter cadastro |
-| 3.1 Entrar com conta existente | |
-| **3.2 Criar conta** 1>2 | *plano*: preencher os dados **e depois** confirmar<br>*problema (hipótese)*: o cadastro (nome, CPF, senha, e-mail, sexo, data de nascimento) é uma barreira para uma tarefa pontual e pode levar à desistência |
-| 3.2.1 Preencher dados pessoais | |
-| 3.2.2 Confirmar o cadastro | |
-| **4. Registrar a manifestação** 1>2>3>4>5 | *input*: usuário autenticado<br>*feedback*: tela de confirmação com protocolo<br>*plano*: escolher o tipo **e depois** indicar órgão e assunto **e depois** descrever **e depois** anexar (só se houver arquivo) **e depois** revisar e enviar |
-| 4.1 Escolher o tipo Reclamação | *problema (hipótese)*: os tipos (reclamação, denúncia, sugestão, elogio, solicitação) podem parecer sobrepostos para o usuário leigo |
-| 4.2 Indicar órgão e assunto | *problema (hipótese)*: o usuário precisa saber que o órgão responsável é a Semob, e não, por exemplo, o Detran ou a empresa de ônibus |
-| 4.3 Descrever o ocorrido | *problema (hipótese)*: campo de texto livre não orienta quais detalhes tornam a reclamação apurável<br>*recomendação*: campos estruturados (linha, prefixo, data, horário, local) ou um modelo de texto |
-| 4.4 Anexar arquivo (opcional) | |
-| 4.5 Revisar e enviar | |
+| **1. Reunir as informações do ocorrido** 1+2+3 | *input*: ocorrido recente<br>*feedback*: linha, número do ônibus, data, horário e local conhecidos<br>*plano*: lembrar ou consultar linha e número **e** data e horário **e** local, em qualquer ordem<br>*problema (hipótese)*: o site não informa **antes** quais dados serão necessários. O usuário só descobre isso no objetivo 4, quando o ocorrido já passou e ele não anotou o número do ônibus<br>*recomendação*: exibir, na entrada do serviço, um checklist do que ter em mãos |
+| 1.1. Lembrar ou consultar a linha e o número do ônibus | *problema (hipótese)*: o número do veículo (prefixo) é a informação mais difícil de lembrar depois |
+| 1.2. Lembrar a data e o horário | |
+| 1.3. Lembrar o local ou a parada | |
+| **2. Encontrar o canal de reclamação** 1>2>3 | *input*: passageiro sabe que a Semob é responsável pelo transporte coletivo<br>*feedback*: página do Participa-DF aberta<br>*plano*: acessar o site **e depois** localizar a Ouvidoria **e depois** clicar no link para o Participa-DF |
+| 2.1. Abrir o navegador e acessar semob.df.gov.br | |
+| **2.2. Localizar a Ouvidoria** 1/2 | *plano*: navegar pelo menu **ou** usar a busca do site. Se o usuário reconhece o termo "Ouvidoria", usa 2.2.1. Se não encontra o item no menu, usa 2.2.2<br>*problema (hipótese)*: "Ouvidoria" é um termo institucional; o usuário pensa em "reclamar", "fale conosco" ou "denunciar ônibus". Isso dificulta o **reconhecimento** e aumenta o golfo de execução<br>*recomendação*: oferecer um acesso direto na página inicial com o vocabulário do usuário, como "Reclamar de um ônibus" |
+| **2.2.1. Navegar pelo menu** 1>2 | *plano*: localizar o item Ouvidoria no menu **e depois** clicar no item |
+| 2.2.1.1. Localizar o item Ouvidoria no menu | |
+| 2.2.1.2. Clicar no item | |
+| **2.2.2. Usar a busca do site** 1>2>3>4 | *plano*: clicar no campo de busca **e depois** digitar o termo **e depois** verificar os resultados **e depois** clicar no resultado da Ouvidoria |
+| 2.2.2.1. Clicar no campo de busca | |
+| 2.2.2.2. Digitar "ouvidoria" ou "reclamação" | |
+| 2.2.2.3. Verificar os resultados | |
+| 2.2.2.4. Clicar no resultado da Ouvidoria | |
+| 2.3. Clicar no link para o Participa-DF | *problema (hipótese)*: o usuário sai do site da Semob para outra plataforma, com outro visual e outro login, sem aviso claro. Pode achar que está no lugar errado (falha de **consistência** e de **visibilidade do estado do sistema**)<br>*recomendação*: avisar antes do redirecionamento que a reclamação é feita no Participa-DF e por quê |
+| **3. Acessar o Participa-DF** 1/2 | *input*: página do Participa-DF aberta<br>*feedback*: usuário autenticado<br>*plano*: entrar com conta existente (se o usuário já possui cadastro) **ou** criar conta (se não possui) |
+| **3.1. Entrar com conta existente** 1>2 | *plano*: digitar CPF e senha **e depois** clicar em entrar |
+| 3.1.1. Digitar CPF e senha | |
+| 3.1.2. Clicar em entrar | |
+| **3.2. Criar conta** 1>2>3 | *plano*: clicar em criar conta **e depois** preencher os dados **e depois** confirmar o cadastro<br>*problema (hipótese)*: o cadastro (nome, CPF, senha, e-mail, sexo, data de nascimento) é uma barreira para uma tarefa pontual e pode levar à desistência |
+| 3.2.1. Clicar em criar conta | |
+| 3.2.2. Preencher nome, CPF, senha, e-mail, sexo e data de nascimento | |
+| 3.2.3. Confirmar o cadastro | |
+| **4. Registrar a manifestação** 1>2>3>4>5 | *input*: usuário autenticado<br>*feedback*: tela de confirmação com protocolo<br>*plano*: selecionar o tipo **e depois** o órgão e o assunto **e depois** digitar a descrição **e depois** anexar arquivo (só se houver) **e depois** revisar e enviar |
+| 4.1. Selecionar o tipo Reclamação | *problema (hipótese)*: os tipos (reclamação, denúncia, sugestão, elogio, solicitação) podem parecer sobrepostos para o usuário leigo |
+| 4.2. Selecionar o órgão (Semob) e o assunto | *problema (hipótese)*: o usuário precisa saber que o órgão responsável é a Semob, e não, por exemplo, o Detran ou a empresa de ônibus |
+| 4.3. Digitar a descrição com linha, número do ônibus, data, horário e local | *problema (hipótese)*: campo de texto livre não orienta quais detalhes tornam a reclamação apurável<br>*recomendação*: campos estruturados (linha, prefixo, data, horário, local) ou um modelo de texto |
+| 4.4. Anexar arquivo, se houver | |
+| 4.5. Revisar e clicar em enviar | |
 | **5. Guardar e acompanhar o protocolo** 1>2 | *input*: manifestação enviada<br>*feedback*: protocolo guardado; andamento consultado<br>*plano*: anotar o protocolo **e depois**, em outro momento, consultar o andamento |
-| 5.1 Anotar o número do protocolo | *problema (hipótese)*: se o usuário fechar a tela sem anotar, depende do e-mail ou da conta para recuperar o protocolo |
-| 5.2 Consultar o andamento depois | |
+| 5.1. Anotar ou copiar o número do protocolo | *problema (hipótese)*: se o usuário fechar a tela sem anotar, depende do e-mail ou da conta para recuperar o protocolo |
+| 5.2. (Em outro momento) entrar no Participa-DF e consultar o andamento | |
 
 *Fonte: [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (2026).*
 
@@ -152,7 +98,7 @@ Conforme o livro (p. 195), a decomposição termina quando se têm as informaç�
 * **Objetivo 1 (reunir as informações)** foi decomposto porque a falha é provável (o usuário não sabe de antemão o que será pedido) e custosa (uma reclamação sem linha, horário ou veículo dificilmente é apurada, e o ocorrido não pode ser "refeito").
 * **Objetivo 2.2 (localizar a Ouvidoria)** foi decomposto em métodos alternativos porque é o ponto em que o usuário pode desistir antes mesmo de começar o registro.
 * **Objetivo 3.2 (criar conta)** foi decomposto porque representa uma barreira de esforço com risco de abandono.
-* **Objetivo 4** foi decomposto até as operações porque é o núcleo da tarefa; as operações 4.4 e 4.5 não foram detalhadas por terem baixa probabilidade de falha.
+* **Objetivo 4** foi decomposto até as operações porque é o núcleo da tarefa; as operações 4.4 e 4.5 não receberam problemas ou recomendações por terem baixa probabilidade de falha.
 * **Objetivo 5** não foi decomposto além das operações; a falha (perder o protocolo) é recuperável pela conta do usuário.
 
 ### 2.4 Hipóteses sobre erros (classificação de Reason, 1990)
@@ -161,7 +107,7 @@ Na etapa 7 da HTA (p. 196), o livro sugere classificar erros como baseados em ha
 
 | Operação | Tipo de erro | Hipótese |
 | :--- | :--- | :--- |
-| 3.2.1 | Habilidades | Erro de digitação em CPF, data de nascimento ou e-mail durante o cadastro. |
+| 3.2.2 | Habilidades | Erro de digitação em CPF, data de nascimento ou e-mail durante o cadastro. |
 | 4.1 | Regras | Aplicar a regra "algo grave aconteceu, então é denúncia" e escolher **Denúncia** em vez de **Reclamação**, desviando o encaminhamento. |
 | 2.3 | Conhecimento | Usuário não sabe que a reclamação é feita no Participa-DF; ao ser levado a outro site, acha que errou o caminho e abandona a tarefa. |
 
@@ -233,11 +179,6 @@ GOAL 0: registrar reclamação sobre um ônibus
       OP. 4.A.3: digitar a descrição com linha, número do ônibus, data, horário e local
       OP. 4.A.4: anexar arquivo, se houver
       OP. 4.A.5: revisar e clicar em enviar
-    METHOD 4.B: registrar com ajuda da assistente virtual (IZA)
-    (SEL. RULE: o usuário não sabe qual tipo ou órgão escolher)
-      OP. 4.B.1: abrir a assistente virtual
-      OP. 4.B.2: responder às perguntas da assistente
-      OP. 4.B.3: revisar e enviar
 
   GOAL 5: guardar e acompanhar o protocolo
     OP. 5.1: anotar ou copiar o número do protocolo
@@ -253,7 +194,7 @@ Conforme o livro (p. 197, 201), o GOMS qualitativo ajuda a perceber métodos sem
 1. **O método 3.B é atipicamente longo** em relação ao objetivo do usuário: para uma reclamação pontual, criar conta exige mais operações do que o próprio registro. É um candidato a abandono.
 2. **O objetivo 1 é o ponto crítico e não tem *feedback* do sistema.** Nenhuma operação do site ajuda o usuário a reunir as informações antes de começar. Se faltar o número do ônibus em 4.A.3, não há método para recuperá-lo.
 3. **Os métodos 2.A e 2.B existem porque o vocabulário do site não corresponde ao do usuário.** O método 2.B tem o dobro de operações; um acesso direto com o termo "Reclamar de um ônibus" tornaria ambos desnecessários.
-4. **O método 4.B mostra que o próprio sistema reconhece a dificuldade de escolher tipo e órgão**, o que reforça a hipótese de erro baseado em regras da seção 2.4.
+4. **Falta um método no objetivo 4.** O único método (4.A) tem como regra de seleção que o usuário já saiba o tipo de manifestação e o órgão responsável; para quem não sabe, o modelo não prevê nenhum caminho. Isso reforça a hipótese de erro baseado em regras da seção 2.4.
 
 ### 3.3 Sobre o KLM
 
@@ -274,28 +215,7 @@ Diferente do caso do DF no Ponto, esta tarefa pode ser feita no computador, com 
 
 ### 4.1 HTA revisada (resumo)
 
-```mermaid
-graph TD
-    N0["0. Registrar reclamação sobre um ônibus<br/><i>Plano 0: 1 > 2 > 3 > 4</i>"]
-    N1["1. Usar o assistente no site da Semob<br/><i>Plano 1: 1.1 > 1.2 > 1.3</i>"]
-    N2["2. Acessar o Participa-DF<br/><i>Plano 2: 2.1 / 2.2</i>"]
-    N3["3. Colar o resumo e enviar"]
-    N4["4. Guardar o protocolo"]
-    N0 --> N1
-    N0 --> N2
-    N0 --> N3
-    N0 --> N4
-    N11["1.1 Clicar em Reclamar de um ônibus na página inicial"]
-    N12["1.2 Conferir o checklist e escolher o problema"]
-    N13["1.3 Copiar o resumo gerado"]
-    N1 --> N11
-    N1 --> N12
-    N1 --> N13
-    N21["2.1 Entrar com conta existente"]
-    N22["2.2 Criar conta"]
-    N2 --> N21
-    N2 --> N22
-```
+![Diagrama HTA da proposta de melhoria no fluxo de reclamação](../../assets/images/hta_proposta_melhoria.png)
 
 *Figura 2 — Diagrama HTA da proposta de melhoria no fluxo de reclamação.*
 *Fonte: [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (2026).*
@@ -311,8 +231,6 @@ graph TD
 | Descrição (op. 4.3) | Texto livre sem orientação | Resumo estruturado pronto para colar |
 
 *Fonte: [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (2026).*
-
-> A proposta não altera o Participa-DF, que é um sistema de outro órgão; ela atua apenas no site da Semob, que é o objeto deste trabalho. A melhoria deve ser validada com usuários (por exemplo, teste de usabilidade comparando os dois fluxos).
 
 ---
 
