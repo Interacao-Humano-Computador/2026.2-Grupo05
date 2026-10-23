@@ -1,7 +1,7 @@
 ## Histórico de Versão
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
-| :---: | :---: | :--- | :--- | :--- |
+| :---: | :---: | :--- | :--- | :--- | :--- |
 | 20/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Papel (TAR-01) via DECIDE para teste presencial. | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - formatação markdown da página |
 
 ---

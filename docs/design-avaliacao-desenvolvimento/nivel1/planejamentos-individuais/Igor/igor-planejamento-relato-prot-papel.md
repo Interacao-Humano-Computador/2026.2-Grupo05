@@ -1,7 +1,7 @@
 ## Histórico de Versão
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
-| :---: | :---: | :--- | :--- | :--- |
+| :---: | :---: | :--- | :--- | :--- | :--- |
 | 20/10/2026 | `1.0` | Criação do planejamento do relato dos resultados do Protótipo de Papel (TAR-01). | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - usado para formatação markdown da página |
 
 ---
