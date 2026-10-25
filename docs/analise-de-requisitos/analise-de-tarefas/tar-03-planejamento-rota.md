@@ -78,27 +78,27 @@ Conforme Barbosa et al. (2021, p. 179), cada operação é especificada formalme
 
 ### 3.3 Análise de Severidade de Operações e Critério (P × C)
 
-Pelo critério **$P \times C$** proposto na metodologia HTA (Annett & Duncan, 1967; Barbosa et al., 2021), em que **$P$** representa a probabilidade de falha ou erro na execução e **$C$** corresponde ao custo ou gravidade da consequência do erro, identificam-se as operações críticas da tarefa:
+Pelo critério **P × C** proposto na metodologia HTA (Annett & Duncan, 1967; Barbosa et al., 2021), em que **P** representa a probabilidade de falha ou erro na execução e **C** corresponde ao custo ou gravidade da consequência do erro, identificam-se as operações críticas da tarefa:
 
 1. **Operação 1.1 (Inserir local de destino e validar ponto de partida):**
-   * **Probabilidade de Falha ($P$):** Média. O passageiro utiliza nomenclaturas populares, nomes de prédios públicos ou abreviações que divergem dos nomes cadastrais oficiais da base de dados da SEMOB.
-   * **Custo da Consequência ($C$):** Alto. O sistema retorna "Nenhum resultado encontrado", levando o cidadão a crer que não existe transporte público para sua localidade, desestimulando o uso do transporte coletivo.
-   * **Avaliação de Risco ($P \times C$):** **ALTO**. O design de IHC deve garantir busca preditiva tolerante a erros ortográficos (*fuzzy matching*) e mapeamento de locais notórios e sinônimos populares do DF.
+   * **Probabilidade de Falha (P):** Média. O passageiro utiliza nomenclaturas populares, nomes de prédios públicos ou abreviações que divergem dos nomes cadastrais oficiais da base de dados da SEMOB.
+   * **Custo da Consequência (C):** Alto. O sistema retorna "Nenhum resultado encontrado", levando o cidadão a crer que não existe transporte público para sua localidade, desestimulando o uso do transporte coletivo.
+   * **Avaliação de Risco (P × C):** **ALTO**. O design de IHC deve garantir busca preditiva tolerante a erros ortográficos (*fuzzy matching*) e mapeamento de locais notórios e sinônimos populares do DF.
 
 2. **Operação 2.1 (Comparar opções com tempo de caminhada, melhor parada e ETA final):**
-   * **Probabilidade de Falha ($P$):** Média. Excesso de opções ou informações confusas sobre paradas próximas podem desorientar o usuário, fazendo-o caminhar para a parada errada.
-   * **Custo da Consequência ($C$):** Alto. O usuário perde o ônibus na parada errada e sofre atraso significativo em seu compromisso de trabalho ou estudo.
-   * **Avaliação de Risco ($P \times C$):** **ALTO**. A interface deve destacar de forma inequívoca o card da "Melhor Opção", com mapa ilustrando a caminhada até a parada correta e o tempo em minutos.
+   * **Probabilidade de Falha (P):** Média. Excesso de opções ou informações confusas sobre paradas próximas podem desorientar o usuário, fazendo-o caminhar para a parada errada.
+   * **Custo da Consequência (C):** Alto. O usuário perde o ônibus na parada errada e sofre atraso significativo em seu compromisso de trabalho ou estudo.
+   * **Avaliação de Risco (P × C):** **ALTO**. A interface deve destacar de forma inequívoca o card da "Melhor Opção", com mapa ilustrando a caminhada até a parada correta e o tempo em minutos.
 
 3. **Operação 3.1 (Seguir caminhada até a parada indicada e embarcar no ônibus em tempo real):**
-   * **Probabilidade de Falha ($P$):** Média. Instabilidade na conexão de dados móveis (3G/4G) do usuário ou atrasos no sinal de telemetria GPS transmitido pelos ônibus.
-   * **Custo da Consequência ($C$):** Alto. O passageiro confia em uma previsão desatualizada, perde o ônibus ou fica exposto a riscos de segurança pública por tempo excessivo na parada.
-   * **Avaliação de Risco ($P \times C$):** **CRÍTICO**. O sistema deve apresentar indicador visual do horário do último sinal recebido (ex.: "Atualizado há 15 segundos"), manter conexão leve e persistente (via WebSocket) e disparar aviso sonoro/vibratório quando o ônibus se aproximar a menos de 500 metros da parada.
+   * **Probabilidade de Falha (P):** Média. Instabilidade na conexão de dados móveis (3G/4G) do usuário ou atrasos no sinal de telemetria GPS transmitido pelos ônibus.
+   * **Custo da Consequência (C):** Alto. O passageiro confia em uma previsão desatualizada, perde o ônibus ou fica exposto a riscos de segurança pública por tempo excessivo na parada.
+   * **Avaliação de Risco (P × C):** **CRÍTICO**. O sistema deve apresentar indicador visual do horário do último sinal recebido (ex.: "Atualizado há 15 segundos"), manter conexão leve e persistente (via WebSocket) e disparar aviso sonoro/vibratório quando o ônibus se aproximar a menos de 500 metros da parada.
 
 4. **Operação 3.2 (Acompanhar viagem a bordo até o destino ou acionar rota de contingência):**
-   * **Probabilidade de Falha ($P$):** Média. Desorientação do usuário sobre o momento exato de dar o sinal de parada ou ocorrência de retenção imprevista na via.
-   * **Custo da Consequência ($C$):** Alto. O passageiro passa do ponto de descida ou fica preso no engarrafamento sem alternativas.
-   * **Avaliação de Risco ($P \times C$):** **ALTO**. Notificação push de alarme de descida ("Desça no próximo ponto") e botão em 1 toque para recalcular rota por itinerário alternativo em caso de interdição.
+   * **Probabilidade de Falha (P):** Média. Desorientação do usuário sobre o momento exato de dar o sinal de parada ou ocorrência de retenção imprevista na via.
+   * **Custo da Consequência (C):** Alto. O passageiro passa do ponto de descida ou fica preso no engarrafamento sem alternativas.
+   * **Avaliação de Risco (P × C):** **ALTO**. Notificação push de alarme de descida ("Desça no próximo ponto") e botão em 1 toque para recalcular rota por itinerário alternativo em caso de interdição.
 
 ---
 
