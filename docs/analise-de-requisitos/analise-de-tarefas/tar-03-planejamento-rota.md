@@ -1,103 +1,104 @@
-# TAR-03: Planejamento de Rota por Origem e Destino com Monitoramento em Tempo Real
+# TAR-03: Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada
 
 ## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 27/09/2026 | 1.0 | Elaboração completa da Análise de Tarefas (HTA, CTT e GOMS/KLM) para a tarefa do Passageiro Cotidiano. | [Arthur Mariani](https://github.com/arthur-mariani) e [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Carlos Costa](https://github.com/carloshfgit) |
+| 25/10/2026 | 1.1 | Correção e aprimoramento da Análise de Tarefas (HTA e CTT), refinando a decomposição de objetivos, inclusão do cálculo de rota porta a porta e atualização dos diagramas. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 ---
 
 ## 1. Introdução
 
-Este documento analisa a tarefa de planejar um deslocamento por origem e destino e acompanhar o ônibus em tempo real. A combinação de HTA, CTT e GOMS/KLM permite examinar a decomposição dos objetivos, as relações temporais e o esforço previsto nos fluxos atual e projetado, apoiando recomendações de design voltadas à eficiência e à redução de erros.
+Este documento analisa a tarefa de planejamento integral de deslocamento no transporte público coletivo do Distrito Federal (SEMOB-DF), estruturada a partir do conceito de **planejamento de rota multimodal porta a porta (*door-to-door transit route planning*)**, consagrado em sistemas de referência nacionais e internacionais como **Google Maps (Transit)**, **Moovit** e **Citymapper**.
+
+Nesses sistemas funcionais modernos, a interação do passageiro é drasticamente simplificada: o usuário não precisa saber previamente qual linha pegar nem onde ficam os pontos de ônibus. Ao informar unicamente **para onde deseja ir**, o sistema utiliza a sua localização atual e calcula a rota inteira:
+1. Identifica as paradas de embarque viáveis no entorno e **destaca a melhor parada**;
+2. Informa com precisão o **tempo estimado de caminhada a pé** até essa parada;
+3. Mostra a **previsão de chegada do ônibus em tempo real** à parada (via dados de telemetria GPS);
+4. Calcula a duração do percurso dentro do ônibus, baldeações necessárias e o **tempo total em que o passageiro chegará ao destino final (*Estimated Time of Arrival - ETA*)**.
+
+A presente análise modela como incorporar essa funcionalidade ao portal/aplicativo da SEMOB-DF, superando o modelo atual fragmentado e proporcionando ao cidadão uma ferramenta prática, transparente e eficaz para seu cotidiano.
 
 ## 2. Caracterização da Tarefa
 
 * **Identificador da Tarefa:** `TAR-03`
-* **Título:** Planejamento de Deslocamento por Origem/Destino e Rastreamento de Veículo em Tempo Real
+* **Título:** Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação da Melhor Parada e Tempo Estimado de Chegada (ETA)
 * **Persona Primária Associada:** [Marcos Paulo Vieira (Passageiro Cotidiano)](../personas/marcos-paulo-vieira.md)
 * **Perfil de Usuário:** [Passageiro do STPC/DF (Usuário Primário)](../perfis-de-usuario/perfil-primario.md)
 * **Responsável pela Elaboração:** [Lucas Araújo](https://github.com/Lucasaraujoszz)
-* **Objetivo da Tarefa:** Permitir que o passageiro descubra a rota ótima e as linhas de ônibus disponíveis para seu deslocamento diário inserindo apenas sua localização atual e o ponto de chegada desejado, acompanhando visualmente a posição georreferenciada do ônibus para minimizar seu tempo de espera na parada e evitar atrasos.
+* **Objetivo da Tarefa:** Permitir que o passageiro planeje e execute seu deslocamento completo inserindo apenas o destino desejado (com origem automática via GPS ou informada manualmente), de modo que o sistema calcule a rota inteira: apresente as opções de paradas e recomende a melhor parada de embarque, informe o tempo de caminhada a pé até o ponto, a previsão em tempo real da chegada do ônibus e o horário estimado de chegada ao destino final, guiando o usuário ao longo de todo o trajeto.
 
 ---
 
 ## 3. Análise Hierárquica de Tarefas (HTA)
 
-A **Análise Hierárquica de Tarefas (HTA - *Hierarchical Task Analysis*)** foi desenvolvida na década de 1960 por Annett e Duncan (1967) e consolidada em IHC para desdobrar tarefas complexas em objetivos, subobjetivos e operações atômicas, mapeando falhas de desempenho e riscos operacionais (Barbosa e Silva, 2010, pp. 192–196).
+A **Análise Hierárquica de Tarefas (HTA - *Hierarchical Task Analysis*)** foi proposta originalmente por Annett e Duncan (1967) e consolidada em Interação Humano-Computador por Barbosa et al. (2021, pp. 177–183) para examinar o trabalho humano decompondo tarefas complexas em objetivos, subobjetivos e operações atômicas, mapeando as condições sob as quais as ações são ativadas (planos) e identificando riscos de erro e oportunidades de reprojeto.
 
-### 3.1 Diagrama HTA
+### 3.1 Diagrama Hierárquico de Tarefas (Representação Gráfica)
 
-```mermaid
-flowchart TD
-    G0["0. Planejar viagem por Origem/Destino e rastrear ônibus<br/><b>Plano 0:</b> Fazer 1 > 2 > 3. Se houver atraso na via, fazer 4."]
-    
-    G1["1. Informar parâmetros de viagem<br/><b>Plano 1:</b> Fazer 1.1 + 1.2"]
-    G11["1.1. Inserir local de partida (Origem)"]
-    G12["1.2. Inserir local de chegada (Destino)"]
-    
-    G2["2. Selecionar melhor opção de itinerário<br/><b>Plano 2:</b> Fazer 2.1 > 2.2"]
-    G21["2.1. Comparar alternativas de linhas e tempos de viagem"]
-    G22["2.2. Escolher linha preferencial"]
-    
-    G3["3. Acompanhar aproximação do ônibus<br/><b>Plano 3:</b> Fazer 3.1 / 3.2"]
-    G31["3.1. Rastrear posição do veículo no mapa"]
-    G32["3.2. Verificar tempo estimado de chegada (ETA)"]
-    
-    G4["4. Consultar alertas de contingência e desvios<br/><b>Plano 4:</b> Fazer 4.1"]
-    G41["4.1. Verificar avisos de obras ou retenções na rota"]
-
-    G0 --> G1
-    G0 --> G2
-    G0 --> G3
-    G0 --> G4
-    
-    G1 --> G11
-    G1 --> G12
-    
-    G2 --> G21
-    G2 --> G22
-    
-    G3 --> G31
-    G3 --> G32
-    
-    G4 --> G41
-```
+O diagrama abaixo ilustra a decomposição da tarefa no padrão visual e estrutural rigoroso da TAR-01 (Igor Dantas), com disposição retangular de caixas, linhas ortogonais, notação padrão de planos e destaque com linha dupla inferior para nós terminais de operações:
 
 <div align="center">
-<p><strong>Figura 1</strong> — Diagrama HTA do planejamento de rota por origem e destino com monitoramento em tempo real.</p>
-<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as setas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência, “/” indica seleção e “+” indica execução paralela.</em></p>
-<p><em>Fonte: Arthur Mariani e Lucas Araújo (2026).</em></p>
+  <img src="../../../assets/images/hta_tar03_lucas.svg" alt="Diagrama HTA - Planejamento de Rota Completa" style="max-width: 100%; height: auto; border: 1px solid #d0d0d0; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); margin: 15px 0;" />
+  <p><strong>Figura 1</strong> — Diagrama HTA: Planejamento de Rota Completa por Destino e Acompanhamento em Tempo Real.</p>
+  <p><em>Legenda: A numeração decimal indica os níveis de decomposição hierárquica; as linhas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência estrita, “/” indica seleção conforme circunstâncias e “+” indica execução em paralelo/ordem flexível. Os blocos do último nível com linha dupla inferior representam operações terminais (folhas).</em></p>
+  <p><em>Fonte: Lucas Araújo Lima (2026), adaptado de Barbosa et al. (2021).</em></p>
 </div>
 
-### 3.2 Tabela HTA (com Problemas e Recomendações de IHC)
+---
 
-Conforme Barbosa & Silva (2010, p. 193), cada operação é especificada pela tupla ⟨Input, Ação, Feedback⟩. O critério de parada adotado é o **p × c** (probabilidade de erro multiplicada pelo custo do erro).
+### 3.2 Tabela Detalhada do HTA (Tuplas e Análise de Falhas)
 
-A Tabela 1 apresenta a decomposição hierárquica da tarefa e relaciona seus objetivos aos problemas do sistema atual e às recomendações de design propostas.
+Conforme Barbosa et al. (2021, p. 179), cada operação é especificada formalmente por uma tupla composta por **⟨Input, Ação, Feedback⟩**, associada a um plano que define sua ativação. A tabela a seguir relaciona cada objetivo e operação folha aos problemas encontrados no portal da SEMOB-DF e às recomendações de IHC formuladas para o reprojeto.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Tabela da Análise Hierárquica de Tarefas (HTA) da TAR-03</p>
+<p><strong>Tabela 1</strong> — Tabela Detalhada da Análise Hierárquica de Tarefas (HTA) da TAR-03</p>
 </div>
 
-| Objetivos e Operações | Relações / Planos | Problemas Detectados no Sistema Atual | Recomendações de Design de IHC |
-| :--- | :--- | :--- | :--- |
-| **0. Planejar viagem e rastrear ônibus** | **Plano 0:** Executar `1 > 2 > 3`. Em caso de alerta de retenção na rota, executar `4`. | O portal atual não integra o planejamento ao rastreamento, forçando navegação em telas separadas ou apps externos. | Integrar em uma única tela fluida a consulta de rota e a visualização do veículo em tempo real. |
-| **1. Informar parâmetros de viagem** | **Plano 1:** Executar `1.1 + 1.2` em qualquer ordem. | O portal exige que o usuário saiba o número da linha (ex.: 0.818), não possuindo busca textual por nome de bairros ou pontos notórios. | Implementar campos com preenchimento automático (*autocomplete*) e geolocalização automática por GPS do aparelho. |
-| **1.1. Inserir local de partida** | Operação: ⟨Localização atual / endereço, Digitar ou aceitar GPS, Ponto de partida marcado no mapa⟩ | O usuário tem que selecionar a parada por lista codificada incompreensível. | Permitir botão "Usar minha localização atual". |
-| **1.2. Inserir local de chegada** | Operação: ⟨Nome do local de destino, Digitar texto de referência, Destino fixado⟩ | Falha de busca caso o nome não seja exatamente o cadastrado no banco administrativo. | Permitir sinônimos populares ("SIA", "ParkShopping", "UnB"). |
-| **2. Selecionar itinerário** | **Plano 2:** Executar `2.1 > 2.2`. | Listagem estática em PDF com horários teóricos de saída que desconsideram o trânsito real. | Apresentar cards de rotas com tempo estimado total, número da linha e tarifa correspondente. |
-| **2.1. Comparar alternativas de linhas** | Operação: ⟨Lista de opções calculadas, Examinar trajetos, Seleção da linha mais vantajosa⟩ | Falta de clareza se a linha é semiexpressa ou parador. | Indicar visualmente o tipo da linha (Expressa, Direta ou Circular) e integrações necessárias. |
-| **2.2. Escolher linha preferencial** | Operação: ⟨Card da rota escolhida, Clicar no botão 'Ver ônibus', Abertura do mapa em tempo real⟩ | Botões pequenos que exigem múltiplos toques na tela móvel. | Aumentar área de toque (alvo de Fitts) respeitando o padrão móvel de no mínimo 48x48 px. |
-| **3. Acompanhar aproximação** | **Plano 3:** Executar `3.1` e `3.2` simultaneamente na mesma tela. | O usuário precisa atualizar a página manualmente (*F5*), o que costuma travar o navegador por falhas de cache. | Atualização automática periódica (via WebSocket/SSE) com contador regressivo em minutos. |
-| **3.1. Rastrear posição no mapa** | Operação: ⟨Coordenadas GPS do veículo, Visualizar ícone em movimento, Identificar proximidade da parada⟩ | O mapa demora excessivamente para carregar em 4G, exibindo blocos cinzas sem renderização. | Otimizar camada vetorial do mapa para dispositivos móveis com baixo consumo de dados. |
-| **3.2. Verificar tempo estimado (ETA)** | Operação: ⟨Distância e velocidade da via, Leitura do tempo estimado, Preparação para o embarque⟩ | Informação expressa em horário fixo em vez de contagem em minutos restantes ("passa às 07h12" vs "chega em 4 min"). | Apresentar *"Chega em X min"* com sinalizador de trânsito lento. |
-| **4. Consultar alertas de desvios** | **Plano 4:** Executar `4.1` quando houver interdição. | Notícias de desvios estão misturadas com releases de assessoria de imprensa no portal. | Exibir *badge* de alerta contextual diretamente no card da linha selecionada. |
+| Objetivos / Operações | Plano de Execução | Tupla de Operação ⟨Input, Ação, Feedback⟩ | Problemas Potenciais / Detectados no Sistema Atual | Recomendações de IHC |
+| :--- | :--- | :--- | :--- | :--- |
+| **0. Planejar viagem porta a porta por destino e acompanhar rota inteira em tempo real** | **Plano 0:** Executar 1 para calcular a rota inteira, comparar as alternativas e escolher a melhor parada/linha em 2, e executar o deslocamento com acompanhamento em tempo real em 3 (1 > 2 > 3). | **Input:** Necessidade de deslocar-se até determinado local sem saber qual ônibus pegar, quanto tempo demora a caminhada até a parada ou quando o veículo chegará.<br/>**Ação:** Digitar o destino, escolher a rota recomendada e seguir as orientações até o destino final.<br/>**Feedback:** Rota completa traçada no mapa com tempo de caminhada, previsão do ônibus e horário exato de chegada ao destino (ETA). | O portal atual exige que o cidadão conheça previamente a linha ou consulte PDFs estáticos de horários teóricos, sem integração de mapas, rotas a pé ou cálculo de chegada. | Implementar buscador unificado "Para onde você quer ir?", com cálculo algorítmico da rota completa (caminhada + ônibus + chegada) nos moldes do Google Maps e Moovit. |
+| **1. Informar destino e calcular rota completa porta a porta** | **Plano 1:** Inserir o local de destino e confirmar a origem (1.1) e aguardar o processamento automático da rota inteira pelo sistema (1.2) (1.1 > 1.2). | *N/A (Subobjetivo intermediário).* | Falta de inteligência de busca no portal; o passageiro não consegue pesquisar por endereço ou ponto de interesse popular. | Disponibilizar campo de busca preditiva de destino no topo da tela com detecção instantânea da localização GPS do usuário. |
+| **1.1. Inserir local de destino e validar ponto de partida (GPS ou manual)** | Operação (Nível Folha) | **Input:** Campo de busca "Para onde você quer ir?" com origem pré-definida em "Sua Localização Atual (GPS)".<br/>**Ação:** Digitar nome do local, bairro ou ponto de interesse (ex.: "SIA Trecho 3", "UnB Gama") e confirmar.<br/>**Feedback:** Destino identificado e opções de itinerários geradas instantaneamente. | O usuário é forçado a selecionar pontos em listas codificadas por números que não correspondem à sua experiência espacial. | Campo único com autocomplete, permitindo sinônimos populares e correção de grafia (*fuzzy search*), mantendo a origem automática via GPS com opção de troca manual. |
+| **1.2. Processar cálculo da rota inteira (caminhada, paradas e tempo de viagem)** | Operação (Nível Folha) | **Input:** Coordenadas de origem e destino, malha viária de pedestres e telemetria GPS em tempo real dos ônibus.<br/>**Ação:** Algoritmo do sistema cruza os dados e calcula os trechos de caminhada e os tempos de trânsito.<br/>**Feedback:** Apresentação de rotas multimodais integradas com indicação da melhor parada, tempo a pé, tempo no ônibus e ETA final. | O sistema atual não calcula tempos reais de caminhada nem prevê tempo de percurso do coletivo, gerando incerteza absoluta sobre o horário de chegada. | Integrar motor de roteamento multimodal com a API de telemetria da frota, calculando velocidade média das vias e distância a pé até cada parada. |
+| **2. Comparar opções e selecionar a melhor combinação de parada e linha** | **Plano 2:** Comparar os cards de rotas com suas respectivas paradas e tempos (2.1) e selecionar o trajeto preferencial (2.2) (2.1 > 2.2). | *N/A (Subobjetivo intermediário).* | O passageiro não tem como comparar se vale a pena andar um pouco mais para pegar um ônibus expresso ou ficar na parada mais próxima. | Estruturar *cards* claros comparando o tempo a pé até a parada, a linha sugerida e o horário final de chegada ao destino. |
+| **2.1. Comparar opções (tempo de caminhada, melhor parada, linha e ETA final)** | Operação (Nível Folha) | **Input:** Lista de rotas sugeridas pelo sistema com destaques visuais.<br/>**Ação:** Analisar tempo de caminhada até a parada recomendada, horário de passagem do ônibus e horário de chegada ao destino.<br/>**Feedback:** Destaque para o card "Melhor Opção / Mais Rápida" (ex.: "Parada 2 a 4 min a pé • Linha 0.818 passa em 6 min • Chegada às 08h35"). | Ausência de clareza sobre qual parada no quarteirão atende àquela linha e quanto tempo leva a caminhada. | Destacar no card: nome/foto da parada, tempo a pé (ex.: "Caminhada de 300m / 4 min"), horário previsto do ônibus e horário de chegada no destino final. |
+| **2.2. Selecionar trajeto preferencial para iniciar navegação e acompanhamento** | Operação (Nível Folha) | **Input:** Toque no card de rota escolhido pelo passageiro.<br/>**Ação:** Tocar no botão "Iniciar Trajeto" ou no próprio card.<br/>**Feedback:** Tela transiciona para o modo de navegação passo a passo, traçando a linha de caminhada até a parada no mapa e ativando o rastreador do ônibus. | Links minúsculos e botões desconexos no portal que abrem arquivos PDF externos em vez de telas interativas. | Card inteiro clicável com alvo de toque adequado (mínimo de 48 × 48 px - Lei de Fitts) e botão de ação primária destacado ("Iniciar Rota"). |
+| **3. Realizar trajeto até a parada e monitorar viagem até o destino final** | **Plano 3:** Seguir a rota a pé e embarcar no ônibus (3.1) e, a bordo, acompanhar a viagem até a descida OU acionar contingência em caso de retenção crítica (3.2) (3.1 / 3.2). | *N/A (Subobjetivo intermediário).* | O passageiro chega à parada e não sabe se o ônibus já passou, gerando ansiedade e sensação de desamparo. | Sistema fornece navegação orientada com contagem regressiva em tempo real e notificações automáticas de aproximação. |
+| **3.1. Seguir caminhada até a parada indicada e embarcar no ônibus em tempo real** | Operação (Nível Folha) | **Input:** Instrução de caminhada na tela e posição em tempo real do ônibus no mapa.<br/>**Ação:** Caminhar até a parada indicada e aguardar a chegada física do coletivo.<br/>**Feedback:** Mapa atualizado com o ícone do ônibus se aproximando e aviso sonoro/vibratório: "Seu ônibus está a 200m da parada". | Atrasos na renderização de mapas pesados em smartphones e falta de confirmação se o ônibus está de fato em operação. | Mapa vetorial leve com atualização contínua (WebSocket/SSE) e indicação do status do veículo ("Veículo em trânsito com ar-condicionado e acessibilidade"). |
+| **3.2. Acompanhar viagem a bordo até o destino ou acionar rota de contingência** | Operação (Nível Folha) | **Input:** Passageiro a bordo do ônibus; monitoramento do trajeto e tempo restante até o destino final.<br/>**Ação:** Acompanhar paradas restantes até o desembarque OU tocar em "Recalcular" caso haja acidente/desvio na rota.<br/>**Feedback:** Aviso de desembarque ("Desça na próxima parada") e confirmação de chegada no horário previsto (ETA). | *(Risco Alto)* Falta de aviso sobre a parada exata de descida faz com que pessoas percam o ponto, especialmente à noite ou em regiões desconhecidas. | *(Recomendação Crítica):* Alerta proativo de descida ("Próxima parada é a sua") e botão de contingência em 1 toque que sugere alternativas imediatas se o tráfego estagnar. |
 
 <div align="center">
-<p><em>Fonte: Lucas Araújo Lima (2026).</em></p>
+<p><em>Fonte: Lucas Araújo Lima (2026), adaptado de Barbosa et al. (2021).</em></p>
 </div>
+
+---
+
+### 3.3 Análise de Severidade de Operações e Critério (P × C)
+
+Pelo critério **$P \times C$** proposto na metodologia HTA (Annett & Duncan, 1967; Barbosa et al., 2021), em que **$P$** representa a probabilidade de falha ou erro na execução e **$C$** corresponde ao custo ou gravidade da consequência do erro, identificam-se as operações críticas da tarefa:
+
+1. **Operação 1.1 (Inserir local de destino e validar ponto de partida):**
+   * **Probabilidade de Falha ($P$):** Média. O passageiro utiliza nomenclaturas populares, nomes de prédios públicos ou abreviações que divergem dos nomes cadastrais oficiais da base de dados da SEMOB.
+   * **Custo da Consequência ($C$):** Alto. O sistema retorna "Nenhum resultado encontrado", levando o cidadão a crer que não existe transporte público para sua localidade, desestimulando o uso do transporte coletivo.
+   * **Avaliação de Risco ($P \times C$):** **ALTO**. O design de IHC deve garantir busca preditiva tolerante a erros ortográficos (*fuzzy matching*) e mapeamento de locais notórios e sinônimos populares do DF.
+
+2. **Operação 2.1 (Comparar opções com tempo de caminhada, melhor parada e ETA final):**
+   * **Probabilidade de Falha ($P$):** Média. Excesso de opções ou informações confusas sobre paradas próximas podem desorientar o usuário, fazendo-o caminhar para a parada errada.
+   * **Custo da Consequência ($C$):** Alto. O usuário perde o ônibus na parada errada e sofre atraso significativo em seu compromisso de trabalho ou estudo.
+   * **Avaliação de Risco ($P \times C$):** **ALTO**. A interface deve destacar de forma inequívoca o card da "Melhor Opção", com mapa ilustrando a caminhada até a parada correta e o tempo em minutos.
+
+3. **Operação 3.1 (Seguir caminhada até a parada indicada e embarcar no ônibus em tempo real):**
+   * **Probabilidade de Falha ($P$):** Média. Instabilidade na conexão de dados móveis (3G/4G) do usuário ou atrasos no sinal de telemetria GPS transmitido pelos ônibus.
+   * **Custo da Consequência ($C$):** Alto. O passageiro confia em uma previsão desatualizada, perde o ônibus ou fica exposto a riscos de segurança pública por tempo excessivo na parada.
+   * **Avaliação de Risco ($P \times C$):** **CRÍTICO**. O sistema deve apresentar indicador visual do horário do último sinal recebido (ex.: "Atualizado há 15 segundos"), manter conexão leve e persistente (via WebSocket) e disparar aviso sonoro/vibratório quando o ônibus se aproximar a menos de 500 metros da parada.
+
+4. **Operação 3.2 (Acompanhar viagem a bordo até o destino ou acionar rota de contingência):**
+   * **Probabilidade de Falha ($P$):** Média. Desorientação do usuário sobre o momento exato de dar o sinal de parada ou ocorrência de retenção imprevista na via.
+   * **Custo da Consequência ($C$):** Alto. O passageiro passa do ponto de descida ou fica preso no engarrafamento sem alternativas.
+   * **Avaliação de Risco ($P \times C$):** **ALTO**. Notificação push de alarme de descida ("Desça no próximo ponto") e botão em 1 toque para recalcular rota por itinerário alternativo em caso de interdição.
 
 ---
 
@@ -112,54 +113,32 @@ O modelo **ConcurTaskTrees (CTT)**, proposto por Fabio Paternò (1999, 2000), de
 * **Tarefa Interativa (Usuário com Sistema):** Ações de entrada e diálogo bilateral com a interface (ex.: digitar destino, tocar em card).
 * **Tarefa do Sistema (Computador):** Processamentos autônomos internos do software (ex.: calcular rotas, consultar API do GPS).
 
-### 4.2 Estrutura Formal e Operadores Lógicos CTT
+### 4.2 Estrutura Formal e Diagrama CTT
 
-```mermaid
-graph TD
-    T0["[Abstrata] Planejar Viagem e Rastrear Ônibus"]
-    
-    T1["[Abstrata] Definir Trajeto"]
-    T2["[Abstrata] Selecionar Itinerário"]
-    T3["[Abstrata] Monitorar Chegada"]
-    
-    T0 --> T1
-    T0 --> T2
-    T0 --> T3
-    
-    T11["[Interativa] Informar Origem e Destino"]
-    T12["[Sistema] Buscar Rotas Disponíveis"]
-    T1 --> T11
-    T1 --> T12
-    
-    T21["[Interativa] Comparar Opções de Linha"]
-    T22["[Usuário] Decidir Melhor Alternativa"]
-    T23["[Interativa] Selecionar Linha Escolhida"]
-    T2 --> T21
-    T2 --> T22
-    T2 --> T23
-    
-    T31["[Sistema] Obter Dados de GPS do Ônibus"]
-    T32["[Interativa] Exibir Localização no Mapa"]
-    T33["[Interativa] Exibir Tempo Restante"]
-    T34["[Usuário] Aguardar no Ponto para Embarque"]
-    T3 --> T31
-    T3 --> T32
-    T3 --> T33
-    T3 --> T34
-```
+O diagrama abaixo apresenta a modelagem gráfica formal das relações temporais e lógicas da tarefa, seguindo rigorosamente a padronização visual da TAR-01 (Igor Dantas) com a simbologia de Paternò (1999) (nuvens para tarefas abstratas, silhuetas para usuários, monitores para sistemas e operadores temporais formais):
 
 <div align="center">
-<p><strong>Figura 2</strong> — Diagrama CTT do planejamento de rota e do monitoramento da chegada do ônibus.</p>
-<p><em>Legenda: [Abstrata] = composição de tarefas; [Usuário] = tarefa realizada pela pessoa fora do sistema; [Interativa] = interação entre usuário e sistema; [Sistema] = processamento automático. As setas representam a decomposição hierárquica.</em></p>
-<p><em>Fonte: Arthur Mariani e Lucas Araújo (2026).</em></p>
+  <img src="../../../assets/images/ctt_tar03_lucas.svg" alt="Diagrama CTT - Planejamento de Rota Completa" style="max-width: 100%; height: auto; border: 1px solid #d0d0d0; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); margin: 15px 0;" />
+  <p><strong>Figura 2</strong> — Diagrama CTT: Planejamento de Viagem Completa por Destino e Acompanhamento em Tempo Real.</p>
+  <p><em>Legenda: Nuvem = tarefa abstrata; pessoa = tarefa do usuário; monitor = tarefa do sistema; pessoa com monitor = tarefa interativa. Operadores temporais: []&gt;&gt; (passagem de informação), &gt;&gt; (sequência), ||| (concorrência) e [&gt; (desativação / contingência).</em></p>
+  <p><em>Fonte: Lucas Araújo Lima (2026), adaptado de Paternò (1999) e no padrão visual da TAR-01 (Igor Dantas).</em></p>
 </div>
 
-#### Relações Temporais Formais da Tarefa:
-1. `Definir Trajeto []>> Selecionar Itinerário`: Ativação sequencial com passagem de informação (as opções de rota dependem das coordenadas de origem e destino fornecidas).
-2. `Informar Origem e Destino >> Buscar Rotas Disponíveis`: O sistema só inicia o algoritmo de busca após o usuário submeter os parâmetros.
-3. `Comparar Opções [] Decidir Melhor Alternativa >> Selecionar Linha`: Processo de escolha e decisão cognitiva que culmina na seleção.
-4. `Obter GPS []>> (Exibir Localização ||| Exibir Tempo Restante)`: O sistema recupera a telemetria do veículo e atualiza concomitantemente (`|||`) o mapa e o contador de minutos.
-5. `(Exibir Localização ||| Exibir Tempo) [> Embarcar no Ônibus`: Desativação (*deactivation*) — o monitoramento é cancelado no momento em que o passageiro realiza o embarque físico no ônibus.
+### 4.3 Detalhamento e Mapeamento dos Ramos do CTT
+
+A decomposição lógica do modelo CTT está organizada em três ramos principais com operadores formais:
+
+* **Ramo 1: ☁️ [1] Informar destino e calcular rota**
+  * **Contexto de IHC:** O usuário fornece os dados mínimos necessários (destino) e o sistema processa proativamente o trajeto multimodal completo.
+  * **Fluxo de Interação:** O passageiro executa a tarefa interativa **[1.1] Inserir destino e confirmar origem** (🖥️➔👤). Com a submissão dos dados, o sistema ativa com passagem de informação (`[]>>`) a tarefa interna **[1.2] Calcular rota inteira, caminhada e ETA** (🖥️), que cruza o raio de paradas com a telemetria GPS da SEMOB-DF.
+
+* **Ramo 2: ☁️ [2] Comparar opções e selecionar rota**
+  * **Contexto de IHC:** Avaliação cognitiva e decisão pelo itinerário ótimo.
+  * **Fluxo de Interação:** O passageiro executa a tarefa cognitiva **[2.1] Analisar opções e melhor parada** (👤), comparando o esforço de caminhada até a parada indicada e o tempo de chegada. Em seguida (`>>`), executa a tarefa interativa **[2.2] Selecionar rota e iniciar trajeto** (🖥️➔👤) para abrir a visão guiada de viagem.
+
+* **Ramo 3: ☁️ [3] Realizar viagem e monitorar trajeto**
+  * **Contexto de IHC:** Deslocamento físico apoiado por assistência contínua do sistema e planos de contingência.
+  * **Fluxo de Interação:** O passageiro executa a ação física **[3.1] Caminhar ao ponto e embarcar** (👤), enquanto concomitantemente (`|||`) o software executa a tarefa de segundo plano **[3.2] Rastrear veículo e atualizar previsão** (🖥️). A tarefa interativa **[3.3] Alertar descida ou acionar desvio** (🖥️➔👤) monitora a proximidade do destino ou pode desativar (`[>`) o trajeto padrão para sugerir uma rota alternativa imediata em caso de retenção ou quebra do coletivo.
 
 ---
 
@@ -249,6 +228,7 @@ O fluxo reprojetado reduz o tempo preditivo de execução da tarefa de **17,80 s
 
 * ANNETT, John; DUNCAN, Keith D. **Task analysis and training design**. *Journal of Occupational Psychology*, v. 41, n. 4, p. 211–221, 1967.
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6: Organização do Espaço de Problema — Análise de Tarefas (pp. 191–205).
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * CARD, Stuart K.; MORAN, Thomas P.; NEWELL, Allen. **The Psychology of Human-Computer Interaction**. Hillsdale: Lawrence Erlbaum Associates, 1983.
 * KIERAS, David. **Using the Keystroke-Level Model to Estimate Execution Times**. Ann Arbor: University of Michigan, 1993.
 * PATERNÒ, Fabio. **Model-Based Design and Evaluation of Interactive Applications**. London: Springer-Verlag, 1999.
