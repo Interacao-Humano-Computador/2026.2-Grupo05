@@ -200,6 +200,8 @@ nav:
         - Igor:
           - Planejamento da avaliação do Storyboard e da Análise de tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md
           - Planejamento do relato dos resultados da avaliação: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md
+          - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md
         - Lucas:
           - Questões Práticas e Éticas das Avaliações: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md
           - Planejamento Individual - Lucas Araújo: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md
@@ -209,6 +211,9 @@ nav:
         - Tomás:
           - Planejamento da avaliação do Storyboard e da Análise de tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md
           - Planejamento do relato dos resultados da avaliação: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md
+      - Relatos dos resultados individuais:
+        - Igor: 
+          - Resultados da avaliação do storyboard e da análise de tarefa: design-avaliacao-desenvolvimento/nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md
 
   - Verificação: 
     - Verificação da entrega 1: verificacao/verif1.md
