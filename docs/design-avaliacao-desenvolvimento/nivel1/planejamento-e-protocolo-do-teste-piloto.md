@@ -3,7 +3,8 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração do uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 11/10/2026 | `1.0` | Elaboração do Planejamento e Protocolo do Teste Piloto da Etapa 4 (definição, roteiro, ficha de calibração e cronograma). | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - utilizado para formatação MarkDown da página |
-| 20/10/2026 | `1.1` | Revisão do Planejamento e Protocolo do Teste Piloto da Etapa 4 (definição, roteiro, ficha de calibração e cronograma). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani)
+| 20/10/2026 | `1.1` | Revisão do Planejamento e Protocolo do Teste Piloto da Etapa 4 (definição, roteiro, ficha de calibração e cronograma). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | — |
+| 25/10/2026 | `1.2` | Inclusão do link e incorporação da gravação em vídeo da simulação do Teste Piloto. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | — |
 
 ---
 
@@ -171,6 +172,17 @@ Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis defini
 
 <div align="center">
 <p><em>Fonte: Igor Dantas Araújo (2026).</em></p>
+</div>
+
+### 5.1 Gravação da Execução do Teste Piloto
+
+O registro audiovisual da simulação prática do teste piloto realizado pela equipe está disponível no YouTube pelo link abaixo:
+
+- **Vídeo do Teste Piloto:** [https://youtu.be/ksrdguID_Dc](https://youtu.be/ksrdguID_Dc)
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ksrdguID_Dc" title="Gravação do Teste Piloto - Storyboard e Análise de Tarefas" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p><em>Vídeo 1: Gravação da simulação do Teste Piloto (Storyboard 01 e Tarefa TAR-01).</em></p>
 </div>
 
 ---
