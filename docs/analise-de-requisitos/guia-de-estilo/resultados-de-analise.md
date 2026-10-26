@@ -6,6 +6,7 @@
 | :---: | :---: | :--- | :--- | :--- |
 | 05/10/2026 | 1.0 | Criação do documento de resultados de análise. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
 | 11/10/2026 | 1.1 | Atualização do perfil da persona Larissa Ferreira Lima na tabela de personas e da referência ao cenário de mudanças de itinerário (Cenário 1 → Cenário 9). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
+| 23/10/2026 | 1.2 | Atualização da persona Heitor Santos Júnior, inclusão da TAR-09 (aumento do limite diário do Vale-Transporte) nas tarefas e nas implicações para o guia, e correção da referência ao cenário de desvios (Cenário 9 → Cenário 6). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
 
 **Autor do Artefato: Igor Dantas.**
 
@@ -35,7 +36,7 @@ Esta seção reúne os resultados da análise realizada com os usuários e sobre
 | Marcos Paulo Vieira ("Marquinhos") | Persona primária | Trabalhador do setor de logística; foco em tarefas móveis e busca rápida por origem/destino, sem conhecer o código da linha | [Persona completa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/marcos-paulo-vieira/) |
 | Maria Eduarda Santos ("Duda") | Persona primária | Trabalhadora usuária de Vale-Transporte que precisa resolver falhas de crédito/cartão sob pressão de horário | [Persona completa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/maria-eduarda-santos/) |
 | Valdir Soares ("Seu Valdir") | Persona atendida / primária operacional | Motorista profissional de ônibus do STPC/DF (Viação Piracicabana, Bacia 1) | [Persona completa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/valdir-soares/) |
-| Heitor Santos Júnior | Persona primária | Técnico de manutenção predial de Planaltina, letramento digital intermediário, depende do ônibus para trabalhar | [Persona completa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/heitor-santos-junior/) |
+| Heitor Santos Júnior | Persona primária | Técnico de manutenção predial de Planaltina, letramento digital intermediário, pega vários ônibus a serviço no mesmo dia e ultrapassa o limite diário do Vale-Transporte | [Persona completa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/heitor-santos-junior/) |
 | Mariana Borges Almeida | Persona primária | Analista administrativa com rotina organizada; foco em previsão precisa e monitoramento de chegada sob chuva | [Persona completa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/mariana-borges-almeida/) |
 
 *Fonte: Igor Dantas Araújo*
@@ -73,6 +74,7 @@ A tabela 2 abaixo indica as principais tarefas feitas e analisadas pelo grupo, b
 | Receber alerta inteligente de saída de casa (TAR-01) | Diária | Alta | Relacionada ao objetivo de não esperar à toa no ponto nem sair tarde demais |
 | Pré-agendar atendimento no Programa DF Acessível (TAR-02) | Eventual | Alta para o público elegível | Fluxo de agendamento específico, com menor frequência de uso |
 | Consultar/credtiar Vale-Transporte e resolver falhas de cartão | Semanal (consulta) / eventual (falha) | Crítica quando ocorre falha | Persona Maria Eduarda Santos aprofunda esse cenário |
+| Pedir aumento do limite diário de uso do Vale-Transporte (TAR-09) | Eventual (ao começar no emprego ou quando a rotina muda) | Crítica quando ocorre | O cartão aceita 8 acessos por dia; a página da Semob não informa o limite, o link do formulário não leva ao formulário e a entrega é só presencial. Persona Heitor Santos Júnior aprofunda esse cenário (Cenário 9) |
 | Cuidar do cadastro do Passe Livre Estudantil | Semestral ou anual | Alta | Envolve documentação e prazo de análise |
 | Verificar avisos de mudança (desvios, obras, novas linhas) | Semanal ou quando percebe atraso | Alta | Hoje divulgada de forma inconsistente entre imprensa, site e grupos informais |
 | Registrar reclamação, sugestão ou pedido de nova linha/abrigo | Eventual | Média | Canal formal é a Ouvidoria do GDF (162 / Sistema Participa DF) |
@@ -114,9 +116,10 @@ A tabela 4 relaciona os achados da análise às decisões do guia, preservando o
 | Baixo conhecimento institucional (usuários não distinguem Semob, BRB Mobilidade, Metrô-DF e operadoras) e desconhecimento de jargões técnicos ("integração tarifária", "linha circular", "validador") | Linguagem simples e orientada por tarefa do cotidiano do passageiro, evitando nomenclatura institucional no menu principal | 4 e 6 |
 | Consulta de linha/horário é a tarefa diária e crítica (TAR-01, TAR-03, TAR-06) | Priorizar localização do ônibus em tempo real e horários das linhas favoritas já na tela inicial, com busca por origem/destino sem exigir o código da linha | 4 – Elementos de interação |
 | Falhas de atualização em tempo real e divergência entre horário programado e horário real (Cenário 2) | Indicar claramente o nível de confiança/atualização da informação exibida (ex.: "atualizado há X min") em vez de estados de erro silenciosos | 4 e 6 |
-| Mudanças de itinerário (obras, desvios) nem sempre chegam ao usuário antes de ele chegar à parada (Cenário 9) | Mecanismo de aviso proativo de mudanças, com destaque visual na tela inicial/linha afetada | 4 – Elementos de interação |
+| Mudanças de itinerário (obras, desvios) nem sempre chegam ao usuário antes de ele chegar à parada (Cenário 6) | Mecanismo de aviso proativo de mudanças, com destaque visual na tela inicial/linha afetada | 4 – Elementos de interação |
 | Conectividade instável dentro do metrô e em estações subterrâneas; franquia de dados limitada | Interface leve, com carregamento rápido e funcionamento degradado gracioso sob conexão ruim | 3 e 4 |
 | Tarefas cadastrais sensíveis (Passe Livre, Vale-Transporte) hoje distribuídas entre Semob, BRB Mobilidade e Ouvidoria, em sites e fluxos distintos | Centralizar o caminho de cada serviço a partir do portal, com indicação clara de para onde o usuário será direcionado e por quê | 4 e 6 |
+| O cartão de Vale-Transporte é recusado no validador sem explicação quando o usuário passa do limite diário de acessos, e o pedido de aumento exige formulário, documentos e entrega presencial (Cenário 9, TAR-09) | Mensagens de estado que expliquem o motivo e o próximo passo (ex.: "Você usou 8 de 8 passagens hoje"), acesso direto com o vocabulário do usuário e serviços que possam ser concluídos pelo celular, com protocolo e aviso de conclusão | 4 e 6 |
 | Motorista (usuário terciário) nunca acessa o portal, mas é diretamente afetado por divergências de informação | Garantir sincronização entre as informações publicadas no portal e os dados repassados às concessionárias, como requisito não funcional do sistema | 6 – Conteúdo e linguagem |
 
 *Fonte: Igor Dantas Araújo.*

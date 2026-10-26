@@ -7,6 +7,7 @@
 | 12/10/2026 | `1.2` | Adição do Storyboard 05 (Consulta de Rotas e Desvios para Novos Endereços): roteiro dos quadros, ilustração e tabela de verificação. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini - usado para formatação Markdown da seção |
 | 13/10/2026 | `1.3` | Adição do Storyboard 03 (Planejamento de Rota por Origem/Destino e Rastreamento), descrição narrativa acessível e tabela de conformidade. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini - utilizado apenas para formatação em Markdown |
 | 13/10/2026 | `1.4` | Adição do Storyboard 04 (Consulta de Escala de Trabalho e Alertas Operacionais) elaborado por Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não utilizada (elaboração autoral manual do integrante) |
+| 23/10/2026 | `1.5` | Reformulação do Storyboard 05 para a nova tarefa TAR-09 (Pedido de Aumento do Limite Diário do Vale-Transporte): nova ilustração, descrição narrativa dos quadros, tabela de verificação e vínculos na matriz. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para pesquisa no site da Semob e redação do roteiro e da seção |
 
 ---
 
@@ -46,7 +47,7 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 | **02** | **Gabriel Cardone** | *Pré-agendamento no Programa DF Acessível* | [Larissa Ferreira Lima](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/larissa-ferreira-lima/) | [Cenário 1](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel/) | [TAR-02 (DF Acessível)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel/) |
 | **03** | **Lucas Araújo** | *Planejamento de Rota por Origem/Destino* | [Marcos Paulo Vieira](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/marcos-paulo-vieira/) | [Cenário 3](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino/) | [TAR-03 (Origem/Destino)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/) |
 | **04** | **Carlos Costa** | *Consulta de escala e alertas operacionais* | [Valdir Soares](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/valdir-soares/) | [Cenário 5](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-5-consulta-escala/) / [Cenário 6](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-6-alerta-desvio/) | [TAR-04/TAR-05 (Motorista)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista/) |
-| **05** | **Tomas Garcia Rocho** | *Consulta de rotas e desvios para novos endereços* | [Heitor Santos Júnior](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/heitor-santos-junior/) | [Cenário 9](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-9-endereco-novo/) | [TAR-03 (Pesquisa de Rota)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/) |
+| **05** | **Tomas Garcia Rocho** | *Pedido de aumento do limite diário do Vale-Transporte* | [Heitor Santos Júnior](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/heitor-santos-junior/) | [Cenário 9](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte/) | [TAR-09 (Limite do Vale-Transporte)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte/) |
 | **06** | **Rodrigo Barbosa** | *Reclamação sobre ônibus a partir do site da Semob* | [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) | [Cenário 11](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus/) | [TAR-08 (Reclamação sobre Ônibus)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/) |
 | **07** | **Arthur Mariani** | *Regularização de crédito de Vale-Transporte* | [Maria Eduarda Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/maria-eduarda-santos/) | [Cenário 4](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte/) | [TAR-07 (Vale-Transporte)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte/) |
 
@@ -220,54 +221,46 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 
 ---
 
-### 3.5. Storyboard 05: Consulta de Rotas e Desvios para Novos Endereços
+### 3.5. Storyboard 05: Pedido de Aumento do Limite Diário do Vale-Transporte
 
 * **Autor:** [Tomas Garcia Rocho](https://github.com/TomasRocho)
-* **Persona Retratada:** [Heitor Santos Júnior](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/heitor-santos-junior/)
-* **Cenário de Uso:** [Cenário 9 — Navegação para Endereço Novo com Desvio](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-9-endereco-novo/)
-* **Tarefa Ancorada:** [TAR-03 — Pesquisa e Seleção de Itinerário](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/)
+* **Persona Retratada:** [Heitor Santos Júnior](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/heitor-santos-junior/) (Técnico de manutenção predial, 36 anos, morador de Planaltina)
+* **Cenário de Uso:** [Cenário 9 — Cartão de Vale-Transporte Recusado no Meio do Expediente](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte/)
+* **Tarefa Ancorada:** [TAR-09 — Solicitar Aumento do Limite Diário do Vale-Transporte](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte/)
+* **Tempo para confecção:** *[a preencher pelo autor]*
 
-#### **Roteiro dos Quadros do Storyboard 05**
-
-O storyboard mostra a situação do Cenário 9 com a solução proposta: Heitor encontra a rota a partir do destino e é avisado do desvio antes de ir até o ponto errado.
-
-<div align="center">
-<p><strong>Tabela 4</strong> — Roteiro quadro a quadro do Storyboard 05</p>
-</div>
-
-| Quadro | O que é mostrado | Papel do sistema |
-| :---: | :--- | :--- |
-| **Q1** | Heitor recebe na recepção uma ordem de serviço de manutenção predial no edifício da 708 Norte, endereço que não conhece. | Gatilho da necessidade. |
-| **Q2** | Ele abre o site pelo celular e digita "708 Norte" no campo de busca. O site mostra uma lista de endereços parecidos para ele escolher. | Busca por destino, sem precisar saber o nome ou o número da linha. |
-| **Q3** | A tela **Melhor rota encontrada** mostra a **linha 102**, sentido 708 Norte, um aviso em destaque de **desvio pela L2** e um esquema do trajeto desviado. | Aviso de desvio associado à linha que o usuário vai pegar. |
-| **Q4** | Heitor vai ao ponto correto e faz sinal para o ônibus da linha 102, que segue com o desvio pela L2. | Rota e parada atualizadas de acordo com o desvio. |
-| **Q5** | Ele chega à entrada do edifício da 708 Norte a tempo de realizar o serviço. | Tarefa concluída sem atraso. |
-
-<div align="center">
-<p><em>Fonte: Tomás Rocho (2026), com base no Cenário 9.</em></p>
-</div>
+O Storyboard 05 retrata a **solução proposta** na TAR-09 para a situação do Cenário 9: o cartão de Heitor é recusado depois de vários embarques a serviço, e o site da Semob explica o motivo, recebe o pedido de mais acessos pelo celular e avisa quando o novo limite está valendo. As telas são representadas como esboços, preservando o caráter de planejamento do storyboard.
 
 #### **Ilustração do Storyboard 05**
 
 <div align="center">
-  <img src="../../../assets/storyboards/Storyboard-5-Tomas.jpg" alt="Storyboard 05 - Consulta de Rotas e Desvios para Novos Endereços" width="100%">
-  <p><strong>Figura 5</strong> — Storyboard 05: Consulta de rotas e desvios para novos endereços</p>
+  <img src="../../../assets/storyboards/Storyboard-5-Tomas.jpg" alt="Storyboard 05 - Pedido de aumento do limite diário do Vale-Transporte" width="100%">
+  <p><strong>Figura 5</strong> — Storyboard 05: Pedido de aumento do limite diário do Vale-Transporte</p>
   <p><em>Fonte: Elaborado por Tomás Rocho (2026).</em></p>
 </div>
+
+#### **Descrição Narrativa dos Quadros do Storyboard 05**
+
+* **Quadro 1 (Início — Cartão recusado):** Às 16h40, numa estação de BRT, depois de cinco chamados em prédios diferentes, Heitor encosta o cartão no validador e a catraca continua travada. Ele não entende o motivo: *"Ué, recusou?"*
+* **Quadro 2 (Ação — Acesso direto no site):** Heitor abre o site da Semob no celular e já encontra o botão certo: **"Meu Vale-Transporte foi recusado"**, na página inicial (objetivos 1 e 2 da TAR-09).
+* **Quadro 3 (Feedback — Explicação da recusa):** O site mostra **"Você usou 8 de 8 passagens hoje!"**, com as oito passagens marcadas, avisa que **as integrações também contam** e oferece o botão **"Pedir mais passagens por dia"**.
+* **Quadro 4 (Ação — Pedido pelo celular):** À noite, em casa, Heitor fotografa com o celular o RG e o comprovante de residência sobre a mesa e envia o pedido guiado, sem precisar ir ao posto (objetivos 3 a 5 da TAR-09).
+* **Quadro 5 (Confirmação — Protocolo):** O site confirma **"Pedido enviado!"** com o **protocolo 2026-0451** e avisa: *"Vamos te avisar pelo WhatsApp"*. Heitor faz um sinal de positivo.
+* **Quadro 6 (Fim — Novo limite valendo):** Dias depois, chega no celular a mensagem de WhatsApp: *"SEMOB: seu novo limite do cartão foi aprovado e já está valendo"*. Agora o cartão acompanha o dia de trabalho de Heitor (objetivo 6 da TAR-09).
 
 #### **Tabela de Verificação do Storyboard 05**
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Verificação de Conformidade do Storyboard 05</p>
+<p><strong>Tabela 6</strong> — Verificação de Conformidade do Storyboard 05</p>
 </div>
 
 | Categoria / Critério | Atendimento no Storyboard 05 | Situação |
 | :--- | :--- | :---: |
-| **1. Personas e Atores** | Apresenta o personagem **Heitor Santos Júnior**, em traço simples e desenhado à mão, como trabalhador de manutenção predial que usa o celular para chegar ao destino. | **Conforme** |
-| **2. Contexto e Ambiente** | Transita da recepção onde recebe a ordem de serviço (Q1) e consulta o celular (Q2–Q3) para o ponto de ônibus (Q4) e a entrada do edifício da 708 Norte (Q5). | **Conforme** |
-| **3. Tarefa Retratada** | Ilustra a **TAR-03** (pesquisa e seleção de itinerário) aplicada a um endereço novo, como no Cenário 9. | **Conforme** |
-| **4. Papel do Sistema** | Exibe a busca por destino com sugestões (Q2) e a melhor rota com o aviso de desvio associado à linha (Q3). | **Conforme** |
-| **5. Estrutura Narrativa** | Possui fluxo claro com Início (Q1), Meio (Q2–Q4) e Fim (Q5), com legenda manuscrita em cada quadro. | **Conforme** |
+| **1. Personas e Atores** | Apresenta a persona **Heitor Santos Júnior** em traço simples, desenhado à mão, no validador (Q1) e em casa (Q4). | **Conforme** |
+| **2. Contexto e Ambiente** | Transita da estação de BRT no fim do expediente (Q1–Q3) para a casa de Heitor à noite (Q4–Q5) e, dias depois, para a mensagem de aprovação no celular (Q6). | **Conforme** |
+| **3. Tarefa Retratada** | Ilustra a **TAR-09** na versão proposta: entender a recusa, pedir mais acessos, enviar documentos, receber protocolo e ser avisado do novo limite. | **Conforme** |
+| **4. Papel do Sistema** | Exibe o acesso direto na página inicial (Q2), o contador de passagens do dia (Q3), o envio de documentos por foto (Q4), o protocolo (Q5) e o aviso de aprovação pelo WhatsApp (Q6). | **Conforme** |
+| **5. Estrutura Narrativa** | Possui fluxo claro com Início (Q1), Meio (Q2–Q5) e Fim com desfecho positivo (Q6). | **Conforme** |
 
 <div align="center">
 <p><em>Fonte: Tomás Rocho (2026).</em></p>

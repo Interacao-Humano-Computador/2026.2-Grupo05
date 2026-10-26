@@ -11,6 +11,7 @@
 | 28/09/2026 | 1.4 | Inclusão das personas Heitor Santos Júnior e Mariana Borges Almeida. | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
 | 11/10/2026 | 1.5 | Reformulação da persona Larissa Ferreira Lima para usuária com mobilidade reduzida temporária (Programa DF Acessível). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
 | 13/10/2026 | 1.6 | Inclusão da persona primária Cláudia Regina Santos. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 23/10/2026 | 1.7 | Atualização da persona Heitor Santos Júnior para a TAR-09 (aumento do limite diário do Vale-Transporte). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
 
 ---
 
@@ -48,7 +49,7 @@ Cada persona foi preservada no elenco por acrescentar uma perspectiva específic
 2. **João Pedro Carvalho:** alta familiaridade tecnológica, rotina universitária e expectativa de alertas preditivos.
 3. **Marcos Paulo Vieira:** planejamento por origem e destino sem conhecimento prévio do código da linha.
 4. **Maria Eduarda Santos:** uso de Vale-Transporte e resolução de falhas de crédito sob pressão de horário e orçamento.
-5. **Heitor Santos Júnior:** letramento digital intermediário, deslocamento para endereços desconhecidos e necessidade de avisos sobre desvios.
+5. **Heitor Santos Júnior:** letramento digital intermediário, vários deslocamentos a serviço no mesmo dia e necessidade de entender e ampliar o limite diário de uso do Vale-Transporte.
 6. **Mariana Borges Almeida:** previsibilidade, monitoramento em tempo real e tomada de decisão em condições de chuva.
 7. **Valdir Soares:** perspectiva do motorista como persona atendida pelo portal e como possível usuário de um canal móvel operacional.
 8. **Cláudia Regina Santos:** técnica de enfermagem em regime de plantão, foco em registro e acompanhamento de reclamações na Ouvidoria após problemas com linhas e horários.
@@ -72,7 +73,7 @@ A Tabela 1 apresenta o elenco de personas desenvolvido pela equipe para orientar
 | **Marcos Paulo Vieira ("Marquinhos")** | Persona Primária | Trabalhador do setor de logística (Usuário Padrão/Cotidiano), foco estrito em tarefas móveis e busca por Origem/Destino | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Acessar Persona](marcos-paulo-vieira.md) |
 | **Maria Eduarda Santos ("Duda")** | Persona Primária | Trabalhadora que utiliza Vale-Transporte e precisa resolver falhas de crédito e cartão sob pressão de horário | Equipe Grupo 05 | [Acessar Persona](maria-eduarda-santos.md) |
 | **Valdir Soares ("Seu Valdir")** | Persona Atendida (*Served*) / Primária Operacional | Motorista profissional de ônibus urbano do STPC/DF (Viação Piracicabana, Bacia 1) | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Persona](valdir-soares.md) |
-| **Heitor Santos Júnior** | Persona Primária | Técnico de manutenção predial de Planaltina, com letramento digital intermediário, que depende do ônibus para trabalhar e se deslocar entre endereços do Plano Piloto | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Persona](heitor-santos-junior.md) |
+| **Heitor Santos Júnior** | Persona Primária | Técnico de manutenção predial de Planaltina, com letramento digital intermediário, que pega vários ônibus a serviço no mesmo dia e ultrapassa o limite diário do Vale-Transporte | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Persona](heitor-santos-junior.md) |
 | **Mariana Borges Almeida** | Persona Primária | Analista administrativa com rotina organizada, foco em previsão precisa e monitoramento de chegada em tempo real sob chuva | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Persona](mariana-borges-almeida.md) |
 | **Cláudia Regina Santos** | Persona Primária | Técnica de enfermagem em regime de plantão, foco em registro e acompanhamento de reclamações na Ouvidoria | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Persona](claudia-regina-santos.md) |
 
