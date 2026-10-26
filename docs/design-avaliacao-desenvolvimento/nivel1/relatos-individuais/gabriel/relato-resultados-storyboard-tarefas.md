@@ -27,7 +27,7 @@ Primeiro, o participante observou o Storyboard 02 na tela e respondeu às pergun
 * **Perfil do Participante convidado (P02):** Adulto jovem que relatou já ter enfrentado, assim como um familiar, dificuldades de acessibilidade no transporte, enquadrando-se no contexto da persona [Larissa Ferreira Lima](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/larissa-ferreira-lima/). Conforme o planejamento, não foram solicitados diagnóstico nem detalhes de saúde, e o participante é identificado apenas pelo código **P02**.
 * **Ambiente e Recursos:** Sessão presencial em sala reservada, gravada em vídeo com celular, com o Storyboard 02 e os PDFs de HTA e CTT exibidos em um monitor.
 * **Data e Duração:** 25/10/2026, com duração aproximada de **3 minutos e 20 segundos** de gravação.
-* O vídeo da entrevista está disponível clicando [aqui](LINK_DO_VIDEO).
+* O vídeo da entrevista está disponível clicando [aqui](https://youtu.be/etbwAI9FztQ).
 
 ---
 
