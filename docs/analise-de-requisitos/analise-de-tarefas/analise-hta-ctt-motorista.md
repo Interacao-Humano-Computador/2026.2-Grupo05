@@ -114,7 +114,7 @@ graph TD
     T0 --> T3
     
     T11["1.1 Localizar comunicado no balcão físico"]
-    T12["1.2 Abrir notificação da escala no sNas martphone"]
+    T12["1.2 Abrir notificação da escala no smartphone"]
     T1 --> T11
     T1 --> T12
     
