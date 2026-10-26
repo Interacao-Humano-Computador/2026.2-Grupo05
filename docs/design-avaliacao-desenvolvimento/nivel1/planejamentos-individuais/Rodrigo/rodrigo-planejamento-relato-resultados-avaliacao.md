@@ -2,15 +2,15 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 13/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Storyboard XX e da Análise de Tarefas (TAR-08). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - usado para formatação markdown da página |
+| 13/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Storyboard 06 e da Análise de Tarefas (TAR-08). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - usado para formatação markdown da página |
 
 ---
 
 # Planejamento do Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-08)
 
-Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas** referente à **TAR-08 (Registro de Reclamação sobre Ônibus a partir do Site da Semob)**. Trata-se de um planejamento individual desenvolvido para estruturar e padronizar a futura apresentação dos dados qualitativos colhidos durante a avaliação do **Storyboard XX**, construído a partir do [Cenário 11](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus/), e dos modelos de **Análise Hierárquica de Tarefas (HTA)** e **GOMS**, conforme definido no [Planejamento da Avaliação do Storyboard e da TAR-08](rodrigo-planejamento-avaliacao.md).
+Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas** referente à **TAR-08 (Registro de Reclamação sobre Ônibus a partir do Site da Semob)**. Trata-se de um planejamento individual desenvolvido para estruturar e padronizar a futura apresentação dos dados qualitativos colhidos durante a avaliação do **Storyboard 06**, construído a partir do [Cenário 11](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus/), e dos modelos de **Análise Hierárquica de Tarefas (HTA)** e **GOMS**, conforme definido no [Planejamento da Avaliação do Storyboard e da TAR-08](rodrigo-planejamento-avaliacao.md).
 
-O Storyboard XX é composto por duas sequências: o **fluxo atual** (8 quadros), que retrata as dificuldades da persona [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) ao tentar reclamar de um ônibus que passou direto pela parada, e o **fluxo proposto** (5 quadros), que retrata a mesma tarefa com o assistente "Reclamar de um ônibus" sugerido na seção 4 da [TAR-08](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/).
+O Storyboard 06 retrata o **fluxo atual** da tarefa (6 quadros), evidenciando as dificuldades da persona [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) ao tentar reclamar de um ônibus que passou direto pela parada, complementado pela discussão sobre a proposta de melhoria da [TAR-08](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/).
 
 A estrutura do relato foi concebida com base nas orientações da literatura de Interação Humano-Computador (Barbosa et al., 2021, Cap. 11, Seção 11.7.5), garantindo que as descobertas, os pontos positivos, os problemas identificados e as sugestões de reprojeto sejam apresentados de forma transparente, rastreável e acionável para a equipe de desenvolvimento.
 
@@ -20,12 +20,12 @@ A estrutura do relato foi concebida com base nas orientações da literatura de 
 
 O relato dos resultados tem por finalidade consolidar as evidências empíricas coletadas durante a sessão de avaliação formativa com o participante. Seus objetivos específicos são:
 
-1. **Sintetizar as percepções do usuário:** Registrar o grau de entendimento das duas sequências do [Storyboard XX](https://interacao-humano-computador.github.io/2026.2-Grupo05/design-avaliacao-desenvolvimento/nivel1/storyboards/), o reconhecimento dos problemas do fluxo atual e a aceitação do assistente "Reclamar de um ônibus".
+1. **Sintetizar as percepções do usuário:** Registrar o grau de entendimento da narrativa do [Storyboard 06](https://interacao-humano-computador.github.io/2026.2-Grupo05/design-avaliacao-desenvolvimento/nivel1/storyboards/#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob), o reconhecimento dos problemas do fluxo atual e a aceitação do assistente "Reclamar de um ônibus".
 2. **Registrar os pontos positivos:** Identificar o que o participante compreendeu bem e valorizou nos artefatos, para que esses aspectos sejam preservados nas próximas versões.
 3. **Mapear divergências na Análise de Tarefas:** Identificar incoerências, lacunas ou passos desnecessários nos modelos [HTA e GOMS da TAR-08](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/) quando confrontados com o modelo mental do participante, e verificar as hipóteses de problemas e de erros levantadas na análise.
 4. **Identificar falhas de comunicação gráfica e lacunas contextuais:** Separar os problemas da **representação** (o storyboard não comunicou bem) dos problemas do **conteúdo** (a situação ou a solução não fazem sentido para o usuário).
 5. **Classificar e priorizar problemas de IHC:** Tabular todos os problemas observados de acordo com sua gravidade e impacto.
-6. **Subsidiar o reprojeto:** Fornecer uma lista de ajustes concretos para o Storyboard XX, o Cenário 11, a persona e a TAR-08, orientando a elaboração dos protótipos de média e alta fidelidade.
+6. **Subsidiar o reprojeto:** Fornecer uma lista de ajustes concretos para o Storyboard 06, o Cenário 11, a persona e a TAR-08, orientando a elaboração dos protótipos de média e alta fidelidade.
 
 ---
 
@@ -33,13 +33,13 @@ O relato dos resultados tem por finalidade consolidar as evidências empíricas 
 
 O relatório de consolidação dos resultados a ser publicado na Wiki do projeto seguirá a seguinte estrutura de tópicos (Barbosa et al., 2021, p. 263–264):
 
-1. **Introdução e Objetivos da Avaliação:** Apresentação do escopo dos artefatos avaliados (Storyboard XX e TAR-08) e das perguntas que motivaram o estudo.
+1. **Introdução e Objetivos da Avaliação:** Apresentação do escopo dos artefatos avaliados (Storyboard 06 e TAR-08) e das perguntas que motivaram o estudo.
 2. **Metodologia Aplicada:** Descrição sintética do método de investigação por entrevista semiestruturada guiada por artefatos visuais e do protocolo executado, incluindo a ordem de apresentação (fluxo atual, fluxo proposto e TAR-08).
 3. **Caracterização dos Participantes e Avaliadores:** Registro do número de participantes, perfil demográfico, alinhamento com a persona [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/), experiências anteriores com problemas no ônibus e identificação dos condutores da sessão.
 4. **Sumário dos Dados Coletados:** Apresentação compilada das respostas dadas às perguntas do Framework DECIDE (Tabelas 2 e 3).
 5. **Pontos Positivos Identificados:** Registro do que o participante compreendeu e valorizou (Tabela 4).
 6. **Verificação das Hipóteses da TAR-08:** Situação de cada hipótese de problema e de erro da análise de tarefas (Tabela 5).
-7. **Falhas de Comunicação Gráfica e Lacunas Contextuais:** Problemas da representação do Storyboard XX (Tabela 7).
+7. **Falhas de Comunicação Gráfica e Lacunas Contextuais:** Problemas da representação do Storyboard 06 (Tabela 7).
 8. **Classificação e Priorização dos Problemas:** Tabela padronizada de severidade com a atribuição de prioridades de correção (Tabela 8).
 9. **Lista de Ajustes e Sugestões de Reprojeto:** Ajustes a serem incorporados aos artefatos e aos protótipos futuros (Tabela 9).
 10. **Limitações da Avaliação:** Número de participantes, possível viés do avaliador e baixa fidelidade dos artefatos.
@@ -80,10 +80,10 @@ Para classificar o impacto dos problemas identificados, adotar-se-á a **Escala 
 
 Para garantir a consistência dos relatórios, o documento final de resultados utilizará os modelos de tabelas apresentados a seguir.
 
-### 4.1 Modelo de Tabela: Respostas da Avaliação do Storyboard XX
+### 4.1 Modelo de Tabela: Respostas da Avaliação do Storyboard 06
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Consolidação das Respostas sobre o Storyboard XX</p>
+<p><strong>Tabela 2</strong> — Consolidação das Respostas sobre o Storyboard 06</p>
 </div>
 
 | ID | Tópico Avaliado | Pergunta Aplicada ao Participante | Resumo da Resposta do Participante | Avaliação do Artefato (Conforme / Ajustar) |
@@ -129,8 +129,8 @@ Registrar os pontos positivos é tão importante quanto registrar os problemas, 
 
 | ID | Ponto Positivo Identificado | Local / Artefato | Categoria | Evidência (fala ou comportamento) | Ação (Manter / Reforçar) |
 | :---: | :--- | :--- | :--- | :--- | :---: |
-| **POS-01** | *[Descrição do aspecto valorizado]* | *[Storyboard XX - quadro / HTA / GOMS]* | *[Categoria]* | *[Trecho da fala do participante]* | **[A preencher]** |
-| **POS-02** | *[Descrição do aspecto valorizado]* | *[Storyboard XX - quadro / HTA / GOMS]* | *[Categoria]* | *[Trecho da fala do participante]* | **[A preencher]** |
+| **POS-01** | *[Descrição do aspecto valorizado]* | *[Storyboard 06 - quadro / HTA / GOMS]* | *[Categoria]* | *[Trecho da fala do participante]* | **[A preencher]** |
+| **POS-02** | *[Descrição do aspecto valorizado]* | *[Storyboard 06 - quadro / HTA / GOMS]* | *[Categoria]* | *[Trecho da fala do participante]* | **[A preencher]** |
 
 <div align="center">
 <p><em>Fonte: Elaborado por [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (2026).</em></p>
@@ -215,8 +215,8 @@ Esta tabela reúne todos os problemas, tanto de conteúdo quanto de representaç
 
 | ID Problema | Descrição do Problema Encontrado | Natureza (Conteúdo / Representação) | Local / Artefato Afetado | Grau de Severidade (0 a 4) | Impacto na Experiência do Usuário | Origem (ID da pergunta, hipótese ou falha) |
 | :---: | :--- | :---: | :--- | :---: | :--- | :---: |
-| **PROB-01** | *[Descrição sucinta da dúvida ou falha de entendimento]* | *[Natureza]* | *[Storyboard XX / Cenário 11 / HTA / GOMS]* | **[Nível]** | *[Detalhamento de como o problema afetou o participante]* | *[Ex.: Q04, COM-01]* |
-| **PROB-02** | *[Descrição sucinta da dúvida ou falha de entendimento]* | *[Natureza]* | *[Storyboard XX / Cenário 11 / HTA / GOMS]* | **[Nível]** | *[Detalhamento de como o problema afetou o participante]* | *[Ex.: QT02]* |
+| **PROB-01** | *[Descrição sucinta da dúvida ou falha de entendimento]* | *[Natureza]* | *[Storyboard 06 / Cenário 11 / HTA / GOMS]* | **[Nível]** | *[Detalhamento de como o problema afetou o participante]* | *[Ex.: Q04, COM-01]* |
+| **PROB-02** | *[Descrição sucinta da dúvida ou falha de entendimento]* | *[Natureza]* | *[Storyboard 06 / Cenário 11 / HTA / GOMS]* | **[Nível]** | *[Detalhamento de como o problema afetou o participante]* | *[Ex.: QT02]* |
 
 <div align="center">
 <p><em>Fonte: Elaborado por [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (2026).</em></p>
@@ -232,8 +232,8 @@ Cada ajuste deve estar ligado a um problema da Tabela 8 e indicar o artefato em 
 
 | ID Ajuste | Problema de Origem | Ajuste Proposto | Artefato Afetado | Prioridade | Status |
 | :---: | :---: | :--- | :--- | :---: | :---: |
-| **AJ-01** | *[PROB-__]* | *[Descrição da alteração]* | *[Storyboard XX / Cenário 11 / Persona / TAR-08]* | **[Alta / Média / Baixa]** | **[Pendente / Incorporado / Adiado / Descartado]** |
-| **AJ-02** | *[PROB-__]* | *[Descrição da alteração]* | *[Storyboard XX / Cenário 11 / Persona / TAR-08]* | **[Alta / Média / Baixa]** | **[Pendente / Incorporado / Adiado / Descartado]** |
+| **AJ-01** | *[PROB-__]* | *[Descrição da alteração]* | *[Storyboard 06 / Cenário 11 / Persona / TAR-08]* | **[Alta / Média / Baixa]** | **[Pendente / Incorporado / Adiado / Descartado]** |
+| **AJ-02** | *[PROB-__]* | *[Descrição da alteração]* | *[Storyboard 06 / Cenário 11 / Persona / TAR-08]* | **[Alta / Média / Baixa]** | **[Pendente / Incorporado / Adiado / Descartado]** |
 
 <div align="center">
 <p><em>Fonte: Elaborado por [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (2026).</em></p>
@@ -254,7 +254,7 @@ Cada ajuste deve estar ligado a um problema da Tabela 8 e indicar o artefato em 
 
 Com base na consolidação dos problemas na Tabela 8 e da lista de ajustes na Tabela 9, os resultados serão processados através de um ciclo de iteratividade e reprojeto (Barbosa et al., 2021, Cap. 6):
 
-1. **Correções Imediatas (Severidade 3 e 4):** Problemas graves ou catastróficos que alterem o entendimento básico da história ou da proposta exigirão o ajuste imediato dos quadros do Storyboard XX, da narrativa do Cenário 11 ou a reestruturação dos objetivos, planos e métodos na HTA e no GOMS da TAR-08.
+1. **Correções Imediatas (Severidade 3 e 4):** Problemas graves ou catastróficos que alterem o entendimento básico da história ou da proposta exigirão o ajuste imediato dos quadros do Storyboard 06, da narrativa do Cenário 11 ou a reestruturação dos objetivos, planos e métodos na HTA e no GOMS da TAR-08.
 2. **Aprimoramentos de Média Fidelidade (Severidade 1 e 2):** Dúvidas menores sobre os quadros ou sugestões para o assistente "Reclamar de um ônibus" (por exemplo, novas categorias de problema ou mudanças no texto do checklist) serão incorporadas como requisitos na fase de prototipação de telas (wireframes de baixa e média fidelidade).
 3. **Preservação dos Pontos Positivos:** Os aspectos registrados na Tabela 4 serão mantidos nas próximas versões e, quando marcados como **Reforçar**, servirão de referência para os demais quadros e telas.
 4. **Atualização das Hipóteses:** Hipóteses **confirmadas** na Tabela 5 deixarão de ser marcadas como hipóteses na TAR-08; hipóteses **não confirmadas** serão removidas ou reformuladas; hipóteses **inconclusivas** serão mantidas para avaliações futuras.

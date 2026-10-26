@@ -9,6 +9,7 @@
 | 27/09/2026 | 1.2 | Inclusão das tarefas operacionais TAR-03 e TAR-04 da persona Valdir Soares (motorista de ônibus) com HTA e CTT completos. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
 | 28/09/2026 | 1.3 | Inclusão da tarefa TAR-06 (Consulta em tempo real no DF no Ponto com HTA e GOMS). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
 | 13/10/2026 | 1.4 | Inclusão da tarefa TAR-08 (Registro de reclamação sobre ônibus com HTA e GOMS). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 23/10/2026 | 1.5 | Inclusão da tarefa TAR-09 (Solicitação de aumento do limite diário do Vale-Transporte com HTA e CTT). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
 
 ---
 
@@ -48,6 +49,7 @@ Na Tabela 1, apresenta-se o quadro consolidado com todas as análises realizadas
 | **TAR-06** | Consulta de ônibus em tempo real no DF no Ponto | 27/09/2026 | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | <span class="pill pill-ok">Concluído</span> | — | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](tar-06-df-no-ponto.md) |
 | **TAR-07** | Resolver indisponibilidade de crédito de Vale-Transporte | 05/10/2026 | [Arthur Mariani](https://github.com/arthur-mariani) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | — | [Acessar Análise](tar-07-credito-vale-transporte.md) |
 | **TAR-08** | Registro de reclamação sobre ônibus a partir do site da Semob | 13/10/2026 | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | <span class="pill pill-ok">Concluído</span> | — | <span class="pill pill-ok">Concluído</span> | [Acessar Análise](tar-08-reclamacao-onibus.md) |
+| **TAR-09** | Solicitar aumento do limite diário de uso do Vale-Transporte | 23/10/2026 | [Tomás Rocho](https://github.com/TomasRocho) | <span class="pill pill-ok">Concluído</span> | <span class="pill pill-ok">Concluído</span> | — | [Acessar Análise](tar-09-limite-vale-transporte.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>

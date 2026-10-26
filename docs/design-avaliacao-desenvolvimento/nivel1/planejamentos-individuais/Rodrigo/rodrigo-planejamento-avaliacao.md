@@ -1,16 +1,16 @@
 ## Histórico de Versão
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 13/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Storyboard XX e da Análise de Tarefas (TAR-08) via DECIDE. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - usado para formatação markdown da página |
+| 13/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Storyboard 06 e da Análise de Tarefas (TAR-08) via DECIDE. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - usado para formatação markdown da página |
 
 ---
 
 # Planejamento da Avaliação do Storyboard e da Análise de Tarefas (TAR-08)
 
-Neste documento, apresenta-se o **Planejamento da Avaliação do Storyboard e da Análise de Tarefas** referente à **TAR-08 (Registro de Reclamação sobre Ônibus a partir do Site da Semob)**. Trata-se de um planejamento individual desenvolvido para orientar a avaliação formativa do **Storyboard XX**, construído a partir do [Cenário 11](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus/), e dos modelos de **Análise Hierárquica de Tarefas (HTA)** e **GOMS** associados.
+Neste documento, apresenta-se o **Planejamento da Avaliação do Storyboard e da Análise de Tarefas** referente à **TAR-08 (Registro de Reclamação sobre Ônibus a partir do Site da Semob)**. Trata-se de um planejamento individual desenvolvido para orientar a avaliação formativa do **Storyboard 06**, construído a partir do [Cenário 11](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus/), e dos modelos de **Análise Hierárquica de Tarefas (HTA)** e **GOMS** associados.
 
-O Storyboard XX é composto por duas sequências: o **fluxo atual** (8 quadros), que retrata as dificuldades da persona [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) ao tentar reclamar de um ônibus que passou direto pela parada, e o **fluxo proposto** (5 quadros), que retrata a mesma tarefa com o assistente "Reclamar de um ônibus" sugerido na seção 4 da [TAR-08](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/).
+O Storyboard 06 retrata o **fluxo atual** da tarefa (6 quadros), evidenciando as dificuldades da persona [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) ao tentar reclamar de um ônibus que passou direto pela parada, complementado pela discussão sobre a proposta de melhoria da [TAR-08](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/).
 
 O planejamento foi elaborado aplicando o **Framework DECIDE** (Preece et al., 2005; Barbosa et al., 2021), que estrutura as atividades de avaliação em seis etapas interligadas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar dados).
 
@@ -20,9 +20,9 @@ O planejamento foi elaborado aplicando o **Framework DECIDE** (Preece et al., 20
 
 A avaliação formativa dos artefatos busca investigar se o problema identificado no site da **SEMOB-DF** (a dificuldade de registrar uma reclamação sobre ônibus) é reconhecido pelos usuários e se a proposta de melhoria faz sentido para eles, antes do desenvolvimento de protótipos de alta fidelidade (Barbosa et al., 2021).
 
-### 1.1 Objetivos da Avaliação do Storyboard XX
+### 1.1 Objetivos da Avaliação do Storyboard 06
 
-* **Verificar a verossimilhança contextual:** Avaliar se a situação retratada no [Storyboard XX](https://interacao-humano-computador.github.io/2026.2-Grupo05/design-avaliacao-desenvolvimento/nivel1/storyboards/) (ônibus que passa direto de madrugada, atraso no trabalho e tentativa de reclamação à noite) reflete experiências reais de passageiros do transporte coletivo do Distrito Federal.
+* **Verificar a verossimilhança contextual:** Avaliar se a situação retratada no [Storyboard 06](https://interacao-humano-computador.github.io/2026.2-Grupo05/design-avaliacao-desenvolvimento/nivel1/storyboards/#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob) (ônibus que passa direto de madrugada, atraso no trabalho e tentativa de reclamação à noite) reflete experiências reais de passageiros do transporte coletivo do Distrito Federal.
 * **Validar a percepção dos problemas do fluxo atual:** Confirmar se o participante reconhece como problemas reais o vocabulário institucional ("Ouvidoria"), a mudança do site da Semob para o Participa-DF, a exigência de cadastro e a falta de aviso sobre as informações necessárias (número do ônibus, horário e local).
 * **Validar a clareza da proposta de valor:** Confirmar se o participante compreende o funcionamento do assistente "Reclamar de um ônibus" (checklist, escolha guiada do problema, resumo pronto e aviso de redirecionamento) e percebe a diferença entre as duas sequências.
 * **Avaliar o engajamento e aceitação da solução:** Identificar se o participante usaria o assistente e se ele o motivaria a registrar reclamações que hoje deixa de fazer.
@@ -40,10 +40,10 @@ A avaliação formativa dos artefatos busca investigar se o problema identificad
 
 Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de perguntas específicas orientadas pela literatura de IHC (Preece et al., 2005; Barbosa et al., 2021).
 
-### 2.1 Tabela de Perguntas: Avaliação do Storyboard XX
+### 2.1 Tabela de Perguntas: Avaliação do Storyboard 06
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Roteiro de Perguntas para Avaliação do Storyboard XX</p>
+<p><strong>Tabela 1</strong> — Roteiro de Perguntas para Avaliação do Storyboard 06</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta Orientada ao Participante | Resposta Esperada / Critério de Aceitação |
@@ -85,9 +85,9 @@ Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de per
 
 Para este planejamento formativo, selecionou-se o **Método de Investigação por Entrevista Semiestruturada** guiada por artefatos visuais (Barbosa et al., 2021, Cap. 11 e 12).
 
-* **Justificativa da Escolha:** A entrevista semiestruturada permite ao avaliador explorar em profundidade as opiniões, percepções e experiências do participante sobre o [Storyboard XX](https://interacao-humano-computador.github.io/2026.2-Grupo05/design-avaliacao-desenvolvimento/nivel1/storyboards/) e os modelos da [TAR-08](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/), garantindo flexibilidade para aprofundar relatos de experiências reais com ônibus e com canais de reclamação sem engessar a conversa (Barbosa et al., 2021). Como a tarefa avaliada é eventual, e não diária, os relatos de experiências passadas do participante são uma fonte importante para verificar as hipóteses da TAR-08.
+* **Justificativa da Escolha:** A entrevista semiestruturada permite ao avaliador explorar em profundidade as opiniões, percepções e experiências do participante sobre o [Storyboard 06](https://interacao-humano-computador.github.io/2026.2-Grupo05/design-avaliacao-desenvolvimento/nivel1/storyboards/#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob) e os modelos da [TAR-08](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/), garantindo flexibilidade para aprofundar relatos de experiências reais com ônibus e com canais de reclamação sem engessar a conversa (Barbosa et al., 2021). Como a tarefa avaliada é eventual, e não diária, os relatos de experiências passadas do participante são uma fonte importante para verificar as hipóteses da TAR-08.
 * **Sequência de apresentação:** O fluxo atual do storyboard é apresentado e discutido **antes** do fluxo proposto, para que a percepção dos problemas (Q01 a Q05) não seja influenciada pela solução (Q06 e Q07). Os diagramas da TAR-08 são apresentados por último.
-* **Instrumentos de Suporte:** Apresentação das imagens das duas sequências do Storyboard XX e exibição explicada do diagrama HTA, da tabela de objetivos e do modelo GOMS da TAR-08 durante a entrevista remota. Como o modelo GOMS está em pseudocódigo, ele será apresentado em linguagem simples pelo avaliador.
+* **Instrumentos de Suporte:** Apresentação das imagens do Storyboard 06 e exibição explicada do diagrama HTA, da tabela de objetivos e do modelo GOMS da TAR-08 durante a entrevista. Como o modelo GOMS está em pseudocódigo, ele será apresentado em linguagem simples pelo avaliador.
 
 ---
 
@@ -102,9 +102,9 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021), o recrutamento d
 
 ### 4.2 Ferramentas e Infraestrutura Tecnológica
 
-* **Ambiente Virtual:** Sala de reunião remota no **Microsoft Teams** (com gravação de áudio e vídeo habilitada).
-* **Software de Reserva para Gravação:** 123APPS / OBS Studio para captura local de tela e backup.
-* **Materiais Preparados:** Arquivos digitais das duas sequências do Storyboard XX, diagrama HTA, tabela de objetivos e modelo GOMS da TAR-08 e o Termo de Consentimento Livre e Esclarecido (TCLE) em formato PDF.
+* **Ambiente Virtual:** Sala de reunião remota no **Microsoft Teams** (com gravação de áudio e vídeo habilitada) ou sessão presencial.
+* **Software de Reserva para Gravação:** 123APPS / OBS Studio / Smartphone dedicado para captura local de áudio e vídeo.
+* **Materiais Preparados:** Arquivos digitais/impressos do Storyboard 06, diagrama HTA, tabela de objetivos e modelo GOMS da TAR-08 e o Termo de Consentimento Livre e Esclarecido (TCLE) em formato PDF.
 * **Plano alternativo:** Como o perfil da persona tem competência digital intermediária, caso o participante tenha dificuldade com o Microsoft Teams, a sessão poderá ser feita por chamada de vídeo no WhatsApp ou presencialmente, com os materiais impressos.
 
 ### 4.3 Cronograma e Execução Individual
@@ -115,12 +115,12 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021), o recrutamento d
 
 | Parâmetro | Detalhamento da Sessão |
 | :--- | :--- |
-| **Data e Horário:** | __/__/2026 às __:__. |
-| **Local / Canal:** | Reunião remota via Microsoft Teams. |
+| **Data e Horário:** | 25/10/2026 às 15:00. |
+| **Local / Canal:** | Sessão presencial / Reunião remota via Microsoft Teams. |
 | **Avaliador Responsável:** | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (Condução da entrevista e apresentação). |
-| **Participante Convidado:** | Passageiro do transporte coletivo do DF recrutado conforme o Perfil Primário. |
-| **Duração Estimada:** | **35 a 45 minutos** (respeitando os limites de fadiga). |
-| **Custo Estimado:** | **R\$ 0,00** (uso de softwares corporativos/acadêmicos gratuitos). |
+| **Participante Convidado:** | Vinícius (Passageiro do transporte coletivo do DF recrutado conforme o Perfil Primário). |
+| **Duração Estimada:** | **15 a 30 minutos** (respeitando os limites de fadiga e tempo do participante). |
+| **Custo Estimado:** | **R\$ 0,00** (uso de softwares e equipamentos próprios). |
 
 <div align="center">
 <p><em>Fonte: Elaborado por [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (2026).</em></p>
@@ -132,11 +132,11 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021), o recrutamento d
 
 | Etapa | Atividade | Tempo |
 | :--- | :--- | :---: |
-| 1 | Apresentação, leitura do TCLE e autorização da gravação | 5 min |
-| 2 | Apresentação do fluxo atual do Storyboard XX e perguntas Q01 a Q05 | 10 min |
-| 3 | Apresentação do fluxo proposto e perguntas Q06 e Q07 | 7 min |
-| 4 | Apresentação da TAR-08 (HTA e GOMS) e perguntas QT01 a QT06 | 15 min |
-| 5 | Comentários finais e agradecimento | 3 min |
+| 1 | Apresentação, leitura do TCLE e autorização da gravação | 3 min |
+| 2 | Apresentação do fluxo do Storyboard 06 e perguntas Q01 a Q05 | 7 min |
+| 3 | Apresentação da proposta e perguntas Q06 e Q07 (se aplicável) | 5 min |
+| 4 | Apresentação da TAR-08 (HTA e GOMS) e perguntas QT01 e QT02 | 10 min |
+| 5 | Comentários finais e agradecimento | 2 min |
 
 <div align="center">
 <p><em>Fonte: Elaborado por [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (2026).</em></p>
@@ -163,7 +163,7 @@ Após a realização da entrevista de avaliação, os dados brutos (gravações 
 1. **Triagem Qualitativa:** As falas, hesitações e sugestões do participante serão transcritas e agrupadas por categorias de análise (clareza da narrativa, verossimilhança, problemas percebidos no fluxo atual, valor da proposta, problemas identificados na sequência de tarefas e sugestões de melhoria).
 2. **Confronto de Modelos:** As respostas do participante serão comparadas diretamente com a estrutura planejada na [TAR-08 (HTA/GOMS)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/), verificando cada hipótese de problema e de erro da análise de tarefas como **confirmada**, **não confirmada** ou **inconclusiva**, para identificar discrepâncias entre a visão do designer e o modelo mental do usuário.
 3. **Análise da Comunicação Gráfica:** Trechos em que o participante não compreender um quadro ou precisar de explicação do avaliador serão registrados como possíveis falhas de comunicação gráfica do storyboard, considerando nível de detalhe, uso de texto, representação de emoções e passagem do tempo (Truong; Hayes; Abowd, 2006).
-4. **Encaminhamento para o Relato dos Resultados:** As descobertas consolidadas servirão de insumo direto para o documento de [Planejamento do Relato dos Resultados do Storyboard](rodrigo-planejamento-relato-resultados-avaliacao.md), que define os modelos de consolidação, o registro de pontos positivos, a identificação de falhas e a lista de ajustes a serem incorporados no Storyboard XX, no Cenário 11, na persona e na TAR-08.
+4. **Encaminhamento para o Relato dos Resultados:** As descobertas consolidadas servirão de insumo direto para o documento de [Planejamento do Relato dos Resultados do Storyboard](rodrigo-planejamento-relato-resultados-avaliacao.md), que define os modelos de consolidação, o registro de pontos positivos, a identificação de falhas e a lista de ajustes a serem incorporados no Storyboard 06, no Cenário 11, na persona e na TAR-08.
 
 ---
 

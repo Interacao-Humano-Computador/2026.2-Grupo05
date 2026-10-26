@@ -147,7 +147,7 @@ nav:
       - Cenário 6 (Alerta de Desvio): analise-de-requisitos/cenarios/cenario-6-alerta-desvio.md
       - Cenário 7 (Dúvida de Passageiro): analise-de-requisitos/cenarios/cenario-7-duvida-passageiro.md
       - Cenário 8 (Conflito na Catraca): analise-de-requisitos/cenarios/cenario-8-conflito-catraca.md
-      - Cenário 9 (Endereço Novo e Desvio): analise-de-requisitos/cenarios/cenario-9-endereco-novo.md
+      - Cenário 9 (Limite do Vale-Transporte): analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md
       - Cenário 10 (Viagem Ideal sob Chuva): analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md
       - Cenário 11 (Reclamação sobre Ônibus): analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md
     - Análise de tarefas:
@@ -159,6 +159,7 @@ nav:
       - TAR-06 (Consulta DF no Ponto): analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md
       - TAR-07 (Crédito de Vale-Transporte): analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md
       - TAR-08 (Reclamação sobre Ônibus): analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md
+      - TAR-09 (Limite do Vale-Transporte): analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md
     - Guia de estilo:
       - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
       - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
@@ -232,5 +233,6 @@ nav:
     - Verificação da entrega 1: verificacao/verif1.md
     - Verificação da entrega 2: verificacao/verif2.md
     - Verificação da entrega 3: verificacao/verif3.md
+    - Verificação da entrega 5: verificacao/verif5.md
 
   - Entrega Final: entrega-final/index.md
