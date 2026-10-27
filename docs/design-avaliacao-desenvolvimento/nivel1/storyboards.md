@@ -361,13 +361,13 @@ O Storyboard 06 retrata o **fluxo atual** da tarefa: Cláudia tenta reclamar de 
 * **Persona Retratada:** [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/) (estudante de Engenharia na UnB Gama, 19 anos)
 * **Cenário de Uso:** [Cenário 2 — Viagem matutina](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-2-viagem-matutina/)
 * **Tarefa Ancorada:** [TAR-06 — Consulta de ônibus em tempo real no DF no Ponto](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto/)
-* **Tempo para confecção:** ~[PREENCHER] minutos.
+* **Tempo para confecção:** ~14 minutos.
 * **Diferença em relação ao Storyboard 01:** o Storyboard 01 trata do alerta que avisa o João Pedro a hora de **sair de casa** (TAR-01). O Storyboard 08 trata do que acontece **já no ponto**: consultar a previsão, avaliar se ela é confiável e decidir o que fazer.
 
 #### **Ilustração do Storyboard 08**
 
 <div align="center">
-  <img src="../../../assets/storyboards/Storyboard-8-Carlos.png" alt="Storyboard 08 - Consulta do Ônibus em Tempo Real no DF no Ponto" width="100%">
+  <img src="../../../assets/storyboards/Storyboard-8-Carlos.jpeg" alt="Storyboard 08 - Consulta do Ônibus em Tempo Real no DF no Ponto" width="100%">
   <p><strong>Figura 8</strong> — Storyboard 08: Consulta do ônibus em tempo real no DF no Ponto</p>
   <p><em>Fonte: Elaborado por Carlos Costa (2026).</em></p>
 </div>
@@ -380,11 +380,11 @@ O Storyboard 06 retrata o **fluxo atual** da tarefa: Cláudia tenta reclamar de 
 
 | Quadro | Momento | Descrição | Objetivo da HTA (TAR-06) |
 | :---: | :--- | :--- | :--- |
-| **1** | Início — contexto e necessidade | De manhã, João Pedro chega ao ponto para ir à primeira aula na UnB Gama. O ônibus não aparece, e ele fica preocupado em se atrasar. | 0 (*input*: necessidade de saber quando o ônibus chega) |
-| **2** | Ação — busca no aplicativo | Ele abre o DF no Ponto e busca a linha (ou o ponto de referência "UnB Gama"). | 1 (abrir o aplicativo) e 2 (encontrar a linha ou o ponto: 2.1 e 2.2) |
-| **3** | *Feedback* — previsão e posição | O aplicativo mostra "chega em 4 min", o ônibus no mapa e a indicação "atualizado há 30 s". | 3.1 (obter previsão e posição) e 3.2 (avaliar se a informação é confiável) |
-| **4** | Contingência — informação defasada | A posição para de atualizar e o tempo não diminui. João Pedro percebe que o dado pode estar defasado e decide entre esperar e consultar de novo ou buscar uma alternativa. | 4 (decidir o que fazer: 4.1 / 4.2 / 4.3) |
-| **5** | Desfecho — próximas consultas | A posição volta a atualizar, ele embarca a tempo e favorita a linha, ativando o aviso de atraso para os próximos dias. | 5 (facilitar as próximas consultas: 5.1 + 5.2) |
+| **1** | Início — contexto e necessidade | João Pedro está na parada, preocupado com o atraso do ônibus ("Poxa! Que atraso!"). | 0 (*input*: necessidade de saber quando o ônibus chega) |
+| **2** | Ação — busca no aplicativo | Ele abre o DF no Ponto para ver onde o ônibus está e busca o ponto de referência "UnB Gama", que retorna uma lista de resultados. | 1 (abrir o aplicativo) e 2.1 (buscar a linha ou o ponto) |
+| **3** | *Feedback* — previsão e posição | Ele seleciona a linha e vê que o ônibus está perto: o mapa mostra a posição do ônibus, a indicação "Atualizado há 30 seg." e a previsão "Chega em 4 min". | 2.2 (selecionar a linha), 3.1 (obter previsão e posição) e 3.2 (avaliar se a informação é confiável) |
+| **4** | Contingência — informação defasada | Após 5 minutos, a tela mostra "Atualizado há 5 min" com um sinal de alerta, e a previsão continua "Chega em 4 min". João Pedro desconfia ("Isso não mudou, acho que tá errado. E agora? Espero ou pego outro?") e decide esperar. | 3.2 (avaliar a confiabilidade) e 4 (decidir o que fazer: considera 4.3 e escolhe 4.2) |
+| **5** | Desfecho — próximas consultas | O ônibus chega ("Ufa! Chegou, vou favoritar a linha."), e João Pedro adiciona a linha aos favoritos e ativa os alertas. | 5 (facilitar as próximas consultas: 5.1 + 5.2) |
 
 <div align="center">
 <p><em>Fonte: Carlos Costa (2026), com base na HTA da TAR-06 de Rodrigo Barbosa (2026).</em></p>
@@ -402,7 +402,7 @@ O Storyboard 06 retrata o **fluxo atual** da tarefa: Cláudia tenta reclamar de 
 | **2. Contexto e Ambiente** | Situa a narrativa no ponto de ônibus, de manhã, antes da aula na UnB Gama, como no Cenário 2. | **Conforme** |
 | **3. Tarefa Retratada** | Retrata a **TAR-06** do início ao fim: busca da linha, leitura da previsão, avaliação da confiabilidade, decisão e favoritar a linha. | **Conforme** |
 | **4. Papel do Sistema** | Mostra o DF no Ponto exibindo previsão, posição no mapa e hora da última atualização, e oferecendo favoritos e aviso de atraso. | **Conforme** |
-| **5. Estrutura Narrativa** | Segue início (Q1), ação e *feedback* (Q2–Q3), contingência (Q4) e desfecho positivo (Q5). | **Conforme** |
+| **5. Estrutura Narrativa** | Segue início (Q1), ação e *feedback* (Q2–Q3), contingência (Q4) e desfecho positivo (Q5), com legenda numerada em cada quadro. | **Conforme** |
 
 <div align="center">
 <p><em>Fonte: Carlos Costa (2026).</em></p>
