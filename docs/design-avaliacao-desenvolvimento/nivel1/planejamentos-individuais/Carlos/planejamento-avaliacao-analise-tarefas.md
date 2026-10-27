@@ -5,6 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |
 | :---: | :---: | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Elaboração do Planejamento da Avaliação da Análise de Tarefas fundamentado no Framework DECIDE (Capítulo 11 de Barbosa et al., 2021). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 27/10/2026 | `1.1` | Atualização da Tabela 2: a sessão S4 passa a avaliar a TAR-06 com um estudante (o motorista previsto não pôde ser recrutado; ver o [planejamento do Storyboard 08 e da TAR-06](carlos-planejamento-avaliacao.md#alteracao-de-escopo)), e a sessão S5 é corrigida para a TAR-08. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) |
 
 ---
 
@@ -127,8 +128,8 @@ A [Tabela 2](#tabela-2) esquematiza o cronograma logístico das sessões de entr
 | **S1** | **TAR-01** (Alerta inteligente de saída) | Passageiro regular jovem/estudante | Remoto (Teams) | 20 a 30 min | Igor Dantas Araújo |
 | **S2** | **TAR-02** (Pré-agendamento DF Acessível) | Passageiro com mobilidade reduzida / PCD | Remoto (Teams) | 25 a 35 min | Gabriel Cardone |
 | **S3** | **TAR-03** (Planejamento de Rota e Rastreamento) | Passageiro de viagens inter-regionais | Remoto (Teams) | 25 a 35 min | Lucas Araújo |
-| **S4** | **TAR-04/TAR-05** (Escala e alertas operacionais) | Motorista de ônibus ou operador de transporte | Remoto / Presencial | 25 a 35 min | Carlos Costa |
-| **S5** | **TAR-06** (Consulta DF no Ponto) | Passageiro dependente de ônibus diário | Remoto (Teams) | 20 a 30 min | Rodrigo Barbosa |
+| **S4** | **TAR-06** (Consulta de ônibus em tempo real no DF no Ponto) | Estudante universitário usuário do DF no Ponto (perfil de João Pedro Carvalho) | Remoto (Teams) | 5 a 10 min | Carlos Costa |
+| **S5** | **TAR-08** (Reclamação sobre ônibus) | Passageiro que depende do ônibus em horários de pouco movimento | Remoto (Teams) | 20 a 30 min | Rodrigo Barbosa |
 | **S6** | **TAR-07** (Crédito de Vale-Transporte) | Trabalhador usuário de bilhetagem automática | Remoto (Teams) | 20 a 30 min | Arthur Mariani |
 
 <div align="center">

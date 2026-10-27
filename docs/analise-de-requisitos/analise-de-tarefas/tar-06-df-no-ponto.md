@@ -300,7 +300,7 @@ A Tabela 6 lista os artefatos do projeto que usam esta análise de tarefas.
 
 ## 7. Declaração sobre o Uso de IA Generativa
 
-Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação (SBC) e as diretrizes do Plano de Ensino da disciplina, declara-se que o assistente de inteligência artificial generativa **Claude Code (Anthropic)** foi utilizado como apoio na organização e revisão estilística do documento em Markdown. Todas as inspeções analíticas no portal da SEMOB-DF, a classificação de problemas e a emissão de recomendações técnicas foram fundamentadas na teoria de IHC sob responsabilidade dos autores.
+Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação (SBC) e as diretrizes do Plano de Ensino da disciplina, declara-se que o assistente de inteligência artificial generativa **Claude Code (Anthropic)** foi utilizado apenas para revisar e formatar o texto em Markdown. Todas as inspeções analíticas no portal da SEMOB-DF, a classificação de problemas e a emissão de recomendações técnicas foram fundamentadas na teoria de IHC sob responsabilidade dos autores.
 
 ---
 

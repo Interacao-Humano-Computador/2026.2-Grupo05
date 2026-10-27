@@ -8,6 +8,7 @@
 | 13/10/2026 | `1.3` | Adição do Storyboard 03 (Planejamento de Rota por Origem/Destino e Rastreamento), descrição narrativa acessível e tabela de conformidade. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini - utilizado apenas para formatação em Markdown |
 | 13/10/2026 | `1.4` | Adição do Storyboard 04 (Consulta de Escala de Trabalho e Alertas Operacionais) elaborado por Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não utilizada (elaboração autoral manual do integrante) |
 | 23/10/2026 | `1.5` | Reformulação do Storyboard 05 para a nova tarefa TAR-09 (Pedido de Aumento do Limite Diário do Vale-Transporte): nova ilustração, descrição narrativa dos quadros, tabela de verificação e vínculos na matriz. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para pesquisa no site da Semob e redação do roteiro e da seção |
+| 27/10/2026 | `1.6` | Adição do Storyboard 08 (Consulta do Ônibus em Tempo Real no DF no Ponto — TAR-06), que substitui o Storyboard 04 na avaliação da Etapa 5: linha na matriz de vínculos, descrição narrativa dos quadros e tabela de verificação. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
 
 ---
 
@@ -50,10 +51,13 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 | **05** | **Tomas Garcia Rocho** | *Pedido de aumento do limite diário do Vale-Transporte* | [Heitor Santos Júnior](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/heitor-santos-junior/) | [Cenário 9](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte/) | [TAR-09 (Limite do Vale-Transporte)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte/) |
 | **06** | **Rodrigo Barbosa** | *Reclamação sobre ônibus a partir do site da Semob* | [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) | [Cenário 11](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus/) | [TAR-08 (Reclamação sobre Ônibus)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/) |
 | **07** | **Arthur Mariani** | *Regularização de crédito de Vale-Transporte* | [Maria Eduarda Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/maria-eduarda-santos/) | [Cenário 4](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte/) | [TAR-07 (Vale-Transporte)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte/) |
+| **08** | **Carlos Costa** | *Consulta do ônibus em tempo real no DF no Ponto* | [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/) | [Cenário 2](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-2-viagem-matutina/) | [TAR-06](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto/) |
 
 <div align="center">
 <p><em>Fonte: Igor Dantas araújo (2026).</em></p>
 </div>
+
+> **Observação sobre o Storyboard 08:** o motorista de ônibus necessário para avaliar o Storyboard 04 (TAR-04/TAR-05) não pôde ser recrutado. Para que a avaliação fosse feita com um participante do perfil correto, Carlos Costa elaborou o Storyboard 08, ancorado na TAR-06, que até então não tinha storyboard. O Storyboard 04 permanece neste documento como artefato da Etapa 4.
 
 ---
 
@@ -347,6 +351,61 @@ O Storyboard 06 retrata o **fluxo atual** da tarefa: Cláudia tenta reclamar de 
 
 <div align="center">
 <p><em>Fonte: Arthur Mariani (2026).</em></p>
+</div>
+
+---
+
+### 3.8. Storyboard 08: Consulta do Ônibus em Tempo Real no DF no Ponto
+
+* **Autor:** [Carlos Costa](https://github.com/carloshfgit)
+* **Persona Retratada:** [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/) (estudante de Engenharia na UnB Gama, 19 anos)
+* **Cenário de Uso:** [Cenário 2 — Viagem matutina](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-2-viagem-matutina/)
+* **Tarefa Ancorada:** [TAR-06 — Consulta de ônibus em tempo real no DF no Ponto](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto/)
+* **Tempo para confecção:** ~[PREENCHER] minutos.
+* **Diferença em relação ao Storyboard 01:** o Storyboard 01 trata do alerta que avisa o João Pedro a hora de **sair de casa** (TAR-01). O Storyboard 08 trata do que acontece **já no ponto**: consultar a previsão, avaliar se ela é confiável e decidir o que fazer.
+
+#### **Ilustração do Storyboard 08**
+
+<div align="center">
+  <img src="../../../assets/storyboards/Storyboard-8-Carlos.png" alt="Storyboard 08 - Consulta do Ônibus em Tempo Real no DF no Ponto" width="100%">
+  <p><strong>Figura 8</strong> — Storyboard 08: Consulta do ônibus em tempo real no DF no Ponto</p>
+  <p><em>Fonte: Elaborado por Carlos Costa (2026).</em></p>
+</div>
+
+#### **Descrição Narrativa dos Quadros do Storyboard 08**
+
+<div align="center">
+<p><strong>Tabela 9</strong> — Quadros do Storyboard 08 e sua relação com a HTA da TAR-06</p>
+</div>
+
+| Quadro | Momento | Descrição | Objetivo da HTA (TAR-06) |
+| :---: | :--- | :--- | :--- |
+| **1** | Início — contexto e necessidade | De manhã, João Pedro chega ao ponto para ir à primeira aula na UnB Gama. O ônibus não aparece, e ele fica preocupado em se atrasar. | 0 (*input*: necessidade de saber quando o ônibus chega) |
+| **2** | Ação — busca no aplicativo | Ele abre o DF no Ponto e busca a linha (ou o ponto de referência "UnB Gama"). | 1 (abrir o aplicativo) e 2 (encontrar a linha ou o ponto: 2.1 e 2.2) |
+| **3** | *Feedback* — previsão e posição | O aplicativo mostra "chega em 4 min", o ônibus no mapa e a indicação "atualizado há 30 s". | 3.1 (obter previsão e posição) e 3.2 (avaliar se a informação é confiável) |
+| **4** | Contingência — informação defasada | A posição para de atualizar e o tempo não diminui. João Pedro percebe que o dado pode estar defasado e decide entre esperar e consultar de novo ou buscar uma alternativa. | 4 (decidir o que fazer: 4.1 / 4.2 / 4.3) |
+| **5** | Desfecho — próximas consultas | A posição volta a atualizar, ele embarca a tempo e favorita a linha, ativando o aviso de atraso para os próximos dias. | 5 (facilitar as próximas consultas: 5.1 + 5.2) |
+
+<div align="center">
+<p><em>Fonte: Carlos Costa (2026), com base na HTA da TAR-06 de Rodrigo Barbosa (2026).</em></p>
+</div>
+
+#### **Tabela de Verificação do Storyboard 08**
+
+<div align="center">
+<p><strong>Tabela 10</strong> — Verificação de Conformidade do Storyboard 08</p>
+</div>
+
+| Categoria / Critério | Atendimento no Storyboard 08 | Situação |
+| :--- | :--- | :---: |
+| **1. Personas e Atores** | Apresenta a persona **João Pedro Carvalho**, estudante universitário que depende do ônibus para chegar à primeira aula. | **Conforme** |
+| **2. Contexto e Ambiente** | Situa a narrativa no ponto de ônibus, de manhã, antes da aula na UnB Gama, como no Cenário 2. | **Conforme** |
+| **3. Tarefa Retratada** | Retrata a **TAR-06** do início ao fim: busca da linha, leitura da previsão, avaliação da confiabilidade, decisão e favoritar a linha. | **Conforme** |
+| **4. Papel do Sistema** | Mostra o DF no Ponto exibindo previsão, posição no mapa e hora da última atualização, e oferecendo favoritos e aviso de atraso. | **Conforme** |
+| **5. Estrutura Narrativa** | Segue início (Q1), ação e *feedback* (Q2–Q3), contingência (Q4) e desfecho positivo (Q5). | **Conforme** |
+
+<div align="center">
+<p><em>Fonte: Carlos Costa (2026).</em></p>
 </div>
 
 ---
