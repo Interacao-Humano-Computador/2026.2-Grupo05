@@ -24,7 +24,7 @@ A coleta de dados seguiu a metodologia de **entrevista semiestruturada** orienta
 
 ### Perfil dos Envolvidos na Sessão:
 * **Entrevistador:** Carlos Costa.
-* **Perfil do Participante convidado:** Estudante da UnB que utiliza ônibus em seus deslocamentos e já usou aplicativo de rastreamento de ônibus, enquadrando-se no perfil da persona [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md). A participante é identificada apenas pelo código P04.
+* **Perfil do Participante convidado:** Estudante do Colégio Militar de Brasília (CMB) que utiliza ônibus em seus deslocamentos para as aulas e já usou aplicativo de rastreamento de ônibus. O perfil é próximo ao da persona [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md) (estudante que depende do ônibus para chegar às aulas), embora a participante não seja universitária, como previa o planejamento. A participante é identificada apenas pelo código P04.
 * **Ambiente e Recursos:** Sessão presencial em 28/10/2026, com cerca de 3 minutos, gravada em vídeo com exibição do storyboard. As perguntas sobre a tarefa foram feitas oralmente, sem exibir os diagramas HTA e GOMS, e a sessão não teve observador.
 * O vídeo da entrevista está disponível clicando [aqui](https://youtu.be/UlGMlzHiujA).
 
@@ -98,7 +98,7 @@ Uma vez que o **Storyboard 08** foi compreendido e os modelos **HTA/CMN-GOMS da 
 1. **Avanço para Prototipação de papel:** Manter na tela de detalhe da linha o tempo previsto, o mapa e a indicação de **última atualização** (PR01), incluir o **aviso de posição defasada** com acesso a outras linhas (PR03) e diferenciar os itens da **lista de resultados** (PR02), conforme o [planejamento da avaliação do protótipo de papel](../../planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md).
 2. **Hipóteses pendentes:** Investigar no teste do protótipo de papel a causa da seleção errada (H3), o conhecimento da busca por referência (H6) e a sensação de estar menos perdido na espera (H7).
 3. **Atualização da TAR-06:** Registrar a situação das hipóteses da seção 3.3 na Tabela 5 da TAR-06 (versão 1.2).
-4. **Limitações:** A avaliação contou com uma única participante, sem observador e sem exibição dos diagramas HTA e GOMS; os resultados indicam tendências e não garantem a ausência de outros problemas.
+4. **Limitações:** A avaliação contou com uma única participante, estudante de colégio e não universitária como a persona, sem observador e sem exibição dos diagramas HTA e GOMS; os resultados indicam tendências e não garantem a ausência de outros problemas.
 
 ---
 
