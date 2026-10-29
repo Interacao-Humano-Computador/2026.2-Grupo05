@@ -6,6 +6,7 @@
 | :---: | :---: | :--- | :--- | :--- |
 | 27/09/2026 | 1.0 | Elaboração da Análise de Tarefas (HTA e GOMS) para a consulta de ônibus em tempo real no DF no Ponto. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
 | 27/10/2026 | 1.1 | Alinhamento para a avaliação da Etapa 5: inclusão da persona João Pedro Carvalho, vínculo com os Cenários 2 e 10, numeração das hipóteses (H1 a H7) com tabela de consolidação, seção de artefatos relacionados e declaração de uso de IA. O conteúdo da análise foi mantido. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
+| 28/10/2026 | 1.2 | Registro da situação das hipóteses H1 a H7 (Tabela 5) e do passo 5 da HTA (Tabela 4) após a avaliação com usuário da sessão S4, e atualização da situação dos artefatos relacionados. O conteúdo da análise foi mantido. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
 
 ---
 
@@ -178,9 +179,9 @@ A Tabela 4 registra o andamento metodológico da análise e torna explícitas as
 | :--- | :--- |
 | 1. Decidir os objetivos da análise | Feito: avaliar um sistema existente (DF no Ponto) e propor melhorias. |
 | 2. Consenso sobre objetivos e medidas de sucesso | Parcial. Evidência de sucesso: o passageiro consegue informar quando o ônibus chega. Consequência da falha: perder o ônibus ou esperar sem necessidade. **Consenso com as partes interessadas pendente.** |
-| 3. Fontes de informação e aquisição de dados | Parcial: apenas documentação pública. **Observação e entrevistas pendentes.** |
+| 3. Fontes de informação e aquisição de dados | Parcial: documentação pública e uma entrevista com usuária (sessão S4, 28/10/2026). **Observação pendente.** |
 | 4. Esboçar diagrama e tabela | Feito (seções 3.1 e 3.2). |
-| 5. Verificar a validade com as partes interessadas | **Pendente.** Avaliação com usuário planejada na Etapa 5 (ver [seção 6](#6-artefatos-relacionados)). |
+| 5. Verificar a validade com as partes interessadas | **Parcial.** Entrevista com uma usuária na Etapa 5 (sessão S4), sobre os passos da tarefa, sem exibir os diagramas. Resultados na Tabela 5 e no [relato da avaliação](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md). |
 | 6. Identificar operações significativas (p × c) | Feito (seção 3.3). |
 | 7. Gerar hipóteses sobre aprendizado e desempenho | Feito como hipóteses (seção 3.4), **sem teste**. |
 
@@ -262,19 +263,19 @@ O livro apresenta o KLM (Tabela 6.4 e Exemplo 6.6) para estimar tempos, mas seus
 
 ## 5. Hipóteses a Validar
 
-A Tabela 5 reúne as hipóteses levantadas nas seções 2, 3 e 4. Como a análise foi feita só com documentação, elas correspondem aos passos 5 e 7 da HTA que ainda estão pendentes (Tabela 4) e devem ser verificadas com usuários (Barbosa et al., 2021, p. 191–192, 196). A coluna "Situação" será atualizada após a avaliação com usuário.
+A Tabela 5 reúne as hipóteses levantadas nas seções 2, 3 e 4. Como a análise foi feita só com documentação, elas correspondem aos passos 5 e 7 da HTA (Tabela 4) e devem ser verificadas com usuários (Barbosa et al., 2021, p. 191–192, 196). A coluna "Situação" registra o resultado da avaliação com uma usuária na sessão S4 (28/10/2026), detalhado no [relato da avaliação](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md#33-situacao-das-hipoteses-da-tar-06). Como houve uma única participante, "confirmada" e "refutada" indicam tendências, não conclusões definitivas.
 
 **Tabela 5** — Hipóteses da TAR-06 a validar com usuários
 
 | ID | Origem | Hipótese | Situação |
 | :---: | :--- | :--- | :---: |
-| **H1** | HTA 1.2 | O usuário nega a permissão de localização e deixa de receber sugestões de pontos próximos. | Não avaliada |
-| **H2** | HTA 2.1.1; GOMS 2.A | A busca pela linha exige que o usuário lembre o número ou o nome dela; um atalho para linhas usadas antes ajudaria. | Não avaliada |
-| **H3** | HTA 2.2; Tabela 3 | Vários pontos ou linhas próximos na lista levam à seleção errada, inclusive por toque impreciso. | Não avaliada |
-| **H4** | HTA 3.2; GOMS 3.A/3.B | Indicar a hora da última atualização da posição ajuda o usuário a avaliar se a informação é confiável. | Não avaliada |
-| **H5** | HTA 3.2 e 4.3; Tabela 3 | O usuário trata uma posição defasada como atual e decide com base em dado errado. | Não avaliada |
-| **H6** | HTA 2.1; Tabela 3; GOMS 2.B | O usuário novo não sabe que existe a busca por ponto de referência e desiste ao não lembrar a linha. | Não avaliada |
-| **H7** | Seção 2 (objetivo de experiência) | Com a consulta em tempo real, o passageiro não se sente perdido ou sem informação enquanto espera. | Não avaliada |
+| **H1** | HTA 1.2 | O usuário nega a permissão de localização e deixa de receber sugestões de pontos próximos. | Refutada (P04 permite a localização) |
+| **H2** | HTA 2.1.1; GOMS 2.A | A busca pela linha exige que o usuário lembre o número ou o nome dela; um atalho para linhas usadas antes ajudaria. | Parcialmente confirmada (P04 busca por referência e favoritaria a linha) |
+| **H3** | HTA 2.2; Tabela 3 | Vários pontos ou linhas próximos na lista levam à seleção errada, inclusive por toque impreciso. | Confirmada (P04 já escolheu linha ou ponto errado) |
+| **H4** | HTA 3.2; GOMS 3.A/3.B | Indicar a hora da última atualização da posição ajuda o usuário a avaliar se a informação é confiável. | Confirmada (P04 não confia na previsão; última atualização "ajuda muito") |
+| **H5** | HTA 3.2 e 4.3; Tabela 3 | O usuário trata uma posição defasada como atual e decide com base em dado errado. | Não confirmada (P04 reconhece dado defasado e decide conforme a urgência) |
+| **H6** | HTA 2.1; Tabela 3; GOMS 2.B | O usuário novo não sabe que existe a busca por ponto de referência e desiste ao não lembrar a linha. | Não avaliada (P04 não é usuária nova) |
+| **H7** | Seção 2 (objetivo de experiência) | Com a consulta em tempo real, o passageiro não se sente perdido ou sem informação enquanto espera. | Não avaliada (pergunta não aplicada) |
 
 *Fonte: Rodrigo Barbosa (2026); consolidação por Carlos Costa (2026).*
 
@@ -288,11 +289,11 @@ A Tabela 6 lista os artefatos do projeto que usam esta análise de tarefas.
 
 | Artefato | Etapa | Autor | Situação |
 | :--- | :---: | :--- | :---: |
-| [Storyboard 08 — Consulta do ônibus em tempo real no DF no Ponto](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Em elaboração |
-| [Planejamento da avaliação do Storyboard 08 e da TAR-06](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Em elaboração |
-| [Relato dos resultados da avaliação do Storyboard 08 e da TAR-06](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Em elaboração |
-| [Planejamento da avaliação do protótipo de papel (TAR-06)](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Em elaboração |
-| [Planejamento do relato do protótipo de papel (TAR-06)](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Em elaboração |
+| [Storyboard 08 — Consulta do ônibus em tempo real no DF no Ponto](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
+| [Planejamento da avaliação do Storyboard 08 e da TAR-06](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
+| [Relato dos resultados da avaliação do Storyboard 08 e da TAR-06](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
+| [Planejamento da avaliação do protótipo de papel (TAR-06)](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
+| [Planejamento do relato do protótipo de papel (TAR-06)](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
 
 *Fonte: Elaborado por Carlos Costa (2026).*
 
