@@ -292,8 +292,8 @@ A Tabela 6 lista os artefatos do projeto que usam esta análise de tarefas.
 | [Storyboard 08 — Consulta do ônibus em tempo real no DF no Ponto](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
 | [Planejamento da avaliação do Storyboard 08 e da TAR-06](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
 | [Relato dos resultados da avaliação do Storyboard 08 e da TAR-06](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
-| [Planejamento da avaliação do protótipo de papel (TAR-06)](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
-| [Planejamento do relato do protótipo de papel (TAR-06)](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
+| [Planejamento da avaliação do protótipo de papel (TAR-06)](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
+| [Planejamento do relato do protótipo de papel (TAR-06)](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
 
 *Fonte: Elaborado por Carlos Costa (2026).*
 

@@ -127,7 +127,7 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 | **1. Personas e Atores** | Apresenta a personagem **Larissa Ferreira Lima** em traço simples, usando cadeira de rodas. | **Conforme** |
 | **2. Contexto e Ambiente** | Situa a ação no quarto de Larissa, em casa, onde ela resolve o agendamento pelo celular. | **Conforme** |
 | **3. Tarefa Retratada** | Ilustra a execução completa da **TAR-02** (acesso ao site, escolha do posto e escolha do dia). | **Conforme** |
-| **4. Papel do Sistema** | Exibe o atalho "Agendar DF Acessível" no site da Semob-DF e o envio do comprovante por e-mail e WhatsApp. | **Conforme** |
+| **4. Papel do Sistema** | Exibe o atalho "Agendar DF Acessível", funcionalidade proposta para a página inicial do site da Semob-DF (que hoje não oferece o serviço), e o envio do comprovante por e-mail e WhatsApp. | **Conforme** |
 | **5. Estrutura Narrativa** | Possui fluxo claro com Início (Q1), Meio (Q2–Q4) e Fim (Q5). | **Conforme** |
 
 <div align="center">

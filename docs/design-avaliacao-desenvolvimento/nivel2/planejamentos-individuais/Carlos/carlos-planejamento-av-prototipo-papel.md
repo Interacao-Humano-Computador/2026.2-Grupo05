@@ -8,9 +8,9 @@
 
 # Planejamento da Avaliação do Protótipo de Papel (TAR-06)
 
-Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Papel** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. Trata-se de um planejamento individual para orientar a avaliação formativa de um protótipo de baixa fidelidade, desenhado em papel, da consulta em tempo real que aparece no [Storyboard 08](../../storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto).
+Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Papel** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. Trata-se de um planejamento individual para orientar a avaliação formativa de um protótipo de baixa fidelidade, desenhado em papel, da consulta em tempo real que aparece no [Storyboard 08](../../../nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto).
 
-A avaliação envolve a simulação de uso por um participante do perfil da persona [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md) e é estruturada pelo **Framework DECIDE** (Preece et al., 2002; Barbosa et al., 2021) ([Imagem 1](#imagem-1)). O protótipo incorpora as recomendações da TAR-06 e os resultados da [avaliação do Storyboard 08 e da TAR-06](../../relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md).
+A avaliação envolve a simulação de uso por um participante do perfil da persona [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md) e é estruturada pelo **Framework DECIDE** (Preece et al., 2002; Barbosa et al., 2021) ([Imagem 1](#imagem-1)). O protótipo incorpora as recomendações da TAR-06 e os resultados da [avaliação do Storyboard 08 e da TAR-06](../../../nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md).
 
 ---
 

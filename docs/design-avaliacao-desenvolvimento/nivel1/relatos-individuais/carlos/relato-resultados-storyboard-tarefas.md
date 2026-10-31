@@ -95,7 +95,7 @@ Durante a condução da entrevista, a participante demonstrou facilidade para in
 
 Uma vez que o **Storyboard 08** foi compreendido e os modelos **HTA/CMN-GOMS da TAR-06** obtiveram validação positiva nos passos avaliados, com problemas pontuais de confiabilidade e seleção, as recomendações para as próximas fases do projeto são:
 
-1. **Avanço para Prototipação de papel:** Manter na tela de detalhe da linha o tempo previsto, o mapa e a indicação de **última atualização** (PR01), incluir o **aviso de posição defasada** com acesso a outras linhas (PR03) e diferenciar os itens da **lista de resultados** (PR02), conforme o [planejamento da avaliação do protótipo de papel](../../planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md).
+1. **Avanço para Prototipação de papel:** Manter na tela de detalhe da linha o tempo previsto, o mapa e a indicação de **última atualização** (PR01), incluir o **aviso de posição defasada** com acesso a outras linhas (PR03) e diferenciar os itens da **lista de resultados** (PR02), conforme o [planejamento da avaliação do protótipo de papel](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md).
 2. **Hipóteses pendentes:** Investigar no teste do protótipo de papel a causa da seleção errada (H3), o conhecimento da busca por referência (H6) e a sensação de estar menos perdido na espera (H7).
 3. **Atualização da TAR-06:** Registrar a situação das hipóteses da seção 3.3 na Tabela 5 da TAR-06 (versão 1.2).
 4. **Limitações:** A avaliação contou com uma única participante, estudante de colégio e não universitária como a persona, sem observador e sem exibição dos diagramas HTA e GOMS; os resultados indicam tendências e não garantem a ausência de outros problemas.
