@@ -32,7 +32,7 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021, p. 263, 306), o d
 1. **Introdução e Objetivos da Avaliação:** Apresentação do escopo do protótipo em papel e das metas de usabilidade investigadas.
 2. **Metodologia Empregada:** Descrição da técnica de Prototipação em Papel (observação de uso empírica presencial) e da técnica de *Think Aloud* (pensar em voz alta), incluindo data, local, duração real e eventuais desvios em relação ao planejamento.
 3. **Caracterização dos Participantes e Papéis da Equipe:** Detalhamento do perfil do participante convidado (representante de [Larissa Ferreira Lima](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/larissa-ferreira-lima/)), sem dados identificáveis, e a identificação do condutor ("Avaliador Computador", Gabriel Cardone) e do anotador ("Avaliador Observador", Igor Dantas Araújo).
-4. **Análise Qualitativa e Tabela de Problemas de IHC:** Consolidação das falhas de usabilidade encontradas, classificadas segundo a escala de severidade de Nielsen.
+4. **Análise Qualitativa e Tabela de Problemas de IHC:** Consolidação das falhas de usabilidade encontradas, classificadas segundo a escala de severidade apresentada em Barbosa et al. (2021).
 5. **Registro de Alterações no Protótipo de Papel:** Tabela comparativa dos problemas resolvidos no próprio papel durante a sessão versus pendências de reprojeto.
 6. **Recomendações para a Prototipação de Alta Fidelidade:** Diretrizes finais de interface para o desenvolvimento das telas digitais.
 7. **Conclusão:** Resumo dos aprendizados obtidos e limitações do estudo (participante único, ausência de generalização estatística).
@@ -45,7 +45,7 @@ Como a prototipação em papel privilegia a produção de dados qualitativos (Ba
 
 Uma tarefa será considerada **Satisfatória** quando concluída sem pedido de ajuda e sem escolha incorreta de tela. Será considerada **Com Falhas** quando houver pedido de ajuda, escolha incorreta de tela ou peça, ou desistência. Toda tarefa **Com Falhas** deve originar ao menos um registro na tabela de problemas.
 
-Os problemas de usabilidade identificados serão classificados segundo a **Escala de Severidade de Problemas** (Nielsen, 1994; Barbosa et al., 2021):
+Os problemas de usabilidade identificados serão classificados segundo a **Escala de Severidade de Problemas** (Barbosa et al., 2021):
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Escala de Severidade de Problemas de Usabilidade</p>
@@ -60,7 +60,7 @@ Os problemas de usabilidade identificados serão classificados segundo a **Escal
 | **4** | **Catastrófico** | Impede totalmente o usuário de concluir a tarefa no protótipo em papel (desistência ou erro bloqueante). |
 
 <div align="center">
-<p><em>Fonte: Adaptado de Nielsen (1994) e Barbosa et al. (2021).</em></p>
+<p><em>Fonte: Adaptado de Barbosa et al. (2021).</em></p>
 </div>
 
 ---
@@ -79,7 +79,7 @@ O relatório final utilizará quatro modelos padronizados de tabelas para regist
 | :---: | :--- | :---: | :---: | :---: | :---: |
 | **TAR-02.1** | Encontrar o atalho "Agendar DF Acessível" na página inicial da SEMOB-DF e entender o que é o pré-agendamento. | **[Sim / Não]** | *[mm:ss]* | *[Qtd]* | **[Satisfatório / Com Falhas]** |
 | **TAR-02.2** | Escolher o posto de atendimento mais adequado a partir das informações da lista. | **[Sim / Não]** | *[mm:ss]* | *[Qtd]* | **[Satisfatório / Com Falhas]** |
-| **TAR-02.3** | Escolher o dia, responder ao aviso de sessão prestes a expirar (*post-it*) e confirmar o pré-agendamento. | **[Sim / Não]** | *[mm:ss]* | *[Qtd]* | **[Satisfatório / Com Falhas]** |
+| **TAR-02.3** | Escolher o dia e confirmar o pré-agendamento. | **[Sim / Não]** | *[mm:ss]* | *[Qtd]* | **[Satisfatório / Com Falhas]** |
 | **TAR-02.4** | Conferir a tela de revisão e o comprovante do agendamento. | **[Sim / Não]** | *[mm:ss]* | *[Qtd]* | **[Satisfatório / Com Falhas]** |
 
 <div align="center">
@@ -94,7 +94,7 @@ O relatório final utilizará quatro modelos padronizados de tabelas para regist
 
 | ID Problema | Modificação Realizada no Protótipo em Papel | Corrigido Durante o Teste? | Reincidiu na Interação? | Status para Prototipação Digital |
 | :---: | :--- | :---: | :---: | :--- |
-| **PROB-P01** | *[Ex.: Redesenho do rótulo do post-it com novo texto]* | **[Sim / Não]** | **[Sim / Não]** | **[Resolvido no Papel / Ajustar na Alta Fidelidade]** |
+| **PROB-P01** | *[Ex.: Redesenho do rótulo do calendário com novo texto]* | **[Sim / Não]** | **[Sim / Não]** | **[Resolvido no Papel / Ajustar na Alta Fidelidade]** |
 | **PROB-P02** | *[Ex.: Aumento da área de toque dos dias no calendário]* | **[Sim / Não]** | **[Sim / Não]** | **[Resolvido no Papel / Ajustar na Alta Fidelidade]** |
 
 <div align="center">

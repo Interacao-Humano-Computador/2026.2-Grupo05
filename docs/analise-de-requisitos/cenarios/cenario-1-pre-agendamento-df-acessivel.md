@@ -13,17 +13,18 @@
 
 ## 1. Introdução
 
-Este cenário de problema descreve a tentativa de Larissa Ferreira Lima de realizar o pré-agendamento no Programa DF Acessível a partir do site da Semob, para conseguir transporte adaptado até a fisioterapia depois de uma fratura. A situação foi modelada a partir da Análise de Tarefas da [TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md) para evidenciar como o caminho entre portais, a falta de explicações sobre o serviço e as limitações do calendário podem fazer uma pessoa com mobilidade reduzida adiar ou perder o transporte de que precisa, contribuindo para a identificação de requisitos de IHC.
+Este cenário de concepção descreve Larissa Ferreira Lima realizando o pré-agendamento no Programa DF Acessível com a **nova funcionalidade proposta** para o site da Semob, para conseguir transporte adaptado até a fisioterapia depois de uma fratura. Atualmente, o site da Semob não oferece esse serviço. A situação foi construída a partir da Análise de Tarefas da [TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md) e do [Storyboard 02](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#32-storyboard-02-pre-agendamento-no-programa-df-acessivel) para mostrar como um atalho na página inicial, explicações claras sobre o serviço, informações sobre os postos e um comprovante imediato permitem que uma pessoa com mobilidade reduzida garanta o transporte de que precisa, contribuindo para a especificação de requisitos de IHC.
 
 ## 2. Caracterização Geral
 
 **Autor: Gabriel Melo**
 
 - **Persona:** [Larissa Ferreira Lima](../personas/larissa-ferreira-lima.md) (persona primária)
-- **Tipo:** Cenário de problema — situação atual, com o site como ele é hoje
+- **Tipo:** Cenário de concepção (projetado) — situação futura, com a funcionalidade proposta implantada no site da Semob
 - **Tarefa coberta:** [TAR-02 — Pré-agendamento no Programa DF Acessível](../analise-de-tarefas/tar-02-df-acessivel.md) (HTA e CTT)
+- **Storyboard relacionado:** [Storyboard 02](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#32-storyboard-02-pre-agendamento-no-programa-df-acessivel)
 
-**Resumo:** numa segunda-feira à noite, em casa, Larissa precisa garantir transporte adaptado para a fisioterapia, que começa em poucas semanas. Ela abre o site da Semob, não encontra nenhum atalho para o DF Acessível e chega ao agendamento por um caminho que atravessa três outros portais. Escolhe o posto sem saber se há vagas ou se o local é acessível, perde a sessão enquanto confere a agenda da família e precisa recomeçar. Ao final, consegue pré-agendar em um posto mais distante e termina a noite sem saber se o comprovante chegou.
+**Resumo:** numa segunda-feira à noite, em casa, Larissa precisa garantir transporte adaptado para a fisioterapia. Ela abre o site da Semob e encontra, logo na página inicial, o atalho "Agendar DF Acessível". O site explica o que é o pré-agendamento, confirma que a deficiência temporária dá direito ao programa e lista os documentos. Larissa escolhe o posto mais próximo de casa já sabendo se ele é acessível e qual é a próxima data com vaga, confere a agenda com a mãe, seleciona a data e recebe o comprovante por e-mail e WhatsApp.
 
 ---
 
@@ -33,7 +34,8 @@ Este cenário de problema descreve a tentativa de Larissa Ferreira Lima de reali
 - **Situação de saúde e de deslocamento:** há cerca de três semanas, Larissa fraturou o tornozelo e a tíbia esquerda e passou por cirurgia. Ficará aproximadamente 12 semanas sem apoiar o pé e depois seguirá com muletas e fisioterapia. A fisioterapia será às segundas, quartas e sextas, em uma clínica de reabilitação, e há consultas ortopédicas quinzenais no Plano Piloto. Ônibus e metrô comuns deixaram de ser uma opção, e corrida de aplicativo não cabe no orçamento. A mãe, Sônia, precisa trabalhar.
 - **Dispositivo e conectividade:** celular Android com 38% de bateria, plano de dados limitado e wi-fi doméstico instável. Ela usa o aparelho deitada, com uma mão. O notebook da casa está com o irmão, que faz trabalho escolar.
 - **Recursos à mão:** laudo médico (foto na galeria do celular), site da Semob, agenda da fisioterapia no celular e conversa com a mãe pelo WhatsApp.
-- **Regras do programa (desconhecidas por Larissa nesta noite):** o DF Acessível atende pessoas com deficiência ou patologia que causa redução severa de mobilidade, **temporária ou permanente**, e exige cadastro prévio, comprovação por profissional de saúde, residência no DF, renda familiar per capita inferior a dois salários mínimos e cadeira de rodas própria compatível com as normas da ABNT; as viagens são agendadas com antecedência mínima de 30 dias **[R]**. Larissa atende a todos esses requisitos, mas o site não informa isso de forma direta.
+- **Regras do programa:** o DF Acessível atende pessoas com deficiência ou patologia que causa redução severa de mobilidade, **temporária ou permanente**, e exige cadastro prévio, comprovação por profissional de saúde, residência no DF, renda familiar per capita inferior a dois salários mínimos e cadeira de rodas própria compatível com as normas da ABNT; as viagens são agendadas com antecedência mínima de 30 dias. Larissa atende a todos esses requisitos, e a funcionalidade proposta informa isso logo no início.
+- **Situação atual (antes da proposta):** hoje, o site da Semob não oferece o pré-agendamento do DF Acessível nem um atalho para ele. Este cenário descreve como seria a mesma noite de Larissa com a funcionalidade proposta.
 
 ---
 
@@ -47,11 +49,11 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 |---|---|---|
 | **Larissa Ferreira Lima** | Ator principal (usuária) | Mulher, 23 anos, com deficiência temporária de mobilidade. Autônoma e acostumada a resolver tudo pelo celular. Cansada e com dor ao fim do dia, usa o aparelho com uma mão e tem dificuldade com toques pequenos |
 | **Sônia (mãe)** | Ator secundário | Auxiliar de serviços gerais. É a acompanhante natural de Larissa e só pode ir a alguns dias e horários; responde às mensagens quando intervalos do trabalho permitem |
-| **Pedro (irmão)** | Ator secundário | Usa o notebook da casa; sugere o caminho que um colega usou para marcar um serviço do GDF |
+| **Pedro (irmão)** | Ator secundário | Usa o notebook da casa, o que faz Larissa resolver tudo pelo celular |
 
 *Fonte: Gabriel Melo.*
 
-**Elementos do ambiente com que os atores interagem:** site da Semob, portal Participa DF, portal Na Hora, Agenda DF, navegador do celular, galeria de fotos e WhatsApp.
+**Elementos do ambiente com que os atores interagem:** site da Semob (página inicial com o atalho "Agendar DF Acessível" proposto), navegador do celular, galeria de fotos, WhatsApp e e-mail.
 
 ---
 
@@ -59,9 +61,9 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 - **Objetivo principal:** realizar o pré-agendamento no Programa DF Acessível, escolhendo o local e o dia do atendimento.
 - **Subobjetivos:**
-  1. Chegar ao serviço certo a partir do site da Semob.
+  1. Encontrar o serviço na página inicial do site da Semob.
   2. Entender o que é o pré-agendamento e se uma deficiência temporária dá direito ao programa.
-  3. Escolher um posto de atendimento e um dia que caibam na agenda dela e na da mãe.
+  3. Escolher um posto de atendimento acessível e um dia que caibam na agenda dela e na da mãe.
   4. Receber a confirmação de que o pré-agendamento foi registrado.
 - **Motivações:** garantir o transporte para as sessões de fisioterapia, que não podem ser adiadas sem prejudicar a recuperação; evitar gastos com aplicativo; e deixar de depender da mãe para cada deslocamento.
 
@@ -69,85 +71,80 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 ## 6. Planejamento, Ações, Eventos e Avaliação
 
-**Como ler cada passo:** Planejamento = o que Larissa pensa em fazer (atividade mental); Ação = o que ela faz de forma observável; Evento = o que acontece em resposta (site, sistema, ambiente ou outras pessoas); Avaliação = como ela interpreta o que viu (atividade mental). Os eventos assinalados com **[H]** têm base na Análise de Tarefas ([TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md): HTA e CTT, realizada em 25/09/2026); os assinalados com **[R]** têm base na Resolução TCB nº 33/2021; os demais são hipotéticos.
+**Como ler cada passo:** Planejamento = o que Larissa pensa em fazer (atividade mental); Ação = o que ela faz de forma observável; Evento = o que acontece em resposta (site, sistema, ambiente ou outras pessoas); Avaliação = como ela interpreta o que viu (atividade mental). Os eventos assinalados com **[P]** correspondem à funcionalidade proposta e modelada na Análise de Tarefas ([TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md): HTA e CTT, versão 2.0); os demais são hipotéticos.
 
-**Plano geral de Larissa:** (1) chegar ao serviço de agendamento do DF Acessível a partir do site da Semob; (2) escolher o "Pré-agendamento" e entender o que precisa; (3) escolher o local e o dia do atendimento; (4) conferir se o pré-agendamento ficou registrado.
+**Plano geral de Larissa:** (1) encontrar o agendamento do DF Acessível no site da Semob; (2) entender o que é o pré-agendamento e o que precisa; (3) escolher o local e o dia do atendimento; (4) conferir se o pré-agendamento ficou registrado.
 
-### Passo 1 — Abrir o site da Semob (21h40)
+### Passo 1 — Abrir o site da Semob e encontrar o atalho (21h40) — Storyboard, quadros 1 e 2
 
 - **Planejamento:** *"Preciso marcar o transporte da fisioterapia. Deve ter algo no site da Semob."* Como não sabe o endereço de cabeça, decide chegar pelo Google.
 - **Ação:** abre o navegador, pesquisa "semob transporte cadeirante agendar" e toca no resultado do site da Semob.
-- **Evento:** com a conexão lenta, a página inicial demora a abrir. No menu superior e na página inicial, não há atalho com os nomes "DF Acessível", "transporte adaptado" ou "agendar" **[H]**.
-- **Avaliação:** *"Tem um monte de coisa aqui que não é pra mim. Onde eu marco isso?"* Sente cansaço e a dor aumenta, mas não quer deixar para amanhã.
+- **Evento:** a página inicial abre leve, mesmo com a conexão lenta. Logo na primeira tela, sem precisar rolar, aparece o botão "Agendar DF Acessível", grande e com o símbolo de acessibilidade **[P]** (HTA 1.1; CTT 1.1).
+- **Avaliação:** *"É isso! Achei que ia ter que procurar em mil lugares."*
 
-### Passo 2 — Chegar a "Faça aqui o seu pedido – Participe"
+### Passo 2 — Entender o pré-agendamento e se tem direito
 
-- **Planejamento:** como nada no menu fala em agendamento, resolve tentar "Acesso à Informação", que lhe parece o item mais parecido com "pedir uma informação sobre um serviço".
-- **Ação:** toca em "Acesso à Informação" e depois em "Faça aqui o seu pedido – Participe" **[H]**.
-- **Evento:** o navegador abre o portal Participa DF (participa.df.gov.br), outro site, com outra identidade visual, sem nenhum aviso de que ela saiu da Semob **[H]**.
-- **Avaliação:** *"Isso aqui é pedido de informação ou ouvidoria. Não é agendamento. Será que errei?"* Pensa em desistir, mas, como o irmão lembra que um colega "marcou o RG num site com 'Na Hora' no nome", continua.
+- **Planejamento:** antes de começar, quer saber se uma deficiência temporária dá direito ao programa e quais documentos vai precisar.
+- **Ação:** toca em "Agendar DF Acessível".
+- **Evento:** sem sair do site da Semob, abre a página do serviço. Em uma frase, ela explica que o pré-agendamento marca o atendimento presencial para o cadastro no programa; informa que deficiência temporária ou permanente dá direito; e lista os documentos necessários, como o laudo do profissional de saúde e o comprovante de residência **[P]** (HTA 1.2; CTT 1.2).
+- **Ação:** abre a galeria para confirmar que o laudo está legível e toca em "Pré-agendamento" **[P]** (CTT 1.3).
+- **Avaliação:** *"Então eu tenho direito, e o laudo eu já tenho. Agora é só escolher o lugar."*
 
-### Passo 3 — Chegar ao "Programa DF Acessível" pelo Na Hora
-
-- **Planejamento:** procurar o link "Na Hora" que o irmão citou e, a partir dele, achar o agendamento do programa.
-- **Ação:** rola a página até encontrar o link "Na Hora" (nahora.df.gov.br), que tem pouco destaque visual, e toca nele. No Na Hora, abre "Agendamento Online" e percorre a lista de órgãos e serviços até chegar a "Programa DF Acessível" **[H]**.
-- **Evento:** a lista é longa e mistura órgãos e serviços. Ela não sabe se o programa pertence à Semob, à TCB ou à Secretaria da Pessoa com Deficiência. Ao selecionar o programa, é redirecionada a outro domínio, a Agenda DF (agenda.df.gov.br) **[H]**. Já são 4 endereços diferentes e 12% da franquia de dados do dia.
-- **Avaliação:** *"Quatro sites para marcar uma van. Se eu não tivesse insistido, tinha desistido lá no segundo."*
-
-### Passo 4 — Escolher "Pré-agendamento" e tentar entender se tem direito
-
-- **Planejamento:** abrir o "Pré-agendamento" e conferir se uma deficiência temporária é aceita e quais documentos precisa levar.
-- **Ação:** toca em "Pré-agendamento" **[H]**. Procura na tela, sem sucesso, uma explicação de quem tem direito, e abre o laudo na galeria para conferir as informações enquanto lê.
-- **Evento:** a tela seguinte já mostra a lista de postos, sem explicar a diferença entre pré-agendamento e agendamento definitivo e sem listar os documentos necessários **[H]**. Nada diz que deficiência temporária também dá direito ao programa **[R]**.
-- **Avaliação:** *"Não diz se eu entro no programa. Eu não sou cadeirante pra sempre... Vou escolher o posto e rezar para ser isso mesmo."* Fica insegura, mas segue em frente porque o relógio já passa das 22h.
-
-### Passo 5 — Escolher o posto de atendimento
+### Passo 3 — Escolher o posto de atendimento — Storyboard, quadro 3
 
 - **Planejamento:** escolher o posto mais perto de casa, para a mãe conseguir levá-la numa folga.
-- **Ação:** percorre a lista e toca no posto de Ceilândia.
-- **Evento:** a lista mostra apenas os nomes dos locais, sem endereço completo, mapa, indicação de rampa ou elevador e sem a próxima data com vaga **[H]**. Só depois de escolher o posto o sistema consulta a disponibilidade **[H]**.
-- **Avaliação:** *"Não sei se o posto tem rampa. E não sei se tem vaga. Só descubro depois de escolher."*
+- **Evento:** a lista de postos aparece ordenada por proximidade. Cada posto mostra endereço, região administrativa, recursos de acessibilidade (rampa, elevador, vaga para embarque) e a próxima data com vaga **[P]** (HTA 2.1; CTT 2.1). O posto de Ceilândia, o primeiro da lista, tem rampa e vaga para embarque, e a próxima data é uma quinta-feira de novembro; o do Gama tem data mais cedo, mas fica bem mais longe.
+- **Ação:** toca no posto de Ceilândia **[P]** (CTT 2.2).
+- **Avaliação:** *"Ceilândia tem rampa e é perto. Prefiro esperar um pouco e ir num lugar que eu consigo entrar."*
 
-### Passo 6 — Conferir a agenda e perder a sessão
+### Passo 4 — Conferir a agenda com a mãe
 
 - **Planejamento:** antes de escolher o dia, confirmar a agenda da fisioterapia e perguntar à mãe em quais dias ela pode acompanhá-la.
-- **Ação:** deixa a tela do calendário aberta, abre o aplicativo de agenda, confere as sessões da fisioterapia e manda mensagem para a mãe no WhatsApp. A resposta demora cerca de quatro minutos.
-- **Evento:** enquanto isso, a sessão do sistema expira por inatividade, sem contador de tempo nem aviso prévio, e a seleção em andamento é cancelada **[H]**. Ao voltar, Larissa vê a tela inicial do portal.
-- **Avaliação:** *"Perdi tudo. Tenho que começar do zero, com a perna doendo e 21% de bateria."* Sente raiva e vontade de deixar para outro dia, mas lembra que o prazo mínimo de 30 dias **[R]** não espera.
+- **Ação:** com o calendário do posto aberto, abre o aplicativo de agenda, confere as sessões da fisioterapia e manda mensagem para a mãe no WhatsApp. A resposta demora cerca de quatro minutos.
+- **Evento:** enquanto isso, o site consulta os dias com vaga do posto **[P]** (CTT 2.3, em paralelo à tarefa 2.4 de Larissa). Quando ela volta, o posto escolhido continua selecionado e o calendário já está carregado.
+- **Avaliação:** *"Minha mãe respondeu. Agora é só escolher o dia."*
 
-### Passo 7 — Refazer o caminho e trocar de posto
+### Passo 5 — Escolher o dia — Storyboard, quadro 4
 
-- **Planejamento:** repetir o caminho mais rápido, agora que já o conhece, e escolher o posto de Ceilândia de novo.
-- **Ação:** volta pelo navegador até a lista de postos e escolhe novamente o de Ceilândia.
-- **Evento:** o calendário do posto aparece sem dias disponíveis nas próximas semanas **[H]**. Ela volta para a lista e, em alguns caminhos, precisa selecionar de novo o serviço desde o Na Hora, porque o contexto não foi mantido **[H]**. Escolhe o posto de Taguatinga, mais distante, que ainda mostra vagas.
-- **Avaliação:** *"Taguatinga é muito mais longe, e eu ainda preciso ver com a minha mãe. Mas se eu não pegar essa vaga, perco mais um mês."*
+- **Planejamento:** escolher o dia que a mãe confirmou que pode, de preferência fora dos dias de fisioterapia.
+- **Evento:** o calendário de novembro mostra os dias com vaga em destaque e com a palavra "Livre", e não apenas por cor; os dias são grandes o suficiente para o toque com uma mão **[P]** (HTA 2.2).
+- **Ação:** toca na quinta-feira, dia 19, e escolhe o horário da manhã **[P]** (HTA 2.2; CTT 2.5).
+- **Evento:** o dia e o horário ficam em destaque, e a data escolhida aparece por extenso **[P]**.
+- **Avaliação:** *"Quinta de manhã a minha mãe pode, e não bate com a fisioterapia."*
 
-### Passo 8 — Escolher o dia e conferir o comprovante
+### Passo 6 — Revisar e confirmar
 
-- **Planejamento:** escolher um dia que a mãe confirmou que pode, de preferência fora dos dias de fisioterapia.
-- **Ação:** toca no dia desejado no calendário, mas erra o toque e seleciona a data ao lado. Corrige, toca em "Confirmar" e, em seguida, tira um print da tela de confirmação.
-- **Evento:** os dias são pequenos e os disponíveis são diferenciados quase só pela cor **[H]**. A tela de confirmação mostra local, dia e horário, mas não há aviso de que um comprovante foi enviado por e-mail ou SMS, e a vaga não foi reservada enquanto ela decidia **[H]**.
-- **Avaliação:** *"Acho que deu certo... Mas e se alguém pegou a vaga antes? Eu quero um comprovante no e-mail."* Larissa vai dormir às 22h50, com 9% de bateria, sem ter certeza de que o transporte está garantido e sem saber se o pré-agendamento resolve tudo ou se ainda falta alguma etapa.
+- **Planejamento:** conferir se está tudo certo antes de confirmar, porque já errou toques em outros sites.
+- **Evento:** a tela de revisão mostra posto, endereço, dia e horário, com um botão "Editar" ao lado de cada item **[P]** (HTA 3.1; CTT 3.1).
+- **Ação:** confere os dados e toca em "Confirmar pré-agendamento" **[P]** (CTT 3.2).
+- **Evento:** o site mostra uma mensagem de sucesso com o número de protocolo e informa que o comprovante foi enviado por e-mail e WhatsApp **[P]** (CTT 3.3).
+- **Avaliação:** *"Tem até o número do protocolo. Agora sim."*
+
+### Passo 7 — Receber o comprovante — Storyboard, quadro 5
+
+- **Planejamento:** guardar o comprovante e avisar a mãe da data.
+- **Evento:** em poucos segundos, chegam o e-mail e a mensagem no WhatsApp, com o protocolo, o resumo de cada etapa (posto, endereço, dia e horário), a lista de documentos a levar e as instruções para cancelar ou remarcar **[P]** (HTA 3.2; CTT 3.4).
+- **Ação:** encaminha a mensagem do WhatsApp para a mãe.
+- **Avaliação:** *"Consegui um meio de transporte para a minha consulta!"* Larissa deixa o celular carregando às 21h55, com a certeza de que o pré-agendamento ficou registrado e sabendo exatamente o que levar no dia.
 
 ---
 
-## 7. Problemas Revelados pelo Cenário
+## 7. Necessidades Atendidas pela Proposta
 
-A Tabela 2 relaciona os problemas evidenciados durante o cenário aos momentos em que ocorrem e aos requisitos já identificados para a persona.
+A Tabela 2 relaciona as necessidades da persona aos elementos da funcionalidade proposta que as atendem, aos momentos do cenário em que aparecem e aos nós correspondentes da TAR-02.
 
-**Tabela 2** — Problemas revelados pelo Cenário 1
+**Tabela 2** — Necessidades da persona atendidas pela funcionalidade proposta no Cenário 1
 
-| Problema revelado | Onde aparece | Requisito da persona relacionado |
-|---|---|---|
-| A home da Semob não tem atalho para o DF Acessível; o caminho passa por "Acesso à Informação" e "Faça aqui o seu pedido – Participe" **[H]** | Passos 1 e 2 | Um caminho direto até o DF Acessível |
-| Troca de domínio sem aviso (Participa DF, Na Hora, Agenda DF), com o link "Na Hora" pouco destacado **[H]** | Passos 2 e 3 | Aviso antes de trocar de site |
-| Lista longa de serviços e dúvida sobre qual órgão é o responsável (Semob, TCB, SEPD) **[H]** | Passo 3 | Um caminho direto até o DF Acessível; Linguagem simples |
-| Não há explicação do que é o pré-agendamento, nem lista de documentos, nem informação de que deficiência temporária dá direito ao programa **[H][R]** | Passo 4 | Linguagem simples e explicação do serviço; Saber se tem direito |
-| A lista de postos não mostra endereço, mapa, acessibilidade física nem a próxima data com vaga **[H]** | Passo 5 | Informações do local de atendimento |
-| A sessão expira por inatividade, sem contador nem aviso, e cancela a seleção em andamento **[H]** | Passo 6 | Tempo para decidir sem perder a sessão |
-| Ao trocar de posto, o contexto do serviço escolhido nem sempre é preservado **[H]** | Passo 7 | Site leve, acessível e de uso com uma mão |
-| Calendário com dias pequenos e disponibilidade indicada principalmente por cor, o que dificulta o toque e a leitura **[H]** | Passo 8 | Calendário fácil de usar e com texto, não só cor |
-| Não há reserva temporária da vaga nem comprovante imediato por e-mail ou SMS **[H]** | Passo 8 | Confirmação imediata e por escrito |
+| Necessidade da persona | Como a proposta atende | Onde aparece | Nós da TAR-02 |
+|---|---|---|---|
+| Um caminho direto até o DF Acessível | Atalho "Agendar DF Acessível" na primeira tela da página inicial da Semob | Passo 1 | HTA 1.1; CTT 1.1 |
+| Resolver tudo no mesmo site | Todo o fluxo acontece no site da Semob, sem troca de domínio | Passos 1 a 7 | HTA 0 |
+| Linguagem simples e explicação do serviço | Página do serviço explica o pré-agendamento em uma frase e lista os documentos | Passo 2 | HTA 1.2; CTT 1.2 |
+| Saber se tem direito (deficiência temporária) | Informação, logo no início, de que deficiência temporária ou permanente dá direito ao programa | Passo 2 | HTA 1.2; CTT 1.2 |
+| Informações do local de atendimento | Lista de postos com endereço, recursos de acessibilidade e próxima data com vaga | Passo 3 | HTA 2.1; CTT 2.1 |
+| Calendário fácil de usar e com texto, não só cor | Dias com vaga indicados por cor e pela palavra "Livre", com áreas de toque amplas | Passo 5 | HTA 2.2; CTT 2.5 |
+| Confirmação imediata e por escrito | Revisão antes de confirmar, protocolo na tela e comprovante por e-mail e WhatsApp | Passos 6 e 7 | HTA 3.1 e 3.2; CTT 3.1 a 3.4 |
+| Site leve, acessível e de uso com uma mão | Página inicial leve, botões grandes e telas de acordo com o eMAG/WCAG | Passos 1 a 5 | Mecanismos complementares do CTT |
 
 *Fonte: Gabriel Melo.*
 
@@ -156,4 +153,3 @@ A Tabela 2 relaciona os problemas evidenciados durante o cenário aos momentos e
 ## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* DISTRITO FEDERAL. Transporte Coletivo de Brasília (TCB). **Resolução nº 33, de 9 de novembro de 2021**. Regulamenta o Programa DF Acessível. Disponível em: [SINJ-DF](https://www.sinj.df.gov.br/sinj/Norma/087e8a61f20547eaa289deb4ef136839/Resolu_o_33_09_11_2021.html). Acesso em: 11 out. 2026.

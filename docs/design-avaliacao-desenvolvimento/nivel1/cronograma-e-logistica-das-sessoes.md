@@ -4,6 +4,8 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 12/10/2026 | `1.0` | Elaboração do Cronograma e Logística das Sessões de Avaliação da Etapa 4 (agenda das sessões, plataformas, papéis, recrutamento previsto, logística e fundamentação teórica). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini - usado para estruturação do texto e formatação Markdown da página |
 | 23/10/2026 | `1.1` | Atualização da sessão S5 para o novo Storyboard 05 (Pedido de Aumento do Limite Diário do Vale-Transporte) e a TAR-09. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para atualizar a linha da sessão S5 |
+| 27/10/2026 | `1.2` | Atualização da sessão S4 para o Storyboard 08 e a TAR-06 (participante estudante, nova data e papéis), correção da sessão S6 para o Storyboard 06 e a TAR-08, e ajuste das Tabelas 3 e 4. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 28/10/2026 | `1.3` | Registro da realização da sessão S4 (28/10/2026, presencial, sem observador, participante estudante do CMB) e ajuste da Tabela 3. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
 
 ---
 
@@ -94,9 +96,9 @@ A Tabela 2 apresenta a agenda das sessões. Os participantes são identificados 
 | **S1** | 19/10/2026 (seg), 19:30–20:30 | Microsoft Teams (link enviado no convite) | Gabriel Cardone | Igor Dantas Araújo | **P01**: estudante universitário que usa ônibus todos os dias para ir à faculdade (perfil de João Pedro Carvalho) | Storyboard 01: Alerta inteligente de saída | [TAR-01](../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md) |
 | **S2** | 19/10/2026 (seg), 20:45–21:45 | Microsoft Teams | Igor Dantas Araújo | Gabriel Cardone | **P02**: pessoa com mobilidade reduzida (temporária ou permanente) que usa ou já precisou de transporte adaptado (perfil de Larissa Ferreira Lima) | Storyboard 02: Pré-agendamento no DF Acessível | [TAR-02](../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md) |
 | **S3** | 20/10/2026 (ter), 19:30–20:30 | Microsoft Teams | Arthur Mariani | Lucas Araújo | **P03**: trabalhador que usa ônibus diariamente e planeja os trajetos só pelo celular (perfil de Marcos Paulo Vieira) | Storyboard 03: Planejamento de rota por origem/destino | [TAR-03](../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md) |
-| **S4** | 20/10/2026 (ter), 20:45–21:45 | Microsoft Teams, ou chamada de vídeo pelo celular se o participante preferir | Lucas Araújo | Carlos Costa | **P04**: motorista de ônibus do STPC/DF (perfil de Valdir Soares) | Storyboard 04: Consulta de escala e alertas operacionais | [TAR-04/TAR-05](../../analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md) |
+| **S4** | 28/10/2026 (qua), realizada (cerca de 3 min) | Presencial | Carlos Costa | Sem observador (registro pela gravação) | **P04**: estudante do Colégio Militar de Brasília (CMB) que usa ônibus e já usou app de rastreamento (perfil próximo ao de João Pedro Carvalho) | Storyboard 08: Consulta do ônibus em tempo real no DF no Ponto | [TAR-06](../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md) |
 | **S5** | 21/10/2026 (qua), 19:30–20:30 | Microsoft Teams | Rodrigo Carvalho | Tomás Rocho | **P05**: trabalhador que usa o Vale-Transporte e pega vários ônibus no mesmo dia para atender endereços diferentes, como técnico de manutenção ou prestador de serviço (perfil de Heitor Santos Júnior) | Storyboard 05: Pedido de aumento do limite diário do Vale-Transporte | [TAR-09](../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md) e [Cenário 9](../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md) |
-| **S6** | 21/10/2026 (qua), 20:45–21:45 | Microsoft Teams | Tomás Rocho | Rodrigo Carvalho | **P06**: passageira ou passageiro que acompanha o ônibus em tempo real pelo DF no Ponto (perfil de Mariana Borges Almeida) | Storyboard 06: Rastreamento em tempo real no DF no Ponto | [TAR-06](../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md) |
+| **S6** | 21/10/2026 (qua), 20:45–21:45 | Microsoft Teams | Tomás Rocho | Rodrigo Carvalho | **P06**: passageira ou passageiro que depende do ônibus em horários de pouco movimento e já quis registrar reclamação sobre o serviço (perfil de Cláudia Regina Santos) | Storyboard 06: Reclamação sobre ônibus a partir do site da Semob | [TAR-08](../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md) |
 | **S7** | 22/10/2026 (qui), 20:00–21:00 | Microsoft Teams | Carlos Costa | Arthur Mariani | **P07**: trabalhador com carteira assinada que usa Vale-Transporte no cartão (perfil de Maria Eduarda Santos) | Storyboard 07: Regularização de crédito de Vale-Transporte | [TAR-07](../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md) |
 | **Reserva** | 23/10/2026 (sex), 20:00–21:00 | Microsoft Teams | Conforme a sessão remarcada | Conforme a sessão remarcada | Participante de uma sessão que não ocorreu ou precisou ser interrompida | Conforme a sessão remarcada | Conforme a sessão remarcada |
 
@@ -104,7 +106,7 @@ A Tabela 2 apresenta a agenda das sessões. Os participantes são identificados 
 <p><em>Fonte: Tomás Rocho (2026), com base na Matriz de Atribuição da Etapa 4 e no HeatMap de disponibilidade da equipe.</em></p>
 </div>
 
-> **Observação sobre a sessão S4:** motoristas trabalham em escalas que mudam. Se P04 não puder às 20:45 de 20/10, a sessão será remarcada para outro horário de folga do participante entre 19/10 e 22/10, ou para a reserva de 23/10.
+> **Observação sobre a sessão S4:** o motorista de ônibus previsto para avaliar o Storyboard 04 (TAR-04/TAR-05) não pôde ser recrutado. Com a concordância da equipe, a sessão passou a avaliar o Storyboard 08 e a TAR-06 com uma estudante do Colégio Militar de Brasília (CMB), de perfil próximo ao de João Pedro Carvalho, e foi realizada em 28/10, de forma presencial, dentro da janela de revisão da Etapa 5. Como exceção à premissa 6, a condução ficou com o autor do storyboard, seguindo o roteiro padronizado do teste piloto. A sessão ocorreu sem observador; o registro foi feito pela [gravação](https://youtu.be/UlGMlzHiujA), e as diferenças em relação ao planejado estão no [relato da avaliação](relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md#2-metodologia-e-caracterizacao-do-participante). Os detalhes estão no [planejamento de Carlos Costa](planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md#alteracao-de-escopo).
 
 ### 4.1 Distribuição dos papéis por integrante
 
@@ -117,10 +119,10 @@ Cada integrante conduz uma sessão e observa outra, de acordo com os pares da re
 | Integrante | Conduz | Observa | Total de sessões |
 | :--- | :---: | :---: | :---: |
 | Arthur Mariani | S3 | S7 | 2 |
-| Carlos Costa | S7 | S4 | 2 |
+| Carlos Costa | S4, S7 | — | 2 |
 | Gabriel Cardone | S1 | S2 | 2 |
 | Igor Dantas Araújo | S2 | S1 | 2 |
-| Lucas Araújo | S4 | S3 | 2 |
+| Lucas Araújo | — | S3 | 1 |
 | Rodrigo Carvalho | S5 | S6 | 2 |
 | Tomás Rocho | S6 | S5 | 2 |
 
@@ -143,9 +145,9 @@ Os critérios de seleção, a quantidade de participantes e o TCLE são definido
 | Estudante universitário | P01 | Colegas da FCTE/UnB Gama, por WhatsApp | Igor Dantas Araújo |
 | Pessoa com mobilidade reduzida | P02 | Rede de contatos da equipe (familiares e conhecidos) | Gabriel Cardone |
 | Trabalhador que planeja trajetos pelo celular | P03 | Rede de contatos da equipe | Lucas Araújo |
-| Motorista do STPC/DF | P04 | Novo convite ao motorista entrevistado na Etapa 2 ([Entrevistas](../../analise-de-requisitos/entrevistas.md)) ou a outro motorista indicado por ele | Carlos Costa |
+| Estudante usuário do DF no Ponto | P04 | Colegas da FCTE/UnB Gama, por WhatsApp (com um segundo estudante avisado como reserva) | Carlos Costa |
 | Trabalhador que se desloca para endereços variados | P05 | Rede de contatos da equipe (técnicos, prestadores de serviço) | Tomás Rocho |
-| Usuário do DF no Ponto | P06 | Passageiros entrevistados na Etapa 2 ou rede de contatos | Rodrigo Carvalho |
+| Passageiro que já quis reclamar do serviço de ônibus | P06 | Passageiros entrevistados na Etapa 2 ou rede de contatos | Rodrigo Carvalho |
 | Trabalhador com Vale-Transporte | P07 | Rede de contatos da equipe | Arthur Mariani |
 
 <div align="center">
