@@ -29,6 +29,7 @@ A avaliação foi conduzida por meio do método de **Prototipação em Papel** e
 * **Participante / Usuário Convidado:** **João Paulo**.
 * **Perfil do Participante:** Usuário frequente do transporte público coletivo do Distrito Federal, enquadrando-se no perfil da persona [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/).
 * **Aspectos Éticos:** O participante foi devidamente informado sobre os objetivos acadêmicos do estudo, o caráter voluntário de sua participação e a confidencialidade dos dados, assinou o TCLE e concedeu autorização para a gravação da sessão.
+* **Gravação:** O vídeo da sessão está disponível [aqui](https://youtu.be/ZurUrGtRDMk).
 
 ---
 
