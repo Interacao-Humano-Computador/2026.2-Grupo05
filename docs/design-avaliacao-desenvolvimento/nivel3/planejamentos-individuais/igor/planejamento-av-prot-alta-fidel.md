@@ -8,7 +8,7 @@
 
 # Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-01)
 
-Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Alta Fidelidade** referente à **TAR-01 (Alerta Inteligente de Saída de Casa)**. Trata-se de um planejamento individual desenvolvido para orientar a avaliação formativa e empírica do protótipo digital interativo construído na ferramenta **Figma**, representando a interface móvel do aplicativo de mobilidade para a **SEMOB-DF / BRB Mobilidade**.
+Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-01 (Alerta Inteligente de Saída de Casa)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/#tar-01-alerta-inteligente-de-saida)**. Trata-se de um planejamento individual desenvolvido para orientar a avaliação formativa e empírica do protótipo digital interativo construído na ferramenta **Figma**, representando a interface móvel do aplicativo de mobilidade para a **SEMOB-DF / BRB Mobilidade**.
 
 O protótipo de alta fidelidade foi concebido em conformidade com o **Guia de Estilo** estabelecido pelo Grupo 05 (com padrões de componentes, tipografia, cores, espaçamentos, botões de ação e cálculo automático do tempo de caminhada via GPS). A avaliação será realizada com usuários reais utilizando o **Framework DECIDE** (Preece et al., 2002; Barbosa et al., 2021), estruturado em seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar dados).
 

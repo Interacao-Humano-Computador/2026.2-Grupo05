@@ -8,7 +8,7 @@
 
 # Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-01)
 
-Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **TAR-01 (Alerta Inteligente de Saída de Casa)**. Trata-se de um planejamento individual desenvolvido para estruturar, padronizar e orientar a futura compilação, análise e apresentação dos dados quantitativos e qualitativos colhidos durante os testes de usabilidade realizados no **Figma**.
+Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-01 (Alerta Inteligente de Saída de Casa)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/#tar-01-alerta-inteligente-de-saida)**. Trata-se de um planejamento individual desenvolvido para estruturar, padronizar e orientar a futura compilação, análise e apresentação dos dados quantitativos e qualitativos colhidos durante os testes de usabilidade realizados no **Figma**.
 
 A estrutura do relato foi concebida com base nos preceitos da literatura de Interação Humano-Computador (Barbosa et al., 2021, Cap. 11, Seção 11.7.5 e Cap. 12, Seção 12.2.1) e no referencial teórico de testes de usabilidade simplificados de **Steve Krug** (Krug, 2000, 2006; Santa-Rosa, 2005, p. 156–157), assegurando a rastreabilidade das evidências e a aplicação de melhorias no arquivo interativo do grupo.
 
