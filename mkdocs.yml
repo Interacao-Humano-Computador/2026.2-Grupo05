@@ -251,7 +251,9 @@ nav:
         - Tomás: []
     - Nível 3:
       - Planejamentos individuais:
-        - Arthur: []
+        - Arthur:
+          - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md
         - Carlos: []
         - Gabriel: []
         - Igor:
