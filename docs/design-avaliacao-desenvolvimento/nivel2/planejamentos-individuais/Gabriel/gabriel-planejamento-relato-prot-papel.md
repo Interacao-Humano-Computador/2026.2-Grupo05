@@ -80,7 +80,6 @@ O relatório final utilizará quatro modelos padronizados de tabelas para regist
 | **TAR-02.1** | Escolher o posto de embarque perto de casa e o posto de desembarque perto da clínica. | **[Sim / Não]** | *[mm:ss]* | *[Qtd]* | **[Satisfatório / Com Falhas]** |
 | **TAR-02.2** | Escolher o dia da viagem. | **[Sim / Não]** | *[mm:ss]* | *[Qtd]* | **[Satisfatório / Com Falhas]** |
 | **TAR-02.3** | Enviar o laudo e o comprovante de residência e concluir o pré-agendamento. | **[Sim / Não]** | *[mm:ss]* | *[Qtd]* | **[Satisfatório / Com Falhas]** |
-| **TAR-02.4** | Conferir o comprovante do agendamento. | **[Sim / Não]** | *[mm:ss]* | *[Qtd]* | **[Satisfatório / Com Falhas]** |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Gabriel Cardone (2026).</em></p>

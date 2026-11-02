@@ -243,7 +243,8 @@ nav:
       - Relatos dos resultados individuais:
         - Arthur: []
         - Carlos: []
-        - Gabriel: []
+        - Gabriel:
+          - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md
         - Igor:
           - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md
         - Lucas: []
@@ -253,7 +254,9 @@ nav:
       - Planejamentos individuais:
         - Arthur: []
         - Carlos: []
-        - Gabriel: []
+        - Gabriel:
+          - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md
         - Igor:
           - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md
           - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md
