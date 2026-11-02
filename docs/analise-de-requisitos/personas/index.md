@@ -45,7 +45,7 @@ A quantidade de personas foi definida pela necessidade de representar padrões c
 
 Cada persona foi preservada no elenco por acrescentar uma perspectiva específica:
 
-1. **Larissa Ferreira Lima:** mobilidade reduzida temporária, necessidade de transporte adaptado porta a porta e uso do Programa DF Acessível.
+1. **Larissa Ferreira Lima:** mobilidade reduzida temporária, necessidade de transporte adaptado e pré-agendamento de viagens do Programa DF Acessível.
 2. **João Pedro Carvalho:** alta familiaridade tecnológica, rotina universitária e expectativa de alertas preditivos.
 3. **Marcos Paulo Vieira:** planejamento por origem e destino sem conhecimento prévio do código da linha.
 4. **Maria Eduarda Santos:** uso de Vale-Transporte e resolução de falhas de crédito sob pressão de horário e orçamento.
