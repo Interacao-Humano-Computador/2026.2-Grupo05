@@ -251,7 +251,9 @@ nav:
         - Tomás: []
     - Nível 3:
       - Planejamentos individuais:
-        - Arthur: []
+        - Arthur:
+          - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md
         - Carlos: []
         - Gabriel: []
         - Igor:
@@ -266,5 +268,6 @@ nav:
     - Verificação da entrega 2: verificacao/verif2.md
     - Verificação da entrega 3: verificacao/verif3.md
     - Verificação da entrega 5: verificacao/verif5.md
+    - Verificação da Entrega 6: verificacao/verif6.md
 
   - Entrega Final: entrega-final/index.md
