@@ -1,3 +1,5 @@
+# Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-06)
+
 ## Histórico de Versão
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
@@ -5,8 +7,6 @@
 | 03/11/2026 | `1.0` | Relato dos resultados da avaliação do Protótipo de Papel (TAR-06), com base no teste piloto e na sessão de 03/11/2026. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
 
 ---
-
-# Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-06)
 
 Neste documento, apresenta-se o **Relato dos Resultados da Avaliação do Protótipo de Papel** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. A sessão seguiu o [Planejamento da Avaliação do Protótipo de Papel](../../planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md), e este relato segue a estrutura do [Planejamento do Relato](../../planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) (Tabela 1 daquele documento).
 
