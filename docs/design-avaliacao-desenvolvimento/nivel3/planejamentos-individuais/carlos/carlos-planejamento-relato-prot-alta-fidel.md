@@ -1,3 +1,5 @@
+# Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-06)
+
 ## Histórico de Versão
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
@@ -5,8 +7,6 @@
 | 02/11/2026 | `1.0` | Criação do planejamento individual do relato dos resultados da avaliação do Protótipo de Alta Fidelidade da TAR-06. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude Code (Anthropic) - apoio à redação e à formatação em Markdown a partir das decisões de planejamento do autor |
 
 ---
-
-# Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-06)
 
 Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. O documento define como os dados das sessões serão organizados, interpretados e apresentados no relato da Etapa 7. Ele complementa o [Planejamento da Avaliação do Protótipo de Alta Fidelidade](carlos-planejamento-av-prot-alta-fidel.md), que define as perguntas P01–P07, as tarefas AF1–AF3 e os três participantes.
 

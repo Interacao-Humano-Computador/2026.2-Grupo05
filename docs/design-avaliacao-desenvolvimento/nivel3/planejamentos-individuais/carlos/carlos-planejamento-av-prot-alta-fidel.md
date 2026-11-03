@@ -1,3 +1,5 @@
+# Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-06)
+
 ## Histórico de Versão
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
@@ -5,8 +7,6 @@
 | 02/11/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Alta Fidelidade da TAR-06 via DECIDE. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude Code (Anthropic) - apoio à redação e à formatação em Markdown a partir das decisões de planejamento do autor |
 
 ---
-
-# Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-06)
 
 Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. Trata-se de um planejamento individual para orientar a avaliação formativa do protótipo navegável, construído no **Figma**, da consulta em tempo real que aparece no [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md) e no [Storyboard 08](../../../nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto).
 
