@@ -123,8 +123,8 @@ Cada etapa possui dois espaços de gravação: a inspeção recebida pelo **Grup
 
 | Vídeo | Registro | Link |
 | :---: | :--- | :--- |
-| 1 | Inspeção do próprio Grupo 05 | *Pendente* |
-| 2 | Inspeção do Grupo +1 | *Pendente* |
+| 1 | Inspeção do próprio Grupo 05 | [Assistir à gravação](https://youtu.be/d_vy4RCpSbE) |
+| 2 | Inspeção do Grupo +1 | [Assistir à gravação](https://youtu.be/DJlB9gBGgN4) |
 
 ---
 

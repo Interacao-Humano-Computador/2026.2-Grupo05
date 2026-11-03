@@ -50,7 +50,7 @@ A Tabela 1 apresenta os cenários desenvolvidos pela equipe para diagnosticar ta
 
 | Cenário | Persona Associada | Tipo de Cenário | Autor da Elaboração | Artefato Completo |
 | :--- | :--- | :---: | :--- | :---: |
-| **Cenário 1 — Pré-agendamento no Programa DF Acessível** | [Larissa Ferreira Lima](../personas/larissa-ferreira-lima.md) | Cenário de Problema | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Cenário](cenario-1-pre-agendamento-df-acessivel.md) |
+| **Cenário 1 — Pré-agendamento no Programa DF Acessível** | [Larissa Ferreira Lima](../personas/larissa-ferreira-lima.md) | Cenário de Concepção (Projetado) | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Cenário](cenario-1-pre-agendamento-df-acessivel.md) |
 | **Cenário 2 — Atraso na viagem matutina por conflito no app** | [João Pedro Carvalho](../personas/joao-pedro-carvalho.md) | Cenário de Problema | [Igor Dantas](https://github.com/IgorDARAUJO) | [Acessar Cenário](cenario-2-viagem-matutina.md) |
 | **Cenário 3 — Deslocamento urgente com busca por destino** | [Marcos Paulo Vieira](../personas/marcos-paulo-vieira.md) | Cenário de Problema | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Acessar Cenário](cenario-3-planejamento-origem-destino.md) |
 | **Cenário 4 — Crédito de Vale-Transporte não disponível no cartão** | [Maria Eduarda Santos ("Duda")](../personas/maria-eduarda-santos.md) | Cenário de Problema | Equipe Grupo 05 | [Acessar Cenário](cenario-4-credito-vale-transporte.md) |

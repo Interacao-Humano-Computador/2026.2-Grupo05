@@ -16,7 +16,7 @@ As regras foram relacionadas às tarefas já documentadas no projeto, principalm
 - consultar linhas e horários;
 - acompanhar ônibus em tempo real;
 - consultar alertas e desvios;
-- realizar pré-agendamento no Programa DF Acessível;
+- pré-agendar viagens no Programa DF Acessível;
 - buscar atendimento e registrar manifestações;
 - buscar orientação sobre problemas de cartão e Vale-Transporte.
 
@@ -47,12 +47,13 @@ Essa decisão reduz a necessidade de o passageiro memorizar códigos administrat
 
 ### 2.2 Pré-agendamento no Programa DF Acessível
 
-O fluxo de pré-agendamento deve permitir a escolha:
+O fluxo de pré-agendamento da viagem tem três etapas:
 
-- do local do atendimento;
-- do dia do atendimento.
+1. escolha do **posto de embarque**, próximo de casa, e do **posto de desembarque**, próximo do compromisso;
+2. escolha do **dia da viagem**;
+3. envio do **laudo do profissional de saúde** que ateste a deficiência e do **comprovante de residência**.
 
-Esses são os únicos dados explicitamente identificados na [TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md). Outros campos não devem ser definidos no guia enquanto não estiverem documentados no projeto.
+Esses são os únicos dados explicitamente identificados na [TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md). Outros campos (como horário) não devem ser definidos no guia enquanto não estiverem documentados no projeto. O envio de documentos deve aceitar fotos tiradas pelo celular e mostrar cada arquivo enviado com "✓ Enviado".
 
 ### 2.3 Preservação dos dados
 

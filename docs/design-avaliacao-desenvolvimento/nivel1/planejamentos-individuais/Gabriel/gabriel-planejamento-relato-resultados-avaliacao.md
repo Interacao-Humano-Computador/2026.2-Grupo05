@@ -46,7 +46,7 @@ A análise dos dados será qualitativa e interpretativa (Barbosa et al., 2021). 
 
 Cada resposta será classificada como **Conforme** (o artefato foi compreendido e aceito sem ressalvas) ou **Ajustar** (houve dúvida, discordância ou sugestão que exige alteração). Respostas classificadas como **Ajustar** devem originar ao menos um registro na tabela de problemas.
 
-Para classificar o impacto dos problemas identificados na usabilidade e na experiência do usuário, adotar-se-á a **Escala de Severidade de Problemas** adaptada de Nielsen (1994) e Barbosa et al. (2021):
+Para classificar o impacto dos problemas identificados na usabilidade e na experiência do usuário, adotar-se-á a **Escala de Severidade de Problemas** apresentada em Barbosa et al. (2021):
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Escala de Severidade de Problemas de Usabilidade/IHC</p>
@@ -61,10 +61,10 @@ Para classificar o impacto dos problemas identificados na usabilidade e na exper
 | **4** | **Catastrófico** | Impede totalmente a conclusão da tarefa (bloqueio do fluxo) ou induz o usuário ao erro irrecuperável. |
 
 <div align="center">
-<p><em>Fonte: Adaptado de Nielsen (1994) e Barbosa et al. (2021).</em></p>
+<p><em>Fonte: Adaptado de Barbosa et al. (2021).</em></p>
 </div>
 
-Os problemas também serão relacionados à análise de risco (P x C) já feita no HTA da TAR-02, para verificar se a avaliação com o usuário **confirma ou contradiz** a criticidade prevista pela equipe (por exemplo, a operação 1.2, "Faça aqui o seu pedido – Participe", classificada como crítica, e a operação 3.2.1, "Selecionar dia com vaga", classificada como de risco alto).
+Os problemas também serão relacionados à análise de risco (P x C) já feita no HTA da TAR-02, para verificar se a avaliação com o usuário **confirma ou contradiz** a criticidade prevista pela equipe (por exemplo, a operação 2.2, "Selecionar o dia com vaga disponível", classificada como de risco alto, e a operação 1.1, "Tocar no atalho 'Agendar DF Acessível'", classificada como de risco moderado).
 
 ---
 
@@ -100,12 +100,10 @@ Para garantir a consistência dos relatórios, o documento final de resultados u
 | ID | Tópico Avaliado | Pergunta Aplicada ao Participante | Resumo da Resposta do Participante | Avaliação do Modelo (Validade / Ajustar) |
 | :---: | :--- | :--- | :--- | :---: |
 | **QT01** | Sequência Lógica | *"Os passos mostrados no diagrama correspondem ao que você faria? Falta ou sobra algum passo?"* | *[Preencher com a validação do participante]* | **[A preencher]** |
-| **QT02** | Caminho até o Serviço | *"Você esperaria encontrar o agendamento pelo caminho SEMOB-DF, Participa DF e Na Hora? Onde procuraria primeiro?"* | *[Preencher com a validação do participante]* | **[A preencher]** |
+| **QT02** | Caminho até o Serviço | *"Você esperaria encontrar o serviço em um atalho na página inicial da SEMOB-DF? Onde procuraria primeiro?"* | *[Preencher com a validação do participante]* | **[A preencher]** |
 | **QT03** | Entradas/Feedback | *"As respostas do sistema em cada passo seriam suficientes para saber que está no caminho certo?"* | *[Preencher com a validação do participante]* | **[A preencher]** |
 | **QT04** | Concorrência (CTT) | *"Conferir a agenda pessoal e a do acompanhante antes de escolher o dia é algo que você faria? Quando?"* | *[Preencher com a validação do participante]* | **[A preencher]** |
-| **QT05** | Exceções (CTT) | *"Se o posto não tiver vagas, voltar e trocar de local atende à sua necessidade?"* | *[Preencher com a validação do participante]* | **[A preencher]** |
-| **QT06** | Tempo de Sessão | *"Como você reagiria se a sessão encerrasse por inatividade e fosse preciso recomeçar?"* | *[Preencher com a validação do participante]* | **[A preencher]** |
-| **QT07** | Simplicidade | *"Alguma etapa exige muitos passos ou seria difícil de fazer pelo celular?"* | *[Preencher com a validação do participante]* | **[A preencher]** |
+| **QT05** | Simplicidade | *"Alguma etapa exige muitos passos ou seria difícil de fazer pelo celular?"* | *[Preencher com a validação do participante]* | **[A preencher]** |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Gabriel Cardone (2026).</em></p>
@@ -132,7 +130,7 @@ Para garantir a consistência dos relatórios, o documento final de resultados u
 
 Com base na consolidação dos problemas na Tabela 4, os resultados serão processados através de um ciclo de iteratividade e reprojeto (Barbosa et al., 2021, Cap. 6):
 
-1. **Correções Imediatas (Severidade 3 e 4):** Problemas graves ou catastróficos que alterem o entendimento básico do fluxo exigirão o ajuste imediato do Storyboard 02 (por exemplo, incluir o quadro do pré-agendamento, do posto sem vagas ou do prazo da sessão) ou a reestruturação das operações no diagrama HTA e nas tarefas do CTT.
+1. **Correções Imediatas (Severidade 3 e 4):** Problemas graves ou catastróficos que alterem o entendimento básico do fluxo exigirão o ajuste imediato do Storyboard 02 (por exemplo, incluir o quadro do pré-agendamento) ou a reestruturação das operações no diagrama HTA e nas tarefas do CTT.
 2. **Aprimoramentos de Média Fidelidade (Severidade 1 e 2):** Dúvidas menores, como as informações exibidas junto aos postos (endereço, recursos de acessibilidade, próxima data disponível) e o conteúdo do comprovante, serão incorporadas como requisitos na fase de prototipação de telas (wireframes de baixa e média fidelidade).
 3. **Revisão da Persona e do Cenário:** Se o participante apontar necessidades que a persona [Larissa Ferreira Lima](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/larissa-ferreira-lima/) ou o [Cenário 1](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel/) não contemplam, os documentos correspondentes serão atualizados.
 4. **Registro na Wiki:** Toda modificação decorrente da avaliação será documentada no histórico de versão do artefato correspondente, garantindo a rastreabilidade das decisões de design.

@@ -178,12 +178,6 @@ nav:
       - Visibilidade e reconhecimento: analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md
       - Conteúdo relevante e expressão adequada: analise-de-requisitos/principios-gerais/conteudo-relevante-e-expressao-adequada.md
       - Projeto para Erros: analise-de-requisitos/principios-gerais/projeto-para-erros.md
-    - Guia de estilo:
-      - Introdução: analise-de-requisitos/guia-de-estilo/introducao.md
-      - Resultados de análise: analise-de-requisitos/guia-de-estilo/resultados-de-analise.md
-      - Elementos de interação: analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md
-      - Elementos de ação: analise-de-requisitos/guia-de-estilo/elementos-de-acao.md
-      - Vocabulário e padrões: analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md
 
   - Design, Avaliação e Desenvolvimento:
     - Nível 1:
@@ -193,26 +187,19 @@ nav:
       - Planejamentos individuais:
         - Arthur:
           - Planejamento da avaliação do Storyboard e da Análise de tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md
-          - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md
           - Planejamento do relato dos resultados da avaliação do Storyboard e da Análise de tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md
-          - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md
         - Carlos:
           - Planejamento da Avaliação da Análise de Tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/planejamento-avaliacao-analise-tarefas.md
+          - Planejamento da avaliação do Storyboard e da Análise de tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md
         - Gabriel:
           - Planejamento da avaliação do Storyboard e da Análise de tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md
           - Planejamento do relato dos resultados da avaliação: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md
-          - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md
-          - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md
         - Igor:
           - Planejamento da avaliação do Storyboard e da Análise de tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md
           - Planejamento do relato dos resultados da avaliação: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md
-          - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md
-          - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md
         - Lucas:
           - Questões Práticas e Éticas das Avaliações: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md
           - Planejamento Individual - Lucas Araújo: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md
-          - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md
-          - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md
         - Rodrigo:
           - Planejamento da avaliação do Storyboard e da Análise de tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md
           - Planejamento do relato dos resultados da avaliação: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md
@@ -220,6 +207,8 @@ nav:
           - Planejamento da avaliação do Storyboard e da Análise de tarefas: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md
           - Planejamento do relato dos resultados da avaliação: design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md
       - Relatos dos resultados individuais:
+        - Carlos:
+          - Resultados da avaliação do storyboard e da análise de tarefa: design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md
         - Gabriel:
           - Resultados da avaliação do storyboard e da análise de tarefa: design-avaliacao-desenvolvimento/nivel1/relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md
         - Igor: 
@@ -228,11 +217,63 @@ nav:
           - Resultados da avaliação do storyboard e da análise de tarefa: design-avaliacao-desenvolvimento/nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md
         - Rodrigo:
           - Resultados da avaliação do storyboard e da análise de tarefa: design-avaliacao-desenvolvimento/nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md
+    - Nível 2:
+      - Planejamentos individuais:
+        - Arthur:
+          - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md
+        - Carlos:
+          - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md
+        - Gabriel:
+          - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md
+        - Igor:
+          - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md
+        - Lucas:
+          - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md
+        - Rodrigo:
+          - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md
+      - Relatos dos resultados individuais:
+        - Arthur:
+          - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md
+        - Carlos:
+          - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md
+        - Gabriel:
+          - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md
+        - Igor:
+          - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md
+        - Lucas: []
+        - Rodrigo: []
+        - Tomás: []
+    - Nível 3:
+      - Planejamentos individuais:
+        - Arthur:
+          - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md
+        - Carlos:
+          - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md
+        - Gabriel:
+          - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md
+        - Igor:
+          - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md
+        - Lucas: []
+        - Rodrigo:
+          - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md
+        - Tomás: []
 
   - Verificação: 
     - Verificação da entrega 1: verificacao/verif1.md
     - Verificação da entrega 2: verificacao/verif2.md
     - Verificação da entrega 3: verificacao/verif3.md
     - Verificação da entrega 5: verificacao/verif5.md
+    - Verificação da Entrega 6: verificacao/verif6.md
 
   - Entrega Final: entrega-final/index.md

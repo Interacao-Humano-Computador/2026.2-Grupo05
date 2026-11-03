@@ -123,7 +123,7 @@ Em conformidade com Barbosa & Silva (2010, p. 360), a coleta de dados na prototi
 
 ## 5. D — Decidir como Lidar com as Questões Éticas
 
-A avaliação do protótipo em papel respeitará integralmente os princípios éticos da Resolução CNS nº 466/2012 e nº 510/2016 e as diretrizes detalhadas no documento de [Questões Práticas e Éticas das Avaliações](questoes-praticas-e-eticas.md) (Barbosa & Silva, 2010, Seção 5.4, p. 138–143):
+A avaliação do protótipo em papel respeitará integralmente os princípios éticos da Resolução CNS nº 466/2012 e nº 510/2016 e as diretrizes detalhadas no documento de [Questões Práticas e Éticas das Avaliações](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md) (Barbosa & Silva, 2010, Seção 5.4, p. 138–143):
 
 1. **Termo de Consentimento Livre e Esclarecido (TCLE):** Antes de iniciar qualquer atividade ou gravação, o participante lerá e assinará o [TCLE oficial do projeto](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf), autorizando expressamente a gravação de voz e da interação manual com os artefatos de papel para fins exclusivamente acadêmicos.
 2. **Garantia de Não-Maleficência e Conforto Psicológico:** O avaliador reforçará na abertura que **o objeto em avaliação é exclusivamente o protótipo em papel da SEMOB-DF, e jamais a capacidade ou inteligência do participante**. Qualquer dificuldade encontrada ao tocar nas peças de papel será tratada como uma falha de design da interface a ser corrigida pela equipe.

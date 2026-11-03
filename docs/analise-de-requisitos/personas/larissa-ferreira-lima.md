@@ -12,7 +12,7 @@
 
 ## 1. Introdução
 
-Este documento apresenta Larissa Ferreira Lima, persona que representa estudantes e trabalhadoras que, por uma condição de saúde **temporária**, ficam com mobilidade severamente reduzida e passam a depender de transporte adaptado porta a porta. Larissa é uma usuária que, até pouco tempo atrás, usava ônibus e metrô todos os dias e conhecia bem o sistema; hoje precisa do Programa DF Acessível e enfrenta o site da Semob como alguém que está, pela primeira vez, no papel de pessoa com deficiência. Sua caracterização apoia a compreensão de necessidades relacionadas a acessibilidade, clareza do caminho até o serviço, prazos e confiança na informação, orientando cenários, requisitos e decisões de design do projeto.
+Este documento apresenta Larissa Ferreira Lima, persona que representa estudantes e trabalhadoras que, por uma condição de saúde **temporária**, ficam com mobilidade severamente reduzida e passam a depender de transporte adaptado. Larissa é uma usuária que, até pouco tempo atrás, usava ônibus e metrô todos os dias e conhecia bem o sistema; hoje precisa do Programa DF Acessível e enfrenta o site da Semob como alguém que está, pela primeira vez, no papel de pessoa com deficiência. Sua caracterização apoia a compreensão de necessidades relacionadas a acessibilidade, clareza do caminho até o serviço, prazos e confiança na informação, orientando cenários, requisitos e decisões de design do projeto.
 
 ## 2. Caracterização Geral
 
@@ -24,7 +24,7 @@ Este documento apresenta Larissa Ferreira Lima, persona que representa estudante
 
 > **"Eu sei me virar sozinha, mas agora eu não consigo nem chegar na fisioterapia. Só preciso descobrir onde marcar o transporte e se eu tenho direito."**
 
-**Resumo:** estudante e trabalhadora que, há poucas semanas, quebrou o tornozelo e a tíbia esquerda e ficará cerca de quatro a cinco meses sem poder apoiar o pé no chão. Usa cadeira de rodas e precisa de transporte adaptado para a fisioterapia e para as consultas. Procura o Programa DF Acessível pelo celular, à noite, em casa, e tenta descobrir como fazer o pré-agendamento a partir do site da Semob.
+**Resumo:** estudante e trabalhadora que, há poucas semanas, quebrou o tornozelo e a tíbia esquerda e ficará cerca de quatro a cinco meses sem poder apoiar o pé no chão. Usa cadeira de rodas e precisa de transporte adaptado para a fisioterapia e para as consultas. Procura o Programa DF Acessível pelo celular, à noite, em casa, e tenta descobrir como pré-agendar a viagem a partir do site da Semob.
 
 ---
 
@@ -61,9 +61,9 @@ A Tabela 1 reúne os dados de identidade de Larissa e contextualiza as caracter�
 
 Por que ela é a persona primária:
 
-- **Representa o usuário que mais depende do serviço quando ele falha.** O Programa DF Acessível atende pessoas com deficiência ou patologia que causa redução severa de mobilidade, **temporária ou permanente** (Resolução TCB nº 33/2021). Larissa mostra que a deficiência pode atingir qualquer usuária do sistema, inclusive quem era autônoma e tinha alta familiaridade digital.
-- **Concentra o fluxo de maior risco da Análise de Tarefas.** A TAR-02 mostra que a operação mais crítica (trocar de portal sem aviso para chegar ao agendamento) pode levar à desistência, deixando a pessoa sem transporte para um compromisso de saúde.
-- **Soma as barreiras do site às barreiras físicas.** Ela precisa agendar com antecedência mínima de 30 dias, em janelas curtas, na cama ou na cadeira, com uma mão ocupada, e não pode "dar uma passada no posto" para tirar dúvidas.
+- **Representa o usuário que mais depende do serviço quando ele falha.** O Programa DF Acessível atende pessoas com deficiência ou patologia que causa redução severa de mobilidade, **temporária ou permanente**. Larissa mostra que a deficiência pode atingir qualquer usuária do sistema, inclusive quem era autônoma e tinha alta familiaridade digital.
+- **Orienta a principal funcionalidade proposta na Análise de Tarefas.** A TAR-02 propõe o pré-agendamento das viagens do DF Acessível na página inicial da Semob, serviço que o site não oferece hoje. A operação mais crítica do fluxo proposto (escolher o dia no calendário) afeta diretamente quem usa o celular com uma mão e precisa consultar outra pessoa antes de decidir.
+- **Soma as barreiras do site às barreiras físicas.** Ela precisa agendar com antecedência mínima de 30 dias, em janelas curtas, na cama ou na cadeira, com uma mão ocupada, e não pode ir a um balcão de atendimento para entregar documentos ou tirar dúvidas.
 - **Reflete uma condição que não é rara nem permanente.** Fraturas, cirurgias e lesões atingem pessoas de todas as idades; projetar para Larissa também atende quem tem deficiência permanente, acompanhantes e familiares que agendam em nome de outra pessoa.
 - **Deve orientar as decisões de projeto.** Acessibilidade (eMAG/WCAG), clareza do caminho até o serviço, linguagem simples e prazos explícitos são pensados primeiro para ela; os perfis secundários entram como adaptações.
 
@@ -81,9 +81,10 @@ Por que ela é a persona primária:
 
 ### Objetivos ao usar o site
 
-- Descobrir **onde** e **como** pré-agendar o Programa DF Acessível, sem passar por vários sites.
-- Saber se uma deficiência **temporária** dá direito ao programa e **quais documentos** levar.
-- Escolher o posto de atendimento e o dia com o menor esforço, sabendo antes se o local é acessível e se há vagas.
+- Descobrir **onde** e **como** pré-agendar a viagem do Programa DF Acessível, sem passar por vários sites.
+- Saber se uma deficiência **temporária** dá direito ao programa e **quais documentos** enviar.
+- Enviar o laudo e o comprovante de residência pelo celular, sem precisar sair de casa.
+- Escolher onde embarcar (perto de casa), onde desembarcar (perto da clínica) e o dia com o menor esforço, sabendo antes se os postos são acessíveis e se há vagas.
 - Receber a confirmação (comprovante) na hora, para não ficar em dúvida se deu certo.
 - Entender os prazos: o agendamento das viagens exige antecedência mínima de 30 dias, e cada semana de atraso é uma semana de fisioterapia sem transporte.
 
@@ -107,8 +108,8 @@ A Tabela 2 apresenta as tarefas mais frequentes de Larissa durante a recuperaç�
 
 | Tarefa | Frequência | Importância | Duração |
 |---|---|---|---|
-| **Realizar o pré-agendamento no Programa DF Acessível pelo site da Semob, escolhendo local e dia do atendimento (TAR-02)** | Uma vez (e novamente se houver prorrogação do tratamento) | Crítica | 10 a 30 min, mais a espera da análise |
-| Conferir a confirmação do pré-agendamento e os documentos exigidos | Eventual (algumas vezes até a data do atendimento) | Alta | 2 a 5 min |
+| **Pré-agendar a viagem no Programa DF Acessível pelo site da Semob, em três etapas: postos de embarque e de desembarque, dia e envio do laudo e do comprovante de residência (TAR-02, funcionalidade proposta)** | A cada nova necessidade de viagem (com 30 dias de antecedência) | Crítica | 10 a 30 min |
+| Conferir a confirmação do pré-agendamento e os postos de embarque e de desembarque | Eventual (algumas vezes até a data da viagem) | Alta | 2 a 5 min |
 | Agendar e conferir as viagens regulares (fisioterapia e consultas) | Semanal ou mensal | Crítica | 5 a 10 min |
 | Consultar regras do programa (quem tem direito, acompanhante, cadeira de rodas, limite de viagens por semana) | Eventual | Alta | 3 a 10 min |
 | Combinar com a mãe quem a acompanha em cada compromisso | Semanal | Alta | 2 a 5 min |
@@ -145,15 +146,14 @@ A Tabela 4 identifica as pessoas e instituições com as quais Larissa se relaci
 
 | Quem | Relação com a Lari | Por que importa para o projeto |
 |---|---|---|
-| **Mãe (Sônia)** | Convivência diária; é a acompanhante natural nos deslocamentos, mas precisa trabalhar | Acompanhante em potencial; a disponibilidade dela condiciona o dia escolhido para o atendimento |
+| **Mãe (Sônia)** | Convivência diária; é a acompanhante natural nos deslocamentos, mas precisa trabalhar | Acompanhante em potencial (inclusive até o posto de embarque); a disponibilidade dela condiciona o dia escolhido para a viagem |
 | **Irmão (Pedro)** | Convivência diária; ajuda com o notebook e com tarefas de casa | Usuário indireto: o site precisa ser compreensível por quem tem pouca familiaridade institucional |
-| **Fisioterapeuta e ortopedista** | Definem a frequência das sessões e emitem o laudo que comprova a condição | O laudo é peça central do cadastro; o horário da fisioterapia define o dia do atendimento |
+| **Fisioterapeuta e ortopedista** | Definem a frequência das sessões e emitem o laudo que comprova a condição | O laudo é o documento central do pedido; os dias da fisioterapia definem o dia da viagem |
 | **Chefe, equipe e RH** | Cobram prazos e autorizaram o trabalho remoto durante a recuperação | O cuidado com a saúde precisa ser compatível com o emprego |
 | **Colegas de turma e secretaria do curso** | Trocam anotações e ajudam com a documentação da faculdade | A informação sobre o programa também circula informalmente entre eles |
-| **Secretaria da Pessoa com Deficiência (SEPD)** | Responsável pelo cadastro da pessoa com deficiência (CadPcD) | Stakeholder crítico: o cadastro é pré-requisito para solicitar viagens |
+| **Secretaria da Pessoa com Deficiência (SEPD)** | Responsável pelo cadastro da pessoa com deficiência (CadPcD) | Stakeholder crítico: valida a condição de pessoa com deficiência; na proposta, o laudo e o comprovante de residência são enviados no próprio pedido de viagem |
 | **TCB (Transporte Coletivo de Brasília)** | Gerencia e opera o Programa DF Acessível | Stakeholder crítico: define regras de uso e a resposta ao agendamento |
-| **Semob** | Planeja e regula o sistema; seu site é o ponto de partida da busca | O site deveria guiá-la até o serviço, mas leva a outros portais |
-| **Portais Participa DF, Na Hora e Agenda DF** | Caminho para chegar ao pré-agendamento | Troca de domínio sem aviso e identidade visual diferente geram desconfiança |
+| **Semob** | Planeja e regula o sistema; seu site é o ponto de partida da busca | Hoje o site não oferece o pré-agendamento; a proposta da TAR-02 é concentrar o serviço na página inicial |
 | **Grupos de WhatsApp de pessoas em reabilitação** | Fonte informal de dicas sobre transporte e direitos | Se o site não explica, o grupo vira a fonte principal |
 
 *Fonte: Gabriel Melo.*
@@ -168,16 +168,15 @@ A Tabela 5 sintetiza as necessidades de Larissa em requisitos que devem orientar
 
 | Necessidade | Em suas palavras |
 |---|---|
-| Um caminho direto até o DF Acessível | *"Pensei que ia achar 'agendar transporte' no site da Semob. Fui parar no 'Participe', achei que era ouvidoria e quase desisti."* |
-| Aviso antes de trocar de site | *"Do nada abriu outro site, com outra cara. Eu não sabia se ainda estava no lugar certo."* |
-| Linguagem simples e explicação do serviço | *"Pré-agendamento, agendamento… qual é a diferença? E quais documentos eu levo? Fala comigo como gente."* |
+| Um caminho direto até o DF Acessível | *"Pensei que ia achar 'agendar transporte' no site da Semob, mas não tem nada lá. Não sei nem por onde começar."* |
+| Resolver tudo no mesmo site | *"Se eu começo no site da Semob, quero terminar nele. Quando abre outro site, com outra cara, eu não sei se ainda estou no lugar certo."* |
+| Linguagem simples e explicação do serviço | *"Pré-agendamento, agendamento… qual é a diferença? E quais documentos eu mando? Fala comigo como gente."* |
 | Saber se tem direito (deficiência temporária) | *"Eu não sou cadeirante pra sempre. Será que eu entro no programa? Isso tinha que estar escrito logo no começo."* |
-| Informações do local de atendimento | *"Antes de escolher o posto, eu preciso ver o endereço, se tem rampa e qual é a próxima data com vaga."* |
+| Informações dos postos de embarque e de desembarque | *"Antes de escolher o posto, eu preciso ver o endereço, se é perto de casa e se tem rampa."* |
 | Calendário fácil de usar e com texto, não só cor | *"O calendário é pequeno e eu erro o toque. E eu não sei dizer pela cor quais dias estão livres."* |
-| Tempo para decidir sem perder a sessão | *"Fui olhar a agenda da fisioterapia e, quando voltei, a sessão tinha caído e eu tive que começar tudo de novo."* |
 | Confirmação imediata e por escrito | *"Depois de tudo isso, quero um comprovante no e-mail ou no WhatsApp pra ter certeza de que deu certo."* |
 | Site leve, acessível e de uso com uma mão | *"Eu abro no celular, deitada, com uma mão só. Se pesar, travar ou pedir muito toque, eu desisto."* |
-| Resolver tudo online | *"Não tenho como ir a um posto só pra perguntar. Se dá pra resolver pela internet, quero resolver pela internet."* |
+| Resolver tudo online | *"Não tenho como ir a um balcão só pra entregar papel. Se dá pra mandar o laudo pela internet, quero mandar pela internet."* |
 | Confiança na informação | *"Tem que ser coisa oficial e atualizada. Se tiver a data da última atualização, melhor ainda."* |
 
 *Fonte: Gabriel Melo.*
@@ -192,25 +191,31 @@ A Tabela 5 sintetiza as necessidades de Larissa em requisitos que devem orientar
 - Espera encontrar o serviço pelas palavras que usa ("transporte para cadeirante", "agendar DF Acessível") e não pelo nome de órgãos.
 - Espera fluxos parecidos com app de banco e gov.br: passos curtos, status do pedido e comprovante por e-mail ou WhatsApp.
 - Espera respostas objetivas, com passo a passo, lista de documentos e prazos, sem precisar ler resoluções.
-- Não sabe que, para solicitar as viagens, precisa antes ter o cadastro aprovado (CadPcD) e que o pedido é feito com antecedência mínima de 30 dias.
+- Não sabe que, para solicitar as viagens, precisa comprovar a condição com laudo de profissional de saúde e a residência no DF, que o pedido é feito com antecedência mínima de 30 dias e que o embarque e o desembarque acontecem em postos do programa, e não na porta de casa.
 
 ### Como ela organiza as informações no seu dia a dia
 
 - Por **compromisso** ("fisioterapia segunda, quarta e sexta; consulta quinzenal") e por **lugares de referência** (casa, clínica de reabilitação, hospital, universidade).
-- Por **agenda**: o dia do atendimento só pode ser escolhido depois de conferir a agenda dela e a da mãe, que a acompanha.
+- Por **agenda**: o dia da viagem só pode ser escolhido depois de conferir a agenda dela e a da mãe, que a acompanha.
 - Por **situação de vida** ("quebrei a perna", "preciso de transporte adaptado"), e não por órgão responsável (Semob, TCB, SEPD, Na Hora).
 
-### Onde essas expectativas colidem com o site hoje (observado em 25/09/2026, na Análise de Tarefas TAR-02)
+### Onde essas expectativas colidem com o site hoje
 
-- **Lugar único × serviços distribuídos.** O caminho passa por quatro endereços diferentes (semob.df.gov.br → participa.df.gov.br → nahora.df.gov.br → agenda.df.gov.br) para concluir uma única tarefa.
-- **Vocabulário do cidadão × vocabulário institucional.** Para chegar ao agendamento é preciso abrir "Acesso à Informação" e clicar em "Faça aqui o seu pedido – Participe", rótulos que sugerem pedido de informação ou ouvidoria.
-- **Decisão informada × informação tardia.** A disponibilidade de vagas só é conhecida depois de escolher o local; o calendário não mostra endereço, recursos de acessibilidade nem a próxima data de cada posto.
-- **Sessão sem aviso.** A sessão pode expirar por inatividade e obrigar a refazer o caminho desde o início.
-- **Direito × desinformação.** O site não deixa claro, logo no início, que a deficiência temporária também dá direito ao programa.
+- **Balcão único × serviço ausente.** O site da Semob, ponto de partida natural da busca, não oferece o pré-agendamento do DF Acessível nem um atalho para ele. Larissa precisa descobrir sozinha, fora do site, onde e como o serviço é feito.
+- **Direito × desinformação.** Sem uma página do serviço, ela não encontra, logo no início, a informação de que a deficiência temporária também dá direito ao programa, nem a lista de documentos a enviar.
+
+### Como a funcionalidade proposta responde a essas expectativas (TAR-02)
+
+A [TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md) propõe o pré-agendamento da viagem como nova funcionalidade do site da Semob:
+
+- **Lugar único.** Atalho "Agendar DF Acessível" na página inicial, com todo o fluxo dentro do site da Semob.
+- **Vocabulário do cidadão.** Rótulo com as palavras que ela usa e busca interna com sinônimos ("transporte para cadeirante", "transporte PcD").
+- **Tudo pelo celular.** Envio do laudo e do comprovante de residência no próprio fluxo, sem ida a um balcão.
+- **Decisão informada.** Lista de postos de embarque (perto de casa) e de desembarque (perto do compromisso) com endereço, distância e recursos de acessibilidade antes da escolha.
+- **Confiança.** Revisão antes da confirmação e comprovante por e-mail e WhatsApp com o resumo de cada etapa.
 
 ---
 
 ## 11. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* DISTRITO FEDERAL. Transporte Coletivo de Brasília (TCB). **Resolução nº 33, de 9 de novembro de 2021**. Regulamenta o Programa DF Acessível. Disponível em: [SINJ-DF](https://www.sinj.df.gov.br/sinj/Norma/087e8a61f20547eaa289deb4ef136839/Resolu_o_33_09_11_2021.html). Acesso em: 11 out. 2026.
