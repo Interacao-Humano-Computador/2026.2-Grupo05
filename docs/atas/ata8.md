@@ -43,20 +43,20 @@ Os resultados apresentados a seguir retratam fielmente a inspeção conduzida pe
 
 | Nº | Pergunta de Verificação da Entrega 5 | Avaliação Registrada | Evidência / Parecer Técnico |
 | :---: | :--- | :---: | :--- |
-| **1** | O planejamento informa claramente qual protótipo de papel será avaliado e qual tarefa do usuário ele representa? | **Conforme** | O grupo apresentou os protótipos de papel associados às tarefas de seleção de local e fluxos da aplicação. |
-| **2** | O planejamento define objetivos de avaliação claros, explicando o que se deseja descobrir sobre o uso do protótipo? | **Conforme** | Foram identificados os objetivos da avaliação e escopo investigado no documento. |
-| **3** | O planejamento apresenta perguntas de avaliação que ajudam a verificar os objetivos definidos? | **Conforme** | Perguntas de avaliação foram formuladas para guiar a checagem dos objetivos. |
-| **4** | O planejamento utiliza as seis etapas do framework DECIDE: objetivos, perguntas, métodos, questões práticas, ética e interpretação dos dados? | **Não conforme** | A equipe constatou ausência de estruturação formal explícita segundo as 6 etapas do Framework DECIDE (Sharp, Rogers & Preece, 2007; Barbosa & Silva, 2010). |
-| **5** | O método escolhido permite que uma pessoa simule tarefas usando telas e peças de papel antes da implementação do sistema? | **Conforme** | O método de prototipação em papel foi previsto para simulação do fluxo de interface antes do software executável. |
-| **6** | O documento define o perfil das pessoas participantes de acordo com o público-alvo da tarefa avaliada? | **Não conforme** | O planejamento não delimitou com clareza os participantes e o perfil demográfico/comportamental dos usuários a serem recrutados. |
-| **7** | O planejamento define quem atuará como “computador” durante a simulação e quem observará e registrará a sessão? | **Conforme** | Houve menção à divisão de papéis dos avaliadores para condução e simulação do sistema. |
-| **8** | O protótipo prevê as telas, cartões, menus, mensagens e outras peças móveis necessárias para executar as tarefas propostas? | **Conforme** | Foram identificadas telas e peças móveis/materiais ilustrando os estados e respostas das tarefas. |
-| **9** | O planejamento prevê um teste-piloto para verificar o roteiro, os materiais, o tempo e a forma de registrar os dados antes da sessão definitiva? | **Incompleto** | A seção de teste-piloto foi mencionada na parte 2, porém prazos, local e participantes simulados constavam como "a confirmar" ou sem detalhamento suficiente. |
-| **10** | O documento informa as condições práticas da sessão, incluindo local, duração, materiais, equipamentos e forma de registro dos dados? | **Conforme** | Informações logísticas e materiais práticos (equipamentos e papéis) foram descritos na tabela do planejamento. |
-| **11** | O planejamento protege a participante por meio de consentimento informado, participação voluntária, anonimato e autorização específica para gravação? | **Conforme** | Cuidados éticos, consentimento e autorização de gravação constam no planejamento. |
-| **12** | O planejamento do relato define como registrar, para cada tarefa, a conclusão, as dificuldades observadas, as evidências e a interpretação? | **Não conforme** | A estrutura de relato do protótipo de papel não foi formalmente apresentada, constando apenas elementos herdados do storyboard. |
-| **13** | O planejamento do relato prevê uma tabela para registrar problemas de usabilidade, a tela ou peça afetada, o impacto, a prioridade e a recomendação de correção? | **Não conforme** | Ausência do modelo de tabela de consolidação de problemas de usabilidade e priorização para o protótipo de papel. |
-| **14** | O planejamento do relato distingue alterações simples feitas no protótipo de papel das correções que devem ser planejadas para uma próxima versão? | **Não conforme** | Não houve definição explícita distinguindo o ciclo rápido de correções no papel das pendências de reprojeto para a alta fidelidade (Barbosa & Silva, 2010, p. 361–362). |
+| **1** | O planejamento informa claramente qual protótipo de papel será avaliado e qual tarefa do usuário ele representa? | **Não conforme** | O documento não especificou de forma clara e individualizada qual protótipo de papel e respectiva tarefa estavam sendo avaliados. |
+| **2** | O planejamento define objetivos de avaliação claros, explicando o que se deseja descobrir sobre o uso do protótipo? | **Não conforme** | Os objetivos da avaliação de protótipo de papel não foram detalhados nem fundamentados com clareza. |
+| **3** | O planejamento apresenta perguntas de avaliação que ajudam a verificar os objetivos definidos? | **Não conforme** | Ausência de perguntas investigativas estruturadas para operacionalizar a avaliação do protótipo de papel. |
+| **4** | O planejamento utiliza as seis etapas do framework DECIDE: objetivos, perguntas, métodos, questões práticas, ética e interpretação dos dados? | **Não conforme** | O planejamento não adotou formalmente a estrutura das seis atividades do Framework DECIDE (Sharp, Rogers & Preece, 2007; Barbosa & Silva, 2010). |
+| **5** | O método escolhido permite que uma pessoa simule tarefas usando telas e peças de papel antes da implementação do sistema? | **Não conforme** | O método de prototipação em papel não foi articulado de maneira a demonstrar a simulação interativa das tarefas antes da codificação. |
+| **6** | O documento define o perfil das pessoas participantes de acordo com o público-alvo da tarefa avaliada? | **Conforme** | O documento delimitou características do público-alvo e participantes a serem recrutados. |
+| **7** | O planejamento define quem atuará como “computador” durante a simulação e quem observará e registrará a sessão? | **Conforme** | Foi apresentada a atribuição de papéis para a simulação do sistema ("computador") e observação da sessão. |
+| **8** | O protótipo prevê as telas, cartões, menus, mensagens e outras peças móveis necessárias para executar as tarefas propostas? | **Conforme** | Foram contempladas telas e peças móveis/esboços para manipulação durante a execução das tarefas. |
+| **9** | O planejamento prevê um teste-piloto para verificar o roteiro, os materiais, o tempo e a forma de registrar os dados antes da sessão definitiva? | **Conforme** | A realização do teste-piloto antes da sessão definitiva com usuários foi prevista no planejamento. |
+| **10** | O documento informa as condições práticas da sessão, incluindo local, duração, materiais, equipamentos e forma de registro dos dados? | **Conforme** | As questões práticas (local, equipamentos, duração e materiais) foram descritas no documento. |
+| **11** | O planejamento protege a participante por meio de consentimento informado, participação voluntária, anonimato e autorização específica para gravação? | **Conforme** | Os aspectos éticos, TCLE e autorizações de gravação de voz e imagem foram contemplados. |
+| **12** | O planejamento do relato define como registrar, para cada tarefa, a conclusão, as dificuldades observadas, as evidências e a interpretação? | **Não conforme** | O planejamento do relato de resultados do protótipo de papel não foi formalizado para sistematizar conclusões e evidências por tarefa. |
+| **13** | O planejamento do relato prevê uma tabela para registrar problemas de usabilidade, a tela ou peça afetada, o impacto, a prioridade e a recomendação de correção? | **Não conforme** | Não foi previsto modelo padronizado de tabela para consolidação e priorização dos problemas de usabilidade encontrados. |
+| **14** | O planejamento do relato distingue alterações simples feitas no protótipo de papel das correções que devem ser planejadas para uma próxima versão? | **Não conforme** | Não houve distinção metodológica entre os ajustes rápidos do ciclo no papel e as recomendações de reprojeto para a alta fidelidade (Barbosa & Silva, 2010, p. 361–362). |
 
 **Fonte:** Grupo 05 (2026), com base na [Lista de Verificação 5](../verificacao/verif5.md) e na inspeção realizada em 26/10/2026.
 
@@ -64,15 +64,14 @@ Os resultados apresentados a seguir retratam fielmente a inspeção conduzida pe
 
 ### 3.1. Síntese e Encaminhamentos da Inspeção:
 
-* **Critérios Conformes (CF):** 8 itens (**1, 2, 3, 5, 7, 8, 10 e 11**).
-* **Critérios Incompletos (INC):** 1 item (**9** — detalhamento prático e cronograma do Teste-Piloto).
-* **Critérios Não Conformes (NCF):** 5 itens (**4** — Framework DECIDE; **6** — perfil dos participantes recrutados; e **12, 13 e 14** — modelos e distinções do Planejamento do Relato de Resultados do Protótipo de Papel).
+* **Critérios Conformes (CF):** 6 itens (**6, 7, 8, 9, 10 e 11**).
+* **Critérios Não Conformes (NCF):** 8 itens (**1, 2, 3, 4, 5, 12, 13 e 14**).
+* **Critérios Incompletos (INC):** 0 itens.
 
 **Recomendações ao Grupo +1 (Grupo 06):**
-1. Estruturar formalmente o planejamento da avaliação segundo as 6 etapas interdependentes do **Framework DECIDE** (D, E, C, I, D, E).
-2. Delimitar o perfil dos usuários a serem convidados com base nas personas do projeto e fundamentar a amostragem na literatura.
-3. Completar a seção do teste-piloto definindo data, horário e integrantes responsáveis pela calibragem do roteiro.
-4. Elaborar o **Planejamento do Relato dos Resultados do Protótipo de Papel** incluindo tabelas para registro de desempenho por tarefa, consolidação de problemas e distinção explícita entre ajustes resolvidos no papel e pendências para a versão digital de alta fidelidade.
+1. Delimitar formalmente o escopo da avaliação identificando com clareza o protótipo de papel de cada tarefa modelada (Itens 1, 2 e 3).
+2. Estruturar o planejamento da avaliação adotando rigorosamente as seis etapas do **Framework DECIDE** (D, E, C, I, D, E) e detalhar a mecânica de simulação em papel (Itens 4 e 5).
+3. Desenvolver o documento dedicado de **Planejamento do Relato dos Resultados do Protótipo de Papel**, introduzindo modelos de tabelas para registro de desempenho, mapeamento de falhas por severidade e a diferenciação explícita entre correções no papel e pendências para a alta fidelidade (Itens 12, 13 e 14).
 
 ---
 
@@ -107,3 +106,4 @@ Em cumprimento às normas do Plano de Ensino da disciplina (SALES, 2026) e ao C�
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. ISBN 978-85-352-1120-7. (Capítulo 9: Planejamento da Avaliação de IHC, Seção 9.8, p. 312–313; Capítulo 10: Métodos de Avaliação de IHC, Seção 10.2.3: Prototipação em Papel, p. 358–362).
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
 * SHARP, Helen; ROGERS, Yvonne; PREECE, Jennifer. **Interaction Design: Beyond Human-Computer Interaction**. 2. ed. New York: John Wiley & Sons, 2007.
+
