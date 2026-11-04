@@ -239,6 +239,9 @@ nav:
         - Rodrigo:
           - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md
           - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md
+        - Tomás:
+          - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md
       - Relatos dos resultados individuais:
         - Arthur:
           - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md
@@ -251,7 +254,8 @@ nav:
         - Lucas:
           - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md
         - Rodrigo: []
-        - Tomás: []
+        - Tomás:
+          - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md
     - Nível 3:
       - Planejamentos individuais:
         - Arthur:
@@ -272,7 +276,9 @@ nav:
         - Rodrigo:
           - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md
           - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md
-        - Tomás: []
+        - Tomás:
+          - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md
 
   - Verificação: 
     - Verificação da entrega 1: verificacao/verif1.md
