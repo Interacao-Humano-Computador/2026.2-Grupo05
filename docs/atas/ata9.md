@@ -91,3 +91,4 @@ Em cumprimento às diretrizes do Plano de Ensino da disciplina (SALES, 2026) e a
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. ISBN 978-85-352-1120-7. (Capítulo 9, Seção 9.7.2, p. 299: *Teste-Piloto*; Capítulo 10, Seção 10.2.3, p. 358–362: *Prototipação em Papel*).
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
 * SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann, 2003.
+

@@ -38,12 +38,12 @@ Avaliar se o fluxo em papel permite que uma usuária com perfil compatível com 
 2. Avaliar se os estados **enviado**, **em processamento**, **disponível** e **precisa de atualização/confirmação** são distintos, compreensíveis e acompanhados de uma ação pertinente.
 3. Verificar se rótulos, ordem das informações e controles permitem encontrar a orientação sem apoio verbal do avaliador.
 4. Avaliar se o fluxo comunica os limites entre empregador, BRB Mobilidade e SEMOB-DF de modo simples, sem encaminhamentos vagos ou culpabilização da usuária.
-5. Identificar obstáculos de leitura, navegação, entendimento de feedback e recuperação de erro que possam prejudicar a tarefa.
+5. Identificar obstáculos de leitura, navegação e entendimento de feedback que possam prejudicar a tarefa.
 6. Coletar sugestões para o reprojeto antes da construção de um protótipo de maior fidelidade.
 
 ### 3.3 Critério de sucesso da tarefa simulada
 
-Ao final do cenário, considera-se que a tarefa foi concluída quando a participante consegue dizer, com suas próprias palavras: **(a)** qual informação precisa confirmar; **(b)** qual é o próximo passo indicado; e **(c)** qual canal deve procurar se esse passo não resolver a situação. A conclusão não depende de a participante saber de memória o procedimento real de uma instituição.
+Ao final do cenário, considera-se que a tarefa foi concluída quando a participante consegue dizer, com suas próprias palavras: **(a)** qual informação precisa confirmar; **(b)** qual é o próximo passo indicado; e **(c)** como localizar um atendimento compatível com seu endereço e consultar seu horário de funcionamento. A conclusão não depende de a participante saber de memória o procedimento real de uma instituição.
 
 ---
 
@@ -59,7 +59,6 @@ As perguntas serão respondidas por observação da simulação, verbalizações
 | P04 | Próximo passo | Após receber a orientação, ela sabe o que fazer agora e o que fazer depois? | Ação indicada, dúvidas, leitura do feedback e interpretação do prazo. |
 | P05 | Responsabilidades | A tela esclarece quando consultar empregador, BRB Mobilidade ou SEMOB-DF? | Instituição escolhida, justificativa e ambiguidades. |
 | P06 | Linguagem e legibilidade | Rótulos, textos, ícones e botões são compreensíveis sem explicação? | Palavras não compreendidas, elementos ignorados e sugestões de redação. |
-| P07 | Recuperação | Diante de uma resposta inconclusiva, ela encontra uma alternativa? | Caminho de retorno, pedido de ajuda e ação escolhida. |
 | P08 | Adequação ao contexto | O fluxo é compatível com alguém com pouco tempo, internet limitada e necessidade de chegar ao trabalho? | Etapas excessivas, informações faltantes e alternativas sugeridas. |
 
 ---
@@ -74,9 +73,10 @@ O pensamento em voz alta será apenas convidado, nunca exigido. Após a simulaç
 
 ### 5.2 Tarefas propostas
 
-1. **Encontrar orientação:** “Você tentou usar seu cartão para ir ao trabalho e recebeu a mensagem de saldo insuficiente, embora o RH tenha informado que enviou o Vale-Transporte. Usando esta interface, descubra como verificar o que pode estar acontecendo.”
-2. **Interpretar e agir:** “A interface informa que o crédito foi enviado, mas ainda precisa de uma confirmação ou atualização. Mostre o que você faria agora e diga o que espera que aconteça.”
-3. **Recuperar-se de uma incerteza:** “Você seguiu a orientação, mas o crédito continua indisponível. Encontre o canal ou a alternativa que usaria para continuar resolvendo o problema.”
+1. **Encontrar orientação:** “Você tentou usar seu cartão para ir ao trabalho e recebeu a mensagem de saldo insuficiente. Usando esta interface, encontre a opção para resolver um problema com o cartão ou com o crédito.”
+2. **Informar o que sabe sobre o envio:** “A interface pergunta se o empregador informou que enviou o Vale-Transporte. Selecione a opção que corresponde à situação apresentada.”
+3. **Interpretar o estado e agir:** “A interface apresenta a situação do crédito. Explique o que você entendeu e mostre o que faria em seguida.”
+4. **Encontrar atendimento após a orientação:** “Usando seu endereço, encontre um local de atendimento adequado e consulte seu horário de funcionamento.”
 
 ### 5.3 Materiais do protótipo a preparar
 
@@ -87,7 +87,6 @@ O pensamento em voz alta será apenas convidado, nunca exigido. Após a simulaç
 | Tela de diagnóstico orientado | Simular perguntas ou escolhas que diferenciem as situações de crédito. |
 | Cartões de estado do crédito | Mostrar enviado, em processamento, disponível e necessidade de atualização/confirmação. |
 | Tela de próximo passo e canais | Comunicar ação, responsável, prazo quando houver e canal de continuidade. |
-| Peças de exceção | Simular informação indisponível, resultado inconclusivo, retorno e atendimento alternativo. |
 | Cartões de tarefa, TCLE e ficha de observação | Conduzir a sessão e registrar evidências de maneira consistente. |
 
 ---
@@ -110,18 +109,9 @@ Uma participante é adequada ao escopo individual e formativo desta iteração, 
 
 O autor do protótipo não deverá conduzir a sessão; atuará como observador para reduzir a chance de defender o design ou induzir respostas.
 
-### 6.3 Ambiente, duração e equipamentos
+### 6.3 Ambiente e equipamentos
 
 A sessão ocorrerá em sala tranquila com mesa e cadeiras. A gravação de áudio e, se autorizada, das mãos e do protótipo sobre a mesa poderá complementar as anotações. Não haverá gravação facial como padrão.
-
-| Etapa | Tempo estimado |
-| :--- | :---: |
-| Recepção, explicação e TCLE | 7 min |
-| Apresentação da mecânica do protótipo | 3 min |
-| Execução das três tarefas | 15 a 20 min |
-| Entrevista pós-teste | 8 min |
-| Encerramento | 2 min |
-| **Total** | **35 a 40 min** |
 
 Antes da sessão definitiva será realizado um **teste-piloto** com alguém da equipe que não participe como usuária dos resultados. O piloto verificará clareza do roteiro, completude das peças, ritmo do “computador”, qualidade do registro e duração. Seus dados serão usados apenas para ajustar o procedimento e não integrarão a análise.
 

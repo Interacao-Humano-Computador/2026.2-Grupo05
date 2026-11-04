@@ -104,7 +104,7 @@ Deve apresentar desvios, obras, retenções e alterações relacionados à linha
 
 ### 3.6 Tela de pré-agendamento
 
-Deve permitir selecionar o local e o dia do atendimento no Programa DF Acessível. Outros elementos dependem de documentação adicional.
+Deve permitir, em três etapas, selecionar os postos de embarque e de desembarque, selecionar o dia da viagem e enviar o laudo do profissional de saúde e o comprovante de residência no Programa DF Acessível. Outros elementos dependem de documentação adicional.
 
 ### 3.7 Tela de atendimento
 
@@ -152,15 +152,14 @@ A sequência deriva diretamente da [TAR-03](../analise-de-tarefas/tar-03-planeja
 
 A sequência deriva da [TAR-06](../analise-de-tarefas/tar-06-df-no-ponto.md).
 
-### 4.3 Pré-agendar atendimento no DF Acessível
+### 4.3 Pré-agendar viagem no DF Acessível
 
-1. Iniciar o pré-agendamento.
-2. Escolher o local.
-3. Escolher o dia.
-4. Concluir a solicitação.
-5. Receber feedback de conclusão.
+1. Escolher os postos de embarque e de desembarque.
+2. Escolher o dia.
+3. Enviar o laudo e o comprovante de residência e concluir a solicitação.
+4. Receber feedback de conclusão (protocolo e comprovante).
 
-Somente local e dia estão documentados na [TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md). Dados adicionais não devem ser incluídos até que estejam registrados no projeto.
+Somente postos de embarque e de desembarque, dia e documentos estão documentados na [TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md). Dados adicionais não devem ser incluídos até que estejam registrados no projeto.
 
 ### 4.4 Recuperar-se de uma falha
 

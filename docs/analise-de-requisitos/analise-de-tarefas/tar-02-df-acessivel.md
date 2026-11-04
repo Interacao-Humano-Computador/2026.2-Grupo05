@@ -7,12 +7,11 @@
 | 24/09/2026 | 1.0 | Elaboração da Análise de Tarefas (HTA e CTT) para o Pré-agendamento no Programa DF Acessível. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
 | 27/09/2026 | 1.1 | Modularização em documento dedicado e padronização com a nova arquitetura. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
 | 11/10/2026 | 1.2 | Atualização da persona de referência dos PDFs de HTA e CTT para Larissa Ferreira Lima. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
-
 ---
 
 ## 1. Introdução
 
-Este documento analisa a tarefa de realizar o pré-agendamento de atendimento no Programa DF Acessível pelo site da SEMOB-DF. Atualmente, o site da SEMOB-DF não oferece esse serviço; por isso, a tarefa é apresentada como **proposta de nova funcionalidade**, integrada à página inicial do site e alinhada ao [Storyboard 02](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#32-storyboard-02-pre-agendamento-no-programa-df-acessivel). A modelagem utiliza HTA e CTT para decompor os objetivos, as ações e as relações temporais envolvidas no fluxo idealizado (acesso pelo atalho, escolha do local e da data, confirmação e comprovante), contribuindo para especificar requisitos de clareza, acessibilidade e continuidade do fluxo.
+Este documento analisa a tarefa de realizar, pelo site da SEMOB-DF, o pré-agendamento de uma viagem em transporte adaptado do Programa DF Acessível. Atualmente, o site da SEMOB-DF não oferece esse serviço; por isso, a tarefa é apresentada como **proposta de nova funcionalidade**, integrada à página inicial do site.
 
 ## 2. Caracterização da Tarefa
 
@@ -22,28 +21,9 @@ Este documento analisa a tarefa de realizar o pré-agendamento de atendimento no
 * **Persona de Referência:** [Larissa Ferreira Lima](../personas/larissa-ferreira-lima.md) (23 anos, com deficiência temporária de mobilidade, usuária de cadeira de rodas).
 * **Responsáveis pela Elaboração:** [Gabriel Melo](https://github.com/gabriellcardone-06)
 * **Data da Realização:** 25/09/2026
-* **Objetivo da Tarefa:** Realizar o pré-agendamento no Programa DF Acessível pela página inicial do site da SEMOB-DF, escolhendo o local e o dia do atendimento.
-* **Caminho proposto:** página inicial da SEMOB-DF → atalho "Agendar DF Acessível" → Pré-agendamento → posto de atendimento → dia do atendimento → revisão e confirmação → comprovante por e-mail e WhatsApp.
-
-### 2.1 Relação com o Storyboard 02
-
-A Tabela 1 relaciona cada quadro do [Storyboard 02](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#32-storyboard-02-pre-agendamento-no-programa-df-acessivel) aos nós da HTA e do CTT que o modelam.
-
-<div align="center">
-<p><strong>Tabela 1</strong> — Correspondência entre o Storyboard 02 e os modelos de tarefa</p>
-</div>
-
-| Quadro do Storyboard 02 | O que acontece | HTA | CTT |
-| :---: | :--- | :---: | :---: |
-| 1 | Larissa, no quarto, precisa de transporte até a fisioterapia | 0 (necessidade que inicia a tarefa) | 0 |
-| 2 | Abre o site da SEMOB-DF e toca no atalho "Agendar DF Acessível" | 1 (1.1 e 1.2) | Ramo 1 (1.1 a 1.3) |
-| 3 | Escolhe o posto mais próximo de casa | 2.1 | 2.1 e 2.2 |
-| 4 | Seleciona a data no calendário | 2.2 | 2.3 a 2.5 |
-| 5 | Recebe o comprovante por e-mail e WhatsApp | 3 (3.1 e 3.2) | Ramo 3 (3.1 a 3.4) |
-
-<div align="center">
-<p><em>Fonte: Gabriel Melo (2026).</em></p>
-</div>
+* **Objetivo da Tarefa:** Pré-agendar, pelo site da SEMOB-DF, uma viagem em transporte adaptado do Programa DF Acessível, em três etapas: (1) escolher o posto de embarque (próximo de casa) e o posto de desembarque (próximo do compromisso); (2) escolher o dia da viagem; (3) enviar o laudo do profissional de saúde e o comprovante de residência.
+* **Caminho proposto:** página inicial da SEMOB-DF → atalho "Agendar DF Acessível" → Etapa 1: postos → Etapa 2: dia → Etapa 3: documentos → comprovante na tela, por e-mail e WhatsApp.
+* **Funcionamento da viagem proposta:** o veículo adaptado não busca o passageiro em casa. Ele embarca em um **posto do programa próximo de casa** e desembarca em um **posto próximo do compromisso**. Os postos são pontos fixos com acessibilidade (rampa, área coberta e vaga para o veículo adaptado).
 
 ---
 
