@@ -8,6 +8,7 @@
 | 05/10/2026 | 1.1 | Padronização das nove etapas de inspeção, com espaços para as gravações da inspeção do próprio grupo e do grupo alternado. | [Arthur Mariani](https://github.com/arthur-mariani) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
 | 06/10/2026 | 1.2 | Inclusão dos links e vídeos embarcados da autoinspeção do Grupo 05 e da inspeção do Grupo 03 (Entrega 2). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) |
 | 10/10/2026 | 1.3 | Inclusão do link e do vídeo embarcado da inspeção do Grupo 06 (Grupo +1) na Entrega 3. | [Arthur Mariani](https://github.com/arthur-mariani) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
+| 03/11/2026 | 1.4 | Inclusão do link e do vídeo embarcado da autoinspeção do Grupo 05 na Entrega 6 (Ata 10). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 ---
 
@@ -124,7 +125,18 @@ Cada etapa possui dois espaços de gravação: a inspeção recebida pelo **Grup
 | Vídeo | Registro | Link |
 | :---: | :--- | :--- |
 | 1 | Inspeção do próprio Grupo 05 | [Assistir à gravação](https://youtu.be/d_vy4RCpSbE) |
-| 2 | Inspeção do Grupo +1 | [Assistir à gravação](https://youtu.be/DJlB9gBGgN4) |
+| 2 | Inspeção do Grupo +1 | [Assistir à gravação](https://youtu.be/vZrUBGEte7U) |
+
+* **Registro da inspeção do Grupo +1:** [Ata de reunião 8](../atas/ata8.md).
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vZrUBGEte7U" title="Inspeção da Entrega 5 do Grupo +1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div align="center">
+<p><strong>Vídeo 2</strong> — Gravação da reunião de inspeção da Entrega 5 do Grupo +1 (Grupo 06).</p>
+<p><em>Fonte: Grupo 05 (2026).</em></p>
+</div>
 
 ---
 
@@ -135,8 +147,19 @@ Cada etapa possui dois espaços de gravação: a inspeção recebida pelo **Grup
 
 | Vídeo | Registro | Link |
 | :---: | :--- | :--- |
-| 1 | Inspeção do próprio Grupo 05 | *Pendente* |
+| 1 | Autoinspeção do próprio Grupo 05 | [Assistir à gravação](https://youtu.be/7Uvmxk-r-WI) |
 | 2 | Inspeção do Grupo -1 | *Pendente* |
+
+* **Registro da inspeção do Grupo 05:** [Ata de reunião 10](../atas/ata10.md).
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7Uvmxk-r-WI" title="Inspeção da Entrega 6 do Grupo 05" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div align="center">
+<p><strong>Vídeo 1</strong> — Gravação da reunião de autoinspeção da Entrega 6 realizada pelo Grupo 05.</p>
+<p><em>Fonte: Grupo 05 (2026).</em></p>
+</div>
 
 ---
 

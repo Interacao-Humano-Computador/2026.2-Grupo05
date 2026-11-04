@@ -3,6 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 27/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Papel (TAR-06) via DECIDE. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 03/11/2026 | `1.1` | Registro das datas reais do teste piloto e da sessão (03/11/2026, e não 31/10 e 01/11 como planejado), do observador e do local, com link para o [relato dos resultados](../../relatos-individuais/carlos/relato-resultados-prot-papel.md). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
 
 ---
 
@@ -106,7 +107,7 @@ Na sessão, *"um avaliador atua como 'computador' para simular em papel a execu�
 
 * **Participante:** realiza as tarefas tocando no papel com o dedo e falando o que pensa.
 * **"Computador" — Carlos Costa:** troca telas e peças **apenas em resposta às ações** do participante, sem dar dicas.
-* **Observador — a confirmar com a equipe:** grava a mesa, cronometra cada tarefa e anota hesitações, erros e comentários.
+* **Observador — [Arthur Mariani](https://github.com/arthur-mariani):** grava a mesa, cronometra cada tarefa e anota hesitações, erros e comentários.
 
 ### 4.3 Recrutamento e Perfil do Participante
 * **Perfil:** estudante universitário da FCTE/UnB Gama que usa ônibus e já usou o DF no Ponto ou app semelhante (perfil de João Pedro Carvalho).
@@ -121,9 +122,9 @@ Na sessão, *"um avaliador atua como 'computador' para simular em papel a execu�
 
 | Parâmetro | Detalhamento |
 | :--- | :--- |
-| **Teste piloto:** | 31/10/2026, com um integrante do grupo como participante simulado. |
-| **Sessão:** | 01/11/2026 (dom), 14:00 (a confirmar com o participante). |
-| **Local:** | Ambiente presencial tranquilo e iluminado (sala de estudos na FCTE/UnB Gama ou outro local combinado). |
+| **Teste piloto:** | Planejado para 31/10/2026. **Realizado em 03/11/2026, por volta de 08:30**, com [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) como participante simulado. |
+| **Sessão:** | Planejada para 01/11/2026 (dom), 14:00. **Realizada em 03/11/2026, das 09:00 às 09:08**, com o participante P05. |
+| **Local:** | Ambiente presencial tranquilo e iluminado. A sessão ocorreu na FCTE/UnB. |
 | **Gravação:** | Celular em suporte, enquadrando a mesa e as mãos, com áudio. |
 | **Duração prevista:** | 25 minutos (5 min de recepção e TCLE, 15 min de tarefas e 5 min de conversa final). |
 | **Materiais:** | TCLE impresso, cartão com o cenário e as tarefas, peças do protótipo e ficha do observador. |
@@ -161,7 +162,7 @@ Os cuidados seguem a Resolução nº 510/2016 do CNS e Barbosa et al. (2021, Se�
 Antes da sessão com o participante, é feito um **teste piloto** (Barbosa et al., 2021, Seção 11.7.2, p. 260) ([Imagem 6](#imagem-6)):
 
 * **Objetivo:** verificar se as peças cobrem todos os caminhos das três tarefas, treinar a troca rápida das peças pelo "computador", conferir o tempo e testar o enquadramento da gravação.
-* **Data e participante:** 31/10/2026, com um integrante do grupo como participante simulado.
+* **Data e participante:** planejado para 31/10/2026 com um integrante do grupo como participante simulado; realizado em 03/11/2026 com [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa).
 * **Dados do piloto:** servem **apenas para calibrar** o material e o procedimento e **não entram nos resultados** da avaliação.
 
 ---

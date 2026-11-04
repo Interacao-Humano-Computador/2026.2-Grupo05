@@ -28,8 +28,8 @@ O relato também seguirá o último elemento do framework **DECIDE**: avaliar, i
 
 ## 3. Objetivos do relato
 
-1. Registrar como a participante realizou as tarefas de encontrar orientação, interpretar o estado do crédito e buscar uma alternativa de atendimento.
-2. Consolidar evidências sobre encontrabilidade, compreensão dos estados do crédito, linguagem, responsabilidades institucionais, feedback e recuperação de incertezas.
+1. Registrar como a participante realizou as tarefas de encontrar orientação, informar o que sabia sobre o envio, interpretar o estado do crédito e localizar atendimento.
+2. Consolidar evidências sobre encontrabilidade, compreensão dos estados do crédito, linguagem, responsabilidades institucionais, feedback e localização do atendimento.
 3. Documentar os problemas de usabilidade encontrados e seus impactos na tarefa da pessoa usuária.
 4. Distinguir alterações simples aplicadas ao protótipo de papel de pendências que exigem reprojeto posterior.
 5. Produzir recomendações rastreáveis para a próxima versão do protótipo, sem tratar opiniões individuais como procedimentos institucionais confirmados.
@@ -91,8 +91,9 @@ Não serão incluídos dados do teste-piloto, identificação pessoal, saldo, n�
 | ID | Tarefa | Concluída sem apoio? | Dificuldades e evidências | Interpretação | Próximo passo |
 | :---: | :--- | :---: | :--- | :--- | :--- |
 | **T1** | Encontrar orientação para crédito de Vale-Transporte indisponível. | A preencher | A preencher | A preencher | A preencher |
-| **T2** | Interpretar o estado do crédito e indicar o que faria em seguida. | A preencher | A preencher | A preencher | A preencher |
-| **T3** | Encontrar canal ou alternativa após uma orientação inconclusiva. | A preencher | A preencher | A preencher | A preencher |
+| **T2** | Informar o que sabia sobre o envio do crédito pelo empregador. | A preencher | A preencher | A preencher | A preencher |
+| **T3** | Interpretar o estado do crédito e indicar o que faria em seguida. | A preencher | A preencher | A preencher | A preencher |
+| **T4** | Encontrar canal ou local de atendimento após a orientação. | A preencher | A preencher | A preencher | A preencher |
 
 Uma tarefa será classificada como **concluída sem apoio** quando a participante atingir o objetivo e explicar o resultado sem orientação substantiva do avaliador. Se ela terminar após hesitação, tentativa improdutiva ou ajuda não prevista, a dificuldade deverá ser relatada; isso evita que um simples “sim” esconda um problema importante de usabilidade.
 
@@ -139,7 +140,7 @@ A prioridade não será tratada como medida estatística: ela representa a urgê
 
 | Objetivo ou pergunta | Evidência | Interpretação | Problema ou ponto positivo | Ação de reprojeto |
 | :--- | :--- | :--- | :--- | :--- |
-| P01 a P08 | A preencher | A preencher | A preencher | A preencher |
+| P01 a P06 e P08 | A preencher | A preencher | A preencher | A preencher |
 
 ---
 
