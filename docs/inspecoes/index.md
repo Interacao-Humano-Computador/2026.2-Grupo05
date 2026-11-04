@@ -124,7 +124,18 @@ Cada etapa possui dois espaços de gravação: a inspeção recebida pelo **Grup
 | Vídeo | Registro | Link |
 | :---: | :--- | :--- |
 | 1 | Inspeção do próprio Grupo 05 | [Assistir à gravação](https://youtu.be/d_vy4RCpSbE) |
-| 2 | Inspeção do Grupo +1 | [Assistir à gravação](https://youtu.be/DJlB9gBGgN4) |
+| 2 | Inspeção do Grupo +1 | [Assistir à gravação](https://youtu.be/vZrUBGEte7U) |
+
+* **Registro da inspeção do Grupo +1:** [Ata de reunião 8](../atas/ata8.md).
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/vZrUBGEte7U" title="Inspeção da Entrega 5 do Grupo +1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+<div align="center">
+<p><strong>Vídeo 2</strong> — Gravação da reunião de inspeção da Entrega 5 do Grupo +1 (Grupo 06).</p>
+<p><em>Fonte: Grupo 05 (2026).</em></p>
+</div>
 
 ---
 

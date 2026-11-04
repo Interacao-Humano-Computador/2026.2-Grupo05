@@ -107,6 +107,8 @@ nav:
     - Ata de reunião 5: atas/ata5.md
     - Ata de reunião 6 (Inspeção): atas/ata6.md
     - Ata de reunião 7 (Teste Piloto e Calibração): atas/ata7.md
+    - Ata de reunião 8 (Inspeção): atas/ata8.md
+    - Ata de reunião 9 (Teste Piloto): atas/ata9.md
 
   - Planejamento:
     - Cronograma: planejamento/cronograma.md
@@ -246,7 +248,8 @@ nav:
           - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md
         - Igor:
           - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md
-        - Lucas: []
+        - Lucas:
+          - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md
         - Rodrigo: []
         - Tomás: []
     - Nível 3:
@@ -263,7 +266,9 @@ nav:
         - Igor:
           - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md
           - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md
-        - Lucas: []
+        - Lucas:
+          - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md
+          - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md
         - Rodrigo:
           - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md
           - Planejamento do relato dos resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md
