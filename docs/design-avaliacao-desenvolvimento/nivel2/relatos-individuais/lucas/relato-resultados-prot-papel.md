@@ -67,7 +67,7 @@ Em conformidade com Barbosa & Silva (2010, p. 360–361) e as normas éticas da 
 * **Participante Convidada:** **Yasmin** (17 anos, estudante e usuária frequente do Sistema de Transporte Público Coletivo do Distrito Federal - STPC/DF).
 * **Alinhamento com a Persona:** A participante enquadra-se diretamente no perfil primário de usuários do transporte público e compartilha características e dores com a persona primária **[Marcos Paulo Vieira ("Marquinhos")](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md)**, realizando deslocamentos rotineiros no DF com dependência de horários e uso constante de smartphone.
 * **Aspectos Éticos e TCLE:** Antes do início da simulação, a participante foi esclarecida quanto aos objetivos acadêmicos do teste, assinou o [Termo de Consentimento Livre e Esclarecido (TCLE)](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf) e autorizou a gravação de áudio e vídeo focada na interação com o protótipo, conforme ratificado verbalmente aos `00:22` da gravação.
-* **Teste Piloto:** Executado previamente em **29/10/2026** (conforme registrado na [Ata 9](../../../atas/ata9.md)) para calibrar a manipulação dos componentes em papel; conforme o Item 12 do Checklist do Plano de Ensino, os dados do teste piloto foram descartados e não integram este relato.
+* **Teste Piloto:** Executado previamente em **29/10/2026** (conforme registrado na [Ata 9](../../../../atas/ata9.md)) para calibrar a manipulação dos componentes em papel; conforme o Item 12 do Checklist do Plano de Ensino, os dados do teste piloto foram descartados e não integram este relato.
 
 ### 3.1 Gravação da Sessão de Avaliação em Papel
 
