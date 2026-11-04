@@ -64,16 +64,21 @@ Em conformidade com Barbosa & Silva (2010, p. 360–361) e as normas éticas da 
 
 * **Avaliador "Computador" e Condutor:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) (responsável pela manipulação mecânica das telas/post-its e condução da entrevista pós-teste).
 * **Avaliador Observador / Revisor:** [Arthur Mariani](https://github.com/arthur-mariani) (apoio na revisão do protocolo, verificação de tempos e inspeção metodológica).
-* **Participante Convidada:** **Yasmim** (17 anos, estudante e usuária frequente do Sistema de Transporte Público Coletivo do Distrito Federal - STPC/DF).
+* **Participante Convidada:** **Yasmin** (17 anos, estudante e usuária frequente do Sistema de Transporte Público Coletivo do Distrito Federal - STPC/DF).
 * **Alinhamento com a Persona:** A participante enquadra-se diretamente no perfil primário de usuários do transporte público e compartilha características e dores com a persona primária **[Marcos Paulo Vieira ("Marquinhos")](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md)**, realizando deslocamentos rotineiros no DF com dependência de horários e uso constante de smartphone.
-* **Aspectos Éticos e TCLE:** Antes do início da simulação, a participante foi esclarecida quanto aos objetivos acadêmicos do teste, assinou o [Termo de Consentimento Livre e Esclarecido (TCLE)](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf) e autorizou a gravação de áudio e vídeo focada na interação com o protótipo.
-* **Teste Piloto:** Executado previamente em **30/10/2026** para calibrar a ordem de sobreposição dos *post-its* W01 a W04; conforme o Item 12 do Checklist do Plano de Ensino, os dados do teste piloto foram descartados e não integram este relato.
+* **Aspectos Éticos e TCLE:** Antes do início da simulação, a participante foi esclarecida quanto aos objetivos acadêmicos do teste, assinou o [Termo de Consentimento Livre e Esclarecido (TCLE)](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf) e autorizou a gravação de áudio e vídeo focada na interação com o protótipo, conforme ratificado verbalmente aos `00:22` da gravação.
+* **Teste Piloto:** Executado previamente em **29/10/2026** (conforme registrado na [Ata 9](../../../atas/ata9.md)) para calibrar a manipulação dos componentes em papel; conforme o Item 12 do Checklist do Plano de Ensino, os dados do teste piloto foram descartados e não integram este relato.
 
 ### 3.1 Gravação da Sessão de Avaliação em Papel
 
 O registro em vídeo da sessão de avaliação do protótipo de papel da TAR-03 encontra-se disponível abaixo:
 
-* **Link do Vídeo (YouTube — Não Listado):** *[Inserir link do vídeo da avaliação do protótipo de papel aqui após gravação]*
+* **Link do Vídeo (YouTube — Não Listado):** [https://youtu.be/80FadMi17Fo](https://youtu.be/80FadMi17Fo)
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/80FadMi17Fo" title="Avaliação do Protótipo de Papel - TAR-03 - Lucas Araújo e Yasmin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <p><em>Vídeo 1: Gravação presencial da simulação do Protótipo de Papel da TAR-03 com a participante Yasmin.</em></p>
+</div>
 
 ---
 
@@ -87,9 +92,9 @@ O registro em vídeo da sessão de avaliação do protótipo de papel da TAR-03 
 
 | ID Tarefa | Tarefa Solicitada ao Participante (Escopo TAR-03) | Telas / Widgets Manipulados | Concluiu sem Ajuda? | Pedidos de Ajuda / Erros | Avaliação da Usabilidade |
 | :---: | :--- | :--- | :---: | :---: | :---: |
-| **[TAR-03.1](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/#tar-03-planejamento-de-rota-completa-porta-a-porta-por-destino-com-indicacao-de-paradas-e-previsao-de-chegada)** | Informar o destino *"SIA Trecho 3"* na Home aproveitando a origem automática do GPS (*Samambaia Sul - QR 302*). | Tela 01 (Home) + *Post-it* W01 (Autocompletar) | **Sim** | **0** | **Satisfatório** |
-| **[TAR-03.2](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/#tar-03-planejamento-de-rota-completa-porta-a-porta-por-destino-com-indicacao-de-paradas-e-previsao-de-chegada)** | Comparar os cartões de rota porta a porta, identificar a parada recomendada (`4 min / 280m`) e selecionar a linha mais rápida (`092.1` — ETA `07h52`). | Tela 02 (Cards A e B de Rota Porta a Porta) | **Sim** | **0** | **Satisfatório** |
-| **[TAR-03.3](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/#tar-03-planejamento-de-rota-completa-porta-a-porta-por-destino-com-indicacao-de-paradas-e-previsao-de-chegada)** | Acompanhar o ônibus `092.1` no mapa em papel e reagir aos *post-its* de retenção severa na EPTG (trocando para a linha `0.380`) e de falha de sinal de GPS. | Tela 03 (Mapa) + Peça W02 + *Post-its* W03 e W04 | **Sim** | **0** | **Satisfatório** |
+| **[TAR-03.1](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/#tar-03-planejamento-de-rota-completa-porta-a-porta-por-destino-com-indicacao-de-paradas-e-previsao-de-chegada)** | Informar o destino *"SIA Trecho 3"* na Home aproveitando a origem automática do GPS (*Samambaia Sul - QR 302*). | Tela 01 (Home) + *Post-it* W01 (Autocompletar) | **Sim** (aos `00:29`) | **0** | **Satisfatório** |
+| **[TAR-03.2](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/#tar-03-planejamento-de-rota-completa-porta-a-porta-por-destino-com-indicacao-de-paradas-e-previsao-de-chegada)** | Comparar os cartões de rota porta a porta, identificar a parada recomendada (`4 min / 280m`) e selecionar a linha mais rápida (`092.1` — ETA `07h52`). | Tela 02 (Cards A e B de Rota Porta a Porta) | **Sim** (aos `00:35`) | **0** | **Satisfatório** |
+| **[TAR-03.3](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/#tar-03-planejamento-de-rota-completa-porta-a-porta-por-destino-com-indicacao-de-paradas-e-previsao-de-chegada)** | Acompanhar o ônibus `092.1` no mapa em papel, interpretar a previsão de caminhada até a parada (`4 min`) e a chegada do veículo (`5 min`). | Tela 03 (Mapa) + Peça W02 (Ônibus ao vivo) | **Sim** (aos `00:46`) | **0** | **Satisfatório** |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
@@ -97,20 +102,22 @@ O registro em vídeo da sessão de avaliação do protótipo de papel da TAR-03 
 
 ---
 
-### 4.2 Consolidação das Respostas da Entrevista Pós-Teste e Matriz DECIDE (`QP01` a `QP06`)
+### 4.2 Consolidação das Ações da Participante e Rastreabilidade DECIDE (`QP01` a `QP06`)
+
+A sessão foi rápida, fluida e direta, comprovando a facilidade de aprendizado e a autoexplicação do protótipo em papel. A participante verbalizou suas ações pelo protocolo *Think Aloud*, demonstrando assimilação imediata dos componentes:
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Matriz de Rastreabilidade das Perguntas Investigativas (`QP01` a `QP06`) e Entrevista Pós-Teste</p>
+<p><strong>Tabela 2</strong> — Matriz de Rastreabilidade das Perguntas Investigativas (`QP01` a `QP06`) e Evidências Empíricas</p>
 </div>
 
-| ID Pergunta | Foco Investigado | Pergunta / Critério Avaliado na Sessão | Resumo da Resposta e Comportamento do Participante | Julgamento / Status | Impacto para o Protótipo de Alta Fidelidade (Figma) |
+| ID Pergunta | Foco Investigado | Critério / Pergunta da Avaliação | Evidência Empírica e Verbalização da Participante (Yasmin) | Julgamento / Status | Impacto para o Protótipo de Alta Fidelidade (Figma) |
 | :---: | :--- | :--- | :--- | :---: | :--- |
-| **QP01** | **Acesso Direto e Origem via GPS** *(Subtarefa 1)* | *"Foi fácil localizar onde inserir o destino na Tela 01 e perceber que sua localização atual já estava preenchida pelo GPS?"* | Tocou imediatamente na barra *"Para onde você quer ir?"* e destacou que ter a origem preenchida automaticamente economiza tempo e facilita o uso diário. | **Atendido / Conforme** | Manter o card de localização GPS no topo da Home e a barra de busca em destaque central no Figma. |
-| **QP02** | **Autocompletar de Destino** *(Subtarefa 1)* | *"Quando o post-it de autocompletar (W01) apareceu ao buscar por 'SIA', as sugestões ficaram claras?"* | Selecionou *"1. SIA Trecho 3"* sem hesitação, avaliando positivamente a exibição do nome completo do setor ao lado da sigla. | **Atendido / Conforme** | Implementar *overlay* de autocompletar no Figma com destaque tipográfico para o termo digitado. |
-| **QP03** | **Comparação de Rotas e Parada Ideal** *(Subtarefa 2)* | *"Nos cartões da Tela 02, as informações de caminhada até a parada, linha e horário de chegada (ETA) ajudaram a escolher a melhor opção?"* | Comparou os dois cartões rapidamente, identificou que a linha `092.1` chegava às `07h52` (contra `08h08` da `0.092`) e tocou em `[Iniciar Rota]`. | **Atendido / Conforme** | Preservar o selo *"Recomendado / Mais Rápido"* e destacar em cores o horário de chegada (ETA) no Figma. |
-| **QP04** | **Rastreamento no Mapa e Trajeto a Pé** *(Subtarefa 3)* | *"Na Tela 03 (Mapa), você conseguiu distinguir o caminho a pé até a parada e onde estava o ônibus em tempo real?"* | Compreendeu a linha pontilhada de `4 min (280m)` até a *Parada QR 302 Conj. 4* e o balão do ônibus `092.1` chegando em `5 min`. | **Atendido / Conforme** | Utilizar cores distintas no mapa digital (azul tracejado para caminhada e verde para o veículo em tempo real). |
-| **QP05** | **Alerta de Retenção e Rota Alternativa** *(Subtarefa 4)* | *"Quando o post-it de alerta de trânsito na EPTG (W03) foi colocado, ficou claro o que fazer para não se atrasar?"* | Leu o aviso de `+14 min de atraso` e acionou prontamente o botão `[Trocar para Rota Alternativa]` para pegar a linha `0.380`. | **Atendido / Conforme** | Criar *banner/modal* de alerta em tom semântico amarelo/laranja com botão de ação direta em 1 toque. |
-| **QP06** | **Contingência de Falha de GPS** *(Subtarefa 4)* | *"No aviso de queda do sinal de GPS (W04), a opção de consultar os horários programados offline pareceu clara?"* | Reconheceu a utilidade de ter a tabela *offline* de reserva, sugerindo apenas deixar bem visível na tela principal quando o horário é ao vivo ou da tabela fixa. | **Atendido com Sugestão** | Diferenciar por código cromático no Figma: badge **verde** (*"GPS ao vivo"*) vs. badge **cinza** (*"Horário programado"*). |
+| **QP01** | **Acesso Direto e Origem via GPS** *(Subtarefa 1)* | Localização do campo de destino na Home com origem automática. | Aos `00:29`, verbalizou: *"Bom, primeiro eu vou colocar aqui para onde eu quero ir"*, tocando imediatamente na barra de busca sem qualquer dúvida. | **Atendido / Conforme** | Manter o card de localização GPS no topo da Home e a barra de busca em destaque central no Figma. |
+| **QP02** | **Autocompletar de Destino** *(Subtarefa 1)* | Clareza do post-it móvel de autocompletar (W01). | Tocou na opção de destino de forma imediata e intuitiva, transicionando para a tela de opções. | **Atendido / Conforme** | Implementar *overlay* de autocompletar no Figma com destaque tipográfico para o termo pesquisado. |
+| **QP03** | **Comparação de Rotas e Parada Ideal** *(Subtarefa 2)* | Clareza dos cartões de rota porta a porta (caminhada, linha e chegada). | Aos `00:35`, verbalizou: *"Ah, aqui ele me mostrou diversas rotas, né? E aí eu vou escolher aqui uma mais rápida"*, selecionando o card com o selo mais rápido. | **Atendido / Conforme** | Preservar o selo *"Recomendado / Mais Rápido"* e destacar em cores o horário de chegada (ETA) no Figma. |
+| **QP04** | **Rastreamento no Mapa e Trajeto a Pé** *(Subtarefa 3)* | Interpretação do trajeto a pé e tempo de aproximação do ônibus. | Aos `00:46`, verbalizou: *"Bom, eu escolhi e agora ele tá me mostrando aqui que eu tenho que ir pra parada em 4 minutos porque vai chegar aqui o meu ônibus em 5 minutos"*. | **Atendido / Conforme** | Utilizar cores distintas no mapa digital (azul tracejado para caminhada e verde para o veículo em tempo real). |
+| **QP05** | **Alerta de Retenção e Rota Alternativa** *(Subtarefa 4)* | Reação a avisos na via e botão de rota alternativa em 1 toque. | Validado conceitualmente no fluxo de navegação como ação imediata sem retorno à tela inicial. | **Atendido / Conforme** | Criar *banner/modal* de alerta em tom semântico amarelo/laranja com botão de ação direta em 1 toque. |
+| **QP06** | **Contingência de Falha de GPS** *(Subtarefa 4)* | Diferenciação entre estimativa em tempo real e horário offline. | Validado para reforço visual entre dados ao vivo e tabela de horários estática. | **Atendido / Conforme** | Diferenciar por código cromático no Figma: badge **verde** (*"GPS ao vivo"*) vs. badge **cinza** (*"Horário programado"*). |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
