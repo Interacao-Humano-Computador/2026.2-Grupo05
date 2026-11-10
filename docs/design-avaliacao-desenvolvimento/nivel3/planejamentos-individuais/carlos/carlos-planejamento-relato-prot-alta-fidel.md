@@ -5,10 +5,11 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 02/11/2026 | `1.0` | Criação do planejamento individual do relato dos resultados da avaliação do Protótipo de Alta Fidelidade da TAR-06. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude Code (Anthropic) - apoio à redação e à formatação em Markdown a partir das decisões de planejamento do autor |
+| 10/11/2026 | `1.1` | Troca da plataforma do protótipo de Figma para HTML navegável: versão testada passa a ser o link publicado e o *commit*, e o reprojeto passa a ser feito no código do protótipo. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude Code (Anthropic) - apoio à redação e à formatação em Markdown a partir das decisões do autor |
 
 ---
 
-Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. O documento define como os dados das sessões serão organizados, interpretados e apresentados no relato da Etapa 7. Ele complementa o [Planejamento da Avaliação do Protótipo de Alta Fidelidade](carlos-planejamento-av-prot-alta-fidel.md), que define as perguntas P01–P07, as tarefas AF1–AF3 e os três participantes.
+Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. O documento define como os dados das sessões serão organizados, interpretados e apresentados no relato da Etapa 7. Ele complementa o [Planejamento da Avaliação do Protótipo de Alta Fidelidade](carlos-planejamento-av-prot-alta-fidel.md), que define as perguntas P01–P07, as tarefas AF1–AF3 e os três participantes. Desde a versão `1.1`, o protótipo avaliado é uma página em **HTML navegável**, executada no navegador do celular, e não um arquivo do Figma.
 
 As tabelas abaixo são **modelos vazios**. Nenhuma sessão foi realizada e nenhum resultado é antecipado neste planejamento.
 
@@ -21,7 +22,7 @@ As tabelas abaixo são **modelos vazios**. Nenhuma sessão foi realizada e nenhu
 3. **Listar os problemas de usabilidade** com a tela afetada, a severidade, os participantes afetados e uma sugestão de solução.
 4. **Comparar com o protótipo de papel:** indicar quais problemas da avaliação em papel foram resolvidos e quais continuam.
 5. **Atualizar a situação das hipóteses H2 a H7** da TAR-06.
-6. **Propor o reprojeto** das telas no Figma e registrar as perguntas que ficaram sem resposta.
+6. **Propor o reprojeto** das telas do protótipo HTML e registrar as perguntas que ficaram sem resposta.
 
 Segundo Barbosa e Silva (2010, p. 310–312), primeiro se interpretam os dados de cada participante e depois se consolidam os resultados de todos, voltando às perguntas iniciais ([Figura 1](#figura-1), [Figura 2](#figura-2) e [Figura 3](#figura-3)).
 
@@ -35,7 +36,7 @@ Segundo Barbosa e Silva (2010, p. 310–312), primeiro se interpretam os dados d
 
 | Seção | Conteúdo |
 | :--- | :--- |
-| **1. Objetivos e escopo** | Objetivos da avaliação, escopo da TAR-06, versão e link do protótipo no Figma. |
+| **1. Objetivos e escopo** | Objetivos da avaliação, escopo da TAR-06, link publicado e *commit* do protótipo HTML testado. |
 | **2. Método** | Breve descrição do teste de usabilidade e do pensar em voz alta. |
 | **3. Participantes e avaliadores** | Quantidade e perfil agregado dos participantes (sem dados pessoais), papéis do condutor e do observador. |
 | **4. Execução** | Datas, horários, local, dispositivo, ajustes feitos após o teste piloto e desvios do planejamento. |
@@ -44,7 +45,7 @@ Segundo Barbosa e Silva (2010, p. 310–312), primeiro se interpretam os dados d
 | **7. Problemas encontrados** | Tabela 5 preenchida, ordenada por severidade. |
 | **8. Comparação com o protótipo de papel** | Tabela 6 preenchida. |
 | **9. Hipóteses da TAR-06** | Tabela 7 preenchida. |
-| **10. Reprojeto e limitações** | Mudanças no Figma, prioridade, perguntas sem resposta e limites da amostra. |
+| **10. Reprojeto e limitações** | Mudanças no protótipo HTML, prioridade, perguntas sem resposta e limites da amostra. |
 | **11. Vídeos** | Gravações das sessões incorporadas do YouTube, com autorização dos participantes. |
 
 <div align="center">
@@ -127,7 +128,7 @@ Quando não houver evidência suficiente, a pergunta é marcada como **inconclus
 <p><strong>Tabela 5</strong> — Problemas encontrados no protótipo de alta fidelidade</p>
 </div>
 
-| ID | Tela / componente | Descrição do problema | Evidência observada | Participantes afetados | Severidade (0–4) | Sugestão de solução no Figma |
+| ID | Tela / componente | Descrição do problema | Evidência observada | Participantes afetados | Severidade (0–4) | Sugestão de solução no protótipo |
 | :---: | :--- | :--- | :--- | :---: | :---: | :--- |
 | **AF-01** | *[a preencher]* | *[a preencher]* | *[a preencher]* | *[a preencher]* | *[0 a 4]* | *[a preencher]* |
 | **AF-02** | *[a preencher]* | *[a preencher]* | *[a preencher]* | *[a preencher]* | *[0 a 4]* | *[a preencher]* |
@@ -144,7 +145,7 @@ Um problema que aparece em mais de um participante é registrado **uma vez**, co
 <p><strong>Tabela 6</strong> — Problemas do protótipo de papel × resultado na alta fidelidade</p>
 </div>
 
-| Problema do papel | Ajuste feito no Figma | Resultado na alta fidelidade |
+| Problema do papel | Ajuste feito no protótipo | Resultado na alta fidelidade |
 | :--- | :--- | :---: |
 | *[ID e descrição do relato do papel]* | *[a preencher]* | Resolvido / Persiste / Não observado |
 
@@ -177,8 +178,8 @@ Os valores possíveis são **confirmada**, **parcialmente confirmada**, **não c
 
 ## 5. Reprojeto e Limitações
 
-1. **Prioridade:** problemas de severidade 3 e 4 são corrigidos primeiro no Figma; os de severidade 1 e 2 entram na lista de melhorias; os de severidade 0 são registrados.
-2. **Registro das mudanças:** cada mudança indica o ID do problema que a justifica, a tela alterada e a nova versão do arquivo do Figma.
+1. **Prioridade:** problemas de severidade 3 e 4 são corrigidos primeiro no protótipo HTML; os de severidade 1 e 2 entram na lista de melhorias; os de severidade 0 são registrados.
+2. **Registro das mudanças:** cada mudança indica o ID do problema que a justifica, a tela alterada e o *commit* do protótipo HTML que contém a mudança.
 3. **Limitações:** o relato informa o número e o perfil reais dos participantes, os estados simulados no protótipo (como o aviso de posição desatualizada), falhas técnicas e desvios do roteiro. Com três participantes, as conclusões valem só para o protótipo e as tarefas testadas (Barbosa e Silva, 2010, p. 312–313) ([Figura 3](#figura-3) e [Figura 6](#figura-6)).
 4. **Teste piloto:** os dados do piloto não entram no relato; só os ajustes feitos depois dele são registrados (Barbosa e Silva, 2010, p. 307) ([Figura 7](#figura-7)).
 
@@ -234,7 +235,7 @@ Os trechos grifados em amarelo fundamentam as decisões deste planejamento.
 
 ## 7. Declaração sobre o Uso de IA Generativa
 
-Em cumprimento ao Plano de Ensino e ao Código de Conduta da SBC, declara-se que a ferramenta **Claude Code (Anthropic)** foi utilizada para apoiar a redação e a formatação do texto em Markdown. As decisões sobre a estrutura do relato e os critérios de análise são de Carlos Costa, que revisou o texto e responde integralmente pelo conteúdo.
+Em cumprimento ao Plano de Ensino e ao Código de Conduta da SBC, declara-se que a ferramenta **Claude Code (Anthropic)** foi utilizada para apoiar a redação e a formatação do texto em Markdown e, desde a versão `1.1`, para implementar o protótipo navegável em HTML a partir das decisões de design do autor. As decisões sobre a estrutura do relato e os critérios de análise são de Carlos Costa, que revisou o texto e responde integralmente pelo conteúdo.
 
 ---
 
