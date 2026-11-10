@@ -7,6 +7,7 @@
 | 05/09/2026 | 1.0 | Tabela de ferramentas utilizadas no projeto. | Gabriel Melo | Tomas Garcia |
 | 19/09/2026 | 2.0 | Acrescimo de novas ferramentas que serão utilizadas durante o desenvolvimento do projeto | Gabriel Melo | Igor Dantas |
 | 20/09/2026 | 2.1 | Acrescimo de etapas onde serão utilizadas as ferramentas | Gabriel Melo | Arthur Mariani |
+| 10/11/2026 | 2.2 | Inclusão do Claude Code (Anthropic) e ajuste da descrição do Figma, porque o protótipo de alta fidelidade da TAR-06 passou a ser feito em HTML navegável. | Carlos Costa | Arthur Mariani |
 
 ---
 
@@ -33,7 +34,8 @@ A escolha dessas plataformas levou em consideração a acessibilidade, a eficiê
 | **123APPS** | ![123APPS](../assets/images/123APPS.png) | Plataforma utilizada para a gravação de tela e áudio durante as apresentações assíncronas dos artefatos produzidos pela equipe, garantindo o registro em vídeo exigido pela disciplina. | Etapas de 1 a 8. |
 | **CapCut** | ![CapCut](../assets/images/CapCut.png) | Escolhido para a edição rápida e eficiente dos vídeos gravados. Permite realizar cortes, ajustes de áudio e a renderização final do material audiovisual antes do upload na plataforma de hospedagem. | Etapas de 1 a 8. |
 | **VS Code** | ![VS Code](../assets/images/Vscode.jpg) | Ambiente de Desenvolvimento Integrado (IDE) principal adotado pela equipe. Escolhido por sua leveza, integração nativa com o Git e vasta gama de extensões, facilitando a edição dos arquivos Markdown, a manutenção da estrutura do MkDocs e o gerenciamento do repositório. | Etapas de 1 a 8. |
-| **Figma** | ![Figma](../assets/images/Figma.png) | Ambiente de prototipação de baixa fidelidade adotado pela equipe para planejamento de correções de defeitos encontrados nos sites. | Etapas 6 e 7. |
+| **Figma** | ![Figma](../assets/images/Figma.png) | Ambiente de prototipação adotado pela equipe para planejamento de correções de defeitos encontrados nos sites e para os protótipos de alta fidelidade dos integrantes que optaram por ele. | Etapas 6 e 7. |
+| **Claude Code (Anthropic)** | — | Agente de código com IA usado para implementar o protótipo de alta fidelidade da TAR-06 em HTML navegável, a partir das telas, das tarefas e do Guia de Estilo definidos pelo autor, e para apoiar a revisão e a formatação dos textos em Markdown. O protótipo fica versionado no repositório e publicado no GitHub Pages. | Etapas 5, 6 e 7. |
 
 *Fonte: Gabriel Melo. Logomarcas de propriedade de suas respectivas empresas institucionais.*
 
