@@ -55,11 +55,32 @@ O protótipo é uma página em **HTML navegável**, executada no navegador do ce
 <p><strong>Imagens 1 a 6</strong> — Telas do protótipo de alta fidelidade da TAR-06</p>
 </div>
 
-| ![Imagem 1 — Tela inicial](../../../../assets/images/prototipo-tar06/A1-inicio.png){ width="200" } | ![Imagem 2 — Resultados por lugar](../../../../assets/images/prototipo-tar06/A3-resultados-lugar.png){ width="200" } | ![Imagem 3 — Linha 2310](../../../../assets/images/prototipo-tar06/A4-linha-2310.png){ width="200" } |
-| :---: | :---: | :---: |
-| **Imagem 1** — A1 Início | **Imagem 2** — A3 Resultados por lugar | **Imagem 3** — A4 Linha |
-| ![Imagem 4 — Aviso de posição desatualizada](../../../../assets/images/prototipo-tar06/N1-aviso.png){ width="200" } | ![Imagem 5 — Alternativas](../../../../assets/images/prototipo-tar06/A5-alternativas.png){ width="200" } | ![Imagem 6 — Aviso de atraso ativo](../../../../assets/images/prototipo-tar06/N2b-aviso-ativo.png){ width="200" } |
-| **Imagem 4** — N1 Aviso de posição desatualizada | **Imagem 5** — A5 Alternativas | **Imagem 6** — N2 Confirmação do aviso de atraso |
+<div style="display:flex;flex-wrap:wrap;justify-content:center;gap:24px 20px">
+  <figure style="margin:0;width:220px">
+    <img src="../../../../../assets/images/prototipo-tar06/A1-inicio.png" alt="Imagem 1 — Tela inicial" width="220">
+    <figcaption><strong>Imagem 1</strong> — A1 Início</figcaption>
+  </figure>
+  <figure style="margin:0;width:220px">
+    <img src="../../../../../assets/images/prototipo-tar06/A3-resultados-lugar.png" alt="Imagem 2 — Resultados por lugar" width="220">
+    <figcaption><strong>Imagem 2</strong> — A3 Resultados por lugar</figcaption>
+  </figure>
+  <figure style="margin:0;width:220px">
+    <img src="../../../../../assets/images/prototipo-tar06/A4-linha-2310.png" alt="Imagem 3 — Linha 2310" width="220">
+    <figcaption><strong>Imagem 3</strong> — A4 Linha</figcaption>
+  </figure>
+  <figure style="margin:0;width:220px">
+    <img src="../../../../../assets/images/prototipo-tar06/N1-aviso.png" alt="Imagem 4 — Aviso de posição desatualizada" width="220">
+    <figcaption><strong>Imagem 4</strong> — N1 Aviso de posição desatualizada</figcaption>
+  </figure>
+  <figure style="margin:0;width:220px">
+    <img src="../../../../../assets/images/prototipo-tar06/A5-alternativas.png" alt="Imagem 5 — Alternativas" width="220">
+    <figcaption><strong>Imagem 5</strong> — A5 Alternativas</figcaption>
+  </figure>
+  <figure style="margin:0;width:220px">
+    <img src="../../../../../assets/images/prototipo-tar06/N2b-aviso-ativo.png" alt="Imagem 6 — Confirmação do aviso de atraso" width="220">
+    <figcaption><strong>Imagem 6</strong> — N2 Confirmação do aviso de atraso</figcaption>
+  </figure>
+</div>
 
 <div align="center">
 <p><em>Fonte: Elaborado por Carlos Costa (2026).</em></p>
