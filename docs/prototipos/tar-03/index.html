@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEMOB-DF • Planejador de Rota (TAR-03)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <main class="phone-frame" id="phoneFrame">
+
+    <!-- Cabeçalho Minimalista -->
+    <header class="app-header">
+      <span class="brand-title">SEMOB-DF</span>
+      <button
+        type="button"
+        class="contrast-btn"
+        id="contrastBtn"
+        onclick="toggleContrast()"
+        aria-pressed="false"
+      >
+        Alto Contraste
+      </button>
+    </header>
+
+    <!-- Notificação Discreta (Toast) -->
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <!-- =====================================================================
+         TELA 01: HOME E BUSCA PREDITIVA (TAR-03.1)
+         ===================================================================== -->
+    <section class="screen active" id="screen-home">
+
+      <!-- Localização Atual (GPS) -->
+      <div class="location-card">
+        <div class="pin-icon" aria-hidden="true">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11z"/>
+            <circle cx="12" cy="10" r="2.5"/>
+          </svg>
+        </div>
+        <div>
+          <div class="location-label">Sua localização atual</div>
+          <div class="location-value">Samambaia Sul — QR 302</div>
+        </div>
+      </div>
+
+      <!-- Busca de Destino -->
+      <div class="search-block">
+        <label for="destinationInput" class="field-label">Para onde você quer ir?</label>
+        <div class="search-input-wrapper">
+          <svg class="search-svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="11" cy="11" r="7"/>
+            <line x1="20" y1="20" x2="16" y2="16"/>
+          </svg>
+          <input
+            type="text"
+            id="destinationInput"
+            class="search-input"
+            placeholder="Digite o destino (ex: SIA)"
+            autocomplete="off"
+            oninput="handleSearchInput(this.value)"
+            onfocus="handleSearchFocus()"
+          />
+          <button
+            type="button"
+            class="clear-btn"
+            id="clearBtn"
+            onclick="clearSearch()"
+            aria-label="Limpar busca"
+          >
+            &times;
+          </button>
+        </div>
+
+        <!-- W01: Sugestões de Autocompletar -->
+        <div class="autocomplete-list" id="autocompleteList" role="listbox"></div>
+      </div>
+
+      <!-- Atalhos Rápidos -->
+      <div class="shortcuts-block">
+        <span class="Shortcuts-label">Atalhos rápidos</span>
+        <div class="shortcuts-grid">
+          <button
+            type="button"
+            class="shortcut-btn"
+            onclick="selectDestination('SIA Trecho 3 — Setor de Indústria e Abastecimento')"
+          >
+            <div class="shortcut-name">Trabalho SIA</div>
+            <div class="shortcut-detail">SIA Trecho 3</div>
+          </button>
+
+          <button
+            type="button"
+            class="shortcut-btn"
+            onclick="selectDestination('Rodoviária do Plano Piloto')"
+          >
+            <div class="shortcut-name">Rodoviária</div>
+            <div class="shortcut-detail">Plano Piloto</div>
+          </button>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- =====================================================================
+         TELA 02: COMPARAÇÃO DE ROTAS PORTA A PORTA (TAR-03.2)
+         ===================================================================== -->
+    <section class="screen" id="screen-routes">
+
+      <div class="nav-row">
+        <button type="button" class="back-link" onclick="goToScreen('home')">
+          &larr; Voltar
+        </button>
+        <span class="screen-subtitle" id="destHeaderLabel">Destino: SIA Trecho 3</span>
+      </div>
+
+      <div class="routes-list">
+
+        <!-- Card A: Recomendado / Mais Rápido -->
+        <article class="route-card recommended">
+          <span class="route-tag fast">Recomendado • Mais Rápido</span>
+
+          <div>
+            <div class="route-title">Linha 092.1</div>
+            <div class="route-subtitle">Samambaia Sul / SIA (Semiexpresso)</div>
+          </div>
+
+          <div class="route-details">
+            <div class="detail-row">
+              <span class="detail-label">Caminhada</span>
+              <span class="detail-val">4 min (280m) até Parada QR 302 Conj. 4</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Ônibus em</span>
+              <span class="detail-val" style="color: var(--green);">5 min (Tempo Real GPS)</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Tarifa</span>
+              <span class="detail-val">R$ 5,50</span>
+            </div>
+          </div>
+
+          <div class="eta-row">
+            <span class="eta-label">Chegada (ETA):</span>
+            <span class="eta-badge">07h52</span>
+          </div>
+
+          <button type="button" class="btn-primary" onclick="startNavigation('092.1')">
+            Iniciar Rota
+          </button>
+        </article>
+
+        <!-- Card B: Alternativa Convencional -->
+        <article class="route-card">
+          <span class="route-tag normal">Alternativa Convencional</span>
+
+          <div>
+            <div class="route-title">Linha 0.092</div>
+            <div class="route-subtitle">Samambaia Sul / SIA (Via EPTG)</div>
+          </div>
+
+          <div class="route-details">
+            <div class="detail-row">
+              <span class="detail-label">Caminhada</span>
+              <span class="detail-val">3 min (210m) até Parada QR 302 Conj. 1</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Ônibus em</span>
+              <span class="detail-val">12 min</span>
+            </div>
+            <div class="detail-row">
+              <span class="detail-label">Tarifa</span>
+              <span class="detail-val">R$ 5,50</span>
+            </div>
+          </div>
+
+          <div class="eta-row">
+            <span class="eta-label">Chegada (ETA):</span>
+            <span class="eta-badge">08h08</span>
+          </div>
+
+          <button type="button" class="btn-outline" onclick="startNavigation('0.092')">
+            Selecionar
+          </button>
+        </article>
+
+      </div>
+
+    </section>
+
+    <!-- =====================================================================
+         TELA 03: MAPA E ÔNIBUS AO VIVO (TAR-03.3)
+         ===================================================================== -->
+    <section class="screen" id="screen-map">
+
+      <div class="nav-row">
+        <button type="button" class="back-link" onclick="goToScreen('routes')">
+          &larr; Voltar
+        </button>
+
+        <!-- Status de Telemetria (Verde vs Cinza) -->
+        <div class="status-pill" id="statusPill">
+          <span class="status-dot"></span>
+          <span id="statusText">GPS ao vivo • Atualizado há 10s</span>
+        </div>
+      </div>
+
+      <!-- W03: Alerta de Retenção na Via -->
+      <div class="contingency-card warn" id="retentionCard" role="alert">
+        <div class="contingency-title">Alerta de Retenção na Via</div>
+        <p>
+          Retenção severa na EPTG (+14 min de atraso na linha 092.1).
+          Linha alternativa <strong>0.380</strong> disponível na mesma parada chegando em <strong>3 min</strong>.
+        </p>
+        <button type="button" class="btn-primary" onclick="switchAlternativeRoute()">
+          Trocar para Rota Alternativa (0.380)
+        </button>
+      </div>
+
+      <!-- W04: Contingência de Falha de GPS -->
+      <div class="contingency-card offline" id="offlineCard" role="alert">
+        <div class="contingency-title">Contingência de Falha de GPS</div>
+        <p style="color: var(--ink-secondary);">
+          Sinal de GPS do veículo indisponível no momento.
+        </p>
+        <button type="button" class="btn-outline" onclick="openScheduleModal()">
+          Consultar Horários Programados (Offline)
+        </button>
+      </div>
+
+      <!-- Mapa Esquemático Limpo -->
+      <div class="map-box">
+        <svg class="map-svg" id="mapSvg" viewBox="0 0 350 240" xmlns="http://www.w3.org/2000/svg">
+          <rect width="350" height="240" fill="#edf2f7" />
+          <rect x="16" y="16" width="105" height="72" rx="6" fill="#e2e8f0" />
+          <rect x="16" y="106" width="90" height="86" rx="6" fill="#e2e8f0" />
+          <rect x="135" y="128" width="115" height="70" rx="6" fill="#e2e8f0" />
+
+          <!-- Via Principal -->
+          <path d="M 218 -10 Q 204 88 355 170" fill="none" stroke="#ffffff" stroke-width="22" />
+          <path d="M 55 52 L 175 172 L 280 132" fill="none" stroke="#ffffff" stroke-width="14" />
+
+          <!-- Caminhada Tracejada (4 min / 280m) -->
+          <path
+            d="M 65 60 L 172 170"
+            fill="none"
+            stroke="#155e95"
+            stroke-width="3.5"
+            stroke-dasharray="6 5"
+            stroke-linecap="round"
+          />
+
+          <!-- Balão 4 min / 280m -->
+          <g transform="translate(112, 92)">
+            <rect x="0" y="0" width="58" height="32" rx="6" fill="#ffffff" stroke="#cbd5e1" />
+            <text x="29" y="14" text-anchor="middle" font-size="9.5" font-weight="700" fill="#111827">4 min</text>
+            <text x="29" y="25" text-anchor="middle" font-size="9" font-weight="500" fill="#4b5563">280m</text>
+          </g>
+
+          <!-- Ponto: Você está aqui -->
+          <g transform="translate(65, 60)">
+            <circle cx="0" cy="0" r="13" fill="#fef08a" />
+            <circle cx="0" cy="0" r="6" fill="#111827" />
+            <rect x="-42" y="-32" width="84" height="20" rx="5" fill="#ffffff" stroke="#cbd5e1" />
+            <text x="0" y="-19" text-anchor="middle" font-size="9" font-weight="600" fill="#111827">
+              Você está aqui
+            </text>
+          </g>
+
+          <!-- Ponto: Parada QR 302 Conj. 4 -->
+          <g transform="translate(172, 170)">
+            <circle cx="0" cy="0" r="7" fill="#15803d" stroke="#ffffff" stroke-width="2" />
+            <rect x="12" y="-16" width="106" height="30" rx="6" fill="#ffffff" stroke="#cbd5e1" />
+            <text x="65" y="-3" text-anchor="middle" font-size="9" font-weight="600" fill="#111827">Parada</text>
+            <text x="65" y="9" text-anchor="middle" font-size="9" font-weight="600" fill="#4b5563">
+              QR 302 Conj. 4
+            </text>
+          </g>
+
+          <!-- Ônibus em Tempo Real (W02) -->
+          <g id="busMarker" transform="translate(256, 112)">
+            <rect
+              id="busCardRect"
+              x="-72"
+              y="-64"
+              width="132"
+              height="48"
+              rx="7"
+              fill="#ffffff"
+              stroke="#15803d"
+              stroke-width="1.5"
+            />
+            <text id="mapBusTitle" x="-6" y="-47" text-anchor="middle" font-size="10.5" font-weight="700" fill="#111827">
+              092.1
+            </text>
+            <text id="mapBusSub" x="-6" y="-34" text-anchor="middle" font-size="9" font-weight="600" fill="#15803d">
+              Chega na parada em 5 min
+            </text>
+            <text id="mapBusTime" x="-6" y="-22" text-anchor="middle" font-size="8" fill="#6b7280">
+              Atualizado há 10s
+            </text>
+
+            <rect x="-14" y="-8" width="28" height="16" rx="4" fill="#facc15" stroke="#111827" stroke-width="1.5" />
+          </g>
+        </svg>
+
+        <!-- Controle de Zoom do Mapa (PP-02) -->
+        <div class="map-zoom-bar">
+          <button type="button" class="zoom-btn" id="btnZoomStop" onclick="setZoom(true)">
+            Parada
+          </button>
+          <button type="button" class="zoom-btn active" id="btnZoomFull" onclick="setZoom(false)">
+            Rota
+          </button>
+        </div>
+      </div>
+
+      <!-- Passo a Passo da Viagem -->
+      <div class="steps-card">
+        <div class="step-row">
+          <span class="step-num">1</span>
+          <span class="step-desc">Caminhe 280m até Parada QR 302 Conj. 4</span>
+        </div>
+        <div class="step-row">
+          <span class="step-num">2</span>
+          <span class="step-desc" id="stepLineText">Embarque na Linha 092.1</span>
+        </div>
+        <div class="step-row">
+          <span class="step-num">3</span>
+          <span class="step-desc">
+            Desembarque em SIA Trecho 3 às
+            <strong id="stepEtaText" style="background: var(--highlight); padding: 1px 6px; border-radius: 4px;">
+              07h52
+            </strong>
+          </span>
+        </div>
+      </div>
+
+      <!-- Controles Discretos para Simular W03 e W04 na Sessão -->
+      <div class="sim-bar">
+        <button type="button" class="sim-btn" onclick="triggerRetention()">
+          Simular W03 (Retenção)
+        </button>
+        <button type="button" class="sim-btn" onclick="triggerOffline()">
+          Simular W04 (Sem GPS)
+        </button>
+        <button type="button" class="sim-btn" onclick="resetMapState()">
+          Normalizar
+        </button>
+      </div>
+
+    </section>
+
+    <!-- Modal de Horários Programados (Offline - W04) -->
+    <div class="modal-overlay" id="scheduleModal" role="dialog" aria-modal="true">
+      <div class="modal-box">
+        <div style="font-size: 1rem; font-weight: 700;">Horários Programados (Offline)</div>
+        <p style="font-size: 0.82rem; color: var(--ink-secondary);">
+          Saídas previstas de Samambaia Sul (QR 302) em dias úteis:
+        </p>
+        <div class="times-grid">
+          <div class="time-chip">06h15</div>
+          <div class="time-chip">06h30</div>
+          <div class="time-chip active">06h50</div>
+          <div class="time-chip">07h05</div>
+          <div class="time-chip">07h20</div>
+          <div class="time-chip">07h40</div>
+        </div>
+        <button type="button" class="btn-primary" onclick="closeScheduleModal()">
+          Fechar
+        </button>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
