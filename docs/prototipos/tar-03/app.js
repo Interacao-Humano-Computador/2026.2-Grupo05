@@ -20,6 +20,24 @@ const SUGGESTIONS = [
 
 document.addEventListener("DOMContentLoaded", () => {
   setInterval(updateTelemetryClock, 1000);
+  const params = new URLSearchParams(window.location.search);
+  const view = params.get("view");
+  if (view === "autocomplete") {
+    const input = document.getElementById("destinationInput");
+    if (input) input.value = "SIA";
+    handleSearchInput("SIA");
+  } else if (view === "routes") {
+    selectDestination("1. SIA Trecho 3 — Setor de Indústria e Abastecimento");
+  } else if (view === "map") {
+    startNavigation("092.1");
+  } else if (view === "retention") {
+    startNavigation("092.1");
+    triggerRetention();
+  } else if (view === "offline") {
+    startNavigation("092.1");
+    triggerOffline();
+    openScheduleModal();
+  }
 });
 
 function updateTelemetryClock() {
