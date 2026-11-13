@@ -24,6 +24,7 @@ A coleta de dados seguiu a metodologia de **entrevista semiestruturada** orienta
 * **Entrevistador:** Igor Dantas Araújo.
 * **Perfil do Participante convidado:** Usuário do transporte público coletivo do Distrito Federal que utiliza ônibus para seus deslocamentos diários rumo às aulas, enquadrando-se no perfil da persona [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/).
 * **Ambiente e Recursos:** Sessão presencial gravada em vídeo com exibição dos artefatos.
+* **Termo de Consentimento Livre e Esclarecido (TCLE):** [Visualizar PDF do TCLE Assinado](../../../../assets/PDFs/Igor_TCLE__ArthurMiranda.pdf)
 * O vídeo da entrevista está disponível clicando [aqui](https://youtu.be/GSssfkHx3ug).
 
 ---
