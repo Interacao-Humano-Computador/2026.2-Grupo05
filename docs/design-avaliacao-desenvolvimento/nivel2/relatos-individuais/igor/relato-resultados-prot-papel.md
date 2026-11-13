@@ -20,7 +20,53 @@ O objetivo desta avaliação formativa foi verificar a usabilidade e a comunicab
 
 ---
 
-## 2. Metodologia e Caracterização dos Participantes
+## 2. O Protótipo de Papel Avaliado
+
+O protótipo de papel da TAR-01 é composto por cinco telas desenhadas à mão, apresentadas abaixo na ordem do fluxo de interação simulado durante a sessão:
+
+<div align="center" markdown="1">
+<p><strong>Figura 1</strong> — Tela inicial: busca por linha ou destino, linhas e destinos salvos</p>
+
+![Tela inicial do protótipo de papel com campo de busca, linhas salvas e destinos salvos](../../../../assets/images/prototipo-tar01/Igor_prot_01.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+<div align="center" markdown="1">
+<p><strong>Figura 2</strong> — Monitoramento ativo: tempo de caminhada calculado via GPS e horário estimado de saída</p>
+
+![Tela de monitoramento ativo da linha BRT-2202 com tempo de caminhada até o ponto e saída estimada](../../../../assets/images/prototipo-tar01/Igor_prot_02.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+<div align="center" markdown="1">
+<p><strong>Figura 3</strong> — Alerta de saída imediata: ônibus adiantado, com opções "Estou saindo!" e "Sugerir outra rota"</p>
+
+![Tela de alerta de saída imediata informando que o ônibus se adiantou](../../../../assets/images/prototipo-tar01/Igor_prot_03.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+<div align="center" markdown="1">
+<p><strong>Figura 4</strong> — Rota alternativa: sugestão de nova linha para o destino, com opções de confirmar ou cancelar</p>
+
+![Tela de rota alternativa com destino UnB Campus Gama e nova rota pela linha 206.1](../../../../assets/images/prototipo-tar01/Igor_prot_04.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+<div align="center" markdown="1">
+<p><strong>Figura 5</strong> — Monitoramento da nova rota: linha alternativa selecionada e novo horário estimado de saída</p>
+
+![Tela de monitoramento ativo da linha 206.1 com novo horário estimado de saída](../../../../assets/images/prototipo-tar01/Igor_prot_05.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+---
+
+## 3. Metodologia e Caracterização dos Participantes
 
 A avaliação foi conduzida por meio do método de **Prototipação em Papel** em ambiente presencial controlado. Durante a simulação, o participante interagiu com as telas de papel indicando suas ações com os dedos, enquanto o avaliador atuou como "computador", manipulando e sobrepondo as peças móveis (cards) em resposta às decisões do usuário.
 
@@ -29,13 +75,14 @@ A avaliação foi conduzida por meio do método de **Prototipação em Papel** e
 * **Participante / Usuário Convidado:** **João Paulo**.
 * **Perfil do Participante:** Usuário frequente do transporte público coletivo do Distrito Federal, enquadrando-se no perfil da persona [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/).
 * **Aspectos Éticos:** O participante foi devidamente informado sobre os objetivos acadêmicos do estudo, o caráter voluntário de sua participação e a confidencialidade dos dados, assinou o TCLE e concedeu autorização para a gravação da sessão.
+* **Termo de Consentimento Livre e Esclarecido (TCLE):** [Visualizar PDF do TCLE Assinado](../../../../assets/PDFs/Igor_TCLE_JPMoraes.pdf)
 * **Gravação:** O vídeo da sessão está disponível [aqui](https://youtu.be/ZurUrGtRDMk).
 
 ---
 
-## 3. Sumário e Consolidação dos Dados Coletados
+## 4. Sumário e Consolidação dos Dados Coletados
 
-### 3.1 Desempenho nas Tarefas do Protótipo em Papel
+### 4.1 Desempenho nas Tarefas do Protótipo em Papel
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Desempenho do Participante nas Tarefas do Protótipo de Papel</p>
@@ -53,7 +100,7 @@ A avaliação foi conduzida por meio do método de **Prototipação em Papel** e
 
 ---
 
-### 3.2 Consolidação das Respostas da Entrevista Pós-Teste
+### 4.2 Consolidação das Respostas da Entrevista Pós-Teste
 
 <div align="center">
 <p><strong>Tabela 2</strong> — Consolidação das Respostas da Entrevista pós-teste</p>
@@ -73,7 +120,7 @@ A avaliação foi conduzida por meio do método de **Prototipação em Papel** e
 
 ---
 
-### 3.3 Tabela de Registro e Priorização de Problemas de IHC
+### 4.3 Tabela de Registro e Priorização de Problemas de IHC
 
 Conforme estabelecido pela escala de severidade de problemas de usabilidade de Nielsen (1994) e Barbosa et al. (2021), registra-se a ocorrência de problemas observados:
 
@@ -91,7 +138,7 @@ Conforme estabelecido pela escala de severidade de problemas de usabilidade de N
 
 ---
 
-### 3.4 Tabela de Iterações no Protótipo de Papel vs. Alta Fidelidade
+### 4.4 Tabela de Iterações no Protótipo de Papel vs. Alta Fidelidade
 
 <div align="center">
 <p><strong>Tabela 4</strong> — Registro de Iterações e Pendências de Reprojeto</p>
@@ -108,7 +155,7 @@ Conforme estabelecido pela escala de severidade de problemas de usabilidade de N
 
 ---
 
-## 4. Recomendações e Próximos Passos (Prototipação de Alta Fidelidade)
+## 5. Recomendações e Próximos Passos (Prototipação de Alta Fidelidade)
 
 Como o protótipo de papel da **[TAR-01](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/#tar-01-alerta-inteligente-de-saida)** obteve aprovação total do participante **João Paulo** sem apontamentos de problemas, as recomendações para as próximas fases do ciclo de design de IHC são:
 
@@ -118,13 +165,13 @@ Como o protótipo de papel da **[TAR-01](https://interacao-humano-computador.git
 
 ---
 
-## 5. Declaração sobre o Uso de IA Generativa
+## 6. Declaração sobre o Uso de IA Generativa
 
 Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas estritamente para auxílio na estruturação das tabelas em Markdown e revisão gramatical do texto. A condução do teste presencial, a interpretação do áudio da entrevista e a consolidação dos dados são de responsabilidade autoral de Igor Dantas Araújo.
 
 ---
 
-## 6. Referências Bibliográficas
+## 7. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 12: Métodos de Avaliação de IHC, Seção 12.2.3, p. 303–306).
 * NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.

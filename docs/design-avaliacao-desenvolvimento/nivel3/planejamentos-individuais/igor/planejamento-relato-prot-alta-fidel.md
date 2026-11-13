@@ -32,7 +32,7 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021, p. 263, 289–290
 1. **Introdução e Objetivos da Avaliação:** Síntese do escopo avaliado na TAR-01 e das perguntas de pesquisa do Framework DECIDE.
 2. **Metodologia Aplicada:** Descrição do método de Teste de Usabilidade no Figma e da técnica de *Think Aloud* (pensar em voz alta).
 3. **Caracterização dos Participantes e Justificativa de Amostragem:** Apresentação da tabela de perfil dos **3 participantes recrutados**, acompanhada da fundamentação teórica de Steve Krug (2000, 2006).
-4. **Sumário dos Dados Quantitativos de Desempenho:** Tabelas e gráficos consolidados do tempo de execução, taxa de sucesso sem apoio e erros de navegação.
+4. **Sumário dos Dados Quantitativos de Desempenho:** Tabela consolidada, por sub-tarefa da TAR-01, do sucesso sem ajuda de cada participante, da taxa de conclusão, dos erros críticos observados e da avaliação geral do desempenho.
 5. **Consolidação das Respostas da Entrevista Pós-Teste:** Compilação das respostas dadas às perguntas Q01 a Q06 do roteiro de avaliação.
 6. **Tabela de Registro e Priorização de Problemas de IHC:** Tabela padronizada com a classificação de severidade (níveis 0 a 4) e impacto na experiência de uso.
 7. **Avaliação de Conformidade com o Guia de Estilo:** Análise do cumprimento das diretrizes de design visual e comportamental do Grupo 05.
