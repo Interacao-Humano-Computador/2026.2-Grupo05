@@ -5,10 +5,11 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 03/11/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Alta Fidelidade (Figma) da TAR-09 (Pedido de aumento do limite diário do Vale-Transporte) via DECIDE. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
+| 14/11/2026 | `1.1` | Troca do Figma por um protótipo navegável em HTML, CSS e JavaScript, publicado no GitHub Pages com o visual do portal da SEMOB-DF, e inclusão do painel do avaliador. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para gerar o código do protótipo e ajustar o texto |
 
 ---
 
-Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-09 (Solicitar Aumento do Limite Diário de Uso do Vale-Transporte)](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)**. O protótipo será construído no **Figma**, no formato de tela de celular, e representa o fluxo **"Meu Vale-Transporte foi recusado"** no site da SEMOB-DF: o passageiro descobre por que o cartão foi recusado, pede mais passagens por dia pelo celular, recebe um protocolo e acompanha o pedido.
+Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-09 (Solicitar Aumento do Limite Diário de Uso do Vale-Transporte)](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)**. O protótipo foi construído em **HTML, CSS e JavaScript**, no formato de tela de celular e com o visual do portal da SEMOB-DF, e é publicado no GitHub Pages junto com a Wiki ([protótipo navegável](../../../../prototipos/tar-09/index.html)). Ele representa o fluxo **"Meu Vale-Transporte foi recusado"** no site da SEMOB-DF: o passageiro descobre por que o cartão foi recusado, pede mais passagens por dia pelo celular, recebe um protocolo e acompanha o pedido.
 
 Este é o terceiro ciclo de design e avaliação da TAR-09. O fluxo apareceu primeiro no [Storyboard 05](../../../nivel1/storyboards.md) (Nível 1) e depois foi representado em papel, conforme o [Planejamento da Avaliação do Protótipo de Papel](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) (Nível 2). Agora as telas ganham a aparência, os textos e a navegação que se espera do produto final, seguindo o [Guia de Estilo](../../../../analise-de-requisitos/guia-de-estilo/introducao.md) do Grupo 05.
 
@@ -31,7 +32,7 @@ A Tabela 1 resume o que o capítulo diz sobre esse tipo de protótipo e como iss
 | O protótipo de alta fidelidade é **totalmente interativo**, tem **uso conduzido pelo usuário**, **define o esquema de navegação** e tem o **mesmo *look and feel*** do produto final (Tabela 8.1). | 266 | Diferente do papel, não haverá "computador" humano. O próprio participante toca no celular, e a avaliação pode verificar a navegação, os textos e o visual definitivos. |
 | A prototipação **vertical** oferece bastante detalhe para poucas funções; a **horizontal** oferece muitas funções com pouco detalhe. | 266 | O protótipo é **vertical**: apenas o fluxo da TAR-09, com todos os estados (erro de foto, documento faltando, protocolo, aviso). Os outros atalhos da página inicial existem só para não induzir a escolha. |
 | Segundo Rettig (1994), em alta fidelidade os revisores **comentam aspectos superficiais** em vez do conteúdo, **um único *bug* pode interromper o teste** e o protótipo pode **elevar demais as expectativas**. | 265–266 | (a) as perguntas focam na tarefa, e não em cores; (b) todos os caminhos são conferidos no teste piloto; (c) o participante é avisado de que é um protótipo e que nenhum pedido real é enviado. |
-| Os protótipos envolvem **concessões**: no *software* algumas funções podem estar ausentes ou serem rudimentares. | 266 | A câmera, o WhatsApp e a análise da SEMOB serão **simulados** por telas do Figma. Isso será dito ao participante e registrado como limitação no relato. |
+| Os protótipos envolvem **concessões**: no *software* algumas funções podem estar ausentes ou serem rudimentares. | 266 | A câmera, o WhatsApp e a análise da SEMOB serão **simulados** dentro do próprio protótipo. Isso será dito ao participante e registrado como limitação no relato. |
 | As **oito regras de ouro** de Shneiderman: consistência, *feedback* informativo, diálogos que encerram as ações, prevenção de erros, reversão fácil das ações, controle do usuário e redução da carga de memória. | 285–287 | As regras servem de critério para as perguntas Q05 a Q07 (erro de foto, documento faltando, voltar sem perder dados e confirmação final). |
 | Toda página *web* deve responder: **Onde estou? O que é apresentado aqui? Onde posso ir?** (Quadro 8.7). | 292 | Usada na pergunta Q08, sobre a orientação do participante dentro do pedido em três passos. |
 
@@ -47,7 +48,7 @@ A avaliação é **formativa**: o objetivo é encontrar problemas de interação
 
 ### 2.1 Objetivo geral
 
-Verificar se trabalhadores que usam o Vale-Transporte e pegam vários ônibus por dia conseguem, sozinhos e pelo celular, entender por que o cartão foi recusado, pedir o aumento do limite diário e acompanhar o pedido no protótipo do Figma.
+Verificar se trabalhadores que usam o Vale-Transporte e pegam vários ônibus por dia conseguem, sozinhos e pelo celular, entender por que o cartão foi recusado, pedir o aumento do limite diário e acompanhar o pedido no protótipo navegável.
 
 ### 2.2 Objetivos específicos
 
@@ -97,10 +98,10 @@ O método escolhido é o **teste de usabilidade com observação de uso**, segui
 
 ### 4.1 O protótipo avaliado
 
-O protótipo será montado no Figma, com *frames* de celular ligados pelo modo *Prototype*. As telas são as mesmas do protótipo de papel. Como o [Relato dos Resultados do Protótipo de Papel](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md) não encontrou problemas, os textos e a ordem das telas foram mantidos:
+O [protótipo navegável](../../../../prototipos/tar-09/index.html) fica em `docs/prototipos/tar-09/` (`index.html`, `styles.css` e `app.js`), no mesmo padrão do protótipo da TAR-03. Ele segue o visual do portal da SEMOB-DF: barra do GDF cinza-escura, título da Secretaria em letras finas e maiúsculas, faixa com a busca, cartões brancos com botão cinza-escuro e trilha de navegação com ">" verde. Os campos aceitam digitação, os dados ficam guardados ao voltar um passo e o botão "voltar" do celular funciona. As telas são as mesmas do protótipo de papel. Como o [Relato dos Resultados do Protótipo de Papel](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md) não encontrou problemas, os textos e a ordem das telas foram mantidos:
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Telas e Estados do Protótipo no Figma</p>
+<p><strong>Tabela 3</strong> — Telas e Estados do Protótipo Navegável</p>
 </div>
 
 | ID | Tela ou Estado | Conteúdo Principal | Regra do Guia de Estilo ou Princípio Aplicado |
@@ -161,9 +162,9 @@ O avaliador não explica a interface nem dá dicas. Quando o participante pergun
 
 ### 5.3 Infraestrutura e materiais
 
-* **Dispositivo:** celular do condutor com o aplicativo Figma em modo de apresentação do protótipo, bateria carregada e carregador por perto.
-* **Configuração do Figma:** desativar a opção *"Show hotspot hints on click"*, que destaca em azul as áreas clicáveis quando o participante toca no lugar errado e, por isso, daria dicas.
-* **Contingência:** uma cópia do protótipo aberta no *notebook* e uma conexão de dados móveis, caso o Wi-Fi do local falhe.
+* **Dispositivo:** celular do condutor com o navegador aberto no link do protótipo, bateria carregada e carregador por perto.
+* **Painel do avaliador:** o protótipo é aberto com `?avaliador=1` no fim do endereço. No celular, o painel fica recolhido num botão pequeno no canto da tela, e o condutor toca em "Iniciar" antes de entregar o celular. O painel cronometra cada tarefa, para o tempo sozinho quando o critério de conclusão é atingido, conta os toques em áreas sem ação e os desvios, e simula a passagem dos dias (aviso N1). No fim, "Copiar registro" gera uma tabela para o relato. Sem o `?avaliador=1`, o painel não aparece. O protótipo não mostra dicas quando o participante toca no lugar errado.
+* **Contingência:** uma cópia do protótipo aberta no *notebook* (os arquivos também funcionam abertos localmente, sem internet) e uma conexão de dados móveis, caso o Wi-Fi do local falhe.
 * **Gravação:** gravação da tela do celular com áudio. O rosto do participante não é filmado.
 * **Materiais impressos:** TCLE, folha com o cenário e as tarefas, ficha de observação e roteiro da entrevista.
 * **Ficha de observação:** uma linha por tarefa, com início e fim, conclusão (sem ajuda, com ajuda, não concluída), erros, retornos, pedidos de ajuda, falas marcantes e minuto da gravação.
@@ -177,7 +178,7 @@ O avaliador não explica a interface nem dá dicas. Quando o participante pergun
 
 | Etapa | Data | Responsável |
 | :--- | :--- | :--- |
-| Protótipo navegável pronto no Figma | até 07/11/2026 | Tomás Rocho |
+| Protótipo navegável pronto (HTML, CSS e JavaScript) | até 07/11/2026 | Tomás Rocho |
 | Teste piloto | 08/11/2026 (domingo), 18:00 | Tomás Rocho e Rodrigo Carvalho |
 | Ajustes após o piloto | 09/11/2026 | Tomás Rocho |
 | Sessão P01 | 10/11/2026 (terça-feira), 19:00 | Tomás Rocho e Rodrigo Carvalho |
@@ -207,14 +208,14 @@ O avaliador não explica a interface nem dá dicas. Quando o participante pergun
 <p><em>Fonte: Elaborado por Tomás Rocho (2026). O tempo será ajustado depois do teste piloto.</em></p>
 </div>
 
-**Custo estimado:** R\$ 0,00 (Figma no plano gratuito, celular e *notebook* próprios, impressões feitas na universidade).
+**Custo estimado:** R\$ 0,00 (GitHub Pages gratuito, celular e *notebook* próprios, impressões feitas na universidade).
 
 ### 5.6 Teste piloto
 
 Antes das sessões, será feito um **teste piloto completo** no dia 08/11/2026, com um integrante da equipe que **não participou da construção do fluxo da TAR-09** no papel de participante. Barbosa e Silva (2010, p. 306–307) recomendam o piloto para conferir o material e o procedimento.
 
 * **O que será verificado:** se todos os toques levam à tela certa e nenhum caminho fica sem saída (o "único *bug*" de Rettig); se os estados E1 e E2 aparecem quando devem; se as tarefas ficam claras lidas em voz alta; se 15 minutos bastam para as tarefas; se a gravação da tela e o áudio funcionam; e se as perguntas da ficha respondem Q01 a Q09.
-* **Ajustes:** ligações erradas no Figma, textos confusos nas tarefas e problemas na gravação são corrigidos no dia 09/11.
+* **Ajustes:** botões que levam à tela errada, textos confusos nas tarefas e problemas na gravação são corrigidos no dia 09/11.
 * **Uso dos dados:** os dados do piloto servem **apenas para ajustar** o protótipo e o procedimento e **não entram** nos resultados.
 
 ---
