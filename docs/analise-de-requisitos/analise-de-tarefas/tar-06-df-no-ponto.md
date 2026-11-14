@@ -8,6 +8,7 @@
 | 27/10/2026 | 1.1 | Alinhamento para a avaliação da Etapa 5: inclusão da persona João Pedro Carvalho, vínculo com os Cenários 2 e 10, numeração das hipóteses (H1 a H7) com tabela de consolidação, seção de artefatos relacionados e declaração de uso de IA. O conteúdo da análise foi mantido. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
 | 28/10/2026 | 1.2 | Registro da situação das hipóteses H1 a H7 (Tabela 5) e do passo 5 da HTA (Tabela 4) após a avaliação com usuário da sessão S4, e atualização da situação dos artefatos relacionados. O conteúdo da análise foi mantido. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
 | 03/11/2026 | 1.3 | Registro das evidências do protótipo de papel (P05) na situação das hipóteses (Tabela 5) e inclusão do relato do protótipo de papel e dos planejamentos da alta fidelidade nos artefatos relacionados (Tabela 6). O conteúdo da análise foi mantido. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| 14/11/2026 | 1.4 | Inclusão do protótipo de alta fidelidade e do relato dos resultados da alta fidelidade nos artefatos relacionados (Tabela 6). | [Carlos Costa](https://github.com/carloshfgit) | [Tomás Garcia Rocho](https://github.com/TomasRocho) |
 
 ---
 
@@ -298,6 +299,8 @@ A Tabela 6 lista os artefatos do projeto que usam esta análise de tarefas.
 | [Relato dos resultados do protótipo de papel (TAR-06)](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md) | 6 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
 | [Planejamento da avaliação do protótipo de alta fidelidade (TAR-06)](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) | 6 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
 | [Planejamento do relato do protótipo de alta fidelidade (TAR-06)](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) | 6 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
+| [Protótipo navegável de alta fidelidade (TAR-06)](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/) | 7 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
+| [Relato dos resultados da alta fidelidade (TAR-06)](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md) | 7 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
 
 *Fonte: Elaborado por Carlos Costa (2026).*
 
