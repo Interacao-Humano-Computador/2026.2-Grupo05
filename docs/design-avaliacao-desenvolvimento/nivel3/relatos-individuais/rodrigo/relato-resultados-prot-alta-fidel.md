@@ -123,12 +123,15 @@ Em conformidade com os princípios éticos em pesquisas envolvendo seres humanos
 
 ### 3.1 Entrevistado 1
 * **Gravação da Sessão:** [Link para o YouTube - Sessão do Participante 1](https://youtu.be/uoa5EMy9byM)
+* **Termo de Consentimento Livre e Esclarecido (TCLE):** [Visualizar TCLE aplicado](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf)
 
 ### 3.2 Entrevistado 2
 * **Gravação da Sessão:** [Link para o YouTube - Sessão do Participante 2](https://youtu.be/z784FeWRAeE)
+* **Termo de Consentimento Livre e Esclarecido (TCLE):** [Visualizar TCLE aplicado](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf)
 
 ### 3.3 Entrevistado 3
 * **Gravação da Sessão:** [Link para o YouTube - Sessão do Participante 3](https://youtu.be/l6sHuiO9aBc)
+* **Termo de Consentimento Livre e Esclarecido (TCLE):** [Visualizar TCLE aplicado](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf)
 
 ---
 
