@@ -147,9 +147,9 @@ A amostragem foi dimensionada em **três participantes**, apoiando-se na teoria 
 
 | Participante | Perfil Demográfico / Ocupação | Relação com o Transporte Público no DF | Duração da Sessão | Data da Sessão |
 | :---: | :--- | :--- | :---: | :---: |
-| **Entrevistado 1** | Estudante universitário (UnB Gama) | Usuário esporádico de ônibus; relatou alternar com carro e Uber. | 4min31s | 15/11/2026 |
-| **Entrevistado 2** | Estudante universitário (UnB Gama) | Usuário frequente de ônibus no Gama (citou a linha 3204). | 3min09s | 15/11/2026 |
-| **Entrevistado 3** | Estudante universitário (UnB Gama) | Usuário frequente de transporte público no DF. | 4min01s | 15/11/2026 |
+| **Entrevistado 1** | Estudante universitário (UnB Gama) | Usuário esporádico de ônibus; relatou alternar com carro e Uber. | 4min31s | 12/11/2026 |
+| **Entrevistado 2** | Estudante universitário (UnB Gama) | Usuário frequente de ônibus no Gama (citou a linha 3204). | 3min09s | 12/11/2026 |
+| **Entrevistado 3** | Estudante universitário (UnB Gama) | Usuário frequente de transporte público no DF. | 4min01s | 12/11/2026 |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
