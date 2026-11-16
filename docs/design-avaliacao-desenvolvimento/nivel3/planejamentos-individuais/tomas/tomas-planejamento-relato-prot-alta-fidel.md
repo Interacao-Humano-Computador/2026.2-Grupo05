@@ -5,6 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 03/11/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Protótipo de Alta Fidelidade (Figma) da TAR-09 (Pedido de aumento do limite diário do Vale-Transporte). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
+| 14/11/2026 | `1.1` | Troca das referências ao Figma pelo protótipo navegável em HTML, CSS e JavaScript e uso do registro gerado pelo painel do avaliador. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para ajustar o texto |
 
 ---
 
@@ -19,7 +20,7 @@ A avaliação correspondente está descrita no [Planejamento da Avaliação do P
 1. **Registrar o desempenho por tarefa e por participante:** informar se P01, P02 e P03 concluíram as tarefas TAR-09.1, TAR-09.2 e TAR-09.3, com ou sem ajuda, em quanto tempo, com quantos erros e quantos pedidos de ajuda.
 2. **Responder às perguntas da avaliação:** dizer, para cada pergunta Q01 a Q09, o que foi observado em cada participante e se o critério de aceitação foi atingido.
 3. **Documentar os problemas de usabilidade:** registrar cada problema com a tela onde aconteceu, o que foi observado, o impacto, a severidade, quantos participantes o tiveram e a recomendação de correção.
-4. **Comparar com o protótipo de papel:** mostrar se o fluxo, que não teve problemas no Nível 2, continua sem problemas no Figma, e se as pendências do papel foram cobertas.
+4. **Comparar com o protótipo de papel:** mostrar se o fluxo, que não teve problemas no Nível 2, continua sem problemas no protótipo navegável, e se as pendências do papel foram cobertas.
 5. **Apresentar as limitações e o plano de reprojeto:** deixar claro até onde os resultados valem e o que muda na próxima versão das telas.
 
 ---
@@ -28,8 +29,8 @@ A avaliação correspondente está descrita no [Planejamento da Avaliação do P
 
 O relato publicado na Wiki terá as seções abaixo:
 
-1. **Introdução, objetivos e escopo:** protótipo avaliado (fluxo "Meu Vale-Transporte foi recusado" no Figma, protótipo vertical), tarefa representada (TAR-09), objetivos da etapa D do DECIDE e o que ficou fora da avaliação (câmera, WhatsApp e análise da SEMOB simulados).
-2. **Método:** teste de usabilidade com observação de uso, *think aloud* e entrevista pós-teste; versão do protótipo testada (data da última alteração no Figma); dispositivo usado.
+1. **Introdução, objetivos e escopo:** protótipo avaliado (fluxo "Meu Vale-Transporte foi recusado" no [protótipo navegável](../../../../prototipos/tar-09/index.html) em HTML, CSS e JavaScript, protótipo vertical), tarefa representada (TAR-09), objetivos da etapa D do DECIDE e o que ficou fora da avaliação (câmera, WhatsApp e análise da SEMOB simulados).
+2. **Método:** teste de usabilidade com observação de uso, *think aloud* e entrevista pós-teste; versão do protótipo testada (data e *commit* da última alteração em `docs/prototipos/tar-09/`); dispositivo e navegador usados.
 3. **Participantes e avaliadores:** Tabela 2.
 4. **Desempenho por tarefa:** Tabela 3 (por participante) e Tabela 4 (resumo das três sessões).
 5. **Interpretação por participante:** um parágrafo curto para cada participante, com o caminho que seguiu e as principais dificuldades.
@@ -46,7 +47,7 @@ O relato publicado na Wiki terá as seções abaixo:
 
 ### 3.1 Do registro à evidência
 
-O observador revisa a gravação de cada sessão e marca, com o minuto do vídeo, os momentos em que o participante:
+Os tempos, os desvios e os toques em áreas sem ação vêm do registro copiado no painel do avaliador do protótipo ("Copiar registro"), conferido com a ficha de observação. Além disso, o observador revisa a gravação de cada sessão e marca, com o minuto do vídeo, os momentos em que o participante:
 
 * **hesita** mais de alguns segundos antes de tocar em algo;
 * **toca no lugar errado** (área que não leva a lugar nenhum ou leva a outra tela);
@@ -81,7 +82,7 @@ Um problema só é registrado se houver pelo menos uma evidência que o sustente
 <p><em>Fonte: Adaptado de Nielsen (1994), com exemplos elaborados por Tomás Rocho (2026).</em></p>
 </div>
 
-A **prioridade** (Alta, Média, Baixa) é decidida pela equipe considerando a severidade, quantos participantes tiveram o problema e o custo de corrigir no Figma. Essa regra de prioridade é uma decisão do projeto, e não uma escala do livro.
+A **prioridade** (Alta, Média, Baixa) é decidida pela equipe considerando a severidade, quantos participantes tiveram o problema e o custo de corrigir no protótipo. Essa regra de prioridade é uma decisão do projeto, e não uma escala do livro.
 
 ---
 
@@ -183,13 +184,13 @@ Os campos entre colchetes serão preenchidos depois das sessões.
 O [Relato dos Resultados do Protótipo de Papel](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md) não registrou problemas de usabilidade, mas deixou quatro pendências (PE-01 a PE-04). Esta tabela mostra se elas foram cobertas na alta fidelidade.
 
 <div align="center">
-<p><strong>Tabela 7</strong> — Pendências do Protótipo de Papel Verificadas no Figma</p>
+<p><strong>Tabela 7</strong> — Pendências do Protótipo de Papel Verificadas no Protótipo Navegável</p>
 </div>
 
 | Pendência do Nível 2 | O que foi feito no Nível 3 | Situação | Evidência |
 | :---: | :--- | :---: | :--- |
-| **PE-01** — tempo das tarefas não medido | Cronometragem pelo observador | **[Coberta / Não coberta]** | *[Tabelas 3 e 4]* |
-| **PE-02** — estados W4 (documento faltando) e W5 (entregar no posto) não usados | Estados E2 e "Prefiro entregar no posto" mantidos no Figma | **[Coberta / Não testada]** | *[P0x, mm:ss ou "nenhum participante passou pelo estado"]* |
+| **PE-01** — tempo das tarefas não medido | Cronometragem pelo painel do avaliador e pelo observador | **[Coberta / Não coberta]** | *[Tabelas 3 e 4]* |
+| **PE-02** — estados W4 (documento faltando) e W5 (entregar no posto) não usados | Estados E2 e "Prefiro entregar no posto" mantidos no protótipo navegável | **[Coberta / Não testada]** | *[P0x, mm:ss ou "nenhum participante passou pelo estado"]* |
 | **PE-03** — sem teste piloto | Piloto em 08/11/2026 | **[Coberta / Não coberta]** | *[Data e ajustes feitos]* |
 | **PE-04** — apenas um participante | Três participantes | **[Coberta / Parcial]** | *[Tabela 2]* |
 
@@ -204,7 +205,7 @@ O [Relato dos Resultados do Protótipo de Papel](../../../nivel2/relatos-individ
 O relato terá uma seção própria de limitações. As que já são conhecidas antes das sessões são:
 
 * **Número de participantes:** três participantes, abaixo da referência de cinco citada por Barbosa e Silva (2010, p. 305). Problemas que só aparecem com menos frequência podem não ter sido encontrados.
-* **Simulações:** a câmera, a análise da SEMOB e o aviso do WhatsApp são telas fixas do Figma. O comportamento do participante pode ser diferente com a câmera real ou com a espera real de dias.
+* **Simulações:** a câmera, a análise da SEMOB e o aviso do WhatsApp são simulados dentro do protótipo. O comportamento do participante pode ser diferente com a câmera real ou com a espera real de dias.
 * **Dados preenchidos:** o número do cartão e os documentos aparecem preenchidos ao tocar no campo, então o esforço real de digitar e fotografar não é medido.
 * **Ambiente:** a sessão é feita sentada, em sala silenciosa, e não na catraca do ônibus, à noite e com pressa, como no Cenário 9.
 * **Protótipo vertical:** só o fluxo da TAR-09 funciona. Os resultados não dizem nada sobre os outros serviços do site.
@@ -219,7 +220,7 @@ Outras limitações que surgirem durante as sessões (por exemplo, falha de cone
 <p><strong>Tabela 8</strong> — Modelo do Plano de Reprojeto</p>
 </div>
 
-| ID Problema | Mudança no Figma | Artefato que também muda | Prioridade | Responsável | Prazo |
+| ID Problema | Mudança no protótipo | Artefato que também muda | Prioridade | Responsável | Prazo |
 | :---: | :--- | :--- | :---: | :--- | :--- |
 | **PROB-A01** | *[A preencher]* | *[Ex.: TAR-09, Storyboard 05, Guia de Estilo ou nenhum]* | **[Alta / Média / Baixa]** | Tomás Rocho | *[dd/mm/aaaa]* |
 
@@ -229,8 +230,8 @@ Outras limitações que surgirem durante as sessões (por exemplo, falha de cone
 
 Os problemas da Tabela 6 serão tratados assim:
 
-1. **Severidade 3 e 4, ou problema que aparece em 2 ou 3 participantes:** prioridade alta. São corrigidos no Figma antes da apresentação final e, se mudarem o fluxo, também na [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md) e no [Storyboard 05](../../../nivel1/storyboards.md).
-2. **Severidade 1 e 2:** viram ajustes de texto, layout ou *feedback* nas telas do Figma.
+1. **Severidade 3 e 4, ou problema que aparece em 2 ou 3 participantes:** prioridade alta. São corrigidos no protótipo antes da apresentação final e, se mudarem o fluxo, também na [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md) e no [Storyboard 05](../../../nivel1/storyboards.md).
+2. **Severidade 1 e 2:** viram ajustes de texto, layout ou *feedback* nas telas do protótipo.
 3. **Severidade 0:** registrados no relato, sem ação obrigatória.
 4. **Regra nova para o guia:** se um problema mostrar uma regra que deveria valer para todas as telas (por exemplo, como mostrar um erro de envio de foto), ela é proposta para o [Guia de Estilo](../../../../analise-de-requisitos/guia-de-estilo/introducao.md).
 5. **Rastreabilidade:** toda mudança feita por causa da avaliação é registrada no histórico de versão do artefato alterado, com o ID do problema (PROB-Axx) que a motivou.
