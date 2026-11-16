@@ -5,12 +5,13 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 01/11/2026 | `1.0` | Planejamento da avaliação do protótipo de alta fidelidade da TAR-07, com base no DECIDE. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Henrique](https://github.com/carloshfgit) | Google Gemini - apoio à estruturação em Markdown e revisão textual. |
+| 14/11/2026 | `1.1` | Ajuste da rodada para três participantes e registro das condições informadas para as sessões. | [Arthur Mariani](https://github.com/arthur-mariani) | A definir | IA: apoio à atualização do texto e das referências. |
 
 ---
 
 ## 1. Introdução e escopo
 
-Este documento planeja uma avaliação formativa do **fluxo de orientação sobre crédito de Vale-Transporte indisponível** no protótipo de alta fidelidade. O recorte corresponde à [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md), ao [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md) e à persona [Maria Eduarda Santos](../../../../analise-de-requisitos/personas/maria-eduarda-santos.md). Esses artefatos do projeto fornecem o **contexto da tarefa**; o método, os critérios de coleta e a estrutura de análise abaixo vêm exclusivamente de Barbosa e Silva (2010, cap. 9–10).
+Este documento planeja uma avaliação formativa do **fluxo de orientação sobre crédito de Vale-Transporte indisponível** no protótipo de alta fidelidade. O recorte corresponde à [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md), ao [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md) e à persona [Maria Eduarda Santos](../../../../analise-de-requisitos/personas/maria-eduarda-santos.md). Esses artefatos do projeto fornecem o **contexto da tarefa**; o método, os critérios de coleta e a estrutura de análise seguem Barbosa e Silva (2010, cap. 9–10), enquanto a opção por três participantes na rodada segue Krug (2000, cap. 9).
 
 A sessão examinará a experiência de **encontrar orientação, interpretar o estado apresentado e localizar o próximo passo ou canal de atendimento**. O protótipo deverá estar navegável nas telas necessárias a essas tarefas. Quando uma consulta real ao saldo ou a uma instituição não estiver implementada, a resposta será simulada e identificada no roteiro. A avaliação não verificará se o crédito foi efetivamente liberado nem estabelecerá procedimentos oficiais de SEMOB-DF, BRB Mobilidade ou empregadores.
 
@@ -80,9 +81,9 @@ Serão registrados por tarefa: conclusão sem ajuda, conclusão com ajuda ou nã
 
 ### 6.1 Participantes, equipe e ambiente
 
-O recrutamento buscará **cinco pessoas adultas**, usuárias frequentes de transporte coletivo e familiarizadas com cartão e Vale-Transporte, sem participação no design do protótipo. O livro recomenda participantes semelhantes ao público-alvo e apresenta cinco como referência de custo-benefício para encontrar problemas, sem garantir representatividade estatística (Barbosa; Silva, 2010, p. 305). Se o número efetivo for menor, o relato informará a diferença e reduzirá o alcance das conclusões.
+O recrutamento buscará **três pessoas adultas**, usuárias frequentes de transporte coletivo e familiarizadas com cartão e Vale-Transporte, sem participação no design do protótipo. A opção por três participantes em uma rodada de teste de usabilidade segue a recomendação de Krug (2000, cap. 9), que propõe três ou, no máximo, quatro pessoas por rodada. Barbosa e Silva (2010, p. 305) também orientam selecionar participantes semelhantes ao público-alvo. Esse número permite identificar problemas na rodada, sem tornar a amostra estatisticamente representativa.
 
-As sessões serão individuais, em ambiente tranquilo, com o protótipo no dispositivo ou navegador para o qual foi projetado. Um **condutor** explicará o procedimento, apresentará as tarefas e evitará induzir respostas; um **observador** registrará as ações, dificuldades e falas. A equipe terá dispositivo, carregador, acesso ao protótipo, fichas de observação, roteiro, termo de consentimento e plano de contingência para falha de conexão. Data, local e versão testada serão registrados no relato.
+As sessões serão individuais, na **Universidade de Brasília, das 8h às 10h**, usando **smartphone para testar e gravar** o [protótipo de alta fidelidade](https://arthur-mariani.github.io/PAF-IHC). **Arthur Mariani** acumulará as funções de condutor e observador em decorrência da falta de tempo: apresentará as tarefas sem induzir respostas e registrará as ações, dificuldades e falas. A equipe terá dispositivo, carregador, acesso ao protótipo, fichas de observação, roteiro, termo de consentimento e plano de contingência para falha de conexão. As datas das sessões serão registradas no relato.
 
 ### 6.2 Preparação e teste-piloto
 
@@ -106,7 +107,7 @@ Esses cuidados seguem as orientações sobre consentimento, anonimato, autoriza�
 
 ## 8. E — Avaliar, interpretar e apresentar os dados
 
-Logo após cada sessão, condutor e observador compararão seus registros. Para cada participante e tarefa, preencherão a ficha de conclusão, caminho seguido, dificuldades, comentários e evidências. Em seguida, agruparão ocorrências semelhantes entre participantes, responderão P01–P06 e separarão **observação**, **interpretação** e **recomendação**. O livro orienta interpretação individual, consolidação entre participantes e cautela com generalizações (Barbosa; Silva, 2010, p. 310–312).
+Logo após cada sessão, Arthur Mariani revisará seus registros de condução e observação. Para cada participante e tarefa, preencherá a ficha de conclusão, caminho seguido, dificuldades, comentários e evidências. Em seguida, agrupará ocorrências semelhantes entre participantes, responderá P01–P06 e separará **observação**, **interpretação** e **recomendação**. O livro orienta interpretação individual, consolidação entre participantes e cautela com generalizações (Barbosa; Silva, 2010, p. 310–312).
 
 Cada problema será descrito com tela, ação observada, consequência, possível causa na interface, número de participantes em que apareceu e proposta de correção. A equipe priorizará problemas pelo impacto na conclusão e pela recorrência observada; essa priorização é uma decisão do projeto, não uma escala prescrita pelo livro. Conclusões sobre clareza do fluxo terão alcance restrito ao protótipo, às tarefas e às condições testadas. Será explicitado quando a simulação, a amostra ou o ambiente tiverem afetado confiabilidade e validades interna, externa e ecológica, conforme DECIDE (p. 313; **Figura 2**).
 
@@ -207,5 +208,6 @@ As áreas amarelas destacam os trechos usados como base para as afirmações e d
 ## 10. Referências bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier/Campus, 2010. Cap. 5, seção 5.4, p. 140–141; cap. 9, seções 9.7–9.8, p. 303–307 e 310–313; cap. 10, seção 10.2.1, p. 341–343.
+* KRUG, Steve. **Don't Make Me Think! A Common Sense Approach to Web Usability**. Indianapolis: New Riders, 2000. Cap. 9, p. 146. [Trecho disponibilizado pelo autor](https://sensible.com/downloads/DMMTchapter09_for_personal_use_only.pdf).
 
 ---

@@ -5,6 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 01/11/2026 | `1.0` | Consolidação e relato dos resultados da avaliação do protótipo de papel da TAR-02. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para apoio na transcrição do áudio da sessão e formatação markdown da página |
+| 15/11/2026 | `1.1` | Inclusão do PDF com as fotos das telas do protótipo de papel (Seção 2.1). | [Gabriel Cardone](https://github.com/gabriellcardone-06) | — | Claude (Anthropic) - usado para apoio na conversão das fotos em PDF e formatação markdown da seção |
 
 ---
 
@@ -19,6 +20,34 @@ O objetivo principal dessa avaliação foi verificar e validar a usabilidade da 
 ## 2. Metodologia Empregada
 
 A avaliação foi realizada por meio do método de **Prototipação em Papel**, em um ambiente presencial e controlado, no dia 28/10/2026 às 14:00h. No decorrer da simulação o participante interagiu fisicamente com as telas desenhadas no papel, simulando suas interações com o celular, enquanto o avaliador, [Gabriel Cardone](https://github.com/gabriellcardone-06), exerceu o papel de **"computador"**, mudando telas e acrescentando itens visuais. A sessão teve uma duração total de **3 minutos e 52 segundos.**
+
+### 2.1 Telas do Protótipo de Papel
+
+As fotos das 11 telas usadas na sessão foram reunidas em um único arquivo PDF, na ordem em que foram apresentadas ao participante:
+
+* **[Visualizar PDF das telas do protótipo de papel](../../../../assets/PDFs/Gabriel_telas_prototipo_papel.pdf)**
+
+<div align="center">
+<p><strong>Quadro 1</strong> — Sequência das Telas do Protótipo de Papel</p>
+</div>
+
+| Página do PDF | Tela | Conteúdo |
+| :---: | :--- | :--- |
+| **1** | Apresentação | Explicação do Agendamento DF Acessível, público atendido, documentos necessários, aviso de 30 dias de antecedência e botão "Agendar transporte". |
+| **2** | Etapa 1 de 4 — Posto de embarque | Mapa com os postos e a indicação "Você está aqui", e botão "Confirmar". |
+| **3** | Etapa 1 de 4 — Posto de embarque (selecionado) | Mesma tela, com o posto mais próximo de casa marcado. |
+| **4** | Etapa 2 de 4 — Posto de desembarque | Mapa com o posto mais próximo do destino marcado e botão "Confirmar". |
+| **5** | Etapa 3 de 4 — Dia | Calendário do mês e botão "Confirmar". |
+| **6** | Etapa 3 de 4 — Dia (selecionado) | Mesma tela, com o dia da viagem marcado. |
+| **7** | Etapa 4 de 4 — Documentos | Itens "Laudo do profissional de saúde" e "Comprovante de residência no DF", botão "Selecionar arquivos", campos de telefone e e-mail e botão "Continuar". |
+| **8** | Etapa 4 de 4 — Seleção de arquivos | Janela sobreposta com os arquivos do laudo e do comprovante e botão "Confirmar". |
+| **9** | Etapa 4 de 4 — Confirmação de envio | *Pop-up* "Documentos enviados com sucesso". |
+| **10** | Etapa 4 de 4 — Contato preenchido | Telefone e e-mail preenchidos antes de continuar. |
+| **11** | Conclusão | Mensagem "Agendamento confirmado, verifique seu celular e e-mail". |
+
+<div align="center">
+<p><em>Fonte: Elaborado por Gabriel Cardone (2026).</em></p>
+</div>
 
 ---
 

@@ -2,13 +2,14 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 01/11/2026 | `1.0` | Criação do planejamento individual do relato dos resultados da avaliação do Protótipo de Alta Fidelidade (Figma) da TAR-03 com modelos de tabelas e referências do livro-texto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para formatação em Markdown |
+| 01/11/2026 | `1.0` | Criação do planejamento individual do relato dos resultados da avaliação do Protótipo de Alta Fidelidade da TAR-03 com modelos de tabelas e referências do livro-texto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para formatação em Markdown |
+| 10/11/2026 | `1.1` | Adequação metodológica do planejamento do relato para avaliação baseada em protótipo de alta fidelidade em código navegável (HTML5, CSS3 e JavaScript), adaptando modelos de tabelas e diretrizes de reprojeto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para formatação em Markdown |
 
 ---
 
 # Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-03)
 
-Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-03 — Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/#tar-03-planejamento-de-rota-completa-porta-a-porta-por-destino-com-indicacao-de-paradas-e-previsao-de-chegada)**. Trata-se de um documento metodológico individual elaborado por Lucas Araújo Lima para estruturar, padronizar e orientar a compilação, análise e apresentação dos dados quantitativos e qualitativos colhidos durante os testes de usabilidade no **Figma** (Etapa 7).
+Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-03 — Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/#tar-03-planejamento-de-rota-completa-porta-a-porta-por-destino-com-indicacao-de-paradas-e-previsao-de-chegada)**. Trata-se de um documento metodológico individual elaborado por Lucas Araújo Lima para estruturar, padronizar e orientar a compilação, análise e apresentação dos dados quantitativos e qualitativos colhidos durante os testes de usabilidade no **protótipo em HTML navegável** (Etapa 7).
 
 A estrutura deste planejamento fundamenta-se diretamente nos preceitos de **Consolidação e Relato dos Resultados** de Barbosa & Silva (2010, Cap. 9, Seção 9.7.5, p. 311–312; Cap. 10, Seção 10.2.1, p. 347–348; Barbosa et al., 2021, Seção 11.7.5 e Seção 12.2.1) e no referencial teórico de testes de usabilidade iterativos de **Steve Krug** (Krug, 2000, 2006; Santa-Rosa, 2005, p. 156–157), garantindo rastreabilidade entre os achados empíricos, o **[Guia de Estilo](../../../../analise-de-requisitos/guia-de-estilo/introducao.md)** e as melhorias aplicadas no protótipo de alta fidelidade da **SEMOB-DF / DF no Ponto**.
 
@@ -18,10 +19,10 @@ A estrutura deste planejamento fundamenta-se diretamente nos preceitos de **Cons
 
 O documento final de relato dos resultados da avaliação do protótipo de alta fidelidade terá como finalidades principais:
 
-1. **Sintetizar as métricas quantitativas de desempenho e eficiência:** Apresentar a taxa de conclusão sem auxílio das sub-tarefas `TAR-03.1`, `TAR-03.2` e `TAR-03.3`, o tempo médio de execução (comparado ao tempo preditivo de `9,70 s` modelado via GOMS/KLM na análise de tarefas) e a contagem de cliques incorretos (*misclicks*) dos **3 participantes recrutados** (conforme a teoria de Steve Krug).
-2. **Validar empiricamente a conformidade com o Guia de Estilo do Grupo 05:** Aferir em que medida os componentes visuais e interativos do Figma atenderam às diretrizes da equipe (contraste WCAG AA, alvos de toque de no mínimo 48×48 px, botões no padrão `[Verbo + Ação]`, destaque do cartão *"Mais Rápida"* e automação da localização e caminhada via GPS).
-3. **Classificar e priorizar os problemas de usabilidade no Figma:** Registrar todas as hesitações, dúvidas de interpretação ou falhas de transição observadas durante o protocolo *Think Aloud*, classificando cada ocorrência segundo a escala de severidade de Nielsen (1994) e mapeando os fatores de qualidade de uso afetados.
-4. **Orientar o ciclo final de reprojeto no Figma:** Converter os problemas priorizados em ajustes visuais e comportamentais concretos diretamente nos componentes do Figma para consolidar a versão final da proposta para a SEMOB-DF.
+1. **Sintetizar as métricas quantitativas de desempenho e eficiência:** Apresentar a taxa de conclusão sem auxílio das sub-tarefas `TAR-03.1`, `TAR-03.2` e `TAR-03.3`, o tempo médio de execução (comparado ao tempo preditivo de `9,70 s` modelado via GOMS/KLM na análise de tarefas) e a contagem de cliques/toques incorretos (*misclicks*) dos **3 participantes recrutados** (conforme a teoria de Steve Krug).
+2. **Validar empiricamente a conformidade com o Guia de Estilo do Grupo 05:** Aferir em que medida os componentes visuais e interativos implementados em HTML5 e CSS3 atenderam às diretrizes da equipe (contraste WCAG AA, alvos de toque de no mínimo 48×48 px, botões no padrão `[Verbo + Ação]`, destaque do cartão *"Mais Rápida"* e automação da localização e caminhada via GPS).
+3. **Classificar e priorizar os problemas de usabilidade no protótipo:** Registrar todas as hesitações, dúvidas de interpretação, erros de entrada de dados ou falhas comportamentais observadas durante o protocolo *Think Aloud*, classificando cada ocorrência segundo a escala de severidade de Nielsen (1994) e mapeando os fatores de qualidade de uso afetados.
+4. **Orientar o ciclo final de reprojeto no código do protótipo:** Converter os problemas priorizados em ajustes de estilos (CSS) e refinamentos lógicos (JavaScript) diretamente no repositório para consolidar a versão final da proposta para a SEMOB-DF.
 
 ---
 
@@ -29,14 +30,14 @@ O documento final de relato dos resultados da avaliação do protótipo de alta 
 
 Em estrita observância à lista de tópicos exigidos por Barbosa & Silva (2010, p. 312 e p. 348) e ao Plano de Ensino da disciplina, o documento final de consolidação dos resultados da alta fidelidade será estruturado nas **9 seções padronizadas** a seguir:
 
-1. **Introdução e Objetivos da Avaliação:** Contextualização do escopo avaliado na TAR-03 no Figma e retomada das perguntas investigativas (`QF01` a `QF06`) estabelecidas no [Planejamento da Avaliação do Protótipo de Alta Fidelidade](planejamento-av-prot-alta-fidel.md).
-2. **Metodologia e Protocolo Executado:** Descrição da aplicação do Teste de Usabilidade combinado ao protocolo *Think Aloud*, com links para o protótipo interativo no Figma e para as gravações em vídeo das sessões.
+1. **Introdução e Objetivos da Avaliação:** Contextualização do escopo avaliado na TAR-03 no protótipo navegável em HTML e retomada das perguntas investigativas (`QF01` a `QF06`) estabelecidas no [Planejamento da Avaliação do Protótipo de Alta Fidelidade](planejamento-av-prot-alta-fidel.md).
+2. **Metodologia e Protocolo Executado:** Descrição da aplicação do Teste de Usabilidade combinado ao protocolo *Think Aloud*, com links para o protótipo funcional em HTML hospedado no GitHub Pages (com identificação do *commit* exato testado) e para as gravações em vídeo das sessões.
 3. **Caracterização dos Avaliadores e dos 3 Participantes:** Tabela de perfil demográfico e comportamental dos **3 usuários avaliados** (alinhados à persona [Marcos Paulo Vieira](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md)), justificativa da amostra por Steve Krug (2000, 2006) e confirmação de assinatura do TCLE.
 4. **Sumário Quantitativo de Desempenho nas Tarefas:** Tabelas consolidando o tempo de execução, taxa de sucesso sem ajuda e número de erros por participante em cada sub-tarefa da TAR-03.
 5. **Consolidação Qualitativa da Entrevista Pós-Teste:** Síntese das respostas dos 3 participantes às perguntas `QF01` a `QF06` do roteiro DECIDE.
-6. **Registro e Priorização de Problemas de Usabilidade (Escala de Nielsen):** Tabela detalhada dos problemas detectados no Figma (local, fatores prejudicados, descrição, severidade de 0 a 4 e recomendação de correção).
+6. **Registro e Priorização de Problemas de Usabilidade (Escala de Nielsen):** Tabela detalhada dos problemas detectados no protótipo HTML (local/componente, fatores prejudicados, descrição, severidade de 0 a 4 e recomendação de correção no código).
 7. **Verificação de Conformidade com o Guia de Estilo do Grupo 05:** Matriz de avaliação dos padrões visuais, tipográficos, semióticos e de ação aplicados na TAR-03.
-8. **Plano de Reprojeto e Refinamentos Aplicados no Figma:** Lista de alterações efetivadas no protótipo digital após a rodada de testes.
+8. **Plano de Reprojeto e Refinamentos Aplicados no Código:** Lista de alterações efetivadas no protótipo em HTML/CSS/JS após a rodada de testes, com registro de *commits* e comparativo *antes vs. depois*.
 9. **Análise de Limitações e Conclusão:** Balanço da validade ecológica do estudo e validação final da solução proposta.
 
 ---
@@ -45,19 +46,19 @@ Em estrita observância à lista de tópicos exigidos por Barbosa & Silva (2010,
 
 A análise dos dados coletados nas 3 sessões combinará a **consolidação quantitativa** (médias de tempo, taxas de conclusão e contagem de erros de toque) com a **interpretação qualitativa** dos vídeos de interação e das verbalizações do *Think Aloud* (Barbosa & Silva, 2010, Seção 9.7.4 e 9.7.5, p. 309–312).
 
-Para priorizar a correção das falhas identificadas no protótipo do Figma, será utilizada a **Escala de Severidade de Problemas de Usabilidade** de Nielsen (1994), adotada como padrão pelo Grupo 05:
+Para priorizar a correção das falhas identificadas no protótipo navegável em HTML, será utilizada a **Escala de Severidade de Problemas de Usabilidade** de Nielsen (1994), adotada como padrão pelo Grupo 05:
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Escala de Severidade de Problemas de Usabilidade no Protótipo de Alta Fidelidade</p>
 </div>
 
-| Nível | Classificação de Severidade | Critério de Julgamento na Interação no Figma (TAR-03) |
+| Nível | Classificação de Severidade | Critério de Julgamento na Interação no Protótipo HTML (TAR-03) |
 | :---: | :--- | :--- |
-| **0** | **Sem Importância** | Comentário estético ou preferência individual que não prejudica a compreensão nem a fluidez do clique. |
-| **1** | **Problema Cosmético / Leve** | Pequeno desalinhamento visual ou microinteração sutil; o usuário conclui a tarefa sem atraso relevante. |
-| **2** | **Problema Simples / Moderado** | Provoca hesitação momentânea ou toque em área não clicável do Figma, reduzindo a eficiência, mas o usuário se recupera sozinho. |
+| **0** | **Sem Importância** | Comentário estético ou preferência individual que não prejudica a compreensão nem a fluidez da navegação. |
+| **1** | **Problema Cosmético / Leve** | Pequeno desalinhamento visual em CSS ou texto pouco contrastante; o usuário conclui a tarefa sem atraso relevante. |
+| **2** | **Problema Simples / Moderado** | Provoca hesitação momentânea ou toque/clique em elemento não interativo do protótipo, reduzindo a eficiência, mas o usuário se recupera sozinho. |
 | **3** | **Problema Grave** | Dificulta seriamente a conclusão da tarefa (ex.: não perceber o alerta de retenção na EPTG ou confundir o horário previsto com o tempo de espera), exigindo alto esforço. |
-| **4** | **Problema Catastrófico** | Bloqueia totalmente o fluxo interativo no Figma, impedindo o participante de planejar a rota ou levando à escolha de uma linha que causa atraso crítico. |
+| **4** | **Problema Catastrófico** | Bloqueia totalmente o fluxo interativo no protótipo (falha de script ou travamento de navegação), impedindo o participante de planejar a rota ou levando à escolha de uma linha que causa atraso crítico. |
 
 <div align="center">
 <p><em>Fonte: Adaptado de Nielsen (1994) e Barbosa & Silva (2010, p. 311, 348).</em></p>
@@ -72,7 +73,7 @@ A seguir, apresentam-se os **quatro modelos de tabelas** que serão preenchidos 
 ### 4.1 Modelo de Tabela 1: Sumário Quantitativo de Desempenho por Sub-tarefa e Participante
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Modelo de Sumário de Desempenho dos 3 Participantes nas Sub-tarefas da TAR-03 no Figma</p>
+<p><strong>Tabela 2</strong> — Modelo de Sumário de Desempenho dos 3 Participantes nas Sub-tarefas da TAR-03 no Protótipo HTML</p>
 </div>
 
 | Sub-tarefa (TAR-03) | Participante | Concluiu sem Ajuda? | Tempo Gasto (s) | Meta KLM / Referência | Cliques Incorretos (*Misclicks*) | Avaliação de Eficiência |
@@ -100,7 +101,7 @@ A seguir, apresentam-se os **quatro modelos de tabelas** que serão preenchidos 
 | **QF03** | **Mapa Ao Vivo e Trajeto a Pé** | *"No mapa interativo, ficou clara a linha tracejada de caminhada até a parada e a posição do ônibus em tempo real?"* | *[Síntese das respostas dos 3 participantes]* | **[Conforme / Ajustar]** |
 | **QF04** | **Alerta de Retenção e Troca em 1 Toque** | *"Ao surgir o aviso de trânsito severo na EPTG, o botão de trocar para a linha alternativa em 1 toque foi fácil de entender e acionar?"* | *[Síntese das respostas dos 3 participantes]* | **[Conforme / Ajustar]** |
 | **QF05** | **Contingência de Queda de GPS** | *"A diferença visual entre o horário em tempo real (verde) e o horário programado offline (cinza) transmitiu segurança quando o GPS caiu?"* | *[Síntese das respostas dos 3 participantes]* | **[Conforme / Ajustar]** |
-| **QF06** | **Satisfação e Acabamento Visual** | *"Como você avalia as cores, o tamanho dos botões e o visual geral do protótipo no Figma em relação ao site atual da SEMOB?"* | *[Síntese das respostas dos 3 participantes]* | **[Positivo / Neutro / Negativo]** |
+| **QF06** | **Satisfação e Acabamento Visual** | *"Como você avalia as cores, o tamanho dos botões e o visual geral do protótipo em HTML em relação ao site atual da SEMOB?"* | *[Síntese das respostas dos 3 participantes]* | **[Positivo / Neutro / Negativo]** |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
@@ -108,16 +109,16 @@ A seguir, apresentam-se os **quatro modelos de tabelas** que serão preenchidos 
 
 ---
 
-### 4.3 Modelo de Tabela 3: Registro e Priorização de Problemas de IHC no Figma
+### 4.3 Modelo de Tabela 3: Registro e Priorização de Problemas de IHC no Protótipo HTML
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Modelo de Registro e Priorização de Problemas de Usabilidade Detectados no Figma</p>
+<p><strong>Tabela 4</strong> — Modelo de Registro e Priorização de Problemas de Usabilidade Detectados no Protótipo HTML</p>
 </div>
 
-| ID Problema | Local / Componente no Figma | Fatores de Usabilidade Prejudicados | Descrição e Justificativa do Problema (Ocorrência em `P01`/`P02`/`P03`) | Severidade (0 a 4) | Ação Corretiva / Reprojeto no Figma |
+| ID Problema | Local / Componente no Protótipo HTML | Fatores de Usabilidade Prejudicados | Descrição e Justificativa do Problema (Ocorrência em `P01`/`P02`/`P03`) | Severidade (0 a 4) | Ação Corretiva / Reprojeto no Código HTML/CSS/JS |
 | :---: | :--- | :--- | :--- | :---: | :--- |
-| **PROB-F01** | *[Ex.: Tela 02 — Card da Linha 092.1]* | *[Ex.: Eficiência / Visibilidade]* | *[Descrição do comportamento observado e quantos participantes enfrentaram a dúvida]* | **[0 a 4]** | *[Ajuste específico no componente do Figma]* |
-| **PROB-F02** | *[Ex.: Tela 03 — Mapa / Overlay W03]* | *[Ex.: Prevenção de erros / Satisfação]* | *[Descrição do comportamento observado e quantos participantes enfrentaram a dúvida]* | **[0 a 4]** | *[Ajuste específico no componente do Figma]* |
+| **PROB-H01** | *[Ex.: Tela 02 — Card da Linha 092.1]* | *[Ex.: Eficiência / Visibilidade]* | *[Descrição do comportamento observado e quantos participantes enfrentaram a dúvida]* | **[0 a 4]** | *[Ajuste específico no código HTML/CSS do componente]* |
+| **PROB-H02** | *[Ex.: Tela 03 — Modal de Retenção na EPTG]* | *[Ex.: Prevenção de erros / Satisfação]* | *[Descrição do comportamento observado e quantos participantes enfrentaram a dúvida]* | **[0 a 4]** | *[Ajuste no script JS ou na folha de estilos CSS]* |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Lucas Araújo Lima (2026), baseado em Barbosa & Silva (2010, p. 348, 362).</em></p>
@@ -131,10 +132,10 @@ A seguir, apresentam-se os **quatro modelos de tabelas** que serão preenchidos 
 <p><strong>Tabela 5</strong> — Modelo de Avaliação de Conformidade com o Guia de Estilo na TAR-03</p>
 </div>
 
-| Diretriz do Guia de Estilo | Especificação Aplicada no Figma (TAR-03) | Evidência Observada com os 3 Participantes | Status |
+| Diretriz do Guia de Estilo | Especificação Implementada no Protótipo HTML (TAR-03) | Evidência Observada com os 3 Participantes | Status |
 | :--- | :--- | :--- | :---: |
 | **Sintaxe de Botões (`[Verbo + Ação]`)** | Rótulos explícitos: `[ 🧭 Iniciar Rota ]`, `[ 🗺️ Trocar para Linha 0.380 Agora ]`, `[ 🕒 Ver Horários Offline ]`. | *[Registro de reconhecimento imediato pelos usuários]* | **[Conforme / Ajustar]** |
-| **Alvos de Toque (*Mobile-First*)** | Botões e cards com altura mínima de 48 px e espaçamento de segurança entre opções. | *[Ausência ou presença de toques acidentais]* | **[Conforme / Ajustar]** |
+| **Alvos de Toque (*Mobile-First*)** | Botões e cards com altura mínima de 48 px e espaçamento de segurança entre opções em CSS. | *[Ausência ou presença de toques acidentais]* | **[Conforme / Ajustar]** |
 | **Código Semântico de Cores e Ícones** | Verde para telemetria GPS ativa, amarelo/laranja para alerta de retenção na via e cinza para grade estática *offline*. | *[Compreensão dos estados sem depender apenas de texto]* | **[Conforme / Ajustar]** |
 | **Redução de Carga Cognitiva (GPS)** | Preenchimento automático da origem e cálculo de distância/tempo a pé (`4 min / 280m`) até a parada recomendada. | *[Validação subjetiva da praticidade pelos 3 usuários]* | **[Conforme / Ajustar]** |
 
@@ -144,13 +145,13 @@ A seguir, apresentam-se os **quatro modelos de tabelas** que serão preenchidos 
 
 ---
 
-## 5. Planejamento do Reprojeto e Ciclo de Iteração no Figma
+## 5. Planejamento do Reprojeto e Ciclo de Iteração no Protótipo HTML
 
 A partir do preenchimento da Tabela 4 após as sessões de teste, o refinamento do protótipo de alta fidelidade seguirá o ciclo iterativo preconizado por Mayhew (1999) e Krug (2006):
 
-1. **Correção Imediata de Problemas Graves ou Catastróficos (Severidade 3 e 4):** Qualquer barreira que impeça a escolha correta da parada ou a reação ao alerta de retenção viária será corrigida prioritariamente nos *frames* do Figma.
-2. **Polimento de Problemas Simples e Cosméticos (Severidade 1 e 2):** Ajustes de contraste, peso tipográfico, microtextos (*microcopy*) e velocidade de transição (*smart animate*) serão aplicados diretamente na biblioteca de componentes do grupo.
-3. **Rastreabilidade de Versão:** Cada alteração realizada no Figma será documentada com comparativo *antes vs. depois* no relatório da Etapa 7.
+1. **Correção Imediata de Problemas Graves ou Catastróficos (Severidade 3 e 4):** Qualquer barreira que impeça a escolha correta da parada ou a reação ao alerta de retenção viária será corrigida prioritariamente nos arquivos de código (`index.html`, `styles.css` e `app.js`).
+2. **Polimento de Problemas Simples e Cosméticos (Severidade 1 e 2):** Ajustes de contraste, peso tipográfico, microtextos (*microcopy*) e tempos de transição serão aplicados diretamente nas folhas de estilo CSS e scripts do protótipo.
+3. **Rastreabilidade de Versão e Commits:** Cada alteração realizada no código será documentada com identificador de *commit* no Git e comparativo *antes vs. depois* (com capturas de tela) no relatório final da Etapa 7.
 
 ---
 
@@ -189,7 +190,7 @@ Na página 313, a etapa **E (*Evaluate*)** do Framework DECIDE estabelece os cri
 
 ## 7. Declaração sobre o Uso de IA Generativa
 
-Em conformidade com o Plano de Ensino da disciplina (SALES, 2026) e o Código de Conduta da SBC, declara-se que a ferramenta Google Gemini foi utilizada exclusivamente para formatação em Markdown. A definição da estrutura do relatório, a modelagem das tabelas de consolidação da TAR-03, a fundamentação em Steve Krug e os critérios de severidade são de autoria e responsabilidade de Lucas Araújo Lima.
+Em conformidade com o Plano de Ensino da disciplina (SALES, 2026) e o Código de Conduta da SBC, declara-se que ferramentas de Inteligência Artificial Generativa (Google Gemini) foram utilizadas exclusivamente como apoio para formatação em Markdown. A definição da estrutura do relatório, a modelagem das tabelas de consolidação da TAR-03, a fundamentação em Steve Krug e os critérios de severidade permanecem de autoria e responsabilidade de Lucas Araújo Lima.
 
 ---
 
@@ -208,4 +209,3 @@ Em conformidade com o Plano de Ensino da disciplina (SALES, 2026) e o Código de
 ---
 **Autor:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)  
 **Revisor:** [Arthur Mariani](https://github.com/arthur-mariani)
-

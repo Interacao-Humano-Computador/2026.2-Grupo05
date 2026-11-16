@@ -5,6 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 01/11/2026 | `1.0` | Planejamento da consolidação e apresentação dos resultados da avaliação do protótipo de alta fidelidade da TAR-07. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Henrique](https://github.com/carloshfgit) | Google Gemini - apoio à estruturação em Markdown e revisão textual. |
+| 14/11/2026 | `1.1` | Registro de três participantes e das condições informadas para a avaliação. | [Arthur Mariani](https://github.com/arthur-mariani) | A definir | IA: apoio à atualização do texto e das referências. |
 
 ---
 
@@ -12,7 +13,7 @@
 
 Este documento define como relatar os resultados da futura avaliação do fluxo de crédito de Vale-Transporte no protótipo de alta fidelidade, referente à [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md) e ao [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md). Ele complementa o [planejamento da avaliação](arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md), que define as perguntas P01–P06, as tarefas T1–T3, o método e a coleta.
 
-O **contexto do Vale-Transporte** vem dos artefatos do projeto. A **forma de interpretar, consolidar e relatar** segue apenas Barbosa e Silva (2010, seções 9.7.4–9.8 e 10.2.1). As tabelas abaixo são modelos vazios; não houve sessão definitiva nem resultado a informar neste planejamento.
+O **contexto do Vale-Transporte** vem dos artefatos do projeto. A **forma de interpretar, consolidar e relatar** segue Barbosa e Silva (2010, seções 9.7.4–9.8 e 10.2.1). A rodada foi planejada para três participantes, conforme a recomendação de Krug (2000, cap. 9). As tabelas de dados e interpretação abaixo são modelos para o registro das sessões; os resultados efetivos constam no [relato individual](../../relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md).
 
 ## 2. Fundamentação e evidências do livro
 
@@ -37,7 +38,7 @@ O livro orienta interpretar primeiro os dados de cada participante para responde
 | **Dados coletados** | Resumo por tarefa: conclusão, tempo aproximado, erros, retornos, ajuda e comentários. |
 | **Interpretação** | Respostas a P01–P06 e explicação de cada achado a partir das evidências. |
 | **Problemas encontrados** | Tela, descrição, evidência, impacto na usabilidade, recorrência e sugestão de solução. |
-| **Reprojeto** | Mudanças propostas, prioridade, responsável e pendências de validação. |
+| **Reprojeto** | Mudanças propostas, prioridade e responsável. |
 | **Limitações e conclusão** | Influência da amostra, ambiente, protótipo e estados simulados; perguntas inconclusivas. |
 
 Essa composição corresponde aos itens de relato indicados pelo livro (Barbosa; Silva, 2010, p. 312–313, 343).
@@ -48,17 +49,16 @@ Essa composição corresponde aos itens de relato indicados pelo livro (Barbosa;
 
 | Campo | Registro após a avaliação |
 | :--- | :--- |
-| Data(s), horário(s) e local | A preencher |
-| Versão e acesso ao protótipo | A preencher |
-| Dispositivo e condições de uso | A preencher |
-| Número de participantes | A preencher |
+| Data, horário e local | 12/11/2026, das 8h às 10h, na Universidade de Brasília |
+| Versão e acesso ao protótipo | [Protótipo de alta fidelidade](https://arthur-mariani.github.io/PAF-IHC); versão a registrar |
+| Dispositivo e condições de uso | Smartphone para testar e gravar; demais condições a registrar |
+| Número de participantes | 3 |
 | Perfil agregado relevante | A preencher, sem dados identificáveis |
-| Condutor e observador | A preencher |
+| Condutor e observador | Arthur Mariani, acumulando as duas funções por falta de tempo |
 | Registro autorizado | Anotações; áudio ou vídeo somente se autorizados |
-| Alterações após o piloto | A preencher |
 | Desvios do roteiro definitivo | A preencher |
 
-Os dados do piloto não integrarão o resultado; serão registradas apenas as alterações feitas no procedimento. Essa separação segue a seção 9.7.2 do livro (Barbosa; Silva, 2010, p. 307).
+Os dados do piloto não integrarão o resultado, conforme a seção 9.7.2 do livro (Barbosa; Silva, 2010, p. 307).
 
 ### 5.2 Dados a consolidar por tarefa
 
@@ -68,7 +68,7 @@ Os dados do piloto não integrarão o resultado; serão registradas apenas as al
 | P01 | T2 | A preencher | A preencher | A preencher | A preencher |
 | P01 | T3 | A preencher | A preencher | A preencher | A preencher |
 
-Repete-se o conjunto de três linhas para cada participante. A coluna **conclusão** usará `sem ajuda`, `com ajuda` ou `não concluída`; o relato explicará qualquer intervenção do avaliador. O livro apresenta conclusão, tempo, erros e uso de ajuda como medidas possíveis e recomenda examinar os comentários para entender a origem dos problemas (Barbosa; Silva, 2010, p. 342–343).
+Repete-se o conjunto de três linhas para P02 e P03. A coluna **conclusão** usará `sem ajuda`, `com ajuda` ou `não concluída`; o relato explicará qualquer intervenção do avaliador. O livro apresenta conclusão, tempo, erros e uso de ajuda como medidas possíveis e recomenda examinar os comentários para entender a origem dos problemas (Barbosa; Silva, 2010, p. 342–343).
 
 ## 6. Interpretação e consolidação
 
@@ -160,5 +160,6 @@ As áreas amarelas destacam os trechos usados como base para as afirmações e d
 ## 9. Referências bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier/Campus, 2010. Cap. 9, seções 9.7.2, 9.7.4–9.8, p. 307, 310–313; cap. 10, seção 10.2.1, p. 342–343.
+* KRUG, Steve. **Don't Make Me Think! A Common Sense Approach to Web Usability**. Indianapolis: New Riders, 2000. Cap. 9, p. 146. [Trecho disponibilizado pelo autor](https://sensible.com/downloads/DMMTchapter09_for_personal_use_only.pdf).
 
 ---

@@ -5,10 +5,11 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 02/11/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Alta Fidelidade da TAR-06 via DECIDE. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude Code (Anthropic) - apoio à redação e à formatação em Markdown a partir das decisões de planejamento do autor |
+| 10/11/2026 | `1.1` | Troca da plataforma do protótipo de Figma para HTML navegável, executado no navegador do celular, com a justificativa da troca (seção 5.1), e atualização da Tabela 5, do teste piloto e da declaração de uso de IA. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude Code (Anthropic) - apoio à redação e à formatação em Markdown a partir das decisões do autor |
 
 ---
 
-Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. Trata-se de um planejamento individual para orientar a avaliação formativa do protótipo navegável, construído no **Figma**, da consulta em tempo real que aparece no [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md) e no [Storyboard 08](../../../nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto).
+Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. Trata-se de um planejamento individual para orientar a avaliação formativa do protótipo navegável, construído em **HTML navegável** e executado no navegador do celular, da consulta em tempo real que aparece no [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md) e no [Storyboard 08](../../../nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto).
 
 O protótipo de alta fidelidade dá continuidade ao [Planejamento da Avaliação do Protótipo de Papel](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md). Ele reaproveita as telas e peças do papel (Tabela 3 daquele documento) e incorpora os ajustes indicados no relato dos resultados da avaliação em papel. A avaliação envolve participantes do perfil da persona [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md) e é estruturada pelo **Framework DECIDE** (Barbosa e Silva, 2010, p. 313) ([Figura 2](#figura-2)).
 
@@ -126,12 +127,23 @@ Esses dados estão entre os que o livro indica para o teste de usabilidade (Barb
 
 ## 5. I — Identificar e Administrar as Questões Práticas
 
-### 5.1 Protótipo no Figma
+### 5.1 Protótipo em HTML Navegável
 
 * **Telas:** tela inicial com busca por linha ou por ponto de referência e área de linhas favoritas; resultados da busca; detalhe da linha com tempo previsto, mapa, indicação "atualizado há X" e botões "favoritar" e "avisar atraso"; aviso de posição desatualizada; alternativas para o mesmo destino; e mensagens de confirmação.
 * **Origem:** as telas correspondem às peças T1–T4, N1 e N2 do protótipo de papel, com os ajustes indicados no relato da avaliação em papel.
 * **Guia de Estilo:** cores, tipografia, botões com verbo de ação e vocabulário seguem o Guia de Estilo do Grupo 05.
-* **Versão testada:** o link e a versão do arquivo do Figma usados nas sessões serão registrados no relato.
+* **Versão testada:** o protótipo fica versionado no repositório do projeto e publicado no GitHub Pages. O relato registra o link e o *commit* exato usados nas sessões.
+* **Implementação:** o código (HTML, CSS e JavaScript em um único arquivo) foi implementado com o Claude Code (Anthropic) a partir da especificação de telas, das tarefas e do Guia de Estilo definidos pelo autor, que revisa, testa e aprova cada tela.
+
+**Por que HTML e não Figma.** A versão `1.0` previa o protótipo no Figma. A plataforma do protótipo da TAR-06 foi trocada pelos motivos abaixo. A decisão vale apenas para este planejamento; os demais planejamentos de alta fidelidade do Grupo 05 mantêm a plataforma definida por seus autores.
+
+* **Limite da conta:** a conta do autor no Figma é gratuita, com assento de visualização, e permite poucas chamadas mensais ao conector usado para montar as telas com apoio de IA. O número de chamadas necessário para construir e conferir as telas da TAR-06 passaria desse limite.
+* **Interações mais realistas:** no HTML, a indicação "atualizado há X" conta o tempo de verdade, o aviso de posição desatualizada (AF2) aparece em um momento definido, a busca responde ao que é digitado e "Favoritar" e "Avisar atraso" mostram confirmações reais. Isso aproxima o protótipo do comportamento do aplicativo e dá mais base às respostas de P03–P05.
+* **Caminhos garantidos:** todos os caminhos de AF1–AF3, inclusive os de erro e o botão voltar, ficam programados e podem ser testados antes do piloto.
+* **Ajustes rápidos:** os ajustes pedidos no teste piloto podem ser aplicados no código antes da primeira sessão.
+* **Contingência já prevista:** a Tabela 5 da versão `1.0` já previa o protótipo aberto no navegador. A troca promove essa alternativa a plano principal.
+
+As tarefas, as perguntas, os participantes, os papéis, os cuidados éticos e a escala de severidade **não mudam**; muda apenas a ferramenta em que o protótipo é construído.
 
 ### 5.2 Recrutamento e Perfil dos Participantes
 
@@ -172,12 +184,12 @@ Os horários serão confirmados com cada participante, mantendo as datas da Tabe
 | Parâmetro | Detalhamento |
 | :--- | :--- |
 | **Local** | Presencial, em sala de estudos ou ambiente tranquilo da FCTE/UnB Gama. |
-| **Dispositivo** | Smartphone com o protótipo aberto no aplicativo do Figma, conectado à internet, e carregador. |
+| **Dispositivo** | Smartphone com o protótipo aberto no navegador (Chrome) pelo link publicado no GitHub Pages, conectado à internet, e carregador. |
 | **Gravação** | Gravação da tela do celular com áudio. O rosto do participante não é gravado. |
-| **Contingência** | Notebook com o protótipo aberto no navegador, caso o celular ou a conexão falhem. |
+| **Contingência** | Arquivo do protótipo salvo no próprio celular, que abre sem internet, ou notebook com o protótipo aberto no navegador em modo de visualização de celular. |
 | **Materiais** | TCLE impresso, cartão com o cenário e as tarefas, ficha de observação, roteiro da entrevista e cronômetro. |
 | **Etapas da sessão** | Recepção e TCLE (5 min), perguntas sobre o uso de ônibus e de aplicativos (3 min), tarefas AF1–AF3 (15 min) e entrevista pós-teste (7 min). |
-| **Orçamento** | **R\$ 0,00** (Figma gratuito e equipamentos próprios). |
+| **Orçamento** | **R\$ 0,00** (código próprio, hospedagem gratuita no GitHub Pages e equipamentos próprios). |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Carlos Costa (2026).</em></p>
@@ -199,7 +211,7 @@ Antes das sessões, é feito um **teste piloto** completo (Barbosa e Silva, 2010
 
 * **Data e participante:** 10/11/2026, às 14:00, com um integrante do Grupo 05 que não participou da construção do protótipo.
 * **O que é verificado:**
-  * se todos os caminhos das tarefas AF1–AF3 estão ligados no Figma, inclusive os de erro;
+  * se todos os caminhos das tarefas AF1–AF3 funcionam no protótipo HTML, inclusive os de erro e o botão voltar;
   * se o aviso de posição desatualizada aparece no momento certo;
   * se o texto das tarefas está claro;
   * a duração da sessão;
@@ -306,7 +318,7 @@ Os trechos grifados em amarelo fundamentam as decisões deste planejamento.
 
 ## 10. Declaração sobre o Uso de IA Generativa
 
-Em cumprimento ao Plano de Ensino e ao Código de Conduta da SBC, declara-se que a ferramenta **Claude Code (Anthropic)** foi utilizada para apoiar a redação e a formatação do texto em Markdown. As decisões de planejamento (escopo, tarefas, quantidade e perfil dos participantes, datas, local e formato das sessões) são de Carlos Costa, que revisou o texto e responde integralmente pelo conteúdo.
+Em cumprimento ao Plano de Ensino e ao Código de Conduta da SBC, declara-se que a ferramenta **Claude Code (Anthropic)** foi utilizada para apoiar a redação e a formatação do texto em Markdown. Na versão `1.1`, a mesma ferramenta foi usada para implementar o protótipo navegável em HTML a partir da especificação de telas, das tarefas e do Guia de Estilo definidos pelo autor, que revisou, testou e aprovou cada tela. As decisões de planejamento e de design (escopo, tarefas, telas, quantidade e perfil dos participantes, datas, local e formato das sessões) são de Carlos Costa, que revisou o texto e responde integralmente pelo conteúdo.
 
 ---
 
