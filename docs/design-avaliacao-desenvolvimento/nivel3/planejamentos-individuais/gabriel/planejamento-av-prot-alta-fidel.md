@@ -5,6 +5,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 02/11/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Alta Fidelidade (TAR-02) via DECIDE, por meio de teste de usabilidade. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para apoio na formatação markdown da página e correções ortográficas. |
+| 15/11/2026 | `1.1` | Alteração do dispositivo do teste de computador para celular (Seções 4.1, 4.2 e 4.4). | [Gabriel Cardone](https://github.com/gabriellcardone-06) | — | Claude (Anthropic) - usado para apoio na edição do texto. |
 
 ---
 
@@ -83,7 +84,7 @@ O método selecionado é o **Teste de Usabilidade** (Barbosa et al., 2021, Seç�
 ## 4. I — Identificar e Administrar as Questões Práticas
 
 ### 4.1 Protótipo no Figma
-O protótipo será disponibilizado no modo de apresentação do Figma (*Prototype mode*), em um quadro de celular, em um computador e reproduzirá as mesmas telas do protótipo de papel:
+O protótipo será disponibilizado no modo de apresentação do Figma (*Prototype mode*), aberto diretamente no navegador de um celular, e reproduzirá as mesmas telas do protótipo de papel:
 
 1. **Apresentação do pré-agendamento**, com a explicação do serviço, as etapas e o botão "Agendar transporte";
 2. **Posto de embarque**, com um mapa mostrando todos os postos disponíveis e a localização atual do aparelho;
@@ -98,7 +99,7 @@ As telas seguirão a sequência de diálogo "Pré-agendar viagem no DF Acessíve
 
 * **Avaliador Condutor (Gabriel Cardone):** Recebe o participante, apresenta o TCLE e o cenário, conduz a entrevista pós-teste e **ajuda somente se for solicitado** durante as tarefas.
 * **Avaliador Observador (Gabriel Cardone)** Cronometra cada tarefa e registra na ficha de observação os erros, os pedidos de ajuda, as hesitações e os comentários do participante.
-* **Participante:** Interage com o protótipo no computador, utilizando um mouse para simular seu toque na tela como faria no site real.
+* **Participante:** Interage com o protótipo no celular, tocando na tela como faria no site real.
 
 ### 4.3 Recrutamento e Perfil dos Participantes
 * **Quantidade:** **3 participantes**, seguindo a recomendação de Steve Krug (2000, 2010).
@@ -115,9 +116,9 @@ A literatura de usabilidade não tem consenso sobre quantos participantes um tes
 
 ### 4.4 Infraestrutura e Equipamentos
 * **Local:** Ambiente reservado, tranquilo e acessível (sala na FCTE/UnB ou local de preferência do participante, para não exigir deslocamento de quem tem mobilidade reduzida).
-* **Dispositivo:** Computador com o protótipo aberto no aplicativo do Figma.
-* **Gravação:** Gravação da tela do computador e do participante interagingo com o computador.
-* **Material de Apoio:** TCLE, folha com o cenário e as tarefas, ficha de observação e dois arquivos PDF fictícios (laudo e comprovante de residência, sem dados reais) salvos no computador para simular o envio.
+* **Dispositivo:** Celular com o protótipo aberto no navegador, pelo link de apresentação do Figma.
+* **Gravação:** Gravação da tela do celular e do participante interagindo com o celular.
+* **Material de Apoio:** TCLE, folha com o cenário e as tarefas, ficha de observação e dois arquivos PDF fictícios (laudo e comprovante de residência, sem dados reais) disponíveis no seletor de arquivos simulado do protótipo.
 
 ### 4.5 Roteiro de Tarefas da Sessão
 As tarefas serão apresentadas uma de cada vez, a partir do [Cenário 1](../../../../analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel.md): *"Você precisa de transporte adaptado para ir à fisioterapia, em Taguatinga, daqui a um mês. Você mora em Ceilândia e já abriu, no celular, a página 'Agendar DF Acessível' do site da SEMOB-DF. Faça o pré-agendamento da viagem."*
