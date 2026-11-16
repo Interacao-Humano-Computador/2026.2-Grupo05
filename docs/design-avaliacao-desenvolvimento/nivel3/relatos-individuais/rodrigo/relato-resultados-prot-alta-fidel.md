@@ -34,43 +34,43 @@ O fluxo implementado no Figma é conduzido por um assistente em **4 etapas** (Ch
 
 <div align="center">
 <p><strong>Figura 1</strong> — Tela inicial da Ouvidoria da SEMOB-DF</p>
-<img src="../../../../assets/images/prot-alta-fidel-rodrigo-1.png" alt="Tela inicial da Ouvidoria da SEMOB-DF" width="800">
+<img src="../../../../../assets/images/prot-alta-fidel-rodrigo-1.png" alt="Tela inicial da Ouvidoria da SEMOB-DF" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
 <p><strong>Figura 2</strong> — Etapa 1 — Checklist “Antes de começar, tenha em mãos”</p>
-<img src="../../../../assets/images/prot-alta-fidel-rodrigo-2.png" alt="Etapa 1 — Checklist “Antes de começar, tenha em mãos”" width="800">
+<img src="../../../../../assets/images/prot-alta-fidel-rodrigo-2.png" alt="Etapa 1 — Checklist “Antes de começar, tenha em mãos”" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
 <p><strong>Figura 3</strong> — Etapa 2 — Seleção do motivo da reclamação</p>
-<img src="../../../../assets/images/prot-alta-fidel-rodrigo-3.png" alt="Etapa 2 — Seleção do motivo da reclamação" width="800">
+<img src="../../../../../assets/images/prot-alta-fidel-rodrigo-3.png" alt="Etapa 2 — Seleção do motivo da reclamação" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
 <p><strong>Figura 4</strong> — Etapa 3 — Preenchimento dos dados da ocorrência</p>
-<img src="../../../../assets/images/prot-alta-fidel-rodrigo-4.png" alt="Etapa 3 — Preenchimento dos dados da ocorrência" width="800">
+<img src="../../../../../assets/images/prot-alta-fidel-rodrigo-4.png" alt="Etapa 3 — Preenchimento dos dados da ocorrência" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
 <p><strong>Figura 5</strong> — Etapa 4 — Resumo pronto para cópia</p>
-<img src="../../../../assets/images/prot-alta-fidel-rodrigo-5.png" alt="Etapa 4 — Resumo pronto para cópia" width="800">
+<img src="../../../../../assets/images/prot-alta-fidel-rodrigo-5.png" alt="Etapa 4 — Resumo pronto para cópia" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
 <p><strong>Figura 6</strong> — Registro do relato no Participa-DF</p>
-<img src="../../../../assets/images/prot-alta-fidel-rodrigo-6.png" alt="Registro do relato no Participa-DF" width="800">
+<img src="../../../../../assets/images/prot-alta-fidel-rodrigo-6.png" alt="Registro do relato no Participa-DF" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
 <p><strong>Figura 7</strong> — Tela de sucesso com o protocolo gerado</p>
-<img src="../../../../assets/images/prot-alta-fidel-rodrigo-7.png" alt="Tela de sucesso com o protocolo gerado" width="800">
+<img src="../../../../../assets/images/prot-alta-fidel-rodrigo-7.png" alt="Tela de sucesso com o protocolo gerado" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
