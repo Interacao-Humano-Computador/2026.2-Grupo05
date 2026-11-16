@@ -82,7 +82,7 @@ Para garantir a padronização e o rigor da entrega, o relatório final utilizar
 | **Q01** | Conformidade Visual | *"Os botões e rótulos pareceram legíveis, claros e fáceis de identificar no celular?"* | *[Síntese do feedback dos 3 participantes]* | **[Conforme / Ajustar]** |
 | **Q02** | Acesso ao Canal | *"A opção de registrar a reclamação foi encontrada com facilidade na página inicial?"* | *[Síntese do feedback dos 3 participantes]* | **[Conforme / Ajustar]** |
 | **Q03** | Seleção do Motivo | *"A escolha da categoria do problema (ônibus não parou, atraso etc.) foi simples e direta?"* | *[Síntese do feedback dos 3 participantes]* | **[Conforme / Ajustar]** |
-| **Q04** | Campo Opcional | *"Como você avalia o fato de o número da carcaça do ônibus não ser obrigatório?"* | *[Síntese do feedback dos 3 participantes]* | **[Conforme / Ajustar]** |
+| **Q04** | Campo Opcional | *"Como você avalia o fato de o número do ônibus não ser obrigatório?"* | *[Síntese do feedback dos 3 participantes]* | **[Conforme / Ajustar]** |
 | **Q05** | Confirmação e Protocolo | *"O comprovante com o número do protocolo e a opção de copiar deixaram a manifestação clara?"* | *[Síntese do feedback dos 3 participantes]* | **[Conforme / Ajustar]** |
 | **Q06** | Satisfação Geral | *"Como você avalia a facilidade de uso geral e a rapidez do assistente no Figma?"* | *[Síntese do feedback dos 3 participantes]* | **[Positivo / Neutro / Negativo]** |
 
