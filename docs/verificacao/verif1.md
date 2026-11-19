@@ -1,5 +1,8 @@
 # Lista de Verificação - Entrega 1
 
+!!! warning "Versão anterior (1.0) — mantida para rastreabilidade"
+    Esta página é a versão 1.0 da lista e foi mantida sem alterações de conteúdo. Os itens desta versão tratam do planejamento da avaliação e foram transferidos para a [lista da Entrega 4 (v2.0)](v2/verif4.md). A lista da Entrega 1 foi refeita em [v2/verif1.md](v2/verif1.md). O [índice das listas de verificação](index.md) mostra onde está cada versão e o que mudou.
+
 ## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |

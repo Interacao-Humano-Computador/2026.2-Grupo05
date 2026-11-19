@@ -1,5 +1,8 @@
 # Verificação da Entrega 6
 
+!!! warning "Versão anterior (1.0) — mantida para rastreabilidade"
+    Esta página é a versão 1.0 da lista e foi mantida sem alterações de conteúdo. A versão atual está em [v2/verif6.md](v2/verif6.md). Os itens 1–14 desta página têm o mesmo número, com prefixo G, na v2.0. O [índice das listas de verificação](index.md) mostra onde está cada versão e o que mudou.
+
 ## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) |

@@ -300,11 +300,21 @@ nav:
           - Resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md
 
   - Verificação: 
-    - Verificação da entrega 1: verificacao/verif1.md
-    - Verificação da entrega 2: verificacao/verif2.md
-    - Verificação da entrega 3: verificacao/verif3.md
-    - Verificação da entrega 5: verificacao/verif5.md
-    - Verificação da Entrega 6: verificacao/verif6.md
-    - Verificação da Entrega 7: verificacao/verif7.md
+    - Visão geral: verificacao/index.md
+    - Versão atual (2.0):
+      - Verificação da Entrega 1: verificacao/v2/verif1.md
+      - Verificação da Entrega 2: verificacao/v2/verif2.md
+      - Verificação da Entrega 3: verificacao/v2/verif3.md
+      - Verificação da Entrega 4: verificacao/v2/verif4.md
+      - Verificação da Entrega 5: verificacao/v2/verif5.md
+      - Verificação da Entrega 6: verificacao/v2/verif6.md
+      - Verificação da Entrega 7: verificacao/v2/verif7.md
+    - Versões anteriores (1.0):
+      - Verificação da Entrega 1 (v1.0): verificacao/verif1.md
+      - Verificação da Entrega 2 (v1.0): verificacao/verif2.md
+      - Verificação da Entrega 3 (v1.0): verificacao/verif3.md
+      - Verificação da Entrega 5 (v1.0): verificacao/verif5.md
+      - Verificação da Entrega 6 (v1.0): verificacao/verif6.md
+      - Verificação da Entrega 7 (v1.0): verificacao/verif7.md
 
   - Entrega Final: entrega-final/index.md
