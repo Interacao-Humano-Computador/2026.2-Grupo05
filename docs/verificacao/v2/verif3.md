@@ -2,16 +2,12 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 06/10/2026 | `1.0` | Elaboração dos itens para os Princípios Gerais de IHC, as Metas de Usabilidade e o Guia de Estilo (publicada em [verif3.md](../verif3.md)). | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) e [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic) e Google Gemini — uso declarado pelo autor (sem detalhamento da finalidade) |
-| 19/11/2026 | `2.0` | Inclusão dos Itens do Desenvolvimento do Projeto e dos itens de conteúdo 10–17 do Plano de Ensino; itens de Tomás Rocho; referências e prints para todos os itens, refeitos a partir do IHC.pdf. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) e Google Gemini — uso declarado pelo autor (sem detalhamento da finalidade) |
-| 19/11/2026 | `2.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    Há versões sem revisor no histórico. Indicar o revisor de cada versão.
+| 06/10/2026 | `1.0` | Elaboração dos itens para os Princípios Gerais de IHC, as Metas de Usabilidade e o Guia de Estilo (publicada em [verif3.md](../verif3.md)). | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) e [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic) e Google Gemini: uso declarado pelo autor (sem detalhamento da finalidade) |
+| 19/11/2026 | `2.0` | Inclusão dos Itens do Desenvolvimento do Projeto e dos itens de conteúdo 10–17 do Plano de Ensino; itens de Tomás Rocho; referências e prints para todos os itens, refeitos a partir do IHC.pdf. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic) e Google Gemini: uso declarado pelo autor (sem detalhamento da finalidade) |
 
 ---
 
-# Lista de Verificação — Entrega 3 (versão 2.0)
+# Lista de Verificação: Entrega 3 (versão 2.0)
 
 !!! info "Versão 2.0 — rastreabilidade"
     Esta é a **versão 2.0** da lista. A versão 1.0 continua disponível, sem alterações de conteúdo, em [verif3.md](../verif3.md). O [índice das listas de verificação](../index.md) mostra onde está cada versão.
@@ -29,7 +25,7 @@ Os itens estão organizados assim: primeiro os **Itens do Desenvolvimento do Pro
 O Plano de Ensino define onze itens de desenvolvimento que valem para todos os artefatos (SALES, 2026, pp. 8–9). Eles aparecem primeiro em todas as listas do grupo, da Entrega 1 à Entrega 7 (veja a Tabela 1). Nas Entregas 3 e 4, o Plano fala em “Todos os 10 itens”, mas a lista do professor tem 11; por isso os 11 foram mantidos.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Itens do Desenvolvimento do Projeto (Avaliar: o próprio grupo e o grupo +1)</p>
+<p><strong>Tabela 1</strong>: Itens do Desenvolvimento do Projeto (Avaliar: o próprio grupo e o grupo +1)</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -55,7 +51,7 @@ O Plano de Ensino define onze itens de desenvolvimento que valem para todos os a
 A Tabela 2 reproduz os itens 10 a 17 da Entrega 3 do Plano de Ensino, com a numeração do professor. A versão 1.0 não tinha esses itens. O item C10 não tem artefato próprio no repositório até esta versão; a característica da plataforma aparece na fase de análise de requisitos do ciclo de Mayhew (BARBOSA et al., 2021, p. 105).
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Itens de conteúdo da Entrega 3 definidos pelo professor</p>
+<p><strong>Tabela 2</strong>: Itens de conteúdo da Entrega 3 definidos pelo professor</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -78,7 +74,7 @@ A Tabela 2 reproduz os itens 10 a 17 da Entrega 3 do Plano de Ensino, com a nume
 Os itens do grupo estão na Tabela 3. A autoria é a mesma da versão 1.0, em que cada integrante escreveu os próprios itens; Tomás Rocho entra com os itens G40 e G41, sobre os princípios que ele desenvolveu (antecipação e projeto para erros).
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Itens do Grupo 05 para Princípios Gerais, Guia de Estilo e Metas de Usabilidade</p>
+<p><strong>Tabela 3</strong>: Itens do Grupo 05 para Princípios Gerais, Guia de Estilo e Metas de Usabilidade</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -134,7 +130,7 @@ Os itens do grupo estão na Tabela 3. A autoria é a mesma da versão 1.0, em qu
 A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens segue o conteúdo que cada integrante produziu no projeto: quem fez o artefato é autor dos itens que o verificam. Os links levam ao artefato correspondente. As gravações das reuniões estão na página de [atas](../../atas/ata1.md) e de [gravações](../../apresentacoes/index.md).
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Contribuição de cada integrante nesta lista</p>
+<p><strong>Tabela 4</strong>: Contribuição de cada integrante nesta lista</p>
 </div>
 
 | Integrante | Contribuição nesta lista | Artefato(s) relacionado(s) |
@@ -157,7 +153,7 @@ A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens seg
 A versão 1.0 continua publicada em [verif3.md](../verif3.md) e não foi apagada. A Tabela 5 indica onde cada item da versão 1.0 está nesta versão e o que mudou.
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
+<p><strong>Tabela 5</strong>: Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
 </div>
 
 | Item na v1.0 | Item na v2.0 | Alteração |
@@ -179,7 +175,7 @@ A versão 1.0 continua publicada em [verif3.md](../verif3.md) e não foi apagada
 O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 6.
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Registro das avaliações feitas com esta lista</p>
+<p><strong>Tabela 6</strong>: Registro das avaliações feitas com esta lista</p>
 </div>
 | Artefato e versão avaliada | Data e hora | Avaliador(es) | Grupo avaliador (próprio ou +1) | Observações |
 | :--- | :---: | :--- | :---: | :--- |
@@ -198,265 +194,265 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ---
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
 </div>
 
-![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Itens que usam esta figura: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11.</em></p>
 </div>
 
 ---
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Itens de conteúdo 10 a 12 da Entrega 3 (plataforma e Princípios Gerais)</p>
+<p><strong>Figura 2</strong>: Itens de conteúdo 10 a 12 da Entrega 3 (plataforma e Princípios Gerais)</p>
 </div>
 
-![Figura 2 — Itens de conteúdo 10 a 12 da Entrega 3 (plataforma e Princípios Gerais)](../../assets/prints_referencias/verificacao-v2/plano-entrega3-principios.png)
+![Figura 2: Itens de conteúdo 10 a 12 da Entrega 3 (plataforma e Princípios Gerais)](../../assets/prints_referencias/verificacao-v2/plano-entrega3-principios.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 11). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C10, C11, C12.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 11). Itens que usam esta figura: C10, C11, C12.</em></p>
 </div>
 
 ---
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design</p>
+<p><strong>Figura 3</strong>: Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design</p>
 </div>
 
-![Figura 3 — Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design](../../assets/prints_referencias/verificacao-v2/livro-mayhew.png)
+![Figura 3: Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design](../../assets/prints_referencias/verificacao-v2/livro-mayhew.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 105, 107). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C10.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 105, 107). Itens que usam esta figura: C10.</em></p>
 </div>
 
 ---
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades</p>
+<p><strong>Figura 4</strong>: Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades</p>
 </div>
 
-![Figura 4 — Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades](../../assets/prints_referencias/verificacao-v2/livro-diretrizes-contexto.png)
+![Figura 4: Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades](../../assets/prints_referencias/verificacao-v2/livro-diretrizes-contexto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 222). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C11, G6, G7, G8.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 222). Itens que usam esta figura: C11, G6, G7, G8.</em></p>
 </div>
 
 ---
 
 <div id="figura-5" align="center">
-<p><strong>Figura 5</strong> — 10.2.1 Correspondência com as expectativas dos usuários</p>
+<p><strong>Figura 5</strong>: 10.2.1 Correspondência com as expectativas dos usuários</p>
 </div>
 
-![Figura 5 — 10.2.1 Correspondência com as expectativas dos usuários](../../assets/prints_referencias/verificacao-v2/livro-correspondencia.png)
+![Figura 5: 10.2.1 Correspondência com as expectativas dos usuários](../../assets/prints_referencias/verificacao-v2/livro-correspondencia.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 222). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C12, G16, G18.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 222). Itens que usam esta figura: C12, G16, G18.</em></p>
 </div>
 
 ---
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong> — 10.2.2 Simplicidade nas estruturas das tarefas</p>
+<p><strong>Figura 6</strong>: 10.2.2 Simplicidade nas estruturas das tarefas</p>
 </div>
 
-![Figura 6 — 10.2.2 Simplicidade nas estruturas das tarefas](../../assets/prints_referencias/verificacao-v2/livro-simplicidade.png)
+![Figura 6: 10.2.2 Simplicidade nas estruturas das tarefas](../../assets/prints_referencias/verificacao-v2/livro-simplicidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 223). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C12, G1, G2.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 223). Itens que usam esta figura: C12, G1, G2.</em></p>
 </div>
 
 ---
 
 <div id="figura-7" align="center">
-<p><strong>Figura 7</strong> — 10.2.3 Equilíbrio entre controle e liberdade do usuário</p>
+<p><strong>Figura 7</strong>: 10.2.3 Equilíbrio entre controle e liberdade do usuário</p>
 </div>
 
-![Figura 7 — 10.2.3 Equilíbrio entre controle e liberdade do usuário](../../assets/prints_referencias/verificacao-v2/livro-controle-liberdade.png)
+![Figura 7: 10.2.3 Equilíbrio entre controle e liberdade do usuário](../../assets/prints_referencias/verificacao-v2/livro-controle-liberdade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 224). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C12, G3, G4, G5, G19.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 224). Itens que usam esta figura: C12, G3, G4, G5, G19.</em></p>
 </div>
 
 ---
 
 <div id="figura-8" align="center">
-<p><strong>Figura 8</strong> — 10.2.4 Consistência e padronização</p>
+<p><strong>Figura 8</strong>: 10.2.4 Consistência e padronização</p>
 </div>
 
-![Figura 8 — 10.2.4 Consistência e padronização](../../assets/prints_referencias/verificacao-v2/livro-consistencia.png)
+![Figura 8: 10.2.4 Consistência e padronização](../../assets/prints_referencias/verificacao-v2/livro-consistencia.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 225). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C12, G20.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 225). Itens que usam esta figura: C12, G20.</em></p>
 </div>
 
 ---
 
 <div id="figura-9" align="center">
-<p><strong>Figura 9</strong> — 10.2.5 Promovendo a eficiência do usuário</p>
+<p><strong>Figura 9</strong>: 10.2.5 Promovendo a eficiência do usuário</p>
 </div>
 
-![Figura 9 — 10.2.5 Promovendo a eficiência do usuário](../../assets/prints_referencias/verificacao-v2/livro-eficiencia.png)
+![Figura 9: 10.2.5 Promovendo a eficiência do usuário](../../assets/prints_referencias/verificacao-v2/livro-eficiencia.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 226). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C12, G23.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 226). Itens que usam esta figura: C12, G23.</em></p>
 </div>
 
 ---
 
 <div id="figura-10" align="center">
-<p><strong>Figura 10</strong> — 10.2.6 Antecipação das necessidades do usuário</p>
+<p><strong>Figura 10</strong>: 10.2.6 Antecipação das necessidades do usuário</p>
 </div>
 
-![Figura 10 — 10.2.6 Antecipação das necessidades do usuário](../../assets/prints_referencias/verificacao-v2/livro-antecipacao.png)
+![Figura 10: 10.2.6 Antecipação das necessidades do usuário](../../assets/prints_referencias/verificacao-v2/livro-antecipacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 227). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C12, G21, G40.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 227). Itens que usam esta figura: C12, G21, G40.</em></p>
 </div>
 
 ---
 
 <div id="figura-11" align="center">
-<p><strong>Figura 11</strong> — 10.2.7 Visibilidade e reconhecimento</p>
+<p><strong>Figura 11</strong>: 10.2.7 Visibilidade e reconhecimento</p>
 </div>
 
-![Figura 11 — 10.2.7 Visibilidade e reconhecimento](../../assets/prints_referencias/verificacao-v2/livro-visibilidade.png)
+![Figura 11: 10.2.7 Visibilidade e reconhecimento](../../assets/prints_referencias/verificacao-v2/livro-visibilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 228). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C12, G10, G17, G22.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 228). Itens que usam esta figura: C12, G10, G17, G22.</em></p>
 </div>
 
 ---
 
 <div id="figura-12" align="center">
-<p><strong>Figura 12</strong> — 10.2.8 Conteúdo relevante e expressão adequada (máximas de Grice)</p>
+<p><strong>Figura 12</strong>: 10.2.8 Conteúdo relevante e expressão adequada (máximas de Grice)</p>
 </div>
 
-![Figura 12 — 10.2.8 Conteúdo relevante e expressão adequada (máximas de Grice)](../../assets/prints_referencias/verificacao-v2/livro-conteudo.png)
+![Figura 12: 10.2.8 Conteúdo relevante e expressão adequada (máximas de Grice)](../../assets/prints_referencias/verificacao-v2/livro-conteudo.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 230). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C12, G9.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 230). Itens que usam esta figura: C12, G9.</em></p>
 </div>
 
 ---
 
 <div id="figura-13" align="center">
-<p><strong>Figura 13</strong> — 10.2.9 Projeto para erros</p>
+<p><strong>Figura 13</strong>: 10.2.9 Projeto para erros</p>
 </div>
 
-![Figura 13 — 10.2.9 Projeto para erros](../../assets/prints_referencias/verificacao-v2/livro-projeto-erros.png)
+![Figura 13: 10.2.9 Projeto para erros](../../assets/prints_referencias/verificacao-v2/livro-projeto-erros.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 231). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C12, G11, G41.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 231). Itens que usam esta figura: C12, G11, G41.</em></p>
 </div>
 
 ---
 
 <div id="figura-14" align="center">
-<p><strong>Figura 14</strong> — Itens de conteúdo 13 a 17 da Entrega 3 (metas de usabilidade e Guia de Estilo)</p>
+<p><strong>Figura 14</strong>: Itens de conteúdo 13 a 17 da Entrega 3 (metas de usabilidade e Guia de Estilo)</p>
 </div>
 
-![Figura 14 — Itens de conteúdo 13 a 17 da Entrega 3 (metas de usabilidade e Guia de Estilo)](../../assets/prints_referencias/verificacao-v2/plano-entrega3-metas-guia.png)
+![Figura 14: Itens de conteúdo 13 a 17 da Entrega 3 (metas de usabilidade e Guia de Estilo)](../../assets/prints_referencias/verificacao-v2/plano-entrega3-metas-guia.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 12). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C13, C14, C15, C16, C17.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 12). Itens que usam esta figura: C13, C14, C15, C16, C17.</em></p>
 </div>
 
 ---
 
 <div id="figura-15" align="center">
-<p><strong>Figura 15</strong> — Definição de metas de usabilidade, indicadores e faixas de valores</p>
+<p><strong>Figura 15</strong>: Definição de metas de usabilidade, indicadores e faixas de valores</p>
 </div>
 
-![Figura 15 — Definição de metas de usabilidade, indicadores e faixas de valores](../../assets/prints_referencias/verificacao-v2/livro-metas-usabilidade.png)
+![Figura 15: Definição de metas de usabilidade, indicadores e faixas de valores](../../assets/prints_referencias/verificacao-v2/livro-metas-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 103). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C13, C14, G35, G36, G37.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 103). Itens que usam esta figura: C13, C14, G35, G36, G37.</em></p>
 </div>
 
 ---
 
 <div id="figura-16" align="center">
-<p><strong>Figura 16</strong> — 10.5 Guias de estilo: finalidade e escopos</p>
+<p><strong>Figura 16</strong>: 10.5 Guias de estilo: finalidade e escopos</p>
 </div>
 
-![Figura 16 — 10.5 Guias de estilo: finalidade e escopos](../../assets/prints_referencias/verificacao-v2/livro-guia-estilo.png)
+![Figura 16: 10.5 Guias de estilo: finalidade e escopos](../../assets/prints_referencias/verificacao-v2/livro-guia-estilo.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 241). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C15, G10, G12, G13, G14, G29, G30.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 241). Itens que usam esta figura: C15, G10, G12, G13, G14, G29, G30.</em></p>
 </div>
 
 ---
 
 <div id="figura-17" align="center">
-<p><strong>Figura 17</strong> — 10.5 Estrutura comum de um guia de estilo (Barbosa et al., 2021)</p>
+<p><strong>Figura 17</strong>: 10.5 Estrutura comum de um guia de estilo (Barbosa et al., 2021)</p>
 </div>
 
-![Figura 17 — 10.5 Estrutura comum de um guia de estilo (Marcus, 1991; Mayhew, 1999)](../../assets/prints_referencias/verificacao-v2/livro-guia-estrutura.png)
+![Figura 17: 10.5 Estrutura comum de um guia de estilo (Marcus, 1991; Mayhew, 1999)](../../assets/prints_referencias/verificacao-v2/livro-guia-estrutura.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 242). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C16, G14, G15, G26, G27, G28, G29, G30, G31, G32, G33, G34.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 242). Itens que usam esta figura: C16, G14, G15, G26, G27, G28, G29, G30, G31, G32, G33, G34.</em></p>
 </div>
 
 ---
 
 <div id="figura-18" align="center">
-<p><strong>Figura 18</strong> — 10.2.3 Desfazer ações em vez de excesso de diálogos de confirmação</p>
+<p><strong>Figura 18</strong>: 10.2.3 Desfazer ações em vez de excesso de diálogos de confirmação</p>
 </div>
 
-![Figura 18 — 10.2.3 Desfazer ações em vez de excesso de diálogos de confirmação](../../assets/prints_referencias/verificacao-v2/livro-controle-confirmacao.png)
+![Figura 18: 10.2.3 Desfazer ações em vez de excesso de diálogos de confirmação](../../assets/prints_referencias/verificacao-v2/livro-controle-confirmacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 225). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G5, G21.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 225). Itens que usam esta figura: G5, G21.</em></p>
 </div>
 
 ---
 
 <div id="figura-19" align="center">
-<p><strong>Figura 19</strong> — 12.1.1 Avaliação heurística: base nas heurísticas de Nielsen</p>
+<p><strong>Figura 19</strong>: 12.1.1 Avaliação heurística: base nas heurísticas de Nielsen</p>
 </div>
 
-![Figura 19 — 12.1.1 Avaliação heurística: base nas heurísticas de Nielsen](../../assets/prints_referencias/verificacao-v2/livro-heuristicas.png)
+![Figura 19: 12.1.1 Avaliação heurística: base nas heurísticas de Nielsen](../../assets/prints_referencias/verificacao-v2/livro-heuristicas.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 268). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G18, G22, G23, G24.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 268). Itens que usam esta figura: G18, G22, G23, G24.</em></p>
 </div>
 
 ---
 
 <div id="figura-20" align="center">
-<p><strong>Figura 20</strong> — 10.4 Dark patterns</p>
+<p><strong>Figura 20</strong>: 10.4 Dark patterns</p>
 </div>
 
-![Figura 20 — 10.4 Dark patterns](../../assets/prints_referencias/verificacao-v2/livro-dark-patterns.png)
+![Figura 20: 10.4 Dark patterns](../../assets/prints_referencias/verificacao-v2/livro-dark-patterns.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 234). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G25.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 234). Itens que usam esta figura: G25.</em></p>
 </div>
 
 ---
 
 <div id="figura-21" align="center">
-<p><strong>Figura 21</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+<p><strong>Figura 21</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
 </div>
 
-![Figura 21 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+![Figura 21: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G38, G39.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Itens que usam esta figura: G38, G39.</em></p>
 </div>
 
 ---
 
 <div id="figura-22" align="center">
-<p><strong>Figura 22</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+<p><strong>Figura 22</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
 </div>
 
-![Figura 22 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+![Figura 22: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G38.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260). Itens que usam esta figura: G38.</em></p>
 </div>
 
 ---
@@ -464,4 +460,4 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ## Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
-* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

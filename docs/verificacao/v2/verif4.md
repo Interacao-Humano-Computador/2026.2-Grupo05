@@ -2,16 +2,12 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 26/09/2026 | `1.0` | Itens G1–G20, redigidos na versão 1.0 da lista da Entrega 1 (planejamento da avaliação e métodos de avaliação), publicada em [verif1.md](../verif1.md). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic) — uso declarado pelo autor (sem detalhamento da finalidade) |
-| 19/11/2026 | `2.0` | Criação da lista da Entrega 4, que não existia: Itens do Desenvolvimento do Projeto, itens de conteúdo 2–13 do Plano de Ensino, itens G1–G20 transferidos da v1.0 da Entrega 1 (com correções), itens novos G21–G28 e prints. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — uso declarado pelo autor (sem detalhamento da finalidade) |
-| 19/11/2026 | `2.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    Há versões sem revisor no histórico. Indicar o revisor de cada versão.
+| 26/09/2026 | `1.0` | Itens G1–G20, redigidos na versão 1.0 da lista da Entrega 1 (planejamento da avaliação e métodos de avaliação), publicada em [verif1.md](../verif1.md). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
+| 19/11/2026 | `2.0` | Criação da lista da Entrega 4, que não existia: Itens do Desenvolvimento do Projeto, itens de conteúdo 2–13 do Plano de Ensino, itens G1–G20 transferidos da v1.0 da Entrega 1 (com correções), itens novos G21–G28 e prints. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
 
 ---
 
-# Lista de Verificação — Entrega 4 (versão 2.0)
+# Lista de Verificação: Entrega 4 (versão 2.0)
 
 !!! info "Versão 2.0 — rastreabilidade"
     Esta é a **versão 2.0** da lista. O [índice das listas de verificação](../index.md) mostra onde está cada versão. Não havia versão 1.0 desta lista. Os itens G1–G20 vieram da versão 1.0 da lista da Entrega 1.
@@ -29,7 +25,7 @@ Os itens estão organizados assim: primeiro os **Itens do Desenvolvimento do Pro
 O Plano de Ensino define onze itens de desenvolvimento que valem para todos os artefatos (SALES, 2026, pp. 8–9). Eles aparecem primeiro em todas as listas do grupo, da Entrega 1 à Entrega 7 (veja a Tabela 1). Nas Entregas 3 e 4, o Plano fala em “Todos os 10 itens”, mas a lista do professor tem 11; por isso os 11 foram mantidos.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Itens do Desenvolvimento do Projeto (Avaliar: o próprio grupo e o grupo +1)</p>
+<p><strong>Tabela 1</strong>: Itens do Desenvolvimento do Projeto (Avaliar: o próprio grupo e o grupo +1)</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -55,7 +51,7 @@ O Plano de Ensino define onze itens de desenvolvimento que valem para todos os a
 A Tabela 2 reproduz os itens de conteúdo da Entrega 4. O Plano de Ensino numera esses itens a partir do 2, e a numeração foi mantida.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Itens de conteúdo da Entrega 4 definidos pelo professor</p>
+<p><strong>Tabela 2</strong>: Itens de conteúdo da Entrega 4 definidos pelo professor</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -82,7 +78,7 @@ A Tabela 2 reproduz os itens de conteúdo da Entrega 4. O Plano de Ensino numera
 A Tabela 3 traz os itens do grupo. G1–G10 e G11–G20 correspondem às duas tabelas da versão 1.0 da lista da Entrega 1, de Arthur Mariani; G21–G28 são novos e verificam o conteúdo produzido por cada integrante na Entrega 4.
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Itens do Grupo 05 para o planejamento das avaliações do Storyboard e da Análise de Tarefas</p>
+<p><strong>Tabela 3</strong>: Itens do Grupo 05 para o planejamento das avaliações do Storyboard e da Análise de Tarefas</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -125,7 +121,7 @@ A Tabela 3 traz os itens do grupo. G1–G10 e G11–G20 correspondem às duas ta
 A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens segue o conteúdo que cada integrante produziu no projeto: quem fez o artefato é autor dos itens que o verificam. Os links levam ao artefato correspondente. As gravações das reuniões estão na página de [atas](../../atas/ata1.md) e de [gravações](../../apresentacoes/index.md).
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Contribuição de cada integrante nesta lista</p>
+<p><strong>Tabela 4</strong>: Contribuição de cada integrante nesta lista</p>
 </div>
 
 | Integrante | Contribuição nesta lista | Artefato(s) relacionado(s) |
@@ -148,7 +144,7 @@ A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens seg
 A versão 1.0 continua publicada em [versão 1.0 da lista da Entrega 1](../verif1.md) e não foi apagada. A Tabela 5 indica onde cada item da versão 1.0 está nesta versão e o que mudou.
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Origem dos itens desta lista</p>
+<p><strong>Tabela 5</strong>: Origem dos itens desta lista</p>
 </div>
 
 | Item na v1.0 | Item na v2.0 | Alteração |
@@ -182,7 +178,7 @@ A versão 1.0 continua publicada em [versão 1.0 da lista da Entrega 1](../verif
 O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 6.
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Registro das avaliações feitas com esta lista</p>
+<p><strong>Tabela 6</strong>: Registro das avaliações feitas com esta lista</p>
 </div>
 | Artefato e versão avaliada | Data e hora | Avaliador(es) | Grupo avaliador (próprio ou +1) | Observações |
 | :--- | :---: | :--- | :---: | :--- |
@@ -201,265 +197,265 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ---
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
 </div>
 
-![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Itens que usam esta figura: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11.</em></p>
 </div>
 
 ---
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Itens de conteúdo 2 a 13 da Entrega 4 (planejamento da avaliação do Storyboard e da Análise de Tarefas)</p>
+<p><strong>Figura 2</strong>: Itens de conteúdo 2 a 13 da Entrega 4 (planejamento da avaliação do Storyboard e da Análise de Tarefas)</p>
 </div>
 
-![Figura 2 — Itens de conteúdo 2 a 13 da Entrega 4 (planejamento da avaliação do Storyboard e da Análise de Tarefas)](../../assets/prints_referencias/verificacao-v2/plano-entrega4.png)
+![Figura 2: Itens de conteúdo 2 a 13 da Entrega 4 (planejamento da avaliação do Storyboard e da Análise de Tarefas)](../../assets/prints_referencias/verificacao-v2/plano-entrega4.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 12–13). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 12–13). Itens que usam esta figura: C2, C3, C4, C5, C6, C7, C8, C9, C10, C11, C12, C13.</em></p>
 </div>
 
 ---
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 3</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 3 — 11.8 Framework DECIDE](../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 3: 11.8 Framework DECIDE](../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C2, C5, C6, G2, G3, G4, G5, G7, G8, G11.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Itens que usam esta figura: C2, C5, C6, G2, G3, G4, G5, G7, G8, G11.</em></p>
 </div>
 
 ---
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
+<p><strong>Figura 4</strong>: 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
 </div>
 
-![Figura 4 — 11.2 Principais aspectos (objetivos) avaliados em IHC](../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
+![Figura 4: 11.2 Principais aspectos (objetivos) avaliados em IHC](../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 248). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C3, G1, G2, G3, G4, G5.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 248). Itens que usam esta figura: C3, G1, G2, G3, G4, G5.</em></p>
 </div>
 
 ---
 
 <div id="figura-5" align="center">
-<p><strong>Figura 5</strong> — 11.6 Classificação dos métodos de avaliação: investigação, observação e inspeção</p>
+<p><strong>Figura 5</strong>: 11.6 Classificação dos métodos de avaliação: investigação, observação e inspeção</p>
 </div>
 
-![Figura 5 — 11.6 Classificação dos métodos de avaliação: investigação, observação e inspeção](../../assets/prints_referencias/verificacao-v2/livro-tipos-metodos.png)
+![Figura 5: 11.6 Classificação dos métodos de avaliação: investigação, observação e inspeção](../../assets/prints_referencias/verificacao-v2/livro-tipos-metodos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 256). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C4, G6, G14.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 256). Itens que usam esta figura: C4, G6, G14.</em></p>
 </div>
 
 ---
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+<p><strong>Figura 6</strong>: 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
 </div>
 
-![Figura 6 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+![Figura 6: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C5, G15, G23.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258). Itens que usam esta figura: C5, G15, G23.</em></p>
 </div>
 
 ---
 
 <div id="figura-7" align="center">
-<p><strong>Figura 7</strong> — 11.7.2 Questões práticas e material de apoio da avaliação</p>
+<p><strong>Figura 7</strong>: 11.7.2 Questões práticas e material de apoio da avaliação</p>
 </div>
 
-![Figura 7 — 11.7.2 Questões práticas e material de apoio da avaliação](../../assets/prints_referencias/verificacao-v2/livro-questoes-praticas-material.png)
+![Figura 7: 11.7.2 Questões práticas e material de apoio da avaliação](../../assets/prints_referencias/verificacao-v2/livro-questoes-praticas-material.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 259). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C5, G7, G24.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 259). Itens que usam esta figura: C5, G7, G24.</em></p>
 </div>
 
 ---
 
 <div id="figura-8" align="center">
-<p><strong>Figura 8</strong> — Os quatro princípios éticos (Resolução CNS nº 466/2012)</p>
+<p><strong>Figura 8</strong>: Os quatro princípios éticos (Resolução CNS nº 466/2012)</p>
 </div>
 
-![Figura 8 — Os quatro princípios éticos (Resolução CNS nº 466/2012)](../../assets/prints_referencias/verificacao-v2/livro-etica-principios.png)
+![Figura 8: Os quatro princípios éticos (Resolução CNS nº 466/2012)](../../assets/prints_referencias/verificacao-v2/livro-etica-principios.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 126–127). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C6.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 126–127). Itens que usam esta figura: C6.</em></p>
 </div>
 
 ---
 
 <div id="figura-9" align="center">
-<p><strong>Figura 9</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+<p><strong>Figura 9</strong>: 11.7.5 Consolidação e relato dos resultados</p>
 </div>
 
-![Figura 9 — 11.7.5 Consolidação e relato dos resultados](../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+![Figura 9: 11.7.5 Consolidação e relato dos resultados](../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C7, G10, G27.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263). Itens que usam esta figura: C7, G10, G27.</em></p>
 </div>
 
 ---
 
 <div id="figura-10" align="center">
-<p><strong>Figura 10</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+<p><strong>Figura 10</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
 </div>
 
-![Figura 10 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+![Figura 10: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C11, C12, G26.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260). Itens que usam esta figura: C11, C12, G26.</em></p>
 </div>
 
 ---
 
 <div id="figura-11" align="center">
-<p><strong>Figura 11</strong> — Tabela 12.9 – Atividades do método de prototipação em papel</p>
+<p><strong>Figura 11</strong>: Tabela 12.9 – Atividades do método de prototipação em papel</p>
 </div>
 
-![Figura 11 — Tabela 12.9 – Atividades do método de prototipação em papel](../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
+![Figura 11: Tabela 12.9 – Atividades do método de prototipação em papel](../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C13.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305). Itens que usam esta figura: C13.</em></p>
 </div>
 
 ---
 
 <div id="figura-12" align="center">
-<p><strong>Figura 12</strong> — Permissão para gravação e consentimento livre e esclarecido</p>
+<p><strong>Figura 12</strong>: Permissão para gravação e consentimento livre e esclarecido</p>
 </div>
 
-![Figura 12 — Permissão para gravação e consentimento livre e esclarecido](../../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
+![Figura 12: Permissão para gravação e consentimento livre e esclarecido](../../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G8.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 127). Itens que usam esta figura: G8.</em></p>
 </div>
 
 ---
 
 <div id="figura-13" align="center">
-<p><strong>Figura 13</strong> — 11.5 Classificação dos dados coletados e produzidos em uma avaliação</p>
+<p><strong>Figura 13</strong>: 11.5 Classificação dos dados coletados e produzidos em uma avaliação</p>
 </div>
 
-![Figura 13 — 11.5 Classificação dos dados coletados e produzidos em uma avaliação](../../assets/prints_referencias/verificacao-v2/livro-tipos-dados.png)
+![Figura 13: 11.5 Classificação dos dados coletados e produzidos em uma avaliação](../../assets/prints_referencias/verificacao-v2/livro-tipos-dados.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 254). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G9.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 254). Itens que usam esta figura: G9.</em></p>
 </div>
 
 ---
 
 <div id="figura-14" align="center">
-<p><strong>Figura 14</strong> — Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
+<p><strong>Figura 14</strong>: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
 </div>
 
-![Figura 14 — Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
+![Figura 14: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 267, 288). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G12, G13.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 267, 288). Itens que usam esta figura: G12, G13.</em></p>
 </div>
 
 ---
 
 <div id="figura-15" align="center">
-<p><strong>Figura 15</strong> — Escolha do método de avaliação de acordo com o objetivo</p>
+<p><strong>Figura 15</strong>: Escolha do método de avaliação de acordo com o objetivo</p>
 </div>
 
-![Figura 15 — Escolha do método de avaliação de acordo com o objetivo](../../assets/prints_referencias/verificacao-v2/livro-metodo-objetivo.png)
+![Figura 15: Escolha do método de avaliação de acordo com o objetivo](../../assets/prints_referencias/verificacao-v2/livro-metodo-objetivo.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 257). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G16.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 257). Itens que usam esta figura: G16.</em></p>
 </div>
 
 ---
 
 <div id="figura-16" align="center">
-<p><strong>Figura 16</strong> — 12.1.1 Avaliação heurística: base nas heurísticas de Nielsen</p>
+<p><strong>Figura 16</strong>: 12.1.1 Avaliação heurística: base nas heurísticas de Nielsen</p>
 </div>
 
-![Figura 16 — 12.1.1 Avaliação heurística: base nas heurísticas de Nielsen](../../assets/prints_referencias/verificacao-v2/livro-heuristicas.png)
+![Figura 16: 12.1.1 Avaliação heurística: base nas heurísticas de Nielsen](../../assets/prints_referencias/verificacao-v2/livro-heuristicas.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 268). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G17.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 268). Itens que usam esta figura: G17.</em></p>
 </div>
 
 ---
 
 <div id="figura-17" align="center">
-<p><strong>Figura 17</strong> — Tabela 12.1 e conteúdo do relato de uma avaliação heurística</p>
+<p><strong>Figura 17</strong>: Tabela 12.1 e conteúdo do relato de uma avaliação heurística</p>
 </div>
 
-![Figura 17 — Tabela 12.1 e conteúdo do relato de uma avaliação heurística](../../assets/prints_referencias/verificacao-v2/livro-heuristica-atividades-relato.png)
+![Figura 17: Tabela 12.1 e conteúdo do relato de uma avaliação heurística](../../assets/prints_referencias/verificacao-v2/livro-heuristica-atividades-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 269–271). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G18, G20.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 269–271). Itens que usam esta figura: G18, G20.</em></p>
 </div>
 
 ---
 
 <div id="figura-18" align="center">
-<p><strong>Figura 18</strong> — 12.1.1 Avaliação heurística: escala de severidade de Nielsen</p>
+<p><strong>Figura 18</strong>: 12.1.1 Avaliação heurística: escala de severidade de Nielsen</p>
 </div>
 
-![Figura 18 — 12.1.1 Avaliação heurística: escala de severidade de Nielsen](../../assets/prints_referencias/verificacao-v2/livro-heuristica-severidade.png)
+![Figura 18: 12.1.1 Avaliação heurística: escala de severidade de Nielsen](../../assets/prints_referencias/verificacao-v2/livro-heuristica-severidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 270). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G19.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 270). Itens que usam esta figura: G19.</em></p>
 </div>
 
 ---
 
 <div id="figura-19" align="center">
-<p><strong>Figura 19</strong> — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
+<p><strong>Figura 19</strong>: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
 </div>
 
-![Figura 19 — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
+![Figura 19: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 251). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G21.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 251). Itens que usam esta figura: G21.</em></p>
 </div>
 
 ---
 
 <div id="figura-20" align="center">
-<p><strong>Figura 20</strong> — Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
+<p><strong>Figura 20</strong>: Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
 </div>
 
-![Figura 20 — Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
+![Figura 20: Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G22.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 262). Itens que usam esta figura: G22.</em></p>
 </div>
 
 ---
 
 <div id="figura-21" align="center">
-<p><strong>Figura 21</strong> — 11.7.2 Duração das tarefas e das sessões de avaliação</p>
+<p><strong>Figura 21</strong>: 11.7.2 Duração das tarefas e das sessões de avaliação</p>
 </div>
 
-![Figura 21 — 11.7.2 Duração das tarefas e das sessões de avaliação](../../assets/prints_referencias/verificacao-v2/livro-tempo-tarefas.png)
+![Figura 21: 11.7.2 Duração das tarefas e das sessões de avaliação](../../assets/prints_referencias/verificacao-v2/livro-tempo-tarefas.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 259). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G25.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 259). Itens que usam esta figura: G25.</em></p>
 </div>
 
 ---
 
 <div id="figura-22" align="center">
-<p><strong>Figura 22</strong> — 11.7.3 Coleta de dados: dois avaliadores, anotações e não interferência</p>
+<p><strong>Figura 22</strong>: 11.7.3 Coleta de dados: dois avaliadores, anotações e não interferência</p>
 </div>
 
-![Figura 22 — 11.7.3 Coleta de dados: dois avaliadores, anotações e não interferência](../../assets/prints_referencias/verificacao-v2/livro-coleta-avaliadores.png)
+![Figura 22: 11.7.3 Coleta de dados: dois avaliadores, anotações e não interferência](../../assets/prints_referencias/verificacao-v2/livro-coleta-avaliadores.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 261). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G28.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 261). Itens que usam esta figura: G28.</em></p>
 </div>
 
 ---
@@ -467,4 +463,4 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ## Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
-* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

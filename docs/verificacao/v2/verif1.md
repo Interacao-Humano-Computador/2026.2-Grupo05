@@ -2,16 +2,12 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 26/09/2026 | `1.0` | Lista de verificação referente à entrega 1 (publicada em [verif1.md](../verif1.md)). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic) — uso declarado pelo autor (sem detalhamento da finalidade) |
-| 19/11/2026 | `2.0` | Reestruturação da lista: inclusão dos Itens do Desenvolvimento do Projeto, dos itens do Planejamento Geral e de conteúdo do Plano de Ensino, de itens do grupo sobre os artefatos da Entrega 1, da autoria por item e dos prints das referências. Os itens da v1.0 sobre planejamento da avaliação foram transferidos para a lista da Entrega 4. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — uso declarado pelo autor (sem detalhamento da finalidade) |
-| 19/11/2026 | `2.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    Há versões sem revisor no histórico. Indicar o revisor de cada versão.
+| 26/09/2026 | `1.0` | Lista de verificação referente à entrega 1 (publicada em [verif1.md](../verif1.md)). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
+| 19/11/2026 | `2.0` | Reestruturação da lista: inclusão dos Itens do Desenvolvimento do Projeto, dos itens do Planejamento Geral e de conteúdo do Plano de Ensino, de itens do grupo sobre os artefatos da Entrega 1, da autoria por item e dos prints das referências. Os itens da v1.0 sobre planejamento da avaliação foram transferidos para a lista da Entrega 4. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
 
 ---
 
-# Lista de Verificação — Entrega 1 (versão 2.0)
+# Lista de Verificação: Entrega 1 (versão 2.0)
 
 !!! info "Versão 2.0 — rastreabilidade"
     Esta é a **versão 2.0** da lista. A versão 1.0 continua disponível, sem alterações de conteúdo, em [verif1.md](../verif1.md). O [índice das listas de verificação](../index.md) mostra onde está cada versão.
@@ -29,7 +25,7 @@ Os itens estão organizados assim: primeiro os **Itens do Desenvolvimento do Pro
 O Plano de Ensino define onze itens de desenvolvimento que valem para todos os artefatos (SALES, 2026, pp. 8–9). Eles aparecem primeiro em todas as listas do grupo, da Entrega 1 à Entrega 7 (veja a Tabela 1). Nas Entregas 3 e 4, o Plano fala em “Todos os 10 itens”, mas a lista do professor tem 11; por isso os 11 foram mantidos.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Itens do Desenvolvimento do Projeto (Avaliar: o próprio grupo e o grupo +1)</p>
+<p><strong>Tabela 1</strong>: Itens do Desenvolvimento do Projeto (Avaliar: o próprio grupo e o grupo +1)</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -55,7 +51,7 @@ O Plano de Ensino define onze itens de desenvolvimento que valem para todos os a
 A Tabela 2 reproduz os nove itens do Planejamento Geral da lista do professor.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Itens do Planejamento Geral do projeto — “O GitHub Pages possui:” (Avaliar: o próprio grupo e o grupo +1)</p>
+<p><strong>Tabela 2</strong>: Itens do Planejamento Geral do projeto — “O GitHub Pages possui:” (Avaliar: o próprio grupo e o grupo +1)</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -79,7 +75,7 @@ A Tabela 2 reproduz os nove itens do Planejamento Geral da lista do professor.
 O professor pede a justificativa do Processo de Design e que todos os integrantes elaborem itens de conteúdo com referência, foto do texto e autor (SALES, 2026, p. 9). O item está na Tabela 3.
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Item de conteúdo da Entrega 1 definido pelo professor</p>
+<p><strong>Tabela 3</strong>: Item de conteúdo da Entrega 1 definido pelo professor</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -95,7 +91,7 @@ O professor pede a justificativa do Processo de Design e que todos os integrante
 Cada integrante elaborou itens sobre o artefato da Entrega 1 que produziu (veja a Tabela 4). Os itens G2 e G3 aplicam a análise competitiva (BARBOSA et al., 2021, p. 125) à comparação dos sites, e os itens G4 a G6 verificam a justificativa do processo de Mayhew (BARBOSA et al., 2021, pp. 105–107).
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Itens de conteúdo do Grupo 05 para os artefatos da Entrega 1</p>
+<p><strong>Tabela 4</strong>: Itens de conteúdo do Grupo 05 para os artefatos da Entrega 1</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -121,7 +117,7 @@ Cada integrante elaborou itens sobre o artefato da Entrega 1 que produziu (veja 
 A Tabela 5 mostra o que cada integrante fez nesta lista. A autoria dos itens segue o conteúdo que cada integrante produziu no projeto: quem fez o artefato é autor dos itens que o verificam. Os links levam ao artefato correspondente. As gravações das reuniões estão na página de [atas](../../atas/ata1.md) e de [gravações](../../apresentacoes/index.md).
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Contribuição de cada integrante nesta lista</p>
+<p><strong>Tabela 5</strong>: Contribuição de cada integrante nesta lista</p>
 </div>
 
 | Integrante | Contribuição nesta lista | Artefato(s) relacionado(s) |
@@ -144,7 +140,7 @@ A Tabela 5 mostra o que cada integrante fez nesta lista. A autoria dos itens seg
 A versão 1.0 continua publicada em [verif1.md](../verif1.md) e não foi apagada. A Tabela 6 indica onde cada item da versão 1.0 está nesta versão e o que mudou.
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
+<p><strong>Tabela 6</strong>: Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
 </div>
 
 | Item na v1.0 | Item na v2.0 | Alteração |
@@ -181,7 +177,7 @@ A versão 1.0 continua publicada em [verif1.md](../verif1.md) e não foi apagada
 O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 7.
 
 <div align="center">
-<p><strong>Tabela 7</strong> — Registro das avaliações feitas com esta lista</p>
+<p><strong>Tabela 7</strong>: Registro das avaliações feitas com esta lista</p>
 </div>
 | Artefato e versão avaliada | Data e hora | Avaliador(es) | Grupo avaliador (próprio ou +1) | Observações |
 | :--- | :---: | :--- | :---: | :--- |
@@ -200,97 +196,97 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ---
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Descrição da Entrega 1 no cronograma do Plano de Ensino</p>
+<p><strong>Figura 1</strong>: Descrição da Entrega 1 no cronograma do Plano de Ensino</p>
 </div>
 
-![Figura 1 — Descrição da Entrega 1 no cronograma do Plano de Ensino](../../assets/prints_referencias/verificacao-v2/plano-entrega1-descricao.png)
+![Figura 1: Descrição da Entrega 1 no cronograma do Plano de Ensino](../../assets/prints_referencias/verificacao-v2/plano-entrega1-descricao.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 4). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: Introdução, G7, G8, G9.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 4). Itens que usam esta figura: Introdução, G7, G8, G9.</em></p>
 </div>
 
 ---
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+<p><strong>Figura 2</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
 </div>
 
-![Figura 2 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+![Figura 2: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, G10.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Itens que usam esta figura: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, G10.</em></p>
 </div>
 
 ---
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Itens do Planejamento Geral do projeto (Entrega 1)</p>
+<p><strong>Figura 3</strong>: Itens do Planejamento Geral do projeto (Entrega 1)</p>
 </div>
 
-![Figura 3 — Itens do Planejamento Geral do projeto (Entrega 1)](../../assets/prints_referencias/verificacao-v2/plano-entrega1-planejamento.png)
+![Figura 3: Itens do Planejamento Geral do projeto (Entrega 1)](../../assets/prints_referencias/verificacao-v2/plano-entrega1-planejamento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: PG1, PG2, PG3, PG4, PG5, PG6, PG7, PG8, PG9, G1, G11.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8). Itens que usam esta figura: PG1, PG2, PG3, PG4, PG5, PG6, PG7, PG8, PG9, G1, G11.</em></p>
 </div>
 
 ---
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — Itens de conteúdo da disciplina (Entrega 1)</p>
+<p><strong>Figura 4</strong>: Itens de conteúdo da disciplina (Entrega 1)</p>
 </div>
 
-![Figura 4 — Itens de conteúdo da disciplina (Entrega 1)](../../assets/prints_referencias/verificacao-v2/plano-entrega1-conteudo.png)
+![Figura 4: Itens de conteúdo da disciplina (Entrega 1)](../../assets/prints_referencias/verificacao-v2/plano-entrega1-conteudo.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C1.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 9). Itens que usam esta figura: C1.</em></p>
 </div>
 
 ---
 
 <div id="figura-5" align="center">
-<p><strong>Figura 5</strong> — Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design</p>
+<p><strong>Figura 5</strong>: Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design</p>
 </div>
 
-![Figura 5 — Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design](../../assets/prints_referencias/verificacao-v2/livro-mayhew.png)
+![Figura 5: Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design](../../assets/prints_referencias/verificacao-v2/livro-mayhew.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 105, 107). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C1, G4, G5.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 105, 107). Itens que usam esta figura: C1, G4, G5.</em></p>
 </div>
 
 ---
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong> — Usuários primários, secundários e stakeholders</p>
+<p><strong>Figura 6</strong>: Usuários primários, secundários e stakeholders</p>
 </div>
 
-![Figura 6 — Usuários primários, secundários e stakeholders](../../assets/prints_referencias/verificacao-v2/livro-de-quem-coletar.png)
+![Figura 6: Usuários primários, secundários e stakeholders](../../assets/prints_referencias/verificacao-v2/livro-de-quem-coletar.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 124). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G1.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 124). Itens que usam esta figura: G1.</em></p>
 </div>
 
 ---
 
 <div id="figura-7" align="center">
-<p><strong>Figura 7</strong> — Limitações dos arquivos de log e análise competitiva</p>
+<p><strong>Figura 7</strong>: Limitações dos arquivos de log e análise competitiva</p>
 </div>
 
-![Figura 7 — Limitações dos arquivos de log e análise competitiva](../../assets/prints_referencias/verificacao-v2/livro-log-competitiva.png)
+![Figura 7: Limitações dos arquivos de log e análise competitiva](../../assets/prints_referencias/verificacao-v2/livro-log-competitiva.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 125). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G2, G3.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 125). Itens que usam esta figura: G2, G3.</em></p>
 </div>
 
 ---
 
 <div id="figura-8" align="center">
-<p><strong>Figura 8</strong> — Simplificações aceitáveis em protótipos e design iterativo</p>
+<p><strong>Figura 8</strong>: Simplificações aceitáveis em protótipos e design iterativo</p>
 </div>
 
-![Figura 8 — Simplificações aceitáveis em protótipos e design iterativo](../../assets/prints_referencias/verificacao-v2/livro-iteracao-prototipos.png)
+![Figura 8: Simplificações aceitáveis em protótipos e design iterativo](../../assets/prints_referencias/verificacao-v2/livro-iteracao-prototipos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 105). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G6.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 105). Itens que usam esta figura: G6.</em></p>
 </div>
 
 ---
@@ -298,4 +294,4 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ## Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
-* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

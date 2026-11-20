@@ -2,16 +2,11 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 02/11/2026 | `1.0` | Elaboração da lista de verificação do planejamento da avaliação e do planejamento do relato de resultados do protótipo de alta fidelidade (publicada em [verif6.md](../verif6.md)). | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic) — uso declarado pelo autor (sem detalhamento da finalidade) |
-| 19/11/2026 | `2.0` | Inclusão dos Itens do Desenvolvimento do Projeto; nova seção sobre o relato dos resultados do protótipo de papel; padronização de autoria; referências e prints do IHC.pdf. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — uso declarado pelo autor (sem detalhamento da finalidade) |
-| 19/11/2026 | `2.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    Há versões sem revisor no histórico. Indicar o revisor de cada versão.
+| 02/11/2026 | `1.0` | Elaboração da lista de verificação do planejamento da avaliação e do planejamento do relato de resultados do protótipo de alta fidelidade (publicada em [verif6.md](../verif6.md)). | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
 
 ---
 
-# Lista de Verificação — Entrega 6 (versão 2.0)
+# Lista de Verificação: Entrega 6 (versão 2.0)
 
 !!! info "Versão 2.0 — rastreabilidade"
     Esta é a **versão 2.0** da lista. A versão 1.0 continua disponível, sem alterações de conteúdo, em [verif6.md](../verif6.md). O [índice das listas de verificação](../index.md) mostra onde está cada versão.
@@ -29,7 +24,7 @@ Os itens estão organizados assim: primeiro os **Itens do Desenvolvimento do Pro
 O Plano de Ensino define onze itens de desenvolvimento que valem para todos os artefatos (SALES, 2026, pp. 8–9). Eles aparecem primeiro em todas as listas do grupo, da Entrega 1 à Entrega 7 (veja a Tabela 1). Nas Entregas 3 e 4, o Plano fala em “Todos os 10 itens”, mas a lista do professor tem 11; por isso os 11 foram mantidos.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Itens do Desenvolvimento do Projeto (Avaliar: o próprio grupo e o grupo +1)</p>
+<p><strong>Tabela 1</strong>: Itens do Desenvolvimento do Projeto (Avaliar: o próprio grupo e o grupo +1)</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -55,7 +50,7 @@ O Plano de Ensino define onze itens de desenvolvimento que valem para todos os a
 A Tabela 2 traz os itens 1–14 da versão 1.0, com os mesmos autores.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Itens para o planejamento da avaliação do protótipo de alta fidelidade e o planejamento do relato</p>
+<p><strong>Tabela 2</strong>: Itens para o planejamento da avaliação do protótipo de alta fidelidade e o planejamento do relato</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -84,7 +79,7 @@ A Tabela 2 traz os itens 1–14 da versão 1.0, com os mesmos autores.
 A Tabela 3 traz os itens novos. Todos os integrantes publicaram relato individual do protótipo de papel, e cada um é autor de um item.
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Itens para o relato dos resultados da avaliação do protótipo de papel</p>
+<p><strong>Tabela 3</strong>: Itens para o relato dos resultados da avaliação do protótipo de papel</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -106,7 +101,7 @@ A Tabela 3 traz os itens novos. Todos os integrantes publicaram relato individua
 A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens segue o conteúdo que cada integrante produziu no projeto: quem fez o artefato é autor dos itens que o verificam. Os links levam ao artefato correspondente. As gravações das reuniões estão na página de [atas](../../atas/ata1.md) e de [gravações](../../apresentacoes/index.md).
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Contribuição de cada integrante nesta lista</p>
+<p><strong>Tabela 4</strong>: Contribuição de cada integrante nesta lista</p>
 </div>
 
 | Integrante | Contribuição nesta lista | Artefato(s) relacionado(s) |
@@ -129,7 +124,7 @@ A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens seg
 A versão 1.0 continua publicada em [verif6.md](../verif6.md) e não foi apagada. A Tabela 5 indica onde cada item da versão 1.0 está nesta versão e o que mudou.
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
+<p><strong>Tabela 5</strong>: Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
 </div>
 
 | Item na v1.0 | Item na v2.0 | Alteração |
@@ -149,7 +144,7 @@ A versão 1.0 continua publicada em [verif6.md](../verif6.md) e não foi apagada
 O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 6.
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Registro das avaliações feitas com esta lista</p>
+<p><strong>Tabela 6</strong>: Registro das avaliações feitas com esta lista</p>
 </div>
 | Artefato e versão avaliada | Data e hora | Avaliador(es) | Grupo avaliador (próprio ou +1) | Observações |
 | :--- | :---: | :--- | :---: | :--- |
@@ -168,181 +163,181 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ---
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
 </div>
 
-![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Itens que usam esta figura: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11.</em></p>
 </div>
 
 ---
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Conteúdo das Entregas 5, 6 e 7 no cronograma do Plano de Ensino</p>
+<p><strong>Figura 2</strong>: Conteúdo das Entregas 5, 6 e 7 no cronograma do Plano de Ensino</p>
 </div>
 
-![Figura 2 — Conteúdo das Entregas 5, 6 e 7 no cronograma do Plano de Ensino](../../assets/prints_referencias/verificacao-v2/plano-cronograma-entregas-5-7.png)
+![Figura 2: Conteúdo das Entregas 5, 6 e 7 no cronograma do Plano de Ensino](../../assets/prints_referencias/verificacao-v2/plano-cronograma-entregas-5-7.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 5). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: Introdução.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 5). Itens que usam esta figura: Introdução.</em></p>
 </div>
 
 ---
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 3</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 3 — 11.8 Framework DECIDE](../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 3: 11.8 Framework DECIDE](../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G1, G2, G3.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Itens que usam esta figura: G1, G2, G3.</em></p>
 </div>
 
 ---
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+<p><strong>Figura 4</strong>: 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
 </div>
 
-![Figura 4 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+![Figura 4: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G1, G4.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258). Itens que usam esta figura: G1, G4.</em></p>
 </div>
 
 ---
 
 <div id="figura-5" align="center">
-<p><strong>Figura 5</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+<p><strong>Figura 5</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
 </div>
 
-![Figura 5 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+![Figura 5: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G3, G5, G10.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Itens que usam esta figura: G3, G5, G10.</em></p>
 </div>
 
 ---
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong> — 11.7.2 Questões práticas e material de apoio da avaliação</p>
+<p><strong>Figura 6</strong>: 11.7.2 Questões práticas e material de apoio da avaliação</p>
 </div>
 
-![Figura 6 — 11.7.2 Questões práticas e material de apoio da avaliação](../../assets/prints_referencias/verificacao-v2/livro-questoes-praticas-material.png)
+![Figura 6: 11.7.2 Questões práticas e material de apoio da avaliação](../../assets/prints_referencias/verificacao-v2/livro-questoes-praticas-material.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 259). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G5.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 259). Itens que usam esta figura: G5.</em></p>
 </div>
 
 ---
 
 <div id="figura-7" align="center">
-<p><strong>Figura 7</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+<p><strong>Figura 7</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
 </div>
 
-![Figura 7 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+![Figura 7: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G6.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260). Itens que usam esta figura: G6.</em></p>
 </div>
 
 ---
 
 <div id="figura-8" align="center">
-<p><strong>Figura 8</strong> — Permissão para gravação e consentimento livre e esclarecido</p>
+<p><strong>Figura 8</strong>: Permissão para gravação e consentimento livre e esclarecido</p>
 </div>
 
-![Figura 8 — Permissão para gravação e consentimento livre e esclarecido](../../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
+![Figura 8: Permissão para gravação e consentimento livre e esclarecido](../../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G7.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 127). Itens que usam esta figura: G7.</em></p>
 </div>
 
 ---
 
 <div id="figura-9" align="center">
-<p><strong>Figura 9</strong> — Confidencialidade dos dados e anonimato dos participantes</p>
+<p><strong>Figura 9</strong>: Confidencialidade dos dados e anonimato dos participantes</p>
 </div>
 
-![Figura 9 — Confidencialidade dos dados e anonimato dos participantes](../../assets/prints_referencias/verificacao-v2/livro-etica-anonimato.png)
+![Figura 9: Confidencialidade dos dados e anonimato dos participantes](../../assets/prints_referencias/verificacao-v2/livro-etica-anonimato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G7.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 127). Itens que usam esta figura: G7.</em></p>
 </div>
 
 ---
 
 <div id="figura-10" align="center">
-<p><strong>Figura 10</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+<p><strong>Figura 10</strong>: 11.7.5 Consolidação e relato dos resultados</p>
 </div>
 
-![Figura 10 — 11.7.5 Consolidação e relato dos resultados](../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+![Figura 10: 11.7.5 Consolidação e relato dos resultados](../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G8, G9, G12, G13, G14.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263). Itens que usam esta figura: G8, G9, G12, G13, G14.</em></p>
 </div>
 
 ---
 
 <div id="figura-11" align="center">
-<p><strong>Figura 11</strong> — 11.7.4 Interpretação dos dados de cada participante</p>
+<p><strong>Figura 11</strong>: 11.7.4 Interpretação dos dados de cada participante</p>
 </div>
 
-![Figura 11 — 11.7.4 Interpretação dos dados de cada participante](../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
+![Figura 11: 11.7.4 Interpretação dos dados de cada participante](../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G11.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 262). Itens que usam esta figura: G11.</em></p>
 </div>
 
 ---
 
 <div id="figura-12" align="center">
-<p><strong>Figura 12</strong> — 12.1.1 Avaliação heurística: escala de severidade de Nielsen</p>
+<p><strong>Figura 12</strong>: 12.1.1 Avaliação heurística: escala de severidade de Nielsen</p>
 </div>
 
-![Figura 12 — 12.1.1 Avaliação heurística: escala de severidade de Nielsen](../../assets/prints_referencias/verificacao-v2/livro-heuristica-severidade.png)
+![Figura 12: 12.1.1 Avaliação heurística: escala de severidade de Nielsen](../../assets/prints_referencias/verificacao-v2/livro-heuristica-severidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 270). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G13.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 270). Itens que usam esta figura: G13.</em></p>
 </div>
 
 ---
 
 <div id="figura-13" align="center">
-<p><strong>Figura 13</strong> — Prototipação em papel: conteúdo do relato dos resultados</p>
+<p><strong>Figura 13</strong>: Prototipação em papel: conteúdo do relato dos resultados</p>
 </div>
 
-![Figura 13 — Prototipação em papel: conteúdo do relato dos resultados](../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+![Figura 13: Prototipação em papel: conteúdo do relato dos resultados](../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G15, G16, G17, G18, G19, G20.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Itens que usam esta figura: G15, G16, G17, G18, G19, G20.</em></p>
 </div>
 
 ---
 
 <div id="figura-14" align="center">
-<p><strong>Figura 14</strong> — 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
+<p><strong>Figura 14</strong>: 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
 </div>
 
-![Figura 14 — 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+![Figura 14: 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G18, G19.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Itens que usam esta figura: G18, G19.</em></p>
 </div>
 
 ---
 
 <div id="figura-15" align="center">
-<p><strong>Figura 15</strong> — Prototipação em papel: o que o observador deve registrar</p>
+<p><strong>Figura 15</strong>: Prototipação em papel: o que o observador deve registrar</p>
 </div>
 
-![Figura 15 — Prototipação em papel: o que o observador deve registrar](../../assets/prints_referencias/verificacao-v2/livro-papel-observador.png)
+![Figura 15: Prototipação em papel: o que o observador deve registrar](../../assets/prints_referencias/verificacao-v2/livro-papel-observador.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 305). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G21.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 305). Itens que usam esta figura: G21.</em></p>
 </div>
 
 ---
@@ -350,4 +345,4 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ## Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
-* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

@@ -2,14 +2,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 19/11/2026 | `1.0` | Criação do índice das listas de verificação, com a rastreabilidade entre a versão 1.0 e a versão 2.0 de cada lista. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Não declarado pelo autor |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
-
-!!! warning "Observação para correção manual"
-    Há versões sem revisor no histórico. Indicar o revisor de cada versão.
+| 19/11/2026 | `1.0` | Criação do índice das listas de verificação, com a rastreabilidade entre a versão 1.0 e a versão 2.0 de cada lista. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 19/11/2026 | `1.1` | Reorganização do índice para apresentar somente as listas atuais e encaminhar as versões anteriores e suas diferenças para a página Alterações. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na consolidação dos vínculos e na formatação em Markdown. |
 
 ---
 
@@ -17,7 +11,7 @@
 
 ## Introdução
 
-Esta página reúne as listas de verificação do Grupo 05 e mostra onde está cada versão. As listas da **versão 1.0** foram mantidas, sem mudança de conteúdo, para preservar o histórico. As listas da **versão 2.0** ficam na pasta `verificacao/v2/` e são as que devem ser usadas daqui em diante.
+Esta página reúne as listas de verificação atuais do Grupo 05. As versões anteriores foram mantidas, sem mudança de conteúdo, na página de [Alterações](alteracoes.md), que documenta as diferenças, correções e correspondências entre as versões 1.0 e 2.0.
 
 Todas as listas da versão 2.0 seguem a mesma estrutura:
 
@@ -26,23 +20,23 @@ Todas as listas da versão 2.0 seguem a mesma estrutura:
 3. **Itens de conteúdo do grupo** (código G), cada um com o autor, que é o integrante responsável pelo conteúdo que o item verifica.
 4. **Tabela de contribuição**, **rastreabilidade v1.0 → v2.0**, **registro da avaliação** e **prints das referências** grifados no fim da página. Os prints do livro foram retirados do *IHC.pdf* da disciplina (BARBOSA et al., 2021, versão de 03/05/2021).
 
-## Onde está cada lista
+## Listas atuais
 
-A Tabela 1 relaciona a versão 1.0 e a versão 2.0 de cada entrega.
+A Tabela 1 apresenta as listas que devem ser utilizadas nas inspeções.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Versões das listas de verificação por entrega</p>
+<p><strong>Tabela 1</strong>: Listas de verificação atuais por entrega</p>
 </div>
 
-| Entrega | Versão 1.0 (anterior) | Versão 2.0 (atual) | Principais mudanças |
-| :---: | :--- | :--- | :--- |
-| 1 | [verif1.md](verif1.md) (26/09/2026) | [v2/verif1.md](v2/verif1.md) | Os 20 itens da v1.0 tratavam do planejamento da avaliação e foram para a Entrega 4. A lista passou a verificar o planejamento do projeto, a equipe, o heatmap, os sites, as ferramentas, o processo de design e o cronograma, com os itens PG1–PG9 e C1 do professor. |
-| 2 | [verif2.md](verif2.md) (26/09/2026) | [v2/verif2.md](v2/verif2.md) | Itens C1–C12 do professor; itens 1–79 mantidos como G1–G79, com autoria por conteúdo e correções; novos itens de cenários, GOMS, perfil e rastreabilidade (G80–G87). |
-| 3 | [verif3.md](verif3.md) (06/10/2026) | [v2/verif3.md](v2/verif3.md) | Itens C10–C17 do professor; itens 1–39 mantidos como G1–G39, com o mesmo autor; itens de Tomás Rocho (G40–G41); prints para todos os itens. |
-| 4 | — (não havia lista própria; foi usada a lista do Plano de Ensino) | [v2/verif4.md](v2/verif4.md) | Lista nova: itens C2–C13 do professor, itens G1–G20 vindos da v1.0 da Entrega 1 (com correções) e itens novos G21–G28. |
-| 5 | [verif5.md](verif5.md) (25/10/2026) | [v2/verif5.md](v2/verif5.md) | Itens 1–14 mantidos como G1–G14; nova seção sobre o relato do Storyboard e da Análise de Tarefas (G15–G24). |
-| 6 | [verif6.md](verif6.md) (02/11/2026) | [v2/verif6.md](v2/verif6.md) | Itens 1–14 mantidos como G1–G14; nova seção sobre o relato do protótipo de papel (G15–G21). |
-| 7 | [verif7.md](verif7.md) (16/11/2026) | [v2/verif7.md](v2/verif7.md) | Itens 1–14 mantidos como G1–G14; novo item sobre as metas de usabilidade (G15); referências do livro-texto com prints. |
+| Entrega | Lista atual | Alterações documentadas |
+| :---: | :--- | :--- |
+| 1 | [Versão 2.0](v2/verif1.md) | [Versão anterior e diferenças](alteracoes.md#2-versoes-anteriores-preservadas) |
+| 2 | [Versão 2.0](v2/verif2.md) | [Versão anterior e diferenças](alteracoes.md#2-versoes-anteriores-preservadas) |
+| 3 | [Versão 2.0](v2/verif3.md) | [Versão anterior e diferenças](alteracoes.md#2-versoes-anteriores-preservadas) |
+| 4 | [Versão 2.0](v2/verif4.md) | [Origem e correções](alteracoes.md#4-diferencas-e-correcoes-por-entrega) |
+| 5 | [Versão 2.0](v2/verif5.md) | [Versão anterior e diferenças](alteracoes.md#2-versoes-anteriores-preservadas) |
+| 6 | [Versão 2.0](v2/verif6.md) | [Versão anterior e diferenças](alteracoes.md#2-versoes-anteriores-preservadas) |
+| 7 | [Versão 2.0](v2/verif7.md) | [Versão anterior e diferenças](alteracoes.md#2-versoes-anteriores-preservadas) |
 
 <div align="center">
 <p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
@@ -55,13 +49,13 @@ A Tabela 1 relaciona a versão 1.0 e a versão 2.0 de cada entrega.
 A Figura 1 mostra o trecho que fundamenta este artefato, recortado e grifado em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
 </div>
 
-![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
 </div>
 
 ---
@@ -69,4 +63,4 @@ A Figura 1 mostra o trecho que fundamenta este artefato, recortado e grifado em 
 ## Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
-* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

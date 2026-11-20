@@ -2,16 +2,12 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 26/09/2026 | `1.0` | Lista de verificação referente à entrega 2 (publicada em [verif2.md](../verif2.md)). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic) — uso declarado pelo autor (sem detalhamento da finalidade) |
-| 19/11/2026 | `2.0` | Inclusão dos Itens do Desenvolvimento do Projeto e dos 12 itens de conteúdo do Plano de Ensino; autoria por item de acordo com o conteúdo; correção de itens; novos itens de cenários, GOMS e perfil; prints das referências. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — uso declarado pelo autor (sem detalhamento da finalidade) |
-| 19/11/2026 | `2.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    Há versões sem revisor no histórico. Indicar o revisor de cada versão.
+| 26/09/2026 | `1.0` | Lista de verificação referente à entrega 2 (publicada em [verif2.md](../verif2.md)). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
+| 19/11/2026 | `2.0` | Inclusão dos Itens do Desenvolvimento do Projeto e dos 12 itens de conteúdo do Plano de Ensino; autoria por item de acordo com o conteúdo; correção de itens; novos itens de cenários, GOMS e perfil; prints das referências. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
 
 ---
 
-# Lista de Verificação — Entrega 2 (versão 2.0)
+# Lista de Verificação: Entrega 2 (versão 2.0)
 
 !!! info "Versão 2.0 — rastreabilidade"
     Esta é a **versão 2.0** da lista. A versão 1.0 continua disponível, sem alterações de conteúdo, em [verif2.md](../verif2.md). O [índice das listas de verificação](../index.md) mostra onde está cada versão.
@@ -29,7 +25,7 @@ Os itens estão organizados assim: primeiro os **Itens do Desenvolvimento do Pro
 O Plano de Ensino define onze itens de desenvolvimento que valem para todos os artefatos (SALES, 2026, pp. 8–9). Eles aparecem primeiro em todas as listas do grupo, da Entrega 1 à Entrega 7 (veja a Tabela 1). Nas Entregas 3 e 4, o Plano fala em “Todos os 10 itens”, mas a lista do professor tem 11; por isso os 11 foram mantidos.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Itens do Desenvolvimento do Projeto (Avaliar: o próprio grupo e o grupo +1)</p>
+<p><strong>Tabela 1</strong>: Itens do Desenvolvimento do Projeto (Avaliar: o próprio grupo e o grupo +1)</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -55,7 +51,7 @@ O Plano de Ensino define onze itens de desenvolvimento que valem para todos os a
 A Tabela 2 traz os 12 itens de conteúdo da Entrega 2 do Plano de Ensino. A versão 1.0 não tinha esses itens.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Itens de conteúdo da Entrega 2 definidos pelo professor</p>
+<p><strong>Tabela 2</strong>: Itens de conteúdo da Entrega 2 definidos pelo professor</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -86,7 +82,7 @@ As seções 3.1 a 3.12 trazem os itens do grupo. As referências estão nos cap�
 Os itens desta seção estão na Tabela 3.
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Que dados coletar (perfil de usuário)</p>
+<p><strong>Tabela 3</strong>: Que dados coletar (perfil de usuário)</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -116,7 +112,7 @@ Os itens desta seção estão na Tabela 3.
 Os itens desta seção estão na Tabela 4.
 
 <div align="center">
-<p><strong>Tabela 4</strong> — De quem coletar dados</p>
+<p><strong>Tabela 4</strong>: De quem coletar dados</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -136,7 +132,7 @@ Os itens desta seção estão na Tabela 4.
 Os itens desta seção estão na Tabela 5.
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Aspectos éticos de pesquisas envolvendo pessoas</p>
+<p><strong>Tabela 5</strong>: Aspectos éticos de pesquisas envolvendo pessoas</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -156,7 +152,7 @@ Os itens desta seção estão na Tabela 5.
 Os itens desta seção estão na Tabela 6.
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Técnica de entrevista</p>
+<p><strong>Tabela 6</strong>: Técnica de entrevista</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -176,7 +172,7 @@ Os itens desta seção estão na Tabela 6.
 Os itens desta seção estão na Tabela 7.
 
 <div align="center">
-<p><strong>Tabela 7</strong> — Técnica de questionários</p>
+<p><strong>Tabela 7</strong>: Técnica de questionários</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -195,7 +191,7 @@ Os itens desta seção estão na Tabela 7.
 Os itens desta seção estão na Tabela 8.
 
 <div align="center">
-<p><strong>Tabela 8</strong> — Técnica de brainstorming</p>
+<p><strong>Tabela 8</strong>: Técnica de brainstorming</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -218,7 +214,7 @@ Os itens desta seção estão na Tabela 8.
 Os itens desta seção estão na Tabela 9.
 
 <div align="center">
-<p><strong>Tabela 9</strong> — Árvores de Tarefas Concorrentes (CTT)</p>
+<p><strong>Tabela 9</strong>: Árvores de Tarefas Concorrentes (CTT)</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -243,7 +239,7 @@ Os itens desta seção estão na Tabela 9.
 Os itens desta seção estão na Tabela 10.
 
 <div align="center">
-<p><strong>Tabela 10</strong> — Elenco de personas</p>
+<p><strong>Tabela 10</strong>: Elenco de personas</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -265,7 +261,7 @@ Os itens desta seção estão na Tabela 10.
 Os itens desta seção estão na Tabela 11.
 
 <div align="center">
-<p><strong>Tabela 11</strong> — Análise Hierárquica de Tarefas (HTA)</p>
+<p><strong>Tabela 11</strong>: Análise Hierárquica de Tarefas (HTA)</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -288,7 +284,7 @@ Os itens desta seção estão na Tabela 11.
 Os itens desta seção estão na Tabela 12.
 
 <div align="center">
-<p><strong>Tabela 12</strong> — Personas</p>
+<p><strong>Tabela 12</strong>: Personas</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -315,7 +311,7 @@ Os itens desta seção estão na Tabela 12.
 Os itens desta seção estão na Tabela 13.
 
 <div align="center">
-<p><strong>Tabela 13</strong> — Cenários (itens novos)</p>
+<p><strong>Tabela 13</strong>: Cenários (itens novos)</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -335,7 +331,7 @@ Os itens desta seção estão na Tabela 13.
 Os itens desta seção estão na Tabela 14.
 
 <div align="center">
-<p><strong>Tabela 14</strong> — GOMS, perfil e rastreabilidade das tarefas (itens novos)</p>
+<p><strong>Tabela 14</strong>: GOMS, perfil e rastreabilidade das tarefas (itens novos)</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
@@ -353,7 +349,7 @@ Os itens desta seção estão na Tabela 14.
 A Tabela 15 mostra o que cada integrante fez nesta lista. A autoria dos itens segue o conteúdo que cada integrante produziu no projeto: quem fez o artefato é autor dos itens que o verificam. Os links levam ao artefato correspondente. As gravações das reuniões estão na página de [atas](../../atas/ata1.md) e de [gravações](../../apresentacoes/index.md).
 
 <div align="center">
-<p><strong>Tabela 15</strong> — Contribuição de cada integrante nesta lista</p>
+<p><strong>Tabela 15</strong>: Contribuição de cada integrante nesta lista</p>
 </div>
 
 | Integrante | Contribuição nesta lista | Artefato(s) relacionado(s) |
@@ -376,7 +372,7 @@ A Tabela 15 mostra o que cada integrante fez nesta lista. A autoria dos itens se
 A versão 1.0 continua publicada em [verif2.md](../verif2.md) e não foi apagada. A Tabela 16 indica onde cada item da versão 1.0 está nesta versão e o que mudou.
 
 <div align="center">
-<p><strong>Tabela 16</strong> — Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
+<p><strong>Tabela 16</strong>: Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
 </div>
 
 | Item na v1.0 | Item na v2.0 | Alteração |
@@ -412,7 +408,7 @@ A versão 1.0 continua publicada em [verif2.md](../verif2.md) e não foi apagada
 O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 17.
 
 <div align="center">
-<p><strong>Tabela 17</strong> — Registro das avaliações feitas com esta lista</p>
+<p><strong>Tabela 17</strong>: Registro das avaliações feitas com esta lista</p>
 </div>
 | Artefato e versão avaliada | Data e hora | Avaliador(es) | Grupo avaliador (próprio ou +1) | Observações |
 | :--- | :---: | :--- | :---: | :--- |
@@ -431,349 +427,349 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ---
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
 </div>
 
-![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Itens que usam esta figura: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11.</em></p>
 </div>
 
 ---
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Itens de conteúdo 1 a 3 da Entrega 2 (perfil de usuário)</p>
+<p><strong>Figura 2</strong>: Itens de conteúdo 1 a 3 da Entrega 2 (perfil de usuário)</p>
 </div>
 
-![Figura 2 — Itens de conteúdo 1 a 3 da Entrega 2 (perfil de usuário)](../../assets/prints_referencias/verificacao-v2/plano-entrega2-perfil.png)
+![Figura 2: Itens de conteúdo 1 a 3 da Entrega 2 (perfil de usuário)](../../assets/prints_referencias/verificacao-v2/plano-entrega2-perfil.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 9–10). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C1, C2, C3.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 9–10). Itens que usam esta figura: C1, C2, C3.</em></p>
 </div>
 
 ---
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Técnicas para coletar dados e levantar requisitos dos usuários</p>
+<p><strong>Figura 3</strong>: Técnicas para coletar dados e levantar requisitos dos usuários</p>
 </div>
 
-![Figura 3 — Técnicas para coletar dados e levantar requisitos dos usuários](../../assets/prints_referencias/verificacao-v2/livro-tecnicas-coleta.png)
+![Figura 3: Técnicas para coletar dados e levantar requisitos dos usuários](../../assets/prints_referencias/verificacao-v2/livro-tecnicas-coleta.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 129). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C1, C8.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 129). Itens que usam esta figura: C1, C8.</em></p>
 </div>
 
 ---
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — Tipos de dados coletados sobre os usuários (Barbosa et al., 2021)</p>
+<p><strong>Figura 4</strong>: Tipos de dados coletados sobre os usuários (Barbosa et al., 2021)</p>
 </div>
 
-![Figura 4 — Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)](../../assets/prints_referencias/verificacao-v2/livro-que-dados-coletar.png)
+![Figura 4: Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)](../../assets/prints_referencias/verificacao-v2/livro-que-dados-coletar.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 123–124). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C2, G1, G2, G3, G4, G5, G6, G7, G8, G9, G10, G11, G12, G13, G14, G15.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 123–124). Itens que usam esta figura: C2, G1, G2, G3, G4, G5, G6, G7, G8, G9, G10, G11, G12, G13, G14, G15.</em></p>
 </div>
 
 ---
 
 <div id="figura-5" align="center">
-<p><strong>Figura 5</strong> — Perfil de usuário: definição e grupos de atributos</p>
+<p><strong>Figura 5</strong>: Perfil de usuário: definição e grupos de atributos</p>
 </div>
 
-![Figura 5 — Perfil de usuário: definição e grupos de atributos](../../assets/prints_referencias/verificacao-v2/livro-perfil.png)
+![Figura 5: Perfil de usuário: definição e grupos de atributos](../../assets/prints_referencias/verificacao-v2/livro-perfil.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 151–152). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C3, G86.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 151–152). Itens que usam esta figura: C3, G86.</em></p>
 </div>
 
 ---
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong> — Itens de conteúdo 4 a 9 da Entrega 2 (ética, TCLE, técnicas de coleta e cenários)</p>
+<p><strong>Figura 6</strong>: Itens de conteúdo 4 a 9 da Entrega 2 (ética, TCLE, técnicas de coleta e cenários)</p>
 </div>
 
-![Figura 6 — Itens de conteúdo 4 a 9 da Entrega 2 (ética, TCLE, técnicas de coleta e cenários)](../../assets/prints_referencias/verificacao-v2/plano-entrega2-etica-tecnicas.png)
+![Figura 6: Itens de conteúdo 4 a 9 da Entrega 2 (ética, TCLE, técnicas de coleta e cenários)](../../assets/prints_referencias/verificacao-v2/plano-entrega2-etica-tecnicas.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 10). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C4, C5, C6, C7, C8.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 10). Itens que usam esta figura: C4, C5, C6, C7, C8.</em></p>
 </div>
 
 ---
 
 <div id="figura-7" align="center">
-<p><strong>Figura 7</strong> — Confidencialidade dos dados e anonimato dos participantes</p>
+<p><strong>Figura 7</strong>: Confidencialidade dos dados e anonimato dos participantes</p>
 </div>
 
-![Figura 7 — Confidencialidade dos dados e anonimato dos participantes](../../assets/prints_referencias/verificacao-v2/livro-etica-anonimato.png)
+![Figura 7: Confidencialidade dos dados e anonimato dos participantes](../../assets/prints_referencias/verificacao-v2/livro-etica-anonimato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C4, G22.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 127). Itens que usam esta figura: C4, G22.</em></p>
 </div>
 
 ---
 
 <div id="figura-8" align="center">
-<p><strong>Figura 8</strong> — Os quatro princípios éticos (Resolução CNS nº 466/2012)</p>
+<p><strong>Figura 8</strong>: Os quatro princípios éticos (Resolução CNS nº 466/2012)</p>
 </div>
 
-![Figura 8 — Os quatro princípios éticos (Resolução CNS nº 466/2012)](../../assets/prints_referencias/verificacao-v2/livro-etica-principios.png)
+![Figura 8: Os quatro princípios éticos (Resolução CNS nº 466/2012)](../../assets/prints_referencias/verificacao-v2/livro-etica-principios.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 126–127). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C5, G23, G25.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 126–127). Itens que usam esta figura: C5, G23, G25.</em></p>
 </div>
 
 ---
 
 <div id="figura-9" align="center">
-<p><strong>Figura 9</strong> — Permissão para gravação e consentimento livre e esclarecido</p>
+<p><strong>Figura 9</strong>: Permissão para gravação e consentimento livre e esclarecido</p>
 </div>
 
-![Figura 9 — Permissão para gravação e consentimento livre e esclarecido](../../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
+![Figura 9: Permissão para gravação e consentimento livre e esclarecido](../../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C6, C7, G21.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 127). Itens que usam esta figura: C6, C7, G21.</em></p>
 </div>
 
 ---
 
 <div id="figura-10" align="center">
-<p><strong>Figura 10</strong> — Itens de conteúdo 9 a 12 da Entrega 2 (cenários e análise de tarefas)</p>
+<p><strong>Figura 10</strong>: Itens de conteúdo 9 a 12 da Entrega 2 (cenários e análise de tarefas)</p>
 </div>
 
-![Figura 10 — Itens de conteúdo 9 a 12 da Entrega 2 (cenários e análise de tarefas)](../../assets/prints_referencias/verificacao-v2/plano-entrega2-tarefas.png)
+![Figura 10: Itens de conteúdo 9 a 12 da Entrega 2 (cenários e análise de tarefas)](../../assets/prints_referencias/verificacao-v2/plano-entrega2-tarefas.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 11). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C9, C10, C11, C12.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 11). Itens que usam esta figura: C9, C10, C11, C12.</em></p>
 </div>
 
 ---
 
 <div id="figura-11" align="center">
-<p><strong>Figura 11</strong> — Cenários: definição, ator e objetivo principais</p>
+<p><strong>Figura 11</strong>: Cenários: definição, ator e objetivo principais</p>
 </div>
 
-![Figura 11 — Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
+![Figura 11: Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C9, G80.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 158). Itens que usam esta figura: C9, G80.</em></p>
 </div>
 
 ---
 
 <div id="figura-12" align="center">
-<p><strong>Figura 12</strong> — Métodos de análise de tarefas: HTA, GOMS e CTT</p>
+<p><strong>Figura 12</strong>: Métodos de análise de tarefas: HTA, GOMS e CTT</p>
 </div>
 
-![Figura 12 — Métodos de análise de tarefas: HTA, GOMS e CTT](../../assets/prints_referencias/verificacao-v2/livro-analise-tarefas.png)
+![Figura 12: Métodos de análise de tarefas: HTA, GOMS e CTT](../../assets/prints_referencias/verificacao-v2/livro-analise-tarefas.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 164). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C10, C12, G87.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 164). Itens que usam esta figura: C10, C12, G87.</em></p>
 </div>
 
 ---
 
 <div id="figura-13" align="center">
-<p><strong>Figura 13</strong> — HTA: diagrama, representação em tabela e critério de parada</p>
+<p><strong>Figura 13</strong>: HTA: diagrama, representação em tabela e critério de parada</p>
 </div>
 
-![Figura 13 — HTA: diagrama, representação em tabela e critério de parada](../../assets/prints_referencias/verificacao-v2/livro-hta-tabela.png)
+![Figura 13: HTA: diagrama, representação em tabela e critério de parada](../../assets/prints_referencias/verificacao-v2/livro-hta-tabela.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 165–166). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C11, G66.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–166). Itens que usam esta figura: C11, G66.</em></p>
 </div>
 
 ---
 
 <div id="figura-14" align="center">
-<p><strong>Figura 14</strong> — GOMS: objetivos, operadores, métodos e regras de seleção</p>
+<p><strong>Figura 14</strong>: GOMS: objetivos, operadores, métodos e regras de seleção</p>
 </div>
 
-![Figura 14 — GOMS: objetivos, operadores, métodos e regras de seleção](../../assets/prints_referencias/verificacao-v2/livro-goms.png)
+![Figura 14: GOMS: objetivos, operadores, métodos e regras de seleção](../../assets/prints_referencias/verificacao-v2/livro-goms.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 167–168). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C11, G85.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 167–168). Itens que usam esta figura: C11, G85.</em></p>
 </div>
 
 ---
 
 <div id="figura-15" align="center">
-<p><strong>Figura 15</strong> — CTT: tipos de tarefas e relações temporais</p>
+<p><strong>Figura 15</strong>: CTT: tipos de tarefas e relações temporais</p>
 </div>
 
-![Figura 15 — CTT: tipos de tarefas e relações temporais](../../assets/prints_referencias/verificacao-v2/livro-ctt.png)
+![Figura 15: CTT: tipos de tarefas e relações temporais](../../assets/prints_referencias/verificacao-v2/livro-ctt.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 173). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: C11, G43, G44, G45, G46, G47, G48, G49, G50, G51.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 173). Itens que usam esta figura: C11, G43, G44, G45, G46, G47, G48, G49, G50, G51.</em></p>
 </div>
 
 ---
 
 <div id="figura-16" align="center">
-<p><strong>Figura 16</strong> — Usuários primários, secundários e stakeholders</p>
+<p><strong>Figura 16</strong>: Usuários primários, secundários e stakeholders</p>
 </div>
 
-![Figura 16 — Usuários primários, secundários e stakeholders](../../assets/prints_referencias/verificacao-v2/livro-de-quem-coletar.png)
+![Figura 16: Usuários primários, secundários e stakeholders](../../assets/prints_referencias/verificacao-v2/livro-de-quem-coletar.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 124). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G16, G17, G18.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 124). Itens que usam esta figura: G16, G17, G18.</em></p>
 </div>
 
 ---
 
 <div id="figura-17" align="center">
-<p><strong>Figura 17</strong> — Limitações dos arquivos de log e análise competitiva</p>
+<p><strong>Figura 17</strong>: Limitações dos arquivos de log e análise competitiva</p>
 </div>
 
-![Figura 17 — Limitações dos arquivos de log e análise competitiva](../../assets/prints_referencias/verificacao-v2/livro-log-competitiva.png)
+![Figura 17: Limitações dos arquivos de log e análise competitiva](../../assets/prints_referencias/verificacao-v2/livro-log-competitiva.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 125). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G19, G20.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 125). Itens que usam esta figura: G19, G20.</em></p>
 </div>
 
 ---
 
 <div id="figura-18" align="center">
-<p><strong>Figura 18</strong> — Direito de desistir do estudo e dados livres de viés</p>
+<p><strong>Figura 18</strong>: Direito de desistir do estudo e dados livres de viés</p>
 </div>
 
-![Figura 18 — Direito de desistir do estudo e dados livres de viés](../../assets/prints_referencias/verificacao-v2/livro-etica-desistencia-vies.png)
+![Figura 18: Direito de desistir do estudo e dados livres de viés](../../assets/prints_referencias/verificacao-v2/livro-etica-desistencia-vies.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 128–129). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G23, G24.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 128–129). Itens que usam esta figura: G23, G24.</em></p>
 </div>
 
 ---
 
 <div id="figura-19" align="center">
-<p><strong>Figura 19</strong> — Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista</p>
+<p><strong>Figura 19</strong>: Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista</p>
 </div>
 
-![Figura 19 — Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista](../../assets/prints_referencias/verificacao-v2/livro-entrevistas.png)
+![Figura 19: Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista](../../assets/prints_referencias/verificacao-v2/livro-entrevistas.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 131). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G26, G27, G28, G29, G31.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 131). Itens que usam esta figura: G26, G27, G28, G29, G31.</em></p>
 </div>
 
 ---
 
 <div id="figura-20" align="center">
-<p><strong>Figura 20</strong> — Treinamento dos entrevistadores</p>
+<p><strong>Figura 20</strong>: Treinamento dos entrevistadores</p>
 </div>
 
-![Figura 20 — Treinamento dos entrevistadores](../../assets/prints_referencias/verificacao-v2/livro-entrevistador-treinado.png)
+![Figura 20: Treinamento dos entrevistadores](../../assets/prints_referencias/verificacao-v2/livro-entrevistador-treinado.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 134). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G30.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 134). Itens que usam esta figura: G30.</em></p>
 </div>
 
 ---
 
 <div id="figura-21" align="center">
-<p><strong>Figura 21</strong> — Questionários: faixas de valores sem sobreposição e escalas Likert e de diferencial semântico</p>
+<p><strong>Figura 21</strong>: Questionários: faixas de valores sem sobreposição e escalas Likert e de diferencial semântico</p>
 </div>
 
-![Figura 21 — Questionários: faixas de valores sem sobreposição e escalas Likert e de diferencial semântico](../../assets/prints_referencias/verificacao-v2/livro-questionarios.png)
+![Figura 21: Questionários: faixas de valores sem sobreposição e escalas Likert e de diferencial semântico](../../assets/prints_referencias/verificacao-v2/livro-questionarios.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 136–137). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G31, G32, G33, G34.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 136–137). Itens que usam esta figura: G31, G32, G33, G34.</em></p>
 </div>
 
 ---
 
 <div id="figura-22" align="center">
-<p><strong>Figura 22</strong> — Brainstorming de necessidades e desejos dos usuários</p>
+<p><strong>Figura 22</strong>: Brainstorming de necessidades e desejos dos usuários</p>
 </div>
 
-![Figura 22 — Brainstorming de necessidades e desejos dos usuários](../../assets/prints_referencias/verificacao-v2/livro-brainstorming.png)
+![Figura 22: Brainstorming de necessidades e desejos dos usuários](../../assets/prints_referencias/verificacao-v2/livro-brainstorming.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 139). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G35, G36, G37, G39, G40, G41.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 139). Itens que usam esta figura: G35, G36, G37, G39, G40, G41.</em></p>
 </div>
 
 ---
 
 <div id="figura-23" align="center">
-<p><strong>Figura 23</strong> — Brainstorming: papel e lápis e sessão-piloto</p>
+<p><strong>Figura 23</strong>: Brainstorming: papel e lápis e sessão-piloto</p>
 </div>
 
-![Figura 23 — Brainstorming: papel e lápis e sessão-piloto](../../assets/prints_referencias/verificacao-v2/livro-brainstorming-2.png)
+![Figura 23: Brainstorming: papel e lápis e sessão-piloto](../../assets/prints_referencias/verificacao-v2/livro-brainstorming-2.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 140–141). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G38, G42.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 140–141). Itens que usam esta figura: G38, G42.</em></p>
 </div>
 
 ---
 
 <div id="figura-24" align="center">
-<p><strong>Figura 24</strong> — CTT: vantagens e limitação quanto ao tratamento de erros</p>
+<p><strong>Figura 24</strong>: CTT: vantagens e limitação quanto ao tratamento de erros</p>
 </div>
 
-![Figura 24 — CTT: vantagens e limitação quanto ao tratamento de erros](../../assets/prints_referencias/verificacao-v2/livro-ctt-limites.png)
+![Figura 24: CTT: vantagens e limitação quanto ao tratamento de erros](../../assets/prints_referencias/verificacao-v2/livro-ctt-limites.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 175). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G52.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 175). Itens que usam esta figura: G52.</em></p>
 </div>
 
 ---
 
 <div id="figura-25" align="center">
-<p><strong>Figura 25</strong> — Elenco de personas, persona primária e antipersonas</p>
+<p><strong>Figura 25</strong>: Elenco de personas, persona primária e antipersonas</p>
 </div>
 
-![Figura 25 — Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
+![Figura 25: Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 155). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G53, G54, G55, G56, G57, G58, G59, G79.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 155). Itens que usam esta figura: G53, G54, G55, G56, G57, G58, G59, G79.</em></p>
 </div>
 
 ---
 
 <div id="figura-26" align="center">
-<p><strong>Figura 26</strong> — 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações</p>
+<p><strong>Figura 26</strong>: 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações</p>
 </div>
 
-![Figura 26 — 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações](../../assets/prints_referencias/verificacao-v2/livro-hta.png)
+![Figura 26: 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações](../../assets/prints_referencias/verificacao-v2/livro-hta.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 165). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G60, G61, G62, G63, G65.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 165). Itens que usam esta figura: G60, G61, G62, G63, G65.</em></p>
 </div>
 
 ---
 
 <div id="figura-27" align="center">
-<p><strong>Figura 27</strong> — Passos da Análise Hierárquica de Tarefas (Barbosa et al., 2021)</p>
+<p><strong>Figura 27</strong>: Passos da Análise Hierárquica de Tarefas (Barbosa et al., 2021)</p>
 </div>
 
-![Figura 27 — Passos da Análise Hierárquica de Tarefas (Diaper, 2003)](../../assets/prints_referencias/verificacao-v2/livro-hta-passos.png)
+![Figura 27: Passos da Análise Hierárquica de Tarefas (Diaper, 2003)](../../assets/prints_referencias/verificacao-v2/livro-hta-passos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 166–167). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G63, G64, G67.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 166–167). Itens que usam esta figura: G63, G64, G67.</em></p>
 </div>
 
 ---
 
 <div id="figura-28" align="center">
-<p><strong>Figura 28</strong> — Elementos que compõem a descrição de uma persona</p>
+<p><strong>Figura 28</strong>: Elementos que compõem a descrição de uma persona</p>
 </div>
 
-![Figura 28 — Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
+![Figura 28: Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G68, G69, G70, G71, G72, G73, G74, G75, G76, G77, G78.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154). Itens que usam esta figura: G68, G69, G70, G71, G72, G73, G74, G75, G76, G77, G78.</em></p>
 </div>
 
 ---
 
 <div id="figura-29" align="center">
-<p><strong>Figura 29</strong> — Elementos característicos de um cenário e uso de personas como atores</p>
+<p><strong>Figura 29</strong>: Elementos característicos de um cenário e uso de personas como atores</p>
 </div>
 
-![Figura 29 — Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
+![Figura 29: Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G81, G82, G83, G84, G87.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 158). Itens que usam esta figura: G81, G82, G83, G84, G87.</em></p>
 </div>
 
 ---
@@ -781,4 +777,4 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ## Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
-* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

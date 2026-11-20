@@ -2,8 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 06/10/2026 | `1.0` | Elaboração dos itens da lista de verificação para os Princípios Gerais de IHC, as Metas de Usabilidade e o Guia de Estilo, com fundamentações teóricas e links para as referências visuais no padrão ABNT. | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) e [Carlos Costa](https://github.com/carloshfgit) | Google Gemini — no apoio à estruturação e formatação em Markdown deste artefato |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 06/10/2026 | `1.0` | Elaboração dos itens da lista de verificação para os Princípios Gerais de IHC, as Metas de Usabilidade e o Guia de Estilo, com fundamentações teóricas e links para as referências visuais no padrão ABNT. | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) e [Carlos Costa](https://github.com/carloshfgit) | Google Gemini: no apoio à estruturação e formatação em Markdown deste artefato |
 
 ---
 
@@ -30,7 +29,7 @@ Para cada pergunta, o avaliador deve assinalar uma das opções:
 A Tabela 01 sintetiza as questões formuladas, os princípios de IHC contemplados, a autoria responsável e os links diretos para as respectivas figuras de referência bibliográfica.
 
 <div align="center">
-<p><strong>Tabela 01</strong> — Itens de verificação de IHC para Princípios Gerais, Guia de Estilo e Metas de Usabilidade (Etapa 3)</p>
+<p><strong>Tabela 01</strong>: Itens de verificação de IHC para Princípios Gerais, Guia de Estilo e Metas de Usabilidade (Etapa 3)</p>
 </div>
 
 | Nº | Pergunta de verificação | Princípio de IHC | Conforme | Não conforme | Não se aplica | Autor |
@@ -88,7 +87,7 @@ Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina
 ---
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Trecho da obra abordando a simplificação da estrutura das tarefas e apoios mentais (Barbosa et al., 2021)</p>
+<p><strong>Figura 1</strong>: Trecho da obra abordando a simplificação da estrutura das tarefas e apoios mentais (Barbosa et al., 2021)</p>
 </div>
 
 ![Trecho de referência do Item 1 - Redução de planejamento e apoios mentais](../assets/prints_referencias/verificacao-simplicidade-01.png)
@@ -100,7 +99,7 @@ Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina
 ---
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Trecho da obra abordando abordagens tecnológicas e o alerta quanto ao excesso de automação (Barbosa et al., 2021)</p>
+<p><strong>Figura 2</strong>: Trecho da obra abordando abordagens tecnológicas e o alerta quanto ao excesso de automação (Barbosa et al., 2021)</p>
 </div>
 
 ![Trecho de referência do Item 2 - Automação equilibrada](../assets/prints_referencias/verificacao-simplicidade-02.png)
@@ -112,7 +111,7 @@ Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina
 ---
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Trecho da obra abordando soberania do usuário e caminhos alternativos de interação (Barbosa et al., 2021)</p>
+<p><strong>Figura 3</strong>: Trecho da obra abordando soberania do usuário e caminhos alternativos de interação (Barbosa et al., 2021)</p>
 </div>
 
 ![Trecho de referência do Item 3 - Caminhos alternativos e flexibilidade](../assets/prints_referencias/verificacao-controle-03.png)
@@ -124,7 +123,7 @@ Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina
 ---
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — Trecho da obra abordando saídas de emergência e rotas claras de abandono de estados indesejados (Barbosa et al., 2021)</p>
+<p><strong>Figura 4</strong>: Trecho da obra abordando saídas de emergência e rotas claras de abandono de estados indesejados (Barbosa et al., 2021)</p>
 </div>
 
 ![Trecho de referência do Item 4 - Saídas de emergência](../assets/prints_referencias/verificacao-controle-04.png)
@@ -136,7 +135,7 @@ Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina
 ---
 
 <div id="figura-5" align="center">
-<p><strong>Figura 5</strong> — Trecho da obra abordando reversibilidade de ações, redução do medo do erro e controle de diálogos de confirmação (Barbosa et al., 2021)</p>
+<p><strong>Figura 5</strong>: Trecho da obra abordando reversibilidade de ações, redução do medo do erro e controle de diálogos de confirmação (Barbosa et al., 2021)</p>
 </div>
 
 ![Trecho de referência do Item 5 - Reversibilidade de ações e diálogos de confirmação](../assets/prints_referencias/verificacao-controle-05.png)
@@ -150,4 +149,4 @@ Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina
 ## 4. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Cap. 10: Princípios e Diretrizes para o Design de IHC, pp. 239–241.
-* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Universidade de Brasília, Faculdade UnB Gama, 2026. pp. 11–12.
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Universidade de Brasília, Faculdade UnB Gama, 2026. pp. 11–12.
