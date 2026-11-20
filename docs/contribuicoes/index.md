@@ -49,7 +49,7 @@ A **Tabela 1** apresenta uma síntese das etapas da disciplina de Interação Hu
 | **7** | Relato da Avaliação do Protótipo de Alta Fidelidade | 04/11/2026 a 15/11/2026 | 15/11/2026 | <span class="pill pill-ok">Concluída</span> |
 | **8** | Verificação dos Artefatos | 16/11/2026 a 24/11/2026 | 24/11/2026 | <span class="pill pill-wait">Em andamento</span> |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborado por Igor Dantas, Gabriel Cardone, Carlos Costa, Arthur Mariani, Rodrigo Barbosa, Tomas Rocho (2026).*
 
 ---
 
@@ -69,12 +69,12 @@ A **Tabela 2**, separada do histórico de versão dos artefatos, detalha as cont
 | Processo de design | [Acessar atividade](../planejamento/ProcessoDesign.md) | Fundamentação teórica dos ciclos de vida e escolha da Engenharia de Usabilidade de Mayhew | Tomas Garcia | Rodrigo Carvalho | [Apresentação 1](https://youtu.be/BhAlLermHBs) | <span class="pill pill-ok">Concluído</span> |
 | Ferramentas do projeto | [Acessar atividade](../planejamento/Ferramentas_do_Projeto.md) | Descrição do ferramental tecnológico utilizado no ciclo de vida (Teams, GitHub, Figma, etc.) | Gabriel Melo | Tomas Garcia | [Apresentação 1](https://youtu.be/BhAlLermHBs) | <span class="pill pill-ok">Concluído</span> |
 | Mapa de disponibilidade | [Acessar atividade](../planejamento/HeatMap_do_Grupo.md) | Mapeamento cruzado dos horários disponíveis dos membros da equipe (*heatmap*) | Gabriel Melo | Tomas Garcia | [Apresentação 1](https://youtu.be/BhAlLermHBs) | <span class="pill pill-ok">Concluído</span> |
-| Cronograma planejado e executado | [Acessar atividade](../planejamento/cronograma.md) | Planejamento macro de todas as etapas, prazos, datas de gravação, revisão e execução real | Igor Dantas, Carlos Henrique | Gabriel Melo, Igor Dantas | [Apresentação 1](https://youtu.be/BhAlLermHBs) | <span class="pill pill-ok">Concluído</span> |
+| Cronograma planejado e executado | [Acessar atividade](../planejamento/cronograma.md) | Planejamento macro de todas as etapas, prazos, datas de gravação, revisão e execução real | Igor Dantas, Carlos Henrique | Gabriel Melo | [Apresentação 1](https://youtu.be/BhAlLermHBs) | <span class="pill pill-ok">Concluído</span> |
 | Ata de Reunião 01 | [Acessar atividade](../atas/ata1.md) | Registro do alinhamento inicial do grupo, distribuição de tarefas e escopo do projeto | Lucas Araújo | Arthur Mariani | — | <span class="pill pill-ok">Concluído</span> |
 | Ata de Reunião 02 (inspeção) | [Acessar atividade](../atas/ata2.md) | Inspeção da Entrega 1 do Grupo 06 baseada na lista de verificação do Plano de Ensino | Lucas Araújo (Doc) / Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia (Vídeo) | Gabriel Melo | [Vídeo da Reunião 02](https://www.youtube.com/watch?v=I8lpMLe0A3o) | <span class="pill pill-ok">Concluído</span> |
 | Apresentação da Entrega 1 | [Acessar atividade](../apresentacoes/index.md) | Estruturação da página de vídeos e gravação da apresentação da Etapa 1 | Carlos Henrique (Doc) / Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia (Vídeo) | Lucas Araújo | [Vídeo da Apresentação 1](https://youtu.be/BhAlLermHBs) | <span class="pill pill-ok">Concluído</span> |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborado por Igor Dantas, Gabriel Cardone, Carlos Costa, Arthur Mariani, Rodrigo Barbosa, Tomas Rocho (2026).*
 
 ---
 
@@ -98,9 +98,8 @@ A **Tabela 3** elenca as atividades e artefatos previstos para a segunda entrega
 | Lista de Verificação da Entrega 2 | [Acessar atividade](../verificacao/verif2.md) | Questões utilizadas na verificação dos artefatos da segunda entrega | Arthur Mariani | — | — | <span class="pill pill-ok">Concluído</span> |
 | Inspeção da Entrega 2 | [Acessar atividade](../inspecoes/index.md) | Autoinspeção do Grupo 05, inspeção do Grupo 03 e registro dos resultados na Ata 4 | Lucas Araújo | Arthur Mariani, Rodrigo Carvalho | [Autoinspeção](https://youtu.be/xcDPa3tNT-A)<br>[Grupo 03](https://youtu.be/fL6La7j0urA) | <span class="pill pill-ok">Concluído</span> |
 | Apresentação da Entrega 2 | [Acessar página](../apresentacoes/index.md) | Gravação conjunta da apresentação dos artefatos da segunda entrega | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomás Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomás Garcia | [Vídeo da Apresentação 2](https://youtu.be/yKAAOLNhg4o) | <span class="pill pill-ok">Concluído</span> |
-| Revisão pós-feedback | — | Não foi localizado um registro específico e consolidado desta atividade | — | — | — | <span class="pill pill-wait">Sem registro específico</span> |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborado por Igor Dantas, Gabriel Cardone, Carlos Costa, Arthur Mariani, Rodrigo Barbosa, Tomas Rocho (2026).*
 
 ---
 
@@ -117,9 +116,8 @@ A **Tabela 4** sintetiza as atividades programadas para a terceira etapa.
 | Guia de Estilo | [Introdução](../analise-de-requisitos/guia-de-estilo/introducao.md)<br>[Resultados de análise](../analise-de-requisitos/guia-de-estilo/resultados-de-analise.md)<br>[Elementos de ação](../analise-de-requisitos/guia-de-estilo/elementos-de-acao.md)<br>[Elementos de interação](../analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md)<br>[Vocabulário e padrões](../analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md) | Organização do guia, resultados da análise e padrões de ação, interação e vocabulário | Gabriel Melo, Igor Dantas, Arthur Mariani, Rodrigo Barbosa | Igor Dantas, Gabriel Melo, Carlos Costa, Arthur Mariani | — | <span class="pill pill-ok">Concluído</span> |
 | Lista de Verificação da Entrega 3 | [Acessar atividade](../verificacao/verif3.md) | Questões de verificação para princípios gerais, guia de estilo e metas de usabilidade | Carlos Costa, Lucas Araújo, Gabriel Melo, Igor Dantas, Rodrigo Carvalho, Arthur Mariani | Arthur Mariani, Carlos Costa | — | <span class="pill pill-ok">Concluído</span> |
 | Apresentação da Entrega 3 | [Acessar página](../apresentacoes/index.md) | Gravação da apresentação da terceira entrega | Carlos Henrique | Arthur Mariani | [Vídeo da Apresentação 3](https://youtu.be/Mce8ORCaBGQ) | <span class="pill pill-ok">Concluído</span> |
-| Revisão e Ajustes | — | Atividade prevista para o período posterior à entrega, de 07/10/2026 a 12/10/2026 | — | — | — | <span class="pill pill-wait">Planejado</span> |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborado por Igor Dantas, Gabriel Cardone, Carlos Costa, Arthur Mariani, Rodrigo Barbosa, Tomas Rocho (2026).*
 
 ---
 
@@ -138,7 +136,7 @@ A **Tabela 5** registra somente artefatos localizados no repositório.
 | Inspeção da Entrega 4 | [Registro de inspeções](../inspecoes/index.md) | Equipe do Grupo 05 e Grupo 03 | — | — | <span class="pill pill-wait">Não realizada</span> |
 | Apresentação 4 | [Página de apresentações](../apresentacoes/index.md#34-apresentacao-da-entrega-4-planejamento-da-avaliacao) | Equipe do Grupo 05 | — | — | <span class="pill pill-wait">Não realizada</span> |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborado por Igor Dantas, Gabriel Cardone, Carlos Costa, Arthur Mariani, Rodrigo Barbosa, Tomas Rocho (2026).*
 
 ---
 
@@ -155,7 +153,7 @@ A **Tabela 5** registra somente artefatos localizados no repositório.
 | Inspeção da Entrega 5 | [Registro de inspeções](../inspecoes/index.md) | Equipe do Grupo 05 e Grupo +1 | Conforme os registros de inspeção | [Autoinspeção](https://youtu.be/d_vy4RCpSbE)<br>[Inspeção externa](https://youtu.be/vZrUBGEte7U) | <span class="pill pill-ok">Concluído</span> |
 | Apresentação 5 | [Página de apresentações](../apresentacoes/index.md#35-apresentacao-da-entrega-5-relatos-e-planejamento-do-prototipo-de-papel) | Equipe do Grupo 05 | — | [Vídeo](https://youtu.be/Ej7td2TSM6s) | <span class="pill pill-ok">Concluído</span> |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborado por Igor Dantas, Gabriel Cardone, Carlos Costa, Arthur Mariani, Rodrigo Barbosa, Tomas Rocho (2026).*
 
 ---
 
@@ -171,7 +169,7 @@ A **Tabela 5** registra somente artefatos localizados no repositório.
 | Inspeção da Entrega 6 | [Registro de inspeções](../inspecoes/index.md) | Equipe do Grupo 05 e Grupo 07 | Conforme os registros de inspeção | [Autoinspeção](https://youtu.be/7Uvmxk-r-WI)<br>[Inspeção externa](https://youtu.be/a6FCJuvzO7g) | <span class="pill pill-ok">Concluído</span> |
 | Apresentação 6 | [Página de apresentações](../apresentacoes/index.md#36-apresentacao-da-entrega-6-relato-do-prototipo-de-papel-e-planejamento-da-alta-fidelidade) | Equipe do Grupo 05 | — | [Vídeo](https://youtu.be/geXJDeWITiY) | <span class="pill pill-ok">Concluído</span> |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborado por Igor Dantas, Gabriel Cardone, Carlos Costa, Arthur Mariani, Rodrigo Barbosa, Tomas Rocho (2026).*
 
 ---
 
@@ -187,7 +185,7 @@ A **Tabela 5** registra somente artefatos localizados no repositório.
 | Inspeção do Grupo +1 da Entrega 7 | [Registro de inspeções](../inspecoes/index.md#8-inspecao-da-entrega-7-resultados-do-prototipo-de-alta-fidelidade) | Equipe do Grupo 05 | Conforme o registro da inspeção | [Vídeo](https://youtu.be/3qBnZovTQ8s) | <span class="pill pill-ok">Concluído</span> |
 | Apresentação 7 | [Página de apresentações](../apresentacoes/index.md#37-apresentacao-da-entrega-7-relato-dos-resultados-do-prototipo-de-alta-fidelidade) | Equipe do Grupo 05 | — | [Vídeo](https://youtu.be/AcOoHthqrAg) | <span class="pill pill-ok">Concluído</span> |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborado por Igor Dantas, Gabriel Cardone, Carlos Costa, Arthur Mariani, Rodrigo Barbosa, Tomas Rocho (2026).*
 
 ---
 
@@ -203,7 +201,7 @@ A **Tabela 5** registra somente artefatos localizados no repositório.
 | Inspeção da Entrega 8 | [Registro de inspeções](../inspecoes/index.md#9-inspecao-da-entrega-8-verificacao-dos-artefatos) | Equipe do Grupo 05 e Grupo -1 | — | Pendente | <span class="pill pill-wait">Pendente</span> |
 | Apresentação 8 | [Página de apresentações](../apresentacoes/index.md) | Equipe do Grupo 05 | — | Pendente | <span class="pill pill-wait">Pendente</span> |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborado por Igor Dantas, Gabriel Cardone, Carlos Costa, Arthur Mariani, Rodrigo Barbosa, Tomas Rocho (2026).*
 
 ---
 

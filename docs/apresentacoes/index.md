@@ -35,7 +35,7 @@ Na Tabela 1, é apresentada a visão geral de todas as apresentações planejada
 | **8** | Verificação dos Artefatos | 23/11/2026 a 24/11/2026 | *Pendente* |
 | **Final** | Apresentação do Projeto Final (Seminário) | 25/11/2026 a 30/11/2026 (Ao vivo) | *Pendente* |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborado por Igor Dantas, Gabriel Cardone, Carlos Costa, Arthur Mariani, Rodrigo Barbosa, Tomas Rocho (2026).*
 
 ---
 

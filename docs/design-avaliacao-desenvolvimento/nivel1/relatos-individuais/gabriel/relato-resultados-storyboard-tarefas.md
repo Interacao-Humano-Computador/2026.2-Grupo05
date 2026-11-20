@@ -3,6 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 25/10/2026 | `1.0` | Consolidação e relato dos resultados da avaliação formativa do Storyboard 02 e dos diagramas HTA/CTT (TAR-02). | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para apoio na transcrição do áudio da sessão e formatação markdown da página |
+| 20/11/2026 | `1.1` | Inclusão do TCLE assinado pelo participante na Seção 2 e do link para o protótipo de alta fidelidade da TAR-02 no Figma. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) - formatação markdown. |
 
 ---
 
@@ -24,7 +25,7 @@ O objetivo principal desta avaliação foi investigar a verossimilhança da narr
 * **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md)
 * **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
-* **Protótipo de alta fidelidade navegável:** *não disponível*
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1)
 
 
 ---
@@ -40,6 +41,7 @@ Primeiro, o participante observou o Storyboard 02 na tela e respondeu às pergun
 * **Perfil do Participante convidado (P02):** Adulto jovem que relatou já ter enfrentado, assim como um familiar, dificuldades de acessibilidade no transporte, enquadrando-se no contexto da persona [Larissa Ferreira Lima](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/larissa-ferreira-lima/). Conforme o planejamento, não foram solicitados diagnóstico nem detalhes de saúde, e o participante é identificado apenas pelo código **P02**.
 * **Ambiente e Recursos:** Sessão presencial em sala reservada, gravada em vídeo com celular, com o Storyboard 02 e os PDFs de HTA e CTT exibidos em um monitor.
 * **Data e Duração:** 25/10/2026, com duração aproximada de **3 minutos e 20 segundos** de gravação.
+* **Termo de Consentimento Livre e Esclarecido (TCLE):** [Visualizar PDF do TCLE Assinado](../../../../assets/PDFs/TCLE-Storyboard-Gabriel.pdf)
 * O vídeo da entrevista está disponível clicando [aqui](https://youtu.be/etbwAI9FztQ).
 
 ---
