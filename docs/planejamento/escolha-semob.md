@@ -1,14 +1,14 @@
-
-# Site Selecionado: Portal da SEMOB-DF
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 05/09/2026 | 1.0 | Criação da documentação de escolha e motivação do site selecionado | Carlos Henrique | Igor Dantas |
-| 06/09/2026 | 1.1 | Inserção e referenciação das figuras de evidências heurísticas | Carlos Henrique | Igor Dantas |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/09/2026 | `1.0` | Criação da documentação de escolha e motivação do site selecionado | [Carlos Henrique](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 06/09/2026 | `1.1` | Inserção e referenciação das figuras de evidências heurísticas | [Carlos Henrique](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
 
 ---
+
+# Site Selecionado: Portal da SEMOB-DF
 
 ## 1. Introdução
 
@@ -24,19 +24,17 @@ A escolha do portal da SEMOB-DF fundamenta-se em três pilares principais:
 
 - **Diversidade do Perfil de Usuários:** A base de usuários abrange desde estudantes e trabalhadores até pessoas idosas e pessoas com deficiência física ou sensorial. Trata-se de um público heterogêneo com variados níveis de letramento digital, o que exige conformidade estrita com padrões de usabilidade e diretrizes de acessibilidade governamental.
 
-- **Potencial de Intervenção e Melhoria Contínua em IHC:** Conforme preceituam Barbosa e Silva (2010), sistemas de apoio à administração pública devem primar pela transparência e pela redução de barreiras interativas. A identificação prévia de falhas críticas de navegação e ergonomia torna o portal um candidato ideal para a aplicação de todo o ciclo de design da disciplina, desde a análise de tarefas até a prototipação e validação empírica.
-
+- **Potencial de Intervenção e Melhoria Contínua em IHC:** Conforme preceituam Barbosa et al. (2021), sistemas de apoio à administração pública devem primar pela transparência e pela redução de barreiras interativas. A identificação prévia de falhas críticas de navegação e ergonomia torna o portal um candidato ideal para a aplicação de todo o ciclo de design da disciplina, desde a análise de tarefas até a prototipação e validação empírica.
 
 ## 3. Critérios de Seleção
 
 A equipe adotou os seguintes critérios objetivos para deliberar sobre o sistema a ser trabalhado:
 
-
 1. **Volume de Oportunidades de Intervenção e Desvios dos Padrões de IHC (Material Suficiente para a Equipe):**
     
     Em projetos pedagógicos orientados a equipes multidisciplinares, uma interface excessivamente polida ou estritamente em conformidade com as diretrizes de usabilidade limitaria a capacidade de contribuição equitativa dos integrantes.
     
-    O portal da SEMOB-DF foi selecionado por apresentar um volume expressivo de desconformidades ergonômicas, quebras de heurísticas (Nielsen, 1994) e problemas estruturais de acessibilidade (e-MAG / WCAG 2.1). Essa diversidade de falhas assegura que cada membro do grupo disponha de fluxos, componentes e telas suficientes para realizar análises de tarefas individuais, modelagens conceituais (HTA/GOMS) e propostas autorais de reprojeto e prototipação.
+    O portal da SEMOB-DF foi selecionado por apresentar um volume expressivo de desconformidades ergonômicas, quebras de heurísticas (Barbosa et al., 2021) e problemas estruturais de acessibilidade (e-MAG / WCAG 2.1). Essa diversidade de falhas assegura que cada membro do grupo disponha de fluxos, componentes e telas suficientes para realizar análises de tarefas individuais, modelagens conceituais (HTA/GOMS) e propostas autorais de reprojeto e prototipação.
         
 2. **Acesso Estratégico e Direto ao Público-Alvo:**
     
@@ -56,10 +54,9 @@ A equipe adotou os seguintes critérios objetivos para deliberar sobre o sistema
     
     A delimitação do escopo permite a execução completa do cronograma acadêmico proposto no plano de ensino, desde a elicitação de necessidades e guia de estilo até as inspeções cruzadas e prototipação interativa , sem gargalos de infraestrutura ou dependência de dados externos inacessíveis.
 
-
 ## 4. Problemas de IHC Encontrados no Portal
 
-A decisão de escolha foi respaldada pelos achados de uma inspeção heurística preliminar baseada nas 10 heurísticas de Nielsen (1994) e no Framework DECIDE (Barbosa e Silva, 2010). Abaixo estão sintetizados os principais problemas diagnosticados:
+A decisão de escolha foi respaldada pelos achados de uma inspeção heurística preliminar baseada nas 10 heurísticas de Nielsen (1994 apud BARBOSA et al., 2021) e no Framework DECIDE (Barbosa et al., 2021). Abaixo estão sintetizados os principais problemas diagnosticados:
 
 ### 4.1. Barreira Crítica de Navegação na Seção "Serviços Mais Procurados" (P01)
 
@@ -131,22 +128,35 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 
 **Fonte:** Maciel et al. (2004, p. 9).
 
-## 5. Declaração sobre o Uso de IA Generativa
+---
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+## 5. Fotos de Referência
+
+As Figuras 6 a 7 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-6" align="center">
+<p><strong>Figura 6</strong> — Limitações dos arquivos de log e análise competitiva</p>
+</div>
+
+![Figura 6 — Limitações dos arquivos de log e análise competitiva](../assets/prints_referencias/verificacao-v2/livro-log-competitiva.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 125). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-7" align="center">
+<p><strong>Figura 7</strong> — Itens do Planejamento Geral do projeto (Entrega 1)</p>
+</div>
+
+![Figura 7 — Itens do Planejamento Geral do projeto (Entrega 1)](../assets/prints_referencias/verificacao-v2/plano-entrega1-planejamento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
 
 ## 6. Referências Bibliográficas
 
-- BARBOSA, S. D. J.; SILVA, B. S. da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier, 2010.
-
-- BRASIL. Ministério do Planejamento, Orçamento e Gestão. **e-MAG: Modelo de Acessibilidade em Governo Eletrônico**. Brasília: MPOG/SLTI, 2014.
-
-- MACIEL, C. et al. **Avaliação Heurística de Sítios na Web**. In: Canais do IHC 2004. Curitiba: SBC, 2004.
-
-- NIELSEN, J. **Usability Engineering**. San Francisco: Morgan Kaufmann, 1994.
-
-- DISTRITO FEDERAL. Secretaria de Estado de Transporte e Mobilidade. **Portal Institucional da SEMOB-DF**. Disponível em: [https://www.semob.df.gov.br/](https://www.semob.df.gov.br/). Acesso em: 02 set. 2026.
-
-## 7. Bibliografia de Apoio
-
-- SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

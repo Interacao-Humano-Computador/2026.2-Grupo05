@@ -1,10 +1,19 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 19/11/2026 | `1.0` | Criação do índice das listas de verificação, com a rastreabilidade entre a versão 1.0 e a versão 2.0 de cada lista. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Não declarado pelo autor |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+
+!!! warning "Observação para correção manual"
+    Há versões sem revisor no histórico. Indicar o revisor de cada versão.
+
+---
+
 # Listas de Verificação
-
-## Histórico de versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 19/11/2026 | 1.0 | Criação do índice das listas de verificação, com a rastreabilidade entre a versão 1.0 e a versão 2.0 de cada lista. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão |
 
 ## Introdução
 
@@ -39,7 +48,25 @@ A Tabela 1 relaciona a versão 1.0 e a versão 2.0 de cada entrega.
 <p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
 </div>
 
-## Referências bibliográficas
+---
 
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
-- SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
+## Fotos de Referência
+
+A Figura 1 mostra o trecho que fundamenta este artefato, recortado e grifado em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

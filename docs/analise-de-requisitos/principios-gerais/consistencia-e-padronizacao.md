@@ -1,18 +1,22 @@
-# Consistência e Padronização no site da SEMOB-DF
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 05/10/2026 | 1.0 | Criação do documento de consistência e padronização do **SEMOB-DF**. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/10/2026 | `1.0` | Criação do documento de consistência e padronização do **SEMOB-DF**. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
 
 ---
+
+# Consistência e Padronização no site da SEMOB-DF
 
 **Site analisado:** <https://www.semob.df.gov.br/> (Secretaria de Estado de Transporte e Mobilidade do Distrito Federal)
 
 **Princípio:** 10.2.4 Consistência e Padronização
 
-**Referência:** Barbosa, S. D. J. et al. (2021). *Interação Humano-Computador e Experiência do Usuário*, Cap. 10: Princípios e Diretrizes para o Design de IHC, pp. 241–242.
+**Referência:** Barbosa, S. D. J. et al. (2021). *Interação Humano-Computador e Experiência do Usuário*, Cap. 10: Princípios e Diretrizes para o Design de IHC, pp. 225–226.
 
 **Data da inspeção:** 05/10/2026, em navegador desktop (Google Chrome)
 
@@ -22,7 +26,7 @@
 
 ## 1. O princípio segundo o livro
 
-O capítulo 10 reúne as recomendações de Norman (1988), Tognazzini (2014), Nielsen (1994) e Shneiderman (1998) sobre consistência, cuja referência está evidenciada nas imagens 1 e 2. As ideias usadas como critério nesta análise são:
+O capítulo 10 reúne as recomendações de Norman (1988 apud BARBOSA et al., 2021), Tognazzini (2014 apud BARBOSA et al., 2021), Nielsen (1994 apud BARBOSA et al., 2021) e Shneiderman (1998 apud BARBOSA et al., 2021) sobre consistência, cuja referência está evidenciada nas imagens 1 e 2. As ideias usadas como critério nesta análise são:
 
 1. **Consistência com o modelo conceitual.** Tudo no produto deve estar de acordo com o modelo conceitual do sistema e exemplificá-lo: a interface, a documentação e a imagem do sistema (Norman).
 2. **Consistência com as expectativas do usuário.** É a mais importante. Quando não há como corresponder a elas, deve-se ao menos padronizar (Norman, Tognazzini).
@@ -275,7 +279,7 @@ A **estrutura geral** do site da SEMOB é consistente, porque segue o padrão vi
 
 ---
 
-## Fotos de Referência
+## 7. Fotos de Referência
 
 - ![imagem 1](../../assets/prints_referencias/print-consistencia-e-padronizacao-1.png)
 *Imagem 01: Referência teórica do livro-texto.*
@@ -283,6 +287,8 @@ A **estrutura geral** do site da SEMOB é consistente, porque segue o padrão vi
 - ![imagem 2](../../assets/prints_referencias/print-consistencia-e-padronizacao-2.png)
 *Imagem 02: Referência teórica do livro-texto.*
 
-## Referências Bibliográficas
+---
 
-- BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.4.
+## 8. Referências Bibliográficas
+
+* BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.4.

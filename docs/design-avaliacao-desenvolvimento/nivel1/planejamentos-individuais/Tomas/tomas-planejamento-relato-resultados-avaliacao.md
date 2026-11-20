@@ -1,9 +1,14 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Storyboard 05 e da Análise de Tarefas (TAR-03). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
 | 23/10/2026 | `1.1` | Atualização do planejamento do relato para o novo Storyboard 05 (Pedido de Aumento do Limite Diário do Vale-Transporte) e para a TAR-09: objetivos, exemplos da escala de severidade, modelos de tabela e reprojeto. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para adaptar o texto ao novo storyboard e à nova tarefa |
+| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+
+
+!!! warning "Observação para correção manual"
+    Não existe o relato dos resultados de Nível 1 correspondente a este planejamento (TAR-09). O autor deve criar o relato ou registrar por que ele não foi feito.
 
 ---
 
@@ -12,6 +17,19 @@
 Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas** referente ao **Storyboard 05 (Pedido de Aumento do Limite Diário do Vale-Transporte)** e à **TAR-09 (Solicitar Aumento do Limite Diário de Uso do Vale-Transporte)**. O documento define, antes da sessão, **como** os dados da avaliação serão organizados, analisados e apresentados, para que o relato seja padronizado e possa ser comparado com o dos outros integrantes.
 
 A avaliação correspondente está descrita no [Planejamento da Avaliação do Storyboard e da Análise de Tarefas](tomas-planejamento-avaliacao.md). A sessão está marcada para **21/10/2026**, e o relato será publicado na Etapa 5.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-09 (Pedido de Aumento do Limite Diário do Vale-Transporte):**
+
+* **Persona:** [Heitor Santos Júnior](../../../../analise-de-requisitos/personas/heitor-santos-junior.md)
+* **Cenário:** [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
+* **Análise de tarefas:** [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
+* **Storyboard:** [Storyboard 05](../../storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](tomas-planejamento-avaliacao.md) · Planejamento do relato (*esta página*) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-09/index.html)
+
 
 ---
 
@@ -50,7 +68,7 @@ A análise será **qualitativa**. O observador revisa a gravação e as anotaç�
 
 Cada trecho marcado vira uma linha na tabela de respostas (Tabelas 2 e 3) ou, se indicar um problema, na tabela de problemas (Tabela 4).
 
-Para classificar os problemas, adota-se a mesma **escala de severidade** usada pelo grupo, adaptada de Nielsen (1994) e Barbosa et al. (2021):
+Para classificar os problemas, adota-se a mesma **escala de severidade** usada pelo grupo, adaptada de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021):
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Escala de Severidade de Problemas</p>
@@ -65,7 +83,7 @@ Para classificar os problemas, adota-se a mesma **escala de severidade** usada p
 | **4** | **Catastrófico** | Impede o entendimento da proposta ou mostra que a tarefa modelada não corresponde à realidade. | Participante não reconhece a situação e diz que, na prática, quem resolve o limite é sempre o RH da empresa. |
 
 <div align="center">
-<p><em>Fonte: Adaptado de Nielsen (1994) e Barbosa et al. (2021), com exemplos elaborados por Tomás Rocho (2026).</em></p>
+<p><em>Fonte: Adaptado de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021), com exemplos elaborados por Tomás Rocho (2026).</em></p>
 </div>
 
 ---
@@ -140,19 +158,43 @@ Os problemas da Tabela 4 serão tratados conforme a gravidade:
 
 ---
 
-## 6. Declaração sobre o Uso de IA Generativa
+## 6. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que o Claude (Anthropic) foi usado para auxiliar na estruturação do texto, na formatação das tabelas em Markdown e na adaptação deste planejamento ao novo storyboard e à TAR-09. A estrutura do relato, os exemplos da escala de severidade e o planejamento do reprojeto são de responsabilidade do integrante Tomás Rocho.
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — 11.7.4 Interpretação dos dados de cada participante</p>
+</div>
+
+![Figura 1 — 11.7.4 Interpretação dos dados de cada participante](../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+</div>
+
+![Figura 2 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
+</div>
+
+![Figura 3 — Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
 ## 7. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. Porto Alegre: Bookman, 2005.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-
----
-**Autor:** [Tomás Rocho](https://github.com/TomasRocho)  
-**Revisor:** [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)

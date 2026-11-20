@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 25/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Papel (TAR-03) via framework DECIDE com referências do livro-texto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para apoio na formatação sintática de tabelas em Markdown |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -10,13 +11,26 @@
 
 Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Papel** referente à **[TAR-03 — Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)**. Trata-se do planejamento individual elaborado por Lucas Araújo Lima para orientar a avaliação formativa presencial do protótipo de baixa/média fidelidade confeccionado em papel, representando a proposta de redesign da interface móvel da **SEMOB-DF / DF no Ponto**.
 
-A avaliação será conduzida de forma empírica presencial, envolvendo a simulação de uso por um participante real cujo perfil corresponde à persona primária [Marcos Paulo Vieira ("Marquinhos")](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md) (trabalhador cotidiano do STPC/DF que realiza o deslocamento Samambaia Sul → SIA com urgência de horário). O planejamento foi estruturado segundo o **Framework DECIDE** (Sharp, Rogers & Preece, 2007; Barbosa & Silva, 2010, Seção 9.8; Barbosa et al., 2021, Seção 11.8), contemplando as seis etapas interdependentes: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar, interpretar e apresentar dados).
+A avaliação será conduzida de forma empírica presencial, envolvendo a simulação de uso por um participante real cujo perfil corresponde à persona primária [Marcos Paulo Vieira ("Marquinhos")](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md) (trabalhador cotidiano do STPC/DF que realiza o deslocamento Samambaia Sul → SIA com urgência de horário). O planejamento foi estruturado segundo o **Framework DECIDE** (Barbosa et al., 2021, Seção 11.8), contemplando as seis etapas interdependentes: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar, interpretar e apresentar dados).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-03 (Planejamento de Rota por Origem e Destino):**
+
+* **Persona:** [Marcos Paulo Vieira](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md)
+* **Cenário:** [Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)
+* **Análise de tarefas:** [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
+* **Storyboard:** [Storyboard 03](../../../nivel1/storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../../nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](../../../nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** telas no planejamento da avaliação (*nesta página*)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-03/index.html)
+
 
 ---
 
 ## 1. D — Determinar os Objetivos da Avaliação
 
-De acordo com Snyder (2003) e Barbosa & Silva (2010, Cap. 10, Seção 10.2.3, p. 358), a **prototipação em papel** é um método de observação de uso voltado à avaliação formativa que avalia a usabilidade de um design de IHC representado em papel através de simulações de uso com potenciais usuários antes mesmo de construir uma solução de software executável.
+De acordo com Snyder (2003 apud BARBOSA et al., 2021) e Barbosa et al. (2021, Seção 12.2.3, p. 303), a **prototipação em papel** é um método de observação de uso voltado à avaliação formativa que avalia a usabilidade de um design de IHC representado em papel através de simulações de uso com potenciais usuários antes mesmo de construir uma solução de software executável.
 
 ### 1.1 Objetivos Gerais e Específicos
 1. **Validar a usabilidade da busca direta de destino na Home (Subtarefa 1 da TAR-03):** Verificar se o usuário identifica imediatamente o campo de busca *"Para onde você quer ir?"* na tela inicial do protótipo em papel, compreendendo a captura automática de sua localização atual via GPS sem necessidade de conhecer códigos numéricos de linhas.
@@ -29,7 +43,7 @@ De acordo com Snyder (2003) e Barbosa & Silva (2010, Cap. 10, Seção 10.2.3, p.
 
 ## 2. E — Explorar as Perguntas a Serem Respondidas
 
-Para operacionalizar os objetivos definidos na etapa anterior, foram formuladas perguntas específicas de investigação que nortearão a observação direta durante a simulação de uso e a entrevista pós-teste (Barbosa & Silva, 2010, p. 313; Barbosa et al., 2021, p. 264):
+Para operacionalizar os objetivos definidos na etapa anterior, foram formuladas perguntas específicas de investigação que nortearão a observação direta durante a simulação de uso e a entrevista pós-teste (Barbosa et al., 2021, p. 264; Barbosa et al., 2021, p. 264):
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Perguntas Investigativas da Avaliação do Protótipo de Papel (TAR-03)</p>
@@ -52,18 +66,18 @@ Para operacionalizar os objetivos definidos na etapa anterior, foram formuladas 
 
 ## 3. C — Choose (Escolher) os Métodos de Avaliação
 
-O método escolhido para esta etapa é a **Prototipação em Papel** (Snyder, 2003; Barbosa & Silva, 2010, Seção 10.2.3, p. 358–362; Barbosa et al., 2021, Seção 12.2.3, p. 303–306), classificado na literatura de IHC como um **Método de Observação de Uso (Empírico)** conduzido em ambiente controlado presencial.
+O método escolhido para esta etapa é a **Prototipação em Papel** (Barbosa et al., 2021, Seção 12.2.3, pp. 303–306; Barbosa et al., 2021, Seção 12.2.3, p. 303–306), classificado na literatura de IHC como um **Método de Observação de Uso (Empírico)** conduzido em ambiente controlado presencial.
 
-* **Justificativa Metodológica:** Conforme a Tabela 10.8 de Barbosa & Silva (2010, p. 362), a prototipação em papel possui adequação máxima (`+++`) tanto para **comparar alternativas de design** quanto para **identificar problemas de IHC** em estágios formativos. Ela permite testar todo o fluxo interativo da TAR-03 (troca de telas, abertura de *dropdowns*, seleção de cartões de rota e disparo de alertas dinâmicos em *post-its*) com baixíssimo custo e possibilidade de **reprojeto imediato** (desenhando ou ajustando um rótulo diretamente no papel entre tarefas ou ciclos).
+* **Justificativa Metodológica:** Conforme a Tabela 12.10 de Barbosa et al. (2021), a prototipação em papel possui adequação máxima (`+++`) tanto para **comparar alternativas de design** quanto para **identificar problemas de IHC** em estágios formativos. Ela permite testar todo o fluxo interativo da TAR-03 (troca de telas, abertura de *dropdowns*, seleção de cartões de rota e disparo de alertas dinâmicos em *post-its*) com baixíssimo custo e possibilidade de **reprojeto imediato** (desenhando ou ajustando um rótulo diretamente no papel entre tarefas ou ciclos).
 * **Técnicas Complementares Combinadas:**
   1. **Protocolo *Think Aloud* (Pensar em Voz Alta):** O participante será instruído a verbalizar continuamente seus pensamentos, expectativas e dúvidas enquanto aponta ou "clica" com o dedo/caneta sobre as telas de papel.
-  2. **Entrevista Pós-Teste Rápida:** Ao término da execução das tarefas no papel, será realizada uma breve entrevista semiestruturada (5 minutos) para colher a impressão geral do participante e sugestões diretas de melhoria visual (Barbosa & Silva, 2010, p. 361).
+  2. **Entrevista Pós-Teste Rápida:** Ao término da execução das tarefas no papel, será realizada uma breve entrevista semiestruturada (5 minutos) para colher a impressão geral do participante e sugestões diretas de melhoria visual (Barbosa et al., 2021, p. 305).
 
 ---
 
 ## 4. I — Identificar e Administrar as Questões Práticas
 
-Seguindo a sistematização da **Tabela 10.7 (*Atividades do método de prototipação em papel*)** de Barbosa & Silva (2010, p. 359), as questões práticas e operacionais foram organizadas nos itens a seguir.
+Seguindo a sistematização da **Tabela 12.9 (*Atividades do método de prototipação em papel*)** de Barbosa et al. (2021), as questões práticas e operacionais foram organizadas nos itens a seguir.
 
 ### 4.1 Confecção das Telas Estáticas e Peças Móveis (Widgets em Papel)
 O protótipo em papel da **TAR-03** será confeccionado manualmente em folhas sulfite A4, cartolina e blocos adesivos (*post-its*), estruturado em:
@@ -89,7 +103,7 @@ O participante receberá uma folha impressa com o cenário contextual da persona
 * **Tarefa TAR-03.3 (Rastrear Ônibus no Mapa e Reagir a Imprevisto na Via):** Acompanhar a aproximação do ônibus no mapa em papel e, diante do surgimento de um alerta de retenção severa na via (e posteriormente de falha de sinal de GPS), acionar a alternativa de contorno mais rápida.
 
 ### 4.3 Papéis da Equipe na Sessão Presencial
-Em conformidade com Barbosa & Silva (2010, p. 360), a coleta de dados na prototipação em papel deve contar com papéis claramente delimitados:
+Em conformidade com Barbosa et al. (2021), a coleta de dados na prototipação em papel deve contar com papéis claramente delimitados:
 
 * **Participante (Usuário):** Interage diretamente com os protótipos de papel sobre a mesa utilizando o dedo ou uma caneta como ponteiro ("mouse/toque") e verbalizando seus pensamentos (*Think Aloud*).
 * **Avaliador "Computador" ([Lucas Araújo Lima](https://github.com/Lucasaraujoszz)):** Simula o comportamento mecânico do sistema em resposta estrita às ações do usuário (substitui a Tela 01 pela Tela 02, aplica o *post-it* de autocompletar W01, move o ônibus W02 e sobrepõe o alerta W03). **Regra estrita:** o avaliador "computador" não fornece explicações, dicas nem orientações sobre como usar a interface; tudo o que precisa ser comunicado ao usuário deve estar representado no papel.
@@ -123,7 +137,7 @@ Em conformidade com Barbosa & Silva (2010, p. 360), a coleta de dados na prototi
 
 ## 5. D — Decidir como Lidar com as Questões Éticas
 
-A avaliação do protótipo em papel respeitará integralmente os princípios éticos da Resolução CNS nº 466/2012 e nº 510/2016 e as diretrizes detalhadas no documento de [Questões Práticas e Éticas das Avaliações](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md) (Barbosa & Silva, 2010, Seção 5.4, p. 138–143):
+A avaliação do protótipo em papel respeitará integralmente os princípios éticos da Resolução CNS nº 466/2012 e nº 510/2016 e as diretrizes detalhadas no documento de [Questões Práticas e Éticas das Avaliações](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md) (Barbosa et al., 2021, Seção 7.4):
 
 1. **Termo de Consentimento Livre e Esclarecido (TCLE):** Antes de iniciar qualquer atividade ou gravação, o participante lerá e assinará o [TCLE oficial do projeto](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf), autorizando expressamente a gravação de voz e da interação manual com os artefatos de papel para fins exclusivamente acadêmicos.
 2. **Garantia de Não-Maleficência e Conforto Psicológico:** O avaliador reforçará na abertura que **o objeto em avaliação é exclusivamente o protótipo em papel da SEMOB-DF, e jamais a capacidade ou inteligência do participante**. Qualquer dificuldade encontrada ao tocar nas peças de papel será tratada como uma falha de design da interface a ser corrigida pela equipe.
@@ -134,7 +148,7 @@ A avaliação do protótipo em papel respeitará integralmente os princípios é
 
 ## 6. E — Avaliar, Interpretar e Apresentar os Dados
 
-Conforme preconizado por Barbosa & Silva (2010, p. 313, 361), na prototipação em papel as atividades de coleta e interpretação ocorrem de maneira estreitamente acoplada e iterativa:
+Conforme preconizado por Barbosa et al. (2021), na prototipação em papel as atividades de coleta e interpretação ocorrem de maneira estreitamente acoplada e iterativa:
 
 1. **Interpretação e Reprojeto Rápido no Papel:** Ao término da execução das tarefas (ou durante a própria sessão, no caso de obstáculos triviais de nomenclatura), o avaliador analisará as anotações de observação e o vídeo gravado. Problemas simples de usabilidade — como um rótulo ambíguo no cartão de rota ou a posição pouco visível do botão de rota alternativa — serão redesenhados diretamente em um novo *post-it* para verificar se a alteração soluciona a dúvida.
 2. **Critérios de Confiabilidade e Validade (DECIDE):**
@@ -147,7 +161,7 @@ Conforme preconizado por Barbosa & Silva (2010, p. 313, 361), na prototipação 
 
 ## 7. Planejamento do Teste Piloto do Protótipo de Papel
 
-Em estrita observância ao **Item 11 do Checklist do Plano de Ensino** e à Tabela 10.7 de Barbosa & Silva (2010, p. 299, 359), antes da sessão definitiva com o usuário externo será conduzido um **Teste Piloto do Protótipo de Papel**:
+Em estrita observância ao **Item 11 do Checklist do Plano de Ensino** e à Tabela 12.9 de Barbosa et al. (2021), antes da sessão definitiva com o usuário externo será conduzido um **Teste Piloto do Protótipo de Papel**:
 
 * **Objetivo do Teste Piloto:** Verificar se todas as telas estáticas e peças móveis (*post-its* W01 a W04) estão completas, treinar a destreza mecânica do "avaliador computador" na troca rápida de telas sem travar o fluxo do usuário, calibrar o enquadramento *top-down* da câmera e validar se as instruções das tarefas `TAR-03.1` a `TAR-03.3` são claras.
 * **Procedimento:** O teste piloto será executado em **30/10/2026** com um integrante do próprio Grupo 05 simulando a interação sobre a mesa.
@@ -157,62 +171,131 @@ Em estrita observância ao **Item 11 do Checklist do Plano de Ensino** e à Tabe
 
 ## 8. Fundamentação Teórica e Prints de Referência do Livro-Texto
 
-Para atender ao rigor metodológico da disciplina (**Item 14 do Checklist**), apresentam-se a seguir as referências exatas e os registros visuais (*prints* com destaques) extraídos diretamente do livro-texto oficial da disciplina — **BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010** (e correspondente Capítulo 11 e Seção 12.2.3 na edição de 2021) — que fundamentam este planejamento:
+Para atender ao rigor metodológico da disciplina (**Item 14 do Checklist**), apresentam-se a seguir as referências exatas e os registros visuais (*prints* com destaques) extraídos diretamente do livro-texto oficial da disciplina — **BARBOSA, S. D. J. et al. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021** (Capítulo 11 e Seção 12.2.3) — que fundamentam este planejamento:
 
 ### 8.1 O Framework DECIDE no Planejamento da Avaliação de IHC
-Na Seção 9.8 (*O Framework DECIDE*, p. 312–313), Barbosa & Silva sintetizam as seis atividades propostas por Sharp, Rogers e Preece (2007) para articular objetivos, perguntas, métodos, logística, ética e interpretação dos dados:
+Na Seção 11.8 (*O Framework DECIDE*, p. 264), Barbosa et al. (2021) sintetizam as seis atividades propostas por Sharp, Rogers e Preece (2002 apud BARBOSA et al., 2021) para articular objetivos, perguntas, métodos, logística, ética e interpretação dos dados:
 
 <div align="center">
-  <img src="../../../../../assets/prints_referencias/referencia-decide-visao-geral.png" alt="Print da página do livro de IHC apresentando a visão geral do Framework DECIDE" width="85%">
+  <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-decide.png" alt="11.8 Framework DECIDE (BARBOSA et al., 2021, p. 264)" width="85%">
   <p><strong>Figura 1</strong> — Visão geral das seis atividades interligadas do Framework DECIDE</p>
-  <p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 9, Seção 9.8, p. 312–313).</em></p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 11.8, p. 264). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 ### 8.2 Definição e Preparação do Método de Prototipação em Papel
-Na Seção 10.2.3 (*Prototipação em Papel*, p. 358), os autores fundamentam o uso de simulações em papel com potenciais usuários, a criação de telas desenhadas à mão livre e o preparo de pedaços móveis de papel (menus, listas de busca e diálogos) manipulados pelo avaliador que atua como "computador":
+Na Seção 12.2.3 (*Prototipação em Papel*, p. 303), os autores fundamentam o uso de simulações em papel com potenciais usuários, a criação de telas desenhadas à mão livre e o preparo de pedaços móveis de papel (menus, listas de busca e diálogos) manipulados pelo avaliador que atua como "computador":
 
 <div align="center">
-  <img src="../../../../../assets/prints_referencias/referencia-prototipo-papel-definicao.png" alt="Print da página 358 do livro de IHC com a definição da Prototipação em Papel" width="85%">
+  <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png" alt="12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’ (BARBOSA et al., 2021, p. 303)" width="85%">
   <p><strong>Figura 2</strong> — Fundamentação do método de Prototipação em Papel, atuação do avaliador "computador" e preparação de telas estáticas e peças dinâmicas</p>
-  <p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 10, Seção 10.2.3, p. 358).</em></p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 12.2.3, p. 303). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 ### 8.3 Sistematização das Atividades e Uso de Post-its na Prototipação em Papel
-Na página 359, a **Tabela 10.7** sintetiza as cinco etapas formais do método (*Preparação, Coleta de dados, Interpretação, Consolidação dos resultados e Relato dos resultados*), incluindo a obrigatoriedade do **teste-piloto** e o exemplo de esboço de tela com pedaços de papel adesivo (*post-its*) manipuláveis:
+Na página 359, a **Tabela 12.9** sintetiza as cinco etapas formais do método (*Preparação, Coleta de dados, Interpretação, Consolidação dos resultados e Relato dos resultados*), incluindo a obrigatoriedade do **teste-piloto** e o exemplo de esboço de tela com pedaços de papel adesivo (*post-its*) manipuláveis:
 
 <div align="center">
-  <img src="../../../../../assets/prints_referencias/referencia-prototipo-papel-tabela-10-7.png" alt="Print da página 359 do livro de IHC com a Tabela 10.7 e Exemplo 10.10" width="85%">
-  <p><strong>Figura 3</strong> — Tabela 10.7 (Atividades do método de prototipação em papel) e Exemplo 10.10 (Esboço com papéis adesivos)</p>
-  <p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 10, Seção 10.2.3, p. 359).</em></p>
+  <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png" alt="Tabela 12.9 – Atividades do método de prototipação em papel (BARBOSA et al., 2021, pp. 304–305)" width="85%">
+  <p><strong>Figura 3</strong> — Tabela 12.9 (Atividades do método de prototipação em papel) e Exemplo 10.10 (Esboço com papéis adesivos)</p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 12.2.3, Tabela 12.9, pp. 304–305). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 ### 8.4 Condução da Coleta de Dados e Papéis dos Avaliadores
 Na página 360, a obra detalha a divisão de papéis entre o avaliador que simula o comportamento do sistema ("computador", que modifica a interface sem dar dicas verbais) e o avaliador observador, bem como a possibilidade de ajustes rápidos na interface em papel:
 
 <div align="center">
-  <img src="../../../../../assets/prints_referencias/referencia-prototipo-papel-coleta-papeis.png" alt="Print da página 360 do livro de IHC sobre coleta de dados e papéis na prototipação em papel" width="85%">
+  <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-papel-observador.png" alt="Prototipação em papel: o que o observador deve registrar (BARBOSA et al., 2021, p. 305)" width="85%">
   <p><strong>Figura 4</strong> — Condução da sessão de simulação em papel e distinção entre o avaliador "computador" e o observador</p>
-  <p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 10, Seção 10.2.3, p. 360).</em></p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 12.2.3, p. 305). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+</div>
+
+
+## 9. Telas do Protótipo Avaliado
+
+As Figuras 5 a 8 mostram as telas do protótipo de papel da [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md).
+
+* **Protótipo de papel (PDF):** [Visualizar PDF do protótipo de papel](../../../../assets/PDFs/Prototipo_Papel_TAR03_Lucas.pdf)
+
+<div id="figura-5" align="center" markdown="1">
+<p><strong>Figura 5</strong> — Tela 01 (Home SEMOB-DF com localização GPS automática) e sobreposição do Post-it móvel W01 (Autocompletar para "SIA Trecho 3")</p>
+
+![Tela 01 (Home SEMOB-DF com localização GPS automática) e sobreposição do Post-it móvel W01 (Autocompletar para 'SIA Trecho 3')](../../../../assets/prototipo_papel_lucas/tela01_home_busca.png){ width="600" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+<div id="figura-6" align="center" markdown="1">
+<p><strong>Figura 6</strong> — Tela 02: Cartões comparativos de rota porta a porta (Card A Recomendado: Linha 092.1 Semiexpresso vs. Card B: Linha 0.092 Via EPTG)</p>
+
+![Tela 02: Cartões comparativos de rota porta a porta (Card A Recomendado: Linha 092.1 Semiexpresso vs. Card B: Linha 0.092 Via EPTG)](../../../../assets/prototipo_papel_lucas/tela02_comparacao_rotas.png){ width="600" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+<div id="figura-7" align="center" markdown="1">
+<p><strong>Figura 7</strong> — Tela 03: Mapa esquemático com rota tracejada a pé (4 min / 280m até a Parada QR 302 Conj. 4), peça móvel do ônibus 092.1 (W02) e passo a passo inferior</p>
+
+![Tela 03: Mapa esquemático com rota tracejada a pé (4 min / 280m até a Parada QR 302 Conj. 4), peça móvel do ônibus 092.1 (W02) e passo a passo inferior](../../../../assets/prototipo_papel_lucas/tela03_mapa_rastreamento.png){ width="600" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+<div id="figura-8" align="center" markdown="1">
+<p><strong>Figura 8</strong> — Widgets móveis em Post-its: W03 (Alerta de Retenção Severa na EPTG com troca para Linha 0.380) e W04 (Contingência de Falha de GPS com consulta de horários offline)</p>
+
+![Widgets móveis em Post-its: W03 (Alerta de Retenção Severa na EPTG com troca para Linha 0.380) e W04 (Contingência de Falha de GPS com consulta de horários offline)](../../../../assets/prototipo_papel_lucas/tela04_widgets_contingencia.png){ width="600" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+---
+---
+
+## 10. Fotos de Referência
+As Figuras 9 a 12 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-9" align="center">
+<p><strong>Figura 9</strong> — 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 9 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-10" align="center">
+<p><strong>Figura 10</strong> — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
+</div>
+
+![Figura 10 — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 303). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-11" align="center">
+<p><strong>Figura 11</strong> — Tabela 12.9 – Atividades do método de prototipação em papel</p>
+</div>
+
+![Figura 11 — Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-12" align="center">
+<p><strong>Figura 12</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+</div>
+
+![Figura 12 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
 </div>
 
 ---
 
-## 9. Declaração sobre o Uso de IA Generativa
-
-Em conformidade com as diretrizes do Plano de Ensino da disciplina (SALES, 2026), declara-se que ferramentas de Inteligência Artificial Generativa foram utilizadas exclusivamente para revisão gramatical e formatação sintática de tabelas em Markdown. A concepção metodológica das telas e *widgets* em papel da TAR-03, a formulação das perguntas investigativas e o protocolo experimental são de autoria e responsabilidade de Lucas Araújo Lima.
-
----
-
-## 10. Referências Bibliográficas
-
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. ISBN 978-85-352-1120-7. (Capítulo 9: Planejamento da Avaliação de IHC, Seção 9.8, p. 312–313; Capítulo 10: Métodos de Avaliação de IHC, Seção 10.2.3: Prototipação em Papel, p. 358–362).
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11, p. 261–280; Capítulo 12, Seção 12.2.3, p. 303–306).
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Dispõe sobre as normas aplicáveis a pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-* RUBIN, Jeffrey; CHISNELL, Dana. **Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests**. 2. ed. Indianapolis: Wiley Publishing, 2008.
+## 11. Referências Bibliográficas
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11, pp. 245–264; Capítulo 12, Seção 12.2.3, p. 303–306).
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-* SHARP, Helen; ROGERS, Yvonne; PREECE, Jennifer. **Interaction Design: Beyond Human-Computer Interaction**. 2. ed. New York: John Wiley & Sons, 2007.
-* SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann, 2003.
-
----
-**Autor:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)  
-**Revisor:** [Arthur Mariani](https://github.com/arthur-mariani)

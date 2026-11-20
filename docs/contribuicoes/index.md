@@ -1,22 +1,24 @@
-# Contribuições da Equipe
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 17/09/2026 | 1.0 | Criação e estruturação da página consolidada de contribuições da equipe. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| 21/09/2026 | 1.1 | Inclusão do artefato de Entrevistas e da gravação do Treinamento 01 nas contribuições da Etapa 2 e no painel consolidado por integrante. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-| 22/09/2026 | 1.2 | Inclusão das gravações das entrevistas oficiais com Motorista de Ônibus e Desenvolvedores no registro de contribuições e gravações da equipe. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-| 22/09/2026 | 1.3 | Adição da gravação do Treinamento de Entrevista 02 (Perfil Técnico) nas contribuições da Etapa 2 e no painel consolidado por integrante. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-| 11/10/2026 | 1.4 | Atualização do link do Cenário 1 após a renomeação do arquivo. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 13/10/2026 | 1.5 | Atualização da Tabela da Etapa 4 com a inclusão dos artefatos de Storyboards, Questões Práticas e Éticas e Planejamento Individual de Lucas Araújo. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| 25/10/2026 | 1.6 | Inclusão dos artefatos da Etapa 5 de Lucas Araújo (Ata 7, Relato dos Resultados do Storyboard 03 e TAR-03, e Planejamentos da Avaliação e do Relato do Protótipo de Papel). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| 27/10/2026 | 1.7 | Inclusão dos artefatos da Etapa 5 de Carlos Costa (Storyboard 08, TAR-06 v1.1 e Planejamentos da Avaliação, do Protótipo de Papel e do Relato do Protótipo de Papel) no painel por integrante e correção dos links de Metas de Usabilidade e do Cenário 9. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 28/10/2026 | 1.8 | Inclusão do Relato dos Resultados do Storyboard 08 e da TAR-06, da TAR-06 v1.2 e da gravação da sessão S4 no painel de Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 03/11/2026 | 1.9 | Inclusão dos artefatos da Etapa 6 de Carlos Costa (Relato dos Resultados do Protótipo de Papel, Planejamentos da Avaliação e do Relato do Protótipo de Alta Fidelidade e TAR-06 v1.3) e das gravações do teste piloto e da sessão do protótipo de papel no painel de Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| 14/11/2026 | 2.0 | Inclusão dos artefatos da Etapa 7 de Carlos Costa (Protótipo Navegável da TAR-06, Relato dos Resultados da Alta Fidelidade TAR-06 e gravação no YouTube da sessão com P01). | [Carlos Costa](https://github.com/carloshfgit) | [Tomás Garcia Rocho](https://github.com/TomasRocho) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 17/09/2026 | `1.0` | Criação e estruturação da página consolidada de contribuições da equipe. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 21/09/2026 | `1.1` | Inclusão do artefato de Entrevistas e da gravação do Treinamento 01 nas contribuições da Etapa 2 e no painel consolidado por integrante. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 22/09/2026 | `1.2` | Inclusão das gravações das entrevistas oficiais com Motorista de Ônibus e Desenvolvedores no registro de contribuições e gravações da equipe. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 22/09/2026 | `1.3` | Adição da gravação do Treinamento de Entrevista 02 (Perfil Técnico) nas contribuições da Etapa 2 e no painel consolidado por integrante. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 11/10/2026 | `1.4` | Atualização do link do Cenário 1 após a renomeação do arquivo. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 13/10/2026 | `1.5` | Atualização da Tabela da Etapa 4 com a inclusão dos artefatos de Storyboards, Questões Práticas e Éticas e Planejamento Individual de Lucas Araújo. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 25/10/2026 | `1.6` | Inclusão dos artefatos da Etapa 5 de Lucas Araújo (Ata 7, Relato dos Resultados do Storyboard 03 e TAR-03, e Planejamentos da Avaliação e do Relato do Protótipo de Papel). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 27/10/2026 | `1.7` | Inclusão dos artefatos da Etapa 5 de Carlos Costa (Storyboard 08, TAR-06 v1.1 e Planejamentos da Avaliação, do Protótipo de Papel e do Relato do Protótipo de Papel) no painel por integrante e correção dos links de Metas de Usabilidade e do Cenário 9. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 28/10/2026 | `1.8` | Inclusão do Relato dos Resultados do Storyboard 08 e da TAR-06, da TAR-06 v1.2 e da gravação da sessão S4 no painel de Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 03/11/2026 | `1.9` | Inclusão dos artefatos da Etapa 6 de Carlos Costa (Relato dos Resultados do Protótipo de Papel, Planejamentos da Avaliação e do Relato do Protótipo de Alta Fidelidade e TAR-06 v1.3) e das gravações do teste piloto e da sessão do protótipo de papel no painel de Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 14/11/2026 | `2.0` | Inclusão dos artefatos da Etapa 7 de Carlos Costa (Protótipo Navegável da TAR-06, Relato dos Resultados da Alta Fidelidade TAR-06 e gravação no YouTube da sessão com P01). | [Carlos Costa](https://github.com/carloshfgit) | [Tomás Garcia Rocho](https://github.com/TomasRocho) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 19/11/2026 | `2.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 19/11/2026 | `2.2` | Atualização do status das etapas 1 a 8, inclusão do link da Apresentação 3, correção do cabeçalho da Tabela 5 e observação sobre as tabelas a completar. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na atualização dos status e na verificação dos links de gravação. |
 
 ---
+
+# Contribuições da Equipe
 
 ## 1. Introdução
 
@@ -39,12 +41,12 @@ A **Tabela 1** apresenta uma síntese das etapas da disciplina de Interação Hu
 | :---: | :--- | :---: | :---: | :---: |
 | **1** | Planejamento, Equipe, Seleção do Site, Processo de Design e Ferramentas | 20/08/2026 a 06/09/2026 | 06/09/2026 | <span class="pill pill-ok">Concluída</span> |
 | **2** | Perfil do Usuário, Aspectos Éticos e Análise de Tarefas | 07/09/2026 a 27/09/2026 | 27/09/2026 | <span class="pill pill-ok">Concluída</span> |
-| **3** | Princípios Gerais de Projeto, Metas de Usabilidade e Guia de Estilo | 28/09/2026 a 06/10/2026 | 06/10/2026 | <span class="pill pill-wait">Em andamento</span> |
-| **4** | Planejamento da Avaliação do Storyboard e da Análise de Tarefas | 07/10/2026 a 13/10/2026 | 13/10/2026 | <span class="pill pill-wait">Planejada</span> |
-| **5** | Relatos (Storyboard/Tarefas) e Planejamento do Protótipo de Papel | 14/10/2026 a 25/10/2026 | 25/10/2026 | <span class="pill pill-wait">Planejada</span> |
-| **6** | Relato (Prot. Papel) e Planejamento da Alta Fidelidade | 26/10/2026 a 03/11/2026 | 03/11/2026 | <span class="pill pill-wait">Planejada</span> |
-| **7** | Relato da Avaliação do Protótipo de Alta Fidelidade | 04/11/2026 a 15/11/2026 | 15/11/2026 | <span class="pill pill-wait">Planejada</span> |
-| **8** | Verificação dos Artefatos | 16/11/2026 a 24/11/2026 | 24/11/2026 | <span class="pill pill-wait">Planejada</span> |
+| **3** | Princípios Gerais de Projeto, Metas de Usabilidade e Guia de Estilo | 28/09/2026 a 06/10/2026 | 06/10/2026 | <span class="pill pill-ok">Concluída</span> |
+| **4** | Planejamento da Avaliação do Storyboard e da Análise de Tarefas | 07/10/2026 a 13/10/2026 | 13/10/2026 | <span class="pill pill-ok">Concluída</span> |
+| **5** | Relatos (Storyboard/Tarefas) e Planejamento do Protótipo de Papel | 14/10/2026 a 25/10/2026 | 25/10/2026 | <span class="pill pill-ok">Concluída</span> |
+| **6** | Relato (Prot. Papel) e Planejamento da Alta Fidelidade | 26/10/2026 a 03/11/2026 | 03/11/2026 | <span class="pill pill-ok">Concluída</span> |
+| **7** | Relato da Avaliação do Protótipo de Alta Fidelidade | 04/11/2026 a 15/11/2026 | 15/11/2026 | <span class="pill pill-ok">Concluída</span> |
+| **8** | Verificação dos Artefatos | 16/11/2026 a 24/11/2026 | 24/11/2026 | <span class="pill pill-wait">Em andamento</span> |
 | **Final** | Apresentação do Projeto Final (Seminário) | 25/11/2026 a 30/11/2026 | 30/11/2026 | <span class="pill pill-wait">Planejada</span> |
 
 *Fonte: Elaborado pelos autores (2026).*
@@ -115,7 +117,7 @@ A **Tabela 4** sintetiza as atividades programadas para a terceira etapa.
 | Características da Plataforma | — | O artefato correspondente não foi localizado na documentação | — | — | — | <span class="pill pill-wait">Não localizado</span> |
 | Guia de Estilo | [Introdução](../analise-de-requisitos/guia-de-estilo/introducao.md)<br>[Resultados de análise](../analise-de-requisitos/guia-de-estilo/resultados-de-analise.md)<br>[Elementos de ação](../analise-de-requisitos/guia-de-estilo/elementos-de-acao.md)<br>[Elementos de interação](../analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md)<br>[Vocabulário e padrões](../analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md) | Organização do guia, resultados da análise e padrões de ação, interação e vocabulário | Gabriel Melo, Igor Dantas, Arthur Mariani, Rodrigo Barbosa | Igor Dantas, Gabriel Melo, Carlos Costa, Arthur Mariani | — | <span class="pill pill-ok">Concluído</span> |
 | Lista de Verificação da Entrega 3 | [Acessar atividade](../verificacao/verif3.md) | Questões de verificação para princípios gerais, guia de estilo e metas de usabilidade | Carlos Costa, Lucas Araújo, Gabriel Melo, Igor Dantas, Rodrigo Carvalho, Arthur Mariani | Arthur Mariani, Carlos Costa | — | <span class="pill pill-ok">Concluído</span> |
-| Apresentação da Entrega 3 | [Acessar página](../apresentacoes/index.md) | Página preparada para receber a gravação da apresentação da terceira entrega | Carlos Henrique | Arthur Mariani | *Pendente* | <span class="pill pill-wait">Pendente</span> |
+| Apresentação da Entrega 3 | [Acessar página](../apresentacoes/index.md) | Gravação da apresentação da terceira entrega | Carlos Henrique | Arthur Mariani | [Vídeo da Apresentação 3](https://youtu.be/Mce8ORCaBGQ) | <span class="pill pill-ok">Concluído</span> |
 | Revisão e Ajustes | — | Atividade prevista para o período posterior à entrega, de 07/10/2026 a 12/10/2026 | — | — | — | <span class="pill pill-wait">Planejado</span> |
 
 *Fonte: Elaborado pelos autores (2026).*
@@ -124,11 +126,15 @@ A **Tabela 4** sintetiza as atividades programadas para a terceira etapa.
 
 ### 3.4. Etapa 4 — Planejamento da Avaliação do Storyboard e da Análise de Tarefas
 
+!!! warning "Observação para correção manual"
+    As Tabelas 5 a 10 ainda trazem linhas genéricas do planejamento. Elas precisam ser reescritas com os artefatos que de fato existem (planejamentos e relatos individuais dos Níveis 1, 2 e 3, Atas 5 a 12, inspeções e testes piloto), com autor e revisor conforme o histórico de cada artefato. Gravações já localizadas para incluir: Ata 6 (https://youtu.be/OwEfaXah5HY), inspeção da Entrega 4 (https://youtu.be/aP8W4A7xLIM), Ata 8 (https://youtu.be/vZrUBGEte7U), autoinspeção da Entrega 5 (https://youtu.be/d_vy4RCpSbE), Ata 9 — teste piloto do protótipo de papel (https://youtu.be/-TKDwNGCNfw), Ata 10 (https://youtu.be/7Uvmxk-r-WI), Ata 11 (https://youtu.be/a6FCJuvzO7g), Ata 12 — teste piloto da alta fidelidade (https://youtu.be/NIBJ3A2Xfkk), além das sessões registradas em cada relato individual. As gravações das Apresentações 4 a 7 não foram localizadas no repositório. A Tabela 11 (painel por integrante) também precisa incluir os artefatos dos Níveis 1 a 3 de cada integrante.
+
 A **Tabela 5** sintetiza as atividades da quarta etapa, aplicando o framework DECIDE.
 
 **Tabela 5** - Atividades planejadas para a Etapa 4
 
 | Atividade | Link da atividade | Descrição | Autor(es) | Revisor(es) | Link da gravação | Status |
+| :--- | :--- | :--- | :--- | :--- | :---: | :---: |
 | Confecção dos Storyboards | [Storyboards](../design-avaliacao-desenvolvimento/nivel1/storyboards.md) | Elaboração dos 7 storyboards individuais vinculados à Análise de Tarefas e Cenários (Storyboard 03: Lucas Araújo) | Todos os membros do Grupo 05 | Revisão cruzada por pares | — | <span class="pill pill-ok">Concluído</span> |
 | Questões Práticas e Éticas das Avaliações (e TCLE) | [Acessar atividade](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md) | Definição de recrutamento, perfil de usuários, amostragem, infraestrutura, orçamento zero e minuta integral do TCLE com autorização de gravação | Lucas Araújo | Arthur Mariani | — | <span class="pill pill-ok">Concluído</span> |
 | Planejamento Individual de Tarefas (Lucas Araújo) | [Acessar atividade](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) | Cronograma escalonado, matriz de responsabilidades e critérios de aceitação individuais da Etapa 4 | Lucas Araújo | Arthur Mariani | — | <span class="pill pill-ok">Concluído</span> |
@@ -260,13 +266,23 @@ Todos os integrantes participaram coletivamente da [Apresentação da Entrega 2]
 
 ---
 
-## 5. Declaração sobre o Uso de IA Generativa
+## 5. Fotos de Referência
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+A Figura 1 mostra o trecho que fundamenta este artefato, recortado e grifado em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
 ## 6. Referências Bibliográficas
 
-- SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade de Ciências e Tecnologias em Engenharia (FCTE/UnB), 2026.
-- BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021.
+* BARBOSA, Simone Diniz Junqueira et al. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade de Ciências e Tecnologias em Engenharia (FCTE/UnB), 2026.

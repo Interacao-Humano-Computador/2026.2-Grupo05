@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 27/10/2026 | `1.0` | Criação do planejamento do relato dos resultados do Protótipo de Papel (TAR-08). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - estruturação em Markdown e apoio na formatação textual |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -11,6 +12,19 @@
 Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel** referente à **[TAR-08 (Registro de Reclamação sobre Ônibus a partir do Site da Semob)](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)**. Trata-se de um planejamento individual concebido para orientar, padronizar e estruturar a futura compilação, análise qualitativa e apresentação dos dados colhidos durante a avaliação empírica presencial com o protótipo de baixa fidelidade em papel.
 
 A formatação deste planejamento fundamenta-se nas diretrizes do livro-texto de Interação Humano-Computador (Barbosa et al., 2021, Cap. 11, Seção 11.7.5; Cap. 12, Seção 12.2.3) e nas normas do Plano de Ensino da disciplina, assegurando a rastreabilidade metodológica entre os problemas de usabilidade identificados nas peças físicas e os insumos que direcionarão o protótipo de alta fidelidade no Figma.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-08 (Reclamação sobre Ônibus):**
+
+* **Persona:** [Cláudia Regina Santos](../../../../analise-de-requisitos/personas/claudia-regina-santos.md)
+* **Cenário:** [Cenário 11](../../../../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
+* **Análise de tarefas:** [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
+* **Storyboard:** [Storyboard 06](../../../nivel1/storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](rodrigo-planejamento-av-prototipo-papel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+
 
 ---
 
@@ -27,13 +41,13 @@ O relato final dos resultados terá como finalidades centrais:
 
 ## 2. Estrutura Padronizada do Relatório Final de Resultados
 
-Em conformidade com a literatura de IHC (Barbosa et al., 2021, p. 263, 306) e o checklist de avaliação da disciplina, o documento final de consolidação dos resultados observará a seguinte estrutura formal:
+Em conformidade com a literatura de IHC (Barbosa et al., 2021, pp. 263, 306) e o checklist de avaliação da disciplina, o documento final de consolidação dos resultados observará a seguinte estrutura formal:
 
 1. **Introdução e Objetivos da Avaliação:** Síntese do escopo avaliado na TAR-08 e das metas de usabilidade investigadas.
 2. **Metodologia Empregada:** Descrição da técnica de Prototipação em Papel (observação de uso presencial com os papéis de "Avaliador Computador" e "Avaliador Observador") e da técnica de *Think Aloud*.
 3. **Caracterização do Participante e Ambiente:** Apresentação do perfil do participante convidado (representante da persona [Cláudia Regina Santos](../../../../analise-de-requisitos/personas/claudia-regina-santos.md)), data, local, infraestrutura e registro do aceite do TCLE.
 4. **Sumário dos Dados Coletados:** Métricas de desempenho, taxa de conclusão sem ajuda, contagem de erros de navegação e resumo das respostas às perguntas investigativas P01 a P05.
-5. **Análise Qualitativa e Tabela de Problemas de IHC:** Tabela padronizada com a lista de problemas de usabilidade, categorizados segundo a escala de severidade de Nielsen (1994).
+5. **Análise Qualitativa e Tabela de Problemas de IHC:** Tabela padronizada com a lista de problemas de usabilidade, categorizados segundo a escala de severidade de Nielsen (1994 apud BARBOSA et al., 2021).
 6. **Registro de Alterações no Protótipo de Papel:** Tabela discriminando as alterações executadas de imediato no papel versus as pendências encaminhadas para o meio digital.
 7. **Recomendações para a Prototipação de Alta Fidelidade:** Diretrizes consolidadas para guiar a construção dos componentes no Figma.
 8. **Conclusão:** Síntese das lições aprendidas e validação da proposta conceitual do assistente de reclamação.
@@ -44,7 +58,7 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021, p. 263, 306) e o 
 
 Tendo em vista que a prototipação em papel tem foco predominantemente qualitativo e formativo (Barbosa et al., 2021, p. 308), a análise dos dados será de natureza interpretativa e orientada pelo confronto entre as gravações em vídeo, as anotações do observador e as falas do participante (*Think Aloud*).
 
-Para priorizar o tratamento das falhas de interação identificadas, adotar-se-á a **Escala de Severidade de Problemas** de Nielsen (1994) e Barbosa et al. (2021, p. 270):
+Para priorizar o tratamento das falhas de interação identificadas, adotar-se-á a **Escala de Severidade de Problemas** de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021, p. 270):
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Escala de Severidade de Problemas de Usabilidade</p>
@@ -59,7 +73,7 @@ Para priorizar o tratamento das falhas de interação identificadas, adotar-se-�
 | **4** | **Catastrófico** | Impede totalmente a conclusão da tarefa no protótipo em papel (abandono da reclamação ou erro irreversível). |
 
 <div align="center">
-<p><em>Fonte: Adaptado de Nielsen (1994) e Barbosa et al. (2021).</em></p>
+<p><em>Fonte: Adaptado de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021).</em></p>
 </div>
 
 ---
@@ -139,22 +153,79 @@ Conforme as diretrizes pedagógicas da disciplina, a fundamentação teórica ad
 * **Obra:** BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021.
 * **Localização Exata:** **Parte IV, Capítulo 11 — Seção 11.7.5 (*Consolidação e Relato dos Resultados*), páginas 263–264**; e **Capítulo 12 — Seção 12.2.3 (*Prototipação em Papel — Relato dos Resultados*), páginas 305–306**.
 
+
+## 7. Telas do Protótipo Avaliado
+
+As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md).
+
+<div id="figura-1" align="center" markdown="1">
+<p><strong>Figura 1</strong> — Tela 1 do Protótipo de Papel: Checklist inicial e opção "Não sei o número do ônibus"</p>
+
+![Tela 1 do Protótipo de Papel: Checklist inicial e opção 'Não sei o número do ônibus'](../../../../assets/images/prototipo-papel-rodrigo-1-checklist.jpg){ width="600" }
+
+<p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center" markdown="1">
+<p><strong>Figura 2</strong> — Tela 2 do Protótipo de Papel: Escolha guiada do problema (Ônibus / Linha)</p>
+
+![Tela 2 do Protótipo de Papel: Escolha guiada do problema (Ônibus / Linha)](../../../../assets/images/prototipo-papel-rodrigo-2-problema.jpg){ width="600" }
+
+<p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center" markdown="1">
+<p><strong>Figura 3</strong> — Tela 3 do Protótipo de Papel: Preenchimento dos dados da ocorrência (com opção de anonimato)</p>
+
+![Tela 3 do Protótipo de Papel: Preenchimento dos dados da ocorrência (com opção de anonimato)](../../../../assets/images/prototipo-papel-rodrigo-3-dados.jpg){ width="600" }
+
+<p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
+</div>
+
+<div id="figura-4" align="center" markdown="1">
+<p><strong>Figura 4</strong> — Tela 4 do Protótipo de Papel: Resumo gerado para cópia e aviso prévio de redirecionamento</p>
+
+![Tela 4 do Protótipo de Papel: Resumo gerado para cópia e aviso prévio de redirecionamento](../../../../assets/images/prototipo-papel-rodrigo-4-resumo.jpg){ width="600" }
+
+<p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
+</div>
+
+<div id="figura-5" align="center" markdown="1">
+<p><strong>Figura 5</strong> — Tela 5 do Protótipo de Papel: Colagem do resumo no Participa-DF, geração do protocolo e envio por e-mail</p>
+
+![Tela 5 do Protótipo de Papel: Colagem do resumo no Participa-DF, geração do protocolo e envio por e-mail](../../../../assets/images/prototipo-papel-rodrigo-5-protocolo.jpg){ width="600" }
+
+<p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
+</div>
+
+---
 ---
 
-## 7. Declaração sobre o Uso de IA Generativa
+## 8. Fotos de Referência
+As Figuras 6 a 7 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
-Em conformidade com as exigências do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas unicamente para suporte na elaboração sintática das tabelas em Markdown e revisão gramatical do texto. As definições analíticas, a estrutura das tarefas baseadas na TAR-08 e a taxonomia de severidade são de autoria de Rodrigo Barbosa.
+<div id="figura-6" align="center">
+<p><strong>Figura 6</strong> — Prototipação em papel: conteúdo do relato dos resultados</p>
+</div>
+
+![Figura 6 — Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-7" align="center">
+<p><strong>Figura 7</strong> — 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
+</div>
+
+![Figura 7 — 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
-## 8. Referências Bibliográficas
-
+## 9. Referências Bibliográficas
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1993.
-* RUBIN, Jeffrey; CHISNELL, Dana. **Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests**. 2nd ed. Indianapolis: Wiley, 2008.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-* SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann Publishers, 2003.
-
----
-**Autor:** [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa)  
-**Revisor:** [Carlos Costa](https://github.com/carloshfgit)

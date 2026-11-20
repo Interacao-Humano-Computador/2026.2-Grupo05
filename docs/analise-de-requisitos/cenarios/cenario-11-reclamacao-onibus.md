@@ -1,12 +1,16 @@
-# Cenário 11: Reclamação sobre ônibus que passou direto (Encontrabilidade e Registro na Ouvidoria)
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 13/10/2026 | 1.0 | Elaboração do cenário de problema do registro de reclamação sobre ônibus. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 13/10/2026 | `1.0` | Elaboração do cenário de problema do registro de reclamação sobre ônibus. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
 
 ---
+
+# Cenário 11: Reclamação sobre ônibus que passou direto (Encontrabilidade e Registro na Ouvidoria)
 
 ## 1. Caracterização Geral
 
@@ -18,6 +22,19 @@
 - **Resumo:** De madrugada, o ônibus de Cláudia passa direto pela parada e ela chega atrasada ao plantão. À noite, em casa, ela tenta reclamar pelo celular a partir do site da Semob. Não encontra onde reclamar, é levada para outro site sem entender por quê, precisa criar uma conta, hesita entre "reclamação" e "denúncia" e descobre só no formulário que precisava do número do ônibus. Envia uma reclamação vaga e quase perde o protocolo.
 
 > **Observação.** Os eventos de interface deste cenário seguem as hipóteses da [**TAR-08**](../analise-de-tarefas/tar-08-reclamacao-onibus.md) e devem ser ajustados após a validação navegando no site da Semob e no Participa-DF.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-08 (Reclamação sobre Ônibus):**
+
+* **Persona:** [Cláudia Regina Santos](../personas/claudia-regina-santos.md)
+* **Cenário:** Cenário 11 (*esta página*)
+* **Análise de tarefas:** [TAR-08](../analise-de-tarefas/tar-08-reclamacao-onibus.md)
+* **Storyboard:** [Storyboard 06](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+
 
 ---
 
@@ -134,6 +151,32 @@ Cláudia conseguiu registrar a reclamação, mas levou cerca de 25 minutos, duvi
 
 ---
 
-## 7. Referências Bibliográficas
+## 7. Fotos de Referência
+
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Cenários: definição, ator e objetivo principais</p>
+</div>
+
+![Figura 1 — Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — Elementos característicos de um cenário e uso de personas como atores</p>
+</div>
+
+![Figura 2 — Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

@@ -1,16 +1,33 @@
-# Cenário 4: Crédito de Vale-Transporte Não Disponível no Cartão Antes do Trabalho
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração do cenário de problema sobre indisponibilidade de crédito de Vale-Transporte no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 27/09/2026 | `1.0` | Elaboração do cenário de problema sobre indisponibilidade de crédito de Vale-Transporte no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) | Não declarado pelo autor |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
 
 ---
+
+# Cenário 4: Crédito de Vale-Transporte Não Disponível no Cartão Antes do Trabalho
 
 ## 1. Introdução
 
 Este cenário de problema descreve Maria Eduarda Santos diante da indisponibilidade do crédito de Vale-Transporte pouco antes de ir ao trabalho. A situação foi modelada para revelar dificuldades de compreensão e encaminhamento entre empregador, SEMOB-DF e BRB Mobilidade, contribuindo para requisitos de orientação clara, definição de responsabilidades e apoio à resolução do problema.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-07 (Regularização de Crédito de Vale-Transporte):**
+
+* **Persona:** [Maria Eduarda Santos](../personas/maria-eduarda-santos.md)
+* **Cenário:** Cenário 4 (*esta página*)
+* **Análise de tarefas:** [TAR-07](../analise-de-tarefas/tar-07-credito-vale-transporte.md)
+* **Storyboard:** [Storyboard 07](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#37-storyboard-07-regularizacao-de-credito-de-vale-transporte)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://arthur-mariani.github.io/PAF-IHC/credito/)
+
 
 ## 2. Caracterização Geral
 
@@ -50,7 +67,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como seus papéis
 | **BRB Mobilidade** | Ator Externo (Serviço) | Emite e atende questões relacionadas a cartões e créditos; aparece para Duda como serviço separado do portal da Semob. |
 
 <div align="center">
-<p><em>Fonte: Arthur Mariani (2026), fundamentado em Rosson & Carroll (2002).</em></p>
+<p><em>Fonte: Arthur Mariani (2026), fundamentado em Rosson & Carroll (2002 apud BARBOSA et al., 2021).</em></p>
 </div>
 
 ---
@@ -136,8 +153,32 @@ A Tabela 2 relaciona os problemas evidenciados no cenário às causas observadas
 
 ---
 
-## 8. Referências Bibliográficas
+## 8. Fotos de Referência
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6: Organização do Espaço de Problema: Cenários (pp. 183 a 191).
-* CARROLL, John M. **Making Use: Scenario-Based Design of Human-Computer Interactions**. Cambridge: MIT Press, 2000.
-* ROSSON, Mary Beth; CARROLL, John M. **Usability Engineering: Scenario-Based Development of Human-Computer Interaction**. San Francisco: Morgan Kaufmann, 2002.
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Cenários: definição, ator e objetivo principais</p>
+</div>
+
+![Figura 1 — Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — Elementos característicos de um cenário e uso de personas como atores</p>
+</div>
+
+![Figura 2 — Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 9. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

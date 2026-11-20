@@ -1,6 +1,6 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração do uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 11/10/2026 | `1.0` | Criação e estruturação do documento de Storyboards e adição do Storyboard 01 (Alerta Inteligente de Saída). | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - usado para formatação Markdown da página |
 | 11/10/2026 | `1.1` | Adição do Storyboard 02 (Pré-agendamento no Programa DF Acessível) e atualização do link do Cenário 1. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Google Gemini - usado para tratamento da imagem e formatação Markdown da seção |
@@ -8,7 +8,12 @@
 | 13/10/2026 | `1.3` | Adição do Storyboard 03 (Planejamento de Rota por Origem/Destino e Rastreamento), descrição narrativa acessível e tabela de conformidade. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini - utilizado apenas para formatação em Markdown |
 | 13/10/2026 | `1.4` | Adição do Storyboard 04 (Consulta de Escala de Trabalho e Alertas Operacionais) elaborado por Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não utilizada (elaboração autoral manual do integrante) |
 | 23/10/2026 | `1.5` | Reformulação do Storyboard 05 para a nova tarefa TAR-09 (Pedido de Aumento do Limite Diário do Vale-Transporte): nova ilustração, descrição narrativa dos quadros, tabela de verificação e vínculos na matriz. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para pesquisa no site da Semob e redação do roteiro e da seção |
-| 27/10/2026 | `1.6` | Adição do Storyboard 08 (Consulta do Ônibus em Tempo Real no DF no Ponto — TAR-06), que substitui o Storyboard 04 na avaliação da Etapa 5: linha na matriz de vínculos, descrição narrativa dos quadros e tabela de verificação. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 27/10/2026 | `1.6` | Adição do Storyboard 08 (Consulta do Ônibus em Tempo Real no DF no Ponto — TAR-06), que substitui o Storyboard 04 na avaliação da Etapa 5: linha na matriz de vínculos, descrição narrativa dos quadros e tabela de verificação. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 19/11/2026 | `1.7` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão, em cada storyboard, dos links para as avaliações de Nível 1 e para os protótipos de papel e de alta fidelidade da funcionalidade. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+
+
+!!! warning "Observação para correção manual"
+    O Storyboard 04 (motorista, TAR-04/TAR-05) não tem avaliação de Nível 1, protótipo de papel nem protótipo de alta fidelidade. Os links marcados como não disponíveis nas subseções devem ser completados pelos autores.
 
 ---
 
@@ -16,7 +21,7 @@
 
 Neste documento, apresentam-se os **Storyboards** desenvolvidos pelos integrantes do **Grupo 05** para a **Etapa 4** do projeto de Interação Humano-Computador (IHC) aplicado ao sistema de mobilidade da **SEMOB-DF / BRB Mobilidade**.
 
-O *storyboarding* é uma técnica de prototipagem de baixa fidelidade e prototipação conceitual amplamente utilizada em IHC para ilustrar graficamente como uma solução de interface se insere no contexto de vida do usuário (Preece, Rogers & Sharp, 2005; Barbosa et al., 2021). Cada storyboard consiste em uma sequência de quadros em quadrinhos que retrata uma persona vivenciando uma situação real, reagindo a um gatilho de necessidade e utilizando o sistema para alcançar seus objetivos.
+O *storyboarding* é uma técnica de prototipagem de baixa fidelidade e prototipação conceitual amplamente utilizada em IHC para ilustrar graficamente como uma solução de interface se insere no contexto de vida do usuário (Barbosa et al., 2021). Cada storyboard consiste em uma sequência de quadros em quadrinhos que retrata uma persona vivenciando uma situação real, reagindo a um gatilho de necessidade e utilizando o sistema para alcançar seus objetivos.
 
 ---
 
@@ -71,6 +76,9 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 * **Persona Retratada:** [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/) (Estudante da UnB Gama, 19 anos)
 * **Cenário de Uso:** [Cenário 2 — Atraso por Conflito de Horários no App](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-2-viagem-matutina/)
 * **Tarefa Ancorada:** [TAR-01 — Configurar e utilizar o alerta inteligente de saída de casa](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/)
+* **Avaliação no Nível 1:** [Planejamento da avaliação](planejamentos-individuais/Igor/igor-planejamento-avaliacao.md) · [Planejamento do relato](planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
+* **Protótipo de papel (Nível 2):** [Planejamento da avaliação](../nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../nivel2/planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md) · [Relato dos resultados](../nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md)
+* **Protótipo de alta fidelidade (Nível 3):** [Planejamento da avaliação](../nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../nivel3/relatos-individuais/igor/relato-resultados-prot-alta-fidel.md) · [protótipo navegável](https://www.figma.com/proto/00YEuKWtN4N1rBzpC8V7Gd/prototipo-de-igor?node-id=0-1&t=S9Z2PNsKlHC3LlTt-1)
 * **Tempo para confecção:** ~10 minutos.
 
 #### **Ilustração do Storyboard 01**
@@ -106,6 +114,9 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 * **Persona Retratada:** [Larissa Ferreira Lima](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/larissa-ferreira-lima/) (Estudante e assistente administrativa, 23 anos, com deficiência temporária de mobilidade)
 * **Cenário de Uso:** [Cenário 1 — Pré-agendamento no Programa DF Acessível](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel/)
 * **Tarefa Ancorada:** [TAR-02 — Pré-agendamento no Programa DF Acessível](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel/)
+* **Avaliação no Nível 1:** [Planejamento da avaliação](planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) · [Planejamento do relato](planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
+* **Protótipo de papel (Nível 2):** [Planejamento da avaliação](../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md)
+* **Protótipo de alta fidelidade (Nível 3):** [Planejamento da avaliação](../nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../nivel3/planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../nivel3/relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md) · protótipo navegável (*não disponível — pendente de correção manual*)
 * **Tempo para confecção:** ~9 minutos.
 
 #### **Ilustração do Storyboard 02**
@@ -142,6 +153,9 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 * **Persona Retratada:** [Marcos Paulo Vieira](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/marcos-paulo-vieira/) (Assistente de logística e estoque, 31 anos, morador de Samambaia Sul)
 * **Cenário de Uso:** [Cenário 3 — Deslocamento com Busca por Destino](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino/)
 * **Tarefa Ancorada:** [TAR-03 — Planejamento de Rota por Origem/Destino e Rastreamento](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/)
+* **Avaliação no Nível 1:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
+* **Protótipo de papel (Nível 2):** [Planejamento da avaliação](../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Protótipo de alta fidelidade (Nível 3):** [Planejamento da avaliação](../nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md) · [protótipo navegável](../../prototipos/tar-03/index.html)
 * **Tempo para confecção:** ~15 minutos.
 
 #### **Ilustração do Storyboard 03**
@@ -187,6 +201,9 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 * **Persona Retratada:** [Valdir Soares](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/valdir-soares/) (Motorista Profissional de Ônibus Urbano, 48 anos)
 * **Cenário de Uso:** [Cenário 5 — Consulta de Escala de Trabalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-5-consulta-escala/) e [Cenário 6 — Alerta Emergencial de Desvio](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-6-alerta-desvio/)
 * **Tarefa Ancorada:** [TAR-04/TAR-05 — Análise de Tarefas do Motorista](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista/)
+* **Avaliação no Nível 1:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Protótipo de papel (Nível 2):** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Protótipo de alta fidelidade (Nível 3):** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · Relato dos resultados (*não disponível — pendente de correção manual*) · protótipo navegável (*não disponível — pendente de correção manual*)
 * **Tempo para confecção:** ~10 minutos.
 
 #### **Ilustração do Storyboard 04**
@@ -231,6 +248,9 @@ A Tabela 1 sintetiza a distribuição dos 7 Storyboards do Grupo 05, indicando o
 * **Persona Retratada:** [Heitor Santos Júnior](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/heitor-santos-junior/) (Técnico de manutenção predial, 36 anos, morador de Planaltina)
 * **Cenário de Uso:** [Cenário 9 — Cartão de Vale-Transporte Recusado no Meio do Expediente](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte/)
 * **Tarefa Ancorada:** [TAR-09 — Solicitar Aumento do Limite Diário do Vale-Transporte](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte/)
+* **Avaliação no Nível 1:** [Planejamento da avaliação](planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Protótipo de papel (Nível 2):** [Planejamento da avaliação](../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Protótipo de alta fidelidade (Nível 3):** [Planejamento da avaliação](../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md) · [protótipo navegável](../../prototipos/tar-09/index.html)
 * **Tempo para confecção:** *[a preencher pelo autor]*
 
 O Storyboard 05 retrata a **solução proposta** na TAR-09 para a situação do Cenário 9: o cartão de Heitor é recusado depois de vários embarques a serviço, e o site da Semob explica o motivo, recebe o pedido de mais acessos pelo celular e avisa quando o novo limite está valendo. As telas são representadas como esboços, preservando o caráter de planejamento do storyboard.
@@ -278,6 +298,9 @@ O Storyboard 05 retrata a **solução proposta** na TAR-09 para a situação do 
 * **Persona Retratada:** [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) (Técnica de enfermagem, 46 anos, moradora de Ceilândia Norte)
 * **Cenário de Uso:** [Cenário 11 — Reclamação sobre Ônibus que Passou Direto](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus/)
 * **Tarefa Ancorada:** [TAR-08 — Registro de Reclamação sobre Ônibus a partir do Site da Semob](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/)
+* **Avaliação no Nível 1:** [Planejamento da avaliação](planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Protótipo de papel (Nível 2):** [Planejamento da avaliação](../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Protótipo de alta fidelidade (Nível 3):** [Planejamento da avaliação](../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md) · protótipo navegável (*não disponível — pendente de correção manual*)
 * **Tempo para confecção:** ~10 minutos.
 
 O Storyboard 06 retrata o **fluxo atual** da tarefa: Cláudia tenta reclamar de um ônibus que passou direto pela parada, mas encontra as barreiras identificadas na TAR-08 e **desiste antes de registrar a reclamação**. O desfecho evidencia o principal gargalo da tarefa: a mudança do site da Semob para o Participa-DF e a exigência de login, que fazem a usuária abandonar o objetivo. As telas são representadas como esboços, e não como capturas do site, preservando o caráter de planejamento do storyboard.
@@ -325,6 +348,9 @@ O Storyboard 06 retrata o **fluxo atual** da tarefa: Cláudia tenta reclamar de 
 * **Persona Retratada:** [Maria Eduarda Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/maria-eduarda-santos/)
 * **Cenário de Uso:** [Cenário 4 — Resolução de Falha de Crédito de Vale-Transporte](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte/)
 * **Tarefa Ancorada:** [TAR-07 — Consulta e Regularização de Crédito](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte/)
+* **Avaliação no Nível 1:** [Planejamento da avaliação](planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Protótipo de papel (Nível 2):** [Planejamento da avaliação](../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+* **Protótipo de alta fidelidade (Nível 3):** [Planejamento da avaliação](../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md) · [protótipo navegável](https://arthur-mariani.github.io/PAF-IHC/credito/)
 * **Tempo para confecção:** ~9 minutos.
 
 #### **Ilustração do Storyboard 07**
@@ -361,6 +387,9 @@ O Storyboard 06 retrata o **fluxo atual** da tarefa: Cláudia tenta reclamar de 
 * **Persona Retratada:** [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/) (estudante de Engenharia na UnB Gama, 19 anos)
 * **Cenário de Uso:** [Cenário 2 — Viagem matutina](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-2-viagem-matutina/)
 * **Tarefa Ancorada:** [TAR-06 — Consulta de ônibus em tempo real no DF no Ponto](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto/)
+* **Avaliação no Nível 1:** [Planejamento da avaliação](planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Protótipo de papel (Nível 2):** [Planejamento da avaliação](../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Protótipo de alta fidelidade (Nível 3):** [Planejamento da avaliação](../nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md) · [protótipo navegável](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
 * **Tempo para confecção:** ~14 minutos.
 * **Diferença em relação ao Storyboard 01:** o Storyboard 01 trata do alerta que avisa o João Pedro a hora de **sair de casa** (TAR-01). O Storyboard 08 trata do que acontece **já no ponto**: consultar a previsão, avaliar se ela é confiável e decidir o que fazer.
 
@@ -410,9 +439,33 @@ O Storyboard 06 retrata o **fluxo atual** da tarefa: Cláudia tenta reclamar de 
 
 ---
 
-## 4. Referências Bibliográficas
+## 4. Fotos de Referência
+
+As Figuras 9 a 10 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-9" align="center">
+<p><strong>Figura 9</strong> — Uso de storyboards para explorar ideias de melhoria da prática de trabalho</p>
+</div>
+
+![Figura 9 — Uso de storyboards para explorar ideias de melhoria da prática de trabalho](../../assets/prints_referencias/verificacao-v2/livro-storyboard.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 107). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-10" align="center">
+<p><strong>Figura 10</strong> — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
+</div>
+
+![Figura 10 — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 251). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 5. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 8: Organização do Espaço de Problema — Storyboards e Cenários, p. 158–162).
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. São Paulo: Editora Érica, 2005. (Capítulo 8: Design, Prototipação e Construção).
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-```

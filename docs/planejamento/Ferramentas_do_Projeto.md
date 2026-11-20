@@ -1,22 +1,22 @@
-# Ferramentas do Projeto
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 05/09/2026 | 1.0 | Tabela de ferramentas utilizadas no projeto. | Gabriel Melo | Tomas Garcia |
-| 19/09/2026 | 2.0 | Acrescimo de novas ferramentas que serão utilizadas durante o desenvolvimento do projeto | Gabriel Melo | Igor Dantas |
-| 20/09/2026 | 2.1 | Acrescimo de etapas onde serão utilizadas as ferramentas | Gabriel Melo | Arthur Mariani |
-| 10/11/2026 | 2.2 | Inclusão do Claude Code (Anthropic) e ajuste da descrição do Figma, porque o protótipo de alta fidelidade da TAR-06 passou a ser feito em HTML navegável. | Carlos Costa | Arthur Mariani |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/09/2026 | `1.0` | Tabela de ferramentas utilizadas no projeto. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Tomas Garcia](https://github.com/TomasRocho) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 19/09/2026 | `2.0` | Acrescimo de novas ferramentas que serão utilizadas durante o desenvolvimento do projeto | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 20/09/2026 | `2.1` | Acrescimo de etapas onde serão utilizadas as ferramentas | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 10/11/2026 | `2.2` | Inclusão do Claude Code (Anthropic) e ajuste da descrição do Figma, porque o protótipo de alta fidelidade da TAR-06 passou a ser feito em HTML navegável. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 19/11/2026 | `2.3` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão da logo do Claude na Tabela 1. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
 
 ---
+
+# Ferramentas do Projeto
 
 ## 1. Introdução
 
 Para o desenvolvimento estruturado e eficiente do projeto da disciplina de Interação Humano-Computador (IHC), selecionamos um conjunto de ferramentas focadas em otimizar a comunicação, o gerenciamento de tarefas, a colaboração em equipe e a documentação dos artefatos produzidos. 
 
 A escolha dessas plataformas levou em consideração a acessibilidade, a eficiência e a integração necessária para que todas as etapas do processo de design (análise, síntese e avaliação) sejam conduzidas, registradas e compartilhadas de forma organizada e produtiva. A **Tabela 1** abaixo detalha as ferramentas adotadas e a motivação por trás de cada escolha para o ciclo de vida do projeto.
-
 
 **Tabela 1** - Ferramentas utilizadas no projeto
 
@@ -35,21 +35,39 @@ A escolha dessas plataformas levou em consideração a acessibilidade, a eficiê
 | **CapCut** | ![CapCut](../assets/images/CapCut.png) | Escolhido para a edição rápida e eficiente dos vídeos gravados. Permite realizar cortes, ajustes de áudio e a renderização final do material audiovisual antes do upload na plataforma de hospedagem. | Etapas de 1 a 8. |
 | **VS Code** | ![VS Code](../assets/images/Vscode.jpg) | Ambiente de Desenvolvimento Integrado (IDE) principal adotado pela equipe. Escolhido por sua leveza, integração nativa com o Git e vasta gama de extensões, facilitando a edição dos arquivos Markdown, a manutenção da estrutura do MkDocs e o gerenciamento do repositório. | Etapas de 1 a 8. |
 | **Figma** | ![Figma](../assets/images/Figma.png) | Ambiente de prototipação adotado pela equipe para planejamento de correções de defeitos encontrados nos sites e para os protótipos de alta fidelidade dos integrantes que optaram por ele. | Etapas 6 e 7. |
-| **Claude Code (Anthropic)** | — | Agente de código com IA usado para implementar o protótipo de alta fidelidade da TAR-06 em HTML navegável, a partir das telas, das tarefas e do Guia de Estilo definidos pelo autor, e para apoiar a revisão e a formatação dos textos em Markdown. O protótipo fica versionado no repositório e publicado no GitHub Pages. | Etapas 5, 6 e 7. |
+| **Claude Code (Anthropic)** | ![Claude](../assets/images/claude.svg){ width="45" } | Agente de código com IA usado para implementar o protótipo de alta fidelidade da TAR-06 em HTML navegável, a partir das telas, das tarefas e do Guia de Estilo definidos pelo autor, e para apoiar a revisão e a formatação dos textos em Markdown. O protótipo fica versionado no repositório e publicado no GitHub Pages. | Etapas 5, 6 e 7. |
 
 *Fonte: Gabriel Melo. Logomarcas de propriedade de suas respectivas empresas institucionais.*
 
+---
 
+## 2. Fotos de Referência
 
-## 2. Declaração sobre o Uso de IA Generativa
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Itens do Planejamento Geral do projeto (Entrega 1)</p>
+</div>
 
+![Figura 1 — Itens do Planejamento Geral do projeto (Entrega 1)](../assets/prints_referencias/verificacao-v2/plano-entrega1-planejamento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 2 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
 
 ## 3. Referências Bibliográficas
 
--   BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.
-
-## 4. Bibliografia de Apoio
-
--   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

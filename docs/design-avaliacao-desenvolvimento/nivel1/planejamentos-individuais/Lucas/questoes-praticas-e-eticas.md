@@ -1,8 +1,13 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração do uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Elaboração completa do documento de Questões Práticas e Éticas das Avaliações de IHC, incluindo recrutamento, infraestrutura, orçamento, fundamentação teórica com prints do livro e minuta integral do TCLE com autorização de gravação. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini - utilizado apenas para formatação em Markdown |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+
+
+!!! warning "Observação para correção manual"
+    A menção aos códigos de ética da ACM (1992) e do IEEE (2006) foi retirada por não serem referências do livro da disciplina; o dever de evitar danos, respeitar a privacidade e garantir a confidencialidade foi mantido com base em Barbosa et al. (2021, pp. 126–129). Revisar a redação.
 
 ---
 
@@ -12,11 +17,24 @@ Neste documento, apresentam-se as **Questões Práticas e Éticas** que norteiam
 
 O planejamento de uma avaliação de IHC exige rigor tanto nos aspectos operacionais e logísticos (recrutamento, recursos, prazos e custos) quanto no cumprimento irrestrito dos preceitos éticos que resguardam a dignidade, a privacidade e o bem-estar dos participantes (Barbosa et al., 2021).
 
+**Artefatos relacionados — fluxo da funcionalidade TAR-03 (Planejamento de Rota por Origem e Destino):**
+
+* **Persona:** [Marcos Paulo Vieira](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md)
+* **Cenário:** [Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)
+* **Análise de tarefas:** [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
+* **Storyboard:** [Storyboard 03](../../storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](planejamento-individual-lucas.md) · Questões práticas e éticas (*esta página*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-03/index.html)
+
+
 ---
 
 ## 1. Introdução
 
-De acordo com o framework **DECIDE** (Preece et al., 2002; Sharp et al., 2007) e os fundamentos de Engenharia de Usabilidade de Barbosa & Silva (2010) e Barbosa et al. (2021), as etapas **"I"** (*Identify the practical issues*) e **"D"** (*Decide how to deal with the ethical issues*) são pilares indispensáveis para assegurar a viabilidade técnica e a integridade humana de qualquer investigação empírica.
+De acordo com o framework **DECIDE** (Barbosa et al., 2021) e os fundamentos de Engenharia de Usabilidade de Barbosa et al. (2021) e Barbosa et al. (2021), as etapas **"I"** (*Identify the practical issues*) e **"D"** (*Decide how to deal with the ethical issues*) são pilares indispensáveis para assegurar a viabilidade técnica e a integridade humana de qualquer investigação empírica.
 
 Este documento estabelece as diretrizes que serão adotadas por todos os avaliadores do **Grupo 05** na condução das entrevistas de avaliação dos **Storyboards** e de validação da **Análise de Tarefas (HTA e CTT)**, garantindo conformidade estrita com o Plano de Ensino da disciplina (SALES, 2026).
 
@@ -48,8 +66,8 @@ A Tabela 1 sintetiza os critérios de elegibilidade para o recrutamento dos part
 Para as avaliações formativas da Etapa 5, cada sessão de avaliação (Storyboard e Análise de Tarefas) contará com uma amostra planejada de **3 a 5 participantes por perfil investigado**.
 
 #### **Justificativa Metodológica:**
-1. **Curva de Rendimento Decrescente de Nielsen (2000):** Segundo Jakob Nielsen e Robert Landauer (1993, citados por Barbosa & Silva, 2010, p. 305), a inclusão de **5 participantes** em testes qualitativos de usabilidade é suficiente para descobrir aproximadamente **85% dos problemas de interação** mais críticos da interface. Adicionar participantes além desse número acarreta repetição de descobertas e elevação desproporcional do custo de coleta e análise sem retorno substancial em novas informações (*relação custo-benefício ótima*).
-2. **Recomendação de Dumas & Redish (1999):** Em avaliações formativas com foco qualitativo em profundidade, amostras menores (entre 3 e 5 usuários bem selecionados) permitem ao avaliador conduzir entrevistas semiestruturadas com maior riqueza de detalhes, sem comprometer o tempo de tabulação e consolidação dos relatos.
+1. **Curva de Rendimento Decrescente de Nielsen (2000):** Segundo Jakob Nielsen e Robert Landauer (1993, citados por Barbosa et al., 2021), a inclusão de **5 participantes** em testes qualitativos de usabilidade é suficiente para descobrir aproximadamente **85% dos problemas de interação** mais críticos da interface. Adicionar participantes além desse número acarreta repetição de descobertas e elevação desproporcional do custo de coleta e análise sem retorno substancial em novas informações (*relação custo-benefício ótima*).
+2. **Recomendação de Dumas & Redish (1999 apud BARBOSA et al., 2021):** Em avaliações formativas com foco qualitativo em profundidade, amostras menores (entre 3 e 5 usuários bem selecionados) permitem ao avaliador conduzir entrevistas semiestruturadas com maior riqueza de detalhes, sem comprometer o tempo de tabulação e consolidação dos relatos.
 
 ### 2.3. Estratégia e Abordagem de Recrutamento
 O recrutamento será conduzido por meio de:
@@ -85,7 +103,7 @@ A Tabela 2 apresenta o inventário de infraestrutura e tecnologias mobilizadas:
 
 ## 4. Orçamento e Estimativa de Custos
 
-Conforme preconizado nas boas práticas acadêmicas e na legislação brasileira (Resolução CNS nº 196/96 e 510/2016), a participação dos usuários em pesquisas acadêmicas sem fins lucrativos é **voluntária e não remunerada**, sendo vedado o pagamento de gratificações monetárias diretas pela participação (Barbosa & Silva, 2010, p. 142).
+Conforme preconizado nas boas práticas acadêmicas e na legislação brasileira (Resoluções CNS nº 466/2012 e 510/2016 apud BARBOSA et al., 2021), a participação dos usuários em pesquisas acadêmicas sem fins lucrativos é **voluntária e não remunerada**, sendo vedado o pagamento de gratificações monetárias diretas pela participação (Barbosa et al., 2021).
 
 A Tabela 3 consolida o detalhamento orçamentário do projeto:
 
@@ -112,10 +130,10 @@ A Tabela 3 consolida o detalhamento orçamentário do projeto:
 
 ## 5. Fundamentação Teórica: Aspectos Éticos em Pesquisas com Usuários
 
-A realização de qualquer atividade investigativa em IHC envolvendo seres humanos deve pautar-se pelo respeito incondicional aos sujeitos de pesquisa. Na Computação, os códigos de ética de entidades como a **ACM (1992)** e o **IEEE (2006)** estabelecem expressamente os deveres de *evitar danos*, *respeitar a privacidade* e *garantir a confidencialidade das informações* coletadas (Barbosa & Silva, 2010, p. 138–139).
+A realização de qualquer atividade investigativa em IHC envolvendo seres humanos deve pautar-se pelo respeito incondicional aos sujeitos de pesquisa. Os princípios éticos apresentados por Barbosa et al. (2021, pp. 126–129) estabelecem os deveres de *evitar danos*, *respeitar a privacidade* e *garantir a confidencialidade das informações* coletadas.
 
 ### 5.1. Os 4 Princípios Éticos da Resolução CNS nº 196/96 aplicados a IHC
-No Brasil, a regulamentação ética de pesquisas envolvendo pessoas é orientada pelos princípios do Conselho Nacional de Saúde (CNS), consolidados na literatura de IHC por Simone Barbosa et al. (2010; 2021):
+No Brasil, a regulamentação ética de pesquisas envolvendo pessoas é orientada pelos princípios do Conselho Nacional de Saúde (CNS), consolidados na literatura de IHC por Simone Barbosa et al. (2021):
 
 1. **Princípio da Autonomia:** Reconhece que cada participante é um sujeito livre, dotado de capacidade de autodeterminação. O participante deve ser plenamente esclarecido sobre os objetivos do estudo e possui o **direito de interromper ou abandonar a sessão a qualquer instante**, sem sofrer constrangimentos, punições ou qualquer prejuízo. O consentimento deve ser livre, voluntário e revogável.
 2. **Princípio da Beneficência:** Exige a maximização de benefícios e a garantia de que a pesquisa trará contribuições sociais efetivas (no caso, a melhoria da qualidade do serviço público de transporte da SEMOB-DF para toda a população).
@@ -128,7 +146,7 @@ Durante a divulgação dos resultados da avaliação, os avaliadores têm o deve
 * **Anonimização de relatos:** Quaisquer menções a dados de terceiros ou termos específicos que possam identificar o entrevistado serão mascarados.
 
 ### 5.3. Autorização Expressa para Gravação de Voz e Imagem
-Conforme exigido pelo **Item 6 do Checklist do Plano de Ensino da disciplina** e detalhado por Barbosa & Silva (2010, p. 140):
+Conforme exigido pelo **Item 6 do Checklist do Plano de Ensino da disciplina** e detalhado por Barbosa et al. (2021):
 > *"É necessário obter permissão para gravar a voz ou imagem de qualquer pessoa, antes de começar a gravação. Devemos informar aos participantes logo no recrutamento sobre os tipos de gravações que serão realizadas, para evitar mal-entendidos ou desistências no momento da atividade."*
 
 Sendo assim, o início da gravação no Microsoft Teams só poderá ser acionado **após o esclarecimento do termo e a confirmação afirmativa e verbal de aceite do participante**.
@@ -140,15 +158,15 @@ Sendo assim, o início da gravação no Microsoft Teams só poderá ser acionado
 Conforme estabelecido pelo critério de validação da disciplina (**Item 14 do Checklist**), as Figuras 1 e 2 comprovam as páginas da obra de referência de IHC onde estão fundamentados os aspectos éticos e a elaboração do termo de consentimento:
 
 <div align="center">
-  <img src="../../../../assets/prints_referencias/print-teoria-aspectos-eticos-tcle.png" alt="Print da página 139 do livro de IHC sobre Aspectos Éticos e Princípios da Resolução 196/96" width="90%">
+  <img src="../../../../assets/prints_referencias/verificacao-v2/livro-etica-principios.png" alt="Os quatro princípios éticos (Resolução CNS nº 466/2012) (BARBOSA et al., 2021, pp. 126–127)" width="90%">
   <p><strong>Figura 1</strong> — Princípios Éticos em Pesquisas Envolvendo Pessoas (Autonomia, Beneficência, Não-maleficência e Justiça)</p>
-  <p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 5, p. 139).</em></p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 7.4, pp. 126–127). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 <div align="center">
-  <img src="../../../../assets/prints_referencias/print-teoria-tcle-modelo.png" alt="Print da página 141 do livro de IHC com o Exemplo 5.1 de Termo de Consentimento" width="90%">
+  <img src="../../../../assets/prints_referencias/verificacao-v2/livro-etica-desistencia-vies.png" alt="Direito de desistir do estudo e dados livres de viés (BARBOSA et al., 2021, pp. 128–129)" width="90%">
   <p><strong>Figura 2</strong> — Exemplo de Estrutura do Termo de Consentimento Livre e Esclarecido (TCLE) em IHC</p>
-  <p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 5, p. 141).</em></p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 7.4, pp. 128–129). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 ---
@@ -246,19 +264,53 @@ A Tabela 4 espelha os critérios da Tabela 3 do Plano de Ensino da disciplina (S
 
 ---
 
-## 9. Referências Bibliográficas
+## 9. Fotos de Referência
 
-* ACM. **ACM Code of Ethics and Professional Conduct**. Association for Computing Machinery, New York, 1992.
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. ISBN 978-85-352-1120-7. (Capítulo 5: Identificação de Necessidades dos Usuários e Requisitos de IHC, Seção 5.4: Aspectos Éticos de Pesquisas Envolvendo Pessoas, p. 138–143).
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Planejamento da Avaliação de IHC).
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 196, de 10 de outubro de 1996**. Diretrizes e normas regulamentadoras de pesquisas envolvendo seres humanos. Brasília: Ministério da Saúde, 1996.
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Normas aplicáveis a pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-* DUMAS, Joseph S.; REDISH, Janice C. **A Practical Guide to Usability Testing**. Exeter: Intellect Books, 1999.
-* IEEE. **IEEE Code of Ethics**. Institute of Electrical and Electronics Engineers, Piscataway, NJ, 2006.
-* NIELSEN, Jakob. **Why You Only Need to Test with 5 Users**. Alertbox, 2000. Disponível em: <https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/>.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. São Paulo: Editora Érica, 2005.
-* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
+As Figuras 3 a 6 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 3 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-4" align="center">
+<p><strong>Figura 4</strong> — 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
+</div>
+
+![Figura 4 — 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 248). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-5" align="center">
+<p><strong>Figura 5</strong> — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
+</div>
+
+![Figura 5 — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 251). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-6" align="center">
+<p><strong>Figura 6</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+</div>
+
+![Figura 6 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
-**Autor:** [Lucas Araújo](https://github.com/Lucasaraujoszz)  
-**Revisor:** [Arthur Mariani](https://github.com/arthur-mariani)
+
+## 10. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Planejamento da Avaliação de IHC).
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.

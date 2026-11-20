@@ -1,19 +1,41 @@
-# Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-02)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 02/11/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Alta Fidelidade (TAR-02) via DECIDE, por meio de teste de usabilidade. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para apoio na formatação markdown da página e correções ortográficas. |
 | 15/11/2026 | `1.1` | Alteração do dispositivo do teste de computador para celular (Seções 4.1, 4.2 e 4.4). | [Gabriel Cardone](https://github.com/gabriellcardone-06) | — | Claude (Anthropic) - usado para apoio na edição do texto. |
+| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+
+
+!!! warning "Observação para correção manual"
+    A justificativa do número de participantes citava Steve Krug, que não é referência do livro da disciplina. O trecho foi reescrito com base em Barbosa et al. (2021, pp. 258–259), que citam Nielsen (2000 apud BARBOSA et al., 2021) e Dumas e Redish (1999 apud BARBOSA et al., 2021). O autor deve revisar se a nova redação mantém o sentido pretendido.
+
+
+!!! warning "Observação para correção manual"
+    Faltam as telas e o link do protótipo de alta fidelidade da TAR-02 no Figma. O autor deve exportar as telas do Figma, incluí-las (com título e fonte) numa seção "Telas do Protótipo Avaliado" e adicionar o link de apresentação do protótipo.
 
 ---
+
+# Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-02)
 
 Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-02 (Pré-agendamento no Programa DF Acessível)](../../../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md)**. Trata-se de um planejamento individual desenvolvido para orientar a avaliação do protótipo digital interativo construído no **Figma**, que representa, na versão para celular do site da **SEMOB-DF**, a funcionalidade proposta de pré-agendamento de viagens do Programa DF Acessível.
 
 O protótipo de alta fidelidade dá continuidade ao protótipo de papel avaliado no nível anterior. Conforme o [Relato dos Resultados da Avaliação do Protótipo de Papel](../../../nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md), o fluxo em três etapas foi concluído sem pedidos de ajuda e não exigiu alterações. Por isso, ele foi mantido e agora recebe o acabamento visual definido no [Guia de Estilo](../../../../analise-de-requisitos/guia-de-estilo/introducao.md) do projeto.
 
 O planejamento foi estruturado aplicando o **Framework DECIDE** (Preece et al., 2002 *apud* Barbosa et al., 2021, Seção 11.8), que organiza o estudo em seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar dados).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-02 (Pré-agendamento no Programa DF Acessível):**
+
+* **Persona:** [Larissa Ferreira Lima](../../../../analise-de-requisitos/personas/larissa-ferreira-lima.md)
+* **Cenário:** [Cenário 1](../../../../analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel.md)
+* **Análise de tarefas:** [TAR-02](../../../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md)
+* **Storyboard:** [Storyboard 02](../../../nivel1/storyboards.md#32-storyboard-02-pre-agendamento-no-programa-df-acessivel)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+
 
 ---
 
@@ -73,7 +95,7 @@ Para operacionalizar os objetivos, foram elaboradas perguntas investigativas res
 
 ## 3. C — Choose (Escolher) os Métodos de Avaliação
 
-O método selecionado é o **Teste de Usabilidade** (Barbosa et al., 2021, Seção 12.2.1; Rubin e Chisnell, 2008), enquadrado como um **método de observação de uso (empírico)** com o protótipo interativo do Figma.
+O método selecionado é o **Teste de Usabilidade** (Barbosa et al., 2021, Seção 12.2.1), enquadrado como um **método de observação de uso (empírico)** com o protótipo interativo do Figma.
 
 * **Justificativa:** Com o protótipo de alta fidelidade, a interface já tem aparência e comportamento próximos do produto final. Isso permite medir dados objetivos, como tempo, erros e taxa de sucesso, para cada tarefa e cada participante (Barbosa et al., 2021, p. 289), e compará-los com as metas da Tabela 1. A prototipação em papel, usada no nível anterior, é mais adequada a soluções de baixa e média fidelidade (Barbosa et al., 2021, p. 303).
 * **Técnica Complementar:** Durante as tarefas, o participante será estimulado a **pensar em voz alta** (*think aloud*), verbalizando o que procura, o que espera que aconteça e suas dúvidas. Esses comentários ajudam a identificar a origem dos problemas observados (Barbosa et al., 2021, p. 289).
@@ -102,17 +124,17 @@ As telas seguirão a sequência de diálogo "Pré-agendar viagem no DF Acessíve
 * **Participante:** Interage com o protótipo no celular, tocando na tela como faria no site real.
 
 ### 4.3 Recrutamento e Perfil dos Participantes
-* **Quantidade:** **3 participantes**, seguindo a recomendação de Steve Krug (2000, 2010).
+* **Quantidade:** **3 participantes**, conforme a justificativa da Seção 4.3.1, com base em Barbosa et al. (2021, pp. 258–259).
 * **Perfil Prioritário:** Pessoas com mobilidade reduzida (temporária ou permanente) que usam ou já precisaram de transporte adaptado, representantes da persona [Larissa Ferreira Lima](../../../../analise-de-requisitos/personas/larissa-ferreira-lima.md).
 * **Critério de Exclusão:** O participante do protótipo de papel não será convidado novamente, pois já conhece o fluxo.
 
 #### 4.3.1 Justificativa do Número de Participantes
 
-A literatura de usabilidade não tem consenso sobre quantos participantes um teste deve ter. Diante do **tempo escasso** do cronograma da disciplina, adotou-se a lógica de **Steve Krug** (2000, 2010), que recomenda **3 ou 4 participantes** por rodada de teste. Os motivos são:
+A literatura de usabilidade não tem consenso sobre quantos participantes um teste deve ter. Diante do **tempo escasso** do cronograma da disciplina, adotaram-se **3 participantes**, considerando as orientações de Barbosa et al. (2021, pp. 258–259): o número de participantes deve considerar os perfis, os objetivos e o escopo da avaliação, e o tempo e os recursos disponíveis podem inviabilizar amostras maiores. Os motivos são:
 
 1. **Detecção da maioria dos problemas:** Com três ou quatro participantes, a maioria dos problemas de usabilidade já é detectada. Os problemas mais graves tendem a aparecer logo nos primeiros participantes.
 2. **Análise no mesmo dia:** Um número reduzido de sessões permite que os resultados sejam analisados e consolidados no mesmo dia dos testes, o que é compatível com o prazo da entrega.
-3. **Custo-benefício:** Para Krug, testar um participante já é 100% melhor do que não testar nenhum. É mais útil fazer rodadas pequenas e frequentes do que um único teste grande.
+3. **Custo-benefício:** Nielsen (2000 apud BARBOSA et al., 2021) afirma que bastam cinco usuários para encontrar a maioria dos problemas, com boa relação custo–benefício. É mais útil fazer rodadas pequenas e frequentes do que um único teste grande.
 
 ### 4.4 Infraestrutura e Equipamentos
 * **Local:** Ambiente reservado, tranquilo e acessível (sala na FCTE/UnB ou local de preferência do participante, para não exigir deslocamento de quem tem mobilidade reduzida).
@@ -184,9 +206,49 @@ Os dados serão analisados combinando abordagens quantitativas e qualitativas (B
 
 ---
 
-## 7. Declaração sobre o Uso de IA Generativa
+## 7. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa (Claude, da Anthropic) foram empregadas para auxílio na formatação em markdown e em correções ortográficas.
+As Figuras 1 a 4 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 1 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — Representação de interface em alta fidelidade</p>
+</div>
+
+![Figura 2 — Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 210). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+</div>
+
+![Figura 3 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-4" align="center">
+<p><strong>Figura 4</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+</div>
+
+![Figura 4 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 

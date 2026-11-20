@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Storyboard 01 e da Análise de Tarefas (TAR-01) via DECIDE. | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - usado para formatação markdown da página |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -10,7 +11,20 @@
 
 Neste documento, apresenta-se o **Planejamento da Avaliação do Storyboard e da Análise de Tarefas** referente à **TAR-01 (Alerta Inteligente de Saída de Casa)**. Trata-se de um planejamento individual desenvolvido para orientar a avaliação formativa do **Storyboard 01** e dos modelos de **Análise Hierárquica de Tarefas (HTA)** e **Árvores de Tarefas Concorrentes (CTT)** associados.
 
-O planejamento foi elaborado aplicando o **Framework DECIDE** (Preece et al., 2002; Barbosa et al., 2021), que estrutura as atividades de avaliação em seis etapas interligadas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar dados).
+O planejamento foi elaborado aplicando o **Framework DECIDE** (Barbosa et al., 2021), que estrutura as atividades de avaliação em seis etapas interligadas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar dados).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-01 (Alerta Inteligente de Saída de Casa):**
+
+* **Persona:** [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md)
+* **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md)
+* **Análise de tarefas:** [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md)
+* **Storyboard:** [Storyboard 01](../../storyboards.md#31-storyboard-01-alerta-inteligente-de-saida-de-casa)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/igor/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://www.figma.com/proto/00YEuKWtN4N1rBzpC8V7Gd/prototipo-de-igor?node-id=0-1&t=S9Z2PNsKlHC3LlTt-1)
+
 
 ---
 
@@ -32,7 +46,7 @@ A avaliação formativa dos artefatos busca investigar a qualidade conceitual e 
 
 ## 2. E — Explorar as Perguntas a Serem Respondidas
 
-Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de perguntas específicas orientadas pela literatura de IHC (Sharp et al., 2007; Barbosa et al., 2021).
+Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de perguntas específicas orientadas pela literatura de IHC (Barbosa et al., 2021).
 
 ### 2.1 Tabela de Perguntas: Avaliação do Storyboard 01
 
@@ -134,19 +148,53 @@ Após a realização da entrevista de avaliação, os dados brutos (gravações 
 
 ---
 
-## 7. Declaração sobre o Uso de IA Generativa
+## 7. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas para auxílio na estruturação sintática das tabelas em Markdown e revisão gramatical. A definição dos objetivos, a elaboração das perguntas do roteiro, a logística de execução e a revisão final permanecem sob total responsabilidade autoral do integrante Igor Dantas Araújo.
+As Figuras 1 a 4 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 1 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
+</div>
+
+![Figura 2 — 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 248). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
+</div>
+
+![Figura 3 — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 251). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-4" align="center">
+<p><strong>Figura 4</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+</div>
+
+![Figura 4 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
 ## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Planejamento da Avaliação de IHC, p. 245–266; Capítulo 12: Métodos de Avaliação de IHC, p. 267–308).
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Regulamenta as pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. São Paulo: Editora Érica, 2005.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-
----
-**Autor:** [Igor Dantas Araújo](https://github.com/IgorDARAUJO)  
-**Revisor:** [Gabriel Cardone](https://github.com/gabriellcardone-06)

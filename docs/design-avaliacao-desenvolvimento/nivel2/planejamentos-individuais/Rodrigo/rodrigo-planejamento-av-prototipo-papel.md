@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 27/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Papel (TAR-08) via DECIDE para teste presencial. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - estruturação em Markdown e apoio na formatação textual |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -12,13 +13,26 @@ Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de P
 
 O protótipo de papel dá continuidade direta aos achados da avaliação do [Storyboard 06](../../../nivel1/storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob) e dos modelos de tarefas da TAR-08 ([HTA e GOMS](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)), sintetizados no [Relato dos Resultados do Nível 1](../../../nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md). Naquela etapa, evidenciou-se que o usuário enfrenta forte atrito cognitivo decorrente do redirecionamento para o sistema Participa-DF com exigência de novo cadastro (problema PROB-01, severidade 3) e da cobrança do número da carcaça/ordem do veículo quando o ônibus passa direto pela parada (problema PROB-02, severidade 2).
 
-A avaliação será conduzida de forma empírica presencial, envolvendo a simulação de uso por um participante alinhado à persona [Cláudia Regina Santos](../../../../analise-de-requisitos/personas/claudia-regina-santos.md). O planejamento foi estruturado aplicando o **Framework DECIDE** (Preece et al., 2002; Barbosa et al., 2021), organizado em seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar dados).
+A avaliação será conduzida de forma empírica presencial, envolvendo a simulação de uso por um participante alinhado à persona [Cláudia Regina Santos](../../../../analise-de-requisitos/personas/claudia-regina-santos.md). O planejamento foi estruturado aplicando o **Framework DECIDE** (Barbosa et al., 2021), organizado em seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar dados).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-08 (Reclamação sobre Ônibus):**
+
+* **Persona:** [Cláudia Regina Santos](../../../../analise-de-requisitos/personas/claudia-regina-santos.md)
+* **Cenário:** [Cenário 11](../../../../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
+* **Análise de tarefas:** [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
+* **Storyboard:** [Storyboard 06](../../../nivel1/storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** telas no planejamento da avaliação (*nesta página*)
+* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+
 
 ---
 
 ## 1. D — Determinar os Objetivos da Avaliação
 
-Segundo Barbosa et al. (2021, Cap. 12, Seção 12.2.3, p. 303) e Snyder (2003), a prototipação em papel é um método de observação de uso voltado à avaliação formativa, propício para investigar e validar o modelo conceitual, a organização dos fluxos de interação e a comunicabilidade das alternativas de design antes do desenvolvimento de protótipos de alta fidelidade ou código executável.
+Segundo Barbosa et al. (2021, Cap. 12, Seção 12.2.3, p. 303) e Snyder (2003 apud BARBOSA et al., 2021), a prototipação em papel é um método de observação de uso voltado à avaliação formativa, propício para investigar e validar o modelo conceitual, a organização dos fluxos de interação e a comunicabilidade das alternativas de design antes do desenvolvimento de protótipos de alta fidelidade ou código executável.
 
 ### 1.1 Objetivos Principais
 
@@ -32,7 +46,7 @@ Segundo Barbosa et al. (2021, Cap. 12, Seção 12.2.3, p. 303) e Snyder (2003), 
 
 ## 2. E — Explorar as Perguntas a Serem Respondidas
 
-Para operacionalizar os objetivos definidos, formulou-se um conjunto de perguntas investigativas a serem respondidas por meio da observação do manuseio do protótipo em papel e da inquirição pós-teste (Barbosa et al., 2021; Rubin, 1994):
+Para operacionalizar os objetivos definidos, formulou-se um conjunto de perguntas investigativas a serem respondidas por meio da observação do manuseio do protótipo em papel e da inquirição pós-teste (Barbosa et al., 2021):
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Roteiro de Perguntas Investigativas da Avaliação (DECIDE)</p>
@@ -54,10 +68,10 @@ Para operacionalizar os objetivos definidos, formulou-se um conjunto de pergunta
 
 ## 3. C — Choose (Escolher) os Métodos de Avaliação
 
-O método escolhido é a **Prototipação em Papel (Snyder, 2003; Barbosa et al., 2021, Seção 12.2.3)**, caracterizado como um **Método de Observação de Uso Empírico** realizado em ambiente controlado presencial.
+O método escolhido é a **Prototipação em Papel (Barbosa et al., 2021, Seção 12.2.3)**, caracterizado como um **Método de Observação de Uso Empírico** realizado em ambiente controlado presencial.
 
 * **Justificativa da Escolha:** A prototipação em papel é ágil, de baixo custo e oferece alta flexibilidade para avaliar a estrutura da tarefa e a arquitetura da informação antes de qualquer investimento em código ou componentes digitais acabados. Permite que o participante manipule peças físicas e cartões, revelando rapidamente incompreensões de terminologia, barreiras no preenchimento de campos e incoerências na ordem das ações.
-* **Técnica Complementar:** Durante a realização do teste, empregar-se-á a técnica de **Pensar em Voz Alta (*Think Aloud*)** (Lewis, 1982; Nielsen, 1993), estimulando o participante a verbalizar suas dúvidas, intenções e interpretações a cada toque simulado no papel.
+* **Técnica Complementar:** Durante a realização do teste, empregar-se-á a técnica de **Pensar em Voz Alta (*Think Aloud*)** (Barbosa et al., 2021), estimulando o participante a verbalizar suas dúvidas, intenções e interpretações a cada toque simulado no papel.
 
 ---
 
@@ -76,7 +90,7 @@ O protótipo será construído artesanalmente com folhas de papel sulfite, carto
 ---
 
 ### 4.2 Definição dos Papéis da Equipe na Sessão Presencial
-Conforme as recomendações de Snyder (2003) e Barbosa et al. (2021, p. 304), a sessão contará com divisão estrita de responsabilidades:
+Conforme as recomendações de Snyder (2003 apud BARBOSA et al., 2021) e Barbosa et al. (2021, p. 304), a sessão contará com divisão estrita de responsabilidades:
 
 * **Participante (Usuário):** Interage diretamente com o protótipo em papel, simulando cliques e toques com o dedo e verbalizando seus pensamentos (*Think Aloud*).
 * **Avaliador "Computador" ([Rodrigo Barbosa](https://github.com/RodrigoCBarbosa)):** Responsável exclusivo por operar os papéis sobre a mesa — trocar as folhas base, sobrepor *post-its* e apresentar as mensagens do sistema estritamente em reação às escolhas do participante. O "computador" atua de forma neutra, sem dar instruções sobre como usar a interface.
@@ -120,7 +134,7 @@ Conforme as recomendações de Snyder (2003) e Barbosa et al. (2021, p. 304), a 
 
 ### 4.6 Planejamento do Teste-Piloto
 
-Em cumprimento rigoroso ao **Item 11 do checklist do Plano de Ensino** e à literatura de IHC (Barbosa et al., 2021, p. 260, 304), será conduzido um **teste-piloto** previamente à sessão oficial com o participante recrutado:
+Em cumprimento rigoroso ao **Item 11 do checklist do Plano de Ensino** e à literatura de IHC (Barbosa et al., 2021, pp. 260, 304), será conduzido um **teste-piloto** previamente à sessão oficial com o participante recrutado:
 
 * **Objetivo do Piloto:** Avaliar a clareza das instruções do cenário, calibrar o tempo de troca das folhas e peças pelo "avaliador computador", testar a ergonomia da mesa e o ângulo do celular na gravação.
 * **Data e Execução do Piloto:** Realizado presencialmente em **28/10/2026 às 15:30**, com um membro do Grupo 05 atuando como participante simulado.
@@ -143,7 +157,7 @@ A condução do teste presencial atende integralmente às Resoluções nº 466/2
 A análise dos dados será de natureza primordialmente qualitativa e interpretativa (Barbosa et al., 2021, Seção 12.2.3):
 
 1. **Triangulação de Observações:** Confrontar as verbalizações obtidas pelo *Think Aloud*, as anotações do observador e as reações físicas registradas no vídeo.
-2. **Classificação de Severidade dos Problemas:** Todos os problemas de usabilidade detectados serão catalogados e classificados de acordo com a escala de severidade de Nielsen (1994):
+2. **Classificação de Severidade dos Problemas:** Todos os problemas de usabilidade detectados serão catalogados e classificados de acordo com a escala de severidade de Nielsen (1994 apud BARBOSA et al., 2021):
    * **0 — Sem importância:** Comentário cosmético que não interfere no preenchimento da reclamação.
    * **1 — Leve:** Pequena dúvida de leitura resolvida espontaneamente pelo próprio usuário.
    * **2 — Moderado:** Hesitação relevante ao preencher um campo ou escolher um cartão, sem interrupção do fluxo.
@@ -160,25 +174,99 @@ Conforme as diretrizes pedagógicas da disciplina, a fundamentação teórica ad
 * **Obra:** BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021.
 * **Localização Exata:** **Parte IV, Capítulo 11 — Planejamento da Avaliação de IHC, Seção 11.8 (*O Framework DECIDE*), páginas 264–265**; e **Capítulo 12 — Métodos de Avaliação de IHC, Seção 12.2.3 (*Prototipação em Papel*), páginas 303–306**.
 
+
+## 8. Telas do Protótipo Avaliado
+
+As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md).
+
+<div id="figura-1" align="center" markdown="1">
+<p><strong>Figura 1</strong> — Tela 1 do Protótipo de Papel: Checklist inicial e opção "Não sei o número do ônibus"</p>
+
+![Tela 1 do Protótipo de Papel: Checklist inicial e opção 'Não sei o número do ônibus'](../../../../assets/images/prototipo-papel-rodrigo-1-checklist.jpg){ width="600" }
+
+<p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center" markdown="1">
+<p><strong>Figura 2</strong> — Tela 2 do Protótipo de Papel: Escolha guiada do problema (Ônibus / Linha)</p>
+
+![Tela 2 do Protótipo de Papel: Escolha guiada do problema (Ônibus / Linha)](../../../../assets/images/prototipo-papel-rodrigo-2-problema.jpg){ width="600" }
+
+<p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center" markdown="1">
+<p><strong>Figura 3</strong> — Tela 3 do Protótipo de Papel: Preenchimento dos dados da ocorrência (com opção de anonimato)</p>
+
+![Tela 3 do Protótipo de Papel: Preenchimento dos dados da ocorrência (com opção de anonimato)](../../../../assets/images/prototipo-papel-rodrigo-3-dados.jpg){ width="600" }
+
+<p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
+</div>
+
+<div id="figura-4" align="center" markdown="1">
+<p><strong>Figura 4</strong> — Tela 4 do Protótipo de Papel: Resumo gerado para cópia e aviso prévio de redirecionamento</p>
+
+![Tela 4 do Protótipo de Papel: Resumo gerado para cópia e aviso prévio de redirecionamento](../../../../assets/images/prototipo-papel-rodrigo-4-resumo.jpg){ width="600" }
+
+<p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
+</div>
+
+<div id="figura-5" align="center" markdown="1">
+<p><strong>Figura 5</strong> — Tela 5 do Protótipo de Papel: Colagem do resumo no Participa-DF, geração do protocolo e envio por e-mail</p>
+
+![Tela 5 do Protótipo de Papel: Colagem do resumo no Participa-DF, geração do protocolo e envio por e-mail](../../../../assets/images/prototipo-papel-rodrigo-5-protocolo.jpg){ width="600" }
+
+<p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
+</div>
+
+---
 ---
 
-## 8. Declaração sobre o Uso de IA Generativa
+## 9. Fotos de Referência
+As Figuras 6 a 9 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
-Em conformidade com as orientações do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas unicamente para apoio na formatação sintática das tabelas em Markdown e revisão gramatical do texto. A concepção dos cenários, a definição dos objetivos com base na TAR-08 e a estruturação das perguntas investigativas são de responsabilidade autoral de Rodrigo Barbosa.
+<div id="figura-6" align="center">
+<p><strong>Figura 6</strong> — 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 6 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-7" align="center">
+<p><strong>Figura 7</strong> — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
+</div>
+
+![Figura 7 — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 303). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-8" align="center">
+<p><strong>Figura 8</strong> — Tabela 12.9 – Atividades do método de prototipação em papel</p>
+</div>
+
+![Figura 8 — Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-9" align="center">
+<p><strong>Figura 9</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+</div>
+
+![Figura 9 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
-## 9. Referências Bibliográficas
-
+## 10. Referências Bibliográficas
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Diretrizes éticas para pesquisas em Ciências Humanas e Sociais. Brasília: CNS, 2016.
-* LEWIS, Clayton. **Using the 'Thinking Aloud' Method in Cognitive Interface Design**. IBM Research Report RC 9265, 1982.
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1993.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da Interação Homem-Computador**. São Paulo: Editora Érica, 2005.
-* RUBIN, Jeffrey. **Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests**. New York: John Wiley & Sons, 1994.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-* SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann Publishers, 2003.
-
----
-**Autor:** [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa)  
-**Revisor:** [Carlos Costa](https://github.com/carloshfgit)

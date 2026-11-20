@@ -1,3 +1,12 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/10/2026 | `1.0` | Elaboração da ata da Reunião 04, realizada em 29/09/2026, com os resultados da inspeção do Grupo 03 e da autoinspeção do Grupo 05. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Rodrigo Carvalho Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+---
+
 # Ata de reunião 4 (Inspeção) - Interação Humano-Computador - Grupo 05
 
 - **Data:** 29/09/2026 (Terça-feira)
@@ -6,14 +15,6 @@
 - **Objetivo da Reunião:** Inspeção dos artefatos do Grupo −1 (Grupo 03) e autoinspeção dos artefatos do Grupo 05, com base na lista de verificação da Entrega 2 do Plano de Ensino (SALES, 2026, pp. 9–11).
 - **Redator da Ata:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)
 - **Ausentes:** Nenhum.
-
-## Histórico de Versão e Contribuição
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
-| :---: | :---: | :--- | :--- | :--- | :---: |
-| 05/10/2026 | `1.0` | Elaboração da ata da Reunião 04, realizada em 29/09/2026, com os resultados da inspeção do Grupo 03 e da autoinspeção do Grupo 05. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Rodrigo Carvalho Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini |
-
----
 
 ## 1. Participantes presentes:
 
@@ -121,10 +122,35 @@ As gravações das reuniões de inspeção da Entrega 2 estão disponíveis nos 
 
 A data e o horário da próxima reunião não constam nos registros fornecidos.
 
-## 6. Declaração sobre o Uso de IA Generativa
+---
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. As informações sobre a reunião e os resultados das inspeções foram fornecidos pela equipe. Toda a fundamentação, o levantamento empírico de dados, as análises críticas e os resultados das inspeções permaneceram sob responsabilidade exclusiva dos integrantes do Grupo 05.
+## 6. Fotos de Referência
+
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
+</div>
+
+![Figura 2 — Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 267–288). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
 
 ## 7. Referências Bibliográficas
 
-- SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Versão 1. Universidade de Brasília, Campus UnB Gama, 2º semestre de 2026. Lista de Verificação da Entrega 2, pp. 9–11; critérios gerais de desenvolvimento, pp. 8–9. Disponível no projeto: [Plano de Ensino da disciplina](../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Versão 1. Universidade de Brasília, Campus UnB Gama, 2º semestre de 2026. Lista de Verificação da Entrega 2, pp. 9–11; critérios gerais de desenvolvimento, pp. 8–9. Disponível no projeto: [Plano de Ensino da disciplina](../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

@@ -1,14 +1,19 @@
-# Apresentações
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 06/09/2026 | 1.0 | Criação da página e estruturação das etapas de apresentações com base no cronograma planejado. | Carlos Henrique | Arthur Mariani |
-| 06/09/2026 | 1.1 | Adição do link e vídeo da gravação da Apresentação da Entrega 1. | Carlos Henrique | Arthur Mariani |
-| 06/10/2026 | 1.2 | Adição do link e vídeo da gravação da Apresentação da Entrega 3. | Carlos Henrique | Arthur Mariani |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 06/09/2026 | `1.0` | Criação da página e estruturação das etapas de apresentações com base no cronograma planejado. | [Carlos Henrique](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 06/09/2026 | `1.1` | Adição do link e vídeo da gravação da Apresentação da Entrega 1. | [Carlos Henrique](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 06/10/2026 | `1.2` | Adição do link e vídeo da gravação da Apresentação da Entrega 3. | [Carlos Henrique](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 19/11/2026 | `1.3` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+
+!!! warning "Observação para correção manual"
+    Faltam os links das gravações das Apresentações 4 a 8 e da Apresentação Final. A Apresentação 4 consta como gravada em 13/10/2026, mas o link não foi publicado. Quando os vídeos estiverem no YouTube, preencher a Tabela 1 e as Seções 3.4 a 3.9 com o link e o vídeo embarcado, no mesmo formato das Seções 3.1 a 3.3.
 
 ---
+
+# Apresentações
 
 ## 1. Introdução
 
@@ -115,10 +120,23 @@ Na Tabela 1, é apresentada a visão geral de todas as apresentações planejada
 
 ---
 
-## 4. Declaração sobre o Uso de IA Generativa
+## 4. Fotos de Referência
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+A Figura 1 mostra o trecho que fundamenta este artefato, recortado e grifado em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
 
-## 5. Bibliografia de Apoio
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
 
--   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 5. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

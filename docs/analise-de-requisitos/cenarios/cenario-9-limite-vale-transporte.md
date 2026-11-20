@@ -1,17 +1,34 @@
-# Cenário 9: Cartão de Vale-Transporte recusado no meio do expediente e pedido de aumento do limite diário
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração detalhada do Cenário 9 (Heitor Santos Júnior). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-| 23/10/2026 | 2.0 | Reescrita do Cenário 9 para a nova tarefa da persona Heitor ([TAR-09](../analise-de-tarefas/tar-09-limite-vale-transporte.md), aumento do limite diário do Vale-Transporte), substituindo a versão sobre rota para endereço novo e desvio de itinerário. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 27/09/2026 | `1.0` | Elaboração detalhada do Cenário 9 (Heitor Santos Júnior). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
+| 23/10/2026 | `2.0` | Reescrita do Cenário 9 para a nova tarefa da persona Heitor ([TAR-09](../analise-de-tarefas/tar-09-limite-vale-transporte.md), aumento do limite diário do Vale-Transporte), substituindo a versão sobre rota para endereço novo e desvio de itinerário. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
+| 19/11/2026 | `2.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
 
 ---
+
+# Cenário 9: Cartão de Vale-Transporte recusado no meio do expediente e pedido de aumento do limite diário
 
 ## 1. Introdução
 
 Este cenário de problema acompanha Heitor Santos Júnior em um dia de muitos chamados de manutenção, em que o cartão de Vale-Transporte é recusado na volta para casa porque ele passou do limite de 8 acessos por dia. A partir daí, Heitor tenta descobrir o que aconteceu e pedir mais acessos pelo site da Semob. A situação evidencia a falta de explicação no momento da recusa, um serviço escondido no site, um link de formulário que não leva ao formulário e uma entrega que só pode ser presencial. Os problemas encontrados alimentam a [TAR-09](../analise-de-tarefas/tar-09-limite-vale-transporte.md).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-09 (Pedido de Aumento do Limite Diário do Vale-Transporte):**
+
+* **Persona:** [Heitor Santos Júnior](../personas/heitor-santos-junior.md)
+* **Cenário:** Cenário 9 (*esta página*)
+* **Análise de tarefas:** [TAR-09](../analise-de-tarefas/tar-09-limite-vale-transporte.md)
+* **Storyboard:** [Storyboard 05](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../prototipos/tar-09/index.html)
+
 
 ## 2. Caracterização Geral
 
@@ -168,8 +185,32 @@ A Tabela 3 relaciona os problemas do cenário aos momentos em que aparecem e aos
 
 ---
 
-## 8. Referências Bibliográficas
+## 8. Fotos de Referência
+
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Cenários: definição, ator e objetivo principais</p>
+</div>
+
+![Figura 1 — Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — Elementos característicos de um cenário e uso de personas como atores</p>
+</div>
+
+![Figura 2 — Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 9. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* ROSSON, Mary Beth; CARROLL, John M. **Usability Engineering: Scenario-Based Development of Human-Computer Interaction**. San Francisco: Morgan Kaufmann, 2002.
-* SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE DO DISTRITO FEDERAL (Semob-DF). **Limites do Vale-Transporte**. Disponível em: <https://www.semob.df.gov.br/servicos/limites-do-vale-transporte>. Acesso em: 23 out. 2026.

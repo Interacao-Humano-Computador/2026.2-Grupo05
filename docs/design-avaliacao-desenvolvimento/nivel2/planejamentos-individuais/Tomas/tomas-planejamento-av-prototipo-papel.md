@@ -1,8 +1,13 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 29/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Papel da TAR-09 (Pedido de aumento do limite diário do Vale-Transporte) via DECIDE. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+
+
+!!! warning "Observação para correção manual"
+    Faltam as fotos das telas do protótipo de papel da TAR-09. O autor deve incluir as fotos (com título e fonte) numa seção "Telas do Protótipo Avaliado", antes das Fotos de Referência, como nos demais artefatos do nível 2.
 
 ---
 
@@ -10,7 +15,20 @@
 
 Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Papel** referente à **[TAR-09 (Solicitar Aumento do Limite Diário de Uso do Vale-Transporte)](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)**. O protótipo representa, em papel, a solução proposta na seção 5 da TAR-09 e mostrada no [Storyboard 05](../../../nivel1/storyboards.md): um acesso direto **"Meu Vale-Transporte foi recusado"** no site da SEMOB-DF, que explica a recusa do cartão, recebe o pedido de mais acessos pelo celular, gera um protocolo e avisa quando o novo limite está valendo.
 
-A avaliação será presencial, com um participante que represente a persona [Heitor Santos Júnior](../../../../analise-de-requisitos/personas/heitor-santos-junior.md) simulando o uso do site no celular. O planejamento segue o **Framework DECIDE** (Preece, Rogers e Sharp, 2005; Barbosa et al., 2021), em seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar os dados).
+A avaliação será presencial, com um participante que represente a persona [Heitor Santos Júnior](../../../../analise-de-requisitos/personas/heitor-santos-junior.md) simulando o uso do site no celular. O planejamento segue o **Framework DECIDE** (Barbosa et al., 2021), em seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar os dados).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-09 (Pedido de Aumento do Limite Diário do Vale-Transporte):**
+
+* **Persona:** [Heitor Santos Júnior](../../../../analise-de-requisitos/personas/heitor-santos-junior.md)
+* **Cenário:** [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
+* **Análise de tarefas:** [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
+* **Storyboard:** [Storyboard 05](../../../nivel1/storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** telas no planejamento da avaliação (*nesta página*)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-09/index.html)
+
 
 ---
 
@@ -53,7 +71,7 @@ As perguntas abaixo orientam a observação durante a simulação e a conversa l
 
 ## 3. C — Choose (Escolher) os Métodos de Avaliação
 
-O método escolhido é a **Prototipação em Papel** (Snyder, 2003; Barbosa et al., 2021, Seção 12.2.3), um **método de observação de uso** em que o participante executa tarefas reais tocando em telas desenhadas à mão, enquanto um avaliador faz o papel do "computador" e troca as folhas conforme as ações dele.
+O método escolhido é a **Prototipação em Papel** (Barbosa et al., 2021, Seção 12.2.3), um **método de observação de uso** em que o participante executa tarefas reais tocando em telas desenhadas à mão, enquanto um avaliador faz o papel do "computador" e troca as folhas conforme as ações dele.
 
 * **Justificativa:** a TAR-09 envolve várias telas em sequência, uma mensagem de erro e um aviso que chega dias depois. O papel permite simular todo esse fluxo em poucos minutos, sem programar nada, e corrigir uma tela durante a própria sessão se algo não for entendido.
 * **Técnica complementar:** o participante será convidado a **pensar em voz alta** (*think aloud*), falando o que procura, o que espera que aconteça e o que entendeu de cada tela.
@@ -168,7 +186,7 @@ Os dados da sessão serão analisados de forma **qualitativa**, com apoio de alg
 1. **Dados coletados:** para cada tarefa, conclusão (sem ajuda, com ajuda ou não concluída), tempo, número de erros e de pedidos de ajuda, e as falas do *think aloud*.
 2. **Revisão da gravação:** o observador revisa o vídeo e marca os momentos de hesitação, toque em lugar errado, leitura em voz alta de algo mal entendido e comentários espontâneos.
 3. **Confronto com o modelo:** cada dificuldade é ligada ao objetivo correspondente do [HTA e do CTT da TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md), para saber se o problema está na tela ou no próprio fluxo proposto.
-4. **Classificação dos problemas:** cada problema recebe um nível de severidade de 0 a 4 (Nielsen, 1994).
+4. **Classificação dos problemas:** cada problema recebe um nível de severidade de 0 a 4 (Barbosa et al., 2021).
 5. **Reprojeto rápido:** problemas simples, como um texto confuso, podem ser corrigidos no próprio papel durante a sessão ou no intervalo entre tarefas.
 6. **Apresentação:** os resultados são organizados conforme o [Planejamento do Relato dos Resultados do Protótipo de Papel](tomas-planejamento-relato-prot-papel.md).
 
@@ -191,22 +209,53 @@ Antes da sessão definitiva, será feito um **teste piloto** no dia 30/10/2026, 
 
 ---
 
-## 9. Declaração sobre o Uso de IA Generativa
+## 9. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que o Claude (Anthropic) foi usado para auxiliar na estruturação do texto e na formatação das tabelas em Markdown. A definição dos objetivos, das telas do protótipo, das tarefas, dos papéis e da logística da sessão, e a revisão final, são de responsabilidade do integrante Tomás Rocho.
+As Figuras 1 a 4 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 1 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
+</div>
+
+![Figura 2 — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 303). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Tabela 12.9 – Atividades do método de prototipação em papel</p>
+</div>
+
+![Figura 3 — Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-4" align="center">
+<p><strong>Figura 4</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+</div>
+
+![Figura 4 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
 ## 10. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11, p. 245–266; Capítulo 12, Seção 12.2.3, p. 303–306).
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 466, de 12 de dezembro de 2012**. Aprova diretrizes e normas regulamentadoras de pesquisas envolvendo seres humanos. Brasília: Diário Oficial da União, 2013.
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Regulamenta as pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. Porto Alegre: Bookman, 2005.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.
-* SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann, 2003.
-
----
-**Autor:** [Tomás Rocho](https://github.com/TomasRocho)  
-**Revisor:** [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)

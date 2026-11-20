@@ -1,23 +1,35 @@
-# Análise de Tarefas em IHC: HTA e CTT — Motoristas do STPC/DF (Contexto SEMOB-DF)
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Concepção e modelagem da Análise de Tarefas utilizando Análise Hierárquica de Tarefas (HTA) e Árvores de Tarefas Concorrentes (CTT), fundamentada na pesquisa de campo com o motorista (`MOT-01`), na persona Valdir Soares e na literatura clássica de IHC (Barbosa e Silva, 2010; Annett e Duncan, 1967; Reason, 1990; Paternò, 2000). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 27/09/2026 | 1.1 | Integração formal ao repositório MkDocs com padronização de diagramas Mermaid, tuplas operacionais HTA, operadores temporais CTT e rastreabilidade bidirecional com personas e cenários. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 26/09/2026 | `1.0` | Concepção e modelagem da Análise de Tarefas utilizando Análise Hierárquica de Tarefas (HTA) e Árvores de Tarefas Concorrentes (CTT), fundamentada na pesquisa de campo com o motorista (`MOT-01`), na persona Valdir Soares e na literatura clássica de IHC (Barbosa e Silva, 2010; Annett e Duncan, 1967; Reason, 1990; Paternò, 2000). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
+| 27/09/2026 | `1.1` | Integração formal ao repositório MkDocs com padronização de diagramas Mermaid, tuplas operacionais HTA, operadores temporais CTT e rastreabilidade bidirecional com personas e cenários. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
+| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Redesenho dos diagramas HTA/CTT na notação do livro da disciplina (BARBOSA et al., 2021, pp. 165–174). Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio no redesenho dos diagramas na notação do livro.; apoio na inclusão dos links entre artefatos |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+
+
+!!! warning "Observação para correção manual"
+    Os identificadores das tarefas desta página foram trocados de TAR-03/TAR-04 para TAR-04/TAR-05, como no quadro consolidado da [Análise de Tarefas](index.md) e no Storyboard 04, porque TAR-03 já identifica a tarefa de planejamento de rota. Os diagramas HTA e CTT (Figuras 1 a 4) foram redesenhados na notação do livro a partir dos diagramas originais, sem mudar a estrutura; os rótulos seguem os nomes das tabelas descritivas (HTA) e da notação textual (CTT). Os diagramas em texto (ASCII) e em Mermaid foram retirados por não seguirem a notação do livro. O autor deve conferir se o plano “1>(2/3)” do objetivo 3 da TAR-04 e “1>2>(3/4)” do objetivo 0 da TAR-05 representam bem o que pretendia.
+
+
+!!! warning "Observação para correção manual"
+    O fluxo da funcionalidade do motorista (TAR-04/TAR-05) não tem avaliação de Nível 1, protótipo de papel nem protótipo de alta fidelidade (o Storyboard 08/TAR-06 substituiu esta avaliação). Além disso, a funcionalidade tem duas tarefas e quatro cenários (5 a 8), e o fluxo pedido é de 1 persona, 1 cenário e 1 análise de tarefa por funcionalidade. A equipe deve decidir se mantém este fluxo como incompleto ou o completa.
 
 ---
 
+# Análise de Tarefas em IHC: HTA e CTT — Motoristas do STPC/DF (Contexto SEMOB-DF)
+
 ## 1. Introdução e Fundamentação Metodológica
 
-A **Análise de Tarefas** é uma das atividades basilares da disciplina de **Interação Humano-Computador (IHC)** e da Engenharia de Requisitos. Seu propósito fundamental é investigar, estruturar e explicitar como as pessoas realizam seu trabalho cotidiano para atingir seus objetivos, analisando o papel mediador exercido ou a ser exercido pelos sistemas computacionais (Barbosa e Silva, 2010, pp. 191–192).
+A **Análise de Tarefas** é uma das atividades basilares da disciplina de **Interação Humano-Computador (IHC)** e da Engenharia de Requisitos. Seu propósito fundamental é investigar, estruturar e explicitar como as pessoas realizam seu trabalho cotidiano para atingir seus objetivos, analisando o papel mediador exercido ou a ser exercido pelos sistemas computacionais (Barbosa et al., 2021).
 
 O presente documento apresenta a modelagem de tarefas centrada no trabalho dos motoristas de transporte público coletivo do Distrito Federal (STPC/DF), contextualizada na relação operacional com a **Secretaria de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)**. A análise tem como protagonista o perfil empírico levantado junto ao participante **`MOT-01`** ([Perfil de Usuário: Motoristas de Ônibus](../perfis-de-usuario/perfil-motorista.md)), consubstanciado na persona **[Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md)** e nos [Cenários de Uso](../cenarios/index.md).
 
 ```
                     PARADIGMA DA ANÁLISE DE TAREFAS EM IHC
-         (Barbosa e Silva, 2010, pp. 191–192; Annett e Duncan, 1967; Paternò, 2000)
+                (Barbosa et al., 2021, pp. 164–175)                 
 +---------------------------------------------------------------------------------------+
 | 1. Centralidade nos Objetivos | Foco nos estados finais desejados pelas pessoas sob   |
 |                               | uma perspectiva psicológica e operacional concreta.   |
@@ -28,20 +40,33 @@ O presente documento apresenta a modelagem de tarefas centrada no trabalho dos m
 +---------------------------------------------------------------------------------------+
 ```
 
-### 1.1 Definição de Objetivos a partir das Pessoas (Barbosa e Silva, 2010, pp. 191–192)
-Conforme enfatizam Barbosa e Silva (2010, p. 191), a análise de tarefas deve iniciar pela coleta e formulação dos **objetivos das pessoas**, definidos em termos psicológicos como os estados finais concretos e observáveis que o usuário busca alcançar no mundo real. Metas puramente organizacionais ou financeiras (como "maximizar a fiscalização do órgão" ou "aumentar a arrecadação da concessionária") não constituem o objeto central da análise de tarefas.
+### 1.1 Definição de Objetivos a partir das Pessoas (Barbosa et al., 2021)
+Conforme enfatizam Barbosa et al. (2021), a análise de tarefas deve iniciar pela coleta e formulação dos **objetivos das pessoas**, definidos em termos psicológicos como os estados finais concretos e observáveis que o usuário busca alcançar no mundo real. Metas puramente organizacionais ou financeiras (como "maximizar a fiscalização do órgão" ou "aumentar a arrecadação da concessionária") não constituem o objeto central da análise de tarefas.
 
 Para o motorista Valdir Soares, o objetivo primário não é "clicar em botões em uma tela", mas sim:
 1. **Obter previsibilidade temporal e operacional** da sua jornada de direção ("mais os horários mesmo");
 2. **Prevenir atritos interpessoais e desgastes com passageiros** na catraca decorrentes de desinformação pública;
 3. **Executar a viagem com segurança viária e regularidade**, sem incorrer em advertências ou multas da SEMOB.
 
-### 1.2 Finalidade e Nível de Abstração no Ciclo de Design (Barbosa e Silva, 2010, p. 191)
+### 1.2 Finalidade e Nível de Abstração no Ciclo de Design (Barbosa et al., 2021)
 Em IHC, a análise de tarefas pode ser empregada em três atividades fundamentais: (1) análise da situação atual de trabalho; (2) (re)design de um sistema computacional; e (3) avaliação de uma intervenção ou novo sistema.
 
 Este artefato atua de maneira articulada em dois níveis de abstração correspondentes:
 - **Análise da Situação Atual:** Mapeia a rotina concreta de trabalho de Seu Valdir (consulta a informativos impressos em folhas de papel no balcão da garagem, uso de WhatsApp e aplicativo da empresa concessionária), identificando pontos de vulnerabilidade crítica onde a ausência de sincronia entre o portal web da SEMOB e a garagem gera sobrecarga cognitiva e conflitos físicos.
 - **(Re)Design do Sistema de Interação:** Modela a solução de IHC em nível conceitual e operacional para um **Canal Móvel de Informações Operacionais da SEMOB (Módulo do Operador)**, definindo como o diálogo homem–máquina deve ocorrer em smartphones sob redes móveis para apoiar com fluidez os objetivos do trabalhador.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-04/TAR-05 (Consulta de Escala e Alertas Operacionais (motorista)):**
+
+* **Persona:** [Valdir Soares](../personas/valdir-soares.md)
+* **Cenário:** [Cenário 5](../cenarios/cenario-5-consulta-escala.md); [Cenário 6](../cenarios/cenario-6-alerta-desvio.md); [Cenário 7](../cenarios/cenario-7-duvida-passageiro.md); [Cenário 8](../cenarios/cenario-8-conflito-catraca.md)
+* **Análise de tarefas:** TAR-04/TAR-05 (*esta página*)
+* **Storyboard:** [Storyboard 04](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#34-storyboard-04-consulta-de-escala-e-alertas-operacionais)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Nível 3 — protótipo de alta fidelidade:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Telas do protótipo de papel:** *não disponível — pendente de correção manual*
+* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+
 
 ---
 
@@ -49,108 +74,54 @@ Este artefato atua de maneira articulada em dois níveis de abstração correspo
 
 A partir das dores e necessidades levantadas na pesquisa empírica, foram selecionadas duas tarefas críticas da jornada de trabalho do motorista para a análise formal:
 
-1. **TAR-03: Consultar Escala de Trabalho e Horários Homologados da Linha**  
+1. **TAR-04: Consultar Escala de Trabalho e Horários Homologados da Linha**  
    *Contexto:* Realizada no início de cada turno de trabalho na garagem da concessionária (Setor de Garagens Oficiais - SGO), fora da condução do veículo. Envolve a identificação da tabela de saída/retorno, itinerário escalado e checagem de sincronia com a SEMOB (correspondente ao [Cenário 5 — Consulta ágil da escala diária](../cenarios/cenario-5-consulta-escala.md)).
-2. **TAR-04: Receber e Processar Alerta Operacional Emergencial de Trânsito / Faixa Exclusiva**  
+2. **TAR-05: Receber e Processar Alerta Operacional Emergencial de Trânsito / Faixa Exclusiva**  
    *Contexto:* Realizada antes da partida ou durante pausas em terminais rodoviários em momentos de intercorrência viária (bloqueios, desvios ou liberação de faixas exclusivas), exigindo assimilação rápida de rotas alternativas sem risco de autuação nos radares de trânsito (correspondente ao [Cenário 6 — Alerta emergencial de desvio](../cenarios/cenario-6-alerta-desvio.md)).
 
 ---
 
 ## 3. Parte I: Análise Hierárquica de Tarefas (HTA)
 
-A **Análise Hierárquica de Tarefas (HTA – *Hierarchical Task Analysis*)**, desenvolvida originalmente por Annett e Duncan (1967) e consolidada em IHC por Barbosa e Silva (2010, pp. 192–196) e Diaper (2003), parte de objetivos de alto nível e os decompõe sucessivamente em subobjetivos mais específicos, com o intuito de mapear pontos críticos de execução, planos de controle e potenciais falhas humanas.
+A **Análise Hierárquica de Tarefas (HTA – *Hierarchical Task Analysis*)**, desenvolvida originalmente por Annett e Duncan (1967 apud BARBOSA et al., 2021) e consolidada em IHC por Barbosa et al. (2021) e Diaper (2003 apud BARBOSA et al., 2021), parte de objetivos de alto nível e os decompõe sucessivamente em subobjetivos mais específicos, com o intuito de mapear pontos críticos de execução, planos de controle e potenciais falhas humanas.
 
-### 3.1 Princípios de Decomposição e Critérios Técnicos de Parada (Barbosa e Silva, 2010, pp. 195–196)
-1. **Mutuamente Exclusivos e Exaustivos:** Em cada ramificação da hierarquia, os subobjetivos formulados cobrem integralmente o escopo do objetivo superior sem apresentar redundâncias ou sobreposições funcionais entre si (Barbosa e Silva, 2010, p. 196).
-2. **Critério *p* × *c* de Annett e Duncan (1967):** A decomposição das tarefas foi interrompida formalmente quando o produto da probabilidade de erro (*p*) pelo custo/severidade da falha (*c*) atinge um limiar aceitável, ou quando a causa-raiz de um problema foi isolada, permitindo propor uma recomendação direta de design de IHC (Barbosa e Silva, 2010, p. 195).
+### 3.1 Princípios de Decomposição e Critérios Técnicos de Parada (Barbosa et al., 2021)
+1. **Mutuamente Exclusivos e Exaustivos:** Em cada ramificação da hierarquia, os subobjetivos formulados cobrem integralmente o escopo do objetivo superior sem apresentar redundâncias ou sobreposições funcionais entre si (Barbosa et al., 2021).
+2. **Critério *p* × *c* de Annett e Duncan (1967 apud BARBOSA et al., 2021):** A decomposição das tarefas foi interrompida formalmente quando o produto da probabilidade de erro (*p*) pelo custo/severidade da falha (*c*) atinge um limiar aceitável, ou quando a causa-raiz de um problema foi isolada, permitindo propor uma recomendação direta de design de IHC (Barbosa et al., 2021).
 3. **Estrutura das Operações na Base (Tupla Operacional):** O nível folha de cada ramo é alcançado por operações definidas por:
    - **Input (Entrada):** Estados do ambiente ou gatilhos contextuais que ativam o objetivo;
    - **Ação (Action):** Atividades e transformações realizadas para atingi-lo;
-   - **Feedback:** Sinais perceptíveis e testes que comprovam o alcance do estado final desejado (Barbosa e Silva, 2010, p. 193).
-4. **Classificação Tripartida de Erro Humano de Reason (1990):** As dificuldades identificadas foram categorizadas em falhas baseadas em **habilidades** (*skill-based* - lapsos motores ou de atenção), **regras** (*rule-based* - aplicação equivocada de procedimentos) ou **conhecimento** (*knowledge-based* - raciocínio incompleto em situações inéditas) (Barbosa e Silva, 2010, p. 196).
+   - **Feedback:** Sinais perceptíveis e testes que comprovam o alcance do estado final desejado (Barbosa et al., 2021).
+4. **Classificação Tripartida de Erro Humano de Reason (1991 apud BARBOSA et al., 2021):** As dificuldades identificadas foram categorizadas em falhas baseadas em **habilidades** (*skill-based* - lapsos motores ou de atenção), **regras** (*rule-based* - aplicação equivocada de procedimentos) ou **conhecimento** (*knowledge-based* - raciocínio incompleto em situações inéditas) (Barbosa et al., 2021).
 
 ---
 
-### 3.2 HTA – TAR-03: Consultar Escala de Trabalho e Horários Homologados da Linha
+### 3.2 HTA – TAR-04: Consultar Escala de Trabalho e Horários Homologados da Linha
 
 #### 3.2.1 Diagrama Hierárquico Gráfico (HTA 1)
 
-```
-0. Consultar escala de trabalho e horários homologados da linha
-   |
-   +-- [Plano 0: 1 > 2 > 3]
-   |
-   +-- 1. Identificar linha escalada para o turno
-   |      |
-   |      +-- [Plano 1: 1.1 / 1.2]
-   |      +-- 1.1 Localizar comunicado impresso no balcão da garagem
-   |      +-- 1.2 Abrir notificação da escala no smartphone
-   |
-   +-- 2. Consultar grade horária e itinerário oficial da SEMOB
-   |      |
-   |      +-- [Plano 2: 2.1 > 2.2 > 2.3]
-   |      +-- 2.1 Acessar canal digital de informações do STPC
-   |      +-- 2.2 Informar número da linha escalada
-   |      +-- 2.3 Visualizar tabela de saídas e pontos de controle
-   |
-   +-- 3. Confirmar regularidade e sincronia operacional
-          |
-          +-- [Plano 3: 3.1 > (3.2 ou 3.3)]
-          +-- 3.1 Comparar horários do sistema com a ordem da concessionária
-          +-- 3.2 Confirmar conformidade ("tabela sem divergências")
-          +-- 3.3 Reportar descompasso de dados à fiscalização/despachante
-```
-
-```mermaid
-graph TD
-    T0["0. Consultar escala de trabalho e horários homologados<br/><i>Plano 0: 1 > 2 > 3</i>"]
-    
-    T1["1. Identificar linha escalada para o turno<br/><i>Plano 1: 1.1 / 1.2</i>"]
-    T2["2. Consultar grade horária e itinerário oficial<br/><i>Plano 2: 2.1 > 2.2 > 2.3</i>"]
-    T3["3. Confirmar regularidade e sincronia operacional<br/><i>Plano 3: 3.1 > (3.2 ou 3.3)</i>"]
-    
-    T0 --> T1
-    T0 --> T2
-    T0 --> T3
-    
-    T11["1.1 Localizar comunicado no balcão físico"]
-    T12["1.2 Abrir notificação da escala no smartphone"]
-    T1 --> T11
-    T1 --> T12
-    
-    T21["2.1 Acessar canal digital do STPC"]
-    T22["2.2 Informar número da linha escalada"]
-    T23["2.3 Visualizar tabela de saídas e pontos"]
-    T2 --> T21
-    T2 --> T22
-    T2 --> T23
-    
-    T31["3.1 Comparar horários oficiais com a ordem da empresa"]
-    T32["3.2 Confirmar conformidade"]
-    T33["3.3 Reportar descompasso à fiscalização"]
-    T3 --> T31
-    T3 --> T32
-    T3 --> T33
-```
+<div align="center" style="overflow-x: auto;">
+<a href="../../../assets/images/analise-de-tarefas/tar-04-hta.svg" target="_blank"><img src="../../../assets/images/analise-de-tarefas/tar-04-hta.svg" alt="Diagrama HTA: Consultar Escala de Trabalho e Horários Homologados" width="1354" style="max-width: none;"></a>
+</div>
 
 <div align="center">
-<p><strong>Figura 1</strong> — Diagrama HTA: Consultar Escala de Trabalho e Horários Homologados (TAR-03).</p>
-<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as setas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência e “/” indica seleção conforme as circunstâncias.</em></p>
-<p><em>Fonte: Carlos Costa (2026).</em></p>
+<p><strong>Figura 1</strong> — Diagrama HTA: Consultar Escala de Trabalho e Horários Homologados (TAR-04).</p>
+<p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.1 e 8.2): cada retângulo traz o número e o nome do objetivo e, na linha de baixo, o plano, que se refere aos subobjetivos do próprio objetivo (“&gt;” indica sequência, “/” indica seleção); os retângulos com linha dupla embaixo são operações (nível mais baixo da hierarquia).</em></p>
+<p><em>Fonte: Carlos Costa (2026), redesenhado na notação de Barbosa et al. (2021, pp. 165–167).</em></p>
 </div>
 
 ---
 
 #### 3.2.2 Tabela Descritiva de Decomposição (HTA 1)
-*(Seguindo a estrutura canônica da Tabela 6.3 de Barbosa e Silva, 2010, pp. 194–195)*
+*(Seguindo a estrutura canônica da Tabela 8.4 de Barbosa et al., 2021, p. 166)*
 
 A Tabela 1 detalha a decomposição da tarefa de consulta da escala, relacionando objetivos, condições de execução, problemas diagnosticados e recomendações de design.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Tabela Descritiva HTA: TAR-03 (Consultar Escala de Trabalho e Horários)</p>
+<p><strong>Tabela 1</strong> — Tabela Descritiva HTA: TAR-04 (Consultar Escala de Trabalho e Horários)</p>
 </div>
 
-| Objetivos / Subobjetivos | Plano | Input (Circunstâncias de Ativação) | Ações (Instruções de Transformação) | Feedback (Critério de Avaliação do Estado Final) | Problemas Diagnosticados | Hipóteses de Erro de Reason (1990) | Recomendações de Design de IHC |
+| Objetivos / Subobjetivos | Plano | Input (Circunstâncias de Ativação) | Ações (Instruções de Transformação) | Feedback (Critério de Avaliação do Estado Final) | Problemas Diagnosticados | Hipóteses de Erro de Reason (1991 apud BARBOSA et al., 2021) | Recomendações de Design de IHC |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **0. Consultar escala de trabalho e horários homologados** | 1 > 2 > 3 | Apresentação na garagem no início da madrugada (04h50). | Executar a sequência de identificação da linha, consulta da tabela e confirmação da sincronia. | Motorista ciente dos horários de saída/chegada e com a viagem autorizada. | Insegurança quanto a possíveis mudanças de itinerário de última hora. | Desempenho baseado em regras (aplicar tabela desatualizada). | Centralizar as informações essenciais em painel único de rápido carregamento. |
 | **1. Identificar linha escalada para o turno** | 1.1 / 1.2 | Início do turno sem saber se houve rotatividade de linhas no dia. | Optar por checar o balcão físico da garagem (1.1) ou abrir o aviso da escala no smartphone (1.2). | Número da linha e prefixo do carro identificados. | Fila e aglomeração no balcão físico; comunicados impressos rasurados. | Desempenho baseado em regras (confundir a pasta da escala no balcão). | Notificação automática (Push) no smartphone com o número da linha ao bater o ponto. |
@@ -171,79 +142,18 @@ A Tabela 1 detalha a decomposição da tarefa de consulta da escala, relacionand
 
 ---
 
-### 3.3 HTA – TAR-04: Receber e Processar Alerta Operacional Emergencial de Trânsito
+### 3.3 HTA – TAR-05: Receber e Processar Alerta Operacional Emergencial de Trânsito
 
 #### 3.3.1 Diagrama Hierárquico Gráfico (HTA 2)
 
-```
-0. Receber e processar alerta operacional de trânsito em rota
-   |
-   +-- [Plano 0: 1 > 2 > (3 ou 4)]
-   |
-   +-- 1. Perceber sinal de notificação prioritária
-   |      |
-   |      +-- [Plano 1: 1.1 + 1.2]
-   |      +-- 1.1 Escutar sinal sonoro característico de trânsito
-   |      +-- 1.2 Visualizar cartão de alerta no painel/suporte
-   |
-   +-- 2. Interpretar instruções do desvio e respaldo legal
-   |      |
-   |      +-- [Plano 2: 2.1 > 2.2]
-   |      +-- 2.1 Ler resumo visual da ocorrência (trecho bloqueado)
-   |      +-- 2.2 Checar liberação expressa da faixa e isenção de multas
-   |
-   +-- 3. Executar rota alternativa homologada
-   |      |
-   |      +-- [Plano 3: 3.1 > 3.2]
-   |      +-- 3.1 Seguir mapa vetorial simplificado de desvio
-   |      +-- 3.2 Retornar à rota principal após transpor o obstáculo
-   |
-   +-- 4. Repassar orientação aos passageiros a bordo
-          |
-          +-- [Plano 4: 4.1 > 4.2]
-          +-- 4.1 Identificar paradas provisoriamente suprimidas
-          +-- 4.2 Avisar verbalmente no veículo a parada provisória alternativa
-```
-
-```mermaid
-graph TD
-    T0["0. Receber e processar alerta operacional de trânsito<br/><i>Plano 0: 1 > 2 > (3 ou 4)</i>"]
-    
-    T1["1. Perceber sinal de notificação prioritária<br/><i>Plano 1: 1.1 + 1.2</i>"]
-    T2["2. Interpretar instruções e respaldo legal<br/><i>Plano 2: 2.1 > 2.2</i>"]
-    T3["3. Executar rota alternativa homologada<br/><i>Plano 3: 3.1 > 3.2</i>"]
-    T4["4. Repassar orientação aos passageiros<br/><i>Plano 4: 4.1 > 4.2</i>"]
-    
-    T0 --> T1
-    T0 --> T2
-    T0 --> T3
-    T0 --> T4
-    
-    T11["1.1 Escutar sinal sonoro de trânsito"]
-    T12["1.2 Visualizar cartão no suporte"]
-    T1 --> T11
-    T1 --> T12
-    
-    T21["2.1 Ler resumo visual da ocorrência"]
-    T22["2.2 Checar liberação de faixa e isenção de multas"]
-    T2 --> T21
-    T2 --> T22
-    
-    T31["3.1 Seguir mapa esquemático de desvio"]
-    T32["3.2 Retornar à rota principal pós-bloqueio"]
-    T3 --> T31
-    T3 --> T32
-    
-    T41["4.1 Identificar paradas afetadas"]
-    T42["4.2 Avisar verbalmente parada alternativa"]
-    T4 --> T41
-    T4 --> T42
-```
+<div align="center" style="overflow-x: auto;">
+<a href="../../../assets/images/analise-de-tarefas/tar-05-hta.svg" target="_blank"><img src="../../../assets/images/analise-de-tarefas/tar-05-hta.svg" alt="Diagrama HTA: Receber e Processar Alerta Operacional Emergencial de Trânsito" width="1389" style="max-width: none;"></a>
+</div>
 
 <div align="center">
-<p><strong>Figura 2</strong> — Diagrama HTA: Receber e Processar Alerta Operacional Emergencial de Trânsito (TAR-04).</p>
-<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as setas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência, “/” indica seleção conforme as circunstâncias e “+” indica execução paralela.</em></p>
-<p><em>Fonte: Carlos Costa (2026).</em></p>
+<p><strong>Figura 2</strong> — Diagrama HTA: Receber e Processar Alerta Operacional Emergencial de Trânsito (TAR-05).</p>
+<p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.1 e 8.2): cada retângulo traz o número e o nome do objetivo e, na linha de baixo, o plano, que se refere aos subobjetivos do próprio objetivo (“&gt;” indica sequência, “/” indica seleção, “+” indica paralelo); os retângulos com linha dupla embaixo são operações (nível mais baixo da hierarquia).</em></p>
+<p><em>Fonte: Carlos Costa (2026), redesenhado na notação de Barbosa et al. (2021, pp. 165–167).</em></p>
 </div>
 
 ---
@@ -253,10 +163,10 @@ graph TD
 A Tabela 2 detalha a decomposição do processamento de alertas de trânsito e evidencia os problemas, riscos de erro e recomendações associados a cada subobjetivo.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Tabela Descritiva HTA: TAR-04 (Receber e Processar Alerta de Trânsito)</p>
+<p><strong>Tabela 2</strong> — Tabela Descritiva HTA: TAR-05 (Receber e Processar Alerta de Trânsito)</p>
 </div>
 
-| Objetivos / Subobjetivos | Plano | Input (Circunstâncias de Ativação) | Ações (Instruções de Transformação) | Feedback (Critério de Avaliação do Estado Final) | Problemas Diagnosticados | Hipóteses de Erro de Reason (1990) | Recomendações de Design de IHC |
+| Objetivos / Subobjetivos | Plano | Input (Circunstâncias de Ativação) | Ações (Instruções de Transformação) | Feedback (Critério de Avaliação do Estado Final) | Problemas Diagnosticados | Hipóteses de Erro de Reason (1991 apud BARBOSA et al., 2021) | Recomendações de Design de IHC |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | **0. Receber e processar alerta de trânsito** | 1 > 2 > (3 ou 4) | Bloqueio viário, acidente ou obra no percurso da linha. | Perceber o aviso, interpretar a orientação e executar o desvio regulamentado. | Ônibus desviando com segurança e sem autuações nos radares da via. | Falta de aviso prévio fazendo o coletivo ingressar em engarrafamento severo. | Desempenho baseado em conhecimento (improvisar rotas não autorizadas). | Sistema de mensageria em tempo real com envio geolocalizado de alertas prioritários. |
 | **1. Perceber sinal de notificação prioritária** | 1.1 + 1.2 | Emissão de alerta pelo centro de controle operacional da SEMOB. | Escutar o toque sonoro do aparelho e fixar o olhar no visor por 2 segundos. | Atenção do motorista capturada com segurança antes do trecho crítico. | Ruído elevado do motor e do trânsito abafando alertas de áudio convencionais. | Desempenho baseado em habilidades (não escutar ou não notar a notificação). | Alerta multimodal (som grave e potente + padrão de vibração + tela que acende em cor âmbar). |
@@ -280,11 +190,11 @@ A Tabela 2 detalha a decomposição do processamento de alertas de trânsito e e
 
 ## 4. Parte II: Árvores de Tarefas Concorrentes (ConcurTaskTrees – CTT)
 
-O modelo de **Árvores de Tarefas Concorrentes (ConcurTaskTrees – CTT)**, concebido por **Fabio Paternò (2000)** e consagrado na literatura de IHC por Barbosa e Silva (2010, pp. 203–205), foi concebido para superar as limitações da análise tradicional e representar a **solução de design da interação** entre o usuário e o sistema.
+O modelo de **Árvores de Tarefas Concorrentes (ConcurTaskTrees – CTT)**, concebido por **Fabio Paternò (1999 apud BARBOSA et al., 2021)** e consagrado na literatura de IHC por Barbosa et al. (2021), foi concebido para superar as limitações da análise tradicional e representar a **solução de design da interação** entre o usuário e o sistema.
 
-O modelo permite especificar os papéis desempenhados por cada agente (humano ou computacional) e registrar explicitamente as **relações temporais e de concorrência** que governam o diálogo homem–máquina (Barbosa e Silva, 2010, p. 205).
+O modelo permite especificar os papéis desempenhados por cada agente (humano ou computacional) e registrar explicitamente as **relações temporais e de concorrência** que governam o diálogo homem–máquina (Barbosa et al., 2021).
 
-### 4.1 Tipologia das Tarefas no Modelo CTT (Barbosa e Silva, 2010, p. 203)
+### 4.1 Tipologia das Tarefas no Modelo CTT (Barbosa et al., 2021)
 Na notação CTT, cada nó da árvore é formalmente classificado em uma de quatro categorias funcionais:
 
 ```
@@ -297,7 +207,7 @@ Na notação CTT, cada nó da árvore é formalmente classificado em uma de quat
 +-------------------------------------------------------------------------------------------------+
 ```
 
-### 4.2 Notação dos Operadores Temporais e Controle de Fluxo (Barbosa e Silva, 2010, pp. 203–204)
+### 4.2 Notação dos Operadores Temporais e Controle de Fluxo (Barbosa et al., 2021)
 
 As relações temporais entre tarefas irmãs do mesmo nível hierárquico são governadas pelos operadores canônicos:
 
@@ -310,14 +220,14 @@ As relações temporais entre tarefas irmãs do mesmo nível hierárquico são g
 - **`T1 [> T2` (Desativação / Cancelamento):** *T*<sub>1</sub> é definitivamente interrompida e abortada pela ativação de *T*<sub>2</sub>.
 - **`T1 |> T2` (Suspensão e Retomada):** *T*<sub>1</sub> é suspensa temporariamente por *T*<sub>2</sub>, sendo retomada de onde parou após o término de *T*<sub>2</sub>.
 
-### 4.3 Semântica Hierárquica de Realização e Limitações da Notação (Barbosa e Silva, 2010, pp. 203, 205)
+### 4.3 Semântica Hierárquica de Realização e Limitações da Notação (Barbosa et al., 2021)
 
-- **Regra de Realização:** Uma tarefa pai (*T*<sub>1</sub>) só é considerada concluída se todas as suas tarefas filhas (*T*<sub>2</sub>, *T*<sub>3</sub>, ...) forem concluídas segundo as regras de seus operadores temporais (Barbosa e Silva, 2010, p. 203).
-- **Tratamento de Erros:** Conforme advertem Barbosa e Silva (2010, p. 205), o CTT não possui operadores nativos específicos para mecanismos complexos de prevenção e recuperação de erros da interface. Para mitigar essa limitação inerente da notação, o modelo CTT aqui apresentado incorpora explicitamente tarefas interativas de validação de dados e alternativas de cancelamento e contestação.
+- **Regra de Realização:** Uma tarefa pai (*T*<sub>1</sub>) só é considerada concluída se todas as suas tarefas filhas (*T*<sub>2</sub>, *T*<sub>3</sub>, ...) forem concluídas segundo as regras de seus operadores temporais (Barbosa et al., 2021).
+- **Tratamento de Erros:** Conforme advertem Barbosa et al. (2021), o CTT não possui operadores nativos específicos para mecanismos complexos de prevenção e recuperação de erros da interface. Para mitigar essa limitação inerente da notação, o modelo CTT aqui apresentado incorpora explicitamente tarefas interativas de validação de dados e alternativas de cancelamento e contestação.
 
 ---
 
-### 4.4 CTT – TAR-03: Consultar Escala de Trabalho e Horários Homologados da Linha
+### 4.4 CTT – TAR-04: Consultar Escala de Trabalho e Horários Homologados da Linha
 
 #### 4.4.1 Árvore Hierárquica Estruturada (Notação Textual Formal CTT)
 
@@ -345,57 +255,21 @@ As relações temporais entre tarefas irmãs do mesmo nível hierárquico são g
 
 *Interpretação:* A linha identificada no primeiro bloco transfere formalmente o seu identificador numérico (`linha_id`) para o motor de busca do sistema, que em seguida transfere a grade horária carregada para o julgamento cognitivo e decisão do motorista.
 
-#### 4.4.3 Diagrama CTT (Mermaid com Tipologia de Tarefas)
+#### 4.4.3 Diagrama CTT
 
-```mermaid
-graph TD
-    classDef abstract fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
-    classDef user fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
-    classDef interactive fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
-    classDef system fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
-    linkStyle default stroke:#000000,stroke-width:1.5px;
-
-    A0["[A] Consultar Escala e Horários"]:::abstract
-    
-    A1["[A] Identificar Linha Escalada"]:::abstract
-    A2["[A] Buscar e Carregar Grade"]:::abstract
-    A3["[A] Validar Sincronia da Tabela"]:::abstract
-    
-    A0 --> A1
-    A0 --> A2
-    A0 --> A3
-    
-    I11["[I] Autenticar / Bater Ponto"]:::interactive
-    S12["[S] Recuperar Linha Vinculada"]:::system
-    I13["[I] Visualizar Resumo da Escala"]:::interactive
-    A1 --> I11
-    A1 --> S12
-    A1 --> I13
-    
-    I21["[I] Digitar Número da Linha"]:::interactive
-    S22["[S] Consultar Base do STPC"]:::system
-    I23["[I] Exibir Grade Horária e Paradas"]:::interactive
-    A2 --> I21
-    A2 --> S22
-    A2 --> I23
-    
-    U31["[U] Comparar Horários com Folha"]:::user
-    I32["[I] Confirmar Viagem Regular"]:::interactive
-    I33["[I] Acionar Alerta de Divergência"]:::interactive
-    A3 --> U31
-    A3 --> I32
-    A3 --> I33
-```
+<div align="center" style="overflow-x: auto;">
+<a href="../../../assets/images/analise-de-tarefas/tar-04-ctt.svg" target="_blank"><img src="../../../assets/images/analise-de-tarefas/tar-04-ctt.svg" alt="Diagrama CTT: Consultar Escala de Trabalho e Horários Homologados" width="1499" style="max-width: none;"></a>
+</div>
 
 <div align="center">
-<p><strong>Figura 3</strong> — Diagrama CTT: Consultar Escala de Trabalho e Horários Homologados (TAR-03).</p>
-<p><em>Legenda: [A] = tarefa abstrata; [U] = tarefa do usuário; [I] = tarefa interativa; [S] = tarefa do sistema. As setas representam a decomposição hierárquica.</em></p>
-<p><em>Fonte: Carlos Costa (2026).</em></p>
+<p><strong>Figura 3</strong> — Diagrama CTT: Consultar Escala de Trabalho e Horários Homologados (TAR-04).</p>
+<p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.4 e 8.5): nuvem = tarefa abstrata; pessoa = tarefa do usuário; computador = tarefa do sistema; computador, seta dupla e pessoa = tarefa interativa. As linhas ligam cada tarefa às suas subtarefas, e o operador temporal fica na linha horizontal entre tarefas irmãs: []&gt;&gt; (ativação com passagem de informação), [] (escolha).</em></p>
+<p><em>Fonte: Carlos Costa (2026), redesenhado na notação de Barbosa et al. (2021, pp. 173–174).</em></p>
 </div>
 
 ---
 
-### 4.5 CTT – TAR-04: Receber e Processar Alerta Operacional Emergencial de Trânsito
+### 4.5 CTT – TAR-05: Receber e Processar Alerta Operacional Emergencial de Trânsito
 
 #### 4.5.1 Árvore Hierárquica Estruturada (Notação Textual Formal CTT)
 
@@ -424,62 +298,23 @@ graph TD
 - No nível de execução: a tarefa cognitiva/física de dirigir o coletivo e desviar pela via marginal (`[U] Realizar Manobra`) ocorre em **concorrência (`|||`)** com a tarefa de orientar os passageiros (`[A] Orientar Passageiros a Bordo`).
 - O motorista pode a qualquer momento **desativar (`[>`)** o cartão de alerta na tela caso necessite retornar ao mapa padrão de navegação da linha.
 
-#### 4.5.3 Diagrama CTT (Mermaid com Tipologia de Tarefas)
+#### 4.5.3 Diagrama CTT
 
-```mermaid
-graph TD
-    classDef abstract fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
-    classDef user fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
-    classDef interactive fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
-    classDef system fill:#ffffff,stroke:#000000,stroke-width:2px,color:#000000;
-    linkStyle default stroke:#000000,stroke-width:1.5px;
-
-    B0["[A] Processar Alerta Operacional"]:::abstract
-    
-    B1["[A] Notificar Intercorrência"]:::abstract
-    B2["[A] Assimilar Instruções de Desvio"]:::abstract
-    B3["[A] Executar Ações Operacionais"]:::abstract
-    
-    B0 --> B1
-    B0 --> B2
-    B0 --> B3
-    
-    S11["[S] Detectar Evento no Trecho"]:::system
-    S12["[S] Emitir Sinal Sonoro"]:::system
-    I13["[I] Exibir Cartão de Alerta"]:::interactive
-    B1 --> S11
-    B1 --> S12
-    B1 --> I13
-    
-    U21["[U] Analisar Mapa Vetorial"]:::user
-    U22["[U] Avaliar Isenção de Radares"]:::user
-    B2 --> U21
-    B2 --> U22
-    
-    U31["[U] Realizar Manobra na Via"]:::user
-    I32["[I] Confirmar Transposição"]:::interactive
-    B33["[A] Orientar Passageiros"]:::abstract
-    B3 --> U31
-    B3 --> I32
-    B3 --> B33
-    
-    I41["[I] Exibir Frase Pronta"]:::interactive
-    U42["[U] Anunciar Parada no Veículo"]:::user
-    B33 --> I41
-    B33 --> U42
-```
+<div align="center" style="overflow-x: auto;">
+<a href="../../../assets/images/analise-de-tarefas/tar-05-ctt.svg" target="_blank"><img src="../../../assets/images/analise-de-tarefas/tar-05-ctt.svg" alt="Diagrama CTT: Receber e Processar Alerta Operacional Emergencial de Trânsito" width="1418" style="max-width: none;"></a>
+</div>
 
 <div align="center">
-<p><strong>Figura 4</strong> — Diagrama CTT: Receber e Processar Alerta Operacional Emergencial de Trânsito (TAR-04).</p>
-<p><em>Legenda: [A] = tarefa abstrata; [U] = tarefa do usuário; [I] = tarefa interativa; [S] = tarefa do sistema. As setas representam a decomposição hierárquica.</em></p>
-<p><em>Fonte: Carlos Costa (2026).</em></p>
+<p><strong>Figura 4</strong> — Diagrama CTT: Receber e Processar Alerta Operacional Emergencial de Trânsito (TAR-05).</p>
+<p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.4 e 8.5): nuvem = tarefa abstrata; pessoa = tarefa do usuário; computador = tarefa do sistema; computador, seta dupla e pessoa = tarefa interativa. As linhas ligam cada tarefa às suas subtarefas, e o operador temporal fica na linha horizontal entre tarefas irmãs: []&gt;&gt; (ativação com passagem de informação), [] (escolha), ||| (concorrência).</em></p>
+<p><em>Fonte: Carlos Costa (2026), redesenhado na notação de Barbosa et al. (2021, pp. 173–174).</em></p>
 </div>
 
 ---
 
 ## 5. Comparação e Síntese Metodológica entre HTA e CTT
 
-A literatura de IHC (Barbosa e Silva, 2010, pp. 191–205) demonstra que as abordagens HTA e CTT não são excludentes, mas profundamente complementares no processo de engenharia de usabilidade:
+A literatura de IHC (Barbosa et al., 2021) demonstra que as abordagens HTA e CTT não são excludentes, mas profundamente complementares no processo de engenharia de usabilidade:
 
 A Tabela 3 compara as contribuições de cada abordagem e explicita como ambas se articulam na análise das tarefas do motorista.
 
@@ -489,11 +324,11 @@ A Tabela 3 compara as contribuições de cada abordagem e explicita como ambas s
 
 | Dimensão de Comparação | Análise Hierárquica de Tarefas (HTA) | Árvores de Tarefas Concorrentes (CTT) | Papel Articulado no Projeto SEMOB-DF |
 | :--- | :--- | :--- | :--- |
-| **Origem e Fundamentação** | Annett e Duncan (1967); Barbosa e Silva (2010, p. 192). | Fabio Paternò (2000); Barbosa e Silva (2010, p. 203). | Ambas ancoram o rigor da análise no livro de referência de Barbosa e Silva. |
+| **Origem e Fundamentação** | Annett e Duncan (1967 apud BARBOSA et al., 2021); Barbosa et al. (2021). | Fabio Paternò (1999 apud BARBOSA et al., 2021); Barbosa et al. (2021). | Ambas ancoram o rigor da análise no livro de referência de Barbosa et al. (2021). |
 | **Foco Primordial** | O trabalho real, objetivos psicológicos, decomposição e falhas humanas. | A solução de design da interação humano–computador e diálogo de interface. | O HTA mapeou as dores reais do motorista; o CTT modelou o sistema móvel ideal. |
 | **Estrutura Hierárquica** | Objetivos, subobjetivos, planos de fluxo e tuplas operacionais. | Árvore de tarefas com tarefas abstratas, de usuário, sistema e interativas. | O HTA define o *porquê* e *o quê*; o CTT define *quem executa* e *como dialoga*. |
 | **Controle de Fluxo e Tempo** | Planos textuais (`sequência fixa`, `seleção/decisão`, `paralelo`). | Operadores formais expressivos (`>>`, `[ ] >>`, `[]`, `|||`, `| [ ] |`, `[>`, etc.). | O CTT traz rigor matemático ao fluxo temporal concorrente entre condutor e máquina. |
-| **Mapeamento de Erros** | Taxonomia clássica de erro de Reason (1990) e problemas/recomendações. | Não modela nativamente tratamento de erros (limitação inerente da notação). | O HTA supriu com êxito a lacuna teórica de erros do CTT (Barbosa e Silva, p. 205). |
+| **Mapeamento de Erros** | Taxonomia clássica de erro de Reason (1991 apud BARBOSA et al., 2021) e problemas/recomendações. | Não modela nativamente tratamento de erros (limitação inerente da notação). | O HTA supriu com êxito a lacuna teórica de erros do CTT (Barbosa et al., 2021, p. 175). |
 | **Aderência ao Perfil de Valdir** | Captura a rotina física de direção, cansaço matutino e hostilidades na catraca. | Desenha um canal móvel leve, *Mobile-First*, com foco em poucos toques e cache local. | Garante que o artefato final atenda diretamente às metas reais da persona. |
 
 <div align="center">
@@ -511,8 +346,8 @@ A integração sistemática entre este artefato e os documentos anteriores do pr
 | PERSONA: SEU VALDIR| -----> | CENÁRIOS OPERACIONAIS| -----> | ANÁLISE DE TAREFAS |
 | ([valdir-soares.md])|       | ([cenarios-motorista])|       |   (HTA e CTT)      |
 +--------------------+        +---------------------+        +--------------------+
- - "Mais os horários"          - C2: Consulta no SGO          - TAR-03 (Escala e Tabela)
- - Previsibilidade             - C3: Alerta na BR-020         - TAR-04 (Alerta e Desvio)
+ - "Mais os horários"          - C2: Consulta no SGO          - TAR-04 (Escala e Tabela)
+ - Previsibilidade             - C3: Alerta na BR-020         - TAR-05 (Alerta e Desvio)
  - Smartphone 4G exclusivo     - C1: Conflito na Catraca      - HTA: Falhas de Reason
  - Evitar atritos e multas     - C4: Dúvida na W3 Sul         - CTT: Interação [I] e [S]
 ```
@@ -525,15 +360,92 @@ A integração sistemática entre este artefato e os documentos anteriores do pr
 
 ---
 
-## 7. Referências Bibliográficas
+## 7. Fotos de Referência
 
-- **ANNETT, John; DUNCAN, Keith D.** *Task analysis and training design*. Journal of Occupational Psychology, v. 41, n. 4, pp. 211–221, 1967.
-- **BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da.** *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6: *Organização do Espaço de Problema*, Seção 6.4 – *Análise de Tarefas* (pp. 191–192); Seção 6.4.1 – *Análise Hierárquica de Tarefas* (pp. 192–196); Seção 6.4.3 – *Árvores de Tarefas Concorrentes – CTT* (pp. 203–205).
-- **CARROLL, John M.** *Making Use: Scenario-Based Design of Human-Computer Interactions*. Cambridge: MIT Press, 2000. ISBN: 978-0262032797.
-- **COOPER, Alan; REIMANN, Robert; CRONIN, Dave.** *About Face 3: The Essentials of Interaction Design*. Indianapolis: Wiley Publishing, Inc., 2007. ISBN: 978-0-470-08411-3. Chapter 5: *Modeling Users: Personas and Goals* (pp. 75–108); Chapter 6: *Designing with Personas: A Methodology* (pp. 109–124).
-- **DIAPER, Dan.** *Understanding Task Analysis for Human-Computer Interaction*. In: DIAPER, Dan; STANTON, Neville (Eds.). *The Handbook of Task Analysis for Human-Computer Interaction*. Mahwah: Lawrence Erlbaum Associates, 2003. pp. 5–47.
-- **EASON, Ken.** *Information Technology and Organisational Change*. London: Taylor & Francis, 1987.
-- **NORMAN, Donald A.** *Emotional Design: Why We Love (or Hate) Everyday Things*. New York: Basic Books, 2004.
-- **PATERNÒ, Fabio.** *Model-Based Design and Evaluation of Human-Computer Interfaces*. London: Springer-Verlag, 2000. ISBN: 978-1-85233-155-9.
-- **REASON, James.** *Human Error*. Cambridge: Cambridge University Press, 1990. ISBN: 978-0521314190.
-- **ROSSON, Mary Beth; CARROLL, John M.** *Usability Engineering: Scenario-Based Development of Human-Computer Interaction*. San Francisco: Morgan Kaufmann, 2002. ISBN: 978-1558607125.
+As Figuras 5 a 12 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-5" align="center">
+<p><strong>Figura 5</strong> — Métodos de análise de tarefas: HTA, GOMS e CTT</p>
+</div>
+
+![Figura 5 — Métodos de análise de tarefas: HTA, GOMS e CTT](../../assets/prints_referencias/verificacao-v2/livro-analise-tarefas.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 164). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-6" align="center">
+<p><strong>Figura 6</strong> — 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações</p>
+</div>
+
+![Figura 6 — 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações](../../assets/prints_referencias/verificacao-v2/livro-hta.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 165). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-7" align="center">
+<p><strong>Figura 7</strong> — Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)</p>
+</div>
+
+![Figura 7 — Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)](../../assets/prints_referencias/verificacao-v2/livro-hta-notacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–167). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-8" align="center">
+<p><strong>Figura 8</strong> — HTA: diagrama, representação em tabela e critério de parada</p>
+</div>
+
+![Figura 8 — HTA: diagrama, representação em tabela e critério de parada](../../assets/prints_referencias/verificacao-v2/livro-hta-tabela.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–166). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-9" align="center">
+<p><strong>Figura 9</strong> — Passos da Análise Hierárquica de Tarefas (Barbosa et al., 2021)</p>
+</div>
+
+![Figura 9 — Passos da Análise Hierárquica de Tarefas (Diaper, 2003)](../../assets/prints_referencias/verificacao-v2/livro-hta-passos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 166–167). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-10" align="center">
+<p><strong>Figura 10</strong> — CTT: tipos de tarefas e relações temporais</p>
+</div>
+
+![Figura 10 — CTT: tipos de tarefas e relações temporais](../../assets/prints_referencias/verificacao-v2/livro-ctt.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 173). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-11" align="center">
+<p><strong>Figura 11</strong> — Notação do CTT: tipos de tarefas, hierarquia e relações temporais (Figuras 8.4, 8.5 e 8.6 do livro)</p>
+</div>
+
+![Figura 11 — Notação do CTT: tipos de tarefas, hierarquia e relações temporais (Figuras 8.4, 8.5 e 8.6 do livro)](../../assets/prints_referencias/verificacao-v2/livro-ctt-notacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 173–174). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-12" align="center">
+<p><strong>Figura 12</strong> — CTT: vantagens e limitação quanto ao tratamento de erros</p>
+</div>
+
+![Figura 12 — CTT: vantagens e limitação quanto ao tratamento de erros](../../assets/prints_referencias/verificacao-v2/livro-ctt-limites.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 175). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 8. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

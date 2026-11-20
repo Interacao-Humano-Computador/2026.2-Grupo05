@@ -1,12 +1,16 @@
-# Persona: Cláudia Regina Santos
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 13/10/2026 | 1.0 | Elaboração da persona Cláudia Regina Santos. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 13/10/2026 | `1.0` | Elaboração da persona Cláudia Regina Santos. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
 
 ---
+
+# Persona: Cláudia Regina Santos
 
 ## 1. Caracterização Geral
 
@@ -19,6 +23,19 @@
 > **"Eu não quero só reclamar no ponto com quem está do lado. Quero que alguém que resolve fique sabendo."**
 
 **Resumo:** técnica de enfermagem que trabalha em regime de plantão e depende do ônibus em horários de pouco movimento, quando um ônibus perdido pode significar 40 minutos de espera. Usa o celular com segurança para WhatsApp, redes sociais e serviços simples, mas se sente insegura em sites do governo, que considera confusos. Quando o ônibus não para ou não passa, quer registrar a reclamação no lugar certo, mas não sabe por onde começar e desiste com facilidade se o processo parecer longo.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-08 (Reclamação sobre Ônibus):**
+
+* **Persona:** Cláudia Regina Santos (*esta página*)
+* **Cenário:** [Cenário 11](../cenarios/cenario-11-reclamacao-onibus.md)
+* **Análise de tarefas:** [TAR-08](../analise-de-tarefas/tar-08-reclamacao-onibus.md)
+* **Storyboard:** [Storyboard 06](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+
 
 ---
 
@@ -171,6 +188,32 @@ Por que ela é persona primária:
 
 ---
 
-## 10. Referências Bibliográficas
+## 10. Fotos de Referência
+
+As Figuras 2 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — Elementos que compõem a descrição de uma persona</p>
+</div>
+
+![Figura 2 — Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Elenco de personas, persona primária e antipersonas</p>
+</div>
+
+![Figura 3 — Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 155). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 11. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

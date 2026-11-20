@@ -1,13 +1,21 @@
-# TAR-03: Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração completa da Análise de Tarefas (HTA, CTT e GOMS/KLM) para a tarefa do Passageiro Cotidiano. | [Arthur Mariani](https://github.com/arthur-mariani) e [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Carlos Costa](https://github.com/carloshfgit) |
-| 25/10/2026 | 1.1 | Correção e aprimoramento da Análise de Tarefas (HTA e CTT), refinando a decomposição de objetivos, inclusão do cálculo de rota porta a porta e atualização dos diagramas. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 27/09/2026 | `1.0` | Elaboração completa da Análise de Tarefas (HTA, CTT e GOMS/KLM) para a tarefa do Passageiro Cotidiano. | [Arthur Mariani](https://github.com/arthur-mariani) e [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Carlos Costa](https://github.com/carloshfgit) | Não declarado pelo autor |
+| 25/10/2026 | `1.1` | Correção e aprimoramento da Análise de Tarefas (HTA e CTT), refinando a decomposição de objetivos, inclusão do cálculo de rota porta a porta e atualização dos diagramas. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
+| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Redesenho dos diagramas HTA/CTT na notação do livro da disciplina (BARBOSA et al., 2021, pp. 165–174). Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio no redesenho dos diagramas na notação do livro.; apoio na inclusão dos links entre artefatos |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+
+
+!!! warning "Observação para correção manual"
+    Os diagramas HTA e CTT (Figuras 1 e 2) foram redesenhados na notação do livro a partir dos SVGs originais, sem mudar a estrutura nem os rótulos. O autor deve conferir se o texto que descreve os diagramas (Seções 3.1 e 4.2) continua de acordo com a nova figura.
 
 ---
+
+# TAR-03: Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada
 
 ## 1. Introdução
 
@@ -20,6 +28,19 @@ Nesses sistemas funcionais modernos, a interação do passageiro é drasticament
 4. Calcula a duração do percurso dentro do ônibus, baldeações necessárias e o **tempo total em que o passageiro chegará ao destino final (*Estimated Time of Arrival - ETA*)**.
 
 A presente análise modela como incorporar essa funcionalidade ao portal/aplicativo da SEMOB-DF, superando o modelo atual fragmentado e proporcionando ao cidadão uma ferramenta prática, transparente e eficaz para seu cotidiano.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-03 (Planejamento de Rota por Origem e Destino):**
+
+* **Persona:** [Marcos Paulo Vieira](../personas/marcos-paulo-vieira.md)
+* **Cenário:** [Cenário 3](../cenarios/cenario-3-planejamento-origem-destino.md)
+* **Análise de tarefas:** TAR-03 (*esta página*)
+* **Storyboard:** [Storyboard 03](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../prototipos/tar-03/index.html)
+
 
 ## 2. Caracterização da Tarefa
 
@@ -34,24 +55,26 @@ A presente análise modela como incorporar essa funcionalidade ao portal/aplicat
 
 ## 3. Análise Hierárquica de Tarefas (HTA)
 
-A **Análise Hierárquica de Tarefas (HTA - *Hierarchical Task Analysis*)** foi proposta originalmente por Annett e Duncan (1967) e consolidada em Interação Humano-Computador por Barbosa et al. (2021, pp. 177–183) para examinar o trabalho humano decompondo tarefas complexas em objetivos, subobjetivos e operações atômicas, mapeando as condições sob as quais as ações são ativadas (planos) e identificando riscos de erro e oportunidades de reprojeto.
+A **Análise Hierárquica de Tarefas (HTA - *Hierarchical Task Analysis*)** foi proposta originalmente por Annett e Duncan (1967 apud BARBOSA et al., 2021) e consolidada em Interação Humano-Computador por Barbosa et al. (2021, pp. 164–167) para examinar o trabalho humano decompondo tarefas complexas em objetivos, subobjetivos e operações atômicas, mapeando as condições sob as quais as ações são ativadas (planos) e identificando riscos de erro e oportunidades de reprojeto.
 
 ### 3.1 Diagrama Hierárquico de Tarefas (Representação Gráfica)
 
-O diagrama abaixo ilustra a decomposição da tarefa no padrão visual e estrutural rigoroso da TAR-01 (Igor Dantas), com disposição retangular de caixas, linhas ortogonais, notação padrão de planos e destaque com linha dupla inferior para nós terminais de operações:
+O diagrama abaixo ilustra a decomposição da tarefa na notação do livro da disciplina (Barbosa et al., 2021, pp. 165–167), com disposição retangular de caixas, linhas ortogonais, notação padrão de planos e destaque com linha dupla inferior para nós terminais de operações:
 
 <div align="center">
-  <img src="../../../assets/images/hta_tar03_lucas.svg" alt="Diagrama HTA - Planejamento de Rota Completa" style="max-width: 100%; height: auto; border: 1px solid #d0d0d0; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); margin: 15px 0;" />
+<div align="center" style="overflow-x: auto;">
+  <a href="../../../assets/images/analise-de-tarefas/tar-03-hta.svg" target="_blank"><img src="../../../assets/images/analise-de-tarefas/tar-03-hta.svg" alt="Diagrama HTA - Planejamento de Rota Completa" width="1103" style="max-width: none;"></a>
+  </div>
   <p><strong>Figura 1</strong> — Diagrama HTA: Planejamento de Rota Completa por Destino e Acompanhamento em Tempo Real.</p>
-  <p><em>Legenda: A numeração decimal indica os níveis de decomposição hierárquica; as linhas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência estrita, “/” indica seleção conforme circunstâncias e “+” indica execução em paralelo/ordem flexível. Os blocos do último nível com linha dupla inferior representam operações terminais (folhas).</em></p>
-  <p><em>Fonte: Lucas Araújo Lima (2026), adaptado de Barbosa et al. (2021).</em></p>
+  <p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.1 e 8.2): cada retângulo traz o número e o nome do objetivo e, na linha de baixo, o plano, que se refere aos subobjetivos do próprio objetivo (“&gt;” indica sequência, “/” indica seleção); os retângulos com linha dupla embaixo são operações (nível mais baixo da hierarquia).</em></p>
+  <p><em>Fonte: Lucas Araújo Lima (2026), redesenhado na notação de Barbosa et al. (2021, pp. 165–167).</em></p>
 </div>
 
 ---
 
 ### 3.2 Tabela Detalhada do HTA (Tuplas e Análise de Falhas)
 
-Conforme Barbosa et al. (2021, p. 179), cada operação é especificada formalmente por uma tupla composta por **⟨Input, Ação, Feedback⟩**, associada a um plano que define sua ativação. A tabela a seguir relaciona cada objetivo e operação folha aos problemas encontrados no portal da SEMOB-DF e às recomendações de IHC formuladas para o reprojeto.
+Conforme Barbosa et al. (2021, p. 165), cada operação é especificada formalmente por uma tupla composta por **⟨Input, Ação, Feedback⟩**, associada a um plano que define sua ativação. A tabela a seguir relaciona cada objetivo e operação folha aos problemas encontrados no portal da SEMOB-DF e às recomendações de IHC formuladas para o reprojeto.
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Tabela Detalhada da Análise Hierárquica de Tarefas (HTA) da TAR-03</p>
@@ -78,7 +101,7 @@ Conforme Barbosa et al. (2021, p. 179), cada operação é especificada formalme
 
 ### 3.3 Análise de Severidade de Operações e Critério (P × C)
 
-Pelo critério **P × C** proposto na metodologia HTA (Annett & Duncan, 1967; Barbosa et al., 2021), em que **P** representa a probabilidade de falha ou erro na execução e **C** corresponde ao custo ou gravidade da consequência do erro, identificam-se as operações críticas da tarefa:
+Pelo critério **P × C** proposto na metodologia HTA (Barbosa et al., 2021), em que **P** representa a probabilidade de falha ou erro na execução e **C** corresponde ao custo ou gravidade da consequência do erro, identificam-se as operações críticas da tarefa:
 
 1. **Operação 1.1 (Inserir local de destino e validar ponto de partida):**
    * **Probabilidade de Falha (P):** Média. O passageiro utiliza nomenclaturas populares, nomes de prédios públicos ou abreviações que divergem dos nomes cadastrais oficiais da base de dados da SEMOB.
@@ -104,7 +127,7 @@ Pelo critério **P × C** proposto na metodologia HTA (Annett & Duncan, 1967; Ba
 
 ## 4. ConcurTaskTrees (CTT)
 
-O modelo **ConcurTaskTrees (CTT)**, proposto por Fabio Paternò (1999, 2000), descreve graficamente as tarefas com foco na concorrência, suporte computacional e dinâmica de interação (Barbosa e Silva, 2010, pp. 203–205).
+O modelo **ConcurTaskTrees (CTT)**, proposto por Fabio Paternò (1999 apud BARBOSA et al., 2021), descreve graficamente as tarefas com foco na concorrência, suporte computacional e dinâmica de interação (Barbosa et al., 2021).
 
 ### 4.1 Classificação dos Nós no CTT
 
@@ -115,13 +138,15 @@ O modelo **ConcurTaskTrees (CTT)**, proposto por Fabio Paternò (1999, 2000), de
 
 ### 4.2 Estrutura Formal e Diagrama CTT
 
-O diagrama abaixo apresenta a modelagem gráfica formal das relações temporais e lógicas da tarefa, seguindo rigorosamente a padronização visual da TAR-01 (Igor Dantas) com a simbologia de Paternò (1999) (nuvens para tarefas abstratas, silhuetas para usuários, monitores para sistemas e operadores temporais formais):
+O diagrama abaixo apresenta a modelagem gráfica formal das relações temporais e lógicas da tarefa, seguindo a notação do livro da disciplina (Barbosa et al., 2021, pp. 173–174), baseada em Paternò (1999 apud BARBOSA et al., 2021) (nuvens para tarefas abstratas, silhuetas para usuários, monitores para sistemas e operadores temporais formais):
 
 <div align="center">
-  <img src="../../../assets/images/ctt_tar03_lucas.svg" alt="Diagrama CTT - Planejamento de Rota Completa" style="max-width: 100%; height: auto; border: 1px solid #d0d0d0; border-radius: 4px; box-shadow: 0 1px 4px rgba(0,0,0,0.08); margin: 15px 0;" />
+<div align="center" style="overflow-x: auto;">
+  <a href="../../../assets/images/analise-de-tarefas/tar-03-ctt.svg" target="_blank"><img src="../../../assets/images/analise-de-tarefas/tar-03-ctt.svg" alt="Diagrama CTT - Planejamento de Rota Completa" width="1143" style="max-width: none;"></a>
+  </div>
   <p><strong>Figura 2</strong> — Diagrama CTT: Planejamento de Viagem Completa por Destino e Acompanhamento em Tempo Real.</p>
-  <p><em>Legenda: Nuvem = tarefa abstrata; pessoa = tarefa do usuário; monitor = tarefa do sistema; pessoa com monitor = tarefa interativa. Operadores temporais: []&gt;&gt; (passagem de informação), &gt;&gt; (sequência), ||| (concorrência) e [&gt; (desativação / contingência).</em></p>
-  <p><em>Fonte: Lucas Araújo Lima (2026), adaptado de Paternò (1999) e no padrão visual da TAR-01 (Igor Dantas).</em></p>
+  <p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.4 e 8.5): nuvem = tarefa abstrata; pessoa = tarefa do usuário; computador = tarefa do sistema; computador, seta dupla e pessoa = tarefa interativa. As linhas ligam cada tarefa às suas subtarefas, e o operador temporal fica na linha horizontal entre tarefas irmãs: &gt;&gt; (ativação), []&gt;&gt; (ativação com passagem de informação), ||| (concorrência), [&gt; (desativação).</em></p>
+  <p><em>Fonte: Lucas Araújo Lima (2026), redesenhado na notação de Barbosa et al. (2021, pp. 173–174).</em></p>
 </div>
 
 ### 4.3 Detalhamento e Mapeamento dos Ramos do CTT
@@ -144,7 +169,7 @@ A decomposição lógica do modelo CTT está organizada em três ramos principai
 
 ## 5. Análise Preditiva de Desempenho com GOMS / KLM (*Card, Moran & Newell, 1983*)
 
-O **Keystroke-Level Model (KLM)** é uma técnica analítica da família GOMS que prevê o tempo de execução de uma tarefa rotineira realizada por um usuário competente sem erros (Barbosa & Silva, 2010, pp. 198–200; Kieras, 1993).
+O **Keystroke-Level Model (KLM)** é uma técnica analítica da família GOMS que prevê o tempo de execução de uma tarefa rotineira realizada por um usuário competente sem erros (Barbosa et al., 2021).
 
 ### 5.1 Operadores Padrão Adotados e Tempos de Referência
 
@@ -186,7 +211,7 @@ A Tabela 2 estima, por meio do KLM, o tempo necessário para executar esse fluxo
 | **TOTAL** | — | **Tempo Total Estimado (Método Atual)** | **17,80 s** |
 
 <div align="center">
-<p><em>Fonte: Lucas Araújo Lima (2026), baseado em Card et al. (1983) e Kieras (1993).</em></p>
+<p><em>Fonte: Lucas Araújo Lima (2026), baseado em Card et al. (1983 apud BARBOSA et al., 2021) e Kieras (1993 apud BARBOSA et al., 2021).</em></p>
 </div>
 
 *(Nota: Este tempo considera um cenário ideal sem travamento de cache; nos casos reais reportados no Cenário 3, o tempo ultrapassa 50 segundos com falha de conexão).*
@@ -216,19 +241,110 @@ A Tabela 3 estima o tempo do fluxo reprojetado, permitindo compará-lo ao métod
 | **TOTAL** | — | **Tempo Total Estimado (Método Reprojetado)** | **9,70 s** |
 
 <div align="center">
-<p><em>Fonte: Lucas Araújo Lima (2026), baseado em Card et al. (1983) e Kieras (1993).</em></p>
+<p><em>Fonte: Lucas Araújo Lima (2026), baseado em Card et al. (1983 apud BARBOSA et al., 2021) e Kieras (1993 apud BARBOSA et al., 2021).</em></p>
 </div>
 
 ### 5.3 Conclusão da Análise KLM
-O fluxo reprojetado reduz o tempo preditivo de execução da tarefa de **17,80 s para 9,70 s** (um ganho de eficiência de **45,5%**), além de eliminar **4 operadores mentais de dúvida (M)** causados pela desorientação do código da linha e pelo modal indesejado, comprovando um salto substancial na **facilidade de aprendizado e eficiência de uso** (*Nielsen, 1993; Barbosa & Silva, 2010*).
+O fluxo reprojetado reduz o tempo preditivo de execução da tarefa de **17,80 s para 9,70 s** (um ganho de eficiência de **45,5%**), além de eliminar **4 operadores mentais de dúvida (M)** causados pela desorientação do código da linha e pelo modal indesejado, comprovando um salto substancial na **facilidade de aprendizado e eficiência de uso** (*Barbosa et al., 2021*).
 
 ---
 
-## 6. Referências Bibliográficas
+## 6. Fotos de Referência
 
-* ANNETT, John; DUNCAN, Keith D. **Task analysis and training design**. *Journal of Occupational Psychology*, v. 41, n. 4, p. 211–221, 1967.
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6: Organização do Espaço de Problema — Análise de Tarefas (pp. 191–205).
+As Figuras 3 a 11 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Métodos de análise de tarefas: HTA, GOMS e CTT</p>
+</div>
+
+![Figura 3 — Métodos de análise de tarefas: HTA, GOMS e CTT](../../assets/prints_referencias/verificacao-v2/livro-analise-tarefas.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 164). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-4" align="center">
+<p><strong>Figura 4</strong> — 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações</p>
+</div>
+
+![Figura 4 — 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações](../../assets/prints_referencias/verificacao-v2/livro-hta.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 165). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-5" align="center">
+<p><strong>Figura 5</strong> — Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)</p>
+</div>
+
+![Figura 5 — Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)](../../assets/prints_referencias/verificacao-v2/livro-hta-notacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–167). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-6" align="center">
+<p><strong>Figura 6</strong> — HTA: diagrama, representação em tabela e critério de parada</p>
+</div>
+
+![Figura 6 — HTA: diagrama, representação em tabela e critério de parada](../../assets/prints_referencias/verificacao-v2/livro-hta-tabela.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–166). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-7" align="center">
+<p><strong>Figura 7</strong> — Passos da Análise Hierárquica de Tarefas (Barbosa et al., 2021)</p>
+</div>
+
+![Figura 7 — Passos da Análise Hierárquica de Tarefas (Diaper, 2003)](../../assets/prints_referencias/verificacao-v2/livro-hta-passos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 166–167). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-8" align="center">
+<p><strong>Figura 8</strong> — GOMS: objetivos, operadores, métodos e regras de seleção</p>
+</div>
+
+![Figura 8 — GOMS: objetivos, operadores, métodos e regras de seleção](../../assets/prints_referencias/verificacao-v2/livro-goms.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 167–168). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-9" align="center">
+<p><strong>Figura 9</strong> — CTT: tipos de tarefas e relações temporais</p>
+</div>
+
+![Figura 9 — CTT: tipos de tarefas e relações temporais](../../assets/prints_referencias/verificacao-v2/livro-ctt.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 173). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-10" align="center">
+<p><strong>Figura 10</strong> — Notação do CTT: tipos de tarefas, hierarquia e relações temporais (Figuras 8.4, 8.5 e 8.6 do livro)</p>
+</div>
+
+![Figura 10 — Notação do CTT: tipos de tarefas, hierarquia e relações temporais (Figuras 8.4, 8.5 e 8.6 do livro)](../../assets/prints_referencias/verificacao-v2/livro-ctt-notacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 173–174). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-11" align="center">
+<p><strong>Figura 11</strong> — CTT: vantagens e limitação quanto ao tratamento de erros</p>
+</div>
+
+![Figura 11 — CTT: vantagens e limitação quanto ao tratamento de erros](../../assets/prints_referencias/verificacao-v2/livro-ctt-limites.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 175). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 7. Referências Bibliográficas
+
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* CARD, Stuart K.; MORAN, Thomas P.; NEWELL, Allen. **The Psychology of Human-Computer Interaction**. Hillsdale: Lawrence Erlbaum Associates, 1983.
-* KIERAS, David. **Using the Keystroke-Level Model to Estimate Execution Times**. Ann Arbor: University of Michigan, 1993.
-* PATERNÒ, Fabio. **Model-Based Design and Evaluation of Interactive Applications**. London: Springer-Verlag, 1999.

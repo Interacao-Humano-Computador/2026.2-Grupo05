@@ -1,16 +1,33 @@
-# Persona: Maria Eduarda Santos (Usuária de Vale-Transporte)
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração detalhada da persona primária Maria Eduarda Santos, usuária cotidiana de Vale-Transporte. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 27/09/2026 | `1.0` | Elaboração detalhada da persona primária Maria Eduarda Santos, usuária cotidiana de Vale-Transporte. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) | Não declarado pelo autor |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
 
 ---
+
+# Persona: Maria Eduarda Santos (Usuária de Vale-Transporte)
 
 ## 1. Introdução
 
 Este documento apresenta Maria Eduarda Santos, persona que representa trabalhadoras jovens que dependem do ônibus e do Vale-Transporte para realizar seus deslocamentos cotidianos. Sua caracterização reúne necessidades relacionadas a horários, integração, disponibilidade de crédito e canais de atendimento, orientando cenários, análises de tarefas e decisões de design do projeto.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-07 (Regularização de Crédito de Vale-Transporte):**
+
+* **Persona:** Maria Eduarda Santos (*esta página*)
+* **Cenário:** [Cenário 4](../cenarios/cenario-4-credito-vale-transporte.md)
+* **Análise de tarefas:** [TAR-07](../analise-de-tarefas/tar-07-credito-vale-transporte.md)
+* **Storyboard:** [Storyboard 07](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#37-storyboard-07-regularizacao-de-credito-de-vale-transporte)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://arthur-mariani.github.io/PAF-IHC/credito/)
+
 
 ## 2. Caracterização Geral
 
@@ -217,7 +234,32 @@ A Tabela 5 sintetiza as necessidades de Maria Eduarda em requisitos que devem or
 
 ---
 
-## 11. Referências Bibliográficas
+## 11. Fotos de Referência
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6: Organização do Espaço de Problema: Personas (pp. 176 a 183).
-* COOPER, Alan; REIMANN, Robert; CRONIN, Dave. **About Face 3: The Essentials of Interaction Design**. Indianapolis: Wiley Publishing, Inc., 2007. Chapter 5: *Modeling Users: Personas and Goals*.
+As Figuras 2 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — Elementos que compõem a descrição de uma persona</p>
+</div>
+
+![Figura 2 — Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Elenco de personas, persona primária e antipersonas</p>
+</div>
+
+![Figura 3 — Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 155). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 12. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

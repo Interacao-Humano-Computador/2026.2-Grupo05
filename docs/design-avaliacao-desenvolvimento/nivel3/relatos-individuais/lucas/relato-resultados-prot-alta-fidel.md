@@ -1,9 +1,10 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 11/11/2026 | `0.1` | Estruturação inicial do relato dos resultados da avaliação do Protótipo de Alta Fidelidade em HTML navegável (TAR-03), incluindo identificação técnica do protótipo, galeria de telas, tabelas de consolidação e referências grifadas. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para formatação em Markdown |
 | 12/11/2026 | `1.0` | Consolidação final dos resultados com dados empíricos das 3 sessões de teste de usabilidade, métricas quantitativas, matriz DECIDE, priorização de problemas e plano de reprojeto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para formatação em Markdown |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -14,7 +15,20 @@
 
 Neste documento, apresenta-se o **Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-03 — Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)**. A condução da avaliação obedece ao protocolo estabelecido no [Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-03)](../../planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) e segue rigorosamente a estrutura definida no [Planejamento do Relato dos Resultados (TAR-03)](../../planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md).
 
-Em conformidade com as diretrizes de **Barbosa & Silva (2010, Cap. 9, Seção 9.7.5, p. 310–312; Cap. 10, Seção 10.2.1, p. 341–348)**, os dados coletados foram inicialmente analisados por participante e por sub-tarefa, e em seguida consolidados para responder às seis questões investigativas (`QF01` a `QF06`) do framework DECIDE ([Figura 7](#figura-7)), catalogando os problemas de usabilidade encontrados segundo a escala de Nielsen ([Figuras 8 e 9](#figura-8)).
+Em conformidade com as diretrizes de **Barbosa et al. (2021, Seção 11.7.5, Seção 12.2.1, pp. 262–290)**, os dados coletados foram inicialmente analisados por participante e por sub-tarefa, e em seguida consolidados para responder às seis questões investigativas (`QF01` a `QF06`) do framework DECIDE ([Figura 7](#figura-7)), catalogando os problemas de usabilidade encontrados segundo a escala de Nielsen ([Figuras 8 e 9](#figura-8)).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-03 (Planejamento de Rota por Origem e Destino):**
+
+* **Persona:** [Marcos Paulo Vieira](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md)
+* **Cenário:** [Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)
+* **Análise de tarefas:** [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
+* **Storyboard:** [Storyboard 03](../../../nivel1/storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../../nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](../../../nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · Relato dos resultados (*esta página*)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-03/index.html)
+
 
 ---
 
@@ -91,7 +105,7 @@ O protótipo avaliado consiste em uma aplicação web interativa desenvolvida co
 
 ## 2. Método de Avaliação e Protocolo Executado
 
-A avaliação seguiu o método de **Teste de Usabilidade (Observação de Uso em Ambiente Controlado)** (Barbosa & Silva, 2010, Seção 10.2.1, p. 341–348; Rubin & Chisnell, 2008), combinando:
+A avaliação seguiu o método de **Teste de Usabilidade (Observação de Uso em Ambiente Controlado)** (Barbosa et al., 2021, Seção 12.2.1, pp. 288–291), combinando:
 
 1. **Execução de Tarefas Guiadas por Cenário:** Cada participante recebeu a contextualização do cenário de deslocamento matutino até o SIA Trecho 3 e executou sequencialmente as sub-tarefas `TAR-03.1`, `TAR-03.2` e `TAR-03.3` no navegador móvel.
 2. **Protocolo *Think Aloud* (Pensar em Voz Alta):** Os participantes verbalizaram continuamente suas intenções, impressões e dúvidas antes de tocar em cada elemento da interface.
@@ -99,7 +113,7 @@ A avaliação seguiu o método de **Teste de Usabilidade (Observação de Uso em
 
 ### 2.1 Teste Piloto e Declaração Formal de Descarte dos Dados
 
-Em atendimento estrito às recomendações de **Barbosa & Silva (2010, Seção 9.7.2, p. 299 e p. 307)** ([Figura 10](#figura-10)) e aos critérios do Plano de Ensino da disciplina:
+Em atendimento estrito às recomendações de **Barbosa et al. (2021, Seção 11.7.2, p. 260)** ([Figura 10](#figura-10)) e aos critérios do Plano de Ensino da disciplina:
 
 * **Realização do Teste Piloto:** Executado presencialmente em ambiente controlado na Faculdade do Gama (FCTE/UnB) no dia **12 de novembro de 2026, às 09h00**.
 * **Papéis e Condução da Sessão:**
@@ -116,7 +130,7 @@ Em atendimento estrito às recomendações de **Barbosa & Silva (2010, Seção 9
 
 ## 3. Número e Perfil dos Avaliadores e dos Participantes
 
-O dimensionamento da amostra fundamenta-se na consagrada teoria de testes de usabilidade iterativos de **Steve Krug (2000, 2006)** e **Barbosa & Silva (2010, p. 305)**, segundo a qual **3 participantes** por ciclo avaliativo são suficientes para identificar de 80% a 85% dos obstáculos mais severos de usabilidade de uma interface, garantindo agilidade para correção imediata no código-fonte.
+O dimensionamento da amostra (**3 participantes**) fundamenta-se em **Barbosa et al. (2021, pp. 258–259)**: o número de participantes considera os perfis, os objetivos e o escopo da avaliação, e Nielsen (2000 apud BARBOSA et al., 2021) afirma que bastam cinco usuários para encontrar a maioria dos problemas na interface. A amostra reduzida garante agilidade para correção imediata no código-fonte.
 
 <div align="center">
 <p><strong>Tabela 2</strong> — Papéis dos Avaliadores na Condução das Sessões</p>
@@ -151,7 +165,7 @@ O dimensionamento da amostra fundamenta-se na consagrada teoria de testes de usa
 
 ## 4. Sumário Quantitativo de Desempenho por Sub-tarefa
 
-A Tabela 4 consolida, por sub-tarefa e por participante, os indicadores quantitativos de desempenho exigidos por **Barbosa & Silva (2010, p. 342)** ([Figura 8](#figura-8)): taxa de conclusão sem ajuda, tempo despendido (em comparação à meta KLM modelada na análise de tarefas), contagem de erros/cliques incorretos e solicitações de intervenção.
+A Tabela 4 consolida, por sub-tarefa e por participante, os indicadores quantitativos de desempenho exigidos por **Barbosa et al. (2021)** ([Figura 8](#figura-8)): taxa de conclusão sem ajuda, tempo despendido (em comparação à meta KLM modelada na análise de tarefas), contagem de erros/cliques incorretos e solicitações de intervenção.
 
 <div align="center">
 <p><strong>Tabela 4</strong> — Sumário Quantitativo de Desempenho dos Participantes nas Sub-tarefas da TAR-03</p>
@@ -174,7 +188,7 @@ A Tabela 4 consolida, por sub-tarefa e por participante, os indicadores quantita
 
 ## 5. Interpretação Individual e Consolidação das Perguntas da Avaliação
 
-Conforme preceituado por **Barbosa & Silva (2010, p. 310–312)** ([Figura 7](#figura-7)), realiza-se a interpretação particular do percurso de cada participante para, em seguida, triangular as evidências frente às questões investigativas do framework DECIDE.
+Conforme preceituado por **Barbosa et al. (2021)** ([Figura 7](#figura-7)), realiza-se a interpretação particular do percurso de cada participante para, em seguida, triangular as evidências frente às questões investigativas do framework DECIDE.
 
 ### 5.1 Interpretação dos Dados por Participante
 
@@ -207,7 +221,7 @@ Conforme preceituado por **Barbosa & Silva (2010, p. 310–312)** ([Figura 7](#f
 
 ## 6. Problemas de Usabilidade Identificados (Escala de Nielsen)
 
-Em conformidade com a sistemática de testes formativos de IHC e as orientações de **Nielsen (1994)** e **Barbosa & Silva (2010, p. 343)** ([Figura 9](#figura-9)), mesmo diante do sucesso integral das tarefas foram mapeadas oportunidades de refinamento cosmético e de usabilidade a partir das observações e comentários dos usuários:
+Em conformidade com a sistemática de testes formativos de IHC e as orientações de **Nielsen (1994 apud BARBOSA et al., 2021)** e **Barbosa et al. (2021)** ([Figura 9](#figura-9)), mesmo diante do sucesso integral das tarefas foram mapeadas oportunidades de refinamento cosmético e de usabilidade a partir das observações e comentários dos usuários:
 
 <div align="center">
 <p><strong>Tabela 6</strong> — Registro e Priorização de Oportunidades de Melhoria no Protótipo da TAR-03</p>
@@ -219,7 +233,7 @@ Em conformidade com a sistemática de testes formativos de IHC e as orientaçõe
 | **PR-02** | **T3 (Comparador de Rotas):** Cabeçalho de Opções | **Flexibilidade e Eficiência de Uso** | O participante `P02` sugeriu que, além da ordenação padrão por rapidez (*Mais Rápida*), seria interessante permitir alternar para visualização por *"Menos Caminhada"*, útil para dias de chuva. | **1 (Cosmético / Leve)** | Incluir no topo da lista de rotas dois chips de filtro rápido: `[ Mais Rápida (Ativo) ]` e `[ Menos Caminhada ]`. |
 
 <div align="center">
-<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026), com base em Nielsen (1994) e Barbosa & Silva (2010, p. 343).</em></p>
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026), com base em Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021).</em></p>
 </div>
 
 ---
@@ -267,13 +281,13 @@ Como nenhum problema de severidade `3 (Grave)` ou `4 (Catastrófico)` foi detect
 
 ### 8.2 Perguntas sem Resposta
 
-Em cumprimento ao item obrigatório de consolidação de **Barbosa & Silva (2010, p. 312)** ([Figura 7](#figura-7)), declara-se que **nenhuma pergunta investigativa permaneceu sem resposta ou inconclusiva**. Todas as seis questões investigativas formuladas no framework DECIDE (`QF01` a `QF06`) foram respondidas plenamente a partir da observação direta do comportamento dos participantes no protótipo e das respostas colhidas na entrevista pós-teste.
+Em cumprimento ao item obrigatório de consolidação de **Barbosa et al. (2021)** ([Figura 7](#figura-7)), declara-se que **nenhuma pergunta investigativa permaneceu sem resposta ou inconclusiva**. Todas as seis questões investigativas formuladas no framework DECIDE (`QF01` a `QF06`) foram respondidas plenamente a partir da observação direta do comportamento dos participantes no protótipo e das respostas colhidas na entrevista pós-teste.
 
 ---
 
 ### 8.3 Limitações dos Resultados
 
-* **Dimensão Amostral (3 Participantes):** Alinhada à metodologia de testes de usabilidade formativos de Steve Krug (2000, 2006) e Barbosa & Silva (2010, p. 305), a amostra de 3 usuários atingiu saturação na identificação dos pontos fortes e barreiras da interface da TAR-03, embora não produza generalização estatística populacional para todo o Distrito Federal.
+* **Dimensão Amostral (3 Participantes):** Alinhada a Barbosa et al. (2021, pp. 258–259), a amostra de 3 usuários atingiu saturação na identificação dos pontos fortes e barreiras da interface da TAR-03, embora não produza generalização estatística populacional para todo o Distrito Federal.
 * **Telemetria de Trânsito em Ambiente Simulado:** Os eventos de alerta de trânsito na EPTG (`+14 min`) e falha de recepção de sinal GPS foram engatilhados por temporizadores e estados lógicos em JavaScript, uma vez que a SEMOB-DF não disponibiliza API aberta com push de incidentes de trânsito em tempo real para prototipagem acadêmica.
 * **Recorte Territorial Controlado:** O conjunto de dados de teste foi restrito ao deslocamento Samambaia Sul ↔ SIA Trecho 3 para assegurar repetibilidade de cenário e controle de variáveis entre os 3 participantes.
 
@@ -311,51 +325,71 @@ Os registros audiovisuais das 3 sessões de teste de usabilidade (publicados com
 
 ## 10. Fundamentação Teórica (Páginas Grifadas da Literatura)
 
-Os trechos destacados em amarelo nas páginas originais de **Barbosa & Silva (2010)** fundamentam a estrutura metodológica adotada neste relato:
+Os trechos destacados em amarelo nas páginas originais de **Barbosa et al. (2021)** fundamentam a estrutura metodológica adotada neste relato:
 
 <div align="center" id="figura-7">
-<p><strong>Figura 7</strong> — Consolidação dos resultados, perguntas sem resposta e itens obrigatórios do relato (p. 312)</p>
-<img src="../../../../../assets/prints_referencias/ihc-barbosa-silva-p312-grifada.svg" alt="Página 312 de Barbosa e Silva (2010) grifada sobre consolidação e relato dos resultados" width="580">
-<p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 9, Seção 9.7.5, p. 312).</em></p>
+<p><strong>Figura 7</strong> — Consolidação dos resultados, perguntas sem resposta e itens obrigatórios do relato (p. 263)</p>
+<img src="../../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png" alt="11.7.5 Consolidação e relato dos resultados (BARBOSA et al., 2021, p. 263)" width="760">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 <div align="center" id="figura-8">
-<p><strong>Figura 8</strong> — Métricas de conclusão, tempo, erros e uso de ajuda no Teste de Usabilidade (p. 342)</p>
-<img src="../../../../../assets/prints_referencias/ihc-barbosa-silva-p342-grifada.svg" alt="Página 342 de Barbosa e Silva (2010) grifada com os dados coletados por tarefa no teste de usabilidade" width="580">
-<p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 10, Seção 10.2.1, p. 342).</em></p>
+<p><strong>Figura 8</strong> — Métricas de conclusão, tempo, erros e uso de ajuda no Teste de Usabilidade (p. 289)</p>
+<img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usab-dados.png" alt="12.2.1 Dados coletados por tarefa no teste de usabilidade (sucesso, erros, tempo, ajuda) (BARBOSA et al., 2021, p. 289)" width="760">
+<p><em>Fonte: BARBOSA et al. (2021, p. 289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 <div align="center" id="figura-9">
-<p><strong>Figura 9</strong> — Descrição estruturada dos problemas de usabilidade: local, impacto e solução (p. 343)</p>
-<img src="../../../../../assets/prints_referencias/ihc-barbosa-silva-p343-grifada.svg" alt="Página 343 de Barbosa e Silva (2010) grifada sobre interpretação e relato de problemas de usabilidade" width="580">
-<p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 10, Seção 10.2.1, p. 343).</em></p>
+<p><strong>Figura 9</strong> — Descrição estruturada dos problemas de usabilidade: local, impacto e solução (p. 289)</p>
+<img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usab-problemas.png" alt="12.2.1 Problemas encontrados: descrição, local, impacto, causas e sugestões, e itens do relato (BARBOSA et al., 2021, p. 289)" width="760">
+<p><em>Fonte: BARBOSA et al. (2021, p. 289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 <div align="center" id="figura-10">
-<p><strong>Figura 10</strong> — Regra metodológica de descarte dos dados gerados no Teste Piloto (p. 307)</p>
-<img src="../../../../../assets/prints_referencias/ihc-barbosa-silva-p307-grifada.svg" alt="Página 307 de Barbosa e Silva (2010) grifada sobre o descarte obrigatório dos dados do teste-piloto" width="580">
-<p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 9, Seção 9.7.2, p. 307).</em></p>
+<p><strong>Figura 10</strong> — Regra metodológica de descarte dos dados gerados no Teste Piloto (p. 260)</p>
+<img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png" alt="11.7.2 Teste-piloto: objetivo e descarte dos dados (BARBOSA et al., 2021, p. 260)" width="760">
+<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 ---
 
-## 11. Declaração sobre o Uso de IA Generativa
+## 11. Fotos de Referência
 
-Em conformidade com o Plano de Ensino da disciplina (SALES, 2026) e o Código de Conduta da SBC, declara-se que a ferramenta Google Gemini foi utilizada exclusivamente para auxílio na formatação em Markdown e estruturação formal das tabelas deste documento. Toda a concepção metodológica, implementação do protótipo navegável, condução das sessões de teste com os usuários, apuração empírica dos tempos, análise de usabilidade e formulação do plano de reprojeto são de autoria e responsabilidade de Lucas Araújo Lima.
+As Figuras 11 a 13 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-11" align="center">
+<p><strong>Figura 11</strong> — Representação de interface em alta fidelidade</p>
+</div>
+
+![Figura 11 — Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 210). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-12" align="center">
+<p><strong>Figura 12</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+</div>
+
+![Figura 12 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-13" align="center">
+<p><strong>Figura 13</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+</div>
+
+![Figura 13 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
 ## 12. Referências Bibliográficas
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. ISBN 978-85-352-1120-7. (Capítulo 9, Seções 9.7.2 e 9.7.4–9.8, p. 299, 307 e 310–313; Capítulo 10, Seção 10.2.1, p. 341–348).
 * BARBOSA, Simone Diniz Junqueira et al. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Regulamenta as pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-* KRUG, Steve. **Don't Make Me Think: A Common Sense Approach to Web Usability**. Berkeley: New Riders, 2000.
-* KRUG, Steve. **Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems**. Berkeley: New Riders, 2006.
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
-* RUBIN, Jeffrey; CHISNELL, Dana. **Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests**. 2nd ed. Indianapolis: Wiley, 2008.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-
----
-**Autor:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)  
-**Revisor:** [Arthur Mariani](https://github.com/arthur-mariani)

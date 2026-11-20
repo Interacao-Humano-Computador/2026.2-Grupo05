@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 12/11/2026 | `1.0` | Consolidação e relato dos resultados da avaliação de usabilidade do Protótipo de Alta Fidelidade (TAR-01) com 3 participantes. | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - Utilizada para apoio na estruturação das tabelas em Markdown e transcrição/revisão sintática dos dados empíricos. |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -10,7 +11,20 @@
 
 Neste documento, apresenta-se o **Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-01 (Alerta Inteligente de Saída de Casa)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/#tar-01-alerta-inteligente-de-saida)** da **SEMOB-DF / BRB Mobilidade**. O relatório consolida as evidências empíricas coletadas a partir dos testes de usabilidade e entrevistas pós-teste conduzidos com **três participantes** no protótipo interativo desenvolvido no **Figma**.
 
-A condução e a interpretação dos resultados fundamentam-se nas diretrizes metodológicas de Interação Humano-Computador (Barbosa et al., 2021, Cap. 11 e 12) e na teoria de testes de usabilidade de **Steve Krug** (2000, 2006).
+A condução e a interpretação dos resultados fundamentam-se nas diretrizes metodológicas de Interação Humano-Computador (Barbosa et al., 2021, Cap. 11 e 12).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-01 (Alerta Inteligente de Saída de Casa):**
+
+* **Persona:** [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md)
+* **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md)
+* **Análise de tarefas:** [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md)
+* **Storyboard:** [Storyboard 01](../../../nivel1/storyboards.md#31-storyboard-01-alerta-inteligente-de-saida-de-casa)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md) · Relato dos resultados (*esta página*)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://www.figma.com/proto/00YEuKWtN4N1rBzpC8V7Gd/prototipo-de-igor?node-id=0-1&t=S9Z2PNsKlHC3LlTt-1)
+
 
 ---
 
@@ -20,6 +34,81 @@ O objeto desta avaliação é o protótipo interativo de alta fidelidade da **[T
 
 * **Protótipo Interativo no Figma:** [Acessar o protótipo no Figma](https://www.figma.com/proto/00YEuKWtN4N1rBzpC8V7Gd/prototipo-de-igor?node-id=0-1&t=S9Z2PNsKlHC3LlTt-1)
 * **Telas do Protótipo (PDF):** [Visualizar PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf)
+
+
+As Figuras 1 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md).
+
+<div id="figura-1" align="center" markdown="1">
+<p><strong>Figura 1</strong> — Alerta de saída imediata, com as opções "Estou saindo!" e "Buscar rota alternativa" (página 1 do PDF das telas)</p>
+
+![Alerta de saída imediata, com as opções 'Estou saindo!' e 'Buscar rota alternativa' (página 1 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-01.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-2" align="center" markdown="1">
+<p><strong>Figura 2</strong> — Mapa do trajeto a pé até a parada (página 2 do PDF das telas)</p>
+
+![Mapa do trajeto a pé até a parada (página 2 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-02.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-3" align="center" markdown="1">
+<p><strong>Figura 3</strong> — Tela inicial com origem, destino, destinos favoritos e linhas favoritas (página 3 do PDF das telas)</p>
+
+![Tela inicial com origem, destino, destinos favoritos e linhas favoritas (página 3 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-03.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-4" align="center" markdown="1">
+<p><strong>Figura 4</strong> — Monitoramento ativo da linha BRT 2202 (TR-21) (página 4 do PDF das telas)</p>
+
+![Monitoramento ativo da linha BRT 2202 (TR-21) (página 4 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-04.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-5" align="center" markdown="1">
+<p><strong>Figura 5</strong> — Rotas alternativas para o destino UnB – Campus Gama (página 5 do PDF das telas)</p>
+
+![Rotas alternativas para o destino UnB – Campus Gama (página 5 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-05.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-6" align="center" markdown="1">
+<p><strong>Figura 6</strong> — Monitoramento ativo da rota 206.1 (página 6 do PDF das telas)</p>
+
+![Monitoramento ativo da rota 206.1 (página 6 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-06.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-7" align="center" markdown="1">
+<p><strong>Figura 7</strong> — Monitoramento ativo da rota 207.3 → 208.1 (página 7 do PDF das telas)</p>
+
+![Monitoramento ativo da rota 207.3 → 208.1 (página 7 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-07.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-8" align="center" markdown="1">
+<p><strong>Figura 8</strong> — Monitoramento ativo da rota 108.2 → 209.1 (página 8 do PDF das telas)</p>
+
+![Monitoramento ativo da rota 108.2 → 209.1 (página 8 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-08.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-9" align="center" markdown="1">
+<p><strong>Figura 9</strong> — Monitoramento ativo da linha BRT 2202 (TR-21) (página 9 do PDF das telas)</p>
+
+![Monitoramento ativo da linha BRT 2202 (TR-21) (página 9 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-09.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
 
 ---
 
@@ -96,7 +185,7 @@ Abaixo estão reservadas as seções para acesso aos registros em vídeo (grava�
 
 A avaliação adotou o método de **Teste de Usabilidade (Observação de Uso em Ambiente Controlado)** apoiado pela técnica de **Pensar em Voz Alta (*Think Aloud*)** e finalizado com uma entrevista semiestruturada pós-teste. 
 
-A amostragem foi dimensionada em **três participantes**, apoiando-se na teoria de testes de usabilidade simplificados de **Steve Krug** (2000, 2006; Santa-Rosa, 2005), que comprova que três a quatro usuários são capazes de identificar a vasta maioria das falhas críticas de usabilidade de um produto interativo com alta agilidade e eficiência.
+A amostragem foi dimensionada em **três participantes**, conforme o planejamento da avaliação, com base nas orientações de Barbosa et al. (2021, pp. 258–259) sobre o perfil e o número de participantes e na referência de Nielsen (2000 apud BARBOSA et al., 2021), segundo a qual poucos usuários bastam para encontrar a maioria dos problemas na interface.
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Caracterização Demográfica e Perfil dos Participantes Recrutados</p>
@@ -160,7 +249,7 @@ Todos os três participantes conseguiram interagir com o protótipo de alta fide
 
 ## 6. Tabela de Registro e Priorização de Problemas de IHC
 
-A análise das interações e dos comentários espontâneos dos entrevistados permitiu identificar dois pontos de refinamento de interface, classificados segundo a escala de severidade de problemas de Nielsen (1994) e Barbosa et al. (2021):
+A análise das interações e dos comentários espontâneos dos entrevistados permitiu identificar dois pontos de refinamento de interface, classificados segundo a escala de severidade de problemas de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021):
 
 <div align="center">
 <p><strong>Tabela 4</strong> — Registro, Classificação e Priorização de Problemas de Usabilidade</p>
@@ -214,21 +303,43 @@ Os dois problemas encontrados (PROB-F01 e PROB-F02) têm severidade leve e são 
 
 ---
 
-## 10. Declaração sobre o Uso de IA Generativa
+## 10. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas unicamente para auxílio na estruturação das tabelas em Markdown e revisão gramatical do texto. A aplicação dos testes de usabilidade com os 3 participantes, a transcrição dos áudios e a compilação crítica dos resultados são de inteira responsabilidade autoral de Igor Dantas Araújo.
+As Figuras 10 a 12 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-10" align="center">
+<p><strong>Figura 10</strong> — Representação de interface em alta fidelidade</p>
+</div>
+
+![Figura 10 — Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 210). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-11" align="center">
+<p><strong>Figura 11</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+</div>
+
+![Figura 11 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-12" align="center">
+<p><strong>Figura 12</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+</div>
+
+![Figura 12 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
 ## 11. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11, p. 245–266; Capítulo 12, p. 288–291).
-* KRUG, Steve. **Don't Make Me Think: A Common Sense Approach to Web Usability**. Berkeley: New Riders, 2000.
-* KRUG, Steve. **Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems**. Berkeley: New Riders, 2006.
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-* SANTA-ROSA, José Guilherme. **Avaliação e Projeto no Design de Interfaces: Teste de Usabilidade**. Rio de Janeiro, 2005.
-
----
-**Autor:** [Igor Dantas Araújo](https://github.com/IgorDARAUJO)  
-**Revisor:** [Gabriel Cardone](https://github.com/gabriellcardone-06)

@@ -1,11 +1,16 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração do uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 12/10/2026 | `1.0` | Elaboração do Cronograma e Logística das Sessões de Avaliação da Etapa 4 (agenda das sessões, plataformas, papéis, recrutamento previsto, logística e fundamentação teórica). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini - usado para estruturação do texto e formatação Markdown da página |
 | 23/10/2026 | `1.1` | Atualização da sessão S5 para o novo Storyboard 05 (Pedido de Aumento do Limite Diário do Vale-Transporte) e a TAR-09. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para atualizar a linha da sessão S5 |
-| 27/10/2026 | `1.2` | Atualização da sessão S4 para o Storyboard 08 e a TAR-06 (participante estudante, nova data e papéis), correção da sessão S6 para o Storyboard 06 e a TAR-08, e ajuste das Tabelas 3 e 4. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
-| 28/10/2026 | `1.3` | Registro da realização da sessão S4 (28/10/2026, presencial, sem observador, participante estudante do CMB) e ajuste da Tabela 3. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 27/10/2026 | `1.2` | Atualização da sessão S4 para o Storyboard 08 e a TAR-06 (participante estudante, nova data e papéis), correção da sessão S6 para o Storyboard 06 e a TAR-08, e ajuste das Tabelas 3 e 4. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 28/10/2026 | `1.3` | Registro da realização da sessão S4 (28/10/2026, presencial, sem observador, participante estudante do CMB) e ajuste da Tabela 3. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 19/11/2026 | `1.4` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Retirada da seção com print de livro que não é o da disciplina e renumeração das seções seguintes. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+
+!!! warning "Observação para correção manual"
+    A antiga seção 9 ("Imagem da Referência no Livro") foi retirada, porque mostrava um print do livro de Preece, Rogers e Sharp (2005), que não é o livro da disciplina. As citações de Preece, Rogers e Sharp na seção 2 foram mantidas como citação indireta (apud BARBOSA et al., 2021); o autor deve confirmar em que página de Barbosa et al. (2021) elas aparecem e se as citações diretas (entre aspas) estão no livro da disciplina.
 
 ---
 
@@ -31,20 +36,20 @@ As sessões acontecem **depois do teste piloto (17/10/2026)** e **antes da entre
 
 ### 2.1 A entrevista semiestruturada
 
-Preece, Rogers e Sharp (2005) classificam as entrevistas em **não estruturadas**, **estruturadas** e **semiestruturadas**. As sessões deste projeto usam o tipo semiestruturado, descrito pelos autores no trecho que pode ser visto na [imagem 1](#9-imagem-da-referencia-no-livro):
+Preece, Rogers e Sharp (2002 apud BARBOSA et al., 2021) classificam as entrevistas em **não estruturadas**, **estruturadas** e **semiestruturadas**. As sessões deste projeto usam o tipo semiestruturado, descrito pelos autores no trecho que pode ser visto na [imagem 1](#9-imagem-da-referencia-no-livro):
 
 > *"As entrevistas semi-estruturadas combinam características de entrevistas estruturadas e não-estruturadas e utilizam tanto perguntas fechadas como abertas. Para manter a consistência, o entrevistador conta com um roteiro básico para guiar-se; dessa forma, os mesmos tópicos serão abordados pelos diferentes entrevistados. O entrevistador inicia com questões pré-planejadas e faz com que o entrevistado estenda sua fala, até que nenhuma informação nova e relevante surja."*  
-> — **PREECE, ROGERS e SHARP (2005, Cap. 13, Seção 13.2.4, p. 416)**.
+> — **PREECE, ROGERS e SHARP (2019 apud BARBOSA et al., 2021)**.
 
 Isso justifica a forma das sessões. Todas seguem o **mesmo roteiro básico** do teste piloto, o que permite comparar os resultados dos 7 storyboards. Ao mesmo tempo, o avaliador pode pedir que o participante fale mais sobre o que ele trouxer.
 
 Na mesma seção, os autores alertam para dois cuidados na condução, que valem para todos os avaliadores do cronograma:
 
 > *"É importante não antecipar nenhuma resposta elaborando-se uma pergunta que sugira que de fato alguma em particular é esperada. [...] A linguagem corporal daquele que conduz a entrevista, por exemplo, esteja ele sorrindo, franzindo a testa, com um olhar de desaprovação, etc. pode exercer uma grande influência."*  
-> — **PREECE, ROGERS e SHARP (2005, p. 416)**.
+> — **PREECE, ROGERS e SHARP (2019 apud BARBOSA et al., 2021)**.
 
 > *"O entrevistador também necessita acomodar os silêncios e não se movimentar muito rapidamente. Dê tempo para que a pessoa fale."*  
-> — **PREECE, ROGERS e SHARP (2005, p. 416)**.
+> — **PREECE, ROGERS e SHARP (2019 apud BARBOSA et al., 2021)**.
 
 Esses cuidados explicam duas decisões deste documento. A primeira é a premissa 6 da Tabela 1: quem conduz a sessão não é o autor do storyboard, para não induzir respostas favoráveis. A segunda é a janela de 60 min para uma sessão de 45 min, que deixa tempo para o participante falar sem pressa.
 
@@ -272,20 +277,33 @@ Os critérios de seleção, a quantidade de participantes e o TCLE são definido
 
 ---
 
-## 9. Imagem da Referência no Livro
+## 9. Fotos de Referência
 
-Conforme as diretrizes da disciplina, a fundamentação sobre o planejamento e a condução de entrevistas encontra-se no livro de referência:
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
-![Imagem 1](../../assets/prints_referencias/print-teoria-entrevistas.png)
-*Imagem 1 - Preece, Rogers e Sharp, 2005, Cap. 13, Seção 13.2.4, p. 416*
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — 11.7.2 Questões práticas e material de apoio da avaliação</p>
+</div>
+
+![Figura 1 — 11.7.2 Questões práticas e material de apoio da avaliação](../../assets/prints_referencias/verificacao-v2/livro-questoes-praticas-material.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 259). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — 11.7.2 Duração das tarefas e das sessões de avaliação</p>
+</div>
+
+![Figura 2 — 11.7.2 Duração das tarefas e das sessões de avaliação](../../assets/prints_referencias/verificacao-v2/livro-tempo-tarefas.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 259). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
 ## 10. Referências Bibliográficas
 
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. Porto Alegre: Bookman, 2005. (Capítulo 13: Perguntando a Usuários e Especialistas, Seção 13.2.4, p. 416).
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.
-
----
-**Autor:** [Tomás Rocho](https://github.com/TomasRocho)  
-**Revisor:** [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)

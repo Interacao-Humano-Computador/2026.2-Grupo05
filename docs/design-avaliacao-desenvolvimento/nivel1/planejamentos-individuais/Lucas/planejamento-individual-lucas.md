@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração do uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Elaboração do Planejamento Individual de Tarefas de Lucas Araújo para a Etapa 4. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini - utilizado apenas para formatação em Markdown |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -13,6 +14,19 @@
 A **Etapa 4** do projeto de Interação Humano-Computador (IHC), aplicado ao portal e serviços da **SEMOB-DF / BRB Mobilidade**, compreende o planejamento sistemático das avaliações formativas de IHC. Conforme estabelecido no [Plano de Ensino da Disciplina](https://interacao-humano-computador.github.io/2026.2-Grupo05/assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf) (páginas 12 e 13) e no [Planejamento Geral da Equipe](file:///Users/macbook/Documents/IHC/docs/design-avaliacao-desenvolvimento/nivel1/), cada integrante possui responsabilidades individuais intransferíveis de modelagem, redação de artefatos metodológicos, fundamentação teórica referenciada e inspeção por pares.
 
 Este documento formaliza as atribuições, o fluxo operacional, os cronogramas de entrega e os critérios de aceitação específicos do integrante **Lucas Araújo Lima**.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-03 (Planejamento de Rota por Origem e Destino):**
+
+* **Persona:** [Marcos Paulo Vieira](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md)
+* **Cenário:** [Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)
+* **Análise de tarefas:** [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
+* **Storyboard:** [Storyboard 03](../../storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · Planejamento individual de tarefas (*esta página*) · [Questões práticas e éticas](questoes-praticas-e-eticas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-03/index.html)
+
 
 ---
 
@@ -28,7 +42,7 @@ A Tabela 1 detalha o escopo de atuação de Lucas Araújo na Etapa 4, articuland
 | :--- | :--- | :--- | :--- |
 | **Storyboard Individual** | **Storyboard 03:** *Planejamento de Rota por Origem/Destino e Rastreamento de Ônibus em Tempo Real*. | [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)<br>[Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)<br>[Persona Marcos Paulo Vieira](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md) | [Arthur Mariani](https://github.com/arthur-mariani) |
 | **Artefato Metodológico Central** | **Questões Práticas e Éticas da Avaliação:** Estruturação de recrutamento, perfil, infraestrutura, custos e minuta completa do TCLE. | [Perfil Primário](../../../../analise-de-requisitos/perfis-de-usuario/perfil-primario.md)<br>Checklist Itens 5 e 6 | [Arthur Mariani](https://github.com/arthur-mariani) |
-| **Fundamentação Teórica** | Seção teórica sobre *Aspectos Éticos em Pesquisas com Usuários e TCLE* (Barbosa et al., 2021). | Cap. 5 (pp. 138–142)<br>Prints das páginas do livro | [Arthur Mariani](https://github.com/arthur-mariani) |
+| **Fundamentação Teórica** | Seção teórica sobre *Aspectos Éticos em Pesquisas com Usuários e TCLE* (Barbosa et al., 2021). | Cap. 7, Seção 7.4 (pp. 126–129)<br>Prints das páginas do livro | [Arthur Mariani](https://github.com/arthur-mariani) |
 | **Revisão por Pares (Inspeção Cruzada)** | Inspeção do **Storyboard 04** e do documento de **Planejamento da Avaliação da Análise de Tarefas via DECIDE**. | Artefatos de [Carlos Costa](https://github.com/carloshfgit)<br>Checklist Itens 2, 3 e 4 | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
 | **Comunicação e Disseminação** | Participação na gravação em vídeo da apresentação da Etapa 4. | Apresentação em vídeo (YouTube Não Listado) | Equipe Grupo 05 |
 
@@ -52,7 +66,7 @@ A Tabela 1 detalha o escopo de atuação de Lucas Araújo na Etapa 4, articuland
 ### 3.2. Artefato de Questões Práticas e Éticas da Avaliação
 * **Objetivo:** Estabelecer o protocolo prático, logístico e ético que orientará todas as sessões de avaliação formativa com usuários da Etapa 5.
 * **Componentes Obrigatórios:**
-  * **Recrutamento:** Critérios de elegibilidade alinhados ao Perfil Primário (passageiro do STPC/DF), definição do tamanho amostral com base em Nielsen (2000) e Dumas & Redish (1999);
+  * **Recrutamento:** Critérios de elegibilidade alinhados ao Perfil Primário (passageiro do STPC/DF), definição do tamanho amostral com base em Nielsen (2000 apud BARBOSA et al., 2021) e Dumas & Redish (1999 apud BARBOSA et al., 2021);
   * **Recursos e Infraestrutura:** Relação detalhada de hardware, software de conferência (Microsoft Teams), software de gravação redundante (OBS / 123APPS) e conectividade;
   * **Orçamento Estimado:** Demonstração de custo financeiro nulo (uso de infraestrutura acadêmica e trabalho voluntário);
   * **Termo de Consentimento Livre e Esclarecido (TCLE):** Minuta integral contendo autorização expressa para gravação de imagem e voz, compromisso de anonimato, confidencialidade e liberdade de desistência sem ônus.
@@ -107,7 +121,7 @@ A Tabela 3 consolida a autoavaliação de conformidade dos artefatos produzidos 
 | **6** | Respeito aos participantes, minimização de riscos e presença do TCLE com autorização de gravação. | **Conforme** | Seções 4 e 5 do documento `questoes-praticas-e-eticas.md`. |
 | **9** | Cada Storyboard explicitamente vinculado a uma tarefa da Análise de Tarefas (HTA/CTT). | **Conforme** | Seção 3.3 de `storyboards.md` vinculado à TAR-03. |
 | **10** | Quantidade de Storyboards compatível com o número de integrantes (Storyboard 03/07). | **Conforme** | Storyboard 03 integrado ao repositório. |
-| **14** | Fundamentação teórica individual com citação formal, página e imagem da página do livro. | **Conforme** | Seção 4 do documento de Ética com prints das pp. 139 e 141. |
+| **14** | Fundamentação teórica individual com citação formal, página e imagem da página do livro. | **Conforme** | Seção 4 do documento de Ética com prints das pp. 126–129. |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Lucas Araújo (2026).</em></p>
@@ -115,15 +129,53 @@ A Tabela 3 consolida a autoavaliação de conformidade dos artefatos produzidos 
 
 ---
 
-## 6. Referências Bibliográficas
+## 6. Fotos de Referência
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 196, de 10 de outubro de 1996**. Diretrizes e normas regulamentadoras de pesquisas envolvendo seres humanos. Brasília: Diário Oficial da União, 1996.
-* DUMAS, Joseph S.; REDISH, Janice C. **A Practical Guide to Usability Testing**. Exeter: Intellect Books, 1999.
-* NIELSEN, Jakob. **Why You Only Need to Test with 5 Users**. Alertbox, 2000. Disponível em: <https://www.nngroup.com/articles/why-you-only-need-to-test-with-5-users/>.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. São Paulo: Editora Érica, 2005.
-* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Faculdade UnB Gama (FCTE/UnB), 2026.
+As Figuras 1 a 4 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 1 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
+</div>
+
+![Figura 2 — 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 248). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
+</div>
+
+![Figura 3 — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 251). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-4" align="center">
+<p><strong>Figura 4</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+</div>
+
+![Figura 4 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
-**Autor:** [Lucas Araújo](https://github.com/Lucasaraujoszz)  
-**Revisor:** [Arthur Mariani](https://github.com/arthur-mariani)
+
+## 7. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Faculdade UnB Gama (FCTE/UnB), 2026.

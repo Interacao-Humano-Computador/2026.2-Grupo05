@@ -1,25 +1,30 @@
-# Metas de Usabilidade
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 06/10/2026 | 1.0 | Definição e justificativa das metas de usabilidade para o portal da SEMOB-DF com base nos fatores apresentados por Barbosa e Silva (2010). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 06/10/2026 | `1.0` | Definição e justificativa das metas de usabilidade para o portal da SEMOB-DF com base nos fatores apresentados por Barbosa e Silva (2010). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+
+!!! warning "Observação para correção manual"
+    A legenda da Imagem 4 citava a p. 342 da edição de 2010; foi trocada pela p. 289 da edição de 2021. O autor deve confirmar se o print é da edição de 2021.
 
 ---
 
+# Metas de Usabilidade
+
 ## 1. Introdução
 
-Este documento define as metas de usabilidade que orientarão o projeto de Interação Humano-Computador do portal da **Secretaria de Estado de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)**. A fundamentação teórica utiliza exclusivamente o livro *Interação Humano-Computador*, de Barbosa e Silva (2010), enquanto a seleção e a priorização das metas são decisões da equipe aplicadas às evidências registradas nos artefatos do projeto.
+Este documento define as metas de usabilidade que orientarão o projeto de Interação Humano-Computador do portal da **Secretaria de Estado de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)**. A fundamentação teórica utiliza exclusivamente o livro *Interação Humano-Computador*, de Barbosa et al. (2021), enquanto a seleção e a priorização das metas são decisões da equipe aplicadas às evidências registradas nos artefatos do projeto.
 
-Barbosa e Silva (2010, pp. 105-106), ao apresentarem a Engenharia de Usabilidade de Nielsen, explicam que a definição das metas de usabilidade envolve:
+Barbosa et al. (2021), ao apresentarem a Engenharia de Usabilidade de Nielsen, explicam que a definição das metas de usabilidade envolve:
 
 1. definir os fatores de qualidade de uso que devem ser priorizados no projeto;
 2. determinar como esses fatores serão avaliados ao longo do processo de design;
 3. estabelecer faixas de valores inaceitáveis, aceitáveis e ideais para cada indicador de interesse;
 4. considerar, com frequência, os indicadores atuais de desempenho dos usuários ao utilizarem o sistema.
 
-No processo de Engenharia de Usabilidade de Mayhew, adotado pelo projeto, as metas são definidas na fase de análise de requisitos com base no perfil dos usuários, na análise de tarefas, nas possibilidades e limitações da plataforma e nos princípios gerais de design de IHC (Barbosa e Silva, 2010, pp. 109-110).
+No processo de Engenharia de Usabilidade de Mayhew, adotado pelo projeto, as metas são definidas na fase de análise de requisitos com base no perfil dos usuários, na análise de tarefas, nas possibilidades e limitações da plataforma e nos princípios gerais de design de IHC (Barbosa et al., 2021).
 
 ---
 
@@ -27,9 +32,9 @@ No processo de Engenharia de Usabilidade de Mayhew, adotado pelo projeto, as met
 
 ### 2.1 Usabilidade e seus fatores
 
-Segundo a definição da ISO 9241-11 apresentada por Barbosa e Silva (2010, p. 29), a usabilidade corresponde ao grau em que usuários específicos utilizam um produto para alcançar objetivos específicos com **eficácia**, **eficiência** e **satisfação** em determinado contexto de uso.
+Segundo a definição da ISO 9241-11 apresentada por Barbosa et al. (2021), a usabilidade corresponde ao grau em que usuários específicos utilizam um produto para alcançar objetivos específicos com **eficácia**, **eficiência** e **satisfação** em determinado contexto de uso.
 
-O livro também apresenta os fatores de usabilidade definidos por Nielsen (1993):
+O livro também apresenta os fatores de usabilidade definidos por Nielsen (1994 apud BARBOSA et al., 2021):
 
 - facilidade de aprendizado;
 - facilidade de recordação;
@@ -39,7 +44,7 @@ O livro também apresenta os fatores de usabilidade definidos por Nielsen (1993)
 
 Unificando o fator de eficiência, presente nas duas referências, este documento considera seis fatores de usabilidade apresentados no livro: **eficácia, facilidade de aprendizado, facilidade de recordação, eficiência, segurança no uso e satisfação do usuário**.
 
-Barbosa e Silva (2010, p. 32) destacam que dificilmente um sistema apresentará o mesmo nível de qualidade em todos os fatores de usabilidade. A priorização deve ser realizada com base no conhecimento sobre os usuários, suas necessidades, atividades, objetivos e contextos de uso.
+Barbosa et al. (2021) destacam que dificilmente um sistema apresentará o mesmo nível de qualidade em todos os fatores de usabilidade. A priorização deve ser realizada com base no conhecimento sobre os usuários, suas necessidades, atividades, objetivos e contextos de uso.
 
 ### 2.2 Indicadores e faixas de valores
 
@@ -50,7 +55,7 @@ O Exemplo 4.1 do livro relaciona metas de usabilidade a indicadores observáveis
 - tempo despendido antes do abandono;
 - número de erros cometidos.
 
-Ao descrever os testes de usabilidade, Barbosa e Silva (2010, pp. 341-343) também apresentam como dados possíveis o grau de sucesso, o total e os tipos de erros, o número de consultas à ajuda, o grau de satisfação e as opiniões e os sentimentos dos participantes.
+Ao descrever os testes de usabilidade, Barbosa et al. (2021) também apresentam como dados possíveis o grau de sucesso, o total e os tipos de erros, o número de consultas à ajuda, o grau de satisfação e as opiniões e os sentimentos dos participantes.
 
 O livro orienta estabelecer faixas **inaceitáveis**, **aceitáveis** e **ideais** para os indicadores selecionados. Essas faixas não são universais: devem considerar os dados de desempenho atuais e os problemas observados no sistema avaliado. Por essa razão, este documento seleciona as metas e seus indicadores, mas mantém as faixas quantitativas pendentes até que seja realizada uma medição do portal atual da SEMOB-DF.
 
@@ -77,7 +82,7 @@ A fundamentação dos fatores permanece a apresentada pelo livro. As relações 
 
 #### Definição segundo o livro
 
-A eficácia está relacionada à capacidade de os usuários interagirem com o sistema para alcançar corretamente os objetivos esperados (Barbosa e Silva, 2010, p. 29).
+A eficácia está relacionada à capacidade de os usuários interagirem com o sistema para alcançar corretamente os objetivos esperados (Barbosa et al., 2021).
 
 #### Razão da seleção para a SEMOB-DF
 
@@ -93,7 +98,7 @@ A eficácia foi selecionada porque os usuários acessam os serviços de mobilida
 
 #### Definição segundo o livro
 
-A facilidade de aprendizado corresponde ao tempo e ao esforço necessários para que o usuário aprenda a utilizar o sistema com determinado nível de competência e desempenho (Barbosa e Silva, 2010, pp. 29-30).
+A facilidade de aprendizado corresponde ao tempo e ao esforço necessários para que o usuário aprenda a utilizar o sistema com determinado nível de competência e desempenho (Barbosa et al., 2021).
 
 #### Razão da seleção para a SEMOB-DF
 
@@ -110,7 +115,7 @@ Essa meta foi selecionada porque o portal atende usuários com diferentes nívei
 
 #### Definição segundo o livro
 
-A eficiência está relacionada aos recursos necessários para que os usuários interajam com o sistema e alcancem seus objetivos. O livro destaca, em especial, o tempo necessário para concluir uma atividade depois que o usuário aprendeu a utilizar o sistema (Barbosa e Silva, 2010, pp. 29-31).
+A eficiência está relacionada aos recursos necessários para que os usuários interajam com o sistema e alcancem seus objetivos. O livro destaca, em especial, o tempo necessário para concluir uma atividade depois que o usuário aprendeu a utilizar o sistema (Barbosa et al., 2021).
 
 #### Razão da seleção para a SEMOB-DF
 
@@ -126,7 +131,7 @@ A eficiência foi selecionada porque várias tarefas documentadas no projeto oco
 
 #### Definição segundo o livro
 
-A segurança no uso refere-se ao grau de proteção oferecido pelo sistema contra condições desfavoráveis ou perigosas. Segundo o livro, ela pode ser promovida evitando problemas e auxiliando o usuário a se recuperar de situações problemáticas (Barbosa e Silva, 2010, p. 31).
+A segurança no uso refere-se ao grau de proteção oferecido pelo sistema contra condições desfavoráveis ou perigosas. Segundo o livro, ela pode ser promovida evitando problemas e auxiliando o usuário a se recuperar de situações problemáticas (Barbosa et al., 2021).
 
 #### Razão da seleção para a SEMOB-DF
 
@@ -144,7 +149,7 @@ Essa meta foi selecionada porque erros ou ambiguidades em informações de mobil
 
 #### Definição segundo o livro
 
-A facilidade de recordação diz respeito ao esforço cognitivo necessário para o usuário lembrar como interagir com a interface conforme aprendeu anteriormente. O livro destaca a importância desse fator em operações e sistemas de baixa frequência de uso (Barbosa e Silva, 2010, p. 30).
+A facilidade de recordação diz respeito ao esforço cognitivo necessário para o usuário lembrar como interagir com a interface conforme aprendeu anteriormente. O livro destaca a importância desse fator em operações e sistemas de baixa frequência de uso (Barbosa et al., 2021).
 
 #### Razão da seleção para a SEMOB-DF
 
@@ -160,7 +165,7 @@ Essa meta foi selecionada porque o portal reúne tanto tarefas recorrentes, como
 
 #### Definição segundo o livro
 
-A satisfação corresponde à avaliação subjetiva que expressa o efeito do uso do sistema sobre as emoções e os sentimentos do usuário (Barbosa e Silva, 2010, p. 31).
+A satisfação corresponde à avaliação subjetiva que expressa o efeito do uso do sistema sobre as emoções e os sentimentos do usuário (Barbosa et al., 2021).
 
 #### Razão da seleção para a SEMOB-DF
 
@@ -192,46 +197,40 @@ Essa relação orienta quais fatores observar em cada tarefa, mas não substitui
 
 ## 6. Indicadores e Faixas de Valores
 
-Conforme Barbosa e Silva (2010, pp. 105-106), a definição das metas de usabilidade deve estabelecer faixas de valores inaceitáveis, aceitáveis e ideais para os indicadores selecionados. Como o projeto ainda não realizou a medição do desempenho dos usuários no portal atual da SEMOB-DF, essas faixas serão estabelecidas após a coleta dos dados. Os indicadores que orientarão essa medição estão apresentados junto a cada meta na Seção 4.
+Conforme Barbosa et al. (2021), a definição das metas de usabilidade deve estabelecer faixas de valores inaceitáveis, aceitáveis e ideais para os indicadores selecionados. Como o projeto ainda não realizou a medição do desempenho dos usuários no portal atual da SEMOB-DF, essas faixas serão estabelecidas após a coleta dos dados. Os indicadores que orientarão essa medição estão apresentados junto a cada meta na Seção 4.
 
-Segundo Barbosa e Silva (2010, pp. 341-343), esses dados podem ser coletados em testes de usabilidade nos quais representantes dos usuários realizam tarefas em condições controladas. A preparação deve definir tarefas, perfis dos participantes, materiais de registro e teste-piloto. A coleta deve registrar a performance e a opinião dos participantes, e os resultados devem ser posteriormente interpretados, consolidados e relatados.
+Segundo Barbosa et al. (2021), esses dados podem ser coletados em testes de usabilidade nos quais representantes dos usuários realizam tarefas em condições controladas. A preparação deve definir tarefas, perfis dos participantes, materiais de registro e teste-piloto. A coleta deve registrar a performance e a opinião dos participantes, e os resultados devem ser posteriormente interpretados, consolidados e relatados.
 
 ---
 
 ## 7. Conclusão
 
-As metas de usabilidade selecionadas para o portal da SEMOB-DF são eficácia, facilidade de aprendizado, eficiência, segurança no uso, facilidade de recordação e satisfação do usuário. Todos esses fatores são apresentados por Barbosa e Silva (2010). A razão de cada seleção foi estabelecida a partir dos perfis, tarefas, cenários e demais evidências do projeto, conforme o procedimento de Engenharia de Usabilidade de Mayhew descrito no livro.
+As metas de usabilidade selecionadas para o portal da SEMOB-DF são eficácia, facilidade de aprendizado, eficiência, segurança no uso, facilidade de recordação e satisfação do usuário. Todos esses fatores são apresentados por Barbosa et al. (2021). A razão de cada seleção foi estabelecida a partir dos perfis, tarefas, cenários e demais evidências do projeto, conforme o procedimento de Engenharia de Usabilidade de Mayhew descrito no livro.
 
 Os indicadores também foram selecionados entre aqueles apresentados pela obra. As faixas de valores inaceitáveis, aceitáveis e ideais serão definidas somente após a medição do desempenho atual, evitando atribuir valores sem evidência empírica.
 
 ---
 
-## 8. Declaração sobre o Uso de IA Generativa
-
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as tomadas de decisão e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
-
----
-
-## 9. Fotos de Referência
+## 8. Fotos de Referência
 
 ![Fatores de usabilidade apresentados no livro](../../assets/prints_referencias/referencia-metas-usabilidade-fatores.png){ width="700" }
 
-*Imagem 1 - Eficácia, eficiência, satisfação e fatores de usabilidade apresentados por Nielsen. Fonte: Barbosa e Silva (2010), p. 29.*
+*Imagem 1 - Eficácia, eficiência, satisfação e fatores de usabilidade apresentados por Nielsen. Fonte: Barbosa et al. (2021), p. 29.*
 
 ![Fundamentação para definição das metas de usabilidade](../../assets/prints_referencias/referencia-metas-usabilidade-fundamentacao.png){ width="700" }
 
-*Imagem 2 - Contexto da Engenharia de Usabilidade de Nielsen e início da definição das metas de usabilidade. Fonte: Barbosa e Silva (2010), p. 105.*
+*Imagem 2 - Contexto da Engenharia de Usabilidade de Nielsen e início da definição das metas de usabilidade. Fonte: Barbosa et al. (2021), p. 105.*
 
 ![Definição, indicadores e faixas das metas de usabilidade](../../assets/prints_referencias/referencia-metas-usabilidade-definicao.png){ width="700" }
 
-*Imagem 3 - Continuação da definição, Exemplo 4.1 e Figura 4.6 sobre indicadores e faixas. Fonte: Barbosa e Silva (2010), p. 106.*
+*Imagem 3 - Continuação da definição, Exemplo 4.1 e Figura 4.6 sobre indicadores e faixas. Fonte: Barbosa et al. (2021), p. 106.*
 
 ![Indicadores e atividades do teste de usabilidade](../../assets/prints_referencias/referencia-metas-usabilidade-avaliacao.png){ width="700" }
 
-*Imagem 4 - Atividades do teste de usabilidade e dados mensuráveis para avaliar metas. Fonte: Barbosa e Silva (2010), p. 342.*
+*Imagem 4 - Atividades do teste de usabilidade e dados mensuráveis para avaliar metas. Fonte: Barbosa et al. (2021), p. 289.*
 
 ---
 
-## 10. Referências Bibliográficas
+## 9. Referências Bibliográficas
 
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010. Seção 2.2.1: Usabilidade e Experiência de Usuário (pp. 28-32); Seções 4.3.2 e 4.3.3: Engenharia de Usabilidade de Nielsen e de Mayhew (pp. 104-110); Seção 10.2.1: Teste de Usabilidade (pp. 341-343).
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

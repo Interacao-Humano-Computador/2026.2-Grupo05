@@ -1,12 +1,13 @@
-# Planejamento da Avaliação do Protótipo de Papel (TAR-07)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 25/10/2026 | `1.0` | Criação do planejamento da avaliação formativa do protótipo de papel da TAR-07, estruturado pelo framework DECIDE. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Henrique](https://github.com/carloshfgit) | Google Gemini - apoio à estruturação em Markdown e revisão textual. |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
+
+# Planejamento da Avaliação do Protótipo de Papel (TAR-07)
 
 ## 1. Introdução e escopo
 
@@ -14,15 +15,28 @@ Este documento planeja a avaliação formativa de um **protótipo de papel** par
 
 O foco não é confirmar procedimentos operacionais do BRB Mobilidade, da SEMOB-DF ou do empregador. O foco é verificar se a interface proposta ajuda uma passageira trabalhadora a compreender a situação, identificar o responsável apropriado e encontrar um próximo passo sem precisar decifrar linguagem institucional nem navegar entre vários canais.
 
-Conforme Barbosa e Silva (2010, Capítulo 10, Seção 10.2.3), a prototipação em papel simula o uso de um design com potenciais usuários para encontrar problemas de usabilidade antes de haver um sistema executável. Portanto, o resultado esperado é uma lista priorizada de problemas e recomendações de reprojeto, e não uma validação conclusiva do serviço final.
+Conforme Barbosa et al. (2021, Seção 12.2.3), a prototipação em papel simula o uso de um design com potenciais usuários para encontrar problemas de usabilidade antes de haver um sistema executável. Portanto, o resultado esperado é uma lista priorizada de problemas e recomendações de reprojeto, e não uma validação conclusiva do serviço final.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-07 (Regularização de Crédito de Vale-Transporte):**
+
+* **Persona:** [Maria Eduarda Santos](../../../../analise-de-requisitos/personas/maria-eduarda-santos.md)
+* **Cenário:** [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md)
+* **Análise de tarefas:** [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md)
+* **Storyboard:** [Storyboard 07](../../../nivel1/storyboards.md#37-storyboard-07-regularizacao-de-credito-de-vale-transporte)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** telas no planejamento da avaliação (*nesta página*)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://arthur-mariani.github.io/PAF-IHC/credito/)
+
 
 ---
 
 ## 2. Fundamentação: DECIDE e prototipação em papel
 
-O planejamento aplica o framework **DECIDE** de forma iterativa: **D**eterminar os objetivos; **E**xplorar as perguntas; **C**hoose (escolher) os métodos; **I**dentificar e administrar questões práticas; **D**ecidir como lidar com questões éticas; e **E**valuate (avaliar), interpretar e apresentar os dados. No framework, as etapas são relacionadas: uma alteração de escopo, recursos ou participantes exige reexaminar as demais decisões (Barbosa; Silva, 2010, p. 312-313).
+O planejamento aplica o framework **DECIDE** de forma iterativa: **D**eterminar os objetivos; **E**xplorar as perguntas; **C**hoose (escolher) os métodos; **I**dentificar e administrar questões práticas; **D**ecidir como lidar com questões éticas; e **E**valuate (avaliar), interpretar e apresentar os dados. No framework, as etapas são relacionadas: uma alteração de escopo, recursos ou participantes exige reexaminar as demais decisões (Barbosa et al., 2021, pp. 263–264).
 
-A escolha da prototipação em papel também atende às atividades prescritas no livro: definir tarefas e participantes, criar telas e peças móveis, executar teste-piloto, observar cada participante, listar problemas, refinar o que for simples e consolidar correções por gravidade e frequência (Barbosa; Silva, 2010, p. 358-361).
+A escolha da prototipação em papel também atende às atividades prescritas no livro: definir tarefas e participantes, criar telas e peças móveis, executar teste-piloto, observar cada participante, listar problemas, refinar o que for simples e consolidar correções por gravidade e frequência (Barbosa et al., 2021, pp. 303–305).
 
 ---
 
@@ -67,7 +81,7 @@ As perguntas serão respondidas por observação da simulação, verbalizações
 
 ### 5.1 Método principal
 
-Será utilizada **prototipação em papel com observação de uso**, em sessão individual presencial. A participante indicará ações apontando, tocando ou dizendo o que faria; um avaliador desempenhará o papel de “computador” e trocará as peças de papel conforme as ações escolhidas. Um segundo avaliador observará e registrará a sessão. Essa divisão é necessária porque o livro recomenda que a coleta seja realizada por pelo menos dois avaliadores: um simula o sistema e outro observa a experiência de uso (Barbosa; Silva, 2010, p. 360).
+Será utilizada **prototipação em papel com observação de uso**, em sessão individual presencial. A participante indicará ações apontando, tocando ou dizendo o que faria; um avaliador desempenhará o papel de “computador” e trocará as peças de papel conforme as ações escolhidas. Um segundo avaliador observará e registrará a sessão. Essa divisão é necessária porque o livro recomenda que a coleta seja realizada por pelo menos dois avaliadores: um simula o sistema e outro observa a experiência de uso (Barbosa et al., 2021, p. 304).
 
 O pensamento em voz alta será apenas convidado, nunca exigido. Após a simulação, será feita uma entrevista curta para esclarecer decisões observadas e coletar sugestões.
 
@@ -150,13 +164,66 @@ Os resultados serão interpretados como evidência exploratória de uma avaliaç
 
 O relato dos resultados deverá apresentar objetivos e escopo; perfil anonimizado da participante; descrição do método e do protótipo; tarefas; evidências coletadas; problemas por prioridade; partes que funcionaram bem; limitações; alterações feitas no papel; e recomendações para a próxima iteração.
 
+
+## 9. Telas do Protótipo Avaliado
+
+A Figura 1 mostra as telas do protótipo de papel da [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md).
+
+<div id="figura-1" align="center" markdown="1">
+<p><strong>Figura 1</strong> — Protótipo de papel móvel para orientação sobre crédito de Vale-Transporte indisponível</p>
+
+![Protótipo de papel móvel para orientação sobre crédito de Vale-Transporte indisponível](../../../../assets/prototipos/prototipo-papel-tar-07.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Arthur Mariani (2026).</em></p>
+</div>
+
+---
 ---
 
-## 9. Referências bibliográficas
+## 10. Fotos de Referência
+As Figuras 2 a 5 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 9, Seção 9.8, p. 312-313; Capítulo 10, Seção 10.2.3, p. 358-361.
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 2 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
+</div>
+
+![Figura 3 — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 303). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-4" align="center">
+<p><strong>Figura 4</strong> — Tabela 12.9 – Atividades do método de prototipação em papel</p>
+</div>
+
+![Figura 4 — Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-5" align="center">
+<p><strong>Figura 5</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+</div>
+
+![Figura 5 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
-**Autor:** [Arthur Mariani](https://github.com/arthur-mariani)  
-**Revisor:** [Carlos Henrique](https://github.com/carloshfgit)
+## 11. Referências Bibliográficas
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

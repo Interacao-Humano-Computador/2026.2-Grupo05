@@ -1,20 +1,33 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 26/09/2026 | `1.0` | Lista de verificação referente à entrega 2 | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Não declarado pelo autor |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Padronização da estrutura no modelo das listas das Entregas 5 a 7 (seção única de perguntas, com subseções), sem alterar as perguntas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na padronização da estrutura |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+
+
+!!! warning "Observação para correção manual"
+    A versão 1.0 desta lista não registra o autor de cada pergunta. Por isso, a coluna "Autor" usada nas listas das Entregas 5 a 7 não foi incluída; os autores devem preenchê-la se quiserem manter o mesmo modelo.
+
+---
+
 # Lista de Verificação - Entrega 2
 
 !!! warning "Versão anterior (1.0) — mantida para rastreabilidade"
     Esta página é a versão 1.0 da lista e foi mantida sem alterações de conteúdo. A versão atual está em [v2/verif2.md](v2/verif2.md). Os itens 1–79 desta página têm o mesmo número, com prefixo G, na v2.0. O [índice das listas de verificação](index.md) mostra onde está cada versão e o que mudou.
 
-## Histórico de Versão e Contribuição
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Lista de verificação referente à entrega 2 | Arthur Mariani | [Carlos Costa](https://github.com/carloshfgit) |
-
-
 ## 1. Orientações
 
 Esta lista verifica a identificação de necessidades dos usuários, os aspectos éticos da pesquisa e as técnicas de elicitação de requisitos. Para cada pergunta, deve-se marcar apenas uma opção: **Conforme**, **Não conforme** ou **Não se aplica**.
 
-## 2. Que dados coletar?
+---
+
+## 2. Perguntas de verificação
+
+### 2.1 Que dados coletar?
 
 | Nº | Pergunta de verificação | Conforme | Não conforme | Não se aplica |
 | :---: | :--- | :---: | :---: | :---: |
@@ -34,7 +47,7 @@ Esta lista verifica a identificação de necessidades dos usuários, os aspectos
 | 14 | Foram coletados dados sobre a motivação para o trabalho, como carga horária, prazer, interação social e ambição de promoção? | ☐ | ☐ | ☐ |
 | 15 | Foram coletados dados sobre idiomas e jargões usados pelo usuário, pela organização, pela atividade ou por grupos sociais relevantes? | ☐ | ☐ | ☐ |
 
-## 3. De quem coletar dados?
+### 2.2 De quem coletar dados?
 
 | Nº | Pergunta de verificação | Conforme | Não conforme | Não se aplica |
 | :---: | :--- | :---: | :---: | :---: |
@@ -44,7 +57,7 @@ Esta lista verifica a identificação de necessidades dos usuários, os aspectos
 | 19 | A equipe considerou uma análise competitiva de IHC para mapear pontos fortes e fracos de produtos concorrentes ou substitutos? | ☐ | ☐ | ☐ |
 | 20 | Foram consideradas as limitações do uso de arquivos de log para evitar conclusões equivocadas sobre tempo de uso e conclusão de objetivos? | ☐ | ☐ | ☐ |
 
-## 4. Aspectos éticos de pesquisas envolvendo pessoas
+### 2.3 Aspectos éticos de pesquisas envolvendo pessoas
 
 | Nº | Pergunta de verificação | Conforme | Não conforme | Não se aplica |
 | :---: | :--- | :---: | :---: | :---: |
@@ -54,7 +67,7 @@ Esta lista verifica a identificação de necessidades dos usuários, os aspectos
 | 24 | Foram evitadas perguntas ou condutas que possam induzir viés nas respostas dos participantes? | ☐ | ☐ | ☐ |
 | 25 | A pesquisa ponderou riscos e benefícios, maximizando os benefícios e minimizando possíveis danos aos participantes? | ☐ | ☐ | ☐ |
 
-## 5. Técnica de entrevista
+### 2.4 Técnica de entrevista
 
 | Nº | Pergunta de verificação | Conforme | Não conforme | Não se aplica |
 | :---: | :--- | :---: | :---: | :---: |
@@ -64,7 +77,7 @@ Esta lista verifica a identificação de necessidades dos usuários, os aspectos
 | 29 | A entrevista é realizada individualmente com o participante? | ☐ | ☐ | ☐ |
 | 30 | A pesquisa especifica se o entrevistador recebeu treinamento antes de realizar a entrevista? | ☐ | ☐ | ☐ |
 
-## 6. Técnica de questionários
+### 2.5 Técnica de questionários
 
 | Nº | Pergunta de verificação | Conforme | Não conforme | Não se aplica |
 | :---: | :--- | :---: | :---: | :---: |
@@ -73,7 +86,7 @@ Esta lista verifica a identificação de necessidades dos usuários, os aspectos
 | 33 | As opções de adjetivos opostos foram bem definidas ao aplicar uma escala de diferencial semântico? | ☐ | ☐ | ☐ |
 | 34 | As faixas de valores foram elaboradas sem sobreposição de números e sem gerar dúvidas no respondente? | ☐ | ☐ | ☐ |
 
-## 7. Técnica de brainstorming
+### 2.6 Técnica de brainstorming
 
 | Nº | Pergunta de verificação | Conforme | Não conforme | Não se aplica |
 | :---: | :--- | :---: | :---: | :---: |
@@ -86,7 +99,7 @@ Esta lista verifica a identificação de necessidades dos usuários, os aspectos
 | 41 | Os participantes selecionados possuíam perfil semelhante ao da população-alvo, evitando misturar perfis na mesma sessão? | ☐ | ☐ | ☐ |
 | 42 | Foram fornecidos papel e lápis para que os participantes registrassem suas ideias durante a discussão? | ☐ | ☐ | ☐ |
 
-## 8. Árvores de Tarefas Concorrentes (CTT)
+### 2.7 Árvores de Tarefas Concorrentes (CTT)
 
 | Nº | Pergunta de verificação | Conforme | Não conforme | Não se aplica |
 | :---: | :--- | :---: | :---: | :---: |
@@ -101,7 +114,7 @@ Esta lista verifica a identificação de necessidades dos usuários, os aspectos
 | 51 | As relações de interrupção distinguem desativação de suspensão e retomada? | ☐ | ☐ | ☐ |
 | 52 | O modelo explicita as relações entre tarefas e os limites do CTT sobre tratamento de erros? | ☐ | ☐ | ☐ |
 
-## 9. Elenco de personas
+### 2.8 Elenco de personas
 
 | Nº | Pergunta de verificação | Conforme | Não conforme | Não se aplica |
 | :---: | :--- | :---: | :---: | :---: |
@@ -113,7 +126,7 @@ Esta lista verifica a identificação de necessidades dos usuários, os aspectos
 | 58 | As personas são suficientemente distintas entre si? | ☐ | ☐ | ☐ |
 | 59 | Foram incluídas antipersonas quando necessário? | ☐ | ☐ | ☐ |
 
-## 10. Análise Hierárquica de Tarefas (HTA)
+### 2.9 Análise Hierárquica de Tarefas (HTA)
 
 | Nº | Pergunta de verificação | Conforme | Não conforme | Não se aplica |
 | :---: | :--- | :---: | :---: | :---: |
@@ -126,7 +139,7 @@ Esta lista verifica a identificação de necessidades dos usuários, os aspectos
 | 66 | Há critério para interromper a decomposição da tarefa? | ☐ | ☐ | ☐ |
 | 67 | A decomposição foi validada com as partes interessadas? | ☐ | ☐ | ☐ |
 
-## 11. Personas
+### 2.10 Personas
 
 | Nº | Pergunta de verificação | Conforme | Não conforme | Não se aplica |
 | :---: | :--- | :---: | :---: | :---: |
@@ -143,7 +156,25 @@ Esta lista verifica a identificação de necessidades dos usuários, os aspectos
 | 78 | A persona é específica o suficiente para orientar decisões de design? | ☐ | ☐ | ☐ |
 | 79 | O conjunto de personas é pequeno, memorável e cobre os grupos principais? | ☐ | ☐ | ☐ |
 
-## 12. Bibliografia de apoio
+---
 
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Identificação de Necessidades dos Usuários e Requisitos de IHC*. In: BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010. Cap. 5.
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Personas, Análise Hierárquica de Tarefas e Árvores de Tarefas Concorrentes*. In: BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010. Cap. 6.
+## 3. Fotos de Referência
+
+A Figura 1 mostra o trecho que fundamenta este artefato, recortado e grifado em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 4. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.

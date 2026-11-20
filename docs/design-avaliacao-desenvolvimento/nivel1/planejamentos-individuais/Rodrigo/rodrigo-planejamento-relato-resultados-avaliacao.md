@@ -1,8 +1,13 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Storyboard 06 e da Análise de Tarefas (TAR-08). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - usado para formatação markdown da página |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+
+
+!!! warning "Observação para correção manual"
+    Os critérios da Tabela 6 eram atribuídos a Truong, Hayes e Abowd (2006), que não são referência do livro da disciplina. A citação foi retirada. O autor deve fundamentar os critérios no livro (o uso de storyboards é tratado em Barbosa et al., 2021, p. 107) ou confirmar a autoria própria da tabela.
 
 ---
 
@@ -13,6 +18,19 @@ Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avali
 O Storyboard 06 retrata o **fluxo atual** da tarefa (6 quadros), evidenciando as dificuldades da persona [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) ao tentar reclamar de um ônibus que passou direto pela parada, complementado pela discussão sobre a proposta de melhoria da [TAR-08](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/).
 
 A estrutura do relato foi concebida com base nas orientações da literatura de Interação Humano-Computador (Barbosa et al., 2021, Cap. 11, Seção 11.7.5), garantindo que as descobertas, os pontos positivos, os problemas identificados e as sugestões de reprojeto sejam apresentados de forma transparente, rastreável e acionável para a equipe de desenvolvimento.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-08 (Reclamação sobre Ônibus):**
+
+* **Persona:** [Cláudia Regina Santos](../../../../analise-de-requisitos/personas/claudia-regina-santos.md)
+* **Cenário:** [Cenário 11](../../../../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
+* **Análise de tarefas:** [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
+* **Storyboard:** [Storyboard 06](../../storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](rodrigo-planejamento-avaliacao.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+
 
 ---
 
@@ -56,7 +74,7 @@ Cada problema identificado será classificado quanto à sua **natureza**:
 * **Problema de conteúdo:** a situação, a tarefa ou a solução retratada não corresponde à experiência ou ao modelo mental do participante (por exemplo, o participante nunca usaria o site para reclamar e prefere o telefone 162).
 * **Problema de representação:** o conteúdo faz sentido, mas o storyboard ou o diagrama não o comunicou bem (por exemplo, o participante não percebeu que o quadro 3 acontece horas depois do quadro 2).
 
-Para classificar o impacto dos problemas identificados, adotar-se-á a **Escala de Severidade de Problemas** adaptada de Nielsen (1994) e Barbosa et al. (2021):
+Para classificar o impacto dos problemas identificados, adotar-se-á a **Escala de Severidade de Problemas** adaptada de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021):
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Escala de Severidade de Problemas de IHC</p>
@@ -71,7 +89,7 @@ Para classificar o impacto dos problemas identificados, adotar-se-á a **Escala 
 | **4** | **Catastrófico** | Impede totalmente a conclusão da tarefa (bloqueio do fluxo) ou induz o usuário ao erro irrecuperável. | O participante não compreende a história ou a proposta como um todo; ou a tarefa modelada não corresponde à prática real. |
 
 <div align="center">
-<p><em>Fonte: Adaptado de Nielsen (1994) e Barbosa et al. (2021).</em></p>
+<p><em>Fonte: Adaptado de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021).</em></p>
 </div>
 
 ---
@@ -165,7 +183,7 @@ Neste documento, adotam-se as seguintes definições:
 * **Falha de comunicação gráfica:** o participante **não entende** ou **entende errado** o que um quadro mostra por causa da forma como ele foi desenhado (enquadramento, texto, nível de detalhe ou sequência).
 * **Lacuna contextual:** o participante entende o quadro, mas **sente falta** de informações sobre o contexto de uso (onde, quando, com quem, com qual dispositivo, por quê) para que a história faça sentido.
 
-A análise será orientada pelos elementos que Truong, Hayes e Abowd (2006) identificaram empiricamente como determinantes para a eficácia de storyboards:
+A análise será orientada pelos seguintes critérios de comunicação gráfica do storyboard:
 
 <div align="center">
 <p><strong>Tabela 6</strong> — Critérios de Análise da Comunicação Gráfica do Storyboard</p>
@@ -180,7 +198,7 @@ A análise será orientada pelos elementos que Truong, Hayes e Abowd (2006) iden
 | **Passagem do Tempo** | Fica claro quanto tempo passou entre os quadros? | O participante não percebe que a reclamação ocorre horas depois do ocorrido. |
 
 <div align="center">
-<p><em>Fonte: Adaptado de Truong, Hayes e Abowd (2006).</em></p>
+<p><em>Fonte: Rodrigo Carvalho Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
@@ -262,20 +280,43 @@ Com base na consolidação dos problemas na Tabela 8 e da lista de ajustes na Ta
 
 ---
 
-## 6. Declaração sobre o Uso de IA Generativa
+## 6. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas para auxílio na estruturação sintática das tabelas em Markdown e revisão gramatical. A definição dos objetivos, a elaboração das perguntas do roteiro, a logística de execução e a revisão final permanecem sob total responsabilidade autoral do integrante Rodrigo Barbosa.
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — 11.7.4 Interpretação dos dados de cada participante</p>
+</div>
+
+![Figura 1 — 11.7.4 Interpretação dos dados de cada participante](../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+</div>
+
+![Figura 2 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
+</div>
+
+![Figura 3 — Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
 ## 7. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Planejamento da Avaliação de IHC, Seção 11.7.5, p. 263–264).
-* NIELSEN, Jakob. Heuristic evaluation. In: NIELSEN, Jakob; MACK, Robert L. (ed.). **Usability Inspection Methods**. New York: John Wiley & Sons, 1994.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. São Paulo: Editora Érica, 2005.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-* TRUONG, Khai N.; HAYES, Gillian R.; ABOWD, Gregory D. Storyboarding: an empirical determination of best practices and effective guidelines. In: **Proceedings of the 6th Conference on Designing Interactive Systems (DIS '06)**. New York: ACM, 2006. p. 12–21.
-
----
-**Autor:** [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa)  
-**Revisor:** [Carlos Costa](https://github.com/carloshfgit)

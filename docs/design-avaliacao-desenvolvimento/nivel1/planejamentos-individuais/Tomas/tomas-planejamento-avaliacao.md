@@ -1,9 +1,10 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Storyboard 05 e da Análise de Tarefas (TAR-03) via DECIDE. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
 | 23/10/2026 | `1.1` | Atualização do planejamento para o novo Storyboard 05 (Pedido de Aumento do Limite Diário do Vale-Transporte) e para a TAR-09 (HTA e CTT): objetivos, roteiro de perguntas, materiais e análise dos dados. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para adaptar o texto ao novo storyboard e à nova tarefa |
+| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -13,7 +14,20 @@ Neste documento, apresenta-se o **Planejamento da Avaliação do Storyboard e da
 
 O storyboard retrata a persona [Heitor Santos Júnior](../../../../analise-de-requisitos/personas/heitor-santos-junior.md) na situação do [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md). Depois de um dia com vários chamados de manutenção, o cartão de Vale-Transporte de Heitor é recusado no validador porque ele passou do limite de 8 acessos por dia. No storyboard, o site da Semob explica a recusa, recebe o pedido de mais acessos pelo celular, gera um protocolo e avisa pelo WhatsApp quando o novo limite está valendo. Por isso, a avaliação dá atenção especial a três pontos da TAR-09: **entender a recusa** (objetivo 1 do HTA), **reunir e enviar os documentos** (objetivos 4 e 5) e **acompanhar o pedido** (objetivo 6).
 
-O planejamento segue o **Framework DECIDE** (Preece, Rogers e Sharp, 2005; Barbosa et al., 2021), em seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar os dados).
+O planejamento segue o **Framework DECIDE** (Barbosa et al., 2021), em seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar os dados).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-09 (Pedido de Aumento do Limite Diário do Vale-Transporte):**
+
+* **Persona:** [Heitor Santos Júnior](../../../../analise-de-requisitos/personas/heitor-santos-junior.md)
+* **Cenário:** [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
+* **Análise de tarefas:** [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
+* **Storyboard:** [Storyboard 05](../../storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-09/index.html)
+
 
 ---
 
@@ -35,7 +49,7 @@ A avaliação é **formativa**. O objetivo é verificar se a história e o model
 
 ## 2. E — Explorar as Perguntas a Serem Respondidas
 
-As perguntas abaixo transformam os objetivos em um roteiro de entrevista. Elas foram escritas de forma aberta e neutra, para não sugerir a resposta esperada (Preece, Rogers e Sharp, 2005, p. 416).
+As perguntas abaixo transformam os objetivos em um roteiro de entrevista. Elas foram escritas de forma aberta e neutra, para não sugerir a resposta esperada (Barbosa et al., 2021).
 
 ### 2.1 Tabela de Perguntas: Avaliação do Storyboard 05
 
@@ -79,7 +93,7 @@ As perguntas abaixo transformam os objetivos em um roteiro de entrevista. Elas f
 
 Escolheu-se o **método de investigação por entrevista semiestruturada**, apoiada pela apresentação do storyboard e dos diagramas da tarefa.
 
-* **Justificativa da escolha:** segundo Preece, Rogers e Sharp (2005, p. 416), a entrevista semiestruturada usa *"um roteiro básico para guiar-se"*, de modo que *"os mesmos tópicos serão abordados pelos diferentes entrevistados"*, e o entrevistador *"faz com que o entrevistado estenda sua fala, até que nenhuma informação nova e relevante surja"*. Isso combina com esta avaliação: as Tabelas 1 e 2 formam o roteiro comum a todas as sessões do grupo, e o avaliador pode aprofundar o que o participante contar sobre as próprias experiências com o Vale-Transporte.
+* **Justificativa da escolha:** segundo Preece, Rogers e Sharp (2002 apud BARBOSA et al., 2021), a entrevista semiestruturada usa *"um roteiro básico para guiar-se"*, de modo que *"os mesmos tópicos serão abordados pelos diferentes entrevistados"*, e o entrevistador *"faz com que o entrevistado estenda sua fala, até que nenhuma informação nova e relevante surja"*. Isso combina com esta avaliação: as Tabelas 1 e 2 formam o roteiro comum a todas as sessões do grupo, e o avaliador pode aprofundar o que o participante contar sobre as próprias experiências com o Vale-Transporte.
 * **Instrumentos de apoio:** a imagem do Storyboard 05 apresentada quadro a quadro, um resumo do Cenário 9 e da persona Heitor, e os diagramas HTA e CTT da TAR-09, explicados em linguagem simples.
 
 ---
@@ -141,20 +155,53 @@ Depois da sessão, a gravação e as anotações do observador passam pelas etap
 
 ---
 
-## 7. Declaração sobre o Uso de IA Generativa
+## 7. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que o Claude (Anthropic) foi usado para auxiliar na estruturação do texto, na formatação das tabelas em Markdown e na adaptação deste planejamento ao novo storyboard e à TAR-09. A definição dos objetivos, as perguntas do roteiro, a logística da sessão e a revisão final são de responsabilidade do integrante Tomás Rocho.
+As Figuras 1 a 4 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 1 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
+</div>
+
+![Figura 2 — 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 248). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
+</div>
+
+![Figura 3 — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 251). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-4" align="center">
+<p><strong>Figura 4</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+</div>
+
+![Figura 4 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
 ## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 466, de 12 de dezembro de 2012**. Aprova diretrizes e normas regulamentadoras de pesquisas envolvendo seres humanos. Brasília: Diário Oficial da União, 2013.
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Regulamenta as pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. Porto Alegre: Bookman, 2005. (Capítulo 13: Perguntando a Usuários e Especialistas, Seção 13.2.4, p. 416).
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-
----
-**Autor:** [Tomás Rocho](https://github.com/TomasRocho)  
-**Revisor:** [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)

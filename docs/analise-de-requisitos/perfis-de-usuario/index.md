@@ -1,15 +1,19 @@
-# Perfis de Usuário
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Criação do documento de organização dos perfis de usuário identificados no site **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 27/09/2026 | 1.1 | Adição do perfil de usuário dos Motoristas de Ônibus do STPC/DF (stakeholder/usuário terciário). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| 27/09/2026 | 1.2 | Reestruturação da seção em artefatos dedicados por perfil com página de visão geral. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 28/09/2026 | 1.3 | Inclusão do perfil de usuário secundário (Desenvolvedor/Técnico). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 26/09/2026 | `1.0` | Criação do documento de organização dos perfis de usuário identificados no site **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Não declarado pelo autor |
+| 27/09/2026 | `1.1` | Adição do perfil de usuário dos Motoristas de Ônibus do STPC/DF (stakeholder/usuário terciário). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
+| 27/09/2026 | `1.2` | Reestruturação da seção em artefatos dedicados por perfil com página de visão geral. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
+| 28/09/2026 | `1.3` | Inclusão do perfil de usuário secundário (Desenvolvedor/Técnico). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Não declarado pelo autor |
+| 19/11/2026 | `1.4` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
 
 ---
+
+# Perfis de Usuário
 
 ## 1. Introdução
 
@@ -27,7 +31,7 @@ Este conjunto de documentos tem como objetivo principal definir os perfis de usu
 
 ## 2. Enquadramento e Categorização de Stakeholders (SEMOB-DF)
 
-Na literatura clássica de IHC, identificar as partes interessadas (*stakeholders*) é uma etapa basilar para não restringir o design a visões parciais ou unilaterais da organização (Barbosa e Silva, 2010, p. 136; Eason, 1987). No contexto da SEMOB-DF, os atores dividem-se em três categorias funcionais:
+Na literatura clássica de IHC, identificar as partes interessadas (*stakeholders*) é uma etapa basilar para não restringir o design a visões parciais ou unilaterais da organização (Barbosa et al., 2021). No contexto da SEMOB-DF, os atores dividem-se em três categorias funcionais:
 
 ### 2.1 Usuários Primários
 Pessoas que utilizam o Portal SEMOB-DF de forma direta, frequente e *hands-on* para atingir suas metas imediatas:
@@ -63,8 +67,42 @@ A Tabela 1 apresenta os perfis de usuário mapeados pela equipe, suas categorias
 
 ---
 
-## 4. Referências Bibliográficas
+## 4. Fotos de Referência
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 5: Identificação de Necessidades dos Usuários e Requisitos de IHC (pp. 134–158).
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Perfil de usuário: definição e grupos de atributos</p>
+</div>
+
+![Figura 1 — Perfil de usuário: definição e grupos de atributos](../../assets/prints_referencias/verificacao-v2/livro-perfil.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 151–152). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — Tipos de dados coletados sobre os usuários (Barbosa et al., 2021)</p>
+</div>
+
+![Figura 2 — Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)](../../assets/prints_referencias/verificacao-v2/livro-que-dados-coletar.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 123–124). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Usuários primários, secundários e stakeholders</p>
+</div>
+
+![Figura 3 — Usuários primários, secundários e stakeholders](../../assets/prints_referencias/verificacao-v2/livro-de-quem-coletar.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 124). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 5. Referências Bibliográficas
+
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* EASON, Ken. **Information Technology and Organisational Change**. London: Taylor & Francis, 1987.

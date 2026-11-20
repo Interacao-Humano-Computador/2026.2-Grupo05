@@ -1,17 +1,31 @@
-# Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-06)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 10/11/2026 | `0.1` | Esqueleto do relato: estrutura das seções, descrição do protótipo e tabelas a preencher depois das sessões. Nenhum resultado registrado. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude Code (Anthropic) - montagem da estrutura e formatação em Markdown a partir do planejamento do relato do autor |
+| 10/11/2026 | `0.1` | Esqueleto do relato: estrutura das seções, descrição do protótipo e tabelas a preencher depois das sessões. Nenhum resultado registrado. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic) - montagem da estrutura e formatação em Markdown a partir do planejamento do relato do autor |
 | 14/11/2026 | `1.0` | Relato completo dos resultados da avaliação de alta fidelidade: consolidação dos dados da sessão presencial com P01, registro de desempenho nas tarefas AF1–AF3, respostas da entrevista pós-teste, análise das hipóteses, referência ao Teste Piloto (Ata 12) e inserção da gravação em vídeo. | [Carlos Costa](https://github.com/carloshfgit) | [Tomás Garcia Rocho](https://github.com/TomasRocho) | Antigravity (Google DeepMind) - consolidação e redação dos resultados a partir dos dados coletados na sessão presencial e observações do autor |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
 ---
 
+# Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-06)
+
 Neste documento, apresenta-se o **Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. A avaliação seguiu o [Planejamento da Avaliação do Protótipo de Alta Fidelidade](../../planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md), e este relato segue a estrutura definida no [Planejamento do Relato](../../planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) (Tabela 1 daquele documento).
 
-Primeiro, os dados do participante são interpretados. Depois, os resultados são consolidados, voltando às perguntas iniciais (Barbosa e Silva, 2010, p. 310–312) ([Imagem 7](#imagem-7)). Os problemas são descritos conforme o teste de usabilidade (Barbosa e Silva, 2010, p. 342–343) ([Imagens 8 e 9](#imagem-8)).
+Primeiro, os dados do participante são interpretados. Depois, os resultados são consolidados, voltando às perguntas iniciais (Barbosa et al., 2021, pp. 262–263) ([Imagem 7](#imagem-7)). Os problemas são descritos conforme o teste de usabilidade (Barbosa et al., 2021, p. 289) ([Imagens 8 e 9](#imagem-8)).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-06 (Consulta do Ônibus em Tempo Real no DF no Ponto):**
+
+* **Persona:** [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md); [Mariana Borges Almeida](../../../../analise-de-requisitos/personas/mariana-borges-almeida.md)
+* **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md); [Cenário 10](../../../../analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md)
+* **Análise de tarefas:** [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)
+* **Storyboard:** [Storyboard 08](../../../nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../../nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · Relato dos resultados (*esta página*)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
+
 
 ---
 
@@ -88,7 +102,7 @@ O protótipo é uma página em **HTML navegável**, executada no navegador do ce
 
 ## 2. Método
 
-O método foi o **teste de usabilidade** (Barbosa e Silva, 2010, p. 341–342), com a técnica de **pensar em voz alta** e uma entrevista breve ao final. O participante executou três tarefas no celular, e o observador registrou, para cada uma:
+O método foi o **teste de usabilidade** (Barbosa et al., 2021, pp. 288–289), com a técnica de **pensar em voz alta** e uma entrevista breve ao final. O participante executou três tarefas no celular, e o observador registrou, para cada uma:
 
 * conclusão;
 * tempo;
@@ -149,7 +163,7 @@ Na ocasião, [Rodrigo Carvalho Barbosa](https://github.com/RodrigoCBarbosa) atuo
 
 Todo o detalhamento metodológico, deliberações e o registro em vídeo da simulação encontram-se documentados na **[Ata de Reunião 12 (Teste Piloto do Protótipo de Alta Fidelidade)](../../../../atas/ata12.md)**, com gravação disponível no YouTube ([Vídeo do Teste Piloto](https://youtu.be/NIBJ3A2Xfkk)).
 
-Em estrita consonância com os preceitos de Barbosa e Silva (2010, p. 307) ([Imagem 10](#imagem-10)), todos os dados e tempos colhidos no teste piloto foram **completamente descartados**, servindo exclusivamente para ajuste dos procedimentos e não integrando os resultados deste relato.
+Em estrita consonância com os preceitos de Barbosa et al. (2021) ([Imagem 10](#imagem-10)), todos os dados e tempos colhidos no teste piloto foram **completamente descartados**, servindo exclusivamente para ajuste dos procedimentos e não integrando os resultados deste relato.
 
 ### 4.2 Sessões
 
@@ -237,7 +251,7 @@ A coluna "Conclusão" utiliza os valores **sem ajuda**, **com ajuda** ou **não 
 
 ## 7. Problemas Encontrados
 
-Os problemas de usabilidade são classificados segundo a escala de severidade de Nielsen (1994): 0 (sem importância), 1 (leve), 2 (moderado), 3 (grave) e 4 (catastrófico).
+Os problemas de usabilidade são classificados segundo a escala de severidade de Nielsen (1994 apud BARBOSA et al., 2021): 0 (sem importância), 1 (leve), 2 (moderado), 3 (grave) e 4 (catastrófico).
 
 Durante a sessão realizada com o participante P01, **nenhum problema de usabilidade** de severidade 1 a 4 foi observado ou relatado. Todas as três tarefas foram cumpridas sem hesitação, sem desvios de navegação e sem pedidos de assistência.
 
@@ -322,7 +336,7 @@ Como não foram identificados problemas de usabilidade com severidade 1 a 4 dura
 
 ### 10.3 Limitações
 
-* **Tamanho da amostra:** A avaliação contou com 1 participante (P01), devido à indisponibilidade de voluntários aptos e restrições temporais na Etapa 7. Conforme salientam Barbosa e Silva (2010, p. 312–313), uma amostra unitária não permite a saturação amostral completa dos problemas de usabilidade da interface.
+* **Tamanho da amostra:** A avaliação contou com 1 participante (P01), devido à indisponibilidade de voluntários aptos e restrições temporais na Etapa 7. Conforme salientam Barbosa et al. (2021), uma amostra unitária não permite a saturação amostral completa dos problemas de usabilidade da interface.
 * **Perfil do participante:** P01 é estudante universitário, jovem e usuário diário de ônibus e aplicativos de mobilidade. Usuários com menor letramento digital ou sem familiaridade com transporte coletivo podem apresentar dificuldades não observadas nesta sessão.
 * **Estado simulado:** O aviso de posição desatualizada (N1) ocorreu de modo programado/simulado, e não decorrente de uma instabilidade real do sinal de telemetria dos veículos.
 * **Dados fictícios:** As linhas e previsões baseiam-se em dados cenários simulados para Samambaia Norte e UnB Gama.
@@ -346,44 +360,32 @@ A gravação da sessão presencial de avaliação de usabilidade foi disponibili
 Os trechos grifados em amarelo fundamentam a estrutura deste relato.
 
 <div align="center" id="imagem-7">
-<p><strong>Imagem 7</strong> — Consolidação dos resultados e itens do relato (p. 312).</p>
-<img src="../../../../../assets/prints_referencias/ihc-barbosa-silva-p312-grifada.svg" alt="Página 312 do livro sobre consolidação, generalização e relato" width="580">
-<p><em>Fonte: Barbosa e Silva (2010, p. 312).</em></p>
+<p><strong>Imagem 7</strong> — Consolidação dos resultados e itens do relato (p. 263).</p>
+<img src="../../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png" alt="11.7.5 Consolidação e relato dos resultados (BARBOSA et al., 2021, p. 263)" width="760">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 <div align="center" id="imagem-8">
-<p><strong>Imagem 8</strong> — Dados de conclusão, tempo, erros e uso de ajuda no teste de usabilidade (p. 342).</p>
-<img src="../../../../../assets/prints_referencias/ihc-barbosa-silva-p342-grifada.svg" alt="Página 342 do livro com os dados coletados no teste de usabilidade" width="580">
-<p><em>Fonte: Barbosa e Silva (2010, p. 342).</em></p>
+<p><strong>Imagem 8</strong> — Dados de conclusão, tempo, erros e uso de ajuda no teste de usabilidade (p. 289).</p>
+<img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usab-dados.png" alt="12.2.1 Dados coletados por tarefa no teste de usabilidade (sucesso, erros, tempo, ajuda) (BARBOSA et al., 2021, p. 289)" width="760">
+<p><em>Fonte: BARBOSA et al. (2021, p. 289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 <div align="center" id="imagem-9">
-<p><strong>Imagem 9</strong> — Descrição dos problemas encontrados no teste de usabilidade (p. 343).</p>
-<img src="../../../../../assets/prints_referencias/ihc-barbosa-silva-p343-grifada.svg" alt="Página 343 do livro sobre interpretação e relato dos problemas de usabilidade" width="580">
-<p><em>Fonte: Barbosa e Silva (2010, p. 343).</em></p>
+<p><strong>Imagem 9</strong> — Descrição dos problemas encontrados no teste de usabilidade (p. 289).</p>
+<img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usab-problemas.png" alt="12.2.1 Problemas encontrados: descrição, local, impacto, causas e sugestões, e itens do relato (BARBOSA et al., 2021, p. 289)" width="760">
+<p><em>Fonte: BARBOSA et al. (2021, p. 289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 <div align="center" id="imagem-10">
-<p><strong>Imagem 10</strong> — Descarte dos dados do teste piloto (p. 307).</p>
-<img src="../../../../../assets/prints_referencias/ihc-barbosa-silva-p307-grifada.svg" alt="Página 307 do livro sobre o descarte dos dados do teste piloto" width="580">
-<p><em>Fonte: Barbosa e Silva (2010, p. 307).</em></p>
+<p><strong>Imagem 10</strong> — Descarte dos dados do teste piloto (p. 260).</p>
+<img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png" alt="11.7.2 Teste-piloto: objetivo e descarte dos dados (BARBOSA et al., 2021, p. 260)" width="760">
+<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 ---
 
-## 13. Declaração sobre o Uso de IA Generativa
+## 13. Referências Bibliográficas
 
-Em cumprimento ao Plano de Ensino da disciplina e ao Código de Conduta da SBC, declara-se que as ferramentas **Claude Code (Anthropic)** e **Antigravity (Google DeepMind)** foram utilizadas para suporte na estruturação das tabelas, formatação em Markdown e organização textual do relato a partir das anotações e respostas fornecidas pelo autor. O protótipo navegável em HTML foi implementado com assistência de IA a partir das especificações de design do autor. A condução da avaliação presencial, o registro empírico das observações e respostas, a verificação com o observador Tomás Garcia Rocho e a responsabilidade técnica e acadêmica integral pelo conteúdo são de Carlos Costa. Nenhum dado empírico da sessão foi simulado ou inventado pelas ferramentas de inteligência artificial.
-
----
-
-## 14. Referências Bibliográficas
-
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier/Campus, 2010. Cap. 9, seções 9.7.2 e 9.7.4–9.8, p. 307 e 310–313; cap. 10, seção 10.2.1, p. 341–343.
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Regulamenta as pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-* NIELSEN, Jakob. **Usability Engineering**. San Francisco: Morgan Kaufmann, 1994.
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-
----
-**Autor:** [Carlos Costa](https://github.com/carloshfgit)  
-**Revisor:** [Tomás Garcia Rocho](https://github.com/TomasRocho)

@@ -1,13 +1,17 @@
-# Planejamento do Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-07)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração do uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 12/10/2026 | `1.0` | Elaboração do planejamento do relato dos resultados da Análise de Tarefas. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - apoio na estruturação do documento e na formatação do MkDocs. |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final). Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
+
+!!! warning "Observação para correção manual"
+    Não existe o relato dos resultados de Nível 1 correspondente a este planejamento (TAR-07). O autor deve criar o relato ou registrar por que ele não foi feito.
 
 ---
+
+# Planejamento do Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-07)
 
 ## 1. Introdução
 
@@ -17,11 +21,24 @@ O documento complementa o [Planejamento da Avaliação do Storyboard e da Análi
 
 As tabelas apresentadas são modelos e permanecerão sem resultados até a realização da sessão definitiva. Os dados produzidos durante o teste-piloto serão utilizados somente para calibrar o procedimento e não serão incluídos no relato final.
 
+**Artefatos relacionados — fluxo da funcionalidade TAR-07 (Regularização de Crédito de Vale-Transporte):**
+
+* **Persona:** [Maria Eduarda Santos](../../../../analise-de-requisitos/personas/maria-eduarda-santos.md)
+* **Cenário:** [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md)
+* **Análise de tarefas:** [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md)
+* **Storyboard:** [Storyboard 07](../../storyboards.md#37-storyboard-07-regularizacao-de-credito-de-vale-transporte)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](arthur-planejamento-avaliacao.md) · Planejamento do relato (*esta página*) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://arthur-mariani.github.io/PAF-IHC/credito/)
+
+
 ---
 
 ## 2. Fundamentação Teórica
 
-Barbosa et al. (2021, Seção 11.7.5, p. 279) orientam que, depois da interpretação individual, os resultados sejam consolidados de acordo com as questões que motivaram o estudo. O relato normalmente inclui:
+Barbosa et al. (2021, Seção 11.7.5, p. 263) orientam que, depois da interpretação individual, os resultados sejam consolidados de acordo com as questões que motivaram o estudo. O relato normalmente inclui:
 
 1. objetivos e escopo da avaliação;
 2. método empregado;
@@ -33,7 +50,7 @@ Barbosa et al. (2021, Seção 11.7.5, p. 279) orientam que, depois da interpreta
 
 Os autores também alertam que os resultados de uma avaliação indicam tendências dentro do escopo estudado. Eles não garantem que um problema ocorrerá em todas as situações, assim como a ausência de problemas encontrados não comprova que o artefato tenha alta qualidade de uso.
 
-Na mesma obra, o relato de problemas inclui o local da ocorrência, a descrição e justificativa, os fatores prejudicados e as sugestões de solução (Barbosa et al., 2021, Seção 12.2.1, p. 303). Neste documento, essa orientação é adaptada ao método de investigação por entrevista semiestruturada. Como a participante examinará artefatos não interativos, não serão produzidas métricas artificiais de sucesso, erros, cliques, uso de ajuda ou tempo de execução.
+Na mesma obra, o relato de problemas inclui o local da ocorrência, a descrição e justificativa, os fatores prejudicados e as sugestões de solução (Barbosa et al., 2021, Seção 12.2.1, p. 289). Neste documento, essa orientação é adaptada ao método de investigação por entrevista semiestruturada. Como a participante examinará artefatos não interativos, não serão produzidas métricas artificiais de sucesso, erros, cliques, uso de ajuda ou tempo de execução.
 
 Como a avaliação prevê uma participante, não haverá análise interparticipante nem cálculo de frequência, média ou porcentagem. As conclusões serão apresentadas como indícios qualitativos para revisão do Storyboard 07 e da TAR-07.
 
@@ -85,7 +102,7 @@ Como a avaliação prevê uma participante, não haverá análise interparticipa
 | **Conclusão** | Síntese das perguntas respondidas, principais achados e próximos passos. |
 
 <div align="center">
-<p><em>Fonte: Arthur Mariani (2026), adaptado de Barbosa et al. (2021, Seção 11.7.5, p. 279).</em></p>
+<p><em>Fonte: Arthur Mariani (2026), adaptado de Barbosa et al. (2021, Seção 11.7.5, p. 263).</em></p>
 </div>
 
 ---
@@ -249,7 +266,7 @@ Cada ocorrência será registrada uma única vez, mesmo quando estiver associada
 | **PROB-01** | A preencher | QS ou QT | A preencher | A preencher | A preencher | A preencher | A preencher |
 
 <div align="center">
-<p><em>Fonte: Arthur Mariani (2026), adaptado de Barbosa et al. (2021, Seção 12.2.1, p. 303).</em></p>
+<p><em>Fonte: Arthur Mariani (2026), adaptado de Barbosa et al. (2021, Seção 12.2.1, p. 289).</em></p>
 </div>
 
 ### 9.1 Critérios de Prioridade
@@ -304,18 +321,18 @@ O relato não poderá afirmar que o Storyboard 07 ou a TAR-07 foram validados pa
 
 <figure id="figura-1" markdown="span">
   ![Trechos destacados sobre consolidação, limitações e estrutura do relato dos resultados](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-1.png)
-  <figcaption>Imagem 1 - Consolidação, limites de interpretação e estrutura do relato. Fonte: Barbosa et al. (2021, Seção 11.7.5, p. 279).</figcaption>
+  <figcaption>Imagem 1 - Consolidação, limites de interpretação e estrutura do relato. Fonte: Barbosa et al. (2021, Seção 11.7.5, p. 263).</figcaption>
 </figure>
 
 ### 12.2 Estrutura do registro dos problemas
 
 <figure id="figura-2" markdown="span">
   ![Trechos destacados sobre categorização e campos do relato de problemas](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-4.png)
-  <figcaption>Imagem 2 - Categorização e campos do relato dos problemas. Fonte: Barbosa et al. (2021, Seção 12.2.1, p. 303).</figcaption>
+  <figcaption>Imagem 2 - Categorização e campos do relato dos problemas. Fonte: Barbosa et al. (2021, Seção 12.2.1, p. 289).</figcaption>
 </figure>
 
 ---
 
 ## 13. Referências Bibliográficas
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Seção 11.7.5, p. 279; Seção 12.2.1, p. 303.
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Seção 11.7.5, p. 263; Seção 12.2.1, p. 289.

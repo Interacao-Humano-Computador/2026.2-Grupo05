@@ -1,14 +1,20 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 26/09/2026 | `1.0` | Lista de verificação referente à entrega 2 (publicada em [verif2.md](../verif2.md)). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic) — uso declarado pelo autor (sem detalhamento da finalidade) |
+| 19/11/2026 | `2.0` | Inclusão dos Itens do Desenvolvimento do Projeto e dos 12 itens de conteúdo do Plano de Ensino; autoria por item de acordo com o conteúdo; correção de itens; novos itens de cenários, GOMS e perfil; prints das referências. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — uso declarado pelo autor (sem detalhamento da finalidade) |
+| 19/11/2026 | `2.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+!!! warning "Observação para correção manual"
+    Há versões sem revisor no histórico. Indicar o revisor de cada versão.
+
+---
+
 # Lista de Verificação — Entrega 2 (versão 2.0)
 
 !!! info "Versão 2.0 — rastreabilidade"
     Esta é a **versão 2.0** da lista. A versão 1.0 continua disponível, sem alterações de conteúdo, em [verif2.md](../verif2.md). O [índice das listas de verificação](../index.md) mostra onde está cada versão.
-
-## Histórico de versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Lista de verificação referente à entrega 2 (publicada em [verif2.md](../verif2.md)). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
-| 19/11/2026 | 2.0 | Inclusão dos Itens do Desenvolvimento do Projeto e dos 12 itens de conteúdo do Plano de Ensino; autoria por item de acordo com o conteúdo; correção de itens; novos itens de cenários, GOMS e perfil; prints das referências. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão |
 
 ## Introdução
 
@@ -55,7 +61,7 @@ A Tabela 2 traz os 12 itens de conteúdo da Entrega 2 do Plano de Ensino. A vers
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
 | C1 | O perfil do usuário é definido por mais de uma forma (técnica de elicitação e/ou ferramenta)? | **Pergunta:** André Barros de Sales (Plano de Ensino)<br>**Conteúdo e evidência:** [Gabriel Melo](https://github.com/gabriellcardone-06) e [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 2](#figura-2)<br>[Fig. 3](#figura-3) | ☐ | ☐ | ☐ |
-| C2 | O perfil do usuário possui os atributos de um perfil (dados demográficos; experiência no cargo; informações sobre a empresa; educação etc.), com referência e foto do texto da referência (Hackos e Redish, 1998; Courage e Baxter, 2005)? | **Pergunta:** André Barros de Sales (Plano de Ensino)<br>**Conteúdo e evidência:** [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 2](#figura-2)<br>[Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
+| C2 | O perfil do usuário possui os atributos de um perfil (dados demográficos; experiência no cargo; informações sobre a empresa; educação etc.), com referência e foto do texto da referência (Barbosa et al., 2021)? | **Pergunta:** André Barros de Sales (Plano de Ensino)<br>**Conteúdo e evidência:** [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 2](#figura-2)<br>[Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
 | C3 | O perfil do usuário define os grupos de atributos do capítulo 8 — Organização do Espaço de Problema: idade; experiência; atitudes; tarefas primárias? | **Pergunta:** André Barros de Sales (Plano de Ensino)<br>**Conteúdo e evidência:** [Carlos Costa](https://github.com/carloshfgit) | [Fig. 2](#figura-2)<br>[Fig. 5](#figura-5) | ☐ | ☐ | ☐ |
 | C4 | Considera os aspectos éticos de pesquisas envolvendo pessoas? | **Pergunta:** André Barros de Sales (Plano de Ensino)<br>**Conteúdo e evidência:** [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 6](#figura-6)<br>[Fig. 7](#figura-7) | ☐ | ☐ | ☐ |
 | C5 | Apresenta os 4 princípios (da autonomia, da beneficência, da não maleficência e da justiça e equidade)? | **Pergunta:** André Barros de Sales (Plano de Ensino)<br>**Conteúdo e evidência:** [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 6](#figura-6)<br>[Fig. 8](#figura-8) | ☐ | ☐ | ☐ |
@@ -105,7 +111,6 @@ Os itens desta seção estão na Tabela 3.
 <p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
 </div>
 
-
 ### 3.2 De quem coletar dados
 
 Os itens desta seção estão na Tabela 4.
@@ -125,7 +130,6 @@ Os itens desta seção estão na Tabela 4.
 <div align="center">
 <p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
 </div>
-
 
 ### 3.3 Aspectos éticos de pesquisas envolvendo pessoas
 
@@ -147,7 +151,6 @@ Os itens desta seção estão na Tabela 5.
 <p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
 </div>
 
-
 ### 3.4 Técnica de entrevista
 
 Os itens desta seção estão na Tabela 6.
@@ -168,7 +171,6 @@ Os itens desta seção estão na Tabela 6.
 <p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
 </div>
 
-
 ### 3.5 Técnica de questionários
 
 Os itens desta seção estão na Tabela 7.
@@ -187,7 +189,6 @@ Os itens desta seção estão na Tabela 7.
 <div align="center">
 <p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
 </div>
-
 
 ### 3.6 Técnica de brainstorming
 
@@ -211,7 +212,6 @@ Os itens desta seção estão na Tabela 8.
 <div align="center">
 <p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
 </div>
-
 
 ### 3.7 Árvores de Tarefas Concorrentes (CTT)
 
@@ -238,7 +238,6 @@ Os itens desta seção estão na Tabela 9.
 <p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
 </div>
 
-
 ### 3.8 Elenco de personas
 
 Os itens desta seção estão na Tabela 10.
@@ -260,7 +259,6 @@ Os itens desta seção estão na Tabela 10.
 <div align="center">
 <p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
 </div>
-
 
 ### 3.9 Análise Hierárquica de Tarefas (HTA)
 
@@ -284,7 +282,6 @@ Os itens desta seção estão na Tabela 11.
 <div align="center">
 <p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
 </div>
-
 
 ### 3.10 Personas
 
@@ -313,7 +310,6 @@ Os itens desta seção estão na Tabela 12.
 <p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
 </div>
 
-
 ### 3.11 Cenários (itens novos)
 
 Os itens desta seção estão na Tabela 13.
@@ -333,7 +329,6 @@ Os itens desta seção estão na Tabela 13.
 <div align="center">
 <p><em>Fonte: elaborado pelo Grupo 05 (2026), com base em BARBOSA et al. (2021).</em></p>
 </div>
-
 
 ### 3.12 GOMS, perfil e rastreabilidade das tarefas (itens novos)
 
@@ -405,7 +400,7 @@ A versão 1.0 continua publicada em [verif2.md](../verif2.md) e não foi apagada
 | 70 | G70 | “Antipersona” passou a “antiusuário”, termo usado no livro para o status da persona (p. 153). |
 | — | C1–C12 | Novos: itens de conteúdo da Entrega 2 do Plano de Ensino. |
 | — | G80–G87 | Novos: cenários (não havia itens na v1.0), GOMS, faixas do perfil e rastreabilidade cenário → tarefa. |
-| Bibliografia (Barbosa e Silva, 2010, caps. 5 e 6) | Referências | Atualizada para BARBOSA et al. (2021, caps. 7 e 8) e SALES (2026), com prints. |
+| Bibliografia (Barbosa et al., 2021, caps. 5 e 6) | Referências | Atualizada para BARBOSA et al. (2021, caps. 7 e 8) e SALES (2026), com prints. |
 | Histórico de versão | Histórico de versão | Corrigida a tabela do histórico, que estava sem a linha separadora do cabeçalho. |
 
 <div align="center">
@@ -427,13 +422,9 @@ O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data 
 <p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir de SALES (2026).</em></p>
 </div>
 
-## Agradecimentos e uso de IA generativa
+---
 
-Agradecemos ao professor André Barros de Sales pela lista de verificação sugerida no Plano de Ensino, que serve de base para os itens D1–D11 e para os itens de conteúdo marcados como do professor.
-
-Na versão 2.0, o assistente de IA generativa *Claude* (Anthropic) foi usado para: comparar os itens da versão 1.0 com o livro-texto e com o Plano de Ensino; sugerir correções e novos itens; localizar no livro as páginas citadas; e gerar os recortes grifados das referências. A atribuição de autoria por conteúdo, o texto final dos itens e a revisão são responsabilidade dos integrantes do grupo. 
-
-## Prints das referências
+## Fotos de Referência
 
 As figuras a seguir são recortes das fontes citadas nos itens desta lista, com o trecho que fundamenta cada item grifado em amarelo. Os recortes do livro foram retirados do arquivo *IHC.pdf* (BARBOSA et al., 2021, versão de 03/05/2021) e a numeração indicada é a numeração impressa nas páginas. Os recortes do Plano de Ensino foram retirados da versão disponibilizada pelo professor na turma 01 (SALES, 2026), com o número da página do PDF.
 
@@ -476,7 +467,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ---
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)</p>
+<p><strong>Figura 4</strong> — Tipos de dados coletados sobre os usuários (Barbosa et al., 2021)</p>
 </div>
 
 ![Figura 4 — Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)](../../assets/prints_referencias/verificacao-v2/livro-que-dados-coletar.png)
@@ -752,7 +743,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ---
 
 <div id="figura-27" align="center">
-<p><strong>Figura 27</strong> — Passos da Análise Hierárquica de Tarefas (Diaper, 2003)</p>
+<p><strong>Figura 27</strong> — Passos da Análise Hierárquica de Tarefas (Barbosa et al., 2021)</p>
 </div>
 
 ![Figura 27 — Passos da Análise Hierárquica de Tarefas (Diaper, 2003)](../../assets/prints_referencias/verificacao-v2/livro-hta-passos.png)
@@ -785,7 +776,9 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 <p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G81, G82, G83, G84, G87.</em></p>
 </div>
 
-## Referências bibliográficas
+---
 
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
-- SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
+## Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

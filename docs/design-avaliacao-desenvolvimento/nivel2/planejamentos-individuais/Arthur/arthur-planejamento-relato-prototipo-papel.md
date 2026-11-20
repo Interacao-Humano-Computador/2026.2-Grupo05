@@ -1,12 +1,13 @@
-# Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-07)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 25/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do protótipo de papel da TAR-07. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Henrique](https://github.com/carloshfgit) | Google Gemini - apoio à estruturação em Markdown e revisão textual. |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
+
+# Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-07)
 
 ## 1. Introdução
 
@@ -16,13 +17,26 @@ Este planejamento complementa o [Planejamento da Avaliação do Protótipo de Pa
 
 As tabelas desta página são modelos. Elas permanecerão sem resultados até a execução da sessão definitiva. Dados do teste-piloto servirão somente para calibrar o roteiro e o material; não serão apresentados como resultado da avaliação com participante.
 
+**Artefatos relacionados — fluxo da funcionalidade TAR-07 (Regularização de Crédito de Vale-Transporte):**
+
+* **Persona:** [Maria Eduarda Santos](../../../../analise-de-requisitos/personas/maria-eduarda-santos.md)
+* **Cenário:** [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md)
+* **Análise de tarefas:** [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md)
+* **Storyboard:** [Storyboard 07](../../../nivel1/storyboards.md#37-storyboard-07-regularizacao-de-credito-de-vale-transporte)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](arthur-planejamento-avaliacao-prototipo-papel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](arthur-planejamento-avaliacao-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://arthur-mariani.github.io/PAF-IHC/credito/)
+
+
 ---
 
 ## 2. Fundamentação e critérios do relato
 
-Na prototipação em papel, a interpretação reúne as anotações dos avaliadores, entrevistas pré e pós-teste e, quando autorizadas, gravações. O resultado é uma lista de problemas de interface e oportunidades de aperfeiçoamento. Após a consolidação, os problemas não resolvidos em ajustes simples são priorizados segundo gravidade e frequência, e o relato comunica os problemas e as sugestões de correção (Barbosa; Silva, 2010, p. 360-361).
+Na prototipação em papel, a interpretação reúne as anotações dos avaliadores, entrevistas pré e pós-teste e, quando autorizadas, gravações. O resultado é uma lista de problemas de interface e oportunidades de aperfeiçoamento. Após a consolidação, os problemas não resolvidos em ajustes simples são priorizados segundo gravidade e frequência, e o relato comunica os problemas e as sugestões de correção (Barbosa et al., 2021, p. 305).
 
-O relato também seguirá o último elemento do framework **DECIDE**: avaliar, interpretar e apresentar os dados considerando a confiabilidade das evidências e as validades interna, externa e ecológica. Por isso, conclusões serão apresentadas como evidências de uma avaliação formativa e de baixa fidelidade, sem generalização para todos os usuários do transporte público (Barbosa; Silva, 2010, p. 312-313).
+O relato também seguirá o último elemento do framework **DECIDE**: avaliar, interpretar e apresentar os dados considerando a confiabilidade das evidências e as validades interna, externa e ecológica. Por isso, conclusões serão apresentadas como evidências de uma avaliação formativa e de baixa fidelidade, sem generalização para todos os usuários do transporte público (Barbosa et al., 2021, pp. 263–264).
 
 ---
 
@@ -161,13 +175,46 @@ O relato final deverá separar claramente: alterações já incorporadas no prot
 3. A quantidade reduzida de participantes limita a generalização dos achados.
 4. A simulação não confirma procedimentos operacionais de Vale-Transporte; esses procedimentos precisam de fonte oficial ou validação das instituições responsáveis.
 
+
+## 10. Telas do Protótipo Avaliado
+
+A Figura 1 mostra as telas do protótipo de papel da [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md).
+
+<div id="figura-1" align="center" markdown="1">
+<p><strong>Figura 1</strong> — Protótipo de papel móvel para orientação sobre crédito de Vale-Transporte indisponível</p>
+
+![Protótipo de papel móvel para orientação sobre crédito de Vale-Transporte indisponível](../../../../assets/prototipos/prototipo-papel-tar-07.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Arthur Mariani (2026).</em></p>
+</div>
+
+---
 ---
 
-## 10. Referências bibliográficas
+## 11. Fotos de Referência
+As Figuras 2 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 9, Seção 9.8, p. 312-313; Capítulo 10, Seção 10.2.3, p. 358-361.
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — Prototipação em papel: conteúdo do relato dos resultados</p>
+</div>
+
+![Figura 2 — Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
+</div>
+
+![Figura 3 — 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
-**Autor:** [Arthur Mariani](https://github.com/arthur-mariani)  
-**Revisor:** [Carlos Henrique](https://github.com/carloshfgit)
+## 12. Referências Bibliográficas
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

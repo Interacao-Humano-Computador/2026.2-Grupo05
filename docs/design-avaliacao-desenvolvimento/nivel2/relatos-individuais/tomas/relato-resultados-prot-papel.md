@@ -1,12 +1,21 @@
-# Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-09)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 03/11/2026 | `1.0` | Relato dos resultados da avaliação do Protótipo de Papel da TAR-09 (Pedido de aumento do limite diário do Vale-Transporte). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+
+
+!!! warning "Observação para correção manual"
+    Faltam as fotos das telas do protótipo de papel da TAR-09. O autor deve incluir as fotos (com título e fonte) numa seção "Telas do Protótipo Avaliado", antes das Fotos de Referência, como nos demais artefatos do nível 2.
+
+
+!!! warning "Observação para correção manual"
+    A citação de Preece, Rogers e Sharp (2005, Tabela 8.1) foi trocada por citação indireta (2002 apud BARBOSA et al., 2021), porque o projeto só usa o livro da disciplina. O autor deve confirmar em que página de Barbosa et al. (2021) essa ideia aparece.
 
 ---
+
+# Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-09)
 
 ## 1. Introdução e Objetivos
 
@@ -20,11 +29,24 @@ A avaliação seguiu o [Planejamento da Avaliação do Protótipo de Papel](../.
 4. avaliar o *feedback* final e o acompanhamento do pedido;
 5. coletar sugestões para o protótipo de alta fidelidade.
 
+**Artefatos relacionados — fluxo da funcionalidade TAR-09 (Pedido de Aumento do Limite Diário do Vale-Transporte):**
+
+* **Persona:** [Heitor Santos Júnior](../../../../analise-de-requisitos/personas/heitor-santos-junior.md)
+* **Cenário:** [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
+* **Análise de tarefas:** [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
+* **Storyboard:** [Storyboard 05](../../../nivel1/storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · Relato dos resultados (*esta página*)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-09/index.html)
+
+
 ---
 
 ## 2. Metodologia
 
-O método foi a **Prototipação em Papel** (Snyder, 2003; Barbosa et al., 2021, Seção 12.2.3) com a técnica de **pensar em voz alta** (*think aloud*). O participante tocava nas telas desenhadas como se fossem a tela do celular, e o avaliador, no papel de "computador", trocava as telas e colocava as peças móveis apenas em resposta a esses toques, sem dar dicas.
+O método foi a **Prototipação em Papel** (Barbosa et al., 2021, Seção 12.2.3) com a técnica de **pensar em voz alta** (*think aloud*). O participante tocava nas telas desenhadas como se fossem a tela do celular, e o avaliador, no papel de "computador", trocava as telas e colocava as peças móveis apenas em resposta a esses toques, sem dar dicas.
 
 As tarefas foram lidas uma de cada vez, a partir do [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md): *"Você trabalha com manutenção e passou o dia indo de prédio em prédio de ônibus. Na volta para casa, o cartão do Vale-Transporte não passou na catraca. Use o site da SEMOB no celular para resolver."*
 
@@ -163,7 +185,7 @@ Como nenhum problema foi encontrado, **nenhuma alteração foi feita no papel** 
 * **Um participante:** os resultados mostram que o fluxo funcionou para P-TAR09, mas não garantem que não existam problemas para outras pessoas com o mesmo perfil.
 * **Avaliador único:** a mesma pessoa trocou as telas e observou. Hesitações curtas podem não ter sido anotadas na hora; a gravação permite revisá-las.
 * **Sem piloto e sem cronometragem:** não há tempo por tarefa, e o material não foi testado antes da sessão.
-* **Limites do próprio protótipo de papel:** Preece, Rogers e Sharp (2005, Tabela 8.1, p. 266) lembram que, na baixa fidelidade, o "uso" é **conduzido pelo facilitador**, a **verificação de erros é limitada** e há **limitações de fluxo e navegação**. Por isso, o sucesso no papel indica que o fluxo e os textos fazem sentido, mas ainda precisa ser confirmado num protótipo interativo, em que o próprio participante conduz o uso.
+* **Limites do próprio protótipo de papel:** Preece, Rogers e Sharp (2002 apud BARBOSA et al., 2021) lembram que, na baixa fidelidade, o "uso" é **conduzido pelo facilitador**, a **verificação de erros é limitada** e há **limitações de fluxo e navegação**. Por isso, o sucesso no papel indica que o fluxo e os textos fazem sentido, mas ainda precisa ser confirmado num protótipo interativo, em que o próprio participante conduz o uso.
 
 ---
 
@@ -182,20 +204,43 @@ O protótipo de papel da TAR-09 foi avaliado com um usuário primário do Vale-T
 
 ---
 
-## 11. Declaração sobre o Uso de IA Generativa
+## 11. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que o Claude (Anthropic) foi usado para auxiliar na estruturação do texto e na formatação das tabelas em Markdown, a partir das informações da sessão fornecidas pelo integrante. A condução da sessão, os resultados e a revisão final são de responsabilidade do integrante Tomás Rocho.
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Prototipação em papel: o que o observador deve registrar</p>
+</div>
+
+![Figura 1 — Prototipação em papel: o que o observador deve registrar](../../../../assets/prints_referencias/verificacao-v2/livro-papel-observador.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 305). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
+</div>
+
+![Figura 2 — 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Prototipação em papel: conteúdo do relato dos resultados</p>
+</div>
+
+![Figura 3 — Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
 ## 12. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 12, Seção 12.2.3, p. 303–306).
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: além da interação homem-computador**. Porto Alegre: Bookman, 2005. Cap. 8, Tabela 8.1, p. 266.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.
-* SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann, 2003.
-
----
-**Autor:** [Tomás Rocho](https://github.com/TomasRocho)  
-**Revisor:** [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)

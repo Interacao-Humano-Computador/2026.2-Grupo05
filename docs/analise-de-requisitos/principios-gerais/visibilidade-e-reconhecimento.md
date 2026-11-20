@@ -1,10 +1,16 @@
-# Visibilidade e Reconhecimento
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 05/10/2026 | 1.0 |Análise de visibilidade e reconhecimento no site do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/10/2026 | `1.0` | Análise de visibilidade e reconhecimento no site do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Não declarado pelo autor |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+
+---
+
+# Visibilidade e Reconhecimento
 
 ## 1. Introdução
 
@@ -212,17 +218,14 @@ O site da SEMOB tem boa **infraestrutura** de visibilidade: busca sempre à vist
 
 ---
 
-## Fotos de Referência
+## 7. Fotos de Referência
 
 <img src="../../assets/prints_referencias/referencia-visibiliade-reconhecimento-244.png" alt="Referência página 244" width="500">
 
 <img src="../../assets/prints_referencias/referencia-visibiliade-reconhecimento-245.png" alt="Referência página 245" width="500">
 
-## Referências Bibliográficas
+---
 
-- BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.7.
-- COOPER, A. *The Inmates Are Running the Asylum*. Sams, 1999.
-- NIELSEN, J. *Heuristic Evaluation*. In: NIELSEN, J.; MACK, R. L. (eds.). *Usability Inspection Methods*. Wiley, 1994.
-- NORMAN, D. A. *The Design of Everyday Things*. Basic Books, 1988.
-- SHNEIDERMAN, B. *Designing the User Interface*. 3. ed. Addison-Wesley, 1998.
-- TOGNAZZINI, B. *First Principles of Interaction Design (Revised & Expanded)*. AskTog, 2014.
+## 8. Referências Bibliográficas
+
+* BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.7.

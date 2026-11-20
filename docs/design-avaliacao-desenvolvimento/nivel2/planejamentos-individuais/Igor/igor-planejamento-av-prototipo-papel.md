@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 20/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Papel (TAR-01) via DECIDE para teste presencial. | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - formatação markdown da página |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -10,7 +11,20 @@
 
 Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Papel** referente à **[TAR-01 (Alerta Inteligente de Saída de Casa)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/#tar-01-alerta-inteligente-de-saida)**. Trata-se de um planejamento individual desenvolvido para orientar a avaliação formativa presencial do protótipo de baixa/média fidelidade confeccionado em papel, representando a interface do aplicativo de mobilidade para a **SEMOB-DF / BRB Mobilidade**.
 
-A avaliação será conduzida de forma empírica presencial, envolvendo a simulação de uso por um participante representante da persona [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/). O planejamento foi estruturado aplicando o **Framework DECIDE** (Preece et al., 2002; Barbosa et al., 2021), que organiza o estudo nas seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar dados).
+A avaliação será conduzida de forma empírica presencial, envolvendo a simulação de uso por um participante representante da persona [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/). O planejamento foi estruturado aplicando o **Framework DECIDE** (Barbosa et al., 2021), que organiza o estudo nas seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar dados).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-01 (Alerta Inteligente de Saída de Casa):**
+
+* **Persona:** [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md)
+* **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md)
+* **Análise de tarefas:** [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md)
+* **Storyboard:** [Storyboard 01](../../../nivel1/storyboards.md#31-storyboard-01-alerta-inteligente-de-saida-de-casa)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](igor-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../relatos-individuais/igor/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/igor/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** telas no planejamento da avaliação (*nesta página*)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://www.figma.com/proto/00YEuKWtN4N1rBzpC8V7Gd/prototipo-de-igor?node-id=0-1&t=S9Z2PNsKlHC3LlTt-1)
+
 
 ---
 
@@ -28,7 +42,7 @@ Conforme Barbosa et al. (2021, Cap. 12, p. 303), a prototipação em papel é um
 
 ## 2. E — Explorar as Perguntas a Serem Respondidas
 
-Para operacionalizar os objetivos da avaliação, foram elaboradas perguntas investigativas aplicadas durante e após a simulação com o protótipo de papel (Barbosa et al., 2021; Rubin, 1994):
+Para operacionalizar os objetivos da avaliação, foram elaboradas perguntas investigativas aplicadas durante e após a simulação com o protótipo de papel (Barbosa et al., 2021):
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Roteiro de Perguntas Investigativas da Avaliação</p>
@@ -50,7 +64,7 @@ Para operacionalizar os objetivos da avaliação, foram elaboradas perguntas inv
 
 ## 3. C — Choose (Escolher) os Métodos de Avaliação
 
-O método selecionado é a **Prototipação em Papel (Snyder, 2003; Barbosa et al., 2021, Seção 12.2.3)**, enquadrado como um **Método de Observação de Uso (Empírico)** em ambiente controlado presencial.
+O método selecionado é a **Prototipação em Papel (Barbosa et al., 2021, Seção 12.2.3)**, enquadrado como um **Método de Observação de Uso (Empírico)** em ambiente controlado presencial.
 
 * **Justificativa:** Trata-se de uma técnica ágil, de baixo custo e altamente interativa para testes formativos com usuários reais. Permite simular o comportamento de uma aplicação móvel manipulando folhas de papel, post-its e cartas recortadas sem escrever uma única linha de código.
 * **Técnica Complementar:** Durante a simulação de uso, o participante será incentivado a utilizar a técnica de **Pensar em Voz Alta (*Think Aloud*)**, verbalizando suas dúvidas, intenções e expectativas a cada clique simular.
@@ -123,7 +137,7 @@ Os dados coletados na sessão presencial serão processados seguindo a abordagem
 
 ## 7. Planejamento do Teste Piloto do Protótipo de Papel
 
-Em estrito cumprimento ao **Item 11 do checklist do Plano de Ensino** e à literatura de IHC (Barbosa et al., 2021, p. 260, 304), antes da realização do teste definitivo com o participante convidado, será executado um **teste piloto**:
+Em estrito cumprimento ao **Item 11 do checklist do Plano de Ensino** e à literatura de IHC (Barbosa et al., 2021, pp. 260, 304), antes da realização do teste definitivo com o participante convidado, será executado um **teste piloto**:
 
 * **Objetivo do Piloto:** Avaliar o próprio planejamento, testar o encaixe e a agilidade da troca das peças de papel pelo "computador", verificar o tempo de execução da tarefa e testar o enquadramento do celular na gravação da mesa.
 * **Execução e Data:** O teste piloto será realizado presencialmente em **23/10/2026**, contando com um membro da equipe de desenvolvimento fazendo o papel de participante simulado.
@@ -138,23 +152,99 @@ Conforme as normas da disciplina, a fundamentação conceitual aplicada a este p
 * **Obra:** BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021.
 * **Localização Exata:** **Parte IV, Capítulo 11 — Planejamento da Avaliação de IHC, Seção 11.8 (*O Framework DECIDE*), páginas 264–265**; e **Capítulo 12 — Métodos de Avaliação de IHC, Seção 12.2.3 (*Prototipação em Papel*), páginas 303–306**.
 
+
+## 9. Telas do Protótipo Avaliado
+
+As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md).
+
+<div id="figura-1" align="center" markdown="1">
+<p><strong>Figura 1</strong> — Tela inicial: busca por linha ou destino, linhas e destinos salvos</p>
+
+![Tela inicial: busca por linha ou destino, linhas e destinos salvos](../../../../assets/images/prototipo-tar01/Igor_prot_01.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center" markdown="1">
+<p><strong>Figura 2</strong> — Monitoramento ativo: tempo de caminhada calculado via GPS e horário estimado de saída</p>
+
+![Monitoramento ativo: tempo de caminhada calculado via GPS e horário estimado de saída](../../../../assets/images/prototipo-tar01/Igor_prot_02.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center" markdown="1">
+<p><strong>Figura 3</strong> — Alerta de saída imediata: ônibus adiantado, com opções "Estou saindo!" e "Sugerir outra rota"</p>
+
+![Alerta de saída imediata: ônibus adiantado, com opções 'Estou saindo!' e 'Sugerir outra rota'](../../../../assets/images/prototipo-tar01/Igor_prot_03.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+<div id="figura-4" align="center" markdown="1">
+<p><strong>Figura 4</strong> — Rota alternativa: sugestão de nova linha para o destino, com opções de confirmar ou cancelar</p>
+
+![Rota alternativa: sugestão de nova linha para o destino, com opções de confirmar ou cancelar](../../../../assets/images/prototipo-tar01/Igor_prot_04.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+<div id="figura-5" align="center" markdown="1">
+<p><strong>Figura 5</strong> — Monitoramento da nova rota: linha alternativa selecionada e novo horário estimado de saída</p>
+
+![Monitoramento da nova rota: linha alternativa selecionada e novo horário estimado de saída](../../../../assets/images/prototipo-tar01/Igor_prot_05.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+---
 ---
 
-## 9. Declaração sobre o Uso de IA Generativa
+## 10. Fotos de Referência
+As Figuras 6 a 9 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas para auxílio na estruturação das tabelas em Markdown e revisão sintática do texto. O planejamento metodológico, a definição dos papéis da equipe e a logística da sessão presencial permanecem sob responsabilidade autoral de Igor Dantas Araújo.
+<div id="figura-6" align="center">
+<p><strong>Figura 6</strong> — 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 6 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-7" align="center">
+<p><strong>Figura 7</strong> — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
+</div>
+
+![Figura 7 — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 303). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-8" align="center">
+<p><strong>Figura 8</strong> — Tabela 12.9 – Atividades do método de prototipação em papel</p>
+</div>
+
+![Figura 8 — Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-9" align="center">
+<p><strong>Figura 9</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+</div>
+
+![Figura 9 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 
-## 10. Referências Bibliográficas
-
+## 11. Referências Bibliográficas
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11, p. 245–266; Capítulo 12, Seção 12.2.3, p. 303–306).
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Regulamenta as pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. São Paulo: Editora Érica, 2005.
-* RUBIN, Jeffrey. **Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests**. New York: John Wiley & Sons, 1994.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.
-* SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann, 2003.
-
----
-**Autor:** [Igor Dantas Araújo](https://github.com/IgorDARAUJO)  
-**Revisor:** [Gabriel Cardone](https://github.com/gabriellcardone-06)

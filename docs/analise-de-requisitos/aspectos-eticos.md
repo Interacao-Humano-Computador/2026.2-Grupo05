@@ -1,13 +1,17 @@
-# Aspectos Éticos
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Criação do documento de organização dos aspectos éticos que foram utilizados no site do **SEMOB-DF**. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 27/09/2026 | 1.1 | Adição da preview do documento | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 26/09/2026 | `1.0` | Criação do documento de organização dos aspectos éticos que foram utilizados no site do **SEMOB-DF**. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
+| 27/09/2026 | `1.1` | Adição da preview do documento | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Não declarado pelo autor |
+| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
 
 ---
+
+# Aspectos Éticos
 
 # Aspectos Éticos e Termo de Consentimento Livre e Esclarecido (TCLE)
 
@@ -48,8 +52,6 @@ O documento a seguir foi elaborado com base na estrutura de modelo de TCLE apres
 
 *Caso o documento não carregue, [clique aqui para baixar o TCLE](../assets/PDFs/TCLE_Pesquisa_Transporte.pdf).*
 
-**Elaborado por:** [Igor Dantas](https://github.com/IgorDARAUJO)
-
 ---
 
 ## 3. Fotos de Referência
@@ -78,8 +80,8 @@ O documento a seguir foi elaborado com base na estrutura de modelo de TCLE apres
 ![Imagem 8](../assets/prints_referencias/print-principios8.png)
 *Imagem 8 - Barbosa et al., 2021, Seção 7.4, p. 128*
 
+---
+
 ## 4. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 7: Identificação de Necessidades dos Usuários e Definição dos Requisitos de IHC, Seção 7.4: Aspectos Éticos de Pesquisas Envolvendo Pessoas, p. 126–129).
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 466, de 12 de dezembro de 2012**. Trata de pesquisas envolvendo seres humanos. Brasília: Diário Oficial da União, 2013.
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Regulamenta as pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.

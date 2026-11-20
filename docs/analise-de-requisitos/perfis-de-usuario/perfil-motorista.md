@@ -1,30 +1,38 @@
-# Perfil de Usuário: Motoristas de Ônibus do STPC/DF (Usuário Terciário)
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista (MOT-01) na Garagem Piracicabana (SGO). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| 27/09/2026 | 1.1 | Modularização em artefato próprio e refinamento textual em formato discursivo contínuo. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 26/09/2026 | `1.0` | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista (MOT-01) na Garagem Piracicabana (SGO). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
+| 27/09/2026 | `1.1` | Modularização em artefato próprio e refinamento textual em formato discursivo contínuo. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
+| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+
+
+!!! warning "Observação para correção manual"
+    A classificação de stakeholders em usuários primários, secundários e terciários vinha de Eason (1987), que não é referência do livro da disciplina. A citação foi retirada; o autor deve verificar se mantém a classificação apoiada apenas em Barbosa et al. (2021), que tratam das partes interessadas (stakeholders).
 
 ---
+
+# Perfil de Usuário: Motoristas de Ônibus do STPC/DF (Usuário Terciário)
 
 ## 1. Introdução e Contextualização
 
 O presente documento consolida a identificação e caracterização do **Perfil de Usuário** referente aos motoristas de transporte público coletivo urbano que atuam no Distrito Federal, no âmbito da análise e avaliação de **Interação Humano-Computador (IHC)** do **Portal da Secretaria de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)** (`www.semob.df.gov.br`).
 
-A concepção deste perfil apoia-se estritamente nas diretrizes metodológicas do Capítulo 5 (*Identificação de Necessidades dos Usuários e Requisitos de IHC*) da obra de **Barbosa e Silva (2010)**, bem como na literatura clássica de classificação de partes interessadas de **Eason (1987)**. O objetivo é mapear as características demográficas, habilidades tecnológicas, rotina de trabalho, conhecimento do domínio e necessidades latentes desse grupo profissional, fornecendo subsídios empíricos sólidos para as etapas subsequentes do projeto — em especial a modelagem da [Persona: Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md), Cenários e Análise de Tarefas.
+A concepção deste perfil apoia-se estritamente nas diretrizes metodológicas do Capítulo 7 (*Identificação de Necessidades dos Usuários e Requisitos de IHC*) da obra de **Barbosa et al. (2021)**. O objetivo é mapear as características demográficas, habilidades tecnológicas, rotina de trabalho, conhecimento do domínio e necessidades latentes desse grupo profissional, fornecendo subsídios empíricos sólidos para as etapas subsequentes do projeto — em especial a modelagem da [Persona: Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md), Cenários e Análise de Tarefas.
 
 ---
 
-## 2. Enquadramento e Papel Operacional (Eason, 1987)
+## 2. Enquadramento e Papel Operacional (Barbosa et al., 2021)
 
-Na literatura de IHC, identificar as partes interessadas (*stakeholders*) é etapa basilar para não restringir o design a visões parciais da organização (Barbosa e Silva, 2010, p. 136; Eason, 1987).
+Na literatura de IHC, identificar as partes interessadas (*stakeholders*) é etapa basilar para não restringir o design a visões parciais da organização (Barbosa et al., 2021).
 
 > **Achado Empírico Central da Pesquisa:**  
 > Ao ser questionado diretamente sobre o uso de canais digitais (*Pergunta 16 do roteiro*), o motorista entrevistado (**MOT-01**) informou que **nunca acessou o site oficial da SEMOB-DF**, utilizando exclusivamente o aplicativo interno da empresa concessionária (Viação Piracicabana) e os avisos informativos afixados no balcão da garagem.
 
-À luz da teoria de **Eason (1987)** e **Barbosa e Silva (2010, p. 136)**, os motoristas de ônibus se consolidam como **stakeholders/usuários terciários** em relação ao Portal da SEMOB:
+À luz de **Barbosa et al. (2021)**, os motoristas de ônibus se consolidam como **stakeholders/usuários terciários** em relação ao Portal da SEMOB:
 * **Não manipulam a interface gráfica diretamente** em sua jornada de direção e trabalho.
 * **São afetados de forma crítica pelo sistema:** A SEMOB-DF tem o papel de planejar, auditar e fiscalizar o cumprimento das tabelas horárias e a conservação da frota. Se o portal oficial divulgar rotas divergentes, horários incorretos ou falhar ao comunicar bloqueios e alterações viárias, **o motorista arca com o desgaste no trânsito, perda de viagens regulamentadas e atrito interpessoal direto com passageiros insatisfeitos**.
 * **Interdependência Operacional:** O participante pontuou de forma enfática que a informação de transporte é sistêmica e envolve uma cadeia integrada: *"Todos precisam"* (cobradores, fiscais de ponto, despachantes, passageiros e motoristas).
@@ -43,7 +51,7 @@ A coleta de dados empíricos foi conduzida por meio de **entrevista semiestrutur
 * **Registro em Vídeo:** Disponível na íntegra na seção da [Entrevista ENT-01](../entrevistas.md#41-entrevista-01-potencial-usuario-do-semob-df-motorista-de-onibus).
 * **Forma de Registro:** Gravação audiovisual consentida e anotações contextuais imediatas.
 
-### 3.2 Salvaguardas Éticas (Resolução CNS nº 510/2016 e Barbosa e Silva, 2010)
+### 3.2 Salvaguardas Éticas (Resolução CNS nº 510/2016 e Barbosa et al., 2021)
 1. **Dignidade e Autonomia:** O entrevistado foi informado sobre a natureza estritamente acadêmica da pesquisa e acolhido em seu ambiente de descanso entre turnos.
 2. **Consentimento Livre e Esclarecido:** Foi apresentado e formalizado o Termo de Consentimento Livre e Esclarecido ([TCLE](../../assets/PDFs/TCLE_entrevista_motorista.pdf)), esclarecendo objetivos, ausência de remuneração/custos e a garantia de que as respostas não seriam repassadas para fins fiscalizatórios ou punitivos da empresa/órgão (detalhes na página de [Aspectos Éticos](../aspectos-eticos.md)).
 3. **Confidencialidade e Dados Brutos:** Os arquivos de áudio e vídeo originais e anotações diretas são de acesso restrito à equipe de avaliação.
@@ -52,9 +60,9 @@ A coleta de dados empíricos foi conduzida por meio de **entrevista semiestrutur
 
 ---
 
-## 4. Caracterização Detalhada do Perfil (Barbosa e Silva, 2010)
+## 4. Caracterização Detalhada do Perfil (Barbosa et al., 2021)
 
-Esta seção documenta sistematicamente os grupos de atributos preconizados na Seção 5.2 (pp. 134–135) da obra de Barbosa e Silva (2010), sustentados pelas evidências e respostas colhidas junto ao participante **MOT-01**:
+Esta seção documenta sistematicamente os grupos de atributos preconizados na Seção 7.2 (pp. 123–124) da obra de Barbosa et al. (2021), sustentados pelas evidências e respostas colhidas junto ao participante **MOT-01**:
 
 ### 4.1 Dados Demográficos e Educação
 O participante entrevistado (**MOT-01**) tem 48 anos de idade, é do gênero masculino e possui o ensino médio incompleto. No que diz respeito às suas habilidades de leitura e letramento, o condutor apresenta capacidade de leitura funcional plenamente orientada à sua rotina operacional, mantendo o hábito frequente de consultar comunicados impressos e informativos disponibilizados no balcão de escala da garagem (*"Sempre que tem disponível a gente lê né, quando eles colocam lá no balcão"*). Textos excessivamente longos, burocráticos ou com jargões jurídicos demandam simplificação textual e síntese visual para assegurar uma comunicação rápida e eficiente.
@@ -142,9 +150,42 @@ Embora os motoristas não sejam os operadores prioritários da interface web da 
 
 ---
 
-## 7. Referências Bibliográficas
+## 7. Fotos de Referência
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 5: Identificação de Necessidades dos Usuários e Requisitos de IHC (pp. 134–158).
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Regulamenta as pesquisas em Ciências Humanas e Sociais envolvendo seres humanos. Brasília: Diário Oficial da União, 2016.
-* EASON, Ken. **Information Technology and Organisational Change**. London: Taylor & Francis, 1987.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da Interação Humano-Computador**. 3. ed. Porto Alegre: Bookman, 2013.
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Perfil de usuário: definição e grupos de atributos</p>
+</div>
+
+![Figura 1 — Perfil de usuário: definição e grupos de atributos](../../assets/prints_referencias/verificacao-v2/livro-perfil.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 151–152). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — Tipos de dados coletados sobre os usuários (Barbosa et al., 2021)</p>
+</div>
+
+![Figura 2 — Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)](../../assets/prints_referencias/verificacao-v2/livro-que-dados-coletar.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 123–124). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Usuários primários, secundários e stakeholders</p>
+</div>
+
+![Figura 3 — Usuários primários, secundários e stakeholders](../../assets/prints_referencias/verificacao-v2/livro-de-quem-coletar.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 124). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 8. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

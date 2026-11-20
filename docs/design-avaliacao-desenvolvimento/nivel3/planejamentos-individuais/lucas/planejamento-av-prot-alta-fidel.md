@@ -1,9 +1,14 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 01/11/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Alta Fidelidade (TAR-03) via framework DECIDE, com amostragem fundamentada na teoria de Steve Krug e referências do livro-texto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para formatação em Markdown |
 | 10/11/2026 | `1.1` | Transição da plataforma de prototipação de alta fidelidade do Figma para protótipo em código navegável (HTML5, CSS3 e JavaScript), atualização do protocolo técnico de execução e adição de justificativa metodológica. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para formatação em Markdown |
+| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
+
+
+!!! warning "Observação para correção manual"
+    A justificativa do número de participantes citava Steve Krug, que não é referência do livro da disciplina. O trecho foi reescrito com base em Barbosa et al. (2021, pp. 258–259), que citam Nielsen (2000 apud BARBOSA et al., 2021) e Dumas e Redish (1999 apud BARBOSA et al., 2021). O autor deve revisar se a nova redação mantém o sentido pretendido.
 
 ---
 
@@ -11,13 +16,26 @@
 
 Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-03 — Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/#tar-03-planejamento-de-rota-completa-porta-a-porta-por-destino-com-indicacao-de-paradas-e-previsao-de-chegada)**. Trata-se do planejamento individual elaborado por Lucas Araújo Lima para orientar a avaliação formativa e empírica do protótipo digital interativo de alta fidelidade construído em **HTML navegável** (utilizando a stack web padrão: **HTML5, CSS3 e JavaScript**), representando a proposta de redesign da interface móvel da **SEMOB-DF / DF no Ponto**.
 
-O protótipo de alta fidelidade incorpora os aprendizados colhidos na avaliação anterior em papel (Nível 2) e observa estritamente o **[Guia de Estilo](../../../../analise-de-requisitos/guia-de-estilo/introducao.md)** estabelecido pelo Grupo 05 (paleta cromática com contraste WCAG AA, tipografia legível, alvos de toque *mobile-first* de no mínimo 48×48 px, botões padronizados na sintaxe `[Verbo + Ação]` e automação do cálculo de caminhada e telemetria via GPS). A avaliação será conduzida com usuários reais seguindo o **Framework DECIDE** (Sharp, Rogers & Preece, 2007; Barbosa & Silva, 2010, Seção 9.8, p. 312–313; Barbosa et al., 2021, Seção 11.8), estruturado nas seis atividades interdependentes: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar, interpretar e apresentar dados).
+O protótipo de alta fidelidade incorpora os aprendizados colhidos na avaliação anterior em papel (Nível 2) e observa estritamente o **[Guia de Estilo](../../../../analise-de-requisitos/guia-de-estilo/introducao.md)** estabelecido pelo Grupo 05 (paleta cromática com contraste WCAG AA, tipografia legível, alvos de toque *mobile-first* de no mínimo 48×48 px, botões padronizados na sintaxe `[Verbo + Ação]` e automação do cálculo de caminhada e telemetria via GPS). A avaliação será conduzida com usuários reais seguindo o **Framework DECIDE** (Barbosa et al., 2021, Seção 11.8, pp. 264–265), estruturado nas seis atividades interdependentes: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar, interpretar e apresentar dados).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-03 (Planejamento de Rota por Origem e Destino):**
+
+* **Persona:** [Marcos Paulo Vieira](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md)
+* **Cenário:** [Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)
+* **Análise de tarefas:** [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
+* **Storyboard:** [Storyboard 03](../../../nivel1/storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../../nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](../../../nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-03/index.html)
+
 
 ---
 
 ## 1. D — Determinar os Objetivos da Avaliação
 
-De acordo com Mayhew (1999) e Barbosa & Silva (2010, Cap. 4, p. 108; Cap. 9, p. 286), a avaliação do protótipo de alta fidelidade situa-se no Nível 3 do ciclo de vida da Engenharia de Usabilidade. Seu propósito central é inspecionar e validar empiricamente o projeto detalhado de telas interativas em condições visuais, estéticas e funcionais próximas ao software final antes da implementação definitiva em produção.
+De acordo com Mayhew (1999 apud BARBOSA et al., 2021) e Barbosa et al. (2021), a avaliação do protótipo de alta fidelidade situa-se no Nível 3 do ciclo de vida da Engenharia de Usabilidade. Seu propósito central é inspecionar e validar empiricamente o projeto detalhado de telas interativas em condições visuais, estéticas e funcionais próximas ao software final antes da implementação definitiva em produção.
 
 ### 1.1 Objetivos Principais e Específicos
 1. **Verificar a conformidade com o Guia de Estilo do Grupo 05:** Avaliar se a aplicação das cores institucionais, hierarquia tipográfica, espaçamento de *cards*, ícones semióticos e botões de ação no padrão `[Verbo + Ação]` (ex.: `[ 🧭 Iniciar Rota ]`, `[ 🗺️ Trocar para Rota Alternativa ]`) proporcionam reconhecimento imediato e previnem erros de toque no smartphone.
@@ -30,7 +48,7 @@ De acordo com Mayhew (1999) e Barbosa & Silva (2010, Cap. 4, p. 108; Cap. 9, p. 
 
 ## 2. E — Explorar as Perguntas a Serem Respondidas
 
-Para operacionalizar os objetivos traçados, foram formuladas seis perguntas investigativas que serão respondidas por meio da observação direta da interação no protótipo HTML e da entrevista pós-teste (Barbosa & Silva, 2010, p. 313; Rubin & Chisnell, 2008):
+Para operacionalizar os objetivos traçados, foram formuladas seis perguntas investigativas que serão respondidas por meio da observação direta da interação no protótipo HTML e da entrevista pós-teste (Barbosa et al., 2021):
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Perguntas Investigativas para Avaliação do Protótipo de Alta Fidelidade (TAR-03)</p>
@@ -53,27 +71,26 @@ Para operacionalizar os objetivos traçados, foram formuladas seis perguntas inv
 
 ## 3. C — Choose (Escolher) os Métodos de Avaliação
 
-O método selecionado para esta etapa é o **Teste de Usabilidade (Observação de Uso Empírica em Ambiente Controlado)** utilizando o protótipo interativo de alta fidelidade em **código navegável (HTML5, CSS3 e JavaScript)** (Rubin & Chisnell, 2008; Barbosa & Silva, 2010, Seção 10.2.1, p. 341–348; Barbosa et al., 2021, Seção 12.2.1).
+O método selecionado para esta etapa é o **Teste de Usabilidade (Observação de Uso Empírica em Ambiente Controlado)** utilizando o protótipo interativo de alta fidelidade em **código navegável (HTML5, CSS3 e JavaScript)** (Barbosa et al., 2021, Seção 12.2.1, pp. 288–291; Barbosa et al., 2021, Seção 12.2.1).
 
-* **Justificativa Metodológica:** Conforme a Tabela 10.8 de Barbosa & Silva (2010, p. 362), o teste de usabilidade possui adequação máxima (`+++`) para avaliar a **apropriação de tecnologia** e identificar **problemas de IHC** em protótipos interativos de alta fidelidade. A execução direta em navegador web móvel/desktop proporciona realismo operacional superior: permite campos de texto reais com digitação e autocompletar dinâmico, renderização responsiva fiel ao motor de renderização do smartphone, temporizadores de telemetria reais via JavaScript e navegação sem falsos cliques ou limitações de ferramentas de design. Isso viabiliza a coleta rigorosa de tempo de tarefa, identificação de erros de navegação e avaliação precisa de satisfação do usuário.
+* **Justificativa Metodológica:** Conforme a Tabela 12.10 de Barbosa et al. (2021), o teste de usabilidade possui adequação máxima (`+++`) para avaliar a **apropriação de tecnologia** e identificar **problemas de IHC** em protótipos interativos de alta fidelidade. A execução direta em navegador web móvel/desktop proporciona realismo operacional superior: permite campos de texto reais com digitação e autocompletar dinâmico, renderização responsiva fiel ao motor de renderização do smartphone, temporizadores de telemetria reais via JavaScript e navegação sem falsos cliques ou limitações de ferramentas de design. Isso viabiliza a coleta rigorosa de tempo de tarefa, identificação de erros de navegação e avaliação precisa de satisfação do usuário.
 * **Técnicas Complementares Combinadas:**
-  1. **Protocolo *Think Aloud* (Pensar em Voz Alta):** Durante a navegação pelas telas e componentes do protótipo em HTML, o participante será estimulado a verbalizar continuamente seu raciocínio, expectativas e eventuais dúvidas antes de cada toque/clique (Barbosa & Silva, 2010, p. 345).
+  1. **Protocolo *Think Aloud* (Pensar em Voz Alta):** Durante a navegação pelas telas e componentes do protótipo em HTML, o participante será estimulado a verbalizar continuamente seu raciocínio, expectativas e eventuais dúvidas antes de cada toque/clique (Barbosa et al., 2021).
   2. **Entrevista Pós-Teste Semiestruturada:** Ao final da execução das tarefas no protótipo, o avaliador aplicará as perguntas investigativas (`QF01` a `QF06`) para captar a percepção qualitativa sobre o design visual e a utilidade prática da solução.
 
 ---
 
 ## 4. I — Identificar e Administrar as Questões Práticas
 
-### 4.1 Planejamento do Recrutamento dos Entrevistados: Fundamentação na Teoria de Steve Krug
+### 4.1 Planejamento do Recrutamento dos Entrevistados: Fundamentação e Justificativa do Número de Participantes
 
-O dimensionamento da amostra de participantes para a avaliação do protótipo de alta fidelidade fundamenta-se diretamente na **teoria de testes de usabilidade simplificados (*Discount / Do-It-Yourself Usability Testing*) de Steve Krug** (Krug, 2000, 2006; Santa-Rosa, 2005, p. 156–157; Nielsen, 2000):
+O dimensionamento da amostra de participantes para a avaliação do protótipo de alta fidelidade segue as orientações de Barbosa et al. (2021, pp. 258–259) sobre o perfil e o número de participantes:
 
 * **Quantidade de Participantes:** Serão recrutados **3 participantes** pertencentes ao perfil primário de passageiros do transporte público coletivo do Distrito Federal.
-* **Fundamentação Teórica (Krug, 2000, 2006):** Em suas obras de referência *Don't Make Me Think* e *Rocket Surgery Made Easy*, Steve Krug demonstra que avaliações de usabilidade formativas e iterativas não exigem amostras estatísticas numerosas para revelar as falhas de uma interface:
-  1. **Detecção de 80% a 85% dos Problemas Críticos:** Os primeiros **3 participantes** encontram a quase totalidade dos problemas mais graves de usabilidade e compreensão de rótulos/fluxo de uma interface interativa.
+* **Fundamentação Teórica (Barbosa et al., 2021, pp. 258–259):** o perfil e o número de participantes são escolhidos com base nos perfis de usuários, nos objetivos e no escopo da avaliação. Nielsen (2000 apud BARBOSA et al., 2021) afirma que bastam cinco usuários para encontrar a maioria dos problemas na interface, e o livro observa que o tempo e os recursos disponíveis podem inviabilizar amostras maiores. Com base nisso:
+  1. **Detecção dos problemas mais graves:** a amostra de **3 participantes** busca revelar os problemas de usabilidade mais severos do fluxo avaliado, próxima da referência de cinco usuários de Nielsen (2000 apud BARBOSA et al., 2021).
   2. **Agilidade de Consolidação e Reprojeto no Mesmo Ciclo:** Testar com 3 usuários evita o acúmulo de observações repetitivas, permitindo que a equipe analise as gravações, consolide o relatório e aplique as correções diretamente no código-fonte do protótipo em HTML imediatamente após a rodada.
-  3. **Eficiência e Rendimento Decrescente:** A partir do quarto ou quinto usuário em um mesmo ciclo sem alteração da interface, observa-se forte redundância dos mesmos obstáculos já mapeados, reduzindo a relação custo-benefício.
-  4. **Máxima de Krug:** *"Testar três usuários em rodadas curtas e iterativas é o ponto ótimo para identificar as principais barreiras de interação e corrigi-las rapidamente"* (Krug, 2006; Santa-Rosa, 2005, p. 156).
+  3. **Relação custo-benefício:** Nielsen (2000 apud BARBOSA et al., 2021) associa amostras pequenas a uma boa relação custo–benefício; amostras maiores exigiriam tempo e recursos que o cronograma da disciplina não comporta (Barbosa et al., 2021, p. 259).
 * **Perfil dos 3 Participantes Recrutados:**
   * Jovens ou adultos (18 a 45 anos), estudantes ou trabalhadores que utilizam regularmente as linhas de ônibus da **SEMOB-DF** em deslocamentos pendulares no Distrito Federal e possuem familiaridade cotidiana com aplicativos móveis em smartphones Android/iOS, espelhando o perfil e as necessidades da persona primária **[Marcos Paulo Vieira ("Marquinhos")](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md)**.
 
@@ -130,7 +147,7 @@ O protótipo digital interativo foi desenvolvido com tecnologias web padronizada
 
 ### 4.5 Planejamento do Teste Piloto
 
-Em estrita observância ao **Item 11 do Checklist do Plano de Ensino** e às recomendações de Barbosa & Silva (2010, Seção 9.7.2, p. 299), antes da realização das sessões com os 3 usuários externos será executado um **Teste Piloto**:
+Em estrita observância ao **Item 11 do Checklist do Plano de Ensino** e às recomendações de Barbosa et al. (2021, Seção 11.7.2, p. 260), antes da realização das sessões com os 3 usuários externos será executado um **Teste Piloto**:
 
 * **Objetivo do Teste Piloto:** Verificar se todos os elementos interativos, formulários, transições de estado via JavaScript e modais do protótipo em HTML/CSS/JS estão funcionando sem falhas ou becos sem saída, testar o áudio e a gravação de tela, validar a clareza do enunciado das tarefas e aferir se a sessão cabe confortavelmente na janela de 10 minutos.
 * **Data de Realização:** **10/11/2026 às 19h00**, conduzido por Lucas Araújo Lima com o apoio de Arthur Mariani.
@@ -140,7 +157,7 @@ Em estrita observância ao **Item 11 do Checklist do Plano de Ensino** e às rec
 
 ## 5. D — Decidir como Lidar com as Questões Éticas
 
-A condução dos testes de usabilidade em alta fidelidade obedecerá rigorosamente às diretrizes éticas da Resolução CNS nº 466/2012 e nº 510/2016, bem como aos quatro princípios bioéticos documentados em [Questões Práticas e Éticas das Avaliações](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md) (Barbosa & Silva, 2010, Seção 5.4, p. 138–143):
+A condução dos testes de usabilidade em alta fidelidade obedecerá rigorosamente às diretrizes éticas da Resolução CNS nº 466/2012 e nº 510/2016, bem como aos quatro princípios bioéticos documentados em [Questões Práticas e Éticas das Avaliações](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md) (Barbosa et al., 2021, Seção 7.4):
 
 1. **Termo de Consentimento Livre e Esclarecido (TCLE):** Antes de iniciar a sessão, cada um dos 3 participantes lerá e assinará (ou manifestará concordância gravada) o [TCLE oficial do projeto](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf), autorizando a captura da interação na tela e da voz para fins estritamente acadêmicos na UnB.
 2. **Autonomia e Direito de Desistência:** O participante será informado de que sua colaboração é voluntária e que pode interromper o teste ou retirar seu consentimento a qualquer momento, sem necessidade de justificativa e sem qualquer prejuízo.
@@ -151,7 +168,7 @@ A condução dos testes de usabilidade em alta fidelidade obedecerá rigorosamen
 
 ## 6. E — Avaliar, Interpretar e Apresentar os Dados
 
-Conforme preconizado por Barbosa & Silva (2010, p. 312–313, 347–348), a etapa final do framework DECIDE envolve a triangulação de métricas quantitativas e evidências qualitativas:
+Conforme preconizado por Barbosa et al. (2021), a etapa final do framework DECIDE envolve a triangulação de métricas quantitativas e evidências qualitativas:
 
 1. **Métricas Quantitativas de Desempenho:**
    * *Taxa de conclusão sem ajuda (%):* Proporção dos 3 participantes que finalizam as sub-tarefas `TAR-03.1`, `TAR-03.2` e `TAR-03.3` sem intervenção do facilitador.
@@ -159,7 +176,7 @@ Conforme preconizado por Barbosa & Silva (2010, p. 312–313, 347–348), a etap
    * *Contagem de erros / cliques incorretos:* Quantidade de toques fora das áreas interativas (*misclicks*) ou escolhas equivocadas de rota.
 2. **Análise Qualitativa e Escala de Severidade:**
    * As verbalizações do *Think Aloud* e as respostas às questões `QF01` a `QF06` serão categorizadas e cruzadas com as diretrizes do Guia de Estilo.
-   * Todo problema de usabilidade identificado será classificado segundo a **Escala de Severidade de Nielsen (1994)** de **0 (Sem importância)** a **4 (Catastrófico)**, definindo sua prioridade de correção no código do protótipo.
+   * Todo problema de usabilidade identificado será classificado segundo a **Escala de Severidade de Nielsen (1994 apud BARBOSA et al., 2021)** de **0 (Sem importância)** a **4 (Catastrófico)**, definindo sua prioridade de correção no código do protótipo.
 3. **Validade e Confiabilidade do Estudo (DECIDE):**
    * *Validade Interna:* Assegurada pela padronização do cenário, uso do mesmo link do protótipo HTML publicado no GitHub Pages para os 3 participantes e neutralidade do facilitador.
    * *Validade Ecológica:* Promovida pela representação fiel das linhas reais do DF (`092.1`, `0.092` e `0.380`), tarifas vigentes (`R$ 5,50`) e viewport móvel idêntico ao uso cotidiano em smartphones.
@@ -190,54 +207,135 @@ A decisão técnica e metodológica de implementar o protótipo de alta fidelida
 Em atendimento ao rigor metodológico exigido no Plano de Ensino da disciplina, apresentam-se os registros visuais (*prints* das obras de referência) que fundamentam o uso do **Framework DECIDE**, do **Teste de Usabilidade** e do **Teste Piloto**:
 
 ### 8.1 O Framework DECIDE no Planejamento da Avaliação de IHC
-Na Seção 9.8 (*O Framework DECIDE*, p. 312–313), Barbosa & Silva sintetizam as seis atividades propostas por Sharp, Rogers e Preece (2007) para estruturar avaliações de IHC:
+Na Seção 11.8 (*O Framework DECIDE*, p. 264), Barbosa et al. (2021) sintetizam as seis atividades propostas por Sharp, Rogers e Preece (2002 apud BARBOSA et al., 2021) para estruturar avaliações de IHC:
 
 <div align="center">
-  <img src="../../../../../assets/prints_referencias/referencia-decide-visao-geral.png" alt="Print da página do livro de IHC apresentando a visão geral do Framework DECIDE" width="85%">
+  <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-decide.png" alt="11.8 Framework DECIDE (BARBOSA et al., 2021, p. 264)" width="85%">
   <p><strong>Figura 1</strong> — Síntese das seis atividades interdependentes do Framework DECIDE</p>
-  <p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 9, Seção 9.8, p. 312–313).</em></p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 11.8, p. 264). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 ### 8.2 Escolha de Métodos de Observação e Teste de Usabilidade
-Na Seção 9.8 e na Tabela 10.8 (p. 362), os autores demonstram a adequação dos métodos de observação e teste de usabilidade para avaliar problemas de IHC e apropriação de tecnologia em protótipos interativos:
+Na Seção 11.8 e na Tabela 12.10 (p. 306), os autores demonstram a adequação dos métodos de observação e teste de usabilidade para avaliar problemas de IHC e apropriação de tecnologia em protótipos interativos:
 
 <div align="center">
-  <img src="../../../../../assets/prints_referencias/referencia-decide-escolher-metodos.png" alt="Print da seção sobre escolha de métodos de avaliação no Framework DECIDE" width="85%">
+  <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-decide.png" alt="11.8 Framework DECIDE (BARBOSA et al., 2021, p. 264)" width="85%">
   <p><strong>Figura 2</strong> — Critérios para escolha do método de avaliação e administração de questões práticas no DECIDE</p>
-  <p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 9, Seção 9.8, p. 313).</em></p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 11.8, p. 264). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 ### 8.3 Obrigatoriedade e Finalidade do Teste Piloto
-Na preparação da avaliação (Seção 9.7.2), a literatura enfatiza a execução do teste piloto para verificar equipamentos, materiais e roteiro antes da sessão real:
+Na preparação da avaliação (Seção 11.7.2), a literatura enfatiza a execução do teste piloto para verificar equipamentos, materiais e roteiro antes da sessão real:
 
 <div align="center">
-  <img src="../../../../../assets/prints_referencias/referencia-planejamento-avaliacao-5-teste-piloto.png" alt="Print do livro de IHC sobre a realização do teste piloto" width="85%">
+  <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png" alt="11.7.2 Teste-piloto: objetivo e descarte dos dados (BARBOSA et al., 2021, p. 260)" width="85%">
   <p><strong>Figura 3</strong> — Fundamentação da execução do Teste Piloto para calibração prévia da avaliação</p>
-  <p><em>Fonte: BARBOSA et al. (2021, Capítulo 11, Seção 11.7.2) / BARBOSA & SILVA (2010, Seção 9.7.2, p. 299).</em></p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 11.7.2, p. 260). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+</div>
+
+
+## 9. Telas do Protótipo Avaliado
+
+As Figuras 4 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md).
+
+* **Protótipo navegável:** [Acessar o protótipo da TAR-03](../../../../prototipos/tar-03/index.html)
+
+<div id="figura-4" align="center" markdown="1">
+<p><strong>Figura 4</strong> — T1 Home e Origem GPS</p>
+
+![T1 Home e Origem GPS](../../../../assets/images/prototipo-tar03/T1-home.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+<div id="figura-5" align="center" markdown="1">
+<p><strong>Figura 5</strong> — T2 Busca Preditiva ("SIA")</p>
+
+![T2 Busca Preditiva ('SIA')](../../../../assets/images/prototipo-tar03/T2-autocompletar.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+<div id="figura-6" align="center" markdown="1">
+<p><strong>Figura 6</strong> — T3 Comparador de Rotas</p>
+
+![T3 Comparador de Rotas](../../../../assets/images/prototipo-tar03/T3-comparador-rotas.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+<div id="figura-7" align="center" markdown="1">
+<p><strong>Figura 7</strong> — T4 Mapa Ao Vivo (Linha 092.1)</p>
+
+![T4 Mapa Ao Vivo (Linha 092.1)](../../../../assets/images/prototipo-tar03/T4-mapa-ao-vivo.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+<div id="figura-8" align="center" markdown="1">
+<p><strong>Figura 8</strong> — T5 Alerta de Retenção (+14 min)</p>
+
+![T5 Alerta de Retenção (+14 min)](../../../../assets/images/prototipo-tar03/T5-alerta-retencao.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+<div id="figura-9" align="center" markdown="1">
+<p><strong>Figura 9</strong> — T6 Grade Horária Offline</p>
+
+![T6 Grade Horária Offline](../../../../assets/images/prototipo-tar03/T6-horarios-offline.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+---
+---
+
+## 10. Fotos de Referência
+As Figuras 10 a 13 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-10" align="center">
+<p><strong>Figura 10</strong> — 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 10 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-11" align="center">
+<p><strong>Figura 11</strong> — Representação de interface em alta fidelidade</p>
+</div>
+
+![Figura 11 — Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 210). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-12" align="center">
+<p><strong>Figura 12</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+</div>
+
+![Figura 12 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-13" align="center">
+<p><strong>Figura 13</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+</div>
+
+![Figura 13 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
 </div>
 
 ---
 
-## 9. Declaração sobre o Uso de IA Generativa
-
-Em conformidade com o Plano de Ensino da disciplina (SALES, 2026) e o Código de Conduta da SBC, declara-se que ferramentas de Inteligência Artificial Generativa (Google Gemini) foram utilizadas exclusivamente como apoio para formatação em Markdown. Toda a concepção metodológica, aplicação do Framework DECIDE à TAR-03, fundamentação na teoria de Steve Krug e especificação do protocolo de testes permanecem de autoria e responsabilidade de Lucas Araújo Lima.
-
----
-
-## 10. Referências Bibliográficas
-
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. ISBN 978-85-352-1120-7. (Capítulo 9: Planejamento da Avaliação de IHC, p. 286–314; Capítulo 10: Métodos de Avaliação de IHC, Seção 10.2.1: Teste de Usabilidade, p. 341–348).
+## 11. Referências Bibliográficas
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11, p. 245–266; Capítulo 12, Seção 12.2.1, p. 288–291).
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Dispõe sobre as normas aplicáveis a pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-* KRUG, Steve. **Don't Make Me Think: A Common Sense Approach to Web Usability**. 1st ed. Berkeley: New Riders, 2000.
-* KRUG, Steve. **Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems**. Berkeley: New Riders, 2006.
-* MAYHEW, Deborah J. **The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design**. San Francisco: Morgan Kaufmann, 1999.
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
-* RUBIN, Jeffrey; CHISNELL, Dana. **Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests**. 2nd ed. Indianapolis: Wiley, 2008.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-* SANTA-ROSA, José Guilherme. **Avaliação e Projeto no Design de Interfaces: Teste de Usabilidade**. Capítulo 9, p. 144–175, 2005.
-* SHARP, Helen; ROGERS, Yvonne; PREECE, Jennifer. **Interaction Design: Beyond Human-Computer Interaction**. 2nd ed. New York: John Wiley & Sons, 2007.
-
----
-**Autor:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)  
-**Revisor:** [Arthur Mariani](https://github.com/arthur-mariani)

@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 25/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Protótipo de Papel (TAR-03) com modelos de tabelas e referências do livro-texto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para apoio na formatação sintática de tabelas em Markdown |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -10,7 +11,20 @@
 
 Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel** referente à **[TAR-03 — Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)**. Trata-se de um documento metodológico individual elaborado por Lucas Araújo Lima para padronizar como os dados coletados na sessão presencial de prototipação em papel (Etapa 6) serão analisados, consolidados e comunicados à equipe e aos interessados.
 
-A estrutura deste planejamento fundamenta-se diretamente nas diretrizes de **Consolidação e Relato dos Resultados** (Barbosa & Silva, 2010, Cap. 9, Seção 9.7.5, p. 311–312; Barbosa et al., 2021, Seção 11.7.5) e nas exigências específicas de relato do método de **Prototipação em Papel** (Barbosa & Silva, 2010, Cap. 10, Seção 10.2.3, p. 361–362; Barbosa et al., 2021, Seção 12.2.3, p. 305–306).
+A estrutura deste planejamento fundamenta-se diretamente nas diretrizes de **Consolidação e Relato dos Resultados** (Barbosa et al., 2021, Seção 11.7.5, pp. 262–263) e nas exigências específicas de relato do método de **Prototipação em Papel** (Barbosa et al., 2021, Seção 12.2.3, pp. 305–306).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-03 (Planejamento de Rota por Origem e Destino):**
+
+* **Persona:** [Marcos Paulo Vieira](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md)
+* **Cenário:** [Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)
+* **Análise de tarefas:** [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
+* **Storyboard:** [Storyboard 03](../../../nivel1/storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../../nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](../../../nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](lucas-planejamento-av-prototipo-papel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-03/index.html)
+
 
 ---
 
@@ -19,15 +33,15 @@ A estrutura deste planejamento fundamenta-se diretamente nas diretrizes de **Con
 O relato dos resultados da avaliação do protótipo em papel tem como objetivo central transformar as observações empíricas da sessão presencial (toques nas telas de papel, verbalizações do protocolo *Think Aloud* e ajustes em *post-its*) em insumos rastreáveis de engenharia de usabilidade para o projeto da **SEMOB-DF / DF no Ponto**. Seus objetivos específicos são:
 
 1. **Avaliar o cumprimento das metas de eficácia e fluidez na TAR-03:** Registrar se o participante representante da persona [Marcos Paulo Vieira](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md) conseguiu planejar sua rota porta a porta (*Samambaia Sul → SIA Trecho 3*), identificar a parada de embarque ideal e reagir a imprevistos no trânsito interagindo exclusivamente com as peças de papel.
-2. **Distinguir problemas corrigidos no ciclo rápido em papel de problemas pendentes:** Cumprir a exigência metodológica de Barbosa & Silva (2010, p. 361–362), documentando separadamente as falhas simples resolvidas durante a própria simulação no papel (ex.: reescrita de um rótulo em *post-it*) e os problemas estruturais que exigirão reprojeto na etapa de alta fidelidade.
-3. **Priorizar falhas por severidade e fatores de usabilidade prejudicados:** Classificar cada obstáculo observado segundo a escala de severidade de Nielsen (1994) e mapear os fatores de qualidade de uso afetados (aprendizado, eficiência, memorização, segurança/prevenção de erros e satisfação).
+2. **Distinguir problemas corrigidos no ciclo rápido em papel de problemas pendentes:** Cumprir a exigência metodológica de Barbosa et al. (2021), documentando separadamente as falhas simples resolvidas durante a própria simulação no papel (ex.: reescrita de um rótulo em *post-it*) e os problemas estruturais que exigirão reprojeto na etapa de alta fidelidade.
+3. **Priorizar falhas por severidade e fatores de usabilidade prejudicados:** Classificar cada obstáculo observado segundo a escala de severidade de Nielsen (1994 apud BARBOSA et al., 2021) e mapear os fatores de qualidade de uso afetados (aprendizado, eficiência, memorização, segurança/prevenção de erros e satisfação).
 4. **Fornecer especificações concretas para o Protótipo Digital de Alta Fidelidade:** Traduzir os achados empíricos em diretrizes visuais e interativas para o desenvolvimento executável do sistema nas etapas subsequentes.
 
 ---
 
 ## 2. Estrutura Padronizada do Relatório Final de Resultados
 
-Em estrita conformidade com a lista de itens obrigatórios estabelecida por Barbosa & Silva (2010, p. 312 e p. 361–362), o documento final de relato dos resultados da prototipação em papel da TAR-03 será composto pelas **8 seções padronizadas** descritas a seguir:
+Em estrita conformidade com a lista de itens obrigatórios estabelecida por Barbosa et al. (2021, pp. 263–306), o documento final de relato dos resultados da prototipação em papel da TAR-03 será composto pelas **8 seções padronizadas** descritas a seguir:
 
 1. **Objetivos e Escopo da Avaliação:** Contextualização da TAR-03 avaliada em papel e retomada das perguntas investigativas (`QP01` a `QP06`) definidas no [Planejamento da Avaliação do Protótipo de Papel](lucas-planejamento-av-prototipo-papel.md).
 2. **Descrição do Método e Protocolo Executado:** Síntese da aplicação da Prototipação em Papel combinada ao protocolo *Think Aloud*, apresentando fotos reais das telas estáticas (Telas 01 a 03) e dos *widgets* móveis (*post-its* W01 a W04) confeccionados, além do link da gravação da sessão.
@@ -42,9 +56,9 @@ Em estrita conformidade com a lista de itens obrigatórios estabelecida por Barb
 
 ## 3. Metodologia de Análise e Escala de Severidade dos Problemas
 
-Conforme ressaltam Barbosa & Silva (2010, p. 361), na prototipação em papel a interpretação inicia-se simultaneamente à coleta de dados, à medida que o observador registra as reações do usuário diante da manipulação das peças pelo "avaliador computador". Após a sessão, a gravação em vídeo da mesa e as anotações de campo são revisadas para priorizar os problemas segundo sua **gravidade** (o quanto prejudicaram a interação) e **frequência**.
+Conforme ressaltam Barbosa et al. (2021), na prototipação em papel a interpretação inicia-se simultaneamente à coleta de dados, à medida que o observador registra as reações do usuário diante da manipulação das peças pelo "avaliador computador". Após a sessão, a gravação em vídeo da mesa e as anotações de campo são revisadas para priorizar os problemas segundo sua **gravidade** (o quanto prejudicaram a interação) e **frequência**.
 
-Para padronizar a priorização entre todos os integrantes do Grupo 05, será adotada a **Escala de Severidade de Problemas de Usabilidade** de Nielsen (1994), integrada aos fatores de usabilidade de Barbosa & Silva (2010):
+Para padronizar a priorização entre todos os integrantes do Grupo 05, será adotada a **Escala de Severidade de Problemas de Usabilidade** de Nielsen (1994 apud BARBOSA et al., 2021), integrada aos fatores de usabilidade de Barbosa et al. (2021):
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Escala de Severidade para Priorização de Problemas no Protótipo de Papel</p>
@@ -59,7 +73,7 @@ Para padronizar a priorização entre todos os integrantes do Grupo 05, será ad
 | **4** | **Problema Catastrófico** | Bloqueia integralmente a conclusão da tarefa no protótipo em papel, levando o usuário ao erro irreversível (ex.: perder o ônibus simulado) ou à desistência. |
 
 <div align="center">
-<p><em>Fonte: Adaptado de Nielsen (1994) e Barbosa & Silva (2010, p. 361).</em></p>
+<p><em>Fonte: Adaptado de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021).</em></p>
 </div>
 
 ---
@@ -87,7 +101,7 @@ A seguir, definem-se os **quatro modelos de tabelas** que serão preenchidos no 
 ---
 
 ### 4.2 Modelo de Tabela 2: Problemas Corrigidos Durante os Ciclos no Papel
-Atende diretamente ao quinto tópico do relato exigido por Barbosa & Silva (2010, p. 361): *"uma lista de problemas de usabilidade corrigidos durante os ciclos de avaliação e reprojeto"*.
+Atende diretamente ao quinto tópico do relato exigido por Barbosa et al. (2021): *"uma lista de problemas de usabilidade corrigidos durante os ciclos de avaliação e reprojeto"*.
 
 <div align="center">
 <p><strong>Tabela 3</strong> — Modelo de Registro de Problemas Corrigidos Imediatamente no Protótipo em Papel</p>
@@ -99,13 +113,13 @@ Atende diretamente ao quinto tópico do relato exigido por Barbosa & Silva (2010
 | **PC-02** | *[Ex.: Widget W03 — Post-it de Alerta de Trânsito]* | *[Ex.: Eficiência / Visibilidade]* | *[Descrição da dificuldade no reconhecimento do botão de ação]* | *[Ex.: Redesenho do botão em post-it amarelo com rótulo "Trocar para Linha 0.380 Agora"]* | **[Sim / Não]** |
 
 <div align="center">
-<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026), baseado em Barbosa & Silva (2010, p. 361).</em></p>
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026), baseado em Barbosa et al. (2021).</em></p>
 </div>
 
 ---
 
 ### 4.3 Modelo de Tabela 3: Problemas Ainda Não Corrigidos (Pendentes para o Reprojeto)
-Atende diretamente ao sexto tópico do relato exigido por Barbosa & Silva (2010, p. 362): *"uma lista dos problemas de usabilidade ainda não corrigidos"*.
+Atende diretamente ao sexto tópico do relato exigido por Barbosa et al. (2021): *"uma lista dos problemas de usabilidade ainda não corrigidos"*.
 
 <div align="center">
 <p><strong>Tabela 4</strong> — Modelo de Registro de Problemas Pendentes e Sugestões de Correção para Alta Fidelidade</p>
@@ -117,7 +131,7 @@ Atende diretamente ao sexto tópico do relato exigido por Barbosa & Silva (2010,
 | **PP-02** | *[Ex.: Widget W04 — Modal de Falha de GPS]* | *[Ex.: Segurança no uso / Consistência]* | *[Ex.: Necessidade de transição mais clara entre estimativa por satélite e horário programado na tabela estática]* | **[0 a 4]** | *[Ex.: Diferenciar por código de cores (verde = GPS ao vivo; cinza = horário da tabela oficial SEMOB)]* |
 
 <div align="center">
-<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026), baseado em Barbosa & Silva (2010, p. 362).</em></p>
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026), baseado em Barbosa et al. (2021).</em></p>
 </div>
 
 ---
@@ -164,51 +178,102 @@ Atende diretamente ao sexto tópico do relato exigido por Barbosa & Silva (2010,
 
 ## 6. Fundamentação Teórica e Prints de Referência do Livro-Texto
 
-Em cumprimento às exigências de rigor bibliográfico da disciplina (**Item 14 do Checklist**), apresentam-se a seguir os *prints* extraídos diretamente do livro-texto oficial — **BARBOSA, S. D. J.; SILVA, B. S. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010** (e correspondente Seção 11.7.5 e Seção 12.2.3 na edição de 2021) — que fundamentam a estrutura e as tabelas deste planejamento de relato:
+Em cumprimento às exigências de rigor bibliográfico da disciplina (**Item 14 do Checklist**), apresentam-se a seguir os *prints* extraídos diretamente do livro-texto oficial — **BARBOSA, S. D. J. et al. *Interação Humano-Computador e Experiência do Usuário*. Rio de Janeiro: Autopublicação, 2021** (Seções 11.7.5 e 12.2.3) — que fundamentam a estrutura e as tabelas deste planejamento de relato:
 
-### 6.1 Interpretação, Consolidação e Estrutura do Relato na Prototipação em Papel (Página 361)
-Na página 361 (Seção 10.2.3), Barbosa & Silva detalham como os avaliadores analisam as anotações e gravações para corrigir problemas simples entre simulações, priorizam os problemas restantes pela gravidade e frequência, e listam os itens obrigatórios que devem constar no relato dos resultados (incluindo os atributos dos problemas corrigidos no papel):
+### 6.1 Interpretação, Consolidação e Estrutura do Relato na Prototipação em Papel (Página 305)
+Na página 305 (Seção 12.2.3), Barbosa et al. (2021) detalham como os avaliadores analisam as anotações e gravações para corrigir problemas simples entre simulações, priorizam os problemas restantes pela gravidade e frequência, e listam os itens obrigatórios que devem constar no relato dos resultados (incluindo os atributos dos problemas corrigidos no papel):
 
 <div align="center">
-  <img src="../../../../../assets/prints_referencias/referencia-prototipo-papel-relato-361.png" alt="Print da página 361 do livro de IHC sobre interpretação, consolidação e relato dos resultados da prototipação em papel" width="85%">
+  <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png" alt="12.2.3 Prototipação em papel: refinamento, priorização e relato (BARBOSA et al., 2021, pp. 305–306)" width="85%">
   <p><strong>Figura 1</strong> — Diretrizes de interpretação, consolidação e lista de itens obrigatórios do relato da Prototipação em Papel (Parte 1: problemas corrigidos no papel)</p>
-  <p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 10, Seção 10.2.3, p. 361).</em></p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 12.2.3, pp. 305–306). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
-### 6.2 Relato dos Problemas Não Corrigidos e Adequação do Método (Página 362)
-Na página 362, os autores completam os requisitos do relato exigindo a lista de problemas de usabilidade ainda não corrigidos (com local, fatores prejudicados, descrição/justificativa, prioridade e sugestões de correção) e as indicações de partes do sistema que podem ser mais bem elaboradas, além da **Tabela 10.8**, que comprova a alta eficácia (`+++`) da prototipação em papel para avaliar alternativas de design e problemas de IHC:
+### 6.2 Relato dos Problemas Não Corrigidos e Adequação do Método (Página 306)
+Na página 306, os autores completam os requisitos do relato exigindo a lista de problemas de usabilidade ainda não corrigidos (com local, fatores prejudicados, descrição/justificativa, prioridade e sugestões de correção) e as indicações de partes do sistema que podem ser mais bem elaboradas, além da **Tabela 12.10**, que comprova a alta eficácia (`+++`) da prototipação em papel para avaliar alternativas de design e problemas de IHC:
 
 <div align="center">
-  <img src="../../../../../assets/prints_referencias/referencia-prototipo-papel-relato-362.png" alt="Print da página 362 do livro de IHC sobre relato dos problemas pendentes e Tabela 10.8" width="85%">
-  <p><strong>Figura 2</strong> — Lista de itens obrigatórios do relato da Prototipação em Papel (Parte 2: problemas não corrigidos) e Tabela 10.8 de comparação de métodos</p>
-  <p><em>Fonte: BARBOSA & SILVA (2010, Capítulo 10, Seção 10.2.3 e Seção 10.3, p. 362).</em></p>
+  <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png" alt="Prototipação em papel: conteúdo do relato dos resultados (BARBOSA et al., 2021, pp. 305–306)" width="85%">
+  <p><strong>Figura 2</strong> — Lista de itens obrigatórios do relato da Prototipação em Papel (Parte 2: problemas não corrigidos) e Tabela 12.10 de comparação de métodos</p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 12.2.3, pp. 305–306). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
 </div>
 
 ### 6.3 Diretrizes Gerais de Consolidação e Relato de Avaliações de IHC
-De forma complementar, a Seção 9.7.5 (*Consolidação e Relato dos Resultados*, p. 311–312 / Seção 11.7.5 na ed. 2021) estabelece os cuidados contra generalizações indevidas e os elementos estruturais de todo relatório de avaliação de IHC:
+De forma complementar, a Seção 11.7.5 (*Consolidação e Relato dos Resultados*, pp. 262–263) estabelece os cuidados contra generalizações indevidas e os elementos estruturais de todo relatório de avaliação de IHC:
 
 <div align="center">
-  <img src="../../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-1.png" alt="Print da seção de Consolidação e Relato dos Resultados do livro de IHC" width="85%">
+  <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png" alt="11.7.5 Consolidação e relato dos resultados (BARBOSA et al., 2021, p. 263)" width="85%">
   <p><strong>Figura 3</strong> — Diretrizes gerais de consolidação dos resultados, limites de generalização e elementos do relatório de avaliação</p>
-  <p><em>Fonte: BARBOSA et al. (2021, Capítulo 11, Seção 11.7.5, p. 279) / BARBOSA & SILVA (2010, Seção 9.7.5, p. 311–312).</em></p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 11.7.5, p. 263). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+</div>
+
+
+## 7. Telas do Protótipo Avaliado
+
+As Figuras 4 a 7 mostram as telas do protótipo de papel da [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md).
+
+* **Protótipo de papel (PDF):** [Visualizar PDF do protótipo de papel](../../../../assets/PDFs/Prototipo_Papel_TAR03_Lucas.pdf)
+
+<div id="figura-4" align="center" markdown="1">
+<p><strong>Figura 4</strong> — Tela 01 (Home SEMOB-DF com localização GPS automática) e sobreposição do Post-it móvel W01 (Autocompletar para "SIA Trecho 3")</p>
+
+![Tela 01 (Home SEMOB-DF com localização GPS automática) e sobreposição do Post-it móvel W01 (Autocompletar para 'SIA Trecho 3')](../../../../assets/prototipo_papel_lucas/tela01_home_busca.png){ width="600" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+<div id="figura-5" align="center" markdown="1">
+<p><strong>Figura 5</strong> — Tela 02: Cartões comparativos de rota porta a porta (Card A Recomendado: Linha 092.1 Semiexpresso vs. Card B: Linha 0.092 Via EPTG)</p>
+
+![Tela 02: Cartões comparativos de rota porta a porta (Card A Recomendado: Linha 092.1 Semiexpresso vs. Card B: Linha 0.092 Via EPTG)](../../../../assets/prototipo_papel_lucas/tela02_comparacao_rotas.png){ width="600" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+<div id="figura-6" align="center" markdown="1">
+<p><strong>Figura 6</strong> — Tela 03: Mapa esquemático com rota tracejada a pé (4 min / 280m até a Parada QR 302 Conj. 4), peça móvel do ônibus 092.1 (W02) e passo a passo inferior</p>
+
+![Tela 03: Mapa esquemático com rota tracejada a pé (4 min / 280m até a Parada QR 302 Conj. 4), peça móvel do ônibus 092.1 (W02) e passo a passo inferior](../../../../assets/prototipo_papel_lucas/tela03_mapa_rastreamento.png){ width="600" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+<div id="figura-7" align="center" markdown="1">
+<p><strong>Figura 7</strong> — Widgets móveis em Post-its: W03 (Alerta de Retenção Severa na EPTG com troca para Linha 0.380) e W04 (Contingência de Falha de GPS com consulta de horários offline)</p>
+
+![Widgets móveis em Post-its: W03 (Alerta de Retenção Severa na EPTG com troca para Linha 0.380) e W04 (Contingência de Falha de GPS com consulta de horários offline)](../../../../assets/prototipo_papel_lucas/tela04_widgets_contingencia.png){ width="600" }
+
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026).</em></p>
+</div>
+
+---
+---
+
+## 8. Fotos de Referência
+As Figuras 8 a 9 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-8" align="center">
+<p><strong>Figura 8</strong> — Prototipação em papel: conteúdo do relato dos resultados</p>
+</div>
+
+![Figura 8 — Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-9" align="center">
+<p><strong>Figura 9</strong> — 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
+</div>
+
+![Figura 9 — 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
 </div>
 
 ---
 
-## 7. Declaração sobre o Uso de IA Generativa
-
-Em conformidade com o Plano de Ensino da disciplina (SALES, 2026), declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas exclusivamente para auxílio na formatação sintática das tabelas em Markdown e revisão ortográfica. A definição da estrutura do relatório, os modelos de tabelas baseados na Seção 10.2.3 do livro-texto e os critérios de severidade são de responsabilidade autoral de Lucas Araújo Lima.
-
----
-
-## 8. Referências Bibliográficas
-
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. ISBN 978-85-352-1120-7. (Capítulo 9: Planejamento da Avaliação de IHC, Seção 9.7.5, p. 311–312; Capítulo 10: Métodos de Avaliação de IHC, Seção 10.2.3: Prototipação em Papel, p. 358–362).
+## 9. Referências Bibliográficas
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11, Seção 11.7.5, p. 263–264; Capítulo 12, Seção 12.2.3, p. 303–306).
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-* SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann, 2003.
-
----
-**Autor:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)  
-**Revisor:** [Arthur Mariani](https://github.com/arthur-mariani)

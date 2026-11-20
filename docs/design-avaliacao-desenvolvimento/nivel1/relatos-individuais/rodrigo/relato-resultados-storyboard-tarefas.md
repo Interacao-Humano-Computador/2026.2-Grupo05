@@ -1,19 +1,33 @@
-# Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-08)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 25/10/2026 | `1.0` | Criação da estrutura do relato dos resultados da avaliação formativa do Storyboard 06 e da TAR-08. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - usado para formatação markdown da página |
 | 25/10/2026 | `1.1` | Preenchimento dos resultados com base na transcrição da entrevista, análise qualitativa e registro de problemas. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - usado para apoio na síntese textual e formatação das tabelas |
+| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
 ---
+
+# Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-08)
 
 ## 1. Introdução e Objetivos do Relato
 
 Este documento apresenta a consolidação dos resultados da avaliação formativa realizada sobre o **[Storyboard 06](https://interacao-humano-computador.github.io/2026.2-Grupo05/design-avaliacao-desenvolvimento/nivel1/storyboards/#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)** e os modelos de tarefas (**[HTA e GOMS da TAR-08: Reclamação sobre Ônibus a partir do Site da Semob](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/)**).
 
 O objetivo principal desta avaliação foi investigar a verossimilhança da narrativa apresentada no storyboard (fluxo atual e fluxo proposto), a clareza da proposta de valor do assistente de reclamação e a correção do fluxo de tarefas modelado para a interação do usuário com o sistema.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-08 (Reclamação sobre Ônibus):**
+
+* **Persona:** [Cláudia Regina Santos](../../../../analise-de-requisitos/personas/claudia-regina-santos.md)
+* **Cenário:** [Cenário 11](../../../../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
+* **Análise de tarefas:** [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
+* **Storyboard:** [Storyboard 06](../../storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*esta página*)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+
 
 ---
 
@@ -89,7 +103,7 @@ A sessão evidenciou a validação das principais hipóteses levantadas na fase 
 | **PROB-02** | Exigência potencial de identificação exata do número do ônibus (veículo) na manifestação. | TAR-08 (Objetivo 1 - Reunir informações) | **2 (Pequeno)** | Dificuldade do passageiro em memorizar ou localizar o número da carcaça do ônibus que passou direto. | Tornar o número do ônibus opcional no formulário, auxiliando a identificação através da linha, parada/local e faixa horária aproximada. |
 
 <div align="center">
-<p><em>Fonte: Elaborado por Rodrigo Barbosa (2026). Escala de severidade baseada em Nielsen (1993) e Barbosa et al. (2021).</em></p>
+<p><em>Fonte: Elaborado por Rodrigo Barbosa (2026). Escala de severidade baseada em Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021).</em></p>
 </div>
 
 ---
@@ -104,9 +118,39 @@ Com base nas evidências coletadas e na validação das hipóteses com o partici
 
 ---
 
-## 6. Declaração sobre o Uso de IA Generativa
+## 6. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferramentas de IA Generativa foram utilizadas estritamente para estruturação do template em Markdown, formatação tabular e síntese textual da transcrição da entrevista. A condução da entrevista, análise das respostas em áudio e compilação dos dados são de responsabilidade autoral de [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa).
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — 11.7.4 Interpretação dos dados de cada participante</p>
+</div>
+
+![Figura 1 — 11.7.4 Interpretação dos dados de cada participante](../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+</div>
+
+![Figura 2 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
+</div>
+
+![Figura 3 — Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
 
 ---
 

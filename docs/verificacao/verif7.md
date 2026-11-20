@@ -1,21 +1,25 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 16/11/2026 | `1.0` | Elaboração da lista de verificação do protótipo de alta fidelidade e do relato dos resultados da sua avaliação. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+
+---
+
 # Lista de Verificação - Entrega 7
 
 !!! warning "Versão anterior (1.0) — mantida para rastreabilidade"
     Esta página é a versão 1.0 da lista e foi mantida sem alterações de conteúdo. A versão atual está em [v2/verif7.md](v2/verif7.md). Os itens 1–14 desta página têm o mesmo número, com prefixo G, na v2.0. O [índice das listas de verificação](index.md) mostra onde está cada versão e o que mudou.
 
-## Histórico de Versão e Contribuição
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 16/11/2026 | `1.0` | Elaboração da lista de verificação do protótipo de alta fidelidade e do relato dos resultados da sua avaliação. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-
----
-
 ## 1. Orientações
 
 Esta lista verifica dois artefatos da Entrega 7: o **protótipo de alta fidelidade** (perguntas 1 a 4) e o **relato dos resultados da avaliação** desse protótipo (perguntas 5 a 14). As perguntas são gerais e podem ser aplicadas ao trabalho de qualquer integrante. Para cada item, deve-se marcar apenas uma opção: **Conforme**, **Não conforme** ou **Não se aplica**.
 
-As perguntas sobre o protótipo seguem o que Preece, Rogers e Sharp (2005, p. 265–266) descrevem como protótipo de alta fidelidade: interativo, conduzido pelo próprio usuário e com a aparência do produto final. As perguntas sobre o relato seguem a interpretação, a consolidação e o relato dos resultados de Barbosa e Silva (2010, p. 310–312), os dados do teste de usabilidade (p. 341–343) e os cuidados éticos com participantes (p. 140–141). A última coluna indica o integrante responsável por cada pergunta, sem antecipar o resultado da verificação.
+As perguntas sobre o protótipo seguem o que Preece, Rogers e Sharp (2002 apud BARBOSA et al., 2021) descrevem como protótipo de alta fidelidade: interativo, conduzido pelo próprio usuário e com a aparência do produto final. As perguntas sobre o relato seguem a interpretação, a consolidação e o relato dos resultados de Barbosa et al. (2021), os dados do teste de usabilidade (p. 341–343) e os cuidados éticos com participantes (p. 140–141). A última coluna indica o integrante responsável por cada pergunta, sem antecipar o resultado da verificação.
 
 ---
 
@@ -40,7 +44,23 @@ As perguntas sobre o protótipo seguem o que Preece, Rogers e Sharp (2005, p. 26
 
 ---
 
-## 3. Bibliografia de apoio
+## 3. Fotos de Referência
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier/Campus, 2010. Seção 5.4, p. 140–141; seções 9.7–9.8, p. 310–313; seção 10.2.1, p. 341–343.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: além da interação homem-computador**. Porto Alegre: Bookman, 2005. Capítulo 8, Seções 8.2.4 e 8.2.5, p. 265–266.
+A Figura 1 mostra o trecho que fundamenta este artefato, recortado e grifado em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 4. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.

@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 27/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Storyboard 08 e da Análise de Tarefas (TAR-06) via DECIDE, com registro da alteração de escopo. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 27/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Storyboard 08 e da Análise de Tarefas (TAR-06) via DECIDE, com registro da alteração de escopo. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -10,7 +11,20 @@
 
 Neste documento, apresenta-se o **Planejamento da Avaliação do Storyboard e da Análise de Tarefas** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. Trata-se de um planejamento individual para orientar a avaliação formativa do **[Storyboard 08](../../storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)** e dos modelos de **Análise Hierárquica de Tarefas (HTA)** e **CMN-GOMS** da tarefa.
 
-O planejamento aplica o **Framework DECIDE** (Preece et al., 2002; Barbosa et al., 2021), que estrutura a avaliação em seis atividades interligadas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (avaliar e interpretar os dados). Conforme Barbosa et al. (2021, Seção 11.8, p. 279–280), essas atividades são executadas de forma iterativa: quando o avaliador precisa mudar os rumos da avaliação, as demais atividades são afetadas ([Imagem 1](#imagem-1)). É o que aconteceu neste planejamento, como explica a seção a seguir.
+O planejamento aplica o **Framework DECIDE** (Barbosa et al., 2021), que estrutura a avaliação em seis atividades interligadas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (avaliar e interpretar os dados). Conforme Barbosa et al. (2021, Seção 11.8, pp. 263–264), essas atividades são executadas de forma iterativa: quando o avaliador precisa mudar os rumos da avaliação, as demais atividades são afetadas ([Imagem 1](#imagem-1)). É o que aconteceu neste planejamento, como explica a seção a seguir.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-06 (Consulta do Ônibus em Tempo Real no DF no Ponto):**
+
+* **Persona:** [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md); [Mariana Borges Almeida](../../../../analise-de-requisitos/personas/mariana-borges-almeida.md)
+* **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md); [Cenário 10](../../../../analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md)
+* **Análise de tarefas:** [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)
+* **Storyboard:** [Storyboard 08](../../storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*esta página*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
+
 
 ---
 
@@ -18,7 +32,7 @@ O planejamento aplica o **Framework DECIDE** (Preece et al., 2002; Barbosa et al
 
 O planejamento original de Carlos Costa previa avaliar o **Storyboard 04** e a **TAR-04/TAR-05** (consulta de escala e alertas operacionais) com um **motorista de ônibus do STPC/DF**, perfil da persona Valdir Soares. Esse participante não pôde ser recrutado a tempo.
 
-Avaliar as tarefas do motorista com outra pessoa não resolveria o problema: um passageiro não tem vivência para dizer se a consulta de escala e o processamento de alertas operacionais condizem com a prática da profissão. Recrutar alguém do perfil avaliado é uma das questões práticas da atividade **I** do DECIDE (Barbosa et al., 2021, Seção 11.8, p. 280) e uma das premissas do [Cronograma e Logística das Sessões](../../cronograma-e-logistica-das-sessoes.md) (premissa 3: um participante do perfil da persona retratada).
+Avaliar as tarefas do motorista com outra pessoa não resolveria o problema: um passageiro não tem vivência para dizer se a consulta de escala e o processamento de alertas operacionais condizem com a prática da profissão. Recrutar alguém do perfil avaliado é uma das questões práticas da atividade **I** do DECIDE (Barbosa et al., 2021, Seção 11.8, p. 264) e uma das premissas do [Cronograma e Logística das Sessões](../../cronograma-e-logistica-das-sessoes.md) (premissa 3: um participante do perfil da persona retratada).
 
 Por isso, com a concordância de todos os integrantes do grupo, a avaliação passou a ser:
 
@@ -105,7 +119,7 @@ As perguntas operacionalizam os objetivos (Barbosa et al., 2021, Seção 11.8 e 
 
 ## 3. C — Choose (Escolher) os Métodos de Avaliação
 
-Segundo Barbosa et al. (2021, Seção 11.8, p. 280), o avaliador deve escolher os métodos mais adequados para responder às perguntas, considerando prazo, orçamento, equipamentos e experiência dos avaliadores ([Imagem 4](#imagem-4)). Foi escolhida a **entrevista semiestruturada guiada pelos artefatos**, o mesmo método das demais sessões do grupo.
+Segundo Barbosa et al. (2021, Seção 11.8, p. 264), o avaliador deve escolher os métodos mais adequados para responder às perguntas, considerando prazo, orçamento, equipamentos e experiência dos avaliadores ([Imagem 4](#imagem-4)). Foi escolhida a **entrevista semiestruturada guiada pelos artefatos**, o mesmo método das demais sessões do grupo.
 
 * **Justificativa:** diagramas de HTA e GOMS não são lidos naturalmente por usuários leigos. Na entrevista semiestruturada, o avaliador mostra o artefato, explica a notação em uma frase e faz as perguntas do roteiro, podendo pedir que o participante fale mais sobre o que ele trouxer. Isso permite comparar as respostas com as dos outros storyboards e, ao mesmo tempo, explorar as hipóteses da TAR-06.
 * **Ordem de apresentação:** primeiro o Storyboard 08 com as perguntas Q01–Q04 e só depois os diagramas da TAR-06 com as perguntas QT01–QT07. Essa ordem foi definida na calibração do teste piloto ([Ata 7](../../../../atas/ata7.md)) para evitar sobrecarga visual.
@@ -115,7 +129,7 @@ Segundo Barbosa et al. (2021, Seção 11.8, p. 280), o avaliador deve escolher o
 
 ## 4. I — Identificar e Administrar as Questões Práticas
 
-As questões práticas envolvem recrutamento, equipamentos, prazos e orçamento (Barbosa et al., 2021, Seção 11.8, p. 280) ([Imagem 5](#imagem-5)).
+As questões práticas envolvem recrutamento, equipamentos, prazos e orçamento (Barbosa et al., 2021, Seção 11.8, p. 264) ([Imagem 5](#imagem-5)).
 
 ### 4.1 Recrutamento e Perfil do Participante
 * **Perfil do convidado (P04):** estudante universitário da FCTE/UnB Gama, alinhado à persona [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md), que usa ônibus algumas vezes por semana e **já usou o DF no Ponto ou outro aplicativo de rastreamento de ônibus**. Esse último critério é necessário porque o CMN-GOMS da TAR-06 descreve um usuário que já domina a tarefa.
@@ -163,7 +177,7 @@ O roteiro básico de entrevista foi ensaiado no **teste piloto de 20/10/2026** (
 
 ## 5. D — Decidir como Lidar com as Questões Éticas
 
-Os participantes devem ser respeitados e não podem ser prejudicados, nem durante a avaliação nem depois da divulgação dos resultados (Barbosa et al., 2021, Seção 11.8, p. 280) ([Imagem 7](#imagem-7)). A conduta segue os princípios de autonomia, beneficência, não maleficência e justiça (Barbosa e Silva, 2010, Cap. 5, p. 139) ([Imagem 8](#imagem-8)) e a Resolução nº 510/2016 do CNS:
+Os participantes devem ser respeitados e não podem ser prejudicados, nem durante a avaliação nem depois da divulgação dos resultados (Barbosa et al., 2021, Seção 11.8, p. 264) ([Imagem 7](#imagem-7)). A conduta segue os princípios de autonomia, beneficência, não maleficência e justiça (Barbosa et al., 2021, p. 126) ([Imagem 8](#imagem-8)) e a Resolução nº 510/2016 do CNS:
 
 1. **TCLE:** o participante recebe o [Termo de Consentimento Livre e Esclarecido](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf) com antecedência, e o termo é resumido no início da sessão.
 2. **Autorização de gravação:** a gravação só segue após o aceite verbal registrado no primeiro minuto.
@@ -179,7 +193,7 @@ Os dados (gravação, anotações e tempos) serão interpretados e consolidados 
 
 1. **Triagem qualitativa:** as respostas serão resumidas por pergunta, preservando falas marcantes com a minutagem do vídeo.
 2. **Confronto com a TAR-06:** cada hipótese (H1 a H7) será marcada como **confirmada**, **refutada** ou **não avaliada**, com a evidência correspondente. A coluna "Situação" da Tabela 5 da TAR-06 será atualizada em uma nova versão do documento.
-3. **Classificação de severidade:** os problemas encontrados serão classificados de 0 (sem importância) a 4 (catastrófico), segundo Nielsen (1994).
+3. **Classificação de severidade:** os problemas encontrados serão classificados de 0 (sem importância) a 4 (catastrófico), segundo Nielsen (1994 apud BARBOSA et al., 2021).
 4. **Limitações:** com um único participante, os resultados indicam tendências e não garantem a ausência de outros problemas.
 5. **Relato:** os resultados serão apresentados no documento de relato, com objetivos, método, perfil do participante, respostas, problemas com severidade e recomendações para o protótipo de papel.
 
@@ -189,27 +203,27 @@ Os dados (gravação, anotações e tempos) serão interpretados e consolidados 
 
 <div id="imagem-1" markdown>
 ![Framework DECIDE](../../../../assets/prints_referencias/referencia-decide-visao-geral.png)
-<p><em>Imagem 1 — Framework DECIDE (Barbosa et al., 2021, Seção 11.8, p. 279–280).</em></p>
+<p><em>Imagem 1 — Framework DECIDE (Barbosa et al., 2021, Seção 11.8, pp. 263–264).</em></p>
 </div>
 
 <div id="imagem-2" markdown>
 ![Determinação dos objetivos](../../../../assets/prints_referencias/referencia-decide-determinar-objetivos.png)
-<p><em>Imagem 2 — Determinação dos objetivos e aspectos avaliados em IHC (Barbosa et al., 2021, Seções 11.2 e 11.8, p. 264, 280).</em></p>
+<p><em>Imagem 2 — Determinação dos objetivos e aspectos avaliados em IHC (Barbosa et al., 2021, Seções 11.2 e 11.8, pp. 248, 264).</em></p>
 </div>
 
 <div id="imagem-3" markdown>
 ![Exploração das perguntas](../../../../assets/prints_referencias/referencia-decide-explorar-perguntas.png)
-<p><em>Imagem 3 — Exploração das perguntas da avaliação (Barbosa et al., 2021, Tabela 11.1 e Seção 11.8, p. 267, 280).</em></p>
+<p><em>Imagem 3 — Exploração das perguntas da avaliação (Barbosa et al., 2021, Tabela 11.1 e Seção 11.8, pp. 251, 264).</em></p>
 </div>
 
 <div id="imagem-4" markdown>
 ![Escolha dos métodos](../../../../assets/prints_referencias/referencia-decide-escolher-metodos.png)
-<p><em>Imagem 4 — Escolha dos métodos de avaliação (Barbosa et al., 2021, Seção 11.8, p. 280).</em></p>
+<p><em>Imagem 4 — Escolha dos métodos de avaliação (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
 </div>
 
 <div id="imagem-5" markdown>
 ![Questões práticas](../../../../assets/prints_referencias/referencia-decide-questoes-praticas.png)
-<p><em>Imagem 5 — Questões práticas da avaliação (Barbosa et al., 2021, Seção 11.8, p. 280).</em></p>
+<p><em>Imagem 5 — Questões práticas da avaliação (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
 </div>
 
 <div id="imagem-6" markdown>
@@ -219,36 +233,22 @@ Os dados (gravação, anotações e tempos) serão interpretados e consolidados 
 
 <div id="imagem-7" markdown>
 ![Questões éticas](../../../../assets/prints_referencias/referencia-decide-questoes-eticas.png)
-<p><em>Imagem 7 — Questões éticas da avaliação com usuários (Barbosa et al., 2021, Seção 11.8, p. 280).</em></p>
+<p><em>Imagem 7 — Questões éticas da avaliação com usuários (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
 </div>
 
 <div id="imagem-8" markdown>
 ![Princípios éticos](../../../../assets/prints_referencias/print-teoria-aspectos-eticos-tcle.png)
-<p><em>Imagem 8 — Princípios éticos em pesquisas envolvendo pessoas (Barbosa e Silva, 2010, Cap. 5, p. 139).</em></p>
+<p><em>Imagem 8 — Princípios éticos em pesquisas envolvendo pessoas (Barbosa et al., 2021, p. 126).</em></p>
 </div>
 
 <div id="imagem-9" markdown>
 ![Avaliar, interpretar e apresentar os dados](../../../../assets/prints_referencias/referencia-decide-avaliar-interpretar-apresentar.png)
-<p><em>Imagem 9 — Avaliação, interpretação e apresentação dos dados (Barbosa et al., 2021, Seções 11.7.5 e 11.8, p. 279–280).</em></p>
+<p><em>Imagem 9 — Avaliação, interpretação e apresentação dos dados (Barbosa et al., 2021, Seções 11.7.5 e 11.8, pp. 263–264).</em></p>
 </div>
 
 ---
 
-## 8. Declaração sobre o Uso de IA Generativa
+## 8. Referências Bibliográficas
 
-Em cumprimento ao Plano de Ensino e ao Código de Conduta da SBC, declara-se que a ferramenta **Claude Code (Anthropic)** foi utilizada apenas para revisar e formatar o texto em Markdown a partir do conteúdo e das decisões estruturadas por Carlos Costa. Carlos Costa responde integralmente pelo conteúdo.
-
----
-
-## 9. Referências Bibliográficas
-
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier, 2010. (Capítulo 5, p. 139).
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Planejamento da Avaliação de IHC, p. 260–280).
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Regulamenta as pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-* NIELSEN, Jakob. **Usability Engineering**. San Francisco: Morgan Kaufmann, 1994.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. São Paulo: Editora Érica, 2005.
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Planejamento da Avaliação de IHC, pp. 245–264).
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-
----
-**Autor:** [Carlos Costa](https://github.com/carloshfgit)  
-**Revisor:** [Igor Dantas Araújo](https://github.com/IgorDARAUJO)

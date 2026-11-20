@@ -1,12 +1,16 @@
-# TAR-08: Registro de reclamação sobre ônibus a partir do site da Semob
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 13/10/2026 | 1.0 | Elaboração da Análise de Tarefas (HTA e GOMS) para o registro de reclamação sobre ônibus, partindo do site da Semob-DF, e proposta de melhoria. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 13/10/2026 | `1.0` | Elaboração da Análise de Tarefas (HTA e GOMS) para o registro de reclamação sobre ônibus, partindo do site da Semob-DF, e proposta de melhoria. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Redesenho dos diagramas HTA/CTT na notação do livro da disciplina (BARBOSA et al., 2021, pp. 165–174). Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio no redesenho dos diagramas na notação do livro.; apoio na inclusão dos links entre artefatos |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
 
 ---
+
+# TAR-08: Registro de reclamação sobre ônibus a partir do site da Semob
 
 ## 1. Caracterização da Tarefa
 
@@ -22,11 +26,24 @@
 * **Escopo:** A tarefa vai desde a entrada no site da Semob até a obtenção do protocolo. A resposta da ouvidoria e eventuais recursos (por exemplo, reclamar do atendimento quando o prazo vence) ficam fora do escopo, exceto a consulta do andamento (objetivo 5).
 * **Fontes de dados:** portal da Semob-DF, relatório da Ouvidoria da Semob, guia jornalístico sobre o Participa-DF (ver Referências). Não houve observação nem entrevista com usuários.
 
+**Artefatos relacionados — fluxo da funcionalidade TAR-08 (Reclamação sobre Ônibus):**
+
+* **Persona:** [Cláudia Regina Santos](../personas/claudia-regina-santos.md)
+* **Cenário:** [Cenário 11](../cenarios/cenario-11-reclamacao-onibus.md)
+* **Análise de tarefas:** TAR-08 (*esta página*)
+* **Storyboard:** [Storyboard 06](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+
+
 ---
 
 ## 2. Análise Hierárquica de Tarefas (HTA)
 
-Segundo Barbosa et al. (2021, p. 192–193), a HTA parte dos **objetivos** das pessoas (estados finais) e os decompõe em subobjetivos. Os subobjetivos e a relação entre eles formam um **plano**, e no nível mais baixo cada subobjetivo é alcançado por uma **operação**. Os planos usam a notação da Figura 6.1 do livro:
+Segundo Barbosa et al. (2021, pp. 164–165), a HTA parte dos **objetivos** das pessoas (estados finais) e os decompõe em subobjetivos. Os subobjetivos e a relação entre eles formam um **plano**, e no nível mais baixo cada subobjetivo é alcançado por uma **operação**. Os planos usam a notação da Figura 8.1 do livro:
 
 | Notação | Relação entre os subobjetivos |
 | :---: | :--- |
@@ -36,84 +53,23 @@ Segundo Barbosa et al. (2021, p. 192–193), a HTA parte dos **objetivos** das p
 
 *Fonte: Adaptado de Barbosa et al. (2021).*
 
-Nos rótulos abaixo, os números do plano se referem aos subobjetivos do próprio objetivo, como na Figura 6.2 do livro.
+Nos rótulos abaixo, os números do plano se referem aos subobjetivos do próprio objetivo, como na Figura 8.2 do livro.
 
 ### 2.1 Diagrama hierárquico
 
-```mermaid
-graph TD
-    T0["0. Registrar reclamação sobre um ônibus<br/><i>Plano 0: 1 > 2 > 3 > 4 > 5</i>"]
+<div align="center" style="overflow-x: auto;">
+<a href="../../../assets/images/analise-de-tarefas/tar-08-hta.svg" target="_blank"><img src="../../../assets/images/analise-de-tarefas/tar-08-hta.svg" alt="Diagrama HTA do registro de reclamação sobre ônibus" width="2850" style="max-width: none;"></a>
+</div>
 
-    %% Nível 1
-    T1["1. Reunir as informações do ocorrido<br/><i>Plano 1: 1.1 + 1.2 + 1.3</i>"]
-    T2["2. Encontrar o canal de reclamação no site da Semob<br/><i>Plano 2: 2.1 > 2.2 > 2.3</i>"]
-    T3["3. Acessar o Participa-DF<br/><i>Plano 3: 3.1 / 3.2</i>"]
-    T4["4. Registrar a manifestação<br/><i>Plano 4: 4.1 > 4.2 > 4.3 > 4.4 > 4.5</i>"]
-    T5["5. Guardar e acompanhar o protocolo<br/><i>Plano 5: 5.1 > 5.2</i>"]
-
-    T0 --> T1
-    T0 --> T2
-    T0 --> T3
-    T0 --> T4
-    T0 --> T5
-
-    %% Subníveis da Tarefa 1
-    T11["1.1 Identificar a linha e o número do ônibus"]
-    T12["1.2 Registrar data e horário"]
-    T13["1.3 Registrar o local ou a parada"]
-    T1 --> T11
-    T1 --> T12
-    T1 --> T13
-
-    %% Subníveis da Tarefa 2
-    T21["2.1 Acessar semob.df.gov.br"]
-    T22["2.2 Localizar a área de Ouvidoria<br/><i>Plano 2.2: 2.2.1 / 2.2.2</i>"]
-    T23["2.3 Seguir o link para o Participa-DF"]
-    T2 --> T21
-    T2 --> T22
-    T2 --> T23
-
-    T221["2.2.1 Navegar pelo menu"]
-    T222["2.2.2 Usar a busca do site"]
-    T22 --> T221
-    T22 --> T222
-
-    %% Subníveis da Tarefa 3
-    T31["3.1 Entrar com conta existente"]
-    T32["3.2 Criar conta<br/><i>Plano 3.2: 3.2.1 > 3.2.2</i>"]
-    T3 --> T31
-    T3 --> T32
-
-    T321["3.2.1 Preencher dados pessoais"]
-    T322["3.2.2 Confirmar o cadastro"]
-    T32 --> T321
-    T32 --> T322
-
-    %% Subníveis da Tarefa 4
-    T41["4.1 Escolher o tipo Reclamação"]
-    T42["4.2 Indicar órgão e assunto"]
-    T43["4.3 Descrever o ocorrido"]
-    T44["4.4 Anexar arquivo (opcional)"]
-    T45["4.5 Revisar e enviar"]
-    T4 --> T41
-    T4 --> T42
-    T4 --> T43
-    T4 --> T44
-    T4 --> T45
-
-    %% Subníveis da Tarefa 5
-    T51["5.1 Anotar o número do protocolo"]
-    T52["5.2 Consultar o andamento depois"]
-    T5 --> T51
-    T5 --> T52
-```
-
-*Figura 1 — Diagrama HTA do registro de reclamação sobre ônibus.*
-*Fonte: [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (2026).*
+<div align="center">
+<p><strong>Figura 1</strong> — Diagrama HTA do registro de reclamação sobre ônibus.</p>
+<p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.1 e 8.2): cada retângulo traz o número e o nome do objetivo e, na linha de baixo, o plano, que se refere aos subobjetivos do próprio objetivo (“&gt;” indica sequência, “/” indica seleção, “+” indica paralelo); os retângulos com linha dupla embaixo são operações (nível mais baixo da hierarquia).</em></p>
+<p><em>Fonte: <a href="https://github.com/RodrigoCBarbosa">Rodrigo Barbosa</a> (2026), redesenhado na notação de Barbosa et al. (2021, pp. 165–167).</em></p>
+</div>
 
 ### 2.2 Tabela de objetivos, operações, problemas e recomendações
 
-Formato da Tabela 6.3 do livro: cada objetivo tem *input* (circunstâncias que o ativam), *feedback* (condição que indica o atingimento), *plano*, e, quando houver, *problema* e *recomendação*.
+Formato da Tabela 8.4 do livro: cada objetivo tem *input* (circunstâncias que o ativam), *feedback* (condição que indica o atingimento), *plano*, e, quando houver, *problema* e *recomendação*.
 
 | objetivos / operações | problemas e recomendações |
 | :--- | :--- |
@@ -167,7 +123,7 @@ Na etapa 7 da HTA (p. 196), o livro sugere classificar erros como baseados em ha
 
 *Fonte: [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (2026).*
 
-### 2.5 Situação dos passos da HTA (Diaper, 2003, apud Barbosa et al., 2021, p. 195–196)
+### 2.5 Situação dos passos da HTA (Diaper, 2003, apud Barbosa et al., 2021, pp. 166–167)
 
 | Passo | Situação |
 | :--- | :--- |
@@ -185,7 +141,7 @@ Na etapa 7 da HTA (p. 196), o livro sugere classificar erros como baseados em ha
 
 ## 3. GOMS
 
-Segundo Barbosa et al. (2021, p. 196–198), o GOMS descreve a tarefa e o conhecimento do usuário em termos de **objetivos** (*goals*), **operadores** (*operators*), **métodos** (*methods*) e **regras de seleção** (*selection rules*). Ele se aplica principalmente a usuários que **já dominam** a tarefa, e costuma ser usado depois de uma análise básica de tarefas, que aqui é a HTA da seção 2.
+Segundo Barbosa et al. (2021, pp. 167–169), o GOMS descreve a tarefa e o conhecimento do usuário em termos de **objetivos** (*goals*), **operadores** (*operators*), **métodos** (*methods*) e **regras de seleção** (*selection rules*). Ele se aplica principalmente a usuários que **já dominam** a tarefa, e costuma ser usado depois de uma análise básica de tarefas, que aqui é a HTA da seção 2.
 
 Adotou-se o **CMN-GOMS**, com algarismos indicando sequência e letras indicando alternativas, como nos Exemplos 6.7 e 6.8 do livro.
 
@@ -248,7 +204,7 @@ GOAL 0: registrar reclamação sobre um ônibus
 
 ### 3.2 Leitura do modelo (análise qualitativa)
 
-Conforme o livro (p. 197, 201), o GOMS qualitativo ajuda a perceber métodos semelhantes, métodos atipicamente curtos ou longos e pontos onde faltam métodos ou *feedback*:
+Conforme o livro (pp. 197, 201), o GOMS qualitativo ajuda a perceber métodos semelhantes, métodos atipicamente curtos ou longos e pontos onde faltam métodos ou *feedback*:
 
 1. **O método 3.B é atipicamente longo** em relação ao objetivo do usuário: para uma reclamação pontual, criar conta exige mais operações do que o próprio registro. É um candidato a abandono.
 2. **O objetivo 1 é o ponto crítico e não tem *feedback* do sistema.** Nenhuma operação do site ajuda o usuário a reunir as informações antes de começar. Se faltar o número do ônibus em 4.A.3, não há método para recuperá-lo.
@@ -257,7 +213,7 @@ Conforme o livro (p. 197, 201), o GOMS qualitativo ajuda a perceber métodos sem
 
 ### 3.3 Sobre o KLM
 
-Diferente do caso do DF no Ponto, esta tarefa pode ser feita no computador, com teclado e mouse, que é o contexto para o qual os operadores do KLM (Tabela 6.4 do livro) foram definidos. A estimativa de tempo não foi feita nesta versão porque os passos de interface ainda são hipóteses; ela pode ser feita após a navegação de validação, comparando o fluxo atual com a proposta da seção 4.
+Diferente do caso do DF no Ponto, esta tarefa pode ser feita no computador, com teclado e mouse, que é o contexto para o qual os operadores do KLM (Tabela 8.5 do livro) foram definidos. A estimativa de tempo não foi feita nesta versão porque os passos de interface ainda são hipóteses; ela pode ser feita após a navegação de validação, comparando o fluxo atual com a proposta da seção 4.
 
 ---
 
@@ -274,31 +230,15 @@ Diferente do caso do DF no Ponto, esta tarefa pode ser feita no computador, com 
 
 ### 4.1 HTA revisada (resumo)
 
-```mermaid
-graph TD
-    N0["0. Registrar reclamação sobre um ônibus<br/><i>Plano 0: 1 > 2 > 3 > 4</i>"]
-    N1["1. Usar o assistente no site da Semob<br/><i>Plano 1: 1.1 > 1.2 > 1.3</i>"]
-    N2["2. Acessar o Participa-DF<br/><i>Plano 2: 2.1 / 2.2</i>"]
-    N3["3. Colar o resumo e enviar"]
-    N4["4. Guardar o protocolo"]
-    N0 --> N1
-    N0 --> N2
-    N0 --> N3
-    N0 --> N4
-    N11["1.1 Clicar em Reclamar de um ônibus na página inicial"]
-    N12["1.2 Conferir o checklist e escolher o problema"]
-    N13["1.3 Copiar o resumo gerado"]
-    N1 --> N11
-    N1 --> N12
-    N1 --> N13
-    N21["2.1 Entrar com conta existente"]
-    N22["2.2 Criar conta"]
-    N2 --> N21
-    N2 --> N22
-```
+<div align="center" style="overflow-x: auto;">
+<a href="../../../assets/images/analise-de-tarefas/tar-08-hta-revisada.svg" target="_blank"><img src="../../../assets/images/analise-de-tarefas/tar-08-hta-revisada.svg" alt="Diagrama HTA da proposta de melhoria no fluxo de reclamação" width="1266" style="max-width: none;"></a>
+</div>
 
-*Figura 2 — Diagrama HTA da proposta de melhoria no fluxo de reclamação.*
-*Fonte: [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) (2026).*
+<div align="center">
+<p><strong>Figura 2</strong> — Diagrama HTA da proposta de melhoria no fluxo de reclamação.</p>
+<p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.1 e 8.2): cada retângulo traz o número e o nome do objetivo e, na linha de baixo, o plano, que se refere aos subobjetivos do próprio objetivo (“&gt;” indica sequência, “/” indica seleção); os retângulos com linha dupla embaixo são operações (nível mais baixo da hierarquia).</em></p>
+<p><em>Fonte: <a href="https://github.com/RodrigoCBarbosa">Rodrigo Barbosa</a> (2026), redesenhado na notação de Barbosa et al. (2021, pp. 165–167).</em></p>
+</div>
 
 ### 4.2 Comparação antes e depois
 
@@ -316,8 +256,72 @@ graph TD
 
 ---
 
-## 5. Referências Bibliográficas
+## 5. Fotos de Referência
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 6, seção 6.4, p. 191–203.
-* SECRETARIA DE TRANSPORTE E MOBILIDADE DO DISTRITO FEDERAL (Semob-DF). **Portal institucional**. Disponível em: <https://www.semob.df.gov.br/>. Acesso em: 13 out. 2026.
-* SOU BRASÍLIA. **Ouvidoria 162 e Participa-DF: como registrar reclamação e pedir serviço ao GDF**. Disponível em: <https://soubrasilia.com/ouvidoria-162-participa-df/>. Acesso em: 13 out. 2026.
+As Figuras 7 a 12 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-7" align="center">
+<p><strong>Figura 7</strong> — Métodos de análise de tarefas: HTA, GOMS e CTT</p>
+</div>
+
+![Figura 7 — Métodos de análise de tarefas: HTA, GOMS e CTT](../../assets/prints_referencias/verificacao-v2/livro-analise-tarefas.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 164). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-8" align="center">
+<p><strong>Figura 8</strong> — 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações</p>
+</div>
+
+![Figura 8 — 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações](../../assets/prints_referencias/verificacao-v2/livro-hta.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 165). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-9" align="center">
+<p><strong>Figura 9</strong> — Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)</p>
+</div>
+
+![Figura 9 — Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)](../../assets/prints_referencias/verificacao-v2/livro-hta-notacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–167). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-10" align="center">
+<p><strong>Figura 10</strong> — HTA: diagrama, representação em tabela e critério de parada</p>
+</div>
+
+![Figura 10 — HTA: diagrama, representação em tabela e critério de parada](../../assets/prints_referencias/verificacao-v2/livro-hta-tabela.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–166). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-11" align="center">
+<p><strong>Figura 11</strong> — Passos da Análise Hierárquica de Tarefas (Barbosa et al., 2021)</p>
+</div>
+
+![Figura 11 — Passos da Análise Hierárquica de Tarefas (Diaper, 2003)](../../assets/prints_referencias/verificacao-v2/livro-hta-passos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 166–167). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-12" align="center">
+<p><strong>Figura 12</strong> — GOMS: objetivos, operadores, métodos e regras de seleção</p>
+</div>
+
+![Figura 12 — GOMS: objetivos, operadores, métodos e regras de seleção](../../assets/prints_referencias/verificacao-v2/livro-goms.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 167–168). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 6. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 8, Seção 8.4, pp. 163–175.

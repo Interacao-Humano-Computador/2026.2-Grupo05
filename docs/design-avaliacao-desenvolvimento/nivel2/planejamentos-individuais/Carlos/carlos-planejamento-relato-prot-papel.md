@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 27/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Protótipo de Papel (TAR-06). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 27/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Protótipo de Papel (TAR-06). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -10,7 +11,20 @@
 
 Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. Ele define como serão organizados e apresentados os dados da sessão descrita no [Planejamento da Avaliação do Protótipo de Papel](carlos-planejamento-av-prototipo-papel.md).
 
-A estrutura segue as orientações sobre consolidação e relato de resultados de Barbosa et al. (2021, Seção 11.7.5, p. 279) e o relato específico da prototipação em papel de Barbosa e Silva (2010, Seção 10.2.3, p. 361–362).
+A estrutura segue as orientações sobre consolidação e relato de resultados de Barbosa et al. (2021, Seção 11.7.5, p. 263) e o relato específico da prototipação em papel de Barbosa et al. (2021, Seção 12.2.3, pp. 305–306).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-06 (Consulta do Ônibus em Tempo Real no DF no Ponto):**
+
+* **Persona:** [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md); [Mariana Borges Almeida](../../../../analise-de-requisitos/personas/mariana-borges-almeida.md)
+* **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md); [Cenário 10](../../../../analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md)
+* **Análise de tarefas:** [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)
+* **Storyboard:** [Storyboard 08](../../../nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
+* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../../nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](carlos-planejamento-av-prototipo-papel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](carlos-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
+
 
 ---
 
@@ -26,7 +40,7 @@ A estrutura segue as orientações sobre consolidação e relato de resultados d
 
 ## 2. Estrutura do Relatório Final
 
-Barbosa e Silva (2010, p. 361–362) listam o que o relato da prototipação em papel deve conter: os objetivos, uma breve descrição do método, o número e o perfil dos avaliadores e dos participantes, as tarefas executadas, e os problemas encontrados, separando os que foram corrigidos no papel dos que não foram ([Imagens 1 e 2](#imagem-1)). Barbosa et al. (2021, p. 279) acrescentam que o relato deve deixar claros os limites da interpretação ([Imagem 3](#imagem-3)). Com base nisso, o relatório final terá as seções:
+Barbosa et al. (2021) listam o que o relato da prototipação em papel deve conter: os objetivos, uma breve descrição do método, o número e o perfil dos avaliadores e dos participantes, as tarefas executadas, e os problemas encontrados, separando os que foram corrigidos no papel dos que não foram ([Imagens 1 e 2](#imagem-2)). Barbosa et al. (2021, p. 263) acrescentam que o relato deve deixar claros os limites da interpretação ([Imagem 4](#imagem-4)). Com base nisso, o relatório final terá as seções:
 
 <div align="center">
 <p><strong>Tabela 1</strong> — Seções do relatório final</p>
@@ -44,14 +58,14 @@ Barbosa e Silva (2010, p. 361–362) listam o que o relato da prototipação em 
 | **8** | Recomendações e limitações | Diretrizes para a alta fidelidade e limites de um teste com um participante. |
 
 <div align="center">
-<p><em>Fonte: Elaborado por Carlos Costa (2026), com base em Barbosa e Silva (2010, p. 361–362) e Barbosa et al. (2021, p. 279).</em></p>
+<p><em>Fonte: Elaborado por Carlos Costa (2026), com base em Barbosa et al. (2021) e Barbosa et al. (2021, p. 263).</em></p>
 </div>
 
 ---
 
 ## 3. Escala de Severidade dos Problemas
 
-Os problemas serão classificados pela escala de severidade de Nielsen (1994), adaptada para a simulação em papel:
+Os problemas serão classificados pela escala de severidade de Nielsen (1994 apud BARBOSA et al., 2021), adaptada para a simulação em papel:
 
 <div align="center">
 <p><strong>Tabela 2</strong> — Escala de severidade</p>
@@ -66,7 +80,7 @@ Os problemas serão classificados pela escala de severidade de Nielsen (1994), a
 | **4** | Catastrófico | O participante não consegue concluir a tarefa. |
 
 <div align="center">
-<p><em>Fonte: Adaptado de Nielsen (1994).</em></p>
+<p><em>Fonte: Adaptado de Nielsen (1994 apud BARBOSA et al., 2021).</em></p>
 </div>
 
 ---
@@ -91,7 +105,7 @@ Os problemas serão classificados pela escala de severidade de Nielsen (1994), a
 
 ### 4.2 Registro e Priorização dos Problemas
 
-Os campos seguem a categorização dos problemas proposta por Barbosa et al. (2021, Seção 12.2.1, p. 303) ([Imagem 4](#imagem-4)).
+Os campos seguem a categorização dos problemas proposta por Barbosa et al. (2021, Seção 12.2.1, p. 289) ([Imagem 5](#imagem-5)).
 
 <div align="center">
 <p><strong>Tabela 4</strong> — Modelo de registro dos problemas de usabilidade</p>
@@ -145,48 +159,47 @@ Os campos seguem a categorização dos problemas proposta por Barbosa et al. (20
 1. **No papel:** problemas simples (texto, posição de botão) podem ser corrigidos e testados durante a própria sessão e entram na Tabela 5 como "Resolvido no papel".
 2. **Para a alta fidelidade:** problemas de severidade 2, 3 ou 4 que não foram resolvidos no papel viram requisitos do protótipo de alta fidelidade.
 3. **Para a TAR-06:** a situação das hipóteses é levada para uma nova versão do documento da TAR-06.
-4. **Limitações:** com um participante, os resultados indicam tendências e não garantem a ausência de outros problemas (Barbosa et al., 2021, p. 279).
+4. **Limitações:** com um participante, os resultados indicam tendências e não garantem a ausência de outros problemas (Barbosa et al., 2021, p. 263).
 
----
 
-## 6. Fotos de Referência
+## 6. Telas do Protótipo Avaliado
 
-<div id="imagem-1" markdown>
-![Relato da prototipação em papel, parte 1](../../../../assets/prints_referencias/referencia-prototipo-papel-relato-361.png)
-<p><em>Imagem 1 — Interpretação, consolidação e itens do relato da prototipação em papel, parte 1 (Barbosa e Silva, 2010, Seção 10.2.3, p. 361).</em></p>
+A Imagem 1 mostra as telas do protótipo de papel da [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md).
+
+<div id="imagem-1" align="center" markdown="1">
+<p><strong>Imagem 1</strong> — Telas e peças do protótipo de papel da TAR-06</p>
+
+![Telas e peças do protótipo de papel da TAR-06](../../../../assets/prototipos/prototipo-papel-tar-06.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Carlos Costa (2026).</em></p>
 </div>
 
+---
+---
+
+## 7. Fotos de Referência
 <div id="imagem-2" markdown>
-![Relato da prototipação em papel, parte 2](../../../../assets/prints_referencias/referencia-prototipo-papel-relato-362.png)
-<p><em>Imagem 2 — Itens do relato da prototipação em papel, parte 2: problemas não corrigidos (Barbosa e Silva, 2010, Seção 10.2.3, p. 362).</em></p>
+![Relato da prototipação em papel, parte 1](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+<p><em>Imagem 2 — Interpretação, consolidação e itens do relato da prototipação em papel, parte 1 (Barbosa et al., 2021, Seção 12.2.3, pp. 305–306; recorte e grifo: Gabriel Melo, 2026).</em></p>
 </div>
 
 <div id="imagem-3" markdown>
-![Consolidação e relato dos resultados](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-1.png)
-<p><em>Imagem 3 — Consolidação, limites da interpretação e estrutura do relato (Barbosa et al., 2021, Seção 11.7.5, p. 279).</em></p>
+![Relato da prototipação em papel, parte 2](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+<p><em>Imagem 3 — Itens do relato da prototipação em papel, parte 2: problemas não corrigidos (Barbosa et al., 2021, Seção 12.2.3, pp. 305–306; recorte e grifo: Gabriel Melo, 2026).</em></p>
 </div>
 
 <div id="imagem-4" markdown>
-![Categorização dos problemas](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-4.png)
-<p><em>Imagem 4 — Categorização e campos do relato dos problemas (Barbosa et al., 2021, Seção 12.2.1, p. 303).</em></p>
+![Consolidação e relato dos resultados](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-1.png)
+<p><em>Imagem 4 — Consolidação, limites da interpretação e estrutura do relato (Barbosa et al., 2021, Seção 11.7.5, p. 263).</em></p>
 </div>
 
----
-
-## 7. Declaração sobre o Uso de IA Generativa
-
-Em cumprimento ao Plano de Ensino e ao Código de Conduta da SBC, declara-se que a ferramenta **Claude Code (Anthropic)** foi utilizada apenas para revisar e formatar o texto em Markdown a partir do conteúdo e das decisões estruturadas por Carlos Costa. Carlos Costa responde integralmente pelo conteúdo.
+<div id="imagem-5" markdown>
+![Categorização dos problemas](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-4.png)
+<p><em>Imagem 5 — Categorização e campos do relato dos problemas (Barbosa et al., 2021, Seção 12.2.1, p. 289).</em></p>
+</div>
 
 ---
 
 ## 8. Referências Bibliográficas
-
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier, 2010. (Capítulo 10, Seção 10.2.3: Prototipação em Papel, p. 361–362).
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Seção 11.7.5, p. 279; Seção 12.2.1, p. 303).
-* NIELSEN, Jakob. **Usability Engineering**. San Francisco: Morgan Kaufmann, 1994.
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Seção 11.7.5, p. 263; Seção 12.2.1, p. 289).
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-* SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann, 2003.
-
----
-**Autor:** [Carlos Costa](https://github.com/carloshfgit)  
-**Revisor:** [Igor Dantas Araújo](https://github.com/IgorDARAUJO)

@@ -1,14 +1,20 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 16/11/2026 | `1.0` | Elaboração da lista de verificação do protótipo de alta fidelidade e do relato dos resultados da sua avaliação (publicada em [verif7.md](../verif7.md)). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) — uso declarado pelo autor (sem detalhamento da finalidade) |
+| 19/11/2026 | `2.0` | Inclusão dos Itens do Desenvolvimento do Projeto; item sobre metas de usabilidade; padronização de autoria; referências e prints do IHC.pdf no lugar das referências sem print. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — uso declarado pelo autor (sem detalhamento da finalidade) |
+| 19/11/2026 | `2.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+!!! warning "Observação para correção manual"
+    Há versões sem revisor no histórico. Indicar o revisor de cada versão.
+
+---
+
 # Lista de Verificação — Entrega 7 (versão 2.0)
 
 !!! info "Versão 2.0 — rastreabilidade"
     Esta é a **versão 2.0** da lista. A versão 1.0 continua disponível, sem alterações de conteúdo, em [verif7.md](../verif7.md). O [índice das listas de verificação](../index.md) mostra onde está cada versão.
-
-## Histórico de versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 16/11/2026 | 1.0 | Elaboração da lista de verificação do protótipo de alta fidelidade e do relato dos resultados da sua avaliação (publicada em [verif7.md](../verif7.md)). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-| 19/11/2026 | 2.0 | Inclusão dos Itens do Desenvolvimento do Projeto; item sobre metas de usabilidade; padronização de autoria; referências e prints do IHC.pdf no lugar das referências sem print. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão |
 
 ## Introdução
 
@@ -109,7 +115,7 @@ A versão 1.0 continua publicada em [verif7.md](../verif7.md) e não foi apagada
 | :---: | :---: | :--- |
 | 1–14 | G1–G14 | Mesmo número e mesmo autor, com prefixo G; referência e print do IHC.pdf acrescentados. |
 | 3, 4 | G3, G4 | Autor exibido como “Carlos Henrique” na v1.0; padronizado como Carlos Costa (mesmo perfil do GitHub). |
-| Orientações (Preece, Rogers e Sharp, 2005, pp. 265–266) | G1–G4 | Os itens do protótipo passaram a citar o livro-texto da disciplina, que tem print nesta página: alta fidelidade (p. 210), nível 3 de Mayhew (p. 107) e uso de dados fictícios (p. 105). Preece et al. (2005) segue nas referências como leitura complementar, sem print. |
+| Orientações (Barbosa et al., 2021) | G1–G4 | Os itens do protótipo passaram a citar o livro-texto da disciplina, que tem print nesta página: alta fidelidade (p. 210), nível 3 de Mayhew (p. 107) e uso de dados fictícios (p. 105). Preece et al. (2002 apud BARBOSA et al., 2021) segue nas referências como leitura complementar, sem print. |
 | — | G15 | Novo: verificação das metas de usabilidade da Entrega 3 no relato. |
 | Histórico de versão | Tabela de contribuição | A v1.0 listava apenas Tomás Rocho como autor; a v2.0 registra o autor de cada item. |
 
@@ -132,13 +138,9 @@ O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data 
 <p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir de SALES (2026).</em></p>
 </div>
 
-## Agradecimentos e uso de IA generativa
+---
 
-Agradecemos ao professor André Barros de Sales pela lista de verificação sugerida no Plano de Ensino, que serve de base para os itens D1–D11 e para os itens de conteúdo marcados como do professor.
-
-Na versão 2.0, o assistente de IA generativa *Claude* (Anthropic) foi usado para: comparar os itens da versão 1.0 com o livro-texto e com o Plano de Ensino; sugerir correções e novos itens; localizar no livro as páginas citadas; e gerar os recortes grifados das referências. A atribuição de autoria por conteúdo, o texto final dos itens e a revisão são responsabilidade dos integrantes do grupo. 
-
-## Prints das referências
+## Fotos de Referência
 
 As figuras a seguir são recortes das fontes citadas nos itens desta lista, com o trecho que fundamenta cada item grifado em amarelo. Os recortes do livro foram retirados do arquivo *IHC.pdf* (BARBOSA et al., 2021, versão de 03/05/2021) e a numeração indicada é a numeração impressa nas páginas. Os recortes do Plano de Ensino foram retirados da versão disponibilizada pelo professor na turma 01 (SALES, 2026), com o número da página do PDF.
 
@@ -322,8 +324,9 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 <p><em>Fonte: BARBOSA et al. (2021, p. 103). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026). Itens que usam esta figura: G15.</em></p>
 </div>
 
-## Referências bibliográficas
+---
 
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
-- PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: além da interação homem-computador**. Porto Alegre: Bookman, 2005. Cap. 8, pp. 265–266 (leitura complementar, citada na v1.0).
-- SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
+## Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

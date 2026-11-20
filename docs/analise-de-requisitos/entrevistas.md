@@ -1,17 +1,21 @@
-# Entrevistas
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 21/09/2026 | 1.0 | Criação do documento de organização das gravações de entrevistas e treinamentos, adicionando o Treinamento de Entrevista voltado aos motoristas de ônibus. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-| 22/09/2026 | 1.1 | Adição das gravações das entrevistas oficiais (Motorista de Ônibus e Desenvolvedores) e do Treinamento de Entrevista 02 (Perfil Técnico). | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 21/09/2026 | `1.0` | Criação do documento de organização das gravações de entrevistas e treinamentos, adicionando o Treinamento de Entrevista voltado aos motoristas de ônibus. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
+| 22/09/2026 | `1.1` | Adição das gravações das entrevistas oficiais (Motorista de Ônibus e Desenvolvedores) e do Treinamento de Entrevista 02 (Perfil Técnico). | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
+| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
 
 ---
 
+# Entrevistas
+
 ## 1. Introdução
 
-A técnica de **entrevista** constitui um dos métodos fundamentais de elicitação e investigação qualitativa no processo de Engenharia de Usabilidade e Análise de Requisitos de Interação Humano-Computador (Barbosa e Silva, 2010). Trata-se de uma conversa dirigida e estruturada em que o entrevistador busca obter percepções em profundidade sobre as práticas, preferências, dificuldades, modelos mentais e anseios dos usuários ao interagirem com o domínio em estudo — neste projeto, o portal e os serviços digitais da **Secretaria de Estado de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)**.
+A técnica de **entrevista** constitui um dos métodos fundamentais de elicitação e investigação qualitativa no processo de Engenharia de Usabilidade e Análise de Requisitos de Interação Humano-Computador (Barbosa et al., 2021). Trata-se de uma conversa dirigida e estruturada em que o entrevistador busca obter percepções em profundidade sobre as práticas, preferências, dificuldades, modelos mentais e anseios dos usuários ao interagirem com o domínio em estudo — neste projeto, o portal e os serviços digitais da **Secretaria de Estado de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)**.
 
 Este documento tem como propósito consolidar, organizar e disponibilizar de maneira transparente e rastreável todos os registros em vídeo das **gravações de treinamento das entrevistas** (testes piloto e nivelamento da equipe) e das **gravações das entrevistas com usuários e partes interessadas**.
 
@@ -233,13 +237,46 @@ Abaixo, no Vídeo 8, é possível assistir à gravação na íntegra da entrevis
 <p><strong>Vídeo 8</strong> — Entrevista com Usuário Primário (SEMOB-DF).</p>
 <p><em>Fonte: Tomás Rocho (2026).</em></p>
 </div>
+
 ---
 
-## 5. Referências Bibliográficas
+## 5. Fotos de Referência
 
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.
-- BRASIL. Ministério da Saúde. Conselho Nacional de Saúde. *Resolução nº 510, de 7 de abril de 2016*. Dispõe sobre as normas aplicáveis a pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
-## 6. Bibliografia de Apoio
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong> — Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista</p>
+</div>
 
-- SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+![Figura 1 — Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista](../assets/prints_referencias/verificacao-v2/livro-entrevistas.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 131). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong> — Treinamento dos entrevistadores</p>
+</div>
+
+![Figura 2 — Treinamento dos entrevistadores](../assets/prints_referencias/verificacao-v2/livro-entrevistador-treinado.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 134). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong> — Permissão para gravação e consentimento livre e esclarecido</p>
+</div>
+
+![Figura 3 — Permissão para gravação e consentimento livre e esclarecido](../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 127). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+</div>
+
+---
+
+## 6. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

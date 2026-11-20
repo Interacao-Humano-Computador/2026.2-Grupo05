@@ -1,18 +1,24 @@
-# Resultados de análise
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 05/10/2026 | 1.0 | Criação do documento de resultados de análise. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 11/10/2026 | 1.1 | Atualização do perfil da persona Larissa Ferreira Lima na tabela de personas e da referência ao cenário de mudanças de itinerário (Cenário 1 → Cenário 9). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 23/10/2026 | 1.2 | Atualização da persona Heitor Santos Júnior, inclusão da TAR-09 (aumento do limite diário do Vale-Transporte) nas tarefas e nas implicações para o guia, e correção da referência ao cenário de desvios (Cenário 9 → Cenário 6). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/10/2026 | `1.0` | Criação do documento de resultados de análise. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
+| 11/10/2026 | `1.1` | Atualização do perfil da persona Larissa Ferreira Lima na tabela de personas e da referência ao cenário de mudanças de itinerário (Cenário 1 → Cenário 9). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Não declarado pelo autor |
+| 23/10/2026 | `1.2` | Atualização da persona Heitor Santos Júnior, inclusão da TAR-09 (aumento do limite diário do Vale-Transporte) nas tarefas e nas implicações para o guia, e correção da referência ao cenário de desvios (Cenário 9 → Cenário 6). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
+| 19/11/2026 | `1.3` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+
+---
+
+# Resultados de análise
 
 **Autor do Artefato: Igor Dantas.**
 
 ## 1. Introdução
 
-Esta seção reúne os resultados da análise realizada com os usuários e sobre o contexto de uso do SEMOB-DF. De acordo com a estrutura comum de guias de estilo (presente na imagem 1, referente ao livro-texto da disciplina), ela contém a **descrição do ambiente de trabalho do usuário**. Mayhew (1999) sugere ainda que o guia inclua os produtos do levantamento de dados e da análise das necessidades dos usuários, registrando o *design rationale*, isto é, mantendo o rastreamento entre uma decisão de design e os elementos de discussão que culminaram naquela decisão, conforme evidenciado na imagem 2 (Barbosa et al., 2021). Por isso, ao final desta seção, as decisões do guia são relacionadas aos resultados da análise.
+Esta seção reúne os resultados da análise realizada com os usuários e sobre o contexto de uso do SEMOB-DF. De acordo com a estrutura comum de guias de estilo (presente na imagem 1, referente ao livro-texto da disciplina), ela contém a **descrição do ambiente de trabalho do usuário**. Mayhew (1999 apud BARBOSA et al., 2021) sugere ainda que o guia inclua os produtos do levantamento de dados e da análise das necessidades dos usuários, registrando o *design rationale*, isto é, mantendo o rastreamento entre uma decisão de design e os elementos de discussão que culminaram naquela decisão, conforme evidenciado na imagem 2 (Barbosa et al., 2021). Por isso, ao final desta seção, as decisões do guia são relacionadas aos resultados da análise.
 
 ---
 
@@ -105,7 +111,7 @@ A tabela 3 a seguir contém os métodos utilizados pelo grupo na etapa de levant
 
 ## 3. Implicações para o guia de estilo
 
-A tabela 4 relaciona os achados da análise às decisões do guia, preservando o rastreamento do *design rationale* (Mayhew, 1999).
+A tabela 4 relaciona os achados da análise às decisões do guia, preservando o rastreamento do *design rationale* (Barbosa et al., 2021).
 
 **Tabela 4** — Implicações para o guia de estilo
 
@@ -126,14 +132,16 @@ A tabela 4 relaciona os achados da análise às decisões do guia, preservando o
 
 ---
 
-## Fotos de Referência
+## 4. Fotos de Referência
 
 ![Imagem 1](../../assets/prints_referencias/print-guiadeestilo.png)
-*Imagem 1 - Estrutura do guia de estilo — Barbosa et al. (2021), p. 258*
+*Imagem 1 - Estrutura do guia de estilo — Barbosa et al. (2021), p. 242*
 
 ![Imagem 2](../../assets/prints_referencias/print-guiadeestilo-designrationale.png)
 *Imagem 2 - Design Ractionale — Barbosa et al. (2021), p. 242*
 
-## Referências Bibliográficas
+---
 
-BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário.** Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 8 (Organização do Espaço de Problema, pp. 147–167) e Capítulo 10, seção 10.5 (Guias de Estilo), p. 257–259.
+## 5. Referências Bibliográficas
+
+* BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário.** Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 8 (Organização do Espaço de Problema, pp. 151–176) e Capítulo 10, seção 10.5 (Guias de Estilo), pp. 241–243.

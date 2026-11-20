@@ -1,23 +1,27 @@
-# Cenários
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Criação do documento de cenários de uso identificados para o ecossistema do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 27/09/2026 | 1.1 | Modularização em artefatos dedicados por cenário e visão geral teórica. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 27/09/2026 | 1.2 | Inclusão dos cenários de uso da persona Valdir Soares (motorista de ônibus do STPC/DF) e fundamentação em Goal-Directed Design. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 27/09/2026 | 1.3 | Inclusão do cenário de problema de crédito de Vale-Transporte não disponível no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
-| 28/09/2026 | 1.4 | Inclusão do Cenário 9 (Heitor) e Cenário 10 (Mariana Borges). | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
-| 11/10/2026 | 1.5 | Reescrita do Cenário 1 para a nova versão da persona Larissa (pré-agendamento no Programa DF Acessível, TAR-02). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 13/10/2026 | 1.6 | Inclusão do Cenário 11 (Cláudia Regina Santos). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| 23/10/2026 | 1.7 | Reescrita do Cenário 9 (Heitor Santos Júnior) para a TAR-09: cartão de Vale-Transporte recusado e pedido de aumento do limite diário. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 26/09/2026 | `1.0` | Criação do documento de cenários de uso identificados para o ecossistema do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
+| 27/09/2026 | `1.1` | Modularização em artefatos dedicados por cenário e visão geral teórica. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | Não declarado pelo autor |
+| 27/09/2026 | `1.2` | Inclusão dos cenários de uso da persona Valdir Soares (motorista de ônibus do STPC/DF) e fundamentação em Goal-Directed Design. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
+| 27/09/2026 | `1.3` | Inclusão do cenário de problema de crédito de Vale-Transporte não disponível no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) | Não declarado pelo autor |
+| 28/09/2026 | `1.4` | Inclusão do Cenário 9 (Heitor) e Cenário 10 (Mariana Borges). | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Não declarado pelo autor |
+| 11/10/2026 | `1.5` | Reescrita do Cenário 1 para a nova versão da persona Larissa (pré-agendamento no Programa DF Acessível, TAR-02). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Não declarado pelo autor |
+| 13/10/2026 | `1.6` | Inclusão do Cenário 11 (Cláudia Regina Santos). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
+| 23/10/2026 | `1.7` | Reescrita do Cenário 9 (Heitor Santos Júnior) para a TAR-09: cartão de Vale-Transporte recusado e pedido de aumento do limite diário. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
+| 19/11/2026 | `1.8` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+
+!!! warning "Observação para correção manual"
+    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
 
 ---
 
+# Cenários
+
 ## 1. Introdução
 
-Na área de Interação Humano-Computador (IHC), um **cenário** é basicamente uma história sobre pessoas realizando uma atividade (Rosson e Carroll, 2002). Trata-se de uma narrativa textual ou pictórica, concreta e rica em detalhes contextuais, que retrata uma situação de uso da aplicação envolvendo usuários, processos e dados reais ou potenciais (Barbosa et al., 2021).
+Na área de Interação Humano-Computador (IHC), um **cenário** é basicamente uma história sobre pessoas realizando uma atividade (Barbosa et al., 2021). Trata-se de uma narrativa textual ou pictórica, concreta e rica em detalhes contextuais, que retrata uma situação de uso da aplicação envolvendo usuários, processos e dados reais ou potenciais (Barbosa et al., 2021).
 
 Os cenários exercem papel fundamental na fase de análise de requisitos, pois permitem:
 * Ilustrar como os usuários interagem (ou tentam interagir) com o sistema no mundo real.
@@ -81,6 +85,3 @@ A Tabela 1 apresenta os cenários desenvolvidos pela equipe para diagnosticar ta
 ## 4. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Seção 8.3: Cenários (pp. 158–162).
-* CARROLL, John M. **Making Use: Scenario-Based Design of Human-Computer Interactions**. Cambridge: MIT Press, 2000. ISBN: 978-0262032797.
-* COOPER, Alan; REIMANN, Robert; CRONIN, Dave. **About Face 3: The Essentials of Interaction Design**. Indianapolis: Wiley Publishing, Inc., 2007. ISBN: 978-0-470-08411-3. Chapter 5 e 6 (pp. 75–124).
-* ROSSON, Mary Beth; CARROLL, John M. **Usability Engineering: Scenario-Based Development of Human-Computer Interaction**. San Francisco: Morgan Kaufmann, 2002.
