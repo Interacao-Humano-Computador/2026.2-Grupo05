@@ -1,3 +1,11 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 17/09/2026 | `1.0` | Criação da ata da Reunião 03 (Definição de escopo da Entrega 2, elicitação e análise de tarefas). | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
+
+---
+
 # Ata de reunião 3 - Interação Humano-Computador - Grupo 05
 
 - **Data:** 17/09/2026 (Quinta-feira)
@@ -6,14 +14,6 @@
 - **Objetivo da Reunião:** Alinhamento do escopo da Entrega 2 (Análise de Requisitos), avaliação das funcionalidades do portal da SEMOB-DF, definição dos perfis de usuário, elaboração dos roteiros de entrevista e termo de consentimento (TCLE), e estudo das técnicas de modelagem de tarefas (HTA e GOMS).
 - **Redator da Ata:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)
 - **Ausentes:** Nenhum
-
-## Histórico de Versão e Contribuição
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
-| :---: | :---: | :--- | :--- | :--- | :---: |
-| 17/09/2026 | `1.0` | Criação da ata da Reunião 03 (Definição de escopo da Entrega 2, elicitação e análise de tarefas). | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
-
----
 
 ## 1. Participantes presentes:
 
@@ -65,12 +65,25 @@
 
 A próxima reunião da equipe foi agendada para o dia **28/09/2026**, às **20h00**, online via **Microsoft Teams**, voltada ao alinhamento final e gravação da apresentação da Entrega 2.
 
-## 6. Declaração sobre o Uso de IA Generativa
+---
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as tomadas de decisão e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+## 6. Fotos de Referência
+
+A Figura 1 mostra o trecho que fundamenta este artefato, recortado e grifado em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
+</div>
+
+---
 
 ## 7. Referências Bibliográficas
 
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.
-- PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. *Design de Interação: Além da interação homem-computador*. São Paulo: Editora Érica, 2005.
-- SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

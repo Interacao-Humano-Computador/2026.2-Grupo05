@@ -1,14 +1,28 @@
-# Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-02)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 15/11/2026 | `1.0` | Consolidação e relato dos resultados do teste de usabilidade do Protótipo de Alta Fidelidade (TAR-02) com 3 participantes. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | — | Claude (Anthropic) - usado para apoio na transcrição das gravações, na medição dos tempos a partir dos vídeos e na formatação markdown da página. |
+| 15/11/2026 | `1.0` | Consolidação e relato dos resultados do teste de usabilidade do Protótipo de Alta Fidelidade (TAR-02) com 3 participantes. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic) - usado para apoio na transcrição das gravações, na medição dos tempos a partir dos vídeos e na formatação markdown da página. |
+
 
 ---
 
+# Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-02)
+
 Neste documento, apresenta-se o **Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-02 (Pré-agendamento no Programa DF Acessível)](../../../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md)**. A avaliação seguiu o [Planejamento da Avaliação do Protótipo de Alta Fidelidade](../../planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md), e a estrutura deste relato segue o [Planejamento do Relato](../../planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md), mantendo o padrão do [Relato dos Resultados da Avaliação do Protótipo de Papel](../../../nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md) para permitir a comparação entre os dois níveis.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-02 (Pré-agendamento no Programa DF Acessível):**
+
+* **Persona:** [Larissa Ferreira Lima](../../../../analise-de-requisitos/personas/larissa-ferreira-lima.md)
+* **Cenário:** [Cenário 1](../../../../analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel.md)
+* **Análise de tarefas:** [TAR-02](../../../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md)
+* **Storyboard:** [Storyboard 02](../../../nivel1/storyboards.md#32-storyboard-02-pre-agendamento-no-programa-df-acessivel)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md) · Relato dos resultados (*esta página*)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível*
+
 
 ---
 
@@ -62,7 +76,7 @@ Foi aplicado o **Teste de Usabilidade** (Barbosa et al., 2021, Seção 12.2.1) c
 ### 3.1 Gravações das Sessões
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Gravações das Sessões de Teste</p>
+<p><strong>Tabela 1</strong>: Gravações das Sessões de Teste</p>
 </div>
 
 | Participante | Gravação | Duração |
@@ -96,7 +110,7 @@ Foi aplicado o **Teste de Usabilidade** (Barbosa et al., 2021, Seção 12.2.1) c
 Uma tarefa foi considerada **Satisfatória** quando concluída sem pedido de ajuda e com no máximo 1 erro, e **Com Falhas** quando houve pedido de ajuda, mais de 1 erro, desistência ou quando o resultado final não correspondeu ao que a tarefa pedia.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Desempenho por Participante e Tarefa no Protótipo de Alta Fidelidade</p>
+<p><strong>Tabela 2</strong>: Desempenho por Participante e Tarefa no Protótipo de Alta Fidelidade</p>
 </div>
 
 | ID Tarefa | Participante | Sucesso sem Ajuda? | Tempo Gasto | Erros | Pedidos de Ajuda | Avaliação da Usabilidade |
@@ -120,7 +134,7 @@ Uma tarefa foi considerada **Satisfatória** quando concluída sem pedido de aju
 Além das três tarefas, os participantes leram a tela de apresentação antes de tocar em "Agendar transporte". O tempo total de cada participante, da abertura da tela de apresentação até a tela "Pré-agendamento concluído", foi:
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Tempo Total do Fluxo por Participante</p>
+<p><strong>Tabela 3</strong>: Tempo Total do Fluxo por Participante</p>
 </div>
 
 | Participante | Leitura da Apresentação | TAR-02.1 a TAR-02.3 | Total |
@@ -137,7 +151,7 @@ Além das três tarefas, os participantes leram a tela de apresentação antes d
 ### 4.2 Verificação das Metas e Comparação com o Protótipo de Papel
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Metas de Usabilidade e Comparação entre os Níveis</p>
+<p><strong>Tabela 4</strong>: Metas de Usabilidade e Comparação entre os Níveis</p>
 </div>
 
 | Meta | Critério | Resultado no Protótipo de Papel | Resultado na Alta Fidelidade | Meta Atingida? |
@@ -158,7 +172,7 @@ Na comparação por tarefa, a escolha dos postos caiu de 23 segundos no papel pa
 ## 5. Consolidação da Entrevista Pós-teste
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Síntese das Respostas da Entrevista Pós-teste</p>
+<p><strong>Tabela 5</strong>: Síntese das Respostas da Entrevista Pós-teste</p>
 </div>
 
 | ID | Foco | Pergunta Aplicada | Síntese das Respostas de P1 a P3 | Atendeu ao Critério? |
@@ -180,7 +194,7 @@ Há uma divergência entre a Q02 e o desempenho de P2 na TAR-02.1: o participant
 ## 6. Tabela de Problemas de IHC
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Registro e Priorização dos Problemas de Usabilidade</p>
+<p><strong>Tabela 6</strong>: Registro e Priorização dos Problemas de Usabilidade</p>
 </div>
 
 | ID Problema | Tela / Componente | Descrição e Justificativa | Participantes Afetados | Fatores de Usabilidade Prejudicados | Severidade (0 a 4) | Sugestão de Solução |
@@ -199,7 +213,7 @@ A severidade do PROB-AF01 foi classificada como **2** porque ocorreu com 1 dos 3
 ## 7. Conformidade com o Guia de Estilo
 
 <div align="center">
-<p><strong>Tabela 7</strong> — Verificação de Conformidade com o Guia de Estilo</p>
+<p><strong>Tabela 7</strong>: Verificação de Conformidade com o Guia de Estilo</p>
 </div>
 
 | Diretriz do Guia de Estilo | Padrão Esperado | Evidência nos Testes | Status |
@@ -233,7 +247,7 @@ O teste indicou que o protótipo de alta fidelidade da TAR-02 atinge as quatro m
 
 ### 9.1 Limitações do Estudo
 
-* **Número reduzido de participantes:** foram 3 participantes, conforme a recomendação de Krug (2006, 2010). O número é suficiente para revelar os problemas mais graves, mas não para generalizar as métricas.
+* **Número reduzido de participantes:** foram 3 participantes, conforme o [planejamento da avaliação](../../planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md). O número é suficiente para revelar os problemas mais graves, mas não para generalizar as métricas.
 * **Perfil alternativo:** os participantes já agendaram transporte para parentes, mas não têm mobilidade reduzida. Por isso, a conformidade de legibilidade e áreas de toque (Q04) deve ser confirmada com usuários do perfil prioritário.
 * **Protótipo, e não o site real:** o seletor de arquivos e o envio dos documentos foram simulados no Figma, e os dias disponíveis eram fixos.
 * **Avaliador único:** o mesmo avaliador conduziu e observou as sessões. Os tempos foram medidos depois, a partir das gravações, com precisão aproximada de ±2 segundos.
@@ -241,15 +255,43 @@ O teste indicou que o protótipo de alta fidelidade da TAR-02 atinge as quatro m
 
 ---
 
-## 10. Declaração sobre o Uso de IA Generativa
+## 10. Fotos de Referência
 
-Em conformidade com as orientações do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa (Claude, da Anthropic) foram utilizadas para apoio na transcrição das gravações, na medição dos tempos a partir dos vídeos e na formatação das tabelas em Markdown. A análise dos resultados e a classificação dos problemas foram revisadas pelo autor.
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Representação de interface em alta fidelidade</p>
+</div>
+
+![Figura 1: Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 210).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+</div>
+
+![Figura 2: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: 11.7.5 Consolidação e relato dos resultados</p>
+</div>
+
+![Figura 3: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
+</div>
 
 ---
 
 ## 11. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Cap. 11, Seção 11.7.5, p. 263–264; Cap. 12, Seções 12.1.1 e 12.2.1, p. 267–290.
-* KRUG, Steve. **Don't Make Me Think: A Common Sense Approach to Web Usability**. 2. ed. Berkeley: New Riders, 2006.
-* KRUG, Steve. **Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems**. Berkeley: New Riders, 2010.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.

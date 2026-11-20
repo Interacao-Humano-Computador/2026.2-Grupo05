@@ -1,23 +1,23 @@
-# Cenários
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Criação do documento de cenários de uso identificados para o ecossistema do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 27/09/2026 | 1.1 | Modularização em artefatos dedicados por cenário e visão geral teórica. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 27/09/2026 | 1.2 | Inclusão dos cenários de uso da persona Valdir Soares (motorista de ônibus do STPC/DF) e fundamentação em Goal-Directed Design. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 27/09/2026 | 1.3 | Inclusão do cenário de problema de crédito de Vale-Transporte não disponível no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
-| 28/09/2026 | 1.4 | Inclusão do Cenário 9 (Heitor) e Cenário 10 (Mariana Borges). | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
-| 11/10/2026 | 1.5 | Reescrita do Cenário 1 para a nova versão da persona Larissa (pré-agendamento no Programa DF Acessível, TAR-02). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 13/10/2026 | 1.6 | Inclusão do Cenário 11 (Cláudia Regina Santos). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| 23/10/2026 | 1.7 | Reescrita do Cenário 9 (Heitor Santos Júnior) para a TAR-09: cartão de Vale-Transporte recusado e pedido de aumento do limite diário. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 26/09/2026 | `1.0` | Criação do documento de cenários de uso identificados para o ecossistema do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.1` | Modularização em artefatos dedicados por cenário e visão geral teórica. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.2` | Inclusão dos cenários de uso da persona Valdir Soares (motorista de ônibus do STPC/DF) e fundamentação em Goal-Directed Design. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.3` | Inclusão do cenário de problema de crédito de Vale-Transporte não disponível no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 28/09/2026 | `1.4` | Inclusão do Cenário 9 (Heitor) e Cenário 10 (Mariana Borges). | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 11/10/2026 | `1.5` | Reescrita do Cenário 1 para a nova versão da persona Larissa (pré-agendamento no Programa DF Acessível, TAR-02). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 13/10/2026 | `1.6` | Inclusão do Cenário 11 (Cláudia Regina Santos). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 23/10/2026 | `1.7` | Reescrita do Cenário 9 (Heitor Santos Júnior) para a TAR-09: cartão de Vale-Transporte recusado e pedido de aumento do limite diário. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
 
+# Cenários
+
 ## 1. Introdução
 
-Na área de Interação Humano-Computador (IHC), um **cenário** é basicamente uma história sobre pessoas realizando uma atividade (Rosson e Carroll, 2002). Trata-se de uma narrativa textual ou pictórica, concreta e rica em detalhes contextuais, que retrata uma situação de uso da aplicação envolvendo usuários, processos e dados reais ou potenciais (Barbosa et al., 2021).
+Na área de Interação Humano-Computador (IHC), um **cenário** é basicamente uma história sobre pessoas realizando uma atividade (Barbosa et al., 2021). Trata-se de uma narrativa textual ou pictórica, concreta e rica em detalhes contextuais, que retrata uma situação de uso da aplicação envolvendo usuários, processos e dados reais ou potenciais (Barbosa et al., 2021).
 
 Os cenários exercem papel fundamental na fase de análise de requisitos, pois permitem:
 * Ilustrar como os usuários interagem (ou tentam interagir) com o sistema no mundo real.
@@ -45,22 +45,22 @@ Conforme Barbosa et al. (2021), um cenário bem estruturado deve explicitar:
 A Tabela 1 apresenta os cenários desenvolvidos pela equipe para diagnosticar tarefas críticas das personas primárias e atendidas ou operacionais, além de direcionar para os respectivos artefatos individuais.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Cenários de Uso Mapeados no Projeto</p>
+<p><strong>Tabela 1</strong>: Cenários de Uso Mapeados no Projeto</p>
 </div>
 
 | Cenário | Persona Associada | Tipo de Cenário | Autor da Elaboração | Artefato Completo |
 | :--- | :--- | :---: | :--- | :---: |
-| **Cenário 1 — Pré-agendamento no Programa DF Acessível** | [Larissa Ferreira Lima](../personas/larissa-ferreira-lima.md) | Cenário de Concepção (Projetado) | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Cenário](cenario-1-pre-agendamento-df-acessivel.md) |
-| **Cenário 2 — Atraso na viagem matutina por conflito no app** | [João Pedro Carvalho](../personas/joao-pedro-carvalho.md) | Cenário de Problema | [Igor Dantas](https://github.com/IgorDARAUJO) | [Acessar Cenário](cenario-2-viagem-matutina.md) |
-| **Cenário 3 — Deslocamento urgente com busca por destino** | [Marcos Paulo Vieira](../personas/marcos-paulo-vieira.md) | Cenário de Problema | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Acessar Cenário](cenario-3-planejamento-origem-destino.md) |
-| **Cenário 4 — Crédito de Vale-Transporte não disponível no cartão** | [Maria Eduarda Santos ("Duda")](../personas/maria-eduarda-santos.md) | Cenário de Problema | Equipe Grupo 05 | [Acessar Cenário](cenario-4-credito-vale-transporte.md) |
-| **Cenário 5 — Consulta ágil da escala diária no smartphone** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Caminho Crítico (Projetado) | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenario-5-consulta-escala.md) |
-| **Cenário 6 — Alerta emergencial de desvio na faixa exclusiva** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Contingência | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenario-6-alerta-desvio.md) |
-| **Cenário 7 — Resolução cooperativa de dúvida de passageiro** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Mediação Social | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenario-7-duvida-passageiro.md) |
-| **Cenário 8 — Conflito na catraca por divergência de horários** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Problema | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenario-8-conflito-catraca.md) |
-| **Cenário 9 — Cartão de Vale-Transporte recusado no meio do expediente** | [Heitor Santos Júnior](../personas/heitor-santos-junior.md) | Cenário de Problema | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Cenário](cenario-9-limite-vale-transporte.md) |
-| **Cenário 10 — Viagem ideal sob chuva** | [Mariana Borges Almeida](../personas/mariana-borges-almeida.md) | Cenário Ideal (Projetado) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Cenário](cenario-10-viagem-ideal.md) |
-| **Cenário 11 — Reclamação sobre ônibus que passou direto** | [Cláudia Regina Santos](../personas/claudia-regina-santos.md) | Cenário de Problema | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Cenário](cenario-11-reclamacao-onibus.md) |
+| **Cenário 1: Pré-agendamento no Programa DF Acessível** | [Larissa Ferreira Lima](../personas/larissa-ferreira-lima.md) | Cenário de Concepção (Projetado) | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Acessar Cenário](cenario-1-pre-agendamento-df-acessivel.md) |
+| **Cenário 2: Atraso na viagem matutina por conflito no app** | [João Pedro Carvalho](../personas/joao-pedro-carvalho.md) | Cenário de Problema | [Igor Dantas](https://github.com/IgorDARAUJO) | [Acessar Cenário](cenario-2-viagem-matutina.md) |
+| **Cenário 3: Deslocamento urgente com busca por destino** | [Marcos Paulo Vieira](../personas/marcos-paulo-vieira.md) | Cenário de Problema | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Acessar Cenário](cenario-3-planejamento-origem-destino.md) |
+| **Cenário 4: Crédito de Vale-Transporte não disponível no cartão** | [Maria Eduarda Santos ("Duda")](../personas/maria-eduarda-santos.md) | Cenário de Problema | Equipe Grupo 05 | [Acessar Cenário](cenario-4-credito-vale-transporte.md) |
+| **Cenário 5: Consulta ágil da escala diária no smartphone** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Caminho Crítico (Projetado) | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenario-5-consulta-escala.md) |
+| **Cenário 6: Alerta emergencial de desvio na faixa exclusiva** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Contingência | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenario-6-alerta-desvio.md) |
+| **Cenário 7: Resolução cooperativa de dúvida de passageiro** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Mediação Social | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenario-7-duvida-passageiro.md) |
+| **Cenário 8: Conflito na catraca por divergência de horários** | [Valdir Soares ("Seu Valdir")](../personas/valdir-soares.md) | Cenário de Problema | [Carlos Costa](https://github.com/carloshfgit) | [Acessar Cenário](cenario-8-conflito-catraca.md) |
+| **Cenário 9: Cartão de Vale-Transporte recusado no meio do expediente** | [Heitor Santos Júnior](../personas/heitor-santos-junior.md) | Cenário de Problema | [Tomás Rocho](https://github.com/TomasRocho) | [Acessar Cenário](cenario-9-limite-vale-transporte.md) |
+| **Cenário 10: Viagem ideal sob chuva** | [Mariana Borges Almeida](../personas/mariana-borges-almeida.md) | Cenário Ideal (Projetado) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Cenário](cenario-10-viagem-ideal.md) |
+| **Cenário 11: Reclamação sobre ônibus que passou direto** | [Cláudia Regina Santos](../personas/claudia-regina-santos.md) | Cenário de Problema | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Acessar Cenário](cenario-11-reclamacao-onibus.md) |
 
 <div align="center">
 <p><em>Fonte: Autores (2026).</em></p>
@@ -73,7 +73,7 @@ A Tabela 1 apresenta os cenários desenvolvidos pela equipe para diagnosticar ta
 ![Imagem 1](../../assets/prints_referencias/print-cenarios1.png)
 
 <div align="center">
-<p><em>Imagem 1 — Fundamentação teórica de Cenários em IHC (Barbosa et al., 2021, Seção 8.3, p. 158).</em></p>
+<p><em>Imagem 1: Fundamentação teórica de Cenários em IHC (Barbosa et al., 2021, Seção 8.3, p. 158).</em></p>
 </div>
 
 ---
@@ -81,6 +81,3 @@ A Tabela 1 apresenta os cenários desenvolvidos pela equipe para diagnosticar ta
 ## 4. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Seção 8.3: Cenários (pp. 158–162).
-* CARROLL, John M. **Making Use: Scenario-Based Design of Human-Computer Interactions**. Cambridge: MIT Press, 2000. ISBN: 978-0262032797.
-* COOPER, Alan; REIMANN, Robert; CRONIN, Dave. **About Face 3: The Essentials of Interaction Design**. Indianapolis: Wiley Publishing, Inc., 2007. ISBN: 978-0-470-08411-3. Chapter 5 e 6 (pp. 75–124).
-* ROSSON, Mary Beth; CARROLL, John M. **Usability Engineering: Scenario-Based Development of Human-Computer Interaction**. San Francisco: Morgan Kaufmann, 2002.

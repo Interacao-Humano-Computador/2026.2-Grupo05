@@ -1,15 +1,16 @@
-# Elementos de Interação
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 05/10/2026 | 1.0 | Criação do documento de Elementos de Interação. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/10/2026 | `1.0` | Criação do documento de Elementos de Interação. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
 
+---
+
+# Elementos de Interação
 
 ## 1. Introdução
 
-Esta seção detalha os elementos de interação do Guia de Estilo para o portal da SEMOB-DF. Conforme estruturado por Mayhew (1999) e Marcus (1991) (citados por Barbosa et al., 2021, p. 258), os elementos de interação englobam os estilos de interação, a justificativa para a seleção de um estilo e a definição de aceleradores (teclas de atalho), visando garantir uma comunicação eficiente e consistente entre o sistema e o usuário.
+Esta seção detalha os elementos de interação do Guia de Estilo para o portal da SEMOB-DF. Conforme estruturado por Mayhew (1999) e Marcus (1991) (citados por Barbosa et al., 2021, p. 242), os elementos de interação englobam os estilos de interação, a justificativa para a seleção de um estilo e a definição de aceleradores (teclas de atalho), visando garantir uma comunicação eficiente e consistente entre o sistema e o usuário.
 
 ## 2. Estilo de Interação
 
@@ -28,10 +29,10 @@ No portal voltado para o passageiro, não foram implementadas teclas de atalho t
 ## 5. Fotos de Referência
 
 ![Imagem 1](../../assets/prints_referencias/guia-estilo-elementos-interacao.png)
-*Imagem 1 - Estrutura do guia de estilo (Elementos de interação) — Barbosa et al. (2021), p. 258*
+*Imagem 1 - Estrutura do guia de estilo (Elementos de interação) — Barbosa et al. (2021), p. 242*
+
+---
 
 ## 6. Referências Bibliográficas
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 10, Seção 10.5, p. 258).
-* MAYHEW, Deborah J. **The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design**. Morgan Kaufmann, 1999.
-* MARCUS, Aaron. **Graphic design for electronic documents and user interfaces**. New York: ACM, 1991.
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 10, Seção 10.5, p. 242).

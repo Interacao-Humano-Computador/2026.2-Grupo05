@@ -1,19 +1,19 @@
-# Simplicidade nas Estruturas das Tarefas no site da SEMOB-DF
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 05/10/2026 | 1.0 | Criação do documento de análise de simplicidade nas estruturas das tarefas no site da **SEMOB-DF**. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
-| 06/10/2026 | 1.1 | Correção da URL do DF no Ponto (ST3) e refinamento técnico da análise de DNS/HTTP com evidência de erro em ST4, conforme revisão de PR #42. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/10/2026 | `1.0` | Criação do documento de análise de simplicidade nas estruturas das tarefas no site da **SEMOB-DF**. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) | Google Gemini: apoio na organização e revisão estilística do documento em Markdown |
+| 06/10/2026 | `1.1` | Correção da URL do DF no Ponto (ST3) e refinamento técnico da análise de DNS/HTTP com evidência de erro em ST4, conforme revisão de PR #42. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) | Google Gemini: apoio na organização e revisão estilística do documento em Markdown |
 
 ---
+
+# Simplicidade nas Estruturas das Tarefas no site da SEMOB-DF
 
 **Site analisado:** <https://www.semob.df.gov.br/> (Secretaria de Estado de Transporte e Mobilidade do Distrito Federal)
 
 **Princípio:** 10.2.2 Simplicidade nas Estruturas das Tarefas
 
-**Referência:** Barbosa, S. D. J. et al. (2021). *Interação Humano-Computador e Experiência do Usuário*, Cap. 10: Princípios e Diretrizes para o Design de IHC, p. 239.
+**Referência:** Barbosa, S. D. J. et al. (2021). *Interação Humano-Computador e Experiência do Usuário*, Cap. 10: Princípios e Diretrizes para o Design de IHC, p. 223.
 
 **Data da inspeção:** 05/10/2026, em navegador desktop (Google Chrome)
 
@@ -23,9 +23,9 @@
 
 ## 1. O princípio segundo o livro
 
-O capítulo 10 reúne as recomendações consagradas do design de interação, apoiando-se fortemente nos preceitos de Norman (1988) sobre a psicologia cotidiana da interação humano-computador, cujas referências teóricas estão evidenciadas nas Imagens 07 e 08 ao final deste documento.
+O capítulo 10 reúne as recomendações consagradas do design de interação, apoiando-se fortemente nos preceitos de Norman (1988 apud BARBOSA et al., 2021) sobre a psicologia cotidiana da interação humano-computador, cujas referências teóricas estão evidenciadas nas Imagens 07 e 08 ao final deste documento.
 
-Norman (1988) preconiza que os designers devem **simplificar a estrutura das tarefas**, reduzindo a quantidade de planejamento prévio e de resolução de problemas que elas impõem ao usuário. Os seres humanos possuem limitações biológicas estritas em relação à memória de trabalho (memória de curto prazo), sendo capazes de reter apenas uma quantidade reduzida de itens simultâneos. Quando um sistema exige que o cidadão memorize rotas, códigos, tarifas ou instruções entre telas consecutivas, a sobrecarga cognitiva compromete a usabilidade e induz o usuário ao erro.
+Norman (1988 apud BARBOSA et al., 2021) preconiza que os designers devem **simplificar a estrutura das tarefas**, reduzindo a quantidade de planejamento prévio e de resolução de problemas que elas impõem ao usuário. Os seres humanos possuem limitações biológicas estritas em relação à memória de trabalho (memória de curto prazo), sendo capazes de reter apenas uma quantidade reduzida de itens simultâneos. Quando um sistema exige que o cidadão memorize rotas, códigos, tarifas ou instruções entre telas consecutivas, a sobrecarga cognitiva compromete a usabilidade e induz o usuário ao erro.
 
 Para simplificar tarefas desnecessariamente complexas, o livro-texto apresenta quatro abordagens tecnológicas propostas por Norman:
 
@@ -34,7 +34,7 @@ Para simplificar tarefas desnecessariamente complexas, o livro-texto apresenta q
 3. **Automatizar a tarefa ou parte dela, mantendo-a igual:** Reduzir o esforço mecânico por meio de automações inteligentes, calculando rotas ou preenchendo parâmetros repetitivos sem demandar esforço manual.
 4. **Modificar a natureza da tarefa:** Transformar uma sequência intrincada e burocrática em uma atividade direta e intuitiva.
 
-Entretanto, Norman (1988) faz um alerta crucial: **a automação não pode subtrair controle excessivo do usuário**, sob pena de torná-lo dependente e alienado do processo, incapaz de intervir diante de exceções ou imprevistos.
+Entretanto, Norman (1988 apud BARBOSA et al., 2021) faz um alerta crucial: **a automação não pode subtrair controle excessivo do usuário**, sob pena de torná-lo dependente e alienado do processo, incapaz de intervir diante de exceções ou imprevistos.
 
 ---
 
@@ -98,7 +98,7 @@ Ao utilizar o campo de busca no cabeçalho do portal digitando o termo `"linhas"
 ![Resultados da pesquisa por linhas](../../assets/prints_referencias/print-simplicidade-busca-linhas.png)
 *Imagem 04: Resultados da busca pelo termo "linhas" trazendo nomes de arquivos internos e atas administrativas.*
 
-**Por que é um problema:** Norman (1988) enfatiza que os sistemas devem minimizar a quantidade de resolução de problemas demandada ao usuário. Ao apresentar dezenas de itens administrativos desprovidos de hierarquização semântica, o portal transfere para o usuário todo o custo cognitivo de inspecionar título por título para verificar se algum contém a informação de seu trajeto.
+**Por que é um problema:** Norman (1988 apud BARBOSA et al., 2021) enfatiza que os sistemas devem minimizar a quantidade de resolução de problemas demandada ao usuário. Ao apresentar dezenas de itens administrativos desprovidos de hierarquização semântica, o portal transfere para o usuário todo o custo cognitivo de inspecionar título por título para verificar se algum contém a informação de seu trajeto.
 
 **Recomendação:** Implementar um mecanismo de busca preditiva que reconheça intenções típicas do usuário (como número da linha, região administrativa ou itinerário) e exiba um cartão de destaque com consulta instantânea da linha antes dos resultados genéricos do repositório de documentos.
 
@@ -136,7 +136,7 @@ Na página inicial do portal da SEMOB-DF, atalhos do bloco de serviços (como *P
 ![Erro de resolução de domínio ERR_NAME_NOT_RESOLVED](../../assets/prints_referencias/print-simplicidade-erro-dns.png)
 *Imagem 06: Falha de carregamento no navegador Chrome ao acessar link com domínio ápice semob.df.gov.br (ERR_NAME_NOT_RESOLVED).*
 
-**Por que é um problema:** Norman (1988) salienta que a interface não deve impor ao usuário a resolução de quebra-cabeças técnicos ou frustrar a execução de sua tarefa básica. O usuário clica em um serviço essencial e tem o fluxo completamente rompido por uma falha de apontamento na camada de infraestrutura. Como a interface não fornece alternativa ou mensagem de contorno, o cidadão é impedido de concluir a tarefa, a menos que deduza por conta própria a necessidade de acrescentar manualmente o prefixo `www.` na barra de endereços. A classificação é mantida como **Alta**, pois a falha inviabiliza a conclusão da tarefa pelo caminho disponibilizado pela interface.
+**Por que é um problema:** Norman (1988 apud BARBOSA et al., 2021) salienta que a interface não deve impor ao usuário a resolução de quebra-cabeças técnicos ou frustrar a execução de sua tarefa básica. O usuário clica em um serviço essencial e tem o fluxo completamente rompido por uma falha de apontamento na camada de infraestrutura. Como a interface não fornece alternativa ou mensagem de contorno, o cidadão é impedido de concluir a tarefa, a menos que deduza por conta própria a necessidade de acrescentar manualmente o prefixo `www.` na barra de endereços. A classificação é mantida como **Alta**, pois a falha inviabiliza a conclusão da tarefa pelo caminho disponibilizado pela interface.
 
 **Recomendação:** Corrigir os links cadastrados no CMS para caminhos relativos (e.g., `/pontos-de-parada`). Na infraestrutura, configurar os registros DNS de `semob.df.gov.br` para que o domínio ápice seja resolvido e configurar, no servidor web ou proxy, um redirecionamento HTTP (código 301) para `https://www.semob.df.gov.br/`, preservando o caminho e os parâmetros da URL.
 
@@ -157,24 +157,19 @@ O portal da SEMOB-DF apresenta algumas iniciativas louváveis para encurtar cami
 
 ---
 
-## Declaração sobre o Uso de IA Generativa
+## 7. Fotos de Referência
 
-Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação (SBC) e as diretrizes do Plano de Ensino da disciplina, declara-se que o assistente de inteligência artificial generativa *Gemini* foi utilizado como apoio na organização e revisão estilística do documento em Markdown. Todas as inspeções analíticas no portal da SEMOB-DF, a classificação de problemas e a emissão de recomendações técnicas foram fundamentadas na teoria de IHC sob responsabilidade dos autores.
-
----
-
-## Fotos de Referência
-
-Abaixo encontram-se os recortes comprobatórios extraídos diretamente da obra de referência da disciplina (Barbosa et al., 2021, p. 239):
+Abaixo encontram-se os recortes comprobatórios extraídos diretamente da obra de referência da disciplina (Barbosa et al., 2021, p. 223):
 
 ![Referência Teórica 01 - Simplicidade nas Estruturas das Tarefas](../../assets/prints_referencias/referencia-simplicidade-tarefas-1.png)
-*Imagem 07: Trecho do livro-texto destacando a definição de Simplicidade nas Estruturas das Tarefas segundo Norman (1988).*
+*Imagem 07: Trecho do livro-texto destacando a definição de Simplicidade nas Estruturas das Tarefas segundo Norman (1988 apud BARBOSA et al., 2021).*
 
 ![Referência Teórica 02 - Abordagens Tecnológicas e Automação](../../assets/prints_referencias/referencia-simplicidade-tarefas-2.png)
 *Imagem 08: Trecho do livro-texto detalhando as quatro abordagens tecnológicas para simplificar tarefas e o alerta sobre os perigos da automação excessiva.*
 
-## Referências Bibliográficas
+---
 
-- BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10: Princípios e Diretrizes para o Design de IHC, p. 239.
-- NORMAN, Donald A. *The Design of Everyday Things*. Nova York: Basic Books, 1988.
-- SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Faculdade UnB Gama, Universidade de Brasília, 2026.
+## 8. Referências Bibliográficas
+
+* BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10: Princípios e Diretrizes para o Design de IHC, p. 223.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Faculdade UnB Gama, Universidade de Brasília, 2026.

@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 31/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Alta Fidelidade (Figma) via DECIDE, com recrutamento fundamentado na teoria de Steve Krug. | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - utilizado para auxílio na estruturação sintática do Markdown e revisão gramatical. |
+
 
 ---
 
@@ -10,13 +11,26 @@
 
 Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-01 (Alerta Inteligente de Saída de Casa)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/#tar-01-alerta-inteligente-de-saida)**. Trata-se de um planejamento individual desenvolvido para orientar a avaliação formativa e empírica do protótipo digital interativo construído na ferramenta **Figma**, representando a interface móvel do aplicativo de mobilidade para a **SEMOB-DF / BRB Mobilidade**.
 
-O protótipo de alta fidelidade foi concebido em conformidade com o **Guia de Estilo** estabelecido pelo Grupo 05 (com padrões de componentes, tipografia, cores, espaçamentos, botões de ação e cálculo automático do tempo de caminhada via GPS). A avaliação será realizada com usuários reais utilizando o **Framework DECIDE** (Preece et al., 2002; Barbosa et al., 2021), estruturado em seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar dados).
+O protótipo de alta fidelidade foi concebido em conformidade com o **Guia de Estilo** estabelecido pelo Grupo 05 (com padrões de componentes, tipografia, cores, espaçamentos, botões de ação e cálculo automático do tempo de caminhada via GPS). A avaliação será realizada com usuários reais utilizando o **Framework DECIDE** (Barbosa et al., 2021), estruturado em seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar dados).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-01 (Alerta Inteligente de Saída de Casa):**
+
+* **Persona:** [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md)
+* **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md)
+* **Análise de tarefas:** [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md)
+* **Storyboard:** [Storyboard 01](../../../nivel1/storyboards.md#31-storyboard-01-alerta-inteligente-de-saida-de-casa)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../relatos-individuais/igor/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://www.figma.com/proto/00YEuKWtN4N1rBzpC8V7Gd/prototipo-de-igor?node-id=0-1&t=S9Z2PNsKlHC3LlTt-1)
+
 
 ---
 
-## 1. D — Determinar os Objetivos da Avaliação
+## 1. D: Determinar os Objetivos da Avaliação
 
-De acordo com Mayhew (1999) e Barbosa et al. (2021, Cap. 6, p. 106; Cap. 11, p. 248), a avaliação do protótipo de alta fidelidade ocorre no Nível 3 do ciclo de vida da engenharia de usabilidade. Seu propósito é validar o design detalhado da interface interativa em um ambiente próximo do produto final antes do desenvolvimento de código executável.
+De acordo com Mayhew (1999 apud BARBOSA et al., 2021) e Barbosa et al. (2021, Cap. 6, p. 106; Cap. 11, p. 248), a avaliação do protótipo de alta fidelidade ocorre no Nível 3 do ciclo de vida da engenharia de usabilidade. Seu propósito é validar o design detalhado da interface interativa em um ambiente próximo do produto final antes do desenvolvimento de código executável.
 
 ### 1.1 Objetivos Principais
 * **Verificar a conformidade com o Guia de Estilo do Grupo 05:** Avaliar se a paleta de cores, tipografia, dimensões dos alvos de toque (mobile-first), padronização dos botões de ação (verbo + ação) e hierarquia de cards do Figma estão alinhados aos padrões de design consolidados pela equipe.
@@ -27,12 +41,12 @@ De acordo com Mayhew (1999) e Barbosa et al. (2021, Cap. 6, p. 106; Cap. 11, p. 
 
 ---
 
-## 2. E — Explorar as Perguntas a Serem Respondidas
+## 2. E: Explorar as Perguntas a Serem Respondidas
 
-Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de perguntas investigativas a serem respondidas por meio da observação direta das interações no Figma e de questionamentos pós-teste (Barbosa et al., 2021; Rubin, 1994):
+Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de perguntas investigativas a serem respondidas por meio da observação direta das interações no Figma e de questionamentos pós-teste (Barbosa et al., 2021):
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Roteiro de Perguntas para Avaliação do Protótipo de Alta Fidelidade</p>
+<p><strong>Tabela 1</strong>: Roteiro de Perguntas para Avaliação do Protótipo de Alta Fidelidade</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta Investigativa da Avaliação | Critério de Aceitação / Resposta Esperada |
@@ -50,27 +64,26 @@ Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de per
 
 ---
 
-## 3. C — Choose (Escolher) os Métodos de Avaliação
+## 3. C: Choose (Escolher) os Métodos de Avaliação
 
-O método escolhido é o **Teste de Usabilidade (Empírico / Observação de Uso em Ambiente Controlado)** utilizando o protótipo de alta fidelidade interativo no **Figma** (Rubin & Chisnell, 2008; Barbosa et al., 2021, Seção 12.2.1).
+O método escolhido é o **Teste de Usabilidade (Empírico / Observação de Uso em Ambiente Controlado)** utilizando o protótipo de alta fidelidade interativo no **Figma** (Barbosa et al., 2021, Seção 12.2.1).
 
 * **Justificativa do Método:** O teste de usabilidade com protótipo de alta fidelidade permite observar comportamentos reais de interação em telas com acabamento visual e funcional próximo ao sistema real. A ferramenta Figma oferece suporte a componentes dinâmicos, transições, overlays e estados ativos, possibilitando medir tempo de tarefa, erros e satisfação do usuário.
 * **Técnica Complementar:** Durante a realização das tarefas, utilizar-se-á a técnica de **Pensar em Voz Alta (*Think Aloud*)**, na qual o participante é estimulado a verbalizar seus raciocínios, dúvidas e expectativas a cada clique.
 
 ---
 
-## 4. I — Identificar e Administrar as Questões Práticas
+## 4. I: Identificar e Administrar as Questões Práticas
 
-### 4.1 Planejamento do Recrutamento dos Entrevistados: Fundamentação e Justificativa na Teoria de Steve Krug
+### 4.1 Planejamento do Recrutamento dos Entrevistados: Fundamentação em Steve Krug e justificativa do número de participantes
 
-O recrutamento dos participantes para esta avaliação de alta fidelidade fundamenta-se estritamente na **teoria de testes de usabilidade simplificados ("Faça Você Mesmo" / *Do-It-Yourself Usability Testing*) de Steve Krug** (Krug, 2000, 2006; Santa-Rosa, 2005, p. 156–157):
+O recrutamento combina as orientações de Barbosa et al. (2021, pp. 258–259) sobre perfil, escopo e recursos com a proposta de testes pequenos e recorrentes de Steve Krug. Krug (2000, cap. 9) recomenda três ou quatro participantes por rodada para que a equipe encontre os principais problemas e possa corrigir o produto antes de uma nova rodada. Assim, três participantes correspondem ao limite inferior dessa recomendação e são compatíveis com o prazo da disciplina:
 
 * **Quantidade de Entrevistados:** Serão recrutados **3 participantes** representantes do público-alvo primário.
-* **Fundamentação Teórica de Steve Krug:** Em suas obras clássicas (*Don't Make Me Think* e *Rocket Surgery Made Easy*), Steve Krug desmistificou a necessidade de amostras populacionais volumosas em avaliações de usabilidade qualitativas e iterativas. Krug (2000, 2006) demonstra empiricamente que:
-  1. **Detecção da Maioria dos Problemas Críticos:** A testagem de **3 a 4 participantes** é suficiente para identificar aproximadamente **80% a 85% dos problemas de usabilidade mais severos** de uma interface em um ciclo de avaliação.
+* **Fundamentação Teórica (Barbosa et al., 2021, pp. 258–259):** o perfil e o número de participantes são escolhidos com base nos perfis de usuários, nos objetivos e no escopo da avaliação. Nielsen (2000 apud BARBOSA et al., 2021) afirma que bastam cinco usuários para encontrar a maioria dos problemas na interface, e o livro observa que o tempo e os recursos disponíveis podem inviabilizar amostras maiores. Com base nisso:
+  1. **Detecção dos problemas mais graves:** a amostra de **3 participantes** busca revelar os problemas de usabilidade mais severos do fluxo avaliado, próxima da referência de cinco usuários de Nielsen (2000 apud BARBOSA et al., 2021).
   2. **Análise Rápida e Acionável no Mesmo Dia:** Trabalhar com 3 participantes reduz o volume excessivo de dados redundantes, permitindo que a equipe de design consolide os resultados e aplique as correções diretamente no Figma no mesmo dia do teste.
-  3. **Relação Custo-Benefício Máxima:** O retorno sobre o investimento cai significativamente a partir do quarto participante em uma mesma rodada de testes, pois os mesmos erros passam a ser repetidos.
-  4. **Princípio Fundamental de Krug:** *"Testar um participante é 100% melhor do que não testar nenhum, e testar três usuários em rodadas iterativas é o ponto ideal para encontrar as falhas principais sem atrasar o cronograma do projeto"* (Krug, 2000; Santa-Rosa, 2005, p. 156).
+  3. **Relação custo-benefício:** Nielsen (2000 apud BARBOSA et al., 2021) associa amostras pequenas a uma boa relação custo–benefício; amostras maiores exigiriam tempo e recursos que o cronograma da disciplina não comporta (Barbosa et al., 2021, p. 259).
 
 * **Perfil dos 3 Participantes Recrutados:**
   * **Alinhamento com a Persona:** Estudantes ou usuários do transporte público coletivo do Distrito Federal que utilizam ônibus linhas interurbanas em suas rotinas diárias, alinhados ao perfil da persona [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/) (jovens/adultos, possuidores de smartphone Android ou iOS com pacote de dados).
@@ -104,7 +117,7 @@ O protótipo interativo de alta fidelidade será disponibilizado via link de rep
 ### 4.5 Cronograma e Logística das Sessões com os 3 Participantes
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Agendamento das Sessões Cultivando a Teoria de Krug</p>
+<p><strong>Tabela 3</strong>: Agendamento das Sessões</p>
 </div>
 
 | Sessão | Participante Recrutado | Perfil do Participante | Data e Horário | Duração Prevista |
@@ -129,7 +142,7 @@ Em cumprimento rigoroso ao **Item 11 do checklist do Plano de Ensino** e às dir
 
 ---
 
-## 5. D — Decidir como Lidar com as Questões Éticas
+## 5. D: Decidir como Lidar com as Questões Éticas
 
 Toda a conduta da pesquisa atende às Resoluções nº 466/2012 e nº 510/2016 do Conselho Nacional de Saúde (CNS) e às diretrizes éticas de IHC (Barbosa et al., 2021, Seção 7.4):
 
@@ -139,13 +152,13 @@ Toda a conduta da pesquisa atende às Resoluções nº 466/2012 e nº 510/2016 d
 
 ---
 
-## 6. E — Avaliar, Interpretar e Apresentar os Dados
+## 6. E: Avaliar, Interpretar e Apresentar os Dados
 
 A análise dos dados combinará abordagens quantitativas e qualitativas (Barbosa et al., 2021, Seção 12.2.1):
 
 1. **Análise Quantitativa:** Contabilização da taxa de sucesso no cumprimento da tarefa sem ajuda, contagem de erros de clique fora da área interativa e medição do tempo gasto em cada tela do Figma.
 2. **Análise Qualitativa e Triangulação:** Mapeamento das falhas de comunicabilidade, hesitações e comentários expressos pelo método *Think Aloud*, correlacionando-os com os princípios do Guia de Estilo.
-3. **Escala de Severidade de Problemas:** Os problemas encontrados nos testes com os 3 participantes serão classificados de acordo com a escala de severidade de Nielsen (1994):
+3. **Escala de Severidade de Problemas:** Os problemas encontrados nos testes com os 3 participantes serão classificados de acordo com a escala de severidade de Nielsen (1994 apud BARBOSA et al., 2021):
    * **0 — Sem importância:** Questão estética pontual.
    * **1 — Leve:** Pequeno atraso sem impedir a conclusão.
    * **2 — Moderado:** Hesitação relevante ou escolha de caminho secundário.
@@ -153,27 +166,135 @@ A análise dos dados combinará abordagens quantitativas e qualitativas (Barbosa
    * **4 — Catastrófico:** Impede a conclusão da tarefa no Figma.
 4. **Encaminhamento para o Relato:** Os resultados fundamentarão o relatório final intitulado *Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade*, indicando as melhorias necessárias no arquivo do Figma do grupo.
 
+
+## 7. Telas do Protótipo Avaliado
+
+As Figuras 1 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel3/relatos-individuais/igor/relato-resultados-prot-alta-fidel.md).
+
+* **Protótipo interativo no Figma:** [Acessar o protótipo no Figma](https://www.figma.com/proto/00YEuKWtN4N1rBzpC8V7Gd/prototipo-de-igor?node-id=0-1&t=S9Z2PNsKlHC3LlTt-1)
+* **Telas do protótipo (PDF):** [Visualizar PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf)
+
+<div id="figura-1" align="center" markdown="1">
+<p><strong>Figura 1</strong>: Alerta de saída imediata, com as opções "Estou saindo!" e "Buscar rota alternativa" (página 1 do PDF das telas)</p>
+
+![Alerta de saída imediata, com as opções 'Estou saindo!' e 'Buscar rota alternativa' (página 1 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-01.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-2" align="center" markdown="1">
+<p><strong>Figura 2</strong>: Mapa do trajeto a pé até a parada (página 2 do PDF das telas)</p>
+
+![Mapa do trajeto a pé até a parada (página 2 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-02.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-3" align="center" markdown="1">
+<p><strong>Figura 3</strong>: Tela inicial com origem, destino, destinos favoritos e linhas favoritas (página 3 do PDF das telas)</p>
+
+![Tela inicial com origem, destino, destinos favoritos e linhas favoritas (página 3 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-03.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-4" align="center" markdown="1">
+<p><strong>Figura 4</strong>: Monitoramento ativo da linha BRT 2202 (TR-21) (página 4 do PDF das telas)</p>
+
+![Monitoramento ativo da linha BRT 2202 (TR-21) (página 4 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-04.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-5" align="center" markdown="1">
+<p><strong>Figura 5</strong>: Rotas alternativas para o destino UnB – Campus Gama (página 5 do PDF das telas)</p>
+
+![Rotas alternativas para o destino UnB – Campus Gama (página 5 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-05.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-6" align="center" markdown="1">
+<p><strong>Figura 6</strong>: Monitoramento ativo da rota 206.1 (página 6 do PDF das telas)</p>
+
+![Monitoramento ativo da rota 206.1 (página 6 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-06.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-7" align="center" markdown="1">
+<p><strong>Figura 7</strong>: Monitoramento ativo da rota 207.3 → 208.1 (página 7 do PDF das telas)</p>
+
+![Monitoramento ativo da rota 207.3 → 208.1 (página 7 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-07.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-8" align="center" markdown="1">
+<p><strong>Figura 8</strong>: Monitoramento ativo da rota 108.2 → 209.1 (página 8 do PDF das telas)</p>
+
+![Monitoramento ativo da rota 108.2 → 209.1 (página 8 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-08.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+<div id="figura-9" align="center" markdown="1">
+<p><strong>Figura 9</strong>: Monitoramento ativo da linha BRT 2202 (TR-21) (página 9 do PDF das telas)</p>
+
+![Monitoramento ativo da linha BRT 2202 (TR-21) (página 9 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-09.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026). Telas extraídas do [PDF das telas do protótipo](../../../../assets/PDFs/Igor_telas_prototipo_alta_fidel.pdf).</em></p>
+</div>
+
+---
 ---
 
-## 7. Declaração sobre o Uso de IA Generativa
+## 8. Fotos de Referência
+As Figuras 10 a 13 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
-Em conformidade com as exigências do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas exclusivamente para auxílio na estruturação sintática das tabelas em Markdown e revisão gramatical do texto. A definição dos objetivos, a justificativa teórica de amostragem fundamentada em Steve Krug, a elaboração das perguntas do roteiro e a logística do estudo permanecem sob total responsabilidade autoral de Igor Dantas Araújo.
+<div id="figura-10" align="center">
+<p><strong>Figura 10</strong>: 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 10: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
+</div>
+
+<div id="figura-11" align="center">
+<p><strong>Figura 11</strong>: Representação de interface em alta fidelidade</p>
+</div>
+
+![Figura 11: Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 210).</em></p>
+</div>
+
+<div id="figura-12" align="center">
+<p><strong>Figura 12</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+</div>
+
+![Figura 12: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
+</div>
+
+<div id="figura-13" align="center">
+<p><strong>Figura 13</strong>: 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+</div>
+
+![Figura 13: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
+</div>
 
 ---
 
-## 8. Referências Bibliográficas
-
+## 9. Referências Bibliográficas
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11, p. 245–266; Capítulo 12, Seção 12.2.1, p. 288–291).
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Regulamenta as pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-* KRUG, Steve. **Don't Make Me Think: A Common Sense Approach to Web Usability**. 1st ed. Berkeley: New Riders, 2000.
-* KRUG, Steve. **Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems**. Berkeley: New Riders, 2006.
-* MAYHEW, Deborah J. **The Usability Engineering Lifecycle: A Practitioner's Handbook for User Interface Design**. San Francisco: Morgan Kaufmann, 1999.
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. São Paulo: Editora Érica, 2005.
-* RUBIN, Jeffrey; CHISNELL, Dana. **Handbook of Usability Testing: How to Plan, Design, and Conduct Effective Tests**. 2nd ed. Indianapolis: Wiley, 2008.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.
-* SANTA-ROSA, José Guilherme. **Avaliação e Projeto no Design de Interfaces: Teste de Usabilidade**. Capítulo 9, p. 144–175, 2005.
-
----
-**Autor:** [Igor Dantas Araújo](https://github.com/IgorDARAUJO)  
-**Revisor:** [Gabriel Cardone](https://github.com/gabriellcardone-06)
+* KRUG, Steve. **Don't Make Me Think! A Common Sense Approach to Web Usability**. Indianapolis: New Riders, 2000. Cap. 9.

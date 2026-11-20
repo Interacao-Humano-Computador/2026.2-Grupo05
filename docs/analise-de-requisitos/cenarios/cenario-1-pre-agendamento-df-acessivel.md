@@ -1,19 +1,32 @@
-# Cenário 1: Pré-agendamento no Programa DF Acessível: do site da Semob à viagem até a fisioterapia
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Elaboração detalhada do Cenário 1 (Larissa Ferreira Lima). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 27/09/2026 | 1.1 | Modularização em artefato próprio com integração às personas e visão geral. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 11/10/2026 | 2.0 | Reescrita do cenário para a nova versão da persona Larissa (mobilidade reduzida temporária), aplicando a tarefa TAR-02 (pré-agendamento no DF Acessível). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 11/10/2026 | 2.1 | Renomeação do arquivo do cenário para cenario-1-pre-agendamento-df-acessivel. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 26/09/2026 | `1.0` | Elaboração detalhada do Cenário 1 (Larissa Ferreira Lima). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.1` | Modularização em artefato próprio com integração às personas e visão geral. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 11/10/2026 | `2.0` | Reescrita do cenário para a nova versão da persona Larissa (mobilidade reduzida temporária), aplicando a tarefa TAR-02 (pré-agendamento no DF Acessível). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 11/10/2026 | `2.1` | Renomeação do arquivo do cenário para cenario-1-pre-agendamento-df-acessivel. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
+
+# Cenário 1: Pré-agendamento no Programa DF Acessível: do site da Semob à viagem até a fisioterapia
 
 ## 1. Introdução
 
 Este cenário de concepção descreve Larissa Ferreira Lima realizando o pré-agendamento no Programa DF Acessível com a **nova funcionalidade proposta** para o site da Semob, para conseguir transporte adaptado até a fisioterapia depois de uma fratura. Atualmente, o site da Semob não oferece esse serviço. A situação foi construída a partir da Análise de Tarefas da [TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md) para mostrar como um atalho na página inicial, explicações claras sobre o serviço, um fluxo de três etapas (postos, dia e documentos) e um comprovante imediato permitem que uma pessoa com mobilidade reduzida garanta o transporte de que precisa, contribuindo para a especificação de requisitos de IHC.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-02 (Pré-agendamento no Programa DF Acessível):**
+
+* **Persona:** [Larissa Ferreira Lima](../personas/larissa-ferreira-lima.md)
+* **Cenário:** Cenário 1 (*esta página*)
+* **Análise de tarefas:** [TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md)
+* **Storyboard:** [Storyboard 02](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#32-storyboard-02-pre-agendamento-no-programa-df-acessivel)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível*
+
 
 ## 2. Caracterização Geral
 
@@ -21,7 +34,7 @@ Este cenário de concepção descreve Larissa Ferreira Lima realizando o pré-ag
 
 - **Persona:** [Larissa Ferreira Lima](../personas/larissa-ferreira-lima.md) (persona primária)
 - **Tipo:** Cenário de concepção (projetado) — situação futura, com a funcionalidade proposta implantada no site da Semob
-- **Tarefa coberta:** [TAR-02 — Pré-agendamento no Programa DF Acessível](../analise-de-tarefas/tar-02-df-acessivel.md) (HTA e CTT)
+- **Tarefa coberta:** [TAR-02: Pré-agendamento no Programa DF Acessível](../analise-de-tarefas/tar-02-df-acessivel.md) (HTA e CTT)
 
 **Resumo:** numa segunda-feira à noite, em casa, Larissa precisa garantir transporte adaptado para a fisioterapia. Ela abre o site da Semob e encontra, logo na página inicial, o atalho "Agendar DF Acessível". O pré-agendamento tem três etapas: Larissa escolhe o posto de embarque mais próximo de casa e o de desembarque mais próximo da clínica, escolhe o dia depois de conferir a agenda com a mãe e envia, pelo celular, o laudo e o comprovante de residência. Em seguida, recebe o comprovante por e-mail e WhatsApp.
 
@@ -42,7 +55,7 @@ Este cenário de concepção descreve Larissa Ferreira Lima realizando o pré-ag
 
 A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis influenciam o desenvolvimento da situação descrita.
 
-**Tabela 1** — Atores envolvidos no Cenário 1
+**Tabela 1**: Atores envolvidos no Cenário 1
 
 | Ator | Papel no cenário | Características pessoais relevantes |
 |---|---|---|
@@ -73,7 +86,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 **Plano geral de Larissa:** (1) encontrar o agendamento do DF Acessível no site da Semob; (2) escolher onde embarcar e onde desembarcar; (3) escolher o dia; (4) enviar os documentos e conferir se o pré-agendamento ficou registrado.
 
-### Passo 1 — Abrir o site da Semob e encontrar o atalho (21h40) — Storyboard, quadros 1 e 2
+### Passo 1: Abrir o site da Semob e encontrar o atalho (21h40): Storyboard, quadros 1 e 2
 
 - **Planejamento:** *"Preciso marcar o transporte da fisioterapia. Deve ter algo no site da Semob."* Como não sabe o endereço de cabeça, decide chegar pelo Google.
 - **Ação:** abre o navegador, pesquisa "semob transporte cadeirante agendar" e toca no resultado do site da Semob.
@@ -82,7 +95,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 - **Evento:** sem sair do site da Semob, abre a página do serviço. Em uma frase, ela explica que o pré-agendamento reserva a viagem em transporte adaptado, com embarque em um posto perto de casa e desembarque em um posto perto do compromisso, informa que deficiência temporária ou permanente dá direito e mostra as três etapas: postos, dia e documentos **[P]**.
 - **Avaliação:** *"É isso! E eu tenho direito. São só três passos."*
 
-### Passo 2 — Etapa 1: escolher os postos — Storyboard, quadro 3
+### Passo 2: Etapa 1: escolher os postos: Storyboard, quadro 3
 
 - **Planejamento:** embarcar no posto mais perto de casa, para a mãe conseguir levá-la até lá, e desembarcar perto da clínica.
 - **Evento:** o site mostra a lista de postos de embarque no formato de mapa, cada um com endereço, distância e recursos de acessibilidade (rampa, área coberta, vaga para o veículo adaptado) **[P]** (HTA 1.1; CTT 1.1).
@@ -91,7 +104,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 - **Ação:** toca no posto de Taguatinga Centro, o mais próximo da clínica **[P]** (HTA 1.2; CTT 1.4).
 - **Avaliação:** *"Ceilândia é perto de casa e o de Taguatinga fica a uma quadra da clínica."*
 
-### Passo 3 — Etapa 2: escolher o dia — Storyboard, quadro 4
+### Passo 3: Etapa 2: escolher o dia: Storyboard, quadro 4
 
 - **Planejamento:** escolher um dia de fisioterapia em que a mãe possa levá-la até o posto.
 - **Evento:** o site mostra o calendário de novembro, com os dias grandes o suficiente para o toque com uma mão **[P]** (HTA 2; CTT 2.1).
@@ -101,7 +114,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 - **Evento:** o dia fica em destaque, e a data escolhida aparece por extenso **[P]**.
 - **Avaliação:** *"Sexta é dia de fisioterapia, e a minha mãe está de folga."*
 
-### Passo 4 — Etapa 3: enviar os documentos e concluir
+### Passo 4: Etapa 3: enviar os documentos e concluir
 
 - **Planejamento:** mandar os pdfs que estão nos arquivos do celular, sem precisar ir a lugar nenhum.
 - **Evento:** o site mostra dois campos, "Laudo do profissional de saúde" e "Comprovante de residência", cada um com o botão "Enviar arquivo" **[P]** (HTA 3).
@@ -111,7 +124,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 - **Evento:** o site mostra uma mensagem de sucesso com o número de protocolo e o resumo (postos, endereços e dia) e informa que o comprovante foi enviado por e-mail e WhatsApp **[P]** (CTT 3.4).
 - **Avaliação:** *"Tem até o número do protocolo. Agora sim."*
 
-### Passo 5 — Receber o comprovante — Storyboard, quadro 5
+### Passo 5: Receber o comprovante: Storyboard, quadro 5
 
 - **Planejamento:** guardar o comprovante e avisar a mãe da data.
 - **Evento:** em poucos segundos, chegam o e-mail e a mensagem no WhatsApp, com o protocolo, os postos de embarque e de desembarque, os endereços e o dia **[P]** (CTT 3.5).
@@ -124,7 +137,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 A Tabela 2 relaciona as necessidades da persona aos elementos da funcionalidade proposta que as atendem, aos momentos do cenário em que aparecem e aos nós correspondentes da TAR-02.
 
-**Tabela 2** — Necessidades da persona atendidas pela funcionalidade proposta no Cenário 1
+**Tabela 2**: Necessidades da persona atendidas pela funcionalidade proposta no Cenário 1
 
 | Necessidade da persona | Como a proposta atende | Onde aparece | Nós da TAR-02 |
 |---|---|---|---|
@@ -141,6 +154,32 @@ A Tabela 2 relaciona as necessidades da persona aos elementos da funcionalidade 
 
 ---
 
-## 8. Referências Bibliográficas
+## 8. Fotos de Referência
+
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Cenários: definição, ator e objetivo principais</p>
+</div>
+
+![Figura 1: Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Elementos característicos de um cenário e uso de personas como atores</p>
+</div>
+
+![Figura 2: Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
+</div>
+
+---
+
+## 9. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

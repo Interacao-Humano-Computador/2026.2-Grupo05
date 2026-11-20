@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 15/11/2026 | `1.0` | Consolidação e relato dos resultados da avaliação de usabilidade do Protótipo de Alta Fidelidade (TAR-08) com 3 participantes. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - Utilizada para apoio na estruturação das tabelas em Markdown e transcrição/revisão sintática dos dados empíricos. |
+
 
 ---
 
@@ -10,7 +11,20 @@
 
 Neste documento, apresenta-se o **Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-08 (Registro de Reclamação sobre Ônibus a partir do Site da Semob)](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)** da **SEMOB-DF**. O relatório consolida as evidências empíricas coletadas a partir dos testes de usabilidade e entrevistas pós-teste conduzidos com **três participantes** no protótipo interativo desenvolvido no **Figma**.
 
-A condução e a interpretação dos resultados seguem o [Planejamento da Avaliação](../../planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) e o [Planejamento do Relato](../../planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md), fundamentando-se nas diretrizes metodológicas de Interação Humano-Computador (Barbosa et al., 2021, Cap. 11 e 12) e na teoria de testes de usabilidade de **Steve Krug** (2000, 2006).
+A condução e a interpretação dos resultados seguem o [Planejamento da Avaliação](../../planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) e o [Planejamento do Relato](../../planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md), fundamentando-se nas diretrizes metodológicas de Interação Humano-Computador (Barbosa et al., 2021, Cap. 11 e 12).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-08 (Reclamação sobre Ônibus):**
+
+* **Persona:** [Cláudia Regina Santos](../../../../analise-de-requisitos/personas/claudia-regina-santos.md)
+* **Cenário:** [Cenário 11](../../../../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
+* **Análise de tarefas:** [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
+* **Storyboard:** [Storyboard 06](../../../nivel1/storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · Relato dos resultados (*esta página*)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível*
+
 
 ---
 
@@ -33,43 +47,43 @@ O fluxo implementado no Figma é conduzido por um assistente em **4 etapas** (Ch
 ### 1.1 Telas do Protótipo
 
 <div align="center">
-<p><strong>Figura 1</strong> — Tela inicial da Ouvidoria da SEMOB-DF</p>
+<p><strong>Figura 1</strong>: Tela inicial da Ouvidoria da SEMOB-DF</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-1.png" alt="Tela inicial da Ouvidoria da SEMOB-DF" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Figura 2</strong> — Etapa 1 — Checklist “Antes de começar, tenha em mãos”</p>
+<p><strong>Figura 2</strong>: Etapa 1 — Checklist “Antes de começar, tenha em mãos”</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-2.png" alt="Etapa 1 — Checklist “Antes de começar, tenha em mãos”" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Figura 3</strong> — Etapa 2 — Seleção do motivo da reclamação</p>
+<p><strong>Figura 3</strong>: Etapa 2 — Seleção do motivo da reclamação</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-3.png" alt="Etapa 2 — Seleção do motivo da reclamação" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Figura 4</strong> — Etapa 3 — Preenchimento dos dados da ocorrência</p>
+<p><strong>Figura 4</strong>: Etapa 3 — Preenchimento dos dados da ocorrência</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-4.png" alt="Etapa 3 — Preenchimento dos dados da ocorrência" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Figura 5</strong> — Etapa 4 — Resumo pronto para cópia</p>
+<p><strong>Figura 5</strong>: Etapa 4 — Resumo pronto para cópia</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-5.png" alt="Etapa 4 — Resumo pronto para cópia" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Figura 6</strong> — Registro do relato no Participa-DF</p>
+<p><strong>Figura 6</strong>: Registro do relato no Participa-DF</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-6.png" alt="Registro do relato no Participa-DF" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Figura 7</strong> — Tela de sucesso com o protocolo gerado</p>
+<p><strong>Figura 7</strong>: Tela de sucesso com o protocolo gerado</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-7.png" alt="Tela de sucesso com o protocolo gerado" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
@@ -99,7 +113,7 @@ Conforme definido na etapa **D — Determinar os Objetivos** do [Planejamento da
 ### 2.3 Perguntas da Avaliação (Framework DECIDE)
 
 <div align="center">
-<p><strong>Quadro 1</strong> — Perguntas Investigativas da Avaliação</p>
+<p><strong>Quadro 1</strong>: Perguntas Investigativas da Avaliação</p>
 </div>
 
 | ID | Foco | Pergunta Investigativa |
@@ -139,10 +153,10 @@ Em conformidade com os princípios éticos em pesquisas envolvendo seres humanos
 
 A avaliação adotou o método de **Teste de Usabilidade (Observação de Uso em Ambiente Controlado)** apoiado pela técnica de **Pensar em Voz Alta (*Think Aloud*)** e finalizado com uma entrevista semiestruturada pós-teste com as perguntas Q01 a Q06. O facilitador apresentou o cenário, relembrou o TCLE e explicou as limitações do protótipo; em seguida, o participante executou a tarefa verbalizando seu raciocínio.
 
-A amostragem foi dimensionada em **três participantes**, apoiando-se na teoria de testes de usabilidade simplificados de **Steve Krug** (2000, 2006; Santa-Rosa, 2005), segundo a qual três a quatro usuários são suficientes para identificar a maioria dos problemas críticos de usabilidade de um produto interativo.
+A amostragem foi dimensionada em **três participantes**, conforme o planejamento da avaliação, com base nas orientações de Barbosa et al. (2021, pp. 258–259) sobre o perfil e o número de participantes e na referência de Nielsen (2000 apud BARBOSA et al., 2021), segundo a qual poucos usuários bastam para encontrar a maioria dos problemas na interface.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Caracterização dos Participantes Recrutados</p>
+<p><strong>Tabela 1</strong>: Caracterização dos Participantes Recrutados</p>
 </div>
 
 | Participante | Perfil Demográfico / Ocupação | Relação com o Transporte Público no DF | Duração da Sessão | Data da Sessão |
@@ -164,7 +178,7 @@ A amostragem foi dimensionada em **três participantes**, apoiando-se na teoria 
 Os três participantes concluíram o fluxo completo da reclamação, do card inicial até a tela de sucesso com o protocolo, sem desistências. Os tempos foram medidos a partir das gravações, do primeiro clique no protótipo até a tela de registro realizado com sucesso.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Desempenho Quantitativo nas Tarefas da TAR-08 no Figma</p>
+<p><strong>Tabela 2</strong>: Desempenho Quantitativo nas Tarefas da TAR-08 no Figma</p>
 </div>
 
 | ID Tarefa | Descrição da Tarefa no Figma | Sucesso sem Ajuda (P1, P2, P3) | Taxa de Conclusão sem Ajuda | Intervenções do Facilitador |
@@ -180,7 +194,7 @@ Os três participantes concluíram o fluxo completo da reclamação, do card ini
 </div>
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Tempo Total de Execução da Tarefa</p>
+<p><strong>Tabela 3</strong>: Tempo Total de Execução da Tarefa</p>
 </div>
 
 | Participante | Início da Tarefa (gravação) | Tela de Sucesso (gravação) | Tempo Total Aproximado |
@@ -204,7 +218,7 @@ Os três participantes concluíram o fluxo completo da reclamação, do card ini
 ### 5.2 Consolidação Qualitativa das Respostas da Entrevista Pós-Teste (DECIDE)
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Síntese das Respostas da Entrevista Pós-Teste por Participante</p>
+<p><strong>Tabela 4</strong>: Síntese das Respostas da Entrevista Pós-Teste por Participante</p>
 </div>
 
 | ID | Pergunta Aplicada | Entrevistado 1 | Entrevistado 2 | Entrevistado 3 | Avaliação da Interface |
@@ -226,10 +240,10 @@ Ao serem perguntados, no início da entrevista, se haviam notado algum problema,
 
 ## 6. Tabela de Registro e Priorização de Problemas de IHC
 
-A análise das interações e dos comentários dos entrevistados permitiu identificar três pontos de refinamento, classificados segundo a escala de severidade de Nielsen (1994) e Barbosa et al. (2021):
+A análise das interações e dos comentários dos entrevistados permitiu identificar três pontos de refinamento, classificados segundo a escala de severidade de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021):
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Registro, Classificação e Priorização de Problemas de Usabilidade</p>
+<p><strong>Tabela 5</strong>: Registro, Classificação e Priorização de Problemas de Usabilidade</p>
 </div>
 
 | ID Problema | Descrição do Problema Observado | Tela / Componente Afetado | Severidade (0 a 4) | Fatores de Usabilidade Prejudicados | Recomendação de Reprojeto no Figma |
@@ -247,7 +261,7 @@ A análise das interações e dos comentários dos entrevistados permitiu identi
 ## 7. Avaliação de Conformidade com o Guia de Estilo do Grupo 05
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Conformidade das Telas do Figma com o Guia de Estilo</p>
+<p><strong>Tabela 6</strong>: Conformidade das Telas do Figma com o Guia de Estilo</p>
 </div>
 
 | Diretriz do Guia de Estilo | Padrão Esperado no Figma | Resultado nos Testes com os 3 Usuários | Situação |
@@ -281,21 +295,43 @@ O principal achado foi a divergência sobre a opcionalidade do número do ônibu
 
 ---
 
-## 10. Declaração sobre o Uso de IA Generativa
+## 10. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas unicamente para auxílio na transcrição das gravações, na estruturação das tabelas em Markdown e na revisão gramatical do texto. A aplicação dos testes de usabilidade com os 3 participantes, a conferência das transcrições e a compilação crítica dos resultados são de inteira responsabilidade autoral de Rodrigo Barbosa.
+As Figuras 8 a 10 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-8" align="center">
+<p><strong>Figura 8</strong>: Representação de interface em alta fidelidade</p>
+</div>
+
+![Figura 8: Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 210).</em></p>
+</div>
+
+<div id="figura-9" align="center">
+<p><strong>Figura 9</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+</div>
+
+![Figura 9: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
+</div>
+
+<div id="figura-10" align="center">
+<p><strong>Figura 10</strong>: 11.7.5 Consolidação e relato dos resultados</p>
+</div>
+
+![Figura 10: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
+</div>
 
 ---
 
 ## 11. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11, p. 245–266; Capítulo 12, p. 288–291).
-* KRUG, Steve. **Don't Make Me Think: A Common Sense Approach to Web Usability**. Berkeley: New Riders, 2000.
-* KRUG, Steve. **Rocket Surgery Made Easy: The Do-It-Yourself Guide to Finding and Fixing Usability Problems**. Berkeley: New Riders, 2006.
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-* SANTA-ROSA, José Guilherme. **Avaliação e Projeto no Design de Interfaces: Teste de Usabilidade**. Rio de Janeiro, 2005.
-
----
-**Autor:** [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa)  
-**Revisor:** [Carlos Costa](https://github.com/carloshfgit)

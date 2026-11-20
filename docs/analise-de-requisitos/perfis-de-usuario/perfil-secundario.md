@@ -1,12 +1,12 @@
-# Perfil de Usuário: Desenvolvedor/Técnico (Usuário Secundário)
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista e padronização de artefato | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 27/09/2026 | `1.0` | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista e padronização de artefato | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
 
 ---
+
+# Perfil de Usuário: Desenvolvedor/Técnico (Usuário Secundário)
 
 ## 1. Caracterização Geral
 
@@ -21,7 +21,7 @@ Na sua rotina, o Desenvolvedor/Técnico passa cerca de 80% do seu tempo a utiliz
 A Tabela 1 reúne as características demográficas, profissionais e tecnológicas utilizadas para caracterizar o perfil secundário e fundamentar suas necessidades de interação.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Dados Demográficos, Relação com Tecnologia e Conhecimento de Domínio do Utilizador Desenvolvedor/Técnico</p>
+<p><strong>Tabela 1</strong>: Dados Demográficos, Relação com Tecnologia e Conhecimento de Domínio do Utilizador Desenvolvedor/Técnico</p>
 </div>
 
 | Característica | Faixa/categoria predominante no perfil secundário |
@@ -79,6 +79,42 @@ Para a elaboração deste perfil, foram articuladas as seguintes fontes de dados
 
 ---
 
-## 6. Referências Bibliográficas
+## 6. Fotos de Referência
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 5: Identificação de Necessidades dos Usuários e Requisitos de IHC (pp. 134–158).
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Perfil de usuário: definição e grupos de atributos</p>
+</div>
+
+![Figura 1: Perfil de usuário: definição e grupos de atributos](../../assets/prints_referencias/verificacao-v2/livro-perfil.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 151–152).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Tipos de dados coletados sobre os usuários (Barbosa et al., 2021)</p>
+</div>
+
+![Figura 2: Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)](../../assets/prints_referencias/verificacao-v2/livro-que-dados-coletar.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 123–124).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: Usuários primários, secundários e stakeholders</p>
+</div>
+
+![Figura 3: Usuários primários, secundários e stakeholders](../../assets/prints_referencias/verificacao-v2/livro-de-quem-coletar.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 124).</em></p>
+</div>
+
+---
+
+## 7. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

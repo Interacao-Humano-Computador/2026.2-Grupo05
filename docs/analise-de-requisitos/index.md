@@ -1,12 +1,14 @@
-# Análise de Requisitos
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :--- :--- | :--- | :--- | :--- |
-| 21/09/2026 | 1.0 | Estruturação inicial da página de introdução à Análise de Requisitos e mapeamento de artefatos. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| 27/09/2026 | 1.1 | Estruturação final da página de introdução. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
-| 27/09/2026 | 1.2 | Atualização dos links após a modularização de Personas, Cenários e Análise de Tarefas. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 21/09/2026 | `1.0` | Estruturação inicial da página de introdução à Análise de Requisitos e mapeamento de artefatos. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.1` | Estruturação final da página de introdução. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.2` | Atualização dos links após a modularização de Personas, Cenários e Análise de Tarefas. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+
+---
+
+# Análise de Requisitos
 
 ## 1. Visão Geral
 
@@ -31,10 +33,33 @@ Abaixo estão dispostos os artefatos desenvolvidos no âmbito da Análise de Req
 
 ---
 
-## 3. Referências Bibliográficas
+## 3. Fotos de Referência
 
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
-## 4. Bibliografia de Apoio
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Técnicas para coletar dados e levantar requisitos dos usuários</p>
+</div>
 
-- SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+![Figura 1: Técnicas para coletar dados e levantar requisitos dos usuários](../assets/prints_referencias/verificacao-v2/livro-tecnicas-coleta.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 129).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Tipos de dados coletados sobre os usuários (Barbosa et al., 2021)</p>
+</div>
+
+![Figura 2: Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)](../assets/prints_referencias/verificacao-v2/livro-que-dados-coletar.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 123–124).</em></p>
+</div>
+
+---
+
+## 4. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

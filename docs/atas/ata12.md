@@ -1,3 +1,11 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 13/11/2026 | `1.0` | Elaboração da ata da Reunião 12 referente à execução do Teste Piloto presencial do Protótipo de Alta Fidelidade na FCTE/UnB. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: utilizado apenas para formatação em Markdown |
+
+---
+
 # Ata de reunião 12 (Teste Piloto do Protótipo de Alta Fidelidade) - Interação Humano-Computador - Grupo 05
 
 - **Data:** 12/11/2026 (Quinta-feira)
@@ -7,14 +15,6 @@
 - **Redator da Ata:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)
 - **Revisor da Ata:** [Arthur Mariani de Andrade da Cruz](https://github.com/arthur-mariani)
 - **Ausentes:** Nenhum.
-
-## Histórico de Versão e Contribuição
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
-| :---: | :---: | :--- | :--- | :--- | :---: |
-| 13/11/2026 | `1.0` | Elaboração da ata da Reunião 12 referente à execução do Teste Piloto presencial do Protótipo de Alta Fidelidade na FCTE/UnB. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para formatação em Markdown |
-
----
 
 ## 1. Participantes presentes:
 
@@ -32,7 +32,7 @@ Todos os integrantes do Grupo 05 estiveram presentes na FCTE/UnB:
 
 ## 2. Discussão e Execução da Simulação:
 
-A sessão presencial foi conduzida em ambiente controlado na FCTE/UnB em conformidade com as práticas de Teste de Usabilidade e Teste-Piloto (Barbosa & Silva, 2010):
+A sessão presencial foi conduzida em ambiente controlado na FCTE/UnB em conformidade com as práticas de Teste de Usabilidade e Teste-Piloto (Barbosa et al., 2021):
 
 1. **Papéis Desempenhados:**
    - **Avaliador / Entrevistador:** [Rodrigo Carvalho Barbosa](https://github.com/RodrigoCBarbosa) apresentou o Termo de Consentimento Livre e Esclarecido (TCLE), orientou o participante quanto ao uso da técnica *Think Aloud* e conduziu a interação prática e a entrevista semiestruturada pós-teste.
@@ -57,7 +57,7 @@ A sessão presencial foi conduzida em ambiente controlado na FCTE/UnB em conform
 
 - **Qualidade do Ambiente e Captação Audiovisual:** O ambiente controlado proporcionou áudio limpo e boa legibilidade da interação, assegurando condições adequadas para a condução e registro das sessões definitivas.
 - **Validação do Roteiro e do Protocolo *Think Aloud*:** A combinação da verbalização contínua durante o uso com perguntas diretas ao término da tarefa mostrou-se ágil e eficiente, validando o roteiro da equipe para a Etapa 7.
-- **Declaração Formal de Descarte dos Dados (Barbosa & Silva, 2010, p. 307):** Reitera-se expressamente que todos os registros, respostas e tempos gerados durante este Teste Piloto possuem caráter exclusivamente preparatório para calibração do roteiro e dos equipamentos, sendo **integralmente descartados** das métricas e contagens finais dos relatos de resultados com usuários externos.
+- **Declaração Formal de Descarte dos Dados (Barbosa et al., 2021, p. 260):** Reitera-se expressamente que todos os registros, respostas e tempos gerados durante este Teste Piloto possuem caráter exclusivamente preparatório para calibração do roteiro e dos equipamentos, sendo **integralmente descartados** das métricas e contagens finais dos relatos de resultados com usuários externos.
 
 ---
 
@@ -81,14 +81,33 @@ O registro audiovisual do Teste Piloto do Protótipo de Alta Fidelidade está di
 
 ---
 
-## 6. Declaração sobre o Uso de IA Generativa
+## 6. Fotos de Referência
 
-Em cumprimento às diretrizes do Plano de Ensino da disciplina (SALES, 2026) e ao Código de Conduta da SBC, declara-se que a ferramenta Google Gemini foi utilizada exclusivamente para apoio na formatação em Markdown e estruturação formal deste documento. Toda a condução presencial do teste piloto, o registro audiovisual e a validação do conteúdo foram realizados pelos membros do Grupo 05.
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+</div>
+
+![Figura 2: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
+</div>
 
 ---
 
 ## 7. Referências Bibliográficas
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. ISBN 978-85-352-1120-7. (Capítulo 9, Seção 9.7.2, p. 299 e p. 307: *Teste-Piloto*; Capítulo 10, Seção 10.2.1, p. 341–348: *Teste de Usabilidade*).
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-

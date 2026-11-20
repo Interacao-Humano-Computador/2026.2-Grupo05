@@ -1,13 +1,13 @@
-# Seleção do Sistema para Avaliação de IHC
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 05/09/2026 | 1.0 | Seleção do sistema para avaliação. | Rodrigo Carvalho | Carlos Henrique |
-| 24/09/2026 | 1.1 | Revisão e organização do artefato pós feedback. | Rodrigo Carvalho | Arthur Mariani |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/09/2026 | `1.0` | Seleção do sistema para avaliação. | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Carlos Henrique](https://github.com/carloshfgit) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 24/09/2026 | `1.1` | Revisão e organização do artefato pós feedback. | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
 ---
+
+# Seleção do Sistema para Avaliação de IHC
 
 ## 1. Introdução
 
@@ -57,10 +57,35 @@ A Tabela 2 sumariza a avaliação comparativa de cada portal inspecionado a part
 
 Em síntese, se concluiu que o portal da SEMOB-DF foi selecionado por ser o único a atender a todos os critérios estratégicos e metodológicos de forma satisfatória. Os demais sistemas avaliados foram descartados por esbarrarem em limitações específicas: o DETRAN-DF apresentou restrições no acesso aberto e irrestrito (C3); a Plataforma Lattes não ofereceu volume de material e complexidade de fluxos suficientes para a equipe (C1 e C4); e o Meu INSS demonstrou barreiras impeditivas tanto no acesso ao público-alvo quanto na exigência de autenticação (C2 e C3). Por fim, o portal do IPTU de São Paulo e o da Prefeitura de Angical-BA foram invalidados sumariamente pela inviabilidade logística de contato com seus respectivos usuários finais (C2) e pela insuficiência estrutural de fluxos para análise (C1).
 
-## 4. Declaração sobre o Uso de IA Generativa
+---
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+## 4. Fotos de Referência
 
-## 5. Bibliografia de Apoio
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
 
--   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Limitações dos arquivos de log e análise competitiva</p>
+</div>
+
+![Figura 1: Limitações dos arquivos de log e análise competitiva](../assets/prints_referencias/verificacao-v2/livro-log-competitiva.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 125).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Itens do Planejamento Geral do projeto (Entrega 1)</p>
+</div>
+
+![Figura 2: Itens do Planejamento Geral do projeto (Entrega 1)](../assets/prints_referencias/verificacao-v2/plano-entrega1-planejamento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8).</em></p>
+</div>
+
+---
+
+## 5. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

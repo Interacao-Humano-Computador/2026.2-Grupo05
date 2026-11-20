@@ -1,13 +1,15 @@
-# Lista de Verificação - Entrega 3 (Princípios Gerais de IHC, Metas de Usabilidade e Guia de Estilo)
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 06/10/2026 | 1.0 | Elaboração dos itens da lista de verificação para os Princípios Gerais de IHC, as Metas de Usabilidade e o Guia de Estilo, com fundamentações teóricas e links para as referências visuais no padrão ABNT. | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) e [Carlos Costa](https://github.com/carloshfgit) |
-
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 06/10/2026 | `1.0` | Elaboração dos itens da lista de verificação para os Princípios Gerais de IHC, as Metas de Usabilidade e o Guia de Estilo, com fundamentações teóricas e links para as referências visuais no padrão ABNT. | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) e [Carlos Costa](https://github.com/carloshfgit) | Google Gemini: no apoio à estruturação e formatação em Markdown deste artefato |
 
 ---
+
+# Lista de Verificação - Entrega 3 (Princípios Gerais de IHC, Metas de Usabilidade e Guia de Estilo)
+
+!!! warning "Versão anterior (1.0) — mantida para rastreabilidade"
+    Esta página é a versão 1.0 da lista e foi mantida sem alterações de conteúdo. A versão atual está em [v2/verif3.md](v2/verif3.md). Os itens 1–39 desta página têm o mesmo número, com prefixo G, na v2.0. O [índice das listas de verificação](index.md) mostra onde está cada versão e o que mudou.
 
 ## 1. Orientações
 
@@ -22,12 +24,12 @@ Para cada pergunta, o avaliador deve assinalar uma das opções:
 
 ---
 
-## 2. Perguntas de Verificação
+## 2. Perguntas de verificação
 
 A Tabela 01 sintetiza as questões formuladas, os princípios de IHC contemplados, a autoria responsável e os links diretos para as respectivas figuras de referência bibliográfica.
 
 <div align="center">
-<p><strong>Tabela 01</strong> — Itens de verificação de IHC para Princípios Gerais, Guia de Estilo e Metas de Usabilidade (Etapa 3)</p>
+<p><strong>Tabela 01</strong>: Itens de verificação de IHC para Princípios Gerais, Guia de Estilo e Metas de Usabilidade (Etapa 3)</p>
 </div>
 
 | Nº | Pergunta de verificação | Princípio de IHC | Conforme | Não conforme | Não se aplica | Autor |
@@ -73,7 +75,7 @@ A Tabela 01 sintetiza as questões formuladas, os princípios de IHC contemplado
 | 39 | O documento explica como os resultados dos testes serão comparados com as metas estabelecidas, considerando medidas como quantidade de participantes que alcançaram o resultado esperado, tempo médio, porcentagens, erros, consultas à ajuda e satisfação dos usuários? | Metas de Usabilidade - Verificação dos Resultados | ☐ | ☐ | ☐ | [Arthur Mariani](https://github.com/arthur-mariani) |
 
 <div align="center">
-<p><em>Fonte: Carlos Costa, Lucas Araújo, Gabriel Melo, Igor Dantas, Rodrigo Carvalho e Arthur Mariani (2026), adaptado de Barbosa e Silva (2010) e Barbosa et al. (2021).</em></p>
+<p><em>Fonte: Carlos Costa, Lucas Araújo, Gabriel Melo, Igor Dantas, Rodrigo Carvalho e Arthur Mariani (2026), adaptado de Barbosa et al. (2021) e Barbosa et al. (2021).</em></p>
 </div>
 
 ---
@@ -85,7 +87,7 @@ Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina
 ---
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Trecho da obra abordando a simplificação da estrutura das tarefas e apoios mentais (Norman, 1988)</p>
+<p><strong>Figura 1</strong>: Trecho da obra abordando a simplificação da estrutura das tarefas e apoios mentais (Barbosa et al., 2021)</p>
 </div>
 
 ![Trecho de referência do Item 1 - Redução de planejamento e apoios mentais](../assets/prints_referencias/verificacao-simplicidade-01.png)
@@ -97,7 +99,7 @@ Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina
 ---
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Trecho da obra abordando abordagens tecnológicas e o alerta quanto ao excesso de automação (Norman, 1988)</p>
+<p><strong>Figura 2</strong>: Trecho da obra abordando abordagens tecnológicas e o alerta quanto ao excesso de automação (Barbosa et al., 2021)</p>
 </div>
 
 ![Trecho de referência do Item 2 - Automação equilibrada](../assets/prints_referencias/verificacao-simplicidade-02.png)
@@ -109,7 +111,7 @@ Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina
 ---
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Trecho da obra abordando soberania do usuário e caminhos alternativos de interação (Tognazzini, 2014)</p>
+<p><strong>Figura 3</strong>: Trecho da obra abordando soberania do usuário e caminhos alternativos de interação (Barbosa et al., 2021)</p>
 </div>
 
 ![Trecho de referência do Item 3 - Caminhos alternativos e flexibilidade](../assets/prints_referencias/verificacao-controle-03.png)
@@ -121,7 +123,7 @@ Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina
 ---
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — Trecho da obra abordando saídas de emergência e rotas claras de abandono de estados indesejados (Nielsen, 1994; Tognazzini, 2014)</p>
+<p><strong>Figura 4</strong>: Trecho da obra abordando saídas de emergência e rotas claras de abandono de estados indesejados (Barbosa et al., 2021)</p>
 </div>
 
 ![Trecho de referência do Item 4 - Saídas de emergência](../assets/prints_referencias/verificacao-controle-04.png)
@@ -133,7 +135,7 @@ Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina
 ---
 
 <div id="figura-5" align="center">
-<p><strong>Figura 5</strong> — Trecho da obra abordando reversibilidade de ações, redução do medo do erro e controle de diálogos de confirmação (Shneiderman, 1998; Cooper, 1999)</p>
+<p><strong>Figura 5</strong>: Trecho da obra abordando reversibilidade de ações, redução do medo do erro e controle de diálogos de confirmação (Barbosa et al., 2021)</p>
 </div>
 
 ![Trecho de referência do Item 5 - Reversibilidade de ações e diálogos de confirmação](../assets/prints_referencias/verificacao-controle-05.png)
@@ -144,19 +146,7 @@ Abaixo encontram-se as imagens dos recortes da obra de referência da disciplina
 
 ---
 
-## 4. Declaração sobre o Uso de IA Generativa
+## 4. Referências Bibliográficas
 
-Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação (SBC) e as diretrizes do Plano de Ensino da disciplina, declara-se que o assistente de inteligência artificial generativa *Gemini* foi empregado no apoio à estruturação e formatação em Markdown deste artefato. A formulação dos critérios e a fundamentação teórica permaneceram sob autoria e responsabilidade dos integrantes do grupo.
-
----
-
-## 5. Referências Bibliográficas
-
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier, 2010.
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Cap. 10: Princípios e Diretrizes para o Design de IHC, pp. 239–241.
-- COOPER, Alan. **The Inmates Are Running the Asylum**. Indianapolis: Sams Publishing, 1999.
-- NIELSEN, Jakob. **Heuristic Evaluation**. In: NIELSEN, J.; MACK, R. L. (eds.). *Usability Inspection Methods*. Nova York: John Wiley & Sons, 1994.
-- NORMAN, Donald A. **The Design of Everyday Things**. Nova York: Basic Books, 1988.
-- SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Universidade de Brasília, Faculdade UnB Gama, 2026. pp. 11–12.
-- SHNEIDERMAN, Ben. **Designing the User Interface: Strategies for Effective Human-Computer Interaction**. 3. ed. Reading: Addison-Wesley, 1998.
-- TOGNAZZINI, Bruce. **First Principles of Interaction Design (Revised & Expanded)**. AskTog, 2014.
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Cap. 10: Princípios e Diretrizes para o Design de IHC, pp. 239–241.
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Universidade de Brasília, Faculdade UnB Gama, 2026. pp. 11–12.

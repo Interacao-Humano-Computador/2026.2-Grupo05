@@ -1,6 +1,6 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 31/10/2026 | `1.0` | Consolidação dos resultados da avaliação presencial do Protótipo de Papel da [TAR-01](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/#tar-01-alerta-inteligente-de-saida) com base na entrevista de validação. | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - usado para formatação markdown da página |
 
@@ -11,6 +11,19 @@
 Neste documento, apresenta-se o **Relato dos Resultados da Avaliação do Protótipo de Papel** referente à **[TAR-01 (Alerta Inteligente de Saída de Casa)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/#tar-01-alerta-inteligente-de-saida)**. O relatório consolida as evidências empíricas coletadas durante a sessão presencial de teste de usabilidade em papel realizada com um representante do público-alvo primário.
 
 A estrutura deste documento segue as orientações da literatura de Interação Humano-Computador (Barbosa et al., 2021, Cap. 12, Seção 12.2.3) e atende aos requisitos do Plano de Ensino da disciplina.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-01 (Alerta Inteligente de Saída de Casa):**
+
+* **Persona:** [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md)
+* **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md)
+* **Análise de tarefas:** [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md)
+* **Storyboard:** [Storyboard 01](../../../nivel1/storyboards.md#31-storyboard-01-alerta-inteligente-de-saida-de-casa)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md) · Relato dos resultados (*esta página*)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/igor/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://www.figma.com/proto/00YEuKWtN4N1rBzpC8V7Gd/prototipo-de-igor?node-id=0-1&t=S9Z2PNsKlHC3LlTt-1)
+
 
 ---
 
@@ -25,7 +38,7 @@ O objetivo desta avaliação formativa foi verificar a usabilidade e a comunicab
 O protótipo de papel da TAR-01 é composto por cinco telas desenhadas à mão, apresentadas abaixo na ordem do fluxo de interação simulado durante a sessão:
 
 <div align="center" markdown="1">
-<p><strong>Figura 1</strong> — Tela inicial: busca por linha ou destino, linhas e destinos salvos</p>
+<p><strong>Figura 1</strong>: Tela inicial: busca por linha ou destino, linhas e destinos salvos</p>
 
 ![Tela inicial do protótipo de papel com campo de busca, linhas salvas e destinos salvos](../../../../assets/images/prototipo-tar01/Igor_prot_01.jpeg){ width="600" }
 
@@ -33,7 +46,7 @@ O protótipo de papel da TAR-01 é composto por cinco telas desenhadas à mão, 
 </div>
 
 <div align="center" markdown="1">
-<p><strong>Figura 2</strong> — Monitoramento ativo: tempo de caminhada calculado via GPS e horário estimado de saída</p>
+<p><strong>Figura 2</strong>: Monitoramento ativo: tempo de caminhada calculado via GPS e horário estimado de saída</p>
 
 ![Tela de monitoramento ativo da linha BRT-2202 com tempo de caminhada até o ponto e saída estimada](../../../../assets/images/prototipo-tar01/Igor_prot_02.jpeg){ width="600" }
 
@@ -41,7 +54,7 @@ O protótipo de papel da TAR-01 é composto por cinco telas desenhadas à mão, 
 </div>
 
 <div align="center" markdown="1">
-<p><strong>Figura 3</strong> — Alerta de saída imediata: ônibus adiantado, com opções "Estou saindo!" e "Sugerir outra rota"</p>
+<p><strong>Figura 3</strong>: Alerta de saída imediata: ônibus adiantado, com opções "Estou saindo!" e "Sugerir outra rota"</p>
 
 ![Tela de alerta de saída imediata informando que o ônibus se adiantou](../../../../assets/images/prototipo-tar01/Igor_prot_03.jpeg){ width="600" }
 
@@ -49,7 +62,7 @@ O protótipo de papel da TAR-01 é composto por cinco telas desenhadas à mão, 
 </div>
 
 <div align="center" markdown="1">
-<p><strong>Figura 4</strong> — Rota alternativa: sugestão de nova linha para o destino, com opções de confirmar ou cancelar</p>
+<p><strong>Figura 4</strong>: Rota alternativa: sugestão de nova linha para o destino, com opções de confirmar ou cancelar</p>
 
 ![Tela de rota alternativa com destino UnB Campus Gama e nova rota pela linha 206.1](../../../../assets/images/prototipo-tar01/Igor_prot_04.jpeg){ width="600" }
 
@@ -57,7 +70,7 @@ O protótipo de papel da TAR-01 é composto por cinco telas desenhadas à mão, 
 </div>
 
 <div align="center" markdown="1">
-<p><strong>Figura 5</strong> — Monitoramento da nova rota: linha alternativa selecionada e novo horário estimado de saída</p>
+<p><strong>Figura 5</strong>: Monitoramento da nova rota: linha alternativa selecionada e novo horário estimado de saída</p>
 
 ![Tela de monitoramento ativo da linha 206.1 com novo horário estimado de saída](../../../../assets/images/prototipo-tar01/Igor_prot_05.jpeg){ width="600" }
 
@@ -85,7 +98,7 @@ A avaliação foi conduzida por meio do método de **Prototipação em Papel** e
 ### 4.1 Desempenho nas Tarefas do Protótipo em Papel
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Desempenho do Participante nas Tarefas do Protótipo de Papel</p>
+<p><strong>Tabela 1</strong>: Desempenho do Participante nas Tarefas do Protótipo de Papel</p>
 </div>
 
 | ID Tarefa | Descrição da Tarefa no Protótipo | Sucesso sem Ajuda? | Pedidos de Ajuda | Avaliação da Usabilidade |
@@ -103,7 +116,7 @@ A avaliação foi conduzida por meio do método de **Prototipação em Papel** e
 ### 4.2 Consolidação das Respostas da Entrevista Pós-Teste
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Consolidação das Respostas da Entrevista pós-teste</p>
+<p><strong>Tabela 2</strong>: Consolidação das Respostas da Entrevista pós-teste</p>
 </div>
 
 | ID | Tópico Avaliado | Pergunta Aplicada ao Participante | Resumo da Resposta do Participante | Avaliação do Artefato |
@@ -122,10 +135,10 @@ A avaliação foi conduzida por meio do método de **Prototipação em Papel** e
 
 ### 4.3 Tabela de Registro e Priorização de Problemas de IHC
 
-Conforme estabelecido pela escala de severidade de problemas de usabilidade de Nielsen (1994) e Barbosa et al. (2021), registra-se a ocorrência de problemas observados:
+Conforme estabelecido pela escala de severidade de problemas de usabilidade de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021), registra-se a ocorrência de problemas observados:
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Registro e Classificação de Problemas de IHC</p>
+<p><strong>Tabela 3</strong>: Registro e Classificação de Problemas de IHC</p>
 </div>
 
 | ID Problema | Descrição do Problema Encontrado | Peça / Tela de Papel Afetada | Severidade (0 a 4) | Impacto na Experiência | Ação Corretiva / Recomendação |
@@ -141,7 +154,7 @@ Conforme estabelecido pela escala de severidade de problemas de usabilidade de N
 ### 4.4 Tabela de Iterações no Protótipo de Papel vs. Alta Fidelidade
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Registro de Iterações e Pendências de Reprojeto</p>
+<p><strong>Tabela 4</strong>: Registro de Iterações e Pendências de Reprojeto</p>
 </div>
 
 | ID Item | Modificação Sugerida / Testada | Resolvido no Papel? | Status para Prototipação Digital (Alta Fidelidade) |
@@ -165,18 +178,43 @@ Como o protótipo de papel da **[TAR-01](https://interacao-humano-computador.git
 
 ---
 
-## 6. Declaração sobre o Uso de IA Generativa
+## 6. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas estritamente para auxílio na estruturação das tabelas em Markdown e revisão gramatical do texto. A condução do teste presencial, a interpretação do áudio da entrevista e a consolidação dos dados são de responsabilidade autoral de Igor Dantas Araújo.
+As Figuras 6 a 8 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-6" align="center">
+<p><strong>Figura 6</strong>: Prototipação em papel: o que o observador deve registrar</p>
+</div>
+
+![Figura 6: Prototipação em papel: o que o observador deve registrar](../../../../assets/prints_referencias/verificacao-v2/livro-papel-observador.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 305).</em></p>
+</div>
+
+<div id="figura-7" align="center">
+<p><strong>Figura 7</strong>: 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
+</div>
+
+![Figura 7: 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306).</em></p>
+</div>
+
+<div id="figura-8" align="center">
+<p><strong>Figura 8</strong>: Prototipação em papel: conteúdo do relato dos resultados</p>
+</div>
+
+![Figura 8: Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306).</em></p>
+</div>
 
 ---
 
 ## 7. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 12: Métodos de Avaliação de IHC, Seção 12.2.3, p. 303–306).
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-
----
-**Autor:** [Igor Dantas Araújo](https://github.com/IgorDARAUJO)  
-**Revisor:** [Gabriel Cardone](https://github.com/gabriellcardone-06)

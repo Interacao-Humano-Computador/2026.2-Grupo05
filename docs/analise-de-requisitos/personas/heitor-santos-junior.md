@@ -1,17 +1,30 @@
-# Persona: Heitor Santos Júnior
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração detalhada da persona primária Heitor Santos Júnior. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-| 23/10/2026 | 1.1 | Atualização da persona para a nova tarefa [TAR-09](../analise-de-tarefas/tar-09-limite-vale-transporte.md) (aumento do limite diário do Vale-Transporte): citação, resumo, objetivos, habilidades, tarefas, relacionamentos, requisitos e expectativas. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 27/09/2026 | `1.0` | Elaboração detalhada da persona primária Heitor Santos Júnior. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 23/10/2026 | `1.1` | Atualização da persona para a nova tarefa [TAR-09](../analise-de-tarefas/tar-09-limite-vale-transporte.md) (aumento do limite diário do Vale-Transporte): citação, resumo, objetivos, habilidades, tarefas, relacionamentos, requisitos e expectativas. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
+
+# Persona: Heitor Santos Júnior
 
 ## 1. Introdução
 
 Este documento apresenta Heitor Santos Júnior, persona que representa trabalhadores que dependem do transporte público e do Vale-Transporte para se deslocar entre vários endereços durante o expediente. Sua caracterização reúne aspectos pessoais, tecnológicos e de domínio relevantes para orientar a identificação de necessidades, a elaboração de cenários e as decisões de design do projeto.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-09 (Pedido de Aumento do Limite Diário do Vale-Transporte):**
+
+* **Persona:** Heitor Santos Júnior (*esta página*)
+* **Cenário:** [Cenário 9](../cenarios/cenario-9-limite-vale-transporte.md)
+* **Análise de tarefas:** [TAR-09](../analise-de-tarefas/tar-09-limite-vale-transporte.md)
+* **Storyboard:** [Storyboard 05](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../prototipos/tar-09/index.html)
+
 
 ## 2. Caracterização Geral
 
@@ -19,7 +32,7 @@ Este documento apresenta Heitor Santos Júnior, persona que representa trabalhad
 
 ![Foto da persona Heitor Santos Júnior](../../assets/images/heitor-santos-junior.png)
 
-*Figura 1 — Heitor Santos Júnior (imagem ilustrativa, gerada por IA ChatGPT).*
+*Figura 1: Heitor Santos Júnior (imagem ilustrativa da persona).*
 
 > **"Eu ando de ônibus o dia inteiro a serviço. Se o cartão trava no meio do expediente, a passagem sai do meu bolso."**
 
@@ -31,7 +44,7 @@ Este documento apresenta Heitor Santos Júnior, persona que representa trabalhad
 
 A Tabela 1 reúne os dados de identidade de Heitor e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
 
-**Tabela 1** — Identidade e características pessoais de Heitor Santos Júnior
+**Tabela 1**: Identidade e características pessoais de Heitor Santos Júnior
 
 | Campo | Descrição |
 |---|---|
@@ -101,7 +114,7 @@ Por que ele é a persona primária:
 
 A Tabela 2 apresenta as tarefas mais frequentes de Heitor, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
 
-**Tabela 2** — Tarefas realizadas por Heitor Santos Júnior
+**Tabela 2**: Tarefas realizadas por Heitor Santos Júnior
 
 | Tarefa | Frequência | Importância | Duração |
 |---|---|---|---|
@@ -120,7 +133,7 @@ A Tabela 2 apresenta as tarefas mais frequentes de Heitor, permitindo relacionar
 
 A Tabela 3 organiza a rotina diária de Heitor para evidenciar os momentos em que informações de transporte e o uso do cartão podem afetar seus deslocamentos e compromissos.
 
-**Tabela 3** — Rotina diária de Heitor Santos Júnior
+**Tabela 3**: Rotina diária de Heitor Santos Júnior
 
 | Horário | Atividade |
 |---|---|
@@ -138,7 +151,7 @@ A Tabela 3 organiza a rotina diária de Heitor para evidenciar os momentos em qu
 
 A Tabela 4 identifica as pessoas com quem Heitor se relaciona e explica como essas relações interferem em suas decisões e necessidades de deslocamento.
 
-**Tabela 4** — Relacionamentos relevantes de Heitor Santos Júnior
+**Tabela 4**: Relacionamentos relevantes de Heitor Santos Júnior
 
 | Quem | Relação com Heitor | Por que importa para o projeto |
 |---|---|---|
@@ -159,7 +172,7 @@ A Tabela 4 identifica as pessoas com quem Heitor se relaciona e explica como ess
 
 A Tabela 5 sintetiza as necessidades de Heitor em requisitos que devem orientar as decisões de projeto da interface.
 
-**Tabela 5** — Necessidades e requisitos de Heitor Santos Júnior
+**Tabela 5**: Necessidades e requisitos de Heitor Santos Júnior
 
 | Necessidade | Em suas palavras |
 |---|---|
@@ -201,8 +214,32 @@ A Tabela 5 sintetiza as necessidades de Heitor em requisitos que devem orientar 
 
 ---
 
-## 11. Referências Bibliográficas
+## 11. Fotos de Referência
+
+As Figuras 2 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Elementos que compõem a descrição de uma persona</p>
+</div>
+
+![Figura 2: Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: Elenco de personas, persona primária e antipersonas</p>
+</div>
+
+![Figura 3: Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 155).</em></p>
+</div>
+
+---
+
+## 12. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* COMPANHIA DE PLANEJAMENTO DO DISTRITO FEDERAL (CODEPLAN). **Pesquisa Distrital por Amostra de Domicílios — PDAD 2021**. Brasília: Codeplan, 2021.
-* SECRETARIA DE ESTADO DE TRANSPORTE E MOBILIDADE DO DISTRITO FEDERAL (Semob-DF). **Limites do Vale-Transporte**. Disponível em: <https://www.semob.df.gov.br/servicos/limites-do-vale-transporte>. Acesso em: 23 out. 2026.

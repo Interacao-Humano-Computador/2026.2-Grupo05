@@ -1,19 +1,20 @@
-# Cronograma
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 05/09/2026 | 1.0 | Elaboração e estruturação da página de Cronogramas e Fundamentação Teórica. | Igor Dantas | Gabriel Melo |
-| 06/09/2026 | 1.1 | Adição da atividade de revisão e ajustes nos artefatos pós-feedback dos monitores/professor em todas as tabelas de cronograma. | Carlos | Igor Dantas |
-| 06/09/2026 | 1.2 | Remoção de tags de citação textual nas tabelas do cronograma. | Carlos | Igor Dantas |
-| 17/09/2026 | 1.3 | Correção das imagens e cronogramas | Igor | Gabriel |
-| 26/09/2026 | 1.4 | Correção das atribuições de tarefas | Igor | Arthur |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/09/2026 | `1.0` | Elaboração e estruturação da página de Cronogramas e Fundamentação Teórica. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 06/09/2026 | `1.1` | Adição da atividade de revisão e ajustes nos artefatos pós-feedback dos monitores/professor em todas as tabelas de cronograma. | [Carlos](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 06/09/2026 | `1.2` | Remoção de tags de citação textual nas tabelas do cronograma. | [Carlos](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 17/09/2026 | `1.3` | Correção das imagens e cronogramas | [Igor](https://github.com/IgorDARAUJO) | [Gabriel](https://github.com/gabriellcardone-06) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 26/09/2026 | `1.4` | Correção das atribuições de tarefas | [Igor](https://github.com/IgorDARAUJO) | [Arthur](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+
 
 ---
 
+# Cronograma
+
 ## 1. Descrição
-O cronograma visa à organização e distribuição de todas as tarefas que deverão ser realizadas pelos integrantes da equipe no decorrer da disciplina de Interação Humano-Computador. As atividades foram classificadas de acordo com as etapas do projeto aplicadas à avaliação do site Semob-DF. O SWEBOK versão 4.0 destaca que estimar cronogramas é um processo iterativo e altamente dependente de fatores humanos e ambientais dinâmicos, conforme evidenciado nas figuras 1 e 2. Por isso, como orienta o SWEBOK, nosso planejamento buscou prever as dependências das tarefas e foi estruturado para permitir que os cronogramas executados possam sofrer atualizações contínuas ao longo do semestre para refletir o andamento real do desenvolvimento em comparação ao planejamento inicial. (IEEE COMPUTER SOCIETY, 2024, p. 9-8)
+O cronograma visa à organização e distribuição de todas as tarefas que deverão ser realizadas pelos integrantes da equipe no decorrer da disciplina de Interação Humano-Computador. As atividades foram classificadas de acordo com as etapas do projeto aplicadas à avaliação do site Semob-DF. As datas e os conteúdos das entregas seguem o cronograma do Plano de Ensino (SALES, 2026) ([Figura 1](#figura-1)). Como o processo de design de IHC é iterativo (BARBOSA et al., 2021, p. 105) ([Figura 2](#figura-2)), nosso planejamento buscou prever as dependências das tarefas e foi estruturado para permitir que os cronogramas executados possam sofrer atualizações contínuas ao longo do semestre para refletir o andamento real do desenvolvimento em comparação ao planejamento inicial.
 
 ## 2. Cronograma Geral Planejado
 Na Tabela 1, tem-se a visão macro do planejamento do projeto, englobando todas as entregas exigidas pelo plano de ensino da disciplina, com as respectivas datas limite, períodos de revisão por pares e margens para ajustes pós-feedback.
@@ -30,7 +31,6 @@ Na Tabela 1, tem-se a visão macro do planejamento do projeto, englobando todas 
 | **6** | Relato (Prot. Papel) e Planej. Avaliação do Protótipo de Alta Fidelidade | 26/10 | 03/11 | 01/11 | 02/11 a 03/11 | 04/11 a 09/11 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
 | **7** | Relato dos Resultados do Protótipo de Alta Fidelidade | 04/11 | 15/11 | 13/11 | 14/11 a 15/11 | 16/11 a 21/11 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
 | **8** | Verificação dos Artefatos | 16/11 | 24/11 | 22/11 | 23/11 a 24/11 | 25/11 a 29/11 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
-| **Final** | Apresentação do Projeto Final (Seminário) | 25/11 | 30/11 | 29/11 | Ao vivo | N/A | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
 
 *Fonte: Igor Dantas Araújo.*
 
@@ -251,26 +251,35 @@ A Tabela 10 apresenta o cronograma planejado da Entrega 8, com as atividades, re
 
 *Fonte: Igor Dantas Araújo.*
 
+---
 
-## 11. Declaração sobre o Uso de IA Generativa
+## 7. Fotos de Referência
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+As Figuras 1 e 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do Plano de Ensino do professor (SALES, 2026) e do livro da disciplina (BARBOSA et al., 2021).
 
-## 12. Fotos de Referência
-![Trecho do SWEBOK sobre Planejamento de Projetos](../assets/prints_referencias/swebok-1.png)
-<div align="center">
-**Figura 1** - Trecho do SWEBOK abordando estimativas de projetos. **Fonte:** SWEBOK v4.0 (2024, p. 9-8).
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Conteúdo das Entregas 5, 6 e 7 no cronograma do Plano de Ensino</p>
 </div>
 
-![Trecho do SWEBOK sobre Projetos Adaptativos](../assets/prints_referencias/swebok-2.png)
+![Figura 1: Conteúdo das Entregas 5, 6 e 7 no cronograma do Plano de Ensino](../assets/prints_referencias/verificacao-v2/plano-cronograma-entregas-5-7.png)
+
 <div align="center">
-**Figura 2** - Trecho do SWEBOK abordando o ciclo de vida adaptativo. **Fonte:** SWEBOK v4.0 (2024, p. 9-9).
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 5).</em></p>
 </div>
 
-## 13. Referências Bibliográficas
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Simplificações aceitáveis em protótipos e design iterativo</p>
+</div>
 
--   IEEE COMPUTER SOCIETY. Software Engineering Management. In: WASHIZAKI, Hironori (Ed.). *Guide to the Software Engineering Body of Knowledge (SWEBOK)*. Versão 4.0. Los Alamitos: IEEE Computer Society, 2024. Cap. 9, sec. 2 (Software Project Planning), subseção 2.3.
+![Figura 2: Simplificações aceitáveis em protótipos e design iterativo](../assets/prints_referencias/verificacao-v2/livro-iteracao-prototipos.png)
 
-## 14. Bibliografia de Apoio
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 105).</em></p>
+</div>
 
--   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+---
+
+## 8. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

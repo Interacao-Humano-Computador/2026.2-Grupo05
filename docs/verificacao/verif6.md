@@ -1,18 +1,21 @@
-# Verificação da Entrega 6
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 02/11/2026 | `1.0` | Elaboração da lista de verificação do planejamento da avaliação e do planejamento do relato de resultados do protótipo de alta fidelidade. | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 02/11/2026 | `1.0` | Elaboração da lista de verificação do planejamento da avaliação e do planejamento do relato de resultados do protótipo de alta fidelidade. | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
+
+# Verificação da Entrega 6
+
+!!! warning "Versão anterior (1.0) — mantida para rastreabilidade"
+    Esta página é a versão 1.0 da lista e foi mantida sem alterações de conteúdo. A versão atual está em [v2/verif6.md](v2/verif6.md). Os itens 1–14 desta página têm o mesmo número, com prefixo G, na v2.0. O [índice das listas de verificação](index.md) mostra onde está cada versão e o que mudou.
 
 ## 1. Orientações
 
 Esta lista verifica dois artefatos: o **planejamento da avaliação de um protótipo de alta fidelidade** (perguntas 1 a 7) e o **planejamento do relato dos resultados dessa avaliação** (perguntas 8 a 14). As perguntas são gerais e podem ser aplicadas a qualquer protótipo de alta fidelidade. Para cada item, deve-se marcar apenas **Conforme**, **Não conforme** ou **Não se aplica**.
 
-Os critérios seguem a preparação, a interpretação e o relato de avaliações de IHC descritos por Barbosa e Silva (2010, p. 303–313), as atividades do teste de usabilidade (p. 341–343) e os cuidados éticos com participantes (p. 140–141). O framework DECIDE orienta a relação entre objetivos, perguntas, método, questões práticas, ética e apresentação dos dados (p. 312–313). A atribuição na última coluna indica o integrante responsável por cada pergunta, sem antecipar o resultado da verificação.
+Os critérios seguem a preparação, a interpretação e o relato de avaliações de IHC descritos por Barbosa et al. (2021), as atividades do teste de usabilidade (p. 341–343) e os cuidados éticos com participantes (p. 140–141). O framework DECIDE orienta a relação entre objetivos, perguntas, método, questões práticas, ética e apresentação dos dados (p. 312–313). A atribuição na última coluna indica o integrante responsável por cada pergunta, sem antecipar o resultado da verificação.
 
 ---
 
@@ -37,6 +40,23 @@ Os critérios seguem a preparação, a interpretação e o relato de avaliaçõe
 
 ---
 
-## 3. Bibliografia de apoio
+## 3. Fotos de Referência
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier/Campus, 2010. Seção 5.4, p. 140–141; seções 9.7–9.8, p. 303–313; seção 10.2.1, p. 341–343.
+A Figura 1 mostra o trecho que fundamenta este artefato, recortado e grifado em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
+</div>
+
+---
+
+## 4. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.

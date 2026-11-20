@@ -1,12 +1,12 @@
-# Promoção da eficiência do usuário
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 05/10/2026 | 1.0 | Criação do documento de promoção da eficiência do usuário no portal da SEMOB-DF. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/10/2026 | `1.0` | Criação do documento de promoção da eficiência do usuário no portal da SEMOB-DF. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
 ---
+
+# Promoção da eficiência do usuário
 
 ## 1. O princípio segundo o livro
 
@@ -212,22 +212,18 @@ A principal recomendação é organizar a interação em torno das tarefas frequ
 
 ---
 
-## 8. Declaração sobre o Uso de IA Generativa
-
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que a Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as tomadas de decisão e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
-
----
-
-## Fotos de Referência
+## 8. Fotos de Referência
 
 ![Início da seção 10.2.5 - Promoção da eficiência do usuário](../../assets/prints_referencias/referencia-eficiencia-usuario-1.png){ width="700" }
 
-*Imagem 1 - Início da seção 10.2.5. Fonte: Barbosa et al. (2021), p. 242.*
+*Imagem 1 - Início da seção 10.2.5. Fonte: Barbosa et al. (2021), p. 226.*
 
 ![Continuação da seção 10.2.5 - Atalhos, aceleradores e valores padrão](../../assets/prints_referencias/referencia-eficiencia-usuario-2.png){ width="700" }
 
-*Imagem 2 - Continuação da seção 10.2.5. Fonte: Barbosa et al. (2021), p. 243.*
+*Imagem 2 - Continuação da seção 10.2.5. Fonte: Barbosa et al. (2021), p. 227.*
 
-## Referências Bibliográficas
+---
 
-- BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.5, p. 242-243.
+## 9. Referências Bibliográficas
+
+* BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.5, pp. 226–227.

@@ -1,18 +1,32 @@
-# Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-03)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 24/10/2026 | `1.0` | Consolidação e relato dos resultados da avaliação formativa do Storyboard 03 e dos modelos da Análise de Tarefas (TAR-03). | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani de Andrade da Cruz](https://github.com/arthur-mariani) | Google Gemini - usado para apoio na estruturação textual e formatação markdown |
 
+
 ---
+
+# Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-03)
 
 ## 1. Introdução e Objetivos do Relato
 
-Este documento apresenta a consolidação dos resultados da avaliação formativa realizada sobre o **[Storyboard 03 — Planejamento de Rota por Origem/Destino e Rastreamento em Tempo Real](../../storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)** e os modelos da **[TAR-03: Planejamento de Rota Completa (Porta a Porta) por Destino](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)** (diagramas HTA e CTT).
+Este documento apresenta a consolidação dos resultados da avaliação formativa realizada sobre o **[Storyboard 03: Planejamento de Rota por Origem/Destino e Rastreamento em Tempo Real](../../storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)** e os modelos da **[TAR-03: Planejamento de Rota Completa (Porta a Porta) por Destino](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)** (diagramas HTA e CTT).
 
 O objetivo primordial desta avaliação empírica foi investigar a qualidade de uso, a clareza da proposta conceitual, a verossimilhança da narrativa gráfica com a rotina real de transporte no Distrito Federal e a correção do fluxo operacional planejado para o sistema da **SEMOB-DF**, colhendo percepções de um usuário representativo para subsidiar a próxima fase de prototipação em papel.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-03 (Planejamento de Rota por Origem e Destino):**
+
+* **Persona:** [Marcos Paulo Vieira](../../../../analise-de-requisitos/personas/marcos-paulo-vieira.md)
+* **Cenário:** [Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)
+* **Análise de tarefas:** [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
+* **Storyboard:** [Storyboard 03](../../storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · Relato dos resultados (*esta página*) · [Planejamento individual de tarefas](../../planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-03/index.html)
+
 
 ---
 
@@ -48,7 +62,7 @@ O registro audiovisual integral da sessão de avaliação está disponível no Y
 O Storyboard 03 retrata o passageiro cotidiano na parada sob chuva precisando chegar ao trabalho no SIA, utilizando o portal/app da SEMOB para planejar sua rota em linguagem natural ("SIA"), receber sugestões comparativas de linhas com tarifas/tempos e acompanhar o veículo no mapa.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Respostas da Avaliação do Storyboard 03</p>
+<p><strong>Tabela 1</strong>: Respostas da Avaliação do Storyboard 03</p>
 </div>
 
 | ID | Tópico Avaliado | Pergunta Aplicada ao Participante | Resumo da Resposta do Participante | Avaliação do Artefato |
@@ -67,12 +81,12 @@ O Storyboard 03 retrata o passageiro cotidiano na parada sob chuva precisando ch
 
 ---
 
-### 3.2 Consolidação das Respostas: Análise de Tarefas (TAR-03 — HTA)
+### 3.2 Consolidação das Respostas: Análise de Tarefas (TAR-03: HTA)
 
 Em seguida, o participante inspecionou o diagrama da Análise Hierárquica de Tarefas (HTA), avaliando a lógica de decomposição dos passos:
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Respostas da Avaliação da Análise de Tarefas (TAR-03)</p>
+<p><strong>Tabela 2</strong>: Respostas da Avaliação da Análise de Tarefas (TAR-03)</p>
 </div>
 
 | ID | Tópico Avaliado | Pergunta Aplicada ao Participante | Resumo da Resposta do Participante | Avaliação do Modelo |
@@ -95,7 +109,7 @@ O participante demonstrou assimilação imediata dos conceitos retratados, ressa
 ### Tabela de Registro e Priorização de Problemas de IHC
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Registro e Avaliação de Problemas de Usabilidade</p>
+<p><strong>Tabela 3</strong>: Registro e Avaliação de Problemas de Usabilidade</p>
 </div>
 
 | ID Problema | Descrição do Problema | Local / Artefato | Severidade (0 a 4) | Impacto na Experiência | Sugestão de Reprojeto / Ação |
@@ -103,7 +117,7 @@ O participante demonstrou assimilação imediata dos conceitos retratados, ressa
 | **NENHUM** | Nenhum problema de usabilidade, defeito de fluxo ou inconsistência foi reportado pelo entrevistado. | Storyboard 03 / TAR-03 | **0 (Sem Importância)** | O participante considerou os modelos claros, bem resolvidos e alinhados com suas reais necessidades diárias. | Manter a estrutura aprovada e avançar para o design das telas físicas no protótipo de papel. |
 
 <div align="center">
-<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026). Escala de severidade baseada em Nielsen (1993) e Barbosa et al. (2021).</em></p>
+<p><em>Fonte: Elaborado por Lucas Araújo Lima (2026). Escala de severidade baseada em Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021).</em></p>
 </div>
 
 ---
@@ -113,7 +127,7 @@ O participante demonstrou assimilação imediata dos conceitos retratados, ressa
 A tabela a seguir apresenta a checagem técnica e metodológica da entrevista, adaptada da Tabela 4 do Planejamento do Teste Piloto:
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Ficha de Avaliação Pós-Entrevista</p>
+<p><strong>Tabela 4</strong>: Ficha de Avaliação Pós-Entrevista</p>
 </div>
 
 | # | Item Inspecionado | Critério de Aceitação / Avaliação | Situação | Parecer Analítico e Evidências |
@@ -149,15 +163,43 @@ Com a aprovação integral do **Storyboard 03** e da **TAR-03**, os direcionamen
 
 ---
 
-## 7. Declaração sobre o Uso de IA Generativa
+## 7. Fotos de Referência
 
-Em cumprimento às normas de conduta acadêmica da Sociedade Brasileira de Computação (SBC) e ao Plano de Ensino da disciplina, declara-se que o Google Gemini foi empregado como ferramenta de Inteligência Artificial Generativa estritamente para auxílio na estruturação textual, transcrição de áudio e formatação em Markdown deste documento. A condução da entrevista presencial, o contato com o participante e a validação analítica dos dados coletados foram executados com total responsabilidade autoral por Lucas Araújo Lima.
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: 11.7.4 Interpretação dos dados de cada participante</p>
+</div>
+
+![Figura 1: 11.7.4 Interpretação dos dados de cada participante](../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: 11.7.5 Consolidação e relato dos resultados</p>
+</div>
+
+![Figura 2: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
+</div>
+
+![Figura 3: Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
+</div>
 
 ---
 
 ## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Planejamento da Avaliação de IHC, Seção 11.7.5: Relato dos Resultados, pp. 263–264).
-* BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Normas aplicáveis a pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-* NIELSEN, Jakob. **Usability Engineering**. San Francisco: Morgan Kaufmann, 1993.
-* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Universidade de Brasília, Campus UnB Gama, 2º semestre de 2026.
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Universidade de Brasília, Campus UnB Gama, 2º semestre de 2026.

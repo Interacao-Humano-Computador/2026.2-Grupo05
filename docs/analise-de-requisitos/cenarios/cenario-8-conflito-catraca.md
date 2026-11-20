@@ -1,17 +1,30 @@
-# Cenário 8: O Conflito na Catraca Gerado por Inconsistência de Dados Públicos
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Elaboração inicial dos cenários de uso a partir do perfil empírico do motorista (`MOT-01`) e da persona Valdir Soares, fundamentada na literatura clássica de IHC e Design Baseado em Cenários (Barbosa e Silva, 2010; Carroll, 2000; Rosson e Carroll, 2002; Cooper et al., 2007). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 27/09/2026 | 1.1 | Integração formal ao repositório MkDocs do projeto com padronização hipertextual e rastreabilidade bidirecional com personas e perfis. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 26/09/2026 | `1.0` | Elaboração inicial dos cenários de uso a partir do perfil empírico do motorista (`MOT-01`) e da persona Valdir Soares, fundamentada na literatura clássica de IHC e Design Baseado em Cenários (Barbosa e Silva, 2010; Carroll, 2000; Rosson e Carroll, 2002; Cooper et al., 2007). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.1` | Integração formal ao repositório MkDocs do projeto com padronização hipertextual e rastreabilidade bidirecional com personas e perfis. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
+
+# Cenário 8: O Conflito na Catraca Gerado por Inconsistência de Dados Públicos
 
 ## 1. Introdução
 
 Este cenário de problema descreve um conflito entre Valdir Soares e passageiros causado pela divergência entre os horários divulgados publicamente e a operação real do serviço. A situação permite compreender como inconsistências de informação afetam a confiança e a relação entre os atores, fundamentando requisitos de sincronização, transparência e respaldo ao motorista.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-04/TAR-05 (Consulta de Escala e Alertas Operacionais (motorista)):**
+
+* **Persona:** [Valdir Soares](../personas/valdir-soares.md)
+* **Cenário:** [Cenário 5](cenario-5-consulta-escala.md); [Cenário 6](cenario-6-alerta-desvio.md); [Cenário 7](cenario-7-duvida-passageiro.md); Cenário 8 (*esta página*)
+* **Análise de tarefas:** [TAR-04/TAR-05](../analise-de-tarefas/analise-hta-ctt-motorista.md)
+* **Storyboard:** [Storyboard 04](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#34-storyboard-04-consulta-de-escala-e-alertas-operacionais)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · Relato dos resultados (*não realizado*)
+* **Nível 3: protótipo de alta fidelidade:** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · Relato dos resultados (*não realizado*)
+* **Telas do protótipo de papel:** *não disponível*
+* **Protótipo de alta fidelidade navegável:** *não disponível*
+
 
 ## 2. Caracterização Geral
 
@@ -27,7 +40,7 @@ Plataforma B da Rodoviária do Plano Piloto, em uma manhã chuvosa de pico (07h1
 
 A Tabela 1 identifica os participantes do cenário e esclarece o papel de cada um no conflito causado pela divergência de horários.
 
-**Tabela 1** — Atores envolvidos no Cenário 8
+**Tabela 1**: Atores envolvidos no Cenário 8
 
 | Ator | Papel |
 | :--- | :--- |
@@ -59,8 +72,34 @@ Valdir conclui a viagem com desgaste emocional e dez minutos de atraso acumulado
 1. Sincronizar alterações de grade horária com as garagens antes da publicação.
 2. Exibir data e hora da atualização e avisos de transição operacional.
 
-## 10. Referências Bibliográficas
+---
 
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier / Campus, 2010.
-- COOPER, Alan; REIMANN, Robert; CRONIN, Dave. *About Face 3*. Indianapolis: Wiley Publishing, 2007.
-- ROSSON, Mary Beth; CARROLL, John M. *Usability Engineering: Scenario-Based Development of Human-Computer Interaction*. San Francisco: Morgan Kaufmann, 2002.
+## 10. Fotos de Referência
+
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Cenários: definição, ator e objetivo principais</p>
+</div>
+
+![Figura 1: Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Elementos característicos de um cenário e uso de personas como atores</p>
+</div>
+
+![Figura 2: Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
+</div>
+
+---
+
+## 11. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1418 579" width="1418" height="579" role="img" aria-label="Receber e Processar Alerta Operacional em Rota">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<path d="M691.1,48.0 a6,6 0 0,1 -2,-11 a7,7 0 0,1 9,-7 a8,8 0 0,1 14,-3 a7,7 0 0,1 12,3 a6,6 0 0,1 7,9 a6,6 0 0,1 -3,10 a7,7 0 0,1 -10,3 a8,8 0 0,1 -14,0 a7,7 0 0,1 -13,-4 z" fill="#ffffff" stroke="#444444" stroke-width="1.1"/>
+<text x="709.1" y="67.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Receber e Processar Alerta</text>
+<text x="709.1" y="80.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Operacional em Rota</text>
+<line x1="709.1" y1="86.0" x2="226.3" y2="155.0" stroke="#444444" stroke-width="1"/>
+<line x1="709.1" y1="86.0" x2="625.0" y2="155.0" stroke="#444444" stroke-width="1"/>
+<line x1="709.1" y1="86.0" x2="1107.7" y2="155.0" stroke="#444444" stroke-width="1"/>
+<line x1="252.3" y1="176.0" x2="599.0" y2="176.0" stroke="#444444" stroke-width="1"/>
+<rect x="413.3" y="169.0" width="24.7" height="13" fill="#ffffff"/>
+<text x="425.7" y="180.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">[]&gt;&gt;</text>
+<line x1="651.0" y1="176.0" x2="1081.7" y2="176.0" stroke="#444444" stroke-width="1"/>
+<rect x="854.0" y="169.0" width="24.7" height="13" fill="#ffffff"/>
+<text x="866.3" y="180.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">[]&gt;&gt;</text>
+<path d="M208.3,184.0 a6,6 0 0,1 -2,-11 a7,7 0 0,1 9,-7 a8,8 0 0,1 14,-3 a7,7 0 0,1 12,3 a6,6 0 0,1 7,9 a6,6 0 0,1 -3,10 a7,7 0 0,1 -10,3 a8,8 0 0,1 -14,0 a7,7 0 0,1 -13,-4 z" fill="#ffffff" stroke="#444444" stroke-width="1.1"/>
+<text x="226.3" y="203.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Notificar</text>
+<text x="226.3" y="216.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Intercorrência</text>
+<text x="226.3" y="229.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Viária</text>
+<line x1="226.3" y1="235.0" x2="69.6" y2="304.0" stroke="#444444" stroke-width="1"/>
+<line x1="226.3" y1="235.0" x2="224.7" y2="304.0" stroke="#444444" stroke-width="1"/>
+<line x1="226.3" y1="235.0" x2="381.4" y2="304.0" stroke="#444444" stroke-width="1"/>
+<line x1="87.6" y1="325.0" x2="206.7" y2="325.0" stroke="#444444" stroke-width="1"/>
+<rect x="134.8" y="318.0" width="24.7" height="13" fill="#ffffff"/>
+<text x="147.2" y="329.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">[]&gt;&gt;</text>
+<line x1="242.7" y1="325.0" x2="345.4" y2="325.0" stroke="#444444" stroke-width="1"/>
+<rect x="286.1" y="318.0" width="15.9" height="13" fill="#ffffff"/>
+<text x="294.0" y="329.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">|||</text>
+<g fill="#ffffff" stroke="#444444" stroke-width="1.1"><rect x="55.6" y="311.0" width="28" height="20" rx="8"/><rect x="59.6" y="314.0" width="20" height="14" rx="5"/><rect x="55.6" y="333.0" width="28" height="6" rx="3"/></g>
+<text x="69.6" y="352.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Detectar Evento</text>
+<text x="69.6" y="365.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Crítico no Trecho</text>
+<text x="69.6" y="378.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">da Linha</text>
+<g fill="#ffffff" stroke="#444444" stroke-width="1.1"><rect x="210.7" y="311.0" width="28" height="20" rx="8"/><rect x="214.7" y="314.0" width="20" height="14" rx="5"/><rect x="210.7" y="333.0" width="28" height="6" rx="3"/></g>
+<text x="224.7" y="352.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Emitir Sinal</text>
+<text x="224.7" y="365.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Sonoro e</text>
+<text x="224.7" y="378.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Iluminação de</text>
+<text x="224.7" y="391.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Alerta</text>
+<g fill="#ffffff" stroke="#444444" stroke-width="1.1"><rect x="348.4" y="311.0" width="28" height="20" rx="8"/><rect x="352.4" y="314.0" width="20" height="14" rx="5"/><rect x="348.4" y="333.0" width="28" height="6" rx="3"/></g><polygon points="372.4,324.0 378.4,319.0 378.4,322.0 384.4,322.0 384.4,319.0 390.4,324.0 384.4,329.0 384.4,326.0 378.4,326.0 378.4,329.0" fill="#9a9a9a" stroke="#7a7a7a" stroke-width="0.6"/><g fill="#ffffff" stroke="#444444" stroke-width="1.1"><circle cx="401.4" cy="311.0" r="5.5"/><path d="M390.4,339.0 L390.4,324.0 Q390.4,318.0 396.4,318.0 L406.4,318.0 Q412.4,318.0 412.4,324.0 L412.4,339.0 Z"/><line x1="395.4" y1="327.0" x2="395.4" y2="339.0"/><line x1="407.4" y1="327.0" x2="407.4" y2="339.0"/></g>
+<text x="381.4" y="352.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Exibir Cartão de</text>
+<text x="381.4" y="365.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Alerta no Visor do</text>
+<text x="381.4" y="378.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Dispositivo</text>
+<path d="M607.0,184.0 a6,6 0 0,1 -2,-11 a7,7 0 0,1 9,-7 a8,8 0 0,1 14,-3 a7,7 0 0,1 12,3 a6,6 0 0,1 7,9 a6,6 0 0,1 -3,10 a7,7 0 0,1 -10,3 a8,8 0 0,1 -14,0 a7,7 0 0,1 -13,-4 z" fill="#ffffff" stroke="#444444" stroke-width="1.1"/>
+<text x="625.0" y="203.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Assimilar</text>
+<text x="625.0" y="216.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Instruções de</text>
+<text x="625.0" y="229.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Desvio</text>
+<line x1="625.0" y1="235.0" x2="546.3" y2="304.0" stroke="#444444" stroke-width="1"/>
+<line x1="625.0" y1="235.0" x2="706.6" y2="304.0" stroke="#444444" stroke-width="1"/>
+<line x1="562.3" y1="325.0" x2="690.6" y2="325.0" stroke="#444444" stroke-width="1"/>
+<rect x="614.1" y="318.0" width="24.7" height="13" fill="#ffffff"/>
+<text x="626.5" y="329.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">[]&gt;&gt;</text>
+<g fill="#ffffff" stroke="#444444" stroke-width="1.1"><circle cx="546.3" cy="311.0" r="5.5"/><path d="M535.3,339.0 L535.3,324.0 Q535.3,318.0 541.3,318.0 L551.3,318.0 Q557.3,318.0 557.3,324.0 L557.3,339.0 Z"/><line x1="540.3" y1="327.0" x2="540.3" y2="339.0"/><line x1="552.3" y1="327.0" x2="552.3" y2="339.0"/></g>
+<text x="546.3" y="352.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Analisar Mapa</text>
+<text x="546.3" y="365.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Vetorial e Trecho</text>
+<text x="546.3" y="378.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Interditado</text>
+<g fill="#ffffff" stroke="#444444" stroke-width="1.1"><circle cx="706.6" cy="311.0" r="5.5"/><path d="M695.6,339.0 L695.6,324.0 Q695.6,318.0 701.6,318.0 L711.6,318.0 Q717.6,318.0 717.6,324.0 L717.6,339.0 Z"/><line x1="700.6" y1="327.0" x2="700.6" y2="339.0"/><line x1="712.6" y1="327.0" x2="712.6" y2="339.0"/></g>
+<text x="706.6" y="352.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Avaliar Cláusula</text>
+<text x="706.6" y="365.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">de Isenção de</text>
+<text x="706.6" y="378.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Radares</text>
+<path d="M1089.7,184.0 a6,6 0 0,1 -2,-11 a7,7 0 0,1 9,-7 a8,8 0 0,1 14,-3 a7,7 0 0,1 12,3 a6,6 0 0,1 7,9 a6,6 0 0,1 -3,10 a7,7 0 0,1 -10,3 a8,8 0 0,1 -14,0 a7,7 0 0,1 -13,-4 z" fill="#ffffff" stroke="#444444" stroke-width="1.1"/>
+<text x="1107.7" y="203.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Executar Ações</text>
+<text x="1107.7" y="216.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Operacionais</text>
+<text x="1107.7" y="229.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Concorrentes</text>
+<line x1="1107.7" y1="235.0" x2="867.7" y2="304.0" stroke="#444444" stroke-width="1"/>
+<line x1="1107.7" y1="235.0" x2="1029.4" y2="304.0" stroke="#444444" stroke-width="1"/>
+<line x1="1107.7" y1="235.0" x2="1269.4" y2="304.0" stroke="#444444" stroke-width="1"/>
+<line x1="883.7" y1="325.0" x2="993.4" y2="325.0" stroke="#444444" stroke-width="1"/>
+<rect x="930.6" y="318.0" width="15.9" height="13" fill="#ffffff"/>
+<text x="938.5" y="329.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">|||</text>
+<line x1="1065.4" y1="325.0" x2="1243.4" y2="325.0" stroke="#444444" stroke-width="1"/>
+<rect x="1148.1" y="318.0" width="12.6" height="13" fill="#ffffff"/>
+<text x="1154.4" y="329.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">[]</text>
+<g fill="#ffffff" stroke="#444444" stroke-width="1.1"><circle cx="867.7" cy="311.0" r="5.5"/><path d="M856.7,339.0 L856.7,324.0 Q856.7,318.0 862.7,318.0 L872.7,318.0 Q878.7,318.0 878.7,324.0 L878.7,339.0 Z"/><line x1="861.7" y1="327.0" x2="861.7" y2="339.0"/><line x1="873.7" y1="327.0" x2="873.7" y2="339.0"/></g>
+<text x="867.7" y="352.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Realizar Manobra</text>
+<text x="867.7" y="365.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">de Desvio na Via</text>
+<g fill="#ffffff" stroke="#444444" stroke-width="1.1"><rect x="996.4" y="311.0" width="28" height="20" rx="8"/><rect x="1000.4" y="314.0" width="20" height="14" rx="5"/><rect x="996.4" y="333.0" width="28" height="6" rx="3"/></g><polygon points="1020.4,324.0 1026.4,319.0 1026.4,322.0 1032.4,322.0 1032.4,319.0 1038.4,324.0 1032.4,329.0 1032.4,326.0 1026.4,326.0 1026.4,329.0" fill="#9a9a9a" stroke="#7a7a7a" stroke-width="0.6"/><g fill="#ffffff" stroke="#444444" stroke-width="1.1"><circle cx="1049.4" cy="311.0" r="5.5"/><path d="M1038.4,339.0 L1038.4,324.0 Q1038.4,318.0 1044.4,318.0 L1054.4,318.0 Q1060.4,318.0 1060.4,324.0 L1060.4,339.0 Z"/><line x1="1043.4" y1="327.0" x2="1043.4" y2="339.0"/><line x1="1055.4" y1="327.0" x2="1055.4" y2="339.0"/></g>
+<text x="1029.4" y="352.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Confirmar</text>
+<text x="1029.4" y="365.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Transposição do</text>
+<text x="1029.4" y="378.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Obstáculo</text>
+<path d="M1251.4,333.0 a6,6 0 0,1 -2,-11 a7,7 0 0,1 9,-7 a8,8 0 0,1 14,-3 a7,7 0 0,1 12,3 a6,6 0 0,1 7,9 a6,6 0 0,1 -3,10 a7,7 0 0,1 -10,3 a8,8 0 0,1 -14,0 a7,7 0 0,1 -13,-4 z" fill="#ffffff" stroke="#444444" stroke-width="1.1"/>
+<text x="1269.4" y="352.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Orientar</text>
+<text x="1269.4" y="365.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Passageiros a</text>
+<text x="1269.4" y="378.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Bordo</text>
+<line x1="1269.4" y1="384.0" x2="1189.6" y2="466.0" stroke="#444444" stroke-width="1"/>
+<line x1="1269.4" y1="384.0" x2="1350.5" y2="466.0" stroke="#444444" stroke-width="1"/>
+<line x1="1225.6" y1="487.0" x2="1334.5" y2="487.0" stroke="#444444" stroke-width="1"/>
+<rect x="1267.7" y="480.0" width="24.7" height="13" fill="#ffffff"/>
+<text x="1280.1" y="491.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">[]&gt;&gt;</text>
+<g fill="#ffffff" stroke="#444444" stroke-width="1.1"><rect x="1156.6" y="473.0" width="28" height="20" rx="8"/><rect x="1160.6" y="476.0" width="20" height="14" rx="5"/><rect x="1156.6" y="495.0" width="28" height="6" rx="3"/></g><polygon points="1180.6,486.0 1186.6,481.0 1186.6,484.0 1192.6,484.0 1192.6,481.0 1198.6,486.0 1192.6,491.0 1192.6,488.0 1186.6,488.0 1186.6,491.0" fill="#9a9a9a" stroke="#7a7a7a" stroke-width="0.6"/><g fill="#ffffff" stroke="#444444" stroke-width="1.1"><circle cx="1209.6" cy="473.0" r="5.5"/><path d="M1198.6,501.0 L1198.6,486.0 Q1198.6,480.0 1204.6,480.0 L1214.6,480.0 Q1220.6,480.0 1220.6,486.0 L1220.6,501.0 Z"/><line x1="1203.6" y1="489.0" x2="1203.6" y2="501.0"/><line x1="1215.6" y1="489.0" x2="1215.6" y2="501.0"/></g>
+<text x="1189.6" y="514.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Exibir Mensagem</text>
+<text x="1189.6" y="527.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Padronizada de</text>
+<text x="1189.6" y="540.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Aviso</text>
+<g fill="#ffffff" stroke="#444444" stroke-width="1.1"><circle cx="1350.5" cy="473.0" r="5.5"/><path d="M1339.5,501.0 L1339.5,486.0 Q1339.5,480.0 1345.5,480.0 L1355.5,480.0 Q1361.5,480.0 1361.5,486.0 L1361.5,501.0 Z"/><line x1="1344.5" y1="489.0" x2="1344.5" y2="501.0"/><line x1="1356.5" y1="489.0" x2="1356.5" y2="501.0"/></g>
+<text x="1350.5" y="514.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Anunciar Parada</text>
+<text x="1350.5" y="527.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Provisória no</text>
+<text x="1350.5" y="540.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Interior do</text>
+<text x="1350.5" y="553.0" font-family="Arial, Helvetica, sans-serif" font-size="11" text-anchor="middle" fill="#222222">Veículo</text>
+</svg>

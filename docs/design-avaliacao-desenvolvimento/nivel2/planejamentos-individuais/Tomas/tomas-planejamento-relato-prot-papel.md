@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 29/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Protótipo de Papel da TAR-09 (Pedido de aumento do limite diário do Vale-Transporte). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
+
 
 ---
 
@@ -11,6 +12,19 @@
 Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel** referente à **[TAR-09 (Solicitar Aumento do Limite Diário de Uso do Vale-Transporte)](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)**. O documento define, antes da sessão, **como** os dados serão registrados, analisados e apresentados, para que o relato seja padronizado e possa ser comparado com o dos outros integrantes.
 
 A avaliação correspondente está descrita no [Planejamento da Avaliação do Protótipo de Papel](tomas-planejamento-av-prototipo-papel.md). A estrutura segue Barbosa et al. (2021, Cap. 11, Seção 11.7.5; Cap. 12, Seção 12.2.3).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-09 (Pedido de Aumento do Limite Diário do Vale-Transporte):**
+
+* **Persona:** [Heitor Santos Júnior](../../../../analise-de-requisitos/personas/heitor-santos-junior.md)
+* **Cenário:** [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
+* **Análise de tarefas:** [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
+* **Storyboard:** [Storyboard 05](../../../nivel1/storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](tomas-planejamento-av-prototipo-papel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](tomas-planejamento-av-prototipo-papel.md)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-09/index.html)
+
 
 ---
 
@@ -58,7 +72,7 @@ Para cada problema, registram-se dois valores diferentes:
 * **Prioridade (Alta, Média, Baixa):** a ordem em que será corrigido, considerando a severidade e o custo da correção. Um problema grave e fácil de corrigir tem prioridade alta; um problema leve e caro de corrigir tem prioridade baixa.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escala de Severidade dos Problemas de Usabilidade</p>
+<p><strong>Tabela 1</strong>: Escala de Severidade dos Problemas de Usabilidade</p>
 </div>
 
 | Nível | Classificação | Descrição do Impacto | Exemplo no Protótipo da TAR-09 |
@@ -70,7 +84,7 @@ Para cada problema, registram-se dois valores diferentes:
 | **4** | **Catastrófico** | Impede a conclusão da tarefa. | Participante não consegue enviar a declaração do RH e desiste do pedido. |
 
 <div align="center">
-<p><em>Fonte: Adaptado de Nielsen (1994) e Barbosa et al. (2021), com exemplos elaborados por Tomás Rocho (2026).</em></p>
+<p><em>Fonte: Adaptado de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021), com exemplos elaborados por Tomás Rocho (2026).</em></p>
 </div>
 
 ---
@@ -84,7 +98,7 @@ Os campos entre colchetes serão preenchidos depois da sessão.
 Para cada tarefa, registram-se a **conclusão**, as **dificuldades observadas**, a **evidência** e a **interpretação** do que aconteceu.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Desempenho do Participante nas Tarefas do Protótipo de Papel</p>
+<p><strong>Tabela 2</strong>: Desempenho do Participante nas Tarefas do Protótipo de Papel</p>
 </div>
 
 | ID Tarefa | Tarefa | Conclusão | Tempo | Pedidos de Ajuda | Dificuldades Observadas | Evidência (fala ou minuto da gravação) | Interpretação |
@@ -100,7 +114,7 @@ Para cada tarefa, registram-se a **conclusão**, as **dificuldades observadas**,
 ### 4.2 Respostas às Perguntas da Avaliação
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Resultado das Perguntas da Avaliação</p>
+<p><strong>Tabela 3</strong>: Resultado das Perguntas da Avaliação</p>
 </div>
 
 | ID | Pergunta (resumo) | Critério de Aceitação | O que foi observado | Critério Atingido? |
@@ -120,7 +134,7 @@ Para cada tarefa, registram-se a **conclusão**, as **dificuldades observadas**,
 ### 4.3 Registro e Priorização dos Problemas de Usabilidade
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Problemas de Usabilidade Encontrados</p>
+<p><strong>Tabela 4</strong>: Problemas de Usabilidade Encontrados</p>
 </div>
 
 | ID | Descrição do Problema | Tela / Peça Afetada | Tarefa e Pergunta | Impacto no Participante | Severidade (0–4) | Prioridade | Evidência | Recomendação de Correção |
@@ -140,7 +154,7 @@ A prototipação em papel permite corrigir uma tela durante a própria sessão (
 * **Correção para a próxima versão:** mudança que não dá para fazer na hora ou não pôde ser testada, como criar uma tela nova, mudar a ordem dos passos do pedido ou alterar uma regra do fluxo. Ela vira requisito do protótipo de alta fidelidade.
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Alterações Feitas no Papel e Correções Planejadas</p>
+<p><strong>Tabela 5</strong>: Alterações Feitas no Papel e Correções Planejadas</p>
 </div>
 
 | ID Problema | Mudança | Tipo de Mudança | Testada na Sessão? | Resultado Depois da Mudança | Destino |
@@ -172,20 +186,33 @@ Os problemas da Tabela 4 serão tratados assim:
 
 ---
 
-## 7. Declaração sobre o Uso de IA Generativa
+## 7. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que o Claude (Anthropic) foi usado para auxiliar na estruturação do texto e na formatação das tabelas em Markdown. A estrutura do relato, os critérios de severidade e prioridade, os exemplos e o planejamento do reprojeto são de responsabilidade do integrante Tomás Rocho.
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Prototipação em papel: conteúdo do relato dos resultados</p>
+</div>
+
+![Figura 1: Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
+</div>
+
+![Figura 2: 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306).</em></p>
+</div>
 
 ---
 
 ## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11, p. 245–266; Capítulo 12, Seção 12.2.3, p. 303–306).
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. Porto Alegre: Bookman, 2005.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.
-* SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann, 2003.
-
----
-**Autor:** [Tomás Rocho](https://github.com/TomasRocho)  
-**Revisor:** [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)

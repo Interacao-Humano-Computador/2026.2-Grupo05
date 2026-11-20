@@ -1,10 +1,12 @@
-# Planejamento da Avaliação do Storyboard e da Análise de Tarefas (TAR-07)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Storyboard 07 e da Análise de Tarefas TAR-07 com base no framework DECIDE. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - utilizado na elaboração inicial, comparação com a referência bibliográfica, formatação em Markdown e revisão textual; o conteúdo permanece sob responsabilidade do autor. |
+
+---
+
+# Planejamento da Avaliação do Storyboard e da Análise de Tarefas (TAR-07)
 
 ## 1. Introdução
 
@@ -13,6 +15,19 @@ Este documento apresenta o planejamento da avaliação formativa do [Storyboard 
 O escopo inclui a narrativa vivenciada por Maria Eduarda Santos e os modelos de **Análise Hierárquica de Tarefas (HTA)** e **ConcurTaskTrees (CTT)** da TAR-07. A avaliação pretende verificar se esses artefatos representam de forma compreensível e verossímil a situação de crédito indisponível, bem como validar as hipóteses sobre a sequência de ações, a divisão de responsabilidades e os possíveis encaminhamentos. Não será avaliada a correção operacional dos procedimentos internos do empregador, da SEMOB-DF ou do BRB Mobilidade.
 
 O planejamento segue o framework **DECIDE** descrito por Barbosa et al. (2021): **D**eterminar os objetivos; **E**xplorar as perguntas; **C**hoose, ou escolher, os métodos; **I**dentificar e administrar as questões práticas; **D**ecidir como lidar com as questões éticas; e **E**valuate, ou avaliar, interpretar e apresentar os dados. As etapas são interligadas e podem ser revistas quando houver mudanças no escopo ou nos recursos disponíveis.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-07 (Regularização de Crédito de Vale-Transporte):**
+
+* **Persona:** [Maria Eduarda Santos](../../../../analise-de-requisitos/personas/maria-eduarda-santos.md)
+* **Cenário:** [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md)
+* **Análise de tarefas:** [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md)
+* **Storyboard:** [Storyboard 07](../../storyboards.md#37-storyboard-07-regularizacao-de-credito-de-vale-transporte)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://arthur-mariani.github.io/PAF-IHC/credito/)
+
 
 ---
 
@@ -26,13 +41,13 @@ A Tabela 1 registra como as principais orientações do livro-texto foram aplica
 
 | Orientação de Barbosa et al. (2021) | Aplicação neste planejamento |
 | :--- | :--- |
-| A avaliação formativa pode utilizar cenários, storyboards e modelos produzidos durante o design (Cap. 11, p. 267). | O Storyboard 07 e os modelos HTA e CTT da TAR-07 são os objetos da avaliação. |
-| Os objetivos devem ser detalhados em perguntas específicas e o escopo deve delimitar tarefas e perfis de usuário (Cap. 11, p. 265 e 274). | As Seções 3 e 4 vinculam cada pergunta aos objetivos e aos elementos do Cenário 04 e da TAR-07. |
-| Métodos de investigação, como entrevistas, são adequados para explorar opiniões, expectativas, problemas e alternativas de design, podendo usar imagens e cenários como apoio (Cap. 11, p. 272). | Será aplicada uma entrevista semiestruturada guiada pelo storyboard, pela HTA e pela CTT. |
-| Participantes devem representar o público-alvo, e o número escolhido deve considerar objetivos, escopo e recursos (Cap. 11, p. 274-275). | Será convidada uma passageira trabalhadora que utilize transporte público e tenha experiência com cartão de transporte ou Vale-Transporte. A limitação de uma participante será declarada. |
-| A preparação deve incluir materiais, ambiente, equipamentos, recrutamento e teste-piloto (Cap. 11, p. 275-276). | As Seções 6 e 7 definem materiais, papéis, roteiro, infraestrutura, cronograma e uso do piloto coletivo. |
-| Os dados coletados devem contribuir para os objetivos e permitir responder às perguntas da avaliação (Cap. 11, p. 276 e 279). | Serão coletadas respostas qualitativas, observações e ocorrências objetivas de compreensão; a análise será organizada por pergunta. |
-| Avaliações com participantes envolvem questões éticas, TCLE e respeito às pessoas antes, durante e depois da divulgação dos resultados (Cap. 11, p. 275 e 280). | A Seção 7 prevê TCLE, autorização separada para gravação, anonimização, confidencialidade e direito de retirada. |
+| A avaliação formativa pode utilizar cenários, storyboards e modelos produzidos durante o design (Cap. 11, p. 251). | O Storyboard 07 e os modelos HTA e CTT da TAR-07 são os objetos da avaliação. |
+| Os objetivos devem ser detalhados em perguntas específicas e o escopo deve delimitar tarefas e perfis de usuário (Cap. 11, pp. 249 e 258). | As Seções 3 e 4 vinculam cada pergunta aos objetivos e aos elementos do Cenário 04 e da TAR-07. |
+| Métodos de investigação, como entrevistas, são adequados para explorar opiniões, expectativas, problemas e alternativas de design, podendo usar imagens e cenários como apoio (Cap. 11, p. 256). | Será aplicada uma entrevista semiestruturada guiada pelo storyboard, pela HTA e pela CTT. |
+| Participantes devem representar o público-alvo, e o número escolhido deve considerar objetivos, escopo e recursos (Cap. 11, pp. 258–259). | Será convidada uma passageira trabalhadora que utilize transporte público e tenha experiência com cartão de transporte ou Vale-Transporte. A limitação de uma participante será declarada. |
+| A preparação deve incluir materiais, ambiente, equipamentos, recrutamento e teste-piloto (Cap. 11, pp. 259–260). | As Seções 6 e 7 definem materiais, papéis, roteiro, infraestrutura, cronograma e uso do piloto coletivo. |
+| Os dados coletados devem contribuir para os objetivos e permitir responder às perguntas da avaliação (Cap. 11, pp. 260 e 263). | Serão coletadas respostas qualitativas, observações e ocorrências objetivas de compreensão; a análise será organizada por pergunta. |
+| Avaliações com participantes envolvem questões éticas, TCLE e respeito às pessoas antes, durante e depois da divulgação dos resultados (Cap. 11, pp. 259 e 264). | A Seção 7 prevê TCLE, autorização separada para gravação, anonimização, confidencialidade e direito de retirada. |
 
 <div align="center">
 <p><em>Fonte: Arthur Mariani (2026), com base em Barbosa et al. (2021).</em></p>
@@ -116,7 +131,7 @@ Antes das perguntas, o avaliador explicará somente a legenda e a forma de leitu
 
 Será utilizado o método de **investigação por entrevista semiestruturada guiada por artefatos visuais**. O Storyboard 07 será apresentado primeiro, sem exposição prévia da HTA e da CTT, para que a interpretação inicial da narrativa não seja influenciada pelos modelos. Em seguida, serão apresentados a HTA e o CTT, acompanhados apenas da explicação necessária para leitura da notação.
 
-Esse método é adequado porque a avaliação busca compreender interpretações, expectativas, dúvidas e experiências relacionadas a artefatos de design ainda não interativos. Barbosa et al. (2021, p. 272) afirmam que métodos de investigação permitem explorar opiniões, expectativas, problemas e alternativas de design, e que imagens, cenários e outros artefatos podem apoiar a investigação. Não será conduzido teste de usabilidade, pois o participante não executará tarefas em um sistema funcional.
+Esse método é adequado porque a avaliação busca compreender interpretações, expectativas, dúvidas e experiências relacionadas a artefatos de design ainda não interativos. Barbosa et al. (2021, p. 256) afirmam que métodos de investigação permitem explorar opiniões, expectativas, problemas e alternativas de design, e que imagens, cenários e outros artefatos podem apoiar a investigação. Não será conduzido teste de usabilidade, pois o participante não executará tarefas em um sistema funcional.
 
 ### 5.1 Tipos de Dados
 
@@ -134,7 +149,7 @@ Serão coletados:
 
 Será recrutada **uma participante adulta** com características próximas ao público representado por [Maria Eduarda Santos](../../../../analise-de-requisitos/personas/maria-eduarda-santos.md): passageira trabalhadora do Distrito Federal, usuária frequente de ônibus e com experiência no uso de cartão de transporte ou Vale-Transporte. É desejável que utilize o celular para buscar informações de transporte e que já tenha enfrentado dúvidas sobre saldo, crédito ou atendimento.
 
-O uso de uma participante atende ao escopo individual e exploratório desta atividade, mas não permite generalização estatística. Os resultados serão apresentados como **indícios para revisão**. Barbosa et al. (2021, p. 274-275) indicam que o número de participantes deve considerar perfil, objetivos, escopo e recursos, e que resultados sem significância estatística ainda podem oferecer indícios úteis ao reprojeto.
+O uso de uma participante atende ao escopo individual e exploratório desta atividade, mas não permite generalização estatística. Os resultados serão apresentados como **indícios para revisão**. Barbosa et al. (2021, pp. 258–259) indicam que o número de participantes deve considerar perfil, objetivos, escopo e recursos, e que resultados sem significância estatística ainda podem oferecer indícios úteis ao reprojeto.
 
 Não serão recrutados menores de idade. Sempre que possível, também serão evitadas pessoas subordinadas ao avaliador ou diretamente envolvidas na elaboração dos artefatos.
 
@@ -249,46 +264,46 @@ O relato final deverá conter objetivos e escopo, método, perfil da participant
 
 <figure id="figura-planejamento-1" markdown="span">
   ![Trechos grifados sobre avaliação formativa e uso de storyboards](../../../../assets/prints_referencias/referencia-planejamento-avaliacao-1-formativa.png)
-  <figcaption>Imagem 1 - Avaliação formativa e artefatos que podem servir como insumo. Fonte: Barbosa et al. (2021, Seção 11.3, p. 267).</figcaption>
+  <figcaption>Imagem 1 - Avaliação formativa e artefatos que podem servir como insumo. Fonte: Barbosa et al. (2021, Seção 11.3, p. 251).</figcaption>
 </figure>
 
 ### 9.2 Método de investigação
 
 <figure id="figura-planejamento-2" markdown="span">
   ![Trechos grifados sobre métodos de investigação e uso de imagens e cenários](../../../../assets/prints_referencias/referencia-planejamento-avaliacao-2-investigacao.png)
-  <figcaption>Imagem 2 - Métodos de investigação e uso de artefatos de apoio. Fonte: Barbosa et al. (2021, Seção 11.6, p. 272).</figcaption>
+  <figcaption>Imagem 2 - Métodos de investigação e uso de artefatos de apoio. Fonte: Barbosa et al. (2021, Seção 11.6, p. 256).</figcaption>
 </figure>
 
 ### 9.3 Perfil e quantidade de participantes
 
 <figure id="figura-planejamento-3" markdown="span">
   ![Trechos grifados sobre definição do escopo, perfil e quantidade de participantes](../../../../assets/prints_referencias/referencia-planejamento-avaliacao-3-participantes.png)
-  <figcaption>Imagem 3 - Definição do escopo, do perfil e do número de participantes. Fonte: Barbosa et al. (2021, Seção 11.7.2, p. 274).</figcaption>
+  <figcaption>Imagem 3 - Definição do escopo, do perfil e do número de participantes. Fonte: Barbosa et al. (2021, Seção 11.7.2, p. 258).</figcaption>
 </figure>
 
 ### 9.4 Questões práticas, ética e materiais
 
 <figure id="figura-planejamento-4" markdown="span">
   ![Trechos grifados sobre questões práticas, questões éticas, TCLE e materiais de apoio](../../../../assets/prints_referencias/referencia-planejamento-avaliacao-4-preparacao.png)
-  <figcaption>Imagem 4 - Questões práticas, questões éticas e materiais de apoio. Fonte: Barbosa et al. (2021, Seção 11.7.2, p. 275).</figcaption>
+  <figcaption>Imagem 4 - Questões práticas, questões éticas e materiais de apoio. Fonte: Barbosa et al. (2021, Seção 11.7.2, p. 259).</figcaption>
 </figure>
 
 ### 9.5 Teste-piloto
 
 <figure id="figura-planejamento-5" markdown="span">
   ![Trechos grifados sobre finalidade, condução e descarte dos dados do teste-piloto](../../../../assets/prints_referencias/referencia-planejamento-avaliacao-5-teste-piloto.png)
-  <figcaption>Imagem 5 - Finalidade, condução e descarte dos dados do teste-piloto. Fonte: Barbosa et al. (2021, Seção 11.7.2, p. 276).</figcaption>
+  <figcaption>Imagem 5 - Finalidade, condução e descarte dos dados do teste-piloto. Fonte: Barbosa et al. (2021, Seção 11.7.2, p. 260).</figcaption>
 </figure>
 
 ### 9.6 Framework DECIDE
 
 <figure id="figura-planejamento-6" markdown="span">
   ![Trechos do framework DECIDE com destaque para questões práticas](../../../../assets/prints_referencias/referencia-planejamento-avaliacao-6-decide.png)
-  <figcaption>Imagem 6 - Etapas do framework DECIDE. Fonte: Barbosa et al. (2021, Seção 11.8, p. 280).</figcaption>
+  <figcaption>Imagem 6 - Etapas do framework DECIDE. Fonte: Barbosa et al. (2021, Seção 11.8, p. 264).</figcaption>
 </figure>
 
 ---
 
 ## 10. Referências Bibliográficas
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 11: Planejamento da Avaliação de IHC, p. 261-280.
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 11: Planejamento da Avaliação de IHC, pp. 245–264.

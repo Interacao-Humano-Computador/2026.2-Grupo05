@@ -1,12 +1,13 @@
-# Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-06)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 28/10/2026 | `1.0` | Consolidação e relato dos resultados da avaliação formativa do Storyboard 08 e dos modelos HTA/CMN-GOMS (TAR-06). | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Claude Code (Anthropic) - usado para organizar as respostas da transcrição em tabelas e formatar a página em Markdown |
+| 28/10/2026 | `1.0` | Consolidação e relato dos resultados da avaliação formativa do Storyboard 08 e dos modelos HTA/CMN-GOMS (TAR-06). | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para organizar as respostas da transcrição em tabelas e formatar a página em Markdown |
+
 
 ---
+
+# Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-06)
 
 ## 1. Introdução e Objetivos do Relato
 
@@ -15,6 +16,19 @@ Este documento apresenta a consolidação dos resultados da avaliação formativ
 O objetivo principal desta avaliação foi investigar a verossimilhança da narrativa apresentada no storyboard, a clareza da consulta da previsão de chegada no ponto e a correção do fluxo de tarefas modelado, verificando as hipóteses H1 a H7 registradas na TAR-06, que foi elaborada apenas com documentação.
 
 > **Alteração de escopo:** a avaliação prevista do Storyboard 04 (TAR-04/TAR-05) com um motorista de ônibus foi substituída por esta, porque o participante não pôde ser recrutado. A justificativa está na seção [Alteração de Escopo](../../planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md#alteracao-de-escopo) do planejamento.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-06 (Consulta do Ônibus em Tempo Real no DF no Ponto):**
+
+* **Persona:** [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md); [Mariana Borges Almeida](../../../../analise-de-requisitos/personas/mariana-borges-almeida.md)
+* **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md); [Cenário 10](../../../../analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md)
+* **Análise de tarefas:** [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)
+* **Storyboard:** [Storyboard 08](../../storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não realizado*) · Relato dos resultados (*esta página*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
+
 
 ---
 
@@ -78,7 +92,7 @@ A coleta de dados seguiu a metodologia de **entrevista semiestruturada** orienta
 
 ## 4. Análise Qualitativa e Registro de Problemas
 
-Durante a condução da entrevista, a participante demonstrou facilidade para interpretar a narrativa visual e reconheceu a situação como parte da própria rotina. Ela entendeu, porém, que João Pedro se atrasou, embora o quadro 5 mostre o ônibus chegando, e só concordou com a decisão de esperar em uma situação sem pressa. Nas perguntas sobre a tarefa, a resposta mais marcante foi a falta de confiança no tempo previsto, o que confirma o passo 3.2 da HTA como ponto crítico. A severidade dos problemas segue a escala de 0 (sem importância) a 4 (catastrófico) de Nielsen (1994).
+Durante a condução da entrevista, a participante demonstrou facilidade para interpretar a narrativa visual e reconheceu a situação como parte da própria rotina. Ela entendeu, porém, que João Pedro se atrasou, embora o quadro 5 mostre o ônibus chegando, e só concordou com a decisão de esperar em uma situação sem pressa. Nas perguntas sobre a tarefa, a resposta mais marcante foi a falta de confiança no tempo previsto, o que confirma o passo 3.2 da HTA como ponto crítico. A severidade dos problemas segue a escala de 0 (sem importância) a 4 (catastrófico) de Nielsen (1994 apud BARBOSA et al., 2021).
 
 ### Tabela de Registro e Priorização de Problemas de IHC
 
@@ -102,14 +116,43 @@ Uma vez que o **Storyboard 08** foi compreendido e os modelos **HTA/CMN-GOMS da 
 
 ---
 
-## 6. Declaração sobre o Uso de IA Generativa
+## 6. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que a ferramenta de IA Generativa Claude Code (Anthropic) foi utilizada para organizar as respostas da transcrição em tabelas, formatar as tabelas em Markdown e revisar o texto. A condução da entrevista, análise das respostas em áudio e compilação dos dados são de responsabilidade autoral de Carlos Costa.
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: 11.7.4 Interpretação dos dados de cada participante</p>
+</div>
+
+![Figura 1: 11.7.4 Interpretação dos dados de cada participante](../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: 11.7.5 Consolidação e relato dos resultados</p>
+</div>
+
+![Figura 2: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
+</div>
+
+![Figura 3: Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
+</div>
 
 ---
 
 ## 7. Referências Bibliográficas
 
-* BARBOSA, Simone Diniz Junqueira et al. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. (Capítulo 11: Planejamento da Avaliação de IHC, Seção 11.7.5, p. 279).
-* NIELSEN, Jakob. **Usability Engineering**. San Francisco: Morgan Kaufmann, 1994.
+* BARBOSA, Simone Diniz Junqueira et al. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. (Capítulo 11: Planejamento da Avaliação de IHC, Seção 11.7.5, p. 263).
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.

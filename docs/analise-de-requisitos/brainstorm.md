@@ -1,16 +1,16 @@
-# Brainstorming de Necessidades e Desejos dos Usuários
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Criação do roteiro, condução da reunião, registro dos dados coletados e análise do brainstorming sobre o portal da Semob-DF. | [Lucas Araújo](https://github.com/Lucasaraujoszz) e [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 27/09/2026 | `1.0` | Criação do roteiro, condução da reunião, registro dos dados coletados e análise do brainstorming sobre o portal da Semob-DF. | [Lucas Araújo](https://github.com/Lucasaraujoszz) e [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
 ---
 
+# Brainstorming de Necessidades e Desejos dos Usuários
+
 ## 1. Objetivo e método
 
-O brainstorming foi planejado para levantar e priorizar **necessidades e desejos de cidadãos** sobre as informações e tarefas oferecidas pelo portal da Semob-DF. A atividade segue a técnica de *brainstorming de necessidades e desejos dos usuários* descrita por Barbosa e Silva (2010): geração livre de ideias sobre o sistema ideal, mediação sem crítica e priorização individual dos itens considerados essenciais.
+O brainstorming foi planejado para levantar e priorizar **necessidades e desejos de cidadãos** sobre as informações e tarefas oferecidas pelo portal da Semob-DF. A atividade segue a técnica de *brainstorming de necessidades e desejos dos usuários* descrita por Barbosa et al. (2021): geração livre de ideias sobre o sistema ideal, mediação sem crítica e priorização individual dos itens considerados essenciais.
 
 A pergunta central da sessão foi:
 
@@ -136,16 +136,39 @@ Os achados reforçam perfis e cenários já registrados no projeto:
 
 ---
 
-## 5. Declaração sobre o Uso de IA Generativa
+## 5. Materiais da sessão
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as tomadas de decisão e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
-
----
-
-## 6. Referências bibliográficas e materiais da sessão
-
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação humano-computador**. Rio de Janeiro: Elsevier, 2011. Cap. 5, seção 5.5.4, “Brainstorming de Necessidades e Desejos dos Usuários”, pp. 155 a 159.
-* **Roteiro de brainstorming do portal da Semob-DF.** Desenvolvido por Lucas Araújo e Arthur Mariani com o apoio de IA generativa (Gemini) e fundamentado nas referências metodológicas apresentadas no livro *Interação Humano-Computador*, de Barbosa e Silva (2011).
+* **Roteiro de brainstorming do portal da Semob-DF.** Desenvolvido por Lucas Araújo e Arthur Mariani com o apoio de IA generativa (Gemini) e fundamentado nas referências metodológicas apresentadas no livro *Interação Humano-Computador*, de Barbosa et al. (2021).
 * **Brainstorming dados coletados.** Registro feito por Arthur Mariani e Lucas Araújo durante o Brainstorm.
 
 ---
+
+## 6. Fotos de Referência
+
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Brainstorming de necessidades e desejos dos usuários</p>
+</div>
+
+![Figura 1: Brainstorming de necessidades e desejos dos usuários](../assets/prints_referencias/verificacao-v2/livro-brainstorming.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 139).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Brainstorming: papel e lápis e sessão-piloto</p>
+</div>
+
+![Figura 2: Brainstorming: papel e lápis e sessão-piloto](../assets/prints_referencias/verificacao-v2/livro-brainstorming-2.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 140–141).</em></p>
+</div>
+
+---
+
+## 7. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

@@ -1,6 +1,6 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 20/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Storyboard 02 e da Análise de Tarefas (TAR-02) via DECIDE. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para revisão e estruturação do markdown. |
 
@@ -12,9 +12,22 @@ Neste documento, apresenta-se o **Planejamento da Avaliação do Storyboard e da
 
 O planejamento foi elaborado aplicando o **Framework DECIDE** (Barbosa et al., 2021), que estrutura as atividades de avaliação em seis etapas interligadas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar dados).
 
+**Artefatos relacionados — fluxo da funcionalidade TAR-02 (Pré-agendamento no Programa DF Acessível):**
+
+* **Persona:** [Larissa Ferreira Lima](../../../../analise-de-requisitos/personas/larissa-ferreira-lima.md)
+* **Cenário:** [Cenário 1](../../../../analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel.md)
+* **Análise de tarefas:** [TAR-02](../../../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md)
+* **Storyboard:** [Storyboard 02](../../storyboards.md#32-storyboard-02-pre-agendamento-no-programa-df-acessivel)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](gabriel-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível*
+
+
 ---
 
-## 1. D — Determinar os Objetivos da Avaliação
+## 1. D: Determinar os Objetivos da Avaliação
 
 A avaliação formativa dos artefatos busca investigar a qualidade conceitual e a adequação da nova funcionalidade proposta para o site da **SEMOB-DF** (o pré-agendamento no Programa DF Acessível, que o site não oferece atualmente), antes do desenvolvimento de protótipos de média e alta fidelidade (Barbosa et al., 2021).
 
@@ -32,14 +45,14 @@ A avaliação formativa dos artefatos busca investigar a qualidade conceitual e 
 
 ---
 
-## 2. E — Explorar as Perguntas a Serem Respondidas
+## 2. E: Explorar as Perguntas a Serem Respondidas
 
 Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de perguntas específicas orientadas pela literatura de IHC (Barbosa et al., 2021). As perguntas são abertas e formuladas de modo neutro, sem sugerir a resposta esperada.
 
 ### 2.1 Tabela de Perguntas: Avaliação do Storyboard 02
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Roteiro de Perguntas para Avaliação do Storyboard 02</p>
+<p><strong>Tabela 1</strong>: Roteiro de Perguntas para Avaliação do Storyboard 02</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta Orientada ao Participante | Resposta Esperada / Critério de Aceitação |
@@ -58,7 +71,7 @@ Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de per
 ### 2.2 Tabela de Perguntas: Avaliação da Análise de Tarefas (TAR-02 - HTA e CTT)
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Roteiro de Perguntas para Validação da Análise de Tarefas (HTA e CTT)</p>
+<p><strong>Tabela 2</strong>: Roteiro de Perguntas para Validação da Análise de Tarefas (HTA e CTT)</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta Orientada ao Participante | Resposta Esperada / Critério de Aceitação |
@@ -75,7 +88,7 @@ Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de per
 
 ---
 
-## 3. C — Choose (Escolher) os Métodos de Avaliação
+## 3. C: Choose (Escolher) os Métodos de Avaliação
 
 Para este planejamento formativo, selecionou-se o **Método de Investigação por Entrevista Semiestruturada** guiada por artefatos visuais (Barbosa et al., 2021, Cap. 11 e 12).
 
@@ -85,7 +98,7 @@ Para este planejamento formativo, selecionou-se o **Método de Investigação po
 
 ---
 
-## 4. I — Identificar e Administrar as Questões Práticas
+## 4. I: Identificar e Administrar as Questões Práticas
 
 ### 4.1 Recrutamento e Perfil do Participante
 Em conformidade com a literatura de IHC (Barbosa et al., 2021), o recrutamento de participantes para avaliações formativas deve focar na representatividade do público-alvo primário.
@@ -102,7 +115,7 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021), o recrutamento d
 ### 4.3 Cronograma e Execução Individual
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Cronograma da Sessão Individual de Avaliação</p>
+<p><strong>Tabela 3</strong>: Cronograma da Sessão Individual de Avaliação</p>
 </div>
 
 | Parâmetro | Detalhamento da Sessão |
@@ -122,7 +135,7 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021), o recrutamento d
 ### 4.4 Roteiro Resumido da Sessão
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Distribuição de Tempo da Sessão (baseada no roteiro do teste piloto)</p>
+<p><strong>Tabela 4</strong>: Distribuição de Tempo da Sessão (baseada no roteiro do teste piloto)</p>
 </div>
 
 | Etapa | Atividade | Tempo Est. |
@@ -142,7 +155,7 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021), o recrutamento d
 
 ---
 
-## 5. D — Decidir como Lidar com as Questões Éticas
+## 5. D: Decidir como Lidar com as Questões Éticas
 
 Toda a conduta da avaliação é pautada nos princípios éticos de pesquisas com seres humanos descritos na literatura de IHC (Barbosa et al., 2021, Seção 7.4):
 
@@ -155,7 +168,7 @@ Toda a conduta da avaliação é pautada nos princípios éticos de pesquisas co
 
 ---
 
-## 6. E — Avaliar, Interpretar e Apresentar os Dados
+## 6. E: Avaliar, Interpretar e Apresentar os Dados
 
 Após a realização da entrevista de avaliação, os dados brutos (gravações de mídia e anotações do observador) passarão pela fase de interpretação e consolidação (Barbosa et al., 2021, Seção 11.7.4):
 
@@ -166,9 +179,49 @@ Após a realização da entrevista de avaliação, os dados brutos (gravações 
 
 ---
 
-## 7. Declaração sobre o Uso de IA Generativa
+## 7. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa (Claude, da Anthropic) foram empregadas para auxílio na estruturação do texto em markdown e correção de eventuais erros ortográficos.
+As Figuras 1 a 4 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: 11.8 Framework DECIDE</p>
+</div>
+
+![Figura 1: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
+</div>
+
+![Figura 2: 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 248).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
+</div>
+
+![Figura 3: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 251).</em></p>
+</div>
+
+<div id="figura-4" align="center">
+<p><strong>Figura 4</strong>: 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+</div>
+
+![Figura 4: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
+</div>
 
 ---
 

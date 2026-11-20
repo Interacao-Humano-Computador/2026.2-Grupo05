@@ -1,3 +1,11 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 20/10/2026 | `1.0` | Criação da ata da Reunião 07 referente à execução do Teste Piloto e à inspeção da Ficha de Calibração da Etapa 4. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani de Andrade da Cruz](https://github.com/arthur-mariani) | Google Gemini |
+
+---
+
 # Ata de reunião 7 (Teste Piloto e Calibração) - Interação Humano-Computador - Grupo 05
 
 - **Data:** 20/10/2026 (Terça-feira)
@@ -7,14 +15,6 @@
 - **Redator da Ata:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)
 - **Revisor da Ata:** [Arthur Mariani de Andrade da Cruz](https://github.com/arthur-mariani)
 - **Ausentes:** Nenhum.
-
-## Histórico de Versão e Contribuição
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
-| :---: | :---: | :--- | :--- | :--- | :---: |
-| 20/10/2026 | `1.0` | Criação da ata da Reunião 07 referente à execução do Teste Piloto e à inspeção da Ficha de Calibração da Etapa 4. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani de Andrade da Cruz](https://github.com/arthur-mariani) | Google Gemini |
-
----
 
 ## 1. Participantes presentes:
 
@@ -34,7 +34,7 @@ A reunião foi organizada em duas etapas sequenciais, em conformidade com as ori
 
 1. **Simulação do Teste Piloto:**
    - **Papéis desempenhados:** [Rodrigo Carvalho Barbosa](https://github.com/RodrigoCBarbosa) atuou no papel de entrevistador/avaliador; [Carlos Henrique dos Santos Costa Filho](https://github.com/carloshfgit) atuou como participante simulado (usuário da aplicação); e [Gabriel Melo Rodrigues Cardone](https://github.com/gabriellcardone-06) gerenciou a infraestrutura técnica e gravação da sessão.
-   - **Artefatos ensaiados:** Foram utilizados o **Storyboard 01 — Alerta inteligente de saída**, correspondente à tarefa [TAR-01](../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md) e ao [Cenário 2](../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md), além dos diagramas de tarefas nos modelos **HTA (Análise Hierárquica de Tarefas)** e **CTT (Árvores de Tarefas Concorrentes)**, ambos elaborados por [Igor Dantas Araújo](https://github.com/IgorDARAUJO).
+   - **Artefatos ensaiados:** Foram utilizados o **Storyboard 01: Alerta inteligente de saída**, correspondente à tarefa [TAR-01](../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md) e ao [Cenário 2](../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md), além dos diagramas de tarefas nos modelos **HTA (Análise Hierárquica de Tarefas)** e **CTT (Árvores de Tarefas Concorrentes)**, ambos elaborados por [Igor Dantas Araújo](https://github.com/IgorDARAUJO).
    - **Roteiro aplicado:** O entrevistador executou o questionário baseado no Framework DECIDE, avaliando se a narrativa do storyboard era compreensível, se as reações do personagem eram verossímeis, se a funcionalidade de alerta e rotas alternativas fazia sentido e se a notação técnica dos diagramas HTA e CTT era legível.
 
 2. **Inspeção e Preenchimento da Ficha de Calibração:**
@@ -47,7 +47,7 @@ A reunião foi organizada em duas etapas sequenciais, em conformidade com as ori
 
 A inspeção da simulação resultou no preenchimento consolidado da Ficha de Avaliação e Calibração Pós-Piloto da equipe:
 
-**Tabela 1** — Ficha de Avaliação e Calibração Pós-Piloto preenchida
+**Tabela 1**: Ficha de Avaliação e Calibração Pós-Piloto preenchida
 
 | # | Item Verificado | Critério de Aprovação | Resultado (OK / Ajustar) | Ação Corretiva Realizada / Acordada |
 | :---: | :--- | :--- | :---: | :--- |
@@ -101,14 +101,43 @@ As gravações da reunião, compreendendo a execução da simulação do teste p
 
 ---
 
-## 6. Declaração sobre o Uso de IA Generativa
+## 6. Fotos de Referência
 
-Em cumprimento às normas de conduta acadêmica da Sociedade Brasileira de Computação (SBC) e ao Plano de Ensino da disciplina, declara-se que o Google Gemini foi empregado como ferramenta de Inteligência Artificial Generativa exclusivamente para auxílio na estruturação textual, na síntese da transcrição das gravações em vídeo e na formatação Markdown do presente documento. Todas as decisões metodológicas, discussões registradas, preenchimento dos critérios e validação dos resultados da calibração foram conduzidos e assumidos de forma integral e responsável pelos integrantes do Grupo 05.
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+</div>
+
+![Figura 2: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
+</div>
+
+![Figura 3: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 267–288).</em></p>
+</div>
 
 ---
 
 ## 7. Referências Bibliográficas
 
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Planejamento da Avaliação de IHC, Seção 11.7.2, p. 258–261).
-- BRASIL. Conselho Nacional de Saúde. **Resolução nº 510, de 07 de abril de 2016**. Regulamenta as pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
-- SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Versão 1. Universidade de Brasília, Campus UnB Gama, 2º semestre de 2026. Disponível no projeto: [Plano de Ensino da disciplina](../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Planejamento da Avaliação de IHC, Seção 11.7.2, p. 258–261).
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Versão 1. Universidade de Brasília, Campus UnB Gama, 2º semestre de 2026. Disponível no projeto: [Plano de Ensino da disciplina](../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
