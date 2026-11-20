@@ -4,15 +4,8 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 03/11/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Alta Fidelidade (Figma) da TAR-09 (Pedido de aumento do limite diário do Vale-Transporte) via DECIDE. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
 | 14/11/2026 | `1.1` | Troca do Figma por um protótipo navegável em HTML, CSS e JavaScript, publicado no GitHub Pages com o visual do portal da SEMOB-DF, e inclusão do painel do avaliador. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para gerar o código do protótipo e ajustar o texto |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 
-!!! warning "Observação para correção manual"
-    As telas da seção "Telas do Protótipo Avaliado" foram capturadas do protótipo navegável do repositório (docs/prototipos/tar-09) em 19/11/2026. O autor deve confirmar se correspondem à versão usada nas sessões de avaliação.
-
-
-!!! warning "Observação para correção manual"
-    A localização no livro de Preece, Rogers e Sharp foi retirada da seção "Localização das Referências no Livro", porque o projeto só usa o livro da disciplina. No texto, Preece, Rogers e Sharp ficam como citação indireta (apud BARBOSA et al., 2021). O autor deve confirmar em que página de Barbosa et al. (2021) essa citação aparece.
 
 ---
 
@@ -22,7 +15,7 @@ Neste documento, apresenta-se o **Planejamento da Avaliação do Protótipo de A
 
 Este é o terceiro ciclo de design e avaliação da TAR-09. O fluxo apareceu primeiro no [Storyboard 05](../../../nivel1/storyboards.md) (Nível 1) e depois foi representado em papel, conforme o [Planejamento da Avaliação do Protótipo de Papel](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) (Nível 2). Agora as telas ganham a aparência, os textos e a navegação que se espera do produto final, seguindo o [Guia de Estilo](../../../../analise-de-requisitos/guia-de-estilo/introducao.md) do Grupo 05.
 
-A avaliação será feita com representantes da persona [Heitor Santos Júnior](../../../../analise-de-requisitos/personas/heitor-santos-junior.md). O planejamento segue o **Framework DECIDE** (Barbosa et al., 2021, pp. 263–265; Preece et al., 2002 apud BARBOSA et al., 2021), em seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar os dados).
+A avaliação será feita com representantes da persona [Heitor Santos Júnior](../../../../analise-de-requisitos/personas/heitor-santos-junior.md). O planejamento segue o **Framework DECIDE** (Barbosa e Silva, 2010, pp. 312–314), em seis etapas: **D**eterminar objetivos, **E**xplorar perguntas, **C**hoose (Escolher) métodos, **I**dentificar questões práticas, **D**ecidir questões éticas e **E**valuate (Avaliar e interpretar os dados).
 
 **Artefatos relacionados — fluxo da funcionalidade TAR-09 (Pedido de Aumento do Limite Diário do Vale-Transporte):**
 
@@ -30,9 +23,9 @@ A avaliação será feita com representantes da persona [Heitor Santos Júnior](
 * **Cenário:** [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
 * **Análise de tarefas:** [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
 * **Storyboard:** [Storyboard 05](../../../nivel1/storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-09/index.html)
 
@@ -41,30 +34,27 @@ A avaliação será feita com representantes da persona [Heitor Santos Júnior](
 
 ## 1. Fundamentação: por que um protótipo de alta fidelidade agora
 
-Preece, Rogers e Sharp (2002 apud BARBOSA et al., 2021) explicam que protótipos de baixa fidelidade são usados no início do design e que os de fidelidade mais alta, como implementações limitadas em *software*, são usados mais tarde (p. 281). O protótipo de alta fidelidade "utiliza materiais que você espera que estejam no produto final" e "se parece muito mais com algo acabado" (p. 265).
+Barbosa e Silva (2010, pp. 249–251) distinguem protótipos de baixa fidelidade, que representam a interface sem detalhamento gráfico, de protótipos de alta fidelidade, que apresentam com maior completude tamanhos, posições, cores, fontes e outros elementos da interface. A funcionalidade implementada pode variar independentemente da fidelidade visual.
 
 A Tabela 1 resume o que o capítulo diz sobre esse tipo de protótipo e como isso afeta este planejamento.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — O que o Capítulo 8 de Preece, Rogers e Sharp (2002 apud BARBOSA et al., 2021) muda neste planejamento</p>
+<p><strong>Tabela 1</strong>: Aplicação das características de protótipos descritas no livro-base</p>
 </div>
 
-| O que o livro diz | Página | Consequência para a avaliação da TAR-09 |
+| Característica fundamentada no livro | Página | Consequência para a avaliação da TAR-09 |
 | :--- | :---: | :--- |
-| O protótipo de alta fidelidade é **totalmente interativo**, tem **uso conduzido pelo usuário**, **define o esquema de navegação** e tem o **mesmo *look and feel*** do produto final (Tabela 8.1). | 266 | Diferente do papel, não haverá "computador" humano. O próprio participante toca no celular, e a avaliação pode verificar a navegação, os textos e o visual definitivos. |
-| A prototipação **vertical** oferece bastante detalhe para poucas funções; a **horizontal** oferece muitas funções com pouco detalhe. | 266 | O protótipo é **vertical**: apenas o fluxo da TAR-09, com todos os estados (erro de foto, documento faltando, protocolo, aviso). Os outros atalhos da página inicial existem só para não induzir a escolha. |
-| Segundo Rettig (1994), em alta fidelidade os revisores **comentam aspectos superficiais** em vez do conteúdo, **um único *bug* pode interromper o teste** e o protótipo pode **elevar demais as expectativas**. | 265–266 | (a) as perguntas focam na tarefa, e não em cores; (b) todos os caminhos são conferidos no teste piloto; (c) o participante é avisado de que é um protótipo e que nenhum pedido real é enviado. |
-| Os protótipos envolvem **concessões**: no *software* algumas funções podem estar ausentes ou serem rudimentares. | 266 | A câmera, o WhatsApp e a análise da SEMOB serão **simulados** dentro do próprio protótipo. Isso será dito ao participante e registrado como limitação no relato. |
-| As **oito regras de ouro** de Shneiderman: consistência, *feedback* informativo, diálogos que encerram as ações, prevenção de erros, reversão fácil das ações, controle do usuário e redução da carga de memória. | 285–287 | As regras servem de critério para as perguntas Q05 a Q07 (erro de foto, documento faltando, voltar sem perder dados e confirmação final). |
-| Toda página *web* deve responder: **Onde estou? O que é apresentado aqui? Onde posso ir?** (Quadro 8.7). | 292 | Usada na pergunta Q08, sobre a orientação do participante dentro do pedido em três passos. |
+| A alta fidelidade representa com maior completude o aspecto visual da interface. | 249–251 | A avaliação pode examinar a compreensão dos textos, a hierarquia visual e a orientação entre as telas. |
+| A fidelidade visual e a funcionalidade do protótipo são dimensões distintas. | 249–251 | A câmera, o WhatsApp e a análise da SEMOB serão simulados e registrados como limitações, embora o visual esteja detalhado. |
+| O protótipo pode representar apenas parte do sistema. | 249–251 | O recorte avaliado é somente o fluxo da TAR-09; os demais serviços não fazem parte das conclusões. |
 
 <div align="center">
-<p><em>Fonte: Elaborado por Tomás Rocho (2026), a partir de Preece, Rogers e Sharp (2002 apud BARBOSA et al., 2021).</em></p>
+<p><em>Fonte: Elaborado por Tomás Rocho (2026), a partir de Barbosa e Silva (2010, pp. 249–251).</em></p>
 </div>
 
 ---
 
-## 2. D — Determinar os Objetivos da Avaliação
+## 2. D: Determinar os Objetivos da Avaliação
 
 A avaliação é **formativa**: o objetivo é encontrar problemas de interação no protótipo antes da versão final, e não comparar estatisticamente interfaces. Barbosa et al. (2021) indicam que os objetivos e as perguntas da avaliação guiam a escolha do método.
 
@@ -83,12 +73,12 @@ Verificar se trabalhadores que usam o Vale-Transporte e pegam vários ônibus po
 
 ---
 
-## 3. E — Explorar as Perguntas a Serem Respondidas
+## 3. E: Explorar as Perguntas a Serem Respondidas
 
 As perguntas abaixo orientam a observação e a entrevista pós-teste. Elas mantêm a numeração das perguntas do protótipo de papel sempre que o assunto é o mesmo, para que os resultados dos dois níveis possam ser comparados.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Perguntas da Avaliação do Protótipo de Alta Fidelidade</p>
+<p><strong>Tabela 2</strong>: Perguntas da Avaliação do Protótipo de Alta Fidelidade</p>
 </div>
 
 | ID | Foco | Pergunta da Avaliação | Critério de Aceitação | Dado a Registrar |
@@ -109,7 +99,7 @@ As perguntas abaixo orientam a observação e a entrevista pós-teste. Elas mant
 
 ---
 
-## 4. C — Choose (Escolher) os Métodos de Avaliação
+## 4. C: Choose (Escolher) os Métodos de Avaliação
 
 O método escolhido é o **teste de usabilidade com observação de uso**, seguido de entrevista curta. Barbosa et al. (2021) descrevem esse método como a execução de tarefas por representantes dos usuários, com o registro do desempenho, das opiniões e dos sentimentos que surgem da experiência.
 
@@ -123,7 +113,7 @@ O método escolhido é o **teste de usabilidade com observação de uso**, segui
 O [protótipo navegável](../../../../prototipos/tar-09/index.html) fica em `docs/prototipos/tar-09/` (`index.html`, `styles.css` e `app.js`), no mesmo padrão do protótipo da TAR-03. Ele segue o visual do portal da SEMOB-DF: barra do GDF cinza-escura, título da Secretaria em letras finas e maiúsculas, faixa com a busca, cartões brancos com botão cinza-escuro e trilha de navegação com ">" verde. Os campos aceitam digitação, os dados ficam guardados ao voltar um passo e o botão "voltar" do celular funciona. As telas são as mesmas do protótipo de papel. Como o [Relato dos Resultados do Protótipo de Papel](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md) não encontrou problemas, os textos e a ordem das telas foram mantidos:
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Telas e Estados do Protótipo Navegável</p>
+<p><strong>Tabela 3</strong>: Telas e Estados do Protótipo Navegável</p>
 </div>
 
 | ID | Tela ou Estado | Conteúdo Principal | Regra do Guia de Estilo ou Princípio Aplicado |
@@ -151,7 +141,7 @@ O [protótipo navegável](../../../../prototipos/tar-09/index.html) fica em `doc
 As tarefas são as mesmas do protótipo de papel, para permitir a comparação. São lidas em voz alta, uma de cada vez, a partir do [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md): *"Você trabalha com manutenção e passou o dia indo de prédio em prédio de ônibus. Na volta para casa, o cartão do Vale-Transporte não passou na catraca. Use o site da SEMOB no celular para resolver."*
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Tarefas do Teste de Usabilidade</p>
+<p><strong>Tabela 4</strong>: Tarefas do Teste de Usabilidade</p>
 </div>
 
 | ID Tarefa | Enunciado lido ao participante | Critério de Conclusão | Telas | Perguntas |
@@ -168,7 +158,7 @@ O avaliador não explica a interface nem dá dicas. Quando o participante pergun
 
 ---
 
-## 5. I — Identificar e Administrar as Questões Práticas
+## 5. I: Identificar e Administrar as Questões Práticas
 
 ### 5.1 Participantes
 
@@ -195,7 +185,7 @@ O avaliador não explica a interface nem dá dicas. Quando o participante pergun
 ### 5.4 Cronograma
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Cronograma da Avaliação do Protótipo de Alta Fidelidade</p>
+<p><strong>Tabela 5</strong>: Cronograma da Avaliação do Protótipo de Alta Fidelidade</p>
 </div>
 
 | Etapa | Data | Responsável |
@@ -215,7 +205,7 @@ O avaliador não explica a interface nem dá dicas. Quando o participante pergun
 ### 5.5 Duração da sessão
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Etapas e Tempo Previsto de Cada Sessão</p>
+<p><strong>Tabela 6</strong>: Etapas e Tempo Previsto de Cada Sessão</p>
 </div>
 
 | Etapa | Tempo |
@@ -242,7 +232,7 @@ Antes das sessões, será feito um **teste piloto completo** no dia 08/11/2026, 
 
 ---
 
-## 6. D — Decidir como Lidar com as Questões Éticas
+## 6. D: Decidir como Lidar com as Questões Éticas
 
 A sessão segue as Resoluções nº 466/2012 e nº 510/2016 do Conselho Nacional de Saúde (CNS) e as orientações de Barbosa et al. (2021):
 
@@ -258,7 +248,7 @@ A sessão segue as Resoluções nº 466/2012 e nº 510/2016 do Conselho Nacional
 
 ---
 
-## 7. E — Avaliar, Interpretar e Apresentar os Dados
+## 7. E: Avaliar, Interpretar e Apresentar os Dados
 
 A análise segue as etapas de interpretação e consolidação de Barbosa et al. (2021):
 
@@ -278,33 +268,33 @@ A análise segue as etapas de interpretação e consolidação de Barbosa et al.
 As figuras abaixo mostram os trechos grifados do livro de Barbosa et al. (2021) usados neste planejamento. Os trechos do Capítulo 8 de Preece, Rogers e Sharp (2002 apud BARBOSA et al., 2021) estão indicados com a página na Tabela 1 e na seção 9.
 
 <div align="center" id="figura-1">
-<p><strong>Figura 1</strong> — As seis atividades do framework DECIDE (p. 264).</p>
+<p><strong>Figura 1</strong>: As seis atividades do framework DECIDE (p. 264).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-decide.png" alt="11.8 Framework DECIDE (BARBOSA et al., 2021, p. 264)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div align="center" id="figura-2">
-<p><strong>Figura 2</strong> — Definição do teste de usabilidade (pp. 288–289).</p>
+<p><strong>Figura 2</strong>: Definição do teste de usabilidade (pp. 288–289).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png" alt="12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa (BARBOSA et al., 2021, pp. 288–289)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
 </div>
 
 <div align="center" id="figura-3">
-<p><strong>Figura 3</strong> — Perfil e quantidade de participantes (p. 258).</p>
+<p><strong>Figura 3</strong>: Perfil e quantidade de participantes (p. 258).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png" alt="11.7.2 Escopo da avaliação, perfil e número de participantes (BARBOSA et al., 2021, p. 258)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 <div align="center" id="figura-4">
-<p><strong>Figura 4</strong> — Finalidade do teste piloto e descarte dos seus dados (p. 260).</p>
+<p><strong>Figura 4</strong>: Finalidade do teste piloto e descarte dos seus dados (p. 260).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png" alt="11.7.2 Teste-piloto: objetivo e descarte dos dados (BARBOSA et al., 2021, p. 260)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
 </div>
 
 <div align="center" id="figura-5">
-<p><strong>Figura 5</strong> — Consentimento, conforto e direito de interromper a participação (pp. 128–129).</p>
+<p><strong>Figura 5</strong>: Consentimento, conforto e direito de interromper a participação (pp. 128–129).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-etica-desistencia-vies.png" alt="Direito de desistir do estudo e dados livres de viés (BARBOSA et al., 2021, pp. 128–129)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 128–129). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 128–129).</em></p>
 </div>
 
 ---
@@ -321,7 +311,7 @@ As Figuras 6 a 15 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 * **Protótipo navegável:** [Acessar o protótipo da TAR-09](../../../../prototipos/tar-09/index.html)
 
 <div id="figura-6" align="center" markdown="1">
-<p><strong>Figura 6</strong> — Página inicial com o Acesso Rápido e o botão "Meu Vale-Transporte foi recusado"</p>
+<p><strong>Figura 6</strong>: Página inicial com o Acesso Rápido e o botão "Meu Vale-Transporte foi recusado"</p>
 
 ![Página inicial com o Acesso Rápido e o botão 'Meu Vale-Transporte foi recusado'](../../../../assets/images/prototipo-tar09/tomas-alta-01.png){ width="300" }
 
@@ -329,7 +319,7 @@ As Figuras 6 a 15 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-7" align="center" markdown="1">
-<p><strong>Figura 7</strong> — Consulta do cartão pelo número ("Meu Vale-Transporte foi recusado")</p>
+<p><strong>Figura 7</strong>: Consulta do cartão pelo número ("Meu Vale-Transporte foi recusado")</p>
 
 ![Consulta do cartão pelo número ('Meu Vale-Transporte foi recusado')](../../../../assets/images/prototipo-tar09/tomas-alta-02.png){ width="300" }
 
@@ -337,7 +327,7 @@ As Figuras 6 a 15 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-8" align="center" markdown="1">
-<p><strong>Figura 8</strong> — Motivo da recusa: limite de 8 passagens por dia</p>
+<p><strong>Figura 8</strong>: Motivo da recusa: limite de 8 passagens por dia</p>
 
 ![Motivo da recusa: limite de 8 passagens por dia](../../../../assets/images/prototipo-tar09/tomas-alta-03.png){ width="300" }
 
@@ -345,7 +335,7 @@ As Figuras 6 a 15 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-9" align="center" markdown="1">
-<p><strong>Figura 9</strong> — Entregar no posto: locais de atendimento e documentos</p>
+<p><strong>Figura 9</strong>: Entregar no posto: locais de atendimento e documentos</p>
 
 ![Entregar no posto: locais de atendimento e documentos](../../../../assets/images/prototipo-tar09/tomas-alta-04.png){ width="300" }
 
@@ -353,7 +343,7 @@ As Figuras 6 a 15 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-10" align="center" markdown="1">
-<p><strong>Figura 10</strong> — Pedir mais passagens — Passo 1 de 3: Sua rotina</p>
+<p><strong>Figura 10</strong>: Pedir mais passagens — Passo 1 de 3: Sua rotina</p>
 
 ![Pedir mais passagens — Passo 1 de 3: Sua rotina](../../../../assets/images/prototipo-tar09/tomas-alta-05.png){ width="300" }
 
@@ -361,7 +351,7 @@ As Figuras 6 a 15 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-11" align="center" markdown="1">
-<p><strong>Figura 11</strong> — Pedir mais passagens — Passo 2 de 3: Fotos dos documentos</p>
+<p><strong>Figura 11</strong>: Pedir mais passagens — Passo 2 de 3: Fotos dos documentos</p>
 
 ![Pedir mais passagens — Passo 2 de 3: Fotos dos documentos](../../../../assets/images/prototipo-tar09/tomas-alta-06.png){ width="300" }
 
@@ -369,7 +359,7 @@ As Figuras 6 a 15 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-12" align="center" markdown="1">
-<p><strong>Figura 12</strong> — Pedir mais passagens — Passo 3 de 3: Declaração do RH</p>
+<p><strong>Figura 12</strong>: Pedir mais passagens — Passo 3 de 3: Declaração do RH</p>
 
 ![Pedir mais passagens — Passo 3 de 3: Declaração do RH](../../../../assets/images/prototipo-tar09/tomas-alta-07.png){ width="300" }
 
@@ -377,7 +367,7 @@ As Figuras 6 a 15 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-13" align="center" markdown="1">
-<p><strong>Figura 13</strong> — Confira seu pedido</p>
+<p><strong>Figura 13</strong>: Confira seu pedido</p>
 
 ![Confira seu pedido](../../../../assets/images/prototipo-tar09/tomas-alta-08.png){ width="300" }
 
@@ -385,7 +375,7 @@ As Figuras 6 a 15 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-14" align="center" markdown="1">
-<p><strong>Figura 14</strong> — Pedido enviado, com o número do protocolo</p>
+<p><strong>Figura 14</strong>: Pedido enviado, com o número do protocolo</p>
 
 ![Pedido enviado, com o número do protocolo](../../../../assets/images/prototipo-tar09/tomas-alta-09.png){ width="300" }
 
@@ -393,7 +383,7 @@ As Figuras 6 a 15 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-15" align="center" markdown="1">
-<p><strong>Figura 15</strong> — Acompanhar pedido</p>
+<p><strong>Figura 15</strong>: Acompanhar pedido</p>
 
 ![Acompanhar pedido](../../../../assets/images/prototipo-tar09/tomas-alta-10.png){ width="300" }
 
@@ -407,43 +397,43 @@ As Figuras 6 a 15 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 As Figuras 16 a 19 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-16" align="center">
-<p><strong>Figura 16</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 16</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 16 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 16: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div id="figura-17" align="center">
-<p><strong>Figura 17</strong> — Representação de interface em alta fidelidade</p>
+<p><strong>Figura 17</strong>: Representação de interface em alta fidelidade</p>
 </div>
 
-![Figura 17 — Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+![Figura 17: Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 210). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 210).</em></p>
 </div>
 
 <div id="figura-18" align="center">
-<p><strong>Figura 18</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+<p><strong>Figura 18</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
 </div>
 
-![Figura 18 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+![Figura 18: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
 </div>
 
 <div id="figura-19" align="center">
-<p><strong>Figura 19</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+<p><strong>Figura 19</strong>: 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
 </div>
 
-![Figura 19 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+![Figura 19: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 ---

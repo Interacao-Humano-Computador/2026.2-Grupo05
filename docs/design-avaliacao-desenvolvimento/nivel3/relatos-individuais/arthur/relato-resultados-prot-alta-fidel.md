@@ -2,15 +2,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 14/11/2026 | `1.0` | Registro das três entrevistas e do achado na tela final. | [Arthur Mariani](https://github.com/arthur-mariani) |  | Google Gemini: apoio à organização do relato e à redação, com base nas informações fornecidas pelo autor. |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
+| 14/11/2026 | `1.0` | Registro das três entrevistas e do achado na tela final. | [Arthur Mariani](https://github.com/arthur-mariani) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini: apoio à organização do relato e à redação, com base nas informações fornecidas pelo autor. |
 
-!!! warning "Observação para correção manual"
-    Há versões sem revisor no histórico. Indicar o revisor de cada versão.
-
-
-!!! warning "Observação para correção manual"
-    As telas da seção "Telas do Protótipo Avaliado" foram capturadas do protótipo publicado (arthur-mariani.github.io/PAF-IHC) em 19/11/2026. O autor deve confirmar se correspondem à versão usada nas sessões de avaliação e trocar as capturas se o protótipo mudou depois.
 
 ---
 
@@ -28,9 +21,9 @@ O objetivo foi observar se participantes do público-alvo encontravam a orienta�
 * **Cenário:** [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md)
 * **Análise de tarefas:** [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md)
 * **Storyboard:** [Storyboard 07](../../../nivel1/storyboards.md#37-storyboard-07-regularizacao-de-credito-de-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · Relato dos resultados (*esta página*)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · Relato dos resultados (*esta página*)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md#9-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://arthur-mariani.github.io/PAF-IHC/credito/)
 
@@ -108,31 +101,31 @@ As imagens abaixo foram extraídas do livro de Barbosa et al. (2021). Os destaqu
 <div align="center">
 <p><strong>Figura 1.</strong> Interpretação dos dados de cada participante (p. 262).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png" alt="11.7.4 Interpretação dos dados de cada participante (BARBOSA et al., 2021, p. 262)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
 </div>
 
 <div align="center">
 <p><strong>Figura 2.</strong> Consolidação dos resultados entre participantes (p. 263).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png" alt="11.7.5 Consolidação e relato dos resultados (BARBOSA et al., 2021, p. 263)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div align="center">
 <p><strong>Figura 3.</strong> Conteúdo e limites do relato dos resultados (p. 263).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png" alt="11.7.5 Consolidação e relato dos resultados (BARBOSA et al., 2021, p. 263)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div align="center">
 <p><strong>Figura 4.</strong> Dados coletados no teste de usabilidade (p. 289).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usab-dados.png" alt="12.2.1 Dados coletados por tarefa no teste de usabilidade (sucesso, erros, tempo, ajuda) (BARBOSA et al., 2021, p. 289)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 289).</em></p>
 </div>
 
 <div align="center">
 <p><strong>Figura 5.</strong> Descrição dos problemas e sugestões de solução (p. 289).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usab-problemas.png" alt="12.2.1 Problemas encontrados: descrição, local, impacto, causas e sugestões, e itens do relato (BARBOSA et al., 2021, p. 289)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 289).</em></p>
 </div>
 
 
@@ -143,7 +136,7 @@ As Figuras 6 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-07](
 * **Protótipo navegável:** [Acessar o protótipo da TAR-07](https://arthur-mariani.github.io/PAF-IHC)
 
 <div id="figura-6" align="center" markdown="1">
-<p><strong>Figura 6</strong> — Página inicial do protótipo, com o Acesso Rápido e a opção "Cartão ou crédito com problema"</p>
+<p><strong>Figura 6</strong>: Página inicial do protótipo, com o Acesso Rápido e a opção "Cartão ou crédito com problema"</p>
 
 ![Página inicial do protótipo, com o Acesso Rápido e a opção 'Cartão ou crédito com problema'](../../../../assets/images/prototipo-tar07/arthur-alta-01.png){ width="300" }
 
@@ -151,7 +144,7 @@ As Figuras 6 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-07](
 </div>
 
 <div id="figura-7" align="center" markdown="1">
-<p><strong>Figura 7</strong> — Etapa 1 de 4 — Diagnóstico: "Vamos entender o que aconteceu"</p>
+<p><strong>Figura 7</strong>: Etapa 1 de 4 — Diagnóstico: "Vamos entender o que aconteceu"</p>
 
 ![Etapa 1 de 4 — Diagnóstico: 'Vamos entender o que aconteceu'](../../../../assets/images/prototipo-tar07/arthur-alta-02.png){ width="300" }
 
@@ -159,7 +152,7 @@ As Figuras 6 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-07](
 </div>
 
 <div id="figura-8" align="center" markdown="1">
-<p><strong>Figura 8</strong> — Etapa 2 de 4 — Situação do crédito</p>
+<p><strong>Figura 8</strong>: Etapa 2 de 4 — Situação do crédito</p>
 
 ![Etapa 2 de 4 — Situação do crédito](../../../../assets/images/prototipo-tar07/arthur-alta-03.png){ width="300" }
 
@@ -167,7 +160,7 @@ As Figuras 6 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-07](
 </div>
 
 <div id="figura-9" align="center" markdown="1">
-<p><strong>Figura 9</strong> — Etapa 3 de 4 — Orientação: "O que fazer agora"</p>
+<p><strong>Figura 9</strong>: Etapa 3 de 4 — Orientação: "O que fazer agora"</p>
 
 ![Etapa 3 de 4 — Orientação: 'O que fazer agora'](../../../../assets/images/prototipo-tar07/arthur-alta-04.png){ width="300" }
 
@@ -175,7 +168,7 @@ As Figuras 6 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-07](
 </div>
 
 <div id="figura-10" align="center" markdown="1">
-<p><strong>Figura 10</strong> — Etapa 4 de 4 — Atendimento: "Locais de atendimento"</p>
+<p><strong>Figura 10</strong>: Etapa 4 de 4 — Atendimento: "Locais de atendimento"</p>
 
 ![Etapa 4 de 4 — Atendimento: 'Locais de atendimento'](../../../../assets/images/prototipo-tar07/arthur-alta-05.png){ width="300" }
 
@@ -189,33 +182,33 @@ As Figuras 6 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-07](
 As Figuras 11 a 13 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-11" align="center">
-<p><strong>Figura 11</strong> — Representação de interface em alta fidelidade</p>
+<p><strong>Figura 11</strong>: Representação de interface em alta fidelidade</p>
 </div>
 
-![Figura 11 — Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+![Figura 11: Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 210). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 210).</em></p>
 </div>
 
 <div id="figura-12" align="center">
-<p><strong>Figura 12</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+<p><strong>Figura 12</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
 </div>
 
-![Figura 12 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+![Figura 12: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
 </div>
 
 <div id="figura-13" align="center">
-<p><strong>Figura 13</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+<p><strong>Figura 13</strong>: 11.7.5 Consolidação e relato dos resultados</p>
 </div>
 
-![Figura 13 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+![Figura 13: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 ---

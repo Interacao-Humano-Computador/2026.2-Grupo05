@@ -3,16 +3,9 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 01/11/2026 | `1.0` | Planejamento da avaliação do protótipo de alta fidelidade da TAR-07, com base no DECIDE. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Henrique](https://github.com/carloshfgit) | Google Gemini - apoio à estruturação em Markdown e revisão textual. |
-| 14/11/2026 | `1.1` | Ajuste da rodada para três participantes e registro das condições informadas para as sessões. | [Arthur Mariani](https://github.com/arthur-mariani) | A definir | IA: apoio à atualização do texto e das referências. |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
+| 14/11/2026 | `1.1` | Ajuste da rodada para três participantes e registro das condições informadas para as sessões. | [Arthur Mariani](https://github.com/arthur-mariani) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Claude (Anthropic): apoio à atualização do texto e das referências. |
 
 
-!!! warning "Observação para correção manual"
-    A justificativa do número de participantes citava Steve Krug, que não é referência do livro da disciplina. O trecho foi reescrito com base em Barbosa et al. (2021, pp. 258–259), que citam Nielsen (2000 apud BARBOSA et al., 2021) e Dumas e Redish (1999 apud BARBOSA et al., 2021). O autor deve revisar se a nova redação mantém o sentido pretendido.
-
-
-!!! warning "Observação para correção manual"
-    As telas da seção "Telas do Protótipo Avaliado" foram capturadas do protótipo publicado (arthur-mariani.github.io/PAF-IHC) em 19/11/2026. O autor deve confirmar se correspondem à versão usada nas sessões de avaliação e trocar as capturas se o protótipo mudou depois.
 
 ---
 
@@ -20,7 +13,7 @@
 
 ## 1. Introdução e escopo
 
-Este documento planeja uma avaliação formativa do **fluxo de orientação sobre crédito de Vale-Transporte indisponível** no protótipo de alta fidelidade. O recorte corresponde à [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md), ao [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md) e à persona [Maria Eduarda Santos](../../../../analise-de-requisitos/personas/maria-eduarda-santos.md). Esses artefatos do projeto fornecem o **contexto da tarefa**; o método, os critérios de coleta e a estrutura de análise seguem Barbosa et al. (2021); a opção por três participantes considera o prazo e os recursos da disciplina (Barbosa et al., 2021, pp. 258–259).
+Este documento planeja uma avaliação formativa do **fluxo de orientação sobre crédito de Vale-Transporte indisponível** no protótipo de alta fidelidade. O recorte corresponde à [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md), ao [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md) e à persona [Maria Eduarda Santos](../../../../analise-de-requisitos/personas/maria-eduarda-santos.md). Esses artefatos do projeto fornecem o **contexto da tarefa**; o método, os critérios de coleta e a estrutura de análise seguem Barbosa et al. (2021). A opção por três participantes combina as condições de prazo e recursos descritas por Barbosa et al. (2021, pp. 258–259) com a proposta de rodadas pequenas e recorrentes de Krug (2000, cap. 9).
 
 A sessão examinará a experiência de **encontrar orientação, interpretar o estado apresentado e localizar o próximo passo ou canal de atendimento**. O protótipo deverá estar navegável nas telas necessárias a essas tarefas. Quando uma consulta real ao saldo ou a uma instituição não estiver implementada, a resposta será simulada e identificada no roteiro. A avaliação não verificará se o crédito foi efetivamente liberado nem estabelecerá procedimentos oficiais de SEMOB-DF, BRB Mobilidade ou empregadores.
 
@@ -32,9 +25,9 @@ Segundo o livro, os objetivos e as perguntas específicas guiam a escolha do mé
 * **Cenário:** [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md)
 * **Análise de tarefas:** [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md)
 * **Storyboard:** [Storyboard 07](../../../nivel1/storyboards.md#37-storyboard-07-regularizacao-de-credito-de-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md#9-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://arthur-mariani.github.io/PAF-IHC/credito/)
 
@@ -50,7 +43,7 @@ Segundo o livro, os objetivos e as perguntas específicas guiam a escolha do mé
 
 ---
 
-## 3. D — Determinar os objetivos da avaliação
+## 3. D: Determinar os objetivos da avaliação
 
 ### 3.1 Objetivo geral
 
@@ -66,7 +59,7 @@ Investigar se pessoas com perfil de passageiras que utilizam Vale-Transporte con
 
 Esses objetivos especificam a tarefa escolhida para a avaliação; não são fatos sobre o funcionamento de serviços de transporte. A delimitação segue a orientação do livro de avaliar as partes da interface e as tarefas mais relevantes aos objetivos do estudo (Barbosa et al., 2021, p. 258).
 
-## 4. E — Explorar as perguntas a serem respondidas
+## 4. E: Explorar as perguntas a serem respondidas
 
 | ID | Pergunta de avaliação | Dado a registrar |
 | :---: | :--- | :--- |
@@ -79,7 +72,7 @@ Esses objetivos especificam a tarefa escolhida para a avaliação; não são fat
 
 As perguntas operacionalizam os objetivos, conforme o DECIDE (Barbosa et al., 2021, p. 264; **Figura 2**). Os dados a registrar foram selecionados em função dessas perguntas.
 
-## 5. C — Escolher o método de avaliação
+## 5. C: Escolher o método de avaliação
 
 Será realizado um **teste de usabilidade com observação de uso**, seguido de entrevista breve. O livro descreve esse método como a execução de tarefas por representantes dos usuários, com registro do desempenho, das opiniões e dos sentimentos decorrentes da experiência (Barbosa et al., 2021, p. 288). A escolha permite observar dificuldades reais no fluxo navegável, adequando-se às perguntas P01–P06. Os indicadores serão interpretados sobretudo para explicar problemas de interação; não se pretende uma comparação estatística entre interfaces.
 
@@ -99,11 +92,11 @@ O avaliador não apresentará uma causa como verdadeira nem preencherá lacunas 
 
 Serão registrados por tarefa: conclusão sem ajuda, conclusão com ajuda ou não conclusão; tempo aproximado; erros e retornos; consultas à ajuda; e comentários espontâneos. A entrevista pós-teste buscará esclarecer interpretações e coletar opiniões. O livro apresenta conclusão, tempo, erros, uso de ajuda, anotações e entrevista como dados possíveis no teste de usabilidade (Barbosa et al., 2021, p. 289). O tempo será **descritivo**, sem meta numérica arbitrária.
 
-## 6. I — Identificar e administrar as questões práticas
+## 6. I: Identificar e administrar as questões práticas
 
 ### 6.1 Participantes, equipe e ambiente
 
-O recrutamento buscará **três pessoas adultas**, usuárias frequentes de transporte coletivo e familiarizadas com cartão e Vale-Transporte, sem participação no design do protótipo. A opção por três participantes considera o prazo e os recursos disponíveis, fatores que Barbosa et al. (2021, pp. 258–259) indicam para a definição da amostra; os autores também orientam selecionar participantes semelhantes ao público-alvo. Esse número permite identificar problemas na rodada, sem tornar a amostra estatisticamente representativa.
+O recrutamento buscará **três pessoas adultas**, usuárias frequentes de transporte coletivo e familiarizadas com cartão e Vale-Transporte, sem participação no design do protótipo. Krug (2000, cap. 9) recomenda três ou quatro participantes por rodada para identificar os principais problemas e corrigir o produto antes de um novo ciclo. A escolha do limite inferior também considera o prazo e os recursos disponíveis, fatores que Barbosa et al. (2021, pp. 258–259) indicam para a definição da amostra; os autores orientam ainda selecionar participantes semelhantes ao público-alvo. Esse número permite identificar problemas na rodada, sem tornar a amostra estatisticamente representativa.
 
 As sessões serão individuais, na **Universidade de Brasília, das 8h às 10h**, usando **smartphone para testar e gravar** o [protótipo de alta fidelidade](https://arthur-mariani.github.io/PAF-IHC). **Arthur Mariani** acumulará as funções de condutor e observador em decorrência da falta de tempo: apresentará as tarefas sem induzir respostas e registrará as ações, dificuldades e falas. A equipe terá dispositivo, carregador, acesso ao protótipo, fichas de observação, roteiro, termo de consentimento e plano de contingência para falha de conexão. As datas das sessões serão registradas no relato.
 
@@ -121,13 +114,13 @@ Antes de recrutar a amostra definitiva, a equipe deverá: conferir o fluxo naveg
 
 O livro recomenda tarefas individuais curtas e sessões que evitem fadiga (Barbosa et al., 2021, p. 259). O tempo acima é uma **estimativa de planejamento**, a ser ajustada pelo piloto.
 
-## 7. D — Decidir como lidar com as questões éticas
+## 7. D: Decidir como lidar com as questões éticas
 
 Antes de iniciar, o condutor explicará objetivos, tarefas, registros, uso acadêmico dos dados e liberdade de interromper a participação. O aceite será registrado em termo de consentimento. A equipe avaliará o **protótipo**, sem atribuir as dificuldades à capacidade da pessoa; oferecerá pausas e encerrará uma tarefa se houver desconforto ou impasse. Áudio e vídeo dependerão de autorização específica; sem ela, serão utilizadas apenas anotações. Não será solicitado número de cartão, saldo real, empregador ou identificação pessoal desnecessária. O relato usará códigos como `P01`.
 
 Esses cuidados seguem as orientações sobre consentimento, anonimato, autorização de gravação, conforto e liberdade de desistência descritas por Barbosa et al. (2021), além da etapa ética do DECIDE (p. 313; **Figura 2**).
 
-## 8. E — Avaliar, interpretar e apresentar os dados
+## 8. E: Avaliar, interpretar e apresentar os dados
 
 Logo após cada sessão, Arthur Mariani revisará seus registros de condução e observação. Para cada participante e tarefa, preencherá a ficha de conclusão, caminho seguido, dificuldades, comentários e evidências. Em seguida, agrupará ocorrências semelhantes entre participantes, responderá P01–P06 e separará **observação**, **interpretação** e **recomendação**. O livro orienta interpretação individual, consolidação entre participantes e cautela com generalizações (Barbosa et al., 2021, pp. 262–263).
 
@@ -137,92 +130,92 @@ O formato de apresentação e as tabelas vazias estão no [planejamento do relat
 
 ---
 
-## 9. Evidências do livro — trechos grifados
+## 9. Evidências do livro: trechos grifados
 
 As áreas amarelas destacam os trechos usados como base para as afirmações e decisões metodológicas deste planejamento. A numeração nas legendas corresponde às referências a figuras no texto.
 
 <div align="center" id="figura-1">
-<p><strong>Figura 1</strong> — Objetivos e perguntas orientam a escolha do método (p. 248).</p>
+<p><strong>Figura 1</strong>: Objetivos e perguntas orientam a escolha do método (p. 248).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png" alt="11.2 Principais aspectos (objetivos) avaliados em IHC (BARBOSA et al., 2021, p. 248)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 248). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 248).</em></p>
 </div>
 
 <div align="center" id="figura-2">
-<p><strong>Figura 2</strong> — As seis atividades do framework DECIDE no livro (p. 264).</p>
+<p><strong>Figura 2</strong>: As seis atividades do framework DECIDE no livro (p. 264).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-decide.png" alt="11.8 Framework DECIDE (BARBOSA et al., 2021, p. 264)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div align="center" id="figura-3">
-<p><strong>Figura 3</strong> — Delimitação do escopo, dos caminhos e das tarefas (p. 258).</p>
+<p><strong>Figura 3</strong>: Delimitação do escopo, dos caminhos e das tarefas (p. 258).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png" alt="11.7.2 Escopo da avaliação, perfil e número de participantes (BARBOSA et al., 2021, p. 258)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 <div align="center" id="figura-4">
-<p><strong>Figura 4</strong> — Definição do teste de usabilidade como observação de tarefas (pp. 288–289).</p>
+<p><strong>Figura 4</strong>: Definição do teste de usabilidade como observação de tarefas (pp. 288–289).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png" alt="12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa (BARBOSA et al., 2021, pp. 288–289)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
 </div>
 
 <div align="center" id="figura-5">
-<p><strong>Figura 5</strong> — Material e orientações iguais para todos os participantes (p. 259).</p>
+<p><strong>Figura 5</strong>: Material e orientações iguais para todos os participantes (p. 259).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-questoes-praticas-material.png" alt="11.7.2 Questões práticas e material de apoio da avaliação (BARBOSA et al., 2021, p. 259)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 259). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 259).</em></p>
 </div>
 
 <div align="center" id="figura-6">
-<p><strong>Figura 6</strong> — Preparação, coleta, interpretação e relato do teste de usabilidade (p. 289).</p>
+<p><strong>Figura 6</strong>: Preparação, coleta, interpretação e relato do teste de usabilidade (p. 289).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usab-dados.png" alt="12.2.1 Dados coletados por tarefa no teste de usabilidade (sucesso, erros, tempo, ajuda) (BARBOSA et al., 2021, p. 289)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 289).</em></p>
 </div>
 
 <div align="center" id="figura-7">
-<p><strong>Figura 7</strong> — Seleção de participantes semelhantes ao público-alvo (p. 258).</p>
+<p><strong>Figura 7</strong>: Seleção de participantes semelhantes ao público-alvo (p. 258).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png" alt="11.7.2 Escopo da avaliação, perfil e número de participantes (BARBOSA et al., 2021, p. 258)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 <div align="center" id="figura-8">
-<p><strong>Figura 8</strong> — Finalidade do teste-piloto e descarte de seus dados (p. 260).</p>
+<p><strong>Figura 8</strong>: Finalidade do teste-piloto e descarte de seus dados (p. 260).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png" alt="11.7.2 Teste-piloto: objetivo e descarte dos dados (BARBOSA et al., 2021, p. 260)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
 </div>
 
 <div align="center" id="figura-9">
-<p><strong>Figura 9</strong> — Privacidade, anonimato e autorização para gravação (p. 127).</p>
+<p><strong>Figura 9</strong>: Privacidade, anonimato e autorização para gravação (p. 127).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-etica-anonimato.png" alt="Confidencialidade dos dados e anonimato dos participantes (BARBOSA et al., 2021, p. 127)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 127).</em></p>
 </div>
 
 <div align="center" id="figura-10">
-<p><strong>Figura 10</strong> — Consentimento, conforto e direito de interromper a participação (pp. 128–129).</p>
+<p><strong>Figura 10</strong>: Consentimento, conforto e direito de interromper a participação (pp. 128–129).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-etica-desistencia-vies.png" alt="Direito de desistir do estudo e dados livres de viés (BARBOSA et al., 2021, pp. 128–129)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 128–129). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 128–129).</em></p>
 </div>
 
 <div align="center" id="figura-11">
-<p><strong>Figura 11</strong> — Interpretação dos dados individuais (p. 262).</p>
+<p><strong>Figura 11</strong>: Interpretação dos dados individuais (p. 262).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png" alt="11.7.4 Interpretação dos dados de cada participante (BARBOSA et al., 2021, p. 262)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
 </div>
 
 <div align="center" id="figura-12">
-<p><strong>Figura 12</strong> — Início da consolidação entre participantes (p. 263).</p>
+<p><strong>Figura 12</strong>: Início da consolidação entre participantes (p. 263).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png" alt="11.7.5 Consolidação e relato dos resultados (BARBOSA et al., 2021, p. 263)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div align="center" id="figura-13">
-<p><strong>Figura 13</strong> — Cautela na generalização e itens do relato (p. 263).</p>
+<p><strong>Figura 13</strong>: Cautela na generalização e itens do relato (p. 263).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png" alt="11.7.5 Consolidação e relato dos resultados (BARBOSA et al., 2021, p. 263)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div align="center" id="figura-14">
-<p><strong>Figura 14</strong> — Descrição, causas possíveis e sugestões para os problemas encontrados (p. 289).</p>
+<p><strong>Figura 14</strong>: Descrição, causas possíveis e sugestões para os problemas encontrados (p. 289).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usab-problemas.png" alt="12.2.1 Problemas encontrados: descrição, local, impacto, causas e sugestões, e itens do relato (BARBOSA et al., 2021, p. 289)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 289).</em></p>
 </div>
 
 
@@ -233,7 +226,7 @@ As Figuras 15 a 19 mostram as telas do protótipo de alta fidelidade da [TAR-07]
 * **Protótipo navegável:** [Acessar o protótipo da TAR-07](https://arthur-mariani.github.io/PAF-IHC)
 
 <div id="figura-15" align="center" markdown="1">
-<p><strong>Figura 15</strong> — Página inicial do protótipo, com o Acesso Rápido e a opção "Cartão ou crédito com problema"</p>
+<p><strong>Figura 15</strong>: Página inicial do protótipo, com o Acesso Rápido e a opção "Cartão ou crédito com problema"</p>
 
 ![Página inicial do protótipo, com o Acesso Rápido e a opção 'Cartão ou crédito com problema'](../../../../assets/images/prototipo-tar07/arthur-alta-01.png){ width="300" }
 
@@ -241,7 +234,7 @@ As Figuras 15 a 19 mostram as telas do protótipo de alta fidelidade da [TAR-07]
 </div>
 
 <div id="figura-16" align="center" markdown="1">
-<p><strong>Figura 16</strong> — Etapa 1 de 4 — Diagnóstico: "Vamos entender o que aconteceu"</p>
+<p><strong>Figura 16</strong>: Etapa 1 de 4 — Diagnóstico: "Vamos entender o que aconteceu"</p>
 
 ![Etapa 1 de 4 — Diagnóstico: 'Vamos entender o que aconteceu'](../../../../assets/images/prototipo-tar07/arthur-alta-02.png){ width="300" }
 
@@ -249,7 +242,7 @@ As Figuras 15 a 19 mostram as telas do protótipo de alta fidelidade da [TAR-07]
 </div>
 
 <div id="figura-17" align="center" markdown="1">
-<p><strong>Figura 17</strong> — Etapa 2 de 4 — Situação do crédito</p>
+<p><strong>Figura 17</strong>: Etapa 2 de 4 — Situação do crédito</p>
 
 ![Etapa 2 de 4 — Situação do crédito](../../../../assets/images/prototipo-tar07/arthur-alta-03.png){ width="300" }
 
@@ -257,7 +250,7 @@ As Figuras 15 a 19 mostram as telas do protótipo de alta fidelidade da [TAR-07]
 </div>
 
 <div id="figura-18" align="center" markdown="1">
-<p><strong>Figura 18</strong> — Etapa 3 de 4 — Orientação: "O que fazer agora"</p>
+<p><strong>Figura 18</strong>: Etapa 3 de 4 — Orientação: "O que fazer agora"</p>
 
 ![Etapa 3 de 4 — Orientação: 'O que fazer agora'](../../../../assets/images/prototipo-tar07/arthur-alta-04.png){ width="300" }
 
@@ -265,7 +258,7 @@ As Figuras 15 a 19 mostram as telas do protótipo de alta fidelidade da [TAR-07]
 </div>
 
 <div id="figura-19" align="center" markdown="1">
-<p><strong>Figura 19</strong> — Etapa 4 de 4 — Atendimento: "Locais de atendimento"</p>
+<p><strong>Figura 19</strong>: Etapa 4 de 4 — Atendimento: "Locais de atendimento"</p>
 
 ![Etapa 4 de 4 — Atendimento: 'Locais de atendimento'](../../../../assets/images/prototipo-tar07/arthur-alta-05.png){ width="300" }
 
@@ -279,46 +272,47 @@ As Figuras 15 a 19 mostram as telas do protótipo de alta fidelidade da [TAR-07]
 As Figuras 20 a 23 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-20" align="center">
-<p><strong>Figura 20</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 20</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 20 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 20: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div id="figura-21" align="center">
-<p><strong>Figura 21</strong> — Representação de interface em alta fidelidade</p>
+<p><strong>Figura 21</strong>: Representação de interface em alta fidelidade</p>
 </div>
 
-![Figura 21 — Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+![Figura 21: Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 210). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 210).</em></p>
 </div>
 
 <div id="figura-22" align="center">
-<p><strong>Figura 22</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+<p><strong>Figura 22</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
 </div>
 
-![Figura 22 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+![Figura 22: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
 </div>
 
 <div id="figura-23" align="center">
-<p><strong>Figura 23</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+<p><strong>Figura 23</strong>: 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
 </div>
 
-![Figura 23 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+![Figura 23: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 ---
 
 ## 12. Referências Bibliográficas
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* KRUG, Steve. **Don't Make Me Think! A Common Sense Approach to Web Usability**. Indianapolis: New Riders, 2000. Cap. 9.

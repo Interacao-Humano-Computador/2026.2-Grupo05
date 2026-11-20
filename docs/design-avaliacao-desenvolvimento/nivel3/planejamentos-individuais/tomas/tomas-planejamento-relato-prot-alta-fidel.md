@@ -4,15 +4,8 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 03/11/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Protótipo de Alta Fidelidade (Figma) da TAR-09 (Pedido de aumento do limite diário do Vale-Transporte). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
 | 14/11/2026 | `1.1` | Troca das referências ao Figma pelo protótipo navegável em HTML, CSS e JavaScript e uso do registro gerado pelo painel do avaliador. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para ajustar o texto |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 
-!!! warning "Observação para correção manual"
-    As telas da seção "Telas do Protótipo Avaliado" foram capturadas do protótipo navegável do repositório (docs/prototipos/tar-09) em 19/11/2026. O autor deve confirmar se correspondem à versão usada nas sessões de avaliação.
-
-
-!!! warning "Observação para correção manual"
-    A localização no livro de Preece, Rogers e Sharp foi retirada da seção "Localização das Referências no Livro", porque o projeto só usa o livro da disciplina. O autor deve confirmar se o trecho sobre as limitações do protótipo pode ser fundamentado em Barbosa et al. (2021).
 
 ---
 
@@ -28,9 +21,9 @@ A avaliação correspondente está descrita no [Planejamento da Avaliação do P
 * **Cenário:** [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
 * **Análise de tarefas:** [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
 * **Storyboard:** [Storyboard 05](../../../nivel1/storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](tomas-planejamento-av-prot-alta-fidel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](tomas-planejamento-av-prot-alta-fidel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-09/index.html)
 
@@ -89,7 +82,7 @@ Um problema só é registrado se houver pelo menos uma evidência que o sustente
 ### 3.3 Severidade e prioridade
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escala de Severidade dos Problemas de Usabilidade</p>
+<p><strong>Tabela 1</strong>: Escala de Severidade dos Problemas de Usabilidade</p>
 </div>
 
 | Nível | Classificação | Descrição do Impacto | Exemplo no Protótipo da TAR-09 |
@@ -115,7 +108,7 @@ Os campos entre colchetes serão preenchidos depois das sessões.
 ### 4.1 Participantes e avaliadores
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Participantes e Avaliadores</p>
+<p><strong>Tabela 2</strong>: Participantes e Avaliadores</p>
 </div>
 
 | Código | Perfil (sem dados pessoais) | Quantos ônibus usa por dia | Uso do celular | Proximidade com a persona Heitor | Data e local da sessão | Gravação autorizada? |
@@ -131,7 +124,7 @@ Os campos entre colchetes serão preenchidos depois das sessões.
 ### 4.2 Desempenho por tarefa
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Desempenho de Cada Participante nas Tarefas</p>
+<p><strong>Tabela 3</strong>: Desempenho de Cada Participante nas Tarefas</p>
 </div>
 
 | Participante | Tarefa | Conclusão | Tempo | Erros | Pedidos de Ajuda | Dificuldades Observadas | Evidência (fala ou minuto) |
@@ -151,7 +144,7 @@ Os campos entre colchetes serão preenchidos depois das sessões.
 </div>
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Resumo das Três Sessões por Tarefa</p>
+<p><strong>Tabela 4</strong>: Resumo das Três Sessões por Tarefa</p>
 </div>
 
 | Tarefa | Concluíram sem ajuda | Concluíram com ajuda | Não concluíram | Menor e maior tempo | Total de erros | Total de pedidos de ajuda |
@@ -167,7 +160,7 @@ Os campos entre colchetes serão preenchidos depois das sessões.
 ### 4.3 Respostas às perguntas da avaliação
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Resultado das Perguntas da Avaliação</p>
+<p><strong>Tabela 5</strong>: Resultado das Perguntas da Avaliação</p>
 </div>
 
 | ID | Pergunta (resumo) | Critério de Aceitação | P01 | P02 | P03 | Resultado Geral |
@@ -189,7 +182,7 @@ Os campos entre colchetes serão preenchidos depois das sessões.
 ### 4.4 Problemas de usabilidade encontrados
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Problemas de Usabilidade Encontrados</p>
+<p><strong>Tabela 6</strong>: Problemas de Usabilidade Encontrados</p>
 </div>
 
 | ID | O que foi observado | Tela ou Estado | Tarefa e Pergunta | Possível causa na tela | Impacto no participante | Participantes | Severidade (0–4) | Prioridade | Evidência | Recomendação de correção |
@@ -206,15 +199,15 @@ Os campos entre colchetes serão preenchidos depois das sessões.
 O [Relato dos Resultados do Protótipo de Papel](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md) não registrou problemas de usabilidade, mas deixou quatro pendências (PE-01 a PE-04). Esta tabela mostra se elas foram cobertas na alta fidelidade.
 
 <div align="center">
-<p><strong>Tabela 7</strong> — Pendências do Protótipo de Papel Verificadas no Protótipo Navegável</p>
+<p><strong>Tabela 7</strong>: Pendências do Protótipo de Papel Verificadas no Protótipo Navegável</p>
 </div>
 
 | Pendência do Nível 2 | O que foi feito no Nível 3 | Situação | Evidência |
 | :---: | :--- | :---: | :--- |
-| **PE-01** — tempo das tarefas não medido | Cronometragem pelo painel do avaliador e pelo observador | **[Coberta / Não coberta]** | *[Tabelas 3 e 4]* |
-| **PE-02** — estados W4 (documento faltando) e W5 (entregar no posto) não usados | Estados E2 e "Prefiro entregar no posto" mantidos no protótipo navegável | **[Coberta / Não testada]** | *[P0x, mm:ss ou "nenhum participante passou pelo estado"]* |
-| **PE-03** — sem teste piloto | Piloto em 08/11/2026 | **[Coberta / Não coberta]** | *[Data e ajustes feitos]* |
-| **PE-04** — apenas um participante | Três participantes | **[Coberta / Parcial]** | *[Tabela 2]* |
+| **PE-01**: tempo das tarefas não medido | Cronometragem pelo painel do avaliador e pelo observador | **[Coberta / Não coberta]** | *[Tabelas 3 e 4]* |
+| **PE-02**: estados W4 (documento faltando) e W5 (entregar no posto) não usados | Estados E2 e "Prefiro entregar no posto" mantidos no protótipo navegável | **[Coberta / Não testada]** | *[P0x, mm:ss ou "nenhum participante passou pelo estado"]* |
+| **PE-03**: sem teste piloto | Piloto em 08/11/2026 | **[Coberta / Não coberta]** | *[Registrar apenas a realização]* |
+| **PE-04**: apenas um participante | Três participantes | **[Coberta / Parcial]** | *[Tabela 2]* |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Tomás Rocho (2026).</em></p>
@@ -224,7 +217,7 @@ O [Relato dos Resultados do Protótipo de Papel](../../../nivel2/relatos-individ
 
 ## 5. Limitações dos Resultados
 
-O relato terá uma seção própria de limitações. As que já são conhecidas antes das sessões são:
+O relato terá uma seção própria de limitações. Barbosa e Silva (2010, pp. 249–251) explicam que protótipos podem variar tanto na fidelidade visual quanto na funcionalidade implementada; por isso, a interpretação dos resultados deve respeitar o recorte efetivamente simulado. As limitações já conhecidas antes das sessões são:
 
 * **Número de participantes:** três participantes, abaixo da referência de cinco citada por Barbosa et al. (2021, p. 258). Problemas que só aparecem com menos frequência podem não ter sido encontrados.
 * **Simulações:** a câmera, a análise da SEMOB e o aviso do WhatsApp são simulados dentro do protótipo. O comportamento do participante pode ser diferente com a câmera real ou com a espera real de dias.
@@ -239,7 +232,7 @@ Outras limitações que surgirem durante as sessões (por exemplo, falha de cone
 ## 6. Plano de Reprojeto
 
 <div align="center">
-<p><strong>Tabela 8</strong> — Modelo do Plano de Reprojeto</p>
+<p><strong>Tabela 8</strong>: Modelo do Plano de Reprojeto</p>
 </div>
 
 | ID Problema | Mudança no protótipo | Artefato que também muda | Prioridade | Responsável | Prazo |
@@ -272,7 +265,7 @@ As Figuras 1 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 * **Protótipo navegável:** [Acessar o protótipo da TAR-09](../../../../prototipos/tar-09/index.html)
 
 <div id="figura-1" align="center" markdown="1">
-<p><strong>Figura 1</strong> — Página inicial com o Acesso Rápido e o botão "Meu Vale-Transporte foi recusado"</p>
+<p><strong>Figura 1</strong>: Página inicial com o Acesso Rápido e o botão "Meu Vale-Transporte foi recusado"</p>
 
 ![Página inicial com o Acesso Rápido e o botão 'Meu Vale-Transporte foi recusado'](../../../../assets/images/prototipo-tar09/tomas-alta-01.png){ width="300" }
 
@@ -280,7 +273,7 @@ As Figuras 1 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-2" align="center" markdown="1">
-<p><strong>Figura 2</strong> — Consulta do cartão pelo número ("Meu Vale-Transporte foi recusado")</p>
+<p><strong>Figura 2</strong>: Consulta do cartão pelo número ("Meu Vale-Transporte foi recusado")</p>
 
 ![Consulta do cartão pelo número ('Meu Vale-Transporte foi recusado')](../../../../assets/images/prototipo-tar09/tomas-alta-02.png){ width="300" }
 
@@ -288,7 +281,7 @@ As Figuras 1 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-3" align="center" markdown="1">
-<p><strong>Figura 3</strong> — Motivo da recusa: limite de 8 passagens por dia</p>
+<p><strong>Figura 3</strong>: Motivo da recusa: limite de 8 passagens por dia</p>
 
 ![Motivo da recusa: limite de 8 passagens por dia](../../../../assets/images/prototipo-tar09/tomas-alta-03.png){ width="300" }
 
@@ -296,7 +289,7 @@ As Figuras 1 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-4" align="center" markdown="1">
-<p><strong>Figura 4</strong> — Entregar no posto: locais de atendimento e documentos</p>
+<p><strong>Figura 4</strong>: Entregar no posto: locais de atendimento e documentos</p>
 
 ![Entregar no posto: locais de atendimento e documentos](../../../../assets/images/prototipo-tar09/tomas-alta-04.png){ width="300" }
 
@@ -304,7 +297,7 @@ As Figuras 1 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-5" align="center" markdown="1">
-<p><strong>Figura 5</strong> — Pedir mais passagens — Passo 1 de 3: Sua rotina</p>
+<p><strong>Figura 5</strong>: Pedir mais passagens — Passo 1 de 3: Sua rotina</p>
 
 ![Pedir mais passagens — Passo 1 de 3: Sua rotina](../../../../assets/images/prototipo-tar09/tomas-alta-05.png){ width="300" }
 
@@ -312,7 +305,7 @@ As Figuras 1 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-6" align="center" markdown="1">
-<p><strong>Figura 6</strong> — Pedir mais passagens — Passo 2 de 3: Fotos dos documentos</p>
+<p><strong>Figura 6</strong>: Pedir mais passagens — Passo 2 de 3: Fotos dos documentos</p>
 
 ![Pedir mais passagens — Passo 2 de 3: Fotos dos documentos](../../../../assets/images/prototipo-tar09/tomas-alta-06.png){ width="300" }
 
@@ -320,7 +313,7 @@ As Figuras 1 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-7" align="center" markdown="1">
-<p><strong>Figura 7</strong> — Pedir mais passagens — Passo 3 de 3: Declaração do RH</p>
+<p><strong>Figura 7</strong>: Pedir mais passagens — Passo 3 de 3: Declaração do RH</p>
 
 ![Pedir mais passagens — Passo 3 de 3: Declaração do RH](../../../../assets/images/prototipo-tar09/tomas-alta-07.png){ width="300" }
 
@@ -328,7 +321,7 @@ As Figuras 1 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-8" align="center" markdown="1">
-<p><strong>Figura 8</strong> — Confira seu pedido</p>
+<p><strong>Figura 8</strong>: Confira seu pedido</p>
 
 ![Confira seu pedido](../../../../assets/images/prototipo-tar09/tomas-alta-08.png){ width="300" }
 
@@ -336,7 +329,7 @@ As Figuras 1 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-9" align="center" markdown="1">
-<p><strong>Figura 9</strong> — Pedido enviado, com o número do protocolo</p>
+<p><strong>Figura 9</strong>: Pedido enviado, com o número do protocolo</p>
 
 ![Pedido enviado, com o número do protocolo](../../../../assets/images/prototipo-tar09/tomas-alta-09.png){ width="300" }
 
@@ -344,7 +337,7 @@ As Figuras 1 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 </div>
 
 <div id="figura-10" align="center" markdown="1">
-<p><strong>Figura 10</strong> — Acompanhar pedido</p>
+<p><strong>Figura 10</strong>: Acompanhar pedido</p>
 
 ![Acompanhar pedido](../../../../assets/images/prototipo-tar09/tomas-alta-10.png){ width="300" }
 
@@ -358,23 +351,23 @@ As Figuras 1 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-09](
 As Figuras 11 a 12 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-11" align="center">
-<p><strong>Figura 11</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+<p><strong>Figura 11</strong>: 11.7.5 Consolidação e relato dos resultados</p>
 </div>
 
-![Figura 11 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+![Figura 11: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div id="figura-12" align="center">
-<p><strong>Figura 12</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+<p><strong>Figura 12</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
 </div>
 
-![Figura 12 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+![Figura 12: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
 </div>
 
 ---

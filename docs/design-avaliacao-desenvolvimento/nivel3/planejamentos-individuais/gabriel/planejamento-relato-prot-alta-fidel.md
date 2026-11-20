@@ -3,11 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 02/11/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Protótipo de Alta Fidelidade (TAR-02). | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para apoio na formatação markdown da página e correções ortográficas. |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
-
-!!! warning "Observação para correção manual"
-    Faltam as telas e o link do protótipo de alta fidelidade da TAR-02 no Figma. O autor deve exportar as telas do Figma, incluí-las (com título e fonte) numa seção "Telas do Protótipo Avaliado" e adicionar o link de apresentação do protótipo.
 
 ---
 
@@ -23,11 +19,11 @@ A estrutura do relato foi definida com base no livro-texto da disciplina (Barbos
 * **Cenário:** [Cenário 1](../../../../analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel.md)
 * **Análise de tarefas:** [TAR-02](../../../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md)
 * **Storyboard:** [Storyboard 02](../../../nivel1/storyboards.md#32-storyboard-02-pre-agendamento-no-programa-df-acessivel)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](planejamento-av-prot-alta-fidel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](planejamento-av-prot-alta-fidel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
-* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+* **Protótipo de alta fidelidade navegável:** *não disponível*
 
 
 ---
@@ -68,7 +64,7 @@ Uma tarefa será considerada **Satisfatória** quando concluída sem pedido de a
 Os problemas serão classificados segundo a **escala de severidade de Nielsen** (1994 *apud* Barbosa et al., 2021, p. 270), considerando a frequência com que ocorreram entre os participantes, o impacto e a persistência:
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escala de Severidade de Problemas de Usabilidade</p>
+<p><strong>Tabela 1</strong>: Escala de Severidade de Problemas de Usabilidade</p>
 </div>
 
 | Nível | Classificação | Descrição | Prioridade |
@@ -92,7 +88,7 @@ O relatório final utilizará os seguintes modelos de tabelas:
 ### 4.1 Modelo de Tabela: Desempenho dos Participantes nas Tarefas
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Desempenho por Participante e Tarefa no Protótipo de Alta Fidelidade</p>
+<p><strong>Tabela 2</strong>: Desempenho por Participante e Tarefa no Protótipo de Alta Fidelidade</p>
 </div>
 
 | ID Tarefa | Participante | Sucesso sem Ajuda? | Tempo Gasto | Erros | Pedidos de Ajuda | Avaliação da Usabilidade |
@@ -108,7 +104,7 @@ O relatório final utilizará os seguintes modelos de tabelas:
 ### 4.2 Modelo de Tabela: Verificação das Metas e Comparação com o Protótipo de Papel
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Metas de Usabilidade e Comparação entre os Níveis</p>
+<p><strong>Tabela 3</strong>: Metas de Usabilidade e Comparação entre os Níveis</p>
 </div>
 
 | Meta | Critério | Resultado no Protótipo de Papel | Resultado na Alta Fidelidade | Meta Atingida? |
@@ -125,7 +121,7 @@ O relatório final utilizará os seguintes modelos de tabelas:
 ### 4.3 Modelo de Tabela: Consolidação da Entrevista Pós-teste
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Síntese das Respostas da Entrevista Pós-teste</p>
+<p><strong>Tabela 4</strong>: Síntese das Respostas da Entrevista Pós-teste</p>
 </div>
 
 | ID | Foco | Pergunta Aplicada | Síntese das Respostas de P1 a P3 | Atendeu ao Critério? |
@@ -143,7 +139,7 @@ O relatório final utilizará os seguintes modelos de tabelas:
 ### 4.4 Modelo de Tabela: Problemas de IHC Encontrados(caso hajam)
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Registro e Priorização dos Problemas de Usabilidade</p>
+<p><strong>Tabela 5</strong>: Registro e Priorização dos Problemas de Usabilidade</p>
 </div>
 
 | ID Problema | Tela / Componente | Descrição e Justificativa | Participantes Afetados | Fatores de Usabilidade Prejudicados | Severidade (0 a 4) | Sugestão de Solução |
@@ -157,7 +153,7 @@ O relatório final utilizará os seguintes modelos de tabelas:
 ### 4.5 Modelo de Tabela: Conformidade com o Guia de Estilo
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Verificação de Conformidade com o Guia de Estilo</p>
+<p><strong>Tabela 6</strong>: Verificação de Conformidade com o Guia de Estilo</p>
 </div>
 
 | Diretriz do Guia de Estilo | Padrão Esperado | Evidência nos Testes | Status |
@@ -189,23 +185,23 @@ Na consolidação, os problemas serão priorizados pela severidade e pela frequ�
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+<p><strong>Figura 1</strong>: 11.7.5 Consolidação e relato dos resultados</p>
 </div>
 
-![Figura 1 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+![Figura 1: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+<p><strong>Figura 2</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
 </div>
 
-![Figura 2 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+![Figura 2: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
 </div>
 
 ---

@@ -2,15 +2,14 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 01/11/2026 | `1.0` | Criação do planejamento individual do relato dos resultados da avaliação do Protótipo de Alta Fidelidade da TAR-03 com modelos de tabelas e referências do livro-texto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para formatação em Markdown |
-| 10/11/2026 | `1.1` | Adequação metodológica do planejamento do relato para avaliação baseada em protótipo de alta fidelidade em código navegável (HTML5, CSS3 e JavaScript), adaptando modelos de tabelas e diretrizes de reprojeto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para formatação em Markdown |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
+| 01/11/2026 | `1.0` | Criação do planejamento individual do relato dos resultados da avaliação do Protótipo de Alta Fidelidade da TAR-03 com modelos de tabelas e referências do livro-texto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: utilizado apenas para formatação em Markdown |
+| 10/11/2026 | `1.1` | Adequação metodológica do planejamento do relato para avaliação baseada em protótipo de alta fidelidade em código navegável (HTML5, CSS3 e JavaScript), adaptando modelos de tabelas e diretrizes de reprojeto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: utilizado apenas para formatação em Markdown |
 
 ---
 
 # Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-03)
 
-Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-03 — Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/#tar-03-planejamento-de-rota-completa-porta-a-porta-por-destino-com-indicacao-de-paradas-e-previsao-de-chegada)**. Trata-se de um documento metodológico individual elaborado por Lucas Araújo Lima para estruturar, padronizar e orientar a compilação, análise e apresentação dos dados quantitativos e qualitativos colhidos durante os testes de usabilidade no **protótipo em HTML navegável** (Etapa 7).
+Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-03: Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota/#tar-03-planejamento-de-rota-completa-porta-a-porta-por-destino-com-indicacao-de-paradas-e-previsao-de-chegada)**. Trata-se de um documento metodológico individual elaborado por Lucas Araújo Lima para estruturar, padronizar e orientar a compilação, análise e apresentação dos dados quantitativos e qualitativos colhidos durante os testes de usabilidade no **protótipo em HTML navegável** (Etapa 7).
 
 A estrutura deste planejamento fundamenta-se diretamente nos preceitos de **Consolidação e Relato dos Resultados** de Barbosa et al. (2021, Seção 11.7.5, Seção 12.2.1, pp. 262–290), garantindo rastreabilidade entre os achados empíricos, o **[Guia de Estilo](../../../../analise-de-requisitos/guia-de-estilo/introducao.md)** e as melhorias aplicadas no protótipo de alta fidelidade da **SEMOB-DF / DF no Ponto**.
 
@@ -20,9 +19,9 @@ A estrutura deste planejamento fundamenta-se diretamente nos preceitos de **Cons
 * **Cenário:** [Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)
 * **Análise de tarefas:** [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
 * **Storyboard:** [Storyboard 03](../../../nivel1/storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../../nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](../../../nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](planejamento-av-prot-alta-fidel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../../nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](../../../nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](planejamento-av-prot-alta-fidel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-03/index.html)
 
@@ -63,7 +62,7 @@ A análise dos dados coletados nas 3 sessões combinará a **consolidação quan
 Para priorizar a correção das falhas identificadas no protótipo navegável em HTML, será utilizada a **Escala de Severidade de Problemas de Usabilidade** de Nielsen (1994 apud BARBOSA et al., 2021), adotada como padrão pelo Grupo 05:
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escala de Severidade de Problemas de Usabilidade no Protótipo de Alta Fidelidade</p>
+<p><strong>Tabela 1</strong>: Escala de Severidade de Problemas de Usabilidade no Protótipo de Alta Fidelidade</p>
 </div>
 
 | Nível | Classificação de Severidade | Critério de Julgamento na Interação no Protótipo HTML (TAR-03) |
@@ -87,7 +86,7 @@ A seguir, apresentam-se os **quatro modelos de tabelas** que serão preenchidos 
 ### 4.1 Modelo de Tabela 1: Sumário Quantitativo de Desempenho por Sub-tarefa e Participante
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Modelo de Sumário de Desempenho dos 3 Participantes nas Sub-tarefas da TAR-03 no Protótipo HTML</p>
+<p><strong>Tabela 2</strong>: Modelo de Sumário de Desempenho dos 3 Participantes nas Sub-tarefas da TAR-03 no Protótipo HTML</p>
 </div>
 
 | Sub-tarefa (TAR-03) | Participante | Concluiu sem Ajuda? | Tempo Gasto (s) | Meta KLM / Referência | Cliques Incorretos (*Misclicks*) | Avaliação de Eficiência |
@@ -105,7 +104,7 @@ A seguir, apresentam-se os **quatro modelos de tabelas** que serão preenchidos 
 ### 4.2 Modelo de Tabela 2: Consolidação das Respostas da Entrevista Pós-Teste (DECIDE)
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Modelo de Consolidação das Respostas às Perguntas Investigativas (`QF01` a `QF06`)</p>
+<p><strong>Tabela 3</strong>: Modelo de Consolidação das Respostas às Perguntas Investigativas (`QF01` a `QF06`)</p>
 </div>
 
 | ID | Foco Investigado | Pergunta Aplicada aos 3 Participantes | Síntese Qualitativa das Respostas (`P01`, `P02`, `P03`) | Status de Validação |
@@ -126,7 +125,7 @@ A seguir, apresentam-se os **quatro modelos de tabelas** que serão preenchidos 
 ### 4.3 Modelo de Tabela 3: Registro e Priorização de Problemas de IHC no Protótipo HTML
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Modelo de Registro e Priorização de Problemas de Usabilidade Detectados no Protótipo HTML</p>
+<p><strong>Tabela 4</strong>: Modelo de Registro e Priorização de Problemas de Usabilidade Detectados no Protótipo HTML</p>
 </div>
 
 | ID Problema | Local / Componente no Protótipo HTML | Fatores de Usabilidade Prejudicados | Descrição e Justificativa do Problema (Ocorrência em `P01`/`P02`/`P03`) | Severidade (0 a 4) | Ação Corretiva / Reprojeto no Código HTML/CSS/JS |
@@ -143,7 +142,7 @@ A seguir, apresentam-se os **quatro modelos de tabelas** que serão preenchidos 
 ### 4.4 Modelo de Tabela 4: Verificação de Conformidade com o Guia de Estilo do Grupo 05
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Modelo de Avaliação de Conformidade com o Guia de Estilo na TAR-03</p>
+<p><strong>Tabela 5</strong>: Modelo de Avaliação de Conformidade com o Guia de Estilo na TAR-03</p>
 </div>
 
 | Diretriz do Guia de Estilo | Especificação Implementada no Protótipo HTML (TAR-03) | Evidência Observada com os 3 Participantes | Status |
@@ -178,8 +177,8 @@ Na Seção 11.7.5 (pp. 262–263), os autores destacam que a consolidação deve
 
 <div align="center">
   <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png" alt="11.7.5 Consolidação e relato dos resultados (BARBOSA et al., 2021, p. 263)" width="85%">
-  <p><strong>Figura 1</strong> — Diretrizes para consolidação dos resultados e estrutura obrigatória do relatório de avaliação de IHC</p>
-  <p><em>Fonte: BARBOSA et al. (2021, Seção 11.7.5, p. 263). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+  <p><strong>Figura 1</strong>: Diretrizes para consolidação dos resultados e estrutura obrigatória do relatório de avaliação de IHC</p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 11.7.5, p. 263).</em></p>
 </div>
 
 ### 6.2 Elementos Obrigatórios da Lista de Problemas e Priorização
@@ -187,8 +186,8 @@ Nas páginas 305 e 306 (Seção 12.2.3) e na Seção 12.2.1 (Teste de Usabilidad
 
 <div align="center">
   <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png" alt="Prototipação em papel: conteúdo do relato dos resultados (BARBOSA et al., 2021, pp. 305–306)" width="85%">
-  <p><strong>Figura 2</strong> — Atributos obrigatórios para documentação de problemas de usabilidade e Tabela 12.10 (adequação máxima do Teste de Usabilidade)</p>
-  <p><em>Fonte: BARBOSA et al. (2021, Seção 12.2.3, pp. 305–306). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+  <p><strong>Figura 2</strong>: Atributos obrigatórios para documentação de problemas de usabilidade e Tabela 12.10 (adequação máxima do Teste de Usabilidade)</p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 12.2.3, pp. 305–306).</em></p>
 </div>
 
 ### 6.3 Avaliar, Interpretar e Apresentar os Dados no Framework DECIDE
@@ -196,8 +195,8 @@ Na página 313, a etapa **E (*Evaluate*)** do Framework DECIDE estabelece os cri
 
 <div align="center">
   <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-decide.png" alt="11.8 Framework DECIDE (BARBOSA et al., 2021, p. 264)" width="85%">
-  <p><strong>Figura 3</strong> — Critérios de confiabilidade e validade na etapa de interpretação e apresentação dos dados do DECIDE</p>
-  <p><em>Fonte: BARBOSA et al. (2021, Seção 11.8, p. 264). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+  <p><strong>Figura 3</strong>: Critérios de confiabilidade e validade na etapa de interpretação e apresentação dos dados do DECIDE</p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 11.8, p. 264).</em></p>
 </div>
 
 
@@ -208,7 +207,7 @@ As Figuras 4 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-03](.
 * **Protótipo navegável:** [Acessar o protótipo da TAR-03](../../../../prototipos/tar-03/index.html)
 
 <div id="figura-4" align="center" markdown="1">
-<p><strong>Figura 4</strong> — T1 Home e Origem GPS</p>
+<p><strong>Figura 4</strong>: T1 Home e Origem GPS</p>
 
 ![T1 Home e Origem GPS](../../../../assets/images/prototipo-tar03/T1-home.png){ width="300" }
 
@@ -216,7 +215,7 @@ As Figuras 4 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-03](.
 </div>
 
 <div id="figura-5" align="center" markdown="1">
-<p><strong>Figura 5</strong> — T2 Busca Preditiva ("SIA")</p>
+<p><strong>Figura 5</strong>: T2 Busca Preditiva ("SIA")</p>
 
 ![T2 Busca Preditiva ('SIA')](../../../../assets/images/prototipo-tar03/T2-autocompletar.png){ width="300" }
 
@@ -224,7 +223,7 @@ As Figuras 4 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-03](.
 </div>
 
 <div id="figura-6" align="center" markdown="1">
-<p><strong>Figura 6</strong> — T3 Comparador de Rotas</p>
+<p><strong>Figura 6</strong>: T3 Comparador de Rotas</p>
 
 ![T3 Comparador de Rotas](../../../../assets/images/prototipo-tar03/T3-comparador-rotas.png){ width="300" }
 
@@ -232,7 +231,7 @@ As Figuras 4 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-03](.
 </div>
 
 <div id="figura-7" align="center" markdown="1">
-<p><strong>Figura 7</strong> — T4 Mapa Ao Vivo (Linha 092.1)</p>
+<p><strong>Figura 7</strong>: T4 Mapa Ao Vivo (Linha 092.1)</p>
 
 ![T4 Mapa Ao Vivo (Linha 092.1)](../../../../assets/images/prototipo-tar03/T4-mapa-ao-vivo.png){ width="300" }
 
@@ -240,7 +239,7 @@ As Figuras 4 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-03](.
 </div>
 
 <div id="figura-8" align="center" markdown="1">
-<p><strong>Figura 8</strong> — T5 Alerta de Retenção (+14 min)</p>
+<p><strong>Figura 8</strong>: T5 Alerta de Retenção (+14 min)</p>
 
 ![T5 Alerta de Retenção (+14 min)](../../../../assets/images/prototipo-tar03/T5-alerta-retencao.png){ width="300" }
 
@@ -248,7 +247,7 @@ As Figuras 4 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-03](.
 </div>
 
 <div id="figura-9" align="center" markdown="1">
-<p><strong>Figura 9</strong> — T6 Grade Horária Offline</p>
+<p><strong>Figura 9</strong>: T6 Grade Horária Offline</p>
 
 ![T6 Grade Horária Offline](../../../../assets/images/prototipo-tar03/T6-horarios-offline.png){ width="300" }
 
@@ -262,23 +261,23 @@ As Figuras 4 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-03](.
 As Figuras 10 a 11 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-10" align="center">
-<p><strong>Figura 10</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+<p><strong>Figura 10</strong>: 11.7.5 Consolidação e relato dos resultados</p>
 </div>
 
-![Figura 10 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+![Figura 10: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div id="figura-11" align="center">
-<p><strong>Figura 11</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+<p><strong>Figura 11</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
 </div>
 
-![Figura 11 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+![Figura 11: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
 </div>
 
 ---

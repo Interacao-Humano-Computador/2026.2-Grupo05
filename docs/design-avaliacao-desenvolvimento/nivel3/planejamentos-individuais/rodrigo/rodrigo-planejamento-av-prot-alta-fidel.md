@@ -3,16 +3,9 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 02/11/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Alta Fidelidade (Figma) da TAR-08 via DECIDE, com amostragem fundamentada na teoria de Steve Krug. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - estruturação sintática em Markdown e suporte na revisão gramatical. |
-| 03/11/2026 | `1.1` | Correção do caminho do link para o planejamento do protótipo de papel (Nível 2), que quebrava o `mkdocs build --strict`. | [Carlos Costa](https://github.com/carloshfgit) | — | Claude (Anthropic) - apenas corrigiu o link em Markdown |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
+| 03/11/2026 | `1.1` | Correção do caminho do link para o planejamento do protótipo de papel (Nível 2), que quebrava o `mkdocs build --strict`. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic) - apenas corrigiu o link em Markdown |
 
 
-!!! warning "Observação para correção manual"
-    A justificativa do número de participantes citava Steve Krug, que não é referência do livro da disciplina. O trecho foi reescrito com base em Barbosa et al. (2021, pp. 258–259), que citam Nielsen (2000 apud BARBOSA et al., 2021) e Dumas e Redish (1999 apud BARBOSA et al., 2021). O autor deve revisar se a nova redação mantém o sentido pretendido.
-
-
-!!! warning "Observação para correção manual"
-    Falta o link do protótipo de alta fidelidade da TAR-08 no Figma. O autor deve incluir o link de apresentação do Figma junto às telas do protótipo.
 
 ---
 
@@ -30,16 +23,16 @@ A avaliação será realizada com usuários reais utilizando o **Framework DECID
 * **Cenário:** [Cenário 11](../../../../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
 * **Análise de tarefas:** [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
 * **Storyboard:** [Storyboard 06](../../../nivel1/storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
-* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+* **Protótipo de alta fidelidade navegável:** *não disponível*
 
 
 ---
 
-## 1. D — Determinar os Objetivos da Avaliação
+## 1. D: Determinar os Objetivos da Avaliação
 
 De acordo com Mayhew (1999 apud BARBOSA et al., 2021) e Barbosa et al. (2021, Cap. 6, p. 106; Cap. 11, p. 248), a avaliação do protótipo de alta fidelidade ocorre no Nível 3 do ciclo de vida da engenharia de usabilidade. Seu propósito é validar o design detalhado da interface interativa em um ambiente próximo do produto final antes do desenvolvimento de software executável.
 
@@ -53,12 +46,12 @@ De acordo com Mayhew (1999 apud BARBOSA et al., 2021) e Barbosa et al. (2021, Ca
 
 ---
 
-## 2. E — Explorar as Perguntas a Serem Respondidas
+## 2. E: Explorar as Perguntas a Serem Respondidas
 
 Para operacionalizar os objetivos definidos, estruturou-se um roteiro de perguntas investigativas a serem respondidas por meio da observação direta das interações no Figma e da entrevista pós-teste (Barbosa et al., 2021):
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Roteiro de Perguntas para Avaliação do Protótipo de Alta Fidelidade</p>
+<p><strong>Tabela 1</strong>: Roteiro de Perguntas para Avaliação do Protótipo de Alta Fidelidade</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta Investigativa da Avaliação | Critério de Aceitação / Resposta Esperada |
@@ -76,7 +69,7 @@ Para operacionalizar os objetivos definidos, estruturou-se um roteiro de pergunt
 
 ---
 
-## 3. C — Choose (Escolher) os Métodos de Avaliação
+## 3. C: Choose (Escolher) os Métodos de Avaliação
 
 O método selecionado é o **Teste de Usabilidade (Empírico / Observação de Uso em Ambiente Controlado)** utilizando o protótipo digital interativo no **Figma** (Barbosa et al., 2021, Seção 12.2.1).
 
@@ -85,11 +78,11 @@ O método selecionado é o **Teste de Usabilidade (Empírico / Observação de U
 
 ---
 
-## 4. I — Identificar e Administrar as Questões Práticas
+## 4. I: Identificar e Administrar as Questões Práticas
 
-### 4.1 Planejamento do Recrutamento dos Entrevistados: Fundamentação e Justificativa do Número de Participantes
+### 4.1 Planejamento do Recrutamento dos Entrevistados: Fundamentação em Steve Krug e justificativa do número de participantes
 
-O recrutamento dos participantes para esta avaliação de alta fidelidade segue as orientações de Barbosa et al. (2021, pp. 258–259) sobre o perfil e o número de participantes:
+O recrutamento combina as orientações de Barbosa et al. (2021, pp. 258–259) sobre perfil, escopo e recursos com a proposta de testes pequenos e recorrentes de Steve Krug. Krug (2000, cap. 9) recomenda três ou quatro participantes por rodada para identificar os principais problemas e permitir a correção do produto antes de uma nova rodada. Assim, três participantes correspondem ao limite inferior dessa recomendação e são compatíveis com o prazo da disciplina:
 
 * **Quantidade de Entrevistados:** Serão recrutados **3 participantes** representantes do público-alvo primário.
 * **Fundamentação Teórica (Barbosa et al., 2021, pp. 258–259):** o perfil e o número de participantes são escolhidos com base nos perfis de usuários, nos objetivos e no escopo da avaliação. Nielsen (2000 apud BARBOSA et al., 2021) afirma que bastam cinco usuários para encontrar a maioria dos problemas na interface, e o livro observa que o tempo e os recursos disponíveis podem inviabilizar amostras maiores. Com base nisso:
@@ -129,7 +122,7 @@ O protótipo interativo de alta fidelidade será executado no modo de apresenta�
 ### 4.5 Cronograma e Logística das Sessões com os 3 Participantes
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Agendamento das Sessões</p>
+<p><strong>Tabela 2</strong>: Agendamento das Sessões</p>
 </div>
 
 | Sessão | Participante Recrutado | Perfil do Participante | Data e Horário | Duração Prevista |
@@ -154,7 +147,7 @@ Em cumprimento rigoroso ao **Item 11 do checklist do Plano de Ensino** e às rec
 
 ---
 
-## 5. D — Decidir como Lidar com as Questões Éticas
+## 5. D: Decidir como Lidar com as Questões Éticas
 
 A condução da avaliação atende com rigor às Resoluções nº 466/2012 e nº 510/2016 do Conselho Nacional de Saúde (CNS) e às diretrizes éticas em IHC (Barbosa et al., 2021, Seção 7.4):
 
@@ -164,7 +157,7 @@ A condução da avaliação atende com rigor às Resoluções nº 466/2012 e nº
 
 ---
 
-## 6. E — Avaliar, Interpretar e Apresentar os Dados
+## 6. E: Avaliar, Interpretar e Apresentar os Dados
 
 A análise dos resultados combinará abordagens quantitativas e qualitativas (Barbosa et al., 2021, Seção 12.2.1):
 
@@ -184,7 +177,7 @@ A análise dos resultados combinará abordagens quantitativas e qualitativas (Ba
 As Figuras 1 a 7 mostram as telas do protótipo de alta fidelidade da [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md).
 
 <div id="figura-1" align="center" markdown="1">
-<p><strong>Figura 1</strong> — Tela inicial da Ouvidoria da SEMOB-DF</p>
+<p><strong>Figura 1</strong>: Tela inicial da Ouvidoria da SEMOB-DF</p>
 
 ![Tela inicial da Ouvidoria da SEMOB-DF](../../../../assets/images/prot-alta-fidel-rodrigo-1.png){ width="800" }
 
@@ -192,7 +185,7 @@ As Figuras 1 a 7 mostram as telas do protótipo de alta fidelidade da [TAR-08](.
 </div>
 
 <div id="figura-2" align="center" markdown="1">
-<p><strong>Figura 2</strong> — Etapa 1 — Checklist “Antes de começar, tenha em mãos”</p>
+<p><strong>Figura 2</strong>: Etapa 1 — Checklist “Antes de começar, tenha em mãos”</p>
 
 ![Etapa 1 — Checklist “Antes de começar, tenha em mãos”](../../../../assets/images/prot-alta-fidel-rodrigo-2.png){ width="800" }
 
@@ -200,7 +193,7 @@ As Figuras 1 a 7 mostram as telas do protótipo de alta fidelidade da [TAR-08](.
 </div>
 
 <div id="figura-3" align="center" markdown="1">
-<p><strong>Figura 3</strong> — Etapa 2 — Seleção do motivo da reclamação</p>
+<p><strong>Figura 3</strong>: Etapa 2 — Seleção do motivo da reclamação</p>
 
 ![Etapa 2 — Seleção do motivo da reclamação](../../../../assets/images/prot-alta-fidel-rodrigo-3.png){ width="800" }
 
@@ -208,7 +201,7 @@ As Figuras 1 a 7 mostram as telas do protótipo de alta fidelidade da [TAR-08](.
 </div>
 
 <div id="figura-4" align="center" markdown="1">
-<p><strong>Figura 4</strong> — Etapa 3 — Preenchimento dos dados da ocorrência</p>
+<p><strong>Figura 4</strong>: Etapa 3 — Preenchimento dos dados da ocorrência</p>
 
 ![Etapa 3 — Preenchimento dos dados da ocorrência](../../../../assets/images/prot-alta-fidel-rodrigo-4.png){ width="800" }
 
@@ -216,7 +209,7 @@ As Figuras 1 a 7 mostram as telas do protótipo de alta fidelidade da [TAR-08](.
 </div>
 
 <div id="figura-5" align="center" markdown="1">
-<p><strong>Figura 5</strong> — Etapa 4 — Resumo pronto para cópia</p>
+<p><strong>Figura 5</strong>: Etapa 4 — Resumo pronto para cópia</p>
 
 ![Etapa 4 — Resumo pronto para cópia](../../../../assets/images/prot-alta-fidel-rodrigo-5.png){ width="800" }
 
@@ -224,7 +217,7 @@ As Figuras 1 a 7 mostram as telas do protótipo de alta fidelidade da [TAR-08](.
 </div>
 
 <div id="figura-6" align="center" markdown="1">
-<p><strong>Figura 6</strong> — Registro do relato no Participa-DF</p>
+<p><strong>Figura 6</strong>: Registro do relato no Participa-DF</p>
 
 ![Registro do relato no Participa-DF](../../../../assets/images/prot-alta-fidel-rodrigo-6.png){ width="800" }
 
@@ -232,7 +225,7 @@ As Figuras 1 a 7 mostram as telas do protótipo de alta fidelidade da [TAR-08](.
 </div>
 
 <div id="figura-7" align="center" markdown="1">
-<p><strong>Figura 7</strong> — Tela de sucesso com o protocolo gerado</p>
+<p><strong>Figura 7</strong>: Tela de sucesso com o protocolo gerado</p>
 
 ![Tela de sucesso com o protocolo gerado](../../../../assets/images/prot-alta-fidel-rodrigo-7.png){ width="800" }
 
@@ -246,43 +239,43 @@ As Figuras 1 a 7 mostram as telas do protótipo de alta fidelidade da [TAR-08](.
 As Figuras 8 a 11 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-8" align="center">
-<p><strong>Figura 8</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 8</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 8 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 8: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div id="figura-9" align="center">
-<p><strong>Figura 9</strong> — Representação de interface em alta fidelidade</p>
+<p><strong>Figura 9</strong>: Representação de interface em alta fidelidade</p>
 </div>
 
-![Figura 9 — Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+![Figura 9: Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 210). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 210).</em></p>
 </div>
 
 <div id="figura-10" align="center">
-<p><strong>Figura 10</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+<p><strong>Figura 10</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
 </div>
 
-![Figura 10 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+![Figura 10: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
 </div>
 
 <div id="figura-11" align="center">
-<p><strong>Figura 11</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+<p><strong>Figura 11</strong>: 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
 </div>
 
-![Figura 11 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+![Figura 11: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 ---
@@ -290,3 +283,4 @@ As Figuras 8 a 11 mostram os trechos que fundamentam este artefato, recortados e
 ## 9. Referências Bibliográficas
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11, p. 245–266; Capítulo 12, Seção 12.2.1, p. 288–291).
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.
+* KRUG, Steve. **Don't Make Me Think! A Common Sense Approach to Web Usability**. Indianapolis: New Riders, 2000. Cap. 9.

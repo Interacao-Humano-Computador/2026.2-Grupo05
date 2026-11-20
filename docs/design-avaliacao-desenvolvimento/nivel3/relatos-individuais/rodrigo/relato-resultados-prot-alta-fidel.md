@@ -3,11 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 15/11/2026 | `1.0` | Consolidação e relato dos resultados da avaliação de usabilidade do Protótipo de Alta Fidelidade (TAR-08) com 3 participantes. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - Utilizada para apoio na estruturação das tabelas em Markdown e transcrição/revisão sintática dos dados empíricos. |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
-
-!!! warning "Observação para correção manual"
-    Falta o link do protótipo de alta fidelidade da TAR-08 no Figma. O autor deve incluir o link de apresentação do Figma junto às telas do protótipo.
 
 ---
 
@@ -23,11 +19,11 @@ A condução e a interpretação dos resultados seguem o [Planejamento da Avalia
 * **Cenário:** [Cenário 11](../../../../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
 * **Análise de tarefas:** [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
 * **Storyboard:** [Storyboard 06](../../../nivel1/storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · Relato dos resultados (*esta página*)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · Relato dos resultados (*esta página*)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
-* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+* **Protótipo de alta fidelidade navegável:** *não disponível*
 
 
 ---
@@ -51,43 +47,43 @@ O fluxo implementado no Figma é conduzido por um assistente em **4 etapas** (Ch
 ### 1.1 Telas do Protótipo
 
 <div align="center">
-<p><strong>Figura 1</strong> — Tela inicial da Ouvidoria da SEMOB-DF</p>
+<p><strong>Figura 1</strong>: Tela inicial da Ouvidoria da SEMOB-DF</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-1.png" alt="Tela inicial da Ouvidoria da SEMOB-DF" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Figura 2</strong> — Etapa 1 — Checklist “Antes de começar, tenha em mãos”</p>
+<p><strong>Figura 2</strong>: Etapa 1 — Checklist “Antes de começar, tenha em mãos”</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-2.png" alt="Etapa 1 — Checklist “Antes de começar, tenha em mãos”" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Figura 3</strong> — Etapa 2 — Seleção do motivo da reclamação</p>
+<p><strong>Figura 3</strong>: Etapa 2 — Seleção do motivo da reclamação</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-3.png" alt="Etapa 2 — Seleção do motivo da reclamação" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Figura 4</strong> — Etapa 3 — Preenchimento dos dados da ocorrência</p>
+<p><strong>Figura 4</strong>: Etapa 3 — Preenchimento dos dados da ocorrência</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-4.png" alt="Etapa 3 — Preenchimento dos dados da ocorrência" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Figura 5</strong> — Etapa 4 — Resumo pronto para cópia</p>
+<p><strong>Figura 5</strong>: Etapa 4 — Resumo pronto para cópia</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-5.png" alt="Etapa 4 — Resumo pronto para cópia" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Figura 6</strong> — Registro do relato no Participa-DF</p>
+<p><strong>Figura 6</strong>: Registro do relato no Participa-DF</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-6.png" alt="Registro do relato no Participa-DF" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Figura 7</strong> — Tela de sucesso com o protocolo gerado</p>
+<p><strong>Figura 7</strong>: Tela de sucesso com o protocolo gerado</p>
 <img src="../../../../../assets/images/prot-alta-fidel-rodrigo-7.png" alt="Tela de sucesso com o protocolo gerado" width="800">
 <p><em>Fonte: Elaborado por Rodrigo Barbosa (2026).</em></p>
 </div>
@@ -117,7 +113,7 @@ Conforme definido na etapa **D — Determinar os Objetivos** do [Planejamento da
 ### 2.3 Perguntas da Avaliação (Framework DECIDE)
 
 <div align="center">
-<p><strong>Quadro 1</strong> — Perguntas Investigativas da Avaliação</p>
+<p><strong>Quadro 1</strong>: Perguntas Investigativas da Avaliação</p>
 </div>
 
 | ID | Foco | Pergunta Investigativa |
@@ -160,7 +156,7 @@ A avaliação adotou o método de **Teste de Usabilidade (Observação de Uso em
 A amostragem foi dimensionada em **três participantes**, conforme o planejamento da avaliação, com base nas orientações de Barbosa et al. (2021, pp. 258–259) sobre o perfil e o número de participantes e na referência de Nielsen (2000 apud BARBOSA et al., 2021), segundo a qual poucos usuários bastam para encontrar a maioria dos problemas na interface.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Caracterização dos Participantes Recrutados</p>
+<p><strong>Tabela 1</strong>: Caracterização dos Participantes Recrutados</p>
 </div>
 
 | Participante | Perfil Demográfico / Ocupação | Relação com o Transporte Público no DF | Duração da Sessão | Data da Sessão |
@@ -182,7 +178,7 @@ A amostragem foi dimensionada em **três participantes**, conforme o planejament
 Os três participantes concluíram o fluxo completo da reclamação, do card inicial até a tela de sucesso com o protocolo, sem desistências. Os tempos foram medidos a partir das gravações, do primeiro clique no protótipo até a tela de registro realizado com sucesso.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Desempenho Quantitativo nas Tarefas da TAR-08 no Figma</p>
+<p><strong>Tabela 2</strong>: Desempenho Quantitativo nas Tarefas da TAR-08 no Figma</p>
 </div>
 
 | ID Tarefa | Descrição da Tarefa no Figma | Sucesso sem Ajuda (P1, P2, P3) | Taxa de Conclusão sem Ajuda | Intervenções do Facilitador |
@@ -198,7 +194,7 @@ Os três participantes concluíram o fluxo completo da reclamação, do card ini
 </div>
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Tempo Total de Execução da Tarefa</p>
+<p><strong>Tabela 3</strong>: Tempo Total de Execução da Tarefa</p>
 </div>
 
 | Participante | Início da Tarefa (gravação) | Tela de Sucesso (gravação) | Tempo Total Aproximado |
@@ -222,7 +218,7 @@ Os três participantes concluíram o fluxo completo da reclamação, do card ini
 ### 5.2 Consolidação Qualitativa das Respostas da Entrevista Pós-Teste (DECIDE)
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Síntese das Respostas da Entrevista Pós-Teste por Participante</p>
+<p><strong>Tabela 4</strong>: Síntese das Respostas da Entrevista Pós-Teste por Participante</p>
 </div>
 
 | ID | Pergunta Aplicada | Entrevistado 1 | Entrevistado 2 | Entrevistado 3 | Avaliação da Interface |
@@ -247,7 +243,7 @@ Ao serem perguntados, no início da entrevista, se haviam notado algum problema,
 A análise das interações e dos comentários dos entrevistados permitiu identificar três pontos de refinamento, classificados segundo a escala de severidade de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021):
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Registro, Classificação e Priorização de Problemas de Usabilidade</p>
+<p><strong>Tabela 5</strong>: Registro, Classificação e Priorização de Problemas de Usabilidade</p>
 </div>
 
 | ID Problema | Descrição do Problema Observado | Tela / Componente Afetado | Severidade (0 a 4) | Fatores de Usabilidade Prejudicados | Recomendação de Reprojeto no Figma |
@@ -265,7 +261,7 @@ A análise das interações e dos comentários dos entrevistados permitiu identi
 ## 7. Avaliação de Conformidade com o Guia de Estilo do Grupo 05
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Conformidade das Telas do Figma com o Guia de Estilo</p>
+<p><strong>Tabela 6</strong>: Conformidade das Telas do Figma com o Guia de Estilo</p>
 </div>
 
 | Diretriz do Guia de Estilo | Padrão Esperado no Figma | Resultado nos Testes com os 3 Usuários | Situação |
@@ -304,33 +300,33 @@ O principal achado foi a divergência sobre a opcionalidade do número do ônibu
 As Figuras 8 a 10 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-8" align="center">
-<p><strong>Figura 8</strong> — Representação de interface em alta fidelidade</p>
+<p><strong>Figura 8</strong>: Representação de interface em alta fidelidade</p>
 </div>
 
-![Figura 8 — Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+![Figura 8: Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 210). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 210).</em></p>
 </div>
 
 <div id="figura-9" align="center">
-<p><strong>Figura 9</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+<p><strong>Figura 9</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
 </div>
 
-![Figura 9 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+![Figura 9: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
 </div>
 
 <div id="figura-10" align="center">
-<p><strong>Figura 10</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+<p><strong>Figura 10</strong>: 11.7.5 Consolidação e relato dos resultados</p>
 </div>
 
-![Figura 10 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+![Figura 10: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 ---

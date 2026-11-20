@@ -3,7 +3,6 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 12/11/2026 | `1.0` | Consolidação e relato dos resultados da avaliação de usabilidade do Protótipo de Alta Fidelidade (TAR-01) com 3 participantes. | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - Utilizada para apoio na estruturação das tabelas em Markdown e transcrição/revisão sintática dos dados empíricos. |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -19,9 +18,9 @@ A condução e a interpretação dos resultados fundamentam-se nas diretrizes me
 * **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md)
 * **Análise de tarefas:** [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md)
 * **Storyboard:** [Storyboard 01](../../../nivel1/storyboards.md#31-storyboard-01-alerta-inteligente-de-saida-de-casa)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md) · Relato dos resultados (*esta página*)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md) · Relato dos resultados (*esta página*)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://www.figma.com/proto/00YEuKWtN4N1rBzpC8V7Gd/prototipo-de-igor?node-id=0-1&t=S9Z2PNsKlHC3LlTt-1)
 
@@ -39,7 +38,7 @@ O objeto desta avaliação é o protótipo interativo de alta fidelidade da **[T
 As Figuras 1 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md).
 
 <div id="figura-1" align="center" markdown="1">
-<p><strong>Figura 1</strong> — Alerta de saída imediata, com as opções "Estou saindo!" e "Buscar rota alternativa" (página 1 do PDF das telas)</p>
+<p><strong>Figura 1</strong>: Alerta de saída imediata, com as opções "Estou saindo!" e "Buscar rota alternativa" (página 1 do PDF das telas)</p>
 
 ![Alerta de saída imediata, com as opções 'Estou saindo!' e 'Buscar rota alternativa' (página 1 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-01.png){ width="320" }
 
@@ -47,7 +46,7 @@ As Figuras 1 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-01](.
 </div>
 
 <div id="figura-2" align="center" markdown="1">
-<p><strong>Figura 2</strong> — Mapa do trajeto a pé até a parada (página 2 do PDF das telas)</p>
+<p><strong>Figura 2</strong>: Mapa do trajeto a pé até a parada (página 2 do PDF das telas)</p>
 
 ![Mapa do trajeto a pé até a parada (página 2 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-02.png){ width="320" }
 
@@ -55,7 +54,7 @@ As Figuras 1 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-01](.
 </div>
 
 <div id="figura-3" align="center" markdown="1">
-<p><strong>Figura 3</strong> — Tela inicial com origem, destino, destinos favoritos e linhas favoritas (página 3 do PDF das telas)</p>
+<p><strong>Figura 3</strong>: Tela inicial com origem, destino, destinos favoritos e linhas favoritas (página 3 do PDF das telas)</p>
 
 ![Tela inicial com origem, destino, destinos favoritos e linhas favoritas (página 3 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-03.png){ width="320" }
 
@@ -63,7 +62,7 @@ As Figuras 1 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-01](.
 </div>
 
 <div id="figura-4" align="center" markdown="1">
-<p><strong>Figura 4</strong> — Monitoramento ativo da linha BRT 2202 (TR-21) (página 4 do PDF das telas)</p>
+<p><strong>Figura 4</strong>: Monitoramento ativo da linha BRT 2202 (TR-21) (página 4 do PDF das telas)</p>
 
 ![Monitoramento ativo da linha BRT 2202 (TR-21) (página 4 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-04.png){ width="320" }
 
@@ -71,7 +70,7 @@ As Figuras 1 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-01](.
 </div>
 
 <div id="figura-5" align="center" markdown="1">
-<p><strong>Figura 5</strong> — Rotas alternativas para o destino UnB – Campus Gama (página 5 do PDF das telas)</p>
+<p><strong>Figura 5</strong>: Rotas alternativas para o destino UnB – Campus Gama (página 5 do PDF das telas)</p>
 
 ![Rotas alternativas para o destino UnB – Campus Gama (página 5 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-05.png){ width="320" }
 
@@ -79,7 +78,7 @@ As Figuras 1 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-01](.
 </div>
 
 <div id="figura-6" align="center" markdown="1">
-<p><strong>Figura 6</strong> — Monitoramento ativo da rota 206.1 (página 6 do PDF das telas)</p>
+<p><strong>Figura 6</strong>: Monitoramento ativo da rota 206.1 (página 6 do PDF das telas)</p>
 
 ![Monitoramento ativo da rota 206.1 (página 6 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-06.png){ width="320" }
 
@@ -87,7 +86,7 @@ As Figuras 1 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-01](.
 </div>
 
 <div id="figura-7" align="center" markdown="1">
-<p><strong>Figura 7</strong> — Monitoramento ativo da rota 207.3 → 208.1 (página 7 do PDF das telas)</p>
+<p><strong>Figura 7</strong>: Monitoramento ativo da rota 207.3 → 208.1 (página 7 do PDF das telas)</p>
 
 ![Monitoramento ativo da rota 207.3 → 208.1 (página 7 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-07.png){ width="320" }
 
@@ -95,7 +94,7 @@ As Figuras 1 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-01](.
 </div>
 
 <div id="figura-8" align="center" markdown="1">
-<p><strong>Figura 8</strong> — Monitoramento ativo da rota 108.2 → 209.1 (página 8 do PDF das telas)</p>
+<p><strong>Figura 8</strong>: Monitoramento ativo da rota 108.2 → 209.1 (página 8 do PDF das telas)</p>
 
 ![Monitoramento ativo da rota 108.2 → 209.1 (página 8 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-08.png){ width="320" }
 
@@ -103,7 +102,7 @@ As Figuras 1 a 9 mostram as telas do protótipo de alta fidelidade da [TAR-01](.
 </div>
 
 <div id="figura-9" align="center" markdown="1">
-<p><strong>Figura 9</strong> — Monitoramento ativo da linha BRT 2202 (TR-21) (página 9 do PDF das telas)</p>
+<p><strong>Figura 9</strong>: Monitoramento ativo da linha BRT 2202 (TR-21) (página 9 do PDF das telas)</p>
 
 ![Monitoramento ativo da linha BRT 2202 (TR-21) (página 9 do PDF das telas)](../../../../assets/images/prototipo-tar01/igor-alta-09.png){ width="320" }
 
@@ -140,7 +139,7 @@ Conforme definido na etapa **D — Determinar os Objetivos** do [Planejamento da
 Na etapa **E — Explorar as Perguntas** do Framework DECIDE (Barbosa et al., 2021), foram definidas as perguntas investigativas que orientaram a observação e a entrevista pós-teste, cujas respostas são consolidadas na Seção 5.2:
 
 <div align="center">
-<p><strong>Quadro 1</strong> — Perguntas Investigativas da Avaliação</p>
+<p><strong>Quadro 1</strong>: Perguntas Investigativas da Avaliação</p>
 </div>
 
 | ID | Foco | Pergunta Investigativa |
@@ -188,7 +187,7 @@ A avaliação adotou o método de **Teste de Usabilidade (Observação de Uso em
 A amostragem foi dimensionada em **três participantes**, conforme o planejamento da avaliação, com base nas orientações de Barbosa et al. (2021, pp. 258–259) sobre o perfil e o número de participantes e na referência de Nielsen (2000 apud BARBOSA et al., 2021), segundo a qual poucos usuários bastam para encontrar a maioria dos problemas na interface.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Caracterização Demográfica e Perfil dos Participantes Recrutados</p>
+<p><strong>Tabela 1</strong>: Caracterização Demográfica e Perfil dos Participantes Recrutados</p>
 </div>
 
 | Participante | Perfil Demográfico / Ocupação | Frequência de Uso de Transporte no DF | Familiaridade com Apps de Mobilidade (Moovit / Maps) | Data da Sessão |
@@ -210,7 +209,7 @@ A amostragem foi dimensionada em **três participantes**, conforme o planejament
 Todos os três participantes conseguiram interagir com o protótipo de alta fidelidade de maneira fluida, explorando os cards de rotas, compreendendo a distância/quilometragem, acionando o mapa e navegando pelas rotas alternativas sem desistências ou bloqueios.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Desempenho Quantitativo nas Tarefas da TAR-01 no Figma</p>
+<p><strong>Tabela 2</strong>: Desempenho Quantitativo nas Tarefas da TAR-01 no Figma</p>
 </div>
 
 | ID Tarefa | Descrição da Tarefa no Figma | Sucesso sem Ajuda (P1, P2, P3) | Taxa de Conclusão | Erros Críticos Observados | Avaliação Geral |
@@ -229,7 +228,7 @@ Todos os três participantes conseguiram interagir com o protótipo de alta fide
 ### 5.2 Consolidação Qualitativa das Respostas da Entrevista Pós-Teste (DECIDE)
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Síntese das Respostas da Entrevista Pós-Teste por Participante</p>
+<p><strong>Tabela 3</strong>: Síntese das Respostas da Entrevista Pós-Teste por Participante</p>
 </div>
 
 | ID | Pergunta Investigativa | Entrevistado 1 | Entrevistado 2 | Entrevistado 3 | Conclusão da Avaliação |
@@ -252,7 +251,7 @@ Todos os três participantes conseguiram interagir com o protótipo de alta fide
 A análise das interações e dos comentários espontâneos dos entrevistados permitiu identificar dois pontos de refinamento de interface, classificados segundo a escala de severidade de problemas de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021):
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Registro, Classificação e Priorização de Problemas de Usabilidade</p>
+<p><strong>Tabela 4</strong>: Registro, Classificação e Priorização de Problemas de Usabilidade</p>
 </div>
 
 | ID Problema | Descrição do Problema Observado | Tela / Componente Afetado | Severidade (0 a 4) | Princípio de IHC Prejudicado | Sugestão de Reprojeto no Figma |
@@ -269,7 +268,7 @@ A análise das interações e dos comentários espontâneos dos entrevistados pe
 ## 7. Avaliação de Conformidade com o Guia de Estilo do Grupo 05
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Conformidade das Telas do Figma com o Guia de Estilo</p>
+<p><strong>Tabela 5</strong>: Conformidade das Telas do Figma com o Guia de Estilo</p>
 </div>
 
 | Diretriz do Guia de Estilo | Padrão Especificado | Evidência nos Testes com os 3 Participantes | Situação |
@@ -308,33 +307,33 @@ Os dois problemas encontrados (PROB-F01 e PROB-F02) têm severidade leve e são 
 As Figuras 10 a 12 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-10" align="center">
-<p><strong>Figura 10</strong> — Representação de interface em alta fidelidade</p>
+<p><strong>Figura 10</strong>: Representação de interface em alta fidelidade</p>
 </div>
 
-![Figura 10 — Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+![Figura 10: Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 210). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 210).</em></p>
 </div>
 
 <div id="figura-11" align="center">
-<p><strong>Figura 11</strong> — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+<p><strong>Figura 11</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
 </div>
 
-![Figura 11 — 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+![Figura 11: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
 </div>
 
 <div id="figura-12" align="center">
-<p><strong>Figura 12</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+<p><strong>Figura 12</strong>: 11.7.5 Consolidação e relato dos resultados</p>
 </div>
 
-![Figura 12 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+![Figura 12: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 ---

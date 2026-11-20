@@ -3,8 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 10/11/2026 | `0.1` | Esqueleto do relato: estrutura das seções, descrição do protótipo e tabelas a preencher depois das sessões. Nenhum resultado registrado. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic) - montagem da estrutura e formatação em Markdown a partir do planejamento do relato do autor |
-| 14/11/2026 | `1.0` | Relato completo dos resultados da avaliação de alta fidelidade: consolidação dos dados da sessão presencial com P01, registro de desempenho nas tarefas AF1–AF3, respostas da entrevista pós-teste, análise das hipóteses, referência ao Teste Piloto (Ata 12) e inserção da gravação em vídeo. | [Carlos Costa](https://github.com/carloshfgit) | [Tomás Garcia Rocho](https://github.com/TomasRocho) | Antigravity (Google DeepMind) - consolidação e redação dos resultados a partir dos dados coletados na sessão presencial e observações do autor |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+| 14/11/2026 | `1.0` | Relato completo dos resultados da avaliação de alta fidelidade: consolidação dos dados da sessão presencial com P01, registro de desempenho nas tarefas AF1–AF3, respostas da entrevista pós-teste, análise das hipóteses, referência ao Teste Piloto (Ata 12) e inserção da gravação em vídeo. | [Carlos Costa](https://github.com/carloshfgit) | [Tomás Garcia Rocho](https://github.com/TomasRocho) | Google Gemini: consolidação e redação dos resultados a partir dos dados coletados na sessão presencial e das observações do autor |
 
 ---
 
@@ -20,9 +19,9 @@ Primeiro, os dados do participante são interpretados. Depois, os resultados sã
 * **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md); [Cenário 10](../../../../analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md)
 * **Análise de tarefas:** [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)
 * **Storyboard:** [Storyboard 08](../../../nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../../nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · Relato dos resultados (*esta página*)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../../nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · Relato dos resultados (*esta página*)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
 
@@ -47,7 +46,7 @@ A avaliação teve como objetivos:
 O protótipo é uma página em **HTML navegável**, executada no navegador do celular. A troca do Figma para o HTML está justificada na seção 5.1 do [Planejamento da Avaliação](../../planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md). O protótipo é versionado em repositório próprio do autor e publicado no GitHub Pages.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Identificação do protótipo avaliado</p>
+<p><strong>Tabela 1</strong>: Identificação do protótipo avaliado</p>
 </div>
 
 | Item | Detalhamento |
@@ -64,33 +63,33 @@ O protótipo é uma página em **HTML navegável**, executada no navegador do ce
 </div>
 
 <div align="center" id="imagem-1">
-<p><strong>Imagens 1 a 6</strong> — Telas do protótipo de alta fidelidade da TAR-06</p>
+<p><strong>Imagens 1 a 6</strong>: Telas do protótipo de alta fidelidade da TAR-06</p>
 </div>
 
 <div style="display:flex;flex-wrap:wrap;justify-content:center;gap:24px 20px">
   <figure style="margin:0;width:220px">
-    <img src="../../../../../assets/images/prototipo-tar06/A1-inicio.png" alt="Imagem 1 — Tela inicial" width="220">
-    <figcaption><strong>Imagem 1</strong> — A1 Início</figcaption>
+    <img src="../../../../../assets/images/prototipo-tar06/A1-inicio.png" alt="Imagem 1: Tela inicial" width="220">
+    <figcaption><strong>Imagem 1</strong>: A1 Início</figcaption>
   </figure>
   <figure style="margin:0;width:220px">
-    <img src="../../../../../assets/images/prototipo-tar06/A3-resultados-lugar.png" alt="Imagem 2 — Resultados por lugar" width="220">
-    <figcaption><strong>Imagem 2</strong> — A3 Resultados por lugar</figcaption>
+    <img src="../../../../../assets/images/prototipo-tar06/A3-resultados-lugar.png" alt="Imagem 2: Resultados por lugar" width="220">
+    <figcaption><strong>Imagem 2</strong>: A3 Resultados por lugar</figcaption>
   </figure>
   <figure style="margin:0;width:220px">
-    <img src="../../../../../assets/images/prototipo-tar06/A4-linha-2310.png" alt="Imagem 3 — Linha 2310" width="220">
-    <figcaption><strong>Imagem 3</strong> — A4 Linha</figcaption>
+    <img src="../../../../../assets/images/prototipo-tar06/A4-linha-2310.png" alt="Imagem 3: Linha 2310" width="220">
+    <figcaption><strong>Imagem 3</strong>: A4 Linha</figcaption>
   </figure>
   <figure style="margin:0;width:220px">
-    <img src="../../../../../assets/images/prototipo-tar06/N1-aviso.png" alt="Imagem 4 — Aviso de posição desatualizada" width="220">
-    <figcaption><strong>Imagem 4</strong> — N1 Aviso de posição desatualizada</figcaption>
+    <img src="../../../../../assets/images/prototipo-tar06/N1-aviso.png" alt="Imagem 4: Aviso de posição desatualizada" width="220">
+    <figcaption><strong>Imagem 4</strong>: N1 Aviso de posição desatualizada</figcaption>
   </figure>
   <figure style="margin:0;width:220px">
-    <img src="../../../../../assets/images/prototipo-tar06/A5-alternativas.png" alt="Imagem 5 — Alternativas" width="220">
-    <figcaption><strong>Imagem 5</strong> — A5 Alternativas</figcaption>
+    <img src="../../../../../assets/images/prototipo-tar06/A5-alternativas.png" alt="Imagem 5: Alternativas" width="220">
+    <figcaption><strong>Imagem 5</strong>: A5 Alternativas</figcaption>
   </figure>
   <figure style="margin:0;width:220px">
-    <img src="../../../../../assets/images/prototipo-tar06/N2b-aviso-ativo.png" alt="Imagem 6 — Confirmação do aviso de atraso" width="220">
-    <figcaption><strong>Imagem 6</strong> — N2 Confirmação do aviso de atraso</figcaption>
+    <img src="../../../../../assets/images/prototipo-tar06/N2b-aviso-ativo.png" alt="Imagem 6: Confirmação do aviso de atraso" width="220">
+    <figcaption><strong>Imagem 6</strong>: N2 Confirmação do aviso de atraso</figcaption>
   </figure>
 </div>
 
@@ -113,7 +112,7 @@ O método foi o **teste de usabilidade** (Barbosa et al., 2021, pp. 288–289), 
 O protótipo também registrou automaticamente os toques e as trocas de tela, com horário, para conferir os tempos.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Tarefas da sessão</p>
+<p><strong>Tabela 2</strong>: Tarefas da sessão</p>
 </div>
 
 | ID | Enunciado entregue ao participante | Critério de conclusão | Perguntas |
@@ -133,7 +132,7 @@ O aviso de posição desatualizada (AF2) é um **estado simulado**: ele surge 20
 ## 3. Participantes e Avaliadores
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Participantes e equipe da avaliação</p>
+<p><strong>Tabela 3</strong>: Participantes e equipe da avaliação</p>
 </div>
 
 | Item | Detalhamento |
@@ -168,7 +167,7 @@ Em estrita consonância com os preceitos de Barbosa et al. (2021) ([Imagem 10](#
 ### 4.2 Sessões
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Sessão realizada</p>
+<p><strong>Tabela 4</strong>: Sessão realizada</p>
 </div>
 
 | Sessão | Participante | Data e horário | Duração | Local | Gravação |
@@ -192,7 +191,7 @@ Em estrita consonância com os preceitos de Barbosa et al. (2021) ([Imagem 10](#
 A coluna "Conclusão" utiliza os valores **sem ajuda**, **com ajuda** ou **não concluída**. O tempo compreende o intervalo da leitura do enunciado até o alcance do critério de conclusão.
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Desempenho do participante nas tarefas</p>
+<p><strong>Tabela 5</strong>: Desempenho do participante nas tarefas</p>
 </div>
 
 | Participante | Tarefa | Conclusão | Tempo | Erros e retornos | Pedidos de ajuda | Comentários relevantes |
@@ -212,18 +211,18 @@ A coluna "Conclusão" utiliza os valores **sem ajuda**, **com ajuda** ou **não 
 ## 6. Respostas às Perguntas da Avaliação
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Respostas às perguntas P01–P07</p>
+<p><strong>Tabela 6</strong>: Respostas às perguntas P01–P07</p>
 </div>
 
 | Pergunta | Evidências (P01) | Síntese | Situação |
 | :---: | :--- | :--- | :---: |
-| **P01** — Busca | P01 utilizou a busca para a UnB Gama com naturalidade, encontrando a linha 2310 sem hesitação. | O mecanismo de busca por destino e ponto atendeu perfeitamente ao fluxo de localização. | **Respondida** |
-| **P02** — Seleção | O participante distinguiu e selecionou a linha 2310 correta, sem confusão com as linhas de numeração próxima (2301, 2302). | A apresentação dos dados de trajeto e destino na listagem evitou erros de seleção de linhas parecidas. | **Respondida** |
-| **P03** — Previsão | P01 identificou a previsão ("Chega em 6 min") na tela A4 e informou o dado prontamente. | A estimativa de chegada é apresentada com destaque visual suficiente e alta legibilidade. | **Respondida** |
-| **P04** — Confiabilidade | P01 compreendeu o rótulo "Última atualização: há X min" e relatou na entrevista que a informação confere mais transparência e confiança. | A informação temporal explícita de atualização aumenta a segurança do passageiro sobre a previsão. | **Respondida** |
-| **P05** — Informação defasada | Diante do aviso N1, P01 entendeu que o ônibus estava sem sinal recente e que a previsão calculada poderia oscilar, agindo para checar alternativas. | O aviso de dados defasados previne expectativas frustradas e orienta o passageiro. | **Respondida** |
-| **P06** — Próximas consultas | P01 interagiu com os botões de favoritar e de aviso de atraso de forma autônoma, notando o feedback de ativação. | Os atalhos para uso recorrente são evidentes e fáceis de acionar. | **Respondida** |
-| **P07** — Guia de Estilo e experiência | P01 declarou não ter encontrado termos, cores ou botões confusos e afirmou que se sentiria bem informado aguardando no ponto. | A interface construída segundo o Guia de Estilo entregou uma experiência consistente e agradável. | **Respondida** |
+| **P01**: Busca | P01 utilizou a busca para a UnB Gama com naturalidade, encontrando a linha 2310 sem hesitação. | O mecanismo de busca por destino e ponto atendeu perfeitamente ao fluxo de localização. | **Respondida** |
+| **P02**: Seleção | O participante distinguiu e selecionou a linha 2310 correta, sem confusão com as linhas de numeração próxima (2301, 2302). | A apresentação dos dados de trajeto e destino na listagem evitou erros de seleção de linhas parecidas. | **Respondida** |
+| **P03**: Previsão | P01 identificou a previsão ("Chega em 6 min") na tela A4 e informou o dado prontamente. | A estimativa de chegada é apresentada com destaque visual suficiente e alta legibilidade. | **Respondida** |
+| **P04**: Confiabilidade | P01 compreendeu o rótulo "Última atualização: há X min" e relatou na entrevista que a informação confere mais transparência e confiança. | A informação temporal explícita de atualização aumenta a segurança do passageiro sobre a previsão. | **Respondida** |
+| **P05**: Informação defasada | Diante do aviso N1, P01 entendeu que o ônibus estava sem sinal recente e que a previsão calculada poderia oscilar, agindo para checar alternativas. | O aviso de dados defasados previne expectativas frustradas e orienta o passageiro. | **Respondida** |
+| **P06**: Próximas consultas | P01 interagiu com os botões de favoritar e de aviso de atraso de forma autônoma, notando o feedback de ativação. | Os atalhos para uso recorrente são evidentes e fáceis de acionar. | **Respondida** |
+| **P07**: Guia de Estilo e experiência | P01 declarou não ter encontrado termos, cores ou botões confusos e afirmou que se sentiria bem informado aguardando no ponto. | A interface construída segundo o Guia de Estilo entregou uma experiência consistente e agradável. | **Respondida** |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Carlos Costa (2026).</em></p>
@@ -232,7 +231,7 @@ A coluna "Conclusão" utiliza os valores **sem ajuda**, **com ajuda** ou **não 
 ### 6.1 Entrevista Pós-Teste
 
 <div align="center">
-<p><strong>Tabela 7</strong> — Respostas da entrevista pós-teste</p>
+<p><strong>Tabela 7</strong>: Respostas da entrevista pós-teste</p>
 </div>
 
 | Pergunta | P01 |
@@ -256,7 +255,7 @@ Os problemas de usabilidade são classificados segundo a escala de severidade de
 Durante a sessão realizada com o participante P01, **nenhum problema de usabilidade** de severidade 1 a 4 foi observado ou relatado. Todas as três tarefas foram cumpridas sem hesitação, sem desvios de navegação e sem pedidos de assistência.
 
 <div align="center">
-<p><strong>Tabela 8</strong> — Problemas encontrados no protótipo de alta fidelidade</p>
+<p><strong>Tabela 8</strong>: Problemas encontrados no protótipo de alta fidelidade</p>
 </div>
 
 | ID | Tela / componente | Descrição do problema | Evidência observada | Participantes afetados | Severidade (0–4) | Sugestão de solução no protótipo |
@@ -276,14 +275,14 @@ Durante a sessão realizada com o participante P01, **nenhum problema de usabili
 A Tabela 9 retoma as pendências e fragilidades apontadas no [Relato do Protótipo de Papel](../../../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md) (Tabela 6 daquele artefato).
 
 <div align="center">
-<p><strong>Tabela 9</strong> — Pendências do protótipo de papel × resultado na alta fidelidade</p>
+<p><strong>Tabela 9</strong>: Pendências do protótipo de papel × resultado na alta fidelidade</p>
 </div>
 
 | Pendência do papel | Ajuste feito no protótipo | Resultado na alta fidelidade |
 | :--- | :--- | :---: |
-| **PE-01** — O aviso N1 ofereceu só "Ver alternativas"; "Consultar de novo" não havia sido testada no papel. | O aviso N1 implementou as duas opções ("Consultar de novo" e "Ver alternativas") com o mesmo peso visual. | **Resolvido** (P01 compreendeu com clareza as alternativas de ação disponibilizadas). |
-| **PE-02** — A lista de resultados por lugar, com linhas de números parecidos, não foi exibida (H3). | A busca por "UnB Gama" exibiu as linhas 2301, 2310 e 2302 com indicação clara de destino e desembarque. | **Resolvido** (P01 identificou e selecionou a linha 2310 sem hesitar ou clicar nas linhas adjacentes). |
-| **PE-03** — Os tempos de cada tarefa não haviam sido medidos. | Cada tarefa foi cronometrada e observada presencialmente, além de registradas pelo protótipo. | **Resolvido** (Tempos aferidos com precisão na Tabela 5). |
+| **PE-01**: O aviso N1 ofereceu só "Ver alternativas"; "Consultar de novo" não havia sido testada no papel. | O aviso N1 implementou as duas opções ("Consultar de novo" e "Ver alternativas") com o mesmo peso visual. | **Resolvido** (P01 compreendeu com clareza as alternativas de ação disponibilizadas). |
+| **PE-02**: A lista de resultados por lugar, com linhas de números parecidos, não foi exibida (H3). | A busca por "UnB Gama" exibiu as linhas 2301, 2310 e 2302 com indicação clara de destino e desembarque. | **Resolvido** (P01 identificou e selecionou a linha 2310 sem hesitar ou clicar nas linhas adjacentes). |
+| **PE-03**: Os tempos de cada tarefa não haviam sido medidos. | Cada tarefa foi cronometrada e observada presencialmente, além de registradas pelo protótipo. | **Resolvido** (Tempos aferidos com precisão na Tabela 5). |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Carlos Costa (2026).</em></p>
@@ -294,7 +293,7 @@ A Tabela 9 retoma as pendências e fragilidades apontadas no [Relato do Protóti
 ## 9. Hipóteses da TAR-06
 
 <div align="center">
-<p><strong>Tabela 10</strong> — Hipóteses da TAR-06 após a avaliação de alta fidelidade</p>
+<p><strong>Tabela 10</strong>: Hipóteses da TAR-06 após a avaliação de alta fidelidade</p>
 </div>
 
 | Hipótese | Descrição resumida | Pergunta | Evidência | Situação após a avaliação |
@@ -319,7 +318,7 @@ A Tabela 9 retoma as pendências e fragilidades apontadas no [Relato do Protóti
 Como não foram identificados problemas de usabilidade com severidade 1 a 4 durante a avaliação com o participante P01, nenhuma alteração corretiva de emergência fez-se necessária no código do protótipo HTML da TAR-06. A versão 1.0 (commit `b4fd211`) atendeu com êxito a todos os critérios de conclusão e interação estipulados.
 
 <div align="center">
-<p><strong>Tabela 11</strong> — Mudanças propostas para o protótipo</p>
+<p><strong>Tabela 11</strong>: Mudanças propostas para o protótipo</p>
 </div>
 
 | Prioridade | Problema | Tela | Mudança | *Commit* / versão |
@@ -349,7 +348,7 @@ A gravação da sessão presencial de avaliação de usabilidade foi disponibili
 
 <div align="center">
   <iframe width="560" height="315" src="https://www.youtube.com/embed/l6wc_2K2mwY" title="Avaliação do Protótipo de Alta Fidelidade (TAR-06) - Carlos Costa, Tomás Rocho e P01" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-  <p><strong>Vídeo 1</strong> — Sessão de avaliação de usabilidade do protótipo de alta fidelidade da TAR-06 com o participante P01.</p>
+  <p><strong>Vídeo 1</strong>: Sessão de avaliação de usabilidade do protótipo de alta fidelidade da TAR-06 com o participante P01.</p>
   <p><a href="https://youtube.com/shorts/l6wc_2K2mwY?feature=share" target="_blank">Acessar gravação diretamente no YouTube</a></p>
 </div>
 
@@ -360,27 +359,27 @@ A gravação da sessão presencial de avaliação de usabilidade foi disponibili
 Os trechos grifados em amarelo fundamentam a estrutura deste relato.
 
 <div align="center" id="imagem-7">
-<p><strong>Imagem 7</strong> — Consolidação dos resultados e itens do relato (p. 263).</p>
+<p><strong>Imagem 7</strong>: Consolidação dos resultados e itens do relato (p. 263).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png" alt="11.7.5 Consolidação e relato dos resultados (BARBOSA et al., 2021, p. 263)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div align="center" id="imagem-8">
-<p><strong>Imagem 8</strong> — Dados de conclusão, tempo, erros e uso de ajuda no teste de usabilidade (p. 289).</p>
+<p><strong>Imagem 8</strong>: Dados de conclusão, tempo, erros e uso de ajuda no teste de usabilidade (p. 289).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usab-dados.png" alt="12.2.1 Dados coletados por tarefa no teste de usabilidade (sucesso, erros, tempo, ajuda) (BARBOSA et al., 2021, p. 289)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 289).</em></p>
 </div>
 
 <div align="center" id="imagem-9">
-<p><strong>Imagem 9</strong> — Descrição dos problemas encontrados no teste de usabilidade (p. 289).</p>
+<p><strong>Imagem 9</strong>: Descrição dos problemas encontrados no teste de usabilidade (p. 289).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usab-problemas.png" alt="12.2.1 Problemas encontrados: descrição, local, impacto, causas e sugestões, e itens do relato (BARBOSA et al., 2021, p. 289)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 289).</em></p>
 </div>
 
 <div align="center" id="imagem-10">
-<p><strong>Imagem 10</strong> — Descarte dos dados do teste piloto (p. 260).</p>
+<p><strong>Imagem 10</strong>: Descarte dos dados do teste piloto (p. 260).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png" alt="11.7.2 Teste-piloto: objetivo e descarte dos dados (BARBOSA et al., 2021, p. 260)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
 </div>
 
 ---

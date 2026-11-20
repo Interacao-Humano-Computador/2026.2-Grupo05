@@ -4,7 +4,6 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 02/11/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Alta Fidelidade da TAR-06 via DECIDE. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic) - apoio à redação e à formatação em Markdown a partir das decisões de planejamento do autor |
 | 10/11/2026 | `1.1` | Troca da plataforma do protótipo de Figma para HTML navegável, executado no navegador do celular, com a justificativa da troca (seção 5.1), e atualização da Tabela 5, do teste piloto e da declaração de uso de IA. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic) - apoio à redação e à formatação em Markdown a partir das decisões do autor |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -20,9 +19,9 @@ O protótipo de alta fidelidade dá continuidade ao [Planejamento da Avaliação
 * **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md); [Cenário 10](../../../../analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md)
 * **Análise de tarefas:** [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)
 * **Storyboard:** [Storyboard 08](../../../nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../../nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../../nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
 
@@ -34,7 +33,7 @@ O protótipo de alta fidelidade dá continuidade ao [Planejamento da Avaliação
 A Tabela 1 relaciona as decisões deste planejamento com os trechos do livro que as fundamentam. As fotos dos trechos grifados estão na [seção 10](#10-fotos-de-referencia).
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Decisões do planejamento e base bibliográfica</p>
+<p><strong>Tabela 1</strong>: Decisões do planejamento e base bibliográfica</p>
 </div>
 
 | Decisão deste planejamento | Base no livro | Figura |
@@ -54,7 +53,7 @@ A Tabela 1 relaciona as decisões deste planejamento com os trechos do livro que
 
 ---
 
-## 2. D — Determinar os Objetivos da Avaliação
+## 2. D: Determinar os Objetivos da Avaliação
 
 Segundo Barbosa et al. (2021), os objetivos e as perguntas da avaliação orientam a escolha do método ([Figura 7](#figura-7)). O escopo desta avaliação é a consulta da previsão de chegada de uma linha, desde a busca até a decisão de ir ao ponto, e os atalhos para as próximas consultas. Outras funções do aplicativo não serão avaliadas.
 
@@ -73,12 +72,12 @@ Verificar se estudantes que usam ônibus no DF conseguem, no protótipo de alta 
 
 ---
 
-## 3. E — Explorar as Perguntas a Serem Respondidas
+## 3. E: Explorar as Perguntas a Serem Respondidas
 
 As perguntas da Tabela 2 transformam os objetivos em pontos observáveis, conforme o DECIDE (Barbosa et al., 2021, p. 264) ([Figura 8](#figura-8)).
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Perguntas da avaliação do protótipo de alta fidelidade</p>
+<p><strong>Tabela 2</strong>: Perguntas da avaliação do protótipo de alta fidelidade</p>
 </div>
 
 | ID | Foco | Pergunta de avaliação | Elemento da TAR-06 | Dado a registrar |
@@ -97,7 +96,7 @@ As perguntas da Tabela 2 transformam os objetivos em pontos observáveis, confor
 
 ---
 
-## 4. C — Choose (Escolher) os Métodos de Avaliação
+## 4. C: Choose (Escolher) os Métodos de Avaliação
 
 O método escolhido é o **teste de usabilidade**, com observação do uso do protótipo navegável e entrevista breve ao final. Segundo Barbosa et al. (2021), o teste de usabilidade avalia a usabilidade com a participação de usuários que executam tarefas, e o avaliador registra o desempenho e as opiniões deles ([Figura 10](#figura-10)). As atividades do método (preparação, coleta, interpretação, consolidação e relato) estão na Tabela 10.4 do livro (p. 342) ([Figura 12](#figura-12)).
 
@@ -110,7 +109,7 @@ O método escolhido é o **teste de usabilidade**, com observação do uso do pr
 As tarefas são lidas pelo condutor e entregues em um cartão, com o mesmo texto para todos os participantes (Barbosa et al., 2021, p. 259) ([Figura 11](#figura-11)). O contexto é o do Cenário 2: *"Você está no ponto de manhã e precisa chegar à UnB Gama para a primeira aula."*
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Tarefas da sessão com o protótipo de alta fidelidade</p>
+<p><strong>Tabela 3</strong>: Tarefas da sessão com o protótipo de alta fidelidade</p>
 </div>
 
 | ID | Enunciado entregue ao participante | Critério de conclusão | Objetivos da HTA | Perguntas |
@@ -139,7 +138,7 @@ Esses dados estão entre os que o livro indica para o teste de usabilidade (Barb
 
 ---
 
-## 5. I — Identificar e Administrar as Questões Práticas
+## 5. I: Identificar e Administrar as Questões Práticas
 
 ### 5.1 Protótipo em HTML Navegável
 
@@ -154,7 +153,6 @@ Esses dados estão entre os que o livro indica para o teste de usabilidade (Barb
 * **Limite da conta:** a conta do autor no Figma é gratuita, com assento de visualização, e permite poucas chamadas mensais ao conector usado para montar as telas com apoio de IA. O número de chamadas necessário para construir e conferir as telas da TAR-06 passaria desse limite.
 * **Interações mais realistas:** no HTML, a indicação "atualizado há X" conta o tempo de verdade, o aviso de posição desatualizada (AF2) aparece em um momento definido, a busca responde ao que é digitado e "Favoritar" e "Avisar atraso" mostram confirmações reais. Isso aproxima o protótipo do comportamento do aplicativo e dá mais base às respostas de P03–P05.
 * **Caminhos garantidos:** todos os caminhos de AF1–AF3, inclusive os de erro e o botão voltar, ficam programados e podem ser testados antes do piloto.
-* **Ajustes rápidos:** os ajustes pedidos no teste piloto podem ser aplicados no código antes da primeira sessão.
 * **Contingência já prevista:** a Tabela 5 da versão `1.0` já previa o protótipo aberto no navegador. A troca promove essa alternativa a plano principal.
 
 As tarefas, as perguntas, os participantes, os papéis, os cuidados éticos e a escala de severidade **não mudam**; muda apenas a ferramenta em que o protótipo é construído.
@@ -175,7 +173,7 @@ As tarefas, as perguntas, os participantes, os papéis, os cuidados éticos e a 
 ### 5.4 Infraestrutura e Cronograma
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Cronograma e logística da avaliação</p>
+<p><strong>Tabela 4</strong>: Cronograma e logística da avaliação</p>
 </div>
 
 | Atividade | Data e horário | Participante | Duração prevista |
@@ -192,7 +190,7 @@ As tarefas, as perguntas, os participantes, os papéis, os cuidados éticos e a 
 Os horários serão confirmados com cada participante, mantendo as datas da Tabela 4.
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Recursos da avaliação</p>
+<p><strong>Tabela 5</strong>: Recursos da avaliação</p>
 </div>
 
 | Parâmetro | Detalhamento |
@@ -235,7 +233,7 @@ Antes das sessões, é feito um **teste piloto** completo (Barbosa et al., 2021,
 
 ---
 
-## 7. D — Decidir como Lidar com as Questões Éticas
+## 7. D: Decidir como Lidar com as Questões Éticas
 
 Os cuidados seguem Barbosa et al. (2021) ([Figura 15](#figura-15) e [Figura 16](#figura-16)) e a Resolução nº 510/2016 do CNS:
 
@@ -247,7 +245,7 @@ Os cuidados seguem Barbosa et al. (2021) ([Figura 15](#figura-15) e [Figura 16](
 
 ---
 
-## 8. E — Avaliar, Interpretar e Apresentar os Dados
+## 8. E: Avaliar, Interpretar e Apresentar os Dados
 
 1. **Revisão das gravações e das anotações:** logo depois de cada sessão, condutor e observador comparam os registros e preenchem a ficha de cada participante.
 2. **Interpretação por participante:** os dados de cada participante são usados para responder às perguntas P01–P07.
@@ -264,7 +262,7 @@ As Figuras 1 a 6 mostram as telas do protótipo de alta fidelidade da [TAR-06](.
 * **Protótipo navegável:** [Acessar o protótipo da TAR-06](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
 
 <div id="figura-1" align="center" markdown="1">
-<p><strong>Figura 1</strong> — A1 Início</p>
+<p><strong>Figura 1</strong>: A1 Início</p>
 
 ![A1 Início](../../../../assets/images/prototipo-tar06/A1-inicio.png){ width="300" }
 
@@ -272,7 +270,7 @@ As Figuras 1 a 6 mostram as telas do protótipo de alta fidelidade da [TAR-06](.
 </div>
 
 <div id="figura-2" align="center" markdown="1">
-<p><strong>Figura 2</strong> — A3 Resultados por lugar</p>
+<p><strong>Figura 2</strong>: A3 Resultados por lugar</p>
 
 ![A3 Resultados por lugar](../../../../assets/images/prototipo-tar06/A3-resultados-lugar.png){ width="300" }
 
@@ -280,7 +278,7 @@ As Figuras 1 a 6 mostram as telas do protótipo de alta fidelidade da [TAR-06](.
 </div>
 
 <div id="figura-3" align="center" markdown="1">
-<p><strong>Figura 3</strong> — A4 Linha</p>
+<p><strong>Figura 3</strong>: A4 Linha</p>
 
 ![A4 Linha](../../../../assets/images/prototipo-tar06/A4-linha-2310.png){ width="300" }
 
@@ -288,7 +286,7 @@ As Figuras 1 a 6 mostram as telas do protótipo de alta fidelidade da [TAR-06](.
 </div>
 
 <div id="figura-4" align="center" markdown="1">
-<p><strong>Figura 4</strong> — N1 Aviso de posição desatualizada</p>
+<p><strong>Figura 4</strong>: N1 Aviso de posição desatualizada</p>
 
 ![N1 Aviso de posição desatualizada](../../../../assets/images/prototipo-tar06/N1-aviso.png){ width="300" }
 
@@ -296,7 +294,7 @@ As Figuras 1 a 6 mostram as telas do protótipo de alta fidelidade da [TAR-06](.
 </div>
 
 <div id="figura-5" align="center" markdown="1">
-<p><strong>Figura 5</strong> — A5 Alternativas</p>
+<p><strong>Figura 5</strong>: A5 Alternativas</p>
 
 ![A5 Alternativas](../../../../assets/images/prototipo-tar06/A5-alternativas.png){ width="300" }
 
@@ -304,7 +302,7 @@ As Figuras 1 a 6 mostram as telas do protótipo de alta fidelidade da [TAR-06](.
 </div>
 
 <div id="figura-6" align="center" markdown="1">
-<p><strong>Figura 6</strong> — N2 Confirmação do aviso de atraso</p>
+<p><strong>Figura 6</strong>: N2 Confirmação do aviso de atraso</p>
 
 ![N2 Confirmação do aviso de atraso](../../../../assets/images/prototipo-tar06/N2b-aviso-ativo.png){ width="300" }
 
@@ -318,67 +316,67 @@ As Figuras 1 a 6 mostram as telas do protótipo de alta fidelidade da [TAR-06](.
 Os trechos grifados em amarelo fundamentam as decisões deste planejamento.
 
 <div align="center" id="figura-7">
-<p><strong>Figura 7</strong> — Objetivos e perguntas orientam a escolha do método (p. 248).</p>
+<p><strong>Figura 7</strong>: Objetivos e perguntas orientam a escolha do método (p. 248).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png" alt="11.2 Principais aspectos (objetivos) avaliados em IHC (BARBOSA et al., 2021, p. 248)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 248). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 248).</em></p>
 </div>
 
 <div align="center" id="figura-8">
-<p><strong>Figura 8</strong> — As seis atividades do framework DECIDE (p. 264).</p>
+<p><strong>Figura 8</strong>: As seis atividades do framework DECIDE (p. 264).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-decide.png" alt="11.8 Framework DECIDE (BARBOSA et al., 2021, p. 264)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div align="center" id="figura-9">
-<p><strong>Figura 9</strong> — Delimitação do escopo e das tarefas da avaliação (p. 258).</p>
+<p><strong>Figura 9</strong>: Delimitação do escopo e das tarefas da avaliação (p. 258).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png" alt="11.7.2 Escopo da avaliação, perfil e número de participantes (BARBOSA et al., 2021, p. 258)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 <div align="center" id="figura-10">
-<p><strong>Figura 10</strong> — Definição do teste de usabilidade (pp. 288–289).</p>
+<p><strong>Figura 10</strong>: Definição do teste de usabilidade (pp. 288–289).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png" alt="12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa (BARBOSA et al., 2021, pp. 288–289)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
 </div>
 
 <div align="center" id="figura-11">
-<p><strong>Figura 11</strong> — Mesmo material e mesmas orientações para todos os participantes (p. 259).</p>
+<p><strong>Figura 11</strong>: Mesmo material e mesmas orientações para todos os participantes (p. 259).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-questoes-praticas-material.png" alt="11.7.2 Questões práticas e material de apoio da avaliação (BARBOSA et al., 2021, p. 259)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 259). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 259).</em></p>
 </div>
 
 <div align="center" id="figura-12">
-<p><strong>Figura 12</strong> — Atividades e dados coletados no teste de usabilidade (p. 289).</p>
+<p><strong>Figura 12</strong>: Atividades e dados coletados no teste de usabilidade (p. 289).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usab-dados.png" alt="12.2.1 Dados coletados por tarefa no teste de usabilidade (sucesso, erros, tempo, ajuda) (BARBOSA et al., 2021, p. 289)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 289). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 289).</em></p>
 </div>
 
 <div align="center" id="figura-13">
-<p><strong>Figura 13</strong> — Perfil e quantidade de participantes (p. 258).</p>
+<p><strong>Figura 13</strong>: Perfil e quantidade de participantes (p. 258).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png" alt="11.7.2 Escopo da avaliação, perfil e número de participantes (BARBOSA et al., 2021, p. 258)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 <div align="center" id="figura-14">
-<p><strong>Figura 14</strong> — Finalidade do teste piloto e descarte dos seus dados (p. 260).</p>
+<p><strong>Figura 14</strong>: Finalidade do teste piloto e descarte dos seus dados (p. 260).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png" alt="11.7.2 Teste-piloto: objetivo e descarte dos dados (BARBOSA et al., 2021, p. 260)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
 </div>
 
 <div align="center" id="figura-15">
-<p><strong>Figura 15</strong> — Privacidade, anonimato e autorização para gravação (p. 127).</p>
+<p><strong>Figura 15</strong>: Privacidade, anonimato e autorização para gravação (p. 127).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-etica-anonimato.png" alt="Confidencialidade dos dados e anonimato dos participantes (BARBOSA et al., 2021, p. 127)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 127).</em></p>
 </div>
 
 <div align="center" id="figura-16">
-<p><strong>Figura 16</strong> — Consentimento, conforto e direito de interromper a participação (pp. 128–129).</p>
+<p><strong>Figura 16</strong>: Consentimento, conforto e direito de interromper a participação (pp. 128–129).</p>
 <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-etica-desistencia-vies.png" alt="Direito de desistir do estudo e dados livres de viés (BARBOSA et al., 2021, pp. 128–129)" width="760">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 128–129). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 128–129).</em></p>
 </div>
 
 <div align="center" id="figura-17">
-<p><strong>Figura 17</strong> — Teste piloto (Barbosa et al., 2021, Seção 11.7.2, p. 260).</p>
+<p><strong>Figura 17</strong>: Teste piloto (Barbosa et al., 2021, Seção 11.7.2, p. 260).</p>
 <img src="../../../../../assets/prints_referencias/print-teoria-teste-piloto.png" alt="Trecho do livro sobre o teste piloto" width="580">
 <p><em>Fonte: Barbosa et al. (2021, p. 260).</em></p>
 </div>
