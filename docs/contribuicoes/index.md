@@ -2,19 +2,20 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 17/09/2026 | `1.0` | Criação e estruturação da página consolidada de contribuições da equipe. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 21/09/2026 | `1.1` | Inclusão do artefato de Entrevistas e da gravação do Treinamento 01 nas contribuições da Etapa 2 e no painel consolidado por integrante. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 22/09/2026 | `1.2` | Inclusão das gravações das entrevistas oficiais com Motorista de Ônibus e Desenvolvedores no registro de contribuições e gravações da equipe. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 22/09/2026 | `1.3` | Adição da gravação do Treinamento de Entrevista 02 (Perfil Técnico) nas contribuições da Etapa 2 e no painel consolidado por integrante. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 11/10/2026 | `1.4` | Atualização do link do Cenário 1 após a renomeação do arquivo. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 13/10/2026 | `1.5` | Atualização da Tabela da Etapa 4 com a inclusão dos artefatos de Storyboards, Questões Práticas e Éticas e Planejamento Individual de Lucas Araújo. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 25/10/2026 | `1.6` | Inclusão dos artefatos da Etapa 5 de Lucas Araújo (Ata 7, Relato dos Resultados do Storyboard 03 e TAR-03, e Planejamentos da Avaliação e do Relato do Protótipo de Papel). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 27/10/2026 | `1.7` | Inclusão dos artefatos da Etapa 5 de Carlos Costa (Storyboard 08, TAR-06 v1.1 e Planejamentos da Avaliação, do Protótipo de Papel e do Relato do Protótipo de Papel) no painel por integrante e correção dos links de Metas de Usabilidade e do Cenário 9. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 28/10/2026 | `1.8` | Inclusão do Relato dos Resultados do Storyboard 08 e da TAR-06, da TAR-06 v1.2 e da gravação da sessão S4 no painel de Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 03/11/2026 | `1.9` | Inclusão dos artefatos da Etapa 6 de Carlos Costa (Relato dos Resultados do Protótipo de Papel, Planejamentos da Avaliação e do Relato do Protótipo de Alta Fidelidade e TAR-06 v1.3) e das gravações do teste piloto e da sessão do protótipo de papel no painel de Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 14/11/2026 | `2.0` | Inclusão dos artefatos da Etapa 7 de Carlos Costa (Protótipo Navegável da TAR-06, Relato dos Resultados da Alta Fidelidade TAR-06 e gravação no YouTube da sessão com P01). | [Carlos Costa](https://github.com/carloshfgit) | [Tomás Garcia Rocho](https://github.com/TomasRocho) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 19/11/2026 | `2.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-| 19/11/2026 | `2.2` | Atualização do status das etapas 1 a 8, inclusão do link da Apresentação 3, correção do cabeçalho da Tabela 5 e observação sobre as tabelas a completar. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na atualização dos status e na verificação dos links de gravação. |
+| 17/09/2026 | `1.0` | Criação e estruturação da página consolidada de contribuições da equipe. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 21/09/2026 | `1.1` | Inclusão do artefato de Entrevistas e da gravação do Treinamento 01 nas contribuições da Etapa 2 e no painel consolidado por integrante. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 22/09/2026 | `1.2` | Inclusão das gravações das entrevistas oficiais com Motorista de Ônibus e Desenvolvedores no registro de contribuições e gravações da equipe. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 22/09/2026 | `1.3` | Adição da gravação do Treinamento de Entrevista 02 (Perfil Técnico) nas contribuições da Etapa 2 e no painel consolidado por integrante. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 11/10/2026 | `1.4` | Atualização do link do Cenário 1 após a renomeação do arquivo. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 13/10/2026 | `1.5` | Atualização da Tabela da Etapa 4 com a inclusão dos artefatos de Storyboards, Questões Práticas e Éticas e Planejamento Individual de Lucas Araújo. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 25/10/2026 | `1.6` | Inclusão dos artefatos da Etapa 5 de Lucas Araújo (Ata 7, Relato dos Resultados do Storyboard 03 e TAR-03, e Planejamentos da Avaliação e do Relato do Protótipo de Papel). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 27/10/2026 | `1.7` | Inclusão dos artefatos da Etapa 5 de Carlos Costa (Storyboard 08, TAR-06 v1.1 e Planejamentos da Avaliação, do Protótipo de Papel e do Relato do Protótipo de Papel) no painel por integrante e correção dos links de Metas de Usabilidade e do Cenário 9. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 28/10/2026 | `1.8` | Inclusão do Relato dos Resultados do Storyboard 08 e da TAR-06, da TAR-06 v1.2 e da gravação da sessão S4 no painel de Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 03/11/2026 | `1.9` | Inclusão dos artefatos da Etapa 6 de Carlos Costa (Relato dos Resultados do Protótipo de Papel, Planejamentos da Avaliação e do Relato do Protótipo de Alta Fidelidade e TAR-06 v1.3) e das gravações do teste piloto e da sessão do protótipo de papel no painel de Carlos Costa. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 14/11/2026 | `2.0` | Inclusão dos artefatos da Etapa 7 de Carlos Costa (Protótipo Navegável da TAR-06, Relato dos Resultados da Alta Fidelidade TAR-06 e gravação no YouTube da sessão com P01). | [Carlos Costa](https://github.com/carloshfgit) | [Tomás Garcia Rocho](https://github.com/TomasRocho) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 19/11/2026 | `2.2` | Atualização do status das etapas 1 a 8, inclusão do link da Apresentação 3, correção do cabeçalho da Tabela 5 e observação sobre as tabelas a completar. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na atualização dos status e na verificação dos links de gravação. |
+| 19/11/2026 | `2.3` | Substituição dos registros genéricos das etapas 4 a 8 por evidências existentes; inclusão dos testes-piloto, inspeções e pendências manuais verificadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na auditoria dos arquivos e na consolidação dos vínculos. |
+| 19/11/2026 | `2.4` | Reconstrução do painel por integrante com base exclusivamente na coluna de autoria dos históricos de versão. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na extração e consolidação dos registros de autoria. |
 
 ---
 
@@ -47,7 +48,6 @@ A **Tabela 1** apresenta uma síntese das etapas da disciplina de Interação Hu
 | **6** | Relato (Prot. Papel) e Planejamento da Alta Fidelidade | 26/10/2026 a 03/11/2026 | 03/11/2026 | <span class="pill pill-ok">Concluída</span> |
 | **7** | Relato da Avaliação do Protótipo de Alta Fidelidade | 04/11/2026 a 15/11/2026 | 15/11/2026 | <span class="pill pill-ok">Concluída</span> |
 | **8** | Verificação dos Artefatos | 16/11/2026 a 24/11/2026 | 24/11/2026 | <span class="pill pill-wait">Em andamento</span> |
-| **Final** | Apresentação do Projeto Final (Seminário) | 25/11/2026 a 30/11/2026 | 30/11/2026 | <span class="pill pill-wait">Planejada</span> |
 
 *Fonte: Elaborado pelos autores (2026).*
 
@@ -55,7 +55,7 @@ A **Tabela 1** apresenta uma síntese das etapas da disciplina de Interação Hu
 
 ## 3. Contribuições Detalhadas por Etapa
 
-### 3.1. Etapa 1 — Planejamento do Projeto
+### 3.1. Etapa 1: Planejamento do Projeto
 
 A **Tabela 2**, separada do histórico de versão dos artefatos, detalha as contribuições da primeira etapa. As colunas de links permitem acessar diretamente tanto a atividade quanto sua evidência audiovisual.
 
@@ -78,7 +78,7 @@ A **Tabela 2**, separada do histórico de versão dos artefatos, detalha as cont
 
 ---
 
-### 3.2. Etapa 2 — Perfil do Usuário e Análise de Tarefas
+### 3.2. Etapa 2: Perfil do Usuário e Análise de Tarefas
 
 A **Tabela 3** elenca as atividades e artefatos previstos para a segunda entrega da disciplina, com links separados para os artefatos e suas gravações quando já disponíveis.
 
@@ -104,7 +104,7 @@ A **Tabela 3** elenca as atividades e artefatos previstos para a segunda entrega
 
 ---
 
-### 3.3. Etapa 3 — Princípios Gerais de Projeto, Metas de Usabilidade e Guia de Estilo
+### 3.3. Etapa 3: Princípios Gerais de Projeto, Metas de Usabilidade e Guia de Estilo
 
 A **Tabela 4** sintetiza as atividades programadas para a terceira etapa.
 
@@ -114,7 +114,6 @@ A **Tabela 4** sintetiza as atividades programadas para a terceira etapa.
 | :--- | :--- | :--- | :--- | :--- | :---: | :---: |
 | Princípios Gerais de Projeto | [Correspondência](../analise-de-requisitos/principios-gerais/correspondencia-com-as-expectativas-dos-usuarios.md)<br>[Simplicidade](../analise-de-requisitos/principios-gerais/simplicidade-nas-estruturas-das-tarefas.md)<br>[Controle e liberdade](../analise-de-requisitos/principios-gerais/equilibrio-controle-liberdade.md)<br>[Consistência](../analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md)<br>[Eficiência](../analise-de-requisitos/principios-gerais/promocao-da-eficiencia-do-usuario.md)<br>[Antecipação](../analise-de-requisitos/principios-gerais/antecipacao.md)<br>[Visibilidade](../analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md)<br>[Conteúdo](../analise-de-requisitos/principios-gerais/conteudo-relevante-e-expressao-adequada.md)<br>[Projeto para erros](../analise-de-requisitos/principios-gerais/projeto-para-erros.md) | Análise de nove princípios e diretrizes aplicados ao portal da SEMOB-DF | Tomás Garcia, Carlos Costa, Igor Dantas, Lucas Araújo, Gabriel Melo, Arthur Mariani | Rodrigo Carvalho, Lucas Araújo, Gabriel Melo, Igor Dantas, Carlos Costa | — | <span class="pill pill-ok">Concluído</span> |
 | Metas de Usabilidade | [Acessar atividade](../analise-de-requisitos/principios-gerais/metas-de-usabilidade.md) | Seleção e justificativa das metas de eficácia, facilidade de aprendizado, eficiência, segurança no uso, facilidade de recordação e satisfação | Arthur Mariani | Carlos Costa | — | <span class="pill pill-ok">Concluído</span> |
-| Características da Plataforma | — | O artefato correspondente não foi localizado na documentação | — | — | — | <span class="pill pill-wait">Não localizado</span> |
 | Guia de Estilo | [Introdução](../analise-de-requisitos/guia-de-estilo/introducao.md)<br>[Resultados de análise](../analise-de-requisitos/guia-de-estilo/resultados-de-analise.md)<br>[Elementos de ação](../analise-de-requisitos/guia-de-estilo/elementos-de-acao.md)<br>[Elementos de interação](../analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md)<br>[Vocabulário e padrões](../analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md) | Organização do guia, resultados da análise e padrões de ação, interação e vocabulário | Gabriel Melo, Igor Dantas, Arthur Mariani, Rodrigo Barbosa | Igor Dantas, Gabriel Melo, Carlos Costa, Arthur Mariani | — | <span class="pill pill-ok">Concluído</span> |
 | Lista de Verificação da Entrega 3 | [Acessar atividade](../verificacao/verif3.md) | Questões de verificação para princípios gerais, guia de estilo e metas de usabilidade | Carlos Costa, Lucas Araújo, Gabriel Melo, Igor Dantas, Rodrigo Carvalho, Arthur Mariani | Arthur Mariani, Carlos Costa | — | <span class="pill pill-ok">Concluído</span> |
 | Apresentação da Entrega 3 | [Acessar página](../apresentacoes/index.md) | Gravação da apresentação da terceira entrega | Carlos Henrique | Arthur Mariani | [Vídeo da Apresentação 3](https://youtu.be/Mce8ORCaBGQ) | <span class="pill pill-ok">Concluído</span> |
@@ -124,160 +123,474 @@ A **Tabela 4** sintetiza as atividades programadas para a terceira etapa.
 
 ---
 
-### 3.4. Etapa 4 — Planejamento da Avaliação do Storyboard e da Análise de Tarefas
+### 3.4. Etapa 4: Planejamento da Avaliação do Storyboard e da Análise de Tarefas
 
-!!! warning "Observação para correção manual"
-    As Tabelas 5 a 10 ainda trazem linhas genéricas do planejamento. Elas precisam ser reescritas com os artefatos que de fato existem (planejamentos e relatos individuais dos Níveis 1, 2 e 3, Atas 5 a 12, inspeções e testes piloto), com autor e revisor conforme o histórico de cada artefato. Gravações já localizadas para incluir: Ata 6 (https://youtu.be/OwEfaXah5HY), inspeção da Entrega 4 (https://youtu.be/aP8W4A7xLIM), Ata 8 (https://youtu.be/vZrUBGEte7U), autoinspeção da Entrega 5 (https://youtu.be/d_vy4RCpSbE), Ata 9 — teste piloto do protótipo de papel (https://youtu.be/-TKDwNGCNfw), Ata 10 (https://youtu.be/7Uvmxk-r-WI), Ata 11 (https://youtu.be/a6FCJuvzO7g), Ata 12 — teste piloto da alta fidelidade (https://youtu.be/NIBJ3A2Xfkk), além das sessões registradas em cada relato individual. As gravações das Apresentações 4 a 7 não foram localizadas no repositório. A Tabela 11 (painel por integrante) também precisa incluir os artefatos dos Níveis 1 a 3 de cada integrante.
+A **Tabela 5** registra somente artefatos localizados no repositório.
 
-A **Tabela 5** sintetiza as atividades da quarta etapa, aplicando o framework DECIDE.
+**Tabela 5**: Execução registrada da Etapa 4
 
-**Tabela 5** - Atividades planejadas para a Etapa 4
-
-| Atividade | Link da atividade | Descrição | Autor(es) | Revisor(es) | Link da gravação | Status |
-| :--- | :--- | :--- | :--- | :--- | :---: | :---: |
-| Confecção dos Storyboards | [Storyboards](../design-avaliacao-desenvolvimento/nivel1/storyboards.md) | Elaboração dos 7 storyboards individuais vinculados à Análise de Tarefas e Cenários (Storyboard 03: Lucas Araújo) | Todos os membros do Grupo 05 | Revisão cruzada por pares | — | <span class="pill pill-ok">Concluído</span> |
-| Questões Práticas e Éticas das Avaliações (e TCLE) | [Acessar atividade](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md) | Definição de recrutamento, perfil de usuários, amostragem, infraestrutura, orçamento zero e minuta integral do TCLE com autorização de gravação | Lucas Araújo | Arthur Mariani | — | <span class="pill pill-ok">Concluído</span> |
-| Planejamento Individual de Tarefas (Lucas Araújo) | [Acessar atividade](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) | Cronograma escalonado, matriz de responsabilidades e critérios de aceitação individuais da Etapa 4 | Lucas Araújo | Arthur Mariani | — | <span class="pill pill-ok">Concluído</span> |
-| Planejamento e Protocolo do Teste Piloto | [Acessar atividade](../design-avaliacao-desenvolvimento/nivel1/planejamento-e-protocolo-do-teste-piloto.md) | Definição teórica, objetivos, roteiro pré-teste, ficha de calibração e cronograma de realização | Igor Dantas | Gabriel Cardone | — | <span class="pill pill-ok">Concluído</span> |
-| Planejamento da Avaliação do Storyboard | [Storyboards](../design-avaliacao-desenvolvimento/nivel1/storyboards.md) | Aplicação estruturada do Framework DECIDE para avaliação formativa dos Storyboards | Gabriel Cardone | Igor Dantas | — | <span class="pill pill-wait">Em andamento</span> |
-| Planejamento do Relato (Storyboard) | — | Estrutura documental com templates, tópicos e critérios para consolidação dos dados coletados | Rodrigo Barbosa | Tomas Garcia | — | <span class="pill pill-wait">Em andamento</span> |
-| Planejamento da Avaliação da Análise de Tarefas | [Acessar atividade](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/planejamento-avaliacao-analise-tarefas.md) | Aplicação estruturada do Framework DECIDE para validação dos modelos HTA e CTT | Carlos Costa | Lucas Araújo | — | <span class="pill pill-ok">Concluído</span> |
-| Planejamento do Relato (Tarefas) | [Acessar atividade](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) | Estruturação de relatório para sumarização das observações e problemas | Arthur Mariani | Carlos Costa | — | <span class="pill pill-ok">Concluído</span> |
-| Cronograma e Logística das Sessões | — | Agenda com datas, horários, canais e participantes para as sessões de avaliação | Tomas Garcia | Rodrigo Barbosa | — | <span class="pill pill-wait">Em andamento</span> |
-| Gravação da Apresentação da Etapa 4 | [Apresentações](../apresentacoes/index.md#34-apresentacao-da-entrega-4-planejamento-da-avaliacao) | Gravação da apresentação em vídeo conjunta da Etapa 4 (YouTube Não Listado) | Todos os membros do Grupo 05 | Todos os membros do Grupo 05 | [Apresentação 4](../apresentacoes/index.md#34-apresentacao-da-entrega-4-planejamento-da-avaliacao) | <span class="pill pill-ok">Concluído</span> |
-| Revisão por Pares e Ajustes | — | Período de inspeção interna conforme checklist e correções pós-feedback | Todos os membros do Grupo 05 | Pares designados | — | <span class="pill pill-wait">Planejado</span> |
+| Atividade | Evidência | Autor(es) | Revisão | Gravação | Status |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| Storyboards das funcionalidades | [Storyboards](../design-avaliacao-desenvolvimento/nivel1/storyboards.md) | Arthur Mariani, Carlos Costa, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho e Tomás Garcia | Conforme o histórico de cada artefato | — | <span class="pill pill-ok">Concluído</span> |
+| Protocolo do teste-piloto | [Planejamento e protocolo](../design-avaliacao-desenvolvimento/nivel1/planejamento-e-protocolo-do-teste-piloto.md) | Igor Dantas | Gabriel Melo | Registrada no próprio artefato | <span class="pill pill-ok">Concluído</span> |
+| Planejamentos individuais de avaliação e relato | [Visão geral do Nível 1](../design-avaliacao-desenvolvimento/index.md) | Arthur Mariani, Carlos Costa, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho e Tomás Garcia | Conforme o histórico de cada artefato | — | <span class="pill pill-ok">Concluído</span> |
+| Cronograma e logística das sessões | [Acessar atividade](../design-avaliacao-desenvolvimento/nivel1/cronograma-e-logistica-das-sessoes.md) | Equipe do Grupo 05 | Conforme o histórico do artefato | — | <span class="pill pill-ok">Concluído</span> |
+| Inspeção da Entrega 4 | [Registro de inspeções](../inspecoes/index.md) | Equipe do Grupo 05 e Grupo 03 | — | — | <span class="pill pill-wait">Não realizada</span> |
+| Apresentação 4 | [Página de apresentações](../apresentacoes/index.md#34-apresentacao-da-entrega-4-planejamento-da-avaliacao) | Equipe do Grupo 05 | — | — | <span class="pill pill-wait">Não realizada</span> |
 
 *Fonte: Elaborado pelos autores (2026).*
 
 ---
 
-### 3.5. Etapa 5 — Relatos e Planejamento do Protótipo de Papel
+### 3.5. Etapa 5: Relatos e Planejamento do Protótipo de Papel
 
-A **Tabela 6** apresenta as atividades planejadas para a quinta etapa.
+**Tabela 6**: Execução registrada da Etapa 5
 
-**Tabela 6** - Atividades planejadas para a Etapa 5
-
-| Atividade | Link da atividade | Descrição | Autor(es) | Revisor(es) | Link da gravação | Status |
-| :--- | :--- | :--- | :--- | :--- | :---: | :---: |
-| Relato dos Resultados: Storyboard | — | Apresentação dos achados, impressões de usuários e problemas encontrados | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Relato dos Resultados: Tarefas | — | Documentação dos dados empíricos observados e sugestões de redesenho | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Planejamento Avaliação Protótipo de Papel | — | Estruturação metodológica para teste formativo de baixa fidelidade | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo | Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Planejamento Relato (Protótipo de Papel) | — | Padrão formal de registro dos feedbacks obtidos nos testes em papel | Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo | — | <span class="pill pill-wait">Planejado</span> |
-| Confecção do Protótipo de Papel | — | Elaboração física dos esboços de telas, fluxos de ônibus, linhas e tarifas | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Gravação da Apresentação 5 | — | Gravação da apresentação da Etapa 5 | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Revisão e Ajustes | — | Correções pós-feedback | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | — | <span class="pill pill-wait">Planejado</span> |
+| Atividade | Evidência | Autor(es) | Revisão | Gravação | Status |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| Relatos de storyboard e análise de tarefas | [Visão geral do Nível 1](../design-avaliacao-desenvolvimento/index.md) | Carlos Costa, Gabriel Melo, Igor Dantas, Lucas Araújo e Rodrigo Carvalho | Conforme o histórico de cada relato | Registradas nos relatos | <span class="pill pill-ok">5 relatos publicados</span> |
+| Planejamentos da avaliação e do relato do protótipo de papel | [Visão geral do Nível 2](../design-avaliacao-desenvolvimento/index.md) | Arthur Mariani, Carlos Costa, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho e Tomás Garcia | Conforme o histórico de cada artefato | — | <span class="pill pill-ok">Concluído</span> |
+| Protótipos de baixa fidelidade | [Visão geral do Nível 2](../design-avaliacao-desenvolvimento/index.md) | Sete autores, um fluxo por funcionalidade | Conforme o histórico de cada artefato | Registradas nos relatos | <span class="pill pill-ok">Publicados</span> |
+| Teste-piloto do protótipo de papel | [Registro do teste-piloto](../design-avaliacao-desenvolvimento/nivel2/teste-piloto.md) | Equipe do Grupo 05 | Conforme a [Ata 9](../atas/ata9.md) | [Vídeo](https://youtu.be/-TKDwNGCNfw) | <span class="pill pill-ok">Concluído</span> |
+| Inspeção da Entrega 5 | [Registro de inspeções](../inspecoes/index.md) | Equipe do Grupo 05 e Grupo +1 | Conforme os registros de inspeção | [Autoinspeção](https://youtu.be/d_vy4RCpSbE)<br>[Inspeção externa](https://youtu.be/vZrUBGEte7U) | <span class="pill pill-ok">Concluído</span> |
+| Apresentação 5 | [Página de apresentações](../apresentacoes/index.md#35-apresentacao-da-entrega-5-relatos-e-planejamento-do-prototipo-de-papel) | Equipe do Grupo 05 | — | [Vídeo](https://youtu.be/Ej7td2TSM6s) | <span class="pill pill-ok">Concluído</span> |
 
 *Fonte: Elaborado pelos autores (2026).*
 
 ---
 
-### 3.6. Etapa 6 — Relato do Protótipo de Papel e Planejamento da Alta Fidelidade
+### 3.6. Etapa 6: Relato do Protótipo de Papel e Planejamento da Alta Fidelidade
 
-A **Tabela 7** apresenta as atividades planejadas para a sexta etapa.
+**Tabela 7**: Execução registrada da Etapa 6
 
-**Tabela 7** - Atividades planejadas para a Etapa 6
-
-| Atividade | Link da atividade | Descrição | Autor(es) | Revisor(es) | Link da gravação | Status |
-| :--- | :--- | :--- | :--- | :--- | :---: | :---: |
-| Relato dos Resultados: Protótipo de Papel | — | Análise qualitativa e quantitativa dos testes formativos executados e proposição de correções | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Planejamento da Avaliação Alta Fidelidade | — | Metodologia DECIDE, recrutamento, teste piloto e questões éticas da avaliação de alta fidelidade | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Planejamento do Relato (Alta Fidelidade) | — | Estruturação das tabelas de sumarização de usabilidade e ergonomia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Construção do Protótipo no Figma | — | Desenho vetorial interativo com design system padronizado | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Gravação da Apresentação 6 | — | Gravação da apresentação da Etapa 6 | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Revisão e Ajustes | — | Correções pós-feedback | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | — | <span class="pill pill-wait">Planejado</span> |
+| Atividade | Evidência | Autor(es) | Revisão | Gravação | Status |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| Relatos dos protótipos de papel | [Visão geral do Nível 2](../design-avaliacao-desenvolvimento/index.md) | Arthur Mariani, Carlos Costa, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho e Tomás Garcia | Conforme o histórico de cada relato | Registradas nos relatos | <span class="pill pill-ok">7 relatos publicados</span> |
+| Planejamentos da avaliação e do relato da alta fidelidade | [Visão geral do Nível 3](../design-avaliacao-desenvolvimento/index.md) | Arthur Mariani, Carlos Costa, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho e Tomás Garcia | Conforme o histórico de cada artefato | — | <span class="pill pill-ok">Concluído</span> |
+| Protótipos de alta fidelidade | [Visão geral do Nível 3](../design-avaliacao-desenvolvimento/index.md) | Sete autores, um fluxo por funcionalidade | Conforme o histórico de cada artefato | Registradas nos relatos | <span class="pill pill-ok">Publicados</span> |
+| Inspeção da Entrega 6 | [Registro de inspeções](../inspecoes/index.md) | Equipe do Grupo 05 e Grupo 07 | Conforme os registros de inspeção | [Autoinspeção](https://youtu.be/7Uvmxk-r-WI)<br>[Inspeção externa](https://youtu.be/a6FCJuvzO7g) | <span class="pill pill-ok">Concluído</span> |
+| Apresentação 6 | [Página de apresentações](../apresentacoes/index.md#36-apresentacao-da-entrega-6-relato-do-prototipo-de-papel-e-planejamento-da-alta-fidelidade) | Equipe do Grupo 05 | — | [Vídeo](https://youtu.be/geXJDeWITiY) | <span class="pill pill-ok">Concluído</span> |
 
 *Fonte: Elaborado pelos autores (2026).*
 
 ---
 
-### 3.7. Etapa 7 — Relato da Avaliação do Protótipo de Alta Fidelidade
+### 3.7. Etapa 7: Relato da Avaliação do Protótipo de Alta Fidelidade
 
-A **Tabela 8** apresenta as atividades planejadas para a sétima etapa.
+**Tabela 8**: Execução registrada da Etapa 7
 
-**Tabela 8** - Atividades planejadas para a Etapa 7
-
-| Atividade | Link da atividade | Descrição | Autor(es) | Revisor(es) | Link da gravação | Status |
-| :--- | :--- | :--- | :--- | :--- | :---: | :---: |
-| Avaliação com Usuários Reais | — | Condução e gravação das sessões de teste de usabilidade no protótipo | Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo | — | <span class="pill pill-wait">Planejado</span> |
-| Relato dos Resultados: Alta Fidelidade | — | Consolidação sistemática dos problemas de usabilidade detectados e conclusão do relato | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Propostas de Redesenho e Ajustes | — | Revisão iterativa final das interfaces no protótipo após avaliação | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo | Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Gravação da Apresentação 7 | — | Gravação da apresentação da Etapa 7 | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Revisão e Ajustes | — | Correções pós-feedback | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | — | <span class="pill pill-wait">Planejado</span> |
+| Atividade | Evidência | Autor(es) | Revisão | Gravação | Status |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| Teste-piloto de alta fidelidade | [Registro do teste-piloto](../design-avaliacao-desenvolvimento/nivel3/teste-piloto.md) | Equipe do Grupo 05 | Conforme a [Ata 12](../atas/ata12.md) | [Vídeo](https://youtu.be/NIBJ3A2Xfkk) | <span class="pill pill-ok">Concluído</span> |
+| Avaliações e relatos da alta fidelidade | [Visão geral do Nível 3](../design-avaliacao-desenvolvimento/index.md) | Arthur Mariani, Carlos Costa, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho e Tomás Garcia | Conforme o histórico de cada relato | Registradas nos relatos | <span class="pill pill-ok">7 relatos publicados</span> |
+| Relação entre os fluxos e protótipos | [Mapa dos artefatos](../analise-de-requisitos/analise-de-tarefas/index.md) | Equipe do Grupo 05 | Revisão cruzada | — | <span class="pill pill-ok">Vínculos publicados</span> |
+| Inspeção do Grupo +1 da Entrega 7 | [Registro de inspeções](../inspecoes/index.md#8-inspecao-da-entrega-7-resultados-do-prototipo-de-alta-fidelidade) | Equipe do Grupo 05 | Conforme o registro da inspeção | [Vídeo](https://youtu.be/3qBnZovTQ8s) | <span class="pill pill-ok">Concluído</span> |
+| Apresentação 7 | [Página de apresentações](../apresentacoes/index.md#37-apresentacao-da-entrega-7-relato-dos-resultados-do-prototipo-de-alta-fidelidade) | Equipe do Grupo 05 | — | [Vídeo](https://youtu.be/AcOoHthqrAg) | <span class="pill pill-ok">Concluído</span> |
 
 *Fonte: Elaborado pelos autores (2026).*
 
 ---
 
-### 3.8. Etapa 8 — Verificação dos Artefatos
+### 3.8. Etapa 8: Verificação dos Artefatos
 
-A **Tabela 9** apresenta as atividades planejadas para a verificação cruzada de artefatos.
+**Tabela 9**: Execução registrada da Etapa 8
 
-**Tabela 9** - Atividades planejadas para a Etapa 8
-
-| Atividade | Link da atividade | Descrição | Autor(es) | Revisor(es) | Link da gravação | Status |
-| :--- | :--- | :--- | :--- | :--- | :---: | :---: |
-| Inspeção das Entregas 1 e 2 | — | Verificação e checklists de conformidade dos artefatos iniciais | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Inspeção das Entregas 3 e 4 | — | Verificação dos princípios gerais e dos planejamentos de avaliação | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Inspeção das Entregas 5 e 6 | — | Verificação dos relatos preliminares e do protótipo de papel | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Inspeção da Entrega 7 | — | Verificação do protótipo de alta fidelidade e dos testes com usuários | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | Carlos Henrique, Rodrigo Carvalho, Igor Dantas, Gabriel Melo, Lucas Araújo, Arthur Mariani, Tomás Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Consolidação das Correções | — | Ajuste fino de links, fontes, legendas e referências de todo o portal | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Gravação da Apresentação 8 | — | Gravação da apresentação da Etapa 8 | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Revisão e Ajustes | — | Correções pós-feedback | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | — | <span class="pill pill-wait">Planejado</span> |
+| Atividade | Evidência | Autor(es) | Revisão | Gravação | Status |
+| :--- | :--- | :--- | :--- | :---: | :---: |
+| Listas de verificação 1 a 7, versão 2.0 | [Índice de verificação](../verificacao/index.md) e [alterações entre versões](../verificacao/alteracoes.md) | Equipe do Grupo 05 | Revisão cruzada | — | <span class="pill pill-ok">Padronizadas</span> |
+| Consolidação das inspeções | [Registro de inspeções](../inspecoes/index.md) | Equipe do Grupo 05 e grupos avaliadores | Conforme cada inspeção | Vídeos na página vinculada | <span class="pill pill-ok">Publicada</span> |
+| Correções de estrutura, IA, referências e vínculos | [Índice de verificação](../verificacao/index.md) | Equipe do Grupo 05 | Em revisão | — | <span class="pill pill-wait">Em revisão</span> |
+| Inspeção da Entrega 8 | [Registro de inspeções](../inspecoes/index.md#9-inspecao-da-entrega-8-verificacao-dos-artefatos) | Equipe do Grupo 05 e Grupo -1 | — | Pendente | <span class="pill pill-wait">Pendente</span> |
+| Apresentação 8 | [Página de apresentações](../apresentacoes/index.md) | Equipe do Grupo 05 | — | Pendente | <span class="pill pill-wait">Pendente</span> |
 
 *Fonte: Elaborado pelos autores (2026).*
 
 ---
 
-### 3.9. Entrega Final do Projeto
+## 4. Artefatos por autoria registrada no histórico
 
-A **Tabela 10** apresenta as atividades da consolidação final e seminário.
+Esta relação foi gerada a partir da coluna **Autor(es)** das tabelas de histórico de versão. Um artefato aparece para todo integrante que possua ao menos uma versão registrada como autor. Não são consideradas a coluna de revisão, menções no corpo do documento ou inferências a partir do conteúdo.
 
-**Tabela 10** - Atividades da Entrega Final
+<details markdown>
+<summary><strong>Arthur Mariani</strong> ([arthur-mariani](https://github.com/arthur-mariani)) · 32 artefatos</summary>
 
-| Atividade | Link da atividade | Descrição | Autor(es) | Revisor(es) | Link da gravação | Status |
-| :--- | :--- | :--- | :--- | :--- | :---: | :---: |
-| Relatório Final Integrado | — | Redação do documento final consolidado do projeto | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Validação de Conformidade | — | Revisão geral de conformidade com todos os itens do plano de ensino | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | — | <span class="pill pill-wait">Planejado</span> |
-| Apresentação Final (Seminário) | — | Apresentação ao vivo do projeto completo perante a turma e professor | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | Arthur Mariani, Carlos Henrique, Gabriel Melo, Igor Dantas, Lucas Araújo, Rodrigo Carvalho, Tomas Garcia | — | <span class="pill pill-wait">Planejado</span> |
+**Análise de requisitos (12)**
 
-*Fonte: Elaborado pelos autores (2026).*
+- [TAR-03: Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada](../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
+- [TAR-07: Resolver indisponibilidade de crédito de Vale-Transporte](../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md)
+- [Aspectos Éticos](../analise-de-requisitos/aspectos-eticos.md)
+- [Brainstorming de Necessidades e Desejos dos Usuários](../analise-de-requisitos/brainstorm.md)
+- [Cenário 4: Crédito de Vale-Transporte Não Disponível no Cartão Antes do Trabalho](../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md)
+- [Cenários](../analise-de-requisitos/cenarios/index.md)
+- [Elementos de ação](../analise-de-requisitos/guia-de-estilo/elementos-de-acao.md)
+- [Vocabulário e padrões](../analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md)
+- [Análise de Requisitos](../analise-de-requisitos/index.md)
+- [Persona: Maria Eduarda Santos (Usuária de Vale-Transporte)](../analise-de-requisitos/personas/maria-eduarda-santos.md)
+- [Metas de Usabilidade](../analise-de-requisitos/principios-gerais/metas-de-usabilidade.md)
+- [Promoção da eficiência do usuário](../analise-de-requisitos/principios-gerais/promocao-da-eficiencia-do-usuario.md)
+
+**Design, avaliação e desenvolvimento (8)**
+
+- [Planejamento da Avaliação do Storyboard e da Análise de Tarefas (TAR-07)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-07)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md)
+- [Planejamento da Avaliação do Protótipo de Papel (TAR-07)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-07)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-07)](../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+- [Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-07)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-07)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-07)](../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
+
+**Verificação (11)**
+
+- [Lista de Verificação: Entrega 1 (versão 2.0)](../verificacao/v2/verif1.md)
+- [Lista de Verificação: Entrega 2 (versão 2.0)](../verificacao/v2/verif2.md)
+- [Lista de Verificação: Entrega 3 (versão 2.0)](../verificacao/v2/verif3.md)
+- [Lista de Verificação: Entrega 4 (versão 2.0)](../verificacao/v2/verif4.md)
+- [Lista de Verificação: Entrega 5 (versão 2.0)](../verificacao/v2/verif5.md)
+- [Lista de Verificação: Entrega 6 (versão 2.0)](../verificacao/v2/verif6.md)
+- [Lista de Verificação - Entrega 1](../verificacao/verif1.md)
+- [Lista de Verificação - Entrega 2](../verificacao/verif2.md)
+- [Lista de Verificação - Entrega 3 (Princípios Gerais de IHC, Metas de Usabilidade e Guia de Estilo)](../verificacao/verif3.md)
+- [Lista de Verificação - Entrega 5](../verificacao/verif5.md)
+- [Verificação da Entrega 6](../verificacao/verif6.md)
+
+**Registros gerais (1)**
+
+- [Inspeções](../inspecoes/index.md)
+
+</details>
+
+<details markdown>
+<summary><strong>Carlos Henrique Costa</strong> ([carloshfgit](https://github.com/carloshfgit)) · 46 artefatos</summary>
+
+**Planejamento (3)**
+
+- [Ferramentas do Projeto](../planejamento/Ferramentas_do_Projeto.md)
+- [Cronograma](../planejamento/cronograma.md)
+- [Site Selecionado: Portal da SEMOB-DF](../planejamento/escolha-semob.md)
+
+**Análise de requisitos (23)**
+
+- [Análise de Tarefas em IHC: HTA e CTT: Motoristas do STPC/DF (Contexto SEMOB-DF)](../analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md)
+- [Análise de Tarefas: HTA e CTT](../analise-de-requisitos/analise-de-tarefas/index.md)
+- [TAR-01: Alerta inteligente de saída](../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md)
+- [TAR-02: Pré-agendamento no Programa DF Acessível](../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md)
+- [TAR-06: Consulta de ônibus em tempo real no DF no Ponto](../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)
+- [Cenário 1: Pré-agendamento no Programa DF Acessível: do site da Semob à viagem até a fisioterapia](../analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel.md)
+- [Cenário 2: Atraso na viagem matutina para a universidade por conflito de horários no aplicativo](../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md)
+- [Cenário 5: Consulta Ágil da Escala Diária e Tabela Homologada no Smartphone](../analise-de-requisitos/cenarios/cenario-5-consulta-escala.md)
+- [Cenário 6: Intercorrência Viária e Alerta Emergencial de Desvio na Faixa Exclusiva](../analise-de-requisitos/cenarios/cenario-6-alerta-desvio.md)
+- [Cenário 7: Resolução Cooperativa de Dúvida de Passageiro sem Constrangimento](../analise-de-requisitos/cenarios/cenario-7-duvida-passageiro.md)
+- [Cenário 8: O Conflito na Catraca Gerado por Inconsistência de Dados Públicos](../analise-de-requisitos/cenarios/cenario-8-conflito-catraca.md)
+- [Cenários](../analise-de-requisitos/cenarios/index.md)
+- [Entrevistas](../analise-de-requisitos/entrevistas.md)
+- [Análise de Requisitos](../analise-de-requisitos/index.md)
+- [Perfis de Usuário](../analise-de-requisitos/perfis-de-usuario/index.md)
+- [Perfil de Usuário: Motoristas de Ônibus do STPC/DF (Usuário Terciário)](../analise-de-requisitos/perfis-de-usuario/perfil-motorista.md)
+- [Perfil de Usuário: Passageiro (Usuário Primário)](../analise-de-requisitos/perfis-de-usuario/perfil-primario.md)
+- [Personas](../analise-de-requisitos/personas/index.md)
+- [Persona: João Pedro Carvalho](../analise-de-requisitos/personas/joao-pedro-carvalho.md)
+- [Persona: Larissa Ferreira Lima](../analise-de-requisitos/personas/larissa-ferreira-lima.md)
+- [Persona: Valdir Soares ("Seu Valdir")](../analise-de-requisitos/personas/valdir-soares.md)
+- [Equilíbrio entre Controle e Liberdade do Usuário no site da SEMOB-DF](../analise-de-requisitos/principios-gerais/equilibrio-controle-liberdade.md)
+- [Simplicidade nas Estruturas das Tarefas no site da SEMOB-DF](../analise-de-requisitos/principios-gerais/simplicidade-nas-estruturas-das-tarefas.md)
+
+**Design, avaliação e desenvolvimento (12)**
+
+- [Cronograma e Logística das Sessões de Avaliação](../design-avaliacao-desenvolvimento/nivel1/cronograma-e-logistica-das-sessoes.md)
+- [Planejamento da Avaliação do Storyboard e da Análise de Tarefas (TAR-06)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md)
+- [Planejamento da Avaliação da Análise de Tarefas](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/planejamento-avaliacao-analise-tarefas.md)
+- [Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-06)](../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+- [Storyboards da Equipe](../design-avaliacao-desenvolvimento/nivel1/storyboards.md)
+- [Planejamento da Avaliação do Protótipo de Papel (TAR-06)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-06)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-06)](../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
+- [Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-06)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-06)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md)
+- [Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-08)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-06)](../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
+
+**Verificação (6)**
+
+- [Lista de Verificação: Entrega 3 (versão 2.0)](../verificacao/v2/verif3.md)
+- [Lista de Verificação: Entrega 5 (versão 2.0)](../verificacao/v2/verif5.md)
+- [Lista de Verificação: Entrega 6 (versão 2.0)](../verificacao/v2/verif6.md)
+- [Lista de Verificação - Entrega 3 (Princípios Gerais de IHC, Metas de Usabilidade e Guia de Estilo)](../verificacao/verif3.md)
+- [Lista de Verificação - Entrega 5](../verificacao/verif5.md)
+- [Verificação da Entrega 6](../verificacao/verif6.md)
+
+**Registros gerais (2)**
+
+- [Apresentações](../apresentacoes/index.md)
+- [Contribuições da Equipe](../contribuicoes/index.md)
+
+</details>
+
+<details markdown>
+<summary><strong>Gabriel Melo Cardone</strong> ([gabriellcardone-06](https://github.com/gabriellcardone-06)) · 41 artefatos</summary>
+
+**Planejamento (2)**
+
+- [Ferramentas do Projeto](../planejamento/Ferramentas_do_Projeto.md)
+- [Disponibilidade dos Integrantes](../planejamento/HeatMap_do_Grupo.md)
+
+**Análise de requisitos (13)**
+
+- [Análise de documentos](../analise-de-requisitos/analise-de-documentos.md)
+- [Análise de Tarefas: HTA e CTT](../analise-de-requisitos/analise-de-tarefas/index.md)
+- [TAR-02: Pré-agendamento no Programa DF Acessível](../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md)
+- [Cenário 1: Pré-agendamento no Programa DF Acessível: do site da Semob à viagem até a fisioterapia](../analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel.md)
+- [Cenários](../analise-de-requisitos/cenarios/index.md)
+- [Elementos de Interface](../analise-de-requisitos/guia-de-estilo/elementos-de-interface.md)
+- [Introdução](../analise-de-requisitos/guia-de-estilo/introducao.md)
+- [Resultados de análise](../analise-de-requisitos/guia-de-estilo/resultados-de-analise.md)
+- [Perfis de Usuário](../analise-de-requisitos/perfis-de-usuario/index.md)
+- [Perfil de Usuário: Passageiro (Usuário Primário)](../analise-de-requisitos/perfis-de-usuario/perfil-primario.md)
+- [Personas](../analise-de-requisitos/personas/index.md)
+- [Persona: Larissa Ferreira Lima](../analise-de-requisitos/personas/larissa-ferreira-lima.md)
+- [Visibilidade e Reconhecimento](../analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md)
+
+**Design, avaliação e desenvolvimento (14)**
+
+- [Design, Avaliação e Desenvolvimento](../design-avaliacao-desenvolvimento/index.md)
+- [Planejamento da Avaliação do Storyboard e da Análise de Tarefas (TAR-02)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-02)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md)
+- [Planejamento Individual de Tarefas: Lucas Araújo (Etapa 4)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md)
+- [Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-02)](../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
+- [Storyboards da Equipe](../design-avaliacao-desenvolvimento/nivel1/storyboards.md)
+- [Planejamento da Avaliação do Protótipo de Papel (TAR-02)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-02)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-02)](../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md)
+- [Teste-piloto: Nível 2](../design-avaliacao-desenvolvimento/nivel2/teste-piloto.md)
+- [Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-02)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-02)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-02)](../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
+- [Teste-piloto: Nível 3](../design-avaliacao-desenvolvimento/nivel3/teste-piloto.md)
+
+**Verificação (11)**
+
+- [Listas de Verificação](../verificacao/index.md)
+- [Alterações das Listas de Verificação](../verificacao/alteracoes.md)
+- [Lista de Verificação: Entrega 1 (versão 2.0)](../verificacao/v2/verif1.md)
+- [Lista de Verificação: Entrega 2 (versão 2.0)](../verificacao/v2/verif2.md)
+- [Lista de Verificação: Entrega 3 (versão 2.0)](../verificacao/v2/verif3.md)
+- [Lista de Verificação: Entrega 4 (versão 2.0)](../verificacao/v2/verif4.md)
+- [Lista de Verificação: Entrega 5 (versão 2.0)](../verificacao/v2/verif5.md)
+- [Lista de Verificação: Entrega 6 (versão 2.0)](../verificacao/v2/verif6.md)
+- [Lista de Verificação - Entrega 3 (Princípios Gerais de IHC, Metas de Usabilidade e Guia de Estilo)](../verificacao/verif3.md)
+- [Lista de Verificação - Entrega 5](../verificacao/verif5.md)
+- [Verificação da Entrega 6](../verificacao/verif6.md)
+
+**Registros gerais (1)**
+
+- [Contribuições da Equipe](../contribuicoes/index.md)
+
+</details>
+
+
+<details markdown>
+<summary><strong>Igor Dantas Araújo</strong> ([IgorDARAUJO](https://github.com/IgorDARAUJO)) · 27 artefatos</summary>
+
+**Planejamento (1)**
+
+- [Cronograma](../planejamento/cronograma.md)
+
+**Análise de requisitos (9)**
+
+- [Análise de Tarefas: HTA e CTT](../analise-de-requisitos/analise-de-tarefas/index.md)
+- [TAR-01: Alerta inteligente de saída](../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md)
+- [Aspectos Éticos](../analise-de-requisitos/aspectos-eticos.md)
+- [Cenário 2: Atraso na viagem matutina para a universidade por conflito de horários no aplicativo](../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md)
+- [Cenários](../analise-de-requisitos/cenarios/index.md)
+- [Resultados de análise](../analise-de-requisitos/guia-de-estilo/resultados-de-analise.md)
+- [Personas](../analise-de-requisitos/personas/index.md)
+- [Persona: João Pedro Carvalho](../analise-de-requisitos/personas/joao-pedro-carvalho.md)
+- [Consistência e Padronização no site da SEMOB-DF](../analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md)
+
+**Design, avaliação e desenvolvimento (11)**
+
+- [Planejamento e Protocolo do Teste Piloto](../design-avaliacao-desenvolvimento/nivel1/planejamento-e-protocolo-do-teste-piloto.md)
+- [Planejamento da Avaliação do Storyboard e da Análise de Tarefas (TAR-01)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-01)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md)
+- [Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-01)](../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
+- [Storyboards da Equipe](../design-avaliacao-desenvolvimento/nivel1/storyboards.md)
+- [Planejamento da Avaliação do Protótipo de Papel (TAR-01)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-01)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-01)](../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md)
+- [Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-01)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-01)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-01)](../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/igor/relato-resultados-prot-alta-fidel.md)
+
+**Verificação (6)**
+
+- [Lista de Verificação: Entrega 3 (versão 2.0)](../verificacao/v2/verif3.md)
+- [Lista de Verificação: Entrega 5 (versão 2.0)](../verificacao/v2/verif5.md)
+- [Lista de Verificação: Entrega 6 (versão 2.0)](../verificacao/v2/verif6.md)
+- [Lista de Verificação - Entrega 3 (Princípios Gerais de IHC, Metas de Usabilidade e Guia de Estilo)](../verificacao/verif3.md)
+- [Lista de Verificação - Entrega 5](../verificacao/verif5.md)
+- [Verificação da Entrega 6](../verificacao/verif6.md)
+
+</details>
+
+<details markdown>
+<summary><strong>Lucas Araújo Lima</strong> ([Lucasaraujoszz](https://github.com/Lucasaraujoszz)) · 36 artefatos</summary>
+
+**Análise de requisitos (6)**
+
+- [TAR-03: Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada](../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
+- [Brainstorming de Necessidades e Desejos dos Usuários](../analise-de-requisitos/brainstorm.md)
+- [Cenário 3: Deslocamento no Horário de Pico com Necessidade Imediata e Desorientação por Falta de Busca por Destino](../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)
+- [Persona: Marcos Paulo Vieira (Passageiro Cotidiano)](../analise-de-requisitos/personas/marcos-paulo-vieira.md)
+- [Conteúdo Relevante e Expressão Adequada no site da SEMOB-DF](../analise-de-requisitos/principios-gerais/conteudo-relevante-e-expressao-adequada.md)
+- [Correspondência com as Expectativas dos Usuários no site da SEMOB-DF](../analise-de-requisitos/principios-gerais/correspondencia-com-as-expectativas-dos-usuarios.md)
+
+**Atas (12)**
+
+- [Ata de reunião Interação Humano-Computador - Grupo 05](../atas/ata1.md)
+- [Ata de reunião 10 (Inspeção da Entrega 6 do Próprio Grupo) - Interação Humano-Computador - Grupo 05](../atas/ata10.md)
+- [Ata de reunião 11 (Inspeção da Entrega 6 do Grupo +1) - Interação Humano-Computador - Grupo 05](../atas/ata11.md)
+- [Ata de reunião 12 (Teste Piloto do Protótipo de Alta Fidelidade) - Interação Humano-Computador - Grupo 05](../atas/ata12.md)
+- [Ata de reunião 2 (Inspeção) - Interação Humano-Computador - Grupo 05](../atas/ata2.md)
+- [Ata de reunião 3 - Interação Humano-Computador - Grupo 05](../atas/ata3.md)
+- [Ata de reunião 4 (Inspeção) - Interação Humano-Computador - Grupo 05](../atas/ata4.md)
+- [Ata de reunião 5 - Interação Humano-Computador - Grupo 05](../atas/ata5.md)
+- [Ata de reunião 6 (Inspeção) - Interação Humano-Computador - Grupo 05](../atas/ata6.md)
+- [Ata de reunião 7 (Teste Piloto e Calibração) - Interação Humano-Computador - Grupo 05](../atas/ata7.md)
+- [Ata de reunião 8 (Inspeção da Entrega 5) - Interação Humano-Computador - Grupo 05](../atas/ata8.md)
+- [Ata de reunião 9 (Teste Piloto do Protótipo de Papel) - Interação Humano-Computador - Grupo 05](../atas/ata9.md)
+
+**Design, avaliação e desenvolvimento (10)**
+
+- [Planejamento Individual de Tarefas: Lucas Araújo (Etapa 4)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md)
+- [Questões Práticas e Éticas das Avaliações de IHC](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
+- [Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-03)](../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md)
+- [Storyboards da Equipe](../design-avaliacao-desenvolvimento/nivel1/storyboards.md)
+- [Planejamento da Avaliação do Protótipo de Papel (TAR-03)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-03)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-03)](../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+- [Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-03)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-03)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-03)](../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+
+**Verificação (6)**
+
+- [Lista de Verificação: Entrega 3 (versão 2.0)](../verificacao/v2/verif3.md)
+- [Lista de Verificação: Entrega 5 (versão 2.0)](../verificacao/v2/verif5.md)
+- [Lista de Verificação: Entrega 6 (versão 2.0)](../verificacao/v2/verif6.md)
+- [Lista de Verificação - Entrega 3 (Princípios Gerais de IHC, Metas de Usabilidade e Guia de Estilo)](../verificacao/verif3.md)
+- [Lista de Verificação - Entrega 5](../verificacao/verif5.md)
+- [Verificação da Entrega 6](../verificacao/verif6.md)
+
+**Registros gerais (2)**
+
+- [Contribuições da Equipe](../contribuicoes/index.md)
+- [Inspeções](../inspecoes/index.md)
+
+</details>
+
+<details markdown>
+<summary><strong>Rodrigo Carvalho Barbosa</strong> ([RodrigoCBarbosa](https://github.com/RodrigoCBarbosa)) · 30 artefatos</summary>
+
+**Planejamento (1)**
+
+- [Seleção do Sistema para Avaliação de IHC](../planejamento/selecao_v2.md)
+
+**Análise de requisitos (13)**
+
+- [Análise de Tarefas: HTA e CTT](../analise-de-requisitos/analise-de-tarefas/index.md)
+- [TAR-06: Consulta de ônibus em tempo real no DF no Ponto](../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)
+- [TAR-08: Registro de reclamação sobre ônibus a partir do site da Semob](../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
+- [Cenário 10: Viagem Ideal sob Chuva (Previsibilidade e Monitoramento em Tempo Real)](../analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md)
+- [Cenário 11: Reclamação sobre ônibus que passou direto (Encontrabilidade e Registro na Ouvidoria)](../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
+- [Cenários](../analise-de-requisitos/cenarios/index.md)
+- [Elementos de Interação](../analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md)
+- [Elementos de Interface](../analise-de-requisitos/guia-de-estilo/elementos-de-interface.md)
+- [Perfis de Usuário](../analise-de-requisitos/perfis-de-usuario/index.md)
+- [Perfil de Usuário: Desenvolvedor/Técnico (Usuário Secundário)](../analise-de-requisitos/perfis-de-usuario/perfil-secundario.md)
+- [Persona: Cláudia Regina Santos](../analise-de-requisitos/personas/claudia-regina-santos.md)
+- [Personas](../analise-de-requisitos/personas/index.md)
+- [Persona: Mariana Borges Almeida](../analise-de-requisitos/personas/mariana-borges-almeida.md)
+
+**Design, avaliação e desenvolvimento (10)**
+
+- [Planejamento e Protocolo do Teste Piloto](../design-avaliacao-desenvolvimento/nivel1/planejamento-e-protocolo-do-teste-piloto.md)
+- [Planejamento da Avaliação do Storyboard e da Análise de Tarefas (TAR-08)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-08)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md)
+- [Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-08)](../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+- [Planejamento da Avaliação do Protótipo de Papel (TAR-08)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-08)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-08)](../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+- [Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-08)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-08)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-08)](../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+
+**Verificação (6)**
+
+- [Lista de Verificação: Entrega 3 (versão 2.0)](../verificacao/v2/verif3.md)
+- [Lista de Verificação: Entrega 5 (versão 2.0)](../verificacao/v2/verif5.md)
+- [Lista de Verificação: Entrega 6 (versão 2.0)](../verificacao/v2/verif6.md)
+- [Lista de Verificação - Entrega 3 (Princípios Gerais de IHC, Metas de Usabilidade e Guia de Estilo)](../verificacao/verif3.md)
+- [Lista de Verificação - Entrega 5](../verificacao/verif5.md)
+- [Verificação da Entrega 6](../verificacao/verif6.md)
+
+</details>
+
+<details markdown>
+<summary><strong>Tomás Garcia Rocho</strong> ([TomasRocho](https://github.com/TomasRocho)) · 22 artefatos</summary>
+
+**Planejamento (1)**
+
+- [Processo de Design](../planejamento/ProcessoDesign.md)
+
+**Análise de requisitos (9)**
+
+- [Análise de Tarefas: HTA e CTT](../analise-de-requisitos/analise-de-tarefas/index.md)
+- [TAR-09: Solicitar aumento do limite diário de uso do Vale-Transporte](../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
+- [Cenário 9: Cartão de Vale-Transporte recusado no meio do expediente e pedido de aumento do limite diário](../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
+- [Cenários](../analise-de-requisitos/cenarios/index.md)
+- [Resultados de análise](../analise-de-requisitos/guia-de-estilo/resultados-de-analise.md)
+- [Persona: Heitor Santos Júnior](../analise-de-requisitos/personas/heitor-santos-junior.md)
+- [Personas](../analise-de-requisitos/personas/index.md)
+- [Antecipação das Necessidades do Usuário no site da SEMOB-DF](../analise-de-requisitos/principios-gerais/antecipacao.md)
+- [Projeto para Erros no site da SEMOB-DF](../analise-de-requisitos/principios-gerais/projeto-para-erros.md)
+
+**Design, avaliação e desenvolvimento (10)**
+
+- [Cronograma e Logística das Sessões de Avaliação](../design-avaliacao-desenvolvimento/nivel1/cronograma-e-logistica-das-sessoes.md)
+- [Planejamento da Avaliação do Storyboard e da Análise de Tarefas (TAR-09 / Cenário 9)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Storyboard e da Análise de Tarefas (TAR-09 / Cenário 9)](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md)
+- [Storyboards da Equipe](../design-avaliacao-desenvolvimento/nivel1/storyboards.md)
+- [Planejamento da Avaliação do Protótipo de Papel (TAR-09)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-09)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-09)](../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+- [Planejamento da Avaliação do Protótipo de Alta Fidelidade (TAR-09)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md)
+- [Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-09)](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md)
+- [Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-09)](../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+
+**Verificação (2)**
+
+- [Lista de Verificação: Entrega 7 (versão 2.0)](../verificacao/v2/verif7.md)
+- [Lista de Verificação - Entrega 7](../verificacao/verif7.md)
+
+</details>
+
+*Fonte: tabelas de histórico de versão dos artefatos versionados no repositório (consulta em 19/11/2026).*
 
 ---
 
-## 4. Painel Consolidado por Integrante
-
-A **Tabela 11** sintetiza de forma unificada as participações e contribuições de cada integrante da equipe ao longo das etapas do projeto, permitindo a rápida visualização individual de autorias, revisões e produções audiovisuais.
-
-Todos os integrantes participaram coletivamente da [Apresentação da Entrega 2](https://youtu.be/yKAAOLNhg4o), registrada como concluída na Tabela 3.
-
-**Tabela 11** - Painel consolidado de contribuições por integrante
-
-| Integrante | Artefato(s) como Autor | Artefato(s) como Revisor | Gravações e Apresentações |
-| :--- | :--- | :--- | :--- |
-| **Arthur Mariani**<br>[@arthur-mariani](https://github.com/arthur-mariani) | • [Página inicial](../index.md)<br>• [Análise de Requisitos](../analise-de-requisitos/index.md)<br>• [Aspectos Éticos](../analise-de-requisitos/aspectos-eticos.md)<br>• [Brainstorming](../analise-de-requisitos/brainstorm.md)<br>• [Cenários](../analise-de-requisitos/cenarios/index.md) e [Cenário 4](../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md)<br>• [Persona Maria Eduarda](../analise-de-requisitos/personas/maria-eduarda-santos.md)<br>• [TAR-03](../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md) e [TAR-07](../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md)<br>• [Metas de Usabilidade](../analise-de-requisitos/principios-gerais/metas-de-usabilidade.md)<br>• [Promoção da Eficiência](../analise-de-requisitos/principios-gerais/promocao-da-eficiencia-do-usuario.md)<br>• Guia de Estilo: [Elementos de ação](../analise-de-requisitos/guia-de-estilo/elementos-de-acao.md) e [Vocabulário](../analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md)<br>• [Inspeções](../inspecoes/index.md)<br>• Verificações [1](../verificacao/verif1.md), [2](../verificacao/verif2.md) e itens 35–39 da [3](../verificacao/verif3.md) | • Planejamento: [Ferramentas](../planejamento/Ferramentas_do_Projeto.md) e [Sites avaliados](../planejamento/selecao_v2.md)<br>• [Página inicial](../index.md) e [Análise de Requisitos](../analise-de-requisitos/index.md)<br>• [Perfis](../analise-de-requisitos/perfis-de-usuario/index.md), [Personas](../analise-de-requisitos/personas/index.md), [Cenários](../analise-de-requisitos/cenarios/index.md) e [Tarefas](../analise-de-requisitos/analise-de-tarefas/index.md)<br>• [Elementos de interação](../analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md)<br>• [Apresentações](../apresentacoes/index.md), [Atas 1–3](../atas/ata1.md), [Inspeções](../inspecoes/index.md) e [Verificação 3](../verificacao/verif3.md) | • [Apresentação 1](https://youtu.be/BhAlLermHBs)<br>• [Inspeção da Entrega 1](https://www.youtube.com/watch?v=I8lpMLe0A3o)<br>• [Treinamento de brainstorming](https://youtu.be/t4s5LiSbacg)<br>• [Brainstorming](https://youtu.be/RmBUBJn1e28)<br>• [Inspeção da Entrega 2](https://youtu.be/xcDPa3tNT-A) |
-| **Carlos Henrique Costa**<br>[@carloshfgit](https://github.com/carloshfgit) | • [Página inicial](../index.md), [Apresentações](../apresentacoes/index.md) e [Contribuições](index.md)<br>• [Site selecionado](../planejamento/escolha-semob.md) e [Cronograma](../planejamento/cronograma.md)<br>• [Análise de Requisitos](../analise-de-requisitos/index.md) e [Entrevistas](../analise-de-requisitos/entrevistas.md)<br>• [Perfis](../analise-de-requisitos/perfis-de-usuario/index.md), [Personas](../analise-de-requisitos/personas/index.md), [Cenários](../analise-de-requisitos/cenarios/index.md) e [Tarefas](../analise-de-requisitos/analise-de-tarefas/index.md)<br>• [Simplicidade](../analise-de-requisitos/principios-gerais/simplicidade-nas-estruturas-das-tarefas.md) e [Controle e liberdade](../analise-de-requisitos/principios-gerais/equilibrio-controle-liberdade.md)<br>• [Verificação 3](../verificacao/verif3.md)<br>• [Storyboard 08](../design-avaliacao-desenvolvimento/nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto) e [TAR-06 (v1.3)](../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)<br>• Etapa 5: [Planejamento da avaliação](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md), [Relato dos resultados do Storyboard 08 e da TAR-06](../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md), [Protótipo de papel](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) e [Relato do protótipo de papel](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md)<br>• Etapa 6: [Relato dos resultados do protótipo de papel](../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md), [Planejamento da avaliação da alta fidelidade](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) e [Planejamento do relato da alta fidelidade](../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md)<br>• Etapa 7: [Protótipo de alta fidelidade](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/) e [Relato dos resultados da alta fidelidade](../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md) | • [Página inicial](../index.md), [Sites avaliados](../planejamento/selecao_v2.md) e [Cronograma](../planejamento/cronograma.md)<br>• [Análise de Requisitos](../analise-de-requisitos/index.md), [Brainstorming](../analise-de-requisitos/brainstorm.md), [Perfis](../analise-de-requisitos/perfis-de-usuario/index.md), [Personas](../analise-de-requisitos/personas/index.md), [Cenários](../analise-de-requisitos/cenarios/index.md) e [Tarefas](../analise-de-requisitos/analise-de-tarefas/index.md)<br>• [Metas de Usabilidade](../analise-de-requisitos/principios-gerais/metas-de-usabilidade.md)<br>• Guia de Estilo: [Elementos de ação](../analise-de-requisitos/guia-de-estilo/elementos-de-acao.md) e [Vocabulário](../analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md)<br>• [Promoção da Eficiência](../analise-de-requisitos/principios-gerais/promocao-da-eficiencia-do-usuario.md) e [Verificação 3](../verificacao/verif3.md)<br>• [Verificação 5](../verificacao/verif5.md) | • [Apresentação 1](https://youtu.be/BhAlLermHBs)<br>• [Inspeção da Entrega 1](https://www.youtube.com/watch?v=I8lpMLe0A3o)<br>• [Treinamento 1](https://youtu.be/HDwjpSOLzwo) e [Treinamento 2](https://youtu.be/6aKtlpjuPuc)<br>• [Entrevista com motorista](https://youtu.be/ZykGMpaCt30) e [Entrevista com desenvolvedores](https://youtu.be/f5bk6RBZwDE)<br>• [Inspeção da Entrega 2](https://youtu.be/xcDPa3tNT-A)<br>• [Entrevista de Avaliação Storyboard 08 e TAR-06](https://youtu.be/UlGMlzHiujA)<br>• [Teste piloto do protótipo de papel (TAR-06)](https://youtu.be/-TKDwNGCNfw) e [Sessão do protótipo de papel (TAR-06)](https://youtu.be/WSbr1ijrhuI)<br>• [Avaliação do protótipo de alta fidelidade (TAR-06)](https://youtube.com/shorts/l6wc_2K2mwY?feature=share) |
-| **Gabriel Melo Cardone**<br>[@gabriellcardone-06](https://github.com/gabriellcardone-06) | • [Ferramentas](../planejamento/Ferramentas_do_Projeto.md), [Mapa de disponibilidade](../planejamento/HeatMap_do_Grupo.md) e [Cronograma](../planejamento/cronograma.md)<br>• [Análise de documentos](../analise-de-requisitos/analise-de-documentos.md)<br>• [Perfis](../analise-de-requisitos/perfis-de-usuario/index.md), [Personas](../analise-de-requisitos/personas/index.md), [Cenários](../analise-de-requisitos/cenarios/index.md) e [Tarefas](../analise-de-requisitos/analise-de-tarefas/index.md)<br>• Guia de Estilo: [Introdução](../analise-de-requisitos/guia-de-estilo/introducao.md)<br>• [Visibilidade e reconhecimento](../analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md)<br>• [Verificação 3](../verificacao/verif3.md) | • [Cronograma](../planejamento/cronograma.md) e [Aspectos Éticos](../analise-de-requisitos/aspectos-eticos.md)<br>• [Perfis](../analise-de-requisitos/perfis-de-usuario/index.md), [Personas](../analise-de-requisitos/personas/index.md), [Cenários](../analise-de-requisitos/cenarios/index.md) e [Tarefas](../analise-de-requisitos/analise-de-tarefas/index.md)<br>• [Resultados de análise](../analise-de-requisitos/guia-de-estilo/resultados-de-analise.md)<br>• [Consistência e padronização](../analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md) | • [Apresentação 1](https://youtu.be/BhAlLermHBs)<br>• [Inspeção da Entrega 1](https://www.youtube.com/watch?v=I8lpMLe0A3o)<br>• [Treinamento de usuário primário](https://youtu.be/WfPfcbEU0Qk)<br>• [Entrevista com estudante](https://youtu.be/JpNoOG-T318)<br>• [Inspeção da Entrega 2](https://youtu.be/xcDPa3tNT-A) |
-| **Igor Dantas Araújo**<br>[@IgorDARAUJO](https://github.com/IgorDARAUJO) | • [Cronograma](../planejamento/cronograma.md) e [Aspectos Éticos](../analise-de-requisitos/aspectos-eticos.md)<br>• [Tarefas](../analise-de-requisitos/analise-de-tarefas/index.md), [Cenários](../analise-de-requisitos/cenarios/index.md) e [Personas](../analise-de-requisitos/personas/index.md)<br>• [Resultados de análise](../analise-de-requisitos/guia-de-estilo/resultados-de-analise.md)<br>• [Consistência e padronização](../analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md)<br>• [Verificação 3](../verificacao/verif3.md) | • [Site selecionado](../planejamento/escolha-semob.md), [Ferramentas](../planejamento/Ferramentas_do_Projeto.md) e [Cronograma](../planejamento/cronograma.md)<br>• [Análise de documentos](../analise-de-requisitos/analise-de-documentos.md)<br>• [Perfis](../analise-de-requisitos/perfis-de-usuario/index.md), [Personas](../analise-de-requisitos/personas/index.md), [Cenários](../analise-de-requisitos/cenarios/index.md) e [Tarefas](../analise-de-requisitos/analise-de-tarefas/index.md)<br>• [Introdução do Guia de Estilo](../analise-de-requisitos/guia-de-estilo/introducao.md)<br>• [Visibilidade e reconhecimento](../analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md) | • [Apresentação 1](https://youtu.be/BhAlLermHBs)<br>• [Inspeção da Entrega 1](https://www.youtube.com/watch?v=I8lpMLe0A3o)<br>• [Treinamento de usuário primário](https://youtu.be/WfPfcbEU0Qk)<br>• [Entrevista com passageiro](https://youtu.be/rVJJVXuH7Ls) e [validação](https://youtu.be/4DqmkwuUDXQ)<br>• [Inspeção da Entrega 2](https://youtu.be/xcDPa3tNT-A) |
-| **Lucas Araújo Lima**<br>[@Lucasaraujoszz](https://github.com/Lucasaraujoszz) | • [Atas 1–4](../atas/ata1.md), [Ata 7](../atas/ata7.md) e [Inspeções](../inspecoes/index.md)<br>• [Brainstorming](../analise-de-requisitos/brainstorm.md)<br>• [Cenário 3](../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md), [Persona Marcos Paulo](../analise-de-requisitos/personas/marcos-paulo-vieira.md) e [TAR-03](../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)<br>• [Conteúdo relevante](../analise-de-requisitos/principios-gerais/conteudo-relevante-e-expressao-adequada.md) e [Correspondência com expectativas](../analise-de-requisitos/principios-gerais/correspondencia-com-as-expectativas-dos-usuarios.md)<br>• [Cronograma](../planejamento/cronograma.md) e [Verificação 3](../verificacao/verif3.md)<br>• [Storyboard 03](../design-avaliacao-desenvolvimento/nivel1/storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)<br>• [Questões Práticas e Éticas das Avaliações](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)<br>• [Planejamento Individual de Tarefas](../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md)<br>• [Relato dos Resultados do Storyboard 03 e TAR-03](../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md)<br>• [Planejamento da Avaliação do Protótipo de Papel (TAR-03)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md)<br>• [Planejamento do Relato do Protótipo de Papel (TAR-03)](../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) | • [Cenários](../analise-de-requisitos/cenarios/index.md) e [Cenário 4](../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md)<br>• [Persona Maria Eduarda](../analise-de-requisitos/personas/maria-eduarda-santos.md)<br>• [Simplicidade](../analise-de-requisitos/principios-gerais/simplicidade-nas-estruturas-das-tarefas.md) e [Controle e liberdade](../analise-de-requisitos/principios-gerais/equilibrio-controle-liberdade.md)<br>• [Cronograma](../planejamento/cronograma.md)<br>• Planejamento da Avaliação da Análise de Tarefas (Carlos Costa - designado) | • [Apresentação 1](https://youtu.be/BhAlLermHBs)<br>• [Inspeção da Entrega 1](https://www.youtube.com/watch?v=I8lpMLe0A3o)<br>• [Treinamento de brainstorming](https://youtu.be/t4s5LiSbacg)<br>• [Brainstorming](https://youtu.be/RmBUBJn1e28)<br>• [Inspeção da Entrega 2](https://youtu.be/xcDPa3tNT-A)<br>• [Apresentação da Entrega 4](../apresentacoes/index.md#34-apresentacao-da-entrega-4-planejamento-da-avaliacao)<br>• [Simulação Teste Piloto](https://youtu.be/oaupf8AUGd8) e [Calibração](https://youtu.be/E0GChZc3c9U)<br>• [Entrevista de Avaliação Storyboard 03 e TAR-03](https://youtu.be/STpDtAiuSs0) |
-| **Rodrigo Carvalho Barbosa**<br>[@RodrigoCBarbosa](https://github.com/RodrigoCBarbosa) | • [Sites avaliados](../planejamento/selecao_v2.md) e [Cronograma](../planejamento/cronograma.md)<br>• [Análise de tarefas](../analise-de-requisitos/analise-de-tarefas/index.md) e [TAR-06](../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)<br>• [Perfis](../analise-de-requisitos/perfis-de-usuario/index.md) e [Perfil secundário](../analise-de-requisitos/perfis-de-usuario/perfil-secundario.md)<br>• [Personas](../analise-de-requisitos/personas/index.md) e [Mariana Borges](../analise-de-requisitos/personas/mariana-borges-almeida.md)<br>• [Cenários](../analise-de-requisitos/cenarios/index.md) e [Cenário 10](../analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md)<br>• [Elementos de interação](../analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md)<br>• [Verificação 3](../verificacao/verif3.md) | • [Página inicial](../index.md), [Processo de Design](../planejamento/ProcessoDesign.md) e [Entrevistas](../analise-de-requisitos/entrevistas.md)<br>• [Análise de Requisitos](../analise-de-requisitos/index.md), [Persona Heitor](../analise-de-requisitos/personas/heitor-santos-junior.md) e [Cenário 9](../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)<br>• [Antecipação](../analise-de-requisitos/principios-gerais/antecipacao.md), [Conteúdo relevante](../analise-de-requisitos/principios-gerais/conteudo-relevante-e-expressao-adequada.md), [Correspondência](../analise-de-requisitos/principios-gerais/correspondencia-com-as-expectativas-dos-usuarios.md) e [Projeto para erros](../analise-de-requisitos/principios-gerais/projeto-para-erros.md)<br>• [Ata 4](../atas/ata4.md) e [Inspeções](../inspecoes/index.md) | • [Apresentação 1](https://youtu.be/BhAlLermHBs)<br>• [Inspeção da Entrega 1](https://www.youtube.com/watch?v=I8lpMLe0A3o)<br>• [Treinamento 1](https://youtu.be/HDwjpSOLzwo) e [Treinamento 2](https://youtu.be/6aKtlpjuPuc)<br>• [Entrevista com motorista](https://youtu.be/ZykGMpaCt30) e [Entrevista com desenvolvedores](https://youtu.be/f5bk6RBZwDE)<br>• [Inspeção da Entrega 2](https://youtu.be/xcDPa3tNT-A) |
-| **Tomás Garcia Rocho**<br>[@TomasRocho](https://github.com/TomasRocho) | • [Processo de Design](../planejamento/ProcessoDesign.md) e [Cronograma](../planejamento/cronograma.md)<br>• [Personas](../analise-de-requisitos/personas/index.md) e [Persona Heitor](../analise-de-requisitos/personas/heitor-santos-junior.md)<br>• [Cenários](../analise-de-requisitos/cenarios/index.md) e [Cenário 9](../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)<br>• [Antecipação](../analise-de-requisitos/principios-gerais/antecipacao.md) e [Projeto para erros](../analise-de-requisitos/principios-gerais/projeto-para-erros.md) | • [Ferramentas](../planejamento/Ferramentas_do_Projeto.md), [Mapa de disponibilidade](../planejamento/HeatMap_do_Grupo.md) e [Cronograma](../planejamento/cronograma.md) | • [Apresentação 1](https://youtu.be/BhAlLermHBs)<br>• [Inspeção da Entrega 1](https://www.youtube.com/watch?v=I8lpMLe0A3o)<br>• [Entrevista com passageiro](https://youtu.be/B-Jq3hXK2C0)<br>• [Inspeção da Entrega 2](https://youtu.be/xcDPa3tNT-A) |
-
-*Fonte: Elaborado pelos autores (2026).*
-
----
 
 ## 5. Fotos de Referência
 
 A Figura 1 mostra o trecho que fundamenta este artefato, recortado e grifado em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
 </div>
 
-![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
 </div>
 
 ---
