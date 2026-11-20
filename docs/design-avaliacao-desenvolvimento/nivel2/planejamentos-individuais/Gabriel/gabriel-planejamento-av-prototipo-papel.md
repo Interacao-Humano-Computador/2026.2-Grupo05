@@ -3,7 +3,6 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 25/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Papel (TAR-02) via DECIDE para teste presencial. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - formatação markdown da página |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -19,16 +18,16 @@ A avaliação será conduzida de forma empírica presencial, envolvendo a simula
 * **Cenário:** [Cenário 1](../../../../analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel.md)
 * **Análise de tarefas:** [TAR-02](../../../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md)
 * **Storyboard:** [Storyboard 02](../../../nivel1/storyboards.md#32-storyboard-02-pre-agendamento-no-programa-df-acessivel)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../relatos-individuais/gabriel/relato-resultado-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../relatos-individuais/gabriel/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** telas no planejamento da avaliação (*nesta página*)
-* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+* **Protótipo de alta fidelidade navegável:** *não disponível*
 
 
 ---
 
-## 1. D — Determinar os Objetivos da Avaliação
+## 1. D: Determinar os Objetivos da Avaliação
 
 Conforme Barbosa et al. (2021, Cap. 12, p. 303), a prototipação em papel é um método de observação de uso voltado à avaliação formativa, ideal para explorar ideias de design, validar o modelo conceitual e identificar problemas de IHC antes do desenvolvimento de software executável.
 
@@ -40,12 +39,12 @@ Conforme Barbosa et al. (2021, Cap. 12, p. 303), a prototipação em papel é um
 
 ---
 
-## 2. E — Explorar as Perguntas a Serem Respondidas
+## 2. E: Explorar as Perguntas a Serem Respondidas
 
 Para operacionalizar os objetivos da avaliação, foram elaboradas perguntas investigativas aplicadas durante e após a simulação com o protótipo de papel (Barbosa et al., 2021):
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Roteiro de Perguntas Investigativas da Avaliação</p>
+<p><strong>Tabela 1</strong>: Roteiro de Perguntas Investigativas da Avaliação</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta de Investigação da Avaliação | Critério de Aceitação / Resposta Esperada |
@@ -60,7 +59,7 @@ Para operacionalizar os objetivos da avaliação, foram elaboradas perguntas inv
 
 ---
 
-## 3. C — Choose (Escolher) os Métodos de Avaliação
+## 3. C: Choose (Escolher) os Métodos de Avaliação
 
 O método selecionado é a **Prototipação em Papel (Barbosa et al., 2021, Seção 12.2.3)**, enquadrado como um **Método de Observação de Uso (Empírico)** em ambiente controlado presencial.
 
@@ -68,7 +67,7 @@ O método selecionado é a **Prototipação em Papel (Barbosa et al., 2021, Seç
 
 ---
 
-## 4. I — Identificar e Administrar as Questões Práticas
+## 4. I: Identificar e Administrar as Questões Práticas
 
 ### 4.1 Confecção do Protótipo em Papel
 O protótipo será construído à mão em folhas de papel, contendo:
@@ -102,7 +101,7 @@ Conforme Barbosa et al. (2021, p. 304), a condução do teste presencial exige a
 As tarefas serão apresentadas oralmente, uma de cada vez, a partir do [Cenário 1](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel/): *"Você precisa de transporte adaptado para ir à fisioterapia, em Taguatinga, daqui a um mês. Você mora em Ceilândia e já abriu, no celular, a página 'Agendar DF Acessível' do site da SEMOB-DF. Faça o pré-agendamento da viagem."*
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Tarefas Simuladas no Protótipo de Papel</p>
+<p><strong>Tabela 2</strong>: Tarefas Simuladas no Protótipo de Papel</p>
 </div>
 
 | ID Tarefa | Descrição da Tarefa | Operações Relacionadas (HTA/CTT) | Perguntas Investigadas |
@@ -119,7 +118,7 @@ As tarefas serão apresentadas oralmente, uma de cada vez, a partir do [Cenário
 ### 4.6 Cronograma de Execução Presencial
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Cronograma da Sessão Presencial do Protótipo de Papel</p>
+<p><strong>Tabela 3</strong>: Cronograma da Sessão Presencial do Protótipo de Papel</p>
 </div>
 
 | Parâmetro | Detalhamento da Sessão Presencial |
@@ -136,7 +135,7 @@ As tarefas serão apresentadas oralmente, uma de cada vez, a partir do [Cenário
 
 ---
 
-## 5. D — Decidir como Lidar com as Questões Éticas
+## 5. D: Decidir como Lidar com as Questões Éticas
 
 A condução do teste presencial com o protótipo de papel atende às diretrizes éticas do livro-texto (Barbosa et al., 2021, Seção 7.4):
 
@@ -148,7 +147,7 @@ A condução do teste presencial com o protótipo de papel atende às diretrizes
 
 ---
 
-## 6. E — Avaliar, Interpretar e Apresentar os Dados
+## 6. E: Avaliar, Interpretar e Apresentar os Dados
 
 Os dados coletados na sessão presencial serão processados seguindo a abordagem de **análise qualitativa e ciclo iterativo rápido** (Barbosa et al., 2021, Seção 12.2.3):
 
@@ -183,7 +182,7 @@ As Figuras 1 a 11 mostram as telas do protótipo de papel da [TAR-02](../../../.
 * **Telas do protótipo de papel (PDF):** [Visualizar PDF das telas do protótipo de papel](../../../../assets/PDFs/Gabriel_telas_prototipo_papel.pdf)
 
 <div id="figura-1" align="center" markdown="1">
-<p><strong>Figura 1</strong> — Apresentação do Agendamento DF Acessível (página 1 do PDF das telas)</p>
+<p><strong>Figura 1</strong>: Apresentação do Agendamento DF Acessível (página 1 do PDF das telas)</p>
 
 ![Apresentação do Agendamento DF Acessível (página 1 do PDF das telas)](../../../../assets/images/prototipo-tar02/gabriel-papel-01.jpg){ width="420" }
 
@@ -191,7 +190,7 @@ As Figuras 1 a 11 mostram as telas do protótipo de papel da [TAR-02](../../../.
 </div>
 
 <div id="figura-2" align="center" markdown="1">
-<p><strong>Figura 2</strong> — Etapa 1 de 4 — Posto de embarque (página 2 do PDF das telas)</p>
+<p><strong>Figura 2</strong>: Etapa 1 de 4 — Posto de embarque (página 2 do PDF das telas)</p>
 
 ![Etapa 1 de 4 — Posto de embarque (página 2 do PDF das telas)](../../../../assets/images/prototipo-tar02/gabriel-papel-02.jpg){ width="420" }
 
@@ -199,7 +198,7 @@ As Figuras 1 a 11 mostram as telas do protótipo de papel da [TAR-02](../../../.
 </div>
 
 <div id="figura-3" align="center" markdown="1">
-<p><strong>Figura 3</strong> — Etapa 1 de 4 — Posto de embarque selecionado (página 3 do PDF das telas)</p>
+<p><strong>Figura 3</strong>: Etapa 1 de 4 — Posto de embarque selecionado (página 3 do PDF das telas)</p>
 
 ![Etapa 1 de 4 — Posto de embarque selecionado (página 3 do PDF das telas)](../../../../assets/images/prototipo-tar02/gabriel-papel-03.jpg){ width="420" }
 
@@ -207,7 +206,7 @@ As Figuras 1 a 11 mostram as telas do protótipo de papel da [TAR-02](../../../.
 </div>
 
 <div id="figura-4" align="center" markdown="1">
-<p><strong>Figura 4</strong> — Etapa 2 de 4 — Posto de desembarque (página 4 do PDF das telas)</p>
+<p><strong>Figura 4</strong>: Etapa 2 de 4 — Posto de desembarque (página 4 do PDF das telas)</p>
 
 ![Etapa 2 de 4 — Posto de desembarque (página 4 do PDF das telas)](../../../../assets/images/prototipo-tar02/gabriel-papel-04.jpg){ width="420" }
 
@@ -215,7 +214,7 @@ As Figuras 1 a 11 mostram as telas do protótipo de papel da [TAR-02](../../../.
 </div>
 
 <div id="figura-5" align="center" markdown="1">
-<p><strong>Figura 5</strong> — Etapa 3 de 4 — Dia (página 5 do PDF das telas)</p>
+<p><strong>Figura 5</strong>: Etapa 3 de 4 — Dia (página 5 do PDF das telas)</p>
 
 ![Etapa 3 de 4 — Dia (página 5 do PDF das telas)](../../../../assets/images/prototipo-tar02/gabriel-papel-05.jpg){ width="420" }
 
@@ -223,7 +222,7 @@ As Figuras 1 a 11 mostram as telas do protótipo de papel da [TAR-02](../../../.
 </div>
 
 <div id="figura-6" align="center" markdown="1">
-<p><strong>Figura 6</strong> — Etapa 3 de 4 — Dia selecionado (página 6 do PDF das telas)</p>
+<p><strong>Figura 6</strong>: Etapa 3 de 4 — Dia selecionado (página 6 do PDF das telas)</p>
 
 ![Etapa 3 de 4 — Dia selecionado (página 6 do PDF das telas)](../../../../assets/images/prototipo-tar02/gabriel-papel-06.jpg){ width="420" }
 
@@ -231,7 +230,7 @@ As Figuras 1 a 11 mostram as telas do protótipo de papel da [TAR-02](../../../.
 </div>
 
 <div id="figura-7" align="center" markdown="1">
-<p><strong>Figura 7</strong> — Etapa 4 de 4 — Documentos (página 7 do PDF das telas)</p>
+<p><strong>Figura 7</strong>: Etapa 4 de 4 — Documentos (página 7 do PDF das telas)</p>
 
 ![Etapa 4 de 4 — Documentos (página 7 do PDF das telas)](../../../../assets/images/prototipo-tar02/gabriel-papel-07.jpg){ width="420" }
 
@@ -239,7 +238,7 @@ As Figuras 1 a 11 mostram as telas do protótipo de papel da [TAR-02](../../../.
 </div>
 
 <div id="figura-8" align="center" markdown="1">
-<p><strong>Figura 8</strong> — Etapa 4 de 4 — Seleção de arquivos (página 8 do PDF das telas)</p>
+<p><strong>Figura 8</strong>: Etapa 4 de 4 — Seleção de arquivos (página 8 do PDF das telas)</p>
 
 ![Etapa 4 de 4 — Seleção de arquivos (página 8 do PDF das telas)](../../../../assets/images/prototipo-tar02/gabriel-papel-08.jpg){ width="420" }
 
@@ -247,7 +246,7 @@ As Figuras 1 a 11 mostram as telas do protótipo de papel da [TAR-02](../../../.
 </div>
 
 <div id="figura-9" align="center" markdown="1">
-<p><strong>Figura 9</strong> — Etapa 4 de 4 — Confirmação de envio (página 9 do PDF das telas)</p>
+<p><strong>Figura 9</strong>: Etapa 4 de 4 — Confirmação de envio (página 9 do PDF das telas)</p>
 
 ![Etapa 4 de 4 — Confirmação de envio (página 9 do PDF das telas)](../../../../assets/images/prototipo-tar02/gabriel-papel-09.jpg){ width="420" }
 
@@ -255,7 +254,7 @@ As Figuras 1 a 11 mostram as telas do protótipo de papel da [TAR-02](../../../.
 </div>
 
 <div id="figura-10" align="center" markdown="1">
-<p><strong>Figura 10</strong> — Etapa 4 de 4 — Contato preenchido (página 10 do PDF das telas)</p>
+<p><strong>Figura 10</strong>: Etapa 4 de 4 — Contato preenchido (página 10 do PDF das telas)</p>
 
 ![Etapa 4 de 4 — Contato preenchido (página 10 do PDF das telas)](../../../../assets/images/prototipo-tar02/gabriel-papel-10.jpg){ width="420" }
 
@@ -263,7 +262,7 @@ As Figuras 1 a 11 mostram as telas do protótipo de papel da [TAR-02](../../../.
 </div>
 
 <div id="figura-11" align="center" markdown="1">
-<p><strong>Figura 11</strong> — Conclusão (página 11 do PDF das telas)</p>
+<p><strong>Figura 11</strong>: Conclusão (página 11 do PDF das telas)</p>
 
 ![Conclusão (página 11 do PDF das telas)](../../../../assets/images/prototipo-tar02/gabriel-papel-11.jpg){ width="420" }
 
@@ -277,43 +276,43 @@ As Figuras 1 a 11 mostram as telas do protótipo de papel da [TAR-02](../../../.
 As Figuras 12 a 15 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-12" align="center">
-<p><strong>Figura 12</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 12</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 12 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 12: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div id="figura-13" align="center">
-<p><strong>Figura 13</strong> — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
+<p><strong>Figura 13</strong>: 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
 </div>
 
-![Figura 13 — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
+![Figura 13: 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 303). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 303).</em></p>
 </div>
 
 <div id="figura-14" align="center">
-<p><strong>Figura 14</strong> — Tabela 12.9 – Atividades do método de prototipação em papel</p>
+<p><strong>Figura 14</strong>: Tabela 12.9 – Atividades do método de prototipação em papel</p>
 </div>
 
-![Figura 14 — Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
+![Figura 14: Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305).</em></p>
 </div>
 
 <div id="figura-15" align="center">
-<p><strong>Figura 15</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+<p><strong>Figura 15</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
 </div>
 
-![Figura 15 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+![Figura 15: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
 </div>
 
 ---

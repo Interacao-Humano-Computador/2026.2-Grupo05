@@ -3,7 +3,6 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 27/10/2026 | `1.0` | Criação do planejamento do relato dos resultados do Protótipo de Papel (TAR-08). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - estruturação em Markdown e apoio na formatação textual |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -19,11 +18,11 @@ A formatação deste planejamento fundamenta-se nas diretrizes do livro-texto de
 * **Cenário:** [Cenário 11](../../../../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
 * **Análise de tarefas:** [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
 * **Storyboard:** [Storyboard 06](../../../nivel1/storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](rodrigo-planejamento-av-prototipo-papel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](rodrigo-planejamento-av-prototipo-papel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
-* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+* **Protótipo de alta fidelidade navegável:** *não disponível*
 
 
 ---
@@ -61,7 +60,7 @@ Tendo em vista que a prototipação em papel tem foco predominantemente qualitat
 Para priorizar o tratamento das falhas de interação identificadas, adotar-se-á a **Escala de Severidade de Problemas** de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021, p. 270):
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escala de Severidade de Problemas de Usabilidade</p>
+<p><strong>Tabela 1</strong>: Escala de Severidade de Problemas de Usabilidade</p>
 </div>
 
 | Nível de Severidade | Classificação | Descrição do Impacto na Interação do Usuário no Papel |
@@ -87,7 +86,7 @@ Para garantir o rigor analítico e a padronização das entregas do grupo, o doc
 ### 4.1 Modelo de Tabela 1: Desempenho nas Tarefas do Protótipo em Papel
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Consolidação do Desempenho nas Tarefas em Papel</p>
+<p><strong>Tabela 2</strong>: Consolidação do Desempenho nas Tarefas em Papel</p>
 </div>
 
 | ID Tarefa | Descrição do Cenário / Tarefa no Papel | Sucesso sem Ajuda? | Tempo Gasto | Pedidos de Ajuda | Avaliação da Usabilidade |
@@ -105,7 +104,7 @@ Para garantir o rigor analítico e a padronização das entregas do grupo, o doc
 ### 4.2 Modelo de Tabela 2: Registro e Priorização de Problemas de IHC
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Tabela de Registro e Priorização de Problemas de Usabilidade</p>
+<p><strong>Tabela 3</strong>: Tabela de Registro e Priorização de Problemas de Usabilidade</p>
 </div>
 
 | ID Problema | Descrição da Dificuldade / Erro Observado | Peça / Tela de Papel Afetada | Severidade (0 a 4) | Fatores de Usabilidade Prejudicados | Sugestão de Reprojeto / Ação Recomendada |
@@ -122,7 +121,7 @@ Para garantir o rigor analítico e a padronização das entregas do grupo, o doc
 ### 4.3 Modelo de Tabela 3: Problemas Corrigidos no Papel vs. Pendentes para Alta Fidelidade
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Registro de Iterações no Protótipo de Papel e Pendências</p>
+<p><strong>Tabela 4</strong>: Registro de Iterações no Protótipo de Papel e Pendências</p>
 </div>
 
 | ID Problema | Modificação Realizada no Protótipo em Papel | Corrigido Durante o Teste? | Reincidiu na Interação? | Status para Prototipação Digital (Figma) |
@@ -159,7 +158,7 @@ Conforme as diretrizes pedagógicas da disciplina, a fundamentação teórica ad
 As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md).
 
 <div id="figura-1" align="center" markdown="1">
-<p><strong>Figura 1</strong> — Tela 1 do Protótipo de Papel: Checklist inicial e opção "Não sei o número do ônibus"</p>
+<p><strong>Figura 1</strong>: Tela 1 do Protótipo de Papel: Checklist inicial e opção "Não sei o número do ônibus"</p>
 
 ![Tela 1 do Protótipo de Papel: Checklist inicial e opção 'Não sei o número do ônibus'](../../../../assets/images/prototipo-papel-rodrigo-1-checklist.jpg){ width="600" }
 
@@ -167,7 +166,7 @@ As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-08](../../../..
 </div>
 
 <div id="figura-2" align="center" markdown="1">
-<p><strong>Figura 2</strong> — Tela 2 do Protótipo de Papel: Escolha guiada do problema (Ônibus / Linha)</p>
+<p><strong>Figura 2</strong>: Tela 2 do Protótipo de Papel: Escolha guiada do problema (Ônibus / Linha)</p>
 
 ![Tela 2 do Protótipo de Papel: Escolha guiada do problema (Ônibus / Linha)](../../../../assets/images/prototipo-papel-rodrigo-2-problema.jpg){ width="600" }
 
@@ -175,7 +174,7 @@ As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-08](../../../..
 </div>
 
 <div id="figura-3" align="center" markdown="1">
-<p><strong>Figura 3</strong> — Tela 3 do Protótipo de Papel: Preenchimento dos dados da ocorrência (com opção de anonimato)</p>
+<p><strong>Figura 3</strong>: Tela 3 do Protótipo de Papel: Preenchimento dos dados da ocorrência (com opção de anonimato)</p>
 
 ![Tela 3 do Protótipo de Papel: Preenchimento dos dados da ocorrência (com opção de anonimato)](../../../../assets/images/prototipo-papel-rodrigo-3-dados.jpg){ width="600" }
 
@@ -183,7 +182,7 @@ As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-08](../../../..
 </div>
 
 <div id="figura-4" align="center" markdown="1">
-<p><strong>Figura 4</strong> — Tela 4 do Protótipo de Papel: Resumo gerado para cópia e aviso prévio de redirecionamento</p>
+<p><strong>Figura 4</strong>: Tela 4 do Protótipo de Papel: Resumo gerado para cópia e aviso prévio de redirecionamento</p>
 
 ![Tela 4 do Protótipo de Papel: Resumo gerado para cópia e aviso prévio de redirecionamento](../../../../assets/images/prototipo-papel-rodrigo-4-resumo.jpg){ width="600" }
 
@@ -191,7 +190,7 @@ As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-08](../../../..
 </div>
 
 <div id="figura-5" align="center" markdown="1">
-<p><strong>Figura 5</strong> — Tela 5 do Protótipo de Papel: Colagem do resumo no Participa-DF, geração do protocolo e envio por e-mail</p>
+<p><strong>Figura 5</strong>: Tela 5 do Protótipo de Papel: Colagem do resumo no Participa-DF, geração do protocolo e envio por e-mail</p>
 
 ![Tela 5 do Protótipo de Papel: Colagem do resumo no Participa-DF, geração do protocolo e envio por e-mail](../../../../assets/images/prototipo-papel-rodrigo-5-protocolo.jpg){ width="600" }
 
@@ -205,23 +204,23 @@ As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-08](../../../..
 As Figuras 6 a 7 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong> — Prototipação em papel: conteúdo do relato dos resultados</p>
+<p><strong>Figura 6</strong>: Prototipação em papel: conteúdo do relato dos resultados</p>
 </div>
 
-![Figura 6 — Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+![Figura 6: Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306).</em></p>
 </div>
 
 <div id="figura-7" align="center">
-<p><strong>Figura 7</strong> — 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
+<p><strong>Figura 7</strong>: 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
 </div>
 
-![Figura 7 — 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+![Figura 7: 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306).</em></p>
 </div>
 
 ---

@@ -3,11 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 29/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Papel da TAR-09 (Pedido de aumento do limite diário do Vale-Transporte) via DECIDE. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
-
-!!! warning "Observação para correção manual"
-    Faltam as fotos das telas do protótipo de papel da TAR-09. O autor deve incluir as fotos (com título e fonte) numa seção "Telas do Protótipo Avaliado", antes das Fotos de Referência, como nos demais artefatos do nível 2.
 
 ---
 
@@ -23,16 +19,16 @@ A avaliação será presencial, com um participante que represente a persona [He
 * **Cenário:** [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
 * **Análise de tarefas:** [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
 * **Storyboard:** [Storyboard 05](../../../nivel1/storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../relatos-individuais/tomas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** telas no planejamento da avaliação (*nesta página*)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-09/index.html)
 
 
 ---
 
-## 1. D — Determinar os Objetivos da Avaliação
+## 1. D: Determinar os Objetivos da Avaliação
 
 A avaliação é **formativa**. Segundo Barbosa et al. (2021, Cap. 12), a prototipação em papel é um método de observação de uso que permite encontrar problemas de interação antes de qualquer implementação, enquanto mudar o design ainda é barato.
 
@@ -45,12 +41,12 @@ A avaliação é **formativa**. Segundo Barbosa et al. (2021, Cap. 12), a protot
 
 ---
 
-## 2. E — Explorar as Perguntas a Serem Respondidas
+## 2. E: Explorar as Perguntas a Serem Respondidas
 
 As perguntas abaixo orientam a observação durante a simulação e a conversa logo depois dela.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Perguntas da Avaliação do Protótipo de Papel</p>
+<p><strong>Tabela 1</strong>: Perguntas da Avaliação do Protótipo de Papel</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta da Avaliação | Critério de Aceitação / Resposta Esperada |
@@ -69,7 +65,7 @@ As perguntas abaixo orientam a observação durante a simulação e a conversa l
 
 ---
 
-## 3. C — Choose (Escolher) os Métodos de Avaliação
+## 3. C: Choose (Escolher) os Métodos de Avaliação
 
 O método escolhido é a **Prototipação em Papel** (Barbosa et al., 2021, Seção 12.2.3), um **método de observação de uso** em que o participante executa tarefas reais tocando em telas desenhadas à mão, enquanto um avaliador faz o papel do "computador" e troca as folhas conforme as ações dele.
 
@@ -79,7 +75,7 @@ O método escolhido é a **Prototipação em Papel** (Barbosa et al., 2021, Seç
 
 ---
 
-## 4. I — Identificar e Administrar as Questões Práticas
+## 4. I: Identificar e Administrar as Questões Práticas
 
 ### 4.1 Confecção do Protótipo em Papel
 
@@ -111,7 +107,7 @@ O protótipo será desenhado à mão em folhas de papel sulfite, no formato de t
 As tarefas são lidas em voz alta, uma de cada vez, a partir do [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md): *"Você trabalha com manutenção e passou o dia indo de prédio em prédio de ônibus. Na volta para casa, o cartão do Vale-Transporte não passou na catraca. Use o site da SEMOB no celular para resolver."*
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Tarefas Simuladas no Protótipo de Papel</p>
+<p><strong>Tabela 2</strong>: Tarefas Simuladas no Protótipo de Papel</p>
 </div>
 
 | ID Tarefa | Descrição da Tarefa | Telas e Peças | Objetivos da TAR-09 (HTA / CTT) | Perguntas Investigadas |
@@ -147,7 +143,7 @@ Conforme Barbosa et al. (2021, p. 304), a sessão com protótipo de papel exige 
 ### 4.6 Cronograma de Execução
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Cronograma da Sessão do Protótipo de Papel</p>
+<p><strong>Tabela 3</strong>: Cronograma da Sessão do Protótipo de Papel</p>
 </div>
 
 | Parâmetro | Detalhamento |
@@ -166,7 +162,7 @@ Conforme Barbosa et al. (2021, p. 304), a sessão com protótipo de papel exige 
 
 ---
 
-## 5. D — Decidir como Lidar com as Questões Éticas
+## 5. D: Decidir como Lidar com as Questões Éticas
 
 A sessão segue as Resoluções nº 466/2012 e nº 510/2016 do Conselho Nacional de Saúde (CNS) e as orientações de Barbosa et al. (2021):
 
@@ -179,7 +175,7 @@ A sessão segue as Resoluções nº 466/2012 e nº 510/2016 do Conselho Nacional
 
 ---
 
-## 6. E — Avaliar, Interpretar e Apresentar os Dados
+## 6. E: Avaliar, Interpretar e Apresentar os Dados
 
 Os dados da sessão serão analisados de forma **qualitativa**, com apoio de alguns números simples:
 
@@ -214,43 +210,43 @@ Antes da sessão definitiva, será feito um **teste piloto** no dia 30/10/2026, 
 As Figuras 1 a 4 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 1</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 1 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 1: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
+<p><strong>Figura 2</strong>: 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
 </div>
 
-![Figura 2 — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
+![Figura 2: 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 303). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 303).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Tabela 12.9 – Atividades do método de prototipação em papel</p>
+<p><strong>Figura 3</strong>: Tabela 12.9 – Atividades do método de prototipação em papel</p>
 </div>
 
-![Figura 3 — Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
+![Figura 3: Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305).</em></p>
 </div>
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+<p><strong>Figura 4</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
 </div>
 
-![Figura 4 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+![Figura 4: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
 </div>
 
 ---

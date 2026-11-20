@@ -4,7 +4,6 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 27/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Papel (TAR-06) via DECIDE. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - apenas revisou e formatou o texto em Markdown |
 | 03/11/2026 | `1.1` | Registro das datas reais do teste piloto e da sessão (03/11/2026, e não 31/10 e 01/11 como planejado), do observador e do local, com link para o [relato dos resultados](../../relatos-individuais/carlos/relato-resultados-prot-papel.md). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic) - apenas revisou e formatou o texto em Markdown |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -20,16 +19,16 @@ A avaliação envolve a simulação de uso por um participante do perfil da pers
 * **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md); [Cenário 10](../../../../analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md)
 * **Análise de tarefas:** [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)
 * **Storyboard:** [Storyboard 08](../../../nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../../nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../relatos-individuais/carlos/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../../nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** telas no planejamento da avaliação (*nesta página*)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
 
 
 ---
 
-## 1. D — Determinar os Objetivos da Avaliação
+## 1. D: Determinar os Objetivos da Avaliação
 
 Segundo Barbosa et al. (2021, Seção 12.2.3, p. 303), *"o método de prototipação em papel (Barbosa et al., 2021) avalia a usabilidade de um design de IHC representado em papel, através de simulações de uso com a participação de potenciais usuários"*. É uma opção para avaliação formativa, antes de construir uma solução executável ([Imagem 3](#imagem-3)).
 
@@ -42,10 +41,10 @@ Segundo Barbosa et al. (2021, Seção 12.2.3, p. 303), *"o método de prototipa�
 
 ---
 
-## 2. E — Explorar as Perguntas a Serem Respondidas
+## 2. E: Explorar as Perguntas a Serem Respondidas
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Perguntas da Avaliação do Protótipo de Papel</p>
+<p><strong>Tabela 1</strong>: Perguntas da Avaliação do Protótipo de Papel</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta de Investigação | Hipótese / Elemento da TAR-06 | Critério de Aceitação |
@@ -63,7 +62,7 @@ Segundo Barbosa et al. (2021, Seção 12.2.3, p. 303), *"o método de prototipa�
 
 ---
 
-## 3. C — Choose (Escolher) os Métodos de Avaliação
+## 3. C: Choose (Escolher) os Métodos de Avaliação
 
 O método escolhido é a **Prototipação em Papel** (Barbosa et al., 2021, Seção 12.2.3), um método de observação de uso com o participante. A Tabela 12.9 do livro resume suas atividades: preparação, coleta de dados, interpretação, consolidação e relato ([Imagem 4](#imagem-4)).
 
@@ -75,7 +74,7 @@ O método escolhido é a **Prototipação em Papel** (Barbosa et al., 2021, Seç
 As tarefas são apresentadas em um cartão impresso, com o contexto do Cenário 2: *"Você está no ponto de manhã e precisa chegar à UnB Gama para a primeira aula."*
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Tarefas da sessão com o protótipo de papel</p>
+<p><strong>Tabela 2</strong>: Tarefas da sessão com o protótipo de papel</p>
 </div>
 
 | ID | Tarefa | Objetivos da HTA cobertos | Perguntas relacionadas |
@@ -90,14 +89,14 @@ As tarefas são apresentadas em um cartão impresso, com o contexto do Cenário 
 
 ---
 
-## 4. I — Identificar e Administrar as Questões Práticas
+## 4. I: Identificar e Administrar as Questões Práticas
 
 ### 4.1 Confecção do Protótipo em Papel
 
 As telas são desenhadas à mão livre, sem detalhes que não importam para a avaliação. Além das telas estáticas, são preparados pedaços de papel com as partes que mudam durante a interação, como resultados de busca e mensagens (Barbosa et al., 2021, p. 303) ([Imagem 3](#imagem-3)).
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Telas e peças do protótipo de papel</p>
+<p><strong>Tabela 3</strong>: Telas e peças do protótipo de papel</p>
 </div>
 
 | Peça | Tipo | Conteúdo | Tarefa |
@@ -131,7 +130,7 @@ Na sessão, *"um avaliador atua como 'computador' para simular em papel a execu�
 ### 4.4 Infraestrutura e Cronograma
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Cronograma da sessão com o protótipo de papel</p>
+<p><strong>Tabela 4</strong>: Cronograma da sessão com o protótipo de papel</p>
 </div>
 
 | Parâmetro | Detalhamento |
@@ -150,7 +149,7 @@ Na sessão, *"um avaliador atua como 'computador' para simular em papel a execu�
 
 ---
 
-## 5. D — Decidir como Lidar com as Questões Éticas
+## 5. D: Decidir como Lidar com as Questões Éticas
 
 Os cuidados seguem a Resolução nº 510/2016 do CNS e Barbosa et al. (2021, Seção 11.8, p. 264) ([Imagem 6](#imagem-6)):
 
@@ -161,7 +160,7 @@ Os cuidados seguem a Resolução nº 510/2016 do CNS e Barbosa et al. (2021, Se�
 
 ---
 
-## 6. E — Avaliar, Interpretar e Apresentar os Dados
+## 6. E: Avaliar, Interpretar e Apresentar os Dados
 
 1. **Revisão do vídeo e das anotações:** registrar, para cada tarefa, sucesso sem ajuda, tempo, pedidos de ajuda e falas marcantes.
 2. **Problemas encontrados:** listar os problemas com a escala de severidade de 0 a 4 (Barbosa et al., 2021).
@@ -185,7 +184,7 @@ Antes da sessão com o participante, é feito um **teste piloto** (Barbosa et al
 A Imagem 1 mostra as telas do protótipo de papel da [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md).
 
 <div id="imagem-1" align="center" markdown="1">
-<p><strong>Imagem 1</strong> — Telas e peças do protótipo de papel da TAR-06</p>
+<p><strong>Imagem 1</strong>: Telas e peças do protótipo de papel da TAR-06</p>
 
 ![Telas e peças do protótipo de papel da TAR-06](../../../../assets/prototipos/prototipo-papel-tar-06.jpeg){ width="600" }
 
@@ -198,32 +197,32 @@ A Imagem 1 mostra as telas do protótipo de papel da [TAR-06](../../../../analis
 ## 9. Fotos de Referência
 <div id="imagem-2" markdown>
 ![Framework DECIDE](../../../../assets/prints_referencias/referencia-decide-visao-geral.png)
-<p><em>Imagem 2 — Framework DECIDE (Barbosa et al., 2021, Seção 11.8, pp. 263–264).</em></p>
+<p><em>Imagem 2: Framework DECIDE (Barbosa et al., 2021, Seção 11.8, pp. 263–264).</em></p>
 </div>
 
 <div id="imagem-3" markdown>
 ![Definição da prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
-<p><em>Imagem 3 — Prototipação em papel: definição, avaliador "computador" e preparação das telas e peças (Barbosa et al., 2021, Seção 12.2.3, p. 303; recorte e grifo: Gabriel Melo, 2026).</em></p>
+<p><em>Imagem 3: Prototipação em papel: definição, avaliador "computador" e preparação das telas e peças (Barbosa et al., 2021, Seção 12.2.3, p. 303).</em></p>
 </div>
 
 <div id="imagem-4" markdown>
 ![Tabela 12.9](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
-<p><em>Imagem 4 — Tabela 12.9: atividades do método de prototipação em papel (Barbosa et al., 2021, Seção 12.2.3, Tabela 12.9, pp. 304–305; recorte e grifo: Gabriel Melo, 2026).</em></p>
+<p><em>Imagem 4: Tabela 12.9: atividades do método de prototipação em papel (Barbosa et al., 2021, Seção 12.2.3, Tabela 12.9, pp. 304–305).</em></p>
 </div>
 
 <div id="imagem-5" markdown>
 ![Coleta de dados e papéis](../../../../assets/prints_referencias/verificacao-v2/livro-papel-observador.png)
-<p><em>Imagem 5 — Condução da simulação e papéis do "computador" e do observador (Barbosa et al., 2021, Seção 12.2.3, p. 305; recorte e grifo: Gabriel Melo, 2026).</em></p>
+<p><em>Imagem 5: Condução da simulação e papéis do "computador" e do observador (Barbosa et al., 2021, Seção 12.2.3, p. 305).</em></p>
 </div>
 
 <div id="imagem-6" markdown>
 ![Questões éticas](../../../../assets/prints_referencias/referencia-decide-questoes-eticas.png)
-<p><em>Imagem 6 — Questões éticas da avaliação com usuários (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
+<p><em>Imagem 6: Questões éticas da avaliação com usuários (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
 </div>
 
 <div id="imagem-7" markdown>
 ![Teste piloto](../../../../assets/prints_referencias/print-teoria-teste-piloto.png)
-<p><em>Imagem 7 — Teste piloto (Barbosa et al., 2021, Seção 11.7.2, p. 260).</em></p>
+<p><em>Imagem 7: Teste piloto (Barbosa et al., 2021, Seção 11.7.2, p. 260).</em></p>
 </div>
 
 ---

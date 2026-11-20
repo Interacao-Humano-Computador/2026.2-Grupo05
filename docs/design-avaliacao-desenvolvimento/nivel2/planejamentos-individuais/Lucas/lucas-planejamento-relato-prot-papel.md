@@ -2,14 +2,13 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 25/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Protótipo de Papel (TAR-03) com modelos de tabelas e referências do livro-texto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — utilizado apenas para apoio na formatação sintática de tabelas em Markdown |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
+| 25/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Protótipo de Papel (TAR-03) com modelos de tabelas e referências do livro-texto. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: utilizado apenas para apoio na formatação sintática de tabelas em Markdown |
 
 ---
 
 # Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-03)
 
-Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel** referente à **[TAR-03 — Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)**. Trata-se de um documento metodológico individual elaborado por Lucas Araújo Lima para padronizar como os dados coletados na sessão presencial de prototipação em papel (Etapa 6) serão analisados, consolidados e comunicados à equipe e aos interessados.
+Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel** referente à **[TAR-03: Planejamento de Rota Completa (Porta a Porta) por Destino com Indicação de Paradas e Previsão de Chegada](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)**. Trata-se de um documento metodológico individual elaborado por Lucas Araújo Lima para padronizar como os dados coletados na sessão presencial de prototipação em papel (Etapa 6) serão analisados, consolidados e comunicados à equipe e aos interessados.
 
 A estrutura deste planejamento fundamenta-se diretamente nas diretrizes de **Consolidação e Relato dos Resultados** (Barbosa et al., 2021, Seção 11.7.5, pp. 262–263) e nas exigências específicas de relato do método de **Prototipação em Papel** (Barbosa et al., 2021, Seção 12.2.3, pp. 305–306).
 
@@ -19,9 +18,9 @@ A estrutura deste planejamento fundamenta-se diretamente nas diretrizes de **Con
 * **Cenário:** [Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)
 * **Análise de tarefas:** [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
 * **Storyboard:** [Storyboard 03](../../../nivel1/storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../../nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](../../../nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](lucas-planejamento-av-prototipo-papel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../../nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](../../../nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../../nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](lucas-planejamento-av-prototipo-papel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-03/index.html)
 
@@ -61,7 +60,7 @@ Conforme ressaltam Barbosa et al. (2021), na prototipação em papel a interpret
 Para padronizar a priorização entre todos os integrantes do Grupo 05, será adotada a **Escala de Severidade de Problemas de Usabilidade** de Nielsen (1994 apud BARBOSA et al., 2021), integrada aos fatores de usabilidade de Barbosa et al. (2021):
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escala de Severidade para Priorização de Problemas no Protótipo de Papel</p>
+<p><strong>Tabela 1</strong>: Escala de Severidade para Priorização de Problemas no Protótipo de Papel</p>
 </div>
 
 | Nível | Classificação de Severidade | Critério de Julgamento na Simulação em Papel (TAR-03) |
@@ -85,7 +84,7 @@ A seguir, definem-se os **quatro modelos de tabelas** que serão preenchidos no 
 ### 4.1 Modelo de Tabela 1: Sumário de Execução das Tarefas no Papel
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Modelo de Sumário de Desempenho nas Tarefas Executadas no Protótipo em Papel</p>
+<p><strong>Tabela 2</strong>: Modelo de Sumário de Desempenho nas Tarefas Executadas no Protótipo em Papel</p>
 </div>
 
 | ID Tarefa | Tarefa Solicitada ao Participante (Escopo TAR-03) | Telas / Widgets Manipulados | Concluiu sem Ajuda? | Tempo Gasto | Erros / Hesitações Observadas | Síntese da Verbalização (*Think Aloud*) |
@@ -104,7 +103,7 @@ A seguir, definem-se os **quatro modelos de tabelas** que serão preenchidos no 
 Atende diretamente ao quinto tópico do relato exigido por Barbosa et al. (2021): *"uma lista de problemas de usabilidade corrigidos durante os ciclos de avaliação e reprojeto"*.
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Modelo de Registro de Problemas Corrigidos Imediatamente no Protótipo em Papel</p>
+<p><strong>Tabela 3</strong>: Modelo de Registro de Problemas Corrigidos Imediatamente no Protótipo em Papel</p>
 </div>
 
 | ID | Local Onde Ocorreu (Tela / Widget) | Fatores de Usabilidade Prejudicados | Descrição e Justificativa do Problema | Correção Realizada no Protótipo em Papel | Voltou a Ocorrer Depois da Correção? |
@@ -122,7 +121,7 @@ Atende diretamente ao quinto tópico do relato exigido por Barbosa et al. (2021)
 Atende diretamente ao sexto tópico do relato exigido por Barbosa et al. (2021): *"uma lista dos problemas de usabilidade ainda não corrigidos"*.
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Modelo de Registro de Problemas Pendentes e Sugestões de Correção para Alta Fidelidade</p>
+<p><strong>Tabela 4</strong>: Modelo de Registro de Problemas Pendentes e Sugestões de Correção para Alta Fidelidade</p>
 </div>
 
 | ID | Local Onde Ocorreu (Tela / Widget) | Fatores de Usabilidade Prejudicados | Descrição e Justificativa do Problema | Prioridade / Severidade (0 a 4) | Sugestões de Correção (Protótipo de Alta Fidelidade) |
@@ -139,7 +138,7 @@ Atende diretamente ao sexto tópico do relato exigido por Barbosa et al. (2021):
 ### 4.4 Modelo de Tabela 4: Matriz de Rastreabilidade das Perguntas Investigativas (DECIDE)
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Modelo de Resposta às Perguntas Investigativas (`QP01` a `QP06`) do Planejamento</p>
+<p><strong>Tabela 5</strong>: Modelo de Resposta às Perguntas Investigativas (`QP01` a `QP06`) do Planejamento</p>
 </div>
 
 | ID Pergunta | Foco Investigado | Evidência Empírica Coletada na Sessão em Papel | Julgamento / Status | Impacto para o Protótipo de Alta Fidelidade |
@@ -160,7 +159,7 @@ Atende diretamente ao sexto tópico do relato exigido por Barbosa et al. (2021):
 ## 5. Cronograma de Consolidação e Entrega do Relato (Etapa 6)
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Cronograma de Elaboração e Revisão do Relato do Protótipo de Papel (TAR-03)</p>
+<p><strong>Tabela 6</strong>: Cronograma de Elaboração e Revisão do Relato do Protótipo de Papel (TAR-03)</p>
 </div>
 
 | Data Prevista | Atividade | Responsável |
@@ -185,8 +184,8 @@ Na página 305 (Seção 12.2.3), Barbosa et al. (2021) detalham como os avaliado
 
 <div align="center">
   <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png" alt="12.2.3 Prototipação em papel: refinamento, priorização e relato (BARBOSA et al., 2021, pp. 305–306)" width="85%">
-  <p><strong>Figura 1</strong> — Diretrizes de interpretação, consolidação e lista de itens obrigatórios do relato da Prototipação em Papel (Parte 1: problemas corrigidos no papel)</p>
-  <p><em>Fonte: BARBOSA et al. (2021, Seção 12.2.3, pp. 305–306). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+  <p><strong>Figura 1</strong>: Diretrizes de interpretação, consolidação e lista de itens obrigatórios do relato da Prototipação em Papel (Parte 1: problemas corrigidos no papel)</p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 12.2.3, pp. 305–306).</em></p>
 </div>
 
 ### 6.2 Relato dos Problemas Não Corrigidos e Adequação do Método (Página 306)
@@ -194,8 +193,8 @@ Na página 306, os autores completam os requisitos do relato exigindo a lista de
 
 <div align="center">
   <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png" alt="Prototipação em papel: conteúdo do relato dos resultados (BARBOSA et al., 2021, pp. 305–306)" width="85%">
-  <p><strong>Figura 2</strong> — Lista de itens obrigatórios do relato da Prototipação em Papel (Parte 2: problemas não corrigidos) e Tabela 12.10 de comparação de métodos</p>
-  <p><em>Fonte: BARBOSA et al. (2021, Seção 12.2.3, pp. 305–306). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+  <p><strong>Figura 2</strong>: Lista de itens obrigatórios do relato da Prototipação em Papel (Parte 2: problemas não corrigidos) e Tabela 12.10 de comparação de métodos</p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 12.2.3, pp. 305–306).</em></p>
 </div>
 
 ### 6.3 Diretrizes Gerais de Consolidação e Relato de Avaliações de IHC
@@ -203,8 +202,8 @@ De forma complementar, a Seção 11.7.5 (*Consolidação e Relato dos Resultados
 
 <div align="center">
   <img src="../../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png" alt="11.7.5 Consolidação e relato dos resultados (BARBOSA et al., 2021, p. 263)" width="85%">
-  <p><strong>Figura 3</strong> — Diretrizes gerais de consolidação dos resultados, limites de generalização e elementos do relatório de avaliação</p>
-  <p><em>Fonte: BARBOSA et al. (2021, Seção 11.7.5, p. 263). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+  <p><strong>Figura 3</strong>: Diretrizes gerais de consolidação dos resultados, limites de generalização e elementos do relatório de avaliação</p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 11.7.5, p. 263).</em></p>
 </div>
 
 
@@ -215,7 +214,7 @@ As Figuras 4 a 7 mostram as telas do protótipo de papel da [TAR-03](../../../..
 * **Protótipo de papel (PDF):** [Visualizar PDF do protótipo de papel](../../../../assets/PDFs/Prototipo_Papel_TAR03_Lucas.pdf)
 
 <div id="figura-4" align="center" markdown="1">
-<p><strong>Figura 4</strong> — Tela 01 (Home SEMOB-DF com localização GPS automática) e sobreposição do Post-it móvel W01 (Autocompletar para "SIA Trecho 3")</p>
+<p><strong>Figura 4</strong>: Tela 01 (Home SEMOB-DF com localização GPS automática) e sobreposição do Post-it móvel W01 (Autocompletar para "SIA Trecho 3")</p>
 
 ![Tela 01 (Home SEMOB-DF com localização GPS automática) e sobreposição do Post-it móvel W01 (Autocompletar para 'SIA Trecho 3')](../../../../assets/prototipo_papel_lucas/tela01_home_busca.png){ width="600" }
 
@@ -223,7 +222,7 @@ As Figuras 4 a 7 mostram as telas do protótipo de papel da [TAR-03](../../../..
 </div>
 
 <div id="figura-5" align="center" markdown="1">
-<p><strong>Figura 5</strong> — Tela 02: Cartões comparativos de rota porta a porta (Card A Recomendado: Linha 092.1 Semiexpresso vs. Card B: Linha 0.092 Via EPTG)</p>
+<p><strong>Figura 5</strong>: Tela 02: Cartões comparativos de rota porta a porta (Card A Recomendado: Linha 092.1 Semiexpresso vs. Card B: Linha 0.092 Via EPTG)</p>
 
 ![Tela 02: Cartões comparativos de rota porta a porta (Card A Recomendado: Linha 092.1 Semiexpresso vs. Card B: Linha 0.092 Via EPTG)](../../../../assets/prototipo_papel_lucas/tela02_comparacao_rotas.png){ width="600" }
 
@@ -231,7 +230,7 @@ As Figuras 4 a 7 mostram as telas do protótipo de papel da [TAR-03](../../../..
 </div>
 
 <div id="figura-6" align="center" markdown="1">
-<p><strong>Figura 6</strong> — Tela 03: Mapa esquemático com rota tracejada a pé (4 min / 280m até a Parada QR 302 Conj. 4), peça móvel do ônibus 092.1 (W02) e passo a passo inferior</p>
+<p><strong>Figura 6</strong>: Tela 03: Mapa esquemático com rota tracejada a pé (4 min / 280m até a Parada QR 302 Conj. 4), peça móvel do ônibus 092.1 (W02) e passo a passo inferior</p>
 
 ![Tela 03: Mapa esquemático com rota tracejada a pé (4 min / 280m até a Parada QR 302 Conj. 4), peça móvel do ônibus 092.1 (W02) e passo a passo inferior](../../../../assets/prototipo_papel_lucas/tela03_mapa_rastreamento.png){ width="600" }
 
@@ -239,7 +238,7 @@ As Figuras 4 a 7 mostram as telas do protótipo de papel da [TAR-03](../../../..
 </div>
 
 <div id="figura-7" align="center" markdown="1">
-<p><strong>Figura 7</strong> — Widgets móveis em Post-its: W03 (Alerta de Retenção Severa na EPTG com troca para Linha 0.380) e W04 (Contingência de Falha de GPS com consulta de horários offline)</p>
+<p><strong>Figura 7</strong>: Widgets móveis em Post-its: W03 (Alerta de Retenção Severa na EPTG com troca para Linha 0.380) e W04 (Contingência de Falha de GPS com consulta de horários offline)</p>
 
 ![Widgets móveis em Post-its: W03 (Alerta de Retenção Severa na EPTG com troca para Linha 0.380) e W04 (Contingência de Falha de GPS com consulta de horários offline)](../../../../assets/prototipo_papel_lucas/tela04_widgets_contingencia.png){ width="600" }
 
@@ -253,23 +252,23 @@ As Figuras 4 a 7 mostram as telas do protótipo de papel da [TAR-03](../../../..
 As Figuras 8 a 9 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-8" align="center">
-<p><strong>Figura 8</strong> — Prototipação em papel: conteúdo do relato dos resultados</p>
+<p><strong>Figura 8</strong>: Prototipação em papel: conteúdo do relato dos resultados</p>
 </div>
 
-![Figura 8 — Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+![Figura 8: Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306).</em></p>
 </div>
 
 <div id="figura-9" align="center">
-<p><strong>Figura 9</strong> — 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
+<p><strong>Figura 9</strong>: 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
 </div>
 
-![Figura 9 — 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+![Figura 9: 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306).</em></p>
 </div>
 
 ---

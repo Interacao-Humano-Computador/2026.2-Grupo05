@@ -3,11 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 29/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Protótipo de Papel da TAR-09 (Pedido de aumento do limite diário do Vale-Transporte). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
-
-!!! warning "Observação para correção manual"
-    Faltam as fotos das telas do protótipo de papel da TAR-09. O autor deve incluir as fotos (com título e fonte) numa seção "Telas do Protótipo Avaliado", antes das Fotos de Referência, como nos demais artefatos do nível 2.
 
 ---
 
@@ -23,9 +19,9 @@ A avaliação correspondente está descrita no [Planejamento da Avaliação do P
 * **Cenário:** [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
 * **Análise de tarefas:** [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
 * **Storyboard:** [Storyboard 05](../../../nivel1/storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](tomas-planejamento-av-prototipo-papel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/tomas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](tomas-planejamento-av-prototipo-papel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](tomas-planejamento-av-prototipo-papel.md)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-09/index.html)
 
@@ -76,7 +72,7 @@ Para cada problema, registram-se dois valores diferentes:
 * **Prioridade (Alta, Média, Baixa):** a ordem em que será corrigido, considerando a severidade e o custo da correção. Um problema grave e fácil de corrigir tem prioridade alta; um problema leve e caro de corrigir tem prioridade baixa.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escala de Severidade dos Problemas de Usabilidade</p>
+<p><strong>Tabela 1</strong>: Escala de Severidade dos Problemas de Usabilidade</p>
 </div>
 
 | Nível | Classificação | Descrição do Impacto | Exemplo no Protótipo da TAR-09 |
@@ -102,7 +98,7 @@ Os campos entre colchetes serão preenchidos depois da sessão.
 Para cada tarefa, registram-se a **conclusão**, as **dificuldades observadas**, a **evidência** e a **interpretação** do que aconteceu.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Desempenho do Participante nas Tarefas do Protótipo de Papel</p>
+<p><strong>Tabela 2</strong>: Desempenho do Participante nas Tarefas do Protótipo de Papel</p>
 </div>
 
 | ID Tarefa | Tarefa | Conclusão | Tempo | Pedidos de Ajuda | Dificuldades Observadas | Evidência (fala ou minuto da gravação) | Interpretação |
@@ -118,7 +114,7 @@ Para cada tarefa, registram-se a **conclusão**, as **dificuldades observadas**,
 ### 4.2 Respostas às Perguntas da Avaliação
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Resultado das Perguntas da Avaliação</p>
+<p><strong>Tabela 3</strong>: Resultado das Perguntas da Avaliação</p>
 </div>
 
 | ID | Pergunta (resumo) | Critério de Aceitação | O que foi observado | Critério Atingido? |
@@ -138,7 +134,7 @@ Para cada tarefa, registram-se a **conclusão**, as **dificuldades observadas**,
 ### 4.3 Registro e Priorização dos Problemas de Usabilidade
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Problemas de Usabilidade Encontrados</p>
+<p><strong>Tabela 4</strong>: Problemas de Usabilidade Encontrados</p>
 </div>
 
 | ID | Descrição do Problema | Tela / Peça Afetada | Tarefa e Pergunta | Impacto no Participante | Severidade (0–4) | Prioridade | Evidência | Recomendação de Correção |
@@ -158,7 +154,7 @@ A prototipação em papel permite corrigir uma tela durante a própria sessão (
 * **Correção para a próxima versão:** mudança que não dá para fazer na hora ou não pôde ser testada, como criar uma tela nova, mudar a ordem dos passos do pedido ou alterar uma regra do fluxo. Ela vira requisito do protótipo de alta fidelidade.
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Alterações Feitas no Papel e Correções Planejadas</p>
+<p><strong>Tabela 5</strong>: Alterações Feitas no Papel e Correções Planejadas</p>
 </div>
 
 | ID Problema | Mudança | Tipo de Mudança | Testada na Sessão? | Resultado Depois da Mudança | Destino |
@@ -195,23 +191,23 @@ Os problemas da Tabela 4 serão tratados assim:
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Prototipação em papel: conteúdo do relato dos resultados</p>
+<p><strong>Figura 1</strong>: Prototipação em papel: conteúdo do relato dos resultados</p>
 </div>
 
-![Figura 1 — Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+![Figura 1: Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
+<p><strong>Figura 2</strong>: 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
 </div>
 
-![Figura 2 — 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+![Figura 2: 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306).</em></p>
 </div>
 
 ---

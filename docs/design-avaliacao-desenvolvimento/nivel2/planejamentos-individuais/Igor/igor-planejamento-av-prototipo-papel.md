@@ -3,7 +3,6 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 20/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Protótipo de Papel (TAR-01) via DECIDE para teste presencial. | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - formatação markdown da página |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -19,16 +18,16 @@ A avaliação será conduzida de forma empírica presencial, envolvendo a simula
 * **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md)
 * **Análise de tarefas:** [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md)
 * **Storyboard:** [Storyboard 01](../../../nivel1/storyboards.md#31-storyboard-01-alerta-inteligente-de-saida-de-casa)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](igor-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../relatos-individuais/igor/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/igor/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](igor-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../relatos-individuais/igor/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/igor/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** telas no planejamento da avaliação (*nesta página*)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://www.figma.com/proto/00YEuKWtN4N1rBzpC8V7Gd/prototipo-de-igor?node-id=0-1&t=S9Z2PNsKlHC3LlTt-1)
 
 
 ---
 
-## 1. D — Determinar os Objetivos da Avaliação
+## 1. D: Determinar os Objetivos da Avaliação
 
 Conforme Barbosa et al. (2021, Cap. 12, p. 303), a prototipação em papel é um método de observação de uso voltado à avaliação formativa, ideal para explorar ideias de design, validar o modelo conceitual e identificar problemas de IHC antes do desenvolvimento de software executável.
 
@@ -40,12 +39,12 @@ Conforme Barbosa et al. (2021, Cap. 12, p. 303), a prototipação em papel é um
 
 ---
 
-## 2. E — Explorar as Perguntas a Serem Respondidas
+## 2. E: Explorar as Perguntas a Serem Respondidas
 
 Para operacionalizar os objetivos da avaliação, foram elaboradas perguntas investigativas aplicadas durante e após a simulação com o protótipo de papel (Barbosa et al., 2021):
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Roteiro de Perguntas Investigativas da Avaliação</p>
+<p><strong>Tabela 1</strong>: Roteiro de Perguntas Investigativas da Avaliação</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta de Investigação da Avaliação | Critério de Aceitação / Resposta Esperada |
@@ -62,7 +61,7 @@ Para operacionalizar os objetivos da avaliação, foram elaboradas perguntas inv
 
 ---
 
-## 3. C — Choose (Escolher) os Métodos de Avaliação
+## 3. C: Choose (Escolher) os Métodos de Avaliação
 
 O método selecionado é a **Prototipação em Papel (Barbosa et al., 2021, Seção 12.2.3)**, enquadrado como um **Método de Observação de Uso (Empírico)** em ambiente controlado presencial.
 
@@ -71,7 +70,7 @@ O método selecionado é a **Prototipação em Papel (Barbosa et al., 2021, Seç
 
 ---
 
-## 4. I — Identificar e Administrar as Questões Práticas
+## 4. I: Identificar e Administrar as Questões Práticas
 
 ### 4.1 Confecção do Protótipo em Papel
 O protótipo será construído à mão em folhas de papel e cartolina, contendo:
@@ -98,7 +97,7 @@ Conforme Barbosa et al. (2021, p. 304), a condução do teste presencial exige a
 ### 4.5 Cronograma de Execução Presencial
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Cronograma da Sessão Presencial do Protótipo de Papel</p>
+<p><strong>Tabela 2</strong>: Cronograma da Sessão Presencial do Protótipo de Papel</p>
 </div>
 
 | Parâmetro | Detalhamento da Sessão Presencial |
@@ -115,7 +114,7 @@ Conforme Barbosa et al. (2021, p. 304), a condução do teste presencial exige a
 
 ---
 
-## 5. D — Decidir como Lidar com as Questões Éticas
+## 5. D: Decidir como Lidar com as Questões Éticas
 
 A condução do teste presencial com o protótipo de papel atende rigorosamente às Resoluções nº 466/2012 e nº 510/2016 do Conselho Nacional de Saúde (CNS) e às diretrizes do livro-texto (Barbosa et al., 2021, Seção 7.4):
 
@@ -125,7 +124,7 @@ A condução do teste presencial com o protótipo de papel atende rigorosamente 
 
 ---
 
-## 6. E — Avaliar, Interpretar e Apresentar os Dados
+## 6. E: Avaliar, Interpretar e Apresentar os Dados
 
 Os dados coletados na sessão presencial serão processados seguindo a abordagem de **análise qualitativa e ciclo iterativo rápido** (Barbosa et al., 2021, Seção 12.2.3):
 
@@ -158,7 +157,7 @@ Conforme as normas da disciplina, a fundamentação conceitual aplicada a este p
 As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md).
 
 <div id="figura-1" align="center" markdown="1">
-<p><strong>Figura 1</strong> — Tela inicial: busca por linha ou destino, linhas e destinos salvos</p>
+<p><strong>Figura 1</strong>: Tela inicial: busca por linha ou destino, linhas e destinos salvos</p>
 
 ![Tela inicial: busca por linha ou destino, linhas e destinos salvos](../../../../assets/images/prototipo-tar01/Igor_prot_01.jpeg){ width="600" }
 
@@ -166,7 +165,7 @@ As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-01](../../../..
 </div>
 
 <div id="figura-2" align="center" markdown="1">
-<p><strong>Figura 2</strong> — Monitoramento ativo: tempo de caminhada calculado via GPS e horário estimado de saída</p>
+<p><strong>Figura 2</strong>: Monitoramento ativo: tempo de caminhada calculado via GPS e horário estimado de saída</p>
 
 ![Monitoramento ativo: tempo de caminhada calculado via GPS e horário estimado de saída](../../../../assets/images/prototipo-tar01/Igor_prot_02.jpeg){ width="600" }
 
@@ -174,7 +173,7 @@ As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-01](../../../..
 </div>
 
 <div id="figura-3" align="center" markdown="1">
-<p><strong>Figura 3</strong> — Alerta de saída imediata: ônibus adiantado, com opções "Estou saindo!" e "Sugerir outra rota"</p>
+<p><strong>Figura 3</strong>: Alerta de saída imediata: ônibus adiantado, com opções "Estou saindo!" e "Sugerir outra rota"</p>
 
 ![Alerta de saída imediata: ônibus adiantado, com opções 'Estou saindo!' e 'Sugerir outra rota'](../../../../assets/images/prototipo-tar01/Igor_prot_03.jpeg){ width="600" }
 
@@ -182,7 +181,7 @@ As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-01](../../../..
 </div>
 
 <div id="figura-4" align="center" markdown="1">
-<p><strong>Figura 4</strong> — Rota alternativa: sugestão de nova linha para o destino, com opções de confirmar ou cancelar</p>
+<p><strong>Figura 4</strong>: Rota alternativa: sugestão de nova linha para o destino, com opções de confirmar ou cancelar</p>
 
 ![Rota alternativa: sugestão de nova linha para o destino, com opções de confirmar ou cancelar](../../../../assets/images/prototipo-tar01/Igor_prot_04.jpeg){ width="600" }
 
@@ -190,7 +189,7 @@ As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-01](../../../..
 </div>
 
 <div id="figura-5" align="center" markdown="1">
-<p><strong>Figura 5</strong> — Monitoramento da nova rota: linha alternativa selecionada e novo horário estimado de saída</p>
+<p><strong>Figura 5</strong>: Monitoramento da nova rota: linha alternativa selecionada e novo horário estimado de saída</p>
 
 ![Monitoramento da nova rota: linha alternativa selecionada e novo horário estimado de saída](../../../../assets/images/prototipo-tar01/Igor_prot_05.jpeg){ width="600" }
 
@@ -204,43 +203,43 @@ As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-01](../../../..
 As Figuras 6 a 9 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 6</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 6 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 6: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div id="figura-7" align="center">
-<p><strong>Figura 7</strong> — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
+<p><strong>Figura 7</strong>: 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
 </div>
 
-![Figura 7 — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
+![Figura 7: 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 303). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 303).</em></p>
 </div>
 
 <div id="figura-8" align="center">
-<p><strong>Figura 8</strong> — Tabela 12.9 – Atividades do método de prototipação em papel</p>
+<p><strong>Figura 8</strong>: Tabela 12.9 – Atividades do método de prototipação em papel</p>
 </div>
 
-![Figura 8 — Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
+![Figura 8: Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305).</em></p>
 </div>
 
 <div id="figura-9" align="center">
-<p><strong>Figura 9</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+<p><strong>Figura 9</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
 </div>
 
-![Figura 9 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+![Figura 9: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
 </div>
 
 ---

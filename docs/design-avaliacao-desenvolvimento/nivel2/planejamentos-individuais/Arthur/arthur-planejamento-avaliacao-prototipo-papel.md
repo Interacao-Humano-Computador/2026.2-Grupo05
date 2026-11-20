@@ -3,7 +3,6 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 25/10/2026 | `1.0` | Criação do planejamento da avaliação formativa do protótipo de papel da TAR-07, estruturado pelo framework DECIDE. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Henrique](https://github.com/carloshfgit) | Google Gemini - apoio à estruturação em Markdown e revisão textual. |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão das telas do protótipo avaliado, com links para o protótipo e para o artefato relacionado. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio na inclusão das telas do protótipo.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -11,7 +10,7 @@
 
 ## 1. Introdução e escopo
 
-Este documento planeja a avaliação formativa de um **protótipo de papel** para a [TAR-07 — Resolver indisponibilidade de crédito de Vale-Transporte](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md). O protótipo representa uma proposta de orientação no portal da SEMOB-DF para a situação descrita no [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md), vivida pela persona [Maria Eduarda Santos](../../../../analise-de-requisitos/personas/maria-eduarda-santos.md).
+Este documento planeja a avaliação formativa de um **protótipo de papel** para a [TAR-07: Resolver indisponibilidade de crédito de Vale-Transporte](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md). O protótipo representa uma proposta de orientação no portal da SEMOB-DF para a situação descrita no [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md), vivida pela persona [Maria Eduarda Santos](../../../../analise-de-requisitos/personas/maria-eduarda-santos.md).
 
 O foco não é confirmar procedimentos operacionais do BRB Mobilidade, da SEMOB-DF ou do empregador. O foco é verificar se a interface proposta ajuda uma passageira trabalhadora a compreender a situação, identificar o responsável apropriado e encontrar um próximo passo sem precisar decifrar linguagem institucional nem navegar entre vários canais.
 
@@ -23,9 +22,9 @@ Conforme Barbosa et al. (2021, Seção 12.2.3), a prototipação em papel simula
 * **Cenário:** [Cenário 4](../../../../analise-de-requisitos/cenarios/cenario-4-credito-vale-transporte.md)
 * **Análise de tarefas:** [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md)
 * **Storyboard:** [Storyboard 07](../../../nivel1/storyboards.md#37-storyboard-07-regularizacao-de-credito-de-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*esta página*) · [Planejamento do relato](arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** telas no planejamento da avaliação (*nesta página*)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://arthur-mariani.github.io/PAF-IHC/credito/)
 
@@ -40,7 +39,7 @@ A escolha da prototipação em papel também atende às atividades prescritas no
 
 ---
 
-## 3. D — Determinar os objetivos da avaliação
+## 3. D: Determinar os objetivos da avaliação
 
 ### 3.1 Objetivo geral
 
@@ -61,7 +60,7 @@ Ao final do cenário, considera-se que a tarefa foi concluída quando a particip
 
 ---
 
-## 4. E — Explorar as perguntas a serem respondidas
+## 4. E: Explorar as perguntas a serem respondidas
 
 As perguntas serão respondidas por observação da simulação, verbalizações espontâneas e entrevista pós-teste. O avaliador não deverá revelar a resposta esperada nem explicar o conteúdo das telas durante a execução.
 
@@ -77,7 +76,7 @@ As perguntas serão respondidas por observação da simulação, verbalizações
 
 ---
 
-## 5. C — Escolher os métodos de avaliação
+## 5. C: Escolher os métodos de avaliação
 
 ### 5.1 Método principal
 
@@ -105,7 +104,7 @@ O pensamento em voz alta será apenas convidado, nunca exigido. Após a simulaç
 
 ---
 
-## 6. I — Identificar e administrar as questões práticas
+## 6. I: Identificar e administrar as questões práticas
 
 ### 6.1 Participante e recrutamento
 
@@ -131,7 +130,7 @@ Antes da sessão definitiva será realizado um **teste-piloto** com alguém da e
 
 ---
 
-## 7. D — Decidir como lidar com questões éticas
+## 7. D: Decidir como lidar com questões éticas
 
 1. A participação começará somente após apresentação e aceite do [TCLE](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf), incluindo objetivo, procedimentos, duração, dados coletados e uso acadêmico.
 2. A participante será lembrada de que o objeto de avaliação é o protótipo, não sua capacidade de usar tecnologia. Ela poderá pausar, pular uma tarefa ou desistir sem justificativa e sem prejuízo.
@@ -141,7 +140,7 @@ Antes da sessão definitiva será realizado um **teste-piloto** com alguém da e
 
 ---
 
-## 8. E — Avaliar, interpretar e apresentar os dados
+## 8. E: Avaliar, interpretar e apresentar os dados
 
 Após a sessão, os dois avaliadores confrontarão suas anotações e, quando houver autorização, consultarão a gravação para completar o registro. Cada achado será descrito com tarefa, evidência observada, interpretação, impacto, frequência observada e recomendação de correção.
 
@@ -170,7 +169,7 @@ O relato dos resultados deverá apresentar objetivos e escopo; perfil anonimizad
 A Figura 1 mostra as telas do protótipo de papel da [TAR-07](../../../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md).
 
 <div id="figura-1" align="center" markdown="1">
-<p><strong>Figura 1</strong> — Protótipo de papel móvel para orientação sobre crédito de Vale-Transporte indisponível</p>
+<p><strong>Figura 1</strong>: Protótipo de papel móvel para orientação sobre crédito de Vale-Transporte indisponível</p>
 
 ![Protótipo de papel móvel para orientação sobre crédito de Vale-Transporte indisponível](../../../../assets/prototipos/prototipo-papel-tar-07.jpeg){ width="600" }
 
@@ -184,43 +183,43 @@ A Figura 1 mostra as telas do protótipo de papel da [TAR-07](../../../../analis
 As Figuras 2 a 5 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 2</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 2 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 2: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
+<p><strong>Figura 3</strong>: 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’</p>
 </div>
 
-![Figura 3 — 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
+![Figura 3: 12.2.3 Prototipação em papel: método e papel do avaliador como ‘computador’](../../../../assets/prints_referencias/verificacao-v2/livro-papel-metodo.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 303). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 303).</em></p>
 </div>
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — Tabela 12.9 – Atividades do método de prototipação em papel</p>
+<p><strong>Figura 4</strong>: Tabela 12.9 – Atividades do método de prototipação em papel</p>
 </div>
 
-![Figura 4 — Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
+![Figura 4: Tabela 12.9 – Atividades do método de prototipação em papel](../../../../assets/prints_referencias/verificacao-v2/livro-papel-atividades.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 304–305).</em></p>
 </div>
 
 <div id="figura-5" align="center">
-<p><strong>Figura 5</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+<p><strong>Figura 5</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
 </div>
 
-![Figura 5 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+![Figura 5: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
 </div>
 
 ---
