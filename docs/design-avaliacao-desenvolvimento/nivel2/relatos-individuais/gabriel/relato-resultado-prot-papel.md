@@ -4,6 +4,7 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 01/11/2026 | `1.0` | Consolidação e relato dos resultados da avaliação do protótipo de papel da TAR-02. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para apoio na transcrição do áudio da sessão e formatação markdown da página |
 | 15/11/2026 | `1.1` | Inclusão do PDF com as fotos das telas do protótipo de papel (Seção 2.1). | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic) - usado para apoio na conversão das fotos em PDF e formatação markdown da seção |
+| 20/11/2026 | `1.2` | Inclusão do link para o protótipo de alta fidelidade da TAR-02 no Figma no bloco de artefatos relacionados. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) - formatação markdown. |
 
 ---
 
@@ -25,7 +26,7 @@ O objetivo principal dessa avaliação foi verificar e validar a usabilidade da 
 * **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md) · Relato dos resultados (*esta página*)
 * **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
-* **Protótipo de alta fidelidade navegável:** *não disponível*
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1)
 
 
 ---
