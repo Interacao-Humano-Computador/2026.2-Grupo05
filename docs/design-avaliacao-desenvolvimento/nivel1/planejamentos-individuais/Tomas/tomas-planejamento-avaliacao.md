@@ -4,7 +4,6 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Storyboard 05 e da Análise de Tarefas (TAR-03) via DECIDE. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
 | 23/10/2026 | `1.1` | Atualização do planejamento para o novo Storyboard 05 (Pedido de Aumento do Limite Diário do Vale-Transporte) e para a TAR-09 (HTA e CTT): objetivos, roteiro de perguntas, materiais e análise dos dados. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para adaptar o texto ao novo storyboard e à nova tarefa |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -22,16 +21,16 @@ O planejamento segue o **Framework DECIDE** (Barbosa et al., 2021), em seis etap
 * **Cenário:** [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
 * **Análise de tarefas:** [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
 * **Storyboard:** [Storyboard 05](../../storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-09/index.html)
 
 
 ---
 
-## 1. D — Determinar os Objetivos da Avaliação
+## 1. D: Determinar os Objetivos da Avaliação
 
 A avaliação é **formativa**. O objetivo é verificar se a história e o modelo de tarefa representam a realidade de quem usa o Vale-Transporte para vários deslocamentos no mesmo dia, antes de qualquer protótipo de tela.
 
@@ -47,14 +46,14 @@ A avaliação é **formativa**. O objetivo é verificar se a história e o model
 
 ---
 
-## 2. E — Explorar as Perguntas a Serem Respondidas
+## 2. E: Explorar as Perguntas a Serem Respondidas
 
 As perguntas abaixo transformam os objetivos em um roteiro de entrevista. Elas foram escritas de forma aberta e neutra, para não sugerir a resposta esperada (Barbosa et al., 2021).
 
 ### 2.1 Tabela de Perguntas: Avaliação do Storyboard 05
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Roteiro de Perguntas para Avaliação do Storyboard 05</p>
+<p><strong>Tabela 1</strong>: Roteiro de Perguntas para Avaliação do Storyboard 05</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta Orientada ao Participante | Resposta Esperada / Critério de Aceitação |
@@ -72,7 +71,7 @@ As perguntas abaixo transformam os objetivos em um roteiro de entrevista. Elas f
 ### 2.2 Tabela de Perguntas: Avaliação da Análise de Tarefas (TAR-09 - HTA e CTT)
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Roteiro de Perguntas para Validação da Análise de Tarefas (HTA e CTT)</p>
+<p><strong>Tabela 2</strong>: Roteiro de Perguntas para Validação da Análise de Tarefas (HTA e CTT)</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta Orientada ao Participante | Resposta Esperada / Critério de Aceitação |
@@ -89,7 +88,7 @@ As perguntas abaixo transformam os objetivos em um roteiro de entrevista. Elas f
 
 ---
 
-## 3. C — Choose (Escolher) os Métodos de Avaliação
+## 3. C: Choose (Escolher) os Métodos de Avaliação
 
 Escolheu-se o **método de investigação por entrevista semiestruturada**, apoiada pela apresentação do storyboard e dos diagramas da tarefa.
 
@@ -98,7 +97,7 @@ Escolheu-se o **método de investigação por entrevista semiestruturada**, apoi
 
 ---
 
-## 4. I — Identificar e Administrar as Questões Práticas
+## 4. I: Identificar e Administrar as Questões Práticas
 
 ### 4.1 Recrutamento e Perfil do Participante
 * **Perfil do convidado:** usuário do transporte público do DF com perfil alinhado à persona [Heitor Santos Júnior](../../../../analise-de-requisitos/personas/heitor-santos-junior.md). É um trabalhador com carteira assinada que usa o **Vale-Transporte** e, durante o expediente, pega vários ônibus para atender endereços diferentes, como técnico de manutenção, prestador de serviço ou entregador.
@@ -113,7 +112,7 @@ Escolheu-se o **método de investigação por entrevista semiestruturada**, apoi
 ### 4.3 Cronograma e Execução Individual
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Cronograma da Sessão Individual de Avaliação</p>
+<p><strong>Tabela 3</strong>: Cronograma da Sessão Individual de Avaliação</p>
 </div>
 
 | Parâmetro | Detalhamento da Sessão |
@@ -133,7 +132,7 @@ Escolheu-se o **método de investigação por entrevista semiestruturada**, apoi
 
 ---
 
-## 5. D — Decidir como Lidar com as Questões Éticas
+## 5. D: Decidir como Lidar com as Questões Éticas
 
 A avaliação segue as Resoluções nº 466/2012 e nº 510/2016 do Conselho Nacional de Saúde (CNS) e a literatura de IHC (Barbosa et al., 2021):
 
@@ -145,7 +144,7 @@ A avaliação segue as Resoluções nº 466/2012 e nº 510/2016 do Conselho Naci
 
 ---
 
-## 6. E — Avaliar, Interpretar e Apresentar os Dados
+## 6. E: Avaliar, Interpretar e Apresentar os Dados
 
 Depois da sessão, a gravação e as anotações do observador passam pelas etapas abaixo:
 
@@ -160,43 +159,43 @@ Depois da sessão, a gravação e as anotações do observador passam pelas etap
 As Figuras 1 a 4 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 1</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 1 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 1: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
+<p><strong>Figura 2</strong>: 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
 </div>
 
-![Figura 2 — 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
+![Figura 2: 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 248). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 248).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
+<p><strong>Figura 3</strong>: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
 </div>
 
-![Figura 3 — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
+![Figura 3: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 251). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 251).</em></p>
 </div>
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+<p><strong>Figura 4</strong>: 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
 </div>
 
-![Figura 4 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+![Figura 4: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 ---

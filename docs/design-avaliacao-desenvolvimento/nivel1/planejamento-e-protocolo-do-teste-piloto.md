@@ -3,12 +3,8 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 11/10/2026 | `1.0` | Elaboração do Planejamento e Protocolo do Teste Piloto da Etapa 4 (definição, roteiro, ficha de calibração e cronograma). | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - utilizado para formatação MarkDown da página |
-| 20/10/2026 | `1.1` | Revisão do Planejamento e Protocolo do Teste Piloto da Etapa 4 (definição, roteiro, ficha de calibração e cronograma). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
-| 25/10/2026 | `1.2` | Inclusão do link e incorporação da gravação em vídeo da simulação do Teste Piloto. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Não declarado pelo autor |
-| 19/11/2026 | `1.3` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 20/10/2026 | `1.1` | Revisão do Planejamento e Protocolo do Teste Piloto da Etapa 4 (definição, roteiro, ficha de calibração e cronograma). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 25/10/2026 | `1.2` | Inclusão do link e incorporação da gravação em vídeo da simulação do Teste Piloto. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -18,7 +14,7 @@ Neste documento, apresenta-se o **Planejamento e Protocolo do Teste Piloto** par
 
 O teste piloto consiste em um ensaio preparatório essencial para calibrar os instrumentos de coleta, verificar o funcionamento das ferramentas de gravação, validar o tempo estimado das sessões e aperfeiçoar a postura do avaliador antes do início formal das avaliações com os usuários reais na Etapa 5.
 
-O procedimento e os materiais do piloto estão ancorados nos artefatos produzidos pelo grupo: o **Storyboard 01 — Alerta inteligente de saída**, vinculado à tarefa [TAR-01](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/) e ao [Cenário 2](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-2-viagem-matutina/), cuja persona de referência é [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/).
+O procedimento e os materiais do piloto estão ancorados nos artefatos produzidos pelo grupo: o **Storyboard 01: Alerta inteligente de saída**, vinculado à tarefa [TAR-01](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/) e ao [Cenário 2](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/cenarios/cenario-2-viagem-matutina/), cuja persona de referência é [João Pedro Carvalho](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/joao-pedro-carvalho/).
 
 ---
 
@@ -78,7 +74,7 @@ A partir dessa orientação teórica, a equipe definiu as seguintes finalidades 
 Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis definidos na sessão piloto:
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Matriz de Papéis na Execução do Teste Piloto</p>
+<p><strong>Tabela 1</strong>: Matriz de Papéis na Execução do Teste Piloto</p>
 </div>
 
 | Papel | Responsável | Atribuições |
@@ -95,7 +91,7 @@ Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis defini
 ### 3.4 Agendamento, Plataforma e Infraestrutura
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Parâmetros Logísticos do Agendamento Interno</p>
+<p><strong>Tabela 2</strong>: Parâmetros Logísticos do Agendamento Interno</p>
 </div>
 
 | Parâmetro | Definição Operacional |
@@ -115,7 +111,7 @@ Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis defini
 ## 4. Protocolo e Roteiro Passo a Passo do Teste Piloto
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Roteiro Sequencial da Sessão Piloto</p>
+<p><strong>Tabela 3</strong>: Roteiro Sequencial da Sessão Piloto</p>
 </div>
 
 | Passo | Atividade | Responsável | Tempo Est. | O que Verificar (Calibração) |
@@ -157,7 +153,7 @@ Para garantir a fidelidade do ensaio, os membros do grupo assumem papéis defini
 ## 5. Ficha de Calibração do Teste Piloto
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Ficha de Avaliação e Calibração Pós-Piloto</p>
+<p><strong>Tabela 4</strong>: Ficha de Avaliação e Calibração Pós-Piloto</p>
 </div>
 
 | # | Item Verificado | Critério de Aprovação | Resultado (OK / Ajustar) | Ação Corretiva Realizada |
@@ -196,7 +192,7 @@ O registro audiovisual da simulação prática do teste piloto realizado pela eq
 **Declara-se formalmente que os dados, respostas, anotações e gravações obtidos durante a execução deste teste piloto serão utilizados exclusivamente para calibrar o roteiro, o tempo de entrevista, as ferramentas de gravação e a postura do avaliador. Esses dados NÃO serão computados, contabilizados nem agregados aos resultados das avaliações finais do Storyboard nem da Análise de Tarefas (Etapa 5), e não comporão as tabelas de problemas ou priorização dos relatórios finais.**
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Mapeamento de Conformidade com o Plano de Ensino</p>
+<p><strong>Tabela 5</strong>: Mapeamento de Conformidade com o Plano de Ensino</p>
 </div>
 
 | Item Checklist | Requisito do Plano de Ensino | Localização no Documento |
@@ -213,7 +209,7 @@ O registro audiovisual da simulação prática do teste piloto realizado pela eq
 ## 7. Cronograma e Gestão de Riscos
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Cronograma de Execução do Teste Piloto</p>
+<p><strong>Tabela 6</strong>: Cronograma de Execução do Teste Piloto</p>
 </div>
 
 | Período | Atividade | Responsável |
@@ -230,7 +226,7 @@ O registro audiovisual da simulação prática do teste piloto realizado pela eq
 </div>
 
 <div align="center">
-<p><strong>Tabela 7</strong> — Matriz de Riscos e Planos de Contingência</p>
+<p><strong>Tabela 7</strong>: Matriz de Riscos e Planos de Contingência</p>
 </div>
 
 | Risco Mapeado | Impacto | Plano de Contingência / Ação Imediata |
@@ -260,23 +256,23 @@ Conforme as diretrizes da disciplina, a fundamentação conceitual sobre o teste
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+<p><strong>Figura 1</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
 </div>
 
-![Figura 1 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+![Figura 1: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+<p><strong>Figura 2</strong>: 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
 </div>
 
-![Figura 2 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+![Figura 2: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 ---

@@ -3,11 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Storyboard 06 e da Análise de Tarefas (TAR-08). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - usado para formatação markdown da página |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
-
-!!! warning "Observação para correção manual"
-    Os critérios da Tabela 6 eram atribuídos a Truong, Hayes e Abowd (2006), que não são referência do livro da disciplina. A citação foi retirada. O autor deve fundamentar os critérios no livro (o uso de storyboards é tratado em Barbosa et al., 2021, p. 107) ou confirmar a autoria própria da tabela.
 
 ---
 
@@ -25,11 +21,11 @@ A estrutura do relato foi concebida com base nas orientações da literatura de 
 * **Cenário:** [Cenário 11](../../../../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
 * **Análise de tarefas:** [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
 * **Storyboard:** [Storyboard 06](../../storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](rodrigo-planejamento-avaliacao.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](rodrigo-planejamento-avaliacao.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
-* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+* **Protótipo de alta fidelidade navegável:** *não disponível*
 
 
 ---
@@ -77,7 +73,7 @@ Cada problema identificado será classificado quanto à sua **natureza**:
 Para classificar o impacto dos problemas identificados, adotar-se-á a **Escala de Severidade de Problemas** adaptada de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021):
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escala de Severidade de Problemas de IHC</p>
+<p><strong>Tabela 1</strong>: Escala de Severidade de Problemas de IHC</p>
 </div>
 
 | Nível de Severidade | Classificação | Descrição do Impacto | Aplicação ao Storyboard e à TAR |
@@ -101,7 +97,7 @@ Para garantir a consistência dos relatórios, o documento final de resultados u
 ### 4.1 Modelo de Tabela: Respostas da Avaliação do Storyboard 06
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Consolidação das Respostas sobre o Storyboard 06</p>
+<p><strong>Tabela 2</strong>: Consolidação das Respostas sobre o Storyboard 06</p>
 </div>
 
 | ID | Tópico Avaliado | Pergunta Aplicada ao Participante | Resumo da Resposta do Participante | Avaliação do Artefato (Conforme / Ajustar) |
@@ -121,7 +117,7 @@ Para garantir a consistência dos relatórios, o documento final de resultados u
 ### 4.2 Modelo de Tabela: Respostas da Avaliação da Análise de Tarefas (TAR-08 - HTA/GOMS)
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Consolidação das Respostas sobre a Análise de Tarefas (TAR-08)</p>
+<p><strong>Tabela 3</strong>: Consolidação das Respostas sobre a Análise de Tarefas (TAR-08)</p>
 </div>
 
 | ID | Tópico Avaliado | Pergunta Aplicada ao Participante | Resumo da Resposta do Participante | Avaliação do Modelo (Validade / Ajustar) |
@@ -142,7 +138,7 @@ Para garantir a consistência dos relatórios, o documento final de resultados u
 Registrar os pontos positivos é tão importante quanto registrar os problemas, pois indica o que **não deve ser perdido** no reprojeto (Barbosa et al., 2021). Os pontos positivos serão classificados em quatro categorias: **Realismo** (o participante se identificou com a situação ou a persona), **Clareza** (o quadro ou o passo foi entendido sem explicação), **Valor da Proposta** (o participante viu benefício na solução) e **Emoção** (o participante percebeu e comentou os sentimentos da personagem).
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Registro de Pontos Positivos Identificados pelo Participante</p>
+<p><strong>Tabela 4</strong>: Registro de Pontos Positivos Identificados pelo Participante</p>
 </div>
 
 | ID | Ponto Positivo Identificado | Local / Artefato | Categoria | Evidência (fala ou comportamento) | Ação (Manter / Reforçar) |
@@ -159,7 +155,7 @@ Registrar os pontos positivos é tão importante quanto registrar os problemas, 
 As respostas serão confrontadas com as hipóteses de problemas e de erros registradas na TAR-08, que foram elaboradas a partir de documentação e ainda não haviam sido testadas com usuários.
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Verificação das Hipóteses da Análise de Tarefas</p>
+<p><strong>Tabela 5</strong>: Verificação das Hipóteses da Análise de Tarefas</p>
 </div>
 
 | Hipótese | Origem na TAR-08 | Pergunta(s) | Evidência Coletada | Situação |
@@ -183,10 +179,10 @@ Neste documento, adotam-se as seguintes definições:
 * **Falha de comunicação gráfica:** o participante **não entende** ou **entende errado** o que um quadro mostra por causa da forma como ele foi desenhado (enquadramento, texto, nível de detalhe ou sequência).
 * **Lacuna contextual:** o participante entende o quadro, mas **sente falta** de informações sobre o contexto de uso (onde, quando, com quem, com qual dispositivo, por quê) para que a história faça sentido.
 
-A análise será orientada pelos seguintes critérios de comunicação gráfica do storyboard:
+A análise será orientada pelos seguintes critérios de comunicação gráfica do storyboard. A seleção e a redação dos critérios são de autoria da equipe e operacionalizam a função do storyboard de explorar e comunicar situações de uso descrita por Barbosa e Silva (2010, p. 112):
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Critérios de Análise da Comunicação Gráfica do Storyboard</p>
+<p><strong>Tabela 6</strong>: Critérios de Análise da Comunicação Gráfica do Storyboard</p>
 </div>
 
 | Critério | Pergunta de Análise | Sinal de Falha |
@@ -202,7 +198,7 @@ A análise será orientada pelos seguintes critérios de comunicação gráfica 
 </div>
 
 <div align="center">
-<p><strong>Tabela 7</strong> — Registro de Falhas de Comunicação Gráfica e Lacunas Contextuais</p>
+<p><strong>Tabela 7</strong>: Registro de Falhas de Comunicação Gráfica e Lacunas Contextuais</p>
 </div>
 
 | ID | Tipo (Gráfica / Contextual) | Quadro | Critério (Tabela 6) | Descrição da Falha | Evidência | Severidade (0 a 4) |
@@ -228,7 +224,7 @@ A análise será orientada pelos seguintes critérios de comunicação gráfica 
 Esta tabela reúne todos os problemas, tanto de conteúdo quanto de representação, vindos das Tabelas 2, 3, 5 e 7.
 
 <div align="center">
-<p><strong>Tabela 8</strong> — Tabela de Registro e Priorização de Problemas de IHC</p>
+<p><strong>Tabela 8</strong>: Tabela de Registro e Priorização de Problemas de IHC</p>
 </div>
 
 | ID Problema | Descrição do Problema Encontrado | Natureza (Conteúdo / Representação) | Local / Artefato Afetado | Grau de Severidade (0 a 4) | Impacto na Experiência do Usuário | Origem (ID da pergunta, hipótese ou falha) |
@@ -245,7 +241,7 @@ Esta tabela reúne todos os problemas, tanto de conteúdo quanto de representaç
 Cada ajuste deve estar ligado a um problema da Tabela 8 e indicar o artefato em que será feito, já que um mesmo resultado pode afetar o storyboard, o cenário, a persona ou a TAR.
 
 <div align="center">
-<p><strong>Tabela 9</strong> — Lista de Ajustes a Serem Incorporados</p>
+<p><strong>Tabela 9</strong>: Lista de Ajustes a Serem Incorporados</p>
 </div>
 
 | ID Ajuste | Problema de Origem | Ajuste Proposto | Artefato Afetado | Prioridade | Status |
@@ -285,33 +281,33 @@ Com base na consolidação dos problemas na Tabela 8 e da lista de ajustes na Ta
 As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — 11.7.4 Interpretação dos dados de cada participante</p>
+<p><strong>Figura 1</strong>: 11.7.4 Interpretação dos dados de cada participante</p>
 </div>
 
-![Figura 1 — 11.7.4 Interpretação dos dados de cada participante](../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
+![Figura 1: 11.7.4 Interpretação dos dados de cada participante](../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+<p><strong>Figura 2</strong>: 11.7.5 Consolidação e relato dos resultados</p>
 </div>
 
-![Figura 2 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+![Figura 2: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
+<p><strong>Figura 3</strong>: Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
 </div>
 
-![Figura 3 — Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
+![Figura 3: Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
 </div>
 
 ---

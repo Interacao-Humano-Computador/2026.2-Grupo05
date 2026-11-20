@@ -3,11 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Storyboard 06 e da Análise de Tarefas (TAR-08) via DECIDE. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - usado para formatação markdown da página |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
-
-!!! warning "Observação para correção manual"
-    A citação de Truong, Hayes e Abowd (2006) foi retirada por não ser referência do livro da disciplina. Verificar se os critérios de comunicação gráfica precisam de outra fundamentação no livro.
 
 ---
 
@@ -25,16 +21,16 @@ O planejamento foi elaborado aplicando o **Framework DECIDE** (Barbosa et al., 2
 * **Cenário:** [Cenário 11](../../../../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
 * **Análise de tarefas:** [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
 * **Storyboard:** [Storyboard 06](../../storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*esta página*) · [Planejamento do relato](rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
-* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+* **Protótipo de alta fidelidade navegável:** *não disponível*
 
 
 ---
 
-## 1. D — Determinar os Objetivos da Avaliação
+## 1. D: Determinar os Objetivos da Avaliação
 
 A avaliação formativa dos artefatos busca investigar se o problema identificado no site da **SEMOB-DF** (a dificuldade de registrar uma reclamação sobre ônibus) é reconhecido pelos usuários e se a proposta de melhoria faz sentido para eles, antes do desenvolvimento de protótipos de alta fidelidade (Barbosa et al., 2021).
 
@@ -54,14 +50,14 @@ A avaliação formativa dos artefatos busca investigar se o problema identificad
 
 ---
 
-## 2. E — Explorar as Perguntas a Serem Respondidas
+## 2. E: Explorar as Perguntas a Serem Respondidas
 
 Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de perguntas específicas orientadas pela literatura de IHC (Barbosa et al., 2021).
 
 ### 2.1 Tabela de Perguntas: Avaliação do Storyboard 06
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Roteiro de Perguntas para Avaliação do Storyboard 06</p>
+<p><strong>Tabela 1</strong>: Roteiro de Perguntas para Avaliação do Storyboard 06</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta Orientada ao Participante | Resposta Esperada / Critério de Aceitação |
@@ -81,7 +77,7 @@ Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de per
 ### 2.2 Tabela de Perguntas: Avaliação da Análise de Tarefas (TAR-08 - HTA e GOMS)
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Roteiro de Perguntas para Validação da Análise de Tarefas (HTA e GOMS)</p>
+<p><strong>Tabela 2</strong>: Roteiro de Perguntas para Validação da Análise de Tarefas (HTA e GOMS)</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta Orientada ao Participante | Resposta Esperada / Critério de Aceitação |
@@ -99,7 +95,7 @@ Para operacionalizar os objetivos da avaliação, elaborou-se um conjunto de per
 
 ---
 
-## 3. C — Choose (Escolher) os Métodos de Avaliação
+## 3. C: Choose (Escolher) os Métodos de Avaliação
 
 Para este planejamento formativo, selecionou-se o **Método de Investigação por Entrevista Semiestruturada** guiada por artefatos visuais (Barbosa et al., 2021, Cap. 11 e 12).
 
@@ -109,7 +105,7 @@ Para este planejamento formativo, selecionou-se o **Método de Investigação po
 
 ---
 
-## 4. I — Identificar e Administrar as Questões Práticas
+## 4. I: Identificar e Administrar as Questões Práticas
 
 ### 4.1 Recrutamento e Perfil do Participante
 
@@ -128,7 +124,7 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021), o recrutamento d
 ### 4.3 Cronograma e Execução Individual
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Cronograma da Sessão Individual de Avaliação</p>
+<p><strong>Tabela 3</strong>: Cronograma da Sessão Individual de Avaliação</p>
 </div>
 
 | Parâmetro | Detalhamento da Sessão |
@@ -145,7 +141,7 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021), o recrutamento d
 </div>
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Roteiro de Tempo da Sessão</p>
+<p><strong>Tabela 4</strong>: Roteiro de Tempo da Sessão</p>
 </div>
 
 | Etapa | Atividade | Tempo |
@@ -162,7 +158,7 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021), o recrutamento d
 
 ---
 
-## 5. D — Decidir como Lidar com as Questões Éticas
+## 5. D: Decidir como Lidar com as Questões Éticas
 
 Toda a conduta da avaliação é pautada nos princípios éticos de pesquisas com seres humanos estabelecidos nas Resoluções nº 466/2012 e nº 510/2016 do Conselho Nacional de Saúde (CNS) e na literatura de IHC (Barbosa et al., 2021, Seção 7.4):
 
@@ -174,13 +170,13 @@ Toda a conduta da avaliação é pautada nos princípios éticos de pesquisas co
 
 ---
 
-## 6. E — Avaliar, Interpretar e Apresentar os Dados
+## 6. E: Avaliar, Interpretar e Apresentar os Dados
 
 Após a realização da entrevista de avaliação, os dados brutos (gravações de mídia e anotações do avaliador) passarão pela fase de interpretação e consolidação (Barbosa et al., 2021, Seção 11.7.4):
 
 1. **Triagem Qualitativa:** As falas, hesitações e sugestões do participante serão transcritas e agrupadas por categorias de análise (clareza da narrativa, verossimilhança, problemas percebidos no fluxo atual, valor da proposta, problemas identificados na sequência de tarefas e sugestões de melhoria).
 2. **Confronto de Modelos:** As respostas do participante serão comparadas diretamente com a estrutura planejada na [TAR-08 (HTA/GOMS)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/), verificando cada hipótese de problema e de erro da análise de tarefas como **confirmada**, **não confirmada** ou **inconclusiva**, para identificar discrepâncias entre a visão do designer e o modelo mental do usuário.
-3. **Análise da Comunicação Gráfica:** Trechos em que o participante não compreender um quadro ou precisar de explicação do avaliador serão registrados como possíveis falhas de comunicação gráfica do storyboard, considerando nível de detalhe, uso de texto, representação de emoções e passagem do tempo.
+3. **Análise da Comunicação Gráfica:** Trechos em que o participante não compreender um quadro ou precisar de explicação do avaliador serão registrados como possíveis falhas de comunicação gráfica do storyboard, considerando nível de detalhe, uso de texto, representação de emoções e passagem do tempo. Esses critérios foram operacionalizados pela equipe para avaliar se o storyboard cumpre sua função de explorar e comunicar uma situação de uso, conforme Barbosa e Silva (2010, p. 112).
 4. **Encaminhamento para o Relato dos Resultados:** As descobertas consolidadas servirão de insumo direto para o documento de [Planejamento do Relato dos Resultados do Storyboard](rodrigo-planejamento-relato-resultados-avaliacao.md), que define os modelos de consolidação, o registro de pontos positivos, a identificação de falhas e a lista de ajustes a serem incorporados no Storyboard 06, no Cenário 11, na persona e na TAR-08.
 
 ---
@@ -190,43 +186,43 @@ Após a realização da entrevista de avaliação, os dados brutos (gravações 
 As Figuras 1 a 4 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 1</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 1 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 1: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
+<p><strong>Figura 2</strong>: 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
 </div>
 
-![Figura 2 — 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
+![Figura 2: 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 248). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 248).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
+<p><strong>Figura 3</strong>: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
 </div>
 
-![Figura 3 — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
+![Figura 3: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 251). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 251).</em></p>
 </div>
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+<p><strong>Figura 4</strong>: 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
 </div>
 
-![Figura 4 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+![Figura 4: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 ---

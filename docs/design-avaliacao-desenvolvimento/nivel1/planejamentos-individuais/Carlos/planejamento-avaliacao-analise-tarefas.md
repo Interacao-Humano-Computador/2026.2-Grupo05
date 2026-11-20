@@ -2,9 +2,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 13/10/2026 | `1.0` | Elaboração do Planejamento da Avaliação da Análise de Tarefas fundamentado no Framework DECIDE (Capítulo 11 de Barbosa et al., 2021). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — ferramenta de apoio instrumental para estruturação em linguagem Markdown, revisão ortográfica e formatação das tabelas comparativas |
-| 27/10/2026 | `1.1` | Atualização da Tabela 2: a sessão S4 passa a avaliar a TAR-06 com um estudante (o motorista previsto não pôde ser recrutado; ver o [planejamento do Storyboard 08 e da TAR-06](carlos-planejamento-avaliacao.md#alteracao-de-escopo)), e a sessão S5 é corrigida para a TAR-08. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Google Gemini — ferramenta de apoio instrumental para estruturação em linguagem Markdown, revisão ortográfica e formatação das tabelas comparativas |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 13/10/2026 | `1.0` | Elaboração do Planejamento da Avaliação da Análise de Tarefas fundamentado no Framework DECIDE (Capítulo 11 de Barbosa et al., 2021). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: ferramenta de apoio instrumental para estruturação em linguagem Markdown, revisão ortográfica e formatação das tabelas comparativas |
+| 27/10/2026 | `1.1` | Atualização da Tabela 2: a sessão S4 passa a avaliar a TAR-06 com um estudante (o motorista previsto não pôde ser recrutado; ver o [planejamento do Storyboard 08 e da TAR-06](carlos-planejamento-avaliacao.md#alteracao-de-escopo)), e a sessão S5 é corrigida para a TAR-08. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Google Gemini: ferramenta de apoio instrumental para estruturação em linguagem Markdown, revisão ortográfica e formatação das tabelas comparativas |
 
 ---
 
@@ -40,7 +39,7 @@ O acrônimo **DECIDE** sintetiza as seis atividades essenciais para a condução
 
 ## 3. Aplicação do Framework DECIDE à Análise de Tarefas
 
-### 3.1 D — Determinar os Objetivos da Avaliação da Análise de Tarefas
+### 3.1 D: Determinar os Objetivos da Avaliação da Análise de Tarefas
 
 Conforme preconizado por Barbosa et al. (2021, Seção 11.2, pp. 248–249), a definição clara do que avaliar direciona todo o restante do estudo. Na literatura de IHC, os principais aspectos avaliados dividem-se em quatro categorias fundamentais *(evidenciado na [Imagem 2](#imagem-2))*:
 
@@ -57,14 +56,14 @@ Para a avaliação dos diagramas de Análise de Tarefas (HTA e CTT), o foco prim
 
 ---
 
-### 3.2 E — Explorar as Perguntas a Serem Respondidas
+### 3.2 E: Explorar as Perguntas a Serem Respondidas
 
 A atividade *E* tem a função de operacionalizar os objetivos definidos, convertendo-os em questionamentos precisos que os avaliadores buscarão responder ao longo da sessão com os participantes (Barbosa et al., 2021, Seção 11.8 e Tabela 11.1) *(evidenciado na [Imagem 3](#imagem-3))*.
 
 A [Tabela 1](#tabela-1) estrutura as perguntas investigativas formuladas para a avaliação das tarefas:
 
 <div align="center">
-<p id="tabela-1"><strong>Tabela 1</strong> — Perguntas Investigativas da Avaliação da Análise de Tarefas</p>
+<p id="tabela-1"><strong>Tabela 1</strong>: Perguntas Investigativas da Avaliação da Análise de Tarefas</p>
 </div>
 
 | Categoria da Investigação | Pergunta Operacional | Foco no Modelo (HTA / CTT) |
@@ -83,7 +82,7 @@ A [Tabela 1](#tabela-1) estrutura as perguntas investigativas formuladas para a 
 
 ---
 
-### 3.3 C — Escolher os Métodos de Avaliação
+### 3.3 C: Escolher os Métodos de Avaliação
 
 Segundo Barbosa et al. (2021, Seção 11.7 e Seção 11.8), o método deve ser escolhido com base nas perguntas a serem respondidas, na maturidade do artefato em análise e nos recursos disponíveis *(evidenciado na [Imagem 4](#imagem-4))*:
 
@@ -101,7 +100,7 @@ Para a avaliação dos diagramas de Análise de Tarefas (que constituem modelos 
 
 ---
 
-### 3.4 I — Identificar e Administrar as Questões Práticas
+### 3.4 I: Identificar e Administrar as Questões Práticas
 
 A atividade *I* assegura que toda a infraestrutura física, tecnológica e logística seja devidamente planejada com antecedência para viabilizar as sessões de avaliação sem imprevistos (Barbosa et al., 2021, Seção 11.7.2 e Seção 11.8) *(evidenciado na [Imagem 5](#imagem-5))*.
 
@@ -121,7 +120,7 @@ O recrutamento baseia-se nos perfis identificados no projeto durante a fase de a
 A [Tabela 2](#tabela-2) esquematiza o cronograma logístico das sessões de entrevista da Análise de Tarefas:
 
 <div align="center">
-<p id="tabela-2"><strong>Tabela 2</strong> — Cronograma Planejado das Sessões de Avaliação da Análise de Tarefas</p>
+<p id="tabela-2"><strong>Tabela 2</strong>: Cronograma Planejado das Sessões de Avaliação da Análise de Tarefas</p>
 </div>
 
 | Sessão | Tarefa Avaliada | Perfil do Convidado | Formato / Local | Duração Estimada | Avaliador Responsável |
@@ -139,7 +138,7 @@ A [Tabela 2](#tabela-2) esquematiza o cronograma logístico das sessões de entr
 
 ---
 
-### 3.5 D — Decidir como Lidar com as Questões Éticas
+### 3.5 D: Decidir como Lidar com as Questões Éticas
 
 A condução de qualquer avaliação em IHC que envolva seres humanos exige rigor ético intransigente, pautando-se nas orientações da Seção 7.4 e Seção 11.8 de Barbosa et al. (2021) e nas diretrizes da **Resolução nº 510/2016 do Conselho Nacional de Saúde** *(evidenciado na [Imagem 6](#imagem-6))*:
 
@@ -155,7 +154,7 @@ Para tanto, os seguintes princípios e protocolos foram integrados a este planej
 
 ---
 
-### 3.6 E — Avaliar, Interpretar e Apresentar os Dados
+### 3.6 E: Avaliar, Interpretar e Apresentar os Dados
 
 A última etapa do framework abrange a consolidação rigorosa dos dados colhidos, prevenindo distorções interpretativas e orientando o reprojeto (Barbosa et al., 2021, Seção 11.7.5 e Seção 11.8) *(evidenciado na [Imagem 7](#imagem-7))*.
 
@@ -169,7 +168,7 @@ Conforme detalhado no livro-texto, os resultados qualitativos individuais devem 
 Para orientar as prioridades de intervenção nos diagramas HTA e CTT, os problemas relatados serão classificados na escala apresentada na [Tabela 3](#tabela-3):
 
 <div align="center">
-<p id="tabela-3"><strong>Tabela 3</strong> — Classificação de Gravidade para Problemas de Análise de Tarefas</p>
+<p id="tabela-3"><strong>Tabela 3</strong>: Classificação de Gravidade para Problemas de Análise de Tarefas</p>
 </div>
 
 | Nível de Gravidade | Critério Aplicado ao Modelo da Tarefa | Ação no Reprojeto |
@@ -214,49 +213,49 @@ Nesta seção reúnem-se os recortes comprobatórios extraídos diretamente do l
 
 <div id="imagem-1">
 <img src="../../../../../assets/prints_referencias/referencia-decide-visao-geral.png" alt="Framework DECIDE Visão Geral" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
-<p><em>Imagem 1 — Framework DECIDE (Barbosa et al., 2021, Seção 11.8, pp. 263–264).</em></p>
+<p><em>Imagem 1: Framework DECIDE (Barbosa et al., 2021, Seção 11.8, pp. 263–264).</em></p>
 </div>
 
 <br>
 
 <div id="imagem-2">
 <img src="../../../../../assets/prints_referencias/referencia-decide-determinar-objetivos.png" alt="Determinação dos Objetivos em IHC" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
-<p><em>Imagem 2 — Determinação dos Objetivos e Aspectos Avaliados em IHC (Barbosa et al., 2021, Seções 11.2 e 11.8, pp. 248, 264).</em></p>
+<p><em>Imagem 2: Determinação dos Objetivos e Aspectos Avaliados em IHC (Barbosa et al., 2021, Seções 11.2 e 11.8, pp. 248, 264).</em></p>
 </div>
 
 <br>
 
 <div id="imagem-3">
 <img src="../../../../../assets/prints_referencias/referencia-decide-explorar-perguntas.png" alt="Exploração de Perguntas em IHC" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
-<p><em>Imagem 3 — Exploração de Perguntas Investigativas em IHC (Barbosa et al., 2021, Tabela 11.1 e Seção 11.8, pp. 251, 264).</em></p>
+<p><em>Imagem 3: Exploração de Perguntas Investigativas em IHC (Barbosa et al., 2021, Tabela 11.1 e Seção 11.8, pp. 251, 264).</em></p>
 </div>
 
 <br>
 
 <div id="imagem-4">
 <img src="../../../../../assets/prints_referencias/referencia-decide-escolher-metodos.png" alt="Escolha dos Métodos de Avaliação" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
-<p><em>Imagem 4 — Escolha dos Métodos de Avaliação (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
+<p><em>Imagem 4: Escolha dos Métodos de Avaliação (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
 </div>
 
 <br>
 
 <div id="imagem-5">
 <img src="../../../../../assets/prints_referencias/referencia-decide-questoes-praticas.png" alt="Questões Práticas da Avaliação" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
-<p><em>Imagem 5 — Administração de Questões Práticas (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
+<p><em>Imagem 5: Administração de Questões Práticas (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
 </div>
 
 <br>
 
 <div id="imagem-6">
 <img src="../../../../../assets/prints_referencias/referencia-decide-questoes-eticas.png" alt="Questões Éticas na Avaliação" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
-<p><em>Imagem 6 — Decisões Éticas na Avaliação com Usuários (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
+<p><em>Imagem 6: Decisões Éticas na Avaliação com Usuários (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
 </div>
 
 <br>
 
 <div id="imagem-7">
 <img src="../../../../../assets/prints_referencias/referencia-decide-avaliar-interpretar-apresentar.png" alt="Avaliação dos Dados e Relato" style="max-width: 100%; border: 1px solid #ddd; border-radius: 6px;" />
-<p><em>Imagem 7 — Avaliação, Interpretação de Dados e Estrutura do Relato de Resultados (Barbosa et al., 2021, Seções 11.7.5 e 11.8, pp. 263–264).</em></p>
+<p><em>Imagem 7: Avaliação, Interpretação de Dados e Estrutura do Relato de Resultados (Barbosa et al., 2021, Seções 11.7.5 e 11.8, pp. 263–264).</em></p>
 </div>
 
 ---

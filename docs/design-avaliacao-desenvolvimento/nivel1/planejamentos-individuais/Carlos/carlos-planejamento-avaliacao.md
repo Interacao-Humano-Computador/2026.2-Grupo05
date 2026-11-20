@@ -3,7 +3,6 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 27/10/2026 | `1.0` | Criação do planejamento individual da avaliação do Storyboard 08 e da Análise de Tarefas (TAR-06) via DECIDE, com registro da alteração de escopo. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - apenas revisou e formatou o texto em Markdown |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -19,9 +18,9 @@ O planejamento aplica o **Framework DECIDE** (Barbosa et al., 2021), que estrutu
 * **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md); [Cenário 10](../../../../analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md)
 * **Análise de tarefas:** [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)
 * **Storyboard:** [Storyboard 08](../../storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*esta página*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*esta página*) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
 
@@ -37,15 +36,15 @@ Avaliar as tarefas do motorista com outra pessoa não resolveria o problema: um 
 Por isso, com a concordância de todos os integrantes do grupo, a avaliação passou a ser:
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escopo original e escopo atual da avaliação</p>
+<p><strong>Tabela 1</strong>: Escopo original e escopo atual da avaliação</p>
 </div>
 
 | Elemento | Escopo original | Escopo atual |
 | :--- | :--- | :--- |
-| **Storyboard** | Storyboard 04 — Consulta de escala e alertas operacionais | [Storyboard 08 — Consulta do ônibus em tempo real no DF no Ponto](../../storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto) |
+| **Storyboard** | Storyboard 04: Consulta de escala e alertas operacionais | [Storyboard 08: Consulta do ônibus em tempo real no DF no Ponto](../../storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto) |
 | **Tarefa** | TAR-04/TAR-05 (HTA e CTT) | [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md) (HTA e CMN-GOMS, elaborada por Rodrigo Barbosa) |
 | **Persona** | Valdir Soares | [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md) |
-| **Cenário** | Cenários 5 e 6 | [Cenário 2 — Viagem matutina](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md) |
+| **Cenário** | Cenários 5 e 6 | [Cenário 2: Viagem matutina](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md) |
 | **Participante (P04)** | Motorista de ônibus do STPC/DF | Estudante universitário que usa ônibus e já usou o DF no Ponto ou app de rastreamento semelhante |
 
 <div align="center">
@@ -56,7 +55,7 @@ A TAR-06 foi escolhida por três motivos: (1) ela **não tinha storyboard nem av
 
 ---
 
-## 1. D — Determinar os Objetivos da Avaliação
+## 1. D: Determinar os Objetivos da Avaliação
 
 Segundo Barbosa et al. (2021, Seções 11.2 e 11.8), os objetivos da avaliação direcionam todo o estudo e costumam envolver a apropriação da tecnologia pelos usuários, ideias e alternativas de design, conformidade com padrões e problemas na interação e na interface ([Imagem 2](#imagem-2)). Esta avaliação é **formativa** e se concentra em **ideias de design** (Storyboard 08) e em **problemas na interação** previstos no modelo de tarefas (TAR-06).
 
@@ -66,7 +65,7 @@ Segundo Barbosa et al. (2021, Seções 11.2 e 11.8), os objetivos da avaliação
 * **Avaliar a reação da persona:** verificar se a decisão de João Pedro diante da informação defasada (quadro 4) faz sentido para o participante.
 * **Avaliar o engajamento:** identificar se o participante usaria a consulta em tempo real e em que momentos.
 
-### 1.2 Objetivos da Avaliação da Análise de Tarefas (TAR-06 — HTA e CMN-GOMS)
+### 1.2 Objetivos da Avaliação da Análise de Tarefas (TAR-06: HTA e CMN-GOMS)
 * **Avaliar a correção e a completude do fluxo:** verificar se a sequência abrir → buscar → interpretar → decidir → facilitar as próximas consultas representa o que o participante faz.
 * **Validar as hipóteses H1 a H7:** confirmar ou refutar cada hipótese registrada na [Tabela 5 da TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md#5-hipoteses-a-validar).
 * **Validar as regras de seleção do GOMS:** verificar se a escolha entre buscar pela linha (método 2.A) ou por ponto de referência (método 2.B), e entre aceitar ou verificar a previsão (métodos 3.A e 3.B), corresponde ao raciocínio real do participante.
@@ -74,14 +73,14 @@ Segundo Barbosa et al. (2021, Seções 11.2 e 11.8), os objetivos da avaliação
 
 ---
 
-## 2. E — Explorar as Perguntas a Serem Respondidas
+## 2. E: Explorar as Perguntas a Serem Respondidas
 
 As perguntas operacionalizam os objetivos (Barbosa et al., 2021, Seção 11.8 e Tabela 11.1) ([Imagem 3](#imagem-3)). As perguntas do storyboard seguem o mesmo roteiro básico do teste piloto, para que os resultados possam ser comparados com os dos demais storyboards. As perguntas da análise de tarefas foram derivadas das hipóteses da TAR-06.
 
 ### 2.1 Tabela de Perguntas: Avaliação do Storyboard 08
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Roteiro de Perguntas para Avaliação do Storyboard 08</p>
+<p><strong>Tabela 2</strong>: Roteiro de Perguntas para Avaliação do Storyboard 08</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta Orientada ao Participante | Resposta Esperada / Critério de Aceitação |
@@ -95,10 +94,10 @@ As perguntas operacionalizam os objetivos (Barbosa et al., 2021, Seção 11.8 e 
 <p><em>Fonte: Elaborado por Carlos Costa (2026).</em></p>
 </div>
 
-### 2.2 Tabela de Perguntas: Avaliação da Análise de Tarefas (TAR-06 — HTA e CMN-GOMS)
+### 2.2 Tabela de Perguntas: Avaliação da Análise de Tarefas (TAR-06: HTA e CMN-GOMS)
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Roteiro de Perguntas para Validação da Análise de Tarefas</p>
+<p><strong>Tabela 3</strong>: Roteiro de Perguntas para Validação da Análise de Tarefas</p>
 </div>
 
 | ID | Categoria / Foco | Pergunta Orientada ao Participante | Hipótese / Elemento Avaliado | Resposta Esperada / Critério de Aceitação |
@@ -117,7 +116,7 @@ As perguntas operacionalizam os objetivos (Barbosa et al., 2021, Seção 11.8 e 
 
 ---
 
-## 3. C — Choose (Escolher) os Métodos de Avaliação
+## 3. C: Choose (Escolher) os Métodos de Avaliação
 
 Segundo Barbosa et al. (2021, Seção 11.8, p. 264), o avaliador deve escolher os métodos mais adequados para responder às perguntas, considerando prazo, orçamento, equipamentos e experiência dos avaliadores ([Imagem 4](#imagem-4)). Foi escolhida a **entrevista semiestruturada guiada pelos artefatos**, o mesmo método das demais sessões do grupo.
 
@@ -127,7 +126,7 @@ Segundo Barbosa et al. (2021, Seção 11.8, p. 264), o avaliador deve escolher o
 
 ---
 
-## 4. I — Identificar e Administrar as Questões Práticas
+## 4. I: Identificar e Administrar as Questões Práticas
 
 As questões práticas envolvem recrutamento, equipamentos, prazos e orçamento (Barbosa et al., 2021, Seção 11.8, p. 264) ([Imagem 5](#imagem-5)).
 
@@ -145,7 +144,7 @@ As questões práticas envolvem recrutamento, equipamentos, prazos e orçamento 
 ### 4.3 Cronograma e Execução
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Cronograma da Sessão de Avaliação</p>
+<p><strong>Tabela 4</strong>: Cronograma da Sessão de Avaliação</p>
 </div>
 
 | Parâmetro | Detalhamento da Sessão |
@@ -175,7 +174,7 @@ O roteiro básico de entrevista foi ensaiado no **teste piloto de 20/10/2026** (
 
 ---
 
-## 5. D — Decidir como Lidar com as Questões Éticas
+## 5. D: Decidir como Lidar com as Questões Éticas
 
 Os participantes devem ser respeitados e não podem ser prejudicados, nem durante a avaliação nem depois da divulgação dos resultados (Barbosa et al., 2021, Seção 11.8, p. 264) ([Imagem 7](#imagem-7)). A conduta segue os princípios de autonomia, beneficência, não maleficência e justiça (Barbosa et al., 2021, p. 126) ([Imagem 8](#imagem-8)) e a Resolução nº 510/2016 do CNS:
 
@@ -187,7 +186,7 @@ Os participantes devem ser respeitados e não podem ser prejudicados, nem durant
 
 ---
 
-## 6. E — Avaliar, Interpretar e Apresentar os Dados
+## 6. E: Avaliar, Interpretar e Apresentar os Dados
 
 Os dados (gravação, anotações e tempos) serão interpretados e consolidados conforme Barbosa et al. (2021, Seções 11.7.5 e 11.8) ([Imagem 9](#imagem-9)):
 
@@ -203,47 +202,47 @@ Os dados (gravação, anotações e tempos) serão interpretados e consolidados 
 
 <div id="imagem-1" markdown>
 ![Framework DECIDE](../../../../assets/prints_referencias/referencia-decide-visao-geral.png)
-<p><em>Imagem 1 — Framework DECIDE (Barbosa et al., 2021, Seção 11.8, pp. 263–264).</em></p>
+<p><em>Imagem 1: Framework DECIDE (Barbosa et al., 2021, Seção 11.8, pp. 263–264).</em></p>
 </div>
 
 <div id="imagem-2" markdown>
 ![Determinação dos objetivos](../../../../assets/prints_referencias/referencia-decide-determinar-objetivos.png)
-<p><em>Imagem 2 — Determinação dos objetivos e aspectos avaliados em IHC (Barbosa et al., 2021, Seções 11.2 e 11.8, pp. 248, 264).</em></p>
+<p><em>Imagem 2: Determinação dos objetivos e aspectos avaliados em IHC (Barbosa et al., 2021, Seções 11.2 e 11.8, pp. 248, 264).</em></p>
 </div>
 
 <div id="imagem-3" markdown>
 ![Exploração das perguntas](../../../../assets/prints_referencias/referencia-decide-explorar-perguntas.png)
-<p><em>Imagem 3 — Exploração das perguntas da avaliação (Barbosa et al., 2021, Tabela 11.1 e Seção 11.8, pp. 251, 264).</em></p>
+<p><em>Imagem 3: Exploração das perguntas da avaliação (Barbosa et al., 2021, Tabela 11.1 e Seção 11.8, pp. 251, 264).</em></p>
 </div>
 
 <div id="imagem-4" markdown>
 ![Escolha dos métodos](../../../../assets/prints_referencias/referencia-decide-escolher-metodos.png)
-<p><em>Imagem 4 — Escolha dos métodos de avaliação (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
+<p><em>Imagem 4: Escolha dos métodos de avaliação (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
 </div>
 
 <div id="imagem-5" markdown>
 ![Questões práticas](../../../../assets/prints_referencias/referencia-decide-questoes-praticas.png)
-<p><em>Imagem 5 — Questões práticas da avaliação (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
+<p><em>Imagem 5: Questões práticas da avaliação (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
 </div>
 
 <div id="imagem-6" markdown>
 ![Teste piloto](../../../../assets/prints_referencias/print-teoria-teste-piloto.png)
-<p><em>Imagem 6 — Teste piloto (Barbosa et al., 2021, Seção 11.7.2, p. 260).</em></p>
+<p><em>Imagem 6: Teste piloto (Barbosa et al., 2021, Seção 11.7.2, p. 260).</em></p>
 </div>
 
 <div id="imagem-7" markdown>
 ![Questões éticas](../../../../assets/prints_referencias/referencia-decide-questoes-eticas.png)
-<p><em>Imagem 7 — Questões éticas da avaliação com usuários (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
+<p><em>Imagem 7: Questões éticas da avaliação com usuários (Barbosa et al., 2021, Seção 11.8, p. 264).</em></p>
 </div>
 
 <div id="imagem-8" markdown>
 ![Princípios éticos](../../../../assets/prints_referencias/print-teoria-aspectos-eticos-tcle.png)
-<p><em>Imagem 8 — Princípios éticos em pesquisas envolvendo pessoas (Barbosa et al., 2021, p. 126).</em></p>
+<p><em>Imagem 8: Princípios éticos em pesquisas envolvendo pessoas (Barbosa et al., 2021, p. 126).</em></p>
 </div>
 
 <div id="imagem-9" markdown>
 ![Avaliar, interpretar e apresentar os dados](../../../../assets/prints_referencias/referencia-decide-avaliar-interpretar-apresentar.png)
-<p><em>Imagem 9 — Avaliação, interpretação e apresentação dos dados (Barbosa et al., 2021, Seções 11.7.5 e 11.8, pp. 263–264).</em></p>
+<p><em>Imagem 9: Avaliação, interpretação e apresentação dos dados (Barbosa et al., 2021, Seções 11.7.5 e 11.8, pp. 263–264).</em></p>
 </div>
 
 ---

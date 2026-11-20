@@ -4,7 +4,6 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 25/10/2026 | `1.0` | Criação da estrutura do relato dos resultados da avaliação formativa do Storyboard 06 e da TAR-08. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - usado para formatação markdown da página |
 | 25/10/2026 | `1.1` | Preenchimento dos resultados com base na transcrição da entrevista, análise qualitativa e registro de problemas. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - usado para apoio na síntese textual e formatação das tabelas |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
 ---
 
@@ -22,11 +21,11 @@ O objetivo principal desta avaliação foi investigar a verossimilhança da narr
 * **Cenário:** [Cenário 11](../../../../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
 * **Análise de tarefas:** [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
 * **Storyboard:** [Storyboard 06](../../storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*esta página*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*esta página*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
-* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+* **Protótipo de alta fidelidade navegável:** *não disponível*
 
 
 ---
@@ -49,7 +48,7 @@ A coleta de dados seguiu a metodologia de **entrevista semiestruturada** orienta
 ### 3.1 Consolidação das Respostas: Avaliação do Storyboard 06
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Respostas da Avaliação do Storyboard 06</p>
+<p><strong>Tabela 1</strong>: Respostas da Avaliação do Storyboard 06</p>
 </div>
 
 | ID | Tópico Avaliado | Pergunta Aplicada ao Participante | Resumo da Resposta do Participante | Avaliação do Artefato |
@@ -69,7 +68,7 @@ A coleta de dados seguiu a metodologia de **entrevista semiestruturada** orienta
 ### 3.2 Consolidação das Respostas: Análise de Tarefas (TAR-08 - HTA e GOMS)
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Respostas da Avaliação da Análise de Tarefas (TAR-08)</p>
+<p><strong>Tabela 2</strong>: Respostas da Avaliação da Análise de Tarefas (TAR-08)</p>
 </div>
 
 | ID | Tópico Avaliado | Pergunta Aplicada ao Participante | Resumo da Resposta do Participante | Avaliação do Modelo |
@@ -94,7 +93,7 @@ A sessão evidenciou a validação das principais hipóteses levantadas na fase 
 ### Tabela de Registro e Priorização de Problemas de IHC
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Registro e Classificação dos Problemas Identificados</p>
+<p><strong>Tabela 3</strong>: Registro e Classificação dos Problemas Identificados</p>
 </div>
 
 | ID Problema | Descrição do Problema | Local / Artefato | Severidade (0 a 4) | Impacto na Experiência | Sugestão de Reprojeto / Ação |
@@ -123,33 +122,33 @@ Com base nas evidências coletadas e na validação das hipóteses com o partici
 As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — 11.7.4 Interpretação dos dados de cada participante</p>
+<p><strong>Figura 1</strong>: 11.7.4 Interpretação dos dados de cada participante</p>
 </div>
 
-![Figura 1 — 11.7.4 Interpretação dos dados de cada participante](../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
+![Figura 1: 11.7.4 Interpretação dos dados de cada participante](../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+<p><strong>Figura 2</strong>: 11.7.5 Consolidação e relato dos resultados</p>
 </div>
 
-![Figura 2 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+![Figura 2: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
+<p><strong>Figura 3</strong>: Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
 </div>
 
-![Figura 3 — Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
+![Figura 3: Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
 </div>
 
 ---

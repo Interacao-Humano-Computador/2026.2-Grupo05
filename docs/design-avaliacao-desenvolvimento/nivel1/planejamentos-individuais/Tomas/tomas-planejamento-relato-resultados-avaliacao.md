@@ -4,11 +4,7 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Storyboard 05 e da Análise de Tarefas (TAR-03). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página |
 | 23/10/2026 | `1.1` | Atualização do planejamento do relato para o novo Storyboard 05 (Pedido de Aumento do Limite Diário do Vale-Transporte) e para a TAR-09: objetivos, exemplos da escala de severidade, modelos de tabela e reprojeto. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para adaptar o texto ao novo storyboard e à nova tarefa |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
-
-!!! warning "Observação para correção manual"
-    Não existe o relato dos resultados de Nível 1 correspondente a este planejamento (TAR-09). O autor deve criar o relato ou registrar por que ele não foi feito.
 
 ---
 
@@ -24,9 +20,9 @@ A avaliação correspondente está descrita no [Planejamento da Avaliação do S
 * **Cenário:** [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
 * **Análise de tarefas:** [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
 * **Storyboard:** [Storyboard 05](../../storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](tomas-planejamento-avaliacao.md) · Planejamento do relato (*esta página*) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](tomas-planejamento-avaliacao.md) · Planejamento do relato (*esta página*) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-09/index.html)
 
@@ -71,7 +67,7 @@ Cada trecho marcado vira uma linha na tabela de respostas (Tabelas 2 e 3) ou, se
 Para classificar os problemas, adota-se a mesma **escala de severidade** usada pelo grupo, adaptada de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021):
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escala de Severidade de Problemas</p>
+<p><strong>Tabela 1</strong>: Escala de Severidade de Problemas</p>
 </div>
 
 | Nível de Severidade | Classificação | Descrição do Impacto | Exemplo no contexto do Storyboard 05 / TAR-09 |
@@ -95,7 +91,7 @@ O relatório final usará os três modelos abaixo. Os campos entre colchetes ser
 ### 4.1 Modelo de Tabela: Respostas da Avaliação do Storyboard 05
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Consolidação das Respostas sobre o Storyboard 05</p>
+<p><strong>Tabela 2</strong>: Consolidação das Respostas sobre o Storyboard 05</p>
 </div>
 
 | ID | Tópico Avaliado | Pergunta Aplicada ao Participante | Resumo da Resposta do Participante | Avaliação do Artefato (Conforme / Ajustar) |
@@ -113,7 +109,7 @@ O relatório final usará os três modelos abaixo. Os campos entre colchetes ser
 ### 4.2 Modelo de Tabela: Respostas da Avaliação da Análise de Tarefas (TAR-09 - HTA/CTT)
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Consolidação das Respostas sobre a Análise de Tarefas (TAR-09)</p>
+<p><strong>Tabela 3</strong>: Consolidação das Respostas sobre a Análise de Tarefas (TAR-09)</p>
 </div>
 
 | ID | Tópico Avaliado | Nó do Modelo Relacionado | Resumo da Resposta do Participante | Avaliação do Modelo (Válido / Ajustar) |
@@ -131,7 +127,7 @@ O relatório final usará os três modelos abaixo. Os campos entre colchetes ser
 ### 4.3 Modelo de Tabela: Registro e Priorização de Problemas Identificados
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Registro e Priorização de Problemas de IHC</p>
+<p><strong>Tabela 4</strong>: Registro e Priorização de Problemas de IHC</p>
 </div>
 
 | ID Problema | Descrição do Problema Encontrado | Local / Artefato Afetado | Pergunta de Origem | Grau de Severidade (0 a 4) | Evidência (fala ou momento da gravação) | Sugestão de Reprojeto / Ação Corretiva |
@@ -163,33 +159,33 @@ Os problemas da Tabela 4 serão tratados conforme a gravidade:
 As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — 11.7.4 Interpretação dos dados de cada participante</p>
+<p><strong>Figura 1</strong>: 11.7.4 Interpretação dos dados de cada participante</p>
 </div>
 
-![Figura 1 — 11.7.4 Interpretação dos dados de cada participante](../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
+![Figura 1: 11.7.4 Interpretação dos dados de cada participante](../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — 11.7.5 Consolidação e relato dos resultados</p>
+<p><strong>Figura 2</strong>: 11.7.5 Consolidação e relato dos resultados</p>
 </div>
 
-![Figura 2 — 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+![Figura 2: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
+<p><strong>Figura 3</strong>: Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
 </div>
 
-![Figura 3 — Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
+![Figura 3: Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 262). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
 </div>
 
 ---

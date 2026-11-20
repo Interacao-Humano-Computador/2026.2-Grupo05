@@ -3,7 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Elaboração do Planejamento Individual de Tarefas de Lucas Araújo para a Etapa 4. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini - utilizado apenas para formatação em Markdown |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+| 19/11/2026 | `1.2` | Substituição de vínculo local inválido pela visão geral versionada do projeto. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na verificação dos vínculos internos. |
 
 ---
 
@@ -11,7 +11,7 @@
 
 ## 1. Contexto e Objetivos Individuais na Etapa 4
 
-A **Etapa 4** do projeto de Interação Humano-Computador (IHC), aplicado ao portal e serviços da **SEMOB-DF / BRB Mobilidade**, compreende o planejamento sistemático das avaliações formativas de IHC. Conforme estabelecido no [Plano de Ensino da Disciplina](https://interacao-humano-computador.github.io/2026.2-Grupo05/assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf) (páginas 12 e 13) e no [Planejamento Geral da Equipe](file:///Users/macbook/Documents/IHC/docs/design-avaliacao-desenvolvimento/nivel1/), cada integrante possui responsabilidades individuais intransferíveis de modelagem, redação de artefatos metodológicos, fundamentação teórica referenciada e inspeção por pares.
+A **Etapa 4** do projeto de Interação Humano-Computador (IHC), aplicado ao portal e serviços da **SEMOB-DF / BRB Mobilidade**, compreende o planejamento sistemático das avaliações formativas de IHC. Conforme estabelecido no [Plano de Ensino da Disciplina](https://interacao-humano-computador.github.io/2026.2-Grupo05/assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf) (páginas 12 e 13) e na [visão geral de Design, Avaliação e Desenvolvimento](../../../index.md), cada integrante possui responsabilidades individuais intransferíveis de modelagem, redação de artefatos metodológicos, fundamentação teórica referenciada e inspeção por pares.
 
 Este documento formaliza as atribuições, o fluxo operacional, os cronogramas de entrega e os critérios de aceitação específicos do integrante **Lucas Araújo Lima**.
 
@@ -21,9 +21,9 @@ Este documento formaliza as atribuições, o fluxo operacional, os cronogramas d
 * **Cenário:** [Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)
 * **Análise de tarefas:** [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
 * **Storyboard:** [Storyboard 03](../../storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · Planejamento individual de tarefas (*esta página*) · [Questões práticas e éticas](questoes-praticas-e-eticas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · Planejamento individual de tarefas (*esta página*) · [Questões práticas e éticas](questoes-praticas-e-eticas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-03/index.html)
 
@@ -35,7 +35,7 @@ Este documento formaliza as atribuições, o fluxo operacional, os cronogramas d
 A Tabela 1 detalha o escopo de atuação de Lucas Araújo na Etapa 4, articulando suas entregas com os artefatos das etapas anteriores:
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Atribuições e Responsabilidades Individuais de Lucas Araújo</p>
+<p><strong>Tabela 1</strong>: Atribuições e Responsabilidades Individuais de Lucas Araújo</p>
 </div>
 
 | Dimensão de Entrega | Artefato Sob Responsabilidade | Vínculo no Projeto | Revisor por Pares |
@@ -87,7 +87,7 @@ A Tabela 1 detalha o escopo de atuação de Lucas Araújo na Etapa 4, articuland
 A Tabela 2 apresenta o cronograma individual de trabalho de Lucas Araújo, alinhado às janelas de revisão da equipe para evitar sobrecargas pré-entrega:
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Cronograma de Execução Individual (Lucas Araújo)</p>
+<p><strong>Tabela 2</strong>: Cronograma de Execução Individual (Lucas Araújo)</p>
 </div>
 
 | Data / Período | Atividade | Entregável / Meta | Status |
@@ -111,7 +111,7 @@ A Tabela 2 apresenta o cronograma individual de trabalho de Lucas Araújo, alinh
 A Tabela 3 consolida a autoavaliação de conformidade dos artefatos produzidos por Lucas Araújo em relação às exigências do Plano de Ensino da disciplina (SALES, 2026):
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Checklist de Conformidade dos Artefatos de Lucas Araújo</p>
+<p><strong>Tabela 3</strong>: Checklist de Conformidade dos Artefatos de Lucas Araújo</p>
 </div>
 
 | Item | Critério de Aceitação do Plano de Ensino | Situação no Artefato | Localização da Evidência |
@@ -134,43 +134,43 @@ A Tabela 3 consolida a autoavaliação de conformidade dos artefatos produzidos 
 As Figuras 1 a 4 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 1</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 1 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 1: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
+<p><strong>Figura 2</strong>: 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
 </div>
 
-![Figura 2 — 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
+![Figura 2: 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 248). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 248).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
+<p><strong>Figura 3</strong>: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
 </div>
 
-![Figura 3 — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
+![Figura 3: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 251). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 251).</em></p>
 </div>
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+<p><strong>Figura 4</strong>: 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
 </div>
 
-![Figura 4 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+![Figura 4: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 ---

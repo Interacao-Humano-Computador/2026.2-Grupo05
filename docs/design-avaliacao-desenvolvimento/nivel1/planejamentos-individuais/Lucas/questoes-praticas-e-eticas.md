@@ -3,11 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Elaboração completa do documento de Questões Práticas e Éticas das Avaliações de IHC, incluindo recrutamento, infraestrutura, orçamento, fundamentação teórica com prints do livro e minuta integral do TCLE com autorização de gravação. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini - utilizado apenas para formatação em Markdown |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); autor e revisor retirados do rodapé; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
 
-
-!!! warning "Observação para correção manual"
-    A menção aos códigos de ética da ACM (1992) e do IEEE (2006) foi retirada por não serem referências do livro da disciplina; o dever de evitar danos, respeitar a privacidade e garantir a confidencialidade foi mantido com base em Barbosa et al. (2021, pp. 126–129). Revisar a redação.
 
 ---
 
@@ -15,7 +11,7 @@
 
 Neste documento, apresentam-se as **Questões Práticas e Éticas** que norteiam o planejamento e a futura condução das avaliações formativas da **Etapa 4** e **Etapa 5** do projeto de Interação Humano-Computador (IHC), aplicado ao portal da **Secretaria de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)**.
 
-O planejamento de uma avaliação de IHC exige rigor tanto nos aspectos operacionais e logísticos (recrutamento, recursos, prazos e custos) quanto no cumprimento irrestrito dos preceitos éticos que resguardam a dignidade, a privacidade e o bem-estar dos participantes (Barbosa et al., 2021).
+O planejamento de uma avaliação de IHC exige rigor tanto nos aspectos operacionais e logísticos (recrutamento, recursos, prazos e custos) quanto no cumprimento dos preceitos éticos que resguardam a dignidade, a privacidade e o bem-estar dos participantes. Barbosa e Silva (2010, pp. 137–138) apresentam os códigos de ética da ACM e do IEEE como referências para evitar danos, respeitar a privacidade, preservar a confidencialidade e priorizar o bem-estar dos participantes.
 
 **Artefatos relacionados — fluxo da funcionalidade TAR-03 (Planejamento de Rota por Origem e Destino):**
 
@@ -23,9 +19,9 @@ O planejamento de uma avaliação de IHC exige rigor tanto nos aspectos operacio
 * **Cenário:** [Cenário 3](../../../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md)
 * **Análise de tarefas:** [TAR-03](../../../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md)
 * **Storyboard:** [Storyboard 03](../../storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](planejamento-individual-lucas.md) · Questões práticas e éticas (*esta página*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](planejamento-individual-lucas.md) · Questões práticas e éticas (*esta página*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-03/index.html)
 
@@ -48,7 +44,7 @@ O recrutamento dos participantes é rigorosamente ancorado no [Perfil de Usuári
 A Tabela 1 sintetiza os critérios de elegibilidade para o recrutamento dos participantes:
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Critérios de Elegibilidade para Recrutamento de Participantes</p>
+<p><strong>Tabela 1</strong>: Critérios de Elegibilidade para Recrutamento de Participantes</p>
 </div>
 
 | Dimensão | Critérios de Inclusão | Critérios de Exclusão |
@@ -84,7 +80,7 @@ A execução das avaliações formativas requer um ambiente controlado e ferrame
 A Tabela 2 apresenta o inventário de infraestrutura e tecnologias mobilizadas:
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Inventário de Recursos, Ferramentas e Infraestrutura</p>
+<p><strong>Tabela 2</strong>: Inventário de Recursos, Ferramentas e Infraestrutura</p>
 </div>
 
 | Categoria | Recurso / Ferramenta | Finalidade na Avaliação | Responsável Operacional |
@@ -108,7 +104,7 @@ Conforme preconizado nas boas práticas acadêmicas e na legislação brasileira
 A Tabela 3 consolida o detalhamento orçamentário do projeto:
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Detalhamento Orçamentário e Estimativa de Custos</p>
+<p><strong>Tabela 3</strong>: Detalhamento Orçamentário e Estimativa de Custos</p>
 </div>
 
 | Item de Despesa | Descrição do Recurso | Custo Unitário | Quantidade | Custo Total (R$) |
@@ -159,14 +155,14 @@ Conforme estabelecido pelo critério de validação da disciplina (**Item 14 do 
 
 <div align="center">
   <img src="../../../../assets/prints_referencias/verificacao-v2/livro-etica-principios.png" alt="Os quatro princípios éticos (Resolução CNS nº 466/2012) (BARBOSA et al., 2021, pp. 126–127)" width="90%">
-  <p><strong>Figura 1</strong> — Princípios Éticos em Pesquisas Envolvendo Pessoas (Autonomia, Beneficência, Não-maleficência e Justiça)</p>
-  <p><em>Fonte: BARBOSA et al. (2021, Seção 7.4, pp. 126–127). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+  <p><strong>Figura 1</strong>: Princípios Éticos em Pesquisas Envolvendo Pessoas (Autonomia, Beneficência, Não-maleficência e Justiça)</p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 7.4, pp. 126–127).</em></p>
 </div>
 
 <div align="center">
   <img src="../../../../assets/prints_referencias/verificacao-v2/livro-etica-desistencia-vies.png" alt="Direito de desistir do estudo e dados livres de viés (BARBOSA et al., 2021, pp. 128–129)" width="90%">
-  <p><strong>Figura 2</strong> — Exemplo de Estrutura do Termo de Consentimento Livre e Esclarecido (TCLE) em IHC</p>
-  <p><em>Fonte: BARBOSA et al. (2021, Seção 7.4, pp. 128–129). Recorte e grifo: <a href="https://github.com/gabriellcardone-06">Gabriel Melo</a> (2026).</em></p>
+  <p><strong>Figura 2</strong>: Exemplo de Estrutura do Termo de Consentimento Livre e Esclarecido (TCLE) em IHC</p>
+  <p><em>Fonte: BARBOSA et al. (2021, Seção 7.4, pp. 128–129).</em></p>
 </div>
 
 ---
@@ -248,7 +244,7 @@ Faculdade UnB Gama (FCTE) · Universidade de Brasília</p>
 A Tabela 4 espelha os critérios da Tabela 3 do Plano de Ensino da disciplina (SALES, 2026), comprovando o atendimento integral de cada item avaliativo sob responsabilidade de Lucas Araújo:
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Mapeamento de Conformidade com o Checklist da Etapa 4</p>
+<p><strong>Tabela 4</strong>: Mapeamento de Conformidade com o Checklist da Etapa 4</p>
 </div>
 
 | # Item | Item de Verificação do Plano de Ensino | Critério de Aceitação Exigido | Situação no Artefato | Seção de Evidência |
@@ -269,43 +265,43 @@ A Tabela 4 espelha os critérios da Tabela 3 do Plano de Ensino da disciplina (S
 As Figuras 3 a 6 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — 11.8 Framework DECIDE</p>
+<p><strong>Figura 3</strong>: 11.8 Framework DECIDE</p>
 </div>
 
-![Figura 3 — 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
+![Figura 3: 11.8 Framework DECIDE](../../../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264).</em></p>
 </div>
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
+<p><strong>Figura 4</strong>: 11.2 Principais aspectos (objetivos) avaliados em IHC</p>
 </div>
 
-![Figura 4 — 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
+![Figura 4: 11.2 Principais aspectos (objetivos) avaliados em IHC](../../../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 248). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 248).</em></p>
 </div>
 
 <div id="figura-5" align="center">
-<p><strong>Figura 5</strong> — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
+<p><strong>Figura 5</strong>: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
 </div>
 
-![Figura 5 — Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
+![Figura 5: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 251). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 251).</em></p>
 </div>
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong> — 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
+<p><strong>Figura 6</strong>: 11.7.2 Escopo da avaliação, perfil e número de participantes</p>
 </div>
 
-![Figura 6 — 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
+![Figura 6: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258).</em></p>
 </div>
 
 ---
