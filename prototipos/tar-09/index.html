@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SEMOB-DF • Vale-Transporte recusado (TAR-09)</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Open+Sans:wght@400;600;700&family=Titillium+Web:wght@300;400;600&display=swap" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="stage">
+
+  <main class="phone" id="phone">
+
+    <!-- N1: notificação simulada do WhatsApp -->
+    <button type="button" class="notif" id="notif" hidden onclick="openNotification()">
+      <span class="notif-app">
+        <span class="notif-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor"><path d="M12 3a9 9 0 0 0-7.8 13.5L3 21l4.6-1.2A9 9 0 1 0 12 3z"/></svg>
+        </span>
+        WhatsApp · agora
+      </span>
+      <strong>SEMOB-DF</strong>
+      <span>Seu pedido 2026-0451 foi aprovado. Seu novo limite de passagens por dia já está valendo.</span>
+    </button>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <div class="phone-scroll" id="scroller">
+
+    <!-- Barra do GDF -->
+    <div class="gdf-bar">
+      <span class="gdf-bar-label">Acessibilidade</span>
+      <span class="gdf-bar-sep" aria-hidden="true"></span>
+      <button type="button" class="gdf-bar-btn" id="fontBtn" onclick="toggleFont()" aria-pressed="false" aria-label="Aumentar o tamanho das letras">Aa</button>
+      <span class="gdf-bar-sep" aria-hidden="true"></span>
+      <button type="button" class="gdf-bar-btn" id="contrastBtn" onclick="toggleContrast()" aria-pressed="false">Alto contraste</button>
+    </div>
+
+    <!-- Cabeçalho da Secretaria -->
+    <header class="site-header">
+      <p class="site-title">Secretaria de Estado de Transporte e Mobilidade do Distrito Federal</p>
+    </header>
+
+    <!-- Faixa com brasão e busca -->
+    <div class="site-band">
+      <span class="emblem" aria-hidden="true">
+        <svg viewBox="0 0 40 52" width="34" height="44">
+          <path d="M20 2 L37 46 H3 Z" fill="#f2c200"/>
+          <path d="M20 12 L31 42 H9 Z" fill="#1d8a3f"/>
+          <rect x="15" y="26" width="10" height="10" fill="#f2c200"/>
+        </svg>
+      </span>
+      <form class="site-search" onsubmit="event.preventDefault(); toast('A busca não faz parte deste protótipo.')">
+        <span class="site-search-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="10.5" cy="10.5" r="6.5"/><line x1="15.5" y1="15.5" x2="21" y2="21"/></svg>
+        </span>
+        <input type="search" class="site-search-input" placeholder="Digite aqui o que você procura" aria-label="Buscar no site" />
+      </form>
+    </div>
+
+    <!-- Menu principal -->
+    <nav class="site-menu">
+      <button type="button" class="site-menu-btn" onclick="toast('O menu não faz parte deste protótipo.')">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        Menu
+      </button>
+    </nav>
+
+    <!-- Trilha de navegação -->
+    <nav class="breadcrumb" id="breadcrumb" aria-label="Você está em"></nav>
+
+    <div class="content" id="content">
+
+      <!-- =========================================================
+           T1 — PÁGINA INICIAL
+           ========================================================= -->
+      <section class="screen active" id="screen-home" data-crumb="">
+        <h1 class="page-title">Acesso Rápido</h1>
+
+        <div class="service-grid">
+          <article class="service-card">
+            <span class="service-icon" style="--c:#0f6db3" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="14" rx="3"/><line x1="4" y1="11" x2="20" y2="11"/><circle cx="8" cy="20" r="1.5"/><circle cx="16" cy="20" r="1.5"/></svg>
+            </span>
+            <p class="service-desc">Itinerários e horários dos ônibus</p>
+            <button type="button" class="btn-dark" onclick="outOfScope('Linhas e horários')">Linhas e horários</button>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" style="--c:#1d8a3f" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="2" y1="10" x2="22" y2="10"/><line x1="6" y1="15" x2="10" y2="15"/></svg>
+            </span>
+            <p class="service-desc">Cartão Mobilidade, saldo e recarga</p>
+            <button type="button" class="btn-dark" onclick="outOfScope('Cartões e recarga')">Cartões e recarga</button>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" style="--c:#c0392b" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="2" y="5" width="20" height="14" rx="2"/><line x1="9" y1="9" x2="15" y2="15"/><line x1="15" y1="9" x2="9" y2="15"/></svg>
+            </span>
+            <p class="service-desc">O cartão não passou na catraca?</p>
+            <button type="button" class="btn-dark" onclick="go('card')">Meu Vale-Transporte foi recusado</button>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" style="--c:#b45309" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M15 9.5c-.5-1-1.6-1.5-3-1.5-1.7 0-3 .8-3 2s1.3 1.7 3 2 3 .8 3 2-1.3 2-3 2c-1.4 0-2.5-.5-3-1.5"/><line x1="12" y1="6" x2="12" y2="18"/></svg>
+            </span>
+            <p class="service-desc">Valores das passagens de ônibus e metrô</p>
+            <button type="button" class="btn-dark" onclick="outOfScope('Preços das passagens')">Preços das passagens</button>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" style="--c:#6d28d9" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></svg>
+            </span>
+            <p class="service-desc">Reclamações, sugestões e elogios</p>
+            <button type="button" class="btn-dark" onclick="outOfScope('Ouvidoria')">Ouvidoria</button>
+          </article>
+
+          <article class="service-card">
+            <span class="service-icon" style="--c:#475569" aria-hidden="true">
+              <svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><line x1="7" y1="9" x2="17" y2="9"/><line x1="7" y1="13" x2="17" y2="13"/><line x1="7" y1="17" x2="13" y2="17"/></svg>
+            </span>
+            <p class="service-desc">Últimas notícias da Secretaria</p>
+            <button type="button" class="btn-dark" onclick="outOfScope('Notícias')">Notícias</button>
+          </article>
+        </div>
+      </section>
+
+      <!-- Tela para os serviços fora do escopo -->
+      <section class="screen" id="screen-out" data-crumb="Serviço">
+        <h1 class="page-title" id="outTitle">Serviço</h1>
+        <div class="panel-box">
+          <p>Esta área não faz parte deste protótipo.</p>
+          <button type="button" class="btn-primary" onclick="goHome()">Voltar ao início</button>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           T2 — INFORMAR O CARTÃO
+           ========================================================= -->
+      <section class="screen" id="screen-card" data-crumb="Meu Vale-Transporte foi recusado">
+        <h1 class="page-title">Meu Vale-Transporte foi recusado</h1>
+        <p class="lead">Informe o número do seu cartão para ver por que ele não passou na catraca.</p>
+
+        <div class="panel-box">
+          <label class="field-label" for="cardInput">Número do cartão</label>
+          <input id="cardInput" class="field" type="text" inputmode="numeric" autocomplete="off"
+                 placeholder="0000 0000 0000" onfocus="prefill(this, '0042 1873 5560')" />
+          <p class="field-hint">O número fica na frente do cartão, abaixo do seu nome.</p>
+          <p class="field-error" id="cardError" hidden>Digite o número do cartão para continuar.</p>
+          <button type="button" class="btn-primary" onclick="submitCard()">Continuar</button>
+        </div>
+
+        <button type="button" class="link-card" onclick="go('track')">
+          <span>
+            <strong>Já fez um pedido?</strong>
+            <span>Acompanhe pelo número do protocolo.</span>
+          </span>
+          <span aria-hidden="true">›</span>
+        </button>
+      </section>
+
+      <!-- =========================================================
+           T3 — EXPLICAÇÃO DA RECUSA
+           ========================================================= -->
+      <section class="screen" id="screen-reason" data-crumb="Meu Vale-Transporte foi recusado">
+        <p class="meta">Cartão 0042 1873 5560 · hoje, 18:42</p>
+        <h1 class="page-title">Você usou 8 de 8 passagens hoje</h1>
+
+        <div class="dots" aria-label="8 de 8 passagens usadas">
+          <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+        </div>
+
+        <div class="alert alert-info">
+          <strong>Seu cartão tem saldo.</strong>
+          O Vale-Transporte permite no máximo <strong>8 passagens por dia</strong>. Por isso a catraca recusou o cartão. Amanhã o limite volta a valer do zero.
+        </div>
+
+        <div class="alert alert-warn">
+          <strong>As integrações também contam.</strong>
+          Cada vez que o cartão passa na catraca conta como uma passagem, mesmo quando a integração é gratuita.
+        </div>
+
+        <details class="trips">
+          <summary>Ver as 8 passagens de hoje</summary>
+          <ol>
+            <li><span>06:12</span> Ônibus 0.110 — Samambaia</li>
+            <li><span>06:58</span> Metrô — Estação Central <em>integração</em></li>
+            <li><span>09:30</span> Ônibus 0.108 — Asa Sul</li>
+            <li><span>11:05</span> Ônibus 0.111 — Asa Norte</li>
+            <li><span>11:40</span> Ônibus 0.142 — Asa Norte <em>integração</em></li>
+            <li><span>14:20</span> Ônibus 0.108 — Asa Sul</li>
+            <li><span>16:35</span> Ônibus 0.111 — Asa Norte</li>
+            <li><span>17:10</span> Ônibus 0.142 — Rodoviária <em>integração</em></li>
+          </ol>
+        </details>
+
+        <h2 class="section-title">Seu trabalho exige mais viagens?</h2>
+        <p>Você pode pedir à SEMOB para usar mais passagens por dia.</p>
+        <div class="btn-stack">
+          <button type="button" class="btn-primary" onclick="go('step1')">Pedir mais passagens por dia</button>
+          <button type="button" class="btn-secondary" onclick="go('posts')">Prefiro entregar no posto</button>
+        </div>
+      </section>
+
+      <!-- W5 — POSTOS DE ATENDIMENTO -->
+      <section class="screen" id="screen-posts" data-crumb="Entregar no posto">
+        <h1 class="page-title">Entregar no posto</h1>
+        <p class="lead">Leve os documentos a um destes locais. Você também pode fazer o pedido pelo celular, sem sair de casa.</p>
+
+        <ul class="post-list">
+          <li class="panel-box">
+            <strong>Subsecretaria de Controle e Gratuidade</strong>
+            <span>Antiga Rodoferroviária — SAIN</span>
+            <span class="muted">Segunda a sexta, 8h às 18h</span>
+          </li>
+          <li class="panel-box">
+            <strong>Posto BRB Mobilidade — Rodoviária do Plano Piloto</strong>
+            <span>Plataforma superior</span>
+            <span class="muted">Segunda a sexta, 8h às 18h</span>
+          </li>
+          <li class="panel-box">
+            <strong>Posto BRB Mobilidade — Planaltina</strong>
+            <span>Rodoviária de Planaltina</span>
+            <span class="muted">Segunda a sexta, 8h às 17h</span>
+          </li>
+        </ul>
+        <p class="muted small">Horários ilustrativos do protótipo.</p>
+
+        <h2 class="section-title">Documentos para levar</h2>
+        <ul class="check-list">
+          <li>RG e CPF</li>
+          <li>Comprovante de residência</li>
+          <li>Declaração do RH assinada (<button type="button" class="text-link" onclick="downloadModel()">baixar modelo</button>)</li>
+        </ul>
+
+        <div class="btn-stack">
+          <button type="button" class="btn-primary" onclick="go('step1')">Pedir pelo celular</button>
+          <button type="button" class="btn-secondary" onclick="back()">Voltar</button>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           T4 — PASSO 1 DE 3: ROTINA
+           ========================================================= -->
+      <section class="screen" id="screen-step1" data-crumb="Pedir mais passagens">
+        <div class="stepper" aria-label="Passo 1 de 3">
+          <span class="step current">1</span><span class="step-line"></span>
+          <span class="step">2</span><span class="step-line"></span>
+          <span class="step">3</span>
+        </div>
+        <p class="step-label">Passo 1 de 3 · Sua rotina</p>
+        <h1 class="page-title">Conte sua rotina</h1>
+
+        <div class="panel-box">
+          <label class="field-label" for="routineInput">Como é o seu dia de trabalho?</label>
+          <textarea id="routineInput" class="field" rows="5"
+            placeholder="Ex.: Atendo prédios na Asa Sul e na Asa Norte, 5 ou 6 por dia, e pego vários ônibus para ir de um ao outro."></textarea>
+          <p class="field-hint">Não precisa saber o número das linhas. Conte com as suas palavras.</p>
+          <p class="field-error" id="routineError" hidden>Conte um pouco da sua rotina para continuar.</p>
+        </div>
+
+        <div class="btn-stack">
+          <button type="button" class="btn-primary" onclick="submitStep1()">Continuar</button>
+          <button type="button" class="btn-secondary" onclick="back()">Voltar</button>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           T5 — PASSO 2 DE 3: FOTOS DOS DOCUMENTOS
+           ========================================================= -->
+      <section class="screen" id="screen-step2" data-crumb="Pedir mais passagens">
+        <div class="stepper" aria-label="Passo 2 de 3">
+          <span class="step done">✓</span><span class="step-line done"></span>
+          <span class="step current">2</span><span class="step-line"></span>
+          <span class="step">3</span>
+        </div>
+        <p class="step-label">Passo 2 de 3 · Documentos</p>
+        <h1 class="page-title">Fotos dos documentos</h1>
+        <p class="lead">Tire uma foto de cada documento, em um lugar com boa luz.</p>
+
+        <div class="doc-item" id="doc-rg">
+          <div class="doc-info">
+            <strong>RG ou CPF</strong>
+            <span class="doc-status">Ainda não enviado</span>
+          </div>
+          <button type="button" class="btn-camera" onclick="takePhoto('rg')">Tirar foto</button>
+        </div>
+
+        <div class="doc-item" id="doc-comp">
+          <div class="doc-info">
+            <strong>Comprovante de residência</strong>
+            <span class="doc-status">Ainda não enviado</span>
+          </div>
+          <button type="button" class="btn-camera" onclick="takePhoto('comp')">Tirar foto</button>
+        </div>
+
+        <p class="field-error" id="step2Error" hidden></p>
+
+        <div class="btn-stack">
+          <button type="button" class="btn-primary" onclick="submitStep2()">Continuar</button>
+          <button type="button" class="btn-secondary" onclick="back()">Voltar</button>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           T6 — PASSO 3 DE 3: DECLARAÇÃO DO RH
+           ========================================================= -->
+      <section class="screen" id="screen-step3" data-crumb="Pedir mais passagens">
+        <div class="stepper" aria-label="Passo 3 de 3">
+          <span class="step done">✓</span><span class="step-line done"></span>
+          <span class="step done">✓</span><span class="step-line done"></span>
+          <span class="step current">3</span>
+        </div>
+        <p class="step-label">Passo 3 de 3 · Declaração do RH</p>
+        <h1 class="page-title">Declaração do RH</h1>
+        <p class="lead">A empresa precisa confirmar que o seu trabalho exige mais viagens por dia.</p>
+
+        <ol class="howto">
+          <li>Baixe o modelo de declaração.</li>
+          <li>Leve ao RH da sua empresa para preencher os endereços onde você trabalha e assinar.</li>
+          <li>Tire uma foto da declaração assinada.</li>
+        </ol>
+
+        <button type="button" class="btn-secondary btn-download" id="modelBtn" onclick="downloadModel()">
+          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v12"/><path d="M7 10l5 5 5-5"/><path d="M4 20h16"/></svg>
+          Baixar modelo para o RH
+        </button>
+
+        <div class="doc-item" id="doc-decl">
+          <div class="doc-info">
+            <strong>Declaração do RH assinada</strong>
+            <span class="doc-status">Ainda não enviada</span>
+          </div>
+          <button type="button" class="btn-camera" onclick="takePhoto('decl')">Tirar foto</button>
+        </div>
+
+        <!-- E2 — documento faltando -->
+        <div class="alert alert-error" id="declMissing" hidden role="alert">
+          <strong>Falta a declaração do RH.</strong>
+          Sem ela, a SEMOB não consegue analisar o seu pedido. A rotina e as fotos que você já enviou estão guardadas.
+          <button type="button" class="btn-primary btn-small" onclick="takePhoto('decl')">Enviar a declaração agora</button>
+        </div>
+
+        <div class="btn-stack">
+          <button type="button" class="btn-primary" onclick="submitStep3()">Revisar pedido</button>
+          <button type="button" class="btn-secondary" onclick="back()">Voltar</button>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           T7 — REVISÃO DO PEDIDO
+           ========================================================= -->
+      <section class="screen" id="screen-review" data-crumb="Pedir mais passagens">
+        <h1 class="page-title">Confira seu pedido</h1>
+        <p class="lead">Veja se está tudo certo antes de enviar.</p>
+
+        <dl class="summary panel-box">
+          <div class="summary-row">
+            <dt>Cartão</dt>
+            <dd>0042 1873 5560</dd>
+          </div>
+          <div class="summary-row">
+            <dt>Sua rotina <button type="button" class="text-link" onclick="go('step1')">Alterar</button></dt>
+            <dd id="reviewRoutine"></dd>
+          </div>
+          <div class="summary-row">
+            <dt>Documentos <button type="button" class="text-link" onclick="go('step2')">Alterar</button></dt>
+            <dd>
+              <ul class="check-list done">
+                <li>RG ou CPF</li>
+                <li>Comprovante de residência</li>
+                <li>Declaração do RH assinada</li>
+              </ul>
+            </dd>
+          </div>
+        </dl>
+
+        <div class="btn-stack">
+          <button type="button" class="btn-primary" id="sendBtn" onclick="sendRequest()">Enviar pedido</button>
+          <button type="button" class="btn-secondary" onclick="back()">Voltar</button>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           T8 — CONFIRMAÇÃO
+           ========================================================= -->
+      <section class="screen" id="screen-done" data-crumb="Pedido enviado">
+        <div class="success-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="36" height="36" fill="none" stroke="currentColor" stroke-width="3"><path d="M5 12.5l4.5 4.5L19 7"/></svg>
+        </div>
+        <h1 class="page-title center">Pedido enviado!</h1>
+
+        <div class="protocol">
+          <span>Número do protocolo</span>
+          <strong id="protocolNumber">2026-0451</strong>
+          <button type="button" class="text-link" onclick="copyProtocol()">Copiar protocolo</button>
+        </div>
+
+        <h2 class="section-title">O que acontece agora</h2>
+        <ol class="howto">
+          <li>A SEMOB analisa o seu pedido em até <strong>5 dias úteis</strong>.</li>
+          <li>Se for aprovado, o BRB ativa o novo limite no cartão em até <strong>2 dias úteis</strong>.</li>
+          <li><strong>Vamos te avisar pelo WhatsApp</strong> quando o novo limite estiver valendo.</li>
+        </ol>
+        <p class="muted small">Até lá, o seu cartão continua com o limite de 8 passagens por dia.</p>
+
+        <div class="btn-stack">
+          <button type="button" class="btn-primary" onclick="go('track')">Acompanhar pedido</button>
+          <button type="button" class="btn-secondary" onclick="goHome()">Voltar ao início</button>
+        </div>
+      </section>
+
+      <!-- =========================================================
+           T9 — ACOMPANHAR PEDIDO
+           ========================================================= -->
+      <section class="screen" id="screen-track" data-crumb="Acompanhar pedido">
+        <h1 class="page-title">Acompanhar pedido</h1>
+
+        <div class="panel-box">
+          <label class="field-label" for="protocolInput">Número do protocolo</label>
+          <input id="protocolInput" class="field" type="text" inputmode="numeric" autocomplete="off"
+                 placeholder="0000-0000" onfocus="prefill(this, '2026-0451')" />
+          <p class="field-error" id="protocolError" hidden></p>
+          <button type="button" class="btn-primary" onclick="consult()">Consultar</button>
+        </div>
+
+        <!-- W6 — situação do pedido -->
+        <div class="status" id="statusBox" hidden>
+          <div class="status-head" id="statusHead"></div>
+          <ol class="timeline" id="timeline"></ol>
+        </div>
+
+        <button type="button" class="btn-secondary" onclick="goHome()">Voltar ao início</button>
+      </section>
+
+    </div>
+
+    <footer class="site-footer">
+      <strong>SEMOB-DF</strong>
+      <span>Protótipo acadêmico de alta fidelidade · IHC/UnB · Grupo 05 · TAR-09</span>
+    </footer>
+
+    </div>
+
+    <!-- W2 / E1 — câmera e prévia da foto -->
+    <div class="sheet-backdrop" id="sheet" hidden>
+      <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+        <div id="sheetCamera" class="camera">
+          <span class="spinner" aria-hidden="true"></span>
+          <span>Abrindo a câmera…</span>
+        </div>
+        <div id="sheetPreview" hidden>
+          <h2 class="sheet-title" id="sheetTitle">Foto tirada</h2>
+          <div class="photo" id="photo">
+            <span class="photo-doc" id="photoDoc"></span>
+            <span class="photo-line w80"></span>
+            <span class="photo-line w60"></span>
+            <span class="photo-line w70"></span>
+            <span class="photo-line w40"></span>
+            <span class="photo-stamp">EXEMPLO</span>
+          </div>
+          <div class="btn-stack">
+            <button type="button" class="btn-primary" onclick="usePhoto()">Usar esta foto</button>
+            <button type="button" class="btn-secondary" onclick="retakePhoto()">Tirar outra foto</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Envio em andamento -->
+    <div class="loading" id="loading" hidden>
+      <span class="spinner" aria-hidden="true"></span>
+      <span>Enviando seu pedido…</span>
+    </div>
+
+  </main>
+
+  <!-- =========================================================
+       PAINEL DO AVALIADOR (aparece com ?avaliador=1)
+       ========================================================= -->
+  <aside class="eval" id="eval" hidden>
+    <button type="button" class="eval-toggle" onclick="toggleEval()" aria-expanded="true">Painel do avaliador</button>
+    <div class="eval-body" id="evalBody">
+      <p class="eval-help">Inicie cada tarefa quando terminar de ler o enunciado. O tempo para sozinho quando o participante atinge o critério de conclusão.</p>
+      <div id="evalTasks"></div>
+      <div class="eval-actions">
+        <button type="button" onclick="simulateDays()">Passaram alguns dias (aviso N1)</button>
+        <button type="button" onclick="copyLog()">Copiar registro</button>
+        <button type="button" onclick="resetPrototype()">Reiniciar protótipo</button>
+      </div>
+      <p class="eval-screen">Tela atual: <strong id="evalScreen">T1</strong></p>
+    </div>
+  </aside>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
