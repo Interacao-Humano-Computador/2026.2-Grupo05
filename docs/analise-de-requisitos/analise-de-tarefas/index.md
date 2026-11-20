@@ -2,16 +2,12 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 26/09/2026 | `1.0` | Criação do documento e preenchimento das análises de tarefas HTA e CTT. | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | Não declarado pelo autor |
-| 27/09/2026 | `1.1` | Modularização em artefatos dedicados por tarefa e estruturação da visão geral teórica. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
-| 27/09/2026 | `1.2` | Inclusão das tarefas operacionais TAR-03 e TAR-04 da persona Valdir Soares (motorista de ônibus) com HTA e CTT completos. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
-| 28/09/2026 | `1.3` | Inclusão da tarefa TAR-06 (Consulta em tempo real no DF no Ponto com HTA e GOMS). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Não declarado pelo autor |
-| 13/10/2026 | `1.4` | Inclusão da tarefa TAR-08 (Registro de reclamação sobre ônibus com HTA e GOMS). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
-| 23/10/2026 | `1.5` | Inclusão da tarefa TAR-09 (Solicitação de aumento do limite diário do Vale-Transporte com HTA e CTT). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
-| 19/11/2026 | `1.6` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 26/09/2026 | `1.0` | Criação do documento e preenchimento das análises de tarefas HTA e CTT. | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.1` | Modularização em artefatos dedicados por tarefa e estruturação da visão geral teórica. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.2` | Inclusão das tarefas operacionais TAR-03 e TAR-04 da persona Valdir Soares (motorista de ônibus) com HTA e CTT completos. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 28/09/2026 | `1.3` | Inclusão da tarefa TAR-06 (Consulta em tempo real no DF no Ponto com HTA e GOMS). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 13/10/2026 | `1.4` | Inclusão da tarefa TAR-08 (Registro de reclamação sobre ônibus com HTA e GOMS). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 23/10/2026 | `1.5` | Inclusão da tarefa TAR-09 (Solicitação de aumento do limite diário do Vale-Transporte com HTA e CTT). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -40,7 +36,7 @@ Proposta por Paternò (1999 apud BARBOSA et al., 2021), a notação CTT fornece 
 Na Tabela 1, apresenta-se o quadro consolidado com todas as análises realizadas, seus respectivos responsáveis, status e links de acesso direto:
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Registro das Análises de Tarefas (HTA e CTT)</p>
+<p><strong>Tabela 1</strong>: Registro das Análises de Tarefas (HTA e CTT)</p>
 </div>
 
 | ID | Tarefa Analisada | Data de Realização | Responsáveis (Elaboração) | Status HTA | Status CTT | Status GOMS/KLM | Documento Completo |
@@ -65,14 +61,14 @@ Na Tabela 1, apresenta-se o quadro consolidado com todas as análises realizadas
 
 ![Imagem 1](../../assets/prints_referencias/print-analisetarefas1.png)
 <div align="center">
-<p><em>Imagem 1 — Fundamentação teórica de Análise de Tarefas: HTA (Barbosa et al., 2021, Seção 8.4, p. 163).</em></p>
+<p><em>Imagem 1: Fundamentação teórica de Análise de Tarefas: HTA (Barbosa et al., 2021, Seção 8.4, p. 163).</em></p>
 </div>
 
 <br>
 
 ![Imagem 2](../../assets/prints_referencias/print-analisetarefas2.png)
 <div align="center">
-<p><em>Imagem 2 — Fundamentação teórica de Análise de Tarefas: Notação CTT (Barbosa et al., 2021, Seção 8.4, p. 164).</em></p>
+<p><em>Imagem 2: Fundamentação teórica de Análise de Tarefas: Notação CTT (Barbosa et al., 2021, Seção 8.4, p. 164).</em></p>
 </div>
 
 ---

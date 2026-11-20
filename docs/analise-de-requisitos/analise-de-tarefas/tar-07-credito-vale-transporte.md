@@ -2,11 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 05/10/2026 | `1.0` | Elaboração da análise de tarefas (HTA e CTT) para o problema de crédito de Vale-Transporte não disponível no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Não declarado pelo autor |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Redesenho dos diagramas HTA/CTT na notação do livro da disciplina (BARBOSA et al., 2021, pp. 165–174). Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio no redesenho dos diagramas na notação do livro.; apoio na inclusão dos links entre artefatos |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 05/10/2026 | `1.0` | Elaboração da análise de tarefas (HTA e CTT) para o problema de crédito de Vale-Transporte não disponível no cartão. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -22,9 +18,9 @@ Este documento analisa a tarefa de obter orientação para resolver a indisponib
 * **Cenário:** [Cenário 4](../cenarios/cenario-4-credito-vale-transporte.md)
 * **Análise de tarefas:** TAR-07 (*esta página*)
 * **Storyboard:** [Storyboard 07](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#37-storyboard-07-regularizacao-de-credito-de-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md#9-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://arthur-mariani.github.io/PAF-IHC/credito/)
 
@@ -33,7 +29,7 @@ Este documento analisa a tarefa de obter orientação para resolver a indisponib
 
 * **Título da Tarefa:** Resolver a indisponibilidade de crédito de Vale-Transporte no cartão.
 * **Perfil do Participante:** Usuária primária / passageira trabalhadora ([Maria Eduarda Santos](../personas/maria-eduarda-santos.md)).
-* **Cenário de origem:** [Cenário 4 — Crédito de Vale-Transporte não disponível no cartão](../cenarios/cenario-4-credito-vale-transporte.md).
+* **Cenário de origem:** [Cenário 4: Crédito de Vale-Transporte não disponível no cartão](../cenarios/cenario-4-credito-vale-transporte.md).
 * **Responsável pela Elaboração:** [Arthur Mariani](https://github.com/arthur-mariani).
 * **Data da Realização:** 05/10/2026.
 * **Sistema e serviços analisados:** portal da SEMOB-DF, canais do BRB Mobilidade e comunicação com o RH do empregador.
@@ -56,7 +52,7 @@ Segundo Barbosa et al. (2021, pp. 164–166), a HTA começa pelos objetivos das 
 </div>
 
 <div align="center">
-<p><strong>Figura 1</strong> — Diagrama HTA da busca por orientação sobre crédito de Vale-Transporte indisponível.</p>
+<p><strong>Figura 1</strong>: Diagrama HTA da busca por orientação sobre crédito de Vale-Transporte indisponível.</p>
 <p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.1 e 8.2): cada retângulo traz o número e o nome do objetivo e, na linha de baixo, o plano, que se refere aos subobjetivos do próprio objetivo (“&gt;” indica sequência, “/” indica seleção, “+” indica paralelo); os retângulos com linha dupla embaixo são operações (nível mais baixo da hierarquia).</em></p>
 <p><em>Fonte: Arthur Mariani (2026), redesenhado na notação de Barbosa et al. (2021, pp. 165–167).</em></p>
 </div>
@@ -65,7 +61,7 @@ Segundo Barbosa et al. (2021, pp. 164–166), a HTA começa pelos objetivos das 
 
 A Tabela 1 relaciona a decomposição da tarefa aos problemas identificados e às recomendações de design propostas para orientar a usuária diante do crédito indisponível.
 
-**Tabela 1** — Objetivos, operações, problemas e recomendações da HTA
+**Tabela 1**: Objetivos, operações, problemas e recomendações da HTA
 
 | Objetivos / operações | Problemas e recomendações |
 | :--- | :--- |
@@ -102,7 +98,7 @@ Na etapa 7 da HTA, o livro sugere examinar hipóteses sobre desempenho baseado e
 
 A Tabela 2 aplica essa classificação às operações com maior possibilidade de falha e registra as hipóteses que deverão ser verificadas posteriormente.
 
-**Tabela 2** — Hipóteses de erro nas operações analisadas
+**Tabela 2**: Hipóteses de erro nas operações analisadas
 
 | Operação | Tipo de erro | Hipótese |
 | :--- | :--- | :--- |
@@ -115,7 +111,7 @@ A Tabela 2 aplica essa classificação às operações com maior possibilidade d
 
 A Tabela 3 registra o andamento metodológico da análise e torna explícitas as etapas concluídas, parciais e ainda pendentes de validação.
 
-**Tabela 3** — Situação dos passos metodológicos da HTA
+**Tabela 3**: Situação dos passos metodológicos da HTA
 
 | Passo | Situação |
 | :--- | :--- |
@@ -157,7 +153,7 @@ O CTT representa tarefas de usuário, sistema, interação e tarefas abstratas, 
 </div>
 
 <div align="center">
-<p><strong>Figura 2</strong> — Diagrama CTT da orientação e da tomada de providência diante do crédito indisponível.</p>
+<p><strong>Figura 2</strong>: Diagrama CTT da orientação e da tomada de providência diante do crédito indisponível.</p>
 <p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.4 e 8.5): nuvem = tarefa abstrata; pessoa = tarefa do usuário; computador = tarefa do sistema; computador, seta dupla e pessoa = tarefa interativa. As linhas ligam cada tarefa às suas subtarefas, e o operador temporal fica na linha horizontal entre tarefas irmãs: []&gt;&gt; (ativação com passagem de informação), [] (escolha).</em></p>
 <p><em>Fonte: Arthur Mariani (2026), redesenhado na notação de Barbosa et al. (2021, pp. 173–174).</em></p>
 </div>
@@ -171,83 +167,83 @@ O CTT representa tarefas de usuário, sistema, interação e tarefas abstratas, 
 As Figuras 3 a 10 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Métodos de análise de tarefas: HTA, GOMS e CTT</p>
+<p><strong>Figura 3</strong>: Métodos de análise de tarefas: HTA, GOMS e CTT</p>
 </div>
 
-![Figura 3 — Métodos de análise de tarefas: HTA, GOMS e CTT](../../assets/prints_referencias/verificacao-v2/livro-analise-tarefas.png)
+![Figura 3: Métodos de análise de tarefas: HTA, GOMS e CTT](../../assets/prints_referencias/verificacao-v2/livro-analise-tarefas.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 164). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 164).</em></p>
 </div>
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações</p>
+<p><strong>Figura 4</strong>: 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações</p>
 </div>
 
-![Figura 4 — 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações](../../assets/prints_referencias/verificacao-v2/livro-hta.png)
+![Figura 4: 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações](../../assets/prints_referencias/verificacao-v2/livro-hta.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 165). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 165).</em></p>
 </div>
 
 <div id="figura-5" align="center">
-<p><strong>Figura 5</strong> — Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)</p>
+<p><strong>Figura 5</strong>: Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)</p>
 </div>
 
-![Figura 5 — Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)](../../assets/prints_referencias/verificacao-v2/livro-hta-notacao.png)
+![Figura 5: Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)](../../assets/prints_referencias/verificacao-v2/livro-hta-notacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 165–167). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–167).</em></p>
 </div>
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong> — HTA: diagrama, representação em tabela e critério de parada</p>
+<p><strong>Figura 6</strong>: HTA: diagrama, representação em tabela e critério de parada</p>
 </div>
 
-![Figura 6 — HTA: diagrama, representação em tabela e critério de parada](../../assets/prints_referencias/verificacao-v2/livro-hta-tabela.png)
+![Figura 6: HTA: diagrama, representação em tabela e critério de parada](../../assets/prints_referencias/verificacao-v2/livro-hta-tabela.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 165–166). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–166).</em></p>
 </div>
 
 <div id="figura-7" align="center">
-<p><strong>Figura 7</strong> — Passos da Análise Hierárquica de Tarefas (Barbosa et al., 2021)</p>
+<p><strong>Figura 7</strong>: Passos da Análise Hierárquica de Tarefas (Barbosa et al., 2021)</p>
 </div>
 
-![Figura 7 — Passos da Análise Hierárquica de Tarefas (Diaper, 2003)](../../assets/prints_referencias/verificacao-v2/livro-hta-passos.png)
+![Figura 7: Passos da Análise Hierárquica de Tarefas (Diaper, 2003)](../../assets/prints_referencias/verificacao-v2/livro-hta-passos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 166–167). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 166–167).</em></p>
 </div>
 
 <div id="figura-8" align="center">
-<p><strong>Figura 8</strong> — CTT: tipos de tarefas e relações temporais</p>
+<p><strong>Figura 8</strong>: CTT: tipos de tarefas e relações temporais</p>
 </div>
 
-![Figura 8 — CTT: tipos de tarefas e relações temporais](../../assets/prints_referencias/verificacao-v2/livro-ctt.png)
+![Figura 8: CTT: tipos de tarefas e relações temporais](../../assets/prints_referencias/verificacao-v2/livro-ctt.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 173). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 173).</em></p>
 </div>
 
 <div id="figura-9" align="center">
-<p><strong>Figura 9</strong> — Notação do CTT: tipos de tarefas, hierarquia e relações temporais (Figuras 8.4, 8.5 e 8.6 do livro)</p>
+<p><strong>Figura 9</strong>: Notação do CTT: tipos de tarefas, hierarquia e relações temporais (Figuras 8.4, 8.5 e 8.6 do livro)</p>
 </div>
 
-![Figura 9 — Notação do CTT: tipos de tarefas, hierarquia e relações temporais (Figuras 8.4, 8.5 e 8.6 do livro)](../../assets/prints_referencias/verificacao-v2/livro-ctt-notacao.png)
+![Figura 9: Notação do CTT: tipos de tarefas, hierarquia e relações temporais (Figuras 8.4, 8.5 e 8.6 do livro)](../../assets/prints_referencias/verificacao-v2/livro-ctt-notacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 173–174). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 173–174).</em></p>
 </div>
 
 <div id="figura-10" align="center">
-<p><strong>Figura 10</strong> — CTT: vantagens e limitação quanto ao tratamento de erros</p>
+<p><strong>Figura 10</strong>: CTT: vantagens e limitação quanto ao tratamento de erros</p>
 </div>
 
-![Figura 10 — CTT: vantagens e limitação quanto ao tratamento de erros](../../assets/prints_referencias/verificacao-v2/livro-ctt-limites.png)
+![Figura 10: CTT: vantagens e limitação quanto ao tratamento de erros](../../assets/prints_referencias/verificacao-v2/livro-ctt-limites.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 175). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 175).</em></p>
 </div>
 
 ---

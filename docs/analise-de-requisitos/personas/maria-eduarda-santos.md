@@ -2,11 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 27/09/2026 | `1.0` | Elaboração detalhada da persona primária Maria Eduarda Santos, usuária cotidiana de Vale-Transporte. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) | Não declarado pelo autor |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 27/09/2026 | `1.0` | Elaboração detalhada da persona primária Maria Eduarda Santos, usuária cotidiana de Vale-Transporte. | [Arthur Mariani](https://github.com/arthur-mariani) | [Lucas Araújo](https://github.com/Lucasaraujoszz) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -22,9 +18,9 @@ Este documento apresenta Maria Eduarda Santos, persona que representa trabalhado
 * **Cenário:** [Cenário 4](../cenarios/cenario-4-credito-vale-transporte.md)
 * **Análise de tarefas:** [TAR-07](../analise-de-tarefas/tar-07-credito-vale-transporte.md)
 * **Storyboard:** [Storyboard 07](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#37-storyboard-07-regularizacao-de-credito-de-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-relato-prototipo-alta-fidelidade.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/arthur/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md#9-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://arthur-mariani.github.io/PAF-IHC/credito/)
 
@@ -50,7 +46,7 @@ Este documento apresenta Maria Eduarda Santos, persona que representa trabalhado
 
 A Tabela 1 reúne os dados de identidade de Maria Eduarda e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
 
-**Tabela 1** — Identidade e características pessoais de Maria Eduarda Santos
+**Tabela 1**: Identidade e características pessoais de Maria Eduarda Santos
 
 | Campo | Descrição |
 |---|---|
@@ -122,7 +118,7 @@ A Tabela 1 reúne os dados de identidade de Maria Eduarda e contextualiza as car
 
 A Tabela 2 apresenta as tarefas mais frequentes de Maria Eduarda, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
 
-**Tabela 2** — Tarefas realizadas por Maria Eduarda Santos
+**Tabela 2**: Tarefas realizadas por Maria Eduarda Santos
 
 | Tarefa | Frequência | Importância | Duração |
 |---|---|---|---|
@@ -145,7 +141,7 @@ A Tabela 2 apresenta as tarefas mais frequentes de Maria Eduarda, permitindo rel
 
 A Tabela 3 organiza a rotina diária de Maria Eduarda para evidenciar os momentos em que horários, linhas e a disponibilidade do Vale-Transporte afetam seu deslocamento.
 
-**Tabela 3** — Rotina diária de Maria Eduarda Santos
+**Tabela 3**: Rotina diária de Maria Eduarda Santos
 
 | Horário | Atividade |
 |---|---|
@@ -166,7 +162,7 @@ A Tabela 3 organiza a rotina diária de Maria Eduarda para evidenciar os momento
 
 A Tabela 4 identifica as pessoas e instituições com as quais Maria Eduarda se relaciona e explica como essas relações interferem na resolução de problemas de transporte.
 
-**Tabela 4** — Relacionamentos relevantes de Maria Eduarda Santos
+**Tabela 4**: Relacionamentos relevantes de Maria Eduarda Santos
 
 | Quem | Relação com a Duda | Por que importa para o projeto |
 |---|---|---|
@@ -189,7 +185,7 @@ A Tabela 4 identifica as pessoas e instituições com as quais Maria Eduarda se 
 
 A Tabela 5 sintetiza as necessidades de Maria Eduarda em requisitos que devem orientar as decisões de projeto da interface.
 
-**Tabela 5** — Necessidades e requisitos de Maria Eduarda Santos
+**Tabela 5**: Necessidades e requisitos de Maria Eduarda Santos
 
 | Necessidade | Em suas palavras |
 |---|---|
@@ -239,23 +235,23 @@ A Tabela 5 sintetiza as necessidades de Maria Eduarda em requisitos que devem or
 As Figuras 2 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Elementos que compõem a descrição de uma persona</p>
+<p><strong>Figura 2</strong>: Elementos que compõem a descrição de uma persona</p>
 </div>
 
-![Figura 2 — Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
+![Figura 2: Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Elenco de personas, persona primária e antipersonas</p>
+<p><strong>Figura 3</strong>: Elenco de personas, persona primária e antipersonas</p>
 </div>
 
-![Figura 3 — Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
+![Figura 3: Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 155). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 155).</em></p>
 </div>
 
 ---

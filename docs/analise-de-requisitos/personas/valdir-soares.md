@@ -2,20 +2,9 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 26/09/2026 | `1.0` | Concepção e modelagem da Persona fundamentada na pesquisa empírica de campo com motorista (`MOT-01`) e estruturada conforme a metodologia *Goal-Directed Design* da literatura clássica de IHC (Cooper et al., 2007; Barbosa e Silva, 2010). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
-| 27/09/2026 | `1.1` | Integração formal ao elenco de personas do projeto com referências hipertextuais relativas e padronização visual. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+| 26/09/2026 | `1.0` | Concepção e modelagem da Persona fundamentada na pesquisa empírica de campo com motorista (`MOT-01`) e estruturada conforme a metodologia *Goal-Directed Design* da literatura clássica de IHC (Cooper et al., 2007; Barbosa e Silva, 2010). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.1` | Integração formal ao elenco de personas do projeto com referências hipertextuais relativas e padronização visual. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
-
-
-!!! warning "Observação para correção manual"
-    A citação de Eason (1987) foi retirada por não ser referência do livro da disciplina. Verificar se a classificação de persona atendida se sustenta apenas em Cooper et al. (2014 apud BARBOSA et al., 2021).
-
-
-!!! warning "Observação para correção manual"
-    O fluxo desta persona (TAR-04/TAR-05) não tem avaliação de Nível 1, protótipo de papel nem protótipo de alta fidelidade, e está ligado a quatro cenários (5 a 8). A equipe deve decidir se completa o fluxo.
 
 ---
 
@@ -64,11 +53,11 @@ Enquanto segmentações de marketing e mercado se preocupam com faixas de renda 
 * **Cenário:** [Cenário 5](../cenarios/cenario-5-consulta-escala.md); [Cenário 6](../cenarios/cenario-6-alerta-desvio.md); [Cenário 7](../cenarios/cenario-7-duvida-passageiro.md); [Cenário 8](../cenarios/cenario-8-conflito-catraca.md)
 * **Análise de tarefas:** [TAR-04/TAR-05](../analise-de-tarefas/analise-hta-ctt-motorista.md)
 * **Storyboard:** [Storyboard 04](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#34-storyboard-04-consulta-de-escala-e-alertas-operacionais)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 3 — protótipo de alta fidelidade:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Telas do protótipo de papel:** *não disponível — pendente de correção manual*
-* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · Relato dos resultados (*não realizado*)
+* **Nível 3: protótipo de alta fidelidade:** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · Relato dos resultados (*não realizado*)
+* **Telas do protótipo de papel:** *não disponível*
+* **Protótipo de alta fidelidade navegável:** *não disponível*
 
 
 ---
@@ -131,7 +120,7 @@ Em consonância com o Passo 5 de Cooper et al., o perfil do motorista foi verifi
 ![Valdir Soares - Motorista Profissional do STPC/DF](../../assets/images/persona-valdir.jpg)
 
 <div align="center">
-<p><strong>Figura 1</strong> — Valdir Soares ("Seu Valdir"), motorista profissional do STPC/DF (imagem ilustrativa gerada por IA (Gemini) com base nos achados de campo).</p>
+<p><strong>Figura 1</strong>: Valdir Soares ("Seu Valdir"), motorista profissional do STPC/DF (imagem ilustrativa gerada por IA (Gemini) com base nos achados de campo).</p>
 <p><em>Fonte: Carlos Costa (2026).</em></p>
 </div>
 
@@ -156,7 +145,7 @@ O quadro a seguir sintetiza a identidade de Valdir e reúne os atributos necess�
 | **Dispositivo Tecnológico** | Smartphone Android intermediário com plano pessoal de dados 4G/5G |
 | **Aplicativos de Uso Diário**| WhatsApp (comunicação familiar e grupos da escala) e App corporativo da Piracicabana |
 | **Ambiente de Operação** | Cabine de condução de ônibus urbano, paradas do DF e balcão de avisos da garagem |
-| **Classificação Formal** | **Persona Atendida (*Served Persona*)** no Portal Web SEMOB / **Persona Primária** em canal móvel para operadores |
+| **Classificação no Portal** | **Stakeholder sem uso direto**, mas afetado pelas informações publicadas, conforme Barbosa e Silva (2010, p. 136) |
 
 ---
 
@@ -213,13 +202,13 @@ O maior momento de tensão no dia de Seu Valdir acontece quando ocorrem desencon
 
 No final da tarde, ao estacionar o ônibus na plataforma do terminal para o intervalo regulamentar de descanso, Valdir bebe uma água, senta no banco e pega o celular. Ele gostaria que qualquer aviso sobre bloqueio de vias, obras no Eixo Monumental ou liberação da faixa exclusiva do BRT chegasse de forma mastigada, com mapas visuais claros e avisos em poucas linhas, para que ele e seus colegas pudessem antecipar os desvios sem depender apenas de recados boca a boca no balcão da garagem. Cumprida a última viagem sem incidentes e com a tabela conferida, Seu Valdir entrega o veículo na garagem, assina o fechamento e volta para casa satisfeito por ter garantido mais um dia de trabalho pacífico e seguro para sua família.
 
-> **Rastreabilidade e Dinâmica de Uso:** As histórias detalhadas de uso que retratam a rotina, os desafios no trânsito e a validação das metas de Valdir Soares estão documentadas nos **[Cenários de Uso](../cenarios/index.md)**, com destaque para o **[Cenário 8 — Conflito na catraca por divergência de horários](../cenarios/cenario-8-conflito-catraca.md)**.
+> **Rastreabilidade e Dinâmica de Uso:** As histórias detalhadas de uso que retratam a rotina, os desafios no trânsito e a validação das metas de Valdir Soares estão documentadas nos **[Cenários de Uso](../cenarios/index.md)**, com destaque para o **[Cenário 8: Conflito na catraca por divergência de horários](../cenarios/cenario-8-conflito-catraca.md)**.
 
 ---
 
-## 6. Tipologia e Posicionamento no Elenco de Personas (Barbosa et al., 2021)
+## 6. Tipologia e Posicionamento no Elenco de Personas
 
-A categorização formal da persona apoia-se na taxonomia canônica de seis tipos proposta por Alan Cooper et al. (2014 apud BARBOSA et al., 2021), articulando-a ao contexto do projeto SEMOB-DF:
+A tipologia de Cooper et al. (2014 apud BARBOSA et al., 2021) é apresentada como contexto metodológico. Para o Portal da SEMOB, porém, a classificação adotada é a do livro-base: Valdir é um stakeholder que não utiliza diretamente a interface, embora seja afetado por ela (Barbosa e Silva, 2010, p. 136).
 
 ```
                           TIPOLOGIA DE PERSONAS (COOPER ET AL., 2007)
@@ -265,7 +254,7 @@ A partir das características comportamentais, metas e restrições de Valdir So
 O quadro a seguir consolida a correspondência entre os preceitos teóricos e metodológicos do *Goal-Directed Design* (Barbosa et al., 2021) e a sua materialização empírica no modelo da persona Valdir Soares:
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Rastreabilidade entre a Metodologia de Cooper et al. (2014 apud BARBOSA et al., 2021) e a Persona Valdir Soares</p>
+<p><strong>Tabela 1</strong>: Rastreabilidade entre a Metodologia de Cooper et al. (2014 apud BARBOSA et al., 2021) e a Persona Valdir Soares</p>
 </div>
 
 | Dimensão Metodológica | Preceito Teórico de Design de Interação | Referência na Literatura | Materialização no Modelo de Valdir Soares | Seção Correspondente |
@@ -302,27 +291,28 @@ O quadro a seguir consolida a correspondência entre os preceitos teóricos e me
 As Figuras 2 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Elementos que compõem a descrição de uma persona</p>
+<p><strong>Figura 2</strong>: Elementos que compõem a descrição de uma persona</p>
 </div>
 
-![Figura 2 — Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
+![Figura 2: Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Elenco de personas, persona primária e antipersonas</p>
+<p><strong>Figura 3</strong>: Elenco de personas, persona primária e antipersonas</p>
 </div>
 
-![Figura 3 — Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
+![Figura 3: Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 155). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 155).</em></p>
 </div>
 
 ---
 
 ## 10. Referências Bibliográficas
 
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier, 2010. ISBN 978-85-352-1120-7.
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

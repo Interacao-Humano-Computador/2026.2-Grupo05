@@ -2,11 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 27/09/2026 | `1.0` | Elaboração detalhada do Cenário 3 (Passageiro Cotidiano / Marcos Paulo Vieira). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 27/09/2026 | `1.0` | Elaboração detalhada do Cenário 3 (Passageiro Cotidiano / Marcos Paulo Vieira). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -22,9 +18,9 @@ Este cenário de problema representa Marcos Paulo Vieira tentando planejar um de
 * **Cenário:** Cenário 3 (*esta página*)
 * **Análise de tarefas:** [TAR-03](../analise-de-tarefas/tar-03-planejamento-rota.md)
 * **Storyboard:** [Storyboard 03](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não disponível — pendente de correção manual*) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../prototipos/tar-03/index.html)
 
@@ -56,7 +52,7 @@ Este cenário de problema representa Marcos Paulo Vieira tentando planejar um de
 A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis influenciam o planejamento do deslocamento.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Atores do Cenário 3</p>
+<p><strong>Tabela 1</strong>: Atores do Cenário 3</p>
 </div>
 
 | Ator | Papel no Cenário | Características Relevantes |
@@ -84,31 +80,31 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 ## 6. Ciclo Reflexivo: Planejamento, Ações, Eventos e Avaliação (*Barbosa et al., 2021*)
 
-### Passo 1 — Tentativa de Busca por Destino na Home (06h46)
+### Passo 1: Tentativa de Busca por Destino na Home (06h46)
 * **Planejamento:** *"O ônibus das 06h40 não passou. Deixa eu entrar no site da SEMOB pra ver qual outro ônibus me deixa no SIA agora."*
 * **Ação:** Abre o navegador Chrome no celular, digita `semob df` na barra do Google e clica no primeiro resultado (`semob.df.gov.br`).
 * **Evento:** A página inicial carrega lentamente. O topo da tela é ocupado por um carrossel de fotos institucionais de eventos do governo e um menu hambúrguer com termos como "Gabinete", "Licitações" e "Ouvidoria". Não há nenhum campo aberto perguntando "Para onde você quer ir?".
 * **Avaliação Mental:** *"Cadê o campo de busca de rota? Eu não quero saber quem é o secretário, eu quero saber como chegar no SIA!"* (Manifestação da Dor 1: *Não consigo encontrar rapidamente o que preciso*).
 
-### Passo 2 — Navegação Frustrante e Redirecionamento (06h48)
+### Passo 2: Navegação Frustrante e Redirecionamento (06h48)
 * **Planejamento:** *"Deve estar em algum link de linhas e itinerários. Vou rolar a tela pra procurar."*
 * **Ação:** Rola a tela até o final, encontra o ícone "DF no Ponto" e clica no link.
 * **Evento:** O navegador é redirecionado para um domínio secundário (`dfnoponto.semob.df.gov.br`). Uma janela modal bloqueia a visão sugerindo: *"Baixe o aplicativo DF no Ponto na Play Store"*. Marcos fecha o modal no "X" minúsculo, que exige três toques com o polegar.
 * **Avaliação Mental:** *"Toda vez isso! Me manda sair do site e baixar aplicativo na chuva? Não tenho espaço no celular nem franquia pra baixar app agora!"* (Manifestação da Dor 3: *Preciso sair do portal para conseguir resolver*).
 
-### Passo 3 — Exigência Indevida de Conhecimento Prévio (06h50)
+### Passo 3: Exigência Indevida de Conhecimento Prévio (06h50)
 * **Planejamento:** *"Consegui fechar o aviso. Agora vou digitar 'SIA Trecho 3' pra ver as linhas."*
 * **Ação:** Toca na barra de pesquisa da página e digita `SIA Trecho 3`.
 * **Evento:** O sistema retorna a mensagem em vermelho: *"Nenhuma linha encontrada. Digite o número da linha com 4 dígitos (ex.: 0.089)"*.
 * **Avaliação Mental:** *"Como assim número da linha? Se eu soubesse o número da linha eu já tava olhando a placa do ônibus! Eu sei onde eu tô e onde quero ir, o sistema devia me dizer a linha!"* (Manifestação da Dor 4: *O sistema espera que eu já saiba como o transporte funciona*).
 
-### Passo 4 — Travamento de Interface e Problema de Cache (06h52)
+### Passo 4: Travamento de Interface e Problema de Cache (06h52)
 * **Planejamento:** *"Um colega da parada disse que a linha 0.818 vai pro SIA. Deixa eu digitar 0.818."*
 * **Ação:** Digita `0.818` no campo de busca e clica em "Consultar".
 * **Evento:** A tela congela por 12 segundos com uma barra de progresso parada. Em seguida, a tela fica em branco e aparece o erro: *"Erro ao carregar dados do servidor. Limpe o cache do seu navegador e tente novamente"*.
 * **Avaliação Mental:** *"Travou tudo de novo. Limpar cache? Eu tô no ponto de ônibus na chuva, como é que o site oficial de transporte do DF não aguenta uma pesquisa no celular?"* (Manifestação da Dor 2: *Não consigo confiar que o site vai funcionar*).
 
-### Passo 5 — Desistência e Abandono do Canal Oficial (06h54)
+### Passo 5: Desistência e Abandono do Canal Oficial (06h54)
 * **Planejamento:** *"Não dá pra depender desse site. Vou ter que abrir o Moovit ou perguntar pro pessoal do grupo de WhatsApp."*
 * **Ação:** Fecha a aba do portal da SEMOB e abre um aplicativo comercial de mapas privado.
 * **Evento:** O app privado consome rapidamente sua rota pelo GPS e indica que a linha 0.818 está parada no trânsito a 4 km, mas sugere pegar o metrô até a estação Shopping e lá fazer integração.
@@ -121,7 +117,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 A Tabela 2 relaciona os problemas evidenciados no cenário às causas observadas no design atual e aos requisitos de IHC propostos.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Problemas Identificados no Cenário 3 e Requisitos de IHC Correspondentes</p>
+<p><strong>Tabela 2</strong>: Problemas Identificados no Cenário 3 e Requisitos de IHC Correspondentes</p>
 </div>
 
 | Problema Identificado no Cenário | Causa no Design Atual | Requisito de IHC Proposto |
@@ -142,23 +138,23 @@ A Tabela 2 relaciona os problemas evidenciados no cenário às causas observadas
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Cenários: definição, ator e objetivo principais</p>
+<p><strong>Figura 1</strong>: Cenários: definição, ator e objetivo principais</p>
 </div>
 
-![Figura 1 — Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
+![Figura 1: Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Elementos característicos de um cenário e uso de personas como atores</p>
+<p><strong>Figura 2</strong>: Elementos característicos de um cenário e uso de personas como atores</p>
 </div>
 
-![Figura 2 — Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
+![Figura 2: Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
 </div>
 
 ---

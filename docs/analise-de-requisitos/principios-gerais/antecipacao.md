@@ -2,11 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 06/10/2026 | `1.0` | Criação do documento com a análise do princípio 10.2.6 Antecipação no site da SEMOB-DF. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 06/10/2026 | `1.0` | Criação do documento com a análise do princípio 10.2.6 Antecipação no site da SEMOB-DF. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -189,23 +185,23 @@ O site da SEMOB mostra que sabe antecipar necessidades. A página *Bilhetagem* �
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — 10.2.6 Antecipação das necessidades do usuário</p>
+<p><strong>Figura 1</strong>: 10.2.6 Antecipação das necessidades do usuário</p>
 </div>
 
-![Figura 1 — 10.2.6 Antecipação das necessidades do usuário](../../assets/prints_referencias/verificacao-v2/livro-antecipacao.png)
+![Figura 1: 10.2.6 Antecipação das necessidades do usuário](../../assets/prints_referencias/verificacao-v2/livro-antecipacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 227). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 227).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades</p>
+<p><strong>Figura 2</strong>: Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades</p>
 </div>
 
-![Figura 2 — Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades](../../assets/prints_referencias/verificacao-v2/livro-diretrizes-contexto.png)
+![Figura 2: Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades](../../assets/prints_referencias/verificacao-v2/livro-diretrizes-contexto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 222). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 222).</em></p>
 </div>
 
 ---

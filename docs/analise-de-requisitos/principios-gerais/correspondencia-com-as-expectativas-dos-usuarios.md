@@ -2,10 +2,9 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 06/10/2026 | `1.0` | Criação da análise de correspondência com as expectativas dos usuários do portal **SEMOB-DF** para a Entrega 3, com fundamentação e evidências da inspeção. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 06/10/2026 | `1.1` | Redução de sobreposições com outros princípios e ampliação da inspeção para preparação documental, cópias de processos e etapas de atendimento. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 06/10/2026 | `1.2` | Destaque dos trechos da referência teórica utilizados na análise. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 19/11/2026 | `1.3` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 06/10/2026 | `1.0` | Criação da análise de correspondência com as expectativas dos usuários do portal **SEMOB-DF** para a Entrega 3, com fundamentação e evidências da inspeção. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 06/10/2026 | `1.1` | Redução de sobreposições com outros princípios e ampliação da inspeção para preparação documental, cópias de processos e etapas de atendimento. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 06/10/2026 | `1.2` | Destaque dos trechos da referência teórica utilizados na análise. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
 ---
 
@@ -72,7 +71,7 @@ A avaliação foi conduzida por **inspeção de usabilidade**, confrontando a in
 
 Os problemas de rótulos repetidos, trilhas técnicas e mudança de domínio já estão detalhados em [Consistência e padronização](consistencia-e-padronizacao.md), [Visibilidade e reconhecimento](visibilidade-e-reconhecimento.md) e [Equilíbrio entre controle e liberdade](equilibrio-controle-liberdade.md). Aqui, o recorte é **como o usuário identifica o procedimento aplicável ao seu caso e avança até o resultado esperado**. A análise de cartões e recarga permanece no artefato de [Simplicidade nas estruturas das tarefas](simplicidade-nas-estruturas-das-tarefas.md).
 
-**Tabela 1** — Escopo da inspeção complementar
+**Tabela 1**: Escopo da inspeção complementar
 
 | Área analisada | Endereço / Referência | Verificação realizada |
 |---|---|---|
@@ -95,7 +94,7 @@ As expectativas são hipóteses da inspeção, não depoimentos de participantes
 
 A Tabela 2 apresenta recursos que ajudam a prever as condições e o resultado de um atendimento.
 
-**Tabela 2** — Pontos positivos relacionados à preparação e à sequência das tarefas
+**Tabela 2**: Pontos positivos relacionados à preparação e à sequência das tarefas
 
 | ID | Observação no Portal | Relação com o princípio (Barbosa et al., 2021) |
 |:---:|---|---|
@@ -108,7 +107,7 @@ A imagem 03 registra a sequência da inspeção e seu desfecho informado. Trata-
 
 ![Procedimento de inspeção veicular e emissão do selo após aprovação](../../assets/prints_referencias/print-correspondencia-expectativas-etapas.png)
 
-*Imagem 03 — Triagem, inspeções e emissão do selo descritas em sequência.*
+*Imagem 03: Triagem, inspeções e emissão do selo descritas em sequência.*
 
 *Fonte: Portal da SEMOB-DF, captura de 06/10/2026.*
 
@@ -116,7 +115,7 @@ Na imagem 04, as informações de “Baixa de Motorista” estão organizadas co
 
 ![Seção Baixa de Motorista expandida na Carta de Serviços](../../assets/prints_referencias/print-correspondencia-expectativas-baixa.png)
 
-*Imagem 04 — Identificação de quem pode solicitar, documentos e condições de atendimento.*
+*Imagem 04: Identificação de quem pode solicitar, documentos e condições de atendimento.*
 
 *Fonte: Portal da SEMOB-DF, captura de 06/10/2026.*
 
@@ -126,7 +125,7 @@ Na imagem 04, as informações de “Baixa de Motorista” estão organizadas co
 
 ### Resumo das violações
 
-**Tabela 3** — Síntese dos problemas encontrados
+**Tabela 3**: Síntese dos problemas encontrados
 
 | ID | Problema Identificado | Diretriz Violada (Barbosa et al., 2021) | Gravidade |
 |:---:|---|---|:---:|
@@ -148,7 +147,7 @@ A imagem 05 mostra os públicos e a lista com diferentes níveis de explicitaç�
 
 ![Documentos da inspeção veicular para diferentes públicos](../../assets/prints_referencias/print-correspondencia-expectativas-documentos.png)
 
-*Imagem 05 — Lista única com certificado do taxímetro e condições explícitas apenas em determinados itens.*
+*Imagem 05: Lista única com certificado do taxímetro e condições explícitas apenas em determinados itens.*
 
 *Fonte: Portal da SEMOB-DF, captura de 06/10/2026.*
 
@@ -166,7 +165,7 @@ A imagem 06 registra a orientação completa disponível na página. A classific
 
 ![Procedimentos para obtenção de cópias de processos da Jari](../../assets/prints_referencias/print-correspondencia-expectativas-jari.png)
 
-*Imagem 06 — “Pagamento de DAR” listado sem indicação de como ou quando realizá-lo.*
+*Imagem 06: “Pagamento de DAR” listado sem indicação de como ou quando realizá-lo.*
 
 *Fonte: Portal da SEMOB-DF, captura de 06/10/2026.*
 
@@ -184,7 +183,7 @@ A imagem 07 registra o conteúdo após o clique; o destino `#` foi conferido no 
 
 ![Passo a passo da Ouvidoria após selecionar o acompanhamento](../../assets/prints_referencias/print-correspondencia-expectativas-feedback.png)
 
-*Imagem 07 — A orientação de acompanhamento permanece na tela, sem abertura da consulta anunciada.*
+*Imagem 07: A orientação de acompanhamento permanece na tela, sem abertura da consulta anunciada.*
 
 *Fonte: Portal da SEMOB-DF, captura de 06/10/2026.*
 
@@ -194,7 +193,7 @@ A imagem 07 registra o conteúdo após o clique; o destino `#` foi conferido no 
 
 As recomendações abaixo complementam o [Guia de Estilo](../guia-de-estilo/introducao.md) com critérios para a organização dos procedimentos. A prioridade considera a continuidade da tarefa, mantendo a escala de gravidade do grupo.
 
-**Tabela 4** — Aplicação das recomendações e critérios de verificação
+**Tabela 4**: Aplicação das recomendações e critérios de verificação
 
 | Prioridade | Aplicação no redesign | Como verificar |
 |:---:|---|---|
@@ -218,13 +217,13 @@ Esse recorte complementa as análises de rótulos, padronização e visibilidade
 
 ![Mapeamentos naturais e exemplo de sequência familiar no comércio eletrônico](../../assets/prints_referencias/referencia-correspondencia-expectativas-1.png)
 
-*Imagem 01 — Mapeamentos entre intenções, ações, efeitos e estados percebidos.*
+*Imagem 01: Mapeamentos entre intenções, ações, efeitos e estados percebidos.*
 
 *Fonte: Barbosa et al. (2021, p. 222, subseção 10.2.1).*
 
 ![Sequências de ações, fechamento, linguagem familiar e metáforas](../../assets/prints_referencias/referencia-correspondencia-expectativas-2.png)
 
-*Imagem 02 — Sequências familiares e recomendações de Shneiderman, Nielsen e Tognazzini.*
+*Imagem 02: Sequências familiares e recomendações de Shneiderman, Nielsen e Tognazzini.*
 
 *Fonte: Barbosa et al. (2021, p. 223, subseção 10.2.1).*
 

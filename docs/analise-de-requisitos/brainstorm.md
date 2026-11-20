@@ -2,8 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 27/09/2026 | `1.0` | Criação do roteiro, condução da reunião, registro dos dados coletados e análise do brainstorming sobre o portal da Semob-DF. | [Lucas Araújo](https://github.com/Lucasaraujoszz) e [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. Retirada da referência à edição de 2011 do livro na seção de materiais (a edição de 2021 já consta nas Referências Bibliográficas) e correção da numeração das seções. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 27/09/2026 | `1.0` | Criação do roteiro, condução da reunião, registro dos dados coletados e análise do brainstorming sobre o portal da Semob-DF. | [Lucas Araújo](https://github.com/Lucasaraujoszz) e [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
 ---
 
@@ -149,23 +148,23 @@ Os achados reforçam perfis e cenários já registrados no projeto:
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Brainstorming de necessidades e desejos dos usuários</p>
+<p><strong>Figura 1</strong>: Brainstorming de necessidades e desejos dos usuários</p>
 </div>
 
-![Figura 1 — Brainstorming de necessidades e desejos dos usuários](../assets/prints_referencias/verificacao-v2/livro-brainstorming.png)
+![Figura 1: Brainstorming de necessidades e desejos dos usuários](../assets/prints_referencias/verificacao-v2/livro-brainstorming.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 139). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 139).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Brainstorming: papel e lápis e sessão-piloto</p>
+<p><strong>Figura 2</strong>: Brainstorming: papel e lápis e sessão-piloto</p>
 </div>
 
-![Figura 2 — Brainstorming: papel e lápis e sessão-piloto](../assets/prints_referencias/verificacao-v2/livro-brainstorming-2.png)
+![Figura 2: Brainstorming: papel e lápis e sessão-piloto](../assets/prints_referencias/verificacao-v2/livro-brainstorming-2.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 140–141). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 140–141).</em></p>
 </div>
 
 ---

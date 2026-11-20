@@ -2,9 +2,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 05/10/2026 | `1.0` | Criação da análise de conteúdo relevante e expressão adequada do portal **SEMOB-DF** para a Entrega 3. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 05/10/2026 | `1.1` | Inclusão de imagens dos trechos de referência das páginas 246–247 do livro-texto e atualização da numeração das imagens. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 05/10/2026 | `1.0` | Criação da análise de conteúdo relevante e expressão adequada do portal **SEMOB-DF** para a Entrega 3. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 05/10/2026 | `1.1` | Inclusão de imagens dos trechos de referência das páginas 246–247 do livro-texto e atualização da numeração das imagens. | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
 ---
 
@@ -91,7 +90,7 @@ A imagem 06, reunida na seção de Fotos de Referência, apresenta os princípio
 
 A avaliação foi conduzida por meio de **inspeção semiótica e documental** nas seções do portal da SEMOB-DF mais frequentadas por passageiros e cidadãos, cruzando os elementos da interface com os critérios de Barbosa et al. (2021, Seção 10.2.8).
 
-**Tabela 1** — Escopo e áreas inspecionadas no portal
+**Tabela 1**: Escopo e áreas inspecionadas no portal
 
 | Área analisada | Endereço / Referência | Foco da inspeção sob o Princípio 7 |
 |---|---|---|
@@ -111,7 +110,7 @@ A avaliação foi conduzida por meio de **inspeção semiótica e documental** n
 
 A inspeção identificou pontos positivos no portal que dialogam diretamente com as recomendações de Conteúdo Relevante e Expressão Adequada, sintetizados na Tabela 2.
 
-**Tabela 2** — Pontos positivos encontrados no portal da SEMOB-DF
+**Tabela 2**: Pontos positivos encontrados no portal da SEMOB-DF
 
 | ID | Observação no Portal | Relação com o princípio (Barbosa et al., 2021) |
 |:---:|---|---|
@@ -130,7 +129,7 @@ A inspeção identificou pontos positivos no portal que dialogam diretamente com
 
 A Tabela 3 consolida as falhas de conteúdo e expressão identificadas durante a inspeção do portal.
 
-**Tabela 3** — Síntese dos problemas encontrados
+**Tabela 3**: Síntese dos problemas encontrados
 
 | ID | Problema Identificado | Diretriz Violada (Barbosa et al., 2021) | Gravidade |
 |:---:|---|---|:---:|
@@ -151,7 +150,7 @@ A Tabela 3 consolida as falhas de conteúdo e expressão identificadas durante a
 **Recomendação:** Implementar uma abordagem em camadas: introduzir o tópico com um infográfico ou resumo em linguagem cidadã direta (*"Como o valor da sua passagem é calculado"*), reservando os detalhamentos matemáticos e os anexos dos editais para seções expansíveis ou abas secundárias destinadas a pesquisadores e órgãos de controle.
 
 ![Página de cálculo da tarifa técnica com blocos densos](../../assets/prints_referencias/print-consistencia-e-padronizacao-tarifa-tecnica.png)
-*Imagem 07 — Estrutura de tópicos da Tarifa Técnica com seções extensas e termos técnicos.*
+*Imagem 07: Estrutura de tópicos da Tarifa Técnica com seções extensas e termos técnicos.*
 
 ---
 
@@ -162,7 +161,7 @@ A Tabela 3 consolida as falhas de conteúdo e expressão identificadas durante a
 - *"Resoluções – CTPC"* e *"Atas – CTPC"*;
 - Botões e logotipos identificados apenas como *"DFLEGIS"*, *"SICOPWEB"* e *"SINJ-DF"*.
 
-**Tabela 4** — Tratamento recomendado para siglas e jargões institucionais
+**Tabela 4**: Tratamento recomendado para siglas e jargões institucionais
 
 | Sigla / Rótulo Atual | Significado Técnico | Expressão Recomendada no Redesign (Linguagem Cidadã) |
 |---|---|---|
@@ -178,7 +177,7 @@ A Tabela 3 consolida as falhas de conteúdo e expressão identificadas durante a
 **Recomendação:** Adotar como padrão de microcopy a fórmula: **[Ação em Linguagem Cidadã] + (Sigla Oficial)**. Menus e botões devem explicitar a finalidade da ferramenta antes da sigla institucional.
 
 ![Menu e cabeçalho com siglas institucionais](../../assets/prints_referencias/01-cabecalho-menu.png)
-*Imagem 08 — Cabeçalho e menu da SEMOB-DF com siglas (Dados STPC, PDTU) sem explicação para o usuário.*
+*Imagem 08: Cabeçalho e menu da SEMOB-DF com siglas (Dados STPC, PDTU) sem explicação para o usuário.*
 
 ---
 
@@ -191,7 +190,7 @@ A Tabela 3 consolida as falhas de conteúdo e expressão identificadas durante a
 **Recomendação:** Reorganizar a apresentação das tarifas em cartões (*cards*) destacados ou tabela limpa, aplicando tipografia robusta (tamanho maior e peso *bold*) sobre os valores monetários (`R$ 2,70`, `R$ 5,50`), acompanhados de ícones visuais representativos de cada modalidade de linha.
 
 ![Página de Preços das Passagens](../../assets/prints_referencias/08-breadcrumb-precos.png)
-*Imagem 09 — Valores monetários das tarifas sem diferenciação de peso ou destaque visual em relação aos nomes das linhas.*
+*Imagem 09: Valores monetários das tarifas sem diferenciação de peso ou destaque visual em relação aos nomes das linhas.*
 
 ---
 
@@ -204,7 +203,7 @@ A Tabela 3 consolida as falhas de conteúdo e expressão identificadas durante a
 **Recomendação:** Garantir conformidade com as diretrizes WCAG 2.1 nível AA (taxa de contraste mínima de 4.5:1 para texto normal e 3:1 para textos grandes e componentes de interface). Estabelecer uma camada de fundo sólida de reserva (*fallback*) em tom escuro para assegurar a legibilidade mesmo na eventual falha de carregamento de imagens.
 
 ![Seção PPP com contraste prejudicado](../../assets/prints_referencias/04-secao-ppp-invisivel.png)
-*Imagem 10 — Texto e elementos de contorno brancos sobre fundo claro na seção PPP, inviabilizando a leitura confortável.*
+*Imagem 10: Texto e elementos de contorno brancos sobre fundo claro na seção PPP, inviabilizando a leitura confortável.*
 
 ---
 
@@ -212,7 +211,7 @@ A Tabela 3 consolida as falhas de conteúdo e expressão identificadas durante a
 
 **Descrição:** Na página de [Ouvidoria](https://www.semob.df.gov.br/ouvidoria), encontram-se hiperlinks com rótulos vagos e descontextualizados, tais como *"Clique aqui e confira!"* e *"clique aqui"*. Da mesma forma, nos cartões de serviços da Home, botões apresentam apenas a palavra genérica *"Consultar"*.
 
-**Tabela 5** — Propostas de reescrita para rótulos genéricos
+**Tabela 5**: Propostas de reescrita para rótulos genéricos
 
 | Rótulo Atual | Contexto da Página | Redação Recomendada no Redesign |
 |---|---|---|
@@ -226,7 +225,7 @@ A Tabela 3 consolida as falhas de conteúdo e expressão identificadas durante a
 **Recomendação:** Redigir links com verbo de ação associado ao objeto específico (*"Ver tarifas"*, *"Registrar reclamação"*, *"Acessar o Participa DF"*), abolindo instruções mecânicas sobre o dispositivo de entrada (como "clique" ou "toque").
 
 ![Página da Ouvidoria com links genéricos](../../assets/prints_referencias/09-pagina-ouvidoria.png)
-*Imagem 11 — Links de texto "Clique aqui e confira!" na Ouvidoria, desprovidos de significado autônomo.*
+*Imagem 11: Links de texto "Clique aqui e confira!" na Ouvidoria, desprovidos de significado autônomo.*
 
 ---
 
@@ -234,7 +233,7 @@ A Tabela 3 consolida as falhas de conteúdo e expressão identificadas durante a
 
 A partir dos pontos positivos e das violações identificadas no portal da SEMOB-DF, a Tabela 6 estabelece as diretrizes que a equipe do Grupo 05 deve incorporar obrigatoriamente no [Guia de Estilo](../guia-de-estilo/introducao.md) e na futura prototipação do sistema.
 
-**Tabela 6** — Diretrizes de Conteúdo Relevante e Expressão Adequada para o redesign
+**Tabela 6**: Diretrizes de Conteúdo Relevante e Expressão Adequada para o redesign
 
 | Dimensão de IHC | Diretriz para o Projeto do Grupo 05 | Aplicação Concreta no Redesign |
 |---|---|---|
@@ -260,27 +259,27 @@ As recomendações de Barbosa et al. (2021) ajudam a orientar essas melhorias: s
 
 ![Reeves e Nass e as quatro máximas conversacionais de Grice — Barbosa et al. (2021), p. 230](../../assets/prints_referencias/referencia-conteudo-relevante-246-grice.png)
 
-*Imagem 01 — Reeves e Nass e as quatro máximas conversacionais de Grice. Fonte: Barbosa et al. (2021, p. 230, subseção 10.2.8).*
+*Imagem 01: Reeves e Nass e as quatro máximas conversacionais de Grice. Fonte: Barbosa et al. (2021, p. 230, subseção 10.2.8).*
 
 ![Projeto estético e minimalista e interação respeitosa, generosa e prestativa — Barbosa et al. (2021), p. 230](../../assets/prints_referencias/referencia-conteudo-relevante-246-nielsen.png)
 
-*Imagem 02 — Projeto estético e minimalista e interação respeitosa, generosa e prestativa. Fonte: Barbosa et al. (2021, p. 230, subseção 10.2.8).*
+*Imagem 02: Projeto estético e minimalista e interação respeitosa, generosa e prestativa. Fonte: Barbosa et al. (2021, p. 230, subseção 10.2.8).*
 
 ![Redação de instruções, rótulos e economia cognitiva — Barbosa et al. (2021), p. 230](../../assets/prints_referencias/referencia-conteudo-relevante-246-redacao.png)
 
-*Imagem 03 — Redação de instruções, rótulos e economia cognitiva. Fonte: Barbosa et al. (2021, p. 230, subseção 10.2.8).*
+*Imagem 03: Redação de instruções, rótulos e economia cognitiva. Fonte: Barbosa et al. (2021, p. 230, subseção 10.2.8).*
 
 ![Contraste, tamanho de fonte e destaque dos dados numéricos — Barbosa et al. (2021), p. 230](../../assets/prints_referencias/referencia-conteudo-relevante-246-legibilidade.png)
 
-*Imagem 04 — Contraste, tamanho de fonte e destaque dos dados numéricos. Fonte: Barbosa et al. (2021, p. 230, subseção 10.2.8).*
+*Imagem 04: Contraste, tamanho de fonte e destaque dos dados numéricos. Fonte: Barbosa et al. (2021, p. 230, subseção 10.2.8).*
 
 ![Uso de cores com dicas secundárias de informação — Barbosa et al. (2021), p. 230](../../assets/prints_referencias/referencia-conteudo-relevante-246-cores.png)
 
-*Imagem 05 — Uso de cores com dicas secundárias de informação. Fonte: Barbosa et al. (2021, p. 230, subseção 10.2.8).*
+*Imagem 05: Uso de cores com dicas secundárias de informação. Fonte: Barbosa et al. (2021, p. 230, subseção 10.2.8).*
 
 ![Princípios de design visual, grids e espaço para orientar a leitura — Barbosa et al. (2021), p. 231](../../assets/prints_referencias/referencia-conteudo-relevante-247-design-visual.png)
 
-*Imagem 06 — Princípios de design visual, grids e espaço para orientar a leitura. Fonte: Barbosa et al. (2021, p. 231, subseção 10.2.8).*
+*Imagem 06: Princípios de design visual, grids e espaço para orientar a leitura. Fonte: Barbosa et al. (2021, p. 231, subseção 10.2.8).*
 
 ---
 

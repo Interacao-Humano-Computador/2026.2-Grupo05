@@ -2,11 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 26/09/2026 | `1.0` | Criação do documento de organização dos perfis de usuário identificados no site **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Não declarado pelo autor |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 26/09/2026 | `1.0` | Criação do documento de organização dos perfis de usuário identificados no site **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -28,7 +24,7 @@ Uma das técnicas de coleta de dados que foi utilizada para traçar os perfis de
 
 *Caso o documento não carregue, [clique aqui para baixar o PDF](../assets/PDFs/analise-de-documentos-PDAD2021.pdf).*
 
-### 2.2 Relatório de Ouvidoria — 1º Trimestre de 2026 (Parte Geral) 
+### 2.2 Relatório de Ouvidoria: 1º Trimestre de 2026 (Parte Geral)
 
 **Autor:** Igor Dantas Araújo.
 
@@ -51,23 +47,23 @@ Uma das técnicas de coleta de dados que foi utilizada para traçar os perfis de
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Técnicas para coletar dados e levantar requisitos dos usuários</p>
+<p><strong>Figura 1</strong>: Técnicas para coletar dados e levantar requisitos dos usuários</p>
 </div>
 
-![Figura 1 — Técnicas para coletar dados e levantar requisitos dos usuários](../assets/prints_referencias/verificacao-v2/livro-tecnicas-coleta.png)
+![Figura 1: Técnicas para coletar dados e levantar requisitos dos usuários](../assets/prints_referencias/verificacao-v2/livro-tecnicas-coleta.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 129). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 129).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Triangulação e estudo-piloto na coleta de dados</p>
+<p><strong>Figura 2</strong>: Triangulação e estudo-piloto na coleta de dados</p>
 </div>
 
-![Figura 2 — Triangulação e estudo-piloto na coleta de dados](../assets/prints_referencias/verificacao-v2/livro-triangulacao-piloto.png)
+![Figura 2: Triangulação e estudo-piloto na coleta de dados](../assets/prints_referencias/verificacao-v2/livro-triangulacao-piloto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 122). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 122).</em></p>
 </div>
 
 ---

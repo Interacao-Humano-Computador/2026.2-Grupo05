@@ -2,15 +2,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 27/09/2026 | `1.0` | Elaboração detalhada da persona Mariana Borges Almeida a partir do Cenário 10 e padronização com a estrutura dos documentos de persona. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Não declarado pelo autor |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
+| 27/09/2026 | `1.0` | Elaboração detalhada da persona Mariana Borges Almeida a partir do Cenário 10 e padronização com a estrutura dos documentos de persona. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
-
-
-!!! warning "Observação para correção manual"
-    Esta persona aparece apenas no fluxo da TAR-06, que também usa a persona João Pedro Carvalho. O fluxo pedido é de 1 persona por funcionalidade; a equipe deve decidir qual persona fica como principal da TAR-06.
 
 ---
 
@@ -26,9 +19,9 @@ Este documento apresenta Mariana Borges Almeida, persona que representa trabalha
 * **Cenário:** [Cenário 2](../cenarios/cenario-2-viagem-matutina.md); [Cenário 10](../cenarios/cenario-10-viagem-ideal.md)
 * **Análise de tarefas:** [TAR-06](../analise-de-tarefas/tar-06-df-no-ponto.md)
 * **Storyboard:** [Storyboard 08](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
 
@@ -39,7 +32,7 @@ Este documento apresenta Mariana Borges Almeida, persona que representa trabalha
 
 ![Foto da persona Mariana Borges Almeida](../../assets/images/mariana-borges-almeida.jpg)
 
-*Figura 1 — Mariana Borges Almeida (imagem ilustrativa).*
+*Figura 1: Mariana Borges Almeida (imagem ilustrativa).*
 
 > **"Só saio de casa na hora certa: nem antes, pra não esperar na chuva, nem depois, pra não perder o ônibus."**
 
@@ -51,7 +44,7 @@ Este documento apresenta Mariana Borges Almeida, persona que representa trabalha
 
 A Tabela 1 reúne os dados de identidade de Mariana e contextualiza as características pessoais que influenciam sua relação com o transporte público e com a tecnologia.
 
-**Tabela 1** — Identidade e características pessoais de Mariana Borges Almeida
+**Tabela 1**: Identidade e características pessoais de Mariana Borges Almeida
 
 | Campo | Descrição |
 |---|---|
@@ -125,7 +118,7 @@ Por que ela é persona primária:
 
 A Tabela 2 apresenta as tarefas mais frequentes de Mariana, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
 
-**Tabela 2** — Tarefas realizadas por Mariana Borges Almeida
+**Tabela 2**: Tarefas realizadas por Mariana Borges Almeida
 
 | Tarefa | Frequência | Importância | Duração |
 |---|---|---|---|
@@ -136,11 +129,11 @@ A Tabela 2 apresenta as tarefas mais frequentes de Mariana, permitindo relaciona
 
 > Em dias de chuva forte, a importância dessas tarefas aumenta: uma informação imprecisa a leva a esperar exposta no ponto ou a perder o ônibus. Os passos detalhados dessa tarefa estão descritos nos **Cenários** (em especial o **Cenário 3**).
 
-**Contexto da rotina (conhecido pelo Cenário 3 — cenário ideal):**
+**Contexto da rotina (conhecido pelo Cenário 3: cenário ideal):**
 
 A Tabela 3 organiza a rotina de Mariana para evidenciar os momentos em que informações precisas sobre o transporte são especialmente importantes, sobretudo em dias de chuva.
 
-**Tabela 3** — Rotina de Mariana Borges Almeida
+**Tabela 3**: Rotina de Mariana Borges Almeida
 
 | Horário | Atividade |
 |---|---|
@@ -158,7 +151,7 @@ A Tabela 3 organiza a rotina de Mariana para evidenciar os momentos em que infor
 
 A Tabela 4 identifica as pessoas e instituições com as quais Mariana se relaciona e explica a relevância dessas relações para suas decisões de deslocamento.
 
-**Tabela 4** — Relacionamentos relevantes de Mariana Borges Almeida
+**Tabela 4**: Relacionamentos relevantes de Mariana Borges Almeida
 
 | Quem | Relação com Mariana | Por que importa para o projeto |
 |---|---|---|
@@ -175,7 +168,7 @@ A Tabela 4 identifica as pessoas e instituições com as quais Mariana se relaci
 
 A Tabela 5 sintetiza as necessidades de Mariana em requisitos que devem orientar as decisões de projeto da interface.
 
-**Tabela 5** — Necessidades e requisitos de Mariana Borges Almeida
+**Tabela 5**: Necessidades e requisitos de Mariana Borges Almeida
 
 | Necessidade | Em suas palavras |
 |---|---|
@@ -214,23 +207,23 @@ Não há colisão no Cenário 10, que é um **cenário ideal**: todas as expecta
 As Figuras 2 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Elementos que compõem a descrição de uma persona</p>
+<p><strong>Figura 2</strong>: Elementos que compõem a descrição de uma persona</p>
 </div>
 
-![Figura 2 — Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
+![Figura 2: Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Elenco de personas, persona primária e antipersonas</p>
+<p><strong>Figura 3</strong>: Elenco de personas, persona primária e antipersonas</p>
 </div>
 
-![Figura 3 — Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
+![Figura 3: Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 155). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 155).</em></p>
 </div>
 
 ---

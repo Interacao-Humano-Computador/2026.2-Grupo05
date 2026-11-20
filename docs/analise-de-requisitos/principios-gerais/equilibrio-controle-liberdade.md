@@ -2,9 +2,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 05/10/2026 | `1.0` | Criação do documento de análise de equilíbrio entre controle e liberdade do usuário no site da **SEMOB-DF**. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) | Google Gemini — no apoio ao refinamento textual e formatação Markdown deste documento |
-| 06/10/2026 | `1.1` | Ajuste das evidências de breadcrumb (CL2) e refinamento da análise de retorno do DF no Ponto com reclassificação para gravidade média (CL3), conforme revisão de PR #42. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) | Google Gemini — no apoio ao refinamento textual e formatação Markdown deste documento |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 05/10/2026 | `1.0` | Criação do documento de análise de equilíbrio entre controle e liberdade do usuário no site da **SEMOB-DF**. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) | Google Gemini: no apoio ao refinamento textual e formatação Markdown deste documento |
+| 06/10/2026 | `1.1` | Ajuste das evidências de breadcrumb (CL2) e refinamento da análise de retorno do DF no Ponto com reclassificação para gravidade média (CL3), conforme revisão de PR #42. | [Carlos Costa](https://github.com/carloshfgit) | [Lucas Araújo](https://github.com/Lucasaraujoszz) | Google Gemini: no apoio ao refinamento textual e formatação Markdown deste documento |
 
 ---
 

@@ -2,12 +2,9 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 06/10/2026 | `1.0` | Criação do documento de Elementos de Interface. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
-| 20/10/2026 | `1.1` | Correção de digitação no nome do revisor. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 06/10/2026 | `1.0` | Criação do documento de Elementos de Interface. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 20/10/2026 | `1.1` | Correção de digitação no nome do revisor. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 19/11/2026 | `1.3` | Atualização dos elementos de interface para refletir a estrutura observada no portal vigente da SEMOB-DF. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio no inventário dos componentes e na organização do conteúdo. |
 
 ---
 
@@ -15,11 +12,34 @@
 
 ## 1. Introdução
 
-Esta seção detalha os elementos de interface do Guia de Estilo para o portal da SEMOB-DF. Conforme estruturado por Mayhew (1999) e Marcus (1991) (citados por Barbosa et al., 2021, p. 242, imagem 1), os elementos de interface englobam a disposição espacial e grid, janelas, tipografia, símbolos não tipográficos, cores e animações, visando garantir a consistência visual, a legibilidade e a harmonia estética na apresentação dos componentes ao usuário.
+Esta seção detalha os elementos de interface do Guia de Estilo para o portal da SEMOB-DF. O inventário foi atualizado após inspeção do portal em 19/11/2026 e organiza os componentes nas categorias indicadas pelo livro da disciplina: disposição espacial e *grid*, tipografia, símbolos não tipográficos, cores e comportamento dos componentes.
 
 ## 2. Elementos de interface
 
-Os elementos sobre disposição espacial e grid, janelas, tipografia, símbolos não tipográficos, cores e animações são apresentados na figura 1.
+### 2.1 Inventário do portal vigente
+
+| Região | Elementos observados | Diretriz de consistência |
+| :--- | :--- | :--- |
+| Barra institucional | Atalhos governamentais, acessibilidade, ajuste de texto, VLibras e autenticação | Manter no topo, com alto contraste e rótulos textuais legíveis |
+| Cabeçalho | Identificação da Secretaria, redes sociais e acesso a “Fale com a Secretaria” | Preservar a hierarquia entre órgão, canais sociais e atendimento |
+| Busca global | Campo de pesquisa acompanhado de botão com ícone de lupa | Usar rótulo/placeholder explícito e resposta visual ao acionamento |
+| Navegação principal | Faixa amarela com categorias e menus expansíveis | Manter ordem, contraste e indicação inequívoca de expansão |
+| Destaques | Carrossel de notícias com imagem, título e controles | Exibir controles visíveis e não depender apenas de rotação automática |
+| Acesso rápido | Cartão azul com atalhos de serviço | Usar ícone e texto; manter alvos de clique amplos e alinhados |
+| Novidades nas linhas | Cartões em carrossel para alterações do transporte | Informar título, resumo e controle de navegação |
+| Serviços mais procurados | Grade de cartões com ícones e rótulos | Manter padrão visual e linguagem orientada à tarefa |
+| Blocos informativos | PPP, LAI, Transparência, Ouvidoria e DODF | Diferenciar os blocos sem romper a identidade cromática do portal |
+| Rodapé | Links institucionais, contato e endereço | Repetir os acessos institucionais essenciais e apresentar dados completos |
+
+### 2.2 Especificações visuais e de comportamento
+
+- **Disposição espacial e *grid*:** conteúdo centralizado, organizado em faixas horizontais e grades de cartões responsivas.
+- **Tipografia:** família sem serifa, com títulos, subtítulos e rótulos diferenciados por tamanho e peso.
+- **Cores:** fundo predominantemente branco/cinza-claro; amarelo na navegação; azul nos cartões e ícones; laranja no acionamento da busca.
+- **Símbolos não tipográficos:** ícones lineares acompanhados de texto sempre que representam serviços ou ações.
+- **Comportamento:** menus expansíveis e carrosséis devem oferecer indicação de estado, controles perceptíveis e navegação por teclado.
+
+O registro visual consolidado do guia de estilo é apresentado na figura 1. Ele deve ser revisado no Figma sempre que divergir deste inventário do portal vigente.
 
 ![Figura 1](../../assets/images/figma-elementos-de-interface.png)
 

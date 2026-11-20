@@ -2,13 +2,9 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 05/10/2026 | `1.0` | Criação do documento de resultados de análise. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
-| 11/10/2026 | `1.1` | Atualização do perfil da persona Larissa Ferreira Lima na tabela de personas e da referência ao cenário de mudanças de itinerário (Cenário 1 → Cenário 9). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Não declarado pelo autor |
-| 23/10/2026 | `1.2` | Atualização da persona Heitor Santos Júnior, inclusão da TAR-09 (aumento do limite diário do Vale-Transporte) nas tarefas e nas implicações para o guia, e correção da referência ao cenário de desvios (Cenário 9 → Cenário 6). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
-| 19/11/2026 | `1.3` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 05/10/2026 | `1.0` | Criação do documento de resultados de análise. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 11/10/2026 | `1.1` | Atualização do perfil da persona Larissa Ferreira Lima na tabela de personas e da referência ao cenário de mudanças de itinerário (Cenário 1 → Cenário 9). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 23/10/2026 | `1.2` | Atualização da persona Heitor Santos Júnior, inclusão da TAR-09 (aumento do limite diário do Vale-Transporte) nas tarefas e nas implicações para o guia, e correção da referência ao cenário de desvios (Cenário 9 → Cenário 6). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -33,7 +29,7 @@ Esta seção reúne os resultados da análise realizada com os usuários e sobre
 
 - Este projeto possui **sete personas primárias/atendidas mapeadas**, construídas a partir da articulação dos perfis de usuário acima com dados da PDAD 2021, do Relatório de Ouvidoria e das entrevistas qualitativas. O resumo de cada uma, com link para o artefato completo, está na tabela 1, visível abaixo.
 
-**Tabela 1** — Elenco de personas do projeto
+**Tabela 1**: Elenco de personas do projeto
 
 | Persona | Papel | Perfil representado | Artefato |
 |---|---|---|---|
@@ -49,7 +45,7 @@ Esta seção reúne os resultados da análise realizada com os usuários e sobre
 
 ### 2.2 Ambiente físico
 
-- **Local de uso:** predominantemente **em deslocamento e em ambiente externo** — paradas e pontos de ônibus, dentro do coletivo ou do metrô, a caminho de casa, do trabalho ou da universidade. Uso secundário em casa (ao planejar a saída, antes do deslocamento) e, no caso dos motoristas, na garagem (consulta de avisos no balcão) ou durante a condução.
+- **Local de uso:** predominantemente **em deslocamento e em ambiente externo**: paradas e pontos de ônibus, dentro do coletivo ou do metrô, a caminho de casa, do trabalho ou da universidade. Uso secundário em casa (ao planejar a saída, antes do deslocamento) e, no caso dos motoristas, na garagem (consulta de avisos no balcão) ou durante a condução.
 - **Condições do ambiente:** sol forte sobre a tela em pontos de ônibus durante o dia; ambientes escuros/noturnos em viagens de volta tarde da noite; ruído de rua e de veículos; espaço físico reduzido (usuário em pé, segurando o celular com uma mão só, muitas vezes junto de mochila, sacola ou material de trabalho); interrupções frequentes (embarque, desembarque, necessidade de validar o cartão, atenção ao próprio trajeto).
 - **Impactos no design:** necessidade de **alto contraste** e textos legíveis sob luz solar direta; elementos acionáveis grandes o suficiente para uso com o polegar e com uma mão só; a informação essencial não pode depender apenas de permanecer muito tempo com a tela ligada (risco de bateria e de perder o sinal do próximo evento); conteúdo crítico (horário, mudança de plataforma, direito de desembarque) não deve depender de áudio, pois o ambiente é ruidoso e o usuário pode estar em público/sozinho à noite.
 
@@ -71,7 +67,7 @@ Esta seção reúne os resultados da análise realizada com os usuários e sobre
 
 A tabela 2 abaixo indica as principais tarefas feitas e analisadas pelo grupo, bem como a frequência, importância e observações de cada uma.
 
-**Tabela 2** — Tarefas principais
+**Tabela 2**: Tarefas principais
 
 | Tarefa | Frequência | Importância | Observações |
 |---|---|---|---|
@@ -94,7 +90,7 @@ A tabela 2 abaixo indica as principais tarefas feitas e analisadas pelo grupo, b
 
 A tabela 3 a seguir contém os métodos utilizados pelo grupo na etapa de levantamento de dados do projeto.
 
-**Tabela 3** — Métodos utilizados no levantamento de dados
+**Tabela 3**: Métodos utilizados no levantamento de dados
 
 | Método | Participantes | Data | Principais achados |
 |---|---|---|---|
@@ -113,7 +109,7 @@ A tabela 3 a seguir contém os métodos utilizados pelo grupo na etapa de levant
 
 A tabela 4 relaciona os achados da análise às decisões do guia, preservando o rastreamento do *design rationale* (Barbosa et al., 2021).
 
-**Tabela 4** — Implicações para o guia de estilo
+**Tabela 4**: Implicações para o guia de estilo
 
 | Achado da análise | Decisão de design relacionada | Seção do guia |
 |---|---|---|

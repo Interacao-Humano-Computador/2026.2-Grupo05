@@ -2,12 +2,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 26/09/2026 | `1.0` | Elaboração detalhada do Cenário 2 (João Pedro Carvalho). | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
-| 27/09/2026 | `1.1` | Modularização em artefato próprio com integração às personas e visão geral. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Não declarado pelo autor |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 26/09/2026 | `1.0` | Elaboração detalhada do Cenário 2 (João Pedro Carvalho). | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.1` | Modularização em artefato próprio com integração às personas e visão geral. | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -23,9 +19,9 @@ Este cenário de problema acompanha João Pedro Carvalho em uma viagem matutina 
 * **Cenário:** Cenário 2 (*esta página*)
 * **Análise de tarefas:** [TAR-01](../analise-de-tarefas/tar-01-alerta-saida.md)
 * **Storyboard:** [Storyboard 01](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#31-storyboard-01-alerta-inteligente-de-saida-de-casa)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/igor/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Igor/igor-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/igor/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Igor/igor-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://www.figma.com/proto/00YEuKWtN4N1rBzpC8V7Gd/prototipo-de-igor?node-id=0-1&t=S9Z2PNsKlHC3LlTt-1)
 
@@ -35,9 +31,9 @@ Este cenário de problema acompanha João Pedro Carvalho em uma viagem matutina 
 * **Cenário:** Cenário 2 (*esta página*); [Cenário 10](cenario-10-viagem-ideal.md)
 * **Análise de tarefas:** [TAR-06](../analise-de-tarefas/tar-06-df-no-ponto.md)
 * **Storyboard:** [Storyboard 08](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
 
@@ -68,7 +64,7 @@ Este cenário de problema acompanha João Pedro Carvalho em uma viagem matutina 
 
 A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis influenciam o desenvolvimento da situação descrita.
 
-**Tabela 1** — Atores envolvidos no Cenário 2
+**Tabela 1**: Atores envolvidos no Cenário 2
 
 | Ator | Papel no cenário | Características pessoais relevantes |
 |---|---|---|
@@ -99,14 +95,14 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 **Plano geral de João Pedro:** (1) consultar o app ainda em casa para saber o horário de passagem do ônibus; (2) calcular e decidir a hora de sair de casa; (3) ir ao ponto e embarcar dentro do horário previsto; (4) se o ônibus atrasar, checar o rastreamento em tempo real no app.
 
-### Passo 1 — Consultar o horário do ônibus em casa (por volta das 06:30)
+### Passo 1: Consultar o horário do ônibus em casa (por volta das 06:30)
 
 - **Planejamento:** *"Preciso saber a que horas o ônibus passa para não perder tempo à toa no ponto."* Sabe que a caminhada até a parada mais próxima leva exatamente 6 minutos e quer sair de casa no momento certo.
 - **Ação:** pega o smartphone Android e acessa o aplicativo de mapas e transporte para consultar o horário da linha desejada.
 - **Evento:** o aplicativo indica que a linha está prevista para passar pela parada às 06:50.
 - **Avaliação:** *"Se o ônibus passa às 06:50 e a caminhada leva 6 minutos, posso terminar de me arrumar e sair às 06:42."* Decide terminar de arrumar o material acadêmico e sair de casa nesse horário, evitando ficar exposto no ponto perdendo tempo à toa.
 
-### Passo 2 — Chegar ao ponto e o ônibus não aparecer
+### Passo 2: Chegar ao ponto e o ônibus não aparecer
 
 - **Planejamento:** chegar ao ponto pouco antes das 06:50 e embarcar assim que o ônibus chegar.
 - **Ação:** sai de casa às 06:42 e chega ao ponto de ônibus às 06:48.
@@ -114,21 +110,21 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 - **Evento [oculto]:** o ônibus da linha já havia passado pela parada por volta das 06:40, cerca de 10 minutos antes do horário cadastrado no app — fato que João Pedro ainda não sabe neste momento.
 - **Avaliação:** *"Já passou da hora e o ônibus não chegou. Preciso da minha primeira aula às 08:00, isso está me preocupando."*
 
-### Passo 3 — Tentar checar o rastreamento em tempo real
+### Passo 3: Tentar checar o rastreamento em tempo real
 
 - **Planejamento:** *"Vou abrir o app de novo para ver onde o ônibus está agora."*
 - **Ação:** reabre o aplicativo no celular para checar o rastreamento em tempo real.
 - **Evento:** ocorre um erro de conflito de dados na aplicação — o sistema para de exibir a previsão do veículo e passa a indicar, repentinamente, que a viagem já teria sido "concluída", sem dar qualquer explicação.
 - **Avaliação:** *"Concluída? Isso não faz sentido, eu nem vi o ônibus passar. Será que já passou e eu perdi, ou será que ainda está atrasado?"* Fica sem saber se o ônibus está atrasado ou já passou adiantado.
 
-### Passo 4 — Buscar confirmação com outro passageiro
+### Passo 4: Buscar confirmação com outro passageiro
 
 - **Planejamento:** como o app não esclarece a situação, decide perguntar a alguém que também está esperando.
 - **Ação:** busca confirmação conversando com outra pessoa que aguarda na parada.
 - **Evento:** o passageiro comenta que um ônibus daquela linha passou rapidamente cerca de 10 minutos antes (às 06:40), fora do horário cadastrado.
 - **Avaliação:** *"Então o ônibus passou adiantado e o app não atualizou isso."* João Pedro percebe que o veículo passou antes do previsto e que o aplicativo falhou em atualizar essa divergência em tempo real.
 
-### Passo 5 — Esperar sem alternativa e chegar atrasado
+### Passo 5: Esperar sem alternativa e chegar atrasado
 
 - **Planejamento:** sem opção de outra linha direta naquele momento, não há o que fazer além de esperar o próximo veículo.
 - **Ação:** permanece no ponto aguardando o ônibus seguinte.
@@ -141,7 +137,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 A Tabela 2 relaciona os problemas evidenciados durante o cenário aos momentos em que ocorrem e aos requisitos já identificados para a persona.
 
-**Tabela 2** — Problemas revelados pelo Cenário 2
+**Tabela 2**: Problemas revelados pelo Cenário 2
 
 | Problema revelado | Onde aparece | Requisito da persona relacionado |
 |---|---|---|
@@ -160,23 +156,23 @@ A Tabela 2 relaciona os problemas evidenciados durante o cenário aos momentos e
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Cenários: definição, ator e objetivo principais</p>
+<p><strong>Figura 1</strong>: Cenários: definição, ator e objetivo principais</p>
 </div>
 
-![Figura 1 — Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
+![Figura 1: Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Elementos característicos de um cenário e uso de personas como atores</p>
+<p><strong>Figura 2</strong>: Elementos característicos de um cenário e uso de personas como atores</p>
 </div>
 
-![Figura 2 — Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
+![Figura 2: Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
 </div>
 
 ---

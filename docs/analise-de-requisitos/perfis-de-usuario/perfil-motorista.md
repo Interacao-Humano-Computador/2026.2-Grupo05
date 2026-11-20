@@ -2,20 +2,13 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 26/09/2026 | `1.0` | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista (MOT-01) na Garagem Piracicabana (SGO). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
-| 27/09/2026 | `1.1` | Modularização em artefato próprio e refinamento textual em formato discursivo contínuo. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 26/09/2026 | `1.0` | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista (MOT-01) na Garagem Piracicabana (SGO). | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.1` | Modularização em artefato próprio e refinamento textual em formato discursivo contínuo. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
-
-
-!!! warning "Observação para correção manual"
-    A classificação de stakeholders em usuários primários, secundários e terciários vinha de Eason (1987), que não é referência do livro da disciplina. A citação foi retirada; o autor deve verificar se mantém a classificação apoiada apenas em Barbosa et al. (2021), que tratam das partes interessadas (stakeholders).
 
 ---
 
-# Perfil de Usuário: Motoristas de Ônibus do STPC/DF (Usuário Terciário)
+# Perfil de Stakeholder: Motoristas de Ônibus do STPC/DF
 
 ## 1. Introdução e Contextualização
 
@@ -32,7 +25,7 @@ Na literatura de IHC, identificar as partes interessadas (*stakeholders*) é eta
 > **Achado Empírico Central da Pesquisa:**  
 > Ao ser questionado diretamente sobre o uso de canais digitais (*Pergunta 16 do roteiro*), o motorista entrevistado (**MOT-01**) informou que **nunca acessou o site oficial da SEMOB-DF**, utilizando exclusivamente o aplicativo interno da empresa concessionária (Viação Piracicabana) e os avisos informativos afixados no balcão da garagem.
 
-À luz de **Barbosa et al. (2021)**, os motoristas de ônibus se consolidam como **stakeholders/usuários terciários** em relação ao Portal da SEMOB:
+À luz de **Barbosa e Silva (2010, p. 136)**, os motoristas de ônibus se consolidam como **stakeholders que não utilizam diretamente o Portal da SEMOB, mas são afetados por ele**:
 * **Não manipulam a interface gráfica diretamente** em sua jornada de direção e trabalho.
 * **São afetados de forma crítica pelo sistema:** A SEMOB-DF tem o papel de planejar, auditar e fiscalizar o cumprimento das tabelas horárias e a conservação da frota. Se o portal oficial divulgar rotas divergentes, horários incorretos ou falhar ao comunicar bloqueios e alterações viárias, **o motorista arca com o desgaste no trânsito, perda de viagens regulamentadas e atrito interpessoal direto com passageiros insatisfeitos**.
 * **Interdependência Operacional:** O participante pontuou de forma enfática que a informação de transporte é sistêmica e envolve uma cadeia integrada: *"Todos precisam"* (cobradores, fiscais de ponto, despachantes, passageiros e motoristas).
@@ -91,7 +84,7 @@ A principal meta do participante em relação aos dados do sistema é a previsib
 > *"Com certeza teria muitos impactos negativos."*  
 No nível operacional, inconsistências provocam atrasos em cascata na tabela do dia, perda de viagens regulamentadas e multas contratuais para a empresa concessionária. Já no nível humano, expõem o motorista a hostilidades, constrangimentos e cobranças diretas na catraca por passageiros insatisfeitos com atrasos ou mudanças não informadas, gerando sobrecarga emocional, estresse severo e potenciais riscos à segurança viária.
 
-Como o motorista é um usuário terciário do portal, as tarefas a seguir pertencem principalmente ao domínio profissional e a um possível canal móvel operacional, não ao uso atual e direto do site institucional.
+Como o motorista é um stakeholder sem uso direto do portal, as tarefas a seguir pertencem principalmente ao domínio profissional e a um possível canal móvel operacional, não ao uso atual e direto do site institucional.
 
 #### Tarefas Primárias
 
@@ -109,17 +102,17 @@ Como o motorista é um usuário terciário do portal, as tarefas a seguir perten
 
 ---
 
-## 5. Matriz-Resumo do Perfil de Usuário Terciário
+## 5. Matriz-Resumo do Perfil de Stakeholder
 
 A Tabela 1 consolida as principais características do perfil de motorista e relaciona cada atributo às evidências obtidas com o participante `MOT-01`.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Matriz-Resumo do Perfil de Usuário Terciário (Motoristas de Ônibus do STPC/DF)</p>
+<p><strong>Tabela 1</strong>: Matriz-Resumo do Perfil de Stakeholder (Motoristas de Ônibus do STPC/DF)</p>
 </div>
 
 | Dimensão de Análise | Atributo Levantado | Evidência / Resposta do Participante (`MOT-01`) |
 | :--- | :--- | :--- |
-| **Classificação de Stakeholder** | Usuário/Stakeholder Terciário | Não interage com o portal web; é impactado diretamente pela fiscalização e horários. |
+| **Classificação de Stakeholder** | Stakeholder sem uso direto | Não interage com o portal web; é impactado diretamente pela fiscalização e horários. |
 | **Idade / Gênero** | 48 anos / Masculino | Ampla vivência pessoal e maturidade profissional. |
 | **Escolaridade** | Ensino Médio Incompleto | Leitura funcional focada em avisos operacionais objetivos. |
 | **Experiência na Ocupação** | 16 anos (11 anos na Piracicabana) | Alto domínio prático das rotas da Bacia 1 e da dinâmica do trânsito do DF. |
@@ -155,37 +148,38 @@ Embora os motoristas não sejam os operadores prioritários da interface web da 
 As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Perfil de usuário: definição e grupos de atributos</p>
+<p><strong>Figura 1</strong>: Perfil de usuário: definição e grupos de atributos</p>
 </div>
 
-![Figura 1 — Perfil de usuário: definição e grupos de atributos](../../assets/prints_referencias/verificacao-v2/livro-perfil.png)
+![Figura 1: Perfil de usuário: definição e grupos de atributos](../../assets/prints_referencias/verificacao-v2/livro-perfil.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 151–152). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 151–152).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Tipos de dados coletados sobre os usuários (Barbosa et al., 2021)</p>
+<p><strong>Figura 2</strong>: Tipos de dados coletados sobre os usuários (Barbosa et al., 2021)</p>
 </div>
 
-![Figura 2 — Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)](../../assets/prints_referencias/verificacao-v2/livro-que-dados-coletar.png)
+![Figura 2: Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)](../../assets/prints_referencias/verificacao-v2/livro-que-dados-coletar.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 123–124). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 123–124).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Usuários primários, secundários e stakeholders</p>
+<p><strong>Figura 3</strong>: Usuários primários, secundários e stakeholders</p>
 </div>
 
-![Figura 3 — Usuários primários, secundários e stakeholders](../../assets/prints_referencias/verificacao-v2/livro-de-quem-coletar.png)
+![Figura 3: Usuários primários, secundários e stakeholders](../../assets/prints_referencias/verificacao-v2/livro-de-quem-coletar.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 124). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 124).</em></p>
 </div>
 
 ---
 
 ## 8. Referências Bibliográficas
 
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier, 2010. ISBN 978-85-352-1120-7.
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

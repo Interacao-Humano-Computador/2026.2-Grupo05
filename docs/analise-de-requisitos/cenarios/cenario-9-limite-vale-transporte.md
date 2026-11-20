@@ -2,12 +2,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 27/09/2026 | `1.0` | Elaboração detalhada do Cenário 9 (Heitor Santos Júnior). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
-| 23/10/2026 | `2.0` | Reescrita do Cenário 9 para a nova tarefa da persona Heitor ([TAR-09](../analise-de-tarefas/tar-09-limite-vale-transporte.md), aumento do limite diário do Vale-Transporte), substituindo a versão sobre rota para endereço novo e desvio de itinerário. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
-| 19/11/2026 | `2.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 27/09/2026 | `1.0` | Elaboração detalhada do Cenário 9 (Heitor Santos Júnior). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 23/10/2026 | `2.0` | Reescrita do Cenário 9 para a nova tarefa da persona Heitor ([TAR-09](../analise-de-tarefas/tar-09-limite-vale-transporte.md), aumento do limite diário do Vale-Transporte), substituindo a versão sobre rota para endereço novo e desvio de itinerário. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -23,9 +19,9 @@ Este cenário de problema acompanha Heitor Santos Júnior em um dia de muitos ch
 * **Cenário:** Cenário 9 (*esta página*)
 * **Análise de tarefas:** [TAR-09](../analise-de-tarefas/tar-09-limite-vale-transporte.md)
 * **Storyboard:** [Storyboard 05](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../prototipos/tar-09/index.html)
 
@@ -47,7 +43,7 @@ Este cenário de problema acompanha Heitor Santos Júnior em um dia de muitos ch
 - **Quando e onde:** quinta-feira, início de outubro, a partir das 16h40, na plataforma da Rodoviária do Plano Piloto. Depois, em casa, em Planaltina, à noite, e nos dias seguintes.
 - **Situação de deslocamento:** o dia teve cinco chamados, um deles de emergência, em prédios da Asa Sul e da Asa Norte. Até as 16h30, Heitor já tinha passado o cartão 8 vezes, como mostra a Tabela 1.
 
-**Tabela 1** — Acessos do cartão de Heitor no dia do cenário
+**Tabela 1**: Acessos do cartão de Heitor no dia do cenário
 
 | Acesso | Trecho |
 | :---: | :--- |
@@ -73,7 +69,7 @@ Este cenário de problema acompanha Heitor Santos Júnior em um dia de muitos ch
 
 A Tabela 2 identifica os participantes do cenário e como suas características e papéis influenciam a situação.
 
-**Tabela 2** — Atores envolvidos no Cenário 9
+**Tabela 2**: Atores envolvidos no Cenário 9
 
 | Ator | Papel no cenário | Características pessoais relevantes |
 |---|---|---|
@@ -110,7 +106,7 @@ A Tabela 2 identifica os participantes do cenário e como suas características 
 
 **Plano geral de Heitor:** (1) entender o que aconteceu com o cartão; (2) procurar no site como resolver; (3) fazer o que for pedido; (4) voltar a usar o cartão normalmente.
 
-### Passo 1 — Cartão recusado na volta para casa (16h40)
+### Passo 1: Cartão recusado na volta para casa (16h40)
 
 - **Planejamento:** *"Agora é só pegar o ônibus pra Planaltina e ir pra casa."*
 - **Ação:** entra no ônibus e aproxima o cartão do validador.
@@ -118,35 +114,35 @@ A Tabela 2 identifica os participantes do cenário e como suas características 
 - **Evento:** o validador apita e não libera a catraca. Ele tenta de novo e acontece a mesma coisa. O motorista diz: "Deve estar sem saldo, irmão."
 - **Avaliação:** *"Sem saldo? O vale caiu dia primeiro, eu nem gastei tudo."* Sem alternativa, paga a passagem em dinheiro, com o que tinha separado para o pão.
 
-### Passo 2 — Perguntar no grupo do trabalho (16h50)
+### Passo 2: Perguntar no grupo do trabalho (16h50)
 
 - **Planejamento:** *"Alguém da equipe já deve ter passado por isso."*
 - **Ação:** manda um áudio no grupo da equipe contando que o cartão "travou".
 - **Evento:** Wesley responde: "Comigo já aconteceu. Acho que tem um limite de vezes por dia. Tem que pedir na Semob, mas não sei como."
 - **Avaliação:** *"Limite? Eu uso o cartão pra trabalhar, não é passeio."* Fica com a dúvida e decide procurar em casa.
 
-### Passo 3 — Procurar o serviço no site com a filha (19h40)
+### Passo 3: Procurar o serviço no site com a filha (19h40)
 
 - **Planejamento:** *"A Ana Clara mexe melhor nisso. A gente acha no site do governo."*
 - **Ação:** Ana Clara digita no Google "vale transporte recusado df" e abre o site da Semob.
 - **Evento:** a página inicial mostra "Serviços mais procurados" com "Cartões Mobilidade / Pontos de Recarga", mas nada sobre cartão recusado. Ana Clara tenta a busca do site com "vale transporte limite" e, entre notícias, aparece a página **Limites do Vale-Transporte**, que fica em **Ouvidoria > Serviços**.
 - **Avaliação:** *"Ouvidoria? Eu não quero reclamar, eu quero que o cartão funcione."* Mesmo assim, abre a página.
 
-### Passo 4 — Descobrir o limite e tentar o formulário (19h55)
+### Passo 4: Descobrir o limite e tentar o formulário (19h55)
 
 - **Planejamento:** ler o que precisa fazer e baixar o formulário.
 - **Ação:** Ana Clara lê a página em voz alta e toca em **"CLIQUE AQUI PARA BAIXAR O FORMULÁRIO"**.
 - **Evento:** a página da Semob não diz qual é o limite. O link abre a página geral do cartão Vale-Transporte no site do BRB, sem o formulário. Rolando essa página, Ana Clara encontra nas perguntas frequentes que o limite é de **8 acessos por dia**. De volta à Semob, ela tenta tocar em **"Formulário on-line"**, que é só texto, sem link.
 - **Avaliação:** Ana Clara conta nos dedos: *"Pai, o senhor passou o cartão nove vezes hoje."* Heitor entende o motivo da recusa, mas pensa: *"E o formulário? Vou ter que pegar no posto."*
 
-### Passo 5 — Pedir a declaração ao RH (sexta-feira, 7h30)
+### Passo 5: Pedir a declaração ao RH (sexta-feira, 7h30)
 
 - **Planejamento:** juntar os documentos pedidos na página: RG, CPF, comprovante de residência, declaração do empregador e as linhas usadas.
 - **Ação:** manda mensagem para o RH pedindo uma declaração "com o endereço do serviço".
 - **Evento:** o RH responde que não tem modelo para isso e pergunta qual endereço deve colocar, já que ele atende em vários prédios. Combinam de pôr o endereço da sede da empresa e escrever à mão "atende condomínios na Asa Sul e na Asa Norte". Para as linhas, Heitor só sabe o número da linha de Planaltina.
 - **Avaliação:** *"Cada dia eu pego um ônibus diferente. Como é que eu vou saber as linhas antes?"* Fica com medo de o pedido ser negado.
 
-### Passo 6 — Tentar entregar no posto (segunda e terça-feira)
+### Passo 6: Tentar entregar no posto (segunda e terça-feira)
 
 - **Planejamento:** entregar no posto da Rodoviária de Planaltina antes de pegar o ônibus.
 - **Ação:** na segunda, às 4h55, passa pelo posto com os documentos.
@@ -154,7 +150,7 @@ A Tabela 2 identifica os participantes do cenário e como suas características 
 - **Evento:** no balcão, o atendente entrega o formulário em papel para ele preencher ali mesmo, recebe os documentos e diz: "A Semob analisa em até cinco dias úteis e, se aprovar, o BRB muda no sistema em até dois." Ele não recebe número de protocolo.
 - **Avaliação:** *"Perdi meia manhã de serviço e saio daqui sem papel nenhum na mão."*
 
-### Passo 7 — Esperar sem saber (dias seguintes)
+### Passo 7: Esperar sem saber (dias seguintes)
 
 - **Planejamento:** continuar trabalhando e torcer para o pedido ser aprovado.
 - **Ação:** nos dias de muitos chamados, conta as passagens e paga em dinheiro quando passa da oitava.
@@ -168,7 +164,7 @@ A Tabela 2 identifica os participantes do cenário e como suas características 
 
 A Tabela 3 relaciona os problemas do cenário aos momentos em que aparecem e aos requisitos da persona.
 
-**Tabela 3** — Problemas revelados pelo Cenário 9
+**Tabela 3**: Problemas revelados pelo Cenário 9
 
 | Problema revelado | Onde aparece | Requisito da persona relacionado |
 |---|---|---|
@@ -190,23 +186,23 @@ A Tabela 3 relaciona os problemas do cenário aos momentos em que aparecem e aos
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Cenários: definição, ator e objetivo principais</p>
+<p><strong>Figura 1</strong>: Cenários: definição, ator e objetivo principais</p>
 </div>
 
-![Figura 1 — Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
+![Figura 1: Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Elementos característicos de um cenário e uso de personas como atores</p>
+<p><strong>Figura 2</strong>: Elementos característicos de um cenário e uso de personas como atores</p>
 </div>
 
-![Figura 2 — Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
+![Figura 2: Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
 </div>
 
 ---

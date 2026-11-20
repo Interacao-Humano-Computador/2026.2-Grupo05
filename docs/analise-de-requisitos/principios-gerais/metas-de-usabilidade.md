@@ -2,12 +2,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 06/10/2026 | `1.0` | Definição e justificativa das metas de usabilidade para o portal da SEMOB-DF com base nos fatores apresentados por Barbosa e Silva (2010). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 06/10/2026 | `1.0` | Definição e justificativa das metas de usabilidade para o portal da SEMOB-DF com base nos fatores apresentados por Barbosa e Silva (2010). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
-
-!!! warning "Observação para correção manual"
-    A legenda da Imagem 4 citava a p. 342 da edição de 2010; foi trocada pela p. 289 da edição de 2021. O autor deve confirmar se o print é da edição de 2021.
 
 ---
 

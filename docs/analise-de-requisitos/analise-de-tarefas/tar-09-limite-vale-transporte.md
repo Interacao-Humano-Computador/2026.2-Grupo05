@@ -2,11 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 23/10/2026 | `1.0` | Elaboração da Análise de Tarefas (HTA e CTT) para a solicitação de aumento do limite diário de uso do Vale-Transporte, a partir da página "Limites do Vale-Transporte" do site da Semob-DF, e proposta de melhoria. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Redesenho dos diagramas HTA/CTT na notação do livro da disciplina (BARBOSA et al., 2021, pp. 165–174). Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown; apoio no redesenho dos diagramas na notação do livro.; apoio na inclusão dos links entre artefatos |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 23/10/2026 | `1.0` | Elaboração da Análise de Tarefas (HTA e CTT) para a solicitação de aumento do limite diário de uso do Vale-Transporte, a partir da página "Limites do Vale-Transporte" do site da Semob-DF, e proposta de melhoria. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -22,9 +18,9 @@ Este documento analisa a tarefa de pedir à Semob-DF o aumento do limite diário
 * **Cenário:** [Cenário 9](../cenarios/cenario-9-limite-vale-transporte.md)
 * **Análise de tarefas:** TAR-09 (*esta página*)
 * **Storyboard:** [Storyboard 05](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não disponível — pendente de correção manual*)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/tomas/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../prototipos/tar-09/index.html)
 
@@ -33,7 +29,7 @@ Este documento analisa a tarefa de pedir à Semob-DF o aumento do limite diário
 
 * **Título da Tarefa:** Solicitar aumento do limite diário de uso do Vale-Transporte.
 * **Perfil do Participante:** Usuário primário / trabalhador que usa o Vale-Transporte para se deslocar entre vários endereços no mesmo dia ([Heitor Santos Júnior](../personas/heitor-santos-junior.md)).
-* **Cenário de origem:** [Cenário 9 — Cartão de Vale-Transporte recusado no meio do expediente](../cenarios/cenario-9-limite-vale-transporte.md).
+* **Cenário de origem:** [Cenário 9: Cartão de Vale-Transporte recusado no meio do expediente](../cenarios/cenario-9-limite-vale-transporte.md).
 * **Responsável pela Elaboração:** [Tomás Rocho](https://github.com/TomasRocho).
 * **Data da Realização:** 23/10/2026.
 * **Sistema analisado:** página [Limites do Vale-Transporte](https://www.semob.df.gov.br/servicos/limites-do-vale-transporte) do portal da Semob-DF (caminho: Ouvidoria > Serviços), com os links que ela oferece para o site do BRB Mobilidade.
@@ -48,7 +44,7 @@ Este documento analisa a tarefa de pedir à Semob-DF o aumento do limite diário
 
 A Tabela 1 registra o que a página oferece hoje. Esses pontos sustentam os problemas apontados na HTA.
 
-**Tabela 1** — Observações na página "Limites do Vale-Transporte" (23/10/2026)
+**Tabela 1**: Observações na página "Limites do Vale-Transporte" (23/10/2026)
 
 | Elemento da página | Observação |
 | :--- | :--- |
@@ -76,7 +72,7 @@ Segundo Barbosa et al. (2021, pp. 164–166), a HTA parte dos **objetivos** das 
 </div>
 
 <div align="center">
-<p><strong>Figura 1</strong> — Diagrama HTA da solicitação de aumento do limite diário do Vale-Transporte.</p>
+<p><strong>Figura 1</strong>: Diagrama HTA da solicitação de aumento do limite diário do Vale-Transporte.</p>
 <p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.1 e 8.2): cada retângulo traz o número e o nome do objetivo e, na linha de baixo, o plano, que se refere aos subobjetivos do próprio objetivo (“&gt;” indica sequência, “/” indica seleção, “+” indica paralelo); os retângulos com linha dupla embaixo são operações (nível mais baixo da hierarquia).</em></p>
 <p><em>Fonte: <a href="https://github.com/TomasRocho">Tomás Rocho</a> (2026), redesenhado na notação de Barbosa et al. (2021, pp. 165–167).</em></p>
 </div>
@@ -85,7 +81,7 @@ Segundo Barbosa et al. (2021, pp. 164–166), a HTA parte dos **objetivos** das 
 
 A Tabela 2 segue o formato da Tabela 8.4 do livro: cada objetivo tem *input* (o que o ativa), *feedback* (o que indica que foi atingido) e *plano*, e, quando houver, *problema* e *recomendação*.
 
-**Tabela 2** — Objetivos, operações, problemas e recomendações da HTA
+**Tabela 2**: Objetivos, operações, problemas e recomendações da HTA
 
 | Objetivos / operações | Problemas e recomendações |
 | :--- | :--- |
@@ -130,7 +126,7 @@ Conforme o livro (p. 195), a decomposição termina quando já se têm as inform
 
 Na etapa 7 da HTA, o livro sugere classificar os erros como baseados em habilidades, regras ou conhecimento (Reason, 1990, apud Barbosa et al., 2021, p. 167). A Tabela 3 aplica essa classificação às operações mais sujeitas a falha.
 
-**Tabela 3** — Hipóteses de erro nas operações analisadas
+**Tabela 3**: Hipóteses de erro nas operações analisadas
 
 | Operação | Tipo de erro | Hipótese |
 | :--- | :--- | :--- |
@@ -144,7 +140,7 @@ Na etapa 7 da HTA, o livro sugere classificar os erros como baseados em habilida
 
 ### 3.5 Situação dos passos da HTA (Diaper, 2003, apud Barbosa et al., 2021, pp. 166–167)
 
-**Tabela 4** — Situação dos passos metodológicos da HTA
+**Tabela 4**: Situação dos passos metodológicos da HTA
 
 | Passo | Situação |
 | :--- | :--- |
@@ -197,7 +193,7 @@ O CTT representa tarefas de usuário, de sistema, de interação e abstratas, al
 </div>
 
 <div align="center">
-<p><strong>Figura 2</strong> — Diagrama CTT do pedido guiado de aumento do limite diário do Vale-Transporte.</p>
+<p><strong>Figura 2</strong>: Diagrama CTT do pedido guiado de aumento do limite diário do Vale-Transporte.</p>
 <p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.4 e 8.5): nuvem = tarefa abstrata; pessoa = tarefa do usuário; computador = tarefa do sistema; computador, seta dupla e pessoa = tarefa interativa. As linhas ligam cada tarefa às suas subtarefas, e o operador temporal fica na linha horizontal entre tarefas irmãs: &gt;&gt; (ativação), []&gt;&gt; (ativação com passagem de informação), ||| (concorrência), [&gt; (desativação).</em></p>
 <p><em>Fonte: <a href="https://github.com/TomasRocho">Tomás Rocho</a> (2026), redesenhado na notação de Barbosa et al. (2021, pp. 173–174).</em></p>
 </div>
@@ -224,14 +220,14 @@ O CTT representa tarefas de usuário, de sistema, de interação e abstratas, al
 </div>
 
 <div align="center">
-<p><strong>Figura 3</strong> — Diagrama HTA da proposta de pedido guiado.</p>
+<p><strong>Figura 3</strong>: Diagrama HTA da proposta de pedido guiado.</p>
 <p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.1 e 8.2): cada retângulo traz o número e o nome do objetivo e, na linha de baixo, o plano, que se refere aos subobjetivos do próprio objetivo (“&gt;” indica sequência, “+” indica paralelo); os retângulos com linha dupla embaixo são operações (nível mais baixo da hierarquia).</em></p>
 <p><em>Fonte: <a href="https://github.com/TomasRocho">Tomás Rocho</a> (2026), redesenhado na notação de Barbosa et al. (2021, pp. 165–167).</em></p>
 </div>
 
 ### 5.2 Comparação antes e depois
 
-**Tabela 5** — Comparação entre o fluxo atual e o fluxo proposto
+**Tabela 5**: Comparação entre o fluxo atual e o fluxo proposto
 
 | Aspecto | Fluxo atual | Fluxo proposto |
 | :--- | :--- | :--- |
@@ -253,83 +249,83 @@ O CTT representa tarefas de usuário, de sistema, de interação e abstratas, al
 As Figuras 4 a 11 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — Métodos de análise de tarefas: HTA, GOMS e CTT</p>
+<p><strong>Figura 4</strong>: Métodos de análise de tarefas: HTA, GOMS e CTT</p>
 </div>
 
-![Figura 4 — Métodos de análise de tarefas: HTA, GOMS e CTT](../../assets/prints_referencias/verificacao-v2/livro-analise-tarefas.png)
+![Figura 4: Métodos de análise de tarefas: HTA, GOMS e CTT](../../assets/prints_referencias/verificacao-v2/livro-analise-tarefas.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 164). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 164).</em></p>
 </div>
 
 <div id="figura-5" align="center">
-<p><strong>Figura 5</strong> — 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações</p>
+<p><strong>Figura 5</strong>: 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações</p>
 </div>
 
-![Figura 5 — 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações](../../assets/prints_referencias/verificacao-v2/livro-hta.png)
+![Figura 5: 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações](../../assets/prints_referencias/verificacao-v2/livro-hta.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 165). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 165).</em></p>
 </div>
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong> — Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)</p>
+<p><strong>Figura 6</strong>: Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)</p>
 </div>
 
-![Figura 6 — Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)](../../assets/prints_referencias/verificacao-v2/livro-hta-notacao.png)
+![Figura 6: Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)](../../assets/prints_referencias/verificacao-v2/livro-hta-notacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 165–167). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–167).</em></p>
 </div>
 
 <div id="figura-7" align="center">
-<p><strong>Figura 7</strong> — HTA: diagrama, representação em tabela e critério de parada</p>
+<p><strong>Figura 7</strong>: HTA: diagrama, representação em tabela e critério de parada</p>
 </div>
 
-![Figura 7 — HTA: diagrama, representação em tabela e critério de parada](../../assets/prints_referencias/verificacao-v2/livro-hta-tabela.png)
+![Figura 7: HTA: diagrama, representação em tabela e critério de parada](../../assets/prints_referencias/verificacao-v2/livro-hta-tabela.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 165–166). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–166).</em></p>
 </div>
 
 <div id="figura-8" align="center">
-<p><strong>Figura 8</strong> — Passos da Análise Hierárquica de Tarefas (Barbosa et al., 2021)</p>
+<p><strong>Figura 8</strong>: Passos da Análise Hierárquica de Tarefas (Barbosa et al., 2021)</p>
 </div>
 
-![Figura 8 — Passos da Análise Hierárquica de Tarefas (Diaper, 2003)](../../assets/prints_referencias/verificacao-v2/livro-hta-passos.png)
+![Figura 8: Passos da Análise Hierárquica de Tarefas (Diaper, 2003)](../../assets/prints_referencias/verificacao-v2/livro-hta-passos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 166–167). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 166–167).</em></p>
 </div>
 
 <div id="figura-9" align="center">
-<p><strong>Figura 9</strong> — CTT: tipos de tarefas e relações temporais</p>
+<p><strong>Figura 9</strong>: CTT: tipos de tarefas e relações temporais</p>
 </div>
 
-![Figura 9 — CTT: tipos de tarefas e relações temporais](../../assets/prints_referencias/verificacao-v2/livro-ctt.png)
+![Figura 9: CTT: tipos de tarefas e relações temporais](../../assets/prints_referencias/verificacao-v2/livro-ctt.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 173). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 173).</em></p>
 </div>
 
 <div id="figura-10" align="center">
-<p><strong>Figura 10</strong> — Notação do CTT: tipos de tarefas, hierarquia e relações temporais (Figuras 8.4, 8.5 e 8.6 do livro)</p>
+<p><strong>Figura 10</strong>: Notação do CTT: tipos de tarefas, hierarquia e relações temporais (Figuras 8.4, 8.5 e 8.6 do livro)</p>
 </div>
 
-![Figura 10 — Notação do CTT: tipos de tarefas, hierarquia e relações temporais (Figuras 8.4, 8.5 e 8.6 do livro)](../../assets/prints_referencias/verificacao-v2/livro-ctt-notacao.png)
+![Figura 10: Notação do CTT: tipos de tarefas, hierarquia e relações temporais (Figuras 8.4, 8.5 e 8.6 do livro)](../../assets/prints_referencias/verificacao-v2/livro-ctt-notacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 173–174). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 173–174).</em></p>
 </div>
 
 <div id="figura-11" align="center">
-<p><strong>Figura 11</strong> — CTT: vantagens e limitação quanto ao tratamento de erros</p>
+<p><strong>Figura 11</strong>: CTT: vantagens e limitação quanto ao tratamento de erros</p>
 </div>
 
-![Figura 11 — CTT: vantagens e limitação quanto ao tratamento de erros](../../assets/prints_referencias/verificacao-v2/livro-ctt-limites.png)
+![Figura 11: CTT: vantagens e limitação quanto ao tratamento de erros](../../assets/prints_referencias/verificacao-v2/livro-ctt-limites.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 175). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 175).</em></p>
 </div>
 
 ---

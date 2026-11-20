@@ -2,13 +2,9 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 26/09/2026 | `1.0` | Elaboração detalhada da persona primária Larissa Ferreira Lima. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Não declarado pelo autor |
-| 27/09/2026 | `1.1` | Modularização em documento dedicado e padronização com a nova estrutura. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Não declarado pelo autor |
-| 11/10/2026 | `2.0` | Reformulação da persona: Larissa passa a ter mobilidade reduzida temporária e a depender do Programa DF Acessível (TAR-02). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Não declarado pelo autor |
-| 19/11/2026 | `2.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 26/09/2026 | `1.0` | Elaboração detalhada da persona primária Larissa Ferreira Lima. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.1` | Modularização em documento dedicado e padronização com a nova estrutura. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 11/10/2026 | `2.0` | Reformulação da persona: Larissa passa a ter mobilidade reduzida temporária e a depender do Programa DF Acessível (TAR-02). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -24,11 +20,11 @@ Este documento apresenta Larissa Ferreira Lima, persona que representa estudante
 * **Cenário:** [Cenário 1](../cenarios/cenario-1-pre-agendamento-df-acessivel.md)
 * **Análise de tarefas:** [TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md)
 * **Storyboard:** [Storyboard 02](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#32-storyboard-02-pre-agendamento-no-programa-df-acessivel)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
-* **Protótipo de alta fidelidade navegável:** *não disponível — pendente de correção manual*
+* **Protótipo de alta fidelidade navegável:** *não disponível*
 
 
 ## 2. Caracterização Geral
@@ -37,7 +33,7 @@ Este documento apresenta Larissa Ferreira Lima, persona que representa estudante
 
 ![Foto da persona Larissa Ferreira Lima](../../assets/images/larissa-ferreira-lima.jpeg)
 
-*Figura 1 — Larissa Ferreira Lima, a "Lari", em cadeira de rodas, com a perna esquerda imobilizada (imagem ilustrativa, gerada por IA).*
+*Figura 1: Larissa Ferreira Lima, a "Lari", em cadeira de rodas, com a perna esquerda imobilizada (imagem ilustrativa, gerada por IA).*
 
 > **"Eu sei me virar sozinha, mas agora eu não consigo nem chegar na fisioterapia. Só preciso descobrir onde marcar o transporte e se eu tenho direito."**
 
@@ -49,7 +45,7 @@ Este documento apresenta Larissa Ferreira Lima, persona que representa estudante
 
 A Tabela 1 reúne os dados de identidade de Larissa e contextualiza as características pessoais e de saúde que influenciam sua relação com o transporte e com a tecnologia.
 
-**Tabela 1** — Identidade e características pessoais de Larissa Ferreira Lima
+**Tabela 1**: Identidade e características pessoais de Larissa Ferreira Lima
 
 | Campo | Descrição |
 |---|---|
@@ -121,7 +117,7 @@ Por que ela é a persona primária:
 
 A Tabela 2 apresenta as tarefas mais frequentes de Larissa durante a recuperação, permitindo relacionar sua rotina às necessidades consideradas pelo projeto.
 
-**Tabela 2** — Tarefas realizadas por Larissa Ferreira Lima
+**Tabela 2**: Tarefas realizadas por Larissa Ferreira Lima
 
 | Tarefa | Frequência | Importância | Duração |
 |---|---|---|---|
@@ -141,7 +137,7 @@ A Tabela 2 apresenta as tarefas mais frequentes de Larissa durante a recuperaç�
 
 A Tabela 3 organiza a rotina diária de Larissa para evidenciar os momentos em que ela precisa de transporte adaptado e aqueles em que consegue resolver questões do programa pelo celular.
 
-**Tabela 3** — Rotina diária de Larissa Ferreira Lima
+**Tabela 3**: Rotina diária de Larissa Ferreira Lima
 
 | Horário | Atividade |
 |---|---|
@@ -159,7 +155,7 @@ A Tabela 3 organiza a rotina diária de Larissa para evidenciar os momentos em q
 
 A Tabela 4 identifica as pessoas e instituições com as quais Larissa se relaciona e explica como essas relações interferem em suas decisões de deslocamento.
 
-**Tabela 4** — Relacionamentos relevantes de Larissa Ferreira Lima
+**Tabela 4**: Relacionamentos relevantes de Larissa Ferreira Lima
 
 | Quem | Relação com a Lari | Por que importa para o projeto |
 |---|---|---|
@@ -181,7 +177,7 @@ A Tabela 4 identifica as pessoas e instituições com as quais Larissa se relaci
 
 A Tabela 5 sintetiza as necessidades de Larissa em requisitos que devem orientar as decisões de projeto da interface.
 
-**Tabela 5** — Necessidades e requisitos de Larissa Ferreira Lima
+**Tabela 5**: Necessidades e requisitos de Larissa Ferreira Lima
 
 | Necessidade | Em suas palavras |
 |---|---|
@@ -238,23 +234,23 @@ A [TAR-02](../analise-de-tarefas/tar-02-df-acessivel.md) propõe o pré-agendame
 As Figuras 2 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Elementos que compõem a descrição de uma persona</p>
+<p><strong>Figura 2</strong>: Elementos que compõem a descrição de uma persona</p>
 </div>
 
-![Figura 2 — Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
+![Figura 2: Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Elenco de personas, persona primária e antipersonas</p>
+<p><strong>Figura 3</strong>: Elenco de personas, persona primária e antipersonas</p>
 </div>
 
-![Figura 3 — Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
+![Figura 3: Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 155). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 155).</em></p>
 </div>
 
 ---

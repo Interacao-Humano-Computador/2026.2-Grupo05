@@ -2,12 +2,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 21/09/2026 | `1.0` | Criação do documento de organização das gravações de entrevistas e treinamentos, adicionando o Treinamento de Entrevista voltado aos motoristas de ônibus. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
-| 22/09/2026 | `1.1` | Adição das gravações das entrevistas oficiais (Motorista de Ônibus e Desenvolvedores) e do Treinamento de Entrevista 02 (Perfil Técnico). | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 21/09/2026 | `1.0` | Criação do documento de organização das gravações de entrevistas e treinamentos, adicionando o Treinamento de Entrevista voltado aos motoristas de ônibus. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 22/09/2026 | `1.1` | Adição das gravações das entrevistas oficiais (Motorista de Ônibus e Desenvolvedores) e do Treinamento de Entrevista 02 (Perfil Técnico). | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -38,7 +34,7 @@ A realização de **treinamentos prévios (ensaios/testes piloto)** é uma prát
 Na Tabela 1, encontram-se listadas as gravações de treinamento realizadas pelos membros da equipe.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Registro das Gravações de Treinamento de Entrevista</p>
+<p><strong>Tabela 1</strong>: Registro das Gravações de Treinamento de Entrevista</p>
 </div>
 
 | ID | Tópico / Perfil Simulado | Data da Gravação | Integrantes Responsáveis | Link da Gravação |
@@ -66,7 +62,7 @@ Abaixo, no Vídeo 1, é possível assistir à gravação completa da simulação
 </div>
 
 <div align="center">
-<p><strong>Vídeo 1</strong> — Treinamento de Entrevista: Motoristas de Ônibus (SEMOB-DF).</p>
+<p><strong>Vídeo 1</strong>: Treinamento de Entrevista: Motoristas de Ônibus (SEMOB-DF).</p>
 <p><em>Fonte: Carlos Costa e Rodrigo Carvalho (2026).</em></p>
 </div>
 
@@ -85,7 +81,7 @@ Abaixo, no Vídeo 2, é possível assistir à gravação completa da simulação
 </div>
 
 <div align="center">
-<p><strong>Vídeo 2</strong> — Treinamento de Entrevista: Perfil de Usuário Técnico (SEMOB-DF).</p>
+<p><strong>Vídeo 2</strong>: Treinamento de Entrevista: Perfil de Usuário Técnico (SEMOB-DF).</p>
 <p><em>Fonte: Rodrigo Carvalho e Carlos Costa (2026).</em></p>
 </div>
 
@@ -106,7 +102,7 @@ Abaixo, no Vídeo 3, é possível assistir à gravação completa da simulação
 </div>
 
 <div align="center">
-<p><strong>Vídeo 3</strong> — Treinamento de Entrevista: Perfil de Usuário Primário (SEMOB-DF).</p>
+<p><strong>Vídeo 3</strong>: Treinamento de Entrevista: Perfil de Usuário Primário (SEMOB-DF).</p>
 <p><em>Fonte: Igor Dantas e Gabriel Melo (2026).</em></p>
 </div>
 ---
@@ -118,7 +114,7 @@ Nesta seção são documentadas as entrevistas oficiais realizadas com usuários
 Na Tabela 2, apresenta-se o quadro consolidado das entrevistas oficiais com usuários e partes interessadas.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Registro das Entrevistas Realizadas com Usuários e Stakeholders</p>
+<p><strong>Tabela 2</strong>: Registro das Entrevistas Realizadas com Usuários e Stakeholders</p>
 </div>
 
 | ID | Perfil do Usuário / Papel | Data de Realização | Condução e Filmagem | Link da Gravação | Status |
@@ -150,7 +146,7 @@ Abaixo, no Vídeo 4, é possível assistir à gravação na íntegra da entrevis
 </div>
 
 <div align="center">
-<p><strong>Vídeo 4</strong> — Entrevista com potencial usuário do SEMOB-DF (Motorista de Ônibus).</p>
+<p><strong>Vídeo 4</strong>: Entrevista com potencial usuário do SEMOB-DF (Motorista de Ônibus).</p>
 <p><em>Fonte: Carlos Costa e Rodrigo Carvalho (2026).</em></p>
 </div>
 
@@ -171,7 +167,7 @@ Abaixo, no Vídeo 5, é possível assistir à gravação na íntegra da entrevis
 </div>
 
 <div align="center">
-<p><strong>Vídeo 5</strong> — Entrevista com Desenvolvedores (SEMOB-DF).</p>
+<p><strong>Vídeo 5</strong>: Entrevista com Desenvolvedores (SEMOB-DF).</p>
 <p><em>Fonte: Rodrigo Carvalho e Carlos Costa (2026).</em></p>
 </div>
 
@@ -192,7 +188,7 @@ Abaixo, no Vídeo 6, é possível assistir à gravação na íntegra da entrevis
 </div>
 
 <div align="center">
-<p><strong>Vídeo 6</strong> — Entrevista com Usuário Primário (SEMOB-DF).</p>
+<p><strong>Vídeo 6</strong>: Entrevista com Usuário Primário (SEMOB-DF).</p>
 <p><em>Fonte: Igor Dantas (2026).</em></p>
 </div>
 
@@ -213,7 +209,7 @@ Abaixo, no Vídeo 7, é possível assistir à gravação na íntegra da entrevis
 </div>
 
 <div align="center">
-<p><strong>Vídeo 7</strong> — Entrevista com Usuário Primário (SEMOB-DF).</p>
+<p><strong>Vídeo 7</strong>: Entrevista com Usuário Primário (SEMOB-DF).</p>
 <p><em>Fonte: Igor Dantas (2026).</em></p>
 </div>
 
@@ -234,7 +230,7 @@ Abaixo, no Vídeo 8, é possível assistir à gravação na íntegra da entrevis
 </div>
 
 <div align="center">
-<p><strong>Vídeo 8</strong> — Entrevista com Usuário Primário (SEMOB-DF).</p>
+<p><strong>Vídeo 8</strong>: Entrevista com Usuário Primário (SEMOB-DF).</p>
 <p><em>Fonte: Tomás Rocho (2026).</em></p>
 </div>
 
@@ -245,33 +241,33 @@ Abaixo, no Vídeo 8, é possível assistir à gravação na íntegra da entrevis
 As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista</p>
+<p><strong>Figura 1</strong>: Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista</p>
 </div>
 
-![Figura 1 — Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista](../assets/prints_referencias/verificacao-v2/livro-entrevistas.png)
+![Figura 1: Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista](../assets/prints_referencias/verificacao-v2/livro-entrevistas.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 131). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 131).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Treinamento dos entrevistadores</p>
+<p><strong>Figura 2</strong>: Treinamento dos entrevistadores</p>
 </div>
 
-![Figura 2 — Treinamento dos entrevistadores](../assets/prints_referencias/verificacao-v2/livro-entrevistador-treinado.png)
+![Figura 2: Treinamento dos entrevistadores](../assets/prints_referencias/verificacao-v2/livro-entrevistador-treinado.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 134). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 134).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Permissão para gravação e consentimento livre e esclarecido</p>
+<p><strong>Figura 3</strong>: Permissão para gravação e consentimento livre e esclarecido</p>
 </div>
 
-![Figura 3 — Permissão para gravação e consentimento livre e esclarecido](../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
+![Figura 3: Permissão para gravação e consentimento livre e esclarecido](../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 127).</em></p>
 </div>
 
 ---

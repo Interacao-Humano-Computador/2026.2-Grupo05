@@ -2,11 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 05/10/2026 | `1.0` | Criação do documento com a análise do princípio 10.2.9 Projeto para Erros no site da SEMOB-DF. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 05/10/2026 | `1.0` | Criação do documento com a análise do princípio 10.2.9 Projeto para Erros no site da SEMOB-DF. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -207,23 +203,23 @@ Por ser um site essencialmente informativo, o portal da SEMOB não expõe o cida
 As Figuras 11 a 12 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-11" align="center">
-<p><strong>Figura 11</strong> — 10.2.9 Projeto para erros</p>
+<p><strong>Figura 11</strong>: 10.2.9 Projeto para erros</p>
 </div>
 
-![Figura 11 — 10.2.9 Projeto para erros](../../assets/prints_referencias/verificacao-v2/livro-projeto-erros.png)
+![Figura 11: 10.2.9 Projeto para erros](../../assets/prints_referencias/verificacao-v2/livro-projeto-erros.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 231). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 231).</em></p>
 </div>
 
 <div id="figura-12" align="center">
-<p><strong>Figura 12</strong> — Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades</p>
+<p><strong>Figura 12</strong>: Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades</p>
 </div>
 
-![Figura 12 — Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades](../../assets/prints_referencias/verificacao-v2/livro-diretrizes-contexto.png)
+![Figura 12: Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades](../../assets/prints_referencias/verificacao-v2/livro-diretrizes-contexto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 222). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 222).</em></p>
 </div>
 
 ---

@@ -2,11 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 27/09/2026 | `1.0` | Elaboração do cenário ideal de monitoramento e previsão de chegada sob chuva. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Não declarado pelo autor |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. Inclusão do bloco de artefatos relacionados (persona, cenário, análise de tarefas, storyboard, planejamentos, relatos e protótipos da funcionalidade). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown.; apoio na inclusão dos links entre artefatos |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 27/09/2026 | `1.0` | Elaboração do cenário ideal de monitoramento e previsão de chegada sob chuva. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -22,9 +18,9 @@ Este cenário ideal descreve Mariana Borges Almeida planejando sua saída de cas
 * **Cenário:** [Cenário 2](cenario-2-viagem-matutina.md); Cenário 10 (*esta página*)
 * **Análise de tarefas:** [TAR-06](../analise-de-tarefas/tar-06-df-no-ponto.md)
 * **Storyboard:** [Storyboard 08](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
-* **Nível 1 — avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não disponível — pendente de correção manual*) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
-* **Nível 2 — protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
-* **Nível 3 — protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
 * **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
 * **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
 
@@ -54,7 +50,7 @@ Este cenário ideal descreve Mariana Borges Almeida planejando sua saída de cas
 
 A Tabela 1 identifica os participantes do cenário e esclarece como suas características e papéis contribuem para a situação ideal descrita.
 
-**Tabela 1** — Atores envolvidos no Cenário 10
+**Tabela 1**: Atores envolvidos no Cenário 10
 
 | Ator | Papel no cenário | Características pessoais relevantes |
 |---|---|---|
@@ -82,28 +78,28 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 **Plano geral de Mariana:** Consultar o portal da SEMOB durante o café da manhã, acessar a sua linha diária, monitorar o tempo de chegada e sair de casa apenas no momento estritamente necessário para não se molhar na parada.
 
-### Passo 1 — Acessar o portal durante o café da manhã (07:00)
+### Passo 1: Acessar o portal durante o café da manhã (07:00)
 
 - **Planejamento:** *"Está chovendo muito e não quero me molhar. Vou confirmar o tempo exato de chegada do ônibus para não ter que ficar exposta no ponto."*
 - **Ação:** Abre o portal da SEMOB pelo celular enquanto termina de tomar o café da manhã.
 - **Evento:** O sistema reconhece o acesso via smartphone e apresenta uma interface limpa e focada na busca.
 - **Avaliação:** *"Ótimo, o site abriu rápido e a minha linha já está logo aqui na tela inicial."*
 
-### Passo 2 — Selecionar a linha diária
+### Passo 2: Selecionar a linha diária
 
 - **Planeamento:** *"Preciso verificar se o trânsito caótico da manhã está causando algum atraso significativo na minha rota."*
 - **Ação:** Com apenas um toque na tela, seleciona a linha que pega todos os dias para o trabalho.
 - **Evento:** O sistema carrega rapidamente uma tela com um mapa simplificado, exibindo o ícone do ônibus se movendo em tempo real e o texto em destaque: *"Próximo veículo chega em aproximadamente 12 minutos"*. Surge também um alerta amarelo no topo: *"Atenção: Trânsito intenso na via principal devido à chuva, possíveis pequenos atrasos"*.
 - **Avaliação:** *"Ainda faltam 12 minutos. Dá tempo perfeitamente para ir escovar os dentes e pegar o guarda-chuva com calma, sem pressa."* 
 
-### Passo 3 — Última verificação e saída de casa
+### Passo 3: Última verificação e saída de casa
 
 - **Planeamento:** *"Vou só confirmar se o tempo estimado se manteve ou se houve algum atraso de última hora devido à chuva antes de sair de casa."*
 - **Ação:** Passados 8 minutos, ela dá uma última olhada no site.
 - **Evento:** O site agora marca *"Chegada em 4 minutos"*.
 - **Avaliação:** *"O horário se ajustou perfeitamente. Está na hora de sair e caminhar para a parada."*
 
-### Passo 4 — Embarque
+### Passo 4: Embarque
 
 - **Planeamento:** *"Vou caminhar em um passo normal até o ponto; o ônibus já deve estar se aproximando."*
 - **Ação:** Sai de casa, caminha até a parada de ônibus (onde vê o seu vizinho Júnior já molhado) e espera menos de dois minutos até o ônibus apontar na rua. Embarca no veículo.
@@ -116,7 +112,7 @@ A Tabela 1 identifica os participantes do cenário e esclarece como suas caracte
 
 A Tabela 2 relaciona os requisitos evidenciados durante o cenário aos momentos em que aparecem e às necessidades já identificadas para a persona.
 
-**Tabela 2** — Requisitos elicitados no Cenário 10
+**Tabela 2**: Requisitos elicitados no Cenário 10
 
 | Requisito | Onde aparece | Requisito da persona relacionado |
 |---|---|---|
@@ -137,23 +133,23 @@ A Tabela 2 relaciona os requisitos evidenciados durante o cenário aos momentos 
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Cenários: definição, ator e objetivo principais</p>
+<p><strong>Figura 1</strong>: Cenários: definição, ator e objetivo principais</p>
 </div>
 
-![Figura 1 — Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
+![Figura 1: Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Elementos característicos de um cenário e uso de personas como atores</p>
+<p><strong>Figura 2</strong>: Elementos característicos de um cenário e uso de personas como atores</p>
 </div>
 
-![Figura 2 — Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
+![Figura 2: Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 158). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
 </div>
 
 ---

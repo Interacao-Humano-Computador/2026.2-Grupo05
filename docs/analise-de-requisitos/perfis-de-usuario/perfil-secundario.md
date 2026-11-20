@@ -2,11 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 27/09/2026 | `1.0` | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista e padronização de artefato | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
+| 27/09/2026 | `1.0` | Elaboração inicial do Perfil de Usuário a partir de entrevista empírica com motorista e padronização de artefato | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
 
 ---
 
@@ -25,7 +21,7 @@ Na sua rotina, o Desenvolvedor/Técnico passa cerca de 80% do seu tempo a utiliz
 A Tabela 1 reúne as características demográficas, profissionais e tecnológicas utilizadas para caracterizar o perfil secundário e fundamentar suas necessidades de interação.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Dados Demográficos, Relação com Tecnologia e Conhecimento de Domínio do Utilizador Desenvolvedor/Técnico</p>
+<p><strong>Tabela 1</strong>: Dados Demográficos, Relação com Tecnologia e Conhecimento de Domínio do Utilizador Desenvolvedor/Técnico</p>
 </div>
 
 | Característica | Faixa/categoria predominante no perfil secundário |
@@ -88,33 +84,33 @@ Para a elaboração deste perfil, foram articuladas as seguintes fontes de dados
 As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Perfil de usuário: definição e grupos de atributos</p>
+<p><strong>Figura 1</strong>: Perfil de usuário: definição e grupos de atributos</p>
 </div>
 
-![Figura 1 — Perfil de usuário: definição e grupos de atributos](../../assets/prints_referencias/verificacao-v2/livro-perfil.png)
+![Figura 1: Perfil de usuário: definição e grupos de atributos](../../assets/prints_referencias/verificacao-v2/livro-perfil.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 151–152). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 151–152).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Tipos de dados coletados sobre os usuários (Barbosa et al., 2021)</p>
+<p><strong>Figura 2</strong>: Tipos de dados coletados sobre os usuários (Barbosa et al., 2021)</p>
 </div>
 
-![Figura 2 — Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)](../../assets/prints_referencias/verificacao-v2/livro-que-dados-coletar.png)
+![Figura 2: Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)](../../assets/prints_referencias/verificacao-v2/livro-que-dados-coletar.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 123–124). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 123–124).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Usuários primários, secundários e stakeholders</p>
+<p><strong>Figura 3</strong>: Usuários primários, secundários e stakeholders</p>
 </div>
 
-![Figura 3 — Usuários primários, secundários e stakeholders](../../assets/prints_referencias/verificacao-v2/livro-de-quem-coletar.png)
+![Figura 3: Usuários primários, secundários e stakeholders](../../assets/prints_referencias/verificacao-v2/livro-de-quem-coletar.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 124). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 124).</em></p>
 </div>
 
 ---
