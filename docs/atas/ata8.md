@@ -3,7 +3,6 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 03/11/2026 | `1.0` | Criação da ata da Reunião 08 referente à inspeção dos artefatos da Entrega 5 do Grupo +1 (Grupo 06), com base na Lista de Verificação 5. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Correção das páginas e seções citadas do livro da disciplina (edição de 2021). | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
 
 ---
 
@@ -40,7 +39,7 @@ A reunião teve como foco a verificação cruzada dos artefatos da **Entrega 5**
 
 Os resultados apresentados a seguir retratam fielmente a inspeção conduzida pelo Grupo 05 sobre os artefatos da Entrega 5 do Grupo +1 (Grupo 06):
 
-**Tabela 1** — Resultados da Inspeção da Entrega 5 do Grupo +1 (Grupo 06)
+**Tabela 1**: Resultados da Inspeção da Entrega 5 do Grupo +1 (Grupo 06)
 
 | Nº | Pergunta de Verificação da Entrega 5 | Avaliação Registrada | Evidência / Parecer Técnico |
 | :---: | :--- | :---: | :--- |
@@ -101,33 +100,33 @@ O registro audiovisual integral da sessão de inspeção da Entrega 5 do Grupo +
 As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
 </div>
 
-![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+<p><strong>Figura 2</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
 </div>
 
-![Figura 2 — 11.7.2 Teste-piloto: objetivo e descarte dos dados](../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+![Figura 2: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
+<p><strong>Figura 3</strong>: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
 </div>
 
-![Figura 3 — Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
+![Figura 3: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 267–288). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 267–288).</em></p>
 </div>
 
 ---

@@ -1,17 +1,4 @@
-## Histórico de Versão e Contribuição
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
-| :---: | :---: | :--- | :--- | :--- | :--- |
-| 05/09/2026 | `1.0` | Estruturação e publicação inicial da documentação | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Não declarado pelo autor |
-| 06/09/2026 | `1.1` | Refinando elementos visuais e de acessibilidade | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Não declarado pelo autor |
-| 17/09/2026 | `1.2` | Adição do atalho de acesso rápido para a página de Contribuições | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Não declarado pelo autor |
-| 19/11/2026 | `1.3` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
-
-!!! warning "Observação para correção manual"
-    A coluna de declaração de IA foi preenchida com *Não declarado pelo autor* nas versões em que o artefato original não informava o uso de IA. O autor de cada versão deve confirmar se usou IA (somente Claude ou Google Gemini) e completar a célula.
-
 ---
-
 hide:
   - navigation
   - toc
@@ -105,28 +92,14 @@ A Figura 1 apresenta os integrantes do Grupo 05.
 
 </div>
 
-<p class="caption">Figura 1 — Integrantes do Grupo 05.</p>
+<p class="caption">Figura 1: Integrantes do Grupo 05.</p>
 <p class="source">Fonte: fotos dos próprios integrantes (2026).</p>
 
----
+## Histórico de versão
 
-## Fotos de Referência
-
-A Figura 2 mostra o trecho que fundamenta este artefato, recortado e grifado em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
-
-<div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
-</div>
-
-![Figura 2 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
-
-<div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
-</div>
-
----
-
-## Referências Bibliográficas
-
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/09/2026 | `1.0` | Estruturação e publicação inicial da documentação | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 06/09/2026 | `1.1` | Refinando elementos visuais e de acessibilidade | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 17/09/2026 | `1.2` | Adição do atalho de acesso rápido para a página de Contribuições | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 19/11/2026 | `1.3` | Padronização geral dos artefatos e da documentação do projeto | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Arthur Mariani](https://github.com/arthur-mariani) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: apoio na revisão textual e na formatação do artefato. |

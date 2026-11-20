@@ -2,9 +2,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 05/09/2026 | `1.0` | Seleção do sistema para avaliação. | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Carlos Henrique](https://github.com/carloshfgit) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 24/09/2026 | `1.1` | Revisão e organização do artefato pós feedback. | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 05/09/2026 | `1.0` | Seleção do sistema para avaliação. | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Carlos Henrique](https://github.com/carloshfgit) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 24/09/2026 | `1.1` | Revisão e organização do artefato pós feedback. | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
 ---
 
@@ -65,23 +64,23 @@ Em síntese, se concluiu que o portal da SEMOB-DF foi selecionado por ser o úni
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Limitações dos arquivos de log e análise competitiva</p>
+<p><strong>Figura 1</strong>: Limitações dos arquivos de log e análise competitiva</p>
 </div>
 
-![Figura 1 — Limitações dos arquivos de log e análise competitiva](../assets/prints_referencias/verificacao-v2/livro-log-competitiva.png)
+![Figura 1: Limitações dos arquivos de log e análise competitiva](../assets/prints_referencias/verificacao-v2/livro-log-competitiva.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 125). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 125).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Itens do Planejamento Geral do projeto (Entrega 1)</p>
+<p><strong>Figura 2</strong>: Itens do Planejamento Geral do projeto (Entrega 1)</p>
 </div>
 
-![Figura 2 — Itens do Planejamento Geral do projeto (Entrega 1)](../assets/prints_referencias/verificacao-v2/plano-entrega1-planejamento.png)
+![Figura 2: Itens do Planejamento Geral do projeto (Entrega 1)](../assets/prints_referencias/verificacao-v2/plano-entrega1-planejamento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8).</em></p>
 </div>
 
 ---

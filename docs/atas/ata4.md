@@ -3,7 +3,6 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 05/10/2026 | `1.0` | Elaboração da ata da Reunião 04, realizada em 29/09/2026, com os resultados da inspeção do Grupo 03 e da autoinspeção do Grupo 05. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Rodrigo Carvalho Barbosa](https://github.com/RodrigoCBarbosa) | Google Gemini |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
 
 ---
 
@@ -129,23 +128,23 @@ A data e o horário da próxima reunião não constam nos registros fornecidos.
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
 </div>
 
-![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
+<p><strong>Figura 2</strong>: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
 </div>
 
-![Figura 2 — Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
+![Figura 2: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 267–288). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 267–288).</em></p>
 </div>
 
 ---
@@ -153,4 +152,4 @@ As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e 
 ## 7. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
-* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador — Turma 01**. Versão 1. Universidade de Brasília, Campus UnB Gama, 2º semestre de 2026. Lista de Verificação da Entrega 2, pp. 9–11; critérios gerais de desenvolvimento, pp. 8–9. Disponível no projeto: [Plano de Ensino da disciplina](../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
+* SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Versão 1. Universidade de Brasília, Campus UnB Gama, 2º semestre de 2026. Lista de Verificação da Entrega 2, pp. 9–11; critérios gerais de desenvolvimento, pp. 8–9. Disponível no projeto: [Plano de Ensino da disciplina](../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

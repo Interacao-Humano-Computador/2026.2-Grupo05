@@ -2,11 +2,10 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 05/09/2026 | `1.0` | Tabela de ferramentas utilizadas no projeto. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Tomas Garcia](https://github.com/TomasRocho) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 19/09/2026 | `2.0` | Acrescimo de novas ferramentas que serão utilizadas durante o desenvolvimento do projeto | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 20/09/2026 | `2.1` | Acrescimo de etapas onde serão utilizadas as ferramentas | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 10/11/2026 | `2.2` | Inclusão do Claude Code (Anthropic) e ajuste da descrição do Figma, porque o protótipo de alta fidelidade da TAR-06 passou a ser feito em HTML navegável. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 19/11/2026 | `2.3` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. Inclusão da logo do Claude na Tabela 1. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 05/09/2026 | `1.0` | Tabela de ferramentas utilizadas no projeto. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Tomas Garcia](https://github.com/TomasRocho) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 19/09/2026 | `2.0` | Acrescimo de novas ferramentas que serão utilizadas durante o desenvolvimento do projeto | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 20/09/2026 | `2.1` | Acrescimo de etapas onde serão utilizadas as ferramentas | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 10/11/2026 | `2.2` | Inclusão do Claude Code (Anthropic) e ajuste da descrição do Figma, porque o protótipo de alta fidelidade da TAR-06 passou a ser feito em HTML navegável. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
 ---
 
@@ -46,23 +45,23 @@ A escolha dessas plataformas levou em consideração a acessibilidade, a eficiê
 As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Itens do Planejamento Geral do projeto (Entrega 1)</p>
+<p><strong>Figura 1</strong>: Itens do Planejamento Geral do projeto (Entrega 1)</p>
 </div>
 
-![Figura 1 — Itens do Planejamento Geral do projeto (Entrega 1)](../assets/prints_referencias/verificacao-v2/plano-entrega1-planejamento.png)
+![Figura 1: Itens do Planejamento Geral do projeto (Entrega 1)](../assets/prints_referencias/verificacao-v2/plano-entrega1-planejamento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+<p><strong>Figura 2</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
 </div>
 
-![Figura 2 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+![Figura 2: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
 </div>
 
 ---

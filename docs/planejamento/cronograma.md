@@ -2,16 +2,12 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 05/09/2026 | `1.0` | Elaboração e estruturação da página de Cronogramas e Fundamentação Teórica. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 06/09/2026 | `1.1` | Adição da atividade de revisão e ajustes nos artefatos pós-feedback dos monitores/professor em todas as tabelas de cronograma. | [Carlos](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 06/09/2026 | `1.2` | Remoção de tags de citação textual nas tabelas do cronograma. | [Carlos](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 17/09/2026 | `1.3` | Correção das imagens e cronogramas | [Igor](https://github.com/IgorDARAUJO) | [Gabriel](https://github.com/gabriellcardone-06) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 26/09/2026 | `1.4` | Correção das atribuições de tarefas | [Igor](https://github.com/IgorDARAUJO) | [Arthur](https://github.com/arthur-mariani) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 19/11/2026 | `1.5` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 05/09/2026 | `1.0` | Elaboração e estruturação da página de Cronogramas e Fundamentação Teórica. | [Igor Dantas](https://github.com/IgorDARAUJO) | [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 06/09/2026 | `1.1` | Adição da atividade de revisão e ajustes nos artefatos pós-feedback dos monitores/professor em todas as tabelas de cronograma. | [Carlos](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 06/09/2026 | `1.2` | Remoção de tags de citação textual nas tabelas do cronograma. | [Carlos](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 17/09/2026 | `1.3` | Correção das imagens e cronogramas | [Igor](https://github.com/IgorDARAUJO) | [Gabriel](https://github.com/gabriellcardone-06) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 26/09/2026 | `1.4` | Correção das atribuições de tarefas | [Igor](https://github.com/IgorDARAUJO) | [Arthur](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
-
-!!! warning "Observação para correção manual"
-    A fundamentação no SWEBOK v4.0 (figuras e texto) foi retirada por não ser referência do livro da disciplina nem do professor. O texto foi reescrito com base no Plano de Ensino e em Barbosa et al. (2021, p. 105). Revisar a redação.
 
 ---
 
@@ -35,7 +31,6 @@ Na Tabela 1, tem-se a visão macro do planejamento do projeto, englobando todas 
 | **6** | Relato (Prot. Papel) e Planej. Avaliação do Protótipo de Alta Fidelidade | 26/10 | 03/11 | 01/11 | 02/11 a 03/11 | 04/11 a 09/11 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
 | **7** | Relato dos Resultados do Protótipo de Alta Fidelidade | 04/11 | 15/11 | 13/11 | 14/11 a 15/11 | 16/11 a 21/11 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
 | **8** | Verificação dos Artefatos | 16/11 | 24/11 | 22/11 | 23/11 a 24/11 | 25/11 a 29/11 | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
-| **Final** | Apresentação do Projeto Final (Seminário) | 25/11 | 30/11 | 29/11 | Ao vivo | N/A | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas | Carlos, Rodrigo, Igor, Gabriel, Lucas, Arthur, Tomas |
 
 *Fonte: Igor Dantas Araújo.*
 
@@ -263,23 +258,23 @@ A Tabela 10 apresenta o cronograma planejado da Entrega 8, com as atividades, re
 As Figuras 1 e 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do Plano de Ensino do professor (SALES, 2026) e do livro da disciplina (BARBOSA et al., 2021).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Conteúdo das Entregas 5, 6 e 7 no cronograma do Plano de Ensino</p>
+<p><strong>Figura 1</strong>: Conteúdo das Entregas 5, 6 e 7 no cronograma do Plano de Ensino</p>
 </div>
 
-![Figura 1 — Conteúdo das Entregas 5, 6 e 7 no cronograma do Plano de Ensino](../assets/prints_referencias/verificacao-v2/plano-cronograma-entregas-5-7.png)
+![Figura 1: Conteúdo das Entregas 5, 6 e 7 no cronograma do Plano de Ensino](../assets/prints_referencias/verificacao-v2/plano-cronograma-entregas-5-7.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 5). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 5).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Simplificações aceitáveis em protótipos e design iterativo</p>
+<p><strong>Figura 2</strong>: Simplificações aceitáveis em protótipos e design iterativo</p>
 </div>
 
-![Figura 2 — Simplificações aceitáveis em protótipos e design iterativo](../assets/prints_referencias/verificacao-v2/livro-iteracao-prototipos.png)
+![Figura 2: Simplificações aceitáveis em protótipos e design iterativo](../assets/prints_referencias/verificacao-v2/livro-iteracao-prototipos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 105). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 105).</em></p>
 </div>
 
 ---

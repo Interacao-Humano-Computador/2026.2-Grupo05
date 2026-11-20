@@ -2,8 +2,7 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 05/09/2026 | `1.0` | Justificação da proposta de processo de design escolhida. | [Tomas Garcia](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 19/11/2026 | `1.1` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 05/09/2026 | `1.0` | Justificação da proposta de processo de design escolhida. | [Tomas Garcia](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
 ---
 
@@ -56,33 +55,33 @@ A partir dos problemas encontrados nessa análise inicial, o grupo retorna à pr
 As Figuras 2 a 4 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design</p>
+<p><strong>Figura 2</strong>: Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design</p>
 </div>
 
-![Figura 2 — Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design](../assets/prints_referencias/verificacao-v2/livro-mayhew.png)
+![Figura 2: Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design](../assets/prints_referencias/verificacao-v2/livro-mayhew.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 105–107). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 105–107).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Simplificações aceitáveis em protótipos e design iterativo</p>
+<p><strong>Figura 3</strong>: Simplificações aceitáveis em protótipos e design iterativo</p>
 </div>
 
-![Figura 3 — Simplificações aceitáveis em protótipos e design iterativo](../assets/prints_referencias/verificacao-v2/livro-iteracao-prototipos.png)
+![Figura 3: Simplificações aceitáveis em protótipos e design iterativo](../assets/prints_referencias/verificacao-v2/livro-iteracao-prototipos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 105). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 105).</em></p>
 </div>
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — Itens de conteúdo da disciplina (Entrega 1)</p>
+<p><strong>Figura 4</strong>: Itens de conteúdo da disciplina (Entrega 1)</p>
 </div>
 
-![Figura 4 — Itens de conteúdo da disciplina (Entrega 1)](../assets/prints_referencias/verificacao-v2/plano-entrega1-conteudo.png)
+![Figura 4: Itens de conteúdo da disciplina (Entrega 1)](../assets/prints_referencias/verificacao-v2/plano-entrega1-conteudo.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 9).</em></p>
 </div>
 
 ---

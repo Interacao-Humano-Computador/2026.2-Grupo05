@@ -2,9 +2,8 @@
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 05/09/2026 | `1.0` | Criação da documentação de escolha e motivação do site selecionado | [Carlos Henrique](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 06/09/2026 | `1.1` | Inserção e referenciação das figuras de evidências heurísticas | [Carlos Henrique](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini — auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
+| 05/09/2026 | `1.0` | Criação da documentação de escolha e motivação do site selecionado | [Carlos Henrique](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 06/09/2026 | `1.1` | Inserção e referenciação das figuras de evidências heurísticas | [Carlos Henrique](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
 ---
 
@@ -135,23 +134,23 @@ A decisão de escolha foi respaldada pelos achados de uma inspeção heurística
 As Figuras 6 a 7 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong> — Limitações dos arquivos de log e análise competitiva</p>
+<p><strong>Figura 6</strong>: Limitações dos arquivos de log e análise competitiva</p>
 </div>
 
-![Figura 6 — Limitações dos arquivos de log e análise competitiva](../assets/prints_referencias/verificacao-v2/livro-log-competitiva.png)
+![Figura 6: Limitações dos arquivos de log e análise competitiva](../assets/prints_referencias/verificacao-v2/livro-log-competitiva.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 125). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 125).</em></p>
 </div>
 
 <div id="figura-7" align="center">
-<p><strong>Figura 7</strong> — Itens do Planejamento Geral do projeto (Entrega 1)</p>
+<p><strong>Figura 7</strong>: Itens do Planejamento Geral do projeto (Entrega 1)</p>
 </div>
 
-![Figura 7 — Itens do Planejamento Geral do projeto (Entrega 1)](../assets/prints_referencias/verificacao-v2/plano-entrega1-planejamento.png)
+![Figura 7: Itens do Planejamento Geral do projeto (Entrega 1)](../assets/prints_referencias/verificacao-v2/plano-entrega1-planejamento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8).</em></p>
 </div>
 
 ---

@@ -4,7 +4,6 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 07/09/2026 | `1.0` | Criação da ata da Reunião 02 (Inspeção da Entrega 1 do Grupo 06). | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
 | 26/09/2026 | `1.1` | Ajustes técnicos na ata: padronização do cabeçalho com identificação de inspeção, links dos participantes, especificação nominal de fonte, reposicionamento das imagens de referência, retificação do parecer da inspeção com apontamento de não conformidade no Item 22 e alinhamento da declaração de uso de IA. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
-| 19/11/2026 | `1.2` | Padronização da estrutura (histórico no topo, conteúdo, fotos de referência e referências ao final); declaração de IA levada para o histórico; retirada das referências que não são o livro da disciplina nem material do professor; inclusão de fotos de referência grifadas. | [Gabriel Melo](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) — apoio na padronização da estrutura do artefato, na revisão das referências e na formatação em Markdown. |
 
 ---
 
@@ -88,60 +87,60 @@ A próxima reunião da equipe está prevista para o dia **26/09/2026**, às **20
 As Figuras 1 a 6 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
 
 <div id="figura-1" align="center">
-<p><strong>Figura 1</strong> — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
 </div>
 
-![Figura 1 — Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
 </div>
 
 <div id="figura-2" align="center">
-<p><strong>Figura 2</strong> — Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
+<p><strong>Figura 2</strong>: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
 </div>
 
-![Figura 2 — Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
+![Figura 2: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 267–288). Recorte e grifo: [Gabriel Melo](https://github.com/gabriellcardone-06) (2026).</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 267–288).</em></p>
 </div>
 
 <div id="figura-3" align="center">
-<p><strong>Figura 3</strong> — Itens da lista de verificação de Planejamento Geral do Projeto</p>
+<p><strong>Figura 3</strong>: Itens da lista de verificação de Planejamento Geral do Projeto</p>
 </div>
 
-![Figura 3 — Itens da lista de verificação de Planejamento Geral do Projeto](../assets/prints_referencias/inspecao-etapa1-planejamento.png)
+![Figura 3: Itens da lista de verificação de Planejamento Geral do Projeto](../assets/prints_referencias/inspecao-etapa1-planejamento.png)
 
 <div align="center">
 <p><em>Fonte: SALES (2026, Plano de Ensino, p. 8).</em></p>
 </div>
 
 <div id="figura-4" align="center">
-<p><strong>Figura 4</strong> — Itens da lista de verificação de Desenvolvimento do Projeto (Parte 1)</p>
+<p><strong>Figura 4</strong>: Itens da lista de verificação de Desenvolvimento do Projeto (Parte 1)</p>
 </div>
 
-![Figura 4 — Itens da lista de verificação de Desenvolvimento do Projeto (Parte 1)](../assets/prints_referencias/inspecao-etapa1-desenvolvimento-1.png)
+![Figura 4: Itens da lista de verificação de Desenvolvimento do Projeto (Parte 1)](../assets/prints_referencias/inspecao-etapa1-desenvolvimento-1.png)
 
 <div align="center">
 <p><em>Fonte: SALES (2026, Plano de Ensino, p. 8).</em></p>
 </div>
 
 <div id="figura-5" align="center">
-<p><strong>Figura 5</strong> — Itens da lista de verificação de Desenvolvimento do Projeto (Parte 2)</p>
+<p><strong>Figura 5</strong>: Itens da lista de verificação de Desenvolvimento do Projeto (Parte 2)</p>
 </div>
 
-![Figura 5 — Itens da lista de verificação de Desenvolvimento do Projeto (Parte 2)](../assets/prints_referencias/inspecao-etapa1-desenvolvimento-2.png)
+![Figura 5: Itens da lista de verificação de Desenvolvimento do Projeto (Parte 2)](../assets/prints_referencias/inspecao-etapa1-desenvolvimento-2.png)
 
 <div align="center">
 <p><em>Fonte: SALES (2026, Plano de Ensino, p. 9).</em></p>
 </div>
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong> — Itens da lista de verificação de Conteúdo da Disciplina</p>
+<p><strong>Figura 6</strong>: Itens da lista de verificação de Conteúdo da Disciplina</p>
 </div>
 
-![Figura 6 — Itens da lista de verificação de Conteúdo da Disciplina](../assets/prints_referencias/inspecao-etapa1-conteudo.png)
+![Figura 6: Itens da lista de verificação de Conteúdo da Disciplina](../assets/prints_referencias/inspecao-etapa1-conteudo.png)
 
 <div align="center">
 <p><em>Fonte: SALES (2026, Plano de Ensino, p. 9).</em></p>
