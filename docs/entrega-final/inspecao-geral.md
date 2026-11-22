@@ -10,7 +10,7 @@
 
 ## 1. Introdução
 
-Este documento consolida os resultados da inspeção geral dos artefatos das Entregas 1 a 7 do Grupo 05. A avaliação utilizou as [listas de verificação versão 2.0](../verificacao/index.md), que organizam os critérios de desenvolvimento do projeto (D), os itens definidos no Plano de Ensino (C) e os itens elaborados pelo grupo (G).
+Este documento consolida os resultados da inspeção geral dos artefatos das Entregas 1 a 7 do Grupo 05. A inspeção foi realizada com base nos princípios do método de Fagan, que estrutura a revisão de artefatos por critérios explícitos, papéis definidos, registro de defeitos, retrabalho e acompanhamento das correções (FAGAN, 1976). A avaliação utilizou as [listas de verificação versão 2.0](../verificacao/index.md), que organizam os critérios de desenvolvimento do projeto (D), os itens definidos no Plano de Ensino (C) e os itens elaborados pelo grupo (G).
 
 Foram incluídos neste relato somente os critérios classificados como **Não conforme** ou **Incompleto**. Os demais critérios foram considerados conformes durante a inspeção e, por isso, não aparecem nas tabelas de achados.
 
@@ -31,7 +31,7 @@ Como o grupo possui sete integrantes, algumas fases contêm sete artefatos corre
 
 ### 2.1 Organização baseada em Fagan
 
-A inspeção segue os princípios da inspeção formal de Fagan: planejamento da verificação, preparação dos avaliadores com as listas, exame dos critérios, registro dos achados, retrabalho e acompanhamento das correções. As listas de verificação funcionaram como instrumento de preparação e exame; este relato consolida os defeitos identificados e orienta o retrabalho.
+Fagan (1976) organiza a inspeção em planejamento, visão geral, preparação, reunião de inspeção, retrabalho e acompanhamento. Nesta inspeção, o método foi adaptado ao contexto dos artefatos de IHC: as listas forneceram os critérios de exame, a reunião registrada consolidou as classificações e este relato registra os achados e orienta o retrabalho.
 
 <div align="center">
 <p><strong>Tabela 2</strong>: Papéis na inspeção geral conforme o método de Fagan</p>
@@ -47,6 +47,22 @@ A inspeção segue os princípios da inspeção formal de Fagan: planejamento da
 
 <div align="center">
 <p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir da distribuição de funções declarada pelos participantes.</em></p>
+</div>
+
+<div align="center">
+<p><strong>Quadro 1</strong>: Comparação entre a inspeção de Fagan e a aplicação no Grupo 05</p>
+</div>
+
+| Etapa de Fagan | Previsão teórica | Aplicação na inspeção geral |
+| :--- | :--- | :--- |
+| Planejamento | Definir escopo, participantes, papéis e critérios de entrada. | O escopo abrangeu todos os artefatos produzidos no projeto, das Entregas 1 a 7. As listas v2.0 e os papéis de Fagan delimitaram a inspeção. |
+| Visão geral e preparação | Apresentar o artefato e permitir que os inspetores compreendam os critérios antes do exame. | As listas e suas referências foram consultadas antes da checagem dos artefatos. |
+| Reunião de inspeção | Identificar e registrar defeitos, sem deslocar o foco para a solução durante o exame. | A gravação registra a conferência dos critérios e as classificações Conforme, Não conforme ou Incompleto. |
+| Retrabalho | O autor corrige os defeitos registrados. | As tabelas de achados e de prioridades indicam os encaminhamentos de correção, organizados no cronograma de retrabalho. |
+| Acompanhamento | Verificar se as correções foram implementadas corretamente. | A reaplicação dos critérios registrados na seção 6 foi definida como próxima verificação. |
+
+<div align="center">
+<p><em>Fonte: adaptado de Fagan (1976).</em></p>
 </div>
 
 ### 2.2 Gravação da inspeção geral
@@ -66,7 +82,7 @@ Não foi produzida rastreabilidade por artefato individual neste relato. Para is
 
 ## 3. Visão geral dos resultados
 
-Foram registradas **20 ocorrências**: 12 não conformidades (60%) e 8 itens incompletos (40%).
+Foram registradas **20 ocorrências**: 12 não conformidades (60%) e 8 itens incompletos (40%). A consolidação e a análise da frequência dos tipos de achado seguem a orientação de Fagan (1976) de usar os resultados da inspeção para orientar a melhoria do processo.
 
 <div align="center" markdown="1">
 
@@ -212,13 +228,33 @@ As ocorrências mostram três frentes de correção. A primeira é transversal: 
 
 <div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir da recorrência e do impacto dos critérios inspecionados.</em></p></div>
 
+### 5.1 Cronograma de retrabalho
+
+O cronograma abaixo operacionaliza o retrabalho previsto na inspeção de Fagan. Os autores dos artefatos executam as correções; o moderador, o relator e os inspetores apoiam a verificação e o registro do resultado.
+
+<div align="center">
+<p><strong>Tabela 12</strong>: Cronograma de retrabalho e acompanhamento</p>
+</div>
+
+| Data | Atividade | Critérios ou entregas envolvidos | Responsáveis | Resultado esperado |
+| :---: | :--- | :--- | :--- | :--- |
+| 23/11 | Revisar a padronização editorial e o cronograma executado. | D4 e D6 das Entregas 2, 4, 5, 6 e 7. | Autores dos artefatos inspecionados. | Tabelas, imagens, fontes, chamadas e cronogramas atualizados. |
+| 24/11 | Corrigir os achados da Entrega 1 e do Guia de Estilo. | E1 G3; E3 C17 e G1. | Autores dos artefatos inspecionados. | Comparação de sites e diretrizes de design completadas com evidências. |
+| 25/11 | Completar o planejamento da avaliação e os registros éticos. | E4 D9 e G7; E6 G7. | Autores dos artefatos inspecionados. | Vídeo, cronograma de avaliação e documentação ética regularizados. |
+| 26/11 | Ajustar o protótipo e o relato de alta fidelidade. | E7 G1, G3, G5, G6 e G7. | Autores dos artefatos inspecionados. | Protótipo autônomo, aderente ao Guia de Estilo, e relato completo. |
+| 27/11 | Revisar os artefatos corrigidos e consolidar as evidências. | Todos os critérios registrados neste relato. | Moderador, relator e inspetores. | Registro atualizado das correções e das evidências consultadas. |
+| 28/11 | Realizar o acompanhamento da inspeção de Fagan. | Todos os critérios registrados neste relato. | Moderador, relator, inspetores e autores dos artefatos. | Reaplicação dos critérios e encerramento ou abertura de pendências remanescentes. |
+
+<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir dos achados e do método de Fagan.</em></p></div>
+
 ## 6. Próxima verificação
 
-Após o retrabalho, recomenda-se reaplicar apenas os critérios registrados neste relato, atualizando a situação de cada um para **Conforme**, **Não conforme** ou **Incompleto**. A nova aplicação deve registrar a versão dos artefatos verificados, a data, os avaliadores e as evidências consultadas, seguindo o modelo de registro presente nas listas de verificação.
+Após o retrabalho, recomenda-se reaplicar apenas os critérios registrados neste relato, atualizando a situação de cada um para **Conforme**, **Não conforme** ou **Incompleto**. Essa confirmação corresponde ao acompanhamento previsto por Fagan (1976). A nova aplicação deve registrar a versão dos artefatos verificados, a data, os avaliadores e as evidências consultadas, seguindo o modelo de registro presente nas listas de verificação.
 
 ---
 
 ## Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
+* FAGAN, Michael E. **Design and code inspections to reduce errors in program development**. *IBM Systems Journal*, v. 15, n. 3, p. 182–211, 1976. DOI: [10.1147/sj.153.0182](https://doi.org/10.1147/sj.153.0182).
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [Plano de Ensino (PDF)](../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).
