@@ -3,6 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 02/11/2026 | `1.0` | Elaboração da lista de verificação do planejamento da avaliação e do planejamento do relato de resultados do protótipo de alta fidelidade (publicada em [verif6.md](../verif6.md)). | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
+| 22/11/2026 | `2.1` | Redução dos itens do grupo para um item por integrante (G1–G7, renumerados); Itens do Desenvolvimento do Projeto (D1–D11) mantidos sem alteração; remoção das figuras que só fundamentavam itens retirados; atualização da tabela de contribuição e da rastreabilidade. | [Gabriel Melo](https://github.com/gabriellcardone-06) | — | Claude (Anthropic): apoio na seleção dos itens mantidos, na renumeração e na atualização das referências cruzadas. |
 
 ---
 
@@ -13,7 +14,7 @@
 
 ## Introdução
 
-Esta lista verifica os artefatos da **Entrega 6: Relato dos resultados do Protótipo de Papel, Planejamento da Avaliação do protótipo de alta fidelidade e Planejamento do relato dos resultados dessa avaliação**. O conteúdo da entrega está no cronograma do Plano de Ensino ([Figura 2](#figura-2)). A versão 1.0 cobria o planejamento da avaliação do protótipo de alta fidelidade (itens 1–7) e o planejamento do relato (itens 8–14), mas não o relato dos resultados do protótipo de papel, que também faz parte da Entrega 6. Na versão 2.0, os itens 1–14 mantêm número (G1–G14) e autor, e a nova seção tem os itens G15–G21, um por integrante.
+Esta lista verifica os artefatos da **Entrega 6: Relato dos resultados do Protótipo de Papel, Planejamento da Avaliação do protótipo de alta fidelidade e Planejamento do relato dos resultados dessa avaliação**. O conteúdo da entrega está no cronograma do Plano de Ensino ([Figura 2](#figura-2)). A versão 1.0 cobria o planejamento da avaliação do protótipo de alta fidelidade (itens 1–7) e o planejamento do relato (itens 8–14), mas não o relato dos resultados do protótipo de papel, que também faz parte da Entrega 6. Na versão 2.0, os itens 1–14 mantêm número (G1–G14) e autor, e a nova seção tem os itens G15–G21, um por integrante. Na versão 2.1, os itens do grupo foram reduzidos a um por integrante (G1–G7); a correspondência com a versão 2.0 está na [Tabela 6](#reducao-v21).
 
 Para cada item, quem avalia marca **Sim**, **Não** ou **Incompleto**, como no Plano de Ensino (SALES, 2026). Quando um item não se aplica ao artefato avaliado, escreva *N/A* na linha e explique em *Observações* no registro da avaliação. A coluna *Autor(es) do item* indica quem escreveu a pergunta e quem é responsável pelo conteúdo verificado. Nos itens do professor, a pergunta é de André Barros de Sales e o integrante indicado é quem produziu o conteúdo e a evidência. A coluna *Referência* leva ao print grifado da fonte, no fim da página. As páginas do livro são as páginas impressas do *IHC.pdf* (BARBOSA et al., 2021, versão de 03/05/2021).
 
@@ -47,7 +48,7 @@ O Plano de Ensino define onze itens de desenvolvimento que valem para todos os a
 
 ## 2. Planejamento da avaliação do protótipo de alta fidelidade e do relato
 
-A Tabela 2 traz os itens 1–14 da versão 1.0, com os mesmos autores.
+A Tabela 2 traz os itens de Arthur Mariani, Carlos Costa, Rodrigo Carvalho e Gabriel Melo, um de cada, escolhidos entre os itens 1–14 da versão 1.0 e mantidos com os mesmos autores.
 
 <div align="center">
 <p><strong>Tabela 2</strong>: Itens para o planejamento da avaliação do protótipo de alta fidelidade e o planejamento do relato</p>
@@ -57,18 +58,8 @@ A Tabela 2 traz os itens 1–14 da versão 1.0, com os mesmos autores.
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
 | G1 | O planejamento define com clareza o objetivo e o escopo da avaliação do protótipo? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 3](#figura-3)<br>[Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
 | G2 | O planejamento apresenta perguntas específicas que a avaliação deverá responder? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 3](#figura-3) | ☐ | ☐ | ☐ |
-| G3 | O método de avaliação escolhido é adequado às perguntas e aos recursos disponíveis? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 3](#figura-3)<br>[Fig. 5](#figura-5) | ☐ | ☐ | ☐ |
-| G4 | O planejamento define o perfil e a quantidade de participantes compatíveis com o público-alvo? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G5 | O planejamento descreve as tarefas que os participantes executarão no protótipo? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 6](#figura-6)<br>[Fig. 5](#figura-5) | ☐ | ☐ | ☐ |
-| G6 | O planejamento prevê um teste-piloto para conferir as instruções, o protótipo, o registro dos dados e o tempo das tarefas? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 7](#figura-7) | ☐ | ☐ | ☐ |
-| G7 | O planejamento prevê consentimento, anonimato, participação voluntária e autorização para gravações? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 8](#figura-8)<br>[Fig. 9](#figura-9) | ☐ | ☐ | ☐ |
-| G8 | O planejamento do relato prevê apresentar os objetivos, o escopo e o método usado na avaliação? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 10](#figura-10) | ☐ | ☐ | ☐ |
-| G9 | O planejamento do relato prevê informar a quantidade e o perfil dos participantes e dos avaliadores? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 10](#figura-10) | ☐ | ☐ | ☐ |
-| G10 | O planejamento do relato prevê resumir, por tarefa, dados como conclusão, tempo, erros e uso de ajuda? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 5](#figura-5) | ☐ | ☐ | ☐ |
-| G11 | O planejamento do relato prevê interpretar os dados de cada participante para responder às perguntas da avaliação? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 11](#figura-11) | ☐ | ☐ | ☐ |
-| G12 | O planejamento do relato prevê reunir os resultados dos participantes e indicar quais perguntas ficaram sem resposta? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 10](#figura-10) | ☐ | ☐ | ☐ |
-| G13 | O planejamento do relato prevê listar cada problema com sua localização, seu impacto e uma sugestão de solução? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 10](#figura-10)<br>[Fig. 12](#figura-12) | ☐ | ☐ | ☐ |
-| G14 | O planejamento do relato prevê apresentar as limitações dos resultados e um plano de reprojeto? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 10](#figura-10) | ☐ | ☐ | ☐ |
+| G3 | O planejamento prevê um teste-piloto para conferir as instruções, o protótipo, o registro dos dados e o tempo das tarefas? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 6](#figura-6) | ☐ | ☐ | ☐ |
+| G4 | O planejamento do relato prevê resumir, por tarefa, dados como conclusão, tempo, erros e uso de ajuda? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 5](#figura-5) | ☐ | ☐ | ☐ |
 
 <div align="center">
 <p><em>Fonte: Grupo 05 (2026, v1.0), revisado na v2.0. Base: BARBOSA et al. (2021, caps. 7, 11 e 12).</em></p>
@@ -76,7 +67,7 @@ A Tabela 2 traz os itens 1–14 da versão 1.0, com os mesmos autores.
 
 ## 3. Relato dos resultados da avaliação do protótipo de papel
 
-A Tabela 3 traz os itens novos. Todos os integrantes publicaram relato individual do protótipo de papel, e cada um é autor de um item.
+A Tabela 3 traz os itens de Igor Dantas, Lucas Araújo e Tomás Rocho sobre o relato dos resultados do protótipo de papel, um de cada. Todos os integrantes publicaram relato individual do protótipo de papel.
 
 <div align="center">
 <p><strong>Tabela 3</strong>: Itens para o relato dos resultados da avaliação do protótipo de papel</p>
@@ -84,13 +75,9 @@ A Tabela 3 traz os itens novos. Todos os integrantes publicaram relato individua
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G15 | O relato informa os objetivos da avaliação e descreve brevemente o método de prototipação em papel? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 13](#figura-13) | ☐ | ☐ | ☐ |
-| G16 | O relato informa o número e o perfil dos avaliadores e dos participantes? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 13](#figura-13) | ☐ | ☐ | ☐ |
-| G17 | O relato apresenta as tarefas executadas pelos participantes? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 13](#figura-13) | ☐ | ☐ | ☐ |
-| G18 | O relato lista os problemas corrigidos durante os ciclos de avaliação e reprojeto, com local, fatores de usabilidade prejudicados, descrição, correção feita e se o problema voltou a ocorrer? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 13](#figura-13)<br>[Fig. 14](#figura-14) | ☐ | ☐ | ☐ |
-| G19 | O relato lista os problemas ainda não corrigidos, com prioridade para correção definida pela gravidade e pela frequência? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 13](#figura-13)<br>[Fig. 14](#figura-14) | ☐ | ☐ | ☐ |
-| G20 | Para cada problema não corrigido, o relato apresenta sugestões de correção e indica partes do sistema que podem ser mais bem elaboradas? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 13](#figura-13) | ☐ | ☐ | ☐ |
-| G21 | O relato registra o que o observador anotou: partes da interface que funcionaram bem ou mal, tarefas concluídas, erros cometidos e comentários dos participantes? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
+| G5 | O relato lista os problemas corrigidos durante os ciclos de avaliação e reprojeto, com local, fatores de usabilidade prejudicados, descrição, correção feita e se o problema voltou a ocorrer? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 7](#figura-7)<br>[Fig. 8](#figura-8) | ☐ | ☐ | ☐ |
+| G6 | O relato lista os problemas ainda não corrigidos, com prioridade para correção definida pela gravidade e pela frequência? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 7](#figura-7)<br>[Fig. 8](#figura-8) | ☐ | ☐ | ☐ |
+| G7 | O relato registra o que o observador anotou: partes da interface que funcionaram bem ou mal, tarefas concluídas, erros cometidos e comentários dos participantes? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 9](#figura-9) | ☐ | ☐ | ☐ |
 
 <div align="center">
 <p><em>Fonte: elaborado pelo Grupo 05 (2026, v2.0), com base em BARBOSA et al. (2021, pp. 305–306).</em></p>
@@ -106,13 +93,13 @@ A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens seg
 
 | Integrante | Contribuição nesta lista | Artefato(s) relacionado(s) |
 | :--- | :--- | :--- |
-| [Arthur Mariani](https://github.com/arthur-mariani) | Coautor e revisor da versão 1.0. Itens G1, G8 e G15. | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) |
-| [Carlos Costa](https://github.com/carloshfgit) | Coautor da versão 1.0. Itens G2, G9 e G16. | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) |
-| [Gabriel Melo](https://github.com/gabriellcardone-06) | Coautor da versão 1.0. Itens G3, G10 e G17. Autor da versão 2.0 (D1–D11, nova seção, prints). | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md) |
-| [Igor Dantas](https://github.com/IgorDARAUJO) | Coautor da versão 1.0. Itens G4, G11 e G18. | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) |
-| [Lucas Araújo](https://github.com/Lucasaraujoszz) | Coautor da versão 1.0. Itens G5, G12 e G19. | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) |
-| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Coautor da versão 1.0. Itens G6, G13 e G20. | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) |
-| [Tomás Rocho](https://github.com/TomasRocho) | Itens G7, G14 e G21 (G7 e G14 já eram dele na v1.0, mas o histórico não o listava como autor). | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) |
+| [Arthur Mariani](https://github.com/arthur-mariani) | Coautor e revisor da versão 1.0. Item G1. | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/arthur/relato-resultados-prototipo-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md) |
+| [Carlos Costa](https://github.com/carloshfgit) | Coautor da versão 1.0. Item G2. | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) |
+| [Gabriel Melo](https://github.com/gabriellcardone-06) | Coautor da versão 1.0. Item G4. Autor da versão 2.0 (D1–D11, nova seção, prints) e da versão 2.1 (um item por integrante). | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/gabriel/planejamento-av-prot-alta-fidel.md) |
+| [Igor Dantas](https://github.com/IgorDARAUJO) | Coautor da versão 1.0. Item G5. | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) |
+| [Lucas Araújo](https://github.com/Lucasaraujoszz) | Coautor da versão 1.0. Item G6. | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) |
+| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Coautor da versão 1.0. Item G3. | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) |
+| [Tomás Rocho](https://github.com/TomasRocho) | Item G7 (criado na v2.0; na v1.0 ele já era autor de itens, mas o histórico não o listava). | [Relato do protótipo de papel](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md), [Planejamento da alta fidelidade](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) |
 | André Barros de Sales (professor) | Autor das perguntas dos Itens do Desenvolvimento do Projeto (D1–D11), retiradas da lista de verificação sugerida no Plano de Ensino. | [Plano de Ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf) |
 
 <div align="center">
@@ -121,7 +108,7 @@ A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens seg
 
 ## Rastreabilidade v1.0 → v2.0
 
-A versão 1.0 continua publicada em [verif6.md](../verif6.md) e não foi apagada. A Tabela 5 indica onde cada item da versão 1.0 está nesta versão e o que mudou.
+A versão 1.0 continua publicada em [verif6.md](../verif6.md) e não foi apagada. A Tabela 5 indica onde cada item da versão 1.0 está nesta versão e o que mudou. Os códigos G desta tabela são os da versão 2.0; a numeração atual está na [Tabela 6](#reducao-v21).
 
 <div align="center">
 <p><strong>Tabela 5</strong>: Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
@@ -139,12 +126,34 @@ A versão 1.0 continua publicada em [verif6.md](../verif6.md) e não foi apagada
 <p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
 </div>
 
-## Registro da avaliação
+## Redução para um item por integrante (versão 2.1) { #reducao-v21 }
 
-O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 6.
+Na versão 2.1, os itens de conteúdo elaborados pelo grupo foram reduzidos a um item por integrante. O Plano de Ensino pede que cada integrante elabore ao menos um item de conteúdo da disciplina, com referência e foto do texto da referência (SALES, 2026, pp. 11–13). Os Itens do Desenvolvimento do Projeto (D1–D11) não mudaram; o Plano de Ensino não traz itens de conteúdo para esta entrega. Para cada integrante, ficou o item que verifica o artefato produzido por ele. Os itens mantidos foram renumerados de G1 a G7, e as figuras que só fundamentavam itens retirados saíram da página. O texto completo da versão 2.0 continua no [histórico do repositório](https://github.com/Interacao-Humano-Computador/2026.2-Grupo05/blob/6fdf400a9ceec5605bcfc45c13ad3723865a2c8c/docs/verificacao/v2/verif6.md). A Tabela 6 mostra a correspondência.
 
 <div align="center">
-<p><strong>Tabela 6</strong>: Registro das avaliações feitas com esta lista</p>
+<p><strong>Tabela 6</strong>: Itens do grupo mantidos e removidos na versão 2.1</p>
+</div>
+
+| Integrante | Item mantido (v2.0 → v2.1) | Itens removidos (códigos da v2.0) |
+| :--- | :---: | :---: |
+| [Arthur Mariani](https://github.com/arthur-mariani) | G1 → G1 | G8, G15 |
+| [Carlos Costa](https://github.com/carloshfgit) | G2 → G2 | G9, G16 |
+| [Gabriel Melo](https://github.com/gabriellcardone-06) | G10 → G4 | G3, G17 |
+| [Igor Dantas](https://github.com/IgorDARAUJO) | G18 → G5 | G4, G11 |
+| [Lucas Araújo](https://github.com/Lucasaraujoszz) | G19 → G6 | G5, G12 |
+| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | G6 → G3 | G13, G20 |
+| [Tomás Rocho](https://github.com/TomasRocho) | G21 → G7 | G7, G14 |
+
+<div align="center">
+<p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
+</div>
+
+## Registro da avaliação
+
+O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 7.
+
+<div align="center">
+<p><strong>Tabela 7</strong>: Registro das avaliações feitas com esta lista</p>
 </div>
 | Artefato e versão avaliada | Data e hora | Avaliador(es) | Grupo avaliador (próprio ou +1) | Observações |
 | :--- | :---: | :--- | :---: | :--- |
@@ -193,7 +202,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 3: 11.8 Framework DECIDE](../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Itens que usam esta figura: G1, G2, G3.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Itens que usam esta figura: G1, G2.</em></p>
 </div>
 
 ---
@@ -205,7 +214,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 4: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Itens que usam esta figura: G1, G4.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258). Itens que usam esta figura: G1.</em></p>
 </div>
 
 ---
@@ -217,127 +226,55 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 5: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Itens que usam esta figura: G3, G5, G10.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Itens que usam esta figura: G4.</em></p>
 </div>
 
 ---
 
 <div id="figura-6" align="center">
-<p><strong>Figura 6</strong>: 11.7.2 Questões práticas e material de apoio da avaliação</p>
+<p><strong>Figura 6</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
 </div>
 
-![Figura 6: 11.7.2 Questões práticas e material de apoio da avaliação](../../assets/prints_referencias/verificacao-v2/livro-questoes-praticas-material.png)
+![Figura 6: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 259). Itens que usam esta figura: G5.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260). Itens que usam esta figura: G3.</em></p>
 </div>
 
 ---
 
 <div id="figura-7" align="center">
-<p><strong>Figura 7</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+<p><strong>Figura 7</strong>: Prototipação em papel: conteúdo do relato dos resultados</p>
 </div>
 
-![Figura 7: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+![Figura 7: Prototipação em papel: conteúdo do relato dos resultados](../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Itens que usam esta figura: G6.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Itens que usam esta figura: G5, G6.</em></p>
 </div>
 
 ---
 
 <div id="figura-8" align="center">
-<p><strong>Figura 8</strong>: Permissão para gravação e consentimento livre e esclarecido</p>
+<p><strong>Figura 8</strong>: 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
 </div>
 
-![Figura 8: Permissão para gravação e consentimento livre e esclarecido](../../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
+![Figura 8: 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Itens que usam esta figura: G7.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Itens que usam esta figura: G5, G6.</em></p>
 </div>
 
 ---
 
 <div id="figura-9" align="center">
-<p><strong>Figura 9</strong>: Confidencialidade dos dados e anonimato dos participantes</p>
+<p><strong>Figura 9</strong>: Prototipação em papel: o que o observador deve registrar</p>
 </div>
 
-![Figura 9: Confidencialidade dos dados e anonimato dos participantes](../../assets/prints_referencias/verificacao-v2/livro-etica-anonimato.png)
+![Figura 9: Prototipação em papel: o que o observador deve registrar](../../assets/prints_referencias/verificacao-v2/livro-papel-observador.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Itens que usam esta figura: G7.</em></p>
-</div>
-
----
-
-<div id="figura-10" align="center">
-<p><strong>Figura 10</strong>: 11.7.5 Consolidação e relato dos resultados</p>
-</div>
-
-![Figura 10: 11.7.5 Consolidação e relato dos resultados](../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Itens que usam esta figura: G8, G9, G12, G13, G14.</em></p>
-</div>
-
----
-
-<div id="figura-11" align="center">
-<p><strong>Figura 11</strong>: 11.7.4 Interpretação dos dados de cada participante</p>
-</div>
-
-![Figura 11: 11.7.4 Interpretação dos dados de cada participante](../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 262). Itens que usam esta figura: G11.</em></p>
-</div>
-
----
-
-<div id="figura-12" align="center">
-<p><strong>Figura 12</strong>: 12.1.1 Avaliação heurística: escala de severidade de Nielsen</p>
-</div>
-
-![Figura 12: 12.1.1 Avaliação heurística: escala de severidade de Nielsen](../../assets/prints_referencias/verificacao-v2/livro-heuristica-severidade.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 270). Itens que usam esta figura: G13.</em></p>
-</div>
-
----
-
-<div id="figura-13" align="center">
-<p><strong>Figura 13</strong>: Prototipação em papel: conteúdo do relato dos resultados</p>
-</div>
-
-![Figura 13: Prototipação em papel: conteúdo do relato dos resultados](../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Itens que usam esta figura: G15, G16, G17, G18, G19, G20.</em></p>
-</div>
-
----
-
-<div id="figura-14" align="center">
-<p><strong>Figura 14</strong>: 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
-</div>
-
-![Figura 14: 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306). Itens que usam esta figura: G18, G19.</em></p>
-</div>
-
----
-
-<div id="figura-15" align="center">
-<p><strong>Figura 15</strong>: Prototipação em papel: o que o observador deve registrar</p>
-</div>
-
-![Figura 15: Prototipação em papel: o que o observador deve registrar](../../assets/prints_referencias/verificacao-v2/livro-papel-observador.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 305). Itens que usam esta figura: G21.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 305). Itens que usam esta figura: G7.</em></p>
 </div>
 
 ---

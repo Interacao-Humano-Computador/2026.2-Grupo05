@@ -3,6 +3,7 @@
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 19/11/2026 | `1.0` | Consolidação das versões anteriores das listas de verificação e das diferenças entre as versões 1.0 e 2.0. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na consolidação da rastreabilidade já registrada nas listas 2.0 e na formatação em Markdown. |
+| 22/11/2026 | `1.1` | Inclusão da seção sobre a redução dos itens do grupo para um item por integrante (versão 2.1 das listas). | [Gabriel Melo](https://github.com/gabriellcardone-06) | — | Claude (Anthropic): apoio na seleção dos itens mantidos e na redação da seção. |
 
 ---
 
@@ -66,7 +67,29 @@ As versões 2.0 adotaram a mesma organização para evitar diferenças de interp
 <p><em>Fonte: elaborado pelo Grupo 05 (2026), com base nas tabelas de rastreabilidade das listas 2.0.</em></p>
 </div>
 
-## 5. Rastreabilidade detalhada
+## 5. Redução para um item por integrante (versão 2.1) { #5-reducao-para-um-item-por-integrante-versao-21 }
+
+Na versão 2.1, os itens de conteúdo elaborados pelo grupo foram reduzidos a um item por integrante em todas as listas. O Plano de Ensino pede que cada integrante elabore ao menos um item de conteúdo da disciplina, com referência e foto do texto da referência (SALES, 2026, pp. 11–13). Os Itens do Desenvolvimento do Projeto (D1–D11) e as perguntas do professor não foram alterados. Para cada integrante, ficou o item que verifica o artefato produzido por ele e que não repete uma pergunta do professor; os itens mantidos foram renumerados de G1 a G7, e as figuras que só fundamentavam itens retirados saíram das páginas. A Tabela 3 resume a mudança.
+
+<div align="center">
+<p><strong>Tabela 3</strong>: Itens das listas antes e depois da versão 2.1</p>
+</div>
+
+| Entrega | Itens do grupo na v2.0 | Itens do grupo na v2.1 | Itens mantidos sem alteração | Correspondência item a item |
+| :---: | :---: | :---: | :--- | :--- |
+| 1 | 11 | 7 | D1–D11, PG1–PG9 e C1 | [Entrega 1](v2/verif1.md#reducao-v21) |
+| 2 | 87 | 7 | D1–D11 e C1–C12 | [Entrega 2](v2/verif2.md#reducao-v21) |
+| 3 | 41 | 7 | D1–D11 e C10–C17 | [Entrega 3](v2/verif3.md#reducao-v21) |
+| 4 | 28 | 7 | D1–D11 e C2–C13 | [Entrega 4](v2/verif4.md#reducao-v21) |
+| 5 | 24 | 7 | D1–D11 | [Entrega 5](v2/verif5.md#reducao-v21) |
+| 6 | 21 | 7 | D1–D11 | [Entrega 6](v2/verif6.md#reducao-v21) |
+| 7 | 15 | 7 | D1–D11 | [Entrega 7](v2/verif7.md#reducao-v21) |
+
+<div align="center">
+<p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir das listas 2.1.</em></p>
+</div>
+
+## 6. Rastreabilidade detalhada
 
 As correspondências item a item permanecem nas próprias listas atuais:
 
@@ -80,7 +103,7 @@ As correspondências item a item permanecem nas próprias listas atuais:
 
 ---
 
-## 6. Fotos de Referência
+## 7. Fotos de Referência
 
 <div id="figura-1" align="center">
 <p><strong>Figura 1</strong>: Classificação dos tipos de método de avaliação de IHC</p>
@@ -104,7 +127,7 @@ As correspondências item a item permanecem nas próprias listas atuais:
 
 ---
 
-## 7. Referências Bibliográficas
+## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Versão de 03/05/2021.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador: Turma 01**. Brasília: Universidade de Brasília, Faculdade UnB Gama, 2026. Disponível em: [plano de ensino (PDF)](../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf).

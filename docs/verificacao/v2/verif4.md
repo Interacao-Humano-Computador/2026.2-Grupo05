@@ -4,17 +4,18 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 26/09/2026 | `1.0` | Itens G1–G20, redigidos na versão 1.0 da lista da Entrega 1 (planejamento da avaliação e métodos de avaliação), publicada em [verif1.md](../verif1.md). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
 | 19/11/2026 | `2.0` | Criação da lista da Entrega 4, que não existia: Itens do Desenvolvimento do Projeto, itens de conteúdo 2–13 do Plano de Ensino, itens G1–G20 transferidos da v1.0 da Entrega 1 (com correções), itens novos G21–G28 e prints. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
+| 22/11/2026 | `2.1` | Redução dos itens do grupo para um item por integrante (G1–G7, renumerados); Itens do Desenvolvimento do Projeto (D1–D11) e itens do Plano de Ensino (C2–C13) mantidos sem alteração; remoção das figuras que só fundamentavam itens retirados; atualização da tabela de contribuição e da rastreabilidade. | [Gabriel Melo](https://github.com/gabriellcardone-06) | — | Claude (Anthropic): apoio na seleção dos itens mantidos, na renumeração e na atualização das referências cruzadas. |
 
 ---
 
 # Lista de Verificação: Entrega 4 (versão 2.0)
 
 !!! info "Versão 2.0 — rastreabilidade"
-    Esta é a **versão 2.0** da lista. O [índice das listas de verificação](../index.md) mostra onde está cada versão. Não havia versão 1.0 desta lista. Os itens G1–G20 vieram da versão 1.0 da lista da Entrega 1.
+    Esta é a **versão 2.0** da lista. O [índice das listas de verificação](../index.md) mostra onde está cada versão. Não havia versão 1.0 desta lista. Na versão 2.0, os itens G1–G20 vieram da versão 1.0 da lista da Entrega 1; na versão 2.1, desses ficou só um (hoje G1).
 
 ## Introdução
 
-Esta lista verifica os artefatos da **Entrega 4: Planejamento da Avaliação do Storyboard e da Análise de Tarefas e planejamento do relato dos resultados dessas avaliações**. O grupo não tinha lista própria para a Entrega 4; na inspeção dessa entrega foi usada a lista do Plano de Ensino (SALES, 2026, pp. 12–13). Esta versão reúne a lista do professor, os 20 itens sobre planejamento da avaliação que estavam na versão 1.0 da [lista da Entrega 1](../verif1.md) e itens novos sobre storyboard e análise de tarefas.
+Esta lista verifica os artefatos da **Entrega 4: Planejamento da Avaliação do Storyboard e da Análise de Tarefas e planejamento do relato dos resultados dessas avaliações**. O grupo não tinha lista própria para a Entrega 4; na inspeção dessa entrega foi usada a lista do Plano de Ensino (SALES, 2026, pp. 12–13). Esta versão reúne a lista do professor, os 20 itens sobre planejamento da avaliação que estavam na versão 1.0 da [lista da Entrega 1](../verif1.md) e itens novos sobre storyboard e análise de tarefas. Na versão 2.1, os itens do grupo foram reduzidos a um por integrante (G1–G7); a correspondência com a versão 2.0 está na [Tabela 6](#reducao-v21).
 
 Para cada item, quem avalia marca **Sim**, **Não** ou **Incompleto**, como no Plano de Ensino (SALES, 2026). Quando um item não se aplica ao artefato avaliado, escreva *N/A* na linha e explique em *Observações* no registro da avaliação. A coluna *Autor(es) do item* indica quem escreveu a pergunta e quem é responsável pelo conteúdo verificado. Nos itens do professor, a pergunta é de André Barros de Sales e o integrante indicado é quem produziu o conteúdo e a evidência. A coluna *Referência* leva ao print grifado da fonte, no fim da página. As páginas do livro são as páginas impressas do *IHC.pdf* (BARBOSA et al., 2021, versão de 03/05/2021).
 
@@ -75,7 +76,7 @@ A Tabela 2 reproduz os itens de conteúdo da Entrega 4. O Plano de Ensino numera
 
 ## 3. Itens de conteúdo elaborados pelo grupo
 
-A Tabela 3 traz os itens do grupo. G1–G10 e G11–G20 correspondem às duas tabelas da versão 1.0 da lista da Entrega 1, de Arthur Mariani; G21–G28 são novos e verificam o conteúdo produzido por cada integrante na Entrega 4.
+A Tabela 3 traz um item por integrante. O G1, de Arthur Mariani, veio da versão 1.0 da lista da Entrega 1 (Tabela 2, item 1, reescrito na v2.0); os itens G2–G7 foram criados na v2.0 e verificam o conteúdo produzido por cada integrante na Entrega 4.
 
 <div align="center">
 <p><strong>Tabela 3</strong>: Itens do Grupo 05 para o planejamento das avaliações do Storyboard e da Análise de Tarefas</p>
@@ -83,37 +84,16 @@ A Tabela 3 traz os itens do grupo. G1–G10 e G11–G20 correspondem às duas ta
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G1 | O planejamento escolhe pelo menos um objetivo de avaliação, como analisar a apropriação da tecnologia pelos usuários, comparar ideias e alternativas de design, verificar a conformidade com um padrão ou identificar problemas na interação e na interface? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G2 | Para o objetivo de analisar a apropriação da tecnologia, o planejamento apresenta perguntas específicas a serem respondidas, por exemplo, sobre a forma de uso do sistema, a comunicação entre usuários ou a exploração de novas funcionalidades? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 4](#figura-4)<br>[Fig. 3](#figura-3) | ☐ | ☐ | ☐ |
-| G3 | Para o objetivo de comparar ideias e alternativas de design, o planejamento apresenta perguntas específicas a serem respondidas, por exemplo, sobre eficiência, facilidade de aprendizado, tempo de construção ou impacto da adoção? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 4](#figura-4)<br>[Fig. 3](#figura-3) | ☐ | ☐ | ☐ |
-| G4 | Para o objetivo de verificar a conformidade com padrões, o planejamento apresenta perguntas específicas a serem respondidas, por exemplo, sobre padrões de acessibilidade, convenções do sistema operacional ou termos usados na interface? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 4](#figura-4)<br>[Fig. 3](#figura-3) | ☐ | ☐ | ☐ |
-| G5 | Para o objetivo de identificar problemas na interação e na interface, o planejamento apresenta perguntas específicas a serem respondidas, por exemplo, sobre a capacidade de operar o sistema, atingir objetivos, eficiência, erros e insatisfação do usuário? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 4](#figura-4)<br>[Fig. 3](#figura-3) | ☐ | ☐ | ☐ |
-| G6 | O planejamento determina ao menos um tipo de método de avaliação: investigação, observação de uso ou inspeção? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 5](#figura-5) | ☐ | ☐ | ☐ |
-| G7 | O planejamento define um cronograma para as atividades de avaliação, incluindo recrutamento de participantes, teste-piloto, sessões de coleta, análise dos dados e entrega do relato? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 3](#figura-3)<br>[Fig. 7](#figura-7) | ☐ | ☐ | ☐ |
-| G8 | O planejamento deixa claro o cumprimento dos princípios éticos, incluindo a utilização do Termo de Consentimento Livre e Esclarecido (TCLE), quando aplicável? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 3](#figura-3)<br>[Fig. 12](#figura-12) | ☐ | ☐ | ☐ |
-| G9 | O planejamento especifica como os dados coletados serão classificados e apresentados, distinguindo dados qualitativos de quantitativos e dados subjetivos de objetivos? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 13](#figura-13) | ☐ | ☐ | ☐ |
-| G10 | O planejamento prevê o relato consolidado dos resultados: objetivos e escopo da avaliação, método empregado, número e perfil de usuários e avaliadores, sumário dos dados, interpretação e análise, problemas encontrados e planejamento do reprojeto? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 9](#figura-9) | ☐ | ☐ | ☐ |
-| G11 | A escolha do método é justificada pelos objetivos e perguntas da avaliação e também pelo prazo, orçamento, equipamentos disponíveis e experiência dos avaliadores? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 3](#figura-3) | ☐ | ☐ | ☐ |
-| G12 | Caso o método escolhido seja de inspeção, o planejamento determina qual será utilizado: avaliação heurística, percurso cognitivo ou inspeção semiótica? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 14](#figura-14) | ☐ | ☐ | ☐ |
-| G13 | Caso o método escolhido seja de observação, o planejamento determina qual será utilizado: teste de usabilidade, avaliação de comunicabilidade ou prototipação em papel? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 14](#figura-14) | ☐ | ☐ | ☐ |
-| G14 | Caso o método escolhido seja de investigação, o planejamento determina qual será utilizado: entrevistas, questionários, grupos de foco ou estudos de campo? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 5](#figura-5) | ☐ | ☐ | ☐ |
-| G15 | O escopo da avaliação delimita quais partes da interface, caminhos de interação, tarefas e perfis de usuário serão avaliados? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 6](#figura-6) | ☐ | ☐ | ☐ |
-| G16 | O método escolhido é adequado ao objetivo definido (por exemplo, inspeção para conformidade com um padrão; observação ou investigação, com participação dos usuários, para apropriação de tecnologia)? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G17 | Caso o método escolhido seja a avaliação heurística, são utilizadas as heurísticas de Nielsen? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 16](#figura-16) | ☐ | ☐ | ☐ |
-| G18 | Caso o método escolhido seja a avaliação heurística, as atividades de preparação, coleta de dados, interpretação, consolidação e relato dos resultados estão definidas? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-| G19 | Caso o método escolhido seja a avaliação heurística, os problemas encontrados são julgados pela escala de severidade de Nielsen (frequência, impacto e persistência; de problema cosmético a catastrófico)? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 18](#figura-18) | ☐ | ☐ | ☐ |
-| G20 | Caso o método escolhido seja a avaliação heurística, o relato apresenta objetivos e escopo, descrição do método, conjunto de diretrizes utilizado, número e perfil dos avaliadores, problemas encontrados, severidade e sugestões de solução? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-| G21 | O planejamento da avaliação do Storyboard trata o storyboard como artefato de avaliação formativa e define o que se quer aprender com ele antes de construir o protótipo? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 19](#figura-19) | ☐ | ☐ | ☐ |
-| G22 | O planejamento da avaliação da Análise de Tarefas compara os caminhos previstos nos modelos (HTA, CTT ou GOMS) com o que os participantes de fato fazem ou relatam? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 20](#figura-20) | ☐ | ☐ | ☐ |
-| G23 | O planejamento define o perfil e a quantidade de participantes e justifica essa quantidade (por exemplo, de cinco a 12 usuários)? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 6](#figura-6) | ☐ | ☐ | ☐ |
-| G24 | O planejamento prepara o material de apoio (TCLE, questionário pré-teste, roteiro de entrevista pós-teste, instruções e cenários das tarefas, roteiro de observação) e garante que todos os participantes recebam o mesmo material? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 7](#figura-7) | ☐ | ☐ | ☐ |
-| G25 | A duração prevista de cada tarefa não ultrapassa 20 minutos e a sessão completa fica em torno de uma hora? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 21](#figura-21) | ☐ | ☐ | ☐ |
-| G26 | O participante do teste-piloto não se envolveu no planejamento e na preparação da avaliação? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 10](#figura-10) | ☐ | ☐ | ☐ |
-| G27 | O planejamento do relato prevê consolidar os resultados pelas recorrências entre participantes e apresentá-los como tendências, e não como certezas? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 9](#figura-9) | ☐ | ☐ | ☐ |
-| G28 | O planejamento prevê pelo menos dois avaliadores na coleta (um acompanha o participante e outro observa e anota), sem interromper o participante durante as tarefas? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 22](#figura-22) | ☐ | ☐ | ☐ |
+| G1 | A escolha do método é justificada pelos objetivos e perguntas da avaliação e também pelo prazo, orçamento, equipamentos disponíveis e experiência dos avaliadores? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 3](#figura-3) | ☐ | ☐ | ☐ |
+| G2 | O planejamento da avaliação do Storyboard trata o storyboard como artefato de avaliação formativa e define o que se quer aprender com ele antes de construir o protótipo? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 12](#figura-12) | ☐ | ☐ | ☐ |
+| G3 | O planejamento da avaliação da Análise de Tarefas compara os caminhos previstos nos modelos (HTA, CTT ou GOMS) com o que os participantes de fato fazem ou relatam? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 13](#figura-13) | ☐ | ☐ | ☐ |
+| G4 | O planejamento define o perfil e a quantidade de participantes e justifica essa quantidade (por exemplo, de cinco a 12 usuários)? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 6](#figura-6) | ☐ | ☐ | ☐ |
+| G5 | O planejamento prepara o material de apoio (TCLE, questionário pré-teste, roteiro de entrevista pós-teste, instruções e cenários das tarefas, roteiro de observação) e garante que todos os participantes recebam o mesmo material? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 7](#figura-7) | ☐ | ☐ | ☐ |
+| G6 | O participante do teste-piloto não se envolveu no planejamento e na preparação da avaliação? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 10](#figura-10) | ☐ | ☐ | ☐ |
+| G7 | O planejamento do relato prevê consolidar os resultados pelas recorrências entre participantes e apresentá-los como tendências, e não como certezas? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 9](#figura-9) | ☐ | ☐ | ☐ |
 
 <div align="center">
-<p><em>Fonte: itens G1–G20: Arthur Mariani (2026, v1.0 da lista da Entrega 1), com correções na v2.0; itens G21–G28: Grupo 05 (2026). Base: BARBOSA et al. (2021, caps. 7, 11 e 12).</em></p>
+<p><em>Fonte: item G1: Arthur Mariani (2026, v1.0 da lista da Entrega 1), reescrito na v2.0; itens G2–G7: Grupo 05 (2026). Base: BARBOSA et al. (2021, caps. 7, 11 e 12).</em></p>
 </div>
 
 ## Tabela de contribuição
@@ -126,13 +106,13 @@ A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens seg
 
 | Integrante | Contribuição nesta lista | Artefato(s) relacionado(s) |
 | :--- | :--- | :--- |
-| [Arthur Mariani](https://github.com/arthur-mariani) | Autor dos itens G1–G20 (escritos na v1.0 da lista da Entrega 1) e do item G28. Conteúdo do item C7 (planejamento do relato da análise de tarefas). | [Planejamento do relato da análise de tarefas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) |
-| [Carlos Costa](https://github.com/carloshfgit) | Revisor da v1.0 dos itens G1–G20. Item G22. Conteúdo dos itens C2 e C3 (planejamento DECIDE da avaliação da análise de tarefas). | [Planejamento da avaliação da análise de tarefas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/planejamento-avaliacao-analise-tarefas.md) |
-| [Gabriel Melo](https://github.com/gabriellcardone-06) | Autor da versão 2.0 (criação da lista, inclusão de D1–D11 e C2–C13, transferência e correção de G1–G20, prints). Item G21. Conteúdo dos itens C2 e C4. | [Planejamento da avaliação do Storyboard](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) |
-| [Igor Dantas](https://github.com/IgorDARAUJO) | Item G26. Conteúdo dos itens C9–C12 (storyboards e teste-piloto). | [Storyboards](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md), [Teste-piloto](../../design-avaliacao-desenvolvimento/nivel1/planejamento-e-protocolo-do-teste-piloto.md) |
-| [Lucas Araújo](https://github.com/Lucasaraujoszz) | Item G23. Conteúdo dos itens C5 e C6 (questões práticas e éticas). | [Questões práticas e éticas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md) |
-| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Item G27. Conteúdo dos itens C7 e C13 (planejamento do relato do Storyboard). | [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) |
-| [Tomás Rocho](https://github.com/TomasRocho) | Itens G24 e G25. Conteúdo do item C8 (cronograma e local das sessões). | [Cronograma e logística das sessões](../../design-avaliacao-desenvolvimento/nivel1/cronograma-e-logistica-das-sessoes.md) |
+| [Arthur Mariani](https://github.com/arthur-mariani) | Autor do item G1 (escrito na v1.0 da lista da Entrega 1). Conteúdo do item C7 (planejamento do relato da análise de tarefas). | [Planejamento do relato da análise de tarefas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Arthur/planejamento-relato-analise-tarefas.md) |
+| [Carlos Costa](https://github.com/carloshfgit) | Revisor da v1.0 dos itens transferidos da Entrega 1. Item G3. Conteúdo dos itens C2 e C3 (planejamento DECIDE da avaliação da análise de tarefas). | [Planejamento da avaliação da análise de tarefas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/planejamento-avaliacao-analise-tarefas.md) |
+| [Gabriel Melo](https://github.com/gabriellcardone-06) | Autor da versão 2.0 (criação da lista, inclusão de D1–D11 e C2–C13, transferência e correção dos itens da Entrega 1, prints) e da versão 2.1 (um item por integrante). Item G2. Conteúdo dos itens C2 e C4. | [Planejamento da avaliação do Storyboard](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) |
+| [Igor Dantas](https://github.com/IgorDARAUJO) | Item G6. Conteúdo dos itens C9–C12 (storyboards e teste-piloto). | [Storyboards](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md), [Teste-piloto](../../design-avaliacao-desenvolvimento/nivel1/planejamento-e-protocolo-do-teste-piloto.md) |
+| [Lucas Araújo](https://github.com/Lucasaraujoszz) | Item G4. Conteúdo dos itens C5 e C6 (questões práticas e éticas). | [Questões práticas e éticas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md) |
+| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Item G7. Conteúdo dos itens C7 e C13 (planejamento do relato do Storyboard). | [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) |
+| [Tomás Rocho](https://github.com/TomasRocho) | Item G5. Conteúdo do item C8 (cronograma e local das sessões). | [Cronograma e logística das sessões](../../design-avaliacao-desenvolvimento/nivel1/cronograma-e-logistica-das-sessoes.md) |
 | André Barros de Sales (professor) | Autor das perguntas dos Itens do Desenvolvimento do Projeto (D1–D11) e dos itens de conteúdo C2–C13, retiradas da lista de verificação sugerida no Plano de Ensino. | [Plano de Ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf) |
 
 <div align="center">
@@ -141,7 +121,7 @@ A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens seg
 
 ## Rastreabilidade v1.0 → v2.0
 
-A versão 1.0 continua publicada em [versão 1.0 da lista da Entrega 1](../verif1.md) e não foi apagada. A Tabela 5 indica onde cada item da versão 1.0 está nesta versão e o que mudou.
+A versão 1.0 continua publicada em [versão 1.0 da lista da Entrega 1](../verif1.md) e não foi apagada. A Tabela 5 indica onde cada item da versão 1.0 está nesta versão e o que mudou. Os códigos G desta tabela são os da versão 2.0; a numeração atual está na [Tabela 6](#reducao-v21).
 
 <div align="center">
 <p><strong>Tabela 5</strong>: Origem dos itens desta lista</p>
@@ -173,12 +153,34 @@ A versão 1.0 continua publicada em [versão 1.0 da lista da Entrega 1](../verif
 <p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
 </div>
 
-## Registro da avaliação
+## Redução para um item por integrante (versão 2.1) { #reducao-v21 }
 
-O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 6.
+Na versão 2.1, os itens de conteúdo elaborados pelo grupo foram reduzidos a um item por integrante. O Plano de Ensino pede que cada integrante elabore ao menos um item de conteúdo da disciplina, com referência e foto do texto da referência (SALES, 2026, pp. 11–13). Os Itens do Desenvolvimento do Projeto (D1–D11) e os itens do professor (C2–C13) não mudaram. Para cada integrante, ficou o item que verifica o artefato produzido por ele e que não repete uma pergunta do professor. Os itens mantidos foram renumerados de G1 a G7, e as figuras que só fundamentavam itens retirados saíram da página. O texto completo da versão 2.0 continua no [histórico do repositório](https://github.com/Interacao-Humano-Computador/2026.2-Grupo05/blob/6fdf400a9ceec5605bcfc45c13ad3723865a2c8c/docs/verificacao/v2/verif4.md). A Tabela 6 mostra a correspondência.
 
 <div align="center">
-<p><strong>Tabela 6</strong>: Registro das avaliações feitas com esta lista</p>
+<p><strong>Tabela 6</strong>: Itens do grupo mantidos e removidos na versão 2.1</p>
+</div>
+
+| Integrante | Item mantido (v2.0 → v2.1) | Itens removidos (códigos da v2.0) |
+| :--- | :---: | :---: |
+| [Arthur Mariani](https://github.com/arthur-mariani) | G11 → G1 | G1–G10, G12–G20, G28 |
+| [Carlos Costa](https://github.com/carloshfgit) | G22 → G3 | — |
+| [Gabriel Melo](https://github.com/gabriellcardone-06) | G21 → G2 | — |
+| [Igor Dantas](https://github.com/IgorDARAUJO) | G26 → G6 | — |
+| [Lucas Araújo](https://github.com/Lucasaraujoszz) | G23 → G4 | — |
+| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | G27 → G7 | — |
+| [Tomás Rocho](https://github.com/TomasRocho) | G24 → G5 | G25 |
+
+<div align="center">
+<p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
+</div>
+
+## Registro da avaliação
+
+O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 7.
+
+<div align="center">
+<p><strong>Tabela 7</strong>: Registro das avaliações feitas com esta lista</p>
 </div>
 | Artefato e versão avaliada | Data e hora | Avaliador(es) | Grupo avaliador (próprio ou +1) | Observações |
 | :--- | :---: | :--- | :---: | :--- |
@@ -227,7 +229,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 3: 11.8 Framework DECIDE](../../assets/prints_referencias/verificacao-v2/livro-decide.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 264). Itens que usam esta figura: C2, C5, C6, G2, G3, G4, G5, G7, G8, G11.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 264). Itens que usam esta figura: C2, C5, C6, G1.</em></p>
 </div>
 
 ---
@@ -239,7 +241,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 4: 11.2 Principais aspectos (objetivos) avaliados em IHC](../../assets/prints_referencias/verificacao-v2/livro-objetivos-avaliacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 248). Itens que usam esta figura: C3, G1, G2, G3, G4, G5.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 248). Itens que usam esta figura: C3.</em></p>
 </div>
 
 ---
@@ -251,7 +253,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 5: 11.6 Classificação dos métodos de avaliação: investigação, observação e inspeção](../../assets/prints_referencias/verificacao-v2/livro-tipos-metodos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 256). Itens que usam esta figura: C4, G6, G14.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 256). Itens que usam esta figura: C4.</em></p>
 </div>
 
 ---
@@ -263,7 +265,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 6: 11.7.2 Escopo da avaliação, perfil e número de participantes](../../assets/prints_referencias/verificacao-v2/livro-escopo-participantes.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 258). Itens que usam esta figura: C5, G15, G23.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 258). Itens que usam esta figura: C5, G4.</em></p>
 </div>
 
 ---
@@ -275,7 +277,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 7: 11.7.2 Questões práticas e material de apoio da avaliação](../../assets/prints_referencias/verificacao-v2/livro-questoes-praticas-material.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 259). Itens que usam esta figura: C5, G7, G24.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 259). Itens que usam esta figura: C5, G5.</em></p>
 </div>
 
 ---
@@ -299,7 +301,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 9: 11.7.5 Consolidação e relato dos resultados](../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 263). Itens que usam esta figura: C7, G10, G27.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 263). Itens que usam esta figura: C7, G7.</em></p>
 </div>
 
 ---
@@ -311,7 +313,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 10: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Itens que usam esta figura: C11, C12, G26.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 260). Itens que usam esta figura: C11, C12, G6.</em></p>
 </div>
 
 ---
@@ -329,133 +331,25 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ---
 
 <div id="figura-12" align="center">
-<p><strong>Figura 12</strong>: Permissão para gravação e consentimento livre e esclarecido</p>
+<p><strong>Figura 12</strong>: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
 </div>
 
-![Figura 12: Permissão para gravação e consentimento livre e esclarecido](../../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
+![Figura 12: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Itens que usam esta figura: G8.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 251). Itens que usam esta figura: G2.</em></p>
 </div>
 
 ---
 
 <div id="figura-13" align="center">
-<p><strong>Figura 13</strong>: 11.5 Classificação dos dados coletados e produzidos em uma avaliação</p>
+<p><strong>Figura 13</strong>: Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
 </div>
 
-![Figura 13: 11.5 Classificação dos dados coletados e produzidos em uma avaliação](../../assets/prints_referencias/verificacao-v2/livro-tipos-dados.png)
+![Figura 13: Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 254). Itens que usam esta figura: G9.</em></p>
-</div>
-
----
-
-<div id="figura-14" align="center">
-<p><strong>Figura 14</strong>: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
-</div>
-
-![Figura 14: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 267, 288). Itens que usam esta figura: G12, G13.</em></p>
-</div>
-
----
-
-<div id="figura-15" align="center">
-<p><strong>Figura 15</strong>: Escolha do método de avaliação de acordo com o objetivo</p>
-</div>
-
-![Figura 15: Escolha do método de avaliação de acordo com o objetivo](../../assets/prints_referencias/verificacao-v2/livro-metodo-objetivo.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 257). Itens que usam esta figura: G16.</em></p>
-</div>
-
----
-
-<div id="figura-16" align="center">
-<p><strong>Figura 16</strong>: 12.1.1 Avaliação heurística: base nas heurísticas de Nielsen</p>
-</div>
-
-![Figura 16: 12.1.1 Avaliação heurística: base nas heurísticas de Nielsen](../../assets/prints_referencias/verificacao-v2/livro-heuristicas.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 268). Itens que usam esta figura: G17.</em></p>
-</div>
-
----
-
-<div id="figura-17" align="center">
-<p><strong>Figura 17</strong>: Tabela 12.1 e conteúdo do relato de uma avaliação heurística</p>
-</div>
-
-![Figura 17: Tabela 12.1 e conteúdo do relato de uma avaliação heurística](../../assets/prints_referencias/verificacao-v2/livro-heuristica-atividades-relato.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 269–271). Itens que usam esta figura: G18, G20.</em></p>
-</div>
-
----
-
-<div id="figura-18" align="center">
-<p><strong>Figura 18</strong>: 12.1.1 Avaliação heurística: escala de severidade de Nielsen</p>
-</div>
-
-![Figura 18: 12.1.1 Avaliação heurística: escala de severidade de Nielsen](../../assets/prints_referencias/verificacao-v2/livro-heuristica-severidade.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 270). Itens que usam esta figura: G19.</em></p>
-</div>
-
----
-
-<div id="figura-19" align="center">
-<p><strong>Figura 19</strong>: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)</p>
-</div>
-
-![Figura 19: Artefatos que podem ser avaliados de forma formativa (incluindo storyboards)](../../assets/prints_referencias/verificacao-v2/livro-storyboard-avaliacao.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 251). Itens que usam esta figura: G21.</em></p>
-</div>
-
----
-
-<div id="figura-20" align="center">
-<p><strong>Figura 20</strong>: Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
-</div>
-
-![Figura 20: Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 262). Itens que usam esta figura: G22.</em></p>
-</div>
-
----
-
-<div id="figura-21" align="center">
-<p><strong>Figura 21</strong>: 11.7.2 Duração das tarefas e das sessões de avaliação</p>
-</div>
-
-![Figura 21: 11.7.2 Duração das tarefas e das sessões de avaliação](../../assets/prints_referencias/verificacao-v2/livro-tempo-tarefas.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 259). Itens que usam esta figura: G25.</em></p>
-</div>
-
----
-
-<div id="figura-22" align="center">
-<p><strong>Figura 22</strong>: 11.7.3 Coleta de dados: dois avaliadores, anotações e não interferência</p>
-</div>
-
-![Figura 22: 11.7.3 Coleta de dados: dois avaliadores, anotações e não interferência](../../assets/prints_referencias/verificacao-v2/livro-coleta-avaliadores.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 261). Itens que usam esta figura: G28.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 262). Itens que usam esta figura: G3.</em></p>
 </div>
 
 ---

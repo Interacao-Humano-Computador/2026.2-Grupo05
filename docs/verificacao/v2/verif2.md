@@ -4,6 +4,7 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 26/09/2026 | `1.0` | Lista de verificação referente à entrega 2 (publicada em [verif2.md](../verif2.md)). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
 | 19/11/2026 | `2.0` | Inclusão dos Itens do Desenvolvimento do Projeto e dos 12 itens de conteúdo do Plano de Ensino; autoria por item de acordo com o conteúdo; correção de itens; novos itens de cenários, GOMS e perfil; prints das referências. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
+| 22/11/2026 | `2.1` | Redução dos itens do grupo para um item por integrante (G1–G7, renumerados); Itens do Desenvolvimento do Projeto (D1–D11) e itens do Plano de Ensino (C1–C12) mantidos sem alteração; remoção das figuras que só fundamentavam itens retirados; atualização da tabela de contribuição e da rastreabilidade. | [Gabriel Melo](https://github.com/gabriellcardone-06) | — | Claude (Anthropic): apoio na seleção dos itens mantidos, na renumeração e na atualização das referências cruzadas. |
 
 ---
 
@@ -14,7 +15,7 @@
 
 ## Introdução
 
-Esta lista verifica os artefatos da **Entrega 2: Perfil do usuário, Aspectos Éticos de Pesquisas Envolvendo Pessoas e Análise de Tarefas (com personas e cenários)**. A versão 1.0 tinha 79 itens, numerados de 1 a 79, sobre coleta de dados, ética, entrevistas, questionários, brainstorming, CTT, personas e HTA. Na versão 2.0 eles mantêm o mesmo número com o prefixo G (o item 23 da v1.0 é o G23), e os itens novos começam no G80. Os itens G1–G79 foram redigidos por Arthur Mariani na v1.0; agora cada um indica também o integrante responsável pelo conteúdo verificado.
+Esta lista verifica os artefatos da **Entrega 2: Perfil do usuário, Aspectos Éticos de Pesquisas Envolvendo Pessoas e Análise de Tarefas (com personas e cenários)**. A versão 1.0 tinha 79 itens, numerados de 1 a 79, sobre coleta de dados, ética, entrevistas, questionários, brainstorming, CTT, personas e HTA. Na versão 2.0 eles mantêm o mesmo número com o prefixo G (o item 23 da v1.0 é o G23), e os itens novos começam no G80. Os itens G1–G79 foram redigidos por Arthur Mariani na v1.0; agora cada um indica também o integrante responsável pelo conteúdo verificado. Na versão 2.1, os itens do grupo foram reduzidos a um por integrante (G1–G7); a correspondência com a versão 2.0 está na [Tabela 6](#reducao-v21).
 
 Para cada item, quem avalia marca **Sim**, **Não** ou **Incompleto**, como no Plano de Ensino (SALES, 2026). Quando um item não se aplica ao artefato avaliado, escreva *N/A* na linha e explique em *Observações* no registro da avaliação. A coluna *Autor(es) do item* indica quem escreveu a pergunta e quem é responsável pelo conteúdo verificado. Nos itens do professor, a pergunta é de André Barros de Sales e o integrante indicado é quem produziu o conteúdo e a evidência. A coluna *Referência* leva ao print grifado da fonte, no fim da página. As páginas do livro são as páginas impressas do *IHC.pdf* (BARBOSA et al., 2021, versão de 03/05/2021).
 
@@ -75,292 +76,43 @@ A Tabela 2 traz os 12 itens de conteúdo da Entrega 2 do Plano de Ensino. A vers
 
 ## 3. Itens de conteúdo elaborados pelo grupo
 
-As seções 3.1 a 3.12 trazem os itens do grupo. As referências estão nos capítulos 7 e 8 de Barbosa et al. (2021).
-
-### 3.1 Que dados coletar (perfil de usuário)
-
-Os itens desta seção estão na Tabela 3.
+A Tabela 3 traz um item por integrante, sobre o artefato da Entrega 2 que cada um produziu: tipos de usuário (G1), viés nas perguntas aos participantes (G2), tipo de entrevista (G3), questionário (G4), sessão-piloto do brainstorming (G5), persona primária (G6) e ligação entre persona, cenário e análise de tarefa (G7). As referências estão nos capítulos 7 e 8 de Barbosa et al. (2021).
 
 <div align="center">
-<p><strong>Tabela 3</strong>: Que dados coletar (perfil de usuário)</p>
+<p><strong>Tabela 3</strong>: Itens de conteúdo do Grupo 05 para os artefatos da Entrega 2 (um por integrante)</p>
 </div>
 
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G1 | Foram coletados dados demográficos, como idade, sexo e status socioeconômico? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G2 | Foram coletados dados sobre a experiência no cargo atual, como cargo, experiência, tempo na organização, responsabilidades, cargos anteriores e plano de carreira? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G3 | Foram coletados dados sobre a organização, como tamanho e área de atuação? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G4 | Foram coletados dados sobre educação, incluindo formação, cursos, alfabetismo, leitura, experiência com textos complexos e preferências de aprendizagem? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G5 | Foram coletados dados sobre a experiência do usuário com computadores, como alfabetismo computacional, habilidade, anos de experiência, sistemas e hardware utilizados? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G6 | Foram coletados dados sobre a experiência com o produto específico ou ferramentas semelhantes, incluindo produtos concorrentes, hábitos de uso, preferências e descontentamentos? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G7 | Foram coletados dados sobre a tecnologia disponível ao usuário, como hardware, software e outras ferramentas às quais tem acesso? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G8 | Foram coletados dados sobre o treinamento do usuário, suas preferências de aprendizagem e o tempo que pode investir para aprender a utilizar o produto? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G9 | Foram coletados dados sobre atitudes e valores do usuário, como disposição para assumir riscos, explorar alternativas e aprender novas tarefas? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G10 | Foram coletados dados sobre o conhecimento do usuário no domínio, incluindo o que conhece, seu nível de especialização e a expectativa de se tornar especialista? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G11 | Foram coletados dados sobre os objetivos do usuário e como eles são alcançados atualmente? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G12 | Foram coletados dados sobre as tarefas do usuário, incluindo tarefas apoiadas, primárias e secundárias, frequência, inovação e experiência com tarefas semelhantes? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G13 | Foram coletados dados sobre a gravidade dos erros e suas possíveis consequências para o usuário? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G14 | Foram coletados dados sobre a motivação para o trabalho, como carga horária, prazer, interação social e ambição de promoção? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G15 | Foram coletados dados sobre idiomas e jargões usados pelo usuário, pela organização, pela atividade ou por grupos sociais relevantes? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
+| G1 | Os dados foram coletados identificando o tipo de usuário: primário, secundário e demais stakeholders? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 16](#figura-16) | ☐ | ☐ | ☐ |
+| G2 | Foram evitadas perguntas ou condutas que possam induzir viés nas respostas dos participantes? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
+| G3 | A pesquisa especifica se a entrevista é estruturada, não estruturada ou semiestruturada? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 18](#figura-18) | ☐ | ☐ | ☐ |
+| G4 | O questionário priorizou perguntas fechadas, sem excesso de perguntas abertas que possa reduzir o interesse e a taxa de resposta? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 18](#figura-18)<br>[Fig. 19](#figura-19) | ☐ | ☐ | ☐ |
+| G5 | Foi realizada uma sessão-piloto para testar a pergunta, o procedimento, a moderação e o tempo previsto? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 20](#figura-20) | ☐ | ☐ | ☐ |
+| G6 | Há ao menos uma persona primária, foco principal das decisões de design? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 21](#figura-21) | ☐ | ☐ | ☐ |
+| G7 | Cada persona e cada cenário estão ligados a uma análise de tarefa (TAR) correspondente, de modo que a atividade de cada integrante possa ser rastreada do cenário ao modelo de tarefa? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 12](#figura-12)<br>[Fig. 22](#figura-22) | ☐ | ☐ | ☐ |
 
 <div align="center">
-<p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
-</div>
-
-### 3.2 De quem coletar dados
-
-Os itens desta seção estão na Tabela 4.
-
-<div align="center">
-<p><strong>Tabela 4</strong>: De quem coletar dados</p>
-</div>
-
-| Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G16 | Os dados foram coletados identificando o tipo de usuário: primário, secundário e demais stakeholders? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 16](#figura-16) | ☐ | ☐ | ☐ |
-| G17 | Foram identificados todos os stakeholders afetados pelo sistema, e não apenas os usuários finais? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 16](#figura-16) | ☐ | ☐ | ☐ |
-| G18 | Foi feito o mapeamento das diferenças entre usuários primários e usuários secundários? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 16](#figura-16) | ☐ | ☐ | ☐ |
-| G19 | A equipe considerou uma análise competitiva de IHC para mapear pontos fortes e fracos de produtos concorrentes ou substitutos? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-| G20 | Foram consideradas as limitações do uso de arquivos de log para evitar conclusões equivocadas sobre tempo de uso e conclusão de objetivos? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-
-<div align="center">
-<p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
-</div>
-
-### 3.3 Aspectos éticos de pesquisas envolvendo pessoas
-
-Os itens desta seção estão na Tabela 5.
-
-<div align="center">
-<p><strong>Tabela 5</strong>: Aspectos éticos de pesquisas envolvendo pessoas</p>
-</div>
-
-| Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G21 | Os participantes assinaram o Termo de Consentimento Livre e Esclarecido (TCLE), com uma via para o participante e outra para o pesquisador? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 9](#figura-9) | ☐ | ☐ | ☐ |
-| G22 | Foram garantidos o anonimato dos participantes e a confidencialidade dos dados brutos coletados? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 7](#figura-7) | ☐ | ☐ | ☐ |
-| G23 | A pesquisa respeita o princípio da autonomia, permitindo que o participante decida participar, interromper ou abandonar o estudo sem penalidades? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 8](#figura-8)<br>[Fig. 18](#figura-18) | ☐ | ☐ | ☐ |
-| G24 | Foram evitadas perguntas ou condutas que possam induzir viés nas respostas dos participantes? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 18](#figura-18) | ☐ | ☐ | ☐ |
-| G25 | A pesquisa ponderou riscos e benefícios, maximizando os benefícios e minimizando possíveis danos aos participantes (princípio da beneficência)? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 8](#figura-8) | ☐ | ☐ | ☐ |
-
-<div align="center">
-<p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
-</div>
-
-### 3.4 Técnica de entrevista
-
-Os itens desta seção estão na Tabela 6.
-
-<div align="center">
-<p><strong>Tabela 6</strong>: Técnica de entrevista</p>
-</div>
-
-| Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G26 | A pesquisa apresenta um roteiro para a entrevista? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 19](#figura-19) | ☐ | ☐ | ☐ |
-| G27 | A pesquisa especifica se a entrevista utiliza perguntas abertas ou fechadas? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 19](#figura-19) | ☐ | ☐ | ☐ |
-| G28 | A pesquisa especifica se a entrevista é estruturada, não estruturada ou semiestruturada? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 19](#figura-19) | ☐ | ☐ | ☐ |
-| G29 | A entrevista é realizada individualmente com o participante (com mais de um entrevistado, a técnica passa a ser grupo de foco)? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 19](#figura-19) | ☐ | ☐ | ☐ |
-| G30 | A pesquisa especifica se o entrevistador recebeu treinamento antes de realizar a entrevista? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 20](#figura-20) | ☐ | ☐ | ☐ |
-
-<div align="center">
-<p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
-</div>
-
-### 3.5 Técnica de questionários
-
-Os itens desta seção estão na Tabela 7.
-
-<div align="center">
-<p><strong>Tabela 7</strong>: Técnica de questionários</p>
-</div>
-
-| Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G31 | O questionário priorizou perguntas fechadas, sem excesso de perguntas abertas que possa reduzir o interesse e a taxa de resposta? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 19](#figura-19)<br>[Fig. 21](#figura-21) | ☐ | ☐ | ☐ |
-| G32 | A escala de Likert foi utilizada de forma clara e sem ambiguidades (em geral com 5 ou 7 pontos)? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 21](#figura-21) | ☐ | ☐ | ☐ |
-| G33 | As opções de adjetivos opostos foram bem definidas ao aplicar uma escala de diferencial semântico? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 21](#figura-21) | ☐ | ☐ | ☐ |
-| G34 | As faixas de valores foram elaboradas sem sobreposição de números e sem gerar dúvidas no respondente? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 21](#figura-21) | ☐ | ☐ | ☐ |
-
-<div align="center">
-<p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
-</div>
-
-### 3.6 Técnica de brainstorming
-
-Os itens desta seção estão na Tabela 8.
-
-<div align="center">
-<p><strong>Tabela 8</strong>: Técnica de brainstorming</p>
-</div>
-
-| Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G35 | A sessão de brainstorming contou com 8 a 12 participantes? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 22](#figura-22) | ☐ | ☐ | ☐ |
-| G36 | A sessão teve um moderador previamente definido? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 22](#figura-22) | ☐ | ☐ | ☐ |
-| G37 | A sessão contou com um secretário responsável por documentar o encontro? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 22](#figura-22) | ☐ | ☐ | ☐ |
-| G38 | Foi realizada uma sessão-piloto para testar a pergunta, o procedimento, a moderação e o tempo previsto? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 23](#figura-23) | ☐ | ☐ | ☐ |
-| G39 | O moderador manteve o foco no objetivo da sessão, sem oferecer opiniões próprias nem influenciar as respostas dos participantes? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 22](#figura-22) | ☐ | ☐ | ☐ |
-| G40 | A sessão foi iniciada com uma pergunta focada no sistema ideal, sem limitar os participantes às tecnologias atuais? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 22](#figura-22) | ☐ | ☐ | ☐ |
-| G41 | Os participantes selecionados possuíam perfil semelhante, com sessões separadas quando havia mais de um perfil? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 22](#figura-22) | ☐ | ☐ | ☐ |
-| G42 | Foram fornecidos papel e lápis para que os participantes registrassem suas ideias durante a discussão? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 23](#figura-23) | ☐ | ☐ | ☐ |
-
-<div align="center">
-<p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
-</div>
-
-### 3.7 Árvores de Tarefas Concorrentes (CTT)
-
-Os itens desta seção estão na Tabela 9.
-
-<div align="center">
-<p><strong>Tabela 9</strong>: Árvores de Tarefas Concorrentes (CTT)</p>
-</div>
-
-| Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G43 | As tarefas foram classificadas como do usuário, do sistema, interativas ou abstratas? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G44 | A decomposição hierárquica está coerente entre tarefas superiores e subordinadas? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G45 | As relações de ativação (>>) indicam corretamente quando uma tarefa depende do término de outra? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G46 | Dependências de informação entre tarefas foram representadas com ativação com passagem de informação ([]>>)? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G47 | As escolhas entre tarefas alternativas ([]) foram representadas corretamente? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G48 | Tarefas simultâneas ou realizáveis em qualquer ordem foram identificadas como concorrentes (|||)? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G49 | A comunicação entre tarefas concorrentes (|[]|) foi explicitamente representada quando necessária? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G50 | As tarefas independentes (|=|) permitem execução em qualquer ordem, mas sem sobreposição? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G51 | As relações de interrupção distinguem desativação ([>) de suspensão e retomada (|>)? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G52 | O artefato reconhece que o CTT não representa mecanismos de prevenção e tratamento de erros e, quando necessário, trata esses casos de outra forma? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 24](#figura-24) | ☐ | ☐ | ☐ |
-
-<div align="center">
-<p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
-</div>
-
-### 3.8 Elenco de personas
-
-Os itens desta seção estão na Tabela 10.
-
-<div align="center">
-<p><strong>Tabela 10</strong>: Elenco de personas</p>
-</div>
-
-| Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G53 | Há ao menos uma persona para cada papel de usuário relevante? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 25](#figura-25) | ☐ | ☐ | ☐ |
-| G54 | Há ao menos uma persona primária, foco principal das decisões de design? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 25](#figura-25) | ☐ | ☐ | ☐ |
-| G55 | Cada persona primária tem necessidades que não seriam satisfeitas por uma interface projetada para outra persona? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 25](#figura-25) | ☐ | ☐ | ☐ |
-| G56 | O número de personas é reduzido o suficiente para que sejam memoráveis e diferenciadas? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 25](#figura-25) | ☐ | ☐ | ☐ |
-| G57 | O elenco cobre os principais grupos de usuários? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 25](#figura-25) | ☐ | ☐ | ☐ |
-| G58 | O elenco tem de três a 12 personas, suficientemente distintas entre si? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 25](#figura-25) | ☐ | ☐ | ☐ |
-| G59 | Foram incluídas antipersonas quando necessário? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 25](#figura-25) | ☐ | ☐ | ☐ |
-
-<div align="center">
-<p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
-</div>
-
-### 3.9 Análise Hierárquica de Tarefas (HTA)
-
-Os itens desta seção estão na Tabela 11.
-
-<div align="center">
-<p><strong>Tabela 11</strong>: Análise Hierárquica de Tarefas (HTA)</p>
-</div>
-
-| Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G60 | Os objetivos principais foram identificados antes das ações? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 26](#figura-26) | ☐ | ☐ | ☐ |
-| G61 | Objetivos de alto nível foram decompostos hierarquicamente em subobjetivos? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 26](#figura-26) | ☐ | ☐ | ☐ |
-| G62 | Os planos definem os subobjetivos e a ordem de realização (sequência 1>2, seleção 1/2 ou paralelo 1+2)? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 26](#figura-26) | ☐ | ☐ | ☐ |
-| G63 | As operações de mais baixo nível descrevem input, ações e feedback? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 26](#figura-26)<br>[Fig. 27](#figura-27) | ☐ | ☐ | ☐ |
-| G64 | Os subobjetivos são mutuamente exclusivos e exaustivos? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 27](#figura-27) | ☐ | ☐ | ☐ |
-| G65 | Problemas e dificuldades potenciais foram identificados, com recomendações para evitá-los? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 26](#figura-26) | ☐ | ☐ | ☐ |
-| G66 | Há critério para interromper a decomposição da tarefa (por exemplo, o critério p × c)? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 13](#figura-13) | ☐ | ☐ | ☐ |
-| G67 | A decomposição foi validada com as partes interessadas? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 27](#figura-27) | ☐ | ☐ | ☐ |
-
-<div align="center">
-<p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
-</div>
-
-### 3.10 Personas
-
-Os itens desta seção estão na Tabela 12.
-
-<div align="center">
-<p><strong>Tabela 12</strong>: Personas</p>
-</div>
-
-| Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G68 | A persona possui identidade clara (nome, sobrenome, idade, dados demográficos) e, quando possível, foto? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 28](#figura-28) | ☐ | ☐ | ☐ |
-| G69 | A persona representa características de usuários reais, levantadas na investigação? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 28](#figura-28) | ☐ | ☐ | ☐ |
-| G70 | O status da persona foi definido como primária, secundária, outro stakeholder ou antiusuário? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 28](#figura-28) | ☐ | ☐ | ☐ |
-| G71 | Os objetivos da persona estão claramente identificados? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 28](#figura-28) | ☐ | ☐ | ☐ |
-| G72 | Objetivos e tarefas foram diferenciados? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 28](#figura-28) | ☐ | ☐ | ☐ |
-| G73 | Formação, experiência, treinamento e competências foram descritos? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 28](#figura-28) | ☐ | ☐ | ☐ |
-| G74 | As principais tarefas, frequência, importância e duração foram identificadas? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 28](#figura-28) | ☐ | ☐ | ☐ |
-| G75 | Os relacionamentos com pessoas, grupos ou stakeholders foram identificados? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 28](#figura-28) | ☐ | ☐ | ☐ |
-| G76 | Os requisitos da persona foram registrados, com citações que dão vida às necessidades? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 28](#figura-28) | ☐ | ☐ | ☐ |
-| G77 | As expectativas da persona sobre o sistema foram identificadas? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 28](#figura-28) | ☐ | ☐ | ☐ |
-| G78 | A persona é específica o suficiente para orientar decisões de design? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 28](#figura-28) | ☐ | ☐ | ☐ |
-| G79 | O conjunto de personas é pequeno, memorável e cobre os grupos principais? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 25](#figura-25) | ☐ | ☐ | ☐ |
-
-<div align="center">
-<p><em>Fonte: itens G1–G79: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; itens G80–G87: Grupo 05 (2026). Base: BARBOSA et al. (2021).</em></p>
-</div>
-
-### 3.11 Cenários (itens novos)
-
-Os itens desta seção estão na Tabela 13.
-
-<div align="center">
-<p><strong>Tabela 13</strong>: Cenários (itens novos)</p>
-</div>
-
-| Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G80 | Cada cenário apresenta um ator principal e um objetivo principal? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 11](#figura-11) | ☐ | ☐ | ☐ |
-| G81 | Os atores dos cenários são as personas elaboradas previamente? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 29](#figura-29) | ☐ | ☐ | ☐ |
-| G82 | Cada cenário tem título, atores, descrição da situação inicial e, quando houver, referência a outros cenários com o mesmo objetivo? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 29](#figura-29) | ☐ | ☐ | ☐ |
-| G83 | Os cenários contemplam os elementos característicos: ambiente ou contexto, atores, objetivos, planejamento, ações, eventos e avaliação? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 29](#figura-29) | ☐ | ☐ | ☐ |
-| G84 | Os cenários de análise (de problema) descrevem a atividade do usuário como ela existe antes da introdução da nova tecnologia? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 29](#figura-29) | ☐ | ☐ | ☐ |
-
-<div align="center">
-<p><em>Fonte: elaborado pelo Grupo 05 (2026), com base em BARBOSA et al. (2021).</em></p>
-</div>
-
-### 3.12 GOMS, perfil e rastreabilidade das tarefas (itens novos)
-
-Os itens desta seção estão na Tabela 14.
-
-<div align="center">
-<p><strong>Tabela 14</strong>: GOMS, perfil e rastreabilidade das tarefas (itens novos)</p>
-</div>
-
-| Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
-| :---: | :--- | :--- | :---: | :---: | :---: | :---: |
-| G85 | Quando o GOMS (ou o KLM) é utilizado, o modelo identifica objetivos, operadores e métodos e apresenta regras de seleção quando há mais de um método para o mesmo objetivo? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 14](#figura-14) | ☐ | ☐ | ☐ |
-| G86 | O perfil apresenta, para as características levantadas, a faixa de respostas e a proporção de usuários em cada faixa, agrupando os usuários por semelhança? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 5](#figura-5) | ☐ | ☐ | ☐ |
-| G87 | Cada persona e cada cenário estão ligados a uma análise de tarefa (TAR) correspondente, de modo que a atividade de cada integrante possa ser rastreada do cenário ao modelo de tarefa? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 12](#figura-12)<br>[Fig. 29](#figura-29) | ☐ | ☐ | ☐ |
-
-<div align="center">
-<p><em>Fonte: elaborado pelo Grupo 05 (2026), com base em BARBOSA et al. (2021).</em></p>
+<p><em>Fonte: itens G1–G6: Arthur Mariani (2026, v1.0), revisados e com autoria por conteúdo na v2.0; item G7: Grupo 05 (2026, v2.0). Base: BARBOSA et al. (2021).</em></p>
 </div>
 
 ## Tabela de contribuição
 
-A Tabela 15 mostra o que cada integrante fez nesta lista. A autoria dos itens segue o conteúdo que cada integrante produziu no projeto: quem fez o artefato é autor dos itens que o verificam. Os links levam ao artefato correspondente. As gravações das reuniões estão na página de [atas](../../atas/ata1.md) e de [gravações](../../apresentacoes/index.md).
+A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens segue o conteúdo que cada integrante produziu no projeto: quem fez o artefato é autor dos itens que o verificam. Os links levam ao artefato correspondente. As gravações das reuniões estão na página de [atas](../../atas/ata1.md) e de [gravações](../../apresentacoes/index.md).
 
 <div align="center">
-<p><strong>Tabela 15</strong>: Contribuição de cada integrante nesta lista</p>
+<p><strong>Tabela 4</strong>: Contribuição de cada integrante nesta lista</p>
 </div>
 
 | Integrante | Contribuição nesta lista | Artefato(s) relacionado(s) |
 | :--- | :--- | :--- |
-| [Arthur Mariani](https://github.com/arthur-mariani) | Autor da versão 1.0 (redação dos itens G1–G79). Conteúdo dos itens C6, C7 e C12 e dos itens G23–G24, G39–G42, G49–G50 e G74–G75. | [Aspectos éticos](../../analise-de-requisitos/aspectos-eticos.md), [Brainstorming](../../analise-de-requisitos/brainstorm.md), [TAR-03](../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md), [TAR-07](../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md), [Maria Eduarda](../../analise-de-requisitos/personas/maria-eduarda-santos.md) |
-| [Carlos Costa](https://github.com/carloshfgit) | Revisor da versão 1.0. Conteúdo dos itens C3 e C8 e dos itens G11–G15, G26–G30, G47–G48, G70–G71 e G83. | [Entrevistas](../../analise-de-requisitos/entrevistas.md), [Perfil do motorista](../../analise-de-requisitos/perfis-de-usuario/perfil-motorista.md), [TAR-04 e TAR-05](../../analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md), [Valdir](../../analise-de-requisitos/personas/valdir-soares.md), [Cenários 5 a 8](../../analise-de-requisitos/cenarios/cenario-5-consulta-escala.md) |
-| [Gabriel Melo](https://github.com/gabriellcardone-06) | Autor da versão 2.0 (reestruturação, itens D1–D11 e C1–C12, autoria por conteúdo, itens novos e prints). Conteúdo dos itens C1, C2 e C10 e dos itens G1–G5, G16–G20, G45–G46, G56–G59, G68–G69, G81 e G86. | [Perfis de usuário](../../analise-de-requisitos/perfis-de-usuario/index.md), [Análise de documentos](../../analise-de-requisitos/analise-de-documentos.md), [TAR-02](../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md), [Larissa](../../analise-de-requisitos/personas/larissa-ferreira-lima.md), [Cenário 1](../../analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel.md) |
-| [Igor Dantas](https://github.com/IgorDARAUJO) | Conteúdo dos itens C4, C5, C7 e C9 e dos itens G21–G22, G25, G43–G44, G53–G55 e G80. | [Aspectos éticos](../../analise-de-requisitos/aspectos-eticos.md), [Personas](../../analise-de-requisitos/personas/index.md), [Cenários](../../analise-de-requisitos/cenarios/index.md), [TAR-01](../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md) |
-| [Lucas Araújo](https://github.com/Lucasaraujoszz) | Conteúdo do item C8 e dos itens G35–G38, G63–G65, G72–G73 e G82. | [Brainstorming](../../analise-de-requisitos/brainstorm.md), [TAR-03](../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md), [Marcos Paulo](../../analise-de-requisitos/personas/marcos-paulo-vieira.md), [Cenário 3](../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md) |
-| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Conteúdo do item C1 e dos itens G6–G10, G31–G34, G60–G62, G76–G77, G84 e G85. | [Perfil secundário (questionário)](../../analise-de-requisitos/perfis-de-usuario/perfil-secundario.md), [TAR-06](../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md), [TAR-08](../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md), [Mariana](../../analise-de-requisitos/personas/mariana-borges-almeida.md), [Cláudia](../../analise-de-requisitos/personas/claudia-regina-santos.md) |
-| [Tomás Rocho](https://github.com/TomasRocho) | Conteúdo do item C11 e dos itens G51–G52, G66–G67, G78–G79 e G87. | [TAR-09](../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md), [Heitor](../../analise-de-requisitos/personas/heitor-santos-junior.md), [Cenário 9](../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md) |
+| [Arthur Mariani](https://github.com/arthur-mariani) | Autor da versão 1.0 (redação dos 79 itens, dos quais G1–G6 permanecem). Conteúdo dos itens C6, C7 e C12 e do item G2. | [Aspectos éticos](../../analise-de-requisitos/aspectos-eticos.md), [Brainstorming](../../analise-de-requisitos/brainstorm.md), [TAR-03](../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md), [TAR-07](../../analise-de-requisitos/analise-de-tarefas/tar-07-credito-vale-transporte.md), [Maria Eduarda](../../analise-de-requisitos/personas/maria-eduarda-santos.md) |
+| [Carlos Costa](https://github.com/carloshfgit) | Revisor da versão 1.0. Conteúdo dos itens C3 e C8 e do item G3. | [Entrevistas](../../analise-de-requisitos/entrevistas.md), [Perfil do motorista](../../analise-de-requisitos/perfis-de-usuario/perfil-motorista.md), [TAR-04 e TAR-05](../../analise-de-requisitos/analise-de-tarefas/analise-hta-ctt-motorista.md), [Valdir](../../analise-de-requisitos/personas/valdir-soares.md), [Cenários 5 a 8](../../analise-de-requisitos/cenarios/cenario-5-consulta-escala.md) |
+| [Gabriel Melo](https://github.com/gabriellcardone-06) | Autor da versão 2.0 (reestruturação, itens D1–D11 e C1–C12, autoria por conteúdo, itens novos e prints) e da versão 2.1 (um item por integrante). Conteúdo dos itens C1, C2 e C10 e do item G1. | [Perfis de usuário](../../analise-de-requisitos/perfis-de-usuario/index.md), [Análise de documentos](../../analise-de-requisitos/analise-de-documentos.md), [TAR-02](../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md), [Larissa](../../analise-de-requisitos/personas/larissa-ferreira-lima.md), [Cenário 1](../../analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel.md) |
+| [Igor Dantas](https://github.com/IgorDARAUJO) | Conteúdo dos itens C4, C5, C7 e C9 e do item G6. | [Aspectos éticos](../../analise-de-requisitos/aspectos-eticos.md), [Personas](../../analise-de-requisitos/personas/index.md), [Cenários](../../analise-de-requisitos/cenarios/index.md), [TAR-01](../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md) |
+| [Lucas Araújo](https://github.com/Lucasaraujoszz) | Conteúdo do item C8 e do item G5. | [Brainstorming](../../analise-de-requisitos/brainstorm.md), [TAR-03](../../analise-de-requisitos/analise-de-tarefas/tar-03-planejamento-rota.md), [Marcos Paulo](../../analise-de-requisitos/personas/marcos-paulo-vieira.md), [Cenário 3](../../analise-de-requisitos/cenarios/cenario-3-planejamento-origem-destino.md) |
+| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Conteúdo do item C1 e do item G4. | [Perfil secundário (questionário)](../../analise-de-requisitos/perfis-de-usuario/perfil-secundario.md), [TAR-06](../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md), [TAR-08](../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md), [Mariana](../../analise-de-requisitos/personas/mariana-borges-almeida.md), [Cláudia](../../analise-de-requisitos/personas/claudia-regina-santos.md) |
+| [Tomás Rocho](https://github.com/TomasRocho) | Conteúdo do item C11 e do item G7. | [TAR-09](../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md), [Heitor](../../analise-de-requisitos/personas/heitor-santos-junior.md), [Cenário 9](../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md) |
 | André Barros de Sales (professor) | Autor das perguntas dos Itens do Desenvolvimento do Projeto (D1–D11) e dos itens de conteúdo C1–C12, retiradas da lista de verificação sugerida no Plano de Ensino. | [Plano de Ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf) |
 
 <div align="center">
@@ -369,10 +121,10 @@ A Tabela 15 mostra o que cada integrante fez nesta lista. A autoria dos itens se
 
 ## Rastreabilidade v1.0 → v2.0
 
-A versão 1.0 continua publicada em [verif2.md](../verif2.md) e não foi apagada. A Tabela 16 indica onde cada item da versão 1.0 está nesta versão e o que mudou.
+A versão 1.0 continua publicada em [verif2.md](../verif2.md) e não foi apagada. A Tabela 5 indica onde cada item da versão 1.0 está nesta versão e o que mudou. Os códigos G desta tabela são os da versão 2.0; a numeração atual está na [Tabela 6](#reducao-v21).
 
 <div align="center">
-<p><strong>Tabela 16</strong>: Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
+<p><strong>Tabela 5</strong>: Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
 </div>
 
 | Item na v1.0 | Item na v2.0 | Alteração |
@@ -403,12 +155,34 @@ A versão 1.0 continua publicada em [verif2.md](../verif2.md) e não foi apagada
 <p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
 </div>
 
-## Registro da avaliação
+## Redução para um item por integrante (versão 2.1) { #reducao-v21 }
 
-O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 17.
+Na versão 2.1, os itens de conteúdo elaborados pelo grupo foram reduzidos a um item por integrante. O Plano de Ensino pede que cada integrante elabore ao menos um item de conteúdo da disciplina, com referência e foto do texto da referência (SALES, 2026, pp. 11–13). Os Itens do Desenvolvimento do Projeto (D1–D11) e os itens do professor (C1–C12) não mudaram. Para cada integrante, ficou o item que verifica o artefato produzido por ele e que não repete uma pergunta do professor. Os itens mantidos foram renumerados de G1 a G7, e as figuras que só fundamentavam itens retirados saíram da página. O texto completo da versão 2.0 continua no [histórico do repositório](https://github.com/Interacao-Humano-Computador/2026.2-Grupo05/blob/6fdf400a9ceec5605bcfc45c13ad3723865a2c8c/docs/verificacao/v2/verif2.md). A Tabela 6 mostra a correspondência.
 
 <div align="center">
-<p><strong>Tabela 17</strong>: Registro das avaliações feitas com esta lista</p>
+<p><strong>Tabela 6</strong>: Itens do grupo mantidos e removidos na versão 2.1</p>
+</div>
+
+| Integrante | Item mantido (v2.0 → v2.1) | Itens removidos (códigos da v2.0) |
+| :--- | :---: | :---: |
+| [Arthur Mariani](https://github.com/arthur-mariani) | G24 → G2 | G23, G39–G42, G49–G50, G74–G75 |
+| [Carlos Costa](https://github.com/carloshfgit) | G28 → G3 | G11–G15, G26–G27, G29–G30, G47–G48, G70–G71, G83 |
+| [Gabriel Melo](https://github.com/gabriellcardone-06) | G16 → G1 | G1–G5, G17–G20, G45–G46, G56–G59, G68–G69, G81, G86 |
+| [Igor Dantas](https://github.com/IgorDARAUJO) | G54 → G6 | G21–G22, G25, G43–G44, G53, G55, G80 |
+| [Lucas Araújo](https://github.com/Lucasaraujoszz) | G38 → G5 | G35–G37, G63–G65, G72–G73, G82 |
+| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | G31 → G4 | G6–G10, G32–G34, G60–G62, G76–G77, G84–G85 |
+| [Tomás Rocho](https://github.com/TomasRocho) | G87 → G7 | G51–G52, G66–G67, G78–G79 |
+
+<div align="center">
+<p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
+</div>
+
+## Registro da avaliação
+
+O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 7.
+
+<div align="center">
+<p><strong>Tabela 7</strong>: Registro das avaliações feitas com esta lista</p>
 </div>
 | Artefato e versão avaliada | Data e hora | Avaliador(es) | Grupo avaliador (próprio ou +1) | Observações |
 | :--- | :---: | :--- | :---: | :--- |
@@ -469,7 +243,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 4: Tipos de dados coletados sobre os usuários (Hackos e Redish, 1998; Courage e Baxter, 2005)](../../assets/prints_referencias/verificacao-v2/livro-que-dados-coletar.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 123–124). Itens que usam esta figura: C2, G1, G2, G3, G4, G5, G6, G7, G8, G9, G10, G11, G12, G13, G14, G15.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 123–124). Itens que usam esta figura: C2.</em></p>
 </div>
 
 ---
@@ -481,7 +255,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 5: Perfil de usuário: definição e grupos de atributos](../../assets/prints_referencias/verificacao-v2/livro-perfil.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 151–152). Itens que usam esta figura: C3, G86.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 151–152). Itens que usam esta figura: C3.</em></p>
 </div>
 
 ---
@@ -505,7 +279,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 7: Confidencialidade dos dados e anonimato dos participantes](../../assets/prints_referencias/verificacao-v2/livro-etica-anonimato.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Itens que usam esta figura: C4, G22.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 127). Itens que usam esta figura: C4.</em></p>
 </div>
 
 ---
@@ -517,7 +291,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 8: Os quatro princípios éticos (Resolução CNS nº 466/2012)](../../assets/prints_referencias/verificacao-v2/livro-etica-principios.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 126–127). Itens que usam esta figura: C5, G23, G25.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 126–127). Itens que usam esta figura: C5.</em></p>
 </div>
 
 ---
@@ -529,7 +303,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 9: Permissão para gravação e consentimento livre e esclarecido](../../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 127). Itens que usam esta figura: C6, C7, G21.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 127). Itens que usam esta figura: C6, C7.</em></p>
 </div>
 
 ---
@@ -553,7 +327,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 11: Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 158). Itens que usam esta figura: C9, G80.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 158). Itens que usam esta figura: C9.</em></p>
 </div>
 
 ---
@@ -565,7 +339,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 12: Métodos de análise de tarefas: HTA, GOMS e CTT](../../assets/prints_referencias/verificacao-v2/livro-analise-tarefas.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 164). Itens que usam esta figura: C10, C12, G87.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 164). Itens que usam esta figura: C10, C12, G7.</em></p>
 </div>
 
 ---
@@ -577,7 +351,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 13: HTA: diagrama, representação em tabela e critério de parada](../../assets/prints_referencias/verificacao-v2/livro-hta-tabela.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 165–166). Itens que usam esta figura: C11, G66.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–166). Itens que usam esta figura: C11.</em></p>
 </div>
 
 ---
@@ -589,7 +363,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 14: GOMS: objetivos, operadores, métodos e regras de seleção](../../assets/prints_referencias/verificacao-v2/livro-goms.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 167–168). Itens que usam esta figura: C11, G85.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 167–168). Itens que usam esta figura: C11.</em></p>
 </div>
 
 ---
@@ -601,7 +375,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 15: CTT: tipos de tarefas e relações temporais](../../assets/prints_referencias/verificacao-v2/livro-ctt.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 173). Itens que usam esta figura: C11, G43, G44, G45, G46, G47, G48, G49, G50, G51.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 173). Itens que usam esta figura: C11.</em></p>
 </div>
 
 ---
@@ -613,163 +387,79 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 16: Usuários primários, secundários e stakeholders](../../assets/prints_referencias/verificacao-v2/livro-de-quem-coletar.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 124). Itens que usam esta figura: G16, G17, G18.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 124). Itens que usam esta figura: G1.</em></p>
 </div>
 
 ---
 
 <div id="figura-17" align="center">
-<p><strong>Figura 17</strong>: Limitações dos arquivos de log e análise competitiva</p>
+<p><strong>Figura 17</strong>: Direito de desistir do estudo e dados livres de viés</p>
 </div>
 
-![Figura 17: Limitações dos arquivos de log e análise competitiva](../../assets/prints_referencias/verificacao-v2/livro-log-competitiva.png)
+![Figura 17: Direito de desistir do estudo e dados livres de viés](../../assets/prints_referencias/verificacao-v2/livro-etica-desistencia-vies.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 125). Itens que usam esta figura: G19, G20.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 128–129). Itens que usam esta figura: G2.</em></p>
 </div>
 
 ---
 
 <div id="figura-18" align="center">
-<p><strong>Figura 18</strong>: Direito de desistir do estudo e dados livres de viés</p>
+<p><strong>Figura 18</strong>: Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista</p>
 </div>
 
-![Figura 18: Direito de desistir do estudo e dados livres de viés](../../assets/prints_referencias/verificacao-v2/livro-etica-desistencia-vies.png)
+![Figura 18: Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista](../../assets/prints_referencias/verificacao-v2/livro-entrevistas.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 128–129). Itens que usam esta figura: G23, G24.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 131). Itens que usam esta figura: G3, G4.</em></p>
 </div>
 
 ---
 
 <div id="figura-19" align="center">
-<p><strong>Figura 19</strong>: Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista</p>
+<p><strong>Figura 19</strong>: Questionários: faixas de valores sem sobreposição e escalas Likert e de diferencial semântico</p>
 </div>
 
-![Figura 19: Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista](../../assets/prints_referencias/verificacao-v2/livro-entrevistas.png)
+![Figura 19: Questionários: faixas de valores sem sobreposição e escalas Likert e de diferencial semântico](../../assets/prints_referencias/verificacao-v2/livro-questionarios.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 131). Itens que usam esta figura: G26, G27, G28, G29, G31.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 136–137). Itens que usam esta figura: G4.</em></p>
 </div>
 
 ---
 
 <div id="figura-20" align="center">
-<p><strong>Figura 20</strong>: Treinamento dos entrevistadores</p>
+<p><strong>Figura 20</strong>: Brainstorming: papel e lápis e sessão-piloto</p>
 </div>
 
-![Figura 20: Treinamento dos entrevistadores](../../assets/prints_referencias/verificacao-v2/livro-entrevistador-treinado.png)
+![Figura 20: Brainstorming: papel e lápis e sessão-piloto](../../assets/prints_referencias/verificacao-v2/livro-brainstorming-2.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 134). Itens que usam esta figura: G30.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 140–141). Itens que usam esta figura: G5.</em></p>
 </div>
 
 ---
 
 <div id="figura-21" align="center">
-<p><strong>Figura 21</strong>: Questionários: faixas de valores sem sobreposição e escalas Likert e de diferencial semântico</p>
+<p><strong>Figura 21</strong>: Elenco de personas, persona primária e antipersonas</p>
 </div>
 
-![Figura 21: Questionários: faixas de valores sem sobreposição e escalas Likert e de diferencial semântico](../../assets/prints_referencias/verificacao-v2/livro-questionarios.png)
+![Figura 21: Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 136–137). Itens que usam esta figura: G31, G32, G33, G34.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 155). Itens que usam esta figura: G6.</em></p>
 </div>
 
 ---
 
 <div id="figura-22" align="center">
-<p><strong>Figura 22</strong>: Brainstorming de necessidades e desejos dos usuários</p>
+<p><strong>Figura 22</strong>: Elementos característicos de um cenário e uso de personas como atores</p>
 </div>
 
-![Figura 22: Brainstorming de necessidades e desejos dos usuários](../../assets/prints_referencias/verificacao-v2/livro-brainstorming.png)
+![Figura 22: Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 139). Itens que usam esta figura: G35, G36, G37, G39, G40, G41.</em></p>
-</div>
-
----
-
-<div id="figura-23" align="center">
-<p><strong>Figura 23</strong>: Brainstorming: papel e lápis e sessão-piloto</p>
-</div>
-
-![Figura 23: Brainstorming: papel e lápis e sessão-piloto](../../assets/prints_referencias/verificacao-v2/livro-brainstorming-2.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 140–141). Itens que usam esta figura: G38, G42.</em></p>
-</div>
-
----
-
-<div id="figura-24" align="center">
-<p><strong>Figura 24</strong>: CTT: vantagens e limitação quanto ao tratamento de erros</p>
-</div>
-
-![Figura 24: CTT: vantagens e limitação quanto ao tratamento de erros](../../assets/prints_referencias/verificacao-v2/livro-ctt-limites.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 175). Itens que usam esta figura: G52.</em></p>
-</div>
-
----
-
-<div id="figura-25" align="center">
-<p><strong>Figura 25</strong>: Elenco de personas, persona primária e antipersonas</p>
-</div>
-
-![Figura 25: Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 155). Itens que usam esta figura: G53, G54, G55, G56, G57, G58, G59, G79.</em></p>
-</div>
-
----
-
-<div id="figura-26" align="center">
-<p><strong>Figura 26</strong>: 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações</p>
-</div>
-
-![Figura 26: 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações](../../assets/prints_referencias/verificacao-v2/livro-hta.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 165). Itens que usam esta figura: G60, G61, G62, G63, G65.</em></p>
-</div>
-
----
-
-<div id="figura-27" align="center">
-<p><strong>Figura 27</strong>: Passos da Análise Hierárquica de Tarefas (Barbosa et al., 2021)</p>
-</div>
-
-![Figura 27: Passos da Análise Hierárquica de Tarefas (Diaper, 2003)](../../assets/prints_referencias/verificacao-v2/livro-hta-passos.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 166–167). Itens que usam esta figura: G63, G64, G67.</em></p>
-</div>
-
----
-
-<div id="figura-28" align="center">
-<p><strong>Figura 28</strong>: Elementos que compõem a descrição de uma persona</p>
-</div>
-
-![Figura 28: Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154). Itens que usam esta figura: G68, G69, G70, G71, G72, G73, G74, G75, G76, G77, G78.</em></p>
-</div>
-
----
-
-<div id="figura-29" align="center">
-<p><strong>Figura 29</strong>: Elementos característicos de um cenário e uso de personas como atores</p>
-</div>
-
-![Figura 29: Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 158). Itens que usam esta figura: G81, G82, G83, G84, G87.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 158). Itens que usam esta figura: G7.</em></p>
 </div>
 
 ---

@@ -4,6 +4,7 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 19/11/2026 | `1.0` | Criação do índice das listas de verificação, com a rastreabilidade entre a versão 1.0 e a versão 2.0 de cada lista. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 | 19/11/2026 | `1.1` | Reorganização do índice para apresentar somente as listas atuais e encaminhar as versões anteriores e suas diferenças para a página Alterações. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na consolidação dos vínculos e na formatação em Markdown. |
+| 22/11/2026 | `1.2` | Atualização da estrutura descrita: as listas passaram a ter um item do grupo por integrante (versão 2.1 de cada lista). | [Gabriel Melo](https://github.com/gabriellcardone-06) | — | Claude (Anthropic): apoio na redação da atualização. |
 
 ---
 
@@ -17,7 +18,7 @@ Todas as listas da versão 2.0 seguem a mesma estrutura:
 
 1. **Itens do Desenvolvimento do Projeto (D1–D11)**, da lista sugerida pelo professor André Barros de Sales no Plano de Ensino (SALES, 2026, pp. 8–9). Eles vêm primeiro em todas as listas, de todas as entregas.
 2. **Itens de conteúdo do professor** (Entregas 1 a 4), com a numeração do Plano de Ensino. Nesses itens, o professor é autor da pergunta e o integrante indicado é responsável pelo conteúdo verificado.
-3. **Itens de conteúdo do grupo** (código G), cada um com o autor, que é o integrante responsável pelo conteúdo que o item verifica.
+3. **Itens de conteúdo do grupo** (G1–G7), um por integrante, cada um com o autor, que é o integrante responsável pelo conteúdo que o item verifica. O Plano de Ensino pede ao menos um item de conteúdo por integrante (SALES, 2026, pp. 11–13); a redução para um item por integrante foi feita na versão 2.1 de cada lista e está documentada em [Alterações](alteracoes.md#5-reducao-para-um-item-por-integrante-versao-21).
 4. **Tabela de contribuição**, **rastreabilidade v1.0 → v2.0**, **registro da avaliação** e **prints das referências** grifados no fim da página. Os prints do livro foram retirados do *IHC.pdf* da disciplina (BARBOSA et al., 2021, versão de 03/05/2021).
 
 ## Listas atuais

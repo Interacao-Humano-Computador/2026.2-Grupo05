@@ -4,6 +4,7 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 26/09/2026 | `1.0` | Lista de verificação referente à entrega 1 (publicada em [verif1.md](../verif1.md)). | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
 | 19/11/2026 | `2.0` | Reestruturação da lista: inclusão dos Itens do Desenvolvimento do Projeto, dos itens do Planejamento Geral e de conteúdo do Plano de Ensino, de itens do grupo sobre os artefatos da Entrega 1, da autoria por item e dos prints das referências. Os itens da v1.0 sobre planejamento da avaliação foram transferidos para a lista da Entrega 4. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): uso declarado pelo autor (sem detalhamento da finalidade) |
+| 22/11/2026 | `2.1` | Redução dos itens do grupo para um item por integrante (G1–G7, renumerados); Itens do Desenvolvimento do Projeto (D1–D11) e itens do Plano de Ensino (PG1–PG9 e C1) mantidos sem alteração; remoção da figura que só fundamentava item retirado; atualização da tabela de contribuição e da rastreabilidade. | [Gabriel Melo](https://github.com/gabriellcardone-06) | — | Claude (Anthropic): apoio na seleção dos itens mantidos, na renumeração e na atualização das referências cruzadas. |
 
 ---
 
@@ -88,7 +89,7 @@ O professor pede a justificativa do Processo de Design e que todos os integrante
 
 ## 4. Itens de conteúdo elaborados pelo grupo
 
-Cada integrante elaborou itens sobre o artefato da Entrega 1 que produziu (veja a Tabela 4). Os itens G2 e G3 aplicam a análise competitiva (BARBOSA et al., 2021, p. 125) à comparação dos sites, e os itens G4 a G6 verificam a justificativa do processo de Mayhew (BARBOSA et al., 2021, pp. 105–107).
+Cada integrante é autor de um item sobre o artefato da Entrega 1 que produziu (veja a Tabela 4). O item G2 aplica a análise competitiva (BARBOSA et al., 2021, p. 125) à comparação dos sites, e o item G3 verifica se o processo de Mayhew foi relacionado às entregas do projeto (BARBOSA et al., 2021, pp. 105–107).
 
 <div align="center">
 <p><strong>Tabela 4</strong>: Itens de conteúdo do Grupo 05 para os artefatos da Entrega 1</p>
@@ -98,15 +99,11 @@ Cada integrante elaborou itens sobre o artefato da Entrega 1 que produziu (veja 
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
 | G1 | O artefato de escolha do site justifica a decisão pelos critérios definidos e pelos públicos atendidos pelo site da SEMOB-DF (passageiros, motoristas e demais partes interessadas)? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 3](#figura-3)<br>[Fig. 6](#figura-6) | ☐ | ☐ | ☐ |
 | G2 | Todos os sites avaliados foram comparados pelos mesmos critérios, em uma tabela comparativa que registra os pontos fortes e fracos de cada um? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 7](#figura-7) | ☐ | ☐ | ☐ |
-| G3 | A comparação dos sites considera a experiência do usuário (estilo da interface, estrutura das tarefas, terminologia e qualidade de uso), e não só a quantidade de funcionalidades? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 7](#figura-7) | ☐ | ☐ | ☐ |
-| G4 | O artefato de Processo de Design descreve as três fases do ciclo de vida da engenharia de usabilidade de Mayhew: análise de requisitos; design, avaliação e desenvolvimento; e instalação? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 5](#figura-5) | ☐ | ☐ | ☐ |
-| G5 | O processo relaciona as entregas do projeto aos três níveis de design de Mayhew (nível 1: modelo conceitual e protótipos de baixa fidelidade; nível 2: padrões de design de tela e média fidelidade; nível 3: projeto detalhado em alta fidelidade)? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 5](#figura-5) | ☐ | ☐ | ☐ |
-| G6 | O processo prevê ciclos de avaliação e reprojeto até que as metas de usabilidade sejam alcançadas, com registro das decisões de design tomadas? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 8](#figura-8) | ☐ | ☐ | ☐ |
-| G7 | O artefato de Ferramentas do projeto informa, para cada ferramenta, a sua finalidade no projeto (documentação, prototipação, comunicação, gravação) e como a equipe a usa? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 1](#figura-1) | ☐ | ☐ | ☐ |
-| G8 | O mapa de disponibilidade (heatmap) mostra a disponibilidade de todos os integrantes e os horários de reunião escolhidos a partir dele? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 1](#figura-1) | ☐ | ☐ | ☐ |
-| G9 | O cronograma detalhado indica, para cada atividade, o responsável, o revisor e as datas de início e fim, cobrindo todas as entregas até a entrega final? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 1](#figura-1) | ☐ | ☐ | ☐ |
-| G10 | Cada ata registra data, horário de início e de fim, participantes, objetivo, decisões e responsáveis, com link para a gravação quando houver? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 2](#figura-2) | ☐ | ☐ | ☐ |
-| G11 | A alternância entre tema claro e escuro funciona em todas as páginas e mantém legíveis os textos, as tabelas e as imagens? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 3](#figura-3) | ☐ | ☐ | ☐ |
+| G3 | O processo relaciona as entregas do projeto aos três níveis de design de Mayhew (nível 1: modelo conceitual e protótipos de baixa fidelidade; nível 2: padrões de design de tela e média fidelidade; nível 3: projeto detalhado em alta fidelidade)? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 5](#figura-5) | ☐ | ☐ | ☐ |
+| G4 | O mapa de disponibilidade (heatmap) mostra a disponibilidade de todos os integrantes e os horários de reunião escolhidos a partir dele? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 1](#figura-1) | ☐ | ☐ | ☐ |
+| G5 | O cronograma detalhado indica, para cada atividade, o responsável, o revisor e as datas de início e fim, cobrindo todas as entregas até a entrega final? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 1](#figura-1) | ☐ | ☐ | ☐ |
+| G6 | Cada ata registra data, horário de início e de fim, participantes, objetivo, decisões e responsáveis, com link para a gravação quando houver? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 2](#figura-2) | ☐ | ☐ | ☐ |
+| G7 | A alternância entre tema claro e escuro funciona em todas as páginas e mantém legíveis os textos, as tabelas e as imagens? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 3](#figura-3) | ☐ | ☐ | ☐ |
 
 <div align="center">
 <p><em>Fonte: elaborado pelo Grupo 05 (2026), com base em SALES (2026) e BARBOSA et al. (2021).</em></p>
@@ -122,13 +119,13 @@ A Tabela 5 mostra o que cada integrante fez nesta lista. A autoria dos itens seg
 
 | Integrante | Contribuição nesta lista | Artefato(s) relacionado(s) |
 | :--- | :--- | :--- |
-| [Arthur Mariani](https://github.com/arthur-mariani) | Autor da versão 1.0 (itens hoje na Entrega 4). Conteúdo dos itens PG1, PG7 e G11 (página inicial, equipe e opção de contraste). | [Página inicial](../../index.md) |
+| [Arthur Mariani](https://github.com/arthur-mariani) | Autor da versão 1.0 (itens hoje na Entrega 4). Conteúdo dos itens PG1, PG7 e G7 (página inicial, equipe e opção de contraste). | [Página inicial](../../index.md) |
 | [Carlos Costa](https://github.com/carloshfgit) | Revisor da versão 1.0. Conteúdo dos itens PG1–PG5 e G1 (equipe, cronograma e escolha do site). | [Site escolhido](../../planejamento/escolha-semob.md), [Cronograma](../../planejamento/cronograma.md) |
-| [Gabriel Melo](https://github.com/gabriellcardone-06) | Autor da versão 2.0 (reestruturação, inclusão de D1–D11, PG1–PG9 e C1, rastreabilidade e prints). Itens G7 e G8. | [Ferramentas](../../planejamento/Ferramentas_do_Projeto.md), [Mapa de disponibilidade](../../planejamento/HeatMap_do_Grupo.md) |
-| [Igor Dantas](https://github.com/IgorDARAUJO) | Conteúdo dos itens PG2–PG4 e item G9 (cronograma). | [Cronograma](../../planejamento/cronograma.md) |
-| [Lucas Araújo](https://github.com/Lucasaraujoszz) | Conteúdo do item PG9 e item G10 (atas e gravações). | [Atas](../../atas/ata1.md) |
-| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Conteúdo do item PG6 e itens G2 e G3 (sites avaliados). | [Sites avaliados](../../planejamento/selecao_v2.md) |
-| [Tomás Rocho](https://github.com/TomasRocho) | Conteúdo do item C1 e itens G4–G6 (Processo de Design). | [Processo de design](../../planejamento/ProcessoDesign.md) |
+| [Gabriel Melo](https://github.com/gabriellcardone-06) | Autor da versão 2.0 (reestruturação, inclusão de D1–D11, PG1–PG9 e C1, rastreabilidade e prints). Item G4 (mapa de disponibilidade). | [Ferramentas](../../planejamento/Ferramentas_do_Projeto.md), [Mapa de disponibilidade](../../planejamento/HeatMap_do_Grupo.md) |
+| [Igor Dantas](https://github.com/IgorDARAUJO) | Conteúdo dos itens PG2–PG4 e item G5 (cronograma). | [Cronograma](../../planejamento/cronograma.md) |
+| [Lucas Araújo](https://github.com/Lucasaraujoszz) | Conteúdo do item PG9 e item G6 (atas e gravações). | [Atas](../../atas/ata1.md) |
+| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Conteúdo do item PG6 e item G2 (sites avaliados). | [Sites avaliados](../../planejamento/selecao_v2.md) |
+| [Tomás Rocho](https://github.com/TomasRocho) | Conteúdo do item C1 e item G3 (Processo de Design). | [Processo de design](../../planejamento/ProcessoDesign.md) |
 | André Barros de Sales (professor) | Autor das perguntas dos Itens do Desenvolvimento do Projeto (D1–D11) e dos itens PG1–PG9 e C1, retiradas da lista de verificação sugerida no Plano de Ensino. | [Plano de Ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf) |
 
 <div align="center">
@@ -137,7 +134,7 @@ A Tabela 5 mostra o que cada integrante fez nesta lista. A autoria dos itens seg
 
 ## Rastreabilidade v1.0 → v2.0
 
-A versão 1.0 continua publicada em [verif1.md](../verif1.md) e não foi apagada. A Tabela 6 indica onde cada item da versão 1.0 está nesta versão e o que mudou.
+A versão 1.0 continua publicada em [verif1.md](../verif1.md) e não foi apagada. A Tabela 6 indica onde cada item da versão 1.0 está nesta versão e o que mudou. Os códigos da Entrega 4 citados na tabela são os da versão 2.0 daquela lista; na versão 2.1 da Entrega 4 ficou apenas o antigo G11, hoje G1 (veja a [rastreabilidade da Entrega 4](verif4.md#reducao-v21)).
 
 <div align="center">
 <p><strong>Tabela 6</strong>: Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
@@ -172,12 +169,34 @@ A versão 1.0 continua publicada em [verif1.md](../verif1.md) e não foi apagada
 <p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
 </div>
 
-## Registro da avaliação
+## Redução para um item por integrante (versão 2.1) { #reducao-v21 }
 
-O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 7.
+Na versão 2.1, os itens de conteúdo elaborados pelo grupo foram reduzidos a um item por integrante. O Plano de Ensino pede que cada integrante elabore ao menos um item de conteúdo da disciplina, com referência e foto do texto da referência (SALES, 2026, pp. 11–13). Os Itens do Desenvolvimento do Projeto (D1–D11) e os itens do professor (PG1–PG9 e C1) não mudaram. Para cada integrante, ficou o item que verifica o artefato produzido por ele e que não repete uma pergunta do professor. Os itens mantidos foram renumerados de G1 a G7, e a figura que só fundamentava um item retirado saiu da página. O texto completo da versão 2.0 continua no [histórico do repositório](https://github.com/Interacao-Humano-Computador/2026.2-Grupo05/blob/6fdf400a9ceec5605bcfc45c13ad3723865a2c8c/docs/verificacao/v2/verif1.md). A Tabela 7 mostra a correspondência.
 
 <div align="center">
-<p><strong>Tabela 7</strong>: Registro das avaliações feitas com esta lista</p>
+<p><strong>Tabela 7</strong>: Itens do grupo mantidos e removidos na versão 2.1</p>
+</div>
+
+| Integrante | Item mantido (v2.0 → v2.1) | Itens removidos (códigos da v2.0) |
+| :--- | :---: | :---: |
+| [Arthur Mariani](https://github.com/arthur-mariani) | G11 → G7 | — |
+| [Carlos Costa](https://github.com/carloshfgit) | G1 → G1 | — |
+| [Gabriel Melo](https://github.com/gabriellcardone-06) | G8 → G4 | G7 |
+| [Igor Dantas](https://github.com/IgorDARAUJO) | G9 → G5 | — |
+| [Lucas Araújo](https://github.com/Lucasaraujoszz) | G10 → G6 | — |
+| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | G2 → G2 | G3 |
+| [Tomás Rocho](https://github.com/TomasRocho) | G5 → G3 | G4, G6 |
+
+<div align="center">
+<p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
+</div>
+
+## Registro da avaliação
+
+O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 8.
+
+<div align="center">
+<p><strong>Tabela 8</strong>: Registro das avaliações feitas com esta lista</p>
 </div>
 | Artefato e versão avaliada | Data e hora | Avaliador(es) | Grupo avaliador (próprio ou +1) | Observações |
 | :--- | :---: | :--- | :---: | :--- |
@@ -202,7 +221,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 1: Descrição da Entrega 1 no cronograma do Plano de Ensino](../../assets/prints_referencias/verificacao-v2/plano-entrega1-descricao.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 4). Itens que usam esta figura: Introdução, G7, G8, G9.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 4). Itens que usam esta figura: Introdução, G4, G5.</em></p>
 </div>
 
 ---
@@ -214,7 +233,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 2: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Itens que usam esta figura: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, G10.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9). Itens que usam esta figura: D1, D2, D3, D4, D5, D6, D7, D8, D9, D10, D11, G6.</em></p>
 </div>
 
 ---
@@ -226,7 +245,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 3: Itens do Planejamento Geral do projeto (Entrega 1)](../../assets/prints_referencias/verificacao-v2/plano-entrega1-planejamento.png)
 
 <div align="center">
-<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8). Itens que usam esta figura: PG1, PG2, PG3, PG4, PG5, PG6, PG7, PG8, PG9, G1, G11.</em></p>
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8). Itens que usam esta figura: PG1, PG2, PG3, PG4, PG5, PG6, PG7, PG8, PG9, G1, G7.</em></p>
 </div>
 
 ---
@@ -250,7 +269,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 5: Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design](../../assets/prints_referencias/verificacao-v2/livro-mayhew.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 105, 107). Itens que usam esta figura: C1, G4, G5.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, pp. 105, 107). Itens que usam esta figura: C1, G3.</em></p>
 </div>
 
 ---
@@ -274,19 +293,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 7: Limitações dos arquivos de log e análise competitiva](../../assets/prints_referencias/verificacao-v2/livro-log-competitiva.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 125). Itens que usam esta figura: G2, G3.</em></p>
-</div>
-
----
-
-<div id="figura-8" align="center">
-<p><strong>Figura 8</strong>: Simplificações aceitáveis em protótipos e design iterativo</p>
-</div>
-
-![Figura 8: Simplificações aceitáveis em protótipos e design iterativo](../../assets/prints_referencias/verificacao-v2/livro-iteracao-prototipos.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 105). Itens que usam esta figura: G6.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 125). Itens que usam esta figura: G2.</em></p>
 </div>
 
 ---

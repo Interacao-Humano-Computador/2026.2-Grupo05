@@ -4,6 +4,7 @@
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 06/10/2026 | `1.0` | Elaboração dos itens para os Princípios Gerais de IHC, as Metas de Usabilidade e o Guia de Estilo (publicada em [verif3.md](../verif3.md)). | [Carlos Costa](https://github.com/carloshfgit), [Lucas Araújo](https://github.com/Lucasaraujoszz), [Gabriel Melo](https://github.com/gabriellcardone-06), [Igor Dantas](https://github.com/IgorDARAUJO), [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) e [Arthur Mariani](https://github.com/arthur-mariani) | [Arthur Mariani](https://github.com/arthur-mariani) e [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic) e Google Gemini: uso declarado pelo autor (sem detalhamento da finalidade) |
 | 19/11/2026 | `2.0` | Inclusão dos Itens do Desenvolvimento do Projeto e dos itens de conteúdo 10–17 do Plano de Ensino; itens de Tomás Rocho; referências e prints para todos os itens, refeitos a partir do IHC.pdf. | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic) e Google Gemini: uso declarado pelo autor (sem detalhamento da finalidade) |
+| 22/11/2026 | `2.1` | Redução dos itens do grupo para um item por integrante (G1–G7, renumerados); Itens do Desenvolvimento do Projeto (D1–D11) e itens do Plano de Ensino (C10–C17) mantidos sem alteração; remoção das figuras que só fundamentavam itens retirados; atualização da tabela de contribuição e da rastreabilidade. | [Gabriel Melo](https://github.com/gabriellcardone-06) | — | Claude (Anthropic): apoio na seleção dos itens mantidos, na renumeração e na atualização das referências cruzadas. |
 
 ---
 
@@ -14,7 +15,7 @@
 
 ## Introdução
 
-Esta lista verifica os artefatos da **Entrega 3: Princípios Gerais de Projeto, Metas de Usabilidade, Guia de Estilo e características da plataforma (fase de análise de requisitos)**. A versão 1.0 tinha 39 itens com autor, mas só os itens 1 a 5 tinham print, e esses prints vinham de outra revisão do livro (pp. 239–241). Na versão 2.0, os 39 itens mantêm número (G1–G39) e autor, todos ganham referência no IHC.pdf, e os itens de Tomás Rocho, que não tinha item na v1.0, entram como G40–G41.
+Esta lista verifica os artefatos da **Entrega 3: Princípios Gerais de Projeto, Metas de Usabilidade, Guia de Estilo e características da plataforma (fase de análise de requisitos)**. A versão 1.0 tinha 39 itens com autor, mas só os itens 1 a 5 tinham print, e esses prints vinham de outra revisão do livro (pp. 239–241). Na versão 2.0, os 39 itens mantêm número (G1–G39) e autor, todos ganham referência no IHC.pdf, e os itens de Tomás Rocho, que não tinha item na v1.0, entram como G40–G41. Na versão 2.1, os itens do grupo foram reduzidos a um por integrante (G1–G7); a correspondência com a versão 2.0 está na [Tabela 6](#reducao-v21).
 
 Para cada item, quem avalia marca **Sim**, **Não** ou **Incompleto**, como no Plano de Ensino (SALES, 2026). Quando um item não se aplica ao artefato avaliado, escreva *N/A* na linha e explique em *Observações* no registro da avaliação. A coluna *Autor(es) do item* indica quem escreveu a pergunta e quem é responsável pelo conteúdo verificado. Nos itens do professor, a pergunta é de André Barros de Sales e o integrante indicado é quem produziu o conteúdo e a evidência. A coluna *Referência* leva ao print grifado da fonte, no fim da página. As páginas do livro são as páginas impressas do *IHC.pdf* (BARBOSA et al., 2021, versão de 03/05/2021).
 
@@ -71,7 +72,7 @@ A Tabela 2 reproduz os itens 10 a 17 da Entrega 3 do Plano de Ensino, com a nume
 
 ## 3. Itens de conteúdo elaborados pelo grupo
 
-Os itens do grupo estão na Tabela 3. A autoria é a mesma da versão 1.0, em que cada integrante escreveu os próprios itens; Tomás Rocho entra com os itens G40 e G41, sobre os princípios que ele desenvolveu (antecipação e projeto para erros).
+Os itens do grupo estão na Tabela 3, um por integrante. A autoria é a mesma da versão 1.0, em que cada integrante escreveu os próprios itens; o item de Tomás Rocho (G7), que não tinha item na v1.0, trata do projeto para erros, princípio que ele desenvolveu.
 
 <div align="center">
 <p><strong>Tabela 3</strong>: Itens do Grupo 05 para Princípios Gerais, Guia de Estilo e Metas de Usabilidade</p>
@@ -80,49 +81,15 @@ Os itens do grupo estão na Tabela 3. A autoria é a mesma da versão 1.0, em qu
 | Código | Pergunta de verificação | Autor(es) do item | Referência | Sim | Não | Incompleto |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
 | G1 | O sistema simplifica a estrutura das tarefas, reduzindo a quantidade de planejamento prévio e de resolução de problemas, fornecendo apoios para aprender e realizar a tarefa ou tornando visível o que seria invisível? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 6](#figura-6) | ☐ | ☐ | ☐ |
-| G2 | Caso o sistema automatize etapas ou tarefas completas, essa automação preserva o controle do usuário, evitando retirar autonomia excessiva e prevenindo dependência cega da tecnologia? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 6](#figura-6) | ☐ | ☐ | ☐ |
-| G3 | O sistema oferece flexibilidade de percurso sem confinar o usuário a um fluxo de interação rígido e unidirecional, disponibilizando um caminho preferencial claro, mas viabilizando percursos alternativos? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 7](#figura-7) | ☐ | ☐ | ☐ |
-| G4 | O sistema disponibiliza saídas de emergência claramente marcadas, visíveis e de fácil acionamento, permitindo que o usuário abandone estados indesejados rapidamente e sem diálogos extensos? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 7](#figura-7) | ☐ | ☐ | ☐ |
-| G5 | O sistema assegura a reversibilidade de ações (como desfazer/refazer digitação ou limpar entradas de dados), reduzindo o medo do erro e evitando o uso excessivo de diálogos de confirmação? | [Carlos Costa](https://github.com/carloshfgit) | [Fig. 7](#figura-7)<br>[Fig. 18](#figura-18) | ☐ | ☐ | ☐ |
-| G6 | Os princípios e as diretrizes selecionados foram contextualizados de acordo com o domínio da SEMOB-DF, os perfis de usuário e as atividades realizadas por esses usuários? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G7 | Para cada problema identificado, o artefato apresenta a evidência encontrada, o princípio violado, a recomendação de correção e as possíveis consequências caso o problema permaneça? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G8 | As recomendações propostas explicam como o princípio analisado deverá aparecer concretamente no redesign ou no protótipo da SEMOB-DF? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 4](#figura-4) | ☐ | ☐ | ☐ |
-| G9 | Os textos, instruções, mensagens, links e botões seguem as máximas de qualidade, quantidade, relevância e clareza, evitando informações desnecessárias, ambiguidades e termos pouco compreensíveis? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 12](#figura-12) | ☐ | ☐ | ☐ |
-| G10 | As decisões de apresentação garantem legibilidade, com contraste adequado, tamanho de fonte suficiente, destaque para dados importantes e pistas adicionais quando cores são usadas para transmitir informação? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 11](#figura-11)<br>[Fig. 16](#figura-16) | ☐ | ☐ | ☐ |
-| G11 | O projeto prevê prevenção e recuperação de erros, com operações reversíveis e mensagens que indiquem claramente o problema, suas consequências e uma possível solução? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 13](#figura-13) | ☐ | ☐ | ☐ |
-| G12 | O Guia de Estilo declara claramente seu escopo, indicando se foi elaborado para uma plataforma, organização, família de produtos ou especificamente para o redesign da SEMOB-DF? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 16](#figura-16) | ☐ | ☐ | ☐ |
-| G13 | O Guia de Estilo registra as decisões de design de forma fácil de consultar, reutilizar, atualizar e comunicar entre as equipes de design e desenvolvimento? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 16](#figura-16) | ☐ | ☐ | ☐ |
-| G14 | O Guia de Estilo define orientações para layout e grid, tipografia, ícones e símbolos, cores, visualização de informações e componentes de interface? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 16](#figura-16)<br>[Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-| G15 | O Guia de Estilo apresenta padrões para estilos de interação, ações, preenchimento de campos, terminologia, tipos de tela e sequências de diálogo, relacionando essas decisões aos resultados da análise dos usuários? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-| G16 | As sequências de navegação do site da SEMOB-DF seguem uma ordem natural e lógica para o cidadão (por exemplo, consultar linhas, horários e itinerários sem exigir identificação prévia, solicitando dados pessoais apenas quando o serviço realmente os requer)? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 5](#figura-5) | ☐ | ☐ | ☐ |
-| G17 | Os serviços do site (como solicitação de Passe Livre, Cartão Mobilidade ou registro na Ouvidoria) estão organizados em etapas com início, meio e fim, fornecendo um fechamento claro e um feedback informativo ao término de cada tarefa? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 11](#figura-11) | ☐ | ☐ | ☐ |
-| G18 | A interface utiliza o vocabulário do cidadão, evitando siglas, termos jurídicos ou administrativos internos (como nomes de portarias, setores ou sistemas) sem explicação? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 5](#figura-5)<br>[Fig. 19](#figura-19) | ☐ | ☐ | ☐ |
-| G19 | O usuário dispõe de “saídas de emergência” claramente marcadas (voltar, cancelar, limpar filtros, retornar à página inicial) e pode explorar diferentes caminhos sem ficar preso a um fluxo único? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 7](#figura-7) | ☐ | ☐ | ☐ |
-| G20 | Ações semelhantes funcionam da mesma forma e recebem o mesmo rótulo em todo o site (por exemplo, “Consultar”, “Buscar” e “Pesquisar” não são usados indiscriminadamente), e elementos com comportamentos diferentes têm aparências distintas (links, botões e textos simples)? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 8](#figura-8) | ☐ | ☐ | ☐ |
-| G21 | O site antecipa as necessidades do usuário, oferecendo informações complementares úteis (por exemplo, ao exibir uma linha de ônibus, apresentar também horários, itinerário, pontos de parada e tarifa) e valores padrão adequados e facilmente alteráveis em formulários e filtros? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 10](#figura-10)<br>[Fig. 18](#figura-18) | ☐ | ☐ | ☐ |
-| G22 | O usuário consegue identificar, a qualquer momento, em que parte do site se encontra e por qual caminho chegou até ela (por exemplo, por meio de breadcrumbs, destaque do item de menu ativo e títulos de página coerentes)? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 11](#figura-11)<br>[Fig. 19](#figura-19) | ☐ | ☐ | ☐ |
-| G23 | O sistema fornece feedback adequado e no tempo certo durante operações demoradas (carregamento de mapas, consultas de itinerário, envio de formulários ou downloads de documentos), com indicação de progresso, estimativa de tempo e possibilidade de cancelamento? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 9](#figura-9)<br>[Fig. 19](#figura-19) | ☐ | ☐ | ☐ |
-| G24 | A ajuda e a documentação disponíveis (FAQ, Carta de Serviços, tutoriais) são fáceis de encontrar, focadas nas tarefas do cidadão, apresentam passos concretos e não são excessivamente extensas? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 19](#figura-19) | ☐ | ☐ | ☐ |
-| G25 | O site está livre de dark patterns, como pop-ups ou banners insistentes (incômodo repetitivo), exigência de dados desnecessários para acessar um serviço (ação forçada/obstrução), opções pré-selecionadas sem aviso ou links disfarçados de texto simples (interferência na interface)? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 20](#figura-20) | ☐ | ☐ | ☐ |
-| G26 | Disposição espacial e grid: o guia de estilo define claramente os grids e o arranjo espacial, garantindo alinhamento, consistência e uma organização visual lógica das informações no portal da SEMOB-DF? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-| G27 | Janelas: o documento estabelece padrões para a apresentação, comportamento, dimensionamento e controle das janelas (como caixas de diálogo, modais ou pop-ups) utilizadas no sistema? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-| G28 | Tipografia: as famílias tipográficas, tamanhos, estilos (negrito, itálico) e espaçamentos estão padronizados para assegurar a legibilidade e a correta hierarquia visual do texto? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-| G29 | Símbolos não tipográficos: o guia fornece orientações sobre o uso de ícones e símbolos, garantindo que sejam de fácil reconhecimento e possuam significados consistentes e culturalmente adequados para os usuários? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 17](#figura-17)<br>[Fig. 16](#figura-16) | ☐ | ☐ | ☐ |
-| G30 | Cores: a paleta de cores está definida com regras de aplicação para fundos, textos e estados de componentes, respeitando recomendações de contraste e acessibilidade? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 17](#figura-17)<br>[Fig. 16](#figura-16) | ☐ | ☐ | ☐ |
-| G31 | Animações: existem diretrizes para o uso de animações e transições de tela que ajudem a fornecer feedback de estados do sistema sem causar distrações ou sobrecarga cognitiva? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-| G32 | Estilos de interação: o documento descreve e padroniza os estilos de interação adotados no sistema (por exemplo, menus, preenchimento de formulários, manipulação direta) de acordo com as atividades dos usuários? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-| G33 | Seleção de um estilo: o guia apresenta critérios ou orientações claras para ajudar os designers a escolherem o estilo de interação mais apropriado para cada tarefa específica ou contexto de uso? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-| G34 | Aceleradores (teclas de atalho): estão previstos e documentados atalhos de teclado e outros aceleradores para flexibilizar a interação e torná-la mais eficiente para usuários frequentes ou experientes? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 17](#figura-17) | ☐ | ☐ | ☐ |
-| G35 | O documento informa quais fatores de usabilidade serão priorizados, como eficácia, eficiência, facilidade de aprendizado, facilidade de recordação, segurança e satisfação, e explica a razão dessa seleção com base nas necessidades dos usuários e no contexto de uso da SEMOB-DF? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G36 | Cada meta possui pelo menos um indicador claramente definido, isto é, uma medida que permita verificar seu atendimento, como quantidade de usuários que concluem a tarefa, quantidade de abandonos, tempo necessário para conclusão ou número de erros cometidos? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G37 | Para cada indicador, o documento prevê três faixas de resultado (inaceitável, aceitável e ideal) e informa que esses valores devem considerar o desempenho atual dos usuários, ou seja, os resultados obtidos no sistema antes do redesign? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
-| G38 | O planejamento da avaliação informa quais tarefas serão executadas, quais características os participantes devem possuir, como as interações serão observadas e registradas e se será realizado um teste-piloto antes das sessões definitivas? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 21](#figura-21)<br>[Fig. 22](#figura-22) | ☐ | ☐ | ☐ |
-| G39 | O documento explica como os resultados dos testes serão comparados com as metas estabelecidas, considerando medidas como quantidade de participantes que alcançaram o resultado esperado, tempo médio, porcentagens, erros, consultas à ajuda e satisfação dos usuários? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 21](#figura-21) | ☐ | ☐ | ☐ |
-| G40 | O site fornece ao usuário todas as informações e ferramentas necessárias para cada passo do processo, sem exigir que ele as procure em outras páginas (antecipação)? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 10](#figura-10) | ☐ | ☐ | ☐ |
-| G41 | Controles de funções usadas com frequência não ficam ao lado de controles perigosos ou raramente usados (por exemplo, “Enviar” ao lado de “Apagar formulário”), evitando acionamentos por engano (projeto para erros)? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 13](#figura-13) | ☐ | ☐ | ☐ |
+| G2 | Os textos, instruções, mensagens, links e botões seguem as máximas de qualidade, quantidade, relevância e clareza, evitando informações desnecessárias, ambiguidades e termos pouco compreensíveis? | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Fig. 12](#figura-12) | ☐ | ☐ | ☐ |
+| G3 | Os serviços do site (como solicitação de Passe Livre, Cartão Mobilidade ou registro na Ouvidoria) estão organizados em etapas com início, meio e fim, fornecendo um fechamento claro e um feedback informativo ao término de cada tarefa? | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Fig. 11](#figura-11) | ☐ | ☐ | ☐ |
+| G4 | O site está livre de dark patterns, como pop-ups ou banners insistentes (incômodo repetitivo), exigência de dados desnecessários para acessar um serviço (ação forçada/obstrução), opções pré-selecionadas sem aviso ou links disfarçados de texto simples (interferência na interface)? | [Igor Dantas](https://github.com/IgorDARAUJO) | [Fig. 18](#figura-18) | ☐ | ☐ | ☐ |
+| G5 | Cores: a paleta de cores está definida com regras de aplicação para fundos, textos e estados de componentes, respeitando recomendações de contraste e acessibilidade? | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | [Fig. 17](#figura-17)<br>[Fig. 16](#figura-16) | ☐ | ☐ | ☐ |
+| G6 | Para cada indicador, o documento prevê três faixas de resultado (inaceitável, aceitável e ideal) e informa que esses valores devem considerar o desempenho atual dos usuários, ou seja, os resultados obtidos no sistema antes do redesign? | [Arthur Mariani](https://github.com/arthur-mariani) | [Fig. 15](#figura-15) | ☐ | ☐ | ☐ |
+| G7 | Controles de funções usadas com frequência não ficam ao lado de controles perigosos ou raramente usados (por exemplo, “Enviar” ao lado de “Apagar formulário”), evitando acionamentos por engano (projeto para erros)? | [Tomás Rocho](https://github.com/TomasRocho) | [Fig. 13](#figura-13) | ☐ | ☐ | ☐ |
 
 <div align="center">
-<p><em>Fonte: itens G1–G39: Carlos Costa, Lucas Araújo, Gabriel Melo, Igor Dantas, Rodrigo Carvalho e Arthur Mariani (2026, v1.0); itens G40–G41: Tomás Rocho (2026, v2.0). Base: BARBOSA et al. (2021, caps. 6, 10 e 12).</em></p>
+<p><em>Fonte: itens G1–G6: Carlos Costa, Lucas Araújo, Gabriel Melo, Igor Dantas, Rodrigo Carvalho e Arthur Mariani (2026, v1.0); item G7: Tomás Rocho (2026, v2.0). Base: BARBOSA et al. (2021, caps. 6, 10 e 12).</em></p>
 </div>
 
 ## Tabela de contribuição
@@ -135,13 +102,13 @@ A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens seg
 
 | Integrante | Contribuição nesta lista | Artefato(s) relacionado(s) |
 | :--- | :--- | :--- |
-| [Arthur Mariani](https://github.com/arthur-mariani) | Coautor e revisor da versão 1.0. Itens G35–G39 (metas de usabilidade). Conteúdo dos itens C13, C14 e C16 (metas; elementos de ação e vocabulário do guia). | [Metas de usabilidade](../../analise-de-requisitos/principios-gerais/metas-de-usabilidade.md), [Eficiência](../../analise-de-requisitos/principios-gerais/promocao-da-eficiencia-do-usuario.md), [Elementos de ação](../../analise-de-requisitos/guia-de-estilo/elementos-de-acao.md), [Vocabulário e padrões](../../analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md) |
-| [Carlos Costa](https://github.com/carloshfgit) | Coautor e revisor da versão 1.0. Itens G1–G5 (simplicidade; controle e liberdade). | [Simplicidade](../../analise-de-requisitos/principios-gerais/simplicidade-nas-estruturas-das-tarefas.md), [Controle e liberdade](../../analise-de-requisitos/principios-gerais/equilibrio-controle-liberdade.md) |
-| [Gabriel Melo](https://github.com/gabriellcardone-06) | Coautor da versão 1.0, itens G16–G20. Autor da versão 2.0 (itens D1–D11 e C10–C17, prints refeitos no IHC.pdf, rastreabilidade). Conteúdo dos itens C10, C15 e C16. | [Visibilidade e reconhecimento](../../analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md), [Guia — Introdução](../../analise-de-requisitos/guia-de-estilo/introducao.md) |
-| [Igor Dantas](https://github.com/IgorDARAUJO) | Coautor da versão 1.0, itens G21–G25. Conteúdo dos itens C16 e C17 (resultados de análise do guia). | [Consistência e padronização](../../analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md), [Guia — Resultados de análise](../../analise-de-requisitos/guia-de-estilo/resultados-de-analise.md) |
-| [Lucas Araújo](https://github.com/Lucasaraujoszz) | Coautor da versão 1.0, itens G6–G15. Conteúdo dos itens C11 e C12. | [Correspondência com as expectativas](../../analise-de-requisitos/principios-gerais/correspondencia-com-as-expectativas-dos-usuarios.md), [Conteúdo relevante](../../analise-de-requisitos/principios-gerais/conteudo-relevante-e-expressao-adequada.md) |
-| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Coautor da versão 1.0, itens G26–G34. Conteúdo do item C16 (elementos de interface e de interação). | [Elementos de interface](../../analise-de-requisitos/guia-de-estilo/elementos-de-interface.md), [Elementos de interação](../../analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md) |
-| [Tomás Rocho](https://github.com/TomasRocho) | Itens G40 e G41, novos na versão 2.0. Conteúdo do item C12 (antecipação e projeto para erros). | [Antecipação](../../analise-de-requisitos/principios-gerais/antecipacao.md), [Projeto para erros](../../analise-de-requisitos/principios-gerais/projeto-para-erros.md) |
+| [Arthur Mariani](https://github.com/arthur-mariani) | Coautor e revisor da versão 1.0. Item G6 (metas de usabilidade). Conteúdo dos itens C13, C14 e C16 (metas; elementos de ação e vocabulário do guia). | [Metas de usabilidade](../../analise-de-requisitos/principios-gerais/metas-de-usabilidade.md), [Eficiência](../../analise-de-requisitos/principios-gerais/promocao-da-eficiencia-do-usuario.md), [Elementos de ação](../../analise-de-requisitos/guia-de-estilo/elementos-de-acao.md), [Vocabulário e padrões](../../analise-de-requisitos/guia-de-estilo/vocabulario-e-padroes.md) |
+| [Carlos Costa](https://github.com/carloshfgit) | Coautor e revisor da versão 1.0. Item G1 (simplicidade). | [Simplicidade](../../analise-de-requisitos/principios-gerais/simplicidade-nas-estruturas-das-tarefas.md), [Controle e liberdade](../../analise-de-requisitos/principios-gerais/equilibrio-controle-liberdade.md) |
+| [Gabriel Melo](https://github.com/gabriellcardone-06) | Coautor da versão 1.0, item G3. Autor da versão 2.0 (itens D1–D11 e C10–C17, prints refeitos no IHC.pdf, rastreabilidade) e da versão 2.1 (um item por integrante). Conteúdo dos itens C10, C15 e C16. | [Visibilidade e reconhecimento](../../analise-de-requisitos/principios-gerais/visibilidade-e-reconhecimento.md), [Guia — Introdução](../../analise-de-requisitos/guia-de-estilo/introducao.md) |
+| [Igor Dantas](https://github.com/IgorDARAUJO) | Coautor da versão 1.0, item G4. Conteúdo dos itens C16 e C17 (resultados de análise do guia). | [Consistência e padronização](../../analise-de-requisitos/principios-gerais/consistencia-e-padronizacao.md), [Guia — Resultados de análise](../../analise-de-requisitos/guia-de-estilo/resultados-de-analise.md) |
+| [Lucas Araújo](https://github.com/Lucasaraujoszz) | Coautor da versão 1.0, item G2. Conteúdo dos itens C11 e C12. | [Correspondência com as expectativas](../../analise-de-requisitos/principios-gerais/correspondencia-com-as-expectativas-dos-usuarios.md), [Conteúdo relevante](../../analise-de-requisitos/principios-gerais/conteudo-relevante-e-expressao-adequada.md) |
+| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Coautor da versão 1.0, item G5. Conteúdo do item C16 (elementos de interface e de interação). | [Elementos de interface](../../analise-de-requisitos/guia-de-estilo/elementos-de-interface.md), [Elementos de interação](../../analise-de-requisitos/guia-de-estilo/elementos-de-interacao.md) |
+| [Tomás Rocho](https://github.com/TomasRocho) | Item G7, novo na versão 2.0. Conteúdo do item C12 (antecipação e projeto para erros). | [Antecipação](../../analise-de-requisitos/principios-gerais/antecipacao.md), [Projeto para erros](../../analise-de-requisitos/principios-gerais/projeto-para-erros.md) |
 | André Barros de Sales (professor) | Autor das perguntas dos Itens do Desenvolvimento do Projeto (D1–D11) e dos itens de conteúdo C10–C17, retiradas da lista de verificação sugerida no Plano de Ensino. | [Plano de Ensino (PDF)](../../assets/inspecoes/plano-de-ensino-ihc-2026-2-turma01-v1.pdf) |
 
 <div align="center">
@@ -150,7 +117,7 @@ A Tabela 4 mostra o que cada integrante fez nesta lista. A autoria dos itens seg
 
 ## Rastreabilidade v1.0 → v2.0
 
-A versão 1.0 continua publicada em [verif3.md](../verif3.md) e não foi apagada. A Tabela 5 indica onde cada item da versão 1.0 está nesta versão e o que mudou.
+A versão 1.0 continua publicada em [verif3.md](../verif3.md) e não foi apagada. A Tabela 5 indica onde cada item da versão 1.0 está nesta versão e o que mudou. Os códigos G desta tabela são os da versão 2.0; a numeração atual está na [Tabela 6](#reducao-v21).
 
 <div align="center">
 <p><strong>Tabela 5</strong>: Rastreabilidade entre a versão 1.0 e a versão 2.0</p>
@@ -170,12 +137,34 @@ A versão 1.0 continua publicada em [verif3.md](../verif3.md) e não foi apagada
 <p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
 </div>
 
-## Registro da avaliação
+## Redução para um item por integrante (versão 2.1) { #reducao-v21 }
 
-O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 6.
+Na versão 2.1, os itens de conteúdo elaborados pelo grupo foram reduzidos a um item por integrante. O Plano de Ensino pede que cada integrante elabore ao menos um item de conteúdo da disciplina, com referência e foto do texto da referência (SALES, 2026, pp. 11–13). Os Itens do Desenvolvimento do Projeto (D1–D11) e os itens do professor (C10–C17) não mudaram. Para cada integrante, ficou o item que verifica o artefato produzido por ele e que não repete uma pergunta do professor. Os itens mantidos foram renumerados de G1 a G7, e as figuras que só fundamentavam itens retirados saíram da página. O texto completo da versão 2.0 continua no [histórico do repositório](https://github.com/Interacao-Humano-Computador/2026.2-Grupo05/blob/6fdf400a9ceec5605bcfc45c13ad3723865a2c8c/docs/verificacao/v2/verif3.md). A Tabela 6 mostra a correspondência.
 
 <div align="center">
-<p><strong>Tabela 6</strong>: Registro das avaliações feitas com esta lista</p>
+<p><strong>Tabela 6</strong>: Itens do grupo mantidos e removidos na versão 2.1</p>
+</div>
+
+| Integrante | Item mantido (v2.0 → v2.1) | Itens removidos (códigos da v2.0) |
+| :--- | :---: | :---: |
+| [Arthur Mariani](https://github.com/arthur-mariani) | G37 → G6 | G35–G36, G38–G39 |
+| [Carlos Costa](https://github.com/carloshfgit) | G1 → G1 | G2–G5 |
+| [Gabriel Melo](https://github.com/gabriellcardone-06) | G17 → G3 | G16, G18–G20 |
+| [Igor Dantas](https://github.com/IgorDARAUJO) | G25 → G4 | G21–G24 |
+| [Lucas Araújo](https://github.com/Lucasaraujoszz) | G9 → G2 | G6–G8, G10–G15 |
+| [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | G30 → G5 | G26–G29, G31–G34 |
+| [Tomás Rocho](https://github.com/TomasRocho) | G41 → G7 | G40 |
+
+<div align="center">
+<p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
+</div>
+
+## Registro da avaliação
+
+O Plano de Ensino pede a resposta (Sim / Não / Incompleto) e a versão, a data e a hora da avaliação. Cada aplicação desta lista deve ser registrada na Tabela 7.
+
+<div align="center">
+<p><strong>Tabela 7</strong>: Registro das avaliações feitas com esta lista</p>
 </div>
 | Artefato e versão avaliada | Data e hora | Avaliador(es) | Grupo avaliador (próprio ou +1) | Observações |
 | :--- | :---: | :--- | :---: | :--- |
@@ -236,7 +225,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 4: Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades](../../assets/prints_referencias/verificacao-v2/livro-diretrizes-contexto.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 222). Itens que usam esta figura: C11, G6, G7, G8.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 222). Itens que usam esta figura: C11.</em></p>
 </div>
 
 ---
@@ -248,7 +237,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 5: 10.2.1 Correspondência com as expectativas dos usuários](../../assets/prints_referencias/verificacao-v2/livro-correspondencia.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 222). Itens que usam esta figura: C12, G16, G18.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 222). Itens que usam esta figura: C12.</em></p>
 </div>
 
 ---
@@ -260,7 +249,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 6: 10.2.2 Simplicidade nas estruturas das tarefas](../../assets/prints_referencias/verificacao-v2/livro-simplicidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 223). Itens que usam esta figura: C12, G1, G2.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 223). Itens que usam esta figura: C12, G1.</em></p>
 </div>
 
 ---
@@ -272,7 +261,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 7: 10.2.3 Equilíbrio entre controle e liberdade do usuário](../../assets/prints_referencias/verificacao-v2/livro-controle-liberdade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 224). Itens que usam esta figura: C12, G3, G4, G5, G19.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 224). Itens que usam esta figura: C12.</em></p>
 </div>
 
 ---
@@ -284,7 +273,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 8: 10.2.4 Consistência e padronização](../../assets/prints_referencias/verificacao-v2/livro-consistencia.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 225). Itens que usam esta figura: C12, G20.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 225). Itens que usam esta figura: C12.</em></p>
 </div>
 
 ---
@@ -296,7 +285,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 9: 10.2.5 Promovendo a eficiência do usuário](../../assets/prints_referencias/verificacao-v2/livro-eficiencia.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 226). Itens que usam esta figura: C12, G23.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 226). Itens que usam esta figura: C12.</em></p>
 </div>
 
 ---
@@ -308,7 +297,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 10: 10.2.6 Antecipação das necessidades do usuário](../../assets/prints_referencias/verificacao-v2/livro-antecipacao.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 227). Itens que usam esta figura: C12, G21, G40.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 227). Itens que usam esta figura: C12.</em></p>
 </div>
 
 ---
@@ -320,7 +309,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 11: 10.2.7 Visibilidade e reconhecimento](../../assets/prints_referencias/verificacao-v2/livro-visibilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 228). Itens que usam esta figura: C12, G10, G17, G22.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 228). Itens que usam esta figura: C12, G3.</em></p>
 </div>
 
 ---
@@ -332,7 +321,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 12: 10.2.8 Conteúdo relevante e expressão adequada (máximas de Grice)](../../assets/prints_referencias/verificacao-v2/livro-conteudo.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 230). Itens que usam esta figura: C12, G9.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 230). Itens que usam esta figura: C12, G2.</em></p>
 </div>
 
 ---
@@ -344,7 +333,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 13: 10.2.9 Projeto para erros](../../assets/prints_referencias/verificacao-v2/livro-projeto-erros.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 231). Itens que usam esta figura: C12, G11, G41.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 231). Itens que usam esta figura: C12, G7.</em></p>
 </div>
 
 ---
@@ -368,7 +357,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 15: Definição de metas de usabilidade, indicadores e faixas de valores](../../assets/prints_referencias/verificacao-v2/livro-metas-usabilidade.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 103). Itens que usam esta figura: C13, C14, G35, G36, G37.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 103). Itens que usam esta figura: C13, C14, G6.</em></p>
 </div>
 
 ---
@@ -380,7 +369,7 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 16: 10.5 Guias de estilo: finalidade e escopos](../../assets/prints_referencias/verificacao-v2/livro-guia-estilo.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 241). Itens que usam esta figura: C15, G10, G12, G13, G14, G29, G30.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 241). Itens que usam esta figura: C15, G5.</em></p>
 </div>
 
 ---
@@ -392,67 +381,19 @@ As figuras a seguir são recortes das fontes citadas nos itens desta lista, com 
 ![Figura 17: 10.5 Estrutura comum de um guia de estilo (Marcus, 1991; Mayhew, 1999)](../../assets/prints_referencias/verificacao-v2/livro-guia-estrutura.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 242). Itens que usam esta figura: C16, G14, G15, G26, G27, G28, G29, G30, G31, G32, G33, G34.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 242). Itens que usam esta figura: C16, G5.</em></p>
 </div>
 
 ---
 
 <div id="figura-18" align="center">
-<p><strong>Figura 18</strong>: 10.2.3 Desfazer ações em vez de excesso de diálogos de confirmação</p>
+<p><strong>Figura 18</strong>: 10.4 Dark patterns</p>
 </div>
 
-![Figura 18: 10.2.3 Desfazer ações em vez de excesso de diálogos de confirmação](../../assets/prints_referencias/verificacao-v2/livro-controle-confirmacao.png)
+![Figura 18: 10.4 Dark patterns](../../assets/prints_referencias/verificacao-v2/livro-dark-patterns.png)
 
 <div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 225). Itens que usam esta figura: G5, G21.</em></p>
-</div>
-
----
-
-<div id="figura-19" align="center">
-<p><strong>Figura 19</strong>: 12.1.1 Avaliação heurística: base nas heurísticas de Nielsen</p>
-</div>
-
-![Figura 19: 12.1.1 Avaliação heurística: base nas heurísticas de Nielsen](../../assets/prints_referencias/verificacao-v2/livro-heuristicas.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 268). Itens que usam esta figura: G18, G22, G23, G24.</em></p>
-</div>
-
----
-
-<div id="figura-20" align="center">
-<p><strong>Figura 20</strong>: 10.4 Dark patterns</p>
-</div>
-
-![Figura 20: 10.4 Dark patterns](../../assets/prints_referencias/verificacao-v2/livro-dark-patterns.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 234). Itens que usam esta figura: G25.</em></p>
-</div>
-
----
-
-<div id="figura-21" align="center">
-<p><strong>Figura 21</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
-</div>
-
-![Figura 21: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289). Itens que usam esta figura: G38, G39.</em></p>
-</div>
-
----
-
-<div id="figura-22" align="center">
-<p><strong>Figura 22</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
-</div>
-
-![Figura 22: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
-
-<div align="center">
-<p><em>Fonte: BARBOSA et al. (2021, p. 260). Itens que usam esta figura: G38.</em></p>
+<p><em>Fonte: BARBOSA et al. (2021, p. 234). Itens que usam esta figura: G4.</em></p>
 </div>
 
 ---
