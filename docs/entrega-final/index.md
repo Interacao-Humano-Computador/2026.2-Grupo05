@@ -12,6 +12,7 @@ Esta página consolida os registros disponíveis para a entrega final:
 - [Gravações das apresentações](../apresentacoes/index.md);
 - [Inspeções das entregas](../inspecoes/index.md);
 - [Listas de verificação padronizadas](../verificacao/index.md);
+- [Relato consolidado da inspeção geral](inspecao-geral.md);
 - [Design, avaliação e desenvolvimento](../design-avaliacao-desenvolvimento/index.md).
 
 ---

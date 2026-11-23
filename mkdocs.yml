@@ -312,4 +312,6 @@ nav:
       - Verificação da Entrega 6: verificacao/v2/verif6.md
       - Verificação da Entrega 7: verificacao/v2/verif7.md
 
-  - Entrega Final: entrega-final/index.md
+  - Entrega Final:
+    - Visão geral: entrega-final/index.md
+    - Relato da inspeção geral: entrega-final/inspecao-geral.md
