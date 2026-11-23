@@ -67,10 +67,10 @@ Fagan (1976) organiza a inspeção em planejamento, visão geral, preparação, 
 
 ### 2.2 Gravação da inspeção geral
 
-O registro audiovisual da inspeção geral está disponível em [YouTube: Inspeção Geral do Grupo 05](https://www.youtube.com/watch?v=X6P0Tk3qObE).
+O registro audiovisual da inspeção geral está disponível em [YouTube: Inspeção Geral do Grupo 05](https://www.youtube.com/watch?v=a6wJpc3Op3w).
 
 <div align="center">
-  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/X6P0Tk3qObE" title="Inspeção Geral do Grupo 05" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/a6wJpc3Op3w" title="Inspeção Geral do Grupo 05" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div align="center">
