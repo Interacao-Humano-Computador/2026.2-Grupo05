@@ -1,6 +1,6 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 20/10/2026 | `1.0` | Criação do planejamento do relato dos resultados do Protótipo de Papel (TAR-01). | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Google Gemini - usado para formatação markdown da página |
 
@@ -11,6 +11,19 @@
 Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Papel** referente à **[TAR-01 (Alerta Inteligente de Saída de Casa)](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida/#tar-01-alerta-inteligente-de-saida)**. Trata-se de um planejamento individual desenvolvido para orientar a futura compilação, análise e apresentação dos dados obtidos na avaliação presencial do protótipo de baixa/média fidelidade em papel.
 
 A estrutura deste relato foi definida com base nas recomendações do livro-texto da disciplina (Barbosa et al., 2021, Cap. 11, Seção 11.7.5; Cap. 12, Seção 12.2.3), garantindo que os problemas de usabilidade encontrados, os ajustes realizados diretamente no papel e as recomendações para o protótipo de alta fidelidade sejam reportados de forma padronizada e transparente.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-01 (Alerta Inteligente de Saída de Casa):**
+
+* **Persona:** [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md)
+* **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md)
+* **Análise de tarefas:** [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md)
+* **Storyboard:** [Storyboard 01](../../../nivel1/storyboards.md#31-storyboard-01-alerta-inteligente-de-saida-de-casa)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Igor/igor-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/igor/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](igor-planejamento-av-prototipo-papel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/igor/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/igor/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/igor/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/igor/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](igor-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://www.figma.com/proto/00YEuKWtN4N1rBzpC8V7Gd/prototipo-de-igor?node-id=0-1&t=S9Z2PNsKlHC3LlTt-1)
+
 
 ---
 
@@ -27,7 +40,7 @@ O relato dos resultados tem como finalidade principal organizar e comunicar aos 
 
 ## 2. Estrutura Padronizada do Relatório Final de Resultados
 
-Em conformidade com a literatura de IHC (Barbosa et al., 2021, p. 263, 306), o documento final de relato dos resultados do protótipo de papel conterá as seguintes seções estruturadas:
+Em conformidade com a literatura de IHC (Barbosa et al., 2021, pp. 263, 306), o documento final de relato dos resultados do protótipo de papel conterá as seguintes seções estruturadas:
 
 1. **Introdução e Objetivos da Avaliação:** Apresentação do escopo do protótipo em papel e das metas de usabilidade investigadas.
 2. **Metodologia Empregada:** Descrição da técnica de Prototipação em Papel (observação de uso empírica presencial) e da técnica de *Think Aloud* (pensar em voz alta).
@@ -44,10 +57,10 @@ Em conformidade com a literatura de IHC (Barbosa et al., 2021, p. 263, 306), o d
 
 Como a prototipação em papel privilegia a produção de dados qualitativos (Barbosa et al., 2021, p. 308), a análise dos resultados será interpretativa. As anotações do observador e as gravações de áudio/vídeo da mesa serão examinadas para identificar a origem das hesitações e erros do participante.
 
-Os problemas de usabilidade identificados serão classificados segundo a **Escala de Severidade de Problemas** (Nielsen, 1994; Barbosa et al., 2021):
+Os problemas de usabilidade identificados serão classificados segundo a **Escala de Severidade de Problemas** (Barbosa et al., 2021):
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escala de Severidade de Problemas de Usabilidade</p>
+<p><strong>Tabela 1</strong>: Escala de Severidade de Problemas de Usabilidade</p>
 </div>
 
 | Nível de Severidade | Classificação | Descrição do Impacto na Interação do Usuário |
@@ -59,7 +72,7 @@ Os problemas de usabilidade identificados serão classificados segundo a **Escal
 | **4** | **Catastrófico** | Impede totalmente o usuário de concluir a tarefa no protótipo em papel (desistência ou erro bloqueante). |
 
 <div align="center">
-<p><em>Fonte: Adaptado de Nielsen (1994) e Barbosa et al. (2021).</em></p>
+<p><em>Fonte: Adaptado de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021).</em></p>
 </div>
 
 ---
@@ -71,7 +84,7 @@ O relatório final utilizará três modelos padronizados de tabelas para registr
 ### 4.1 Modelo de Tabela 1: Desempenho nas Tarefas do Protótipo em Papel
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Consolidação do Desempenho nas Tarefas em Papel</p>
+<p><strong>Tabela 2</strong>: Consolidação do Desempenho nas Tarefas em Papel</p>
 </div>
 
 | ID Tarefa | Descrição do Cenário / Tarefa no Papel | Sucesso sem Ajuda? | Tempo Gasto | Pedidos de Ajuda | Avaliação da Usabilidade |
@@ -87,7 +100,7 @@ O relatório final utilizará três modelos padronizados de tabelas para registr
 ### 4.2 Modelo de Tabela 2: Registro e Priorização de Problemas de IHC
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Tabela de Registro e Priorização de Problemas de Usabilidade</p>
+<p><strong>Tabela 3</strong>: Tabela de Registro e Priorização de Problemas de Usabilidade</p>
 </div>
 
 | ID Problema | Descrição do Problema | Peça / Tela de Papel Afetada | Severidade (0 a 4) | Fatores de Usabilidade Prejudicados | Sugestão de Reprojeto / Ação |
@@ -102,7 +115,7 @@ O relatório final utilizará três modelos padronizados de tabelas para registr
 ### 4.3 Modelo de Tabela 3: Problemas Corrigidos no Papel vs. Pendentes para Alta Fidelidade
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Registro de Iterações no Protótipo de Papel e Pendências</p>
+<p><strong>Tabela 4</strong>: Registro de Iterações no Protótipo de Papel e Pendências</p>
 </div>
 
 | ID Problema | Modificação Realizada no Protótipo em Papel | Corrigido Durante o Teste? | Reincidiu na Interação? | Status para Prototipação Digital |
@@ -133,22 +146,79 @@ Conforme as diretrizes da disciplina, a fundamentação teórica sobre a consoli
 * **Obra:** BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021.
 * **Localização Exata:** **Parte IV, Capítulo 11 — Seção 11.7.5 (*Consolidação e Relato dos Resultados*), páginas 263–264**; e **Capítulo 12 — Seção 12.2.3 (*Prototipação em Papel — Relato dos Resultados*), páginas 305–306**.
 
+
+## 7. Telas do Protótipo Avaliado
+
+As Figuras 1 a 5 mostram as telas do protótipo de papel da [TAR-01](../../../../analise-de-requisitos/analise-de-tarefas/tar-01-alerta-saida.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel2/relatos-individuais/igor/relato-resultados-prot-papel.md).
+
+<div id="figura-1" align="center" markdown="1">
+<p><strong>Figura 1</strong>: Tela inicial: busca por linha ou destino, linhas e destinos salvos</p>
+
+![Tela inicial: busca por linha ou destino, linhas e destinos salvos](../../../../assets/images/prototipo-tar01/Igor_prot_01.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+<div id="figura-2" align="center" markdown="1">
+<p><strong>Figura 2</strong>: Monitoramento ativo: tempo de caminhada calculado via GPS e horário estimado de saída</p>
+
+![Monitoramento ativo: tempo de caminhada calculado via GPS e horário estimado de saída](../../../../assets/images/prototipo-tar01/Igor_prot_02.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+<div id="figura-3" align="center" markdown="1">
+<p><strong>Figura 3</strong>: Alerta de saída imediata: ônibus adiantado, com opções "Estou saindo!" e "Sugerir outra rota"</p>
+
+![Alerta de saída imediata: ônibus adiantado, com opções 'Estou saindo!' e 'Sugerir outra rota'](../../../../assets/images/prototipo-tar01/Igor_prot_03.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+<div id="figura-4" align="center" markdown="1">
+<p><strong>Figura 4</strong>: Rota alternativa: sugestão de nova linha para o destino, com opções de confirmar ou cancelar</p>
+
+![Rota alternativa: sugestão de nova linha para o destino, com opções de confirmar ou cancelar](../../../../assets/images/prototipo-tar01/Igor_prot_04.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+<div id="figura-5" align="center" markdown="1">
+<p><strong>Figura 5</strong>: Monitoramento da nova rota: linha alternativa selecionada e novo horário estimado de saída</p>
+
+![Monitoramento da nova rota: linha alternativa selecionada e novo horário estimado de saída](../../../../assets/images/prototipo-tar01/Igor_prot_05.jpeg){ width="600" }
+
+<p><em>Fonte: Elaborado por Igor Dantas Araújo (2026).</em></p>
+</div>
+
+---
 ---
 
-## 7. Declaração sobre o Uso de IA Generativa
+## 8. Fotos de Referência
+As Figuras 6 a 7 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
-Em conformidade com as orientações do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram utilizadas unicamente para apoio na formatação sintática das tabelas em Markdown e revisão textual. A estrutura das tabelas de consolidação, a taxonomia de severidade e as definições metodológicas são de autoria do integrante Igor Dantas Araújo.
+<div id="figura-6" align="center">
+<p><strong>Figura 6</strong>: Prototipação em papel: conteúdo do relato dos resultados</p>
+</div>
+
+![Figura 6: Prototipação em papel: conteúdo do relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306).</em></p>
+</div>
+
+<div id="figura-7" align="center">
+<p><strong>Figura 7</strong>: 12.2.3 Prototipação em papel: refinamento, priorização e relato</p>
+</div>
+
+![Figura 7: 12.2.3 Prototipação em papel: refinamento, priorização e relato](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 305–306).</em></p>
+</div>
 
 ---
 
-## 8. Referências Bibliográficas
-
+## 9. Referências Bibliográficas
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11, p. 245–266; Capítulo 12, Seção 12.2.3, p. 303–306).
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. São Paulo: Editora Érica, 2005.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.
-* SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann, 2003.
-
----
-**Autor:** [Igor Dantas Araújo](https://github.com/IgorDARAUJO)  
-**Revisor:** [Gabriel Cardone](https://github.com/gabriellcardone-06)

@@ -1,34 +1,34 @@
-# Personas
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 26/09/2026 | 1.0 | Criação do documento com elenco de personas identificadas para o ecossistema do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 27/09/2026 | 1.1 | Modularização em artefatos dedicados por persona com página de visão geral. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 27/09/2026 | 1.2 | Inclusão formal da persona Valdir Soares ("Seu Valdir") representando os motoristas do STPC/DF (Persona Atendida). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) |
-| 27/09/2026 | 1.3 | Inclusão da persona primária Maria Eduarda Santos, com foco em falhas de Vale-Transporte e cartão. | Equipe Grupo 05 | [Carlos Costa](https://github.com/carloshfgit) |
-| 28/09/2026 | 1.4 | Inclusão das personas Heitor Santos Júnior e Mariana Borges Almeida. | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) |
-| 11/10/2026 | 1.5 | Reformulação da persona Larissa Ferreira Lima para usuária com mobilidade reduzida temporária (Programa DF Acessível). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) |
-| 13/10/2026 | 1.6 | Inclusão da persona primária Cláudia Regina Santos. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| 23/10/2026 | 1.7 | Atualização da persona Heitor Santos Júnior para a TAR-09 (aumento do limite diário do Vale-Transporte). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 26/09/2026 | `1.0` | Criação do documento com elenco de personas identificadas para o ecossistema do **SEMOB-DF**. | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.1` | Modularização em artefatos dedicados por persona com página de visão geral. | [Carlos Costa](https://github.com/carloshfgit) | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Igor Dantas](https://github.com/IgorDARAUJO) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.2` | Inclusão formal da persona Valdir Soares ("Seu Valdir") representando os motoristas do STPC/DF (Persona Atendida). | [Carlos Costa](https://github.com/carloshfgit) | [Igor Dantas](https://github.com/IgorDARAUJO) e [Gabriel Melo](https://github.com/gabriellcardone-06) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 27/09/2026 | `1.3` | Inclusão da persona primária Maria Eduarda Santos, com foco em falhas de Vale-Transporte e cartão. | Equipe Grupo 05 | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 28/09/2026 | `1.4` | Inclusão das personas Heitor Santos Júnior e Mariana Borges Almeida. | [Tomás Rocho](https://github.com/TomasRocho) e [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 11/10/2026 | `1.5` | Reformulação da persona Larissa Ferreira Lima para usuária com mobilidade reduzida temporária (Programa DF Acessível). | [Gabriel Melo](https://github.com/gabriellcardone-06) | [Igor Dantas](https://github.com/IgorDARAUJO) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 13/10/2026 | `1.6` | Inclusão da persona primária Cláudia Regina Santos. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 23/10/2026 | `1.7` | Atualização da persona Heitor Santos Júnior para a TAR-09 (aumento do limite diário do Vale-Transporte). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
 
+# Personas
+
 ## 1. Introdução
 
-Na área de Interação Humano-Computador (IHC), uma **persona** é um personagem fictício, arquetípico e fundamentado em dados empíricos, concebido para representar um grupo específico de usuários com padrões de comportamento, atitudes, motivações, objetivos e necessidades similares (Cooper, 1999; Cooper et al., 2007; Barbosa et al., 2021).
+Na área de Interação Humano-Computador (IHC), uma **persona** é um personagem fictício, arquetípico e fundamentado em dados empíricos, concebido para representar um grupo específico de usuários com padrões de comportamento, atitudes, motivações, objetivos e necessidades similares (Barbosa et al., 2021).
 
 Diferente de uma simples descrição abstrata de público-alvo, a persona ganha identidade concreta — nome, rosto fictício, contexto social e rotina de vida —, permitindo que a equipe de design e desenvolvimento desenvolva empatia e mantenha o foco nas metas reais dos usuários ao longo de todas as tomadas de decisão de interface e arquitetura de informação.
 
 ### 1.1 Papéis e Classificação no Elenco de Personas
 
-De acordo com Barbosa et al. (2021), Cooper (1999) e Cooper et al. (2007), as personas em um projeto de design podem assumir diferentes papéis:
+De acordo com Barbosa et al. (2021), Cooper (1999 apud BARBOSA et al., 2021) e Cooper et al. (2014 apud BARBOSA et al., 2021), as personas em um projeto de design podem assumir diferentes papéis:
 * **Persona Primária:** O foco central do design. O sistema precisa atender com excelência aos seus objetivos e expectativas primordiais sem comprometer as soluções para os demais.
 * **Persona Secundária:** Usuários cujas necessidades são majoritariamente atendidas pelo design focado na persona primária, mas que apresentam requisitos adicionais específicos.
 * **Persona Terciária / Complementar:** Representam outros stakeholders ou perfis de usuários com menor frequência de interação direta, mas com impactos relevantes na cadeia do serviço.
-* **Persona Atendida (*Served Persona*):** Atores que não operam diretamente a interface gráfica em sua jornada regular, mas são direta e criticamente afetados pelo uso do produto e pela integridade das informações veiculadas (Cooper et al., 2007, p. 105; Eason, 1987).
-* **Antipersona / Persona Negativa:** Personagens que representam explicitamente quem o sistema *não* busca atender (Cooper et al., 2007, p. 105).
+* **Persona Atendida (*Served Persona*):** Atores que não operam diretamente a interface gráfica em sua jornada regular, mas são direta e criticamente afetados pelo uso do produto e pela integridade das informações veiculadas (Barbosa et al., 2021).
+* **Antipersona / Persona Negativa:** Personagens que representam explicitamente quem o sistema *não* busca atender (Barbosa et al., 2021).
 
 ---
 
@@ -63,7 +63,7 @@ O critério de parada adotado foi a **cobertura sem redundância significativa**
 A Tabela 1 apresenta o elenco de personas desenvolvido pela equipe para orientar as soluções de IHC do portal da SEMOB-DF e direciona para os respectivos artefatos individuais.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Elenco de Personas Mapeadas no Projeto</p>
+<p><strong>Tabela 1</strong>: Elenco de Personas Mapeadas no Projeto</p>
 </div>
 
 | Persona | Papel no Projeto | Perfil Representado | Autor da Elaboração | Artefato Completo |
@@ -81,16 +81,39 @@ A Tabela 1 apresenta o elenco de personas desenvolvido pela equipe para orientar
 <p><em>Fonte: Autores (2026).</em></p>
 </div>
 
-### 3.1 Articulação do Elenco de Personas (Barbosa e Silva, 2010, pp. 179–180)
+### 3.1 Articulação do Elenco de Personas (Barbosa et al., 2021)
 O elenco reúne **seis personas associadas ao perfil passageiro** e **uma persona atendida com perspectiva operacional**. As personas passageiras compartilham a dependência do transporte coletivo, mas diferem quanto ao domínio tecnológico, ao contexto de deslocamento, aos benefícios utilizados, às condições ambientais e às informações necessárias para tomar decisões. Valdir amplia o espaço de problema ao representar quem não utiliza regularmente o portal, mas sofre diretamente os efeitos de informações públicas incorretas ou desatualizadas.
 
 As sete perspectivas articulam consultas de linhas e horários, planejamento por origem e destino, rastreamento em tempo real, integração, Vale-Transporte, comunicação de desvios, segurança noturna e consistência entre a informação pública e a operação. Dessa forma, o elenco fornece cobertura aos principais cenários e análises de tarefas documentados no projeto sem depender de uma única persona excessivamente abrangente.
 
 ---
 
-## 4. Referências Bibliográficas
+## 4. Fotos de Referência
+
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Elementos que compõem a descrição de uma persona</p>
+</div>
+
+![Figura 1: Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Elenco de personas, persona primária e antipersonas</p>
+</div>
+
+![Figura 2: Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 155).</em></p>
+</div>
+
+---
+
+## 5. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 8: Organização do Espaço de Problema (pp. 147–167).
-* COOPER, Alan. **The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity**. Indianapolis: Sams Publishing, 1999.
-* COOPER, Alan; REIMANN, Robert; CRONIN, Dave. **About Face 3: The Essentials of Interaction Design**. Indianapolis: Wiley Publishing, Inc., 2007. ISBN: 978-0-470-08411-3. Chapter 5: *Modeling Users: Personas and Goals*, pp. 75–108.
-* EASON, Ken. **Information Technology and Organisational Change**. London: Taylor & Francis, 1987.

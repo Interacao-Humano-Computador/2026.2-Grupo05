@@ -34,7 +34,6 @@ hide:
 
 </section>
 
-
 ## Sobre o Projeto
 
 A **Secretaria de Estado de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)** é o órgão governamental encarregado do planejamento, regulamentação, fiscalização e gestão das políticas públicas de transporte público coletivo e mobilidade urbana em todo o Distrito Federal. O seu portal eletrônico institucional, acessível em [https://www.semob.df.gov.br/](https://www.semob.df.gov.br/), centraliza informações essenciais à população, incluindo itinerários de linhas, regulamentações tarifárias e a concessão de benefícios como o Passe Livre Estudantil e o Cartão Mobilidade.
@@ -93,13 +92,14 @@ A Figura 1 apresenta os integrantes do Grupo 05.
 
 </div>
 
-<p class="caption">Figura 1 — Integrantes do Grupo 05.</p>
+<p class="caption">Figura 1: Integrantes do Grupo 05.</p>
 <p class="source">Fonte: fotos dos próprios integrantes (2026).</p>
 
 ## Histórico de versão
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | --- | --- | --- |
-| 05/09/2026 | `1.0` | Estruturação e publicação inicial da documentação | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) |
-| 06/09/2026 | `1.1` | Refinando elementos visuais e de acessibilidade | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-| 17/09/2026 | `1.2` | Adição do atalho de acesso rápido para a página de Contribuições | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/09/2026 | `1.0` | Estruturação e publicação inicial da documentação | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Costa](https://github.com/carloshfgit) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 06/09/2026 | `1.1` | Refinando elementos visuais e de acessibilidade | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 17/09/2026 | `1.2` | Adição do atalho de acesso rápido para a página de Contribuições | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
+| 19/11/2026 | `1.3` | Padronização geral dos artefatos e da documentação do projeto | [Gabriel Melo](https://github.com/gabriellcardone-06) e [Arthur Mariani](https://github.com/arthur-mariani) | [Igor Dantas](https://github.com/IgorDARAUJO) | Google Gemini: apoio na revisão textual e na formatação do artefato. |

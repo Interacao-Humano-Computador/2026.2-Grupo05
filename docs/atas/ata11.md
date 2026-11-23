@@ -1,3 +1,11 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 04/11/2026 | `1.0` | Criação da ata da Reunião 11 referente à inspeção dos artefatos da Entrega 6 do Grupo +1 (Grupo 07), com base na Lista de Verificação 6. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
+
+---
+
 # Ata de reunião 11 (Inspeção da Entrega 6 do Grupo +1) - Interação Humano-Computador - Grupo 05
 
 - **Data:** 04/11/2026 (Quarta-feira)
@@ -7,14 +15,6 @@
 - **Redator da Ata:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)
 - **Revisor da Ata:** [Arthur Mariani de Andrade da Cruz](https://github.com/arthur-mariani)
 - **Ausentes:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) e [Tomás Garcia Rocho](https://github.com/TomasRocho)
-
-## Histórico de Versão e Contribuição
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
-| :---: | :---: | :--- | :--- | :--- | :---: |
-| 04/11/2026 | `1.0` | Criação da ata da Reunião 11 referente à inspeção dos artefatos da Entrega 6 do Grupo +1 (Grupo 07), com base na Lista de Verificação 6. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
-
----
 
 ## 1. Participantes presentes:
 
@@ -35,7 +35,7 @@ A reunião teve como foco a verificação cruzada dos artefatos da **Entrega 6**
 - **Instrumento de avaliação:** A checagem baseou-se nas 14 perguntas estruturadas na **[Lista de Verificação da Entrega 6](../verificacao/verif6.md)**, divididas em:
   - **Perguntas 1 a 7:** Avaliação do Planejamento da Avaliação do Protótipo de Alta Fidelidade (objetivos, perguntas, método, participantes, tarefas, teste-piloto e TCLE);
   - **Perguntas 8 a 14:** Avaliação do Planejamento do Relato dos Resultados (objetivos/método, participantes/avaliadores, métricas por tarefa, interpretação dos dados, perguntas sem resposta, tabela de problemas de usabilidade, limitações e plano de reprojeto).
-- **Referencial teórico:** Barbosa e Silva (2010, Seção 5.4, p. 140–141; Seções 9.7–9.8, p. 303–313; Seção 10.2.1, p. 341–343) e o Framework DECIDE.
+- **Referencial teórico:** Barbosa et al. (2021, Seção 7.4, Seção 12.2.1, pp. 127–289) e o Framework DECIDE.
 
 ---
 
@@ -43,14 +43,14 @@ A reunião teve como foco a verificação cruzada dos artefatos da **Entrega 6**
 
 Os resultados registrados a seguir retratam fielmente a inspeção conduzida pelo Grupo 05 sobre os artefatos da Entrega 6 do Grupo +1 (Grupo 07):
 
-**Tabela 1** — Resultados da Inspeção da Entrega 6 do Grupo +1 (Grupo 07)
+**Tabela 1**: Resultados da Inspeção da Entrega 6 do Grupo +1 (Grupo 07)
 
 | Nº | Pergunta de Verificação da Entrega 6 | Avaliação Registrada | Evidência / Parecer Técnico |
 | :---: | :--- | :---: | :--- |
 | **1** | O planejamento define com clareza o objetivo e o escopo da avaliação do protótipo? | **Conforme** | Apresenta os objetivos gerais e específicos delimitados com clareza para a avaliação com base no framework DECIDE. |
 | **2** | O planejamento apresenta perguntas específicas que a avaliação deverá responder? | **Conforme** | Contempla as perguntas investigativas formuladas a partir do framework DECIDE. |
 | **3** | O método de avaliação escolhido é adequado às perguntas e aos recursos disponíveis? | **Conforme** | O teste de usabilidade foi devidamente selecionado e fundamentado como método adequado para a avaliação formativa. |
-| **4** | O planejamento define o perfil e a quantidade de participantes compatíveis com o público-alvo? | **Conforme** | Perfil alinhado às personas do projeto e amostragem de 3 participantes fundamentada na literatura técnica (Steve Krug / Barbosa & Silva). |
+| **4** | O planejamento define o perfil e a quantidade de participantes compatíveis com o público-alvo? | **Conforme** | Perfil alinhado às personas do projeto e amostragem de 3 participantes fundamentada na literatura técnica (Barbosa et al., 2021). |
 | **5** | O planejamento descreve as tarefas que os participantes executarão no protótipo? | **Conforme** | Roteiro estruturado de tarefas e cenários realistas de uso descritos em detalhes. |
 | **6** | O planejamento prevê um teste-piloto para conferir as instruções, o protótipo, o registro dos dados e o tempo das tarefas? | **Conforme** | A realização do teste-piloto foi expressamente identificada e detalhada no Tópico 9 do documento. |
 | **7** | O planejamento prevê consentimento, anonimato, participação voluntária e autorização para gravações? | **Conforme** | Resguardo bioético contemplado, incluindo termos de sigilo, voluntariado e modelo completo de Termo de Consentimento Livre e Esclarecido (TCLE). |
@@ -99,13 +99,43 @@ O registro audiovisual integral da sessão de inspeção da Entrega 6 do Grupo +
 
 ---
 
-## 6. Declaração sobre o Uso de IA Generativa
+## 6. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina (SALES, 2026) e ao Código de Conduta da SBC, declara-se que a ferramenta Google Gemini foi utilizada exclusivamente para auxílio na formatação em Markdown e estruturação formal deste documento. Toda a condução da sessão de inspeção, a navegação nos artefatos do Grupo 07 e os julgamentos técnicos registrados nesta ata foram executados pelos integrantes do Grupo 05.
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+</div>
+
+![Figura 2: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
+</div>
+
+![Figura 3: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 267–288).</em></p>
+</div>
 
 ---
 
 ## 7. Referências Bibliográficas
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. ISBN 978-85-352-1120-7. (Seção 5.4, p. 140–141; Seções 9.7–9.8, p. 303–313; Seção 10.2.1, p. 341–343).
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.

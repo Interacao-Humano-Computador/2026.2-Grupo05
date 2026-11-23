@@ -1,16 +1,29 @@
-# Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-06)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
-| 03/11/2026 | `1.0` | Relato dos resultados da avaliação do Protótipo de Papel (TAR-06), com base no teste piloto e na sessão de 03/11/2026. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 03/11/2026 | `1.0` | Relato dos resultados da avaliação do Protótipo de Papel (TAR-06), com base no teste piloto e na sessão de 03/11/2026. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic) - apenas revisou e formatou o texto em Markdown |
 
 ---
 
+# Relato dos Resultados da Avaliação do Protótipo de Papel (TAR-06)
+
 Neste documento, apresenta-se o **Relato dos Resultados da Avaliação do Protótipo de Papel** referente à **[TAR-06 (Consulta de ônibus em tempo real no DF no Ponto)](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)**. A sessão seguiu o [Planejamento da Avaliação do Protótipo de Papel](../../planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md), e este relato segue a estrutura do [Planejamento do Relato](../../planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) (Tabela 1 daquele documento).
 
-O conteúdo do relato da prototipação em papel segue Barbosa e Silva (2010, Seção 10.2.3, p. 361–362): objetivos, método, perfil dos participantes e avaliadores, tarefas e problemas encontrados, separando os corrigidos no papel dos pendentes ([Imagens 1 e 2](#imagem-1)).
+O conteúdo do relato da prototipação em papel segue Barbosa et al. (2021, Seção 12.2.3, pp. 305–306): objetivos, método, perfil dos participantes e avaliadores, tarefas e problemas encontrados, separando os corrigidos no papel dos pendentes ([Imagens 1 e 2](#imagem-1)).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-06 (Consulta do Ônibus em Tempo Real no DF no Ponto):**
+
+* **Persona:** [João Pedro Carvalho](../../../../analise-de-requisitos/personas/joao-pedro-carvalho.md); [Mariana Borges Almeida](../../../../analise-de-requisitos/personas/mariana-borges-almeida.md)
+* **Cenário:** [Cenário 2](../../../../analise-de-requisitos/cenarios/cenario-2-viagem-matutina.md); [Cenário 10](../../../../analise-de-requisitos/cenarios/cenario-10-viagem-ideal.md)
+* **Análise de tarefas:** [TAR-06](../../../../analise-de-requisitos/analise-de-tarefas/tar-06-df-no-ponto.md)
+* **Storyboard:** [Storyboard 08](../../../nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../../nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · Relato dos resultados (*esta página*)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
+
 
 ---
 
@@ -30,7 +43,7 @@ A avaliação teve como objetivos:
 
 ## 2. Método
 
-O método foi a **Prototipação em Papel** (Snyder, 2003; Barbosa e Silva, 2010, Seção 10.2.3) com a técnica de **pensar em voz alta**. O participante tocava no papel como se fosse um celular, e o avaliador, no papel de "computador", trocava as telas e as peças apenas em resposta a esses toques. As tarefas foram entregues em cartões impressos, uma por vez, com o contexto do Cenário 2: *"Você está no ponto de ônibus de manhã e precisa chegar à UnB Gama para a primeira aula. Você costuma pegar a linha 2310."*
+O método foi a **Prototipação em Papel** (Barbosa et al., 2021, Seção 12.2.3) com a técnica de **pensar em voz alta**. O participante tocava no papel como se fosse um celular, e o avaliador, no papel de "computador", trocava as telas e as peças apenas em resposta a esses toques. As tarefas foram entregues em cartões impressos, uma por vez, com o contexto do Cenário 2: *"Você está no ponto de ônibus de manhã e precisa chegar à UnB Gama para a primeira aula. Você costuma pegar a linha 2310."*
 
 ### 2.1 Teste Piloto
 
@@ -51,7 +64,7 @@ O planejamento previa o piloto em 31/10/2026 e a sessão em 01/11/2026. Os dois 
 ## 3. Participante e Equipe
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Dados da sessão</p>
+<p><strong>Tabela 1</strong>: Dados da sessão</p>
 </div>
 
 | Item | Detalhamento |
@@ -82,7 +95,7 @@ A [Imagem 4](#imagem-4) mostra o protótipo montado para a sessão. Na confecç�
 
 <div id="imagem-4" markdown>
 <div align="center">
-<p><strong>Imagem 4</strong> — Telas e peças do protótipo de papel da TAR-06</p>
+<p><strong>Imagem 4</strong>: Telas e peças do protótipo de papel da TAR-06</p>
 </div>
 
 ![Protótipo de papel da TAR-06](../../../../assets/prototipos/prototipo-papel-tar-06.jpeg)
@@ -93,7 +106,7 @@ A [Imagem 4](#imagem-4) mostra o protótipo montado para a sessão. Na confecç�
 </div>
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Peças usadas na sessão</p>
+<p><strong>Tabela 2</strong>: Peças usadas na sessão</p>
 </div>
 
 | Peça | Conteúdo | Diferença em relação ao planejamento | Tarefa |
@@ -117,7 +130,7 @@ A [Imagem 4](#imagem-4) mostra o protótipo montado para a sessão. Na confecç�
 Os tempos de cada tarefa e a minutagem das falas **não foram registrados** separadamente durante a sessão. A sessão inteira, com as três tarefas e a entrevista, durou cerca de 8 minutos.
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Desempenho do participante por tarefa</p>
+<p><strong>Tabela 3</strong>: Desempenho do participante por tarefa</p>
 </div>
 
 | ID | Tarefa | Sucesso sem ajuda? | Tempo | Pedidos de ajuda | Observações |
@@ -137,7 +150,7 @@ Não houve toques em lugares sem peça preparada.
 ## 6. Entrevista Pós-Teste
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Respostas da entrevista pós-teste</p>
+<p><strong>Tabela 4</strong>: Respostas da entrevista pós-teste</p>
 </div>
 
 | # | Pergunta | Ligação | Resposta do participante |
@@ -160,10 +173,10 @@ O participante não fez comentários espontâneos além das respostas acima.
 
 ## 7. Problemas Encontrados
 
-A classificação usaria a escala de severidade de Nielsen (1994), descrita na Tabela 2 do [Planejamento do Relato](../../planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md), e os campos de registro de Barbosa et al. (2021, Seção 12.2.1, p. 303).
+A classificação usaria a escala de severidade de Nielsen (1994 apud BARBOSA et al., 2021), descrita na Tabela 2 do [Planejamento do Relato](../../planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md), e os campos de registro de Barbosa et al. (2021, Seção 12.2.1, p. 289).
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Problemas de usabilidade encontrados</p>
+<p><strong>Tabela 5</strong>: Problemas de usabilidade encontrados</p>
 </div>
 
 | ID | Descrição do problema | Tela / peça | Tarefa | Severidade (0–4) | Hipótese relacionada | Sugestão de reprojeto |
@@ -181,7 +194,7 @@ A classificação usaria a escala de severidade de Nielsen (1994), descrita na T
 Nenhuma peça foi redesenhada durante a sessão, porque não surgiram problemas. A Tabela 6 registra os pontos que o protótipo de papel **não chegou a testar** por causa das mudanças na confecção (Tabela 2) e que ficam para a alta fidelidade.
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Correções no papel e pendências para a alta fidelidade</p>
+<p><strong>Tabela 6</strong>: Correções no papel e pendências para a alta fidelidade</p>
 </div>
 
 | ID | Item | Corrigido durante a sessão? | Voltou a ocorrer? | Encaminhamento |
@@ -199,7 +212,7 @@ Nenhuma peça foi redesenhada durante a sessão, porque não surgiram problemas.
 ## 9. Hipóteses da TAR-06
 
 <div align="center">
-<p><strong>Tabela 7</strong> — Situação das hipóteses após o protótipo de papel</p>
+<p><strong>Tabela 7</strong>: Situação das hipóteses após o protótipo de papel</p>
 </div>
 
 | ID | Hipótese (resumo) | Evidência na simulação | Situação após o protótipo de papel |
@@ -231,7 +244,7 @@ Essas recomendações seguem para o [Planejamento da Avaliação do Protótipo d
 
 ### 10.2 Limitações
 
-Barbosa et al. (2021, p. 279) lembram que o relato deve deixar claros os limites da interpretação ([Imagem 3](#imagem-3)). Nesta avaliação:
+Barbosa et al. (2021, p. 263) lembram que o relato deve deixar claros os limites da interpretação ([Imagem 3](#imagem-3)). Nesta avaliação:
 
 * **Um participante:** os resultados indicam tendências e não garantem que não existam outros problemas.
 * **Participante experiente:** P05 já usa o DF no Ponto e sabe o número da linha, o que pode explicar a navegação sem dificuldade e não informa sobre usuários novos (H6).
@@ -246,36 +259,23 @@ Barbosa et al. (2021, p. 279) lembram que o relato deve deixar claros os limites
 ## 11. Fotos de Referência
 
 <div id="imagem-1" markdown>
-![Relato da prototipação em papel, parte 1](../../../../assets/prints_referencias/referencia-prototipo-papel-relato-361.png)
-<p><em>Imagem 1 — Interpretação, consolidação e itens do relato da prototipação em papel, parte 1 (Barbosa e Silva, 2010, Seção 10.2.3, p. 361).</em></p>
+![Relato da prototipação em papel, parte 1](../../../../assets/prints_referencias/verificacao-v2/livro-papel-consolidacao.png)
+<p><em>Imagem 1: Interpretação, consolidação e itens do relato da prototipação em papel, parte 1 (Barbosa et al., 2021, Seção 12.2.3, pp. 305–306).</em></p>
 </div>
 
 <div id="imagem-2" markdown>
-![Relato da prototipação em papel, parte 2](../../../../assets/prints_referencias/referencia-prototipo-papel-relato-362.png)
-<p><em>Imagem 2 — Itens do relato da prototipação em papel, parte 2: problemas não corrigidos (Barbosa e Silva, 2010, Seção 10.2.3, p. 362).</em></p>
+![Relato da prototipação em papel, parte 2](../../../../assets/prints_referencias/verificacao-v2/livro-papel-relato.png)
+<p><em>Imagem 2: Itens do relato da prototipação em papel, parte 2: problemas não corrigidos (Barbosa et al., 2021, Seção 12.2.3, pp. 305–306).</em></p>
 </div>
 
 <div id="imagem-3" markdown>
 ![Consolidação e relato dos resultados](../../../../assets/prints_referencias/referencia-planejamento-relato-tarefas-1.png)
-<p><em>Imagem 3 — Consolidação, limites da interpretação e estrutura do relato (Barbosa et al., 2021, Seção 11.7.5, p. 279).</em></p>
+<p><em>Imagem 3: Consolidação, limites da interpretação e estrutura do relato (Barbosa et al., 2021, Seção 11.7.5, p. 263).</em></p>
 </div>
 
 ---
 
-## 12. Declaração sobre o Uso de IA Generativa
+## 12. Referências Bibliográficas
 
-Em cumprimento ao Plano de Ensino e ao Código de Conduta da SBC, declara-se que a ferramenta **Claude Code (Anthropic)** foi utilizada apenas para revisar e formatar o texto em Markdown. A condução da sessão, o registro das observações e das respostas do participante e a interpretação dos resultados são de responsabilidade de Carlos Costa.
-
----
-
-## 13. Referências Bibliográficas
-
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier, 2010. (Capítulo 10, Seção 10.2.3: Prototipação em Papel, p. 358–362).
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Seção 11.7.2, p. 260; Seção 11.7.5, p. 279; Seção 12.2.1, p. 303).
-* NIELSEN, Jakob. **Usability Engineering**. San Francisco: Morgan Kaufmann, 1994.
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Seção 11.7.2, p. 260; Seção 11.7.5, p. 263; Seção 12.2.1, p. 289).
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-* SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann, 2003.
-
----
-**Autor:** [Carlos Costa](https://github.com/carloshfgit)  
-**Revisor:** [Arthur Mariani](https://github.com/arthur-mariani)

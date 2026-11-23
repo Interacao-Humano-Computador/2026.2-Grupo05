@@ -1,28 +1,42 @@
-# TAR-06: Consulta de ônibus em tempo real no DF no Ponto
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração da Análise de Tarefas (HTA e GOMS) para a consulta de ônibus em tempo real no DF no Ponto. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| 27/10/2026 | 1.1 | Alinhamento para a avaliação da Etapa 5: inclusão da persona João Pedro Carvalho, vínculo com os Cenários 2 e 10, numeração das hipóteses (H1 a H7) com tabela de consolidação, seção de artefatos relacionados e declaração de uso de IA. O conteúdo da análise foi mantido. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
-| 28/10/2026 | 1.2 | Registro da situação das hipóteses H1 a H7 (Tabela 5) e do passo 5 da HTA (Tabela 4) após a avaliação com usuário da sessão S4, e atualização da situação dos artefatos relacionados. O conteúdo da análise foi mantido. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) |
-| 03/11/2026 | 1.3 | Registro das evidências do protótipo de papel (P05) na situação das hipóteses (Tabela 5) e inclusão do relato do protótipo de papel e dos planejamentos da alta fidelidade nos artefatos relacionados (Tabela 6). O conteúdo da análise foi mantido. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) |
-| 14/11/2026 | 1.4 | Inclusão do protótipo de alta fidelidade e do relato dos resultados da alta fidelidade nos artefatos relacionados (Tabela 6). | [Carlos Costa](https://github.com/carloshfgit) | [Tomás Garcia Rocho](https://github.com/TomasRocho) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 27/09/2026 | `1.0` | Elaboração da Análise de Tarefas (HTA e GOMS) para a consulta de ônibus em tempo real no DF no Ponto. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): revisar e formatar o texto em Markdown |
+| 27/10/2026 | `1.1` | Alinhamento para a avaliação da Etapa 5: inclusão da persona João Pedro Carvalho, vínculo com os Cenários 2 e 10, numeração das hipóteses (H1 a H7) com tabela de consolidação, seção de artefatos relacionados e declaração de uso de IA. O conteúdo da análise foi mantido. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Claude (Anthropic): revisar e formatar o texto em Markdown |
+| 28/10/2026 | `1.2` | Registro da situação das hipóteses H1 a H7 (Tabela 5) e do passo 5 da HTA (Tabela 4) após a avaliação com usuário da sessão S4, e atualização da situação dos artefatos relacionados. O conteúdo da análise foi mantido. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | Claude (Anthropic): revisar e formatar o texto em Markdown |
+| 03/11/2026 | `1.3` | Registro das evidências do protótipo de papel (P05) na situação das hipóteses (Tabela 5) e inclusão do relato do protótipo de papel e dos planejamentos da alta fidelidade nos artefatos relacionados (Tabela 6). O conteúdo da análise foi mantido. | [Carlos Costa](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): revisar e formatar o texto em Markdown |
+| 14/11/2026 | `1.4` | Inclusão do protótipo de alta fidelidade e do relato dos resultados da alta fidelidade nos artefatos relacionados (Tabela 6). | [Carlos Costa](https://github.com/carloshfgit) | [Tomás Garcia Rocho](https://github.com/TomasRocho) | Claude (Anthropic): revisar e formatar o texto em Markdown |
+
 
 ---
 
+# TAR-06: Consulta de ônibus em tempo real no DF no Ponto
+
 ## 1. Introdução
 
-Este documento analisa a tarefa de consultar, no aplicativo DF no Ponto, quando um ônibus chegará à parada. A HTA organiza objetivos, operações, problemas e hipóteses de erro, enquanto o modelo GOMS descreve estratégias possíveis de consulta; como a análise se baseia em documentação, seus resultados permanecem como hipóteses a validar com usuários e com o sistema em uso.
+Este documento analisa a tarefa de consultar, no aplicativo DF no Ponto, quando um ônibus chegará à parada. A HTA organiza objetivos, operações, problemas e hipóteses de erro, enquanto o modelo GOMS descreve estratégias possíveis de consulta; como a análise se baseia em documentação, seus resultados permanecem como hipóteses a validar com usuários e com o sistema em uso. As duas personas e os dois cenários representam contextos distintos da mesma tarefa: João Pedro no deslocamento matutino e Mariana na consulta sob chuva.
 
 As hipóteses estão identificadas de **H1 a H7** ao longo do texto e consolidadas na [seção 5](#5-hipoteses-a-validar). Elas são o objeto da avaliação formativa da Etapa 5, feita com o [Storyboard 08](#6-artefatos-relacionados).
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-06 (Consulta do Ônibus em Tempo Real no DF no Ponto):**
+
+* **Persona:** [João Pedro Carvalho](../personas/joao-pedro-carvalho.md); [Mariana Borges Almeida](../personas/mariana-borges-almeida.md)
+* **Cenário:** [Cenário 2](../cenarios/cenario-2-viagem-matutina.md); [Cenário 10](../cenarios/cenario-10-viagem-ideal.md)
+* **Análise de tarefas:** TAR-06 (*esta página*)
+* **Storyboard:** [Storyboard 08](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/carlos/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/carlos/carlos-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/carlos/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://carloshfgit.github.io/prototipo-tar06-df-no-ponto/)
+
 
 ## 2. Caracterização da Tarefa
 
 * **Título da Tarefa:** Consulta de ônibus em tempo real no DF no Ponto
 * **Perfil do Participante:** Usuário primário / Passageiro do transporte coletivo do DF (personas [João Pedro Carvalho](../personas/joao-pedro-carvalho.md) e [Mariana Borges Almeida](../personas/mariana-borges-almeida.md))
-* **Cenários relacionados:** [Cenário 2 — Viagem matutina](../cenarios/cenario-2-viagem-matutina.md) (João Pedro: o ônibus não aparece no horário e o rastreamento falha) e [Cenário 10 — Viagem ideal sob chuva](../cenarios/cenario-10-viagem-ideal.md) (Mariana: acompanha o ônibus em tempo real antes de sair)
+* **Cenários relacionados:** [Cenário 2: Viagem matutina](../cenarios/cenario-2-viagem-matutina.md) (João Pedro: o ônibus não aparece no horário e o rastreamento falha) e [Cenário 10: Viagem ideal sob chuva](../cenarios/cenario-10-viagem-ideal.md) (Mariana: acompanha o ônibus em tempo real antes de sair)
 * **Responsáveis pela Elaboração:** [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa)
 * **Data da Realização:** 27/09/2026
 * **Sistema analisado:** Aplicativo DF no Ponto, da Secretaria de Transporte e Mobilidade do DF (Semob-DF), lançado em julho de 2025.
@@ -31,17 +45,17 @@ As hipóteses estão identificadas de **H1 a H7** ao longo do texto e consolidad
 * **Escopo:** A tarefa não inclui a recarga do Cartão Mobilidade, que é feita pelos canais do BRB Mobilidade e não pelo DF no Ponto.
 * **Fontes de dados:** documentação pública da Semob-DF e matéria jornalística sobre o aplicativo (ver Referências). Não houve observação nem entrevista com usuários.
 
-> **Limitação declarada.** Conforme Barbosa et al. (2021, p. 191–192), os dados de uma análise de tarefas são sempre uma simulação das tarefas reais, e a observação do desempenho é um insumo importante, complementado por entrevistas, questionários e sistemas existentes. Esta análise foi feita a partir de documentação, portanto os passos de interface, os problemas e as recomendações abaixo são **hipóteses a validar** com usuários e com o aplicativo aberto.
+> **Limitação declarada.** Conforme Barbosa et al. (2021, pp. 163–164), os dados de uma análise de tarefas são sempre uma simulação das tarefas reais, e a observação do desempenho é um insumo importante, complementado por entrevistas, questionários e sistemas existentes. Esta análise foi feita a partir de documentação, portanto os passos de interface, os problemas e as recomendações abaixo são **hipóteses a validar** com usuários e com o aplicativo aberto.
 
 ---
 
 ## 3. Análise Hierárquica de Tarefas (HTA)
 
-Segundo Barbosa et al. (2021, p. 192–193), a HTA parte dos **objetivos** das pessoas (estados finais) e os decompõe em subobjetivos. Os subobjetivos e a relação entre eles formam um **plano**, e no nível mais baixo cada subobjetivo é alcançado por uma **operação**. Os planos usam a notação da Figura 6.1 do livro:
+Segundo Barbosa et al. (2021, pp. 164–165), a HTA parte dos **objetivos** das pessoas (estados finais) e os decompõe em subobjetivos. Os subobjetivos e a relação entre eles formam um **plano**, e no nível mais baixo cada subobjetivo é alcançado por uma **operação**. Os planos usam a notação da Figura 8.1 do livro:
 
 A Tabela 1 apresenta os símbolos utilizados nos planos e esclarece a relação representada por cada um deles.
 
-**Tabela 1** — Notação utilizada nos planos da HTA
+**Tabela 1**: Notação utilizada nos planos da HTA
 
 | Notação | Relação entre os subobjetivos |
 | :---: | :--- |
@@ -49,81 +63,25 @@ A Tabela 1 apresenta os símbolos utilizados nos planos e esclarece a relação 
 | `1/2` | seleção (qual objetivo será atingido depende das circunstâncias) |
 | `1+2` | paralelo (mais de um objetivo atingido ao mesmo tempo) |
 
-Nos rótulos abaixo, os números do plano se referem aos subobjetivos do próprio objetivo (por exemplo, o plano `1>2` do objetivo 1 trata de 1.1 e 1.2), como na Figura 6.2 do livro. Itens marcados com **(operação)** estão no nível mais baixo da hierarquia.
+Nos rótulos abaixo, os números do plano se referem aos subobjetivos do próprio objetivo (por exemplo, o plano `1>2` do objetivo 1 trata de 1.1 e 1.2), como na Figura 8.2 do livro. Itens marcados com **(operação)** estão no nível mais baixo da hierarquia.
 
 ### 3.1 Diagrama hierárquico
 
-```mermaid
-graph TD
-    T0["0. Saber quando o ônibus chega ao ponto<br/><i>Plano 0: 1 > 2 > 3 > 4 > 5</i>"]
-
-    %% Nível 1
-    T1["1. Abrir o aplicativo<br/><i>Plano 1: 1.1 > 1.2</i>"]
-    T2["2. Encontrar a linha ou o ponto de parada<br/><i>Plano 2: 2.1 > 2.2</i>"]
-    T3["3. Interpretar a informação de chegada<br/><i>Plano 3: 3.1 > 3.2</i>"]
-    T4["4. Decidir o que fazer<br/><i>Plano 4: 4.1 / 4.2 / 4.3</i>"]
-    T5["5. Facilitar as próximas consultas<br/><i>Plano 5: 5.1 + 5.2</i>"]
-
-    T0 --> T1
-    T0 --> T2
-    T0 --> T3
-    T0 --> T4
-    T0 --> T5
-
-    %% Subníveis da Tarefa 1
-    T11["1.1 Tocar no ícone do DF no Ponto"]
-    T12["1.2 Permitir o acesso à localização"]
-    T1 --> T11
-    T1 --> T12
-
-    %% Subníveis da Tarefa 2
-    T21["2.1 Informar o que buscar<br/><i>Plano 2.1: 2.1.1 / 2.1.2</i>"]
-    T22["2.2 Selecionar o resultado na lista"]
-    T2 --> T21
-    T2 --> T22
-
-    T211["2.1.1 Buscar pelo número ou nome da linha"]
-    T212["2.1.2 Buscar por ponto de referência"]
-    T21 --> T211
-    T21 --> T212
-
-    %% Subníveis da Tarefa 3
-    T31["3.1 Obter previsão e posição<br/><i>Plano 3.1: 3.1.1 + 3.1.2</i>"]
-    T32["3.2 Avaliar se a informação é confiável"]
-    T3 --> T31
-    T3 --> T32
-
-    T311["3.1.1 Ler o tempo previsto"]
-    T312["3.1.2 Ver a posição do ônibus no mapa"]
-    T31 --> T311
-    T31 --> T312
-
-    %% Subníveis da Tarefa 4
-    T41["4.1 Ir ao ponto agora"]
-    T42["4.2 Esperar e consultar de novo"]
-    T43["4.3 Buscar alternativa"]
-    T4 --> T41
-    T4 --> T42
-    T4 --> T43
-
-    %% Subníveis da Tarefa 5
-    T51["5.1 Favoritar a linha"]
-    T52["5.2 Ativar notificações de atraso ou alteração"]
-    T5 --> T51
-    T5 --> T52
-```
+<div align="center" style="overflow-x: auto;">
+<a href="../../../assets/images/analise-de-tarefas/tar-06-hta.svg" target="_blank"><img src="../../../assets/images/analise-de-tarefas/tar-06-hta.svg" alt="Diagrama HTA da consulta de ônibus em tempo real no DF no Ponto" width="2182" style="max-width: none;"></a>
+</div>
 
 <div align="center">
-<p><strong>Figura 1</strong> — Diagrama HTA da consulta de ônibus em tempo real no DF no Ponto.</p>
-<p><em>Legenda: a numeração decimal indica os níveis de decomposição; as setas conectam objetivos aos seus subobjetivos; “&gt;” indica sequência, “/” indica seleção conforme as circunstâncias e “+” indica execução paralela.</em></p>
-<p><em>Fonte: Rodrigo Barbosa (2026).</em></p>
+<p><strong>Figura 1</strong>: Diagrama HTA da consulta de ônibus em tempo real no DF no Ponto.</p>
+<p><em>Legenda (notação de Barbosa et al., 2021, Figuras 8.1 e 8.2): cada retângulo traz o número e o nome do objetivo e, na linha de baixo, o plano, que se refere aos subobjetivos do próprio objetivo (“&gt;” indica sequência, “/” indica seleção, “+” indica paralelo); os retângulos com linha dupla embaixo são operações (nível mais baixo da hierarquia).</em></p>
+<p><em>Fonte: Rodrigo Barbosa (2026), redesenhado na notação de Barbosa et al. (2021, pp. 165–167).</em></p>
 </div>
 
 ### 3.2 Tabela de objetivos, operações, problemas e recomendações
 
-A Tabela 2 segue o formato da Tabela 6.3 do livro: cada objetivo tem *input* (circunstâncias que o ativam), *feedback* (condição que indica o atingimento), *plano* e, quando houver, *problema* e *recomendação*. Essa organização permite relacionar a decomposição da tarefa às oportunidades de melhoria.
+A Tabela 2 segue o formato da Tabela 8.4 do livro: cada objetivo tem *input* (circunstâncias que o ativam), *feedback* (condição que indica o atingimento), *plano* e, quando houver, *problema* e *recomendação*. Essa organização permite relacionar a decomposição da tarefa às oportunidades de melhoria.
 
-**Tabela 2** — Objetivos, operações, problemas e recomendações da HTA
+**Tabela 2**: Objetivos, operações, problemas e recomendações da HTA
 
 | objetivos / operações | problemas e recomendações |
 | :--- | :--- |
@@ -163,7 +121,7 @@ Na etapa 7 da HTA (p. 196), o livro sugere classificar erros como baseados em ha
 
 A Tabela 3 aplica essa classificação às operações com maior possibilidade de falha e registra as hipóteses que deverão ser verificadas posteriormente.
 
-**Tabela 3** — Hipóteses de erro nas operações analisadas
+**Tabela 3**: Hipóteses de erro nas operações analisadas
 
 | Operação | Tipo de erro | Hipótese | ID |
 | :--- | :--- | :--- | :---: |
@@ -171,11 +129,11 @@ A Tabela 3 aplica essa classificação às operações com maior possibilidade d
 | 3.2 | Regras | Classificação equivocada da situação: tratar uma posição defasada como se fosse atual e aplicar a regra "se o ônibus está perto, vou ao ponto". | H5 |
 | 2.1 | Conhecimento | Usuário novo que não sabe que a busca por ponto de referência existe e desiste ao não lembrar o número da linha. | H6 |
 
-### 3.5 Situação dos passos da HTA (Diaper, 2003, apud Barbosa et al., 2021, p. 195–196)
+### 3.5 Situação dos passos da HTA (Diaper, 2003, apud Barbosa et al., 2021, pp. 166–167)
 
 A Tabela 4 registra o andamento metodológico da análise e torna explícitas as etapas concluídas, parciais e ainda pendentes de validação.
 
-**Tabela 4** — Situação dos passos metodológicos da HTA
+**Tabela 4**: Situação dos passos metodológicos da HTA
 
 | Passo | Situação |
 | :--- | :--- |
@@ -191,9 +149,9 @@ A Tabela 4 registra o andamento metodológico da análise e torna explícitas as
 
 ## 4. GOMS
 
-Segundo Barbosa et al. (2021, p. 196–198), o GOMS descreve a tarefa e o conhecimento do usuário em termos de **objetivos** (*goals*), **operadores** (*operators*), **métodos** (*methods*) e **regras de seleção** (*selection rules*). Ele se aplica principalmente a usuários que **já dominam** a tarefa, e costuma ser usado depois de uma análise básica de tarefas, que aqui é a HTA da seção 3.
+Segundo Barbosa et al. (2021, pp. 167–169), o GOMS descreve a tarefa e o conhecimento do usuário em termos de **objetivos** (*goals*), **operadores** (*operators*), **métodos** (*methods*) e **regras de seleção** (*selection rules*). Ele se aplica principalmente a usuários que **já dominam** a tarefa, e costuma ser usado depois de uma análise básica de tarefas, que aqui é a HTA da seção 3.
 
-Adotou-se o **CMN-GOMS**, cuja notação é de pseudocódigo com hierarquia estrita de objetivos, operadores em ordem sequencial e métodos com condicionais. Como nos Exemplos 6.7 e 6.8 do livro, **algarismos indicam sequência e letras indicam alternativas**. O nível de detalhe é o do Exemplo 6.8 (modelo detalhado), e só foram incluídas as tarefas mentais relacionadas ao design do sistema.
+Adotou-se o **CMN-GOMS**, cuja notação é de pseudocódigo com hierarquia estrita de objetivos, operadores em ordem sequencial e métodos com condicionais. Como nos Exemplos 6.7 e 6.8 do livro, **algarismos indicam sequência e letras indicam alternativas**. O nível de detalhe é o do Exemplo 8.8 (modelo detalhado), e só foram incluídas as tarefas mentais relacionadas ao design do sistema.
 
 > **Perfil assumido para o GOMS:** passageiro que já conhece o aplicativo e sabe usá-lo. Para um usuário novato, que ainda está descobrindo o que fazer, o GOMS não é a técnica indicada.
 
@@ -251,7 +209,7 @@ GOAL 0: saber quando o ônibus chega ao ponto
 
 ### 4.2 Leitura do modelo (análise qualitativa)
 
-Conforme o livro (p. 197, 201), o GOMS qualitativo ajuda a perceber métodos semelhantes, métodos atipicamente curtos ou longos e pontos onde faltam métodos ou *feedback*:
+Conforme o livro (pp. 197, 201), o GOMS qualitativo ajuda a perceber métodos semelhantes, métodos atipicamente curtos ou longos e pontos onde faltam métodos ou *feedback*:
 
 1. **Métodos 2.A e 2.B têm as mesmas operações de interação e diferem só no conhecimento exigido** (lembrar a linha ou lembrar um local de referência). O método 2.B tem uma operação a mais (2.B.4), mas dispensa uma memória difícil. Isso sugere manter os dois igualmente acessíveis (relacionado a H2 e H6).
 2. **O objetivo 3 é o ponto crítico.** O método 3.B só existe porque a posição pode ficar defasada, e nada no fluxo ajuda o usuário a decidir entre 3.A e 3.B. Um indicador de "última atualização" daria *feedback* para essa regra de seleção (relacionado a H4 e H5).
@@ -259,15 +217,15 @@ Conforme o livro (p. 197, 201), o GOMS qualitativo ajuda a perceber métodos sem
 
 ### 4.3 Sobre o KLM
 
-O livro apresenta o KLM (Tabela 6.4 e Exemplo 6.6) para estimar tempos, mas seus operadores e durações foram definidos para teclado e mouse. Como o DF no Ponto é usado em tela de toque, a estimativa de tempo não foi feita aqui, para não aplicar valores fora do contexto da tabela.
+O livro apresenta o KLM (Tabela 8.5 e Exemplo 8.6) para estimar tempos, mas seus operadores e durações foram definidos para teclado e mouse. Como o DF no Ponto é usado em tela de toque, a estimativa de tempo não foi feita aqui, para não aplicar valores fora do contexto da tabela.
 
 ---
 
 ## 5. Hipóteses a Validar
 
-A Tabela 5 reúne as hipóteses levantadas nas seções 2, 3 e 4. Como a análise foi feita só com documentação, elas correspondem aos passos 5 e 7 da HTA (Tabela 4) e devem ser verificadas com usuários (Barbosa et al., 2021, p. 191–192, 196). A coluna "Situação" registra o resultado da avaliação com uma usuária na sessão S4 (28/10/2026), detalhado no [relato da avaliação](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md#33-situacao-das-hipoteses-da-tar-06). Como houve uma única participante, "confirmada" e "refutada" indicam tendências, não conclusões definitivas.
+A Tabela 5 reúne as hipóteses levantadas nas seções 2, 3 e 4. Como a análise foi feita só com documentação, elas correspondem aos passos 5 e 7 da HTA (Tabela 4) e devem ser verificadas com usuários (Barbosa et al., 2021, pp. 163–164, 167). A coluna "Situação" registra o resultado da avaliação com uma usuária na sessão S4 (28/10/2026), detalhado no [relato da avaliação](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md#33-situacao-das-hipoteses-da-tar-06). Como houve uma única participante, "confirmada" e "refutada" indicam tendências, não conclusões definitivas.
 
-**Tabela 5** — Hipóteses da TAR-06 a validar com usuários
+**Tabela 5**: Hipóteses da TAR-06 a validar com usuários
 
 | ID | Origem | Hipótese | Situação |
 | :---: | :--- | :--- | :---: |
@@ -287,11 +245,11 @@ A Tabela 5 reúne as hipóteses levantadas nas seções 2, 3 e 4. Como a anális
 
 A Tabela 6 lista os artefatos do projeto que usam esta análise de tarefas.
 
-**Tabela 6** — Artefatos que usam a TAR-06
+**Tabela 6**: Artefatos que usam a TAR-06
 
 | Artefato | Etapa | Autor | Situação |
 | :--- | :---: | :--- | :---: |
-| [Storyboard 08 — Consulta do ônibus em tempo real no DF no Ponto](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
+| [Storyboard 08: Consulta do ônibus em tempo real no DF no Ponto](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#38-storyboard-08-consulta-do-onibus-em-tempo-real-no-df-no-ponto) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
 | [Planejamento da avaliação do Storyboard 08 e da TAR-06](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Carlos/carlos-planejamento-avaliacao.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
 | [Relato dos resultados da avaliação do Storyboard 08 e da TAR-06](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/carlos/relato-resultados-storyboard-tarefas.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
 | [Planejamento da avaliação do protótipo de papel (TAR-06)](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Carlos/carlos-planejamento-av-prototipo-papel.md) | 5 | [Carlos Costa](https://github.com/carloshfgit) | Concluído |
@@ -306,15 +264,72 @@ A Tabela 6 lista os artefatos do projeto que usam esta análise de tarefas.
 
 ---
 
-## 7. Declaração sobre o Uso de IA Generativa
+## 7. Fotos de Referência
 
-Em conformidade com o Código de Conduta da Sociedade Brasileira de Computação (SBC) e as diretrizes do Plano de Ensino da disciplina, declara-se que o assistente de inteligência artificial generativa **Claude Code (Anthropic)** foi utilizado apenas para revisar e formatar o texto em Markdown. Todas as inspeções analíticas no portal da SEMOB-DF, a classificação de problemas e a emissão de recomendações técnicas foram fundamentadas na teoria de IHC sob responsabilidade dos autores.
+As Figuras 7 a 12 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-7" align="center">
+<p><strong>Figura 7</strong>: Métodos de análise de tarefas: HTA, GOMS e CTT</p>
+</div>
+
+![Figura 7: Métodos de análise de tarefas: HTA, GOMS e CTT](../../assets/prints_referencias/verificacao-v2/livro-analise-tarefas.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 164).</em></p>
+</div>
+
+<div id="figura-8" align="center">
+<p><strong>Figura 8</strong>: 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações</p>
+</div>
+
+![Figura 8: 8.4.1 HTA: objetivos antes das ações, decomposição, planos e operações](../../assets/prints_referencias/verificacao-v2/livro-hta.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 165).</em></p>
+</div>
+
+<div id="figura-9" align="center">
+<p><strong>Figura 9</strong>: Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)</p>
+</div>
+
+![Figura 9: Notação do diagrama HTA: objetivo, operação e planos (Figuras 8.1 e 8.2 do livro)](../../assets/prints_referencias/verificacao-v2/livro-hta-notacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–167).</em></p>
+</div>
+
+<div id="figura-10" align="center">
+<p><strong>Figura 10</strong>: HTA: diagrama, representação em tabela e critério de parada</p>
+</div>
+
+![Figura 10: HTA: diagrama, representação em tabela e critério de parada](../../assets/prints_referencias/verificacao-v2/livro-hta-tabela.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 165–166).</em></p>
+</div>
+
+<div id="figura-11" align="center">
+<p><strong>Figura 11</strong>: Passos da Análise Hierárquica de Tarefas (Barbosa et al., 2021)</p>
+</div>
+
+![Figura 11: Passos da Análise Hierárquica de Tarefas (Diaper, 2003)](../../assets/prints_referencias/verificacao-v2/livro-hta-passos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 166–167).</em></p>
+</div>
+
+<div id="figura-12" align="center">
+<p><strong>Figura 12</strong>: GOMS: objetivos, operadores, métodos e regras de seleção</p>
+</div>
+
+![Figura 12: GOMS: objetivos, operadores, métodos e regras de seleção](../../assets/prints_referencias/verificacao-v2/livro-goms.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 167–168).</em></p>
+</div>
 
 ---
 
 ## 8. Referências Bibliográficas
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 6, seção 6.4, p. 191–203.
-* SECRETARIA DE TRANSPORTE E MOBILIDADE DO DISTRITO FEDERAL (Semob-DF). **Portal institucional**. Disponível em: <https://www.semob.df.gov.br/>. Acesso em: 27 set. 2026.
-* SOU BRASÍLIA. **DF no Ponto: veja o horário do ônibus em tempo real no app da Semob**. Disponível em: <https://soubrasilia.com/df-no-ponto-app-semob-onibus-tempo-real-como-usar/>. Acesso em: 27 set. 2026.
-
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 8, Seção 8.4, pp. 163–175.

@@ -1,25 +1,25 @@
-# Antecipação das Necessidades do Usuário no site da SEMOB-DF
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 06/10/2026 | 1.0 | Criação do documento com a análise do princípio 10.2.6 Antecipação no site da SEMOB-DF. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 06/10/2026 | `1.0` | Criação do documento com a análise do princípio 10.2.6 Antecipação no site da SEMOB-DF. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
 
 ---
+
+# Antecipação das Necessidades do Usuário no site da SEMOB-DF
 
 - **Autor:** [Tomás Rocho](https://github.com/TomasRocho)
 - **Revisor:** [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)
 - **Site analisado:** <https://www.semob.df.gov.br/> (Secretaria de Estado de Transporte e Mobilidade do Distrito Federal)
 - **Princípio:** 10.2.6 Antecipação (tópico 5 dos Princípios Gerais: antecipação das necessidades do usuário)
-- **Referência:** Barbosa, S. D. J. et al. (2021). *Interação Humano-Computador e Experiência do Usuário*, Cap. 10: Princípios e Diretrizes para o Design de IHC, pp. 243–244.
+- **Referência:** Barbosa, S. D. J. et al. (2021). *Interação Humano-Computador e Experiência do Usuário*, Cap. 10: Princípios e Diretrizes para o Design de IHC, pp. 227–228.
 - **Data da inspeção:** 06/10/2026, em navegador desktop (Mozilla Firefox, janela de 1366 px de largura)
 
 ---
 
 ## 1. O princípio segundo o livro
 
-O capítulo 10 apresenta a antecipação a partir de Tognazzini (2014) e Cooper (1999). As ideias usadas como critério nesta análise são:
+O capítulo 10 apresenta a antecipação a partir de Tognazzini (2014 apud BARBOSA et al., 2021) e Cooper (1999 apud BARBOSA et al., 2021). As ideias usadas como critério nesta análise são:
 
 1. **Prever o que o usuário quer e precisa**, *"em vez de esperar que os usuários busquem ou coletem informações ou invoquem ferramentas"* (Tognazzini).
 2. **Fornecer todas as informações e ferramentas necessárias para cada passo do processo** (Tognazzini).
@@ -180,8 +180,32 @@ O site da SEMOB mostra que sabe antecipar necessidades. A página *Bilhetagem* �
 
 ---
 
-### Referências
+## 7. Fotos de Referência
 
-- BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.6.
-- COOPER, A. *The Inmates Are Running the Asylum*. Sams, 1999.
-- TOGNAZZINI, B. *First Principles of Interaction Design (Revised & Expanded)*. AskTog, 2014.
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: 10.2.6 Antecipação das necessidades do usuário</p>
+</div>
+
+![Figura 1: 10.2.6 Antecipação das necessidades do usuário](../../assets/prints_referencias/verificacao-v2/livro-antecipacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 227).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades</p>
+</div>
+
+![Figura 2: Contextualização de princípios e diretrizes ao domínio, aos usuários e às atividades](../../assets/prints_referencias/verificacao-v2/livro-diretrizes-contexto.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 222).</em></p>
+</div>
+
+---
+
+## 8. Referências Bibliográficas
+
+* BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. *Interação Humano-Computador e Experiência do Usuário*. Autopublicação, 2021. Cap. 10, Seção 10.2.6.

@@ -1,3 +1,11 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 03/11/2026 | `1.0` | Elaboração da ata da Reunião 09 referente à execução do Teste Piloto presencial do Protótipo de Papel na FCTE/UnB. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
+
+---
+
 # Ata de reunião 9 (Teste Piloto do Protótipo de Papel) - Interação Humano-Computador - Grupo 05
 
 - **Data:** 29/10/2026 (Quinta-feira)
@@ -7,14 +15,6 @@
 - **Redator da Ata:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)
 - **Revisor da Ata:** [Arthur Mariani de Andrade da Cruz](https://github.com/arthur-mariani)
 - **Ausentes:** Nenhum.
-
-## Histórico de Versão e Contribuição
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
-| :---: | :---: | :--- | :--- | :--- | :---: |
-| 03/11/2026 | `1.0` | Elaboração da ata da Reunião 09 referente à execução do Teste Piloto presencial do Protótipo de Papel na FCTE/UnB. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
-
----
 
 ## 1. Participantes presentes:
 
@@ -32,7 +32,7 @@ Todos os integrantes do Grupo 05 estiveram presentes na FCTE/UnB:
 
 ## 2. Discussão e Execução da Simulação:
 
-A sessão presencial foi conduzida em conformidade com o método de Prototipação em Papel (Snyder, 2003; Barbosa & Silva, 2010):
+A sessão presencial foi conduzida em conformidade com o método de Prototipação em Papel (Barbosa et al., 2021):
 
 1. **Papéis Desempenhados:**
    - **Entrevistador / "Computador":** [Carlos Henrique dos Santos Costa Filho](https://github.com/carloshfgit) apresentou o contexto, manipulou as telas de papel e sobrepôs as mensagens de feedback/alerta de acordo com as ações do usuário.
@@ -80,15 +80,33 @@ O registro em vídeo do Teste Piloto do Protótipo de Papel está disponível no
 
 ---
 
-## 6. Declaração sobre o Uso de IA Generativa
+## 6. Fotos de Referência
 
-Em cumprimento às diretrizes do Plano de Ensino da disciplina (SALES, 2026) e ao Código de Conduta da SBC, declara-se que a ferramenta Google Gemini foi utilizada unicamente para apoio na formatação em Markdown e estruturação textual desta ata. Toda a condução presencial do teste piloto e a validação do conteúdo foram realizadas pelos membros do Grupo 05.
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: 11.7.2 Teste-piloto: objetivo e descarte dos dados</p>
+</div>
+
+![Figura 2: 11.7.2 Teste-piloto: objetivo e descarte dos dados](../assets/prints_referencias/verificacao-v2/livro-teste-piloto.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 260).</em></p>
+</div>
 
 ---
 
 ## 7. Referências Bibliográficas
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. ISBN 978-85-352-1120-7. (Capítulo 9, Seção 9.7.2, p. 299: *Teste-Piloto*; Capítulo 10, Seção 10.2.3, p. 358–362: *Prototipação em Papel*).
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-* SNYDER, Carolyn. **Paper Prototyping: The Fast and Easy Way to Design and Refine User Interfaces**. San Francisco: Morgan Kaufmann, 2003.
-

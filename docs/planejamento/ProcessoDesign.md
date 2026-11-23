@@ -1,12 +1,12 @@
-# Processo de Design
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 05/09/2026 | 1.0 | Justificação da proposta de processo de design escolhida. | Tomas Garcia | Rodrigo Carvalho |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/09/2026 | `1.0` | Justificação da proposta de processo de design escolhida. | [Tomas Garcia](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
 
 ---
+
+# Processo de Design
 
 ## 1. Introdução
 
@@ -26,7 +26,7 @@ Para o projeto de avaliação do site da **Semob-DF** (Secretaria de Estado de M
 
 ## 2. Engenharia de Usabilidade de Mayhew
 
-O ciclo de vida proposto por Mayhew (1999), ilustrado na **Figura 1**, é estruturado de forma iterativa e dividido em três fases principais:
+O ciclo de vida proposto por Mayhew (1999 apud BARBOSA et al., 2021), ilustrado na **Figura 1**, é estruturado de forma iterativa e dividido em três fases principais:
 
 1. **Análise de Requisitos**: nesta fase são definidas as metas de usabilidade do projeto, a partir do levantamento do perfil dos usuários, da análise das tarefas que eles realizam, das possibilidades e limitações da plataforma em que o sistema é utilizado, e dos princípios gerais de design de IHC. O resultado dessa etapa costuma ser registrado em guias de estilo, que servem de referência para as fases seguintes.
 2. **Design, Avaliação e Desenvolvimento**: fase em que se busca chegar a uma solução de interface que atenda às metas de usabilidade definidas anteriormente. O processo é conduzido em níveis crescentes de detalhe, normalmente por meio de protótipos de baixa, média e alta fidelidade, sempre avaliados com usuários antes de avançar para o próximo nível.
@@ -48,19 +48,45 @@ Como o site da SEMOB-DF já está em produção e em uso pela população, a ava
 
 A partir dos problemas encontrados nessa análise inicial, o grupo retorna à primeira fase do ciclo, a **Análise de Requisitos**, para levantar o perfil dos usuários do site, as tarefas que eles precisam realizar (como consultar linhas de ônibus, horários, tarifas ou solicitar serviços de mobilidade) e as limitações da plataforma atual. Concluída essa etapa, o processo segue normalmente pela fase de **Design, Avaliação e Desenvolvimento**, na qual serão propostas e avaliadas as melhorias de interface sugeridas pelo grupo, por meio de protótipos em diferentes níveis de fidelidade.
 
-## 3. Declaração sobre o Uso de IA Generativa
+---
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+## 3. Fotos de Referência
+
+As Figuras 2 a 4 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design</p>
+</div>
+
+![Figura 2: Ciclo de vida da engenharia de usabilidade de Mayhew: fases e três níveis de design](../assets/prints_referencias/verificacao-v2/livro-mayhew.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 105–107).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: Simplificações aceitáveis em protótipos e design iterativo</p>
+</div>
+
+![Figura 3: Simplificações aceitáveis em protótipos e design iterativo](../assets/prints_referencias/verificacao-v2/livro-iteracao-prototipos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 105).</em></p>
+</div>
+
+<div id="figura-4" align="center">
+<p><strong>Figura 4</strong>: Itens de conteúdo da disciplina (Entrega 1)</p>
+</div>
+
+![Figura 4: Itens de conteúdo da disciplina (Entrega 1)](../assets/prints_referencias/verificacao-v2/plano-entrega1-conteudo.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 9).</em></p>
+</div>
+
+---
 
 ## 4. Referências Bibliográficas
 
-- BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Elsevier, 2021.
-
-- BEYER, H.; HOLTZBLATT, K. **Contextual Design: Defining Customer-Centered Systems**. San Francisco: Morgan Kaufmann Publishers Inc., 1997.
-
-- MAYHEW, D. J. **The Usability Engineering Lifecycle: a practitioner's handbook for user interface design**. San Francisco: Morgan Kaufmann, 1999.
-
-## 5. Bibliografia de Apoio
-
-- SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
-
+* BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

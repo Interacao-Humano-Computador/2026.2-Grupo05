@@ -1,10 +1,12 @@
-# Vocabulário e padrões
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 05/10/2026 | 1.0 | Criação do documento de vocabulário e padrões do guia de estilo. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Henrique](https://github.com/carloshfgit) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 05/10/2026 | `1.0` | Criação do documento de vocabulário e padrões do guia de estilo. | [Arthur Mariani](https://github.com/arthur-mariani) | [Carlos Henrique](https://github.com/carloshfgit) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+
+---
+
+# Vocabulário e padrões
 
 ## 1. Introdução
 
@@ -203,18 +205,14 @@ Entretanto, essa sequência deve permanecer marcada como **provisória**, porque
 
 ---
 
-## 6. Declaração sobre o Uso de IA Generativa
+## 6. Fotos de Referência
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que a Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as tomadas de decisão e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+![Vocabulário e padrões — Barbosa et al. (2021), p. 242](../../assets/prints_referencias/print-guia-de-estilo-vocabularios.png){ width="500" }
+
+*Imagem 1 - Vocabulários e Padrões. Fonte: Barbosa et al. (2021), p. 242.*
 
 ---
 
-## Fotos de Referência
+## 7. Referências Bibliográficas
 
-![Vocabulário e padrões — Barbosa et al. (2021), p. 258](../../assets/prints_referencias/print-guia-de-estilo-vocabularios.png){ width="500" }
-
-*Imagem 1 - Vocabulários e Padrões. Fonte: Barbosa et al. (2021), p. 258.*
-
-## Referências Bibliográficas
-
-BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário.** Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 10, p. 237-259.
+* BARBOSA, S. D. J.; SILVA, B. S. da; SILVEIRA, M. S.; GASPARINI, I.; DARIN, T.; BARBOSA, G. D. J. **Interação Humano-Computador e Experiência do Usuário.** Autopublicação, 2021. ISBN 978-65-00-19677-1. Capítulo 10, pp. 221–243.

@@ -1,16 +1,31 @@
-# Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-02)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 02/11/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Protótipo de Alta Fidelidade (TAR-02). | [Gabriel Cardone](https://github.com/gabriellcardone-06) | [Igor Dantas Araújo](https://github.com/IgorDARAUJO) | Claude (Anthropic) - usado para apoio na formatação markdown da página e correções ortográficas. |
+| 20/11/2026 | `1.1` | Inclusão do link para o protótipo de alta fidelidade da TAR-02 no Figma no bloco de artefatos relacionados e da Seção 6 com as telas do protótipo avaliado; renumeração das seções e figuras seguintes. | [Gabriel Cardone](https://github.com/gabriellcardone-06) | Pendente de revisão | Claude (Anthropic) - formatação markdown. |
+
 
 ---
+
+# Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-02)
 
 Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade** referente à **[TAR-02 (Pré-agendamento no Programa DF Acessível)](../../../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md)**. Trata-se de um planejamento individual desenvolvido para orientar a futura compilação, análise e apresentação dos dados obtidos no teste de usabilidade do protótipo no **Figma**, descrito no [Planejamento da Avaliação do Protótipo de Alta Fidelidade](planejamento-av-prot-alta-fidel.md).
 
 A estrutura do relato foi definida com base no livro-texto da disciplina (Barbosa et al., 2021, Cap. 11, Seção 11.7.5; Cap. 12, Seção 12.2.1) e mantém o padrão adotado no [Relato dos Resultados da Avaliação do Protótipo de Papel](../../../nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md), para que os resultados dos dois níveis possam ser comparados.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-02 (Pré-agendamento no Programa DF Acessível):**
+
+* **Persona:** [Larissa Ferreira Lima](../../../../analise-de-requisitos/personas/larissa-ferreira-lima.md)
+* **Cenário:** [Cenário 1](../../../../analise-de-requisitos/cenarios/cenario-1-pre-agendamento-df-acessivel.md)
+* **Análise de tarefas:** [TAR-02](../../../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md)
+* **Storyboard:** [Storyboard 02](../../../nivel1/storyboards.md#32-storyboard-02-pre-agendamento-no-programa-df-acessivel)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../../nivel1/relatos-individuais/gabriel/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/gabriel/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](planejamento-av-prot-alta-fidel.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Gabriel/gabriel-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1)
+
 
 ---
 
@@ -27,7 +42,7 @@ O relato dos resultados tem como finalidade organizar e comunicar as descobertas
 
 ## 2. Estrutura Padronizada do Relatório Final de Resultados
 
-Barbosa et al. (2021, p. 263, 289–290) indicam que o relato de um teste de usabilidade deve descrever os objetivos e o escopo da avaliação, o método, o número e o perfil de avaliadores e participantes, as tarefas executadas, tabelas que sumarizam as medições e a lista de problemas encontrados com sugestões de solução. Com base nisso, o relato final conterá as seguintes seções:
+Barbosa et al. (2021, pp. 263, 289–290) indicam que o relato de um teste de usabilidade deve descrever os objetivos e o escopo da avaliação, o método, o número e o perfil de avaliadores e participantes, as tarefas executadas, tabelas que sumarizam as medições e a lista de problemas encontrados com sugestões de solução. Com base nisso, o relato final conterá as seguintes seções:
 
 1. **Introdução e Objetivos da Avaliação:** Escopo do protótipo avaliado, objetivos e metas de usabilidade.
 2. **Metodologia Empregada:** Descrição do teste de usabilidade com pensar em voz alta, incluindo datas, local, duração real de cada sessão, link do protótipo e eventuais desvios em relação ao planejamento.
@@ -37,7 +52,7 @@ Barbosa et al. (2021, p. 263, 289–290) indicam que o relato de um teste de usa
 6. **Tabela de Problemas de IHC:** Problemas encontrados, classificados pela escala de severidade.
 7. **Conformidade com o Guia de Estilo:** Verificação das diretrizes de rótulos, consistência, feedback e acessibilidade.
 8. **Plano de Reprojeto no Figma:** Correções priorizadas e alterações aplicadas.
-9. **Conclusão e Limitações:** Síntese dos resultados e limitações do estudo, como o número reduzido de participantes (3, conforme a recomendação de Krug) e o uso de um protótipo, e não do site real.
+9. **Conclusão e Limitações:** Síntese dos resultados e limitações do estudo, como o número reduzido de participantes (3, conforme o planejamento da avaliação) e o uso de um protótipo, e não do site real.
 
 ---
 
@@ -50,7 +65,7 @@ Uma tarefa será considerada **Satisfatória** quando concluída sem pedido de a
 Os problemas serão classificados segundo a **escala de severidade de Nielsen** (1994 *apud* Barbosa et al., 2021, p. 270), considerando a frequência com que ocorreram entre os participantes, o impacto e a persistência:
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escala de Severidade de Problemas de Usabilidade</p>
+<p><strong>Tabela 1</strong>: Escala de Severidade de Problemas de Usabilidade</p>
 </div>
 
 | Nível | Classificação | Descrição | Prioridade |
@@ -74,7 +89,7 @@ O relatório final utilizará os seguintes modelos de tabelas:
 ### 4.1 Modelo de Tabela: Desempenho dos Participantes nas Tarefas
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Desempenho por Participante e Tarefa no Protótipo de Alta Fidelidade</p>
+<p><strong>Tabela 2</strong>: Desempenho por Participante e Tarefa no Protótipo de Alta Fidelidade</p>
 </div>
 
 | ID Tarefa | Participante | Sucesso sem Ajuda? | Tempo Gasto | Erros | Pedidos de Ajuda | Avaliação da Usabilidade |
@@ -90,7 +105,7 @@ O relatório final utilizará os seguintes modelos de tabelas:
 ### 4.2 Modelo de Tabela: Verificação das Metas e Comparação com o Protótipo de Papel
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Metas de Usabilidade e Comparação entre os Níveis</p>
+<p><strong>Tabela 3</strong>: Metas de Usabilidade e Comparação entre os Níveis</p>
 </div>
 
 | Meta | Critério | Resultado no Protótipo de Papel | Resultado na Alta Fidelidade | Meta Atingida? |
@@ -107,7 +122,7 @@ O relatório final utilizará os seguintes modelos de tabelas:
 ### 4.3 Modelo de Tabela: Consolidação da Entrevista Pós-teste
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Síntese das Respostas da Entrevista Pós-teste</p>
+<p><strong>Tabela 4</strong>: Síntese das Respostas da Entrevista Pós-teste</p>
 </div>
 
 | ID | Foco | Pergunta Aplicada | Síntese das Respostas de P1 a P3 | Atendeu ao Critério? |
@@ -125,7 +140,7 @@ O relatório final utilizará os seguintes modelos de tabelas:
 ### 4.4 Modelo de Tabela: Problemas de IHC Encontrados(caso hajam)
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Registro e Priorização dos Problemas de Usabilidade</p>
+<p><strong>Tabela 5</strong>: Registro e Priorização dos Problemas de Usabilidade</p>
 </div>
 
 | ID Problema | Tela / Componente | Descrição e Justificativa | Participantes Afetados | Fatores de Usabilidade Prejudicados | Severidade (0 a 4) | Sugestão de Solução |
@@ -139,7 +154,7 @@ O relatório final utilizará os seguintes modelos de tabelas:
 ### 4.5 Modelo de Tabela: Conformidade com o Guia de Estilo
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Verificação de Conformidade com o Guia de Estilo</p>
+<p><strong>Tabela 6</strong>: Verificação de Conformidade com o Guia de Estilo</p>
 </div>
 
 | Diretriz do Guia de Estilo | Padrão Esperado | Evidência nos Testes | Status |
@@ -166,13 +181,131 @@ Na consolidação, os problemas serão priorizados pela severidade e pela frequ�
 
 ---
 
-## 6. Declaração sobre o Uso de IA Generativa
+## 6. Telas do Protótipo Avaliado
 
-Em conformidade com as orientações do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa (Claude, da Anthropic) foram utilizadas para apoio na formatação das tabelas em Markdown e em correções ortográficas.
+As Figuras 1 a 10 mostram as telas do protótipo de alta fidelidade da [TAR-02](../../../../analise-de-requisitos/analise-de-tarefas/tar-02-df-acessivel.md), também apresentadas no [relato dos resultados da avaliação](../../../nivel3/relatos-individuais/gabriel/relato-resultados-prot-alta-fidel.md). As Figuras 7 a 10 são as sobreposições abertas a partir da tela de documentos.
+
+* **Protótipo interativo no Figma:** [Acessar o protótipo no Figma](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1)
+
+
+<div id="figura-1" align="center" markdown="1">
+<p><strong>Figura 1</strong>: Apresentação do pré-agendamento, com a explicação do serviço, o público atendido, as 3 etapas e o botão "Agendar transporte" (tela 1 do protótipo)</p>
+
+![Apresentação do pré-agendamento, com a explicação do serviço, o público atendido, as 3 etapas e o botão 'Agendar transporte' (tela 1 do protótipo)](../../../../assets/images/prototipo-tar02/gabriel-alta-01.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Gabriel Cardone (2026). Tela exportada do [protótipo no Figma](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1).</em></p>
+</div>
+
+
+<div id="figura-2" align="center" markdown="1">
+<p><strong>Figura 2</strong>: Escolha do posto de embarque, com o indicador de etapas, o mapa com os postos numerados e a lista "Postos do programa" (tela 2 do protótipo)</p>
+
+![Escolha do posto de embarque, com o indicador de etapas, o mapa com os postos numerados e a lista 'Postos do programa' (tela 2 do protótipo)](../../../../assets/images/prototipo-tar02/gabriel-alta-02.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Gabriel Cardone (2026). Tela exportada do [protótipo no Figma](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1).</em></p>
+</div>
+
+
+<div id="figura-3" align="center" markdown="1">
+<p><strong>Figura 3</strong>: Escolha do posto de desembarque, com a confirmação do posto de embarque escolhido no topo (tela 3 do protótipo)</p>
+
+![Escolha do posto de desembarque, com a confirmação do posto de embarque escolhido no topo (tela 3 do protótipo)](../../../../assets/images/prototipo-tar02/gabriel-alta-03.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Gabriel Cardone (2026). Tela exportada do [protótipo no Figma](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1).</em></p>
+</div>
+
+
+<div id="figura-4" align="center" markdown="1">
+<p><strong>Figura 4</strong>: Escolha do dia da viagem, com o resumo dos postos e o calendário de dezembro de 2026 com os dias indisponíveis riscados (tela 4 do protótipo)</p>
+
+![Escolha do dia da viagem, com o resumo dos postos e o calendário de dezembro de 2026 com os dias indisponíveis riscados (tela 4 do protótipo)](../../../../assets/images/prototipo-tar02/gabriel-alta-04.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Gabriel Cardone (2026). Tela exportada do [protótipo no Figma](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1).</em></p>
+</div>
+
+
+<div id="figura-5" align="center" markdown="1">
+<p><strong>Figura 5</strong>: Envio dos documentos (laudo e comprovante de residência) e dos dados de contato (tela 5 do protótipo)</p>
+
+![Envio dos documentos (laudo e comprovante de residência) e dos dados de contato (tela 5 do protótipo)](../../../../assets/images/prototipo-tar02/gabriel-alta-05.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Gabriel Cardone (2026). Tela exportada do [protótipo no Figma](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1).</em></p>
+</div>
+
+
+<div id="figura-6" align="center" markdown="1">
+<p><strong>Figura 6</strong>: Conclusão do pré-agendamento, com o número de protocolo, o aviso de envio do comprovante e o resumo da viagem (tela 6 do protótipo)</p>
+
+![Conclusão do pré-agendamento, com o número de protocolo, o aviso de envio do comprovante e o resumo da viagem (tela 6 do protótipo)](../../../../assets/images/prototipo-tar02/gabriel-alta-06.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Gabriel Cardone (2026). Tela exportada do [protótipo no Figma](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1).</em></p>
+</div>
+
+
+<div id="figura-7" align="center" markdown="1">
+<p><strong>Figura 7</strong>: Seletor de arquivos aberto a partir do campo "Laudo do profissional de saúde" (sobreposição O1 do protótipo)</p>
+
+![Seletor de arquivos aberto a partir do campo 'Laudo do profissional de saúde' (sobreposição O1 do protótipo)](../../../../assets/images/prototipo-tar02/gabriel-alta-07.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Gabriel Cardone (2026). Tela exportada do [protótipo no Figma](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1).</em></p>
+</div>
+
+
+<div id="figura-8" align="center" markdown="1">
+<p><strong>Figura 8</strong>: Seletor de arquivos aberto a partir do campo "Comprovante de residência" (sobreposição O2 do protótipo)</p>
+
+![Seletor de arquivos aberto a partir do campo 'Comprovante de residência' (sobreposição O2 do protótipo)](../../../../assets/images/prototipo-tar02/gabriel-alta-08.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Gabriel Cardone (2026). Tela exportada do [protótipo no Figma](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1).</em></p>
+</div>
+
+
+<div id="figura-9" align="center" markdown="1">
+<p><strong>Figura 9</strong>: *Pop-up* "Laudo enviado com sucesso" (sobreposição O3 do protótipo)</p>
+
+![Pop-up 'Laudo enviado com sucesso' (sobreposição O3 do protótipo)](../../../../assets/images/prototipo-tar02/gabriel-alta-09.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Gabriel Cardone (2026). Tela exportada do [protótipo no Figma](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1).</em></p>
+</div>
+
+
+<div id="figura-10" align="center" markdown="1">
+<p><strong>Figura 10</strong>: *Pop-up* "Comprovante enviado com sucesso" (sobreposição O4 do protótipo)</p>
+
+![Pop-up 'Comprovante enviado com sucesso' (sobreposição O4 do protótipo)](../../../../assets/images/prototipo-tar02/gabriel-alta-10.png){ width="320" }
+
+<p><em>Fonte: Elaborado por Gabriel Cardone (2026). Tela exportada do [protótipo no Figma](https://www.figma.com/proto/AIO6YnlBnPcriwQzsEdHpi/Prot%C3%B3tipo-Alta-Fidelidade-%E2%80%94-TAR-02-DF-Acess%C3%ADvel--SEMOB-DF-?node-id=6-67&starting-point-node-id=6%3A67&t=a6O7kf7iKozAdr05-1).</em></p>
+</div>
 
 ---
 
-## 7. Referências Bibliográficas
+## 7. Fotos de Referência
+
+As Figuras 11 e 12 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-11" align="center">
+<p><strong>Figura 11</strong>: 11.7.5 Consolidação e relato dos resultados</p>
+</div>
+
+![Figura 11: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
+</div>
+
+<div id="figura-12" align="center">
+<p><strong>Figura 12</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+</div>
+
+![Figura 12: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
+</div>
+
+---
+
+## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. 1. ed. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. Cap. 11, Seção 11.7.5, p. 263–264; Cap. 12, Seções 12.1.1 e 12.2.1, p. 267–290.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.

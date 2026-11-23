@@ -1,3 +1,13 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 03/09/2026 | `1.0` | Criação da ata da Reunião 01. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
+| 04/09/2026 | `1.1` | Atualização da data da próxima reunião. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
+| 26/09/2026 | `1.2` | Ajustes técnicos na ata: padronização estrutural do cabeçalho, correção de links dos participantes, especificação nominal da fonte e alinhamento do uso de IA (Google Gemini). | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
+
+---
+
 # Ata de reunião Interação Humano-Computador - Grupo 05
 
 - **Data:** 03/09/2026
@@ -6,16 +16,6 @@
 - **Objetivo da Reunião:** Definição do escopo do projeto, seleção do portal SEMOB-DF, divisão de responsabilidades e ferramental para a Entrega 1.
 - **Redator da Ata:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)
 - **Ausentes:** Nenhum
-
-## Histórico de Versão e Contribuição
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
-| :---: | :---: | :--- | :--- | :--- | :---: |
-| 03/09/2026 | `1.0` | Criação da ata da Reunião 01. | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
-| 04/09/2026 | `1.1` | Atualização da data da próxima reunião. | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
-| 26/09/2026 | `1.2` | Ajustes técnicos na ata: padronização estrutural do cabeçalho, correção de links dos participantes, especificação nominal da fonte e alinhamento do uso de IA (Google Gemini). | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
-
----
 
 ## 1. Participantes presentes:
 
@@ -67,10 +67,25 @@
 
 A próxima reunião será realizada no dia **06/09/2026**, online via **Microsoft Teams**.
 
-## 6. Declaração sobre o Uso de IA Generativa
+---
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+## 6. Fotos de Referência
 
-## 7. Bibliografia de Apoio
+A Figura 1 mostra o trecho que fundamenta este artefato, recortado e grifado em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
 
--   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
+</div>
+
+---
+
+## 7. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

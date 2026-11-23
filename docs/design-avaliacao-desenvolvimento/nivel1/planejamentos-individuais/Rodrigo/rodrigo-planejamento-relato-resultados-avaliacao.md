@@ -1,8 +1,9 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de ferramenta de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 13/10/2026 | `1.0` | Criação do planejamento do relato dos resultados da avaliação do Storyboard 06 e da Análise de Tarefas (TAR-08). | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Carlos Costa](https://github.com/carloshfgit) | Google Gemini - usado para formatação markdown da página |
+
 
 ---
 
@@ -13,6 +14,19 @@ Neste documento, apresenta-se o **Planejamento do Relato dos Resultados da Avali
 O Storyboard 06 retrata o **fluxo atual** da tarefa (6 quadros), evidenciando as dificuldades da persona [Cláudia Regina Santos](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/personas/claudia-regina-santos/) ao tentar reclamar de um ônibus que passou direto pela parada, complementado pela discussão sobre a proposta de melhoria da [TAR-08](https://interacao-humano-computador.github.io/2026.2-Grupo05/analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus/).
 
 A estrutura do relato foi concebida com base nas orientações da literatura de Interação Humano-Computador (Barbosa et al., 2021, Cap. 11, Seção 11.7.5), garantindo que as descobertas, os pontos positivos, os problemas identificados e as sugestões de reprojeto sejam apresentados de forma transparente, rastreável e acionável para a equipe de desenvolvimento.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-08 (Reclamação sobre Ônibus):**
+
+* **Persona:** [Cláudia Regina Santos](../../../../analise-de-requisitos/personas/claudia-regina-santos.md)
+* **Cenário:** [Cenário 11](../../../../analise-de-requisitos/cenarios/cenario-11-reclamacao-onibus.md)
+* **Análise de tarefas:** [TAR-08](../../../../analise-de-requisitos/analise-de-tarefas/tar-08-reclamacao-onibus.md)
+* **Storyboard:** [Storyboard 06](../../storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](rodrigo-planejamento-avaliacao.md) · Planejamento do relato (*esta página*) · [Relato dos resultados](../../relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../../nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../../nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível*
+
 
 ---
 
@@ -56,10 +70,10 @@ Cada problema identificado será classificado quanto à sua **natureza**:
 * **Problema de conteúdo:** a situação, a tarefa ou a solução retratada não corresponde à experiência ou ao modelo mental do participante (por exemplo, o participante nunca usaria o site para reclamar e prefere o telefone 162).
 * **Problema de representação:** o conteúdo faz sentido, mas o storyboard ou o diagrama não o comunicou bem (por exemplo, o participante não percebeu que o quadro 3 acontece horas depois do quadro 2).
 
-Para classificar o impacto dos problemas identificados, adotar-se-á a **Escala de Severidade de Problemas** adaptada de Nielsen (1994) e Barbosa et al. (2021):
+Para classificar o impacto dos problemas identificados, adotar-se-á a **Escala de Severidade de Problemas** adaptada de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021):
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Escala de Severidade de Problemas de IHC</p>
+<p><strong>Tabela 1</strong>: Escala de Severidade de Problemas de IHC</p>
 </div>
 
 | Nível de Severidade | Classificação | Descrição do Impacto | Aplicação ao Storyboard e à TAR |
@@ -71,7 +85,7 @@ Para classificar o impacto dos problemas identificados, adotar-se-á a **Escala 
 | **4** | **Catastrófico** | Impede totalmente a conclusão da tarefa (bloqueio do fluxo) ou induz o usuário ao erro irrecuperável. | O participante não compreende a história ou a proposta como um todo; ou a tarefa modelada não corresponde à prática real. |
 
 <div align="center">
-<p><em>Fonte: Adaptado de Nielsen (1994) e Barbosa et al. (2021).</em></p>
+<p><em>Fonte: Adaptado de Nielsen (1994 apud BARBOSA et al., 2021) e Barbosa et al. (2021).</em></p>
 </div>
 
 ---
@@ -83,7 +97,7 @@ Para garantir a consistência dos relatórios, o documento final de resultados u
 ### 4.1 Modelo de Tabela: Respostas da Avaliação do Storyboard 06
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Consolidação das Respostas sobre o Storyboard 06</p>
+<p><strong>Tabela 2</strong>: Consolidação das Respostas sobre o Storyboard 06</p>
 </div>
 
 | ID | Tópico Avaliado | Pergunta Aplicada ao Participante | Resumo da Resposta do Participante | Avaliação do Artefato (Conforme / Ajustar) |
@@ -103,7 +117,7 @@ Para garantir a consistência dos relatórios, o documento final de resultados u
 ### 4.2 Modelo de Tabela: Respostas da Avaliação da Análise de Tarefas (TAR-08 - HTA/GOMS)
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Consolidação das Respostas sobre a Análise de Tarefas (TAR-08)</p>
+<p><strong>Tabela 3</strong>: Consolidação das Respostas sobre a Análise de Tarefas (TAR-08)</p>
 </div>
 
 | ID | Tópico Avaliado | Pergunta Aplicada ao Participante | Resumo da Resposta do Participante | Avaliação do Modelo (Validade / Ajustar) |
@@ -124,7 +138,7 @@ Para garantir a consistência dos relatórios, o documento final de resultados u
 Registrar os pontos positivos é tão importante quanto registrar os problemas, pois indica o que **não deve ser perdido** no reprojeto (Barbosa et al., 2021). Os pontos positivos serão classificados em quatro categorias: **Realismo** (o participante se identificou com a situação ou a persona), **Clareza** (o quadro ou o passo foi entendido sem explicação), **Valor da Proposta** (o participante viu benefício na solução) e **Emoção** (o participante percebeu e comentou os sentimentos da personagem).
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Registro de Pontos Positivos Identificados pelo Participante</p>
+<p><strong>Tabela 4</strong>: Registro de Pontos Positivos Identificados pelo Participante</p>
 </div>
 
 | ID | Ponto Positivo Identificado | Local / Artefato | Categoria | Evidência (fala ou comportamento) | Ação (Manter / Reforçar) |
@@ -141,7 +155,7 @@ Registrar os pontos positivos é tão importante quanto registrar os problemas, 
 As respostas serão confrontadas com as hipóteses de problemas e de erros registradas na TAR-08, que foram elaboradas a partir de documentação e ainda não haviam sido testadas com usuários.
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Verificação das Hipóteses da Análise de Tarefas</p>
+<p><strong>Tabela 5</strong>: Verificação das Hipóteses da Análise de Tarefas</p>
 </div>
 
 | Hipótese | Origem na TAR-08 | Pergunta(s) | Evidência Coletada | Situação |
@@ -165,10 +179,10 @@ Neste documento, adotam-se as seguintes definições:
 * **Falha de comunicação gráfica:** o participante **não entende** ou **entende errado** o que um quadro mostra por causa da forma como ele foi desenhado (enquadramento, texto, nível de detalhe ou sequência).
 * **Lacuna contextual:** o participante entende o quadro, mas **sente falta** de informações sobre o contexto de uso (onde, quando, com quem, com qual dispositivo, por quê) para que a história faça sentido.
 
-A análise será orientada pelos elementos que Truong, Hayes e Abowd (2006) identificaram empiricamente como determinantes para a eficácia de storyboards:
+A análise será orientada pelos seguintes critérios de comunicação gráfica do storyboard. A seleção e a redação dos critérios são de autoria da equipe e operacionalizam a função do storyboard de explorar e comunicar situações de uso descrita por Barbosa e Silva (2010, p. 112):
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Critérios de Análise da Comunicação Gráfica do Storyboard</p>
+<p><strong>Tabela 6</strong>: Critérios de Análise da Comunicação Gráfica do Storyboard</p>
 </div>
 
 | Critério | Pergunta de Análise | Sinal de Falha |
@@ -180,11 +194,11 @@ A análise será orientada pelos elementos que Truong, Hayes e Abowd (2006) iden
 | **Passagem do Tempo** | Fica claro quanto tempo passou entre os quadros? | O participante não percebe que a reclamação ocorre horas depois do ocorrido. |
 
 <div align="center">
-<p><em>Fonte: Adaptado de Truong, Hayes e Abowd (2006).</em></p>
+<p><em>Fonte: Rodrigo Carvalho Barbosa (2026).</em></p>
 </div>
 
 <div align="center">
-<p><strong>Tabela 7</strong> — Registro de Falhas de Comunicação Gráfica e Lacunas Contextuais</p>
+<p><strong>Tabela 7</strong>: Registro de Falhas de Comunicação Gráfica e Lacunas Contextuais</p>
 </div>
 
 | ID | Tipo (Gráfica / Contextual) | Quadro | Critério (Tabela 6) | Descrição da Falha | Evidência | Severidade (0 a 4) |
@@ -210,7 +224,7 @@ A análise será orientada pelos elementos que Truong, Hayes e Abowd (2006) iden
 Esta tabela reúne todos os problemas, tanto de conteúdo quanto de representação, vindos das Tabelas 2, 3, 5 e 7.
 
 <div align="center">
-<p><strong>Tabela 8</strong> — Tabela de Registro e Priorização de Problemas de IHC</p>
+<p><strong>Tabela 8</strong>: Tabela de Registro e Priorização de Problemas de IHC</p>
 </div>
 
 | ID Problema | Descrição do Problema Encontrado | Natureza (Conteúdo / Representação) | Local / Artefato Afetado | Grau de Severidade (0 a 4) | Impacto na Experiência do Usuário | Origem (ID da pergunta, hipótese ou falha) |
@@ -227,7 +241,7 @@ Esta tabela reúne todos os problemas, tanto de conteúdo quanto de representaç
 Cada ajuste deve estar ligado a um problema da Tabela 8 e indicar o artefato em que será feito, já que um mesmo resultado pode afetar o storyboard, o cenário, a persona ou a TAR.
 
 <div align="center">
-<p><strong>Tabela 9</strong> — Lista de Ajustes a Serem Incorporados</p>
+<p><strong>Tabela 9</strong>: Lista de Ajustes a Serem Incorporados</p>
 </div>
 
 | ID Ajuste | Problema de Origem | Ajuste Proposto | Artefato Afetado | Prioridade | Status |
@@ -262,20 +276,43 @@ Com base na consolidação dos problemas na Tabela 8 e da lista de ajustes na Ta
 
 ---
 
-## 6. Declaração sobre o Uso de IA Generativa
+## 6. Fotos de Referência
 
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que ferramentas de Inteligência Artificial Generativa foram empregadas para auxílio na estruturação sintática das tabelas em Markdown e revisão gramatical. A definição dos objetivos, a elaboração das perguntas do roteiro, a logística de execução e a revisão final permanecem sob total responsabilidade autoral do integrante Rodrigo Barbosa.
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: 11.7.4 Interpretação dos dados de cada participante</p>
+</div>
+
+![Figura 1: 11.7.4 Interpretação dos dados de cada participante](../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: 11.7.5 Consolidação e relato dos resultados</p>
+</div>
+
+![Figura 2: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: Comparação entre o uso esperado (modelo de tarefas) e o uso observado</p>
+</div>
+
+![Figura 3: Comparação entre o uso esperado (modelo de tarefas) e o uso observado](../../../../assets/prints_referencias/verificacao-v2/livro-modelo-esperado.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
+</div>
 
 ---
 
 ## 7. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1. (Capítulo 11: Planejamento da Avaliação de IHC, Seção 11.7.5, p. 263–264).
-* NIELSEN, Jakob. Heuristic evaluation. In: NIELSEN, Jakob; MACK, Robert L. (ed.). **Usability Inspection Methods**. New York: John Wiley & Sons, 1994.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. São Paulo: Editora Érica, 2005.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, Faculdade UnB Gama (FCTE/UnB), 2026.
-* TRUONG, Khai N.; HAYES, Gillian R.; ABOWD, Gregory D. Storyboarding: an empirical determination of best practices and effective guidelines. In: **Proceedings of the 6th Conference on Designing Interactive Systems (DIS '06)**. New York: ACM, 2006. p. 12–21.
-
----
-**Autor:** [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa)  
-**Revisor:** [Carlos Costa](https://github.com/carloshfgit)

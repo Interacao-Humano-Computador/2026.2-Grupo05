@@ -1,14 +1,15 @@
-# Apresentações
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 06/09/2026 | 1.0 | Criação da página e estruturação das etapas de apresentações com base no cronograma planejado. | Carlos Henrique | Arthur Mariani |
-| 06/09/2026 | 1.1 | Adição do link e vídeo da gravação da Apresentação da Entrega 1. | Carlos Henrique | Arthur Mariani |
-| 06/10/2026 | 1.2 | Adição do link e vídeo da gravação da Apresentação da Entrega 3. | Carlos Henrique | Arthur Mariani |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 06/09/2026 | `1.0` | Criação da página e estruturação das etapas de apresentações com base no cronograma planejado. | [Carlos Henrique](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 06/09/2026 | `1.1` | Adição do link e vídeo da gravação da Apresentação da Entrega 1. | [Carlos Henrique](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+| 06/10/2026 | `1.2` | Adição do link e vídeo da gravação da Apresentação da Entrega 3. | [Carlos Henrique](https://github.com/carloshfgit) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini: auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento |
+
 
 ---
+
+# Apresentações
 
 ## 1. Introdução
 
@@ -27,14 +28,14 @@ Na Tabela 1, é apresentada a visão geral de todas as apresentações planejada
 | **1** | Planejamento, Equipe, Lista de Sites, Ferramentas, Processo de Design e Cronogramas | 06/09/2026 | [Vídeo da Apresentação 1](https://youtu.be/BhAlLermHBs) |
 | **2** | Perfil do Usuário, Aspectos Éticos e Análise de Tarefas | 26/09/2026 a 27/09/2026 | [Vídeo da Apresentação 2](https://youtu.be/yKAAOLNhg4o) |
 | **3** | Princípios Gerais de Projeto, Metas de Usabilidade e Guia de Estilo | 05/10/2026 a 06/10/2026 | [Vídeo da Apresentação 3](https://youtu.be/Mce8ORCaBGQ) |
-| **4** | Planejamento da Avaliação do Storyboard e da Análise de Tarefas | 12/10/2026 a 13/10/2026 | *Gravado (Vídeo gravado em 13/10)* |
-| **5** | Relatos (Storyboard/Tarefas) e Planej. Avaliação do Protótipo de Papel | 24/10/2026 a 25/10/2026 | *Pendente* |
-| **6** | Relato (Prot. Papel) e Planej. Avaliação do Protótipo de Alta Fidelidade | 02/11/2026 a 03/11/2026 | *Pendente* |
-| **7** | Relato dos Resultados do Protótipo de Alta Fidelidade | 14/11/2026 a 15/11/2026 | *Pendente* |
+| **4** | Planejamento da Avaliação do Storyboard e da Análise de Tarefas | 12/10/2026 a 13/10/2026 | *Não realizada* |
+| **5** | Relatos (Storyboard/Tarefas) e Planej. Avaliação do Protótipo de Papel | 24/10/2026 a 25/10/2026 | [Vídeo da Apresentação 5](https://youtu.be/Ej7td2TSM6s) |
+| **6** | Relato (Prot. Papel) e Planej. Avaliação do Protótipo de Alta Fidelidade | 02/11/2026 a 03/11/2026 | [Vídeo da Apresentação 6](https://youtu.be/geXJDeWITiY) |
+| **7** | Relato dos Resultados do Protótipo de Alta Fidelidade | 14/11/2026 a 15/11/2026 | [Vídeo da Apresentação 7](https://youtu.be/AcOoHthqrAg) |
 | **8** | Verificação dos Artefatos | 23/11/2026 a 24/11/2026 | *Pendente* |
 | **Final** | Apresentação do Projeto Final (Seminário) | 25/11/2026 a 30/11/2026 (Ao vivo) | *Pendente* |
 
-*Fonte: Elaborado pelos autores (2026).*
+*Fonte: Elaborado por Igor Dantas, Gabriel Cardone, Carlos Costa, Arthur Mariani, Rodrigo Barbosa, Tomas Rocho (2026).*
 
 ---
 
@@ -74,30 +75,42 @@ Na Tabela 1, é apresentada a visão geral de todas as apresentações planejada
 ---
 
 ### 3.4. Apresentação da Entrega 4: Planejamento da Avaliação
-* **Data da Apresentação/Gravação:** 12/10/2026 a 13/10/2026 (Gravado em 13/10/2026)
+* **Data prevista:** 12/10/2026 a 13/10/2026
 * **Conteúdo:** Apresentação do planejamento da avaliação do Storyboard e da Análise de Tarefas pelo framework DECIDE, roteiros de teste piloto e métodos de coleta de dados.
-* **Link do Vídeo:** *Vídeo gravado pela equipe em 13/10/2026 — Link em fase de upload no YouTube.*
+* **Situação:** *Apresentação não realizada.*
 
 ---
 
 ### 3.5. Apresentação da Entrega 5: Relatos e Planejamento do Protótipo de Papel
 * **Data da Apresentação/Gravação:** 24/10/2026 a 25/10/2026
 * **Conteúdo:** Apresentação do relato dos resultados obtidos na avaliação do Storyboard e Análise de Tarefas, e apresentação do planejamento da avaliação e confecção do Protótipo de Papel.
-* **Link do Vídeo:** *Pendente*
+* **Link do Vídeo:** [Apresentação 5 - YouTube](https://youtu.be/Ej7td2TSM6s)
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/Ej7td2TSM6s" title="Apresentação da Entrega 5 - IHC Grupo 05" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ---
 
 ### 3.6. Apresentação da Entrega 6: Relato do Protótipo de Papel e Planejamento da Alta Fidelidade
 * **Data da Apresentação/Gravação:** 02/11/2026 a 03/11/2026
 * **Conteúdo:** Apresentação do relato dos resultados da avaliação do Protótipo de Papel e planejamento da avaliação do Protótipo de Alta Fidelidade.
-* **Link do Vídeo:** *Pendente*
+* **Link do Vídeo:** [Apresentação 6 - YouTube](https://youtu.be/geXJDeWITiY)
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/geXJDeWITiY" title="Apresentação da Entrega 6 - IHC Grupo 05" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ---
 
 ### 3.7. Apresentação da Entrega 7: Relato dos Resultados do Protótipo de Alta Fidelidade
 * **Data da Apresentação/Gravação:** 14/11/2026 a 15/11/2026
 * **Conteúdo:** Apresentação dos resultados e conclusões obtidos a partir da avaliação do Protótipo de Alta Fidelidade com usuários e propostas de redesign.
-* **Link do Vídeo:** *Pendente*
+* **Link do Vídeo:** [Apresentação 7 - YouTube](https://youtu.be/AcOoHthqrAg)
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/AcOoHthqrAg" title="Apresentação da Entrega 7 - IHC Grupo 05" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ---
 
@@ -115,10 +128,23 @@ Na Tabela 1, é apresentada a visão geral de todas as apresentações planejada
 
 ---
 
-## 4. Declaração sobre o Uso de IA Generativa
+## 4. Fotos de Referência
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+A Figura 1 mostra o trecho que fundamenta este artefato, recortado e grifado em amarelo diretamente do Plano de Ensino do professor (SALES, 2026).
 
-## 5. Bibliografia de Apoio
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
 
--   SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
+</div>
+
+---
+
+## 5. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

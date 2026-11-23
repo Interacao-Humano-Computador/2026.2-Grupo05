@@ -1,12 +1,12 @@
-# Cenário 11: Reclamação sobre ônibus que passou direto (Encontrabilidade e Registro na Ouvidoria)
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 13/10/2026 | 1.0 | Elaboração do cenário de problema do registro de reclamação sobre ônibus. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 13/10/2026 | `1.0` | Elaboração do cenário de problema do registro de reclamação sobre ônibus. | [Rodrigo Barbosa](https://github.com/RodrigoCBarbosa) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
+
+# Cenário 11: Reclamação sobre ônibus que passou direto (Encontrabilidade e Registro na Ouvidoria)
 
 ## 1. Caracterização Geral
 
@@ -18,6 +18,19 @@
 - **Resumo:** De madrugada, o ônibus de Cláudia passa direto pela parada e ela chega atrasada ao plantão. À noite, em casa, ela tenta reclamar pelo celular a partir do site da Semob. Não encontra onde reclamar, é levada para outro site sem entender por quê, precisa criar uma conta, hesita entre "reclamação" e "denúncia" e descobre só no formulário que precisava do número do ônibus. Envia uma reclamação vaga e quase perde o protocolo.
 
 > **Observação.** Os eventos de interface deste cenário seguem as hipóteses da [**TAR-08**](../analise-de-tarefas/tar-08-reclamacao-onibus.md) e devem ser ajustados após a validação navegando no site da Semob e no Participa-DF.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-08 (Reclamação sobre Ônibus):**
+
+* **Persona:** [Cláudia Regina Santos](../personas/claudia-regina-santos.md)
+* **Cenário:** Cenário 11 (*esta página*)
+* **Análise de tarefas:** [TAR-08](../analise-de-tarefas/tar-08-reclamacao-onibus.md)
+* **Storyboard:** [Storyboard 06](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#36-storyboard-06-reclamacao-sobre-onibus-a-partir-do-site-da-semob)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-avaliacao.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-resultados-avaliacao.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/rodrigo/relato-resultado-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/rodrigo/rodrigo-planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Rodrigo/rodrigo-planejamento-av-prototipo-papel.md#8-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** *não disponível*
+
 
 ---
 
@@ -61,49 +74,49 @@
 
 **Plano geral de Cláudia:** ao chegar em casa, entrar no site da Semob pelo celular, achar o botão de reclamar, contar o que aconteceu e pegar um número de protocolo, tudo em poucos minutos.
 
-### Passo 0 — O ocorrido (05:25)
+### Passo 0: O ocorrido (05:25)
 
 - **Planejamento:** *"O ônibus está vindo, vou sinalizar para ele parar."*
 - **Ação:** Cláudia acena para o ônibus na parada.
 - **Evento:** O ônibus passa direto, sem reduzir a velocidade. O próximo chega às 06:05.
 - **Avaliação:** *"De novo! Agora vou chegar atrasada. Hoje eu vou reclamar."* Ela não pensa em anotar o número do ônibus, só lembra da linha pelo destino e do horário aproximado.
 
-### Passo 1 — Procurar onde reclamar (19:40)
+### Passo 1: Procurar onde reclamar (19:40)
 
 - **Planejamento:** *"A Semob cuida dos ônibus. Deve ter um botão de reclamar no site."*
 - **Ação:** Pesquisa "semob df" no Google, entra no site e procura na página inicial uma opção como "reclamar" ou "fale conosco".
 - **Evento:** A página inicial mostra notícias e um menu com vários itens. Não há um acesso com a palavra "reclamar". Depois de abrir alguns itens, ela encontra a página de **Ouvidoria**.
 - **Avaliação:** *"Ouvidoria... é aqui que reclama? Acho que sim, mas não tenho certeza."* **(Problema: vocabulário institucional e falta de acesso direto — [TAR-08](../analise-de-tarefas/tar-08-reclamacao-onibus.md), objetivo 2.2)**
 
-### Passo 2 — Ser levada para outro site
+### Passo 2: Ser levada para outro site
 
 - **Planejamento:** *"Vou clicar onde fala de registrar manifestação."*
 - **Ação:** Toca no link indicado na página da Ouvidoria.
 - **Evento:** O navegador abre o Participa-DF, com outro visual, outro logotipo e um pedido de login.
 - **Avaliação:** *"Saí da Semob. Será que é golpe? Será que cliquei errado?"* Ela volta para a página anterior, confere o link e só então continua. **(Problema: mudança de site sem aviso; falha de consistência e de visibilidade do estado do sistema — [TAR-08](../analise-de-tarefas/tar-08-reclamacao-onibus.md), operação 2.3)**
 
-### Passo 3 — Criar uma conta
+### Passo 3: Criar uma conta
 
 - **Planejamento:** *"Se é o jeito, vou fazer logo."*
 - **Ação:** Escolhe criar conta e preenche nome, CPF, senha, e-mail, sexo e data de nascimento.
 - **Evento:** O cadastro dá erro porque ela digitou um número do CPF errado no teclado pequeno do celular. Ela corrige e conclui o cadastro.
 - **Avaliação:** *"Tudo isso só para reclamar de um ônibus? Quase desisti."* **(Problema: barreira de cadastro e erro baseado em habilidades — [TAR-08](../analise-de-tarefas/tar-08-reclamacao-onibus.md), objetivo 3.2 e seção 2.4)**
 
-### Passo 4 — Escolher o tipo de manifestação
+### Passo 4: Escolher o tipo de manifestação
 
 - **Planejamento:** *"Ele passou direto, isso é errado. Acho que é denúncia."*
 - **Ação:** Lê as opções (reclamação, denúncia, sugestão, elogio, solicitação) e fica em dúvida entre reclamação e denúncia.
 - **Evento:** Nada na tela explica a diferença entre os tipos.
 - **Avaliação:** *"Vou de reclamação, que é o que eu quero fazer, mas não sei se está certo."* **(Problema: categorias que não correspondem ao modelo mental da usuária; risco de erro baseado em regras — [TAR-08](../analise-de-tarefas/tar-08-reclamacao-onibus.md), operação 4.1)**
 
-### Passo 5 — Descrever o ocorrido
+### Passo 5: Descrever o ocorrido
 
 - **Planejamento:** *"Agora é só contar o que aconteceu."*
 - **Ação:** Indica o órgão e começa a escrever a descrição no campo de texto.
 - **Evento:** Ao procurar orientações, percebe que, para a reclamação ser apurada, seria importante informar o número do ônibus, que ela não anotou. Ela também não lembra o número completo da linha.
 - **Avaliação:** *"Se eu soubesse, tinha anotado. Agora vai ficar faltando."* Escreve apenas: *"O ônibus que vai para a Rodoviária passou direto na parada hoje de manhã cedo."* **(Problema: requisitos não informados antes da tarefa; reclamação pouco apurável — [TAR-08](../analise-de-tarefas/tar-08-reclamacao-onibus.md), objetivo 1 e operação 4.3)**
 
-### Passo 6 — Enviar e guardar o protocolo
+### Passo 6: Enviar e guardar o protocolo
 
 - **Planejamento:** *"Pronto, vou enviar e acabar logo com isso."*
 - **Ação:** Toca em enviar.
@@ -134,6 +147,32 @@ Cláudia conseguiu registrar a reclamação, mas levou cerca de 25 minutos, duvi
 
 ---
 
-## 7. Referências Bibliográficas
+## 7. Fotos de Referência
+
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Cenários: definição, ator e objetivo principais</p>
+</div>
+
+![Figura 1: Cenários: definição, ator e objetivo principais](../../assets/prints_referencias/verificacao-v2/livro-cenarios.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Elementos característicos de um cenário e uso de personas como atores</p>
+</div>
+
+![Figura 2: Elementos característicos de um cenário e uso de personas como atores](../../assets/prints_referencias/verificacao-v2/livro-cenarios-elementos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 158).</em></p>
+</div>
+
+---
+
+## 8. Referências Bibliográficas
 
 * BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

@@ -1,17 +1,17 @@
-# Entrevistas
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 21/09/2026 | 1.0 | Criação do documento de organização das gravações de entrevistas e treinamentos, adicionando o Treinamento de Entrevista voltado aos motoristas de ônibus. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
-| 22/09/2026 | 1.1 | Adição das gravações das entrevistas oficiais (Motorista de Ônibus e Desenvolvedores) e do Treinamento de Entrevista 02 (Perfil Técnico). | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 21/09/2026 | `1.0` | Criação do documento de organização das gravações de entrevistas e treinamentos, adicionando o Treinamento de Entrevista voltado aos motoristas de ônibus. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini: apoio na revisão textual e na formatação do artefato. |
+| 22/09/2026 | `1.1` | Adição das gravações das entrevistas oficiais (Motorista de Ônibus e Desenvolvedores) e do Treinamento de Entrevista 02 (Perfil Técnico). | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
 
+# Entrevistas
+
 ## 1. Introdução
 
-A técnica de **entrevista** constitui um dos métodos fundamentais de elicitação e investigação qualitativa no processo de Engenharia de Usabilidade e Análise de Requisitos de Interação Humano-Computador (Barbosa e Silva, 2010). Trata-se de uma conversa dirigida e estruturada em que o entrevistador busca obter percepções em profundidade sobre as práticas, preferências, dificuldades, modelos mentais e anseios dos usuários ao interagirem com o domínio em estudo — neste projeto, o portal e os serviços digitais da **Secretaria de Estado de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)**.
+A técnica de **entrevista** constitui um dos métodos fundamentais de elicitação e investigação qualitativa no processo de Engenharia de Usabilidade e Análise de Requisitos de Interação Humano-Computador (Barbosa et al., 2021). Trata-se de uma conversa dirigida e estruturada em que o entrevistador busca obter percepções em profundidade sobre as práticas, preferências, dificuldades, modelos mentais e anseios dos usuários ao interagirem com o domínio em estudo — neste projeto, o portal e os serviços digitais da **Secretaria de Estado de Transporte e Mobilidade do Distrito Federal (SEMOB-DF)**.
 
 Este documento tem como propósito consolidar, organizar e disponibilizar de maneira transparente e rastreável todos os registros em vídeo das **gravações de treinamento das entrevistas** (testes piloto e nivelamento da equipe) e das **gravações das entrevistas com usuários e partes interessadas**.
 
@@ -34,7 +34,7 @@ A realização de **treinamentos prévios (ensaios/testes piloto)** é uma prát
 Na Tabela 1, encontram-se listadas as gravações de treinamento realizadas pelos membros da equipe.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Registro das Gravações de Treinamento de Entrevista</p>
+<p><strong>Tabela 1</strong>: Registro das Gravações de Treinamento de Entrevista</p>
 </div>
 
 | ID | Tópico / Perfil Simulado | Data da Gravação | Integrantes Responsáveis | Link da Gravação |
@@ -62,7 +62,7 @@ Abaixo, no Vídeo 1, é possível assistir à gravação completa da simulação
 </div>
 
 <div align="center">
-<p><strong>Vídeo 1</strong> — Treinamento de Entrevista: Motoristas de Ônibus (SEMOB-DF).</p>
+<p><strong>Vídeo 1</strong>: Treinamento de Entrevista: Motoristas de Ônibus (SEMOB-DF).</p>
 <p><em>Fonte: Carlos Costa e Rodrigo Carvalho (2026).</em></p>
 </div>
 
@@ -81,7 +81,7 @@ Abaixo, no Vídeo 2, é possível assistir à gravação completa da simulação
 </div>
 
 <div align="center">
-<p><strong>Vídeo 2</strong> — Treinamento de Entrevista: Perfil de Usuário Técnico (SEMOB-DF).</p>
+<p><strong>Vídeo 2</strong>: Treinamento de Entrevista: Perfil de Usuário Técnico (SEMOB-DF).</p>
 <p><em>Fonte: Rodrigo Carvalho e Carlos Costa (2026).</em></p>
 </div>
 
@@ -102,7 +102,7 @@ Abaixo, no Vídeo 3, é possível assistir à gravação completa da simulação
 </div>
 
 <div align="center">
-<p><strong>Vídeo 3</strong> — Treinamento de Entrevista: Perfil de Usuário Primário (SEMOB-DF).</p>
+<p><strong>Vídeo 3</strong>: Treinamento de Entrevista: Perfil de Usuário Primário (SEMOB-DF).</p>
 <p><em>Fonte: Igor Dantas e Gabriel Melo (2026).</em></p>
 </div>
 ---
@@ -114,7 +114,7 @@ Nesta seção são documentadas as entrevistas oficiais realizadas com usuários
 Na Tabela 2, apresenta-se o quadro consolidado das entrevistas oficiais com usuários e partes interessadas.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Registro das Entrevistas Realizadas com Usuários e Stakeholders</p>
+<p><strong>Tabela 2</strong>: Registro das Entrevistas Realizadas com Usuários e Stakeholders</p>
 </div>
 
 | ID | Perfil do Usuário / Papel | Data de Realização | Condução e Filmagem | Link da Gravação | Status |
@@ -146,7 +146,7 @@ Abaixo, no Vídeo 4, é possível assistir à gravação na íntegra da entrevis
 </div>
 
 <div align="center">
-<p><strong>Vídeo 4</strong> — Entrevista com potencial usuário do SEMOB-DF (Motorista de Ônibus).</p>
+<p><strong>Vídeo 4</strong>: Entrevista com potencial usuário do SEMOB-DF (Motorista de Ônibus).</p>
 <p><em>Fonte: Carlos Costa e Rodrigo Carvalho (2026).</em></p>
 </div>
 
@@ -167,7 +167,7 @@ Abaixo, no Vídeo 5, é possível assistir à gravação na íntegra da entrevis
 </div>
 
 <div align="center">
-<p><strong>Vídeo 5</strong> — Entrevista com Desenvolvedores (SEMOB-DF).</p>
+<p><strong>Vídeo 5</strong>: Entrevista com Desenvolvedores (SEMOB-DF).</p>
 <p><em>Fonte: Rodrigo Carvalho e Carlos Costa (2026).</em></p>
 </div>
 
@@ -188,7 +188,7 @@ Abaixo, no Vídeo 6, é possível assistir à gravação na íntegra da entrevis
 </div>
 
 <div align="center">
-<p><strong>Vídeo 6</strong> — Entrevista com Usuário Primário (SEMOB-DF).</p>
+<p><strong>Vídeo 6</strong>: Entrevista com Usuário Primário (SEMOB-DF).</p>
 <p><em>Fonte: Igor Dantas (2026).</em></p>
 </div>
 
@@ -209,7 +209,7 @@ Abaixo, no Vídeo 7, é possível assistir à gravação na íntegra da entrevis
 </div>
 
 <div align="center">
-<p><strong>Vídeo 7</strong> — Entrevista com Usuário Primário (SEMOB-DF).</p>
+<p><strong>Vídeo 7</strong>: Entrevista com Usuário Primário (SEMOB-DF).</p>
 <p><em>Fonte: Igor Dantas (2026).</em></p>
 </div>
 
@@ -230,16 +230,49 @@ Abaixo, no Vídeo 8, é possível assistir à gravação na íntegra da entrevis
 </div>
 
 <div align="center">
-<p><strong>Vídeo 8</strong> — Entrevista com Usuário Primário (SEMOB-DF).</p>
+<p><strong>Vídeo 8</strong>: Entrevista com Usuário Primário (SEMOB-DF).</p>
 <p><em>Fonte: Tomás Rocho (2026).</em></p>
 </div>
+
 ---
 
-## 5. Referências Bibliográficas
+## 5. Fotos de Referência
 
-- BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. *Interação Humano-Computador*. Rio de Janeiro: Elsevier, 2010.
-- BRASIL. Ministério da Saúde. Conselho Nacional de Saúde. *Resolução nº 510, de 7 de abril de 2016*. Dispõe sobre as normas aplicáveis a pesquisas em Ciências Humanas e Sociais. Brasília: Diário Oficial da União, 2016.
+As Figuras 1 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
-## 6. Bibliografia de Apoio
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista</p>
+</div>
 
-- SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
+![Figura 1: Entrevistas: roteiro, perguntas abertas e fechadas, tipos de entrevista](../assets/prints_referencias/verificacao-v2/livro-entrevistas.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 131).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Treinamento dos entrevistadores</p>
+</div>
+
+![Figura 2: Treinamento dos entrevistadores](../assets/prints_referencias/verificacao-v2/livro-entrevistador-treinado.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 134).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: Permissão para gravação e consentimento livre e esclarecido</p>
+</div>
+
+![Figura 3: Permissão para gravação e consentimento livre e esclarecido](../assets/prints_referencias/verificacao-v2/livro-etica-gravacao-tcle.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 127).</em></p>
+</div>
+
+---
+
+## 6. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

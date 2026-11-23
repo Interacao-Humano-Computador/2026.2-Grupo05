@@ -1,16 +1,29 @@
-# Persona: Marcos Paulo Vieira (Passageiro Cotidiano)
-
 ## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) |
-| :---: | :---: | :--- | :--- | :--- |
-| 27/09/2026 | 1.0 | Elaboração detalhada da persona primária Marcos Paulo Vieira (Passageiro Cotidiano / Usuário Padrão). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 27/09/2026 | `1.0` | Elaboração detalhada da persona primária Marcos Paulo Vieira (Passageiro Cotidiano / Usuário Padrão). | [Lucas Araújo](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Claude (Anthropic): apoio na revisão textual e na formatação do artefato. |
 
 ---
+
+# Persona: Marcos Paulo Vieira (Passageiro Cotidiano)
 
 ## 1. Introdução
 
 Este documento apresenta Marcos Paulo Vieira, persona que representa passageiros cotidianos que dependem do transporte coletivo para trabalhar e utilizam exclusivamente o smartphone para planejar seus deslocamentos. Sua caracterização evidencia necessidades de rapidez, simplicidade e informação em tempo real, apoiando a elaboração de cenários, análises de tarefas e decisões de design do projeto.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-03 (Planejamento de Rota por Origem e Destino):**
+
+* **Persona:** Marcos Paulo Vieira (*esta página*)
+* **Cenário:** [Cenário 3](../cenarios/cenario-3-planejamento-origem-destino.md)
+* **Análise de tarefas:** [TAR-03](../analise-de-tarefas/tar-03-planejamento-rota.md)
+* **Storyboard:** [Storyboard 03](../../design-avaliacao-desenvolvimento/nivel1/storyboards.md#33-storyboard-03-planejamento-de-rota-por-origem-e-destino-com-monitoramento-em-tempo-real)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** Planejamento da avaliação (*não realizado*) · Planejamento do relato (*não realizado*) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel1/relatos-individuais/lucas/relato-resultados-storyboard-tarefas.md) · [Planejamento individual de tarefas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/planejamento-individual-lucas.md) · [Questões práticas e éticas](../../design-avaliacao-desenvolvimento/nivel1/planejamentos-individuais/Lucas/questoes-praticas-e-eticas.md)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel2/relatos-individuais/lucas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/lucas/planejamento-relato-prot-alta-fidel.md) · [Relato dos resultados](../../design-avaliacao-desenvolvimento/nivel3/relatos-individuais/lucas/relato-resultados-prot-alta-fidel.md)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Lucas/lucas-planejamento-av-prototipo-papel.md#9-telas-do-prototipo-avaliado)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../prototipos/tar-03/index.html)
+
 
 ## 2. Caracterização Geral
 
@@ -19,7 +32,7 @@ Este documento apresenta Marcos Paulo Vieira, persona que representa passageiros
 ![Foto da persona Marcos Paulo Vieira](../../assets/images/marcos-paulo-vieira.jpg)
 
 <div align="center">
-<p><em>Figura 1 — Marcos Paulo Vieira, o "Marquinhos" (imagem ilustrativa em ponto de ônibus de Brasília, gerada por IA Gemini).</em></p>
+<p><em>Figura 1: Marcos Paulo Vieira, o "Marquinhos" (imagem ilustrativa em ponto de ônibus de Brasília, gerada por IA Gemini).</em></p>
 <p><em>Fonte: Lucas Araújo Lima (2026).</em></p>
 </div>
 
@@ -34,7 +47,7 @@ Este documento apresenta Marcos Paulo Vieira, persona que representa passageiros
 A Tabela 1 reúne os atributos pessoais de Marcos Paulo que contextualizam suas necessidades de mobilidade e sua relação com a tecnologia.
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Identidade e Atributos Pessoais da Persona</p>
+<p><strong>Tabela 1</strong>: Identidade e Atributos Pessoais da Persona</p>
 </div>
 
 | Campo | Detalhamento |
@@ -55,7 +68,7 @@ A Tabela 1 reúne os atributos pessoais de Marcos Paulo que contextualizam suas 
 | **Personalidade e Estilo** | Prático, focado em resolver problemas sem rodeios, pontual, avesso a retrabalho e burocracia |
 
 <div align="center">
-<p><em>Fonte: Lucas Araújo Lima (2026), estruturado com base em Courage & Baxter (2005).</em></p>
+<p><em>Fonte: Lucas Araújo Lima (2026), estruturado com base em Courage & Baxter (2005 apud BARBOSA et al., 2021).</em></p>
 </div>
 
 ---
@@ -64,7 +77,7 @@ A Tabela 1 reúne os atributos pessoais de Marcos Paulo que contextualizam suas 
 
 **Persona Primária (*Primary Persona*).**
 
-### Justificativas Metodológicas (*Cooper et al., 2007; Barbosa & Silva, 2010*):
+### Justificativas Metodológicas (*Barbosa et al., 2021*):
 1. **Representa o maior contingente numérico do STPC/DF:** Trabalhador dependente exclusivo de transporte coletivo que realiza viagens pendulares cotidianas entre as cidades-satélites (RAs de baixa/média-baixa renda) e os polos de emprego e serviços do DF.
 2. **Exigência de Solução Própria:** Suas necessidades e restrições não são plenamente atendidas pela interface pensada para estudantes universitários (que focam em regras do Passe Livre Estudantil e carteirinhas) nem por interfaces pensadas para analistas de gabinete da SEMOB. Marcos precisa de **planejamento operacional de rota e tempo real em mobilidade extrema**.
 3. **Restrições Severas de Contexto:** Como utiliza o sistema sob o sol, em pé no ponto, com pressa e sinal de dados móveis flutuante, qualquer fricção cognitiva (redirecionamentos, botões minúsculos, páginas pesadas) leva ao abandono imediato do portal.
@@ -73,7 +86,7 @@ A Tabela 1 reúne os atributos pessoais de Marcos Paulo que contextualizam suas 
 
 ## 5. Objetivos da Persona
 
-Conforme os fundamentos de Donald Norman (2003) e Alan Cooper (1999, 2007) discutidos em Barbosa & Silva (2010, pp. 180–183):
+Conforme os fundamentos de Donald Norman (2003 apud BARBOSA et al., 2021) e Alan Cooper (1999 apud BARBOSA et al., 2021) discutidos em Barbosa et al. (2021):
 
 ### 5.1 Objetivos de Vida (*Life Goals* - Nível Reflexivo)
 * Garantir a estabilidade financeira de sua família e prover educação e qualidade de vida para seu filho.
@@ -109,7 +122,7 @@ Conforme os fundamentos de Donald Norman (2003) e Alan Cooper (1999, 2007) discu
 A Tabela 2 apresenta as tarefas recorrentes de Marcos Paulo e evidencia sua frequência, criticidade e contexto de execução para orientar as decisões de projeto.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Matriz de Tarefas do Passageiro Cotidiano</p>
+<p><strong>Tabela 2</strong>: Matriz de Tarefas do Passageiro Cotidiano</p>
 </div>
 
 | Tarefa | Frequência | Criticidade / Importância | Duração Típica | Contexto de Execução |
@@ -155,8 +168,32 @@ A Tabela 2 apresenta as tarefas recorrentes de Marcos Paulo e evidencia sua freq
 
 ---
 
-## 11. Referências Bibliográficas
+## 11. Fotos de Referência
 
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier / Campus, 2010. Capítulo 6: Organização do Espaço de Problema — Personas (pp. 176–183).
-* COOPER, Alan; REIMANN, Robert; CRONIN, David. **About Face 3: The Essentials of Interaction Design**. Indianapolis: Wiley, 2007.
-* COURAGE, Catherine; BAXTER, Kathy. **Understanding Your Users: A Practical Guide to User Requirements, Methods, Tools, and Techniques**. San Francisco: Morgan Kaufmann, 2005.
+As Figuras 2 a 3 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Elementos que compõem a descrição de uma persona</p>
+</div>
+
+![Figura 2: Elementos que compõem a descrição de uma persona](../../assets/prints_referencias/verificacao-v2/livro-persona-elementos.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 153–154).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: Elenco de personas, persona primária e antipersonas</p>
+</div>
+
+![Figura 3: Elenco de personas, persona primária e antipersonas](../../assets/prints_referencias/verificacao-v2/livro-persona-elenco.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 155).</em></p>
+</div>
+
+---
+
+## 12. Referências Bibliográficas
+
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.

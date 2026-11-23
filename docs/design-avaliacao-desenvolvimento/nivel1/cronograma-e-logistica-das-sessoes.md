@@ -1,11 +1,12 @@
-## Histórico de Versão
+## Histórico de Versão e Contribuição
 
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração do uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 12/10/2026 | `1.0` | Elaboração do Cronograma e Logística das Sessões de Avaliação da Etapa 4 (agenda das sessões, plataformas, papéis, recrutamento previsto, logística e fundamentação teórica). | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Google Gemini - usado para estruturação do texto e formatação Markdown da página |
 | 23/10/2026 | `1.1` | Atualização da sessão S5 para o novo Storyboard 05 (Pedido de Aumento do Limite Diário do Vale-Transporte) e a TAR-09. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para atualizar a linha da sessão S5 |
-| 27/10/2026 | `1.2` | Atualização da sessão S4 para o Storyboard 08 e a TAR-06 (participante estudante, nova data e papéis), correção da sessão S6 para o Storyboard 06 e a TAR-08, e ajuste das Tabelas 3 e 4. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
-| 28/10/2026 | `1.3` | Registro da realização da sessão S4 (28/10/2026, presencial, sem observador, participante estudante do CMB) e ajuste da Tabela 3. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude Code (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 27/10/2026 | `1.2` | Atualização da sessão S4 para o Storyboard 08 e a TAR-06 (participante estudante, nova data e papéis), correção da sessão S6 para o Storyboard 06 e a TAR-08, e ajuste das Tabelas 3 e 4. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - apenas revisou e formatou o texto em Markdown |
+| 28/10/2026 | `1.3` | Registro da realização da sessão S4 (28/10/2026, presencial, sem observador, participante estudante do CMB) e ajuste da Tabela 3. | [Carlos Costa](https://github.com/carloshfgit) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - apenas revisou e formatou o texto em Markdown |
+
 
 ---
 
@@ -31,22 +32,9 @@ As sessões acontecem **depois do teste piloto (17/10/2026)** e **antes da entre
 
 ### 2.1 A entrevista semiestruturada
 
-Preece, Rogers e Sharp (2005) classificam as entrevistas em **não estruturadas**, **estruturadas** e **semiestruturadas**. As sessões deste projeto usam o tipo semiestruturado, descrito pelos autores no trecho que pode ser visto na [imagem 1](#9-imagem-da-referencia-no-livro):
+Barbosa e Silva (2010, pp. 145–147) distinguem entrevistas estruturadas, não estruturadas e semiestruturadas. Na entrevista semiestruturada, o avaliador utiliza um roteiro lógico de tópicos e perguntas, mas mantém flexibilidade para aprofundar respostas e alterar a ordem quando necessário, sem perder o foco nos objetivos da investigação.
 
-> *"As entrevistas semi-estruturadas combinam características de entrevistas estruturadas e não-estruturadas e utilizam tanto perguntas fechadas como abertas. Para manter a consistência, o entrevistador conta com um roteiro básico para guiar-se; dessa forma, os mesmos tópicos serão abordados pelos diferentes entrevistados. O entrevistador inicia com questões pré-planejadas e faz com que o entrevistado estenda sua fala, até que nenhuma informação nova e relevante surja."*  
-> — **PREECE, ROGERS e SHARP (2005, Cap. 13, Seção 13.2.4, p. 416)**.
-
-Isso justifica a forma das sessões. Todas seguem o **mesmo roteiro básico** do teste piloto, o que permite comparar os resultados dos 7 storyboards. Ao mesmo tempo, o avaliador pode pedir que o participante fale mais sobre o que ele trouxer.
-
-Na mesma seção, os autores alertam para dois cuidados na condução, que valem para todos os avaliadores do cronograma:
-
-> *"É importante não antecipar nenhuma resposta elaborando-se uma pergunta que sugira que de fato alguma em particular é esperada. [...] A linguagem corporal daquele que conduz a entrevista, por exemplo, esteja ele sorrindo, franzindo a testa, com um olhar de desaprovação, etc. pode exercer uma grande influência."*  
-> — **PREECE, ROGERS e SHARP (2005, p. 416)**.
-
-> *"O entrevistador também necessita acomodar os silêncios e não se movimentar muito rapidamente. Dê tempo para que a pessoa fale."*  
-> — **PREECE, ROGERS e SHARP (2005, p. 416)**.
-
-Esses cuidados explicam duas decisões deste documento. A primeira é a premissa 6 da Tabela 1: quem conduz a sessão não é o autor do storyboard, para não induzir respostas favoráveis. A segunda é a janela de 60 min para uma sessão de 45 min, que deixa tempo para o participante falar sem pressa.
+Isso justifica a forma das sessões. Todas seguem o **mesmo roteiro básico** do teste piloto, o que permite comparar os resultados dos 7 storyboards. Ao mesmo tempo, o avaliador pode pedir esclarecimentos e aprofundar os relatos relevantes. A premissa 6 da Tabela 1 reduz o risco de indução ao separar o autor do storyboard de quem conduz a sessão; a janela de 60 minutos também reserva tempo para que o participante responda sem pressa.
 
 ### 2.2 Logística como parte do planejamento
 
@@ -65,7 +53,7 @@ Esses aspectos são aplicados nas Seções 3 a 7.
 ## 3. Premissas do Planejamento
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Premissas que orientaram a montagem da agenda</p>
+<p><strong>Tabela 1</strong>: Premissas que orientaram a montagem da agenda</p>
 </div>
 
 | # | Premissa | Justificativa |
@@ -88,7 +76,7 @@ Esses aspectos são aplicados nas Seções 3 a 7.
 A Tabela 2 apresenta a agenda das sessões. Os participantes são identificados por código (P01 a P07) para preservar o sigilo, conforme o TCLE. Os nomes só são registrados no controle interno da equipe.
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Agenda das Sessões de Avaliação do Storyboard e da Análise de Tarefas</p>
+<p><strong>Tabela 2</strong>: Agenda das Sessões de Avaliação do Storyboard e da Análise de Tarefas</p>
 </div>
 
 | Sessão | Data e horário | Local / ambiente virtual | Avaliador (condução) | Observador / anotador | Participante convidado (perfil) | Storyboard avaliado | Tarefa avaliada (HTA/CTT) |
@@ -113,7 +101,7 @@ A Tabela 2 apresenta a agenda das sessões. Os participantes são identificados 
 Cada integrante conduz uma sessão e observa outra, de acordo com os pares da revisão por pares.
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Carga de sessões por integrante</p>
+<p><strong>Tabela 3</strong>: Carga de sessões por integrante</p>
 </div>
 
 | Integrante | Conduz | Observa | Total de sessões |
@@ -137,7 +125,7 @@ Cada integrante conduz uma sessão e observa outra, de acordo com os pares da re
 Os critérios de seleção, a quantidade de participantes e o TCLE são definidos no documento de **Questões Práticas e Éticas das Avaliações**. Esta seção trata apenas da logística do convite.
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Canais de recrutamento e prazos do convite</p>
+<p><strong>Tabela 4</strong>: Canais de recrutamento e prazos do convite</p>
 </div>
 
 | Perfil | Participante | Canal de recrutamento previsto | Responsável pelo convite |
@@ -167,7 +155,7 @@ Os critérios de seleção, a quantidade de participantes e o TCLE são definido
 ### 6.1 Recursos e plataformas
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Recursos utilizados nas sessões</p>
+<p><strong>Tabela 5</strong>: Recursos utilizados nas sessões</p>
 </div>
 
 | Recurso | Definição | Responsável |
@@ -188,7 +176,7 @@ Os critérios de seleção, a quantidade de participantes e o TCLE são definido
 ### 6.2 Linha do tempo de uma sessão
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Checklist logístico antes, durante e depois de cada sessão</p>
+<p><strong>Tabela 6</strong>: Checklist logístico antes, durante e depois de cada sessão</p>
 </div>
 
 | Momento | Ação | Responsável |
@@ -214,7 +202,7 @@ Os critérios de seleção, a quantidade de participantes e o TCLE são definido
 ### 7.1 Calendário consolidado
 
 <div align="center">
-<p><strong>Tabela 7</strong> — Calendário das atividades de avaliação (Etapas 4 e 5)</p>
+<p><strong>Tabela 7</strong>: Calendário das atividades de avaliação (Etapas 4 e 5)</p>
 </div>
 
 | Período | Atividade | Responsável |
@@ -236,7 +224,7 @@ Os critérios de seleção, a quantidade de participantes e o TCLE são definido
 ### 7.2 Riscos e contingências
 
 <div align="center">
-<p><strong>Tabela 8</strong> — Riscos logísticos e planos de contingência</p>
+<p><strong>Tabela 8</strong>: Riscos logísticos e planos de contingência</p>
 </div>
 
 | Risco | Impacto | Plano de contingência |
@@ -257,7 +245,7 @@ Os critérios de seleção, a quantidade de participantes e o TCLE são definido
 ## 8. Conformidade com o Checklist da Etapa 4
 
 <div align="center">
-<p><strong>Tabela 9</strong> — Itens do checklist atendidos por este documento</p>
+<p><strong>Tabela 9</strong>: Itens do checklist atendidos por este documento</p>
 </div>
 
 | Item do checklist | Requisito | Localização no documento |
@@ -272,20 +260,33 @@ Os critérios de seleção, a quantidade de participantes e o TCLE são definido
 
 ---
 
-## 9. Imagem da Referência no Livro
+## 9. Fotos de Referência
 
-Conforme as diretrizes da disciplina, a fundamentação sobre o planejamento e a condução de entrevistas encontra-se no livro de referência:
+As Figuras 1 a 2 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
 
-![Imagem 1](../../assets/prints_referencias/print-teoria-entrevistas.png)
-*Imagem 1 - Preece, Rogers e Sharp, 2005, Cap. 13, Seção 13.2.4, p. 416*
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: 11.7.2 Questões práticas e material de apoio da avaliação</p>
+</div>
+
+![Figura 1: 11.7.2 Questões práticas e material de apoio da avaliação](../../assets/prints_referencias/verificacao-v2/livro-questoes-praticas-material.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 259).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: 11.7.2 Duração das tarefas e das sessões de avaliação</p>
+</div>
+
+![Figura 2: 11.7.2 Duração das tarefas e das sessões de avaliação](../../assets/prints_referencias/verificacao-v2/livro-tempo-tarefas.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 259).</em></p>
+</div>
 
 ---
 
 ## 10. Referências Bibliográficas
 
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: Além da interação homem-computador**. Porto Alegre: Bookman, 2005. (Capítulo 13: Perguntando a Usuários e Especialistas, Seção 13.2.4, p. 416).
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.
-
----
-**Autor:** [Tomás Rocho](https://github.com/TomasRocho)  
-**Revisor:** [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)

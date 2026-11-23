@@ -1,3 +1,12 @@
+## Histórico de Versão e Contribuição
+
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
+| :---: | :---: | :--- | :--- | :--- | :--- |
+| 07/09/2026 | `1.0` | Criação da ata da Reunião 02 (Inspeção da Entrega 1 do Grupo 06). | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
+| 26/09/2026 | `1.1` | Ajustes técnicos na ata: padronização do cabeçalho com identificação de inspeção, links dos participantes, especificação nominal de fonte, reposicionamento das imagens de referência, retificação do parecer da inspeção com apontamento de não conformidade no Item 22 e alinhamento da declaração de uso de IA. | [Lucas Araújo Lima](https://github.com/Lucasaraujoszz) | [Arthur Mariani](https://github.com/arthur-mariani) | Google Gemini |
+
+---
+
 # Ata de reunião 2 (Inspeção) - Interação Humano-Computador - Grupo 05
 
 - **Data:** 07/09/2026
@@ -6,15 +15,6 @@
 - **Objetivo da Reunião:** Inspeção e verificação da Entrega 1 do Grupo +1 (Grupo 06) com base nos critérios do Plano de Ensino.
 - **Redator da Ata:** [Lucas Araújo Lima](https://github.com/Lucasaraujoszz)
 - **Ausentes:** Nenhum
-
-## Histórico de Versão e Contribuição
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Ferramenta(s) de IA |
-| :---: | :---: | :--- | :--- | :--- | :---: |
-| 07/09/2026 | `1.0` | Criação da ata da Reunião 02 (Inspeção da Entrega 1 do Grupo 06). | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
-| 26/09/2026 | `1.1` | Ajustes técnicos na ata: padronização do cabeçalho com identificação de inspeção, links dos participantes, especificação nominal de fonte, reposicionamento das imagens de referência, retificação do parecer da inspeção com apontamento de não conformidade no Item 22 e alinhamento da declaração de uso de IA. | Lucas Araújo Lima | Arthur Mariani | Google Gemini |
-
----
 
 ## 1. Participantes presentes:
 
@@ -80,36 +80,75 @@ A gravação completa da reunião de inspeção encontra-se disponibilizada no Y
 
 A próxima reunião da equipe está prevista para o dia **26/09/2026**, às **20h00**, online via **Microsoft Teams**.
 
-## 6. Declaração sobre o Uso de IA Generativa
+---
 
-Em cumprimento às normas de conduta acadêmica da SBC e ao Plano de Ensino da disciplina, declara-se que o Gemini, uma ferramenta de Inteligência Artificial Generativa, foi empregado para auxílio na estruturação textual, refinamento de clareza formal e formatação Markdown do presente documento. Toda a fundamentação teórica, o levantamento empírico de dados, as capturas de tela e as análises críticas permaneceram sob responsabilidade exclusiva dos integrantes da equipe.
+## 6. Fotos de Referência
+
+As Figuras 1 a 6 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021) e do Plano de Ensino do professor (SALES, 2026).
+
+<div id="figura-1" align="center">
+<p><strong>Figura 1</strong>: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor</p>
+</div>
+
+![Figura 1: Itens do Desenvolvimento do projeto (1 a 11) da lista de verificação sugerida pelo professor](../assets/prints_referencias/verificacao-v2/plano-itens-desenvolvimento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, pp. 8–9).</em></p>
+</div>
+
+<div id="figura-2" align="center">
+<p><strong>Figura 2</strong>: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12</p>
+</div>
+
+![Figura 2: Métodos de avaliação por inspeção e por observação apresentados no Capítulo 12](../assets/prints_referencias/verificacao-v2/livro-metodos-inspecao-observacao.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 267–288).</em></p>
+</div>
+
+<div id="figura-3" align="center">
+<p><strong>Figura 3</strong>: Itens da lista de verificação de Planejamento Geral do Projeto</p>
+</div>
+
+![Figura 3: Itens da lista de verificação de Planejamento Geral do Projeto](../assets/prints_referencias/inspecao-etapa1-planejamento.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8).</em></p>
+</div>
+
+<div id="figura-4" align="center">
+<p><strong>Figura 4</strong>: Itens da lista de verificação de Desenvolvimento do Projeto (Parte 1)</p>
+</div>
+
+![Figura 4: Itens da lista de verificação de Desenvolvimento do Projeto (Parte 1)](../assets/prints_referencias/inspecao-etapa1-desenvolvimento-1.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 8).</em></p>
+</div>
+
+<div id="figura-5" align="center">
+<p><strong>Figura 5</strong>: Itens da lista de verificação de Desenvolvimento do Projeto (Parte 2)</p>
+</div>
+
+![Figura 5: Itens da lista de verificação de Desenvolvimento do Projeto (Parte 2)](../assets/prints_referencias/inspecao-etapa1-desenvolvimento-2.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 9).</em></p>
+</div>
+
+<div id="figura-6" align="center">
+<p><strong>Figura 6</strong>: Itens da lista de verificação de Conteúdo da Disciplina</p>
+</div>
+
+![Figura 6: Itens da lista de verificação de Conteúdo da Disciplina](../assets/prints_referencias/inspecao-etapa1-conteudo.png)
+
+<div align="center">
+<p><em>Fonte: SALES (2026, Plano de Ensino, p. 9).</em></p>
+</div>
+
+---
 
 ## 7. Referências Bibliográficas
 
-- SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.
-
-### Anexo: Registros Visuais da Lista de Verificação (SALES, 2026)
-
-**Figura 1** - Itens da lista de verificação de Planejamento Geral do Projeto
-
-![Figura 1 – Itens de Planejamento Geral](../assets/prints_referencias/inspecao-etapa1-planejamento.png)
-
-**Fonte:** SALES (2026, p. 8).
-
-**Figura 2** - Itens da lista de verificação de Desenvolvimento do Projeto (Parte 1)
-
-![Figura 2 – Itens de Desenvolvimento do Projeto (Parte 1)](../assets/prints_referencias/inspecao-etapa1-desenvolvimento-1.png)
-
-**Fonte:** SALES (2026, p. 8).
-
-**Figura 3** - Itens da lista de verificação de Desenvolvimento do Projeto (Parte 2)
-
-![Figura 3 – Itens de Desenvolvimento do Projeto (Parte 2)](../assets/prints_referencias/inspecao-etapa1-desenvolvimento-2.png)
-
-**Fonte:** SALES (2026, p. 9).
-
-**Figura 4** - Itens da lista de verificação de Conteúdo da Disciplina
-
-![Figura 4 – Itens de Conteúdo da Disciplina](../assets/prints_referencias/inspecao-etapa1-conteudo.png)
-
-**Fonte:** SALES (2026, p. 9).
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
+* SALES, André Barros de. *Plano de Ensino: Interação Humano Computador*. Universidade de Brasília, Faculdade UnB Gama, 2026.

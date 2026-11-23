@@ -1,22 +1,36 @@
-# Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-09)
+## Histórico de Versão e Contribuição
 
-## Histórico de Versão
-
-| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de uso de IA |
+| Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
 | 15/11/2026 | `1.0` | Relato dos resultados da avaliação do protótipo de alta fidelidade da TAR-09 (Pedido de aumento do limite diário do Vale-Transporte), com dois participantes. | [Tomás Rocho](https://github.com/TomasRocho) | [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa) | Claude (Anthropic) - usado para estruturação do texto e formatação Markdown da página, a partir das informações da sessão fornecidas pelo autor |
 
+
 ---
+
+# Relato dos Resultados da Avaliação do Protótipo de Alta Fidelidade (TAR-09)
 
 Neste documento, apresentam-se os resultados da avaliação do protótipo de alta fidelidade da **[TAR-09 (Solicitar Aumento do Limite Diário de Uso do Vale-Transporte)](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)**. A avaliação seguiu o [Planejamento da Avaliação do Protótipo de Alta Fidelidade](../../planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md), e este relato segue a estrutura do [Planejamento do Relato dos Resultados](../../planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md).
 
-Os dados de cada participante foram interpretados primeiro e, depois, consolidados para responder às perguntas da avaliação (Barbosa; Silva, 2010, p. 310–312). Os problemas seriam descritos com o que foi observado, a possível causa e a recomendação (Barbosa; Silva, 2010, p. 342–343). Como nenhum problema foi observado, a seção 7 registra apenas essa conclusão.
+Os dados de cada participante foram interpretados primeiro e, depois, consolidados para responder às perguntas da avaliação (Barbosa et al., 2021, pp. 262–263). Os problemas seriam descritos com o que foi observado, a possível causa e a recomendação (Barbosa et al., 2021, p. 289). Como nenhum problema foi observado, a seção 7 registra apenas essa conclusão.
+
+**Artefatos relacionados — fluxo da funcionalidade TAR-09 (Pedido de Aumento do Limite Diário do Vale-Transporte):**
+
+* **Persona:** [Heitor Santos Júnior](../../../../analise-de-requisitos/personas/heitor-santos-junior.md)
+* **Cenário:** [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md)
+* **Análise de tarefas:** [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md)
+* **Storyboard:** [Storyboard 05](../../../nivel1/storyboards.md#35-storyboard-05-pedido-de-aumento-do-limite-diario-do-vale-transporte)
+* **Nível 1: avaliação do storyboard e da análise de tarefas:** [Planejamento da avaliação](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-avaliacao.md) · [Planejamento do relato](../../../nivel1/planejamentos-individuais/Tomas/tomas-planejamento-relato-resultados-avaliacao.md) · Relato dos resultados (*não realizado*)
+* **Nível 2: protótipo de papel (baixa fidelidade):** [Planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md) · [Planejamento do relato](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-relato-prot-papel.md) · [Relato dos resultados](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md)
+* **Nível 3: protótipo de alta fidelidade:** [Planejamento da avaliação](../../planejamentos-individuais/tomas/tomas-planejamento-av-prot-alta-fidel.md) · [Planejamento do relato](../../planejamentos-individuais/tomas/tomas-planejamento-relato-prot-alta-fidel.md) · Relato dos resultados (*esta página*)
+* **Telas do protótipo de papel:** [telas no planejamento da avaliação](../../../nivel2/planejamentos-individuais/Tomas/tomas-planejamento-av-prototipo-papel.md)
+* **Protótipo de alta fidelidade navegável:** [acessar o protótipo](../../../../prototipos/tar-09/index.html)
+
 
 ---
 
 ## 1. Introdução, Objetivos e Escopo
 
-O protótipo avaliado representa o fluxo **"Meu Vale-Transporte foi recusado"** no site da SEMOB-DF: o passageiro descobre por que o cartão foi recusado na catraca, pede mais passagens por dia pelo celular, recebe um protocolo e acompanha o pedido. É um **protótipo vertical** (Preece; Rogers; Sharp, 2005, p. 266): só o fluxo da TAR-09 funciona; os outros serviços da página inicial existem para não induzir a escolha.
+O protótipo avaliado representa o fluxo **"Meu Vale-Transporte foi recusado"** no site da SEMOB-DF: o passageiro descobre por que o cartão foi recusado na catraca, pede mais passagens por dia pelo celular, recebe um protocolo e acompanha o pedido. É um **protótipo vertical** (Barbosa et al., 2021): só o fluxo da TAR-09 funciona; os outros serviços da página inicial existem para não induzir a escolha.
 
 Os objetivos da avaliação eram:
 
@@ -32,7 +46,7 @@ Os objetivos da avaliação eram:
 ### 1.1 Protótipo avaliado
 
 <div align="center">
-<p><strong>Tabela 1</strong> — Identificação do Protótipo Avaliado</p>
+<p><strong>Tabela 1</strong>: Identificação do Protótipo Avaliado</p>
 </div>
 
 | Item | Detalhamento |
@@ -59,11 +73,11 @@ O protótipo pode ser usado abaixo:
 
 ## 2. Método
 
-* **Método:** teste de usabilidade com observação de uso (Barbosa; Silva, 2010, p. 341), com a técnica de **pensar em voz alta** (*think aloud*) e entrevista curta ao final.
+* **Método:** teste de usabilidade com observação de uso (Barbosa et al., 2021, p. 288), com a técnica de **pensar em voz alta** (*think aloud*) e entrevista curta ao final.
 * **Tarefas:** lidas uma de cada vez, a partir do [Cenário 9](../../../../analise-de-requisitos/cenarios/cenario-9-limite-vale-transporte.md): *"Você trabalha com manutenção e passou o dia indo de prédio em prédio de ônibus. Na volta para casa, o cartão do Vale-Transporte não passou na catraca. Use o site da SEMOB no celular para resolver."*
 
 <div align="center">
-<p><strong>Tabela 2</strong> — Tarefas Avaliadas</p>
+<p><strong>Tabela 2</strong>: Tarefas Avaliadas</p>
 </div>
 
 | ID Tarefa | Enunciado | Critério de Conclusão |
@@ -76,12 +90,12 @@ O protótipo pode ser usado abaixo:
 <p><em>Fonte: Elaborado por Tomás Rocho (2026), a partir do planejamento da avaliação.</em></p>
 </div>
 
-* **Teste piloto:** foi feito um teste piloto antes das sessões, para conferir o protótipo, as tarefas e a gravação. Como prevê o planejamento, os dados do piloto não entram nos resultados (Barbosa; Silva, 2010, p. 306–307).
+* **Teste piloto:** foi feito um teste piloto antes das sessões, para conferir o protótipo, as tarefas e a gravação. Como prevê o planejamento, os dados do piloto não entram nos resultados (Barbosa et al., 2021, pp. 259–260).
 
 ### 2.1 Mudanças em relação ao planejamento
 
 <div align="center">
-<p><strong>Tabela 3</strong> — Diferenças entre o Planejado e o Realizado</p>
+<p><strong>Tabela 3</strong>: Diferenças entre o Planejado e o Realizado</p>
 </div>
 
 | Item | Planejado | Realizado | Efeito nos resultados |
@@ -101,7 +115,7 @@ O protótipo pode ser usado abaixo:
 ## 3. Participantes e Avaliadores
 
 <div align="center">
-<p><strong>Tabela 4</strong> — Participantes, Avaliador e Gravações</p>
+<p><strong>Tabela 4</strong>: Participantes, Avaliador e Gravações</p>
 </div>
 
 | Código | Perfil (sem dados pessoais) | Proximidade com a persona Heitor | Gravação |
@@ -113,7 +127,7 @@ O protótipo pode ser usado abaixo:
 <p><em>Fonte: Elaborado por Tomás Rocho (2026). Avaliador: Tomás Rocho (condutor e observador).</em></p>
 </div>
 
-**Ética:** antes de cada sessão, o participante foi informado do objetivo acadêmico, de que o avaliado era o protótipo e não ele, de que o protótipo não envia pedido nenhum à SEMOB-DF e de que podia parar a qualquer momento. Ele leu e assinou o [TCLE](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf) e autorizou a gravação. Só foram usados dados fictícios, e os participantes aparecem apenas pelos códigos P01 e P02 (Barbosa; Silva, 2010, p. 140–141).
+**Ética:** antes de cada sessão, o participante foi informado do objetivo acadêmico, de que o avaliado era o protótipo e não ele, de que o protótipo não envia pedido nenhum à SEMOB-DF e de que podia parar a qualquer momento. Ele leu e assinou o [TCLE](../../../../assets/PDFs/TCLE_Pesquisa_Transporte.pdf) e autorizou a gravação. Só foram usados dados fictícios, e os participantes aparecem apenas pelos códigos P01 e P02 (Barbosa et al., 2021, pp. 127–128).
 
 As gravações das duas sessões estão abaixo:
 
@@ -132,7 +146,7 @@ As gravações das duas sessões estão abaixo:
 ## 4. Desempenho por Tarefa
 
 <div align="center">
-<p><strong>Tabela 5</strong> — Desempenho de Cada Participante nas Tarefas</p>
+<p><strong>Tabela 5</strong>: Desempenho de Cada Participante nas Tarefas</p>
 </div>
 
 | Participante | Tarefa | Conclusão | Erros | Pedidos de Ajuda | Dificuldades Observadas |
@@ -149,7 +163,7 @@ As gravações das duas sessões estão abaixo:
 </div>
 
 <div align="center">
-<p><strong>Tabela 6</strong> — Resumo das Duas Sessões por Tarefa</p>
+<p><strong>Tabela 6</strong>: Resumo das Duas Sessões por Tarefa</p>
 </div>
 
 | Tarefa | Concluíram sem ajuda | Concluíram com ajuda | Não concluíram | Tempo aproximado | Total de erros | Total de pedidos de ajuda |
@@ -178,7 +192,7 @@ Nos dois casos, o fluxo foi seguido na ordem prevista na [TAR-09](../../../../an
 ## 6. Respostas às Perguntas da Avaliação
 
 <div align="center">
-<p><strong>Tabela 7</strong> — Resultado das Perguntas da Avaliação</p>
+<p><strong>Tabela 7</strong>: Resultado das Perguntas da Avaliação</p>
 </div>
 
 | ID | Pergunta (resumo) | Critério de Aceitação | P01 | P02 | Resultado Geral |
@@ -204,7 +218,7 @@ Nos dois casos, o fluxo foi seguido na ordem prevista na [TAR-09](../../../../an
 ## 7. Problemas de Usabilidade Encontrados
 
 <div align="center">
-<p><strong>Tabela 8</strong> — Problemas de Usabilidade Encontrados</p>
+<p><strong>Tabela 8</strong>: Problemas de Usabilidade Encontrados</p>
 </div>
 
 | ID | O que foi observado | Tela ou Estado | Participantes | Severidade (0–4) | Recomendação |
@@ -222,27 +236,27 @@ Nos dois casos, o fluxo foi seguido na ordem prevista na [TAR-09](../../../../an
 O [Relato do Protótipo de Papel](../../../nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md) também não encontrou problemas de usabilidade, mas deixou quatro pendências. A Tabela 9 mostra o que foi coberto agora.
 
 <div align="center">
-<p><strong>Tabela 9</strong> — Pendências do Protótipo de Papel Verificadas no Protótipo Navegável</p>
+<p><strong>Tabela 9</strong>: Pendências do Protótipo de Papel Verificadas no Protótipo Navegável</p>
 </div>
 
 | Pendência do Nível 2 | O que foi feito no Nível 3 | Situação | Evidência |
 | :---: | :--- | :---: | :--- |
-| **PE-01** — tempo das tarefas não medido | Tempo aproximado de cada tarefa estimado pelo avaliador | **Parcial** | Tabela 6. Os tempos não foram cronometrados por participante. |
-| **PE-02** — estados de documento faltando e "entregar no posto" não usados | Estados E2 e W5 mantidos no protótipo | **Não testada** | Nenhum participante tentou revisar sem a declaração (Q06). |
-| **PE-03** — sem teste piloto | Piloto feito antes das sessões | **Coberta** | Seção 2. |
-| **PE-04** — apenas um participante | Dois participantes | **Parcial** | Tabela 4. Planejados três. |
+| **PE-01**: tempo das tarefas não medido | Tempo aproximado de cada tarefa estimado pelo avaliador | **Parcial** | Tabela 6. Os tempos não foram cronometrados por participante. |
+| **PE-02**: estados de documento faltando e "entregar no posto" não usados | Estados E2 e W5 mantidos no protótipo | **Não testada** | Nenhum participante tentou revisar sem a declaração (Q06). |
+| **PE-03**: sem teste piloto | Piloto feito antes das sessões | **Coberta** | Seção 2. |
+| **PE-04**: apenas um participante | Dois participantes | **Parcial** | Tabela 4. Planejados três. |
 
 <div align="center">
 <p><em>Fonte: Elaborado por Tomás Rocho (2026).</em></p>
 </div>
 
-O resultado se manteve nos dois níveis: o fluxo foi concluído sem ajuda no papel (1 participante) e no protótipo navegável (2 participantes). No papel, o "uso" é conduzido pelo avaliador, que troca as telas (Preece; Rogers; Sharp, 2005, Tabela 8.1, p. 266). Agora os participantes conduziram o uso sozinhos, com campos reais, a foto recusada e a navegação definitiva, e mesmo assim não tiveram dificuldade. Isso reforça que o fluxo proposto na TAR-09 e no [Storyboard 05](../../../nivel1/storyboards.md) é compreensível para o perfil avaliado.
+O resultado se manteve nos dois níveis: o fluxo foi concluído sem ajuda no papel (1 participante) e no protótipo navegável (2 participantes). No papel, o "uso" é conduzido pelo avaliador, que troca as telas (Barbosa et al., 2021). Agora os participantes conduziram o uso sozinhos, com campos reais, a foto recusada e a navegação definitiva, e mesmo assim não tiveram dificuldade. Isso reforça que o fluxo proposto na TAR-09 e no [Storyboard 05](../../../nivel1/storyboards.md) é compreensível para o perfil avaliado.
 
 ---
 
 ## 9. Limitações dos Resultados
 
-* **Dois participantes:** abaixo dos três planejados e da referência de cinco citada por Barbosa e Silva (2010, p. 305). Problemas que só aparecem com menos frequência podem não ter sido encontrados.
+* **Dois participantes:** abaixo dos três planejados e da referência de cinco citada por Barbosa et al. (2021, p. 258). Problemas que só aparecem com menos frequência podem não ter sido encontrados.
 * **Avaliador único:** a mesma pessoa conduziu e observou. Hesitações curtas podem não ter sido anotadas na hora; as gravações permitem revisá-las.
 * **Tempos aproximados:** os tempos da Tabela 6 são estimativas e não permitem comparar os participantes entre si.
 * **Estados não testados:** o aviso de declaração faltando (E2) não apareceu em nenhuma sessão, e o caminho "Prefiro entregar no posto" (W5) não fez parte do caminho dos participantes até a conclusão das tarefas.
@@ -257,7 +271,7 @@ O resultado se manteve nos dois níveis: o fluxo foi concluído sem ajuda no pap
 Como nenhum problema foi encontrado, **não há correção obrigatória** no protótipo, na TAR-09, no Storyboard 05 nem no Guia de Estilo.
 
 <div align="center">
-<p><strong>Tabela 10</strong> — Plano de Reprojeto</p>
+<p><strong>Tabela 10</strong>: Plano de Reprojeto</p>
 </div>
 
 | Item | Ação | Artefato | Prioridade | Responsável |
@@ -283,47 +297,157 @@ Somado ao resultado do protótipo de papel, isso indica que a solução proposta
 
 ## 12. Evidências do Livro
 
-As figuras abaixo mostram os trechos grifados de Barbosa e Silva (2010) usados para interpretar, consolidar e relatar os resultados.
+As figuras abaixo mostram os trechos grifados de Barbosa et al. (2021) usados para interpretar, consolidar e relatar os resultados.
 
 <div align="center" id="figura-1">
-<p><strong>Figura 1</strong> — Interpretação dos dados de cada participante (p. 310).</p>
-<img src="../../../../../assets/prints_referencias/ihc-barbosa-silva-p310-grifada.svg" alt="Página 310 do livro sobre interpretação intraparticipante" width="580">
-<p><em>Fonte: Barbosa e Silva (2010, p. 310).</em></p>
+<p><strong>Figura 1</strong>: Interpretação dos dados de cada participante (p. 262).</p>
+<img src="../../../../../assets/prints_referencias/verificacao-v2/livro-interpretacao.png" alt="11.7.4 Interpretação dos dados de cada participante (BARBOSA et al., 2021, p. 262)" width="760">
+<p><em>Fonte: BARBOSA et al. (2021, p. 262).</em></p>
 </div>
 
 <div align="center" id="figura-2">
-<p><strong>Figura 2</strong> — Consolidação entre participantes (p. 311).</p>
-<img src="../../../../../assets/prints_referencias/ihc-barbosa-silva-p311-grifada.svg" alt="Página 311 do livro sobre consolidação interparticipante" width="580">
-<p><em>Fonte: Barbosa e Silva (2010, p. 311).</em></p>
+<p><strong>Figura 2</strong>: Consolidação entre participantes (p. 263).</p>
+<img src="../../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png" alt="11.7.5 Consolidação e relato dos resultados (BARBOSA et al., 2021, p. 263)" width="760">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div align="center" id="figura-3">
-<p><strong>Figura 3</strong> — Cautela na generalização e itens do relato (p. 312).</p>
-<img src="../../../../../assets/prints_referencias/ihc-barbosa-silva-p312-grifada.svg" alt="Página 312 do livro sobre generalização e relato dos resultados" width="580">
-<p><em>Fonte: Barbosa e Silva (2010, p. 312).</em></p>
+<p><strong>Figura 3</strong>: Cautela na generalização e itens do relato (p. 263).</p>
+<img src="../../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png" alt="11.7.5 Consolidação e relato dos resultados (BARBOSA et al., 2021, p. 263)" width="760">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 <div align="center" id="figura-4">
-<p><strong>Figura 4</strong> — Dados coletados no teste de usabilidade (p. 342).</p>
-<img src="../../../../../assets/prints_referencias/ihc-barbosa-silva-p342-grifada.svg" alt="Página 342 do livro com os dados coletados em teste de usabilidade" width="580">
-<p><em>Fonte: Barbosa e Silva (2010, p. 342).</em></p>
+<p><strong>Figura 4</strong>: Dados coletados no teste de usabilidade (p. 289).</p>
+<img src="../../../../../assets/prints_referencias/verificacao-v2/livro-teste-usab-dados.png" alt="12.2.1 Dados coletados por tarefa no teste de usabilidade (sucesso, erros, tempo, ajuda) (BARBOSA et al., 2021, p. 289)" width="760">
+<p><em>Fonte: BARBOSA et al. (2021, p. 289).</em></p>
+</div>
+
+
+## 13. Telas do Protótipo Avaliado
+
+As Figuras 5 a 14 mostram as telas do protótipo de alta fidelidade da [TAR-09](../../../../analise-de-requisitos/analise-de-tarefas/tar-09-limite-vale-transporte.md).
+
+* **Protótipo navegável:** [Acessar o protótipo da TAR-09](../../../../prototipos/tar-09/index.html)
+
+<div id="figura-5" align="center" markdown="1">
+<p><strong>Figura 5</strong>: Página inicial com o Acesso Rápido e o botão "Meu Vale-Transporte foi recusado"</p>
+
+![Página inicial com o Acesso Rápido e o botão 'Meu Vale-Transporte foi recusado'](../../../../assets/images/prototipo-tar09/tomas-alta-01.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Tomás Rocho (2026). Captura de tela do protótipo navegável.</em></p>
+</div>
+
+<div id="figura-6" align="center" markdown="1">
+<p><strong>Figura 6</strong>: Consulta do cartão pelo número ("Meu Vale-Transporte foi recusado")</p>
+
+![Consulta do cartão pelo número ('Meu Vale-Transporte foi recusado')](../../../../assets/images/prototipo-tar09/tomas-alta-02.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Tomás Rocho (2026). Captura de tela do protótipo navegável.</em></p>
+</div>
+
+<div id="figura-7" align="center" markdown="1">
+<p><strong>Figura 7</strong>: Motivo da recusa: limite de 8 passagens por dia</p>
+
+![Motivo da recusa: limite de 8 passagens por dia](../../../../assets/images/prototipo-tar09/tomas-alta-03.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Tomás Rocho (2026). Captura de tela do protótipo navegável.</em></p>
+</div>
+
+<div id="figura-8" align="center" markdown="1">
+<p><strong>Figura 8</strong>: Entregar no posto: locais de atendimento e documentos</p>
+
+![Entregar no posto: locais de atendimento e documentos](../../../../assets/images/prototipo-tar09/tomas-alta-04.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Tomás Rocho (2026). Captura de tela do protótipo navegável.</em></p>
+</div>
+
+<div id="figura-9" align="center" markdown="1">
+<p><strong>Figura 9</strong>: Pedir mais passagens — Passo 1 de 3: Sua rotina</p>
+
+![Pedir mais passagens — Passo 1 de 3: Sua rotina](../../../../assets/images/prototipo-tar09/tomas-alta-05.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Tomás Rocho (2026). Captura de tela do protótipo navegável.</em></p>
+</div>
+
+<div id="figura-10" align="center" markdown="1">
+<p><strong>Figura 10</strong>: Pedir mais passagens — Passo 2 de 3: Fotos dos documentos</p>
+
+![Pedir mais passagens — Passo 2 de 3: Fotos dos documentos](../../../../assets/images/prototipo-tar09/tomas-alta-06.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Tomás Rocho (2026). Captura de tela do protótipo navegável.</em></p>
+</div>
+
+<div id="figura-11" align="center" markdown="1">
+<p><strong>Figura 11</strong>: Pedir mais passagens — Passo 3 de 3: Declaração do RH</p>
+
+![Pedir mais passagens — Passo 3 de 3: Declaração do RH](../../../../assets/images/prototipo-tar09/tomas-alta-07.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Tomás Rocho (2026). Captura de tela do protótipo navegável.</em></p>
+</div>
+
+<div id="figura-12" align="center" markdown="1">
+<p><strong>Figura 12</strong>: Confira seu pedido</p>
+
+![Confira seu pedido](../../../../assets/images/prototipo-tar09/tomas-alta-08.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Tomás Rocho (2026). Captura de tela do protótipo navegável.</em></p>
+</div>
+
+<div id="figura-13" align="center" markdown="1">
+<p><strong>Figura 13</strong>: Pedido enviado, com o número do protocolo</p>
+
+![Pedido enviado, com o número do protocolo](../../../../assets/images/prototipo-tar09/tomas-alta-09.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Tomás Rocho (2026). Captura de tela do protótipo navegável.</em></p>
+</div>
+
+<div id="figura-14" align="center" markdown="1">
+<p><strong>Figura 14</strong>: Acompanhar pedido</p>
+
+![Acompanhar pedido](../../../../assets/images/prototipo-tar09/tomas-alta-10.png){ width="300" }
+
+<p><em>Fonte: Elaborado por Tomás Rocho (2026). Captura de tela do protótipo navegável.</em></p>
+</div>
+
+---
+---
+
+## 14. Fotos de Referência
+As Figuras 15 a 17 mostram os trechos que fundamentam este artefato, recortados e grifados em amarelo diretamente do livro da disciplina (BARBOSA et al., 2021).
+
+<div id="figura-15" align="center">
+<p><strong>Figura 15</strong>: Representação de interface em alta fidelidade</p>
+</div>
+
+![Figura 15: Representação de interface em alta fidelidade](../../../../assets/prints_referencias/verificacao-v2/livro-alta-fidelidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 210).</em></p>
+</div>
+
+<div id="figura-16" align="center">
+<p><strong>Figura 16</strong>: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa</p>
+</div>
+
+![Figura 16: 12.2.1 Teste de usabilidade: objetivo, atividades e medidas por tarefa](../../../../assets/prints_referencias/verificacao-v2/livro-teste-usabilidade.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, pp. 288–289).</em></p>
+</div>
+
+<div id="figura-17" align="center">
+<p><strong>Figura 17</strong>: 11.7.5 Consolidação e relato dos resultados</p>
+</div>
+
+![Figura 17: 11.7.5 Consolidação e relato dos resultados](../../../../assets/prints_referencias/verificacao-v2/livro-consolidacao-relato.png)
+
+<div align="center">
+<p><em>Fonte: BARBOSA et al. (2021, p. 263).</em></p>
 </div>
 
 ---
 
-## 13. Declaração sobre o Uso de IA Generativa
-
-Em cumprimento às normas do Plano de Ensino da disciplina, declara-se que o Claude (Anthropic) foi usado para auxiliar na estruturação do texto e na formatação das tabelas em Markdown, a partir das informações das sessões fornecidas pelo integrante. A condução das sessões, os resultados e a revisão final são de responsabilidade do integrante Tomás Rocho.
-
----
-
-## 14. Referências Bibliográficas
-
-* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da. **Interação Humano-Computador**. Rio de Janeiro: Elsevier/Campus, 2010. Seção 5.4, p. 140–141; seções 9.7–9.8, p. 303–313; seção 10.2.1, p. 341–343.
-* NIELSEN, Jakob. **Usability Engineering**. San Diego: Academic Press, 1994.
-* PREECE, Jennifer; ROGERS, Yvonne; SHARP, Helen. **Design de Interação: além da interação homem-computador**. Porto Alegre: Bookman, 2005. Cap. 8, p. 259–297.
+## 15. Referências Bibliográficas
+* BARBOSA, Simone Diniz Junqueira; SILVA, Bruno Santana da; SILVEIRA, Milene Selbach; GASPARINI, Isabela; DARIN, Ticianne; BARBOSA, Gabriel Diniz Junqueira. **Interação Humano-Computador e Experiência do Usuário**. Rio de Janeiro: Autopublicação, 2021. ISBN 978-65-00-19677-1.
 * SALES, André Barros de. **Plano de Ensino: Interação Humano Computador**. Brasília: Universidade de Brasília, FCTE/UnB, 2026.
-
----
-**Autor:** [Tomás Rocho](https://github.com/TomasRocho)  
-**Revisor:** [Rodrigo Carvalho](https://github.com/RodrigoCBarbosa)

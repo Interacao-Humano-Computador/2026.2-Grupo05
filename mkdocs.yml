@@ -89,11 +89,9 @@ extra:
       link: https://github.com/Interacao-Humano-Computador/2026.2-Grupo05
       name: Repositório do grupo no GitHub
 
-not_in_nav: |
-  contribuicoes/index.md
-
 nav:
   - Inicial: index.md
+  - Contribuições: contribuicoes/index.md
 
   - Gravações:
     - Apresentações: apresentacoes/index.md
@@ -185,6 +183,7 @@ nav:
       - Projeto para Erros: analise-de-requisitos/principios-gerais/projeto-para-erros.md
 
   - Design, Avaliação e Desenvolvimento:
+    - Visão geral: design-avaliacao-desenvolvimento/index.md
     - Nível 1:
       - StoryBoards: design-avaliacao-desenvolvimento/nivel1/storyboards.md
       - Planejamento e protocolo do Teste Piloto: design-avaliacao-desenvolvimento/nivel1/planejamento-e-protocolo-do-teste-piloto.md
@@ -223,6 +222,7 @@ nav:
         - Rodrigo:
           - Resultados da avaliação do storyboard e da análise de tarefa: design-avaliacao-desenvolvimento/nivel1/relatos-individuais/rodrigo/relato-resultados-storyboard-tarefas.md
     - Nível 2:
+      - Teste-piloto: design-avaliacao-desenvolvimento/nivel2/teste-piloto.md
       - Planejamentos individuais:
         - Arthur:
           - Planejamento da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-papel.md
@@ -261,6 +261,7 @@ nav:
         - Tomás:
           - Resultados da avaliação do protótipo de papel: design-avaliacao-desenvolvimento/nivel2/relatos-individuais/tomas/relato-resultados-prot-papel.md
     - Nível 3:
+      - Teste-piloto: design-avaliacao-desenvolvimento/nivel3/teste-piloto.md
       - Planejamentos individuais:
         - Arthur:
           - Planejamento da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/planejamentos-individuais/Arthur/arthur-planejamento-avaliacao-prototipo-alta-fidelidade.md
@@ -300,11 +301,17 @@ nav:
           - Resultados da avaliação do protótipo de alta fidelidade: design-avaliacao-desenvolvimento/nivel3/relatos-individuais/rodrigo/relato-resultados-prot-alta-fidel.md
 
   - Verificação: 
-    - Verificação da entrega 1: verificacao/verif1.md
-    - Verificação da entrega 2: verificacao/verif2.md
-    - Verificação da entrega 3: verificacao/verif3.md
-    - Verificação da entrega 5: verificacao/verif5.md
-    - Verificação da Entrega 6: verificacao/verif6.md
-    - Verificação da Entrega 7: verificacao/verif7.md
+    - Visão geral: verificacao/index.md
+    - Alterações: verificacao/alteracoes.md
+    - Versão atual (2.0):
+      - Verificação da Entrega 1: verificacao/v2/verif1.md
+      - Verificação da Entrega 2: verificacao/v2/verif2.md
+      - Verificação da Entrega 3: verificacao/v2/verif3.md
+      - Verificação da Entrega 4: verificacao/v2/verif4.md
+      - Verificação da Entrega 5: verificacao/v2/verif5.md
+      - Verificação da Entrega 6: verificacao/v2/verif6.md
+      - Verificação da Entrega 7: verificacao/v2/verif7.md
 
-  - Entrega Final: entrega-final/index.md
+  - Entrega Final:
+    - Visão geral: entrega-final/index.md
+    - Relato da inspeção geral: entrega-final/inspecao-geral.md
