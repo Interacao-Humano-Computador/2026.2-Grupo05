@@ -29,7 +29,7 @@ A inspeção geral foi conduzida por entrega, comparando os artefatos publicados
 | **Incompleto** | O critério foi atendido apenas em parte ou não foi atendido de maneira uniforme pelos artefatos da entrega. | Completar ou padronizar os artefatos antes da nova verificação. |
 
 <div align="center">
-<p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 </div>
 
 A inspeção contou com a participação dos três integrantes designados para a atividade, conforme detalhado na **Tabela 2**.
@@ -45,7 +45,7 @@ A inspeção contou com a participação dos três integrantes designados para a
 | [Igor Dantas](https://github.com/IgorDARAUJO) | Inspetor e revisor | 23/11/2026, às 22h |
 
 <div align="center">
-<p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir da sessão de inspeção realizada em 23/11/2026.</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 </div>
 
 Como critério de consolidação, nas fases com múltiplos artefatos correlatos, quando parte dos documentos atende ao critério e ao menos um apresenta lacuna, o resultado foi registrado como **Incompleto**. Para facilitar a leitura, faixas contíguas de critérios com a mesma classificação e a mesma causa (como `G1–G15` e `G21–G30` na Entrega 2, ou `G8–G14` e `G15–G21` na Entrega 6) aparecem agrupadas nas tabelas de achados com a indicação da quantidade de itens entre parênteses, sendo cada critério contabilizado individualmente nos totais quantitativos.
@@ -60,12 +60,8 @@ O registro audiovisual da inspeção geral do Grupo 03 está disponível em [You
 
 <div align="center">
 <p><strong>Vídeo 1</strong>: Gravação da inspeção geral dos artefatos do Grupo 03.</p>
-<p><em>Fonte: Grupo 05 (2026).</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 </div>
-
-<!-- Espaço reservado para adicionar gravação complementar ou links adicionais da inspeção do Grupo 03 -->
-!!! info "Espaço para adição de registro complementar"
-    Espaço reservado para inclusão de link ou gravação complementar referente à inspeção do Grupo 03, caso necessário.
 
 ## 3. Visão geral dos resultados
 
@@ -76,7 +72,7 @@ Foram registradas **114 ocorrências**: **88 não conformidades (77,2%)** e **26
 ![Gráfico de distribuição das ocorrências da inspeção geral do Grupo 03](../assets/images/inspecoes/inspecao-geral-grupo03-distribuicao.svg)
 
 <p><strong>Gráfico 1</strong>: Distribuição das ocorrências classificadas na inspeção geral do Grupo 03.</p>
-<p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir dos resultados consolidados da inspeção.</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 
 </div>
 
@@ -87,7 +83,7 @@ A distribuição das ocorrências ao longo das sete entregas pode ser visualizad
 ![Gráfico de ocorrências por entrega — Grupo 03](../assets/images/inspecoes/inspecao-geral-grupo03-por-entrega.svg)
 
 <p><strong>Gráfico 2</strong>: Quantidade de ocorrências não conformes e incompletas por entrega do Grupo 03.</p>
-<p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir dos resultados consolidados da inspeção.</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 
 </div>
 
@@ -107,7 +103,7 @@ A distribuição das ocorrências ao longo das sete entregas pode ser visualizad
 | **Total** | **88** | **26** | **114** |
 
 <div align="center">
-<p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir dos resultados consolidados da inspeção.</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 </div>
 
 ## 4. Achados por entrega
@@ -133,7 +129,7 @@ Os achados identificados na inspeção dos artefatos da Entrega 1 estão consoli
 | [G5](../verificacao/v2/verif1.md) | Não conforme | O Processo de Design não relaciona as entregas do projeto aos três níveis de design de Mayhew. | Explicitar o vínculo entre as entregas e os três níveis de design previstos no processo adotado. |
 | [G6](../verificacao/v2/verif1.md) | Não conforme | O Processo de Design não prevê ciclos de avaliação e reprojeto até o alcance das metas de usabilidade. | Documentar os ciclos iterativos de avaliação e reprojeto com registro das decisões de design. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 1.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 4.2 Entrega 2
 
@@ -157,7 +153,7 @@ Os achados identificados na inspeção dos artefatos da Entrega 2 estão consoli
 | [G21–G25](../verificacao/v2/verif2.md) *(5 critérios)* | Não conforme | Os aspectos éticos de pesquisa envolvendo pessoas (assinatura do TCLE, anonimato, autonomia, prevenção de viés e beneficência) não foram efetivados, pois as entrevistas não foram realizadas. | Aplicar o TCLE e garantir a execução dos procedimentos éticos durante a realização das entrevistas. |
 | [G26–G30](../verificacao/v2/verif2.md) *(5 critérios)* | Não conforme | A técnica de entrevista (roteiro, perguntas abertas/fechadas, estruturação, aplicação individual e treinamento do entrevistador) não foi aplicada, pois as entrevistas não foram realizadas. | Planejar, preparar o roteiro e conduzir as entrevistas conforme os critérios metodológicos definidos. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 2.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 4.3 Entrega 3
 
@@ -174,7 +170,7 @@ Os achados identificados na inspeção dos artefatos da Entrega 3 estão consoli
 | [C14](../verificacao/v2/verif3.md) | Não conforme | Não é apresentada a razão da seleção das metas de usabilidade definidas para o projeto. | Justificar a escolha de cada meta de usabilidade com base no contexto e nos usuários do projeto. |
 | [C15](../verificacao/v2/verif3.md) | Incompleto | O Guia de Estilo está incompleto quanto à documentação, referência bibliográfica e foto da fonte. | Completar a estrutura do Guia de Estilo e incluir referência e recorte da fonte. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 3.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 4.4 Entrega 4
 
@@ -201,7 +197,7 @@ Os achados identificados na inspeção dos artefatos da Entrega 4 estão consoli
 | [G23](../verificacao/v2/verif4.md) | Não conforme | O planejamento não define o perfil e a quantidade de participantes com justificativa. | Definir perfil, quantidade de participantes e justificativa metodológica. |
 | [G25](../verificacao/v2/verif4.md) | Não conforme | O planejamento não especifica os limites de duração previstos para as tarefas e para a sessão completa. | Estabelecer o tempo estimado por tarefa e a duração total da sessão. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 4.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 4.5 Entrega 5
 
@@ -230,7 +226,7 @@ Os achados identificados na inspeção dos artefatos da Entrega 5 estão consoli
 | [G18](../verificacao/v2/verif5.md) | Incompleto | O sumário dos dados coletados no relato está incompleto quanto ao uso de tabelas ou gráficos. | Consolidar o sumário quantitativo e qualitativo dos dados com tabelas ou gráficos. |
 | [G23](../verificacao/v2/verif5.md) | Não conforme | O relato não compara o desempenho e as falas dos participantes com os caminhos previstos nos modelos de tarefa. | Comparar os resultados observados com os caminhos modelados (HTA, CTT ou GOMS). |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 5.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 4.6 Entrega 6
 
@@ -249,7 +245,7 @@ Os achados identificados na inspeção dos artefatos da Entrega 6 estão consoli
 | [G8–G14](../verificacao/v2/verif6.md) *(7 critérios)* | Não conforme | O planejamento do relato da avaliação do protótipo de alta fidelidade não contempla os itens requeridos (objetivos/escopo/método, participantes/avaliadores, resumo por tarefa, interpretação, consolidação, lista de problemas e limitações/reprojeto). | Elaborar e publicar integralmente o planejamento do relato da avaliação do protótipo de alta fidelidade. |
 | [G15–G21](../verificacao/v2/verif6.md) *(7 critérios)* | Não conforme | O relato dos resultados da avaliação do protótipo de papel não atende aos itens verificados (objetivos/método, avaliadores/participantes, tarefas, problemas corrigidos, problemas não corrigidos com prioridade, sugestões e anotações de observação). | Publicar ou completar integralmente o relato dos resultados da avaliação do protótipo de papel. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 6.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 4.7 Entrega 7
 
@@ -269,7 +265,7 @@ Os achados identificados na inspeção dos artefatos da Entrega 7 estão consoli
 | [G11](../verificacao/v2/verif7.md) | Não conforme | O relato não compara os resultados da alta fidelidade com os obtidos na avaliação do protótipo de papel. | Incluir comparação explícita entre os problemas resolvidos e pendentes desde o protótipo de papel. |
 | [G15](../verificacao/v2/verif7.md) | Não conforme | O relato não verifica o atingimento das metas de usabilidade definidas na Entrega 3 frente às faixas inaceitável, aceitável e ideal. | Comparar os indicadores medidos na avaliação com as faixas definidas nas metas de usabilidade. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 7.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ## 5. Prioridades de correção
 
@@ -287,7 +283,7 @@ Os achados evidenciam cinco frentes principais de correção para o Grupo 03, pr
 | 4 | Relato de alta fidelidade e metas de usabilidade | E7 G5–G6, G8, G10–G11, G15 | Fecha o ciclo avaliativo comparando o protótipo de alta fidelidade ao de papel e às metas da Entrega 3. |
 | 5 | Planejamento, Processo de Design e Guia de Estilo | E1 PG3–PG4, C1, G2, G5–G6; E3 C13–C15 | Consolida a base conceitual do projeto, o cronograma planejado e as diretrizes do Guia de Estilo. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir da recorrência e do impacto dos critérios inspecionados.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ## 6. Encaminhamentos para nova verificação
 
