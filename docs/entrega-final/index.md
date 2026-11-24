@@ -1,4 +1,4 @@
-﻿## Histórico de Versão e Contribuição
+## Histórico de Versão e Contribuição
 
 | Data | Versão | Descrição | Autor(es) | Revisor(es) | Declaração de Uso de IA |
 | :---: | :---: | :--- | :--- | :--- | :--- |
@@ -13,6 +13,7 @@ Esta página consolida os registros disponíveis para a entrega final:
 - [Inspeções das entregas](../inspecoes/index.md);
 - [Listas de verificação padronizadas](../verificacao/index.md);
 - [Relato consolidado da inspeção geral](inspecao-geral.md);
+- [Relato consolidado da inspeção geral do Grupo 03](inspecao-geral-grupo03.md);
 - [Design, avaliação e desenvolvimento](../design-avaliacao-desenvolvimento/index.md).
 
 ---

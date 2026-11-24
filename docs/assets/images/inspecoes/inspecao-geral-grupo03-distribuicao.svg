@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="360" viewBox="0 0 900 360" role="img" aria-labelledby="title desc">
+  <title id="title">Distribuição das ocorrências da inspeção geral do Grupo 03</title>
+  <desc id="desc">Das 114 ocorrências, 88 são não conformidades, equivalentes a 77,2 por cento, e 26 são itens incompletos, equivalentes a 22,8 por cento.</desc>
+  <style>text{font-family:Arial,sans-serif;fill:#102033}.big{font-size:42px;font-weight:bold}.label{font-size:20px}.small{font-size:16px}.nc{fill:#155e95}.inc{fill:#e8b80e}</style>
+  <rect width="900" height="360" fill="#fff"/>
+  <text x="450" y="38" text-anchor="middle" font-size="22" font-weight="bold">Distribuição das ocorrências registradas — Grupo 03</text>
+  <circle cx="260" cy="190" r="105" fill="none" stroke="#e8b80e" stroke-width="48"/>
+  <path d="M260 85 A105 105 0 1 1 156.00 175.58" fill="none" stroke="#155e95" stroke-width="48"/>
+  <text class="big" x="260" y="185" text-anchor="middle">114</text><text class="small" x="260" y="212" text-anchor="middle">ocorrências</text>
+  <rect class="nc" x="470" y="112" width="26" height="26" rx="2"/><text class="label" x="510" y="133">Não conforme: 88 (77,2%)</text>
+  <text class="small" x="510" y="158">Critério não atendido; requer correção integral.</text>
+  <rect class="inc" x="470" y="212" width="26" height="26" rx="2"/><text class="label" x="510" y="233">Incompleto: 26 (22,8%)</text>
+  <text class="small" x="510" y="258">Atendimento parcial ou ausência de padronização uniforme.</text>
+</svg>

@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Ocorrências por entrega — Grupo 03</title>
+  <desc id="desc">Gráfico de barras agrupadas. Há 88 não conformidades e 26 itens incompletos nas entregas 1 a 7 do Grupo 03.</desc>
+  <style>text{font-family:Arial,sans-serif;fill:#102033}.label{font-size:15px}.axis{stroke:#687078;stroke-width:1}.grid{stroke:#d5deea;stroke-width:1}.nc{fill:#155e95}.inc{fill:#e8b80e}.legend{font-size:14px}</style>
+  <rect width="900" height="430" fill="#fff"/>
+  <text x="450" y="32" text-anchor="middle" font-size="21" font-weight="bold">Ocorrências por entrega — Grupo 03</text>
+  <line class="axis" x1="100" y1="360" x2="850" y2="360"/>
+  <line class="axis" x1="100" y1="70" x2="100" y2="360"/>
+  <g class="grid">
+    <line x1="100" y1="318.6" x2="850" y2="318.6"/>
+    <line x1="100" y1="277.1" x2="850" y2="277.1"/>
+    <line x1="100" y1="235.7" x2="850" y2="235.7"/>
+    <line x1="100" y1="194.3" x2="850" y2="194.3"/>
+    <line x1="100" y1="152.9" x2="850" y2="152.9"/>
+    <line x1="100" y1="111.4" x2="850" y2="111.4"/>
+    <line x1="100" y1="70" x2="850" y2="70"/>
+  </g>
+  <g class="label" text-anchor="end">
+    <text x="90" y="365">0</text>
+    <text x="90" y="323.6">5</text>
+    <text x="90" y="282.1">10</text>
+    <text x="90" y="240.7">15</text>
+    <text x="90" y="199.3">20</text>
+    <text x="90" y="157.9">25</text>
+    <text x="90" y="116.4">30</text>
+    <text x="90" y="75">35</text>
+  </g>
+  <g class="label" text-anchor="middle">
+    <text x="155" y="387">Entrega 1</text>
+    <text x="260" y="387">Entrega 2</text>
+    <text x="365" y="387">Entrega 3</text>
+    <text x="470" y="387">Entrega 4</text>
+    <text x="575" y="387">Entrega 5</text>
+    <text x="680" y="387">Entrega 6</text>
+    <text x="785" y="387">Entrega 7</text>
+  </g>
+  <g class="nc">
+    <rect x="125" y="318.6" width="25" height="41.4"/>
+    <rect x="230" y="86.6" width="25" height="273.4"/>
+    <rect x="335" y="335.1" width="25" height="24.9"/>
+    <rect x="440" y="235.7" width="25" height="124.3"/>
+    <rect x="545" y="277.1" width="25" height="82.9"/>
+    <rect x="650" y="219.1" width="25" height="140.9"/>
+    <rect x="755" y="318.6" width="25" height="41.4"/>
+  </g>
+  <g class="inc">
+    <rect x="155" y="318.6" width="25" height="41.4"/>
+    <rect x="260" y="343.4" width="25" height="16.6"/>
+    <rect x="365" y="335.1" width="25" height="24.9"/>
+    <rect x="470" y="351.7" width="25" height="8.3"/>
+    <rect x="575" y="293.7" width="25" height="66.3"/>
+    <rect x="680" y="335.1" width="25" height="24.9"/>
+    <rect x="785" y="326.9" width="25" height="33.1"/>
+  </g>
+  <g class="label" text-anchor="middle" font-weight="bold">
+    <text x="137.5" y="310.6">5</text>
+    <text x="167.5" y="310.6">5</text>
+    <text x="242.5" y="78.6">33</text>
+    <text x="272.5" y="335.4">2</text>
+    <text x="347.5" y="327.1">3</text>
+    <text x="377.5" y="327.1">3</text>
+    <text x="452.5" y="227.7">15</text>
+    <text x="482.5" y="343.7">1</text>
+    <text x="557.5" y="269.1">10</text>
+    <text x="587.5" y="285.7">8</text>
+    <text x="662.5" y="211.1">17</text>
+    <text x="692.5" y="327.1">3</text>
+    <text x="767.5" y="310.6">5</text>
+    <text x="797.5" y="318.9">4</text>
+  </g>
+  <rect class="nc" x="325" y="45" width="16" height="16"/><text class="legend" x="348" y="58">Não conforme</text>
+  <rect class="inc" x="490" y="45" width="16" height="16"/><text class="legend" x="513" y="58">Incompleto</text>
+</svg>
