@@ -24,7 +24,7 @@ A inspeção geral foi conduzida por entrega, comparando os artefatos publicados
 | **Incompleto** | O critério foi atendido apenas em parte ou não foi atendido de maneira uniforme pelos artefatos da entrega. | Completar ou padronizar os artefatos antes da nova verificação. |
 
 <div align="center" markdown="1">
-<p><em>Fonte: elaborado pelo Grupo 05 (2026).</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 </div>
 
 Como o grupo possui sete integrantes, algumas fases contêm sete artefatos correlatos. Nesses casos, quando parte dos artefatos atende ao critério e pelo menos um não atende, o resultado consolidado foi registrado como **Incompleto**. Esta decisão evita transformar a conformidade de seis artefatos em uma afirmação indevida de conformidade da entrega inteira.
@@ -46,7 +46,7 @@ Fagan (1976) organiza a inspeção em planejamento, visão geral, preparação, 
 | Inspetores | [Gabriel Melo](https://github.com/gabriellcardone-06); [Igor Dantas](https://github.com/IgorDARAUJO); [Lucas Araújo](https://github.com/Lucasaraujoszz); [Tomás Garcia](https://github.com/TomasRocho) | Examinar os artefatos, identificar desvios dos critérios e participar da consolidação dos resultados. |
 
 <div align="center">
-<p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir da distribuição de funções declarada pelos participantes.</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 </div>
 
 <div align="center">
@@ -62,7 +62,7 @@ Fagan (1976) organiza a inspeção em planejamento, visão geral, preparação, 
 | Acompanhamento | Verificar se as correções foram implementadas corretamente. | A reaplicação dos critérios registrados na seção 6 foi definida como próxima verificação. |
 
 <div align="center">
-<p><em>Fonte: adaptado de Fagan (1976).</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 </div>
 
 ### 2.2 Gravação da inspeção geral
@@ -75,7 +75,7 @@ O registro audiovisual da inspeção geral está disponível em [YouTube: Inspe�
 
 <div align="center">
 <p><strong>Vídeo 1</strong>: Gravação da inspeção geral dos artefatos do Grupo 05.</p>
-<p><em>Fonte: Grupo 05 (2026).</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 </div>
 
 Não foi produzida rastreabilidade por artefato individual neste relato. Para isso, seria necessário rever as gravações e conferir cada artefato um a um, o que não integra o conjunto de evidências desta consolidação. Portanto, os resultados devem ser lidos como uma visão agregada por entrega e critério, e não como atribuição de problema a uma pessoa ou documento específico.
@@ -89,7 +89,7 @@ Foram registradas **20 ocorrências**: 12 não conformidades (60%) e 8 itens inc
 ![Gráfico de distribuição das ocorrências da inspeção geral](../assets/images/inspecoes/inspecao-geral-distribuicao.svg)
 
 <p><strong>Gráfico 1</strong>: Distribuição das ocorrências classificadas na inspeção geral.</p>
-<p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir dos resultados consolidados da inspeção.</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 
 </div>
 
@@ -98,7 +98,7 @@ Foram registradas **20 ocorrências**: 12 não conformidades (60%) e 8 itens inc
 ![Gráfico de ocorrências por entrega](../assets/images/inspecoes/inspecao-geral-por-entrega.svg)
 
 <p><strong>Gráfico 2</strong>: Quantidade de ocorrências não conformes e incompletas por entrega.</p>
-<p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir dos resultados consolidados da inspeção.</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 
 </div>
 
@@ -118,7 +118,7 @@ Foram registradas **20 ocorrências**: 12 não conformidades (60%) e 8 itens inc
 | **Total** | **12** | **8** | **20** |
 
 <div align="center">
-<p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir dos resultados consolidados da inspeção.</em></p>
+<p><em>Fonte: Elaborado por Inteligência Artificial.</em></p>
 </div>
 
 ## 4. Achados por entrega
@@ -133,7 +133,7 @@ Foram registradas **20 ocorrências**: 12 não conformidades (60%) e 8 itens inc
 | :---: | :---: | :--- | :--- |
 | [G3](../verificacao/v2/verif1.md) | Incompleto | A comparação dos sites não considera integralmente a experiência do usuário: estilo da interface, estrutura das tarefas, terminologia e qualidade de uso. | Completar a comparação com evidências para todos os aspectos de experiência do usuário previstos no critério. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 1.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 4.2 Entrega 2
 
@@ -143,7 +143,7 @@ Foram registradas **20 ocorrências**: 12 não conformidades (60%) e 8 itens inc
 | :---: | :---: | :--- | :--- |
 | [D4](../verificacao/v2/verif2.md) | Não conforme | Há tabelas e/ou imagens sem legenda, fonte ou chamada correspondente no texto. | Revisar os artefatos e garantir legenda, fonte e referência textual para cada tabela e imagem. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 2.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 4.3 Entrega 3
 
@@ -155,7 +155,7 @@ Foram registradas **20 ocorrências**: 12 não conformidades (60%) e 8 itens inc
 | [C17](../verificacao/v2/verif3.md) | Incompleto | O Guia de Estilo não demonstra integralmente correspondência com o site avaliado; o conteúdo e a evidência precisam de ajuste. | Corrigir o conteúdo e inserir evidências que conectem as diretrizes ao site da SEMOB-DF. |
 | [G1](../verificacao/v2/verif3.md) | Não conforme | O critério de simplificação da estrutura das tarefas não foi atendido. | Revisar o artefato e evidenciar como as tarefas são simplificadas, apoiadas ou tornam informações relevantes visíveis. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 3.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 4.4 Entrega 4
 
@@ -169,7 +169,7 @@ Foram registradas **20 ocorrências**: 12 não conformidades (60%) e 8 itens inc
 
 **Observação:** o item G6 foi considerado conforme, embora sua redação necessite correção. Como não constitui não conformidade do artefato, essa revisão textual não integra a contagem de ocorrências.
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 4.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 4.5 Entrega 5
 
@@ -180,7 +180,7 @@ Foram registradas **20 ocorrências**: 12 não conformidades (60%) e 8 itens inc
 | [D4](../verificacao/v2/verif5.md) | Não conforme | Há tabelas e/ou imagens sem legenda, fonte ou chamada no texto. | Padronizar todos os elementos visuais e suas referências textuais. |
 | [D6](../verificacao/v2/verif5.md) | Não conforme | O cronograma executado não registra integralmente responsáveis e datas de início e fim das atividades. | Atualizar o cronograma executado com responsáveis e datas de realização. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 5.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 4.6 Entrega 6
 
@@ -192,7 +192,7 @@ Foram registradas **20 ocorrências**: 12 não conformidades (60%) e 8 itens inc
 | [D6](../verificacao/v2/verif6.md) | Não conforme | O cronograma executado não registra integralmente responsáveis e datas de início e fim das atividades. | Atualizar o cronograma executado com responsáveis e datas de realização. |
 | [G7](../verificacao/v2/verif6.md) | Incompleto | O planejamento não comprova integralmente consentimento, anonimato, participação voluntária e autorização para gravações. | Completar a documentação ética e tornar explícitos os quatro elementos exigidos. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 6.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 4.7 Entrega 7
 
@@ -208,7 +208,7 @@ Foram registradas **20 ocorrências**: 12 não conformidades (60%) e 8 itens inc
 | [G6](../verificacao/v2/verif7.md) | Incompleto | O relato não informa integralmente quantidade, perfil dos participantes e quem atuou como avaliador. | Completar a caracterização dos participantes e os papéis na avaliação. |
 | [G7](../verificacao/v2/verif7.md) | Não conforme | O relato não registra as mudanças em relação ao planejamento e seus efeitos. | Documentar alterações de datas, participantes, papéis ou medições e seus impactos nos resultados. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), com base na Lista de Verificação da Entrega 7.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ## 5. Prioridades de correção
 
@@ -226,7 +226,7 @@ As ocorrências mostram três frentes de correção. A primeira é transversal: 
 | 4 | Protótipo de alta fidelidade | E7 G1 e G3 | Permite avaliação autônoma e aderente ao Guia de Estilo. |
 | 5 | Comparação de sites | E1 G3 | Completa a justificativa de experiência do usuário na escolha do site. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir da recorrência e do impacto dos critérios inspecionados.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ### 5.1 Cronograma de retrabalho
 
@@ -245,7 +245,7 @@ O cronograma abaixo operacionaliza o retrabalho previsto na inspeção de Fagan.
 | 27/11 | Revisar os artefatos corrigidos e consolidar as evidências. | Todos os critérios registrados neste relato. | Moderador, relator e inspetores. | Registro atualizado das correções e das evidências consultadas. |
 | 28/11 | Realizar o acompanhamento da inspeção de Fagan. | Todos os critérios registrados neste relato. | Moderador, relator, inspetores e autores dos artefatos. | Reaplicação dos critérios e encerramento ou abertura de pendências remanescentes. |
 
-<div align="center"><p><em>Fonte: elaborado pelo Grupo 05 (2026), a partir dos achados e do método de Fagan.</em></p></div>
+<div align="center"><p><em>Fonte: Elaborado por Inteligência Artificial.</em></p></div>
 
 ## 6. Próxima verificação
 
