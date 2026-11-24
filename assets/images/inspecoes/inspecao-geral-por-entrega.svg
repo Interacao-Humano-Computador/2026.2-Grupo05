@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="430" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Ocorrências da inspeção geral por entrega</title>
+  <desc id="desc">Gráfico de barras agrupadas. Há 12 não conformidades e 8 itens incompletos nas entregas 1 a 7.</desc>
+  <style>text{font-family:Arial,sans-serif;fill:#102033}.label{font-size:15px}.axis{stroke:#687078;stroke-width:1}.grid{stroke:#d5deea;stroke-width:1}.nc{fill:#155e95}.inc{fill:#e8b80e}.legend{font-size:14px}</style>
+  <rect width="900" height="430" fill="#fff"/>
+  <text x="450" y="32" text-anchor="middle" font-size="21" font-weight="bold">Ocorrências por entrega</text>
+  <line class="axis" x1="100" y1="360" x2="850" y2="360"/>
+  <line class="axis" x1="100" y1="70" x2="100" y2="360"/>
+  <g class="grid"><line x1="100" y1="287.5" x2="850" y2="287.5"/><line x1="100" y1="215" x2="850" y2="215"/><line x1="100" y1="142.5" x2="850" y2="142.5"/><line x1="100" y1="70" x2="850" y2="70"/></g>
+  <g class="label" text-anchor="end"><text x="90" y="365">0</text><text x="90" y="292">1</text><text x="90" y="220">2</text><text x="90" y="147">3</text><text x="90" y="75">4</text></g>
+  <g class="label" text-anchor="middle"><text x="155" y="387">Entrega 1</text><text x="260" y="387">Entrega 2</text><text x="365" y="387">Entrega 3</text><text x="470" y="387">Entrega 4</text><text x="575" y="387">Entrega 5</text><text x="680" y="387">Entrega 6</text><text x="785" y="387">Entrega 7</text></g>
+  <g class="nc"><rect x="125" y="360" width="25" height="0"/><rect x="230" y="287.5" width="25" height="72.5"/><rect x="335" y="215" width="25" height="145"/><rect x="440" y="215" width="25" height="145"/><rect x="545" y="215" width="25" height="145"/><rect x="650" y="215" width="25" height="145"/><rect x="755" y="142.5" width="25" height="217.5"/></g>
+  <g class="inc"><rect x="155" y="287.5" width="25" height="72.5"/><rect x="260" y="360" width="25" height="0"/><rect x="365" y="287.5" width="25" height="72.5"/><rect x="470" y="287.5" width="25" height="72.5"/><rect x="575" y="360" width="25" height="0"/><rect x="680" y="287.5" width="25" height="72.5"/><rect x="785" y="70" width="25" height="290"/></g>
+  <g class="label" text-anchor="middle" font-weight="bold"><text x="138" y="350">0</text><text x="168" y="278">1</text><text x="243" y="278">1</text><text x="348" y="205">2</text><text x="378" y="278">1</text><text x="453" y="205">2</text><text x="483" y="278">1</text><text x="558" y="205">2</text><text x="663" y="205">2</text><text x="693" y="278">1</text><text x="768" y="133">3</text><text x="798" y="61">4</text></g>
+  <rect class="nc" x="325" y="45" width="16" height="16"/><text class="legend" x="348" y="58">Não conforme</text><rect class="inc" x="490" y="45" width="16" height="16"/><text class="legend" x="513" y="58">Incompleto</text>
+</svg>

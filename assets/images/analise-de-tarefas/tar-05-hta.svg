@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1389 322" width="1389" height="322" role="img" aria-label="Receber e processar alerta de trânsito">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<rect x="554.1" y="20.0" width="280.8" height="50.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="694.5" y="41.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">0. Receber e processar alerta de trânsito</text>
+<text x="694.5" y="57.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">1&gt;2&gt;(3/4)</text>
+<line x1="694.5" y1="70.0" x2="694.5" y2="90.7" stroke="#555555" stroke-width="1.3"/>
+<line x1="176.8" y1="90.7" x2="1220.5" y2="90.7" stroke="#555555" stroke-width="1.3"/>
+<line x1="176.8" y1="90.7" x2="176.8" y2="108.0" stroke="#555555" stroke-width="1.3"/>
+<polygon points="171.8,107.0 181.8,107.0 176.8,116.0" fill="#555555"/>
+<rect x="95.6" y="116.0" width="162.5" height="66.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="176.8" y="137.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">1. Perceber sinal de</text>
+<text x="176.8" y="153.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">notificação prioritária</text>
+<text x="176.8" y="169.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">1+2</text>
+<line x1="176.8" y1="182.0" x2="176.8" y2="202.7" stroke="#555555" stroke-width="1.3"/>
+<line x1="88.2" y1="202.7" x2="254.1" y2="202.7" stroke="#555555" stroke-width="1.3"/>
+<line x1="88.2" y1="202.7" x2="88.2" y2="220.0" stroke="#555555" stroke-width="1.3"/>
+<polygon points="83.2,219.0 93.2,219.0 88.2,228.0" fill="#555555"/>
+<rect x="20.0" y="228.0" width="136.4" height="66.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="88.2" y="257.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">1.1. Escutar sinal</text>
+<text x="88.2" y="273.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">sonoro de trânsito</text>
+<line x1="20.0" y1="299.0" x2="156.4" y2="299.0" stroke="#333333" stroke-width="1.2"/>
+<line x1="254.1" y1="202.7" x2="254.1" y2="220.0" stroke="#555555" stroke-width="1.3"/>
+<polygon points="249.1,219.0 259.1,219.0 254.1,228.0" fill="#555555"/>
+<rect x="174.4" y="228.0" width="159.2" height="66.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="254.1" y="257.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">1.2. Visualizar cartão</text>
+<text x="254.1" y="273.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">no suporte</text>
+<line x1="174.4" y1="299.0" x2="333.6" y2="299.0" stroke="#333333" stroke-width="1.2"/>
+<line x1="523.1" y1="90.7" x2="523.1" y2="108.0" stroke="#555555" stroke-width="1.3"/>
+<polygon points="518.1,107.0 528.1,107.0 523.1,116.0" fill="#555555"/>
+<rect x="426.3" y="116.0" width="193.7" height="66.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="523.1" y="137.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">2. Interpretar instruções e</text>
+<text x="523.1" y="153.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">respaldo legal</text>
+<text x="523.1" y="169.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">1&gt;2</text>
+<line x1="523.1" y1="182.0" x2="523.1" y2="202.7" stroke="#555555" stroke-width="1.3"/>
+<line x1="434.8" y1="202.7" x2="615.3" y2="202.7" stroke="#555555" stroke-width="1.3"/>
+<line x1="434.8" y1="202.7" x2="434.8" y2="220.0" stroke="#555555" stroke-width="1.3"/>
+<polygon points="429.8,219.0 439.8,219.0 434.8,228.0" fill="#555555"/>
+<rect x="351.6" y="228.0" width="166.4" height="66.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="434.8" y="257.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">2.1. Ler resumo visual</text>
+<text x="434.8" y="273.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">da ocorrência</text>
+<line x1="351.6" y1="299.0" x2="518.0" y2="299.0" stroke="#333333" stroke-width="1.2"/>
+<line x1="615.3" y1="202.7" x2="615.3" y2="220.0" stroke="#555555" stroke-width="1.3"/>
+<polygon points="610.3,219.0 620.3,219.0 615.3,228.0" fill="#555555"/>
+<rect x="536.0" y="228.0" width="158.6" height="66.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="615.3" y="257.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">2.2. Checar liberação</text>
+<text x="615.3" y="273.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">e isenção de multas</text>
+<line x1="536.0" y1="299.0" x2="694.5" y2="299.0" stroke="#333333" stroke-width="1.2"/>
+<line x1="883.3" y1="90.7" x2="883.3" y2="108.0" stroke="#555555" stroke-width="1.3"/>
+<polygon points="878.3,107.0 888.3,107.0 883.3,116.0" fill="#555555"/>
+<rect x="786.2" y="116.0" width="194.3" height="66.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="883.3" y="137.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">3. Executar rota alternativa</text>
+<text x="883.3" y="153.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">homologada</text>
+<text x="883.3" y="169.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">1&gt;2</text>
+<line x1="883.3" y1="182.0" x2="883.3" y2="202.7" stroke="#555555" stroke-width="1.3"/>
+<line x1="793.4" y1="202.7" x2="973.2" y2="202.7" stroke="#555555" stroke-width="1.3"/>
+<line x1="793.4" y1="202.7" x2="793.4" y2="220.0" stroke="#555555" stroke-width="1.3"/>
+<polygon points="788.4,219.0 798.4,219.0 793.4,228.0" fill="#555555"/>
+<rect x="712.5" y="228.0" width="161.8" height="66.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="793.4" y="257.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">3.1. Seguir mapa</text>
+<text x="793.4" y="273.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">esquemático de desvio</text>
+<line x1="712.5" y1="299.0" x2="874.4" y2="299.0" stroke="#333333" stroke-width="1.2"/>
+<line x1="973.2" y1="202.7" x2="973.2" y2="220.0" stroke="#555555" stroke-width="1.3"/>
+<polygon points="968.2,219.0 978.2,219.0 973.2,228.0" fill="#555555"/>
+<rect x="892.4" y="228.0" width="161.8" height="66.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="973.2" y="257.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">3.2. Retornar à rota</text>
+<text x="973.2" y="273.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">principal pós-bloqueio</text>
+<line x1="892.4" y1="299.0" x2="1054.2" y2="299.0" stroke="#333333" stroke-width="1.2"/>
+<line x1="1220.5" y1="90.7" x2="1220.5" y2="108.0" stroke="#555555" stroke-width="1.3"/>
+<polygon points="1215.5,107.0 1225.5,107.0 1220.5,116.0" fill="#555555"/>
+<rect x="1124.0" y="116.0" width="193.0" height="66.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="1220.5" y="137.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">4. Repassar orientação aos</text>
+<text x="1220.5" y="153.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">passageiros</text>
+<text x="1220.5" y="169.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">1&gt;2</text>
+<line x1="1220.5" y1="182.0" x2="1220.5" y2="202.7" stroke="#555555" stroke-width="1.3"/>
+<line x1="1138.1" y1="202.7" x2="1295.5" y2="202.7" stroke="#555555" stroke-width="1.3"/>
+<line x1="1138.1" y1="202.7" x2="1138.1" y2="220.0" stroke="#555555" stroke-width="1.3"/>
+<polygon points="1133.1,219.0 1143.1,219.0 1138.1,228.0" fill="#555555"/>
+<rect x="1072.2" y="228.0" width="131.9" height="66.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="1138.1" y="257.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">4.1. Identificar</text>
+<text x="1138.1" y="273.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">paradas afetadas</text>
+<line x1="1072.2" y1="299.0" x2="1204.1" y2="299.0" stroke="#333333" stroke-width="1.2"/>
+<line x1="1295.5" y1="202.7" x2="1295.5" y2="220.0" stroke="#555555" stroke-width="1.3"/>
+<polygon points="1290.5,219.0 1300.5,219.0 1295.5,228.0" fill="#555555"/>
+<rect x="1222.1" y="228.0" width="146.9" height="66.0" fill="#ffffff" stroke="#333333" stroke-width="1.2"/>
+<text x="1295.5" y="249.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">4.2. Avisar</text>
+<text x="1295.5" y="265.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">verbalmente parada</text>
+<text x="1295.5" y="281.0" font-family="Arial, Helvetica, sans-serif" font-size="13" text-anchor="middle" fill="#222222">alternativa</text>
+<line x1="1222.1" y1="299.0" x2="1368.9" y2="299.0" stroke="#333333" stroke-width="1.2"/>
+</svg>
